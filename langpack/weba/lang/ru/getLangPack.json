@@ -155,6 +155,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ActionAddedToCommunity",
+      "value": "{from} добавил(а) этот чат в {community}"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ActionAttachMenuBotAllowed",
       "value": "Вы разрешили этому боту писать Вам, добавив его в меню вложений."
     },
@@ -760,6 +765,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ActionRemovedFromCommunity",
+      "value": "{from} удалил(а) чат из сообщества"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ActionRemovedPhoto",
       "value": "{from} удалил(а) фотографию группы"
     },
@@ -1197,6 +1207,36 @@
       "_": "types.LangPackString",
       "key": "ActionSuggestedVideoTitle",
       "value": "Предложенное видео"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ActionTTLChanged",
+      "value": "{from} включил(а) автоудаление сообщений через {time}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ActionTTLChannelChanged",
+      "value": "Сообщения в этом канале будут автоматически удаляться через {time}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ActionTTLChannelDisabled",
+      "value": "Сообщения в этом канале больше не будут автоматически удаляться"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ActionTTLDisabled",
+      "value": "{from} отключил(а) удаление по таймеру"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ActionTTLYouChanged",
+      "value": "Вы включили автоудаление сообщений через {time}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ActionTTLYouDisabled",
+      "value": "Вы отключили удаление по таймеру"
     },
     {
       "_": "types.LangPackString",
@@ -2255,6 +2295,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AudioAddToProfile",
+      "value": "Добавить в профиль"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AudioPause",
       "value": "Пауза"
     },
@@ -2277,6 +2322,21 @@
       "_": "types.LangPackString",
       "key": "AudioPlayerPrevious",
       "value": "Предыдущий трек"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AudioRemoveFromProfile",
+      "value": "Убрать из профиля"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AudioSaveToMyProfileSaved",
+      "value": "Аудиофайл добавлен в профиль."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AudioSaveToMyProfileUnsaved",
+      "value": "Аудиофайл удалён из профиля."
     },
     {
       "_": "types.LangPackString",
@@ -2327,6 +2387,36 @@
       "_": "types.LangPackString",
       "key": "AutoDeleteConfirm",
       "value": "Подтвердить"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AutoDeleteGlobalAction",
+      "value": "{from} включил(а) автоудаление по таймеру во всех своих чатах.\nВсе новые сообщения в этом чате будут удаляться через {time} после отправки."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AutoDeleteGlobalActionFromYou",
+      "value": "Вы включили автоудаление по таймеру во всех своих чатах.\nВсе новые сообщения в этом чате будут удаляться через {time} после отправки."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AutoDeleteIn",
+      "value": "Автоудаление через {time}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AutoDeleteMessages",
+      "value": "Автоудаление сообщений"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AutoDeleteSetInfo",
+      "value": "Сообщения в этом чате автоматически\nудаляются по таймеру ({time})"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AutoDeleteSettingsInfo",
+      "value": "Автоматически удалять сообщения спустя указанное время у всех участников во всех чатах, созданных после включения настройки."
     },
     {
       "_": "types.LangPackString",
@@ -3699,6 +3789,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ChatTypeCommunity",
+      "value": "Сообщество"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ChatTypeFallback",
       "value": "Чат"
     },
@@ -3933,6 +4028,67 @@
       "_": "types.LangPackString",
       "key": "CommonSelect",
       "value": "Выбрать"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CommunityChatNotAccessible",
+      "value": "Этот чат недоступен."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "{count} чата",
+      "key": "CommunityChatsCount",
+      "many_value": "{count} чатов",
+      "one_value": "{count} чат",
+      "other_value": "{count} чата"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CommunityChatsYouAreIn",
+      "value": "Чаты, в которых Вы состоите"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CommunityChatsYouCanJoin",
+      "value": "Чаты с заявками на вступление"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CommunityChatsYouCanView",
+      "value": "Чаты, доступные для просмотра"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CommunityJoinChatConfirm",
+      "value": "Присоединиться к чату?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CommunityNoChatsFound",
+      "value": "Чаты не найдены"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CommunitySearchChats",
+      "value": "Поиск чатов"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CommunityShowAsOneChat",
+      "value": "Отображать вместе"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CommunityShowAsOneChatHint",
+      "value": "Отображать в списке чатов только сообщество, а не отдельные чаты в его составе."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Сообщество с {count} чатами",
+      "key": "CommunityWithChats",
+      "many_value": "Сообщество с {count} чатами",
+      "one_value": "Сообщество с {count} чатом",
+      "other_value": "Сообщество с {count} чатов"
     },
     {
       "_": "types.LangPackString",
@@ -5253,6 +5409,26 @@
       "_": "types.LangPackString",
       "key": "EnterPriceInStars",
       "value": "Укажите цену в звёздах"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EphemeralContextMenuNotice",
+      "value": "Это сообщение видите только Вы. Оно исчезнет после перезапуска приложения."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EphemeralOnlyVisible",
+      "value": "Видите только Вы"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EphemeralOnlyVisibleToBot",
+      "value": "Видит только {bot}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EphemeralReplyUnavailable",
+      "value": "Сообщение больше не доступно"
     },
     {
       "_": "types.LangPackString",
@@ -7999,6 +8175,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "JoinRequestAcceptAll",
+      "value": "Добавить все"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "JoinRequestAcceptAllDescription",
       "value": "Вы точно хотите принять все заявки?"
     },
@@ -8006,6 +8187,11 @@
       "_": "types.LangPackString",
       "key": "JoinRequestAcceptAllTitle",
       "value": "Принять все заявки?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "JoinRequestDismissAll",
+      "value": "Отклонить все"
     },
     {
       "_": "types.LangPackString",
@@ -10640,6 +10826,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PremiumPreviewRichFormatting",
+      "value": "Расширенное форматирование"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PremiumPreviewRichFormattingDescription",
+      "value": "Заголовки, таблицы, ИИ-тексты и вставка медиафайлов в сообщениях."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PremiumPreviewStickers",
       "value": "Эксклюзивные стикеры"
     },
@@ -11748,6 +11944,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "RichEditorFormula",
+      "value": "Формула"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "RichEditorHeading",
       "value": "Заголовок"
     },
@@ -12606,8 +12807,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "SetAutoDeleteTimer",
+      "value": "Включить удаление по таймеру"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "SetColor",
       "value": "Задать цвет"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SetCustomTime",
+      "value": "Выбрать другой срок"
     },
     {
       "_": "types.LangPackString",
@@ -15348,5 +15559,5 @@
       "value": "Ваше имя"
     }
   ],
-  "version": 284894
+  "version": 285929
 }

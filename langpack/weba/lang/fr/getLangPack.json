@@ -155,6 +155,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ActionAddedToCommunity",
+      "value": "{from} a ajouté cet échange à {community}"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ActionAttachMenuBotAllowed",
       "value": "Vous avez autorisé ce bot à vous contacter lorsque vous l'avez ajouté à votre menu de pièces jointes."
     },
@@ -730,6 +735,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ActionRemovedFromCommunity",
+      "value": "{from} a supprimé cet échange de la communauté"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ActionRemovedPhoto",
       "value": "{from} a supprimé la photo du groupe"
     },
@@ -1167,6 +1177,36 @@
       "_": "types.LangPackString",
       "key": "ActionSuggestedVideoTitle",
       "value": "Vidéo suggérée"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ActionTTLChanged",
+      "value": "{from} a activé l'autosuppression des messages après {time}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ActionTTLChannelChanged",
+      "value": "Les messages de ce canal seront supprimés automatiquement après {time}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ActionTTLChannelDisabled",
+      "value": "Les messages de ce canal ne seront plus supprimés automatiquement."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ActionTTLDisabled",
+      "value": "{from} a désactivé le délai d'autosuppression"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ActionTTLYouChanged",
+      "value": "Vous avez activé l'autosuppression des messages après {time}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ActionTTLYouDisabled",
+      "value": "Vous avez désactivé le délai d'autosuppression"
     },
     {
       "_": "types.LangPackString",
@@ -2205,6 +2245,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AudioAddToProfile",
+      "value": "Ajouter au profil"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AudioPause",
       "value": "Mettre en pause l'audio"
     },
@@ -2227,6 +2272,21 @@
       "_": "types.LangPackString",
       "key": "AudioPlayerPrevious",
       "value": "Musique précédente"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AudioRemoveFromProfile",
+      "value": "Supprimer du profil"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AudioSaveToMyProfileSaved",
+      "value": "Audio ajouté à votre profil."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AudioSaveToMyProfileUnsaved",
+      "value": "Audio supprimé de votre profil."
     },
     {
       "_": "types.LangPackString",
@@ -2275,8 +2335,73 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AutoDeleteBadgeDays",
+      "value": "j"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AutoDeleteBadgeHours",
+      "value": "h"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AutoDeleteBadgeMinutes",
+      "value": "m"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AutoDeleteBadgeMonths",
+      "value": "m"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AutoDeleteBadgeSeconds",
+      "value": "s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AutoDeleteBadgeWeeks",
+      "value": "s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AutoDeleteBadgeYears",
+      "value": "a"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AutoDeleteConfirm",
       "value": "Confirmer"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AutoDeleteGlobalAction",
+      "value": "{from} utilise l'autosuppression pour tous ses échanges.\nTous les nouveaux messages de cet échange seront automatiquement supprimés {time} après leur envoi."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AutoDeleteGlobalActionFromYou",
+      "value": "Vous avez paramétré l'autosuppression pour tous vos échanges.\nTous les nouveaux messages de cet échange seront automatiquement supprimés {time} après leur envoi."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AutoDeleteIn",
+      "value": "Autosuppression dans {time}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AutoDeleteMessages",
+      "value": "Autosuppression des messages"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AutoDeleteSetInfo",
+      "value": "Les messages de cet échange seront supprimés\nautomatiquement {time} après leur envoi."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AutoDeleteSettingsInfo",
+      "value": "Supprimer automatiquement les messages de tout le monde après un certain temps dans tous les nouveaux échanges que vous démarrez."
     },
     {
       "_": "types.LangPackString",
@@ -3633,6 +3758,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ChatTypeCommunity",
+      "value": "Communauté"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ChatTypeFallback",
       "value": "Échange"
     },
@@ -3859,6 +3989,68 @@
       "_": "types.LangPackString",
       "key": "CommonSelect",
       "value": "Sélect."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CommunityChatNotAccessible",
+      "value": "Cet échange n'est pas accessible."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "CommunityChatsCount",
+      "one_value": "{count} échange",
+      "other_value": "{count} échanges"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CommunityChatsYouAreIn",
+      "value": "Échanges auquel vous participez"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CommunityChatsYouCanJoin",
+      "value": "Les échange que vous pouvez demander à rejoindre"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CommunityChatsYouCanView",
+      "value": "Échanges que vous pouvez voir"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CommunityJoinChatConfirm",
+      "value": "Voulez-vous rejoindre cet échange ?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CommunityNoChatsFound",
+      "value": "Aucun échange trouvé"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CommunityOpenPanel",
+      "value": "Afficher les échanges de la communauté"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CommunitySearchChats",
+      "value": "Rechercher des échanges"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CommunityShowAsOneChat",
+      "value": "Afficher comme un seul échange"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CommunityShowAsOneChatHint",
+      "value": "Regrouper tous les échanges communautaires en un seul élément dans la liste des échanges."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "CommunityWithChats",
+      "one_value": "Communauté avec {count} échange",
+      "other_value": "Communauté avec {count} échanges"
     },
     {
       "_": "types.LangPackString",
@@ -4266,6 +4458,21 @@
       "_": "types.LangPackString",
       "key": "Copy",
       "value": "Copier"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CopyAsHtml",
+      "value": "Copier comme HTML"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CopyAsMarkdown",
+      "value": "Copier comme Markdown"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CopyAsText",
+      "value": "Copier comme texte"
     },
     {
       "_": "types.LangPackString",
@@ -5159,6 +5366,26 @@
       "_": "types.LangPackString",
       "key": "EnterPriceInStars",
       "value": "Entrez le prix en étoiles"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EphemeralContextMenuNotice",
+      "value": "Vous seul pouvez voir ce message. Il disparaîtra à votre prochaine connexion."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EphemeralOnlyVisible",
+      "value": "Visible uniquement par vous"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EphemeralOnlyVisibleToBot",
+      "value": "Visible uniquement par {bot}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EphemeralReplyUnavailable",
+      "value": "Le message n'est plus disponible"
     },
     {
       "_": "types.LangPackString",
@@ -7803,6 +8030,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "JoinRequestAcceptAll",
+      "value": "Tout ajouter"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "JoinRequestAcceptAllDescription",
       "value": "Êtes-vous sûr de vouloir accepter toutes les demandes ?"
     },
@@ -7810,6 +8042,11 @@
       "_": "types.LangPackString",
       "key": "JoinRequestAcceptAllTitle",
       "value": "Accepter toutes les demandes ?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "JoinRequestDismissAll",
+      "value": "Tout refuser"
     },
     {
       "_": "types.LangPackString",
@@ -10370,6 +10607,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PremiumPreviewRichFormatting",
+      "value": "Outils de mise en forme"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PremiumPreviewRichFormattingDescription",
+      "value": "Formatez vos messages à l'aide de titres, de listes, de citations et d'autres éléments enrichis."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PremiumPreviewStickers",
       "value": "Autocollants Premium"
     },
@@ -11456,6 +11703,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "RichEditorFormula",
+      "value": "Équation"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichEditorFormulaPrompt",
+      "value": "Saisissez l'équation..."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "RichEditorHeading",
       "value": "Titre"
     },
@@ -12302,8 +12559,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "SetAutoDeleteTimer",
+      "value": "Définir le délai"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "SetColor",
       "value": "Définir une couleur"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SetCustomTime",
+      "value": "Définir une durée personnalisée"
     },
     {
       "_": "types.LangPackString",
@@ -15012,5 +15279,5 @@
       "value": "Votre nom"
     }
   ],
-  "version": 284894
+  "version": 285930
 }
