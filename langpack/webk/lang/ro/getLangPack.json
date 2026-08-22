@@ -335,12 +335,12 @@
     {
       "_": "types.LangPackString",
       "key": "ActionTTLDisabled",
-      "value": "un1 a dezactivat contorul de ștergere auto."
+      "value": "un1 a dezactivat contorul ștergerii automate"
     },
     {
       "_": "types.LangPackString",
       "key": "ActionTTLYouChanged",
-      "value": "Ai setat mesajele să se șteargă auto. în %1$s"
+      "value": "Ai setat mesajele să se șteargă auto. după %1$s"
     },
     {
       "_": "types.LangPackString",
@@ -4349,6 +4349,11 @@
       "_": "types.LangPackString",
       "key": "ChannelAutotranslation",
       "value": "Traducere Auto. Mesaje"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChannelAutotranslation.BoostDescription",
+      "value": "Canalul trebuie să ajungă la **Nivelul %d** pentru a activa traducerea automată a mesajelor."
     },
     {
       "_": "types.LangPackString",
@@ -10171,6 +10176,61 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "GroupEmojiPack",
+      "value": "Pachet Emoji de Grup"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GroupEmojiPack.BoostDescription",
+      "value": "Grupul tău necesită **Nivelul %d** pentru a seta un pachet de emojiuri."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GroupEmojiPack.BoostTitle",
+      "value": "Activează pachet emoji"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GroupEmojiPack.CreateInfo",
+      "value": "Poți crea pachetele tale personalizate de emoji folosind robotul [@stickers]()."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GroupEmojiPack.LevelMin",
+      "value": "Grupul tău necesită Nivelul %d pentru a seta un pachet de emojiuri. [Oferă boost grupului]()."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GroupEmojiPack.LinkInfo",
+      "value": "Toți membrii vor putea folosi aceste emojiuri în grup, chiar dacă nu au Telegram Premium."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GroupEmojiPack.LinkPlaceholder",
+      "value": "Link pachet emojiuri"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GroupEmojiPack.MyPacks",
+      "value": "Pachetele mele de emojiuri"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GroupEmojiPack.Remove",
+      "value": "Elimină Pachet Emoji de Grup"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GroupEmojiPack.Removed",
+      "value": "Pachet emoji de grup eliminat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GroupEmojiPack.Updated",
+      "value": "Pachet emoji de grup actualizat"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "GroupEmptyTitle1",
       "value": "Ai creat un **grup**."
     },
@@ -10238,6 +10298,51 @@
       "_": "types.LangPackString",
       "key": "GroupStickers",
       "value": "Stickerele Grupului"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GroupStickers.CreateInfo",
+      "value": "Îți poți crea propriul set de stickere personalizat folosind robotul [@stickers]()."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GroupStickers.LinkInfo",
+      "value": "Poți alege un set de stickere care va fi disponibil pentru toți membrii grupului."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GroupStickers.LinkPlaceholder",
+      "value": "Link set stickere"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GroupStickers.MySets",
+      "value": "Seturile mele de stickere"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GroupStickers.NotFound",
+      "value": "Set stickere negăsit."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GroupStickers.Remove",
+      "value": "Elimină Set Stickere de Grup"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GroupStickers.Removed",
+      "value": "Set stickere de grup eliminat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GroupStickers.SectionInfo",
+      "value": "Poți alege un set de stickere care va fi disponibil pentru toți membrii când sunt în grup."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GroupStickers.Updated",
+      "value": "Set stickere de grup actualizat"
     },
     {
       "_": "types.LangPackString",
@@ -16904,7 +17009,7 @@
     {
       "_": "types.LangPackString",
       "key": "RevenueSharingAdsInfo1Subtitle",
-      "value": "Reclamele pe Telegram nu folosesc informațiile tale personale și sunt bazate pe canalul în care le vezi."
+      "value": "Nu folosim conținutul conversațiilor tale private sau lista ta de contacte pentru reclame sau alte scopuri comerciale."
     },
     {
       "_": "types.LangPackString",
@@ -16934,7 +17039,7 @@
     {
       "_": "types.LangPackString",
       "key": "RevenueSharingAdsInfo4Subtitle2",
-      "value": "Oricine poate crea o reclamă pentru a fi afișată în acest canal – cu bugete minime. Verifică **Platforma Telegram Ad** pentru detalii. %1$s"
+      "value": "Oricine poate posta reclame pe Telegram — cu bugete minime. Verifică **Platforma Telegram Ad** pentru detalii. %1$s"
     },
     {
       "_": "types.LangPackString",
@@ -22721,5 +22826,5 @@
       "other_value": "%1$d de mesaje"
     }
   ],
-  "version": 332109
+  "version": 332327
 }
