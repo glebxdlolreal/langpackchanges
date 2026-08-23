@@ -528,7 +528,7 @@
     {
       "_": "types.LangPackString",
       "key": "AccDescrCloseTrendingStickers",
-      "value": "Stäng trendande dekaler"
+      "value": "Stäng populära dekaler"
     },
     {
       "_": "types.LangPackString",
@@ -698,7 +698,7 @@
     {
       "_": "types.LangPackString",
       "key": "AccDescrIVFormula",
-      "value": "Formula"
+      "value": "Formel"
     },
     {
       "_": "types.LangPackString",
@@ -1919,6 +1919,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ActionJoinedFromCommunityUser",
+      "value": "un2 gick med i gruppen via un1 communityt"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ActionJoinedFromCommunityYou",
+      "value": "Du gick med i gruppen via un1 communityt"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ActionJoinedFromCommunityYouChannel",
+      "value": "Du gick med i kanalen via un1 communityt"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ActionKickUser",
       "value": "un1 tog bort un2"
     },
@@ -2239,12 +2254,12 @@
     {
       "_": "types.LangPackString",
       "key": "ActionTTLChannelChanged",
-      "value": "Meddelande på denna kanal kommer att autoraderas efter %1$s"
+      "value": "Meddelanden i denna kanal kommer att autoraderas efter %1$s"
     },
     {
       "_": "types.LangPackString",
       "key": "ActionTTLChannelDisabled",
-      "value": "Meddelande på denna kanal kommer inte längre att autoraderas. "
+      "value": "Meddelande i denna kanal kommer inte längre att autoraderas. "
     },
     {
       "_": "types.LangPackString",
@@ -4811,7 +4826,7 @@
     {
       "_": "types.LangPackString",
       "key": "ArticleListTodo",
-      "value": "Att-göra"
+      "value": "Checklista"
     },
     {
       "_": "types.LangPackString",
@@ -5467,7 +5482,7 @@
     {
       "_": "types.LangPackString",
       "key": "AutoDeleteAlertTitle",
-      "value": "Meddelanden med autoradering"
+      "value": "Autoradering av meddelanden"
     },
     {
       "_": "types.LangPackString",
@@ -17425,6 +17440,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "EditAdminBotChannelSendWelcomeMessages",
+      "value": "Skicka välkomstmeddelanden"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EditAdminBotGroupSendWelcomeMessages",
+      "value": "Skicka välkomstmeddelanden"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "EditAdminCantEdit",
       "value": "Du kan inte ändra denne administratörs behörigheter."
     },
@@ -17602,6 +17627,11 @@
       "_": "types.LangPackString",
       "key": "EditAdminTransferSetPassword",
       "value": "Ställ in lösenord"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EditAdminUserManageWelcomeMessages",
+      "value": "Hantera välkomstmeddelanden"
     },
     {
       "_": "types.LangPackString",
@@ -19905,7 +19935,7 @@
     {
       "_": "types.LangPackString",
       "key": "FeaturedStickers",
-      "value": "Trendiga dekaler"
+      "value": "Populära dekaler"
     },
     {
       "_": "types.LangPackString",
@@ -19915,7 +19945,7 @@
     {
       "_": "types.LangPackString",
       "key": "FeaturedStickersPremium",
-      "value": "Trendiga premiumdekaler"
+      "value": "Populära premiumdekaler"
     },
     {
       "_": "types.LangPackString",
@@ -24430,6 +24460,41 @@
       "value": "Låst gåva"
     },
     {
+      "_": "types.LangPackString",
+      "key": "GiftMessageAddDescription",
+      "value": "Du kan skriva ett meddelande till **%1$s** eller skicka **%2$s** direkt."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftMessageAddHint",
+      "value": "Lägg till meddelande..."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftMessageAddTitle",
+      "value": "Lägg till meddelande"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftMessageHint",
+      "value": "Ditt meddelande..."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftMessageMakeMessagePublic",
+      "value": "Gör meddelandet offentligt"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftMessagePreviewInChat",
+      "value": "Förhandsvisa i chatten"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftMessageSendNow",
+      "value": "Skicka nu"
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "key": "GiftMonths",
       "one_value": "%1$d-månad",
@@ -25095,6 +25160,11 @@
       "_": "types.LangPackString",
       "key": "GiftTopAction",
       "value": "**%1$s** skickade denna gåva till dig den **%2$s**"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftTopActionFromTo",
+      "value": "**%1$s** skickade denna gåva till **%2$s** den **%3$s**"
     },
     {
       "_": "types.LangPackString",
@@ -41773,12 +41843,12 @@
     {
       "_": "types.LangPackString",
       "key": "RevenueSharingAdsInfo1Subtitle",
-      "value": "Annonser på Telegram använder inte din personliga information och är baserade på kanalen du ser den i."
+      "value": "Vi använder inte innehållet i dina privata chattar eller kontaktlistor för annonsinriktning eller andra kommersiella ändamål."
     },
     {
       "_": "types.LangPackString",
       "key": "RevenueSharingAdsInfo1SubtitleBot",
-      "value": "Annonser på Telegram använder inte din personliga information utan baseras på botten där du ser dem."
+      "value": "Vi använder inte innehållet i dina privata chattar eller kontaktlistor för annonsinriktning eller andra kommersiella ändamål. "
     },
     {
       "_": "types.LangPackString",
@@ -41828,7 +41898,7 @@
     {
       "_": "types.LangPackString",
       "key": "RevenueSharingAdsInfo4Subtitle2",
-      "value": "Alla kan skapa annonser att visa i den här kanalen - även med liten budget. Gå till **Telegram annonsplatformen** för detaljer. %1$s"
+      "value": "Vem som helst kan lägga upp annonser på Telegram – till en låg kostnad. Kolla in **Telegram annonsplatform** för mer information. %1$s"
     },
     {
       "_": "types.LangPackString",
@@ -41934,7 +42004,7 @@
     {
       "_": "types.LangPackString",
       "key": "RichEditorButtonCopyText",
-      "value": "Knapp kopieringstext"
+      "value": "Text att kopiera"
     },
     {
       "_": "types.LangPackString",
@@ -43247,12 +43317,12 @@
     {
       "_": "types.LangPackString",
       "key": "SecretChatTimerHours",
-      "value": "tim"
+      "value": "h"
     },
     {
       "_": "types.LangPackString",
       "key": "SecretChatTimerMinutes",
-      "value": "min"
+      "value": "m"
     },
     {
       "_": "types.LangPackString",
@@ -43262,7 +43332,7 @@
     {
       "_": "types.LangPackString",
       "key": "SecretChatTimerSeconds",
-      "value": "sek"
+      "value": "s"
     },
     {
       "_": "types.LangPackString",
@@ -52489,6 +52559,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "UniqueGiftFrom",
+      "value": "Från **%s**"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "UniqueGiftNotFound",
       "value": "Gåvan hittades inte."
     },
@@ -57006,5 +57081,5 @@
       "value": "Telegram Passport"
     }
   ],
-  "version": 60409036
+  "version": 60496913
 }
