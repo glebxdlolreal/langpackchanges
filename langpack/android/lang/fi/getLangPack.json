@@ -1919,6 +1919,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ActionJoinedFromCommunityUser",
+      "value": "un2 liittyi ryhmään yhteisön un1 kautta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ActionJoinedFromCommunityYou",
+      "value": "Liityit ryhmään yhteisön un1 kautta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ActionJoinedFromCommunityYouChannel",
+      "value": "Liityit kanavalle yhteisön un1 kautta"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ActionKickUser",
       "value": "un1 poisti käyttäjän un2"
     },
@@ -4811,7 +4826,7 @@
     {
       "_": "types.LangPackString",
       "key": "ArticleListTodo",
-      "value": "Tehtävät"
+      "value": "Tehtävälista"
     },
     {
       "_": "types.LangPackString",
@@ -10246,7 +10261,7 @@
     {
       "_": "types.LangPackString",
       "key": "BusinessChatsExcluded",
-      "value": "Pois jätetyt keskusteluja"
+      "value": "Pois jätetyt keskustelut"
     },
     {
       "_": "types.LangPackString",
@@ -17425,6 +17440,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "EditAdminBotChannelSendWelcomeMessages",
+      "value": "Lähettää tervetuloviestejä"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EditAdminBotGroupSendWelcomeMessages",
+      "value": "Lähettää tervetuloviestejä"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "EditAdminCantEdit",
       "value": "Et voi muokata tämän valvojan oikeuksia."
     },
@@ -17602,6 +17627,11 @@
       "_": "types.LangPackString",
       "key": "EditAdminTransferSetPassword",
       "value": "Aseta salasana"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EditAdminUserManageWelcomeMessages",
+      "value": "Hallinnoida tervetuloviestejä"
     },
     {
       "_": "types.LangPackString",
@@ -24430,6 +24460,41 @@
       "value": "Lahja on lukittu"
     },
     {
+      "_": "types.LangPackString",
+      "key": "GiftMessageAddDescription",
+      "value": "Voit lisätä viestin käyttäjälle **%1$s** tai lähettää lahjan **%2$s** heti."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftMessageAddHint",
+      "value": "Lisää viesti..."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftMessageAddTitle",
+      "value": "Lisää viesti"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftMessageHint",
+      "value": "Viestisi..."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftMessageMakeMessagePublic",
+      "value": "Viesti julkiseksi"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftMessagePreviewInChat",
+      "value": "Näytä esikatselu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftMessageSendNow",
+      "value": "Lähetä heti"
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "key": "GiftMonths",
       "one_value": "%1$d kuukaudeksi",
@@ -25095,6 +25160,11 @@
       "_": "types.LangPackString",
       "key": "GiftTopAction",
       "value": "**%1$s** osti tämän lahjan **%2$s**"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftTopActionFromTo",
+      "value": "**%1$s** lähetti lahjan käyttäjälle **%2$s** **%3$s**"
     },
     {
       "_": "types.LangPackString",
@@ -41773,12 +41843,12 @@
     {
       "_": "types.LangPackString",
       "key": "RevenueSharingAdsInfo1Subtitle",
-      "value": "Telegramin mainokset eivät käytä henkilökohtaisia tietojasi ja perustuvat pelkästään katselemaasi kanavaan."
+      "value": "Emme käytä yksityisten keskustelujesi sisältöä tai yhteystietojasi mainosten kohdentamiseen tai muihin kaupallisiin tarkoituksiin."
     },
     {
       "_": "types.LangPackString",
       "key": "RevenueSharingAdsInfo1SubtitleBot",
-      "value": "Telegramin mainokset eivät käytä henkilökohtaisia tietojasi ja perustuvat pelkästään käyttämääsi bottiin."
+      "value": "Emme käytä yksityisten keskustelujesi sisältöä tai yhteystietojasi mainosten kohdentamiseen tai muihin kaupallisiin tarkoituksiin."
     },
     {
       "_": "types.LangPackString",
@@ -41828,7 +41898,7 @@
     {
       "_": "types.LangPackString",
       "key": "RevenueSharingAdsInfo4Subtitle2",
-      "value": "Kuka tahansa voi esittää tällä kanavalla mainoksia – vähilläkin varoilla. **Telegramin mainosalusta** tekee siitä mahdollista. %1$s"
+      "value": "Kuka tahansa voi mainostaa Telegramissa – vähilläkin varoilla. **Telegramin mainosalusta** tekee siitä mahdollista. %1$s"
     },
     {
       "_": "types.LangPackString",
@@ -41934,7 +42004,7 @@
     {
       "_": "types.LangPackString",
       "key": "RichEditorButtonCopyText",
-      "value": "Kopiointipainikkeen teksti"
+      "value": "Kopioitava teksti"
     },
     {
       "_": "types.LangPackString",
@@ -47333,7 +47403,7 @@
     {
       "_": "types.LangPackString",
       "key": "StartShortDayAt",
-      "value": "d.M. 'klo' HH.mm"
+      "value": "d.M. 'klo' H.mm"
     },
     {
       "_": "types.LangPackString",
@@ -47343,7 +47413,7 @@
     {
       "_": "types.LangPackString",
       "key": "StartShortTodayAt",
-      "value": "'tänään klo' HH.mm"
+      "value": "'tänään klo' H.mm"
     },
     {
       "_": "types.LangPackString",
@@ -52489,6 +52559,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "UniqueGiftFrom",
+      "value": "Lähettäjä: **%s**"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "UniqueGiftNotFound",
       "value": "Lahjaa ei löytynyt."
     },
@@ -57006,5 +57081,5 @@
       "value": "Telegram-passi"
     }
   ],
-  "version": 60388322
+  "version": 60497887
 }
