@@ -294,7 +294,7 @@
     {
       "_": "types.LangPackString",
       "key": "AdsInfo.Bot.Respect.Text",
-      "value": "Личные данные никогда не используются для показа рекламы в Telegram — её содержание зависит только от ботов, где она отображается."
+      "value": "Telegram не использует данные личных чатов и списков контактов для подбора рекламы или в иных коммерческих целях."
     },
     {
       "_": "types.LangPackString",
@@ -329,7 +329,7 @@
     {
       "_": "types.LangPackString",
       "key": "AdsInfo.Respect.Text",
-      "value": "Личные данные никогда не используются для показа рекламы в Telegram — её содержание зависит только от каналов, где она отображается."
+      "value": "Telegram не использует данные личных чатов и списков контактов для подбора рекламы или в иных коммерческих целях."
     },
     {
       "_": "types.LangPackString",
@@ -8591,6 +8591,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Channel.EditAdmin.PermissionManageWelcomeMessages",
+      "value": "Управление приветствиями"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Channel.EditAdmin.PermissionPinMessages",
       "value": "Закрепление сообщений"
     },
@@ -8613,6 +8618,16 @@
       "_": "types.LangPackString",
       "key": "Channel.EditAdmin.PermissionProcessJoinRequestsInfo",
       "value": "Вы можете разрешить этому боту принимать заявки на вступление с использованием собственных интерфейсов (например, капчи) для проверки."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Channel.EditAdmin.PermissionSendWelcomeMessagesChannel",
+      "value": "Отправка приветствий"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Channel.EditAdmin.PermissionSendWelcomeMessagesGroup",
+      "value": "Отправка приветствий"
     },
     {
       "_": "types.LangPackString",
@@ -10846,6 +10861,31 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Chat.EphemeralMessage.AnchoredInfo",
+      "value": "Эту версию сообщения видите только Вы."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.EphemeralMessage.Badge",
+      "value": "Видит только %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.EphemeralMessage.BadgeYou",
+      "value": "Видите только Вы"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.EphemeralMessage.Revert",
+      "value": "Вернуть"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.EphemeralMessage.RevertInfo",
+      "value": "Возвращает исходный вид сообщения"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Chat.ErrorCantBoost",
       "value": "Вы не можете проголосовать за эту группу или канал."
     },
@@ -12119,6 +12159,11 @@
       "_": "types.LangPackString",
       "key": "Chat.Placeholder.QuickReply",
       "value": "Быстрый ответ..."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Placeholder.WelcomeMessage",
+      "value": "Сообщение..."
     },
     {
       "_": "types.LangPackString",
@@ -20772,6 +20817,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Conversation.UnsupportedMedia.Action",
+      "value": "Обновить"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Conversation.UnsupportedMedia.Text",
+      "value": "Чтобы увидеть это сообщение, обновите Telegram"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Conversation.UnsupportedMedia.Title",
+      "value": "Сообщение не поддерживается"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Conversation.UnsupportedMediaPlaceholder",
       "value": "Сообщение не поддерживается в Вашей версии Telegram. Пожалуйста, обновитесь до последней версии."
     },
@@ -25293,6 +25353,41 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift.Message.InputPlaceholder",
+      "value": "Сообщение..."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Message.MakePublic",
+      "value": "Сделать сообщение публичным"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Message.PreviewInChat",
+      "value": "Вид в чате"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Message.SendNow",
+      "value": "Отправить сейчас"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Message.ToastText",
+      "value": "Вы можете добавить сообщение для **%@** или просто отправить **%@**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Message.ToastTitle",
+      "value": "Сообщение получателю"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Message.YourMessage",
+      "value": "Ваше сообщение…"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gift.Offer.Duration",
       "value": "Срок действия"
     },
@@ -28783,6 +28878,11 @@
       "_": "types.LangPackString",
       "key": "GroupInfo.UpgradeButton",
       "value": "Сделать супергруппой"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GroupInfo.WelcomeMessages",
+      "value": "Приветствие"
     },
     {
       "_": "types.LangPackString",
@@ -35780,6 +35880,16 @@
       "_": "types.LangPackString",
       "key": "Notification.JoinedGroupByRequestYou",
       "value": "Ваша заявка на вступление в группу принята"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.JoinedGroupViaCommunity",
+      "value": "%@ вступил(а) в группу через сообщество"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.JoinedGroupViaCommunityYou",
+      "value": "Вы вступили в группу через сообщество"
     },
     {
       "_": "types.LangPackString",
@@ -47142,6 +47252,111 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "RichText.ButtonActionCopy",
+      "value": "Копирует текст"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.ButtonActionDisabled",
+      "value": "Отключено"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.ButtonActionNotEditable",
+      "value": "Функцию этой кнопки нельзя изменить"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.ButtonDelete",
+      "value": "Удалить кнопку"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.ButtonEditorTitle",
+      "value": "Кнопка"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.ButtonLabelPlaceholder",
+      "value": "Текст"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.ButtonRowAdd",
+      "value": "Добавить кнопку"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.ButtonRowAlignCenter",
+      "value": "По центру"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.ButtonRowAlignJustify",
+      "value": "На всю ширину"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.ButtonRowAlignLeft",
+      "value": "По левому краю"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.ButtonRowAlignRight",
+      "value": "По правому краю"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.ButtonRowAlignment",
+      "value": "Выровнять"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.ButtonRowDelete",
+      "value": "Удалить ряд"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.ButtonSectionContent",
+      "value": "СОДЕРЖАНИЕ"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.ButtonSectionStyle",
+      "value": "ОФОРМЛЕНИЕ"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.ButtonStyleDanger",
+      "value": "Предупреждение"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.ButtonStyleDefault",
+      "value": "Обычная"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.ButtonStyleLink",
+      "value": "Ссылка"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.ButtonStylePrimary",
+      "value": "Основная"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.ButtonStyleSuccess",
+      "value": "Успех"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.ButtonURLPlaceholder",
+      "value": "URL"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "RichText.FormulaAdd",
       "value": "Новая формула"
     },
@@ -47192,6 +47407,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "RichText.Menu.List.Detail",
+      "value": "Сворачиваемый блок"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "RichText.Menu.List.None",
       "value": "Без списка"
     },
@@ -47199,6 +47419,26 @@
       "_": "types.LangPackString",
       "key": "RichText.Menu.List.Numbered",
       "value": "Нумерованный список"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.Menu.Table.BordersOff",
+      "value": "Скрыть границы"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.Menu.Table.BordersOn",
+      "value": "Показать границы"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.Menu.Table.CompactOff",
+      "value": "Полный вид"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.Menu.Table.CompactOn",
+      "value": "Компактный вид"
     },
     {
       "_": "types.LangPackString",
@@ -47227,6 +47467,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "RichText.MenuButtonRow",
+      "value": "Ряд кнопок"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "RichText.MenuCode",
       "value": "Код"
     },
@@ -47244,6 +47489,11 @@
       "_": "types.LangPackString",
       "key": "RichText.MenuHeadingItem",
       "value": "Заголовок %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.MenuInlineButton",
+      "value": "Кнопка"
     },
     {
       "_": "types.LangPackString",
@@ -47269,6 +47519,11 @@
       "_": "types.LangPackString",
       "key": "RichText.PlaceholderCode",
       "value": "Код..."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.PlaceholderDetailTitle",
+      "value": "Название"
     },
     {
       "_": "types.LangPackString",
@@ -53018,6 +53273,11 @@
       "_": "types.LangPackString",
       "key": "StorageManagement.ClearConfirmationText",
       "value": "Медиафайлы и документы останутся в облаке Telegram, при необходимости Вы сможете скачать их снова."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StorageManagement.ClearConfirmationTitle",
+      "value": "Очистка кэша"
     },
     {
       "_": "types.LangPackString",
@@ -61484,6 +61744,44 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WelcomeMessages.EmptyText",
+      "value": "Приветствие будет автоматически отправляться новым участникам."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WelcomeMessages.EmptyTitle",
+      "value": "Новое приветствие"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Можно добавить не более %@ сообщений.",
+      "key": "WelcomeMessages.MessageLimitReachedText",
+      "many_value": "Можно добавить не более %@ сообщений.",
+      "one_value": "Можно добавить не более %@ сообщения.",
+      "other_value": "Можно добавить не более %@ сообщений."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WelcomeMessages.Off",
+      "value": "Выкл."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WelcomeMessages.ServiceHeader1",
+      "value": "Новые участники увидят эти сообщения, когда присоединятся к чату"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WelcomeMessages.ServiceHeader2",
+      "value": "Чтобы удалить сообщение, нажмите на него"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WelcomeMessages.Title",
+      "value": "Приветствие"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Widget.ApplicationLocked",
       "value": "Разблокируйте приложение, чтобы использовать виджет"
     },
@@ -61578,5 +61876,5 @@
       "value": "Вы ввели неверный код безопасности."
     }
   ],
-  "version": 21820787
+  "version": 21830040
 }
