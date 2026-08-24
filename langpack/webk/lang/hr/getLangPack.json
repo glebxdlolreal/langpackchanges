@@ -1571,6 +1571,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AiEditor.DeleteStyle.Title",
+      "value": "Izbriši stil"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AiEditor.Emojify",
       "value": "emojiji"
     },
@@ -1586,8 +1591,33 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AiEditor.NewStyle.EmojiUnsupported",
+      "value": "Nažalost, ovaj emoji nije podržan, umjesto njega odaberite animirani emoji."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AiEditor.NewStyle.Error",
+      "value": "Stvaranje novog stila nije uspjelo"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AiEditor.NewStyle.ErrorEdit",
+      "value": "Spremanje stila nije uspjelo"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AiEditor.NewStyle.Instructions",
+      "value": "Upute"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AiEditor.NewStyle.InstructionsDescription",
       "value": "Upute (naprimjer: piši kao pirat, koristi arr, ahoy i govori o blagu i moru)"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AiEditor.NewStyle.StyleName",
+      "value": "Naziv stila"
     },
     {
       "_": "types.LangPackString",
@@ -1621,6 +1651,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AiEditor.StyleAddError",
+      "value": "Dodavanje stila nije uspjelo"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AiEditor.StyleAdded",
       "value": "Stil je dodan"
     },
@@ -1628,6 +1663,21 @@
       "_": "types.LangPackString",
       "key": "AiEditor.StyleBy",
       "value": "Stil od %s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AiEditor.StyleNotFound",
+      "value": "Stil nije pronađen, vjerojatno je izbrisan"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AiEditor.StyleRemoveError",
+      "value": "Uklanjanje stila nije uspjelo"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AiEditor.StyleRemoved",
+      "value": "Stil je uklonjen"
     },
     {
       "_": "types.LangPackString",
@@ -4631,6 +4681,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Chat.Input.Record.VideoLimitReached",
+      "value": "Dosegnuta je najveća duljina video poruke"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Chat.Input.Record.Voice",
       "value": "Glasovna poruka"
     },
@@ -4987,6 +5042,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Chat.Service.CommunityAdded.Bot",
+      "value": "Ovaj bot je dodan u zajednicu %1$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Service.CommunityAdded.Channel",
+      "value": "Ovaj kanal je dodan u zajednicu %1$s"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Chat.Service.CommunityAdded.Group.By",
       "value": "%1$s dodaje ovu grupu u zajednicu %2$s"
     },
@@ -4999,6 +5064,16 @@
       "_": "types.LangPackString",
       "key": "Chat.Service.CommunityAdded.Group.You",
       "value": "Dodali ste ovu grupu u zajednicu %1$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Service.CommunityRemoved.Bot",
+      "value": "Ovaj bot je uklonjen iz zajednice"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Service.CommunityRemoved.Channel",
+      "value": "Ovaj kanal je uklonjen iz zajednice"
     },
     {
       "_": "types.LangPackString",
@@ -6353,13 +6428,245 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Community.AddBot",
+      "value": "Dodaj bot u zajednicu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Community.AddBotConfirm",
+      "value": "Ako ovaj bot odobri administrator zajednice, članovi zajednice će ga moći vidjeti i koristiti."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Community.AddChannel",
+      "value": "Dodaj kanal u zajednicu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Community.AddChannelConfirm",
+      "value": "Ako ovaj kanal odobri administrator zajednice, njegovi pretplatnici moći će se pridružiti drugim razgovorima u zajednici ili zatražiti da se pridruže."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Community.AddChat",
+      "value": "Dodaj razgovor"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Community.AddChatButton",
+      "value": "Dodaj razgovor u zajednicu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Community.AddExisting",
+      "value": "Dodajte u postojeću zajednicu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Community.AddGroup",
+      "value": "Dodaj grupu u zajednicu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Community.AddGroupConfirm",
+      "value": "Ako ovu grupu odobri administrator zajednice, njeni članovi moći će se pridružiti drugim razgovorima u zajednici ili zatražiti da se pridruže."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Community.AddTo",
+      "value": "Dodaj u zajednicu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Community.AdminRequired",
+      "value": "Više nemate dozvolu za upravljanje ovim zahtjevima."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Community.AllMembers",
+      "value": "Svi članovi"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Community.AllMembersInfo",
+      "value": "Dopustite članovima da dodaju svoje razgovore u zajednicu."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Community.BotDescription",
+      "value": "Dodajte svoj bot u zajednicu s više povezanih razgovora."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Community.ChannelDescription",
+      "value": "Dodajte svoj kanal u zajednicu s više povezanih razgovora."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Community.ChatSettings",
+      "value": "Postavke razovora zajednice"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Community.ChatVisibility",
+      "value": "Vidljivost razgovora"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Community.CommunityAdded.View",
+      "value": "Pogledaj"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Community.CreateChat",
+      "value": "Napravi novi razgovor"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Community.DeclineAllRequestsConfirm",
       "value": "Odbiti sve (%d) predložene razgovore?"
     },
     {
       "_": "types.LangPackString",
+      "key": "Community.Description",
+      "value": "Dodajte svoju grupu u zajednicu s više povezanih razgovora."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Community.Edit",
+      "value": "Uredi zajednicu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Community.Hidden",
+      "value": "Skriven"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Community.HiddenInfo",
+      "value": "Samo pozvani članovi i administratori zajednice će vidjeti ovaj razgovor."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Community.Name",
+      "value": "Naziv"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Community.NoPendingRequests",
+      "value": "Nema zahtjeva"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Community.NoRequests",
+      "value": "nema zahtjeva"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Community.OnlyAdmins",
+      "value": "Samo administratori"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Community.OnlyAdminsInfo",
+      "value": "Za razgovore koje predlažu članovi zajednice potrebno je odobrenje administratora."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Community.PendingRequest",
+      "value": "Zahtjev na čekanju"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Community.PendingRequests",
+      "value": "Zahtjevi na čekanju"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "%d predložena razgovora",
+      "key": "Community.PendingRequestsCount",
+      "one_value": "%d predloženi razgovor",
+      "other_value": "%d predloženih razgovora"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Community.RequestAdded",
+      "value": "Razgovor je dodan u zajednicu."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Community.RequestDeclined",
+      "value": "Prijedlog je odbijen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Community.RequestFailed",
+      "value": "Zahtjev nije moguće ažurirati. Molimo pokušajte ponovo."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Community.RequestsLoadFailed",
+      "value": "Zahtjevi na čekanju nisu se mogli učitati. Molimo pokušajte ponovo."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Community.SaveChanges",
+      "value": "Spremi promjene"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Community.Someone",
+      "value": "Netko"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Community.SuggestedBot",
+      "value": "predlaže ovaj bot"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Community.SuggestedBy",
+      "value": "Predlaže"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Community.SuggestedBySomeone",
+      "value": "Netko je predložio ovaj razgovor"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Community.SuggestedChannel",
+      "value": "predlaže ovaj kanal"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Community.SuggestedGroup",
+      "value": "predlaže ovu grupu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Community.Title",
+      "value": "Zajednica"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Community.VisibilityImmutable",
       "value": "Ovo nećete moći kasnije promijeniti."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Community.Visible",
+      "value": "Vidljiv"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Community.VisibleInfo",
+      "value": "Svatko u zajednici moći će vidjeti ovaj razgovor."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Community.WhoCanAddChats",
+      "value": "Tko može dodati razgovore?"
     },
     {
       "_": "types.LangPackString",
@@ -7457,6 +7764,16 @@
       "_": "types.LangPackString",
       "key": "EditProfile.FirstNameLabel",
       "value": "Ime"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EditProfile.PersonalChannel.Description",
+      "value": "Prikažite kanal kojim upravljate u svom profilu."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EditProfile.PersonalChannel.NoChannels",
+      "value": "Nemate kanala koji ispunjavaju uvjete."
     },
     {
       "_": "types.LangPackString",
@@ -20058,6 +20375,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "UserInfo.SuggestedPhotoTitle",
+      "value": "Nova slika za vaš profil"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "UserInfo.SuggestedPhotoUpdate",
       "value": "Promijeni sliku profila"
     },
@@ -20932,5 +21254,5 @@
       "other_value": "%1$d poruka"
     }
   ],
-  "version": 340310
+  "version": 340375
 }
