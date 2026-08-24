@@ -4155,6 +4155,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ChannelAutotranslation.BoostTitle",
+      "value": "Automatsko prevođenje poruka"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ChannelAutotranslationLevelMin",
       "value": "Vaš kanal mora doseći razinu %d da biste omogućili automatsko prevođenje. [Nadogradi kanal]()."
     },
@@ -4336,6 +4341,11 @@
       "_": "types.LangPackString",
       "key": "ChannelSettingsJoinRequest",
       "value": "Odobrenje za nove članove"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChannelSettingsJoinRequestChannel",
+      "value": "Odobrenje za nove pretplatnike"
     },
     {
       "_": "types.LangPackString",
@@ -4977,6 +4987,31 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Chat.Service.CommunityAdded.Group.By",
+      "value": "%1$s dodaje ovu grupu u zajednicu %2$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Service.CommunityAdded.Group.Unknown",
+      "value": "Ova grupa je dodana u zajednicu %1$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Service.CommunityAdded.Group.You",
+      "value": "Dodali ste ovu grupu u zajednicu %1$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Service.CommunityRemoved.Group.By",
+      "value": "%1$s uklanja ovu grupu iz zajednice"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Service.CommunityRemoved.Group.You",
+      "value": "Uklonili ste ovu grupu iz zajednice"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Chat.Service.ConferenceCall.Incoming",
       "value": "Dolazni grupni poziv. [Pridruži se](open)"
     },
@@ -5280,6 +5315,386 @@
       "_": "types.LangPackString",
       "key": "ChatAdmin",
       "value": "admin"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAutomation.AccessibleChats",
+      "value": "Razgovori kojima bot ima pristup"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAutomation.BotHasAccess",
+      "value": "bot ima pristup ovom razgovoru"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAutomation.BotManagesChat",
+      "value": "ovim razgovorom upravlja bot"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAutomation.BotNotFound",
+      "value": "Bot nije pronađen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAutomation.BotPaused",
+      "value": "bot je pauziran"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAutomation.BotPlaceholder",
+      "value": "Korisničko ime bota"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAutomation.ChangeGiftSettings",
+      "value": "Promjena postavki poklona"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAutomation.ChooseBot",
+      "value": "Odaberite bot za automatsko upravljanje vašim razgovorima."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAutomation.ConnectedFrom",
+      "value": "Povezan"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAutomation.ConnectionReview.Confirm",
+      "value": "Da, ja sam"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAutomation.ConnectionReview.Confirmed",
+      "value": "Novi bot ima vaše dopuštenje."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAutomation.ConnectionReview.Reject",
+      "value": "Ne, nisam ja!"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAutomation.ConnectionReview.Rejected",
+      "value": "Botu je opozvan pristup."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAutomation.ConnectionReview.Text",
+      "value": "je povezan s vašim računom s lokacije %s. Jeste li to bili vi?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAutomation.ConnectionReview.TextNoLocation",
+      "value": "je povezan s vašim računom. Jeste li to bili vi?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAutomation.ConnectionReview.Title",
+      "value": "Bot je upravo dobio pristup vašim porukama!"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAutomation.Contacts",
+      "value": "Kontakti"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAutomation.DeleteReceived",
+      "value": "Brisanje dolaznih poruka"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAutomation.DeleteSent",
+      "value": "Brisanje poslanih poruka"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAutomation.EditBio",
+      "value": "Uređivanje opisa profila"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAutomation.EditName",
+      "value": "Uređivanje naziva"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAutomation.EditPhoto",
+      "value": "Uređivanje slike profila"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAutomation.EditUsername",
+      "value": "Uređivanje korisničkog imena"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAutomation.ExcludeChats",
+      "value": "Izuzmi razgovore"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAutomation.ExcludedChats",
+      "value": "Izuzeti razgovori"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAutomation.ExcludedDescription",
+      "value": "Odaberite razgovore ili vrste razgovora kojima bot **NEĆE** imati pristup."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAutomation.ExistingChats",
+      "value": "Postojeći razgovori"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAutomation.GiftsAndStarsWarning",
+      "value": "Bot **@%s** će moći upravljati vašim poklonima i zvjezdicama, uključujući i njihovo poklanjanje drugim korisnicima."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAutomation.GiftsWarning",
+      "value": "Bot **%s** će moći **upravljati vašim poklonima**, uključujući i njihovo poklanjanje drugim korisnicima."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAutomation.HeroTitle",
+      "value": "Botovi za razgovore"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAutomation.IncludedChats",
+      "value": "Odabrani razgovori"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAutomation.IncludedDescription",
+      "value": "Odaberite razgovore ili vrste razgovora kojima će bot imati pristup."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAutomation.ManageAutomation",
+      "value": "Upravljanje automatizacijom razgovora"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAutomation.ManageBot",
+      "value": "Upravljanje botom"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAutomation.ManageGifts",
+      "value": "Pokloni i zvjezdice"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAutomation.ManageMessages",
+      "value": "Upravljanje porukama"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAutomation.ManageProfile",
+      "value": "Upravljanje profilom"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAutomation.ManageStories",
+      "value": "Upravljanje pričama"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAutomation.NewChats",
+      "value": "Novi razgovori"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAutomation.NonContacts",
+      "value": "Nisu kontakti"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAutomation.OnlySelected",
+      "value": "Samo odabrani razgovori"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAutomation.PermissionWarningProceed",
+      "value": "Nastavi"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAutomation.PermissionWarningTitle",
+      "value": "Upozorenje"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAutomation.Permissions",
+      "value": "Dopuštenja bota"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAutomation.PermissionsDescription",
+      "value": "Bot može odgovoriti u vaše ime samo u razgovorima koji su bili aktivni tijekom posljednja 24 sata."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAutomation.ProfileDescription",
+      "value": "Dodajte bot koji će u vaše ime odgovarati na poruke."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAutomation.ReadMessages",
+      "value": "Čitanje poruka"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAutomation.RecipientCategories",
+      "value": "Kategorije razgovora"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAutomation.RecipientLimit",
+      "value": "Možete odabrati do 100 korisnika."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAutomation.RecipientSummaryEmpty",
+      "value": "Dodaj"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAutomation.RecipientsEmpty",
+      "value": "Odaberite barem jednog primatelja."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAutomation.RemoveBot",
+      "value": "Ukloni bot"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAutomation.RemoveFromChat",
+      "value": "Ukloni bot iz ovog razgovora"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAutomation.Reply",
+      "value": "Odgovaranje na poruke"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAutomation.RevokeFromChat",
+      "value": "Opozovi pristup za ovaj razgovor"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAutomation.SaveSuccess",
+      "value": "Automatizacija razgovora je ažurirana."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAutomation.SelectChats",
+      "value": "Odaberi razgovore"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAutomation.SellGifts",
+      "value": "Prodaja poklona"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAutomation.Session",
+      "value": "Bot za automatizaciju razgovora"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAutomation.SessionDate",
+      "value": "Datum"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAutomation.SessionDevice",
+      "value": "Uređaj"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAutomation.SessionLocation",
+      "value": "Lokacija"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAutomation.SetupNotCompletedLeave",
+      "value": "Napusti"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAutomation.SetupNotCompletedText",
+      "value": "Niste dodali bot za upravljanje svojim računom. Svejedno napustiti?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAutomation.SetupNotCompletedTitle",
+      "value": "Bot nije dodan"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAutomation.StarsWarning",
+      "value": "Bot **%s** će moći **prenositi vaše zvjezdice**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAutomation.Start",
+      "value": "Pokreni"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAutomation.Stop",
+      "value": "Zaustavi"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAutomation.TerminateConnectedBot",
+      "value": "Također prekini i %s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAutomation.TerminateSession",
+      "value": "Prekini sesiju"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAutomation.Title",
+      "value": "Automatizacija razgovora"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAutomation.TransferGifts",
+      "value": "Prijenos i nadograđivanje poklona"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAutomation.TransferStars",
+      "value": "Prijenos zvjezdica"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAutomation.UsernameWarning",
+      "value": "Bot **%s** će moći **postavljati i uklanjati korisnička imena** za vaš račun, što može dovesti do gubitka vašeg trenutnog korisničkog imena."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAutomation.ViaBotTooltip",
+      "value": "Samo vi možete vidjeti da je ovu poruku poslao bot."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAutomation.ViewGifts",
+      "value": "Pregled poklona i zvjezdica"
     },
     {
       "_": "types.LangPackString",
@@ -8530,6 +8945,51 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "GroupEmojiPack",
+      "value": "Emoji paket grupe"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GroupEmojiPack.BoostTitle",
+      "value": "Omogućite paket emojija"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GroupEmojiPack.CreateInfo",
+      "value": "Možete napraviti svoje vlastite pakete emojija koristeći [@stickers]() bot."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GroupEmojiPack.LinkInfo",
+      "value": "Svi članovi će moći koristiti ove emojije u grupi, čak i ako nemaju Telegram Premium."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GroupEmojiPack.LinkPlaceholder",
+      "value": "Linka paketa emojija"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GroupEmojiPack.MyPacks",
+      "value": "Moji paketi emojija"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GroupEmojiPack.Remove",
+      "value": "Ukloni emoji paket grupe"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GroupEmojiPack.Removed",
+      "value": "Emoji paket grupe je uklonjen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GroupEmojiPack.Updated",
+      "value": "Emoji paket grupe je ažuriran"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "GroupEmptyTitle1",
       "value": "Napravili ste **grupu**."
     },
@@ -8560,8 +9020,88 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "GroupRequestApproved",
+      "value": "Vaš zahtjev za pridruživanje grupi je odobren"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GroupRequestApprovedChannel",
+      "value": "Vaš zahtjev za pridruživanje kanalu je odobren"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GroupRequestDeclined",
+      "value": "Vaš zahtjev za pridruživanje grupi je odbijen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GroupRequestDeclinedChannel",
+      "value": "Vaš zahtjev za pridruživanje kanalu je odbijen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GroupRequestSent",
+      "value": "Bit ćete dodani u grupu kad administrator odobri vaš zahtjev."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GroupRequestSentChannel",
+      "value": "Bit ćete dodani u kanal kad administratori odobre vaš zahtjev."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "GroupStats.Title",
       "value": "Statistika grupe"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GroupStickers",
+      "value": "Naljepnice grupe"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GroupStickers.CreateInfo",
+      "value": "Možete napraviti svoje vlastite naljepnice koristeći [@stickers]() bot."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GroupStickers.LinkInfo",
+      "value": "Možete odabrati naljepnice koje će biti dostupne svim članovima grupe."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GroupStickers.LinkPlaceholder",
+      "value": "Link paketa naljepnica"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GroupStickers.MySets",
+      "value": "Moji paketi naljepnica"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GroupStickers.NotFound",
+      "value": "Paket naljepnica nije pronađen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GroupStickers.Remove",
+      "value": "Ukloni naljepnice od grupe"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GroupStickers.Removed",
+      "value": "Naljepnice grupe su uklonjene"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GroupStickers.SectionInfo",
+      "value": "Odaberite paket emojija koji će biti dostupan svim članovima grupe."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GroupStickers.Updated",
+      "value": "Naljepnice grupe su ažurirane"
     },
     {
       "_": "types.LangPackString",
@@ -8599,6 +9139,46 @@
       "_": "types.LangPackString",
       "key": "GrowthChartTitle",
       "value": "Porast"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GuardBotEnableMembersText",
+      "value": "Novi članovi će trebati odobrenje od **%s** prije nego što mogu slati poruke u ovoj grupi"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GuardBotEnableSubscribersText",
+      "value": "Novi pretplatnici će trebati odobrenje od **%s** da bi se mogli pridružiti kanalu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GuardBotManagedBy",
+      "value": "Upravlja %s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GuardBotProcessJoinRequests",
+      "value": "Zahtjevi za pridruživanje"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GuardBotProcessJoinRequestsInfo",
+      "value": "Dopustite ovom botu da odobrava nove članove koristeći vlastita sučelja, kao što je captcha provjera."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GuardBotReplaceText",
+      "value": "**%1$s** trenutno obrađuje zahtjeve za pridruživanje. Želite li koristiti bot **%2$s**?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GuardBotReplaceTitle",
+      "value": "Zamijeni bot"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GuardBotReplaceUse",
+      "value": "Koristi %s"
     },
     {
       "_": "types.LangPackString",
@@ -10373,6 +10953,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "MediaCopied",
+      "value": "Medij je kopiran u međuspremnik"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "MediaEditor.Adjustments.Brightness",
       "value": "Svjetlina"
     },
@@ -10562,6 +11147,11 @@
       "key": "MediaFiles",
       "one_value": "%d medij",
       "other_value": "%d medija"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MediaViewer.Context.Copy",
+      "value": "Kopiraj medij"
     },
     {
       "_": "types.LangPackString",
@@ -12477,6 +13067,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Peer.Activity.Chat.Pair.TypingText",
+      "value": "%1$@ i %2$@ pišu"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Peer.Activity.Chat.PlayingGame",
       "value": "%@ igra igru"
     },
@@ -14196,6 +14791,16 @@
       "_": "types.LangPackString",
       "key": "ProfileStoriesArchiveHint",
       "value": "Samo vi možete vidjeti arhivirane priče osim ako ih ne odlučite objaviti na svom profilu."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ProfileTab.OrderChanged",
+      "value": "Redoslijed kartica je promijenjen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ProfileTab.SetAsMain",
+      "value": "Postavi kao glavnu karticu"
     },
     {
       "_": "types.LangPackString",
@@ -18248,6 +18853,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Story.Notification.Reacted",
+      "value": "%1$s na vašu priču"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.Notification.ReactedHidden",
+      "value": "Nova reakcija na vašu priču"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.Notification.ReactedHiddenSender",
+      "value": "Reakcija na priču"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Story.RemoveFromProfile",
       "value": "Ukloni s profila"
     },
@@ -20177,6 +20797,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WebAppGuardDisclaimerText",
+      "value": "**%1$s** koristi **%2$s** za dobrodošlicu novim članovima. Za nastavak morate prihvatiti [uvjete korištenja]()  mini aplikacija."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WebPage.InstantView",
       "value": "BRZI PREGLED"
     },
@@ -20307,5 +20932,5 @@
       "other_value": "%1$d poruka"
     }
   ],
-  "version": 340177
+  "version": 340310
 }
