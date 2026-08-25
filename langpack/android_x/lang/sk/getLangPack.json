@@ -1407,6 +1407,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "BiometricsStrong",
+      "value": "Silné (snímač **triedy 3**)"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Birthdate",
       "value": "Narodeniny"
     },
@@ -4862,6 +4867,11 @@
       "_": "types.LangPackString",
       "key": "DisableAutoNightModeDesc",
       "value": "Zmena aktuálneho motívu vypne automatický nočný režim.\n\nZapnúť naspäť ho môžete v časti Nastavenia > Motívy a konverzácie."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "DisableHlsVideo",
+      "value": "Vypnúť prehrávanie videa HLS"
     },
     {
       "_": "types.LangPackString",
@@ -8444,7 +8454,7 @@
     {
       "_": "types.LangPackString",
       "key": "LeaveComment",
-      "value": "Zanechať komentár"
+      "value": "Komentovať"
     },
     {
       "_": "types.LangPackString",
@@ -11365,6 +11375,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PasscodeBiometrics",
+      "value": "Biometria"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PasscodeBiometricsStrong",
+      "value": "Biometria (silná)"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PasscodeFingerprint",
       "value": "Odtlačok prsta"
     },
@@ -13136,6 +13156,34 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "QReportMessage",
+      "value": "Naozaj chcete nahlásiť správu od %1$s?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QReportMessageUser",
+      "value": "Naozaj chcete nahlásiť správu od %1$s?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QReportMessages",
+      "value": "Naozaj chcete nahlásiť správy od %1$s?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QReportMessagesUser",
+      "value": "Naozaj chcete nahlásiť správy od %1$s?"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Naozaj chcete nahlásiť %1$s správy?",
+      "key": "QReportXMessages",
+      "many_value": "",
+      "one_value": "Naozaj chcete nahlásiť %1$s správu?",
+      "other_value": "Naozaj chcete nahlásiť %1$s správ?"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "QUnblockX",
       "value": "Odblokovať používateľa %1$s?"
     },
@@ -13816,6 +13864,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ReportAdSubtitle",
+      "value": "Čo je na tejto reklame zlé?"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ReportChat",
       "value": "Nahlásiť %1$s"
     },
@@ -13828,6 +13881,11 @@
       "_": "types.LangPackString",
       "key": "ReportChatPhoto",
       "value": "Nahlásiť fotku používateľa %1$s?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ReportChatReasonRequired",
+      "value": "Popis (povinné)"
     },
     {
       "_": "types.LangPackString",
@@ -16127,6 +16185,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "SimilarBots",
+      "value": "Podobné boty"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "SimilarChannels",
       "value": "Podobné kanály"
     },
@@ -16690,6 +16753,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "SyncBtn",
+      "value": "Synchronizovať"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "SyncContacts",
       "value": "Synchronizovať kontakty"
     },
@@ -16725,8 +16793,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "SyncHint3",
+      "value": "Kontakty vo vašom zariadení (telefónne čísla, mená a priezviská) sa budú priebežne odosielať na servery **Telegramu**, aby ste ich mohli nájsť v **Kontaktoch** alebo dostali upozornenie, keď sa pripojí nový kontakt.\n\nÚdaje sa prenášajú iba do **Telegramu** a nikdy sa nezdieľajú s tretími stranami. Ak počas zapnutej synchronizácie odstránite kontakt v zariadení, bude odstránený aj zo serverov **Telegramu**.\n\nSynchronizáciu môžete kedykoľvek vypnúť alebo odstrániť údaje na serveroch **Telegramu** cez **Nastavenia > Súkromie a zabezpečenie> Odstrániť synchronizované kontakty**.\n\nAk chcete synchronizáciu zapnúť, musíte tiež povoliť aplikácii **%1$s** prístup ku kontaktom vo vašom zariadení."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "SyncHintRetry",
-      "value": "Pre pomoc so začatím konverzácie s priateľmi a rodinou v aplikácií Telegram, povoľte prístup k vašim kontaktom.\n\nKlepnite na časť Nastavenia > Oprávnenia, a zapnite možnosť pre kontakty."
+      "value": "Ak chcete zapnúť synchronizáciu kontaktov a bezproblémovo ich nahrať do Telegramu, povoľte prístup ku kontaktom.\n\nKlepnite na Nastavenia > Povolenia, a povoľte kontakty."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SyncHintRetry2",
+      "value": "Ak chcete zapnúť synchronizáciu kontaktov a bezproblémovo ich nahrať do Telegramu, povoľte prístup k vašim kontaktom.\n\nKliknite na **Nastavenia** > **Povolenia** a zapnite položku **Kontakty**."
     },
     {
       "_": "types.LangPackString",
@@ -16735,8 +16813,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "SyncHintTitle2",
+      "value": "Synchronizovať kontakty s Telegramom?"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "SyncHintUnavailable",
-      "value": "Klepnite na Nastavenia > Povolenia, a zapnite prístup ku kontaktom cez aplikáciu Telegram."
+      "value": "Klepnite na Nastavenia > Povolenia, a zapnite prístup Telegramu X ku kontaktom."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SyncLearnMore",
+      "value": "Zásady ochrany osobných údajov"
     },
     {
       "_": "types.LangPackString",
@@ -16822,6 +16910,11 @@
       "_": "types.LangPackString",
       "key": "TabSharedGroups",
       "value": "Skupiny"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "TabSimilarBots",
+      "value": "Podobné"
     },
     {
       "_": "types.LangPackString",
@@ -20431,7 +20524,7 @@
     {
       "_": "types.LangPackString",
       "key": "group_user_add",
-      "value": "Používateľ %1$s sa pripojil do skupiny"
+      "value": "Používateľ %1$s sa pripojil ku skupine"
     },
     {
       "_": "types.LangPackString",
@@ -21232,6 +21325,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "passcode_biometrics",
+      "value": "Odomknúť pomocou biometrie"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "passcode_confirm_invisible",
       "value": "%1$s (neviditeľné)"
     },
@@ -21636,6 +21734,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "url_contactsPrivacy",
+      "value": "https://telegram.org/privacy#3-4-phone-number-and-contacts"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "url_faq",
       "value": "https://telegram.org/faq#general-questions"
     },
@@ -21739,6 +21842,14 @@
       "many_value": "%1$s zablokovaní",
       "one_value": "%1$s zablokovaní",
       "other_value": "%1$s zablokovaných"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "%1$s používatelia mesačne",
+      "key": "xBotUsers",
+      "many_value": "",
+      "one_value": "%1$s používateľ mesačne",
+      "other_value": "%1$s používateľov mesačne"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -22307,6 +22418,14 @@
     },
     {
       "_": "types.LangPackStringPluralized",
+      "few_value": "%1$s podobné boty",
+      "key": "xSimilarBots",
+      "many_value": "",
+      "one_value": "%1$s podobný bot",
+      "other_value": "%1$s podobných botov"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
       "few_value": "%1$s podobné kanály",
       "key": "xSimilarChannels",
       "many_value": "",
@@ -22490,5 +22609,5 @@
       "other_value": "%1$s rokov"
     }
   ],
-  "version": 1633915
+  "version": 1651529
 }

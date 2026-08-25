@@ -586,6 +586,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AccDescrIVFormula",
+      "value": "Vzorec"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AccDescrIVHeading",
       "value": "Nadpis"
     },
@@ -1946,6 +1951,11 @@
       "value": "Vyrobili ste nový darček!"
     },
     {
+      "_": "types.LangPackString",
+      "key": "ActionUniqueGiftResaleInboundTON",
+      "value": "Používateľ **un1** vám kúpil darček za %s gramov!"
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "few_value": "Tento darček ste kúpili za %d hviezdičky",
       "key": "ActionUniqueGiftResaleOutbound",
@@ -1954,12 +1964,27 @@
       "other_value": "Tento darček ste kúpili za %d hviezdičiek"
     },
     {
+      "_": "types.LangPackString",
+      "key": "ActionUniqueGiftResaleOutboundTON",
+      "value": "Tento darček ste kúpili za %s GRAM"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ActionUniqueGiftResaleServiceTON",
+      "value": "Používateľ **un1** poslal darček **un2** za %s GRAM!"
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "few_value": "Tento darček ste predali za %d hviezdičky",
       "key": "ActionUniqueGiftResaleSoldOutbound",
       "many_value": "",
       "one_value": "Tento darček ste predali za %d hviezdičku",
       "other_value": "Tento darček ste predali za %d hviezdičiek"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ActionUniqueGiftResaleSoldOutboundTON",
+      "value": "Tento darček ste predali za %s GRAM"
     },
     {
       "_": "types.LangPackString",
@@ -6212,11 +6237,91 @@
     },
     {
       "_": "types.LangPackStringPluralized",
+      "few_value": "**%2$s** Telegram automaticky vybral **%3$s** náhodných používateľov, ktorí sa pripojili k **%4$s** po **%5$s** **%6$s**.",
+      "key": "BoostingGiveawayHowItWorksSubTextDateEnd",
+      "many_value": "",
+      "one_value": "**%2$s** Telegram automaticky vybral **%3$s** náhodného používateľa, ktorý sa pripojil k **%4$s** po **%5$s** **%6$s**.",
+      "other_value": "**%2$s** Telegram automaticky vybral **%3$s** náhodných používateľov, ktorí sa pripojili k **%4$s** po **%5$s** **%6$s**."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
       "few_value": "Telegram **%2$s** automaticky vyberie **%3$s** náhodných používateľov, ktorí sa pripojili k **%4$s** a **%5$s** ďalších uvedených kanálov po **%6$s**, **%7$s**.",
       "key": "BoostingGiveawayHowItWorksSubTextDateSeveral",
       "many_value": "",
       "one_value": "Telegram **%2$s** automaticky vyberie **%3$s** náhodného používateľa, ktorý sa pripojil k **%4$s** a **%5$s** ďalších uvedených kanálov po **%6$s**, **%7$s**.",
       "other_value": "Telegram **%2$s** automaticky vyberie **%3$s** náhodných používateľov, ktorí sa pripojili k **%4$s** a **%5$s** ďalších uvedených kanálov po **%6$s**, **%7$s**."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "**%2$s** Telegram automaticky vyberie **%3$s** náhodných používateľov, ktorí sa pripojili k **%4$s** %5$s.",
+      "key": "BoostingGiveawayHowItWorksSubTextDateSeveral1",
+      "many_value": "",
+      "one_value": "**%2$s** Telegram automaticky vyberie **%3$s** náhodného používateľa, ktorí sa pripojil k **%4$s** %5$s.",
+      "other_value": "**%2$s** Telegram automaticky vyberie **%3$s** náhodných používateľov, ktorí sa pripojili k **%4$s** %5$s."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "**%2$s** Telegram automaticky vybral **%3$s** náhodných používateľov, ktorí sa pripojili k **%4$s** a k **%5$s** ďalším uvedeným kanálom po **%6$s** **%7$s**.",
+      "key": "BoostingGiveawayHowItWorksSubTextDateSeveralEnd",
+      "many_value": "",
+      "one_value": "**%2$s** Telegram automaticky vybral **%3$s** náhodného používateľa, ktorý sa pripojil k **%4$s** a k **%5$s** ďalším uvedeným kanálom po **%6$s** **%7$s**.",
+      "other_value": "**%2$s** Telegram automaticky vybral **%3$s** náhodných používateľov, ktorí sa pripojili k **%4$s** a k **%5$s** ďalším uvedeným kanálom po **%7$s** **%6$s**."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "**%2$s** Telegram automaticky vybral **%3$s** náhodných používateľov, ktorí sa pripojili k **%4$s** %5$s.",
+      "key": "BoostingGiveawayHowItWorksSubTextDateSeveralEnd1",
+      "many_value": "",
+      "one_value": "**%2$s** Telegram automaticky vybral **%3$s** náhodného používateľa, ktorý sa pripojil k **%4$s** %5$s.",
+      "other_value": "**%2$s** Telegram automaticky vybral **%3$s** náhodných používateľov, ktorí sa pripojili k **%4$s** %5$s."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "**%2$s** Telegram automaticky vybral **%3$s** náhodných používateľov, ktorí sa pripojili k **%4$s**.",
+      "key": "BoostingGiveawayHowItWorksSubTextEnd",
+      "many_value": "**%2$s** Telegram automaticky vybral **%3$s** náhodného používateľa, ktorý sa pripojil k **%4$s**.",
+      "one_value": "**%2$s** Telegram automaticky vybral **%3$s** náhodného používateľa, ktorý sa pripojil k **%4$s**.",
+      "other_value": "**%2$s** Telegram automaticky vybral **%3$s** náhodných používateľov, ktorí sa pripojili k **%4$s**."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "**%2$s** Telegram automaticky vyberie **%3$s** náhodných používateľov, ktorí sa pripojili k **%4$s** a k **%5$s** ďalším uvedeným kanálom.",
+      "key": "BoostingGiveawayHowItWorksSubTextSeveral",
+      "many_value": "",
+      "one_value": "**%2$s** Telegram automaticky vyberie **%3$s** náhodného používateľa, ktorý sa pripojil k **%4$s** a k **%5$s** ďalším uvedeným kanálom.",
+      "other_value": "**%2$s** Telegram automaticky vyberie **%3$s** náhodných používateľov, ktorí sa pripojili k **%4$s** a k **%5$s** ďalším uvedeným kanálom."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "**%2$s** Telegram automaticky vyberie **%3$s** náhodných používateľov, ktorí sa pripojili k **%4$s** %5$s.",
+      "key": "BoostingGiveawayHowItWorksSubTextSeveral1",
+      "many_value": "",
+      "one_value": "**%2$s** Telegram automaticky vyberie **%3$s** náhodného používateľa, ktorí sa pripojil k **%4$s** %5$s.",
+      "other_value": "**%2$s** Telegram automaticky vyberie **%3$s** náhodných používateľov, ktorí sa pripojili k **%4$s** %5$s."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "a k **%1$d** ďalším uvedeným kanálom",
+      "key": "BoostingGiveawayHowItWorksSubTextSeveral2",
+      "many_value": "",
+      "one_value": "a k **%1$d** ďalšiemu uvedenému kanálu",
+      "other_value": "a k **%1$d** ďalším uvedeným kanálom"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "**%2$s** Telegram automaticky vybral **%3$s** náhodných používateľov, ktorí sa pripojili k **%4$s** a k **%5$s** ďalším uvedeným kanálom.",
+      "key": "BoostingGiveawayHowItWorksSubTextSeveralEnd",
+      "many_value": "",
+      "one_value": "**%2$s** Telegram automaticky vybral **%3$s** náhodného používateľa, ktorý sa pripojil k **%4$s** a k **%5$s** ďalším uvedeným kanálom.",
+      "other_value": "**%2$s** Telegram automaticky vybral **%3$s** náhodných používateľov, ktorí sa pripojili k **%4$s** a k **%5$s** ďalším uvedeným kanálom."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "**%2$s** Telegram automaticky vybral **%3$s** náhodných používateľov, ktorí sa pripojili k **%4$s** %5$s.",
+      "key": "BoostingGiveawayHowItWorksSubTextSeveralEnd1",
+      "many_value": "",
+      "one_value": "**%2$s** Telegram automaticky vybral **%3$s** náhodného používateľa, ktorý sa pripojil k **%4$s** %5$s.",
+      "other_value": "**%2$s** Telegram automaticky vybral **%3$s** náhodných používateľov, ktorí sa pripojili k **%4$s** %5$s."
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -6347,6 +6452,19 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "BoostingGiveawayParticipantMulti",
+      "value": "Do tejto súťaže ste sa zapojili, pretože ste sa pripojili ku kanálu **%1$s** (a **%2$d** ďalším uvedeným kanálom)."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Do tejto súťaže ste sa zapojili, pretože ste sa pripojili ku kanálu **%2$s** (a k **%1$d** ďalším uvedeným kanálom).",
+      "key": "BoostingGiveawayParticipantMultiPlural",
+      "many_value": "",
+      "one_value": "Do tejto súťaže ste sa zapojili, pretože ste sa pripojili ku kanálu **%2$s** (a k **%1$d** ďalšiemu uvedenému kanálu).",
+      "other_value": "Do tejto súťaže ste sa zapojili, pretože ste sa pripojili ku kanálu **%2$s** (a k **%1$d** ďalším uvedeným kanálom)."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "BoostingGiveawayPrivateChannel",
       "value": "Kanál je súkromný"
     },
@@ -6429,6 +6547,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "BoostingGiveawayShortStatusParticipating",
+      "value": "Zúčastňujete sa tejto súťaže."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "BoostingGiveawayShowWinners",
       "value": "Zobraziť výhercov"
     },
@@ -6436,6 +6559,19 @@
       "_": "types.LangPackString",
       "key": "BoostingGiveawayShowWinnersHint",
       "value": "Vyberte, či chcete zverejniť zoznam výhercov po skončení súťaže."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingGiveawayTakePart",
+      "value": "Ak sa chcete zúčastniť tejto súťaže, pripojte sa ku kanálu **%1$s** pred **%2$s**."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Ak sa chcete zúčastniť tejto súťaže, pripojte sa ku kanálu **%2$s** (a k **%1$d** ďalším uvedeným kanálom) pred **%3$s**.",
+      "key": "BoostingGiveawayTakePartMultiPlural",
+      "many_value": "",
+      "one_value": "Ak sa chcete zúčastniť tejto súťaže, pripojte sa ku kanálu **%2$s** (a k **%1$d** ďalšiemu uvedenému kanálu) pred **%3$s**.",
+      "other_value": "Ak sa chcete zúčastniť tejto súťaže, pripojte sa ku kanálu **%2$s** (a k **%1$d** ďalším uvedeným kanálom) pred **%3$s**."
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -7284,6 +7420,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "BotBalanceTON",
+      "value": "Gram"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "BotCantAddToAttachMenu",
       "value": "Tento bot sa nedá pridať do ponuky príloh."
     },
@@ -7514,6 +7655,31 @@
       "_": "types.LangPackString",
       "key": "BotMessagePreview",
       "value": "Náhľad správy"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotMonetizationInfoFeature2Text",
+      "value": "Môžete získať 50 % z príjmov z reklamy vo forme odmien v podobe gramov."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotMonetizationInfoFeature3Text",
+      "value": "Svoje gramy si môžete kedykoľvek vybrať."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotMonetizationInfoTONText",
+      "value": "**Gram** je kryptomena platformy blockchainu TON, ktorú Telegram využíva pre jej vysokú rýchlosť a nízke transakčné poplatky."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotMonetizationInfoTONTitle",
+      "value": "Čo je 💎 gram?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotMonetizationProceedsTONInfo",
+      "value": "Gramy z vášho celkového zostatku sa sprístupnia na výdavky na reklamy a odmeny 3 dni po ich získaní."
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -7763,6 +7929,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "BotStatsTON",
+      "value": "Gram"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "BotStatusCantRead",
       "value": "nemá prístup k správam"
     },
@@ -7843,6 +8014,11 @@
       "_": "types.LangPackString",
       "key": "BotWebViewReloadPage",
       "value": "Znovu načítať stránku"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotWebViewReportBot",
+      "value": "Nahlásiť"
     },
     {
       "_": "types.LangPackString",
@@ -10957,7 +11133,7 @@
     {
       "_": "types.LangPackString",
       "key": "ChartInTON",
-      "value": "%s in GRAM"
+      "value": "%s in gramoch"
     },
     {
       "_": "types.LangPackString",
@@ -12252,6 +12428,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "CommunityAddChannelToCommunityInfo",
+      "value": "Kanál môžete pridať do komunity s viacerými súvisiacimi konverzáciami."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "CommunityAddChatTitle",
       "value": "Pridať konverzáciu"
     },
@@ -12289,6 +12470,26 @@
       "_": "types.LangPackString",
       "key": "CommunityAddToExistingCommunity",
       "value": "Pridať do existujúcej komunity"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CommunityAdminRightBanMembers",
+      "value": "Zablokovať členov"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CommunityAdminRightEditCommunityName",
+      "value": "Upraviť názov komunity"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CommunityAdminRightEditGroupList",
+      "value": "Upraviť zoznam konverzácií"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CommunityAdministrators",
+      "value": "Správcovia"
     },
     {
       "_": "types.LangPackString",
@@ -12352,8 +12553,43 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "CommunityMakeAdminMessage",
+      "value": "**%1$s** bude môcť upravovať informácie o komunite a používať ďalšie nástroje správcu."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CommunityMakeAdminPromote",
+      "value": "Povýšiť"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CommunityMakeAdminTitle",
+      "value": "Vymenovať správcu komunity"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "CommunityMenuAddChat",
       "value": "Pridať konverzáciu do komunity"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CommunityMenuRemoveBotFromCommunityConfirm",
+      "value": "Naozaj chcete tohto bota odstrániť z komunity?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CommunityMenuRemoveChannelFromCommunityConfirm",
+      "value": "Naozaj chcete tento kanál odstrániť z komunity?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CommunityMenuRemoveFromCommunity",
+      "value": "Odstrániť z komunity"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CommunityMenuViewGroup",
+      "value": "Zobraziť skupinu"
     },
     {
       "_": "types.LangPackString",
@@ -12367,12 +12603,22 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "CommunityNoChatsToAdd",
+      "value": "Nemáte žiadne konverzácie, ktoré by ste mohli pridať do komunity."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "CommunityPendingRequest",
       "value": "Čakajúca žiadosť"
     },
     {
       "_": "types.LangPackString",
       "key": "CommunityPendingRequests",
+      "value": "Čakajúce žiadosti"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CommunityPendingRequestsTitle",
       "value": "Čakajúce žiadosti"
     },
     {
@@ -12427,6 +12673,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "CommunityServiceMessageGroupAdded",
+      "value": "Používateľ **%1$s** pridal túto skupinu do komunity **%2$s**."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "CommunityServiceMessageGroupAddedUnknown",
       "value": "Táto skupina bola pridaná do komunity **%1$s**."
     },
@@ -12473,7 +12724,7 @@
     {
       "_": "types.LangPackString",
       "key": "CommunityWhoCanAddChatsAllMembersInfo",
-      "value": "Členovia môžu do komunity pridávať svoje skupiny a kanály."
+      "value": "Povoliť členom pridávať svoje skupiny a kanály do komunity."
     },
     {
       "_": "types.LangPackString",
@@ -14823,6 +15074,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "EditAdminManageWelcomeMessages",
+      "value": "Spravovať uvítacie správy"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "EditAdminPinMessages",
       "value": "Pripínať správy"
     },
@@ -15830,6 +16086,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "EphemeralWelcomeMessageMenuHint",
+      "value": "Táto verzia správy je viditeľná iba pre vás."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ErrorOccurred",
       "value": "Došlo k chybe."
     },
@@ -16479,6 +16740,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "EventLogPromotedManageWelcomeMessages",
+      "value": "Správa uvítacích správ"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "EventLogPromotedNoRights",
       "value": "povýšený %1$s"
     },
@@ -16521,6 +16787,11 @@
       "_": "types.LangPackString",
       "key": "EventLogRankSelfAdd",
       "value": "Používateľ un1 si pridal značku «%1$s»"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EventLogRankSelfEdit",
+      "value": "Používateľ un1 zmenil svoju značku z «%1$s» na «%2$s»"
     },
     {
       "_": "types.LangPackString",
@@ -16826,7 +17097,7 @@
     {
       "_": "types.LangPackString",
       "key": "ExpiredViewsStubPremiumDescription",
-      "value": "Ak chcete odomknúť zoznamy divákov pre exspirované a zverejnené príbehy, predplaťte si **Telegram Prémium**."
+      "value": "Ak chcete odomknúť budúce zoznamy divákov pre exspirované a zverejnené príbehy, predplaťte si **Telegram Prémium**."
     },
     {
       "_": "types.LangPackString",
@@ -17843,7 +18114,7 @@
       "key": "FolderLinkHeaderChatsJoin",
       "many_value": "",
       "one_value": "%d konverzácia na pripojenie",
-      "other_value": "%d konverzácie na pripojenie"
+      "other_value": "%d konverzácií na pripojenie"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -18216,7 +18487,7 @@
     {
       "_": "types.LangPackString",
       "key": "ForwardedFrom",
-      "value": "Odoslané z"
+      "value": "Preposlané od"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -18333,7 +18604,7 @@
     {
       "_": "types.LangPackString",
       "key": "FragmentAddFunds",
-      "value": "GRAM si môžete pridať na účet cez platformu tretej strany Fragment."
+      "value": "Gramy si môžete pridať na účet cez platformu tretej strany Fragment."
     },
     {
       "_": "types.LangPackString",
@@ -18824,6 +19095,11 @@
       "_": "types.LangPackString",
       "key": "Gift2AttributeSymbol",
       "value": "Znak"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift2AuctionAlreadyParticipateSelf",
+      "value": "Už sa zúčastňujete aukcie. Môžete sa zúčastniť iba jednej aukcie. Vyhrajte aktuálne kolo alebo počkajte, kým vás neodstránia zo zoznamu účastníkov."
     },
     {
       "_": "types.LangPackString",
@@ -20874,6 +21150,11 @@
       "value": "Ak sa výroba nepodarí, tieto darčeky\nbudú stratené."
     },
     {
+      "_": "types.LangPackString",
+      "key": "GiftCraftProgressTitle",
+      "value": "Vyrába sa"
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "few_value": "Na výrobu môžete pridať až **%d darčeky**\nz tej istej zbierky.",
       "key": "GiftCraftSelect",
@@ -20990,7 +21271,7 @@
     {
       "_": "types.LangPackString",
       "key": "GiftOfferDurationInfoTON",
-      "value": "Vyberte, koľko času má **%s** na prijatie vašej ponuky. Po uplynutí tejto doby vám bude suma v **GRAM** vrátená."
+      "value": "Vyberte, koľko času má **%s** na prijatie vašej ponuky. Po uplynutí tejto doby vám bude suma v **gramoch** vrátená."
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -21027,8 +21308,23 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "GiftOfferOfferedTextTON2",
+      "value": "Tento používateľ vám ponúkol **%2$s GRAM** za **%3$s**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOfferOfferedTextTONExpired",
+      "value": "Vaša ponuka pre **%1$s** už vypršala. **%2$s GRAM** za **%3$s**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOfferOfferedTextTONExpiredOut",
+      "value": "Ponuka od **%1$s** už vypršala. **%2$s GRAM** za **%3$s**."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "GiftOfferOfferedTextTONOut",
-      "value": "Ponúkli ste používateľovi **%1$s** **%2$s GRAM** za **%3$s**."
+      "value": "Používateľovi **%1$s** ste ponúkli **%2$s GRAM** za **%3$s**."
     },
     {
       "_": "types.LangPackString",
@@ -21038,7 +21334,7 @@
     {
       "_": "types.LangPackString",
       "key": "GiftOfferOfferedTextTONRejectedOut",
-      "value": "Odmietli ste ponuku používateľa **%1$s** na kúpu vášho **%3$s** za **%2$s GRAM**."
+      "value": "Odmietli ste ponuku od **%1$s** na kúpu **%3$s** za **%2$s GRAM**."
     },
     {
       "_": "types.LangPackString",
@@ -21128,12 +21424,12 @@
     {
       "_": "types.LangPackString",
       "key": "GiftOfferTONToOffer",
-      "value": "Ponuka v GRAM"
+      "value": "Ponuka v gramoch"
     },
     {
       "_": "types.LangPackString",
       "key": "GiftOfferTONToOfferInfo",
-      "value": "Zadajte, koľko GRAM chcete ponúknuť za **%s**."
+      "value": "Zadajte, koľko gramov chcete ponúknuť za **%s**."
     },
     {
       "_": "types.LangPackString",
@@ -26584,7 +26880,7 @@
     {
       "_": "types.LangPackString",
       "key": "MonetizationTransactionsTON",
-      "value": "Prevody GRAM"
+      "value": "Prevody gramov"
     },
     {
       "_": "types.LangPackString",
@@ -27213,6 +27509,16 @@
       "_": "types.LangPackString",
       "key": "NoComments",
       "value": "Zatiaľ tu nie sú žiadne komentáre…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NoCommunityJoinRequests",
+      "value": "Žiadne žiadosti o pripojenie"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NoCommunityJoinRequestsDescription",
+      "value": "Nemáte žiadne čakajúce žiadosti\no pripojenie do vašej komunity."
     },
     {
       "_": "types.LangPackString",
@@ -32526,6 +32832,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PostSuggestionsOfferTON",
+      "value": "Ponúknuť %s GRAM"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PostSuggestionsOfferTitle",
       "value": "Navrhnúť príspevok"
     },
@@ -32537,7 +32848,7 @@
     {
       "_": "types.LangPackString",
       "key": "PostSuggestionsOfferTitlePriceTON",
-      "value": "Zadajte cenu v GRAM"
+      "value": "Zadajte cenu v gramoch"
     },
     {
       "_": "types.LangPackString",
@@ -36236,7 +36547,7 @@
     {
       "_": "types.LangPackString",
       "key": "ReportSpamUserNoCaps",
-      "value": "Zablokovať používateľa"
+      "value": "Zablokovať"
     },
     {
       "_": "types.LangPackString",
@@ -36487,18 +36798,23 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ResellGiftInfoMinTON",
+      "value": "Minimálna cena: %s GRAM"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ResellGiftInfoTON",
       "value": "Dostanete **%s** GRAM."
     },
     {
       "_": "types.LangPackString",
       "key": "ResellGiftPriceHintOnlyTON",
-      "value": "Ak vám kupujúci zaplatí v GRAM, nie hviezdičkami, nemôže žiadať o vrátenie platby."
+      "value": "Ak vám kupujúci zaplatí v gramoch, nie hviezdičkami, nemôže žiadať o vrátenie platby."
     },
     {
       "_": "types.LangPackString",
       "key": "ResellGiftPriceOnlyTON",
-      "value": "Prijímať iba GRAM"
+      "value": "Prijímať iba gramy"
     },
     {
       "_": "types.LangPackString",
@@ -36508,7 +36824,7 @@
     {
       "_": "types.LangPackString",
       "key": "ResellGiftPriceTitleTON",
-      "value": "Zadajte cenu v GRAM"
+      "value": "Zadajte cenu v gramoch"
     },
     {
       "_": "types.LangPackString",
@@ -36528,7 +36844,7 @@
     {
       "_": "types.LangPackString",
       "key": "ResellGiftTitleTON",
-      "value": "Cena v GRAM"
+      "value": "Cena v gramoch"
     },
     {
       "_": "types.LangPackString",
@@ -37054,15 +37370,15 @@
     {
       "_": "types.LangPackString",
       "key": "SMSFee3Text",
-      "value": "Predplaťte si týždenné predplatné Telegram Prémium, ktoré vám pomôže pokryť náklady na SMS."
+      "value": "Kúpte si predplatné Telegram Prémium na 1 týždeň, ktoré pomôže pokryť náklady na SMS."
     },
     {
       "_": "types.LangPackStringPluralized",
-      "few_value": "Predplatenie Telegram Prémium na %d dni vám pomôže kompenzovať náklady na SMS.",
+      "few_value": "Kúpte si Telegram Prémium na %d dni vám pomôže kompenzovať náklady na SMS.",
       "key": "SMSFee3TextDays",
       "many_value": "",
-      "one_value": "Predplatenie Telegram Prémium na %d deň vám pomôže kompenzovať náklady na SMS.",
-      "other_value": "Predplatenie Telegram Prémium na %d dní vám pomôže kompenzovať náklady na SMS."
+      "one_value": "Kúpte si Telegram Prémium na %d deň, to pomôže kompenzovať náklady na SMS.",
+      "other_value": "Kúpte si Telegram Prémium na %d dní, to pomôže kompenzovať náklady na SMS."
     },
     {
       "_": "types.LangPackString",
@@ -41572,6 +41888,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "StarsTransactionTONDate",
+      "value": "Dátum transakcie v gramoch"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "StarsTransactionTOS",
       "value": "Prečítajte si **Podmienky** pre nákup a používanie hviezdičiek."
     },
@@ -43575,7 +43896,7 @@
     {
       "_": "types.LangPackString",
       "key": "StoryViewsPremiumHint",
-      "value": "Zoznam divákov pre exspirované a zverejnené príbehy odomknete predplatením **Telegram Prémium**."
+      "value": "Zoznam budúcich divákov pre exspirované a zverejnené príbehy odomknete predplatením **Telegram Prémium**."
     },
     {
       "_": "types.LangPackString",
@@ -43932,8 +44253,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "SuggestionAgreementReachedAdmin3TON",
+      "value": "⏳ **%s** dostane **gramy**, ak bude príspevok zverejnený **%d** hod."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "SuggestionAgreementReachedAdmin4",
       "value": "🔁Odmena bude vrátená, ak **%s** nenechá príspevok zverejnený aspoň **%d** hodín."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SuggestionAgreementReachedAdmin4TON",
+      "value": "🔁 Ak **%s** odstráni príspevok skôr, ako bude zverejnený **%d** hod., **gramy** budú používateľovi vrátené."
     },
     {
       "_": "types.LangPackString",
@@ -43952,8 +44283,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "SuggestionAgreementReachedUser3TON",
+      "value": "⏳ **%s** dostane **gramy**, ak bude príspevok zverejnený **%d** hod."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "SuggestionAgreementReachedUser4",
       "value": "🔁Platba bude vrátená, ak **%s** nenechá príspevok zverejnený aspoň **%d** hodín."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SuggestionAgreementReachedUser4TON",
+      "value": "🔁 Ak **%s** odstráni príspevok skôr, ako bude zverejnený **%d** hod., **gramy** vám budú vrátené."
     },
     {
       "_": "types.LangPackString",
@@ -44013,7 +44354,7 @@
     {
       "_": "types.LangPackString",
       "key": "SuggestionTONWillBeLost",
-      "value": "GRAM sa stratí"
+      "value": "Gramy sa stratia"
     },
     {
       "_": "types.LangPackString",
@@ -44228,12 +44569,12 @@
     {
       "_": "types.LangPackString",
       "key": "TONBalanceText",
-      "value": "Použite GRAM na nákup darčekov a navrhovanie príspevkov pre kanály."
+      "value": "Použite gramy na nákup darčekov a navrhovanie príspevkov pre kanály."
     },
     {
       "_": "types.LangPackString",
       "key": "TONBalanceTitle",
-      "value": "Zostatok GRAM"
+      "value": "Zostatok gramov"
     },
     {
       "_": "types.LangPackString",
@@ -45370,11 +45711,11 @@
     },
     {
       "_": "types.LangPackStringPluralized",
-      "few_value": "%d GRAM",
+      "few_value": "%d gramy",
       "key": "TonCount",
       "many_value": "%d GRAM",
-      "one_value": "%d GRAM",
-      "other_value": "%d GRAM"
+      "one_value": "%d gram",
+      "other_value": "%d gramov"
     },
     {
       "_": "types.LangPackString",
@@ -45383,8 +45724,13 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "TonNeededTextGiftBuyResale",
+      "value": "Kúpte si **gramy**, ktoré môžete minúť na darčeky."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "TonNeededTextSuggestMessage",
-      "value": "Kúpte si **GRAM** a navrhnite príspevok pre **%s** a ďalších."
+      "value": "Kúpte si **gramy** a navrhnite príspevok pre **%s** a ďalších."
     },
     {
       "_": "types.LangPackString",
@@ -45464,7 +45810,7 @@
     {
       "_": "types.LangPackString",
       "key": "TopUpViaFragmentInfo",
-      "value": "Zostatok GRAM si môžete dobiť cez Fragment."
+      "value": "Zostatok gramov si môžete navýšiť cez Fragment."
     },
     {
       "_": "types.LangPackString",
@@ -49751,6 +50097,59 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WelcomeMessage",
+      "value": "Uvítacia správa"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WelcomeMessageEmptySubtitle",
+      "value": "Noví členovia automaticky\nuvidia túto správu."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WelcomeMessageEmptyTitle",
+      "value": "Pridať uvítaciu\nsprávu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WelcomeMessageEnter",
+      "value": "Pridať správu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WelcomeMessageHint",
+      "value": "Noví členovia uvidia tieto správy po pripojení"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WelcomeMessageHint2",
+      "value": "Správu odstránite klepnutím na ňu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WelcomeMessageOff",
+      "value": "Vyp."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WelcomeMessageRevert",
+      "value": "Vrátiť späť"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WelcomeMessageRevertInfo",
+      "value": "obnoví pôvodný\nobsah správy"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Pridať môžete len **%d** správy.",
+      "key": "WelcomeMessagesLimit",
+      "many_value": "",
+      "one_value": "Pridať môžete len **%d** správu.",
+      "other_value": "Pridať môžete len **%d** správ."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WhenConnectedOnWiFi",
       "value": "Pri pripojení k Wi-Fi"
     },
@@ -50337,5 +50736,5 @@
       "value": "Telegram pas"
     }
   ],
-  "version": 60132272
+  "version": 60525755
 }
