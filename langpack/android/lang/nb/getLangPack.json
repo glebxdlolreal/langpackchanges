@@ -1919,6 +1919,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ActionJoinedFromCommunityUser",
+      "value": "un2 ble med i gruppen via un1-samfunnet"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ActionJoinedFromCommunityYou",
+      "value": "Du ble med i gruppen via un1-samfunnet"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ActionJoinedFromCommunityYouChannel",
+      "value": "Du ble med i kanalen via un1-samfunnet"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ActionKickUser",
       "value": "un1 utestengte un2"
     },
@@ -3857,8 +3872,8 @@
     {
       "_": "types.LangPackStringPluralized",
       "key": "ApproveNewMembersDisableForLinksChannel",
-      "one_value": "Vil du også deaktivere **godkjenning av nye abonnenter** for **%1$d eksisterende invitasjonslenke** i denne kanalen?",
-      "other_value": "Vil du også deaktivere **godkjenning av nye abonnenter** for **%1$d eksisterende invitasjonslenker** i denne kanalen?"
+      "one_value": "Vil du også deaktivere **godkjenning av nye medlemmer** for **%1$d eksisterende invitasjonslenke** i denne kanalen?",
+      "other_value": "Vil du også deaktivere **godkjenning av nye medlemmer** for **%1$d eksisterende invitasjonslenker** i denne kanalen?"
     },
     {
       "_": "types.LangPackString",
@@ -3884,8 +3899,8 @@
     {
       "_": "types.LangPackStringPluralized",
       "key": "ApproveNewMembersEnableForLinksChannel",
-      "one_value": "Vil du også aktivere **godkjenning av nye abonnenter** for **%1$d eksisterende invitasjonslenke** i denne kanalen?",
-      "other_value": "Vil du også aktivere **godkjenning av nye abonnenter** for **%1$d eksisterende invitasjonslenker** i denne kanalen?"
+      "one_value": "Vil du også aktivere **godkjenning av nye medlemmer** for **%1$d eksisterende invitasjonslenke** i denne kanalen?",
+      "other_value": "Vil du også aktivere **godkjenning av nye medlemmer** for **%1$d eksisterende invitasjonslenker** i denne kanalen?"
     },
     {
       "_": "types.LangPackString",
@@ -4811,7 +4826,7 @@
     {
       "_": "types.LangPackString",
       "key": "ArticleListTodo",
-      "value": "Gjøremål"
+      "value": "Sjekkliste"
     },
     {
       "_": "types.LangPackString",
@@ -17425,6 +17440,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "EditAdminBotChannelSendWelcomeMessages",
+      "value": "Sende velkomstmeldinger"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EditAdminBotGroupSendWelcomeMessages",
+      "value": "Sende velkomstmeldinger"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "EditAdminCantEdit",
       "value": "Du kan ikke redigere rettighetene til denne administratoren."
     },
@@ -17602,6 +17627,11 @@
       "_": "types.LangPackString",
       "key": "EditAdminTransferSetPassword",
       "value": "Angi passord"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EditAdminUserManageWelcomeMessages",
+      "value": "Administrere velkomstmeldinger"
     },
     {
       "_": "types.LangPackString",
@@ -24430,6 +24460,41 @@
       "value": "Gave låst"
     },
     {
+      "_": "types.LangPackString",
+      "key": "GiftMessageAddDescription",
+      "value": "Du kan legge til en melding til **%1$s** eller sende **%2$s** med en gang."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftMessageAddHint",
+      "value": "Legg til en melding..."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftMessageAddTitle",
+      "value": "Legg til en melding"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftMessageHint",
+      "value": "Meldingen din..."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftMessageMakeMessagePublic",
+      "value": "Gjør meldingen offentlig"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftMessagePreviewInChat",
+      "value": "Slik vil det se ut i samtalen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftMessageSendNow",
+      "value": "Send nå"
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "key": "GiftMonths",
       "one_value": "%1$d-måneds",
@@ -25095,6 +25160,11 @@
       "_": "types.LangPackString",
       "key": "GiftTopAction",
       "value": "**%1$s** sendte deg denne gaven **%2$s**"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftTopActionFromTo",
+      "value": "**%1$s** sendte denne gaven til **%2$s** den **%3$s**"
     },
     {
       "_": "types.LangPackString",
@@ -41773,12 +41843,12 @@
     {
       "_": "types.LangPackString",
       "key": "RevenueSharingAdsInfo1Subtitle",
-      "value": "Annonser på Telegram bruker ikke dine personlige opplysninger og er basert på kanalen de vises i."
+      "value": "Vi bruker ikke innholdet i dine private samtaler eller kontaktlister til målretting av annonser eller andre kommersielle formål."
     },
     {
       "_": "types.LangPackString",
       "key": "RevenueSharingAdsInfo1SubtitleBot",
-      "value": "Annonser på Telegram bruker ikke din personlige informasjon og er basert på den roboten du ser dem i."
+      "value": "Vi bruker ikke innholdet i dine private samtaler eller kontaktlister til målretting av annonser eller andre kommersielle formål."
     },
     {
       "_": "types.LangPackString",
@@ -41828,7 +41898,7 @@
     {
       "_": "types.LangPackString",
       "key": "RevenueSharingAdsInfo4Subtitle2",
-      "value": "Alle kan opprette en annonse som skal vises i denne roboten, selv på små budsjett. Se **Telegram Annonseplattform** for mer informasjon. %1$s"
+      "value": "Hvem som helst kan publisere annonser på Telegram, selv på små budsjett. Se **Telegram Annonseplattform** for mer informasjon. %1$s"
     },
     {
       "_": "types.LangPackString",
@@ -41934,7 +42004,7 @@
     {
       "_": "types.LangPackString",
       "key": "RichEditorButtonCopyText",
-      "value": "Knappens kopieringstekst"
+      "value": "Teksten som skal kopieres"
     },
     {
       "_": "types.LangPackString",
@@ -52489,6 +52559,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "UniqueGiftFrom",
+      "value": "Fra **%s**"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "UniqueGiftNotFound",
       "value": "Gave ble ikke funnet."
     },
@@ -52744,7 +52819,7 @@
     {
       "_": "types.LangPackString",
       "key": "UnsupportedUpdate",
-      "value": "oppdater"
+      "value": "Oppdater"
     },
     {
       "_": "types.LangPackString",
@@ -57006,5 +57081,5 @@
       "value": "Telegram Passport"
     }
   ],
-  "version": 60400171
+  "version": 60525359
 }

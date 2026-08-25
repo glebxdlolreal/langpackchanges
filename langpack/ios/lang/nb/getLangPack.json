@@ -292,7 +292,7 @@
     {
       "_": "types.LangPackString",
       "key": "AdsInfo.Bot.Respect.Text",
-      "value": "Annonser på Telegram bruker ikke din personlige informasjon og er basert på den roboten du ser dem i."
+      "value": "Vi bruker ikke innholdet i dine private samtaler eller kontaktlister til målretting av annonser eller andre kommersielle formål."
     },
     {
       "_": "types.LangPackString",
@@ -312,7 +312,7 @@
     {
       "_": "types.LangPackString",
       "key": "AdsInfo.Launch.Text",
-      "value": "Alle kan opprette en annonse som skal vises i denne roboten, selv på små budsjett. Se Telegram Annonseplattform for mer informasjon. [Les mer]()"
+      "value": "Hvem som helst kan publisere annonser på Telegram, selv på små budsjett. Se Telegram Annonseplattform for mer informasjon. [Les mer]()"
     },
     {
       "_": "types.LangPackString",
@@ -327,7 +327,7 @@
     {
       "_": "types.LangPackString",
       "key": "AdsInfo.Respect.Text",
-      "value": "Annonser på Telegram bruker ikke dine personlige opplysninger og er basert på kanalen de vises i."
+      "value": "Vi bruker ikke innholdet i dine private samtaler eller kontaktlister til målretting av annonser eller andre kommersielle formål."
     },
     {
       "_": "types.LangPackString",
@@ -8487,6 +8487,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Channel.EditAdmin.PermissionManageWelcomeMessages",
+      "value": "Administrere velkomstmeldinger"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Channel.EditAdmin.PermissionPinMessages",
       "value": "Feste meldinger"
     },
@@ -8509,6 +8514,16 @@
       "_": "types.LangPackString",
       "key": "Channel.EditAdmin.PermissionProcessJoinRequestsInfo",
       "value": "Tillat denne roboten å godkjenne nye medlemmer ved å bruke sine egne grensesnitt, for eksempel captchas."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Channel.EditAdmin.PermissionSendWelcomeMessagesChannel",
+      "value": "Sende velkomstmeldinger"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Channel.EditAdmin.PermissionSendWelcomeMessagesGroup",
+      "value": "Sende velkomstmeldinger"
     },
     {
       "_": "types.LangPackString",
@@ -10692,6 +10707,31 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Chat.EphemeralMessage.AnchoredInfo",
+      "value": "Denne versjonen av meldingen er bare synlig for deg."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.EphemeralMessage.Badge",
+      "value": "Bare synlig for %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.EphemeralMessage.BadgeYou",
+      "value": "Bare synlig for deg"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.EphemeralMessage.Revert",
+      "value": "Gjenopprett"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.EphemeralMessage.RevertInfo",
+      "value": "Gjenoppretter meldingen til dens opprinnelige innhold"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Chat.ErrorCantBoost",
       "value": "Beklager, du kan ikke booste denne gruppen eller kanalen."
     },
@@ -11891,6 +11931,11 @@
       "_": "types.LangPackString",
       "key": "Chat.Placeholder.QuickReply",
       "value": "Legg til hurtigsvar…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Placeholder.WelcomeMessage",
+      "value": "Legg til en melding..."
     },
     {
       "_": "types.LangPackString",
@@ -20394,6 +20439,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Conversation.UnsupportedMedia.Action",
+      "value": "Oppdater"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Conversation.UnsupportedMedia.Text",
+      "value": "Oppdater Telegram for å se denne meldingen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Conversation.UnsupportedMedia.Title",
+      "value": "Melding som ikke støttes"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Conversation.UnsupportedMediaPlaceholder",
       "value": "Denne meldingen støttes ikke i din versjon av Telegram. Vennligst oppdater appen til nyeste versjon."
     },
@@ -24761,6 +24821,41 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift.Message.InputPlaceholder",
+      "value": "Legg til en melding…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Message.MakePublic",
+      "value": "Gjør meldingen offentlig"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Message.PreviewInChat",
+      "value": "Slik vil det se ut i samtalen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Message.SendNow",
+      "value": "Send nå"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Message.ToastText",
+      "value": "Du kan legge til en melding til **%@** eller sende **%@** med en gang."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Message.ToastTitle",
+      "value": "Legg til en melding"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Message.YourMessage",
+      "value": "Meldingen din..."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gift.Offer.Duration",
       "value": "Tilbudets varighet"
     },
@@ -28169,6 +28264,11 @@
       "_": "types.LangPackString",
       "key": "GroupInfo.UpgradeButton",
       "value": "Forandre til supergruppe"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GroupInfo.WelcomeMessages",
+      "value": "Velkomstmelding"
     },
     {
       "_": "types.LangPackString",
@@ -34958,6 +35058,16 @@
       "_": "types.LangPackString",
       "key": "Notification.JoinedGroupByRequestYou",
       "value": "Din medlemsforespørsel ble godkjent"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.JoinedGroupViaCommunity",
+      "value": "%@ ble med i gruppen via et samfunn"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.JoinedGroupViaCommunityYou",
+      "value": "Du ble med i gruppen via et samfunn"
     },
     {
       "_": "types.LangPackString",
@@ -46080,6 +46190,111 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "RichText.ButtonActionCopy",
+      "value": "Kopierer tekst"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.ButtonActionDisabled",
+      "value": "Deaktivert"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.ButtonActionNotEditable",
+      "value": "Denne knappens handling kan ikke redigeres"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.ButtonDelete",
+      "value": "Slett knapp"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.ButtonEditorTitle",
+      "value": "Knapp"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.ButtonLabelPlaceholder",
+      "value": "Tekst"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.ButtonRowAdd",
+      "value": "Legg til knapp"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.ButtonRowAlignCenter",
+      "value": "Sentrer"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.ButtonRowAlignJustify",
+      "value": "Blokkjustering"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.ButtonRowAlignLeft",
+      "value": "Venstre"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.ButtonRowAlignRight",
+      "value": "Høyre"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.ButtonRowAlignment",
+      "value": "Justering"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.ButtonRowDelete",
+      "value": "Slett rad"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.ButtonSectionContent",
+      "value": "INNHOLD"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.ButtonSectionStyle",
+      "value": "STIL"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.ButtonStyleDanger",
+      "value": "Rød"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.ButtonStyleDefault",
+      "value": "Standard"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.ButtonStyleLink",
+      "value": "Lenke"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.ButtonStylePrimary",
+      "value": "Blå"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.ButtonStyleSuccess",
+      "value": "Grønn"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.ButtonURLPlaceholder",
+      "value": "URL"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "RichText.FormulaAdd",
       "value": "Legg til formel"
     },
@@ -46130,6 +46345,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "RichText.Menu.List.Detail",
+      "value": "Veksle blokk"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "RichText.Menu.List.None",
       "value": "Ingen"
     },
@@ -46137,6 +46357,26 @@
       "_": "types.LangPackString",
       "key": "RichText.Menu.List.Numbered",
       "value": "Nummerert liste"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.Menu.Table.BordersOff",
+      "value": "Skjul kantlinjer"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.Menu.Table.BordersOn",
+      "value": "Vis kantlinjer"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.Menu.Table.CompactOff",
+      "value": "Utvid"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.Menu.Table.CompactOn",
+      "value": "Kompakt"
     },
     {
       "_": "types.LangPackString",
@@ -46165,6 +46405,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "RichText.MenuButtonRow",
+      "value": "Knapperad"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "RichText.MenuCode",
       "value": "Kode"
     },
@@ -46182,6 +46427,11 @@
       "_": "types.LangPackString",
       "key": "RichText.MenuHeadingItem",
       "value": "Overskrift %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.MenuInlineButton",
+      "value": "Knapp"
     },
     {
       "_": "types.LangPackString",
@@ -46207,6 +46457,11 @@
       "_": "types.LangPackString",
       "key": "RichText.PlaceholderCode",
       "value": "Skriv kode her"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.PlaceholderDetailTitle",
+      "value": "Tittel"
     },
     {
       "_": "types.LangPackString",
@@ -51750,6 +52005,11 @@
       "_": "types.LangPackString",
       "key": "StorageManagement.ClearConfirmationText",
       "value": "Mediefiler og dokumenter vil bli værende i skyen og kan lastes ned på nytt dersom du skulle trenge de igjen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StorageManagement.ClearConfirmationTitle",
+      "value": "Tøm hurtiglager"
     },
     {
       "_": "types.LangPackString",
@@ -60064,6 +60324,42 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WelcomeMessages.EmptyText",
+      "value": "Ønsk ny medlemmer velkommen automatisk når de blir med."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WelcomeMessages.EmptyTitle",
+      "value": "Opprett en velkomstmelding"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "WelcomeMessages.MessageLimitReachedText",
+      "one_value": "Grensen på %@ melding er nådd",
+      "other_value": "Grensen på %@ meldinger er nådd"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WelcomeMessages.Off",
+      "value": "Av"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WelcomeMessages.ServiceHeader1",
+      "value": "Nye medlemmer vil se disse meldingene når de blir med"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WelcomeMessages.ServiceHeader2",
+      "value": "Trykk og hold på den for å slette den"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WelcomeMessages.Title",
+      "value": "Velkomstmelding"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Widget.ApplicationLocked",
       "value": "Lås opp appen for å bruke widgeten"
     },
@@ -60158,5 +60454,5 @@
       "value": "Du har oppgitt en ugyldig sikkerhetskode."
     }
   ],
-  "version": 21780037
+  "version": 21835419
 }
