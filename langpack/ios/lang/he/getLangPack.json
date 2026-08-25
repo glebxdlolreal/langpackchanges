@@ -294,7 +294,7 @@
     {
       "_": "types.LangPackString",
       "key": "AdsInfo.Bot.Respect.Text",
-      "value": "מודעות בטלגרם אינן משתמשות במידע האישי שלך והן מבוססות על הבוט שבו אתה רואה אותן."
+      "value": "איננו משתמשים בתוכן הצ'אטים הפרטיים או רשימות אנשי הקשר שלך למטרות מיקוד פרסומיות או למטרות מסחריות אחרות."
     },
     {
       "_": "types.LangPackString",
@@ -314,7 +314,7 @@
     {
       "_": "types.LangPackString",
       "key": "AdsInfo.Launch.Text",
-      "value": "כל אחד יכול ליצור מודעה שתוצג בערוץ הזה - בתקציבים מינימליים. בדוק את פלטפורמת המודעות של טלגרם לפרטים. [למד עוד >]()"
+      "value": "כל אחד יכול ליצור מודעות בטלגרם - בתקציבים מינימליים. בדוק את פלטפורמת המודעות של טלגרם לפרטים. [למד עוד >]()"
     },
     {
       "_": "types.LangPackString",
@@ -329,7 +329,7 @@
     {
       "_": "types.LangPackString",
       "key": "AdsInfo.Respect.Text",
-      "value": "מודעות בטלגרם אינן משתמשות במידע האישי שלך והן מבוססות על הערוץ שבו הן מופיעות."
+      "value": "איננו משתמשים בתוכן הצ'אטים הפרטיים או רשימות אנשי הקשר שלך למטרות מיקוד פרסומיות או למטרות מסחריות אחרות."
     },
     {
       "_": "types.LangPackString",
@@ -8571,6 +8571,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Channel.EditAdmin.PermissionManageWelcomeMessages",
+      "value": "ניהול הודעות ברכה"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Channel.EditAdmin.PermissionPinMessages",
       "value": "לנעוץ הודעות"
     },
@@ -8593,6 +8598,16 @@
       "_": "types.LangPackString",
       "key": "Channel.EditAdmin.PermissionProcessJoinRequestsInfo",
       "value": "אפשר לבוט זה לאשר חברים חדשים באמצעות ממשקים משלו, כגון captcha."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Channel.EditAdmin.PermissionSendWelcomeMessagesChannel",
+      "value": "שליחת הודעות ברכה"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Channel.EditAdmin.PermissionSendWelcomeMessagesGroup",
+      "value": "שליחת הודעות ברכה"
     },
     {
       "_": "types.LangPackString",
@@ -10826,6 +10841,31 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Chat.EphemeralMessage.AnchoredInfo",
+      "value": "גרסה זו של ההודעה גלויה רק לך."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.EphemeralMessage.Badge",
+      "value": "גלוי רק ל⁨%@⁩"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.EphemeralMessage.BadgeYou",
+      "value": "גלוי רק לך"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.EphemeralMessage.Revert",
+      "value": "שחזר"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.EphemeralMessage.RevertInfo",
+      "value": "משחזר את ההודעה לתוכן המקורי שלה"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Chat.ErrorCantBoost",
       "value": "מצטערים, אינך יכול להעניק בוסט לקבוצה או ערוץ זה."
     },
@@ -12099,6 +12139,11 @@
       "_": "types.LangPackString",
       "key": "Chat.Placeholder.QuickReply",
       "value": "הוסף תגובה מהירה..."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Placeholder.WelcomeMessage",
+      "value": "הוסף הודעה..."
     },
     {
       "_": "types.LangPackString",
@@ -20752,6 +20797,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Conversation.UnsupportedMedia.Action",
+      "value": "עדכן"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Conversation.UnsupportedMedia.Text",
+      "value": "עדכן את טלגרם כדי להציג הודעה זו"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Conversation.UnsupportedMedia.Title",
+      "value": "הודעה לא נתמכת"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Conversation.UnsupportedMediaPlaceholder",
       "value": "הודעה זו אינה נתמכת בגרסת הטלגרם שלך. נא לעדכן לגרסה האחרונה."
     },
@@ -22656,7 +22716,7 @@
     {
       "_": "types.LangPackString",
       "key": "EmojiInput.PremiumEmojiToast.Text",
-      "value": "הירשם לטלגרם פרימיום כדי לקבל אימוג'ים פרימיום."
+      "value": "הירשם לTelegram Premium כדי לקבל אימוג'ים פרימיום."
     },
     {
       "_": "types.LangPackString",
@@ -25270,6 +25330,41 @@
       "_": "types.LangPackString",
       "key": "Gift.Hidden.Title",
       "value": "המתנה הוסרה מהפרופיל"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Message.InputPlaceholder",
+      "value": "הוסף הודעה..."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Message.MakePublic",
+      "value": "הפוך את ההודעה לפומבית"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Message.PreviewInChat",
+      "value": "תצוגה מקדימה בצ'אט"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Message.SendNow",
+      "value": "שלח עכשיו"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Message.ToastText",
+      "value": "באפשרותך להוסיף הודעה ל**⁨%@⁩** או לשלוח **⁨%@⁩** מיד."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Message.ToastTitle",
+      "value": "הוסף הודעה"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Message.YourMessage",
+      "value": "ההודעה שלך..."
     },
     {
       "_": "types.LangPackString",
@@ -28763,6 +28858,11 @@
       "_": "types.LangPackString",
       "key": "GroupInfo.UpgradeButton",
       "value": "שדרג לקבוצת על"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GroupInfo.WelcomeMessages",
+      "value": "הודעת ברכה"
     },
     {
       "_": "types.LangPackString",
@@ -32923,7 +33023,7 @@
     {
       "_": "types.LangPackString",
       "key": "MediaPicker.Timer.Description",
-      "value": "בחר למשל כמה זמן המדיה תשמר לאחר הפתיחה."
+      "value": "בחר למשך כמה זמן המדיה תשמר לאחר הפתיחה."
     },
     {
       "_": "types.LangPackString",
@@ -35760,6 +35860,16 @@
       "_": "types.LangPackString",
       "key": "Notification.JoinedGroupByRequestYou",
       "value": "בקשת ההצטרפות שלך לקבוצה אושרה"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.JoinedGroupViaCommunity",
+      "value": "⁨%@⁩ הצטרף/ה לקבוצה דרך קהילה"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.JoinedGroupViaCommunityYou",
+      "value": "הצטרפת לקבוצה דרך קהילה"
     },
     {
       "_": "types.LangPackString",
@@ -47080,6 +47190,106 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "RichText.ButtonActionCopy",
+      "value": "מעתיק טקסט"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.ButtonActionDisabled",
+      "value": "מושבת"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.ButtonActionNotEditable",
+      "value": "לא ניתן לערוך את פעולת כפתור זה"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.ButtonDelete",
+      "value": "מחק כפתור"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.ButtonEditorTitle",
+      "value": "כפתור"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.ButtonLabelPlaceholder",
+      "value": "תגית"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.ButtonRowAdd",
+      "value": "הוסף כפתור"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.ButtonRowAlignCenter",
+      "value": "מרכז"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.ButtonRowAlignLeft",
+      "value": "שמאל"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.ButtonRowAlignRight",
+      "value": "ימין"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.ButtonRowAlignment",
+      "value": "יישור"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.ButtonRowDelete",
+      "value": "מחק שורה"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.ButtonSectionContent",
+      "value": "תוכן"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.ButtonSectionStyle",
+      "value": "סגנון"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.ButtonStyleDanger",
+      "value": "אדום"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.ButtonStyleDefault",
+      "value": "ברירת מחדל"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.ButtonStyleLink",
+      "value": "קישור"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.ButtonStylePrimary",
+      "value": "כחול"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.ButtonStyleSuccess",
+      "value": "ירוק"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.ButtonURLPlaceholder",
+      "value": "קישור"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "RichText.FormulaAdd",
       "value": "הוסף נוסחה"
     },
@@ -47130,6 +47340,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "RichText.Menu.List.Detail",
+      "value": "בלוק"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "RichText.Menu.List.None",
       "value": "ללא"
     },
@@ -47137,6 +47352,26 @@
       "_": "types.LangPackString",
       "key": "RichText.Menu.List.Numbered",
       "value": "רשימה ממוספרת"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.Menu.Table.BordersOff",
+      "value": "הסתר גבולות"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.Menu.Table.BordersOn",
+      "value": "הצג גבולות"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.Menu.Table.CompactOff",
+      "value": "הסר צמצום"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.Menu.Table.CompactOn",
+      "value": "מצומצם"
     },
     {
       "_": "types.LangPackString",
@@ -47165,6 +47400,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "RichText.MenuButtonRow",
+      "value": "שורת כפתור"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "RichText.MenuCode",
       "value": "קוד"
     },
@@ -47182,6 +47422,11 @@
       "_": "types.LangPackString",
       "key": "RichText.MenuHeadingItem",
       "value": "כותרת ⁨%@⁩"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.MenuInlineButton",
+      "value": "כפתור"
     },
     {
       "_": "types.LangPackString",
@@ -47207,6 +47452,11 @@
       "_": "types.LangPackString",
       "key": "RichText.PlaceholderCode",
       "value": "הכנס כאן קוד"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.PlaceholderDetailTitle",
+      "value": "כותרת"
     },
     {
       "_": "types.LangPackString",
@@ -52956,6 +53206,11 @@
       "_": "types.LangPackString",
       "key": "StorageManagement.ClearConfirmationText",
       "value": "המדיה והמסמכים ישארו בענן וניתן להוריד אותם שוב בכל עת."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StorageManagement.ClearConfirmationTitle",
+      "value": "נקה מטמון"
     },
     {
       "_": "types.LangPackString",
@@ -61422,6 +61677,36 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WelcomeMessages.EmptyText",
+      "value": "קבל בברכה אוטומטית חברים חדשים כשהם מצטרפים."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WelcomeMessages.EmptyTitle",
+      "value": "צור הודעת ברכה"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WelcomeMessages.Off",
+      "value": "כבוי"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WelcomeMessages.ServiceHeader1",
+      "value": "חברים חדשים יראו את ההודעה הזאת כשהם יצטרפו"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WelcomeMessages.ServiceHeader2",
+      "value": "לחץ כדי למחוק אותה"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WelcomeMessages.Title",
+      "value": "הודעת ברכה"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Widget.ApplicationLocked",
       "value": "פתח את האפליקציה כדי להשתמש ביישום"
     },
@@ -61516,5 +61801,5 @@
       "value": "קוד האבטחה שהזנת שגוי."
     }
   ],
-  "version": 21821307
+  "version": 21836446
 }

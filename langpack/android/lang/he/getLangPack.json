@@ -1947,6 +1947,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ActionJoinedFromCommunityUser",
+      "value": "⁨un2⁩ הצטרף/ה לקבוצה דרך הקהילה ⁨un1⁩"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ActionJoinedFromCommunityYou",
+      "value": "הצטרפת לקבוצה דרך הקהילה ⁨un1⁩"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ActionJoinedFromCommunityYouChannel",
+      "value": "הצטרפת לערוץ דרך הקהילה ⁨un1⁩"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ActionKickUser",
       "value": "⁨un1⁩ הסיר/ה את ⁨un2⁩"
     },
@@ -4901,7 +4916,7 @@
     {
       "_": "types.LangPackString",
       "key": "ArticleListTodo",
-      "value": "מטלות"
+      "value": "רשימת משימות"
     },
     {
       "_": "types.LangPackString",
@@ -13049,7 +13064,7 @@
     {
       "_": "types.LangPackString",
       "key": "ChannelSettingsJoinRequestInfo2",
-      "value": "מנהל צריך לאשר כל משתמש שרוצה להצטרף לערוץ."
+      "value": "מנהל צריך לאשר משתמשים שרוצים להצטרף לערוץ."
     },
     {
       "_": "types.LangPackString",
@@ -17895,6 +17910,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "EditAdminBotChannelSendWelcomeMessages",
+      "value": "שליחת הודעות ברכה"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EditAdminBotGroupSendWelcomeMessages",
+      "value": "שליחת הודעות ברכה"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "EditAdminCantEdit",
       "value": "אין באפשרותך לערוך את ההרשאות של מנהל זה."
     },
@@ -18072,6 +18097,11 @@
       "_": "types.LangPackString",
       "key": "EditAdminTransferSetPassword",
       "value": "הגדר סיסמה"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EditAdminUserManageWelcomeMessages",
+      "value": "ניהול הודעות ברכה"
     },
     {
       "_": "types.LangPackString",
@@ -25142,6 +25172,41 @@
       "value": "המתנה נעולה"
     },
     {
+      "_": "types.LangPackString",
+      "key": "GiftMessageAddDescription",
+      "value": "באפשרותך להוסיף הודעה ל**⁨%1$s⁩** או לשלוח **⁨%2$s⁩** מיד."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftMessageAddHint",
+      "value": "הוסף הודעה..."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftMessageAddTitle",
+      "value": "הוסף הודעה"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftMessageHint",
+      "value": "ההודעה שלך..."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftMessageMakeMessagePublic",
+      "value": "הפוך את ההודעה לפומבית"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftMessagePreviewInChat",
+      "value": "תצוגה מקדימה בצ'אט"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftMessageSendNow",
+      "value": "שלח עכשיו"
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "key": "GiftMonths",
       "many_value": "⁨%1$d⁩ חודשים",
@@ -25831,6 +25896,11 @@
       "_": "types.LangPackString",
       "key": "GiftTopAction",
       "value": "**⁨%1$s⁩** שלח/ה לך מתנה זו ב**⁨%2$s⁩**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftTopActionFromTo",
+      "value": "**⁨%1$s⁩** שלח/ה מתנה זו ל**⁨%2$s⁩** ב**⁨%3$s⁩**"
     },
     {
       "_": "types.LangPackString",
@@ -26675,7 +26745,7 @@
     {
       "_": "types.LangPackString",
       "key": "GroupPrivateSettingsJoinRequestInfoManagedBy",
-      "value": "מנהל צריך לאשר כל משתמש שרוצה להצטרף לקבוצה. מנוהל על ידי **⁨%s⁩**"
+      "value": "מנהל צריך לאשר משתמשים שרוצים להצטרף לקבוצה. מנוהל על ידי **⁨%s⁩**"
     },
     {
       "_": "types.LangPackString",
@@ -26685,7 +26755,7 @@
     {
       "_": "types.LangPackString",
       "key": "GroupPublicSettingsJoinRequestInfo2",
-      "value": "מנהל חייב לאשר משתמשים שרוצים לשלוח הודעות בקבוצה."
+      "value": "מנהל צריך לאשר משתמשים שרוצים לשלוח הודעות בקבוצה."
     },
     {
       "_": "types.LangPackString",
@@ -42867,12 +42937,12 @@
     {
       "_": "types.LangPackString",
       "key": "RevenueSharingAdsInfo1Subtitle",
-      "value": "מודעות בטלגרם אינן משתמשות במידע האישי שלך והן מבוססות על הערוץ שבו הן מופיעות."
+      "value": "איננו משתמשים בתוכן הצ'אטים הפרטיים או רשימות אנשי הקשר שלך למטרות מיקוד פרסומיות או למטרות מסחריות אחרות."
     },
     {
       "_": "types.LangPackString",
       "key": "RevenueSharingAdsInfo1SubtitleBot",
-      "value": "מודעות בטלגרם אינן משתמשות במידע האישי שלך והן מבוססות על הבוט שבו אתה רואה אותן."
+      "value": "איננו משתמשים בתוכן הצ'אטים הפרטיים או רשימות אנשי הקשר שלך למטרות מיקוד פרסומיות או למטרות מסחריות אחרות."
     },
     {
       "_": "types.LangPackString",
@@ -42922,7 +42992,7 @@
     {
       "_": "types.LangPackString",
       "key": "RevenueSharingAdsInfo4Subtitle2",
-      "value": "כל אחד יכול ליצור מודעה שתוצג בערוץ הזה - בתקציבים מינימליים. בדוק את **פלטפורמת המודעות של טלגרם** לפרטים. ⁨%1$s⁩"
+      "value": "כל אחד יכול ליצור מודעות בטלגרם - בתקציבים מינימליים. בדוק את **פלטפורמת המודעות של טלגרם** לפרטים. ⁨%1$s⁩"
     },
     {
       "_": "types.LangPackString",
@@ -43030,7 +43100,7 @@
     {
       "_": "types.LangPackString",
       "key": "RichEditorButtonCopyText",
-      "value": "טקסט כפתור העתק"
+      "value": "טקסט להעתקה"
     },
     {
       "_": "types.LangPackString",
@@ -52342,7 +52412,7 @@
     {
       "_": "types.LangPackString",
       "key": "TimerPeriodHint",
-      "value": "בחר למשל כמה זמן המדיה תשמר לאחר הפתיחה."
+      "value": "בחר למשך כמה זמן המדיה תשמר לאחר הפתיחה."
     },
     {
       "_": "types.LangPackString",
@@ -53844,6 +53914,11 @@
       "_": "types.LangPackString",
       "key": "UnhideFromTop",
       "value": "נעץ"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UniqueGiftFrom",
+      "value": "מ**⁨%s⁩**"
     },
     {
       "_": "types.LangPackString",
@@ -58420,5 +58495,5 @@
       "value": "דרכון טלגרם"
     }
   ],
-  "version": 60491093
+  "version": 60527562
 }
