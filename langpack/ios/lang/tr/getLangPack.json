@@ -292,7 +292,7 @@
     {
       "_": "types.LangPackString",
       "key": "AdsInfo.Bot.Respect.Text",
-      "value": "Telegram'daki reklamlar kişisel bilgilerinizi kullanmaz ve bunları gördüğünüz bota göre belirlenir."
+      "value": "Özel sohbetlerinizin içeriğini veya kişi listelerinizi reklam hedefleme veya diğer ticari amaçlarla kullanmıyoruz."
     },
     {
       "_": "types.LangPackString",
@@ -312,7 +312,7 @@
     {
       "_": "types.LangPackString",
       "key": "AdsInfo.Launch.Text",
-      "value": "Herkes bu kanalda gösterilmek üzere çok düşük bütçelerle reklam oluşturabilir. Ayrıntılar için Telegram Reklam Platformu'na göz atın. [Daha Fazla Bilgi >]()"
+      "value": "Telegram'da herkes, çok düşük bütçelerle reklam yayınlayabilir. Ayrıntılar için Telegram Reklam Platformu'na göz atın. [Daha Fazla Bilgi >]()"
     },
     {
       "_": "types.LangPackString",
@@ -327,7 +327,7 @@
     {
       "_": "types.LangPackString",
       "key": "AdsInfo.Respect.Text",
-      "value": "Telegram'daki Reklamlar kişisel bilgilerinizi kullanmaz ve reklamlar gördüğünüz kanala dayanır."
+      "value": "Özel sohbetlerinizin içeriğini veya kişi listelerinizi reklam hedefleme veya diğer ticari amaçlarla kullanmıyoruz."
     },
     {
       "_": "types.LangPackString",
@@ -8487,6 +8487,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Channel.EditAdmin.PermissionManageWelcomeMessages",
+      "value": "Karşılama Mesajlarını Yönetme"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Channel.EditAdmin.PermissionPinMessages",
       "value": "Mesajları Sabitleme"
     },
@@ -8509,6 +8514,16 @@
       "_": "types.LangPackString",
       "key": "Channel.EditAdmin.PermissionProcessJoinRequestsInfo",
       "value": "Bu botun, captcha gibi kendi arayüzlerini kullanarak yeni üyeleri onaylamasına izin verin."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Channel.EditAdmin.PermissionSendWelcomeMessagesChannel",
+      "value": "Karşılama Mesajları Gönderme"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Channel.EditAdmin.PermissionSendWelcomeMessagesGroup",
+      "value": "Karşılama Mesajları Gönderme"
     },
     {
       "_": "types.LangPackString",
@@ -10692,6 +10707,31 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Chat.EphemeralMessage.AnchoredInfo",
+      "value": "Bu mesajın bu sürümü yalnızca sizin tarafınızdan görülebilir."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.EphemeralMessage.Badge",
+      "value": "Yalnızca %@ tarafından görülebilir"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.EphemeralMessage.BadgeYou",
+      "value": "Sadece siz görebilirsiniz"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.EphemeralMessage.Revert",
+      "value": "Geri Al"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.EphemeralMessage.RevertInfo",
+      "value": "Mesajı orijinal içeriğine geri yükler"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Chat.ErrorCantBoost",
       "value": "Üzgünüz, bu grubu veya kanalı güçlendiremezsiniz."
     },
@@ -11891,6 +11931,11 @@
       "_": "types.LangPackString",
       "key": "Chat.Placeholder.QuickReply",
       "value": "Hızlı yanıt ekle…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Placeholder.WelcomeMessage",
+      "value": "Mesaj ekle..."
     },
     {
       "_": "types.LangPackString",
@@ -20394,6 +20439,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Conversation.UnsupportedMedia.Action",
+      "value": "Güncelle"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Conversation.UnsupportedMedia.Text",
+      "value": "Bu mesajı görüntülemek için Telegram'ı güncelleyin"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Conversation.UnsupportedMedia.Title",
+      "value": "Desteklenmeyen mesaj"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Conversation.UnsupportedMediaPlaceholder",
       "value": "Bu mesaj, Telegram sürümünüz tarafından desteklenmiyor. Lütfen en son sürüme güncelleyin."
     },
@@ -24761,6 +24821,41 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift.Message.InputPlaceholder",
+      "value": "Mesaj ekle..."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Message.MakePublic",
+      "value": "Mesajı herkese açık hale getir"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Message.PreviewInChat",
+      "value": "Sohbette önizle"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Message.SendNow",
+      "value": "Şimdi Gönder"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Message.ToastText",
+      "value": "**%@** için bir mesaj ekleyebilir veya **%@** öğesini hemen gönderebilirsiniz."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Message.ToastTitle",
+      "value": "Mesaj Ekle"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Message.YourMessage",
+      "value": "Mesajınız..."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gift.Offer.Duration",
       "value": "Teklif Süresi"
     },
@@ -28169,6 +28264,11 @@
       "_": "types.LangPackString",
       "key": "GroupInfo.UpgradeButton",
       "value": "Süper gruba yükselt"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GroupInfo.WelcomeMessages",
+      "value": "Karşılama Mesajı"
     },
     {
       "_": "types.LangPackString",
@@ -34958,6 +35058,16 @@
       "_": "types.LangPackString",
       "key": "Notification.JoinedGroupByRequestYou",
       "value": "Gruba katılma isteğiniz onaylandı"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.JoinedGroupViaCommunity",
+      "value": "%@ topluluğu aracılığıyla gruba katıldı"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.JoinedGroupViaCommunityYou",
+      "value": "Topluluk aracılığıyla gruba katıldınız"
     },
     {
       "_": "types.LangPackString",
@@ -46080,6 +46190,111 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "RichText.ButtonActionCopy",
+      "value": "Metni kopyalar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.ButtonActionDisabled",
+      "value": "Devre Dışı"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.ButtonActionNotEditable",
+      "value": "Bu düğmenin eylemi düzenlenemez"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.ButtonDelete",
+      "value": "Sil Düğmesi"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.ButtonEditorTitle",
+      "value": "Düğme"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.ButtonLabelPlaceholder",
+      "value": "Etiket"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.ButtonRowAdd",
+      "value": "Düğme Ekle"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.ButtonRowAlignCenter",
+      "value": "Orta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.ButtonRowAlignJustify",
+      "value": "Hizala"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.ButtonRowAlignLeft",
+      "value": "Sol"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.ButtonRowAlignRight",
+      "value": "Sağ"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.ButtonRowAlignment",
+      "value": "Hizalama"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.ButtonRowDelete",
+      "value": "Satırı Sil"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.ButtonSectionContent",
+      "value": "İÇERİK"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.ButtonSectionStyle",
+      "value": "STİL"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.ButtonStyleDanger",
+      "value": "Kırmızı"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.ButtonStyleDefault",
+      "value": "Varsayılan"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.ButtonStyleLink",
+      "value": "Bağlantı"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.ButtonStylePrimary",
+      "value": "Mavi"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.ButtonStyleSuccess",
+      "value": "Yeşil"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.ButtonURLPlaceholder",
+      "value": "URL"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "RichText.FormulaAdd",
       "value": "Formülü Ekle"
     },
@@ -46130,6 +46345,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "RichText.Menu.List.Detail",
+      "value": "Bloğu Aç/Kapat"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "RichText.Menu.List.None",
       "value": "Hiçbiri"
     },
@@ -46137,6 +46357,26 @@
       "_": "types.LangPackString",
       "key": "RichText.Menu.List.Numbered",
       "value": "Numaralı liste"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.Menu.Table.BordersOff",
+      "value": "Kenarlıkları Gizle"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.Menu.Table.BordersOn",
+      "value": "Kenarlıkları Göster"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.Menu.Table.CompactOff",
+      "value": "Genişlet"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.Menu.Table.CompactOn",
+      "value": "Kompakt"
     },
     {
       "_": "types.LangPackString",
@@ -46165,6 +46405,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "RichText.MenuButtonRow",
+      "value": "Düğme Satırı"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "RichText.MenuCode",
       "value": "Kod"
     },
@@ -46182,6 +46427,11 @@
       "_": "types.LangPackString",
       "key": "RichText.MenuHeadingItem",
       "value": "Başlık %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.MenuInlineButton",
+      "value": "Düğme"
     },
     {
       "_": "types.LangPackString",
@@ -46207,6 +46457,11 @@
       "_": "types.LangPackString",
       "key": "RichText.PlaceholderCode",
       "value": "Buraya kodu yazın"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.PlaceholderDetailTitle",
+      "value": "Başlık"
     },
     {
       "_": "types.LangPackString",
@@ -51750,6 +52005,11 @@
       "_": "types.LangPackString",
       "key": "StorageManagement.ClearConfirmationText",
       "value": "Medya ve belgeler bulutta kalır ve tekrar ihtiyacınız olursa yeniden indirilebilir."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StorageManagement.ClearConfirmationTitle",
+      "value": "Önbelleği Temizle"
     },
     {
       "_": "types.LangPackString",
@@ -60064,6 +60324,37 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WelcomeMessages.EmptyText",
+      "value": "Yeni üyeler katıldıklarında onları otomatik olarak karşılayın."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WelcomeMessages.EmptyTitle",
+      "value": "Bir Karşılama Mesajı Oluşturun"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "WelcomeMessages.MessageLimitReachedText",
+      "one_value": "%@ mesaj sınırına ulaşıldı",
+      "other_value": "%@ mesaj sınırına ulaşıldı"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WelcomeMessages.Off",
+      "value": "Kapalı"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WelcomeMessages.ServiceHeader1",
+      "value": "Yeni üyeler, üye olduklarında bu mesajları görecekler"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WelcomeMessages.ServiceHeader2",
+      "value": "Silmek için üzerine dokunun"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WelcomeMessages.Title",
       "value": "Karşılama Mesajı"
     },
@@ -60163,5 +60454,5 @@
       "value": "Geçersiz bir güvenlik kodu girdiniz."
     }
   ],
-  "version": 21837321
+  "version": 21837418
 }
