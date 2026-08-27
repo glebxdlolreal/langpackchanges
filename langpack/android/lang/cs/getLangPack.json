@@ -1947,6 +1947,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ActionJoinedFromCommunityUser",
+      "value": "un2 se připojil/a do skupiny přes komunitu un1"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ActionJoinedFromCommunityYou",
+      "value": "Připojil/a kste se do skupiny přes komunitu un1"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ActionJoinedFromCommunityYouChannel",
+      "value": "Připojil/a jste se ke kanálu přes komunitu un1"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ActionKickUser",
       "value": "Uživatel un1 vyhodil uživatele un2"
     },
@@ -2270,7 +2285,7 @@
     {
       "_": "types.LangPackString",
       "key": "ActionTTLChanged",
-      "value": "un1 nastavil/a automatické mazání zpráv během %1$s"
+      "value": "un1 nastavil/a automatické mazání zpráv za %1$s"
     },
     {
       "_": "types.LangPackString",
@@ -3938,11 +3953,11 @@
     },
     {
       "_": "types.LangPackStringPluralized",
-      "few_value": "Také zakázat **Schvalovat nové odběratele** pro **%1$d existující pozvánky** v tomto kanálu?",
+      "few_value": "Také zakázat **Schvalovat nové členy** pro **%1$d existující pozvánky** v tomto kanálu?",
       "key": "ApproveNewMembersDisableForLinksChannel",
-      "many_value": "Také zakázat **Schvalovat nové odběratele** pro **%1$d existujících pozvánek** v tomto kanálu?",
-      "one_value": "Také zakázat **Schvalovat nové odběratele** pro **%1$d existující pozvánku** v tomto kanálu?",
-      "other_value": "Také zakázat **Schvalovat nové odběratele** pro **%1$d existujících pozvánek** v tomto kanálu?"
+      "many_value": "Také zakázat **Schvalovat nové členy** pro **%1$d existujících pozvánek** v tomto kanálu?",
+      "one_value": "Také zakázat **Schvalovat nové členy** pro **%1$d existující pozvánku** v tomto kanálu?",
+      "other_value": "Také zakázat **Schvalovat nové členy** pro **%1$d existujících pozvánek** v tomto kanálu?"
     },
     {
       "_": "types.LangPackString",
@@ -5684,7 +5699,7 @@
     {
       "_": "types.LangPackString",
       "key": "AutoDeleteSetInfo",
-      "value": "Zprávy v této konverzaci budou automaticky vymazány %1$s po odeslání."
+      "value": "Zprávy v této konverzaci budou automaticky smazány %1$s po odeslání."
     },
     {
       "_": "types.LangPackString",
@@ -17895,6 +17910,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "EditAdminBotChannelSendWelcomeMessages",
+      "value": "Poslat uvítací zprávy"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EditAdminBotGroupSendWelcomeMessages",
+      "value": "Poslat uvítací zprávy"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "EditAdminCantEdit",
       "value": "Nemůžete upravovat práva tohoto správce."
     },
@@ -18072,6 +18097,11 @@
       "_": "types.LangPackString",
       "key": "EditAdminTransferSetPassword",
       "value": "Nastavit heslo"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EditAdminUserManageWelcomeMessages",
+      "value": "Spravovat uvítací zprávy"
     },
     {
       "_": "types.LangPackString",
@@ -25142,6 +25172,41 @@
       "value": "Dárek uzamčen"
     },
     {
+      "_": "types.LangPackString",
+      "key": "GiftMessageAddDescription",
+      "value": "Můžete přidat zprávu pro **%1$s** nebo **%2$s** hned odeslat."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftMessageAddHint",
+      "value": "Přidat zprávu..."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftMessageAddTitle",
+      "value": "Přidat zprávu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftMessageHint",
+      "value": "Vaše zpráva..."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftMessageMakeMessagePublic",
+      "value": "Zveřejnit zprávu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftMessagePreviewInChat",
+      "value": "Náhled v konverzaci"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftMessageSendNow",
+      "value": "Poslat nyní"
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "few_value": "%1$d-měsíce",
       "key": "GiftMonths",
@@ -25831,6 +25896,11 @@
       "_": "types.LangPackString",
       "key": "GiftTopAction",
       "value": "**%1$s** vám poslal/a tento dárek **%2$s**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftTopActionFromTo",
+      "value": "**%1$s** poslal/a tento dárek uživateli **%2$s** v **%3$s**"
     },
     {
       "_": "types.LangPackString",
@@ -26888,7 +26958,7 @@
     {
       "_": "types.LangPackString",
       "key": "HasBeenAddedToChannel",
-      "value": "%1$s se přidal/a do kanálu"
+      "value": "%1$s byl/a přidán/a do kanálu"
     },
     {
       "_": "types.LangPackString",
@@ -53847,6 +53917,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "UniqueGiftFrom",
+      "value": "Od **%s**"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "UniqueGiftNotFound",
       "value": "Dárek nenalezen."
     },
@@ -58420,5 +58495,5 @@
       "value": "Telegram Passport"
     }
   ],
-  "version": 60494411
+  "version": 60557691
 }
