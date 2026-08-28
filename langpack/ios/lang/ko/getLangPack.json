@@ -291,7 +291,7 @@
     {
       "_": "types.LangPackString",
       "key": "AdsInfo.Bot.Respect.Text",
-      "value": "텔레그램 광고는 회원님의 개인 정보를 사용하지 않으며, 광고를 보는 봇을 기준으로 표시됩니다."
+      "value": "광고 타기팅이나 기타 상업적 목적으로 회원님의 개인 대화 내용이나 연락처 목록을 사용하지 않습니다."
     },
     {
       "_": "types.LangPackString",
@@ -311,7 +311,7 @@
     {
       "_": "types.LangPackString",
       "key": "AdsInfo.Launch.Text",
-      "value": "누구나 최소한의 예산으로 이 채널에 광고를 만들어 게시할 수 있습니다. 자세한 내용은 텔레그램 광고 플랫폼을 확인하세요. [자세히 보기 >]()"
+      "value": "누구나 적은 예산으로 텔레그램에 광고를 게시할 수 있습니다. 자세한 내용은 텔레그램 광고 플랫폼을 확인하세요. [더 알아보기 >]()"
     },
     {
       "_": "types.LangPackString",
@@ -326,7 +326,7 @@
     {
       "_": "types.LangPackString",
       "key": "AdsInfo.Respect.Text",
-      "value": "텔레그램에서의 광고는 사용자의 개인 정보를 사용하지 않으며, 광고를 보는 채널을 기반으로 합니다."
+      "value": "광고 타기팅이나 기타 상업적 목적으로 회원님의 개인 대화 내용이나 연락처 목록을 사용하지 않습니다."
     },
     {
       "_": "types.LangPackString",
@@ -8435,6 +8435,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Channel.EditAdmin.PermissionManageWelcomeMessages",
+      "value": "환영 메시지 관리"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Channel.EditAdmin.PermissionPinMessages",
       "value": "메시지 고정"
     },
@@ -8457,6 +8462,16 @@
       "_": "types.LangPackString",
       "key": "Channel.EditAdmin.PermissionProcessJoinRequestsInfo",
       "value": "이 봇이 보안 문자 같은 자체 인터페이스로 새 회원을 승인하도록 허용합니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Channel.EditAdmin.PermissionSendWelcomeMessagesChannel",
+      "value": "환영 메시지 보내기"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Channel.EditAdmin.PermissionSendWelcomeMessagesGroup",
+      "value": "환영 메시지 보내기"
     },
     {
       "_": "types.LangPackString",
@@ -10615,6 +10630,31 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Chat.EphemeralMessage.AnchoredInfo",
+      "value": "이 버전의 메시지는 회원님에게만 표시됩니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.EphemeralMessage.Badge",
+      "value": "%@님에게만 표시"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.EphemeralMessage.BadgeYou",
+      "value": "회원님에게만 표시"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.EphemeralMessage.Revert",
+      "value": "되돌리기"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.EphemeralMessage.RevertInfo",
+      "value": "메시지를 원래 내용으로 되돌립니다"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Chat.ErrorCantBoost",
       "value": "죄송합니다. 이 그룹 또는 채널을 부스트할 수 없습니다."
     },
@@ -11777,6 +11817,11 @@
       "_": "types.LangPackString",
       "key": "Chat.Placeholder.QuickReply",
       "value": "빠른 답장 추가…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Placeholder.WelcomeMessage",
+      "value": "메시지 추가..."
     },
     {
       "_": "types.LangPackString",
@@ -20205,6 +20250,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Conversation.UnsupportedMedia.Action",
+      "value": "업데이트"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Conversation.UnsupportedMedia.Text",
+      "value": "이 메시지를 보려면 텔레그램을 업데이트하세요"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Conversation.UnsupportedMedia.Title",
+      "value": "지원되지 않는 메시지"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Conversation.UnsupportedMediaPlaceholder",
       "value": "이 메시지는 현재 텔레그램 버전에서 지원되지 않습니다. 최신 버전으로 업데이트해 주세요."
     },
@@ -24495,6 +24555,41 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift.Message.InputPlaceholder",
+      "value": "메시지 추가…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Message.MakePublic",
+      "value": "메시지 공개"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Message.PreviewInChat",
+      "value": "대화에서 미리 보기"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Message.SendNow",
+      "value": "지금 보내기"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Message.ToastText",
+      "value": "**%@**에 메시지를 추가하거나 **%@**을(를) 바로 보낼 수 있습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Message.ToastTitle",
+      "value": "메시지 추가"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Message.YourMessage",
+      "value": "내 메시지..."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gift.Offer.Duration",
       "value": "제안 기간"
     },
@@ -27862,6 +27957,11 @@
       "_": "types.LangPackString",
       "key": "GroupInfo.UpgradeButton",
       "value": "슈퍼그룹으로 업그레이드"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GroupInfo.WelcomeMessages",
+      "value": "환영 메시지"
     },
     {
       "_": "types.LangPackString",
@@ -34547,6 +34647,16 @@
       "_": "types.LangPackString",
       "key": "Notification.JoinedGroupByRequestYou",
       "value": "그룹 입장 요청 승인됨"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.JoinedGroupViaCommunity",
+      "value": "%@님이 커뮤니티를 통해 그룹에 참여했습니다"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.JoinedGroupViaCommunityYou",
+      "value": "커뮤니티를 통해 그룹에 참여했습니다"
     },
     {
       "_": "types.LangPackString",
@@ -45545,6 +45655,111 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "RichText.ButtonActionCopy",
+      "value": "텍스트 복사"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.ButtonActionDisabled",
+      "value": "사용 안 함"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.ButtonActionNotEditable",
+      "value": "이 버튼의 동작은 편집할 수 없습니다"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.ButtonDelete",
+      "value": "버튼 삭제"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.ButtonEditorTitle",
+      "value": "버튼"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.ButtonLabelPlaceholder",
+      "value": "레이블"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.ButtonRowAdd",
+      "value": "버튼 추가"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.ButtonRowAlignCenter",
+      "value": "가운데 맞춤"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.ButtonRowAlignJustify",
+      "value": "양쪽 맞춤"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.ButtonRowAlignLeft",
+      "value": "왼쪽 맞춤"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.ButtonRowAlignRight",
+      "value": "오른쪽 맞춤"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.ButtonRowAlignment",
+      "value": "정렬"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.ButtonRowDelete",
+      "value": "행 삭제"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.ButtonSectionContent",
+      "value": "내용"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.ButtonSectionStyle",
+      "value": "스타일"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.ButtonStyleDanger",
+      "value": "빨간색"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.ButtonStyleDefault",
+      "value": "기본"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.ButtonStyleLink",
+      "value": "링크"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.ButtonStylePrimary",
+      "value": "파란색"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.ButtonStyleSuccess",
+      "value": "초록색"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.ButtonURLPlaceholder",
+      "value": "URL"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "RichText.FormulaAdd",
       "value": "수식 추가"
     },
@@ -45595,6 +45810,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "RichText.Menu.List.Detail",
+      "value": "블록 전환"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "RichText.Menu.List.None",
       "value": "없음"
     },
@@ -45602,6 +45822,26 @@
       "_": "types.LangPackString",
       "key": "RichText.Menu.List.Numbered",
       "value": "번호 매기기 목록"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.Menu.Table.BordersOff",
+      "value": "테두리 숨기기"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.Menu.Table.BordersOn",
+      "value": "테두리 표시"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.Menu.Table.CompactOff",
+      "value": "확장"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.Menu.Table.CompactOn",
+      "value": "간격 축소"
     },
     {
       "_": "types.LangPackString",
@@ -45630,6 +45870,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "RichText.MenuButtonRow",
+      "value": "버튼 행"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "RichText.MenuCode",
       "value": "코드"
     },
@@ -45647,6 +45892,11 @@
       "_": "types.LangPackString",
       "key": "RichText.MenuHeadingItem",
       "value": "제목 %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.MenuInlineButton",
+      "value": "버튼"
     },
     {
       "_": "types.LangPackString",
@@ -45672,6 +45922,11 @@
       "_": "types.LangPackString",
       "key": "RichText.PlaceholderCode",
       "value": "여기에 코드를 입력하세요"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.PlaceholderDetailTitle",
+      "value": "제목"
     },
     {
       "_": "types.LangPackString",
@@ -51112,6 +51367,11 @@
       "_": "types.LangPackString",
       "key": "StorageManagement.ClearConfirmationText",
       "value": "미디어와 문서는 텔레그램 클라우드에 보관되며 필요할 때 다시 다운로드 받으실 수 있습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StorageManagement.ClearConfirmationTitle",
+      "value": "캐시 비우기"
     },
     {
       "_": "types.LangPackString",
@@ -59350,6 +59610,41 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WelcomeMessages.EmptyText",
+      "value": "새 멤버가 참여하면 자동으로 환영합니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WelcomeMessages.EmptyTitle",
+      "value": "환영 메시지 만들기"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "WelcomeMessages.MessageLimitReachedText",
+      "other_value": "환영 메시지 %@개 제한에 도달했습니다"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WelcomeMessages.Off",
+      "value": "끔"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WelcomeMessages.ServiceHeader1",
+      "value": "새 멤버는 참여할 때 이 메시지를 볼 수 있습니다"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WelcomeMessages.ServiceHeader2",
+      "value": "길게 눌러 삭제"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WelcomeMessages.Title",
+      "value": "환영 메시지"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Widget.ApplicationLocked",
       "value": "위젯을 사용하려면 앱을 잠금 해제하세요"
     },
@@ -59444,5 +59739,5 @@
       "value": "올바르지 않은 보안코드를 입력하였습니다."
     }
   ],
-  "version": 21747826
+  "version": 21853271
 }

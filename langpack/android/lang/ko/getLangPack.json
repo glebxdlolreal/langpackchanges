@@ -1905,6 +1905,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ActionJoinedFromCommunityUser",
+      "value": "un2님이 un1 커뮤니티를 통해 그룹에 참여했습니다"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ActionJoinedFromCommunityYou",
+      "value": "un1 커뮤니티를 통해 그룹에 참여했습니다"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ActionJoinedFromCommunityYouChannel",
+      "value": "un1 커뮤니티를 통해 채널에 참여했습니다"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ActionKickUser",
       "value": "un1님이 un2님을 추방했습니다"
     },
@@ -3821,7 +3836,7 @@
     {
       "_": "types.LangPackStringPluralized",
       "key": "ApproveNewMembersDisableForLinksChannel",
-      "other_value": "이 채널의 **%1$d개의 기존 초대 링크**에도 **새 구독자 승인**을 비활성화할까요?"
+      "other_value": "이 채널의 기존 초대 링크 **%1$d개**에서도 **새 멤버 승인**을 사용 중지하시겠습니까?"
     },
     {
       "_": "types.LangPackString",
@@ -3846,7 +3861,7 @@
     {
       "_": "types.LangPackStringPluralized",
       "key": "ApproveNewMembersEnableForLinksChannel",
-      "other_value": "이 채널의 **%1$d개의 기존 초대 링크**에도 **새 구독자 승인**을 활성화할까요?"
+      "other_value": "이 채널의 기존 초대 링크 **%1$d개**에도 **새 멤버 승인**을 사용하시겠습니까?"
     },
     {
       "_": "types.LangPackString",
@@ -4771,7 +4786,7 @@
     {
       "_": "types.LangPackString",
       "key": "ArticleListTodo",
-      "value": "할 일"
+      "value": "체크리스트"
     },
     {
       "_": "types.LangPackString",
@@ -17195,6 +17210,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "EditAdminBotChannelSendWelcomeMessages",
+      "value": "환영 메시지 보내기"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EditAdminBotGroupSendWelcomeMessages",
+      "value": "환영 메시지 보내기"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "EditAdminCantEdit",
       "value": "이 관리자의 권한을 수정하실 수 없습니다."
     },
@@ -17372,6 +17397,11 @@
       "_": "types.LangPackString",
       "key": "EditAdminTransferSetPassword",
       "value": "비밀번호 설정"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EditAdminUserManageWelcomeMessages",
+      "value": "환영 메시지 관리"
     },
     {
       "_": "types.LangPackString",
@@ -24169,6 +24199,41 @@
       "value": "잠긴 선물"
     },
     {
+      "_": "types.LangPackString",
+      "key": "GiftMessageAddDescription",
+      "value": "**%1$s**에 메시지를 추가하거나 **%2$s**을(를) 바로 보낼 수 있습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftMessageAddHint",
+      "value": "메시지 추가..."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftMessageAddTitle",
+      "value": "메시지 추가"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftMessageHint",
+      "value": "내 메시지..."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftMessageMakeMessagePublic",
+      "value": "메시지 공개"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftMessagePreviewInChat",
+      "value": "대화에서 미리 보기"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftMessageSendNow",
+      "value": "지금 보내기"
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "key": "GiftMonths",
       "other_value": "%1$d-개월"
@@ -24822,6 +24887,11 @@
       "_": "types.LangPackString",
       "key": "GiftTopAction",
       "value": "**%1$s**님이 **%2$s**에 이 선물을 보냈습니다"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftTopActionFromTo",
+      "value": "**%1$s**님이 **%3$s**에 이 선물을 **%2$s**님에게 보냈습니다"
     },
     {
       "_": "types.LangPackString",
@@ -41326,12 +41396,12 @@
     {
       "_": "types.LangPackString",
       "key": "RevenueSharingAdsInfo1Subtitle",
-      "value": "텔레그램에서의 광고는 사용자의 개인 정보를 사용하지 않으며, 광고를 보는 채널을 기반으로 합니다."
+      "value": "광고 타기팅이나 기타 상업적 목적으로 회원님의 개인 대화 내용이나 연락처 목록을 사용하지 않습니다."
     },
     {
       "_": "types.LangPackString",
       "key": "RevenueSharingAdsInfo1SubtitleBot",
-      "value": "텔레그램 광고는 회원님의 개인 정보를 사용하지 않으며, 광고를 보는 봇을 기준으로 표시됩니다."
+      "value": "광고 타기팅이나 기타 상업적 목적으로 회원님의 개인 대화 내용이나 연락처 목록을 사용하지 않습니다."
     },
     {
       "_": "types.LangPackString",
@@ -41381,7 +41451,7 @@
     {
       "_": "types.LangPackString",
       "key": "RevenueSharingAdsInfo4Subtitle2",
-      "value": "누구나 최소한의 예산으로 이 채널에 광고를 만들어 게시할 수 있습니다. 자세한 내용은 **텔레그램 광고 플랫폼**을 확인하세요. %1$s"
+      "value": "누구나 적은 예산으로 텔레그램에 광고를 게시할 수 있습니다. 자세한 내용은 **텔레그램 광고 플랫폼**을 확인하세요. %1$s"
     },
     {
       "_": "types.LangPackString",
@@ -51910,6 +51980,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "UniqueGiftFrom",
+      "value": "**%s**로부터"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "UniqueGiftNotFound",
       "value": "선물을 찾을 수 없습니다."
     },
@@ -56399,5 +56474,5 @@
       "value": "텔레그램 패스포트"
     }
   ],
-  "version": 60447761
+  "version": 60566821
 }
