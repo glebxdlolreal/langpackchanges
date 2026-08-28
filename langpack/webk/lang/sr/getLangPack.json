@@ -191,6 +191,30 @@
       "value": "Погледај"
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "**%2$s** послао/ла поклон примаоцу **%3$s** вредан **%1$d звездице**",
+      "key": "ActionGiftSentChannel",
+      "one_value": "**%2$s** послао/ла поклон примаоцу **%3$s** вредан **%1$d звездицу**",
+      "other_value": "**%2$s** послао/ла поклон примаоцу **%3$s** вредан **%1$d звездица**"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ActionGiftSentChannelTon",
+      "value": "**%2$s** је послао/ла поклон примаоцу **%3$s** вредан **%1$s GRAM**"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Послали сте поклон примаоцу **%2$s** вредан **%1$d звездице**",
+      "key": "ActionGiftSentSelfChannel",
+      "one_value": "Послали сте поклон примаоцу **%2$s** вредан **%1$d звездицу**",
+      "other_value": "Послали сте поклон примаоцу **%2$s** вредан **%1$d звездица**"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ActionGiftSentSelfChannelTon",
+      "value": "Послали сте поклон примаоцу **%2$s** вредан **%1$s GRAM**"
+    },
+    {
       "_": "types.LangPackString",
       "key": "ActionGiftSold",
       "value": "Продали сте поклон кориснику %s"
@@ -214,6 +238,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ActionGiftTransferredChannel",
+      "value": "%1$s је пренео/ла поклон на %2$s"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ActionGiftTransferredInbound",
       "value": "%s вам пренео/ла поклон"
     },
@@ -229,6 +258,26 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ActionGiftTransferredSelfChannel",
+      "value": "Пренели сте поклон на %s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ActionGiftUpgradedChannel",
+      "value": "%1$s је овај поклон за %2$s претворио/ла у јединствен колекционарски поклон"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ActionGiftUpgradedHelped",
+      "value": "%s је отворио/ла поклон чије побољшање сте помогли."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ActionGiftUpgradedHelpedSelf",
+      "value": "Отворили сте поклон чије побољшање је помогао корисник %s."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ActionGiftUpgradedInbound",
       "value": "%s је претворио/ла ваш поклон у јединствен колекционарски поклон"
     },
@@ -241,6 +290,11 @@
       "_": "types.LangPackString",
       "key": "ActionGiftUpgradedSelf",
       "value": "Претворили сте поклон у јединствен колекционарски поклон"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ActionGiftUpgradedSelfChannel",
+      "value": "Претворили сте поклон за %s у јединствен колекционарски поклон"
     },
     {
       "_": "types.LangPackString",
@@ -1785,6 +1839,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AlertClearHistory",
+      "value": "Очисти историју"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AllChats",
       "value": "Сва ћаскања"
     },
@@ -2032,6 +2091,26 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AreYouSureClearHistory",
+      "value": "Желите ли да избришете све поруке у овом ћаскању?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AreYouSureClearHistorySavedMessages",
+      "value": "Желите ли да очистите **Сачуване поруке**?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AreYouSureClearHistoryWithChannel",
+      "value": "Желите ли да очистите историју канала на **%1$s**?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AreYouSureClearHistoryWithUser",
+      "value": "Желите ли да очистите историју ћаскања са **%1$s**?"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AreYouSureDeleteAndExit",
       "value": "Желите ли да избришете и напустите групу?"
     },
@@ -2132,6 +2211,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AreYouSureShareMyContactInfoUser",
+      "value": "Желите ли да делите свој број телефона %1$s са **%2$s**?"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AreYouSureWebSessions",
       "value": "Желите ли да прекинете везу са свим веб-сајтовима где сте пријављени преко Telegram-а?"
     },
@@ -2209,6 +2293,81 @@
       "_": "types.LangPackString",
       "key": "AudioUnknownTitle",
       "value": "Непознат наслов"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AuthSessions.DeviceName",
+      "value": "Назив уређаја"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AuthSessions.IncompleteAttempts",
+      "value": "Недовршени покушаји пријављивања"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AuthSessions.IncompleteAttemptsInfo",
+      "value": "Уређаји изнад немаjу приступ вашим порукама. Кôд је исправно унет, али није унета исправна лозинка."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AuthSessions.RenameDevice",
+      "value": "Преименуј тренутни уређај"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AuthSessions.TerminateIfAwayFor",
+      "value": "Ако нису активне"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AuthSessions.TerminateIfAwayTitle",
+      "value": "Аутоматски прекид старих сесија"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AuthSessions.View.AcceptIncomingCalls",
+      "value": "Долазни позиви"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AuthSessions.View.AcceptSecretChats",
+      "value": "Нова тајна ћаскања"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AuthSessions.View.AcceptTitle",
+      "value": "Прихватање на овом уређају"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AuthSessions.View.Application",
+      "value": "Апликација"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AuthSessions.View.Device",
+      "value": "Уређај"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AuthSessions.View.Location",
+      "value": "Локација"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AuthSessions.View.LocationInfo",
+      "value": "Ова процена локације је заснована на ИП адреси и можда није увек прецизна."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AuthSessions.View.System",
+      "value": "Верзија система"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AuthSessions.View.TerminateSession",
+      "value": "Прекини сесију"
     },
     {
       "_": "types.LangPackString",
@@ -6379,6 +6538,31 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ChatWithAdminChannelTitle",
+      "value": "Одговор на захтев за придруживање"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatWithAdminGroupTitle",
+      "value": "Одговор на захтев за придруживање"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatWithAdminMessage",
+      "value": "Добили сте ову поруку јер сте %2$s послали захтев за придруживање **%1$s**"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatWithChannelAdmin",
+      "value": "**%1$s** је администратор канала **%2$s**, којем сте послали захтев за придруживање."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatWithGroupAdmin",
+      "value": "**%1$s** је администратор групе **%2$s**, којој сте послали захтев за придруживање."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ChatYourSelf",
       "value": "проследите овде да сачувате"
     },
@@ -6602,6 +6786,16 @@
       "_": "types.LangPackString",
       "key": "ClearButton",
       "value": "Очисти"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ClearHistory",
+      "value": "Очисти историју"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ClearHistoryOptionAlso",
+      "value": "Очисти историју и за %1$s"
     },
     {
       "_": "types.LangPackString",
@@ -7514,6 +7708,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Conversation.ShareMyPhoneNumber.StatusSuccess",
+      "value": "%@ сада може видети ваш број телефона."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Copy",
       "value": "Копирај"
     },
@@ -7883,6 +8082,11 @@
       "_": "types.LangPackString",
       "key": "DeleteMessagesOptionAlso",
       "value": "Избриши и за %1$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "DeleteMessagesOptionAlsoChat",
+      "value": "Очисти за све чланове"
     },
     {
       "_": "types.LangPackString",
@@ -9490,6 +9694,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ForumTopic.Context.ApplyToJoin",
+      "value": "Пошаљи захтев"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ForumTopic.Context.Info",
       "value": "Подаци о групи"
     },
@@ -10527,6 +10736,11 @@
       "_": "types.LangPackString",
       "key": "HoursShortAgo",
       "value": "пре %d ч"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "IUnderstand",
+      "value": "У реду"
     },
     {
       "_": "types.LangPackString",
@@ -12936,6 +13150,16 @@
       "key": "MusicFiles",
       "one_value": "%d музичка датотека",
       "other_value": "%d музичких датотека"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MusicSearch.Global",
+      "value": "Глобална претрага"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MusicSearch.Profile",
+      "value": "Музика на профилу"
     },
     {
       "_": "types.LangPackString",
@@ -16805,6 +17029,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ReportSpamUserEmojiStatusHint",
+      "value": "Овај налог користи %1$s као статус поред свог имена. Овакви емоџи-статуси су доступни свим претплатницима на %2$s."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Reported2",
       "value": "Telegram-ови модератори ће прегледати вашу пријаву. Хвала!"
     },
@@ -17339,8 +17568,43 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "SavedMusic.AddToProfile",
+      "value": "Додај на профил"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SavedMusic.Added",
+      "value": "Звучни запис додат на ваш профил."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SavedMusic.RemoveConfirm",
+      "value": "Желите ли да уклоните ову датотеку с профила?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SavedMusic.RemoveFromProfile",
+      "value": "Уклони с профила"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SavedMusic.Removed",
+      "value": "Звучни запис уклоњен с вашег профила."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SavedMusic.Sort",
+      "value": "Сортирај"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "SavedMusicTab",
       "value": "Плејлиста"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SavedMusicTabMine",
+      "value": "Ваша плејлиста"
     },
     {
       "_": "types.LangPackString",
@@ -17886,6 +18150,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "SetProfilePhoto",
+      "value": "Подеси слику профила"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "SetUrlPlaceholder",
       "value": "Веза"
     },
@@ -17928,6 +18197,11 @@
       "_": "types.LangPackString",
       "key": "ShareModal.Search.Placeholder",
       "value": "Поделите са..."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShareMyPhoneNoCaps",
+      "value": "Дели мој број телефона"
     },
     {
       "_": "types.LangPackString",
@@ -19197,11 +19471,21 @@
       "other_value": "**%1$s** вам послао/ла поклон вредан **%2$d звездица**"
     },
     {
+      "_": "types.LangPackString",
+      "key": "StarGiftSentMessageIncomingTon",
+      "value": "**%2$s** је послао/ла поклон вредан **%1$s GRAM**"
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "few_value": "**Послали сте** поклон вредан **%d звездице**",
       "key": "StarGiftSentMessageOutgoing",
       "one_value": "**Послали сте** поклон вредан **%d звездицу**",
       "other_value": "**Послали сте** поклон вредан **%d звездица**"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarGiftSentMessageOutgoingTon",
+      "value": "**Послали сте** поклон вредан **%s GRAM**"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -22826,5 +23110,5 @@
       "other_value": "%1$d порука"
     }
   ],
-  "version": 340442
+  "version": 341415
 }
