@@ -190,6 +190,28 @@
       "value": "View"
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "key": "ActionGiftSentChannel",
+      "one_value": "**%2$s** sent a gift to **%3$s** for **%1$d Star**",
+      "other_value": "**%2$s** sent a gift to **%3$s** for **%1$d Stars**"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ActionGiftSentChannelTon",
+      "value": "**%2$s** sent a gift to **%3$s** for **%1$s Grams**"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "ActionGiftSentSelfChannel",
+      "one_value": "You sent a gift to **%2$s** for **%1$d Star**",
+      "other_value": "You sent a gift to **%2$s** for **%1$d Stars**"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ActionGiftSentSelfChannelTon",
+      "value": "You sent a gift to **%2$s** for **%1$s Grams**"
+    },
+    {
       "_": "types.LangPackString",
       "key": "ActionGiftSold",
       "value": "You sold a gift to %s"
@@ -212,6 +234,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ActionGiftTransferredChannel",
+      "value": "%1$s transferred a gift to %2$s"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ActionGiftTransferredInbound",
       "value": "%s transferred a gift to you"
     },
@@ -227,6 +254,26 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ActionGiftTransferredSelfChannel",
+      "value": "You transferred a gift to %s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ActionGiftUpgradedChannel",
+      "value": "%1$s turned this gift to %2$s into a unique collectible"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ActionGiftUpgradedHelped",
+      "value": "%s unpacked the gift that you helped to upgrade."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ActionGiftUpgradedHelpedSelf",
+      "value": "You unpacked the gift that %s helped to upgrade."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ActionGiftUpgradedInbound",
       "value": "%s turned the gift from you into a unique collectible"
     },
@@ -239,6 +286,11 @@
       "_": "types.LangPackString",
       "key": "ActionGiftUpgradedSelf",
       "value": "You turned this gift into a unique collectible"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ActionGiftUpgradedSelfChannel",
+      "value": "You turned this gift to %s into a unique collectible"
     },
     {
       "_": "types.LangPackString",
@@ -1780,6 +1832,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AlertClearHistory",
+      "value": "Clear History"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AllChats",
       "value": "All Chats"
     },
@@ -2026,6 +2083,26 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AreYouSureClearHistory",
+      "value": "Are you sure you want to delete all messages in this chat?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AreYouSureClearHistorySavedMessages",
+      "value": "Are you sure you want to clear **Saved Messages**?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AreYouSureClearHistoryWithChannel",
+      "value": "Are you sure you want to clear the channel history in **%1$s**?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AreYouSureClearHistoryWithUser",
+      "value": "Are you sure you want to clear your chat history with **%1$s**?"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AreYouSureDeleteAndExit",
       "value": "Are you sure you want to delete and leave the group?"
     },
@@ -2126,6 +2203,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AreYouSureShareMyContactInfoUser",
+      "value": "Are you sure you want to share your phone number %1$s with **%2$s**?"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AreYouSureWebSessions",
       "value": "Are you sure you want to disconnect all websites where you logged in with Telegram?"
     },
@@ -2203,6 +2285,81 @@
       "_": "types.LangPackString",
       "key": "AudioUnknownTitle",
       "value": "Unknown title"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AuthSessions.DeviceName",
+      "value": "Device name"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AuthSessions.IncompleteAttempts",
+      "value": "Incomplete login attempts"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AuthSessions.IncompleteAttemptsInfo",
+      "value": "These devices have no access to your account. The code was entered correctly, but no correct password was given."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AuthSessions.RenameDevice",
+      "value": "Rename current device"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AuthSessions.TerminateIfAwayFor",
+      "value": "If Inactive For"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AuthSessions.TerminateIfAwayTitle",
+      "value": "Automatically Terminate Old Sessions"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AuthSessions.View.AcceptIncomingCalls",
+      "value": "Incoming Calls"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AuthSessions.View.AcceptSecretChats",
+      "value": "New Secret Chats"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AuthSessions.View.AcceptTitle",
+      "value": "Accept on This Device"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AuthSessions.View.Application",
+      "value": "Application"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AuthSessions.View.Device",
+      "value": "Device"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AuthSessions.View.Location",
+      "value": "Location"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AuthSessions.View.LocationInfo",
+      "value": "This location estimate is based on the IP address and may not always be accurate."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AuthSessions.View.System",
+      "value": "System version"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AuthSessions.View.TerminateSession",
+      "value": "Terminate Session"
     },
     {
       "_": "types.LangPackString",
@@ -6302,6 +6459,31 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ChatWithAdminChannelTitle",
+      "value": "Chat with channel's admin"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatWithAdminGroupTitle",
+      "value": "Chat with group's admin"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatWithAdminMessage",
+      "value": "You received this message because you requested to join **%1$s** on %2$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatWithChannelAdmin",
+      "value": "**%1$s** is an admin of **%2$s**, a channel you requested to join."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatWithGroupAdmin",
+      "value": "**%1$s** is an admin of **%2$s**, a group you requested to join."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ChatYourSelf",
       "value": "forward here to save"
     },
@@ -6522,6 +6704,16 @@
       "_": "types.LangPackString",
       "key": "ClearButton",
       "value": "Clear"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ClearHistory",
+      "value": "Clear history"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ClearHistoryOptionAlso",
+      "value": "Also clear history for %1$s"
     },
     {
       "_": "types.LangPackString",
@@ -7422,6 +7614,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Conversation.ShareMyPhoneNumber.StatusSuccess",
+      "value": "%@ can now see your phone number."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Copy",
       "value": "Copy"
     },
@@ -7790,6 +7987,11 @@
       "_": "types.LangPackString",
       "key": "DeleteMessagesOptionAlso",
       "value": "Also delete for %1$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "DeleteMessagesOptionAlsoChat",
+      "value": "Also clear for all members"
     },
     {
       "_": "types.LangPackString",
@@ -9375,6 +9577,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ForumTopic.Context.ApplyToJoin",
+      "value": "Apply to Join"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ForumTopic.Context.Info",
       "value": "Group Info"
     },
@@ -10387,6 +10594,11 @@
       "_": "types.LangPackString",
       "key": "HoursShortAgo",
       "value": "%dh ago"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "IUnderstand",
+      "value": "I understand"
     },
     {
       "_": "types.LangPackString",
@@ -12774,6 +12986,16 @@
       "key": "MusicFiles",
       "one_value": "%d music file",
       "other_value": "%d music files"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MusicSearch.Global",
+      "value": "Global Search"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MusicSearch.Profile",
+      "value": "Profile Music"
     },
     {
       "_": "types.LangPackString",
@@ -16600,6 +16822,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ReportSpamUserEmojiStatusHint",
+      "value": "This account uses %1$s as a custom status next to its name. Such emoji statuses are available to all subscribers of %2$s."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Reported2",
       "value": "Telegram moderators will review your report. Thank you!"
     },
@@ -17127,8 +17354,43 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "SavedMusic.AddToProfile",
+      "value": "Add to Profile"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SavedMusic.Added",
+      "value": "Audio added to your Profile."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SavedMusic.RemoveConfirm",
+      "value": "Do you want to remove this file from your profile?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SavedMusic.RemoveFromProfile",
+      "value": "Remove from Profile"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SavedMusic.Removed",
+      "value": "Audio removed from your Profile."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SavedMusic.Sort",
+      "value": "Sort"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "SavedMusicTab",
       "value": "Playlist"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SavedMusicTabMine",
+      "value": "Your Playlist"
     },
     {
       "_": "types.LangPackString",
@@ -17673,6 +17935,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "SetProfilePhoto",
+      "value": "Set Profile Photo"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "SetUrlPlaceholder",
       "value": "Link"
     },
@@ -17715,6 +17982,11 @@
       "_": "types.LangPackString",
       "key": "ShareModal.Search.Placeholder",
       "value": "Share to..."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShareMyPhoneNoCaps",
+      "value": "Share my phone number"
     },
     {
       "_": "types.LangPackString",
@@ -18968,10 +19240,20 @@
       "other_value": "**%1$s** sent you a gift for **%2$d Stars**"
     },
     {
+      "_": "types.LangPackString",
+      "key": "StarGiftSentMessageIncomingTon",
+      "value": "**%2$s** sent you a gift for **%1$s Grams**"
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "key": "StarGiftSentMessageOutgoing",
       "one_value": "**You** sent a gift for **%d Star**",
       "other_value": "**You** sent a gift for **%d Stars**"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarGiftSentMessageOutgoingTon",
+      "value": "**You** sent a gift for **%s Grams**"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -22550,5 +22832,5 @@
       "other_value": "%1$d messages"
     }
   ],
-  "version": 332236
+  "version": 341051
 }
