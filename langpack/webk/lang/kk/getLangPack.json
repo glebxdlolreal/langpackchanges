@@ -190,6 +190,28 @@
       "value": "Көру"
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "key": "ActionGiftSentChannel",
+      "one_value": "**%2$s** құны %1$d жұлдыз тұратын сыйлықты **%3$s** жіберді",
+      "other_value": "**%2$s** құны %1$d жұлдыз тұратын сыйлықты **%3$s** жіберді"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ActionGiftSentChannelTon",
+      "value": "**%2$s** бағасы **%1$s Gram** тұратын сыйлықты **%3$s** жіберді"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "ActionGiftSentSelfChannel",
+      "one_value": "**%2$s** бағасы **%1$d** жұлдыз тұратын сыйлық жібердіңіз",
+      "other_value": "**%2$s** бағасы **%1$d** жұлдыз тұратын сыйлық жібердіңіз"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ActionGiftSentSelfChannelTon",
+      "value": "Бағасы **%1$s Gram** тұратын сыйлықты %2$s жібердіңіз"
+    },
+    {
       "_": "types.LangPackString",
       "key": "ActionGiftSold",
       "value": "Сыйлықты %s саттыңыз"
@@ -212,6 +234,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ActionGiftTransferredChannel",
+      "value": "**%1$s** сыйлықты **%2$s** тапсырды"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ActionGiftTransferredInbound",
       "value": "%s сізге сыйлық тапсырды"
     },
@@ -227,6 +254,26 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ActionGiftTransferredSelfChannel",
+      "value": "Сыйлықты %s тапсырдыңыз"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ActionGiftUpgradedChannel",
+      "value": "%1$s сыйлықты %2$s үшін бірегей жиынтыққа айналдырды"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ActionGiftUpgradedHelped",
+      "value": "%s сізге жаңартуға көмектескен сыйлықты шығарды."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ActionGiftUpgradedHelpedSelf",
+      "value": "%s жаңартуға көмектескен сыйлықты шығардыңыз."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ActionGiftUpgradedInbound",
       "value": "%s сыйлығыңызды бірегей жиынтыққа айналдырды"
     },
@@ -239,6 +286,11 @@
       "_": "types.LangPackString",
       "key": "ActionGiftUpgradedSelf",
       "value": "Сыйлықты бірегей жиынтыққа айналдырдыңыз"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ActionGiftUpgradedSelfChannel",
+      "value": "Сыйлықты %s үшін бірегей сыйлыққа айналдырдыңыз"
     },
     {
       "_": "types.LangPackString",
@@ -1780,6 +1832,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AlertClearHistory",
+      "value": "Чатты тазалау"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AllChats",
       "value": "Барлық чат"
     },
@@ -2026,6 +2083,26 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AreYouSureClearHistory",
+      "value": "Чаттағы барлық хатты жоясыз ба?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AreYouSureClearHistorySavedMessages",
+      "value": "Қоймаңыздың ішін толық жоясыз ба?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AreYouSureClearHistoryWithChannel",
+      "value": "**%1$s** арна тарихын жоясыз ба?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AreYouSureClearHistoryWithUser",
+      "value": "**%1$s** араңыздағы чат тарихын тазалайсыз ба?"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AreYouSureDeleteAndExit",
       "value": "Топты жойып, одан шығасыз ба?"
     },
@@ -2126,6 +2203,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AreYouSureShareMyContactInfoUser",
+      "value": "**%1$s** нөміріңізді **%2$s** бөлісесіз бе?"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AreYouSureWebSessions",
       "value": "Telegram-ды қолданып, кірген барлық сайттан шығасыз ба?"
     },
@@ -2203,6 +2285,81 @@
       "_": "types.LangPackString",
       "key": "AudioUnknownTitle",
       "value": "Атаусыз"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AuthSessions.DeviceName",
+      "value": "Құрылғы атауы"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AuthSessions.IncompleteAttempts",
+      "value": "Кірмек болған құрылғы"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AuthSessions.IncompleteAttemptsInfo",
+      "value": "Жоғарыдағы құрылғылар тіркелгіге кіре алмады. Код дұрыс енгізілгенмен, құпиясөз қате болды."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AuthSessions.RenameDevice",
+      "value": "Осы құрылғыны қайта атау"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AuthSessions.TerminateIfAwayFor",
+      "value": "Осынша уақыт кірмесе"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AuthSessions.TerminateIfAwayTitle",
+      "value": "Ескі сеансты өздігінен аяқтау"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AuthSessions.View.AcceptIncomingCalls",
+      "value": "Кіріс қоңырау"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AuthSessions.View.AcceptSecretChats",
+      "value": "Жаңа құпия чат"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AuthSessions.View.AcceptTitle",
+      "value": "Осы құрылғы не қабылдайды"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AuthSessions.View.Application",
+      "value": "Қолданба"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AuthSessions.View.Device",
+      "value": "Құрылғы"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AuthSessions.View.Location",
+      "value": "Орны"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AuthSessions.View.LocationInfo",
+      "value": "Бұл орын IP мекенжайыңызға негізделген, қате көрсетуі мүмкін."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AuthSessions.View.System",
+      "value": "Жүйе"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AuthSessions.View.TerminateSession",
+      "value": "Сеансты аяқтау"
     },
     {
       "_": "types.LangPackString",
@@ -6302,6 +6459,31 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ChatWithAdminChannelTitle",
+      "value": "Қосылу өтінішіңізге жауап"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatWithAdminGroupTitle",
+      "value": "Қосылу өтінішіңізге жауап"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatWithAdminMessage",
+      "value": "Бұл хатты алған себебіңіз %1$s тобына %2$s қосылу өтінішін жібергенсіз"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatWithChannelAdmin",
+      "value": "Қосылу өтінішіңіз жіберілген **%2$s** арнасының әкімшісі **%1$s**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatWithGroupAdmin",
+      "value": "Қосылу өтінішіңіз жіберілген **%2$s** тобының әкімшісі **%1$s**."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ChatYourSelf",
       "value": "сақтау үшін осында жіберіңіз"
     },
@@ -6522,6 +6704,16 @@
       "_": "types.LangPackString",
       "key": "ClearButton",
       "value": "Тазалау"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ClearHistory",
+      "value": "Тазалау"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ClearHistoryOptionAlso",
+      "value": "%1$s тарихын да тазалау"
     },
     {
       "_": "types.LangPackString",
@@ -7422,6 +7614,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Conversation.ShareMyPhoneNumber.StatusSuccess",
+      "value": "%@ енді телефон нөміріңізді көре алады."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Copy",
       "value": "Көшіру"
     },
@@ -7790,6 +7987,11 @@
       "_": "types.LangPackString",
       "key": "DeleteMessagesOptionAlso",
       "value": "%1$s үшін де жою"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "DeleteMessagesOptionAlsoChat",
+      "value": "Барлық мүше үшін де жою"
     },
     {
       "_": "types.LangPackString",
@@ -9375,6 +9577,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ForumTopic.Context.ApplyToJoin",
+      "value": "Қосылуды сұрау"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ForumTopic.Context.Info",
       "value": "Топ ақпары"
     },
@@ -10387,6 +10594,11 @@
       "_": "types.LangPackString",
       "key": "HoursShortAgo",
       "value": "%dсағ бұрын"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "IUnderstand",
+      "value": "Түсіндім"
     },
     {
       "_": "types.LangPackString",
@@ -12774,6 +12986,16 @@
       "key": "MusicFiles",
       "one_value": "%d музыка файлы",
       "other_value": "%d музыка файлы"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MusicSearch.Global",
+      "value": "Ғаламдық іздеу"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MusicSearch.Profile",
+      "value": "Бейін музыкасы"
     },
     {
       "_": "types.LangPackString",
@@ -16600,6 +16822,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ReportSpamUserEmojiStatusHint",
+      "value": "Осы тіркелгі атының жанында %1$s статус орнатылған. Эмоджи статусы %2$s жазылушыларына қолжетімді."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Reported2",
       "value": "Telegram модераторы шағымыңызды қарастырады. Көмегіңізге рақмет!"
     },
@@ -17127,8 +17354,43 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "SavedMusic.AddToProfile",
+      "value": "Бейінге қосу"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SavedMusic.Added",
+      "value": "Аудио бейініңізге қосылды."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SavedMusic.RemoveConfirm",
+      "value": "Аудиофайлды бейініңізден жоясыз ба?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SavedMusic.RemoveFromProfile",
+      "value": "Бейіннен жою"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SavedMusic.Removed",
+      "value": "Аудио бейініңізден жойылды."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SavedMusic.Sort",
+      "value": "Сұрыптау"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "SavedMusicTab",
       "value": "Әнтізім"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SavedMusicTabMine",
+      "value": "Әнтізіміңіз"
     },
     {
       "_": "types.LangPackString",
@@ -17673,6 +17935,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "SetProfilePhoto",
+      "value": "Бейін суретін қою"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "SetUrlPlaceholder",
       "value": "Сілтеме"
     },
@@ -17715,6 +17982,11 @@
       "_": "types.LangPackString",
       "key": "ShareModal.Search.Placeholder",
       "value": "Бөлісу..."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShareMyPhoneNoCaps",
+      "value": "Нөмірімді көрсін"
     },
     {
       "_": "types.LangPackString",
@@ -18968,10 +19240,20 @@
       "other_value": "**%1$s** сізге бағасы **%2$d жұлдыз** тұратын сыйлық жіберді"
     },
     {
+      "_": "types.LangPackString",
+      "key": "StarGiftSentMessageIncomingTon",
+      "value": "**%2$s** сізге бағасы **%1$s Gram** тұратын сыйлықты жіберді"
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "key": "StarGiftSentMessageOutgoing",
       "one_value": "Бағасы **%d жұлдыз** тұратын сыйлық жібердіңіз",
       "other_value": "Бағасы **%d жұлдыз** тұратын сыйлық жібердіңіз"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarGiftSentMessageOutgoingTon",
+      "value": "Бағасы **%s Gram** тұратын сыйлық **жібердіңіз**"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -22550,5 +22832,5 @@
       "other_value": "%1$d хат"
     }
   ],
-  "version": 332295
+  "version": 341965
 }
