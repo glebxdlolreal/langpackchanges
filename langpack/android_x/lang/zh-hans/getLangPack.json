@@ -111,12 +111,12 @@
     {
       "_": "types.LangPackString",
       "key": "ActionChannelChangedTitle",
-      "value": "频道名称已被更改"
+      "value": "频道名称已更改"
     },
     {
       "_": "types.LangPackString",
       "key": "ActionChannelChangedTitleTo",
-      "value": "频道已更名为 «%1$s»"
+      "value": "频道已重命名为“%1$s”"
     },
     {
       "_": "types.LangPackString",
@@ -672,6 +672,11 @@
       "_": "types.LangPackString",
       "key": "AddAccount",
       "value": "添加账号"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AddAdminToTheGroup",
+      "value": "将 %1$s 添加到群组并指定为管理员？"
     },
     {
       "_": "types.LangPackString",
@@ -1346,7 +1351,7 @@
     {
       "_": "types.LangPackString",
       "key": "AreYouSureDeleteThisChat",
-      "value": "您确定要删除此聊天吗？"
+      "value": "您确定要永远删除此聊天吗？"
     },
     {
       "_": "types.LangPackString",
@@ -1421,7 +1426,7 @@
     {
       "_": "types.LangPackStringPluralized",
       "key": "AttachMediasSuffix",
-      "other_value": " 个媒体文件"
+      "other_value": " 个媒体"
     },
     {
       "_": "types.LangPackString",
@@ -1730,6 +1735,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "BanXChannel",
+      "value": "%1$s 将被封禁并从频道移除。"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "BanXGroup",
       "value": "%1$s 将被屏蔽并从群组中移除。"
     },
@@ -1836,12 +1846,12 @@
     {
       "_": "types.LangPackString",
       "key": "BirthdayPopupTitle",
-      "value": "出生日期"
+      "value": "生日"
     },
     {
       "_": "types.LangPackString",
       "key": "BlockBot",
-      "value": "屏蔽并停止"
+      "value": "屏蔽机器人"
     },
     {
       "_": "types.LangPackString",
@@ -1921,7 +1931,7 @@
     {
       "_": "types.LangPackString",
       "key": "BlockedBot",
-      "value": "%1$s 已停用。"
+      "value": "%1$s 现已被屏蔽。"
     },
     {
       "_": "types.LangPackString",
@@ -1931,7 +1941,7 @@
     {
       "_": "types.LangPackString",
       "key": "BlockedSenders",
-      "value": "屏蔽的发送者"
+      "value": "已屏蔽聊天"
     },
     {
       "_": "types.LangPackString",
@@ -2001,7 +2011,7 @@
     {
       "_": "types.LangPackString",
       "key": "BotDeleteHint",
-      "value": "要从建议列表中删除此机器人吗？"
+      "value": "从建议中移除机器人？"
     },
     {
       "_": "types.LangPackString",
@@ -2311,7 +2321,7 @@
     {
       "_": "types.LangPackString",
       "key": "Cancelled",
-      "value": "挂断"
+      "value": "已挂断"
     },
     {
       "_": "types.LangPackString",
@@ -2471,7 +2481,7 @@
     {
       "_": "types.LangPackString",
       "key": "ChangePhoneHelp",
-      "value": "我们将会向您的新手机号码发送一条带有验证码的短信。"
+      "value": "您的新号码将通过电话或短信接收确认码。"
     },
     {
       "_": "types.LangPackString",
@@ -2556,12 +2566,12 @@
     {
       "_": "types.LangPackString",
       "key": "ChannelNotifyMembersInfoOff",
-      "value": "消息发布后订阅者会收到无声通知"
+      "value": "消息发布后订阅者会收到无声通知。"
     },
     {
       "_": "types.LangPackString",
       "key": "ChannelNotifyMembersInfoOn",
-      "value": "消息发布后订阅者会收到通知"
+      "value": "消息发布后订阅者会收到通知。"
     },
     {
       "_": "types.LangPackString",
@@ -2572,6 +2582,11 @@
       "_": "types.LangPackString",
       "key": "ChannelPhoto",
       "value": "频道头像"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChannelPostDeleted",
+      "value": "抱歉，此公告已从讨论群组移除。"
     },
     {
       "_": "types.LangPackString",
@@ -2586,7 +2601,7 @@
     {
       "_": "types.LangPackString",
       "key": "ChannelPrivateLinkHelp",
-      "value": "任何人都可以通过此链接加入您的频道。您可以随时废除此链接。"
+      "value": "任何人都可以通过此链接加入您的频道。您可以随时废除撒消此链接。"
     },
     {
       "_": "types.LangPackString",
@@ -2611,7 +2626,7 @@
     {
       "_": "types.LangPackString",
       "key": "ChannelRenamed",
-      "value": "频道名称已更改为«%1$s»"
+      "value": "频道已重命名为 “%1$s”"
     },
     {
       "_": "types.LangPackString",
@@ -2656,7 +2671,7 @@
     {
       "_": "types.LangPackString",
       "key": "ChannelUsernameHelp",
-      "value": "所有人都可以与其他人分享此链接，并使用 Telegram 的搜索功能找到您的频道。"
+      "value": "如果您设置了公开链接，其它人可以发现并加入您的频道。\n\n您可以使用 a-z、0-9 和下划线。\n最小长度为五个字符。"
     },
     {
       "_": "types.LangPackString",
@@ -2741,7 +2756,7 @@
     {
       "_": "types.LangPackString",
       "key": "ChatBackgroundView",
-      "value": "查看聊天壁纸"
+      "value": "查看壁纸"
     },
     {
       "_": "types.LangPackString",
@@ -3001,7 +3016,7 @@
     {
       "_": "types.LangPackString",
       "key": "ChatContentGroupName",
-      "value": "群组更名为 «%1$s»"
+      "value": "群组已重命名为 “%1$s”"
     },
     {
       "_": "types.LangPackString",
@@ -3045,6 +3060,16 @@
     },
     {
       "_": "types.LangPackStringPluralized",
+      "key": "ChatContentGroupTtlHours",
+      "other_value": "设置消息在 %1$s 小时后自动删除"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "ChatContentGroupTtlMinutes",
+      "other_value": "设置消息在 %1$s 分钟后自动删除"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
       "key": "ChatContentGroupTtlMonths",
       "other_value": "已设置消息在 %1$s 个月后自动删除"
     },
@@ -3052,6 +3077,11 @@
       "_": "types.LangPackString",
       "key": "ChatContentGroupTtlOff",
       "value": "已停用自动删除定时器"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "ChatContentGroupTtlSeconds",
+      "other_value": "设置消息在 %1$s 秒后自动删除"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -3087,6 +3117,11 @@
       "_": "types.LangPackString",
       "key": "ChatContentLiveStreamFinished_outgoing",
       "value": "结束直播（%1$s)"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatContentLiveStreamInvite",
+      "value": "受邀 %1$s 加入直播"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -3272,6 +3307,16 @@
       "_": "types.LangPackString",
       "key": "ChatContentVoiceChatFinished_outgoing",
       "value": "已结束视频聊天（%1$s）"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatContentVoiceChatInvite",
+      "value": "邀请了 %1$s  加入视频聊天"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "ChatContentVoiceChatInviteMulti",
+      "other_value": "邀请了 %1$s 人加入视频聊天"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -3501,7 +3546,7 @@
     {
       "_": "types.LangPackString",
       "key": "ChatFoldersSetupSuggestionText",
-      "value": "不用再等待了。**聊天分类** 终于可供每个人享用......并进行 **自定义**。 \n\n您喜欢图标吗？我们已经为您提供了功能。底部标签？没問题。筛选文件夹内的聊天记录？滑动标签也可以存取它。\n\n归档为文件夹、隐藏标签、将文件夹标记为已读、共享文件夹以及更多功能均已提供。\n135/321"
+      "value": "不用再等待了。**聊天分类** 终于可供每个人享用… 并进行 **自定义**。 \n\n您喜欢图标吗？我们已经为您提供了功能。底部标签？没問题。筛选文件夹内的聊天记录？滑动标签也可以存取它。\n\n归档为文件夹、隐藏标签、将文件夹标记为已读、共享文件夹以及更多功能均已提供。"
     },
     {
       "_": "types.LangPackString",
@@ -3660,6 +3705,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ChatRestrictedGames",
+      "value": "群组管理员已禁止您在这里发起游戏。"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ChatRestrictedGamesUntil",
       "value": "群组管理员已禁止您在 %1$s 之前开始游戏"
     },
@@ -3700,6 +3750,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ChatRestrictedOtherUntil",
+      "value": "群组管理员已禁止您在 %1$s 之前发送贴纸和 GIF"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ChatRestrictedPhoto",
       "value": "群组管理员已禁止您发送照片。"
     },
@@ -3712,6 +3767,11 @@
       "_": "types.LangPackString",
       "key": "ChatRestrictedPolls",
       "value": "此群组的管理员已限制您发送投票。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatRestrictedPollsUntil",
+      "value": "管理员已限制您在 %1$s 之前不得于本群组内发送投票"
     },
     {
       "_": "types.LangPackString",
@@ -4111,7 +4171,7 @@
     {
       "_": "types.LangPackStringPluralized",
       "key": "ClosingXSecretChats",
-      "other_value": "%1$s 次私密聊天将被取消！"
+      "other_value": "%1$s 次私密对话将被取消！"
     },
     {
       "_": "types.LangPackString",
@@ -4691,7 +4751,7 @@
     {
       "_": "types.LangPackString",
       "key": "CustomTitle",
-      "value": "自定义头衔"
+      "value": "成员标签"
     },
     {
       "_": "types.LangPackString",
@@ -4706,7 +4766,7 @@
     {
       "_": "types.LangPackString",
       "key": "CustomTitleTooBig",
-      "value": "自定义头衔过长"
+      "value": "成员标签过长"
     },
     {
       "_": "types.LangPackString",
@@ -4966,7 +5026,7 @@
     {
       "_": "types.LangPackString",
       "key": "DeleteContactConfirm",
-      "value": "您确定要从联系人名单中删除“%1$s”吗？"
+      "value": "从联系人中删除 %1$s？"
     },
     {
       "_": "types.LangPackString",
@@ -5051,7 +5111,7 @@
     {
       "_": "types.LangPackString",
       "key": "DeletePhoto",
-      "value": "删除头像"
+      "value": "移除图片"
     },
     {
       "_": "types.LangPackString",
@@ -5136,7 +5196,7 @@
     {
       "_": "types.LangPackString",
       "key": "DeleteXFromRecents",
-      "value": "要从最近联系列表中删除“%1$s”吗？"
+      "value": "从最近联系列表中删除 %1$s？"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -6240,8 +6300,43 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "EventLogChannelMutedNewParticipantsYou",
+      "value": "您将新的直播参与者设为静音"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EventLogChannelMutedParticipant",
+      "value": "%1$s 在直播中将 %2$s 设为静音"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EventLogChannelMutedParticipantYou",
+      "value": "您在直播中将 %1$s 设为静音"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "EventLogChannelRestricted",
       "value": "已封禁 %1$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EventLogChannelUnmutedNewParticipants",
+      "value": "%1$s 允许新的直播参与者发言"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EventLogChannelUnmutedNewParticipantsYou",
+      "value": "你允许新的直播参与者发言"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EventLogChannelUnmutedParticipant",
+      "value": "%1$s 允许 %2$s 在直播中发言"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EventLogChannelUnmutedParticipantYou",
+      "value": "您允许 %1$s 在直播中发言"
     },
     {
       "_": "types.LangPackString",
@@ -6466,7 +6561,7 @@
     {
       "_": "types.LangPackString",
       "key": "EventLogFilterNewAdmins",
-      "value": "新任管理员"
+      "value": "管理员权限"
     },
     {
       "_": "types.LangPackString",
@@ -6560,6 +6655,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "EventLogForumTopicPinned",
+      "value": "%1$s 已置顶话题 %2$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EventLogForumTopicPinnedYou",
+      "value": "您已置顶话题 %1$s"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "EventLogForumTopicReopened",
       "value": "%1$s 重新打开话题 %2$s"
     },
@@ -6642,6 +6747,26 @@
       "_": "types.LangPackString",
       "key": "EventLogLocationSet",
       "value": "%1$s 将群组位置设置为 %2$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EventLogMutedNewParticipants",
+      "value": "%1$s 静音了新加入视频聊天的参与者"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EventLogMutedNewParticipantsYou",
+      "value": "您静音了新的视频聊天参与者"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EventLogMutedParticipant",
+      "value": "%1$s 已将视频聊天中的 %2$s 设为静音"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EventLogMutedParticipantYou",
+      "value": "您已将视频聊天中的 %1$s 设为静音"
     },
     {
       "_": "types.LangPackString",
@@ -6981,7 +7106,7 @@
     {
       "_": "types.LangPackString",
       "key": "EventLogPromotedTitleChange",
-      "value": "标题: %1$s -> %2$s"
+      "value": "标题：%1$s → %2$s"
     },
     {
       "_": "types.LangPackString",
@@ -7001,7 +7126,7 @@
     {
       "_": "types.LangPackString",
       "key": "EventLogReactionsDisabled",
-      "value": "已停用表情回应"
+      "value": "已禁用全部反应"
     },
     {
       "_": "types.LangPackString",
@@ -7046,7 +7171,7 @@
     {
       "_": "types.LangPackString",
       "key": "EventLogRemovedGroupLink",
-      "value": "%1$s 移除了群组链接"
+      "value": "%1$s 移除了群组链接："
     },
     {
       "_": "types.LangPackString",
@@ -7061,7 +7186,7 @@
     {
       "_": "types.LangPackString",
       "key": "EventLogRestrictedDeleted",
-      "value": "解除了对“%1$s”的限制"
+      "value": "解除了对 %1$s 的限制"
     },
     {
       "_": "types.LangPackString",
@@ -7319,9 +7444,34 @@
       "other_value": "你已启用 %1$s 用户名: %2$s"
     },
     {
+      "_": "types.LangPackString",
+      "key": "EventLogUsernamesChanged",
+      "value": "%1$s 将已启用的用户名称从 %2$s 更改为 %3$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EventLogUsernamesChangedOrder",
+      "value": "%1$s 已将用户名顺序从 %2$s 更改为 %3$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EventLogUsernamesChangedOrderYou",
+      "value": "您见过用户名称顺序从 %1$s 更改为 %2$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EventLogUsernamesChangedYou",
+      "value": "您已将活跃用户名从%1$s 更改为 %2$s"
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "key": "EventLogUsernamesDeactivated",
       "other_value": "%2$s 已禁用 %1$s 个用户名: %3$s"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "EventLogUsernamesDeactivatedYou",
+      "other_value": "您已禁用 %1$s 个用户名：%2$s"
     },
     {
       "_": "types.LangPackString",
@@ -7446,7 +7596,7 @@
     {
       "_": "types.LangPackString",
       "key": "FeatureUnavailable",
-      "value": "抱歉，您所在的国家/地区目前无法使用此功能。"
+      "value": "抱歉，您所在的地区目前无法使用此功能。"
     },
     {
       "_": "types.LangPackString",
@@ -7712,6 +7862,11 @@
       "_": "types.LangPackString",
       "key": "FreedX",
       "value": "释放了 %1$s 的存储空间"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "FromAnonymous",
+      "value": "管理员"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -8221,12 +8376,12 @@
     {
       "_": "types.LangPackString",
       "key": "HashtagDeleteHint",
-      "value": "要从建议列表中删除此标签吗？"
+      "value": "从建议中移除此标签？"
     },
     {
       "_": "types.LangPackString",
       "key": "HavingTroubleAccessing",
-      "value": "无法访问电子邮箱 %1$s ？"
+      "value": "无法访问 %1$s？"
     },
     {
       "_": "types.LangPackString",
@@ -8636,7 +8791,7 @@
     {
       "_": "types.LangPackString",
       "key": "InvalidCode",
-      "value": "验证码无效，请重试。"
+      "value": "验证码无效。请重试。"
     },
     {
       "_": "types.LangPackString",
@@ -8646,7 +8801,7 @@
     {
       "_": "types.LangPackString",
       "key": "InvalidPasswordTryAgain",
-      "value": "密码错误，请重试"
+      "value": "密码错误。请重试。"
     },
     {
       "_": "types.LangPackString",
@@ -8706,7 +8861,7 @@
     {
       "_": "types.LangPackString",
       "key": "InviteLinkAdminApproval",
-      "value": "请求管理员批准"
+      "value": "批准新成员"
     },
     {
       "_": "types.LangPackString",
@@ -9616,7 +9771,7 @@
     {
       "_": "types.LangPackString",
       "key": "LinkInvalidShort",
-      "value": "频道名称必须包含至少 5 个字符。"
+      "value": "公开频道名称必须包含至少 5 个字符。"
     },
     {
       "_": "types.LangPackString",
@@ -9625,8 +9780,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "LinkJoinChannelOtherWithApproval",
+      "value": "%4$s 已批准 %1$s 通过 %2$s 的邀请链接 %3$s 订阅"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LinkJoinChannelOtherYouWithApproval",
+      "value": "%3$s 已批准您通过 %1$s 的邀请链接 %2$s 订阅"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "LinkJoinChannelPrimary",
       "value": "%1$s 已通过主要邀请链接 %2$s 订阅"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LinkJoinChannelPrimaryWithApproval",
+      "value": "%3$s 已批准 %1$s 通过主要邀请链接 %2$s 订阅"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LinkJoinChannelPrimaryYouWithApproval",
+      "value": "%2$s 已批准您通过主要邀请链接 %1$s 订阅"
     },
     {
       "_": "types.LangPackString",
@@ -9635,8 +9810,48 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "LinkJoinChannelTempYouWithApproval",
+      "value": "%3$s 已批准您通过 %1$s 的临时邀请链接 %2$s 订阅"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LinkJoinOtherWithApproval",
+      "value": "%4$s 已批准 %1$s 通过 %2$s 的邀请链接 %3$s 加入"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LinkJoinOtherYou",
+      "value": "您已通过 %1$s 的邀请连接 %2$s 加入"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LinkJoinOtherYouWithApproval",
+      "value": "%3$s 已批准您通 %1$s 的邀请链接 %2$s 加入"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "LinkJoinPrimaryWithApproval",
       "value": "%1$s 已通过主要邀请链接 %2$s 加入，由 %3$s 批准"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LinkJoinPrimaryYouWithApproval",
+      "value": "%2$s 已批准您通过主要邀请链接 %1$s 订阅"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LinkJoinTempWithApproval",
+      "value": "%4$s 已批准 %1$s 通过 %2$s 的临时邀请链接 %3$s 加入"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LinkJoinTempYou",
+      "value": "您已通过 %1$s 的临时邀请链接 %2$s 加入"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LinkJoinTempYouWithApproval",
+      "value": "%3$s 已批准您通过 %1$s 的临时邀请链接 %2$s 加入"
     },
     {
       "_": "types.LangPackString",
@@ -9750,8 +9965,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "LiveStreamInvite",
+      "value": "%1$s 邀请了 %2$s 加入直播"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "LiveStreamInviteOther",
       "value": "您已邀请 %1$s 加入直播"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LiveStreamInviteSelf",
+      "value": "%1$s 邀请来您加入直播"
     },
     {
       "_": "types.LangPackString",
@@ -9980,6 +10205,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "LoginEmailInfo",
+      "value": "请输入有效的电子邮件地址。"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "LoginErrorAirplane",
       "value": "您现在正处于飞行模式。请关闭或连接到 Wi-Fi 后再开始聊天。"
     },
@@ -10056,7 +10286,7 @@
     {
       "_": "types.LangPackString",
       "key": "MapPreviewProviderHint",
-      "value": "选择一个提供商用于在私密对话中显示地图预览。\n\n这将需要您匿名发送相关的地点坐标信息到您选择的地图预览提供商。"
+      "value": "选择一个提供商用于在私密聊天中显示地图预览。\n\n这将需要您匿名发送相关的地点坐标信息到您选择的地图预览提供商。"
     },
     {
       "_": "types.LangPackString",
@@ -10066,7 +10296,7 @@
     {
       "_": "types.LangPackString",
       "key": "MapPreviewProviderNone",
-      "value": "不使用地图预览"
+      "value": "无"
     },
     {
       "_": "types.LangPackString",
@@ -10622,6 +10852,16 @@
       "_": "types.LangPackString",
       "key": "MtprotoProxy",
       "value": "MTProto"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MultiLinkPrefix",
+      "value": "还有"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MultiUsernamePrefix",
+      "value": "还有"
     },
     {
       "_": "types.LangPackString",
@@ -11286,12 +11526,12 @@
     {
       "_": "types.LangPackString",
       "key": "NotificationChannelChannelChat",
-      "value": "针对频道«%1$s»的通知策略"
+      "value": "针对频道 “%1$s” 的通知策略"
     },
     {
       "_": "types.LangPackString",
       "key": "NotificationChannelChannelChatPublic",
-      "value": "针对频道«%1$s» (%2$s) 的通知策略。"
+      "value": "针对频道 “%1$s” (%2$s) 的通知策略。"
     },
     {
       "_": "types.LangPackString",
@@ -11316,12 +11556,12 @@
     {
       "_": "types.LangPackString",
       "key": "NotificationChannelGroupChat",
-      "value": "针对群组«%1$s»的通知策略"
+      "value": "针对群组 “%1$s” 的通知策略。"
     },
     {
       "_": "types.LangPackString",
       "key": "NotificationChannelGroupChatPublic",
-      "value": "针对群组«%1$s» (%2$s) 的通知策略"
+      "value": "针对群组 “%1$s” (%2$s) 的通知策略"
     },
     {
       "_": "types.LangPackString",
@@ -11650,6 +11890,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "NotificationsErrorErrorChat",
+      "value": "无法显示来自%1$s 的通知"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "NotificationsErrorPermission",
       "value": "在系统权限中被禁用"
     },
@@ -11721,7 +11966,7 @@
     {
       "_": "types.LangPackString",
       "key": "NotificationsLed",
-      "value": "LED 指示灯"
+      "value": "灯"
     },
     {
       "_": "types.LangPackString",
@@ -11757,6 +12002,11 @@
       "_": "types.LangPackStringPluralized",
       "key": "NotificationsModeSelectedHint",
       "other_value": "您将只会收到来自以下选择的 %1$s 个账号的通知。"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "NotificationsModeSelectedHintExcluded",
+      "other_value": "您只会收到来自 %1$s 个选定账号的通知。未选择目前账号。"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -12246,7 +12496,7 @@
     {
       "_": "types.LangPackString",
       "key": "PasswordAndHintMustBeDifferent",
-      "value": "密码提示不能与密码相同。"
+      "value": "密码提示必須不同于密码。"
     },
     {
       "_": "types.LangPackString",
@@ -12371,7 +12621,7 @@
     {
       "_": "types.LangPackString",
       "key": "PhoneNumberAlert",
-      "value": "如果您的 Telegram 联系人有您的旧号码，并且您没有在 Telegram 里拉黑他们，您的新号码将被添加到他们的通讯录里。"
+      "value": "如果您的 Telegram 联系人有您的旧号码，并且您没有在 Telegram 里屏蔽他们，您的新号码将被添加到他们的通讯录里。"
     },
     {
       "_": "types.LangPackString",
@@ -12856,7 +13106,7 @@
     {
       "_": "types.LangPackString",
       "key": "PollSettingMultiple",
-      "value": "多项选择"
+      "value": "可多选"
     },
     {
       "_": "types.LangPackString",
@@ -12996,12 +13246,12 @@
     {
       "_": "types.LangPackString",
       "key": "PremiumRequiredSticker",
-      "value": "发送该贴纸需要订阅 **Telegram 高级版** 。"
+      "value": "发送该贴纸需要 **Telegram 高级版**订阅 。"
     },
     {
       "_": "types.LangPackString",
       "key": "PremiumRequiredVoiceVideo",
-      "value": "该设置需要订阅 **Telegram 高级版**。"
+      "value": "此设置需要 **Telegram 高级版** 订阅。"
     },
     {
       "_": "types.LangPackString",
@@ -13046,7 +13296,7 @@
     {
       "_": "types.LangPackString",
       "key": "PriorityAboutUrgentAndLow",
-      "value": "当处于紧急级别时，即使您的手机处于勿扰模式，通知也仍会显示；而当处于低优先级时，通知仅会在状态栏上显示，却不会在屏幕上弹出通知。"
+      "value": "当您的手机处于「请勿打扰」模式时，仍将显示紧急通知。低优先级通知将显示在系统托盘中。"
     },
     {
       "_": "types.LangPackString",
@@ -13086,22 +13336,22 @@
     {
       "_": "types.LangPackString",
       "key": "PrivacyAddToGroupsContacts",
-      "value": "只有联系人可以将您添加到群组/频道"
+      "value": "仅联系人可以添加您"
     },
     {
       "_": "types.LangPackString",
       "key": "PrivacyAddToGroupsContactsExcept",
-      "value": "只有联系人 (%1$s) 可以将您添加到群组/频道"
+      "value": "仅联系人（%1$s）可以添加您"
     },
     {
       "_": "types.LangPackString",
       "key": "PrivacyAddToGroupsEverybody",
-      "value": "任何人都可以将您添加到群组/频道"
+      "value": "任何人都可以添加您"
     },
     {
       "_": "types.LangPackString",
       "key": "PrivacyAddToGroupsEverybodyExcept",
-      "value": "任何人 (%1$s) 都可以将您添加到群组/频道"
+      "value": "任何人（%1$s）可以添加您"
     },
     {
       "_": "types.LangPackString",
@@ -13131,12 +13381,12 @@
     {
       "_": "types.LangPackString",
       "key": "PrivacyAddToGroupsNobody",
-      "value": "没有人可以将您添加到群组/频道"
+      "value": "没人可以加您"
     },
     {
       "_": "types.LangPackString",
       "key": "PrivacyAddToGroupsNobodyExcept",
-      "value": "没有人 (%1$s) 可以将您添加到群组/频道"
+      "value": "没人（%1$s）可以加您"
     },
     {
       "_": "types.LangPackString",
@@ -13726,7 +13976,7 @@
     {
       "_": "types.LangPackString",
       "key": "PrivacyShowBirthdateEverybody",
-      "value": "所有人可以看到你的出生日期"
+      "value": "所有人可见您的生日"
     },
     {
       "_": "types.LangPackString",
@@ -14086,7 +14336,7 @@
     {
       "_": "types.LangPackString",
       "key": "ProxyRemoveInfo",
-      "value": "您确定要删除此代理服务器配置吗？"
+      "value": "删除此代理配置？"
     },
     {
       "_": "types.LangPackString",
@@ -14151,7 +14401,7 @@
     {
       "_": "types.LangPackString",
       "key": "PsaChatInfoCovid",
-      "value": "此对话为您提供正在发生的新冠肺炎疫情相关公共服务公告。了解有关此计划的更多咨询：https://telegram.org/blog/coronavirus"
+      "value": "此消息为您提供正在发生的 **新冠肺炎** 疫情相关公共服务公告。了解有关此计划的更多咨询：https://telegram.org/blog/coronavirus"
     },
     {
       "_": "types.LangPackString",
@@ -14162,6 +14412,16 @@
       "_": "types.LangPackString",
       "key": "PsaForwardCovid",
       "value": "新冠病毒肺炎通知"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PsaFromX",
+      "value": "来自 %1$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PsaFromXViaBot",
+      "value": "从 %1$s 通过 %2$s"
     },
     {
       "_": "types.LangPackString",
@@ -14267,6 +14527,11 @@
       "_": "types.LangPackString",
       "key": "QAddXToChannel",
       "value": "是否将 %1$s 添加到此频道？"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QBlockChat",
+      "value": "屏蔽 %1$s 吗？您将不会再收到来自其匿名管理员的回复通知。"
     },
     {
       "_": "types.LangPackString",
@@ -14830,6 +15095,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "RemoveAccountHint2",
+      "value": "登出 %1$s？此账号上的所有秘密聊天都将会丟失。已下载的媒体将从此设备中删除。"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "RemoveBotPhoto",
       "value": "移除机器人照片"
     },
@@ -15196,7 +15466,7 @@
     {
       "_": "types.LangPackString",
       "key": "RequestJoinGroup",
-      "value": "请求加入群组"
+      "value": "申请加入群组"
     },
     {
       "_": "types.LangPackString",
@@ -15366,7 +15636,7 @@
     {
       "_": "types.LangPackString",
       "key": "RestrictSavingBotInfo",
-      "value": "不可从本机器人拷贝或转发消息。"
+      "value": "禁止复制或转发此机器人的消息。"
     },
     {
       "_": "types.LangPackString",
@@ -15417,6 +15687,11 @@
       "_": "types.LangPackString",
       "key": "RestrictUser",
       "value": "限制用户权限"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RestrictXChannel",
+      "value": "%1$s 不会从频道中移除。"
     },
     {
       "_": "types.LangPackString",
@@ -15761,7 +16036,7 @@
     {
       "_": "types.LangPackString",
       "key": "SaveOutgoingPhotos",
-      "value": "保存编辑过的图片到相册"
+      "value": "保存已编辑图片到相册"
     },
     {
       "_": "types.LangPackString",
@@ -15812,6 +16087,11 @@
       "_": "types.LangPackStringPluralized",
       "key": "SavedXFiles",
       "other_value": "已保存 %1$s 个文件"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "SavedXGifToGallery",
+      "other_value": "%1$s 张 GIF 已保存到相册"
     },
     {
       "_": "types.LangPackString",
@@ -16086,7 +16366,7 @@
     {
       "_": "types.LangPackStringPluralized",
       "key": "SelectedMediaSuffix",
-      "other_value": " 个媒体文件"
+      "other_value": " 个媒体"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -16176,7 +16456,7 @@
     {
       "_": "types.LangPackString",
       "key": "SendByEnter",
-      "value": "按回车键发送消息"
+      "value": "用回车发送"
     },
     {
       "_": "types.LangPackString",
@@ -16391,7 +16671,7 @@
     {
       "_": "types.LangPackString",
       "key": "SentAppCode",
-      "value": "我们已向您其它设备上的 **Telegram** 应用发送了一条带有验证码的消息。"
+      "value": "我们已向您其它设备上的 **Telegram** 应用发送了一条验证码消息。"
     },
     {
       "_": "types.LangPackString",
@@ -16565,8 +16845,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "SessionSnapshotInfo",
+      "value": "会话快照是包含您所有授权数据的归档文件，切勿与任何人分享。是否要删除它们？"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "SessionSnapshotWarning",
       "value": "**警告！**\n\n您即将发送的快照包含可访问您 Telegram 账号的信息。\n\n除非您清楚自己在做什么，否则请勿将其发送或转发给任何人。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SessionSnapshots",
+      "value": "会话快照"
     },
     {
       "_": "types.LangPackString",
@@ -16891,12 +17181,12 @@
     {
       "_": "types.LangPackString",
       "key": "ShareTextChat",
-      "value": "«%1$s»的聊天图片"
+      "value": "“%1$s” 的聊天图片"
     },
     {
       "_": "types.LangPackString",
       "key": "ShareTextChatLink",
-      "value": "在 Telegram 上加入«%1$s»：%2$s"
+      "value": "在 Telegram 上加入 “%1$s”：%2$s"
     },
     {
       "_": "types.LangPackString",
@@ -16996,7 +17286,7 @@
     {
       "_": "types.LangPackString",
       "key": "ShareTextStickerLink",
-      "value": "查看为 Telegram 设置的«%1$s»表情包：%2$s"
+      "value": "查看为 Telegram 设置的 “%1$s” 贴纸：%2$s"
     },
     {
       "_": "types.LangPackString",
@@ -17066,7 +17356,7 @@
     {
       "_": "types.LangPackStringPluralized",
       "key": "ShareTitleMediaX",
-      "other_value": "分享 %1$s 个媒体给…"
+      "other_value": "分享 %1$s 媒体到……"
     },
     {
       "_": "types.LangPackString",
@@ -17285,6 +17575,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "SignedInOtherDevice",
+      "value": "你同時也已于 %1$s 登录"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "SignedInOtherSession",
       "value": "你还登录了 %1$s"
     },
@@ -17292,6 +17587,11 @@
       "_": "types.LangPackStringPluralized",
       "key": "SignedInXOtherApps",
       "other_value": "你已登入从 %1$s 个其他应用"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "SignedInXOtherDevices",
+      "other_value": "您已登入从 %1$s 个其他设备"
     },
     {
       "_": "types.LangPackString",
@@ -17880,13 +18180,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "SyncContactsProgress",
+      "value": "正在上传联系人…"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "SyncHint",
       "value": "Contacts on your device\n (phone numbers, first and last names)\n will be seamlessly uploaded to Telegram servers so you could find them in Contacts section of Telegram X, or receive a notification once they join.\n\nWhen you delete a contact on your device while sync is on, it will also be deleted from your contacts list on Telegram servers.\n\nYou can always turn sync off or clear data on Telegram servers via Settings > Privacy and Security > Delete Synced Contacts.\n\nTo turn sync on, you also have to allow Telegram X to access contacts on your device."
     },
     {
       "_": "types.LangPackString",
       "key": "SyncHintRetry",
-      "value": "为了帮助您在 Telegram 上发送消息给朋友、家人，请允许我们访问您的通讯录。\n\n点击“设置” > “权限”，然后开启通讯录访问权限。"
+      "value": "为了帮助您在 Telegram 上发送消息给朋友、家人，请允许我们访问您的通讯录。\n\n点击设置 > 权限，然后开启通讯录访问权限。"
     },
     {
       "_": "types.LangPackString",
@@ -17896,7 +18201,7 @@
     {
       "_": "types.LangPackString",
       "key": "SyncHintTitle",
-      "value": "寻找联系人"
+      "value": "查找联系人"
     },
     {
       "_": "types.LangPackString",
@@ -17906,7 +18211,7 @@
     {
       "_": "types.LangPackString",
       "key": "SyncHintUnavailable",
-      "value": "点击“设置” > “权限”，然后开启通讯录访问权限，并允许 Telegram 访问通讯录。"
+      "value": "点击 设置 > 权限，然后开启通讯录访问权限，并允许 Telegram 访问通讯录。"
     },
     {
       "_": "types.LangPackString",
@@ -18506,7 +18811,7 @@
     {
       "_": "types.LangPackString",
       "key": "ThemeRemoveInfo",
-      "value": "您确定要删除该主题吗？此操作无法撤消。"
+      "value": "您确定要删除该主题吗？此操作无法撤销。"
     },
     {
       "_": "types.LangPackString",
@@ -18536,7 +18841,7 @@
     {
       "_": "types.LangPackString",
       "key": "ThemeSectionRadios_info",
-      "value": "这些颜色是显示在「设置->主题」中。\n确保它们清楚地代表 **filling** 颜色的相应主题。"
+      "value": "这些颜色在「设置 - 主题」中显示，确保它们在你的 **填充** 颜色中清楚地代表了相应的主题。"
     },
     {
       "_": "types.LangPackString",
@@ -18737,6 +19042,11 @@
       "_": "types.LangPackString",
       "key": "TransferOwnershipAlertGroup",
       "value": "您确定要将 **%1$s** 的所有权转移给 **%2$s** 吗？\n\n您将不再被视为该群的创建者。新所有者可以自由地移除您的任何管理员特权，甚至可以封禁您。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "TransferOwnershipAlertUnknown",
+      "value": "您确定要继续吗？\n\n此操作 **不可逆**，因此请再次检查所有细节是否正确。"
     },
     {
       "_": "types.LangPackString",
@@ -19136,7 +19446,7 @@
     {
       "_": "types.LangPackString",
       "key": "UnlockByPattern",
-      "value": "请画图形以解锁"
+      "value": "请绘制图案以解锁"
     },
     {
       "_": "types.LangPackString",
@@ -19311,7 +19621,7 @@
     {
       "_": "types.LangPackString",
       "key": "UserBirthdate",
-      "value": "出生日期"
+      "value": "生日"
     },
     {
       "_": "types.LangPackString",
@@ -19436,7 +19746,7 @@
     {
       "_": "types.LangPackString",
       "key": "UsernameInvalidStartNumber",
-      "value": "抱歉，用户名不能以数字开头。"
+      "value": "用户名不能以数字开头。"
     },
     {
       "_": "types.LangPackString",
@@ -19701,7 +20011,7 @@
     {
       "_": "types.LangPackString",
       "key": "VoiceCallPrivacyDesc",
-      "value": "您可以很精确地限制什么人能给您打电话"
+      "value": "准确选择谁可以和不能打电话给您。"
     },
     {
       "_": "types.LangPackString",
@@ -19722,6 +20032,11 @@
       "_": "types.LangPackString",
       "key": "VoiceChatEndedYou",
       "value": "您结束了视频聊天"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceChatInviteOther",
+      "value": "您邀请了 %1$s 加入视频聊天"
     },
     {
       "_": "types.LangPackString",
@@ -19896,7 +20211,7 @@
     {
       "_": "types.LangPackString",
       "key": "VoipUseLessData",
-      "value": "节省通话时的数据流量"
+      "value": "通话时节省数据"
     },
     {
       "_": "types.LangPackString",
@@ -20115,6 +20430,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "XAcceptedToChannel",
+      "value": "%1$s 已获准加入频道"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "XAcceptedToChannelBy",
+      "value": "%2$s 已批准 %1$s 加入此频道"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "XAcceptedToGroup",
       "value": "%1$s 已获批加入群组"
     },
@@ -20171,7 +20496,7 @@
     {
       "_": "types.LangPackString",
       "key": "XDisabledTimer",
-      "value": "%1$s 关闭了阅后即焚计时器"
+      "value": "%1$s 已禁用自焚计时器"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -20195,6 +20520,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "XIsAlreadyAdmin",
+      "value": "%1$s 已拥有管理员权限"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "XIsAlreadyInChat",
       "value": "%1$s 已经是该群组的成员了"
     },
@@ -20202,6 +20532,11 @@
       "_": "types.LangPackString",
       "key": "XJoinedByLink",
       "value": "%1$s 通过邀请链接加入"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "XJoinedByLinkWithApproval",
+      "value": "%2$s 已批准 %1$s 通过邀请链接加入"
     },
     {
       "_": "types.LangPackString",
@@ -20257,6 +20592,16 @@
       "_": "types.LangPackStringPluralized",
       "key": "XSetAutoDeleteDays",
       "other_value": "%2$s 设置了消息在 %1$s 天后自动删除"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "XSetAutoDeleteHours",
+      "other_value": "%2$s 设置消息在 %1$s 小时后自动删除"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "XSetAutoDeleteMinutes",
+      "other_value": "%2$s  设置消息在 %1$s 分钟后自动删除"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -20320,6 +20665,11 @@
     },
     {
       "_": "types.LangPackStringPluralized",
+      "key": "XSetTimerMonths",
+      "other_value": "%2$s 将阅后即焚即时器设置为 %1$s 个月"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
       "key": "XSetTimerSeconds",
       "other_value": "%2$s 将阅后即焚时间设为 %1$s 秒"
     },
@@ -20365,8 +20715,23 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "YouAcceptedToChannelBy",
+      "value": "%1$s 已批准您加入此频道"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "YouAcceptedToGroup",
       "value": "您已被接受加入群组"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "YouAcceptedToGroupBy",
+      "value": "%1$s 已批准您加入此群组"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "YouCantBanX",
+      "value": "您没有足够的管理员权限在此聊天中封禁 %1$s。"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -20406,7 +20771,7 @@
     {
       "_": "types.LangPackString",
       "key": "YouDisabledTimer",
-      "value": "您关闭了阅后即焚计时器"
+      "value": "您已禁用自焚计时器"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -20462,6 +20827,11 @@
       "_": "types.LangPackStringPluralized",
       "key": "YouSetAutoDeleteHours",
       "other_value": "您将阅后即焚计时器设定为 %1$s 个小时"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "YouSetAutoDeleteMinutes",
+      "other_value": "您设置消息在 %1$s 分钟后自动删除"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -20691,7 +21061,7 @@
     {
       "_": "types.LangPackString",
       "key": "c_textLinkPressHighlight",
-      "value": "按下链接背景。必须是不透明的。"
+      "value": "按下链接背景。"
     },
     {
       "_": "types.LangPackString",
@@ -20721,7 +21091,7 @@
     {
       "_": "types.LangPackString",
       "key": "channel_create_somebody",
-      "value": "已创建频道«%1$s»"
+      "value": "已创建频道 “%1$s”"
     },
     {
       "_": "types.LangPackString",
@@ -20802,6 +21172,11 @@
       "_": "types.LangPackString",
       "key": "email_LoginDeadEnd_subject",
       "value": "Telegram X 短信未发送：%1$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "email_LoginDeadEnd_text",
+      "value": "我的网络服务供应商（ISP）是：（请输入名称）\n\n我正在尝试使用我的手机号码：%1$s \n但是 Telegram 无法向我发送带有验证码的短信。请给予帮忙。 \n\n以下是可能有助于理解问题的所有详细信息：\n%2$s\n错误：%3$s "
     },
     {
       "_": "types.LangPackString",
@@ -20940,6 +21315,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "error_PHONE_NUMBER_BANNED",
+      "value": "抱歉，此电话号码已被屏蔽。如有需要帮助，请通过 login@telegram.org 与我们联系。"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "error_PREMIUM_ACCOUNT_REQUIRED",
       "value": "此功能需要订阅 Telegram 高级版。"
     },
@@ -20996,7 +21376,7 @@
     {
       "_": "types.LangPackString",
       "key": "fingerprint_hint3",
-      "value": "请在「设置 > 安全 > 指纹」中至少添加一个指纹。"
+      "value": "请在系统设置 > 安全 > 指纹中添加至少一个指纹。"
     },
     {
       "_": "types.LangPackString",
@@ -21501,12 +21881,12 @@
     {
       "_": "types.LangPackString",
       "key": "group_create_you",
-      "value": "您已创建群组 «%1$s»"
+      "value": "您已创建群组 “%1$s”"
     },
     {
       "_": "types.LangPackString",
       "key": "group_created",
-      "value": "%1$s 已创建群组 «%2$s»"
+      "value": "%1$s 已创建群组 “%2$s”"
     },
     {
       "_": "types.LangPackString",
@@ -21531,12 +21911,12 @@
     {
       "_": "types.LangPackString",
       "key": "group_title_changed",
-      "value": "%1$s 已将群组名称更改为«%2$s»"
+      "value": "%1$s 已将群组名称更改为 “%2$s”"
     },
     {
       "_": "types.LangPackString",
       "key": "group_title_changed_you",
-      "value": "您已将群组名称更改为 %1$s"
+      "value": "您已重命名群组名为 “%1$s”"
     },
     {
       "_": "types.LangPackString",
@@ -21572,6 +21952,11 @@
       "_": "types.LangPackString",
       "key": "group_user_join_by_link_self_with_approval",
       "value": "%1$s 已批准您通过邀请链接加入群组"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "group_user_join_by_link_with_approval",
+      "value": "%2$s 已批准 %1$s 通过邀请链接加入群组"
     },
     {
       "_": "types.LangPackString",
@@ -21895,6 +22280,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "login_DeadEnd",
+      "value": "我们无法向您的电话号码发送包含验证码的短信。如果您需要帮助，__联系我们__。"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "login_FirstName",
       "value": "名字（必填）"
     },
@@ -22130,6 +22520,11 @@
     },
     {
       "_": "types.LangPackStringPluralized",
+      "key": "opened_round_hours",
+      "other_value": "%1$s 小时前看过"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
       "key": "opened_round_minutes",
       "other_value": "%1$s 分钟前看过"
     },
@@ -22306,7 +22701,7 @@
     {
       "_": "types.LangPackString",
       "key": "passcode_auto_hint",
-      "value": "在离开一段时间后需要重新输入锁定码进行验证。"
+      "value": "在离开一段时间后需要重新输入验证码。"
     },
     {
       "_": "types.LangPackString",
@@ -22341,7 +22736,7 @@
     {
       "_": "types.LangPackString",
       "key": "pickFromGallery",
-      "value": "从相册中选择"
+      "value": "从相册中选取"
     },
     {
       "_": "types.LangPackString",
@@ -22501,7 +22896,7 @@
     {
       "_": "types.LangPackString",
       "key": "status_LastSeenRecently",
-      "value": "最近曾上线"
+      "value": "最近在线"
     },
     {
       "_": "types.LangPackString",
@@ -22701,7 +23096,7 @@
     {
       "_": "types.LangPackString",
       "key": "url_promote",
-      "value": "https://promote.telegram.org/"
+      "value": "https://ads.telegram.org/"
     },
     {
       "_": "types.LangPackString",
@@ -23006,7 +23401,7 @@
     {
       "_": "types.LangPackStringPluralized",
       "key": "xMedia",
-      "other_value": "%1$s 个媒体文件"
+      "other_value": "%1$s 个媒体"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -23344,5 +23739,5 @@
       "other_value": "%1$s 年"
     }
   ],
-  "version": 1643874
+  "version": 1652219
 }
