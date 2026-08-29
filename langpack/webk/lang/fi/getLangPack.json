@@ -190,6 +190,28 @@
       "value": "Näytä"
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "key": "ActionGiftSentChannel",
+      "one_value": "**%2$s** lähetti lahjan kanavalle **%3$s** **%1$d tähdestä**",
+      "other_value": "**%2$s** lähetti lahjan kanavalle **%3$s** **%1$d tähdestä**"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ActionGiftSentChannelTon",
+      "value": "**%2$s** lähetti lahjan kanavalle **%3$s** **%1$s gramista**"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "ActionGiftSentSelfChannel",
+      "one_value": "Lähetit lahjan kanavalle **%2$s** **%1$d tähdestä**",
+      "other_value": "Lähetit lahjan kanavalle **%2$s** **%1$d tähdestä**"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ActionGiftSentSelfChannelTon",
+      "value": "Lähetit lahjan kanavalle **%2$s** **%1$s gramista**"
+    },
+    {
       "_": "types.LangPackString",
       "key": "ActionGiftSold",
       "value": "Myit lahjan käyttäjälle %s"
@@ -212,6 +234,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ActionGiftTransferredChannel",
+      "value": "%1$s siirsi lahjan kanavalle %2$s"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ActionGiftTransferredInbound",
       "value": "%s siirsi sinulle lahjan"
     },
@@ -227,6 +254,26 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ActionGiftTransferredSelfChannel",
+      "value": "Siirsit lahjan kanavalle %s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ActionGiftUpgradedChannel",
+      "value": "%1$s muunsi kanavan %2$s lahjan uniikiksi keräilyesineeksi"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ActionGiftUpgradedHelped",
+      "value": "%s avasi lahjan jonka autoit muuntamaan"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ActionGiftUpgradedHelpedSelf",
+      "value": "Avasit lahjan, jonka %s auttoi muuntamaan"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ActionGiftUpgradedInbound",
       "value": "%s muunsi lahjan sinulta uniikiksi keräilyesineeksi"
     },
@@ -239,6 +286,11 @@
       "_": "types.LangPackString",
       "key": "ActionGiftUpgradedSelf",
       "value": "Muunsit lahjan uniikiksi keräilyesineeksi"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ActionGiftUpgradedSelfChannel",
+      "value": "Muunsit kanavalle %s annetun lahjan uniikiksi keräilyesineeksi"
     },
     {
       "_": "types.LangPackString",
@@ -1780,6 +1832,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AlertClearHistory",
+      "value": "Tyhjennä historia"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AllChats",
       "value": "Kaikki keskustelut"
     },
@@ -2026,6 +2083,26 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AreYouSureClearHistory",
+      "value": "Haluatko varmasti poistaa kaikki keskustelun viestit?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AreYouSureClearHistorySavedMessages",
+      "value": "Haluatko varmasti tyhjentää **tallentamasi viestit**?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AreYouSureClearHistoryWithChannel",
+      "value": "Haluatko varmasti tyhjentää viestihistorian kanavalta **%1$s**?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AreYouSureClearHistoryWithUser",
+      "value": "Haluatko varmasti tyhjentää viestihistorian henkilön **%1$s** kanssa?"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AreYouSureDeleteAndExit",
       "value": "Haluatko varmasti poistua ryhmästä ja poistaa sen?"
     },
@@ -2126,6 +2203,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AreYouSureShareMyContactInfoUser",
+      "value": "Haluatko varmasti jakaa puhelinnumerosi %1$s käyttäjälle **%2$s**?"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AreYouSureWebSessions",
       "value": "Haluatko varmasti katkaista yhteyden kaikkiin sivustoihin, joihin olet kirjautunut Telegramilla?"
     },
@@ -2203,6 +2285,81 @@
       "_": "types.LangPackString",
       "key": "AudioUnknownTitle",
       "value": "Tuntematon nimi"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AuthSessions.DeviceName",
+      "value": "Laitteen nimi"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AuthSessions.IncompleteAttempts",
+      "value": "Keskeneräiset kirjautumisyritykset"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AuthSessions.IncompleteAttemptsInfo",
+      "value": "Yllä olevilla laitteilla ei ole pääsyä viesteihisi. Koodi on annettu oikein, mutta salasanaa ei."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AuthSessions.RenameDevice",
+      "value": "Nimeä tämä laite uudelleen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AuthSessions.TerminateIfAwayFor",
+      "value": "Jos poissa"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AuthSessions.TerminateIfAwayTitle",
+      "value": "Katkaise vanhat istunnot automaattisesti"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AuthSessions.View.AcceptIncomingCalls",
+      "value": "Saapuvat puhelut"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AuthSessions.View.AcceptSecretChats",
+      "value": "Uudet salaiset keskustelut"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AuthSessions.View.AcceptTitle",
+      "value": "Vastaanota tällä laitteella"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AuthSessions.View.Application",
+      "value": "Sovellus"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AuthSessions.View.Device",
+      "value": "Laite"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AuthSessions.View.Location",
+      "value": "Sijainti"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AuthSessions.View.LocationInfo",
+      "value": "Sijaintiarvio perustuu IP-osoitteeseen eikä sen tarkkuutta taata."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AuthSessions.View.System",
+      "value": "Järjestelmä"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AuthSessions.View.TerminateSession",
+      "value": "Katkaise istunto"
     },
     {
       "_": "types.LangPackString",
@@ -6302,6 +6459,31 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ChatWithAdminChannelTitle",
+      "value": "Keskustelu kanavan valvojan kanssa"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatWithAdminGroupTitle",
+      "value": "Keskustelu ryhmän valvojan kanssa"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatWithAdminMessage",
+      "value": "Saat tämän viestin, koska pyysit liittyä keskusteluun **%1$s**, %2$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatWithChannelAdmin",
+      "value": "**%1$s** on kanavan **%2$s**, jolle pyysit liittyä, valvoja."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatWithGroupAdmin",
+      "value": "**%1$s** on ryhmän **%2$s**, johon pyysit liittyä, valvoja."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ChatYourSelf",
       "value": "keskustele itsesi kanssa"
     },
@@ -6522,6 +6704,16 @@
       "_": "types.LangPackString",
       "key": "ClearButton",
       "value": "Tyhjennä"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ClearHistory",
+      "value": "Tyhjennä historia"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ClearHistoryOptionAlso",
+      "value": "Tyhjennä historia myös käyttäjältä %1$s"
     },
     {
       "_": "types.LangPackString",
@@ -7422,6 +7614,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Conversation.ShareMyPhoneNumber.StatusSuccess",
+      "value": "%@ näkee nyt puhelinnumerosi."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Copy",
       "value": "Kopioi"
     },
@@ -7790,6 +7987,11 @@
       "_": "types.LangPackString",
       "key": "DeleteMessagesOptionAlso",
       "value": "Poista myös käyttäjältä %1$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "DeleteMessagesOptionAlsoChat",
+      "value": "Tyhjennä kaikilta jäseniltä"
     },
     {
       "_": "types.LangPackString",
@@ -9375,6 +9577,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ForumTopic.Context.ApplyToJoin",
+      "value": "Pyydä liittyä"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ForumTopic.Context.Info",
       "value": "Ryhmän tiedot"
     },
@@ -10387,6 +10594,11 @@
       "_": "types.LangPackString",
       "key": "HoursShortAgo",
       "value": "%dt sitten"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "IUnderstand",
+      "value": "Ymmärrän"
     },
     {
       "_": "types.LangPackString",
@@ -12774,6 +12986,16 @@
       "key": "MusicFiles",
       "one_value": "%d musiikkitiedosto",
       "other_value": "%d musiikkitiedostoa"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MusicSearch.Global",
+      "value": "Yleishaku"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MusicSearch.Profile",
+      "value": "Profiilimusiikki"
     },
     {
       "_": "types.LangPackString",
@@ -16600,6 +16822,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ReportSpamUserEmojiStatusHint",
+      "value": "Tällä tilillä on %1$s käytössä tilana nimensä vieressä. Emojitilat on saatavilla %2$s -tilaajille."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Reported2",
       "value": "Telegramin valvojat lukevat ilmiantosi. Kiitos!"
     },
@@ -17127,8 +17354,43 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "SavedMusic.AddToProfile",
+      "value": "Lisää profiiliin"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SavedMusic.Added",
+      "value": "Äänitiedosto lisättiin profiiliisi."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SavedMusic.RemoveConfirm",
+      "value": "Haluatko poistaa tämän tiedoston profiilistasi?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SavedMusic.RemoveFromProfile",
+      "value": "Poista profiilista"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SavedMusic.Removed",
+      "value": "Äänitiedosto poistettiin profiilistasi."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SavedMusic.Sort",
+      "value": "Järjestä"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "SavedMusicTab",
       "value": "Soittolista"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SavedMusicTabMine",
+      "value": "Soittolistasi"
     },
     {
       "_": "types.LangPackString",
@@ -17673,6 +17935,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "SetProfilePhoto",
+      "value": "Aseta profiilikuva"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "SetUrlPlaceholder",
       "value": "Linkki"
     },
@@ -17715,6 +17982,11 @@
       "_": "types.LangPackString",
       "key": "ShareModal.Search.Placeholder",
       "value": "Jaa..."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShareMyPhoneNoCaps",
+      "value": "Jaa puhelinnumeroni"
     },
     {
       "_": "types.LangPackString",
@@ -18968,10 +19240,20 @@
       "other_value": "**%1$s** lähetti **%2$d tähden** arvoisen lahjan"
     },
     {
+      "_": "types.LangPackString",
+      "key": "StarGiftSentMessageIncomingTon",
+      "value": "**%2$s** lähetti sinulle lahjan **%1$s gramista**"
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "key": "StarGiftSentMessageOutgoing",
       "one_value": "Lähetit **%d tähden** arvoisen lahjan",
       "other_value": "Lähetit **%d tähden** arvoisen lahjan"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarGiftSentMessageOutgoingTon",
+      "value": "Lähetit lahjan **%s gramista**"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -22550,5 +22832,5 @@
       "other_value": "%1$d viestiä"
     }
   ],
-  "version": 332834
+  "version": 341995
 }

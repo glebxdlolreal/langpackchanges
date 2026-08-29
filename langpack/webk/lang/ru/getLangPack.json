@@ -192,6 +192,32 @@
       "value": "Подробнее"
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "**%2$s** отправил(а) подарок для **%3$s** за **%1$d звезды**",
+      "key": "ActionGiftSentChannel",
+      "many_value": "**%2$s** отправил(а) подарок для **%3$s** за **%1$d звёзд**",
+      "one_value": "**%2$s** отправил(а) подарок для **%3$s** за **%1$d звезду**",
+      "other_value": "**%2$s** отправил(а) подарок для **%3$s** за **%1$d звезды**"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ActionGiftSentChannelTon",
+      "value": "**%2$s** отправил(а) подарок для **%3$s** за **%1$s GRAM**"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Вы отправили **%2$s** подарок за **%1$d звезды**.",
+      "key": "ActionGiftSentSelfChannel",
+      "many_value": "Вы отправили **%2$s** подарок за **%1$d звёзд**.",
+      "one_value": "Вы отправили **%2$s** подарок за **%1$d звезду**.",
+      "other_value": "Вы отправили **%2$s** подарок за **%1$d звезды**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ActionGiftSentSelfChannelTon",
+      "value": "Вы отправили **%2$s** подарок за **%1$s GRAM**"
+    },
+    {
       "_": "types.LangPackString",
       "key": "ActionGiftSold",
       "value": "Вы продали подарок %s"
@@ -216,6 +242,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ActionGiftTransferredChannel",
+      "value": "%1$s передал(а) %2$s подарок"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ActionGiftTransferredInbound",
       "value": "%s передал(а) Вам подарок"
     },
@@ -231,6 +262,26 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ActionGiftTransferredSelfChannel",
+      "value": "Вы передали подарок каналу %s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ActionGiftUpgradedChannel",
+      "value": "%1$s превратил(а) подарок для %2$s в уникальный коллекционный"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ActionGiftUpgradedHelped",
+      "value": "%s распаковал(а) подарок, который Вы помогли улучшить."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ActionGiftUpgradedHelpedSelf",
+      "value": "Вы распаковали подарок, который %s помог(ла) улучшить"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ActionGiftUpgradedInbound",
       "value": "%s превратил(а) подарок от Вас в уникальный коллекционный"
     },
@@ -243,6 +294,11 @@
       "_": "types.LangPackString",
       "key": "ActionGiftUpgradedSelf",
       "value": "Вы превратили подарок в уникальный коллекционный"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ActionGiftUpgradedSelfChannel",
+      "value": "Вы превратили подарок для %s в уникальный коллекционный"
     },
     {
       "_": "types.LangPackString",
@@ -1790,6 +1846,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AlertClearHistory",
+      "value": "Очистить историю"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AllChats",
       "value": "Все чаты"
     },
@@ -2038,6 +2099,26 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AreYouSureClearHistory",
+      "value": "Вы точно хотите удалить все сообщения в чате?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AreYouSureClearHistorySavedMessages",
+      "value": "Вы точно хотите удалить все сообщения в Избранном?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AreYouSureClearHistoryWithChannel",
+      "value": "Вы точно хотите очистить историю публикаций в канале **%1$s**?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AreYouSureClearHistoryWithUser",
+      "value": "Вы точно хотите очистить историю переписки с **%1$s**?"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AreYouSureDeleteAndExit",
       "value": "Вы точно хотите покинуть группу и удалить её?"
     },
@@ -2138,6 +2219,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AreYouSureShareMyContactInfoUser",
+      "value": "Вы точно хотите поделиться номером телефона %1$s с %2$s?"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AreYouSureWebSessions",
       "value": "Вы действительно хотите отключить все сайты, где авторизованы через Telegram?"
     },
@@ -2215,6 +2301,81 @@
       "_": "types.LangPackString",
       "key": "AudioUnknownTitle",
       "value": "Неизвестный трек"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AuthSessions.DeviceName",
+      "value": "Название устройства"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AuthSessions.IncompleteAttempts",
+      "value": "Незавершённые попытки входа"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AuthSessions.IncompleteAttemptsInfo",
+      "value": "С этих устройств нет доступа к Вашему аккаунту. Код для входа был введен верно, но правильный пароль указан не был."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AuthSessions.RenameDevice",
+      "value": "Переименовать текущее устройство"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AuthSessions.TerminateIfAwayFor",
+      "value": "Если сеанс неактивен"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AuthSessions.TerminateIfAwayTitle",
+      "value": "Автоматически завершать сеансы"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AuthSessions.View.AcceptIncomingCalls",
+      "value": "Входящие звонки"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AuthSessions.View.AcceptSecretChats",
+      "value": "Новые секретные чаты"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AuthSessions.View.AcceptTitle",
+      "value": "Принимать на этом устройстве"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AuthSessions.View.Application",
+      "value": "Приложение"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AuthSessions.View.Device",
+      "value": "Устройство"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AuthSessions.View.Location",
+      "value": "Геопозиция"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AuthSessions.View.LocationInfo",
+      "value": "Данные о геопозиции основаны на IP-адресе и могут быть неточными."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AuthSessions.View.System",
+      "value": "Версия системы"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AuthSessions.View.TerminateSession",
+      "value": "Завершить сеанс"
     },
     {
       "_": "types.LangPackString",
@@ -6456,6 +6617,31 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ChatWithAdminChannelTitle",
+      "value": "Чат с администратором канала"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatWithAdminGroupTitle",
+      "value": "Чат с администратором группы"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatWithAdminMessage",
+      "value": "Вы получили это сообщение, потому что подали заявку в **%1$s** %2$s."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatWithChannelAdmin",
+      "value": "**%1$s** — администратор канала **%2$s**, в который Вы отправили заявку."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatWithGroupAdmin",
+      "value": "**%1$s** — администратор группы **%2$s**, в которую Вы отправили заявку."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ChatYourSelf",
       "value": "сохранённые сообщения"
     },
@@ -6682,6 +6868,16 @@
       "_": "types.LangPackString",
       "key": "ClearButton",
       "value": "Очистить"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ClearHistory",
+      "value": "Очистить историю"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ClearHistoryOptionAlso",
+      "value": "Также очистить для %1$s"
     },
     {
       "_": "types.LangPackString",
@@ -7601,6 +7797,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Conversation.ShareMyPhoneNumber.StatusSuccess",
+      "value": "%@ теперь видит Ваш номер телефона."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Copy",
       "value": "Копировать"
     },
@@ -7971,6 +8172,11 @@
       "_": "types.LangPackString",
       "key": "DeleteMessagesOptionAlso",
       "value": "Также удалить для %1$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "DeleteMessagesOptionAlsoChat",
+      "value": "Удалить для всех участников"
     },
     {
       "_": "types.LangPackString",
@@ -9600,6 +9806,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ForumTopic.Context.ApplyToJoin",
+      "value": "Подать заявку"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ForumTopic.Context.Info",
       "value": "Информация о группе"
     },
@@ -10662,6 +10873,11 @@
       "_": "types.LangPackString",
       "key": "HoursShortAgo",
       "value": "%d ч. назад"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "IUnderstand",
+      "value": "Понятно"
     },
     {
       "_": "types.LangPackString",
@@ -13093,6 +13309,16 @@
       "many_value": "%d файлов с музыкой",
       "one_value": "%d файл с музыкой",
       "other_value": "%d файлов с музыкой"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MusicSearch.Global",
+      "value": "Глобальный поиск"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MusicSearch.Profile",
+      "value": "Музыка в профиле"
     },
     {
       "_": "types.LangPackString",
@@ -17000,6 +17226,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ReportSpamUserEmojiStatusHint",
+      "value": "Рядом с именем этого пользователя установлен статус %1$s. Эмодзи-статусы доступны с подпиской %2$s."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Reported2",
       "value": "Вашу жалобу проверят модераторы. Спасибо!"
     },
@@ -17541,8 +17772,43 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "SavedMusic.AddToProfile",
+      "value": "Добавить в профиль"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SavedMusic.Added",
+      "value": "Аудиофайл добавлен в профиль."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SavedMusic.RemoveConfirm",
+      "value": "Удалить этот аудиофайл из Вашего профиля?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SavedMusic.RemoveFromProfile",
+      "value": "Убрать из профиля"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SavedMusic.Removed",
+      "value": "Аудиофайл удалён из профиля."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SavedMusic.Sort",
+      "value": "Сортировать"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "SavedMusicTab",
       "value": "Плейлист"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SavedMusicTabMine",
+      "value": "Ваш плейлист"
     },
     {
       "_": "types.LangPackString",
@@ -18089,6 +18355,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "SetProfilePhoto",
+      "value": "Выбрать фото"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "SetUrlPlaceholder",
       "value": "Ссылка"
     },
@@ -18131,6 +18402,11 @@
       "_": "types.LangPackString",
       "key": "ShareModal.Search.Placeholder",
       "value": "Поделиться..."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShareMyPhoneNoCaps",
+      "value": "Показать мой номер телефона"
     },
     {
       "_": "types.LangPackString",
@@ -19416,12 +19692,22 @@
       "other_value": "**%1$s** отправил(а) Вам подарок стоимостью **%2$d звезды**"
     },
     {
+      "_": "types.LangPackString",
+      "key": "StarGiftSentMessageIncomingTon",
+      "value": "**%2$s** отправил(а) Вам подарок за **%1$s GRAM**"
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "few_value": "**Вы** отправили подарок стоимостью **%d звезды**",
       "key": "StarGiftSentMessageOutgoing",
       "many_value": "**Вы** отправили подарок стоимостью **%d звёзд**",
       "one_value": "**Вы** отправили подарок стоимостью **%d звезда**",
       "other_value": "**Вы** отправили подарок стоимостью **%d звезды**"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarGiftSentMessageOutgoingTon",
+      "value": "**Вы** отправили подарок за **%s GRAM**"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -23092,5 +23378,5 @@
       "other_value": "%1$d сообщений"
     }
   ],
-  "version": 332833
+  "version": 341994
 }
