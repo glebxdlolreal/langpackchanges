@@ -991,6 +991,20 @@
       "other_value": "Cineva ți-a trimis un Cod Cadou pentru %1$s de luni de Telegram Premium"
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Cineva ți-a trimis un Cod Cadou pentru %1$s zile de Telegram Premium",
+      "key": "AnonymousGiftedPremiumCodeDays",
+      "one_value": "Cineva ți-a trimis un Cod Cadou pentru %1$s zi de Telegram Premium",
+      "other_value": "Cineva ți-a trimis un Cod Cadou pentru %1$s de zile de Telegram Premium"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Cineva ți-a dăruit %1$s zile de Telegram Premium pentru %2$s",
+      "key": "AnonymousGiftedPremiumDays",
+      "one_value": "Cineva ți-a dăruit %1$s zi de Telegram Premium pentru %2$s",
+      "other_value": "Cineva ți-a dăruit %1$s de zile de Telegram Premium pentru %2$s"
+    },
+    {
       "_": "types.LangPackString",
       "key": "AnonymousNumbers",
       "value": "🏴‍☠️ Numere Anonime"
@@ -5203,6 +5217,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "DeleteCallHistory",
+      "value": "Șterge istoricul apelurilor"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "DeleteCallHistoryConfirm",
+      "value": "**Atenție!**\n\nVrei să ștergi **întregul** istoric al apelurilor? Toate mesajele asociate apelurilor din conversațiile respective vor fi șterse.\n\nAceastă acțiune este ireversibilă."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "DeleteCallHistoryForEveryone",
+      "value": "Șterge pentru toți"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "DeleteChat",
       "value": "Șterge conversația"
     },
@@ -8311,6 +8340,20 @@
       "key": "GiftedPremiumCode",
       "one_value": "%2$s ți-a trimis un Cod Cadou pentru %1$s lună de Telegram Premium",
       "other_value": "%2$s ți-a trimis un Cod Cadou pentru %1$s de luni de Telegram Premium"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "%2$s ți-a trimis un Cod Cadou pentru %1$s zile de Telegram Premium",
+      "key": "GiftedPremiumCodeDays",
+      "one_value": "%2$s ți-a trimis un Cod Cadou pentru %1$s zi de Telegram Premium",
+      "other_value": "%2$s ți-a trimis un Cod Cadou pentru %1$s de zile de Telegram Premium"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "%3$s ți-a dăruit %1$s zile de Telegram Premium pentru %2$s",
+      "key": "GiftedPremiumDays",
+      "one_value": "%3$s ți-a dăruit %1$s zi de Telegram Premium pentru %2$s",
+      "other_value": "%3$s ți-a dăruit %1$s de zile de Telegram Premium pentru %2$s"
     },
     {
       "_": "types.LangPackString",
@@ -21568,10 +21611,31 @@
     },
     {
       "_": "types.LangPackStringPluralized",
-      "few_value": "Ai dăruit %3$s %1$s luni de Telegram Premium pentru %2$s",
+      "few_value": "Ai trimis Cod Cadou pentru %1$s zile de Telegram Premium",
+      "key": "YouGiftedPremiumCodeDays",
+      "one_value": "Ai trimis Cod Cadou pentru %1$s zi de Telegram Premium",
+      "other_value": "Ai trimis Cod Cadou pentru %1$s de zile de Telegram Premium"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Ai dăruit %1$s zile de Telegram Premium pentru %2$s",
+      "key": "YouGiftedPremiumDays",
+      "one_value": "Ai dăruit %1$s zi de Telegram Premium pentru %2$s",
+      "other_value": "Ai dăruit %1$s de zile de Telegram Premium pentru %2$s"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "I-ai dăruit lui %3$s %1$s zile de Telegram Premium pentru %2$s",
+      "key": "YouGiftedPremiumDaysTo",
+      "one_value": "I-ai dăruit lui %3$s %1$s zi de Telegram Premium pentru %2$s",
+      "other_value": "I-ai dăruit lui %3$s %1$s de zile de Telegram Premium pentru %2$s"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "I-ai dăruit lui %3$s %1$s luni de Telegram Premium pentru %2$s",
       "key": "YouGiftedPremiumTo",
-      "one_value": "Ai dăruit %3$s %1$s lună de Telegram Premium pentru %2$s",
-      "other_value": "Ai dăruit %3$s %1$s de luni de Telegram Premium pentru %2$s"
+      "one_value": "I-ai dăruit lui %3$s %1$s lună de Telegram Premium pentru %2$s",
+      "other_value": "I-ai dăruit lui %3$s %1$s de luni de Telegram Premium pentru %2$s"
     },
     {
       "_": "types.LangPackString",
@@ -22154,6 +22218,11 @@
       "_": "types.LangPackString",
       "key": "error_PREMIUM_ACCOUNT_REQUIRED",
       "value": "Această funcționalitate necesită abonament Telegram Premium."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "error_PremiumActive",
+      "value": "Ai deja un abonament Telegram Premium activ până pe %1$s."
     },
     {
       "_": "types.LangPackString",
@@ -24367,6 +24436,13 @@
     },
     {
       "_": "types.LangPackStringPluralized",
+      "few_value": "Premiul tău este un abonament **Telegram Premium** pt. **%1$s** zile.",
+      "key": "xGiveawayPrizeReceivedInfoDays",
+      "one_value": "Premiul tău este un abonament **Telegram Premium** pt. **%1$s** zi.",
+      "other_value": "Premiul tău este un abonament **Telegram Premium** pt. **%1$s** de zile."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
       "few_value": "%1$s **Stele Telegram**.",
       "key": "xGiveawayPrizeStar",
       "one_value": "%1$s **Stea Telegram**.",
@@ -24378,6 +24454,13 @@
       "key": "xGiveawayUnclaimedPrizeReceivedInfo",
       "one_value": "Premiul este un abonament **Telegram Premium** pentru **%1$s** lună.",
       "other_value": "Premiul este un abonament **Telegram Premium** pentru **%1$s** de luni."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Acest premiu este un abonament **Telegram Premium** pt. **%1$s** zile.",
+      "key": "xGiveawayUnclaimedPrizeReceivedInfoDays",
+      "one_value": "Acest premiu este un abonament **Telegram Premium** pt. **%1$s** zi.",
+      "other_value": "Acest premiu este un abonament **Telegram Premium** pt. **%1$s** de zile."
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -24551,6 +24634,11 @@
       "_": "types.LangPackString",
       "key": "xOfYChatsSelected",
       "value": "%1$d/%2$d conv. selectate"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "xOfYChatsSelected2",
+      "value": "%1$s/%2$s conversații selectate"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -24832,6 +24920,13 @@
     },
     {
       "_": "types.LangPackStringPluralized",
+      "few_value": "Telegram Premium pt. %1$s zile",
+      "key": "xTelegramPremiumForDays",
+      "one_value": "Telegram Premium pt. %1$s zi",
+      "other_value": "Telegram Premium pt. %1$s de zile"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
       "few_value": "Telegram Premium pentru %1$s luni",
       "key": "xTelegramPremiumForMonth",
       "one_value": "Telegram Premium pentru %1$s lună",
@@ -24929,5 +25024,5 @@
       "other_value": "%1$s de ani"
     }
   ],
-  "version": 1652255
+  "version": 1652636
 }
