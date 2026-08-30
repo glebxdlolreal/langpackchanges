@@ -190,6 +190,28 @@
       "value": "Ver"
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "key": "ActionGiftSentChannel",
+      "one_value": "**%2$s** enviou um presente para **%3$s** por **%1$d Estrela**",
+      "other_value": "**%2$s** enviou um presente para **%3$s** por **%1$d Estrelas**"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ActionGiftSentChannelTon",
+      "value": "**%2$s** enviou um presente para **%3$s** por **%1$s Grams**"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "ActionGiftSentSelfChannel",
+      "one_value": "Você enviou um presente para **%2$s** por **%1$d Estrela**",
+      "other_value": "Você enviou um presente para **%2$s** por **%1$d Estrelas**"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ActionGiftSentSelfChannelTon",
+      "value": "Você enviou um presente para **%2$s** por **%1$s Grams**"
+    },
+    {
       "_": "types.LangPackString",
       "key": "ActionGiftSold",
       "value": "Você vendeu um presente para %s"
@@ -212,6 +234,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ActionGiftTransferredChannel",
+      "value": "%1$s transferiu um presente para %2$s"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ActionGiftTransferredInbound",
       "value": "%s te transferiu um presente"
     },
@@ -227,6 +254,26 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ActionGiftTransferredSelfChannel",
+      "value": "Você transferiu um presente para %s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ActionGiftUpgradedChannel",
+      "value": "%1$s transformou este presente para %2$s em um colecionável único"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ActionGiftUpgradedHelped",
+      "value": "%s abriu o presente que você ajudou a atualizar."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ActionGiftUpgradedHelpedSelf",
+      "value": "Você abriu o presente que %s ajudou a atualizar."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ActionGiftUpgradedInbound",
       "value": "%s transformou o presente que você deu em um colecionável único"
     },
@@ -239,6 +286,11 @@
       "_": "types.LangPackString",
       "key": "ActionGiftUpgradedSelf",
       "value": "Você transformou o presente em um colecionável único"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ActionGiftUpgradedSelfChannel",
+      "value": "Você transformou este presente para %s em um colecionável único"
     },
     {
       "_": "types.LangPackString",
@@ -1780,6 +1832,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AlertClearHistory",
+      "value": "Limpar Histórico"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AllChats",
       "value": "Todos os Chats"
     },
@@ -2026,6 +2083,26 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AreYouSureClearHistory",
+      "value": "Tem certeza de que deseja apagar todas as mensagens neste chat?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AreYouSureClearHistorySavedMessages",
+      "value": "Tem certeza que deseja apagar todas as suas **Mensagens Salvas**?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AreYouSureClearHistoryWithChannel",
+      "value": "Tem certeza de que deseja limpar o histórico do canal em **%1$s**?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AreYouSureClearHistoryWithUser",
+      "value": "Tem certeza de que deseja limpar o histórico do chat com **%1$s**?"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AreYouSureDeleteAndExit",
       "value": "Tem certeza de que deseja apagar e sair do grupo?"
     },
@@ -2126,6 +2203,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AreYouSureShareMyContactInfoUser",
+      "value": "Tem certeza de que deseja compartilhar seu número de telefone %1$s com **%2$s**?"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AreYouSureWebSessions",
       "value": "Tem certeza de que deseja desconectar de todos os sites em que você logou usando o Telegram?"
     },
@@ -2203,6 +2285,81 @@
       "_": "types.LangPackString",
       "key": "AudioUnknownTitle",
       "value": "Título desconhecido"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AuthSessions.DeviceName",
+      "value": "Nome do dispositivo"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AuthSessions.IncompleteAttempts",
+      "value": "Tentativas incompletas de login"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AuthSessions.IncompleteAttemptsInfo",
+      "value": "Os dispositivos acima não possuem acesso às suas mensagens. O código foi inserido corretamente, mas a senha não."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AuthSessions.RenameDevice",
+      "value": "Renomear dispositivo atual"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AuthSessions.TerminateIfAwayFor",
+      "value": "Se Inativa Por"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AuthSessions.TerminateIfAwayTitle",
+      "value": "Autoencerrar Sessões Antigas"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AuthSessions.View.AcceptIncomingCalls",
+      "value": "Chamadas Recebidas"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AuthSessions.View.AcceptSecretChats",
+      "value": "Novos Chats Secretos"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AuthSessions.View.AcceptTitle",
+      "value": "Aceitar Neste Dispositivo"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AuthSessions.View.Application",
+      "value": "Aplicativo"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AuthSessions.View.Device",
+      "value": "Dispositivo"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AuthSessions.View.Location",
+      "value": "Localização"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AuthSessions.View.LocationInfo",
+      "value": "Esta estimativa de localização é baseada no endereço IP e pode não ser precisa sempre."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AuthSessions.View.System",
+      "value": "Sistema"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AuthSessions.View.TerminateSession",
+      "value": "Encerrar Sessão"
     },
     {
       "_": "types.LangPackString",
@@ -6302,6 +6459,31 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ChatWithAdminChannelTitle",
+      "value": "Chat com admin do canal"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatWithAdminGroupTitle",
+      "value": "Chat com admin do grupo"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatWithAdminMessage",
+      "value": "Você recebeu esta mensagem porque pediu para entrar em **%1$s**, %2$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatWithChannelAdmin",
+      "value": "**%1$s** é admin em **%2$s**, um canal que você pediu para entrar."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatWithGroupAdmin",
+      "value": "**%1$s** é admin em **%2$s**, um grupo que você pediu para entrar."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ChatYourSelf",
       "value": "encaminhe aqui para salvar\n"
     },
@@ -6522,6 +6704,16 @@
       "_": "types.LangPackString",
       "key": "ClearButton",
       "value": "Limpar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ClearHistory",
+      "value": "Limpar histórico"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ClearHistoryOptionAlso",
+      "value": "Limpar também para %1$s"
     },
     {
       "_": "types.LangPackString",
@@ -7422,6 +7614,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Conversation.ShareMyPhoneNumber.StatusSuccess",
+      "value": "%@ agora pode ver o seu número."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Copy",
       "value": "Copiar"
     },
@@ -7790,6 +7987,11 @@
       "_": "types.LangPackString",
       "key": "DeleteMessagesOptionAlso",
       "value": "Apagar para %1$s também"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "DeleteMessagesOptionAlsoChat",
+      "value": "Limpar também para todos os membros"
     },
     {
       "_": "types.LangPackString",
@@ -9375,6 +9577,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ForumTopic.Context.ApplyToJoin",
+      "value": "Pedir para Entrar"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ForumTopic.Context.Info",
       "value": "Dados do Grupo"
     },
@@ -10387,6 +10594,11 @@
       "_": "types.LangPackString",
       "key": "HoursShortAgo",
       "value": "há %dh"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "IUnderstand",
+      "value": "Entendi"
     },
     {
       "_": "types.LangPackString",
@@ -12774,6 +12986,16 @@
       "key": "MusicFiles",
       "one_value": "%d música",
       "other_value": "%d músicas"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MusicSearch.Global",
+      "value": "Busca Global"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MusicSearch.Profile",
+      "value": "Músicas do Perfil"
     },
     {
       "_": "types.LangPackString",
@@ -16600,6 +16822,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ReportSpamUserEmojiStatusHint",
+      "value": "Esta conta usa %1$s como um status personalizado ao lado do nome. Emojis de status como esse estão disponíveis para todos que assinam o %2$s."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Reported2",
       "value": "Os moderadores do Telegram irão analisar sua denúncia. Obrigado!"
     },
@@ -17127,8 +17354,43 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "SavedMusic.AddToProfile",
+      "value": "Colocar no Perfil"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SavedMusic.Added",
+      "value": "Áudio colocado no seu Perfil."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SavedMusic.RemoveConfirm",
+      "value": "Deseja remover este arquivo do seu perfil?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SavedMusic.RemoveFromProfile",
+      "value": "Remover do Perfil"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SavedMusic.Removed",
+      "value": "Áudio removido do seu Perfil."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SavedMusic.Sort",
+      "value": "Ordenar"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "SavedMusicTab",
       "value": "Playlist"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SavedMusicTabMine",
+      "value": "Sua Playlist"
     },
     {
       "_": "types.LangPackString",
@@ -17673,6 +17935,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "SetProfilePhoto",
+      "value": "Definir Foto de Perfil"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "SetUrlPlaceholder",
       "value": "Link"
     },
@@ -17715,6 +17982,11 @@
       "_": "types.LangPackString",
       "key": "ShareModal.Search.Placeholder",
       "value": "Compartilhar com..."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShareMyPhoneNoCaps",
+      "value": "Compartilhar meu número"
     },
     {
       "_": "types.LangPackString",
@@ -18968,10 +19240,20 @@
       "other_value": "**%1$s** te enviou um presente por **%2$d Estrelas**"
     },
     {
+      "_": "types.LangPackString",
+      "key": "StarGiftSentMessageIncomingTon",
+      "value": "**%2$s** te mandou um presente por **%1$s Grams**"
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "key": "StarGiftSentMessageOutgoing",
       "one_value": "**Você** enviou um presente por **%d Estrela**",
       "other_value": "**Você** enviou um presente por **%d Estrelas**"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarGiftSentMessageOutgoingTon",
+      "value": "**Você** enviou um presente por **%s Grams**"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -22550,5 +22832,5 @@
       "other_value": "%1$d mensagens"
     }
   ],
-  "version": 340168
+  "version": 342641
 }

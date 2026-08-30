@@ -970,6 +970,18 @@
       "other_value": "Alguém enviou um Código de Presente de %1$s meses de Telegram Premium"
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "key": "AnonymousGiftedPremiumCodeDays",
+      "one_value": "Alguém te enviou um Código de Presente para %1$s dia do Telegram Premium",
+      "other_value": "Alguém te enviou um Código de Presente para %1$s dias do Telegram Premium"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "AnonymousGiftedPremiumDays",
+      "one_value": "Alguém presenteou você com %1$s dia de Telegram Premium por %2$s",
+      "other_value": "Alguém presenteou você com %1$s dias de Telegram Premium por %2$s"
+    },
+    {
       "_": "types.LangPackString",
       "key": "AnonymousNumbers",
       "value": "🏴‍☠️ Números Anônimos"
@@ -5114,6 +5126,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "DeleteCallHistory",
+      "value": "Apagar histórico de chamadas"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "DeleteCallHistoryConfirm",
+      "value": "**Aviso!**\n\nDeseja apagar **todo** o histórico de chamadas? Isso apagará todas as suas mensagens de chamadas associadas nos chats.\n\nEsta ação não pode ser desfeita."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "DeleteCallHistoryForEveryone",
+      "value": "Apagar para todos"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "DeleteChat",
       "value": "Apagar chat"
     },
@@ -8194,6 +8221,18 @@
       "key": "GiftedPremiumCode",
       "one_value": "%1$s te enviou um Código de Presente de %2$s mês do Telegram Premium",
       "other_value": "%1$s te enviou um Código de Presente de %2$s meses do Telegram Premium"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "GiftedPremiumCodeDays",
+      "one_value": "%2$s te enviou um Código de Presente para %1$s dia de Telegram Premium",
+      "other_value": "%2$s te enviou um Código de Presente para %1$s dias de Telegram Premium"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "GiftedPremiumDays",
+      "one_value": "%2$s presenteou você com %1$s dia de Telegram Premium por %3$s",
+      "other_value": "%2$s presenteou você com %1$s dias de Telegram Premium por %3$s"
     },
     {
       "_": "types.LangPackString",
@@ -21259,6 +21298,24 @@
     },
     {
       "_": "types.LangPackStringPluralized",
+      "key": "YouGiftedPremiumCodeDays",
+      "one_value": "Você enviou um Código de Presente para %1$s dia do Telegram Premium",
+      "other_value": "Você enviou um Código de Presente para %1$s dias do Telegram Premium"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "YouGiftedPremiumDays",
+      "one_value": "Você presenteou %1$s dia de Telegram Premium por %2$s",
+      "other_value": "Você presenteou %1$s dias de Telegram Premium por %2$s"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "YouGiftedPremiumDaysTo",
+      "one_value": "Você presenteou %3$s %1$s dia de Telegram Premium por %2$s",
+      "other_value": "Você presenteou %3$s %1$s dias de Telegram Premium por %2$s"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
       "key": "YouGiftedPremiumTo",
       "one_value": "Você presenteou %3$s com %1$s mês de Telegram Premium por %2$s",
       "other_value": "Você presenteou %3$s com %1$s meses de Telegram Premium por %2$s"
@@ -21823,6 +21880,11 @@
       "_": "types.LangPackString",
       "key": "error_PREMIUM_ACCOUNT_REQUIRED",
       "value": "Este recurso requer uma assinatura do Telegram Premium."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "error_PremiumActive",
+      "value": "Você já tem assinatura do Telegram Premium ativa até %1$s."
     },
     {
       "_": "types.LangPackString",
@@ -23941,6 +24003,12 @@
     },
     {
       "_": "types.LangPackStringPluralized",
+      "key": "xGiveawayPrizeReceivedInfoDays",
+      "one_value": "Seu prêmio é uma assinatura de **%1$s** dia do **Telegram Premium**.",
+      "other_value": "Seu prêmio é uma assinatura de **%1$s** dias do **Telegram Premium**."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
       "key": "xGiveawayPrizeStar",
       "one_value": "%1$s **Estrela do Telegram**.",
       "other_value": "%1$s **Estrelas do Telegram**."
@@ -23950,6 +24018,12 @@
       "key": "xGiveawayUnclaimedPrizeReceivedInfo",
       "one_value": "O prêmio é uma assinatura de **%1$s** mês do **Telegram Premium**.",
       "other_value": "O prêmio é uma assinatura de **%1$s** meses do **Telegram Premium**."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "xGiveawayUnclaimedPrizeReceivedInfoDays",
+      "one_value": "Este prêmio é uma assinatura de **%1$s** dia do **Telegram Premium**.",
+      "other_value": "Este prêmio é uma assinatura de **%1$s** dias do **Telegram Premium**."
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -24099,6 +24173,11 @@
       "_": "types.LangPackString",
       "key": "xOfYChatsSelected",
       "value": "%1$d/%2$d chats selecionados"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "xOfYChatsSelected2",
+      "value": "%1$s/%2$s chats selecionados"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -24341,6 +24420,12 @@
     },
     {
       "_": "types.LangPackStringPluralized",
+      "key": "xTelegramPremiumForDays",
+      "one_value": "%1$s dia de Telegram Premium",
+      "other_value": "%1$s dias de Telegram Premium"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
       "key": "xTelegramPremiumForMonth",
       "one_value": "Telegram Premium por %1$s mês",
       "other_value": "Telegram Premium por %1$s meses"
@@ -24424,5 +24509,5 @@
       "other_value": "%1$s anos"
     }
   ],
-  "version": 1644305
+  "version": 1652681
 }
