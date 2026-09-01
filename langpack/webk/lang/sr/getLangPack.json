@@ -4164,6 +4164,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Call.Open",
+      "value": "Отвори позив"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Call.PrivacyErrorMessage",
       "value": "Не можете позвати корисника %@ због његових подешавања приватности."
     },
@@ -4201,6 +4206,11 @@
       "_": "types.LangPackString",
       "key": "Call.StatusFailed",
       "value": "Позив није успео"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Call.StatusGroupInvite",
+      "value": "Telegram групни позив"
     },
     {
       "_": "types.LangPackString",
@@ -5442,6 +5452,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Chat.Service.ConferenceCall.Declined",
+      "value": "Одбијен групни позив"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Chat.Service.ConferenceCall.Ended",
       "value": "Групни позив завршен (%1$@)"
     },
@@ -5452,8 +5467,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Chat.Service.ConferenceCall.Invitation",
+      "value": "Позив у групни позив"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Chat.Service.ConferenceCall.Missed",
       "value": "Пропуштен групни позив"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Service.ConferenceCall.Ongoing",
+      "value": "Групни позив у току"
     },
     {
       "_": "types.LangPackString",
@@ -7598,6 +7623,116 @@
       "_": "types.LangPackString",
       "key": "CompactDiffView",
       "value": "Сажет / упоредни приказ"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ConferenceCall.Create.Button",
+      "value": "Позови"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ConferenceCall.Invite.Already",
+      "value": "**%1$@** већ учествује у позиву."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "У позиву већ учествују **%d особе**.",
+      "key": "ConferenceCall.Invite.AlreadyMany",
+      "one_value": "У позиву већ учествује **%d особа**.",
+      "other_value": "У позиву већ учествује **%d особа**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ConferenceCall.Invite.Button",
+      "value": "Позови"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ConferenceCall.Invite.Done",
+      "value": "Позивате корисника **%1$@** да се придружи."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Позивате **%d особе** да се придруже.",
+      "key": "ConferenceCall.Invite.DoneMany",
+      "one_value": "Позивате **%d особу** да се придружи.",
+      "other_value": "Позивате **%d особа** да се придруже."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ConferenceCall.Invite.Fail",
+      "value": "Није могуће позвати корисника **%1$@** да се придружи."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Није могуће позвати **%d особе** да се придруже.",
+      "key": "ConferenceCall.Invite.FailMany",
+      "one_value": "Није могуће позвати **%d особу** да се придружи.",
+      "other_value": "Није могуће позвати **%d особа** да се придруже."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ConferenceCall.Invite.Kicked",
+      "value": "**%1$@** је уклоњен/а из позива уз забрану приступа."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Уклоњене су **%d особе** из позива.",
+      "key": "ConferenceCall.Invite.KickedMany",
+      "one_value": "Уклоњена је **%d особа** из позива.",
+      "other_value": "Уклоњено је **%d особа** из позива."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ConferenceCall.Invite.Title",
+      "value": "Додај људе"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ConferenceCall.Invite.ViaLink",
+      "value": "Подели позивницу"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "**%2$@**, **%3$@** и још **%1$d** особе су се већ придружили овом позиву.",
+      "key": "ConferenceCall.Join.AlreadyMany",
+      "one_value": "**%2$@**, **%3$@** и још **%1$d** особа су се већ придружили овом позиву.",
+      "other_value": "**%2$@**, **%3$@** и још **%1$d** особа су се већ придружили овом позиву."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ConferenceCall.Join.AlreadyOne",
+      "value": "**%1$@** се већ придружио/ла овом позиву."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ConferenceCall.Join.AlreadyThree",
+      "value": "**%1$@**, **%2$@** и **%3$@** су се већ придружили овом позиву."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ConferenceCall.Join.AlreadyTwo",
+      "value": "**%1$@** и **%2$@** су се већ придружили овом позиву."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ConferenceCall.Join.Button",
+      "value": "Придружи ме групном позиву"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ConferenceCall.Join.Text",
+      "value": "Позвани сте да се придружите Telegram позиву."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ConferenceCall.Join.TextInviter",
+      "value": "**%1$@** вас позива да се придружите Telegram позиву."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ConferenceCall.Join.Title",
+      "value": "Групни позив"
     },
     {
       "_": "types.LangPackString",
@@ -23110,5 +23245,5 @@
       "other_value": "%1$d порука"
     }
   ],
-  "version": 342733
+  "version": 342943
 }
