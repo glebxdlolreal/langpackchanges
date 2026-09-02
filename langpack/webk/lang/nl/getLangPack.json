@@ -3915,6 +3915,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Call.Open",
+      "value": "Gesprek starten"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Call.PrivacyErrorMessage",
       "value": "Sorry, je kunt %@ niet bellen vanwege privacyinstellingen."
     },
@@ -3952,6 +3957,11 @@
       "_": "types.LangPackString",
       "key": "Call.StatusFailed",
       "value": "Oproep mislukt"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Call.StatusGroupInvite",
+      "value": "Telegram-groepsgesprek"
     },
     {
       "_": "types.LangPackString",
@@ -5109,6 +5119,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Chat.Service.ConferenceCall.Declined",
+      "value": "Geweigerd groepsgesprek"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Chat.Service.ConferenceCall.Ended",
       "value": "Groepsgesprek geëindigd (%1$@)"
     },
@@ -5119,8 +5134,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Chat.Service.ConferenceCall.Invitation",
+      "value": "Uitnodiging voor groepsgesprek"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Chat.Service.ConferenceCall.Missed",
       "value": "Gemiste groepsoproep"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Service.ConferenceCall.Ongoing",
+      "value": "Actief groepsgesprek"
     },
     {
       "_": "types.LangPackString",
@@ -6092,13 +6117,127 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Community.AddAll",
+      "value": "Allemaal toevoegen"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Community.ChatRemoved",
       "value": "Chat verwijderd uit de gemeenschap."
     },
     {
       "_": "types.LangPackString",
+      "key": "Community.ChatsJoined",
+      "value": "Chats waarin je zit"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Community.ChatsRequestable",
+      "value": "Chats waarvan je lid kunt worden"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Community.ChatsVisible",
+      "value": "Chats die je kunt bekijken"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Community.DeclineAll",
+      "value": "Allemaal afwijzen"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "Community.ProfileStatus",
+      "one_value": "Gemeenschap met %d chat",
+      "other_value": "Gemeenschap met %d chats"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Community.ShowAsOne",
+      "value": "Als één chat weergeven"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Community.ShowAsOneInfo",
+      "value": "Groepeer alle chats in deze gemeenschap onder één item in de chatlijst."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "CompactDiffView",
       "value": "Compacte / uitgebreide weergave"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ConferenceCall.Create.Button",
+      "value": "Starten"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ConferenceCall.Create.Text",
+      "value": "Je geluid is gedempt wanneer je het gesprek binnenkomt. Zodra het gesprek is begonnen, kun je meer deelnemers uitnodigen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ConferenceCall.Create.Title",
+      "value": "Versleuteld groepsgesprek starten?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ConferenceCall.Invite.Already",
+      "value": "**%1$@** zit al in het gesprek."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "ConferenceCall.Invite.AlreadyMany",
+      "one_value": "**%d persoon** zit al in het gesprek.",
+      "other_value": "**%d personen** zitten al in het gesprek."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ConferenceCall.Invite.Button",
+      "value": "Bellen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ConferenceCall.Invite.Done",
+      "value": "Je belt **%1$@**."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "ConferenceCall.Invite.DoneMany",
+      "one_value": "Je belt **%d persoon**.",
+      "other_value": "Je belt **%d personen**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ConferenceCall.Invite.Fail",
+      "value": "**%1$@** kon niet worden gebeld."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "ConferenceCall.Invite.FailMany",
+      "one_value": "**%d persoon** kan niet worden gebeld.",
+      "other_value": "**%d personen** kunnen niet worden gebeld."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ConferenceCall.Invite.Kicked",
+      "value": "**%1$@** is verbannen uit het gesprek."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ConferenceCall.Invite.Title",
+      "value": "Personen toevoegen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ConferenceCall.Invite.ViaLink",
+      "value": "Uitnodigen via link"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ConferenceCall.Title",
+      "value": "Versleutelde oproep"
     },
     {
       "_": "types.LangPackString",
@@ -15501,6 +15640,26 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "SavedMusic.AddToProfile",
+      "value": "Toevoegen aan profiel"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SavedMusic.Added",
+      "value": "Geluidsbestand toegevoegd aan je profiel."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SavedMusic.RemoveFromProfile",
+      "value": "Verwijderen van profiel"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SavedMusic.Removed",
+      "value": "Geluidsbestand verwijderd van je profiel."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "SavedMusicTab",
       "value": "Playlist"
     },
@@ -20787,5 +20946,5 @@
       "other_value": "%1$d berichten"
     }
   ],
-  "version": 341850
+  "version": 343681
 }

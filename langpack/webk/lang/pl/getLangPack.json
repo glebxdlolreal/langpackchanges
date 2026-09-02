@@ -4216,6 +4216,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Call.Open",
+      "value": "Otwórz połączenie"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Call.PrivacyErrorMessage",
       "value": "Nie możesz zadzwonić do użytkownika %@ z powodu jego ustawień prywatności."
     },
@@ -4253,6 +4258,11 @@
       "_": "types.LangPackString",
       "key": "Call.StatusFailed",
       "value": "Połączenie nieudane"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Call.StatusGroupInvite",
+      "value": "Połączenie grupowe Telegrama"
     },
     {
       "_": "types.LangPackString",
@@ -4311,6 +4321,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "CallSettings.CameraUnavailable",
+      "value": "Kamera jest niedostępna. Sprawdź dostęp do kamery i spróbuj ponownie."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "CallSettings.DeviceDefault",
       "value": "Domyślne"
     },
@@ -4338,6 +4353,11 @@
       "_": "types.LangPackString",
       "key": "CallSettings.Microphone",
       "value": "Mikrofon"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CallSettings.MicrophoneUnavailable",
+      "value": "Mikrofon jest niedostępny. Sprawdź dostęp do mikrofonu i spróbuj ponownie."
     },
     {
       "_": "types.LangPackString",
@@ -5513,6 +5533,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Chat.Service.ConferenceCall.Declined",
+      "value": "Połączenie grupowe odrzucone"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Chat.Service.ConferenceCall.Ended",
       "value": "Połączenie grupowe zakończone (%1$@)"
     },
@@ -5523,8 +5548,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Chat.Service.ConferenceCall.Invitation",
+      "value": "Zaproszenie do połączenia grupowego"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Chat.Service.ConferenceCall.Missed",
       "value": "Połączenie grupowe nieodebrane"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Service.ConferenceCall.Ongoing",
+      "value": "Trwa połączenie grupowe"
     },
     {
       "_": "types.LangPackString",
@@ -6213,7 +6248,7 @@
     {
       "_": "types.LangPackString",
       "key": "ChatAutomation.Start",
-      "value": "Start"
+      "value": "Wznów"
     },
     {
       "_": "types.LangPackString",
@@ -7681,6 +7716,211 @@
       "_": "types.LangPackString",
       "key": "Community.WhoCanAddChats",
       "value": "Kto może dodawać czaty?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ConferenceCall.Controls.EnterFullscreen",
+      "value": "Tryb pełnoekranowy"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ConferenceCall.Controls.ExitFullscreen",
+      "value": "Wyjdź z trybu pełnoekranowego"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ConferenceCall.Controls.HandRaised",
+      "value": "Ręka podniesiona"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ConferenceCall.Controls.HideParticipants",
+      "value": "Ukryj uczestników"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ConferenceCall.Controls.RaiseHand",
+      "value": "Podnieś rękę"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ConferenceCall.Controls.ShowParticipants",
+      "value": "Pokaż uczestników"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ConferenceCall.Controls.Toolbar",
+      "value": "Kontrola połączeń"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ConferenceCall.Create.Button",
+      "value": "Rozpocznij"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ConferenceCall.Create.Text",
+      "value": "Dołączysz z wyciszonym głosem. Możesz zapraszać osoby po rozpoczęciu konferencji."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ConferenceCall.Create.Title",
+      "value": "Rozpocząć szyfrowane połączenie grupowe?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ConferenceCall.Fingerprint.Pending",
+      "value": "Weryfikacja szyfrowania…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ConferenceCall.Fingerprint.Verified",
+      "value": "Porównaj te emoji z emoji innych uczestników"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ConferenceCall.Invite.Already",
+      "value": "**%1$@** już bierze udział w rozmowie."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "**%d osoby** już biorą udział w rozmowie.",
+      "key": "ConferenceCall.Invite.AlreadyMany",
+      "many_value": "**%d osób** już bierze udział w rozmowie.",
+      "one_value": "**%d osoba** już bierze udział w rozmowie.",
+      "other_value": "**%d osoby** już bierze udział w rozmowie."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ConferenceCall.Invite.Button",
+      "value": "Zadzwoń"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ConferenceCall.Invite.Done",
+      "value": "Dzwonisz do użytkownika **%1$@**, aby dołączył."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Dzwonisz do **%d osób**, aby dołączyły.",
+      "key": "ConferenceCall.Invite.DoneMany",
+      "many_value": "Dzwonisz do **%d osób**, aby dołączyły.",
+      "one_value": "Dzwonisz do **%d osoby**, aby dołączyła.",
+      "other_value": "Dzwonisz do **%d osoby**, aby dołączyły."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ConferenceCall.Invite.Fail",
+      "value": "Nie można połączyć się z **%1$@**."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Nie można połączyć się z **%d osobami**.",
+      "key": "ConferenceCall.Invite.FailMany",
+      "many_value": "Nie można połączyć się z **%d osobami**.",
+      "one_value": "Nie można połączyć się z **%d osobą**.",
+      "other_value": "Nie można połączyć się z **%d osobami**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ConferenceCall.Invite.Kicked",
+      "value": "Użytkownik **%1$@** został wykluczony z rozmowy."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "**%d osoby** zostały usunięte z rozmowy.",
+      "key": "ConferenceCall.Invite.KickedMany",
+      "many_value": "**%d osób** zostało usuniętych z rozmowy.",
+      "one_value": "**%d osoba** została usunięta z rozmowy.",
+      "other_value": "**%d osoby* zostało usuniętej z rozmowy."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ConferenceCall.Invite.Title",
+      "value": "Dodaj członka"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ConferenceCall.Invite.ViaLink",
+      "value": "Zaproś poprzez link"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "**%2$@**, **%3$@** i jeszcze **%1$d** osoby już dołączyli do tego połączenia.",
+      "key": "ConferenceCall.Join.AlreadyMany",
+      "many_value": "**%2$@**, **%3$@** i jeszcze **%1$d** osób już dołączyli do tego połączenia.",
+      "one_value": "**%2$@**, **%3$@** i jeszcze **%1$d** osoba już dołączyli do tego połączenia.",
+      "other_value": "**%2$@**, **%3$@** i jeszcze **%1$d** osoby już dołączyli do tego połączenia."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ConferenceCall.Join.AlreadyOne",
+      "value": "Użytkownik **%1$@** już dołączył do tego połączenia."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ConferenceCall.Join.AlreadyThree",
+      "value": "**%1$@**, **%2$@** i **%3$@** już dołączyli do tego połączenia."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ConferenceCall.Join.AlreadyTwo",
+      "value": "**%1$@** i **%2$@** już dołączyli do tego połączenia."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ConferenceCall.Join.Button",
+      "value": "Dołącz do połączenia grupowego"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ConferenceCall.Join.Text",
+      "value": "Zaproszono cię do połączenia grupowego."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ConferenceCall.Join.TextInviter",
+      "value": "**%1$@** zaprasza cię do rozmowy na Telegramie."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ConferenceCall.Join.Title",
+      "value": "Połączenie grupowe"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ConferenceCall.Media.CameraError",
+      "value": "Nie udało się zmienić stanu kamery. Sprawdź dostęp do kamery i spróbuj ponownie."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ConferenceCall.Media.MicrophoneError",
+      "value": "Nie udało się zmienić stanu mikrofonu. Sprawdź dostęp do mikrofonu i spróbuj ponownie."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ConferenceCall.Media.ScreenError",
+      "value": "Nie udało się udostępnić ekranu. Spróbuj ponownie."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ConferenceCall.Migrating",
+      "value": "Przełączanie na szyfrowane połączenie grupowe…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ConferenceCall.New",
+      "value": "Nowa konferencja"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ConferenceCall.Title",
+      "value": "Połączenie szyfrowane"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ConferenceCall.Unsupported",
+      "value": "Ta przeglądarka nie obsługuje szyfrowanych połączeń grupowych. Otwórz to połączenie w obsługującej tę funkcję aplikacji Telegram."
     },
     {
       "_": "types.LangPackString",
@@ -23343,5 +23583,5 @@
       "other_value": "%1$d wiadomości"
     }
   ],
-  "version": 341542
+  "version": 343535
 }
