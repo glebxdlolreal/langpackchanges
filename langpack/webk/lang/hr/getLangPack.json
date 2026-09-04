@@ -4092,6 +4092,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Call.Open",
+      "value": "Otvori poziv "
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Call.PrivacyErrorMessage",
       "value": "Nažalost, %@ ne želi primati pozive putem Telegrama."
     },
@@ -4129,6 +4134,11 @@
       "_": "types.LangPackString",
       "key": "Call.StatusFailed",
       "value": "Poziv nije uspio"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Call.StatusGroupInvite",
+      "value": "Telegram grupni poziv"
     },
     {
       "_": "types.LangPackString",
@@ -5271,13 +5281,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Chat.Service.ConferenceCall.Declined",
+      "value": "Odbijeni grupni poziv"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Chat.Service.ConferenceCall.Incoming",
       "value": "Dolazni grupni poziv. [Pridruži se](open)"
     },
     {
       "_": "types.LangPackString",
+      "key": "Chat.Service.ConferenceCall.Invitation",
+      "value": "Pozivnica za grupni poziv"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Chat.Service.ConferenceCall.Missed",
       "value": "Propušteni grupni poziv"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Service.ConferenceCall.Ongoing",
+      "value": "Grupni poziv u tijeku"
     },
     {
       "_": "types.LangPackString",
@@ -7173,6 +7198,38 @@
       "_": "types.LangPackString",
       "key": "CompactDiffView",
       "value": "Kompaktni / Različiti prikaz"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ConferenceCall.Create.Button",
+      "value": "Započni"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ConferenceCall.Invite.Already",
+      "value": "**%1$@** je već u pozivu."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ConferenceCall.Invite.Button",
+      "value": "Poziv"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Pozivate **%d korisnika** da se pridruže.",
+      "key": "ConferenceCall.Invite.DoneMany",
+      "one_value": "Pozivate **%d korisnika** da se pridruže.",
+      "other_value": "Pozivate **%d korisnika** da se pridruže."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ConferenceCall.Invite.Title",
+      "value": "Dodaj korisnike"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ConferenceCall.Invite.ViaLink",
+      "value": "Pozovi preko linka"
     },
     {
       "_": "types.LangPackString",
@@ -22098,5 +22155,5 @@
       "other_value": "%1$d poruka"
     }
   ],
-  "version": 342051
+  "version": 343983
 }
