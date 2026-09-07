@@ -970,6 +970,18 @@
       "other_value": "Algú us ha enviat un codi de regal per %1$s mesos de Telegram Premium"
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "key": "AnonymousGiftedPremiumCodeDays",
+      "one_value": "Algú us ha enviat un codi regal per %1$s dia de Telegram Premium",
+      "other_value": "Algú us ha enviat un codi regal per %1$s dies de Telegram Premium"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "AnonymousGiftedPremiumDays",
+      "one_value": "Algú us ha regalat %1$s dia de Telegram Premium per %2$s",
+      "other_value": "Algú us ha regalat %1$s dies de Telegram Premium per %2$s"
+    },
+    {
       "_": "types.LangPackString",
       "key": "AnonymousNumbers",
       "value": "🏴‍☠️ Números anònims"
@@ -3024,6 +3036,16 @@
       "_": "types.LangPackString",
       "key": "ChatContentGroupJoin",
       "value": "S'ha unit al grup via l'enllaç d'invitació"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatContentGroupJoinCommunity",
+      "value": "S'ha unit al grup des de la comunitat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatContentGroupJoinCommunity_outgoing",
+      "value": "S'ha unit al grup des de la comunitat"
     },
     {
       "_": "types.LangPackString",
@@ -5111,6 +5133,21 @@
       "_": "types.LangPackString",
       "key": "DeleteArchivedPack",
       "value": "Elimina de l'Arxiu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "DeleteCallHistory",
+      "value": "Elimina l'historial de trucades"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "DeleteCallHistoryConfirm",
+      "value": "**Atenció!**\n\nVoleu eliminar l'historial de trucades **complet**? Això eliminarà tots els missatges associats a les trucades dels xats corresponents.\n\nAquesta acció no es pot desfer."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "DeleteCallHistoryForEveryone",
+      "value": "Elimina per a tothom"
     },
     {
       "_": "types.LangPackString",
@@ -7218,6 +7255,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "EventLogPromotedManageWelcomeMessages",
+      "value": "Gestionar els missatges de benvinguda"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "EventLogPromotedNew",
       "value": "ha promogut %1$s"
     },
@@ -8194,6 +8236,18 @@
       "key": "GiftedPremiumCode",
       "one_value": "%2$s us ha enviat un codi regal per a %1$s mes de Telegram Premium",
       "other_value": "%2$s us ha enviat un codi regal per a %1$s mesos de Telegram Premium"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "GiftedPremiumCodeDays",
+      "one_value": "%2$s us ha enviat un codi regal per %1$s dia de Telegram Premium",
+      "other_value": "%2$s us ha enviat un codi regal per %1$s dies de Telegram Premium"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "GiftedPremiumDays",
+      "one_value": "%2$s us ha regalat %1$s dia de Telegram Premium per %3$s",
+      "other_value": "%2$s us ha regalat %1$s dies de Telegram Premium per %3$s"
     },
     {
       "_": "types.LangPackString",
@@ -16245,6 +16299,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "RightWelcomeMessages",
+      "value": "Gestionar els missatges directes"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Ringtone",
       "value": "To de trucada"
     },
@@ -21259,6 +21318,24 @@
     },
     {
       "_": "types.LangPackStringPluralized",
+      "key": "YouGiftedPremiumCodeDays",
+      "one_value": "Heu enviat un codi regal per %1$s dia de Telegram Premium",
+      "other_value": "Heu enviat un codi regal per %1$s dies de Telegram Premium"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "YouGiftedPremiumDays",
+      "one_value": "Heu regalat %1$s dia de Telegram Premium per %2$s",
+      "other_value": "Heu regalat %1$s dies de Telegram Premium per %2$s"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "YouGiftedPremiumDaysTo",
+      "one_value": "Heu regalat a %3$s %1$s dia de Telegram Premium per %2$s",
+      "other_value": "Heu regalat a %3$s %1$s dies de Telegram Premium per %2$s"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
       "key": "YouGiftedPremiumTo",
       "one_value": "Heu regalat a %3$s %1$s mes de Telegram Premium per %2$s",
       "other_value": "Heu regalat a %3$s %1$s mesos de Telegram Premium per %2$s"
@@ -21823,6 +21900,11 @@
       "_": "types.LangPackString",
       "key": "error_PREMIUM_ACCOUNT_REQUIRED",
       "value": "Aquesta opció requereix subscriure's al Telegram Premium."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "error_PremiumActive",
+      "value": "Ja teniu activa una subscripció al Telegram Premium fins al %1$s."
     },
     {
       "_": "types.LangPackString",
@@ -22479,6 +22561,26 @@
       "_": "types.LangPackString",
       "key": "group_user_join_by_link_with_approval",
       "value": "%1$s s'ha unit al grup amb l'enllaç, aprovat per %2$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "group_user_join_from_community",
+      "value": "%1$s s'ha unit al grup des de la comunitat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "group_user_join_from_community_name",
+      "value": "%1$s s'ha unit al grup des de la comunitat «%2$s»"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "group_user_join_from_community_name_self",
+      "value": "Us heu unit al grup des de la comunitat «%2$s»"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "group_user_join_from_community_self",
+      "value": "Us heu unit al grup des de la comunitat"
     },
     {
       "_": "types.LangPackString",
@@ -23941,6 +24043,12 @@
     },
     {
       "_": "types.LangPackStringPluralized",
+      "key": "xGiveawayPrizeReceivedInfoDays",
+      "one_value": "El premi és una subscripció al **Telegram Premium** per **%1$s** dia.",
+      "other_value": "El premi és una subscripció al **Telegram Premium** per **%1$s** dies."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
       "key": "xGiveawayPrizeStar",
       "one_value": "%1$s **estrella de Telegram**.",
       "other_value": "%1$s **estrelles de Telegram**."
@@ -23950,6 +24058,12 @@
       "key": "xGiveawayUnclaimedPrizeReceivedInfo",
       "one_value": "El premi és una subscripció al **Telegram Premium** per **%1$s** mes.",
       "other_value": "El premi és una subscripció al **Telegram Premium** per **%1$s** mesos."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "xGiveawayUnclaimedPrizeReceivedInfoDays",
+      "one_value": "Aquest premi és una subscripció al **Telegram Premium** per **%1$s** dia.",
+      "other_value": "Aquest premi és una subscripció al **Telegram Premium** per **%1$s** dies."
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -24099,6 +24213,11 @@
       "_": "types.LangPackString",
       "key": "xOfYChatsSelected",
       "value": "%1$d/%2$d xats seleccionats"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "xOfYChatsSelected2",
+      "value": "%1$s/%2$s xats seleccionats"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -24341,6 +24460,12 @@
     },
     {
       "_": "types.LangPackStringPluralized",
+      "key": "xTelegramPremiumForDays",
+      "one_value": "Telegram Premium per %1$s dia",
+      "other_value": "Telegram Premium per %1$s dies"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
       "key": "xTelegramPremiumForMonth",
       "one_value": "Telegram Premium per %1$s mes",
       "other_value": "Telegram Premium per %1$s mesos"
@@ -24424,5 +24549,5 @@
       "other_value": "%1$s anys"
     }
   ],
-  "version": 1651513
+  "version": 1654016
 }

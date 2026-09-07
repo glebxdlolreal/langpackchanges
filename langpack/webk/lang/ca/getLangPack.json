@@ -190,6 +190,28 @@
       "value": "Mostra"
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "key": "ActionGiftSentChannel",
+      "one_value": "**%2$s** ha enviat un regal a **%3$s** que val **%1$d estrella**",
+      "other_value": "**%2$s** ha enviat un regal a **%3$s** que val **%1$d estrelles**"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ActionGiftSentChannelTon",
+      "value": "**%2$s** ha enviat un regal a **%3$s** que val **%1$s Grams**"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "ActionGiftSentSelfChannel",
+      "one_value": "Heu enviat un regal a **%2$s** que val **%1$d estrella**",
+      "other_value": "Heu enviat un regal a **%2$s** que val **%1$d estrelles**"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ActionGiftSentSelfChannelTon",
+      "value": "Heu enviat un regal a **%2$s** que val **%1$s Grams**"
+    },
+    {
       "_": "types.LangPackString",
       "key": "ActionGiftStarsSubtitle",
       "value": "Amb les estrelles, **%s** pot desblocar contingut i serveis al Telegram."
@@ -204,6 +226,11 @@
       "key": "ActionGiftStarsTitle",
       "one_value": "%d estrella",
       "other_value": "%d estrelles"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ActionGiftTransferredChannel",
+      "value": "%1$s ha transferit un regal a %2$s"
     },
     {
       "_": "types.LangPackString",
@@ -222,6 +249,26 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ActionGiftTransferredSelfChannel",
+      "value": "Heu transferit un regal a %s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ActionGiftUpgradedChannel",
+      "value": "%1$s ha convertit el regal al %2$s en un col·leccionable únic"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ActionGiftUpgradedHelped",
+      "value": "%s ha desempaquetat el regal que heu ajudat a millorar."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ActionGiftUpgradedHelpedSelf",
+      "value": "Heu desempaquetat el regal que %s ha ajudat a millorar."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ActionGiftUpgradedInbound",
       "value": "%s ha convertit el vostre regal en un col·leccionable únic"
     },
@@ -234,6 +281,11 @@
       "_": "types.LangPackString",
       "key": "ActionGiftUpgradedSelf",
       "value": "Heu convertit el regal en un col·leccionable únic"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ActionGiftUpgradedSelfChannel",
+      "value": "Heu convertit el regat al %s en un col·leccionable únic"
     },
     {
       "_": "types.LangPackString",
@@ -1313,6 +1365,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AlertClearHistory",
+      "value": "Esborra l'historial"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AllChats",
       "value": "Tots els xats"
     },
@@ -1544,6 +1601,26 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AreYouSureClearHistory",
+      "value": "Segur que voleu esborrar tots els missatges d'aquest xat?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AreYouSureClearHistorySavedMessages",
+      "value": "Segur que voleu eliminar permanentment tots els **missatges desats**?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AreYouSureClearHistoryWithChannel",
+      "value": "Voleu esborrar l'historial del canal **%1$s**?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AreYouSureClearHistoryWithUser",
+      "value": "Segur que voleu esborrar l'historial del xat amb **%1$s**?"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AreYouSureDeleteAndExit",
       "value": "Segur que voleu eliminar i abandonar el grup?"
     },
@@ -1629,6 +1706,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AreYouSureShareMyContactInfoUser",
+      "value": "Segur que voleu compartir el vostre número %1$s amb **%2$s**?"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AreYouSureWebSessions",
       "value": "Segur que voleu desconnectar tots els llocs web on heu iniciat la sessió amb el Telegram?"
     },
@@ -1706,6 +1788,81 @@
       "_": "types.LangPackString",
       "key": "AudioUnknownTitle",
       "value": "Títol desconegut"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AuthSessions.DeviceName",
+      "value": "Nom del dispositiu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AuthSessions.IncompleteAttempts",
+      "value": "Intents d'inici de sessió incomplets"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AuthSessions.IncompleteAttemptsInfo",
+      "value": "Aquests dispositius no tenen accés al vostre compte. El codi s'ha introduït correctament, però no s'ha facilitat una contrasenya correcta."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AuthSessions.RenameDevice",
+      "value": "Canvia-li el nom"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AuthSessions.TerminateIfAwayFor",
+      "value": "Si són inactives durant"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AuthSessions.TerminateIfAwayTitle",
+      "value": "Tanca les sessions automàticament"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AuthSessions.View.AcceptIncomingCalls",
+      "value": "Trucades rebudes"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AuthSessions.View.AcceptSecretChats",
+      "value": "Xats secrets nous"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AuthSessions.View.AcceptTitle",
+      "value": "Accepta en aquest dispositiu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AuthSessions.View.Application",
+      "value": "Aplicació"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AuthSessions.View.Device",
+      "value": "Dispositiu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AuthSessions.View.Location",
+      "value": "Ubicació"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AuthSessions.View.LocationInfo",
+      "value": "L'estimació d'aquesta ubicació es basa en l'adreça IP, i podria no ser precisa."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AuthSessions.View.System",
+      "value": "Versió del sistema"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AuthSessions.View.TerminateSession",
+      "value": "Tanca la sessió"
     },
     {
       "_": "types.LangPackString",
@@ -3425,6 +3582,11 @@
       "_": "types.LangPackString",
       "key": "Call.Mute",
       "value": "Silencia"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Call.Open",
+      "value": "Entra-hi"
     },
     {
       "_": "types.LangPackString",
@@ -5775,6 +5937,31 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ChatWithAdminChannelTitle",
+      "value": "Resposta a la sol·licitud"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatWithAdminGroupTitle",
+      "value": "Resposta a la sol·licitud"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatWithAdminMessage",
+      "value": "Heu rebut aquest missatge perquè vau demanar entrar a **%1$s** el dia %2$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatWithChannelAdmin",
+      "value": "**%1$s** és administrador en **%2$s**, un canal al qual heu demanat entrar."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatWithGroupAdmin",
+      "value": "**%1$s** és administrador en **%2$s**, un grup al qual heu demanat entrar."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ChatYourSelf",
       "value": "reenvieu aquí per a desar"
     },
@@ -5995,6 +6182,16 @@
       "_": "types.LangPackString",
       "key": "ClearButton",
       "value": "Esborra"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ClearHistory",
+      "value": "Esborra l'historial"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ClearHistoryOptionAlso",
+      "value": "Esborra'l també per a %1$s"
     },
     {
       "_": "types.LangPackString",
@@ -6774,8 +6971,52 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ConferenceCall.Invite.Already",
+      "value": "**%1$@** ja és a la trucada."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "ConferenceCall.Invite.AlreadyMany",
+      "one_value": "**%d persona** ja és a la trucada.",
+      "other_value": "**%d persones** ja són a la trucada."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ConferenceCall.Invite.Button",
       "value": "Truca"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ConferenceCall.Invite.Done",
+      "value": "Esteu trucant a **%1$@** perquè s'hi uneixi."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "ConferenceCall.Invite.DoneMany",
+      "one_value": "Esteu convidant **%d persona**.",
+      "other_value": "Esteu convidant **%d persones**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ConferenceCall.Invite.Fail",
+      "value": "No s'ha pogut convidar **%1$@**."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "ConferenceCall.Invite.FailMany",
+      "one_value": "No s'ha pogut convidar **%d persona**.",
+      "other_value": "No s'ha pogut convidar **%d persones**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ConferenceCall.Invite.Kicked",
+      "value": "**%1$@** s'ha bandejat de la trucada."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "ConferenceCall.Invite.KickedMany",
+      "one_value": "**%d persona** s'ha eliminat de la trucada.",
+      "other_value": "**%d persones** s'han eliminat de la trucada."
     },
     {
       "_": "types.LangPackString",
@@ -6786,6 +7027,47 @@
       "_": "types.LangPackString",
       "key": "ConferenceCall.Invite.ViaLink",
       "value": "Convida amb un enllaç"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "ConferenceCall.Join.AlreadyMany",
+      "one_value": "**%2$@**, **%3$@** i **%1$d** persona més ja són en la trucada.",
+      "other_value": "**%2$@**, **%3$@** i **%1$d** persones més ja són en la trucada."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ConferenceCall.Join.AlreadyOne",
+      "value": "**%1$@** ja és en la trucada."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ConferenceCall.Join.AlreadyThree",
+      "value": "**%1$@**, **%2$@** i **%3$@** ja són en la trucada."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ConferenceCall.Join.AlreadyTwo",
+      "value": "**%1$@** i **%2$@** ja són en la trucada."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ConferenceCall.Join.Button",
+      "value": "Afegeix-m'hi"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ConferenceCall.Join.Text",
+      "value": "Us han convidat a una trucada grupal."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ConferenceCall.Join.TextInviter",
+      "value": "**%1$@** us ha convidat a unir-vos a una trucada de Telegram."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ConferenceCall.Join.Title",
+      "value": "Trucada grupal"
     },
     {
       "_": "types.LangPackString",
@@ -6892,6 +7174,11 @@
       "_": "types.LangPackString",
       "key": "ContinueLastTopic",
       "value": "Continua l'últim tema"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Conversation.ShareMyPhoneNumber.StatusSuccess",
+      "value": "%@ ara pot veure el vostre telèfon."
     },
     {
       "_": "types.LangPackString",
@@ -7228,6 +7515,11 @@
       "_": "types.LangPackString",
       "key": "DeleteMessagesOptionAlso",
       "value": "Elimina-ho també per a %1$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "DeleteMessagesOptionAlsoChat",
+      "value": "Esborra-ho per a tothom"
     },
     {
       "_": "types.LangPackString",
@@ -9772,6 +10064,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "IUnderstand",
+      "value": "Ho entenc"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "IVInteractionsChartTitle",
       "value": "Interaccions VI"
     },
@@ -12101,6 +12398,16 @@
       "key": "MusicFiles",
       "one_value": "%d fitxer de música",
       "other_value": "%d fitxers de música"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MusicSearch.Global",
+      "value": "Cerca global"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MusicSearch.Profile",
+      "value": "Música al perfil"
     },
     {
       "_": "types.LangPackString",
@@ -15866,6 +16173,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ReportSpamUserEmojiStatusHint",
+      "value": "Aquest compte usa %1$s com a estat personalitzat al costat del nom. Aquests estats d'emojis estan disponibles per a tots els subscriptors del %2$s."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Reported2",
       "value": "Els moderadors de Telegram revisaran la denúncia. Gràcies!"
     },
@@ -16393,8 +16705,43 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "SavedMusic.AddToProfile",
+      "value": "Afegeix al perfil"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SavedMusic.Added",
+      "value": "S'ha afegit l'àudio al vostre perfil."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SavedMusic.RemoveConfirm",
+      "value": "Voleu eliminar aquest fitxer d'àudio del perfil?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SavedMusic.RemoveFromProfile",
+      "value": "Elimina del perfil"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SavedMusic.Removed",
+      "value": "S'ha eliminat l'àudio del vostre perfil."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SavedMusic.Sort",
+      "value": "Ordena"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "SavedMusicTab",
       "value": "Llista de reproducció"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SavedMusicTabMine",
+      "value": "La vostra llista de reproducció"
     },
     {
       "_": "types.LangPackString",
@@ -16924,6 +17271,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "SetProfilePhoto",
+      "value": "Estableix una foto"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "SetUrlPlaceholder",
       "value": "Enllaç"
     },
@@ -16966,6 +17318,11 @@
       "_": "types.LangPackString",
       "key": "ShareModal.Search.Placeholder",
       "value": "Compartiu amb..."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShareMyPhoneNoCaps",
+      "value": "Comparteix el meu número"
     },
     {
       "_": "types.LangPackString",
@@ -21629,5 +21986,5 @@
       "other_value": "%1$d missatges"
     }
   ],
-  "version": 344595
+  "version": 344668
 }
