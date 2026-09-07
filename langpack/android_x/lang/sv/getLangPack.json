@@ -970,6 +970,18 @@
       "other_value": "Någon skickade dig en gåvokod för %1$s månader av Telegram Premium"
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "key": "AnonymousGiftedPremiumCodeDays",
+      "one_value": "Någon har skickat dig en presentkod för %1$s dag av Telegram Premium",
+      "other_value": "Någon har skickat dig en presentkod för %1$s dagars Telegram Premium"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "AnonymousGiftedPremiumDays",
+      "one_value": "Någon gav dig %1$s dag av Telegram Premium värt %2$s",
+      "other_value": "Någon gav dig %1$s dagar av Telegram Premium värt %2$s"
+    },
+    {
       "_": "types.LangPackString",
       "key": "AnonymousNumbers",
       "value": "🏴‍☠️ Anonyma Nummer"
@@ -3024,6 +3036,16 @@
       "_": "types.LangPackString",
       "key": "ChatContentGroupJoin",
       "value": "Gick med i gruppen via inbjudningslänk"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatContentGroupJoinCommunity",
+      "value": "Gick med i gruppen från communityt"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatContentGroupJoinCommunity_outgoing",
+      "value": "Gick med i gruppen från communityt"
     },
     {
       "_": "types.LangPackString",
@@ -5111,6 +5133,21 @@
       "_": "types.LangPackString",
       "key": "DeleteArchivedPack",
       "value": "Ta bort från arkiv"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "DeleteCallHistory",
+      "value": "Ta bort samtalshistorik"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "DeleteCallHistoryConfirm",
+      "value": "**Varning!**\n\nVill du radera **hela** samtalshistoriken? Detta kommer att radera alla tillhörande samtalsmeddelanden i motsvarande chattar.\n\nDenna åtgärd går inte att ångra."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "DeleteCallHistoryForEveryone",
+      "value": "Ta bort hos alla"
     },
     {
       "_": "types.LangPackString",
@@ -7218,6 +7255,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "EventLogPromotedManageWelcomeMessages",
+      "value": "Hantera välkomstmeddelanden"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "EventLogPromotedNew",
       "value": "befordrade %1$s"
     },
@@ -8194,6 +8236,18 @@
       "key": "GiftedPremiumCode",
       "one_value": "%2$s skickade en presentkod på Telegram Premium i %1$s månad",
       "other_value": "%2$s skickade en presentkod på Telegram Premium i %1$s månader."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "GiftedPremiumCodeDays",
+      "one_value": "%2$s skickade dig en presentkod för %1$s dag av Telegram Premium",
+      "other_value": "%2$s skickade dig en presentkod för %1$s dagar Telegram Premium"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "GiftedPremiumDays",
+      "one_value": "%2$s gav dig %1$s dag av Telegram Premium värt %3$s",
+      "other_value": "%2$s gav dig %1$s dagar av Telegram Premium värt %3$s"
     },
     {
       "_": "types.LangPackString",
@@ -16245,6 +16299,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "RightWelcomeMessages",
+      "value": "Hantera direktmeddelanden"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Ringtone",
       "value": "Ringsignal"
     },
@@ -21259,6 +21318,24 @@
     },
     {
       "_": "types.LangPackStringPluralized",
+      "key": "YouGiftedPremiumCodeDays",
+      "one_value": "Du skickade en presentkod för %1$s dag av Telegram Premium",
+      "other_value": "Du skickade ne presentkod för %1$s dagar Telegram Premium"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "YouGiftedPremiumDays",
+      "one_value": "Du gav %1$s dag av Telegram Premium värt %2$s",
+      "other_value": "Du gav %1$s dagar av Telegram Premium värt %2$s"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "YouGiftedPremiumDaysTo",
+      "one_value": "Du gav %3$s %1$s dag av Telegram Premium värt %2$s",
+      "other_value": "Du gav %3$s %1$s dagar av Telegram Premium värt %2$s"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
       "key": "YouGiftedPremiumTo",
       "one_value": "Du gav %3$s %1$s månad av Telegram Premium för %2$s",
       "other_value": "Du gav %3$s %1$s månader av Telegram Premium för %2$s"
@@ -21823,6 +21900,11 @@
       "_": "types.LangPackString",
       "key": "error_PREMIUM_ACCOUNT_REQUIRED",
       "value": "Funktionen kräver abonnemang av Telegram Premium."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "error_PremiumActive",
+      "value": "Du har redan ett aktivt Telegram Premium-abonnemang som gäller till %1$s."
     },
     {
       "_": "types.LangPackString",
@@ -22479,6 +22561,26 @@
       "_": "types.LangPackString",
       "key": "group_user_join_by_link_with_approval",
       "value": "%1$s gick med i gruppen via inbjudningslänk, godkänd av %2$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "group_user_join_from_community",
+      "value": "%1$s gick med i gruppen från communityt"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "group_user_join_from_community_name",
+      "value": "%1$s gick med i gruppen från communityt ”%2$s”"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "group_user_join_from_community_name_self",
+      "value": "Du gick med i gruppen från communityt ”%2$s”"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "group_user_join_from_community_self",
+      "value": "Du gick med i gruppen från communityt"
     },
     {
       "_": "types.LangPackString",
@@ -23941,6 +24043,12 @@
     },
     {
       "_": "types.LangPackStringPluralized",
+      "key": "xGiveawayPrizeReceivedInfoDays",
+      "one_value": "Ditt pris är ett **Telegram Premium**-abonnemang som gäller i **%1$s** dag.",
+      "other_value": "Ditt pris är ett **Telegram Premium**-abonnemang som gäller i **%1$s** dagar."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
       "key": "xGiveawayPrizeStar",
       "one_value": "%1$s **Telegram Stjärna**.",
       "other_value": "%1$s **Telegram Stjärnor**."
@@ -23950,6 +24058,12 @@
       "key": "xGiveawayUnclaimedPrizeReceivedInfo",
       "one_value": "Priset är en **Telegram Premium**-prenumeration i **%1$s** månad.",
       "other_value": "Priset är en **Telegram Premium**-prenumeration i **%1$s** månader."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "xGiveawayUnclaimedPrizeReceivedInfoDays",
+      "one_value": "Priset är ett **Telegram Premium**-abonnemang som gäller i **%1$s** dag.",
+      "other_value": "Priset är ett **Telegram Premium**-abonnemang som gäller i **%1$s** dagar."
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -24099,6 +24213,11 @@
       "_": "types.LangPackString",
       "key": "xOfYChatsSelected",
       "value": "%1$d/%2$d chattar valda"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "xOfYChatsSelected2",
+      "value": "%1$s/%2$s chattar valda"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -24341,6 +24460,12 @@
     },
     {
       "_": "types.LangPackStringPluralized",
+      "key": "xTelegramPremiumForDays",
+      "one_value": "Telegram Premium i %1$s dag",
+      "other_value": "Telegram Premium i %1$s dagar"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
       "key": "xTelegramPremiumForMonth",
       "one_value": "Telegram Premium i %1$s månad",
       "other_value": "Telegram Premium i %1$s månader"
@@ -24424,5 +24549,5 @@
       "other_value": "%1$s år"
     }
   ],
-  "version": 1646469
+  "version": 1653856
 }
