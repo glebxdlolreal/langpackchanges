@@ -949,6 +949,16 @@
       "other_value": "某人贈送給您 %1$s 個月 Telegram Premium 訂閲的禮品碼"
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "key": "AnonymousGiftedPremiumCodeDays",
+      "other_value": "某人贈送給您 %1$s 天 Telegram Premium 訂閲的禮品碼"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "AnonymousGiftedPremiumDays",
+      "other_value": "某人贈送給您 %1$s 天的 Telegram Premium 訂閲，價值為 %2$s"
+    },
+    {
       "_": "types.LangPackString",
       "key": "AnonymousNumbers",
       "value": "🏴‍☠️ 匿名號碼"
@@ -2977,6 +2987,16 @@
       "_": "types.LangPackString",
       "key": "ChatContentGroupJoin",
       "value": "透過邀請連結加入了群組"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatContentGroupJoinCommunity",
+      "value": "透過社群加入了群組"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatContentGroupJoinCommunity_outgoing",
+      "value": "透過社群加入了群組"
     },
     {
       "_": "types.LangPackString",
@@ -5022,6 +5042,21 @@
       "_": "types.LangPackString",
       "key": "DeleteArchivedPack",
       "value": "從封存中刪除"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "DeleteCallHistory",
+      "value": "刪除通話紀錄"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "DeleteCallHistoryConfirm",
+      "value": "**警告！**\n\n您要刪除**全部**的通話紀錄嗎？此操作將刪除對應聊天室中所有相關的通話訊息。\n\n此操作無法復原。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "DeleteCallHistoryForEveryone",
+      "value": "從所有人的裝置中刪除"
     },
     {
       "_": "types.LangPackString",
@@ -7110,6 +7145,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "EventLogPromotedManageWelcomeMessages",
+      "value": "管理問候語"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "EventLogPromotedNew",
       "value": "任命了 %1$s "
     },
@@ -8077,6 +8117,16 @@
       "_": "types.LangPackStringPluralized",
       "key": "GiftedPremiumCode",
       "other_value": "%2$s向您傳送了 %1$s 個月 Telegram Premium 的禮品碼"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "GiftedPremiumCodeDays",
+      "other_value": "%2$s 贈送給您 %1$s 天 Telegram Premium 訂閲的禮品碼"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "GiftedPremiumDays",
+      "other_value": "%2$s 以 %3$s 的價格贈送您 %1$s 天的 Telegram Premium 訂閲"
     },
     {
       "_": "types.LangPackString",
@@ -16045,6 +16095,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "RightWelcomeMessages",
+      "value": "管理私訊"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Ringtone",
       "value": "鈴聲"
     },
@@ -20941,12 +20996,27 @@
     {
       "_": "types.LangPackStringPluralized",
       "key": "YouGiftedPremium",
-      "other_value": "您以 %2$s 的價格贈送 %1$s 個月的 Telegram Premium 訂閲"
+      "other_value": "您以 %2$s 的價格贈送了 %1$s 個月的 Telegram Premium 訂閲"
     },
     {
       "_": "types.LangPackStringPluralized",
       "key": "YouGiftedPremiumCode",
-      "other_value": "您傳送了 %1$s 個月 Telegram Premium 訂閲的禮品碼"
+      "other_value": "您贈送了 %1$s 個月 Telegram Premium 訂閲的禮品碼"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "YouGiftedPremiumCodeDays",
+      "other_value": "您贈送了 %1$s 天 Telegram Premium 訂閲的禮品碼"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "YouGiftedPremiumDays",
+      "other_value": "您以 %2$s 的價格贈送了 %1$s 天 Telegram Premium 訂閲"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "YouGiftedPremiumDaysTo",
+      "other_value": "%2$s 以 %3$s 的價格贈送您 %1$s 天的 Telegram Premium 訂閲"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -21492,6 +21562,11 @@
       "_": "types.LangPackString",
       "key": "error_PREMIUM_ACCOUNT_REQUIRED",
       "value": "此功能需要訂閱 Telegram Premium。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "error_PremiumActive",
+      "value": "您的 Telegram Premium 訂閱已生效，有效期至 %1$s。"
     },
     {
       "_": "types.LangPackString",
@@ -22137,6 +22212,26 @@
       "_": "types.LangPackString",
       "key": "group_user_join_by_link_with_approval",
       "value": "%2$s 已批准 %1$s 透過邀請連結加入群組"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "group_user_join_from_community",
+      "value": "%1$s 透過社群加入了群組"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "group_user_join_from_community_name",
+      "value": "%1$s 透過社群「%2$s」加入了此群組"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "group_user_join_from_community_name_self",
+      "value": "您透過「%2$s」社群加入了群組"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "group_user_join_from_community_self",
+      "value": "您透過社群加入了群組"
     },
     {
       "_": "types.LangPackString",
@@ -23515,6 +23610,11 @@
     },
     {
       "_": "types.LangPackStringPluralized",
+      "key": "xGiveawayPrizeReceivedInfoDays",
+      "other_value": "您的獎品是 **%1$s 天**的 **Telegram Premium** 訂閱。"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
       "key": "xGiveawayPrizeStar",
       "other_value": "%1$s 顆 **Telegram 星星**。"
     },
@@ -23522,6 +23622,11 @@
       "_": "types.LangPackStringPluralized",
       "key": "xGiveawayUnclaimedPrizeReceivedInfo",
       "other_value": "此獎品是 **%1$s** 個月的 **Telegram Premium** 訂閱。"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "xGiveawayUnclaimedPrizeReceivedInfoDays",
+      "other_value": "此獎品是 **%1$s 天**的 **Telegram Premium** 訂閱。"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -23647,6 +23752,11 @@
       "_": "types.LangPackString",
       "key": "xOfYChatsSelected",
       "value": "已選 %1$d/%2$d 個聊天室"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "xOfYChatsSelected2",
+      "value": "已選 %1$s/%2$s 個聊天室"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -23850,6 +23960,11 @@
     },
     {
       "_": "types.LangPackStringPluralized",
+      "key": "xTelegramPremiumForDays",
+      "other_value": "%1$s 天 Telegram Premium"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
       "key": "xTelegramPremiumForMonth",
       "other_value": "%1$s 個月的 Telegram Premium"
     },
@@ -23919,5 +24034,5 @@
       "other_value": "%1$s 年"
     }
   ],
-  "version": 1644503
+  "version": 1654207
 }
