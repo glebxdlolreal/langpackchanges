@@ -1608,7 +1608,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_action_gift_sent_self_channel",
-      "value": "Вы адправілі ў {name} падарунак за {cost}."
+      "value": "Вы адправілі каналу {name} падарунак за {cost}."
     },
     {
       "_": "types.LangPackString",
@@ -1686,7 +1686,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_action_gift_transferred_self_channel",
-      "value": "Вы перадалі падарунак да {channel}"
+      "value": "Вы перадалі падарунак каналу {channel}"
     },
     {
       "_": "types.LangPackString",
@@ -1741,7 +1741,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_action_gift_upgraded_self_channel",
-      "value": "Вы пераўтварылі гэты падарунак для {channel} ва ўнікальны калекцыйны"
+      "value": "Вы пераўтварылі гэты падарунак для канала {channel} ва ўнікальны калекцыйны"
     },
     {
       "_": "types.LangPackString",
@@ -11439,6 +11439,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_context_monoforum_ban",
+      "value": "Заблакіраваць у канале"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_context_monoforum_unban",
+      "value": "Разблакіраваць у канале"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_context_mute",
       "value": "Не апавяшчаць"
     },
@@ -13245,7 +13255,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_dialogs_suggestions_birthday_contact_about",
-      "value": "Адправіць падарунак."
+      "value": "Можаце адправіць падарунак."
     },
     {
       "_": "types.LangPackString",
@@ -14928,6 +14938,26 @@
       "_": "types.LangPackString",
       "key": "lng_emoji_status_menu_duration_any",
       "value": "Задаць статус на {duration}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_emoji_status_remove",
+      "value": "Выдаліць статус\n"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_emoji_status_remove_done",
+      "value": "Эмодзі-статус выдалены. {link}\n"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_emoji_status_set_done",
+      "value": "Эмодзі-статус зададзены. {link}\n"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_emoji_status_undo",
+      "value": "Адрабіць"
     },
     {
       "_": "types.LangPackString",
@@ -17824,11 +17854,11 @@
     },
     {
       "_": "types.LangPackStringPluralized",
-      "few_value": "\n{count} падарункі ў продажы",
+      "few_value": "{count} падарункі ў продажы",
       "key": "lng_gift_craft_select_market",
-      "many_value": "\n{count} падарункаў у продажы",
+      "many_value": "{count} падарункаў у продажы",
       "one_value": "{count} падарунак у продажы",
-      "other_value": "\n{count} падарунка ў продажы"
+      "other_value": "{count} падарунка ў продажы"
     },
     {
       "_": "types.LangPackString",
@@ -18824,7 +18854,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_gift_stars_subtitle",
-      "value": "Падарыце падарунак"
+      "value": "Адпраўце падарунак"
     },
     {
       "_": "types.LangPackString",
@@ -24775,7 +24805,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_media_saved_music_your",
-      "value": "Ваш плэйліст"
+      "value": "Ваш плэй-ліст"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -31110,7 +31140,7 @@
     },
     {
       "_": "types.LangPackStringPluralized",
-      "few_value": "{count} падарунка",
+      "few_value": "{count} падарункі",
       "key": "lng_profile_peer_gifts",
       "many_value": "{count} падарункаў",
       "one_value": "{count} падарунак",
@@ -31738,6 +31768,11 @@
       "_": "types.LangPackString",
       "key": "lng_proxy_web_waiting",
       "value": "паўторная спроба падключэння ўбадаванага WebTransport…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_proxy_web_warning",
+      "value": "Гэты вэб-проксі запускае вэб-старонку ад свайго пастаўшчыка ў фонавым рэжыме, пакуль вы падключаны. Выкарыстоўвайце яго толькі ў тым выпадку, калі давяраеце пастаўшчыку. Ён таксама можа паказваць спансарскі канал у вашым спісе чатаў. Гэта не раскрывае ваш трафік Telegram."
     },
     {
       "_": "types.LangPackString",
@@ -33030,6 +33065,11 @@
       "value": "Аднавіць"
     },
     {
+      "_": "types.LangPackString",
+      "key": "lng_restore_windows_unavailable",
+      "value": "Гэты чат больш недаступны.\n"
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "few_value": "Абмежаваць карыстальнікаў",
       "key": "lng_restrict_user",
@@ -33317,8 +33357,23 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_rich_paste_toast_apply",
+      "value": "Прымяніць"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_rich_paste_toast_editor",
       "value": "Аднавіць фарматаванне ў рэдактары\n"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_rich_paste_toast_editor_markdown",
+      "value": "Прымяніць з фарматаваннем разметкі ў рэдактары"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_rich_paste_toast_field",
+      "value": "Прымяніць з фарматаваннем разметкі"
     },
     {
       "_": "types.LangPackString",
@@ -34065,7 +34120,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_saved_music_removed",
-      "value": "Аўдыя выдалена з вашага профілю."
+      "value": "Аўдыя прыбрана з вашага профілю."
     },
     {
       "_": "types.LangPackString",
@@ -43238,11 +43293,11 @@
     },
     {
       "_": "types.LangPackStringPluralized",
-      "few_value": "{count} тыд",
+      "few_value": "{count}т",
       "key": "lng_weeks_tiny",
-      "many_value": "{count} тыд",
-      "one_value": "{count} тыдз",
-      "other_value": "{count} тыд"
+      "many_value": "{count}т",
+      "one_value": "{count}т",
+      "other_value": "{count}т"
     },
     {
       "_": "types.LangPackString",
@@ -43339,5 +43394,5 @@
       "other_value": "Вы заплацілі {count} зоркі."
     }
   ],
-  "version": 5830789
+  "version": 5853810
 }
