@@ -297,8 +297,8 @@
     {
       "_": "types.LangPackStringPluralized",
       "key": "ActionGiftCodePremiumText",
-      "one_value": "شما یک هدیه از طرف ⁨{channel}⁩ دریافت کرده‌اید.\n\nهدیه شما یک اشتراک **تلگرام پرمیوم** به مدت ⁨{months}⁩ ماه است.",
-      "other_value": "شما یک هدیه از طرف ⁨{channel}⁩ دریافت کرده‌اید.\n\nهدیه شما یک اشتراک **تلگرام پرمیوم** به مدت ⁨{months}⁩ ماه است."
+      "one_value": "شما یک هدیه از طرف ⁨{channel}⁩ دریافت کرده‌اید.\n\nهدیه شما، اشتراک **تلگرام پرمیوم** به مدت ⁨{months}⁩ ماه است.",
+      "other_value": "شما یک هدیه از طرف ⁨{channel}⁩ دریافت کرده‌اید.\n\nهدیه شما، اشتراک **تلگرام پرمیوم** به مدت ⁨{months}⁩ ماه است."
     },
     {
       "_": "types.LangPackString",
@@ -392,13 +392,13 @@
     {
       "_": "types.LangPackString",
       "key": "ActionGiveawayResultPremiumDuration",
-      "value": "شما در قرعه‌کشی که توسط ⁨{channel}⁩ برگزار شد، یک جایزه برنده شده‌اید.\n\nجایزه شما یک اشتراک **تلگرام پرمیوم** به مدت **⁨{duration}⁩** است."
+      "value": "شما در قرعه‌کشی که توسط ⁨{channel}⁩ برگزار شد، یک جایزه برنده شده‌اید.\n\nجایزه شما، اشتراک **تلگرام پرمیوم** به مدت **⁨{duration}⁩** است."
     },
     {
       "_": "types.LangPackStringPluralized",
       "key": "ActionGiveawayResultPremiumText",
-      "one_value": "شما در قرعه‌کشی که توسط ⁨{channel}⁩ برگزار شد، یک جایزه برنده شدید.\n\nجایزه شما یک اشتراک **تلگرام پرمیوم** به مدت **⁨{months}⁩** ماه است.",
-      "other_value": "شما در قرعه‌کشی که توسط ⁨{channel}⁩ برگزار شد، یک جایزه برنده شدید.\n\nجایزه شما یک اشتراک **تلگرام پرمیوم** به مدت **⁨{months}⁩** ماه است."
+      "one_value": "شما در قرعه‌کشی که توسط ⁨{channel}⁩ برگزار شد، یک جایزه برنده شدید.\n\nجایزه شما، اشتراک **تلگرام پرمیوم** به مدت **⁨{months}⁩** ماه است.",
+      "other_value": "شما در قرعه‌کشی که توسط ⁨{channel}⁩ برگزار شد، یک جایزه برنده شدید.\n\nجایزه شما، اشتراک **تلگرام پرمیوم** به مدت **⁨{months}⁩** ماه است."
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -1400,6 +1400,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AiToneCreated",
+      "value": "لحن ⁨{title}⁩ ایجاد شد!"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AiToneCreatedHint",
+      "value": "برای ویرایش یا اشتراک گذاری لحن، بر روی آن بزنید و نگه دارید."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AiToneDeleteStyle",
       "value": "حذف لحن"
     },
@@ -1407,6 +1417,11 @@
       "_": "types.LangPackString",
       "key": "AiToneDeleteStyleConfirm",
       "value": "آیا از حذف این لحن اطمینان دارید؟"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AiToneDeleteStyleConfirmOwn",
+      "value": "آیا از حذف این لحن اطمینان دارید؟ این لحن برای تمامی کسانی که آن را نصب کرده‌اند، حذف خواهد شد."
     },
     {
       "_": "types.LangPackString",
@@ -1445,6 +1460,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AiToneLimitReachedPremium",
+      "value": "شما به سقف محدودیت **⁨{limit}⁩** لحن سفارشی رسیده‌اید."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AiTonePreviewAddStyle",
       "value": "افزودن لحن"
     },
@@ -1472,6 +1492,11 @@
       "_": "types.LangPackString",
       "key": "AiTonePreviewStyleAdded",
       "value": "لحن اضافه شد"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AiTonePreviewSubtitle",
+      "value": "این لحن را اضافه کنید تا پیام‌هایتان فوراً بازنویسی شوند."
     },
     {
       "_": "types.LangPackString",
@@ -1598,6 +1623,11 @@
       "_": "types.LangPackString",
       "key": "ApproveNewMembersPublicUnavailable",
       "value": "این گزینه در دسترس نیست، زیرا هر کسی می‌تواند از طریق لینک عمومی گروه به آن بپیوندد و پیام ارسال کند."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ApproveNewSubscribersPublicUnavailable",
+      "value": "این گزینه در دسترس نیست، زیرا هر کسی می‌تواند از طریق لینک کانال عمومی به آن بپیوندد."
     },
     {
       "_": "types.LangPackString",
@@ -1872,7 +1902,7 @@
     {
       "_": "types.LangPackString",
       "key": "AspectRatio",
-      "value": "نسبت تصویر "
+      "value": "نسبت ابعاد"
     },
     {
       "_": "types.LangPackString",
@@ -2389,6 +2419,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "BotAuthUnverifiedApp",
+      "value": "برنامه تأیید نشده"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "BotChatMiniAppOpen",
       "value": "باز کردن"
     },
@@ -2755,7 +2790,7 @@
     {
       "_": "types.LangPackString",
       "key": "CallStatusExchanging",
-      "value": "در حال تبادل کلید‌های رمزگذاری..."
+      "value": "در حال تبادل کلید‌های رمزنگاری..."
     },
     {
       "_": "types.LangPackString",
@@ -4077,6 +4112,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "CopyAsMarkdown",
+      "value": "کپی به صورت Markdown"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "CopyLink",
       "value": "کپی لینک"
     },
@@ -4951,6 +4991,21 @@
       "_": "types.LangPackString",
       "key": "EnterPriceInStars",
       "value": "قیمت در واحد ستاره را وارد کنید"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EphemeralContextMenuNotice",
+      "value": "فقط شما این پیام را می‌بینید. پس از ورود مجدد به حساب کاربری، ناپدید خواهد شد."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EphemeralOnlyVisible",
+      "value": "قابل مشاهده فقط برای شما"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EphemeralOnlyVisibleToBot",
+      "value": "قابل مشاهده فقط برای ⁨{bot}⁩"
     },
     {
       "_": "types.LangPackString",
@@ -9650,6 +9705,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PollAnswersVisibleDescription",
+      "value": "نمایش نام رأی دهنده برای هر گزینه"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PollBackToAnswer",
       "value": "< پاسخ دادن"
     },
@@ -9659,10 +9719,20 @@
       "value": "< رأی دادن"
     },
     {
+      "_": "types.LangPackString",
+      "key": "PollChooseCountry",
+      "value": "لطفاً حداقل یک کشور را انتخاب کنید."
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "key": "PollCountriesLimit",
       "one_value": "شما می‌توانید تا ⁨{count}⁩ کشور انتخاب کنید.",
       "other_value": "شما می‌توانید تا ⁨{count}⁩ کشور انتخاب کنید."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PollCountryRestriction",
+      "value": "فقط کاربران از **⁨{countries}⁩** می‌توانند رأی دهند."
     },
     {
       "_": "types.LangPackString",
@@ -9673,6 +9743,11 @@
       "_": "types.LangPackString",
       "key": "PollLimitByCountry",
       "value": "محدود کردن بر اساس کشور"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PollLimitByCountryDescription",
+      "value": "فقط کاربران کشورهای انتخاب شده می‌توانند رأی دهند."
     },
     {
       "_": "types.LangPackString",
@@ -9691,8 +9766,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PollRandomOrderDescription",
+      "value": "پاسخ‌ها برای هر رأی‌دهنده به صورت تصادفی نمایش داده می‌شوند"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PollRestrictToSubscribers",
       "value": "محدود کردن به مشترکین"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PollRestrictToSubscribersDescription",
+      "value": "فقط مشترکینی که بیش از 24 ساعت از عضویتشان گذشته باشد، می‌توانند رأی دهند."
     },
     {
       "_": "types.LangPackString",
@@ -9713,6 +9798,11 @@
       "_": "types.LangPackString",
       "key": "PollSubmitVotes",
       "value": "رأی دادن"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PollSubscriberRestriction",
+      "value": "فقط مشترکین ⁨{channel}⁩ می‌توانند رأی دهند."
     },
     {
       "_": "types.LangPackString",
@@ -9823,7 +9913,7 @@
     {
       "_": "types.LangPackString",
       "key": "PremiumPreviewAiToolsDescription",
-      "value": "پیام‌ها و کل گفتگوهای خود را به سبک و زبان دلخواه خود تبدیل کنید."
+      "value": "پیام‌ها و کل گفتگوهای خود را به لحن و زبان دلخواه خود تبدیل کنید."
     },
     {
       "_": "types.LangPackString",
@@ -9913,7 +10003,7 @@
     {
       "_": "types.LangPackString",
       "key": "PremiumPreviewTodoDescription",
-      "value": "کارها را به صورت همگام و کارآمد، برنامه‌ریزی کرده، اختصاص داده و کامل کنید."
+      "value": "کارها را به صورت یکپارچه و کارآمد برنامه‌ریزی کرده، اختصاص داده و کامل کنید."
     },
     {
       "_": "types.LangPackString",
@@ -10863,6 +10953,11 @@
       "_": "types.LangPackString",
       "key": "RevokedLinks",
       "value": "لینک‌های باطل شده"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichEditorTableBorderless",
+      "value": "بدون کادر"
     },
     {
       "_": "types.LangPackString",
@@ -13281,7 +13376,7 @@
     {
       "_": "types.LangPackString",
       "key": "UserNoteHint",
-      "value": "فقط برای شما قابل مشاهده است"
+      "value": "قابل مشاهده فقط برای شما"
     },
     {
       "_": "types.LangPackString",
@@ -13501,6 +13596,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "VideoMessagesRestrictedByPrivacy",
+      "value": "**⁨{user}⁩** پیام‌های ویدیویی را نمی‌پذیرد."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "VideoPlayerBuffering",
       "value": "در حال بافر..."
     },
@@ -13517,7 +13617,7 @@
     {
       "_": "types.LangPackString",
       "key": "ViewButtonAiStyle",
-      "value": "مشاهده سبک"
+      "value": "مشاهده لحن"
     },
     {
       "_": "types.LangPackString",
@@ -13979,5 +14079,5 @@
       "value": "نام شما"
     }
   ],
-  "version": 290918
+  "version": 291491
 }

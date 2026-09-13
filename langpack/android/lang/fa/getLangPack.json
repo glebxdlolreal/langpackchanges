@@ -51,7 +51,7 @@
     {
       "_": "types.LangPackString",
       "key": "AIEditorDeleteStyleText",
-      "value": "آیا از حذف این سبک اطمینان دارید؟ این سبک برای تمامی کسانی که آن را نصب کرده‌اند، حذف خواهد شد."
+      "value": "آیا از حذف این لحن اطمینان دارید؟ این لحن برای تمامی کسانی که آن را نصب کرده‌اند، حذف خواهد شد."
     },
     {
       "_": "types.LangPackString",
@@ -192,12 +192,12 @@
     {
       "_": "types.LangPackString",
       "key": "AIEditorStyleSharedToSavedMessages",
-      "value": "لینک سبک هوش مصنوعی به **پیام‌های ذخیره شده** ارسال شد"
+      "value": "لینک لحن هوش مصنوعی به **پیام‌های ذخیره شده** ارسال شد"
     },
     {
       "_": "types.LangPackString",
       "key": "AIEditorStyleText",
-      "value": "این سبک را اضافه کنید تا پیام‌هایتان\nفوراً بازنویسی شوند."
+      "value": "این لحن را اضافه کنید تا پیام‌هایتان\nفوراً بازنویسی شوند."
     },
     {
       "_": "types.LangPackString",
@@ -242,12 +242,12 @@
     {
       "_": "types.LangPackString",
       "key": "AIEditorToneCreatedText",
-      "value": "برای ویرایش یا اشتراک گذاری سبک، بر روی آن بزنید و نگه دارید."
+      "value": "برای ویرایش یا اشتراک گذاری لحن، بر روی آن بزنید و نگه دارید."
     },
     {
       "_": "types.LangPackString",
       "key": "AIEditorToneCreatedTitle",
-      "value": "سبک ⁨%s⁩ ایجاد شد"
+      "value": "لحن ⁨%s⁩ ایجاد شد"
     },
     {
       "_": "types.LangPackString",
@@ -343,12 +343,12 @@
     {
       "_": "types.LangPackString",
       "key": "AccActionOnceActivate",
-      "value": "فعال کردن یک بار پخش"
+      "value": "فعال کردن یک‌بار پخش"
     },
     {
       "_": "types.LangPackString",
       "key": "AccActionOnceDeactivate",
-      "value": "غیرفعال کردن یک بار پخش"
+      "value": "غیرفعال کردن یک‌بار پخش"
     },
     {
       "_": "types.LangPackString",
@@ -408,7 +408,7 @@
     {
       "_": "types.LangPackString",
       "key": "AccDescrAspectRatio",
-      "value": "نسبت تصویر "
+      "value": "نسبت ابعاد"
     },
     {
       "_": "types.LangPackString",
@@ -554,6 +554,11 @@
       "_": "types.LangPackString",
       "key": "AccDescrCollapsePanel",
       "value": "کوچک کردن پنل "
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AccDescrCollapsed",
+      "value": "جمع شده"
     },
     {
       "_": "types.LangPackString",
@@ -1051,6 +1056,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AccDescrRemoveRoundVideo",
+      "value": "حذف پیام ویدیویی"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AccDescrRepeatList",
       "value": "تکرار، لیست پخش"
     },
@@ -1313,6 +1323,16 @@
       "_": "types.LangPackString",
       "key": "AccDescrVoipMicOn",
       "value": "میکروفن فعال است"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AccDescrWithAdminTag",
+      "value": "با برچسب مدیر: ⁨%1$s⁩"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AccDescrWithMemberTag",
+      "value": "با برچسب عضو: ⁨%1$s⁩"
     },
     {
       "_": "types.LangPackString",
@@ -1815,7 +1835,7 @@
     {
       "_": "types.LangPackString",
       "key": "ActionGiftTonInbound",
-      "value": "یک هدیه به ارزش **⁨un2⁩** برای شما ارسال کرد"
+      "value": "برای شما یک هدیه به ارزش **⁨un2⁩** ارسال کرد"
     },
     {
       "_": "types.LangPackString",
@@ -1896,6 +1916,21 @@
       "_": "types.LangPackString",
       "key": "ActionInviteYou",
       "value": "شما از طریق لینک دعوت به گروه پیوستید"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ActionJoinedFromCommunityUser",
+      "value": "⁨un2⁩ از طریق انجمن ⁨un1⁩ به گروه پیوست"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ActionJoinedFromCommunityYou",
+      "value": "شما از طریق انجمن ⁨un1⁩ به گروه پیوستید"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ActionJoinedFromCommunityYouChannel",
+      "value": "شما از طریق انجمن ⁨un1⁩ به کانال پیوستید"
     },
     {
       "_": "types.LangPackString",
@@ -3837,8 +3872,8 @@
     {
       "_": "types.LangPackStringPluralized",
       "key": "ApproveNewMembersDisableForLinksChannel",
-      "one_value": "همچنین گزینه **پذیرفتن مشترکین جدید** برای **⁨%1$d⁩ لینک دعوت فعلی** در این کانال غیرفعال شود؟",
-      "other_value": "همچنین گزینه **پذیرفتن مشترکین جدید** برای **⁨%1$d⁩ لینک دعوت فعلی** در این کانال غیرفعال شود؟"
+      "one_value": "همچنین گزینه **پذیرفتن اعضای جدید** برای **⁨%1$d⁩ لینک دعوت فعلی** در این کانال غیرفعال شود؟",
+      "other_value": "همچنین گزینه **پذیرفتن اعضای جدید** برای **⁨%1$d⁩ لینک دعوت فعلی** در این کانال غیرفعال شود؟"
     },
     {
       "_": "types.LangPackString",
@@ -3864,8 +3899,8 @@
     {
       "_": "types.LangPackStringPluralized",
       "key": "ApproveNewMembersEnableForLinksChannel",
-      "one_value": "همچنین گزینه **پذیرفتن مشترکین جدید** برای **⁨%1$d⁩ لینک دعوت فعلی** در این کانال فعال شود؟",
-      "other_value": "همچنین گزینه **پذیرفتن مشترکین جدید** برای **⁨%1$d⁩ لینک دعوت فعلی** در این کانال فعال شود؟"
+      "one_value": "همچنین گزینه **پذیرفتن اعضای جدید** برای **⁨%1$d⁩ لینک دعوت فعلی** در این کانال فعال شود؟",
+      "other_value": "همچنین گزینه **پذیرفتن اعضای جدید** برای **⁨%1$d⁩ لینک دعوت فعلی** در این کانال فعال شود؟"
     },
     {
       "_": "types.LangPackString",
@@ -4791,7 +4826,7 @@
     {
       "_": "types.LangPackString",
       "key": "ArticleListTodo",
-      "value": "لیست کارها"
+      "value": "چک‌لیست"
     },
     {
       "_": "types.LangPackString",
@@ -4841,7 +4876,7 @@
     {
       "_": "types.LangPackString",
       "key": "ArticleTableBordered",
-      "value": "حاشیه دار"
+      "value": "با کادر"
     },
     {
       "_": "types.LangPackString",
@@ -5051,12 +5086,12 @@
     {
       "_": "types.LangPackString",
       "key": "AttachOnceAudio",
-      "value": "پیام‌ صوتی یکبار مصرف"
+      "value": "پیام‌ صوتی یک‌بار مصرف"
     },
     {
       "_": "types.LangPackString",
       "key": "AttachOnceRound",
-      "value": "پیام‌ ویدیویی یکبار مصرف"
+      "value": "پیام‌ ویدیویی یک‌بار مصرف"
     },
     {
       "_": "types.LangPackString",
@@ -5362,7 +5397,7 @@
     {
       "_": "types.LangPackString",
       "key": "AuthAnotherClientUrl",
-      "value": "این کد می‌تواند به افراد دیگر اجازه دهد تا به حساب کاربری تلگرام شما وارد شوند.\n\nبرای تأیید ورود به حساب کاربری تلگرام، لطفاً به قسمت تنظیمات > دستگاه‌ها > اسکن QR مراجعه کرده و کد را اسکن کنید."
+      "value": "این کد می‌تواند به افراد دیگر اجازه دهد تا وارد حساب کاربری تلگرام شما شوند.\n\nجهت تأیید ورود به تلگرام، لطفاً به قسمت تنظیمات > دستگاه‌ها > اسکن QR مراجعه کرده و کد را اسکن کنید."
     },
     {
       "_": "types.LangPackString",
@@ -7811,7 +7846,7 @@
     {
       "_": "types.LangPackString",
       "key": "BoostingReceivedGiftDuration",
-      "value": "هدیه شما یک اشتراک **تلگرام پرمیوم**\nبه مدت ⁨%s⁩ است."
+      "value": "هدیه شما، اشتراک **تلگرام پرمیوم**\nبه مدت ⁨%s⁩ است."
     },
     {
       "_": "types.LangPackString",
@@ -7831,7 +7866,7 @@
     {
       "_": "types.LangPackString",
       "key": "BoostingReceivedPrizeDuration",
-      "value": "جایزه شما یک اشتراک **تلگرام پرمیوم** به مدت ⁨%s⁩ است."
+      "value": "جایزه شما، اشتراک **تلگرام پرمیوم** به مدت ⁨%s⁩ است."
     },
     {
       "_": "types.LangPackString",
@@ -8276,7 +8311,7 @@
     {
       "_": "types.LangPackString",
       "key": "BoostingUnclaimedPrizeDuration",
-      "value": "این جایزه، یک اشتراک **تلگرام پرمیوم** به مدت ⁨%s⁩ است."
+      "value": "این جایزه، اشتراک **تلگرام پرمیوم** به مدت ⁨%s⁩ است."
     },
     {
       "_": "types.LangPackString",
@@ -9881,7 +9916,7 @@
     {
       "_": "types.LangPackString",
       "key": "BuiltInThemes",
-      "value": "پوسته‌های درون‌برنامه"
+      "value": "پوسته‌های داخلی"
     },
     {
       "_": "types.LangPackString",
@@ -13200,7 +13235,7 @@
     {
       "_": "types.LangPackString",
       "key": "ChatWithAdminMessage",
-      "value": "از آنجا که شما ⁨%1$s⁩ برای عضویت در ⁨%2$s⁩ درخواست دادید، این پیام را دریافت کرده‌اید."
+      "value": "از آنجا که شما ⁨%2$s⁩ برای عضویت در **⁨%1$s⁩** درخواست دادید، این پیام را دریافت کرده‌اید."
     },
     {
       "_": "types.LangPackString",
@@ -13761,7 +13796,7 @@
     {
       "_": "types.LangPackString",
       "key": "ClearHistoryOptionAlso",
-      "value": "همچنین پاک کردن تاریخچه برای ⁨%1$s⁩"
+      "value": "تاریخچه برای ⁨%1$s⁩ نیز پاک شود"
     },
     {
       "_": "types.LangPackString",
@@ -13943,7 +13978,7 @@
     {
       "_": "types.LangPackString",
       "key": "ClearingCacheDescription",
-      "value": "لطفاً تا پایان پاک شدن حافظه کش، این پنجره را باز نگه دارید."
+      "value": "لطفاً تا زمانی که تلگرام حافظه کش شما را پاک می‌کند، این پنجره را باز نگه دارید."
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -14608,7 +14643,7 @@
     {
       "_": "types.LangPackString",
       "key": "CommunityPendingRequestOnlyVisibleToMembers",
-      "value": "فقط برای اعضای آن قابل مشاهده است"
+      "value": "قابل مشاهده فقط برای اعضای آن"
     },
     {
       "_": "types.LangPackString",
@@ -14962,7 +14997,7 @@
     {
       "_": "types.LangPackString",
       "key": "ConferenceEncrypted",
-      "value": "رمزگذاری شده به صورت سرتاسر"
+      "value": "رمزنگاری شده به صورت سرتاسر"
     },
     {
       "_": "types.LangPackString",
@@ -14972,12 +15007,12 @@
     {
       "_": "types.LangPackString",
       "key": "ConferenceEncryptedInfo",
-      "value": "این اموجی‌ها نمایانگر کلید رمزگذاری هستند. آن‌ها باید برای تمامی شرکت کنندگان یکسان باشند و هرگاه کسی به تماس بپیوندد یا آن را ترک کند، تغییر خواهند کرد."
+      "value": "این اموجی‌ها نمایانگر کلید رمزنگاری هستند. آن‌ها باید برای تمامی شرکت کنندگان یکسان باشند و هرگاه کسی به تماس بپیوندد یا آن را ترک کند، تغییر خواهند کرد."
     },
     {
       "_": "types.LangPackString",
       "key": "ConferenceEncryptedSyncing",
-      "value": "رمزگذاری شده به صورت سرتاسر"
+      "value": "رمزنگاری شده به صورت سرتاسر"
     },
     {
       "_": "types.LangPackString",
@@ -15213,7 +15248,7 @@
     {
       "_": "types.LangPackString",
       "key": "ContactsPermissionAlert",
-      "value": "**تلگرام** باید به مخاطبین شما دسترسی داشته باشد تا بتوانید در تمامی دستگاه‌هایتان با دوستانتان ارتباط برقرار کنید. مخاطبین شما به طور مداوم با سرورهای ابری و رمزگذاری شده تلگرام همگام‌سازی خواهند شد."
+      "value": "**تلگرام** باید به مخاطبین شما دسترسی داشته باشد تا بتوانید در تمامی دستگاه‌هایتان با دوستانتان ارتباط برقرار کنید. مخاطبین شما به طور مداوم با سرورهای ابری و رمزنگاری شده تلگرام همگام‌سازی خواهند شد."
     },
     {
       "_": "types.LangPackString",
@@ -18380,7 +18415,7 @@
     {
       "_": "types.LangPackString",
       "key": "EncryptedDescription1",
-      "value": "از رمزگذاری سرتاسر استفاده می‌کنند"
+      "value": "از رمزنگاری سرتاسر استفاده می‌کنند"
     },
     {
       "_": "types.LangPackString",
@@ -18415,12 +18450,12 @@
     {
       "_": "types.LangPackString",
       "key": "EncryptionKey",
-      "value": "کلید رمزگذاری"
+      "value": "کلید رمزنگاری"
     },
     {
       "_": "types.LangPackString",
       "key": "EncryptionKeyDescription",
-      "value": "این تصویر و متن از کلید رمزگذاری این گفتگوی محرمانه با **⁨%1$s⁩** گرفته شده است.\n\n اگر تصویر و متن در دستگاه **⁨%2$s⁩** با این تصویر و متن یکسان باشد، رمزگذاری سرتاسر تضمین شده است. \n\n برای اطلاعات بیشتر به telegram.org مراجعه کنید"
+      "value": "این تصویر و متن از کلید رمزنگاری این گفتگوی محرمانه با **⁨%1$s⁩** گرفته شده است.\n\n اگر تصویر و متن در دستگاه **⁨%2$s⁩** با این تصویر و متن یکسان باشد، رمزنگاری سرتاسر تضمین شده است. \n\n برای اطلاعات بیشتر به telegram.org مراجعه کنید"
     },
     {
       "_": "types.LangPackString",
@@ -18430,7 +18465,7 @@
     {
       "_": "types.LangPackString",
       "key": "EncryptionProcessing",
-      "value": "در حال تبادل کلید‌های رمزگذاری..."
+      "value": "در حال تبادل کلید‌های رمزنگاری..."
     },
     {
       "_": "types.LangPackString",
@@ -18545,12 +18580,17 @@
     {
       "_": "types.LangPackString",
       "key": "EphemeralMessageVisibleToOther",
-      "value": "فقط برای @⁨%s⁩ قابل مشاهده است"
+      "value": "قابل مشاهده فقط برای @⁨%s⁩"
     },
     {
       "_": "types.LangPackString",
       "key": "EphemeralMessageVisibleToYou",
-      "value": "فقط برای شما قابل مشاهده است"
+      "value": "قابل مشاهده فقط برای شما"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EphemeralWelcomeMessageMenuHint",
+      "value": "این نسخه از پیام فقط برای شما قابل مشاهده است."
     },
     {
       "_": "types.LangPackString",
@@ -24421,6 +24461,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "GiftMessageAddDescription",
+      "value": "شما می‌توانید فوراً برای **⁨%1$s⁩** پیامی اضافه کنید یا **⁨%2$s⁩** را ارسال کنید."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "GiftMessageAddHint",
       "value": "افزودن پیام..."
     },
@@ -24443,6 +24488,11 @@
       "_": "types.LangPackString",
       "key": "GiftMessagePreviewInChat",
       "value": "پیش‌نمایش در گفتگو"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftMessageSendNow",
+      "value": "ارسال همین الان"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -25110,6 +25160,11 @@
       "_": "types.LangPackString",
       "key": "GiftTopAction",
       "value": "**⁨%1$s⁩**، این هدیه را در **⁨%2$s⁩** برای شما ارسال کرد"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftTopActionFromTo",
+      "value": "**⁨%1$s⁩** این هدیه را در تاریخ **⁨%2$s⁩** برای **⁨%3$s⁩** ارسال کرد"
     },
     {
       "_": "types.LangPackString",
@@ -25989,7 +26044,7 @@
     {
       "_": "types.LangPackString",
       "key": "GroupStickersInfo",
-      "value": " شما می‌توانید بسته‌ استیکری را انتخاب کنید که هنگام گفتگو در این گروه در دسترس تمامی اعضای گروه باشد."
+      "value": "می‌توانید بسته‌ استیکری را انتخاب کنید که هنگام گفتگو در این گروه، در دسترس تمامی اعضای گروه باشد."
     },
     {
       "_": "types.LangPackString",
@@ -26470,7 +26525,7 @@
     {
       "_": "types.LangPackString",
       "key": "IUnderstand",
-      "value": "متوجه‌ام"
+      "value": "متوجه هستم"
     },
     {
       "_": "types.LangPackString",
@@ -29237,7 +29292,7 @@
     {
       "_": "types.LangPackString",
       "key": "MakeYourFirstCallHint",
-      "value": "شما می‌توانید تماس‌های رمزگذاری شده به صورت سرتاسر را\nبا حداکثر ⁨%d⁩ نفر از دوستانتان به صورت همزمان برقرار کنید"
+      "value": "شما می‌توانید تماس‌های رمزنگاری شده به صورت سرتاسر را\nبا حداکثر ⁨%d⁩ نفر از دوستانتان به صورت همزمان برقرار کنید"
     },
     {
       "_": "types.LangPackString",
@@ -33503,7 +33558,7 @@
     {
       "_": "types.LangPackString",
       "key": "OpenAIStyle",
-      "value": "مشاهده سبک"
+      "value": "مشاهده لحن"
     },
     {
       "_": "types.LangPackString",
@@ -34667,12 +34722,12 @@
     {
       "_": "types.LangPackString",
       "key": "PassportInfo",
-      "value": "با پاسپورت تلگرام، شما می‌توانید به راحتی در وبسایت‌ها و سرویس‌هایی که به تأیید هویت شما نیاز دارند، ثبت نام کنید.\n\nاطلاعات، داده‌های شخصی، و سندهای شما با رمزگذاری سرتاسر محافظت می‌شوند. هیچ‌کس، حتی تلگرام، نمی‌تواند بدون اجازه شما به آن‌ها دسترسی پیدا کند.\n\nبرای اطلاعات بیشتر به صفحه پرسش‌های متداول ما مراجعه کنید."
+      "value": "با پاسپورت تلگرام، شما می‌توانید به راحتی در وبسایت‌ها و سرویس‌هایی که به تأیید هویت شما نیاز دارند، ثبت نام کنید.\n\nاطلاعات، داده‌های شخصی، و سندهای شما با رمزنگاری سرتاسر محافظت می‌شوند. هیچ‌کس، حتی تلگرام، نمی‌تواند بدون اجازه شما به آن‌ها دسترسی پیدا کند.\n\nبرای اطلاعات بیشتر به صفحه پرسش‌های متداول ما مراجعه کنید."
     },
     {
       "_": "types.LangPackString",
       "key": "PassportInfo2",
-      "value": "با پاسپورت تلگرام، شما می‌توانید به راحتی در وبسایت‌ها و سرویس‌هایی که به تأیید هویت شما نیاز دارند، ثبت نام کنید.\n\nاطلاعات، داده‌های شخصی، و سندهای شما با رمزگذاری سرتاسر محافظت می‌شوند. هیچ‌کس، حتی تلگرام، نمی‌تواند بدون اجازه شما به آن‌ها دسترسی پیدا کند.\n\nبرای اطلاعات بیشتر به صفحه **پرسش‌های متداول** ما مراجعه کنید."
+      "value": "با پاسپورت تلگرام، شما می‌توانید به راحتی در وبسایت‌ها و سرویس‌هایی که به تأیید هویت شما نیاز دارند، ثبت نام کنید.\n\nاطلاعات، داده‌های شخصی، و سندهای شما با رمزنگاری سرتاسر محافظت می‌شوند. هیچ‌کس، حتی تلگرام، نمی‌تواند بدون اجازه شما به آن‌ها دسترسی پیدا کند.\n\nبرای اطلاعات بیشتر به صفحه **پرسش‌های متداول** ما مراجعه کنید."
     },
     {
       "_": "types.LangPackString",
@@ -35502,6 +35557,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PaymentInvoiceDisabledStarsText",
+      "value": "ستاره‌های کافی ندارید"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PaymentInvoiceLinkInvalid",
       "value": "صورت‌حساب نامعتبر"
     },
@@ -35927,7 +35987,7 @@
     {
       "_": "types.LangPackString",
       "key": "PermissionContacts",
-      "value": "برای اینکه شما بتوانید در تمامی دستگاه‌های خود با دوستانتان ارتباط برقرار کنید، مخاطبین شما به طور مداوم با سرورهای ابری و رمزگذاری شده تلگرام همگام‌سازی خواهند شد."
+      "value": "برای اینکه شما بتوانید در تمامی دستگاه‌های خود با دوستانتان ارتباط برقرار کنید، مخاطبین شما به طور مداوم با سرورهای ابری و رمزنگاری شده تلگرام همگام‌سازی خواهند شد."
     },
     {
       "_": "types.LangPackString",
@@ -36002,12 +36062,12 @@
     {
       "_": "types.LangPackString",
       "key": "PermissionNoContactsSaving",
-      "value": "**تلگرام** باید به مخاطبین شما دسترسی داشته باشد تا بتوانید آن‌ها را در تلفن همراه خود ذخیره کنید. بر روی تنظیمات > مجوزها بزنید و **مخاطبین** را بر روی حالت فعال قرار دهید."
+      "value": "**تلگرام** باید به مخاطبین شما دسترسی داشته باشد تا بتوانید آن‌ها را در تلفن همراه خود ذخیره کنید. به قسمت تنظیمات > مجوزها مراجعه کرده و گزینه **مخاطبین** را فعال کنید."
     },
     {
       "_": "types.LangPackString",
       "key": "PermissionNoContactsSharing",
-      "value": "**تلگرام** باید به مخاطبین شما دسترسی داشته باشد تا بتوانید آن‌ها را با دوستانتان به اشتراک بگذارید. به قسمت تنظیمات > مجوزها مراجعه کنید و **مخاطبین** را بر روی حالت فعال قرار دهید."
+      "value": "**تلگرام** باید به مخاطبین شما دسترسی داشته باشد تا بتوانید آن‌ها را با دوستانتان به اشتراک بگذارید. به قسمت تنظیمات > مجوزها مراجعه کرده و گزینه **مخاطبین** را فعال کنید."
     },
     {
       "_": "types.LangPackString",
@@ -36192,7 +36252,7 @@
     {
       "_": "types.LangPackString",
       "key": "PhotoEditorTypefaceCondensed",
-      "value": "متراکم"
+      "value": "Condensed"
     },
     {
       "_": "types.LangPackString",
@@ -36202,7 +36262,7 @@
     {
       "_": "types.LangPackString",
       "key": "PhotoEditorTypefaceItalic",
-      "value": "کج"
+      "value": "Italic"
     },
     {
       "_": "types.LangPackString",
@@ -36212,7 +36272,7 @@
     {
       "_": "types.LangPackString",
       "key": "PhotoEditorTypefaceMono",
-      "value": "Serif تک‌فاصله"
+      "value": "Mono-serif"
     },
     {
       "_": "types.LangPackString",
@@ -37397,7 +37457,7 @@
     {
       "_": "types.LangPackString",
       "key": "PremiumPreviewAIEditorDescription",
-      "value": "پیام‌ها و کل گفتگوهای خود را به سبک و زبان دلخواه خود تبدیل کنید."
+      "value": "پیام‌ها و کل گفتگوهای خود را به لحن و زبان دلخواه خود تبدیل کنید."
     },
     {
       "_": "types.LangPackString",
@@ -37702,7 +37762,7 @@
     {
       "_": "types.LangPackString",
       "key": "PremiumPreviewTodoDescription",
-      "value": "کارها را به صورت همگام و کارآمد، برنامه‌ریزی کرده، اختصاص داده و کامل کنید."
+      "value": "کارها را به صورت یکپارچه و کارآمد برنامه‌ریزی کرده،\nاختصاص داده و کامل کنید."
     },
     {
       "_": "types.LangPackString",
@@ -37918,7 +37978,7 @@
     {
       "_": "types.LangPackString",
       "key": "PremiumTierSemiannual",
-      "value": "شش ماه یکبار"
+      "value": "شش ماه یک‌بار"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -39176,7 +39236,7 @@
     {
       "_": "types.LangPackString",
       "key": "ProfileNotesInfo",
-      "value": "فقط برای شما قابل مشاهده است"
+      "value": "قابل مشاهده فقط برای شما"
     },
     {
       "_": "types.LangPackString",
@@ -41783,12 +41843,12 @@
     {
       "_": "types.LangPackString",
       "key": "RevenueSharingAdsInfo1Subtitle",
-      "value": "تبلیغات تلگرام از اطلاعات شخصی شما استفاده نمی‌کنند و بر اساس کانال‌هایی هستند که در آن‌ها تبلیغات را مشاهده می‌کنید."
+      "value": "ما از محتوای گفتگوهای خصوصی یا لیست مخاطبین شما برای تبلیغات یا سایر اهداف تجاری استفاده نمی‌کنیم."
     },
     {
       "_": "types.LangPackString",
       "key": "RevenueSharingAdsInfo1SubtitleBot",
-      "value": "تبلیغات تلگرام از اطلاعات شخصی شما استفاده نمی‌کنند و بر اساس ربات‌هایی هستند که در آن‌ها تبلیغات را مشاهده می‌کنید."
+      "value": "ما از محتوای گفتگوهای خصوصی یا لیست مخاطبین شما برای تبلیغات یا سایر اهداف تجاری استفاده نمی‌کنیم."
     },
     {
       "_": "types.LangPackString",
@@ -41838,7 +41898,7 @@
     {
       "_": "types.LangPackString",
       "key": "RevenueSharingAdsInfo4Subtitle2",
-      "value": "هر کسی می‌تواند با کمترین هزینه، تبلیغی را برای نمایش در این کانال ایجاد کند. برای جزئیات بیشتر، پلتفرم تبلیغات تلگرام را بررسی کنید. ⁨%1$s⁩"
+      "value": "هر کسی می‌تواند با کمترین هزینه در تلگرام تبلیغات پست کند. برای جزئیات بیشتر، **پلتفرم تبلیغات تلگرام** را بررسی کنید. ⁨%1$s⁩"
     },
     {
       "_": "types.LangPackString",
@@ -41943,13 +42003,58 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "RichEditorButtonCopyText",
+      "value": "متن برای کپی"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichEditorButtonText",
+      "value": "متن دکمه"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichEditorButtonURL",
+      "value": "URL دکمه"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "RichEditorChangeUser",
       "value": "تغییر کاربر"
     },
     {
       "_": "types.LangPackString",
+      "key": "RichEditorCreateCopyButton",
+      "value": "ایجاد دکمه کپی"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichEditorCreateLinkButton",
+      "value": "ایجاد دکمه لینک"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichEditorCreateProfileButton",
+      "value": "ایجاد دکمه پروفایل"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "RichEditorDraftSaved",
       "value": "پیش‌نویس ذخیره شد."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichEditorEditCopyButton",
+      "value": "ویرایش دکمه کپی"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichEditorEditLinkButton",
+      "value": "ویرایش دکمه لینک"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichEditorEditProfileButton",
+      "value": "ویرایش دکمه پروفایل"
     },
     {
       "_": "types.LangPackString",
@@ -42036,7 +42141,7 @@
     {
       "_": "types.LangPackString",
       "key": "SMSFeeTitle",
-      "value": "هزینه پیامک"
+      "value": "هزینه پیامک (یک‌بار)"
     },
     {
       "_": "types.LangPackString",
@@ -44218,7 +44323,7 @@
     {
       "_": "types.LangPackString",
       "key": "SetUrlAvailable",
-      "value": "⁨%1$s⁩ در درسترس است"
+      "value": "⁨%1$s⁩ در دسترس است"
     },
     {
       "_": "types.LangPackString",
@@ -46436,8 +46541,8 @@
     {
       "_": "types.LangPackStringPluralized",
       "key": "StarsGiftCompletedChannelText",
-      "one_value": "شما یک هدیه به ارزش **⁨%1$d⁩** برای **⁨%2$s⁩** ارسال کردید.",
-      "other_value": "شما یک هدیه به ارزش **⁨%1$d⁩** برای **⁨%2$s⁩** ارسال کردید."
+      "one_value": "شما یک هدیه به ارزش **⁨%1$d⁩** ستاره برای **⁨%2$s⁩** ارسال کردید.",
+      "other_value": "شما یک هدیه به ارزش **⁨%1$d⁩** ستاره برای **⁨%2$s⁩** ارسال کردید."
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -46669,6 +46774,11 @@
       "key": "StarsPurchaseCompletedInfo",
       "one_value": "",
       "other_value": "شما «**⁨%2$s⁩**» را در **⁨%3$s⁩** با پرداخت **⁨%1$d⁩ ستاره** خریداری نمودید."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsPurchaseUnavailable",
+      "value": "در حال حاضر خریداری ستاره امکان‌پذیر نیست."
     },
     {
       "_": "types.LangPackString",
@@ -50412,7 +50522,7 @@
     {
       "_": "types.LangPackString",
       "key": "TelegramPassportCreatePasswordInfo",
-      "value": "لطفاً جهت محافظت از داده‌های شخصی خود با رمزگذاری سرتاسر گذرواژه‌ای ایجاد کنید.\n\nاین گذرواژه همچنین هنگامی که شما از یک دستگاه جدید وارد حساب کاربری تلگرام خود می‌شوید از شما خواسته می‌شود."
+      "value": "لطفاً جهت محافظت از داده‌های شخصی خود با رمزنگاری سرتاسر گذرواژه‌ای ایجاد کنید.\n\nاین گذرواژه همچنین هنگامی که شما از یک دستگاه جدید وارد حساب کاربری تلگرام خود می‌شوید از شما خواسته می‌شود."
     },
     {
       "_": "types.LangPackString",
@@ -50983,7 +51093,7 @@
     {
       "_": "types.LangPackString",
       "key": "TimerPeriodOnce",
-      "value": "یک بار مشاهده"
+      "value": "یک‌بار مشاهده"
     },
     {
       "_": "types.LangPackString",
@@ -50993,7 +51103,7 @@
     {
       "_": "types.LangPackString",
       "key": "TimerPeriodPhotoSetOnce",
-      "value": "عکس بر روی حالت یک بار مشاهده تنظیم شد"
+      "value": "عکس بر روی حالت یک‌بار مشاهده تنظیم شد"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -51009,7 +51119,7 @@
     {
       "_": "types.LangPackString",
       "key": "TimerPeriodVideoSetOnce",
-      "value": "ویدیو بر روی حالت یک بار مشاهده تنظیم شد."
+      "value": "ویدیو بر روی حالت یک‌بار مشاهده تنظیم شد."
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -52673,6 +52783,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "UnsupportedBlockMessage",
+      "value": "برای مشاهده این قسمت از پیام، تلگرام را به‌روزرسانی کنید"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "UnsupportedBlockTitle",
       "value": "بلوک پشتیبانی نشده"
     },
@@ -52690,6 +52805,11 @@
       "_": "types.LangPackString",
       "key": "UnsupportedMediaStandalone",
       "value": "از این پیام در نسخه فعلی تلگرام شما پشتیبانی نمی‌شود. برای مشاهده پیام، برنامه را به‌روزرسانی کنید: https://telegram.org/dl"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UnsupportedMessageMessage",
+      "value": "برای مشاهده این پیام، تلگرام را به‌روزرسانی کنید"
     },
     {
       "_": "types.LangPackString",
@@ -52970,7 +53090,7 @@
     {
       "_": "types.LangPackString",
       "key": "UseProxyTelegramInfo2",
-      "value": "این پروکسی ممکن است یک کانال اسپانسر را در لیست گفتگوهای شما نمایش دهد. این عمل ترافیک تلگرام شما را آشکار نمی‌کند."
+      "value": "این پروکسی ممکن است یک کانال حمایت شده را در لیست گفتگوهای شما نمایش دهد. این عمل هیچ یک ترافیک تلگرام شما را آشکار نمی‌کند."
     },
     {
       "_": "types.LangPackString",
@@ -53978,7 +54098,7 @@
     {
       "_": "types.LangPackString",
       "key": "VideoShownOnce",
-      "value": "این ویدیو فقط یک بار می‌تواد مشاهده شود."
+      "value": "این ویدیو فقط یک بار می‌تواند مشاهده شود."
     },
     {
       "_": "types.LangPackString",
@@ -54375,7 +54495,7 @@
     {
       "_": "types.LangPackString",
       "key": "VoipCallEncryptionEndToEnd",
-      "value": "این تماس به صورت سرتاسر رمزگذاری شده است"
+      "value": "این تماس به صورت سرتاسر رمزنگاری شده است"
     },
     {
       "_": "types.LangPackString",
@@ -54790,7 +54910,7 @@
     {
       "_": "types.LangPackString",
       "key": "VoipExchangingKeys",
-      "value": "در حال تبادل کلید‌های رمزگذاری"
+      "value": "در حال تبادل کلید‌های رمزنگاری"
     },
     {
       "_": "types.LangPackString",
@@ -55415,7 +55535,7 @@
     {
       "_": "types.LangPackString",
       "key": "VoipHintEncryptionKey",
-      "value": "کلید رمزگذاری این پیام"
+      "value": "کلید رمزنگاری این پیام"
     },
     {
       "_": "types.LangPackString",
@@ -56257,7 +56377,17 @@
     {
       "_": "types.LangPackString",
       "key": "WelcomeMessageEnter",
-      "value": "افزودن یک پیام"
+      "value": "پیامی اضافه کنید"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WelcomeMessageHint",
+      "value": "اعضای جدید هنگام پیوستن، این پیام‌ها را خواهند دید"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WelcomeMessageHint2",
+      "value": "برای حذف آن، روی آن بزنید"
     },
     {
       "_": "types.LangPackString",
@@ -56268,6 +56398,11 @@
       "_": "types.LangPackString",
       "key": "WelcomeMessageRevert",
       "value": "بازگردانی"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WelcomeMessageRevertInfo",
+      "value": "پیام را به محتوای اصلی آن\nبازمی‌گرداند"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -56946,5 +57081,5 @@
       "value": "پاسپورت تلگرام"
     }
   ],
-  "version": 60727478
+  "version": 60813638
 }
