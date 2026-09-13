@@ -970,6 +970,18 @@
       "other_value": "Joku lähetti sinulle koodin %1$s kuukauden Telegram Premium -tilaukseen"
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "key": "AnonymousGiftedPremiumCodeDays",
+      "one_value": "Joku lähetti sinulle koodin %1$s päivän Telegram Premium -tilaukseen",
+      "other_value": "Joku lähetti sinulle koodin %1$s päivän Telegram Premium -tilaukseen"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "AnonymousGiftedPremiumDays",
+      "one_value": "Joku lähetti sinulle lahjaksi %1$s päivän Telegram Premium -tilauksen (%2$s)",
+      "other_value": "Joku lähetti sinulle lahjaksi %1$s päivän Telegram Premium -tilauksen (%2$s)"
+    },
+    {
       "_": "types.LangPackString",
       "key": "AnonymousNumbers",
       "value": "🏴‍☠️ Anonyymit numerot"
@@ -3024,6 +3036,16 @@
       "_": "types.LangPackString",
       "key": "ChatContentGroupJoin",
       "value": "Liittyi ryhmään kutsulinkillä"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatContentGroupJoinCommunity",
+      "value": "Liittyi ryhmään yhteisön kautta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatContentGroupJoinCommunity_outgoing",
+      "value": "Liittyi ryhmään yhteisön kautta"
     },
     {
       "_": "types.LangPackString",
@@ -5114,8 +5136,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "DeleteCallHistory",
+      "value": "Poista puheluhistoria"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "DeleteCallHistoryConfirm",
       "value": "**Varoitus!**\n\nHaluatko varmasti poistaa **koko** puheluhistorian? Tämä poistaa myös kaikki puheluviestit keskusteluista.\n\nTätä ei voi perua."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "DeleteCallHistoryForEveryone",
+      "value": "Poista kaikilta"
     },
     {
       "_": "types.LangPackString",
@@ -7223,6 +7255,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "EventLogPromotedManageWelcomeMessages",
+      "value": "Hallinnoida tervetuloviestejä"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "EventLogPromotedNew",
       "value": "ylensi käyttäjän %1$s"
     },
@@ -8199,6 +8236,18 @@
       "key": "GiftedPremiumCode",
       "one_value": "%2$s lähetti sinulle Telegram Premium -lahjakoodin (%1$s kk)",
       "other_value": "%2$s lähetti sinulle Telegram Premium -lahjakoodin (%1$s kk)"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "GiftedPremiumCodeDays",
+      "one_value": "%2$s lähetti sinulle koodin %1$s päivän Telegram Premium -tilaukseen",
+      "other_value": "%2$s lähetti sinulle koodin %1$s päivän Telegram Premium -tilaukseen"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "GiftedPremiumDays",
+      "one_value": "%2$s lähetti sinulle lahjaksi %1$s päivän Telegram Premium -tilauksen (%3$s)",
+      "other_value": "%2$s lähetti sinulle lahjaksi %1$s päivän Telegram Premium -tilauksen (%3$s)"
     },
     {
       "_": "types.LangPackString",
@@ -16250,6 +16299,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "RightWelcomeMessages",
+      "value": "Hallinnoida suoraviestejä"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Ringtone",
       "value": "Soittoääni"
     },
@@ -21253,14 +21307,32 @@
     {
       "_": "types.LangPackStringPluralized",
       "key": "YouGiftedPremium",
-      "one_value": "Lahjoitit Telegram Premium -tilauksen %1$s kuukaudeksi (arvo %2$s)",
-      "other_value": "Lahjoitit Telegram Premium -tilauksen %1$s kuukaudeksi (arvo %2$s)"
+      "one_value": "Lahjoitit Telegram Premium -tilauksen %1$s kuukaudeksi (%2$s)",
+      "other_value": "Lahjoitit Telegram Premium -tilauksen %1$s kuukaudeksi (%2$s)"
     },
     {
       "_": "types.LangPackStringPluralized",
       "key": "YouGiftedPremiumCode",
       "one_value": "Lähetit Telegram Premium -lahjakoodin (%1$s kk)",
       "other_value": "Lähetit Telegram Premium -lahjakoodin (%1$s kk)"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "YouGiftedPremiumCodeDays",
+      "one_value": "Lähetit Telegram Premium -lahjakoodin (%1$s pv)",
+      "other_value": "Lähetit Telegram Premium -lahjakoodin (%1$s pv)"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "YouGiftedPremiumDays",
+      "one_value": "Lahjoitit Telegram Premium -tilauksen %1$s päiväksi (%2$s)",
+      "other_value": "Lahjoitit Telegram Premium -tilauksen %1$s päiväksi (%2$s)"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "YouGiftedPremiumDaysTo",
+      "one_value": "Lähetit käyttäjälle %3$s lahjaksi %1$s päivän Telegram Premium -tilauksen (%2$s)",
+      "other_value": "Lähetit käyttäjälle %3$s lahjaksi %1$s päivän Telegram Premium -tilauksen (%2$s)"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -21828,6 +21900,11 @@
       "_": "types.LangPackString",
       "key": "error_PREMIUM_ACCOUNT_REQUIRED",
       "value": "Tämä toiminnallisuus vaatii Telegram Premium -tilauksen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "error_PremiumActive",
+      "value": "Sinulla on jo voimassa oleva Telegram Premium -tilaus, joka erääntyy %1$s."
     },
     {
       "_": "types.LangPackString",
@@ -22484,6 +22561,26 @@
       "_": "types.LangPackString",
       "key": "group_user_join_by_link_with_approval",
       "value": "%1$s liittyi ryhmään kutsulinkillä käyttäjän %2$s päästämänä"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "group_user_join_from_community",
+      "value": "%1$s liittyi ryhmään yhteisön kautta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "group_user_join_from_community_name",
+      "value": "%1$s liittyi ryhmään yhteisön \"%2$s\" kaurra"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "group_user_join_from_community_name_self",
+      "value": "Liityit ryhmän yhteisön \"%2$s\" kautta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "group_user_join_from_community_self",
+      "value": "Liityit ryhmään yhteisön kautta"
     },
     {
       "_": "types.LangPackString",
@@ -23946,6 +24043,12 @@
     },
     {
       "_": "types.LangPackStringPluralized",
+      "key": "xGiveawayPrizeReceivedInfoDays",
+      "one_value": "Voitit **Telegram Premium** -tilauksen **%1$s** päiväksi.",
+      "other_value": "Voitit **Telegram Premium** -tilauksen **%1$s** päiväksi."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
       "key": "xGiveawayPrizeStar",
       "one_value": "%1$s **Telegram-tähti**.",
       "other_value": "%1$s **Telegram-tähteä**."
@@ -23955,6 +24058,12 @@
       "key": "xGiveawayUnclaimedPrizeReceivedInfo",
       "one_value": "Voitit **Telegram Premium** -tilauksen **%1$s** kuukaudeksi.",
       "other_value": "Voitit **Telegram Premium** -tilauksen **%1$s** kuukaudeksi."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "xGiveawayUnclaimedPrizeReceivedInfoDays",
+      "one_value": "Voitit **Telegram Premium** -tilauksen **%1$s** päiväksi.",
+      "other_value": "Voitit **Telegram Premium** -tilauksen **%1$s** päiväksi."
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -24104,6 +24213,11 @@
       "_": "types.LangPackString",
       "key": "xOfYChatsSelected",
       "value": "%1$d/%2$d keskustelua valittu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "xOfYChatsSelected2",
+      "value": "%1$s/%2$s keskustelua valittu"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -24346,6 +24460,12 @@
     },
     {
       "_": "types.LangPackStringPluralized",
+      "key": "xTelegramPremiumForDays",
+      "one_value": "Telegram Premium %1$s päiväksi",
+      "other_value": "Telegram Premium %1$s päiväksi"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
       "key": "xTelegramPremiumForMonth",
       "one_value": "Telegram Premium %1$s kuukaudeksi",
       "other_value": "Telegram Premium %1$s kuukaudeksi"
@@ -24429,5 +24549,5 @@
       "other_value": "%1$s vuotta"
     }
   ],
-  "version": 1652402
+  "version": 1655027
 }

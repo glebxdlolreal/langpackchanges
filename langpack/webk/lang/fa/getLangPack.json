@@ -1610,8 +1610,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AiEditor.Chat.ViewStyle",
+      "value": "مشاهده لحن"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AiEditor.ComposeError",
       "value": "مشکلی در حین نوشتن پیام پیش آمد."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AiEditor.DeleteStyle.Description",
+      "value": "آیا از حذف این لحن اطمینان دارید؟ این لحن برای تمامی کسانی که آن را ذخیره کرده‌اند، حذف خواهد شد."
     },
     {
       "_": "types.LangPackString",
@@ -1632,6 +1642,11 @@
       "_": "types.LangPackString",
       "key": "AiEditor.ViewStyle.Before",
       "value": "قبل"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AiEditor.ViewStyle.Description",
+      "value": "این لحن را اضافه کنید تا پیام‌هایتان فوراً بازنویسی شوند."
     },
     {
       "_": "types.LangPackString",
@@ -2980,7 +2995,7 @@
     {
       "_": "types.LangPackString",
       "key": "BoostingReceivedPrizeDuration",
-      "value": "جایزه شما یک اشتراک **تلگرام پرمیوم** به مدت ⁨%s⁩ است."
+      "value": "جایزه شما، اشتراک **تلگرام پرمیوم** به مدت ⁨%s⁩ است."
     },
     {
       "_": "types.LangPackString",
@@ -3717,6 +3732,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Call.Confirm.Discard.Live.ToConference.Text",
+      "value": "پخش زنده در «⁨%1$@⁩» را ترک کرده و به یک تماس ویدیویی می‌پیوندید؟"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Call.Confirm.Discard.Live.ToLive.Text",
       "value": "پخش زنده در «⁨%1$@⁩» را ترک کرده و پخش زنده جدیدی را در «⁨%2$@⁩» شروع می‌کنید؟"
     },
@@ -3734,6 +3754,11 @@
       "_": "types.LangPackString",
       "key": "Call.Confirm.Discard.Voice.ToCall.Text",
       "value": "گفتگوی ویدیویی در «⁨%1$@⁩» را ترک کرده و با «⁨%2$@⁩» تماس می‌گیرید؟"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Call.Confirm.Discard.Voice.ToConference.Text",
+      "value": "گفتگوی صوتی در «⁨%1$@⁩» را ترک کرده و به یک تماس ویدیویی می‌پیوندید؟"
     },
     {
       "_": "types.LangPackString",
@@ -3759,6 +3784,11 @@
       "_": "types.LangPackString",
       "key": "Call.Mute",
       "value": "بی‌صدا کردن"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Call.Open",
+      "value": "باز کردن تماس"
     },
     {
       "_": "types.LangPackString",
@@ -3799,6 +3829,11 @@
       "_": "types.LangPackString",
       "key": "Call.StatusFailed",
       "value": "تماس انجام نشد"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Call.StatusGroupInvite",
+      "value": "تماس گروهی تلگرامی"
     },
     {
       "_": "types.LangPackString",
@@ -4771,6 +4806,21 @@
       "_": "types.LangPackString",
       "key": "Chat.Service.Channel.UpdatedVideo",
       "value": "عکس کانال به‌روز شد"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Service.ConferenceCall.Declined",
+      "value": "تماس گروهی رد شده"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Service.ConferenceCall.Invitation",
+      "value": "دعوت به تماس گروهی"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Service.ConferenceCall.Ongoing",
+      "value": "تماس گروهی در حال انجام"
     },
     {
       "_": "types.LangPackString",
@@ -5782,8 +5832,143 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ConferenceCall.Controls.RaiseHand",
+      "value": "بالا بردن دست"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ConferenceCall.Controls.ShowParticipants",
       "value": "نمایش شرکت کنندگان"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ConferenceCall.Controls.Toolbar",
+      "value": "کنترل‌های تماس"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ConferenceCall.Create.Button",
+      "value": "شروع"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ConferenceCall.Create.Text",
+      "value": "شما به صورت بی‌صدا می‌پیوندید. پس از شروع کنفرانس، می‌توانید افراد را دعوت کنید."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ConferenceCall.Create.Title",
+      "value": "یک تماس گروهی رمزنگاری شده را شروع می‌کنید؟"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ConferenceCall.Fingerprint.Pending",
+      "value": "در حال تأیید رمزنگاری…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ConferenceCall.Fingerprint.Verified",
+      "value": "این اموجی‌ها را با سایر شرکت کنندگان مقایسه کنید"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ConferenceCall.Invite.Already",
+      "value": "**⁨%1$@⁩** در حال حاضر در تماس حضور دارد."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "ConferenceCall.Invite.AlreadyMany",
+      "one_value": "**⁨%d⁩ نفر** در حال حاضر در تماس حضور دارد.",
+      "other_value": "**⁨%d⁩ نفر** در حال حاضر در تماس حضور دارند."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ConferenceCall.Invite.Button",
+      "value": "تماس"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ConferenceCall.Invite.Done",
+      "value": "شما در حال تماس با **⁨%1$@⁩** برای پیوستن هستید."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "ConferenceCall.Invite.DoneMany",
+      "one_value": "شما در حال تماس با **⁨%d⁩ نفر** برای پیوستن هستید.",
+      "other_value": "شما در حال تماس با **⁨%d⁩ نفر** برای پیوستن هستید."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ConferenceCall.Invite.Fail",
+      "value": "امکان تماس با **⁨%1$@⁩** برای پیوستن نبود."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "ConferenceCall.Invite.FailMany",
+      "one_value": "امکان تماس با **⁨%d⁩ نفر** برای پیوستن نبود.",
+      "other_value": "امکان تماس با **⁨%d⁩ نفر** برای پیوستن نبود."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ConferenceCall.Invite.Kicked",
+      "value": "**⁨%1$@⁩** از تماس محروم شد."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "ConferenceCall.Invite.KickedMany",
+      "one_value": "**⁨%d⁩ نفر** از تماس حذف شد.",
+      "other_value": "**⁨%d⁩ نفر** از تماس حذف شدند."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ConferenceCall.Invite.Title",
+      "value": "افزودن افراد"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ConferenceCall.Invite.ViaLink",
+      "value": "دعوت از طریق لینک"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "ConferenceCall.Join.AlreadyMany",
+      "one_value": "**⁨%2$@⁩**، **⁨%3$@⁩** و **⁨%1$d⁩** نفر دیگر در حال حاضر به این تماس پیوسته‌اند.",
+      "other_value": "**⁨%2$@⁩**، **⁨%3$@⁩** و **⁨%1$d⁩** نفر دیگر در حال حاضر به این تماس پیوسته‌اند."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ConferenceCall.Join.AlreadyOne",
+      "value": "**⁨%1$@⁩** در حال حاضر به این تماس پیوسته است."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ConferenceCall.Join.AlreadyThree",
+      "value": "**⁨%1$@⁩**، **⁨%2$@⁩** و **⁨%3$@⁩** در حال حاضر به این تماس پیوسته‌اند."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ConferenceCall.Join.AlreadyTwo",
+      "value": "**⁨%1$@⁩** و **⁨%2$@⁩** در حال حاضر به این تماس پیوسته‌اند."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ConferenceCall.Join.Button",
+      "value": "پیوستن به تماس گروهی"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ConferenceCall.Join.Text",
+      "value": "شما به یک تماس تلگرامی دعوت شده‌اید."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ConferenceCall.Join.TextInviter",
+      "value": "**⁨%1$@⁩** شما را به یک تماس تلگرامی دعوت کرده است."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ConferenceCall.Join.Title",
+      "value": "تماس گروهی"
     },
     {
       "_": "types.LangPackString",
@@ -5799,6 +5984,26 @@
       "_": "types.LangPackString",
       "key": "ConferenceCall.Media.ScreenError",
       "value": "تغییر اشتراک گذاری صفحه ناموفق بود. دوباره تلاش کنید."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ConferenceCall.Migrating",
+      "value": "در حال تغییر به تماس گروهی رمزنگاری شده…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ConferenceCall.New",
+      "value": "تماس گروهی جدید"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ConferenceCall.Title",
+      "value": "تماس رمزنگاری شده"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ConferenceCall.Unsupported",
+      "value": "از تماس‌های گروهی رمزنگاری شده در این مرورگر پشتیبانی نمی‌شود. این تماس را در یکی از برنامه‌های پشتیبانی شده تلگرام باز کنید."
     },
     {
       "_": "types.LangPackString",
@@ -5868,7 +6073,7 @@
     {
       "_": "types.LangPackString",
       "key": "ContactNoteRowDesc",
-      "value": "فقط برای شما قابل مشاهده است"
+      "value": "قابل مشاهده فقط برای شما"
     },
     {
       "_": "types.LangPackString",
@@ -7150,6 +7355,31 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Ephemeral.CantSchedule",
+      "value": "پیام‌های موقت قابل زمان‌بندی نیستند."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Ephemeral.CommandTooltip",
+      "value": "سایر اعضا این پیام را نخواهند دید"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Ephemeral.ReplySingleMessage",
+      "value": "فقط می‌توانید یک پیام در پاسخ به این پیام ارسال کنید."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Ephemeral.VisibleTo",
+      "value": "قابل مشاهده فقط برای ⁨%s⁩"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Ephemeral.VisibleYou",
+      "value": "قابل مشاهده فقط برای شما"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Error.AnError",
       "value": "خطایی رخ داد. لطفاً بعداً تلاش کنید."
     },
@@ -7907,6 +8137,11 @@
       "_": "types.LangPackString",
       "key": "GiftPremiumUseGiftBtn",
       "value": "استفاده از هدیه"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftRecipientDoesNotAccept",
+      "value": "این کاربر هدیه‌ها را نمی‌پذیرد."
     },
     {
       "_": "types.LangPackString",
@@ -9762,7 +9997,7 @@
     {
       "_": "types.LangPackString",
       "key": "LogOut.Description",
-      "value": "آیا از خروج از حساب کاربری اطمینان دارید؟\n\nتوجه داشته باشید که می‌توانید از تلگرام در تمامی دستگاه‌های خود به صورت همگام و همزمان استفاده کنید."
+      "value": "آیا از خروج از حساب کاربری اطمینان دارید؟\n\nتوجه داشته باشید که می‌توانید از تلگرام در تمامی دستگاه‌های خود به صورت یکپارچه و همزمان استفاده کنید."
     },
     {
       "_": "types.LangPackString",
@@ -10108,7 +10343,7 @@
     {
       "_": "types.LangPackString",
       "key": "MediaEditor.AspectRatio",
-      "value": "نسبت تصویر "
+      "value": "نسبت ابعاد"
     },
     {
       "_": "types.LangPackString",
@@ -10762,6 +10997,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "NewPoll.ChooseCountry",
+      "value": "لطفاً حداقل یک کشور را انتخاب کنید."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "NewPoll.Explanation.Placeholder",
       "value": "افزودن توضیحات (اختیاری)"
     },
@@ -10774,6 +11014,11 @@
       "_": "types.LangPackString",
       "key": "NewPoll.LimitByCountry",
       "value": "محدود کردن بر اساس کشور"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NewPoll.LimitByCountrySubtitle",
+      "value": "فقط کاربران کشورهای انتخاب شده می‌توانند رأی دهند."
     },
     {
       "_": "types.LangPackString",
@@ -10804,6 +11049,21 @@
       "_": "types.LangPackString",
       "key": "NewPoll.RestrictToSubscribers",
       "value": "محدود کردن به مشترکین"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NewPoll.RestrictToSubscribersSubtitle",
+      "value": "فقط مشترکینی که بیش از 24 ساعت از عضویتشان گذشته باشد، می‌توانند رأی دهند."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NewPoll.ShowWhoVotedSubtitle",
+      "value": "نمایش رأی دهندگان هر گزینه"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NewPoll.ShuffleOptionsSubtitle",
+      "value": "پاسخ‌ها برای هر رأی‌دهنده به صورت تصادفی نمایش داده می‌شوند"
     },
     {
       "_": "types.LangPackString",
@@ -11884,6 +12144,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PaymentInvoiceDisabledStarsText",
+      "value": "ستاره‌های کافی ندارید"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PaymentInvoiceLinkInvalid",
       "value": "صورت‌حساب نامعتبر"
     },
@@ -12435,6 +12700,31 @@
       "_": "types.LangPackString",
       "key": "Poll",
       "value": "نظرسنجی"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Poll.VoteRestricted.Countries",
+      "value": "فقط کاربران کشورهای انتخاب شده می‌توانند رأی دهند."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Poll.VoteRestricted.CountriesList",
+      "value": "فقط کاربران ⁨%s⁩ می‌توانند رأی دهند."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Poll.VoteRestricted.Subscribers",
+      "value": "فقط مشترکین می‌توانند رأی دهند."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Poll.VoteRestricted.SubscribersChannel",
+      "value": "فقط مشترکین ⁨%s⁩ می‌توانند رأی دهند."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Poll.VoteRestricted.SubscribersRecent",
+      "value": "فقط مشترکینی که بیش از 24 ساعت از عضویتشان گذشته باشد، می‌توانند رأی دهند."
     },
     {
       "_": "types.LangPackString",
@@ -13087,7 +13377,7 @@
     {
       "_": "types.LangPackString",
       "key": "PremiumTierSemiannual",
-      "value": "شش ماه یکبار"
+      "value": "شش ماه یک‌بار"
     },
     {
       "_": "types.LangPackString",
@@ -14192,7 +14482,7 @@
     {
       "_": "types.LangPackString",
       "key": "RevenueSharingAdsInfo1Subtitle",
-      "value": "تبلیغات تلگرام از اطلاعات شخصی شما استفاده نمی‌کنند و بر اساس کانال‌هایی هستند که در آن‌ها تبلیغات را مشاهده می‌کنید."
+      "value": "ما از محتوای گفتگوهای خصوصی یا لیست مخاطبین شما برای تبلیغات یا سایر اهداف تجاری استفاده نمی‌کنیم."
     },
     {
       "_": "types.LangPackString",
@@ -14222,7 +14512,7 @@
     {
       "_": "types.LangPackString",
       "key": "RevenueSharingAdsInfo4Subtitle2",
-      "value": "هر کسی می‌تواند با کمترین هزینه، تبلیغی را برای نمایش در این کانال ایجاد کند. برای جزئیات بیشتر، پلتفرم تبلیغات تلگرام را بررسی کنید. ⁨%1$s⁩"
+      "value": "هر کسی می‌تواند با کمترین هزینه در تلگرام تبلیغات پست کند. برای جزئیات بیشتر، **پلتفرم تبلیغات تلگرام** را بررسی کنید. ⁨%1$s⁩"
     },
     {
       "_": "types.LangPackString",
@@ -17131,6 +17421,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "StarsPurchaseUnavailable",
+      "value": "در حال حاضر خریداری ستاره امکان‌پذیر نیست."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "StarsRating.Back",
       "value": "بازگشت"
     },
@@ -18906,6 +19201,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "UserInfo.CustomPhotoNote",
+      "value": "این عکس فقط برای شما قابل مشاهده است."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "UserPermissions.Duration",
       "value": "مدت زمان"
     },
@@ -19544,7 +19844,7 @@
     {
       "_": "types.LangPackString",
       "key": "VoipExchangingKeys",
-      "value": "در حال تبادل کلید‌های رمزگذاری"
+      "value": "در حال تبادل کلید‌های رمزنگاری"
     },
     {
       "_": "types.LangPackString",
@@ -19745,5 +20045,5 @@
       "other_value": "⁨%1$d⁩ پیام"
     }
   ],
-  "version": 346061
+  "version": 346062
 }
