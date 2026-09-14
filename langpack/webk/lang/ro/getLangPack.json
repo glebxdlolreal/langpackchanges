@@ -4164,6 +4164,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Call.Open",
+      "value": "Deschide apel"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Call.PrivacyErrorMessage",
       "value": "Nu poți apela pe %@ din cauza setărilor sale de confidențialitate."
     },
@@ -4201,6 +4206,11 @@
       "_": "types.LangPackString",
       "key": "Call.StatusFailed",
       "value": "Apel eșuat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Call.StatusGroupInvite",
+      "value": "Apel de Grup Telegram"
     },
     {
       "_": "types.LangPackString",
@@ -5442,6 +5452,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Chat.Service.ConferenceCall.Declined",
+      "value": "Apel de grup respins"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Chat.Service.ConferenceCall.Ended",
       "value": "Apel de grup încheiat (%1$@)"
     },
@@ -5452,8 +5467,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Chat.Service.ConferenceCall.Invitation",
+      "value": "Invitație apel de grup"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Chat.Service.ConferenceCall.Missed",
       "value": "Apel de grup ratat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Service.ConferenceCall.Ongoing",
+      "value": "Apel de grup în curs"
     },
     {
       "_": "types.LangPackString",
@@ -7598,6 +7623,161 @@
       "_": "types.LangPackString",
       "key": "CompactDiffView",
       "value": "Aspect Compact / Dif"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ConferenceCall.Controls.EnterFullscreen",
+      "value": "Intră în ecran complet"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ConferenceCall.Controls.ExitFullscreen",
+      "value": "Ieși din ecran complet"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ConferenceCall.Controls.HandRaised",
+      "value": "Mână ridicată"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ConferenceCall.Controls.RaiseHand",
+      "value": "Ridică mâna"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ConferenceCall.Controls.Toolbar",
+      "value": "Controale apel"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ConferenceCall.Create.Button",
+      "value": "Începe"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ConferenceCall.Create.Title",
+      "value": "Începi un apel de grup criptat?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ConferenceCall.Fingerprint.Pending",
+      "value": "Verificare criptare…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ConferenceCall.Invite.Already",
+      "value": "**%1$@** se află deja în apel."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "**%d persoane** se află deja în apel.",
+      "key": "ConferenceCall.Invite.AlreadyMany",
+      "one_value": "**%d persoană** se află deja în apel.",
+      "other_value": "**%d de persoane** se află deja în apel."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ConferenceCall.Invite.Button",
+      "value": "Apelează"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ConferenceCall.Invite.Done",
+      "value": "Apelezi pe **%1$@** pt. alăturare."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Apelezi **%d persoane** pt. alăturare.",
+      "key": "ConferenceCall.Invite.DoneMany",
+      "one_value": "Apelezi **%d persoană** pt. alăturare.",
+      "other_value": "Apelezi **%d de persoane** pt. alăturare."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ConferenceCall.Invite.Fail",
+      "value": "**%1$@** nu a putut fi apelat(ă)."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "**%d persoane** nu au putut fi apelate.",
+      "key": "ConferenceCall.Invite.FailMany",
+      "one_value": "**%d persoană** nu a putut fi apelată.",
+      "other_value": "**%d de persoane** nu au putut fi apelate."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ConferenceCall.Invite.Kicked",
+      "value": "%1$@ a fost interzis din apel."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "**%d persoane** au fost eliminate din apel.",
+      "key": "ConferenceCall.Invite.KickedMany",
+      "one_value": "**%d persoană** a fost eliminată din apel.",
+      "other_value": "**%d de persoane** au fost eliminate din apel."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ConferenceCall.Invite.Title",
+      "value": "Adaugă Persoane"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ConferenceCall.Invite.ViaLink",
+      "value": "Invită prin Link"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "**%2$@**, **%3$@** și încă **%1$d** persoane s-au alăturat deja apelului.",
+      "key": "ConferenceCall.Join.AlreadyMany",
+      "one_value": "**%2$@**, **%3$@** și încă **%1$d** persoană s-au alăturat deja apelului.",
+      "other_value": "**%2$@**, **%3$@** și încă **%1$d** de persoane s-au alăturat deja apelului."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ConferenceCall.Join.AlreadyOne",
+      "value": "**%1$@** s-a alăturat deja apelului."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ConferenceCall.Join.AlreadyThree",
+      "value": "**%1$@**, **%2$@** și **%3$@** s-au alăturat deja apelului."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ConferenceCall.Join.AlreadyTwo",
+      "value": "**%1$@** și **%2$@** s-au alăturat deja apelului."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ConferenceCall.Join.Button",
+      "value": "Alătură-te Apelului de Grup"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ConferenceCall.Join.Text",
+      "value": "Ești invitat să te alături unui Apel Telegram."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ConferenceCall.Join.TextInviter",
+      "value": "**%1$@** te invită într-un Apel Telegram."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ConferenceCall.Join.Title",
+      "value": "Apel de Grup"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ConferenceCall.Migrating",
+      "value": "Comutare la apel de grup criptat…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ConferenceCall.New",
+      "value": "Apel de Grup Nou"
     },
     {
       "_": "types.LangPackString",
@@ -23115,5 +23295,5 @@
       "other_value": "%1$d de mesaje"
     }
   ],
-  "version": 343883
+  "version": 346140
 }
