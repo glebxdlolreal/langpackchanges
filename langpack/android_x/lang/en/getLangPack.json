@@ -920,7 +920,12 @@
     {
       "_": "types.LangPackString",
       "key": "AndroidVersionWarning",
-      "value": "Sorry, this feature is available yet only on Android %1$s (%2$s) or higher"
+      "value": "Sorry, this feature is available only on Android %1$s (%2$s) or higher"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AndroidVersionWarningTitle",
+      "value": "Unsupported Android version"
     },
     {
       "_": "types.LangPackString",
@@ -961,13 +966,25 @@
       "_": "types.LangPackStringPluralized",
       "key": "AnonymousGiftedPremium",
       "one_value": "Someone gifted you %1$s month of Telegram Premium for %2$s",
-      "other_value": "Someone gifted you %1$s months Telegram Premium for %2$s"
+      "other_value": "Someone gifted you %1$s months of Telegram Premium for %2$s"
     },
     {
       "_": "types.LangPackStringPluralized",
       "key": "AnonymousGiftedPremiumCode",
       "one_value": "Someone sent you a Gift Code for %1$s month of Telegram Premium",
-      "other_value": "Someone sent you a Gift Code for %1$s months Telegram Premium"
+      "other_value": "Someone sent you a Gift Code for %1$s months of Telegram Premium"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "AnonymousGiftedPremiumCodeDays",
+      "one_value": "Someone sent you a Gift Code for %1$s day of Telegram Premium",
+      "other_value": "Someone sent you a Gift Code for %1$s days of Telegram Premium"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "AnonymousGiftedPremiumDays",
+      "one_value": "Someone gifted you %1$s day of Telegram Premium for %2$s",
+      "other_value": "Someone gifted you %1$s days of Telegram Premium for %2$s"
     },
     {
       "_": "types.LangPackString",
@@ -3024,6 +3041,16 @@
       "_": "types.LangPackString",
       "key": "ChatContentGroupJoin",
       "value": "Joined the group via invite link"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatContentGroupJoinCommunity",
+      "value": "Joined the group from the community"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatContentGroupJoinCommunity_outgoing",
+      "value": "Joined the group from the community"
     },
     {
       "_": "types.LangPackString",
@@ -5111,6 +5138,21 @@
       "_": "types.LangPackString",
       "key": "DeleteArchivedPack",
       "value": "Delete from archive"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "DeleteCallHistory",
+      "value": "Delete call history"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "DeleteCallHistoryConfirm",
+      "value": "**Warning!**\n\nDo you want to delete **entire** call history? This will delete all associated call messages in corresponding chats.\n\nThis action cannot be undone."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "DeleteCallHistoryForEveryone",
+      "value": "Delete for everyone"
     },
     {
       "_": "types.LangPackString",
@@ -7218,6 +7260,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "EventLogPromotedManageWelcomeMessages",
+      "value": "Manage welcome messages"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "EventLogPromotedNew",
       "value": "promoted %1$s"
     },
@@ -8187,13 +8234,25 @@
       "_": "types.LangPackStringPluralized",
       "key": "GiftedPremium",
       "one_value": "%2$s gifted you %1$s month of Telegram Premium for %3$s",
-      "other_value": "%2$s gifted you %1$s months Telegram Premium for %3$s"
+      "other_value": "%2$s gifted you %1$s months of Telegram Premium for %3$s"
     },
     {
       "_": "types.LangPackStringPluralized",
       "key": "GiftedPremiumCode",
       "one_value": "%2$s sent you a Gift Code for %1$s month of Telegram Premium",
-      "other_value": "%2$s sent you a Gift Code for %1$s months Telegram Premium"
+      "other_value": "%2$s sent you a Gift Code for %1$s months of Telegram Premium"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "GiftedPremiumCodeDays",
+      "one_value": "%2$s sent you a Gift Code for %1$s day of Telegram Premium",
+      "other_value": "%2$s sent you a Gift Code for %1$s days of Telegram Premium"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "GiftedPremiumDays",
+      "one_value": "%2$s gifted you %1$s day of Telegram Premium for %3$s",
+      "other_value": "%2$s gifted you %1$s days of Telegram Premium for %3$s"
     },
     {
       "_": "types.LangPackString",
@@ -16245,6 +16304,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "RightWelcomeMessages",
+      "value": "Manage direct messages"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Ringtone",
       "value": "Ringtone"
     },
@@ -17215,6 +17279,31 @@
       "_": "types.LangPackString",
       "key": "SessionSecretChats",
       "value": "Secret Chats"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SessionSnapshot",
+      "value": "Session Snapshot"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SessionSnapshotDesc",
+      "value": "Send private authorization data"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SessionSnapshotInfo",
+      "value": "Session snapshots are archives that include all your authorization data that you must never share with anyone. Would you like to delete them?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SessionSnapshotWarning",
+      "value": "**Warning!**\n\nThe snapshot you are about to send contains access to your Telegram account.\n\nDon't send or forward it to anyone, unless you know what you are doing."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SessionSnapshots",
+      "value": "Session Snapshots"
     },
     {
       "_": "types.LangPackString",
@@ -18566,13 +18655,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "SyncContactsProgress",
+      "value": "Uploading contacts…"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "SyncHint",
       "value": "Contacts on your device\n (phone numbers, first and last names)\n will be seamlessly uploaded to Telegram servers so you could find them in Contacts section of Telegram X, or receive a notification once they join.\n\nWhen you delete a contact on your device while sync is on, it will also be deleted from your contacts list on Telegram servers.\n\nYou can always turn sync off or clear data on Telegram servers via Settings > Privacy and Security > Delete Synced Contacts.\n\nTo turn sync on, you also have to allow Telegram X to access contacts on your device."
     },
     {
       "_": "types.LangPackString",
       "key": "SyncHint3",
-      "value": "Contacts on your device (phone numbers, first and last names) will be continuously uploaded to Telegram servers so you could find them in **Contacts** section of **%1$s**, or receive a notification once they join.\n\nData is not shared with third-parties. When you delete a contact on your device while sync is on, it will also be deleted from your contacts list on **Telegram** servers.\n\nYou can always turn sync off or clear data on Telegram servers via **Settings > Privacy and Security > Delete Synced Contacts**.\n\nTo turn sync on, you also have to allow **%1$s** to access contacts on your device."
+      "value": "Contacts on your device (phone numbers, first and last names) will be continuously uploaded to **Telegram** servers so you could find them in **Contacts** section, or receive a notification once they join.\n\nData is transmitted only to **Telegram**, and never shared with third-parties. When you delete a contact on your device while sync is on, it will also be deleted from **Telegram** servers.\n\nYou can always turn sync off or clear data on **Telegram** servers via **Settings > Privacy and Security > Delete Synced Contacts**.\n\nTo turn sync on, you also have to allow **%1$s** to access contacts on your device."
     },
     {
       "_": "types.LangPackString",
@@ -21219,7 +21313,7 @@
       "_": "types.LangPackStringPluralized",
       "key": "YouGiftedPremium",
       "one_value": "You gifted %1$s month of Telegram Premium for %2$s",
-      "other_value": "You gifted %1$s months Telegram Premium for %2$s"
+      "other_value": "You gifted %1$s months of Telegram Premium for %2$s"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -21229,9 +21323,27 @@
     },
     {
       "_": "types.LangPackStringPluralized",
+      "key": "YouGiftedPremiumCodeDays",
+      "one_value": "You sent Gift Code for %1$s day of Telegram Premium",
+      "other_value": "You sent Gift Code for %1$s days of Telegram Premium"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "YouGiftedPremiumDays",
+      "one_value": "You gifted %1$s day of Telegram Premium for %2$s",
+      "other_value": "You gifted %1$s days of Telegram Premium for %2$s"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "YouGiftedPremiumDaysTo",
+      "one_value": "You gifted %3$s %1$s day of Telegram Premium for %2$s",
+      "other_value": "You gifted %3$s %1$s days of Telegram Premium for %2$s"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
       "key": "YouGiftedPremiumTo",
       "one_value": "You gifted %3$s %1$s month of Telegram Premium for %2$s",
-      "other_value": "You gifted %3$s %1$s months Telegram Premium for %2$s"
+      "other_value": "You gifted %3$s %1$s months of Telegram Premium for %2$s"
     },
     {
       "_": "types.LangPackString",
@@ -21793,6 +21905,11 @@
       "_": "types.LangPackString",
       "key": "error_PREMIUM_ACCOUNT_REQUIRED",
       "value": "This feature requires Telegram Premium subscription."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "error_PremiumActive",
+      "value": "You already have Telegram Premium subscription active until %1$s."
     },
     {
       "_": "types.LangPackString",
@@ -22449,6 +22566,26 @@
       "_": "types.LangPackString",
       "key": "group_user_join_by_link_with_approval",
       "value": "%1$s joined the group via invite link, approved by %2$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "group_user_join_from_community",
+      "value": "%1$s joined the group from the community"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "group_user_join_from_community_name",
+      "value": "%1$s joined the group from the community \"%2$s\""
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "group_user_join_from_community_name_self",
+      "value": "You joined the group from the community \"%2$s\""
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "group_user_join_from_community_self",
+      "value": "You joined the group from the community"
     },
     {
       "_": "types.LangPackString",
@@ -23911,6 +24048,12 @@
     },
     {
       "_": "types.LangPackStringPluralized",
+      "key": "xGiveawayPrizeReceivedInfoDays",
+      "one_value": "Your prize is a **Telegram Premium** subscription for **%1$s** day.",
+      "other_value": "Your prize is a **Telegram Premium** subscription for **%1$s** days."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
       "key": "xGiveawayPrizeStar",
       "one_value": "%1$s **Telegram Star**.",
       "other_value": "%1$s **Telegram Stars**."
@@ -23920,6 +24063,12 @@
       "key": "xGiveawayUnclaimedPrizeReceivedInfo",
       "one_value": "This prize is a **Telegram Premium** subscription for **%1$s** month.",
       "other_value": "This prize is a **Telegram Premium** subscription for **%1$s** months."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "xGiveawayUnclaimedPrizeReceivedInfoDays",
+      "one_value": "This prize is a **Telegram Premium** subscription for **%1$s** day.",
+      "other_value": "This prize is a **Telegram Premium** subscription for **%1$s** days."
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -24069,6 +24218,12 @@
       "_": "types.LangPackString",
       "key": "xOfYChatsSelected",
       "value": "%1$d/%2$d chats selected"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "xOfYChatsSelected3",
+      "one_value": "%1$s/%2$s chats selected",
+      "other_value": "%1$s/%2$s chats selected"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -24311,6 +24466,12 @@
     },
     {
       "_": "types.LangPackStringPluralized",
+      "key": "xTelegramPremiumForDays",
+      "one_value": "Telegram Premium for %1$s day",
+      "other_value": "Telegram Premium for %1$s days"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
       "key": "xTelegramPremiumForMonth",
       "one_value": "Telegram Premium for %1$s month",
       "other_value": "Telegram Premium for %1$s months"
@@ -24394,5 +24555,5 @@
       "other_value": "%1$s years"
     }
   ],
-  "version": 1634450
+  "version": 1656011
 }
