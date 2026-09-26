@@ -5366,6 +5366,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Chat.Service.CommunityAdded.Bot",
+      "value": "این ربات به انجمن ⁨%1$s⁩ اضافه شد"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Service.CommunityRemoved.Bot",
+      "value": "این ربات از انجمن حذف شد"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Chat.Service.ConferenceCall.Declined",
       "value": "تماس گروهی رد شده"
     },
@@ -5691,6 +5701,11 @@
       "_": "types.LangPackString",
       "key": "ChatAutomation.AllExcept",
       "value": "تمامی گفتگوهای خصوصی بجز..."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAutomation.BotUnsupported",
+      "value": "این ربات هنوز از حالت منشی پشتیبانی نمی‌کند."
     },
     {
       "_": "types.LangPackString",
@@ -6394,13 +6409,166 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Community.AddAll",
+      "value": "افزودن همه"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Community.AddAllRequests",
+      "value": "افزودن تمامی گفتگوها"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Community.AddAllRequestsConfirm",
+      "value": "آیا می‌خواهید ⁨%d⁩ گفتگوی معلق را به انجمن اضافه کنید؟"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Community.AddBot",
+      "value": "افزودن ربات به یک انجمن"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Community.AddBotConfirm",
+      "value": "در صورتی که این ربات توسط یکی از مدیران انجمن تأیید شود، اعضای انجمن قادر به مشاهده و استفاده از آن خواهند بود."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Community.AddChannel",
+      "value": "افزودن کانال به یک انجمن"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Community.AddChannelConfirm",
+      "value": "در صورت تأیید شدن این کانال توسط یکی از مدیران انجمن، مشترکین آن می‌توانند در سایر گفتگوهای درون انجمن عضو شده یا برای آن‌ها درخواست عضویت ارسال کنند."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Community.AddChat",
+      "value": "افزودن گفتگو"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Community.AddChatButton",
+      "value": "افزودن گفتگو به انجمن"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Community.AddExisting",
+      "value": "افزودن به یک انجمن موجود"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Community.AddGroup",
+      "value": "افزودن گروه به یک انجمن"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Community.AddGroupConfirm",
+      "value": "در صورت تأیید شدن این گروه توسط یکی از مدیران انجمن، اعضای آن می‌توانند در سایر گفتگوهای درون انجمن عضو شده یا برای آن‌ها درخواست عضویت ارسال کنند."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Community.AddTo",
+      "value": "افزودن به انجمن"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Community.AdminAddAdmins",
+      "value": "افزودن مدیران انجمن"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Community.AdminBanMembers",
+      "value": "محروم کردن اعضا"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Community.AdminEditChats",
+      "value": "ویرایش لیست گفتگوها"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Community.AdminEditInfo",
+      "value": "ویرایش اطلاعات انجمن"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Community.AdminRequired",
+      "value": "شما دیگر اجازه مدیریت این درخواست‌ها را ندارید."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Community.AdministratorsInfo",
+      "value": "می‌توانید مدیرانی اضافه کنید که به مدیریت انجمن شما کمک کنند."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Community.AllMembers",
+      "value": "تمامی اعضا"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Community.AllMembersInfo",
+      "value": "به اعضا اجازه داده دهید که گروه‌ها و کانال‌های خود را به انجمن اضافه کنند."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Community.Ban",
+      "value": "محروم کردن"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Community.BanFromCommunity",
+      "value": "محروم کردن از انجمن"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "Community.BanFromCommunityInfo",
+      "one_value": "کاربر از ⁨%d⁩ گفتگوی انجمن حذف خواهد شد.",
+      "other_value": "کاربر از ⁨%d⁩ گفتگوی انجمن حذف خواهد شد."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Community.BanWarning",
+      "value": "با محروم کردن ⁨%1$s⁩، ⁨%2$d⁩ گفتگوی ایجاد شده توسط او نیز از انجمن حذف خواهد شد."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Community.BanWarningTitle",
+      "value": "هشدار"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Community.Banned",
+      "value": "⁨%s⁩ از انجمن محروم شد."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "Community.BannedCount",
+      "one_value": "⁨%d⁩ محروم شده",
+      "other_value": "⁨%d⁩ محروم شده"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Community.BotAdded",
       "value": "ربات به انجمن اضافه شد"
     },
     {
       "_": "types.LangPackString",
+      "key": "Community.BotDescription",
+      "value": "ربات خود را به عضوی از یک انجمن با چندین گفتگوی مرتبط تبدیل کنید."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Community.BotNotAccessible",
       "value": "این ربات دیگر قابل دسترسی نیست."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "Community.BotPeersLimit",
+      "one_value": "به سقف محدودیت ⁨%d⁩ ربات رسیده‌اید.",
+      "other_value": "به سقف محدودیت ⁨%d⁩ ربات رسیده‌اید."
     },
     {
       "_": "types.LangPackString",
@@ -6409,8 +6577,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Community.ChangeSettings",
+      "value": "تغییر تنظیمات >"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Community.ChannelAdded",
       "value": "کانال به انجمن اضافه شد"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Community.ChannelDescription",
+      "value": "کانال خود را به عضوی از یک انجمن با چندین گفتگوی مرتبط تبدیل کنید."
     },
     {
       "_": "types.LangPackString",
@@ -6434,13 +6612,79 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Community.ChatSettings",
+      "value": "تنظیمات گفتگوی انجمن"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Community.ChatVisibility",
+      "value": "امکان مشاهده گفتگو"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Community.Chats",
+      "value": "گفتگوهای انجمن"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "Community.ChatsCount",
+      "one_value": "⁨%d⁩ گفتگو",
+      "other_value": "⁨%d⁩ گفتگو"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Community.ChatsHidden",
       "value": "گفتگوهای پنهان"
     },
     {
       "_": "types.LangPackString",
+      "key": "Community.ChatsJoined",
+      "value": "گفتگوهایی که در آن‌ها هستید"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Community.ChatsRequestable",
+      "value": "گفتگوهایی که می‌توانید به آن‌ها درخواست عضویت دهید"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Community.ChatsVisible",
+      "value": "گفتگوهایی که می‌توانید مشاهده کنید"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Community.CommunityAdded.View",
+      "value": "مشاهده"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Community.Create",
+      "value": "ایجاد انجمن"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Community.CreateChat",
+      "value": "ایجاد یک گفتگوی جدید"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Community.Created",
       "value": "انجمن ایجاد شد"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Community.DeclineAll",
+      "value": "رد کردن همه"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Community.DeclineAllRequests",
+      "value": "رد کردن تمامی درخواست‌ها"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Community.DeclineAllRequestsConfirm",
+      "value": "تمامی ⁨%d⁩ گفتگوی پیشنهاد شده رد شوند؟"
     },
     {
       "_": "types.LangPackString",
@@ -6456,6 +6700,16 @@
       "_": "types.LangPackString",
       "key": "Community.Deleted",
       "value": "انجمن حذف شد"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Community.Description",
+      "value": "گروه خود را به عضوی از یک انجمن با چندین گفتگوی مرتبط تبدیل کنید."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Community.Edit",
+      "value": "ویرایش انجمن"
     },
     {
       "_": "types.LangPackString",
@@ -6479,6 +6733,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Community.Hidden",
+      "value": "پنهان"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Community.HiddenBotInfo",
       "value": "تا زمانی که توسط یک مدیر دعوت نشوید، نمی‌توانید از این ربات استفاده کنید."
     },
@@ -6491,6 +6750,11 @@
       "_": "types.LangPackString",
       "key": "Community.HiddenChatInfo",
       "value": "تا زمانی که یک مدیر شما را دعوت نکند، نمی‌توانید به این گفتگو بپیوندید یا آن را مشاهده کنید."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Community.HiddenInfo",
+      "value": "فقط اعضای دعوت شده و مدیران انجمن این گفتگو را مشاهده خواهند کرد."
     },
     {
       "_": "types.LangPackString",
@@ -6509,6 +6773,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Community.LoadMore",
+      "value": "بارگذاری موارد بیشتر"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Community.MessageBotOwner",
       "value": "ارسال پیام به مالک ربات"
     },
@@ -6524,6 +6793,78 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Community.Name",
+      "value": "نام"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Community.NoAdministrators",
+      "value": "مدیری وجود ندارد"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Community.NoChatsToAdd",
+      "value": "گفتگویی برای افزودن در دسترس نیست."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Community.NoCommunities",
+      "value": "شما هنوز انجمنی ندارید."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Community.NoPendingRequests",
+      "value": "درخواست معلقی وجود ندارد"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Community.NoRemovedUsers",
+      "value": "کاربر حذف شده‌ای وجود ندارد"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Community.NoRequests",
+      "value": "درخواستی وجود ندارد"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Community.OnlyAdmins",
+      "value": "فقط مدیران"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Community.OnlyAdminsInfo",
+      "value": "گفتگوهای پیشنهاد شده توسط اعضای انجمن، نیازمند موافقت مدیر هستند."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "Community.PeersLimit",
+      "one_value": "به سقف محدودیت ⁨%d⁩ گفتگو رسیده‌اید.",
+      "other_value": "به سقف محدودیت ⁨%d⁩ گفتگو رسیده‌اید."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Community.PendingRequest",
+      "value": "درخواست معلق"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Community.PendingRequests",
+      "value": "درخواست‌های معلق"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "Community.PendingRequestsCount",
+      "one_value": "⁨%d⁩ گفتگوی پیشنهاد شده",
+      "other_value": "⁨%d⁩ گفتگوی پیشنهاد شده"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Community.PendingRequestsInfo",
+      "value": "گفتگوها نیازمند موافقت مدیر پیش از اضافه شدن به انجمن هستند."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Community.PrivateBotInfo",
       "value": "این ربات فقط با دعوت قابل دسترسی است. فقط اعضای دعوت شده می‌توانند از آن استفاده کنند."
     },
@@ -6536,6 +6877,37 @@
       "_": "types.LangPackString",
       "key": "Community.PrivateChatInfo",
       "value": "این گروه فقط با دعوت قابل دسترسی است. فقط اعضای آن می‌توانند آن را مشاهده کنند."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "Community.ProfileStatus",
+      "one_value": "انجمن حاوی ⁨%d⁩ گفتگو",
+      "other_value": "انجمن حاوی ⁨%d⁩ گفتگو"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Community.Promote",
+      "value": "ارتقاء"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Community.PromoteAdmin",
+      "value": "ارتقاء به مدیر"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Community.PromoteAdminConfirm",
+      "value": "⁨%s⁩ را مدیر این انجمن می‌کنید؟"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Community.RemoveAdmin",
+      "value": "حذف مدیر"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Community.RemoveAdminConfirm",
+      "value": "این مدیر را از انجمن حذف می‌کنید؟"
     },
     {
       "_": "types.LangPackString",
@@ -6569,8 +6941,38 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Community.RemoveUser",
+      "value": "حذف کاربر"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Community.Removed",
       "value": "گروه از انجمن حذف شد"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Community.RemovedFromCommunity",
+      "value": "از انجمن حذف شد"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Community.RemovedUsersInfo",
+      "value": "کاربرانی که توسط مدیران از انجمن حذف شده‌اند، نمی‌توانند از طریق لینک دعوت مجدداً به آن بپیوندند."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Community.RequestAdded",
+      "value": "گفتگو به انجمن اضافه شد."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Community.RequestDeclined",
+      "value": "پیشنهاد رد شد."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Community.RequestFailed",
+      "value": "درخواست به‌روزرسانی نشد. لطفاً دوباره تلاش کنید."
     },
     {
       "_": "types.LangPackString",
@@ -6581,6 +6983,33 @@
       "_": "types.LangPackString",
       "key": "Community.RequestSent",
       "value": "درخواست ارسال شد"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "Community.RequestsAdded",
+      "one_value": "⁨%d⁩ گفتگو به انجمن اضافه شد.",
+      "other_value": "⁨%d⁩ گفتگو به انجمن اضافه شدند."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "Community.RequestsDeclined",
+      "one_value": "⁨%d⁩ پیشنهاد رد شد.",
+      "other_value": "⁨%d⁩ پیشنهاد رد شدند."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Community.RequestsLoadFailed",
+      "value": "درخواست‌های معلق بارگذاری نشدند. لطفاً دوباره تلاش کنید."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Community.Retry",
+      "value": "تلاش مجدد"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Community.SaveChanges",
+      "value": "ذخیره تغییرات"
     },
     {
       "_": "types.LangPackString",
@@ -6599,8 +7028,68 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Community.Someone",
+      "value": "یک نفر"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Community.SuggestedBot",
+      "value": "این ربات را پیشنهاد کرد"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Community.SuggestedBy",
+      "value": "پیشنهاد شده توسط"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Community.SuggestedBySomeone",
+      "value": "یک نفر این گفتگو را پیشنهاد کرد"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Community.SuggestedChannel",
+      "value": "این کانال را پیشنهاد کرد"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Community.SuggestedGroup",
+      "value": "این گروه را پیشنهاد کرد"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Community.Title",
+      "value": "انجمن"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Community.Unban",
+      "value": "رفع محرومیت"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Community.View",
       "value": "مشاهده انجمن"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Community.VisibilityImmutable",
+      "value": "نمی‌توانید بعداً این را تغییر دهید."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Community.Visible",
+      "value": "قابل مشاهده"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Community.VisibleInfo",
+      "value": "هر کسی در انجمن قادر به مشاهده این گفتگو خواهد بود."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Community.WhoCanAddChats",
+      "value": "چه کسانی می‌توانند گفتگو اضافه کنند"
     },
     {
       "_": "types.LangPackString",
@@ -22038,5 +22527,5 @@
       "other_value": "⁨%1$d⁩ پیام"
     }
   ],
-  "version": 348621
+  "version": 349133
 }
