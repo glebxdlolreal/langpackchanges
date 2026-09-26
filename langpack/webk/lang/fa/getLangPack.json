@@ -75,6 +75,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AccountSettings.SpeakersAndCamera",
+      "value": "اسپیکرها و دوربین"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AccountSettings.SpeakersAndCamera.SearchKeywords",
       "value": "میکروفون، دوربین، اسپیکر، صدا، ویدیو، دستگاه‌ها"
     },
@@ -380,7 +385,7 @@
     {
       "_": "types.LangPackString",
       "key": "ActionTTLChannelDisabled",
-      "value": "پیام‌ها در این کانال دیگر به صورت خودکار حذف نخواهند شد"
+      "value": "پیام‌ها در این کانال، دیگر به صورت خودکار حذف نخواهند شد"
     },
     {
       "_": "types.LangPackString",
@@ -390,7 +395,7 @@
     {
       "_": "types.LangPackString",
       "key": "ActionTTLYouChanged",
-      "value": "شما پیام‌ها را برای حذف خودکار ظرف ⁨%1$s⁩ تنظیم کردید"
+      "value": "شما پیام‌ها را برای حذف خودکار پس از ⁨%1$s⁩ تنظیم کردید"
     },
     {
       "_": "types.LangPackString",
@@ -400,12 +405,12 @@
     {
       "_": "types.LangPackString",
       "key": "ActionUserScored",
-      "value": "⁨un1⁩ امتیاز ⁨%1$s⁩ را کسب کرد"
+      "value": "⁨un1⁩ امتیاز ⁨%2$s⁩ را کسب کرد"
     },
     {
       "_": "types.LangPackString",
       "key": "ActionUserScoredInGame",
-      "value": "⁨un1⁩ امتیاز ⁨%1$s⁩ را در ⁨un2⁩ کسب کرد"
+      "value": "⁨un1⁩ امتیاز ⁨%2$s⁩ را در ⁨un3⁩ کسب کرد"
     },
     {
       "_": "types.LangPackString",
@@ -895,12 +900,12 @@
     {
       "_": "types.LangPackString",
       "key": "AdminLog.ToggleSignatureProfilesDisabled",
-      "value": "⁨%s⁩ پروفایل‌های امضا را غیرفعال کرد"
+      "value": "⁨%s⁩ امکان مشاهده پروفایل نویسنده را غیرفعال کرد"
     },
     {
       "_": "types.LangPackString",
       "key": "AdminLog.ToggleSignatureProfilesEnabled",
-      "value": "⁨%s⁩ پروفایل‌های امضا را فعال کرد"
+      "value": "⁨%s⁩ امکان مشاهده پروفایل نویسنده را فعال کرد"
     },
     {
       "_": "types.LangPackString",
@@ -1580,6 +1585,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Administrators",
+      "value": "مدیران"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Ads.Reported",
       "value": "ما این تبلیغ را بررسی می‌کنیم تا اطمینان حاصل کنیم که با **[سیاست‌ها و دستورالعمل‌های تبلیغات](https://ads.telegram.org/guidelines)** ما مطابقت داشته باشد."
     },
@@ -1981,6 +1991,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AreYouSureDeletePhoto",
+      "value": "آیا از حذف این عکس اطمینان دارید؟"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AreYouSureDeleteSingleMessage",
       "value": "آیا از حذف این پیام اطمینان دارید؟"
     },
@@ -2217,7 +2232,7 @@
     {
       "_": "types.LangPackString",
       "key": "AutoDeleteMessages.InfoDefault",
-      "value": "در تمامی گروه‌های جدیدی که آغاز می‌کنید، پیام‌ها پس از مدت زمان مشخصی برای تمامی افراد به صورت خودکار حذف شوند."
+      "value": "پیام‌ها در گفتگوهایی که آغاز می‌کنید، پس از مدت زمان مشخصی برای تمامی افراد به صورت خودکار حذف شوند."
     },
     {
       "_": "types.LangPackString",
@@ -3398,6 +3413,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Bot.Game.Play",
+      "value": "بازی کردن"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "BotAllowAccessTo",
       "value": "اجازه دسترسی به"
     },
@@ -3594,6 +3614,62 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "BroadcastGroup",
+      "value": "گروه اطلاع‌رسانی"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BroadcastGroupConvert",
+      "value": "تبدیل به گروه اطلاع‌رسانی"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BroadcastGroupConvertAction",
+      "value": "تبدیل"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "BroadcastGroupConvertDone",
+      "one_value": "گروه شما اکنون می‌تواند بیش از ⁨%1$d⁩ عضو داشته باشد.",
+      "other_value": "گروه شما اکنون می‌تواند بیش از ⁨%1$d⁩ عضو داشته باشد."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BroadcastGroupConvertFeature1",
+      "value": "محدودیتی در تعداد اعضا وجود ندارد."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BroadcastGroupConvertFeature2",
+      "value": "فقط مدیران می‌توانند پیام ارسال کنند."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BroadcastGroupConvertFeature3",
+      "value": "نمی‌توان آن را به گروه معمولی بازگرداند."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BroadcastGroupConvertInfo",
+      "value": "گروه‌های اطلاع‌رسانی می‌توانند بیش از 200,000 عضو داشته باشند، اما فقط مدیران می‌توانند در آن‌ها پیام ارسال کنند."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BroadcastGroupConvertTitle",
+      "value": "گروه‌های اطلاع‌رسانی"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BroadcastGroupConvertWarning",
+      "value": "اعضای عادی گروه (بجز مدیران)، اجازه ارسال پیام در گروه را **برای همیشه** از دست خواهند داد.\n\nاین عمل **بازگشت‌ناپذیر** است."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BroadcastGroupConvertWarningTitle",
+      "value": "آیا اطمینان دارید؟"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "BusinessHoursCopied",
       "value": "ساعات کاری کپی شد"
     },
@@ -3674,6 +3750,17 @@
       "_": "types.LangPackString",
       "key": "BuyStars",
       "value": "خرید ستاره"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Calendar.ClearHistory",
+      "value": "پاک کردن تاریخچه"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "Calendar.SelectedDays",
+      "one_value": "⁨%1$d⁩ روز انتخاب شده",
+      "other_value": "⁨%1$d⁩ روز انتخاب شده"
     },
     {
       "_": "types.LangPackString",
@@ -3867,13 +3954,108 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "CallSettings.AcceptCalls.Caption",
+      "value": "برای توقف دریافت تماس‌های ورودی و گفتگوهای ویدیویی گروهی در این دستگاه، این گزینه را خاموش کنید."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CallSettings.Camera",
+      "value": "دستگاه"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CallSettings.CameraOff",
+      "value": "خاموش"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CallSettings.CameraSection",
+      "value": "دوربین"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "CallSettings.CameraUnavailable",
       "value": "دوربین در دسترس نیست. دسترسی به دوربین را بررسی کرده و دوباره تلاش کنید."
     },
     {
       "_": "types.LangPackString",
+      "key": "CallSettings.DeviceDefault",
+      "value": "پیش‌فرض"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CallSettings.EndCall",
+      "value": "پایان دادن به تماس"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CallSettings.EndVideoChat",
+      "value": "پایان دادن به گفتگوی ویدیویی"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CallSettings.InputDevice",
+      "value": "دستگاه ورودی"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CallSettings.InputSection",
+      "value": "میکروفن"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CallSettings.Microphone",
+      "value": "میکروفن"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "CallSettings.MicrophoneUnavailable",
       "value": "میکروفون در دسترس نیست. دسترسی به میکروفون را بررسی کرده و دوباره تلاش کنید."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CallSettings.MicrophoneVolume",
+      "value": "میزان صدای میکروفن"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CallSettings.MuteNewParticipants",
+      "value": "بی‌صدا کردن شرکت کنندگان جدید"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CallSettings.NoDevices",
+      "value": "دستگاهی در دسترس نیست"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CallSettings.NoiseSuppression",
+      "value": "حذف نویز"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CallSettings.OutputDevice",
+      "value": "دستگاه خروجی"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CallSettings.OutputSection",
+      "value": "اسپیکرها"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CallSettings.ShareInviteLink",
+      "value": "به اشتراک گذاشتن لینک دعوت"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CallSettings.Speakers",
+      "value": "اسپیکرها"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CallSettings.Title",
+      "value": "تنظیمات"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -3895,6 +4077,26 @@
       "_": "types.LangPackString",
       "key": "CancelPollAlertTitle",
       "value": "نظرسنجی حذف شود؟"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CancelPollConfirm.Button",
+      "value": "لغو ارسال"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CancelPollConfirm.Description",
+      "value": "آیا از لغو ارسال نظرسنجی اطمینان دارید؟"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CancelPollConfirm.Timeout",
+      "value": "نظرسنجی قبلاً ارسال شده است، می‌توانید در عوض، پیام را حذف کنید."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CancelPollConfirm.Title",
+      "value": "لغو ارسال نظرسنجی"
     },
     {
       "_": "types.LangPackString",
@@ -4606,8 +4808,59 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Chat.Poll.AddAnOption",
+      "value": "افزودن گزینه"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Poll.CopyOption",
+      "value": "کپی گزینه"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Poll.CopyOptionLink",
+      "value": "کپی لینک گزینه"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Chat.Poll.EndsIn",
       "value": "⁨%s⁩ دیگر به پایان می‌رسد"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "Chat.Poll.MembersVoted",
+      "one_value": "⁨%d⁩ عضو رأی داد",
+      "other_value": "⁨%d⁩ عضو رأی دادند"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Poll.OptionAdded",
+      "value": "⁨%s⁩، **⁨%s⁩** را به نظرسنجی اضافه کرد"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Poll.OptionAddedMe",
+      "value": "شما **⁨%s⁩** را به نظرسنجی اضافه کردید"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Poll.OptionDeleted",
+      "value": "⁨%s⁩، **⁨%s⁩** را از نظرسنجی حذف کرد"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Poll.OptionDeletedMe",
+      "value": "شما **⁨%s⁩** را از نظرسنجی حذف کردید"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Poll.ReplyToOption",
+      "value": "پاسخ به گزینه نظرسنجی"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Poll.SelectAnOption",
+      "value": "گزینه‌ای انتخاب کنید"
     },
     {
       "_": "types.LangPackString",
@@ -4672,6 +4925,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Chat.Poll.ViewVotes",
+      "value": "مشاهده رأی‌ها (⁨%s⁩)"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Chat.PremiumRequired",
       "value": "با خرید اشتراک **پرمیوم**، می‌توانید برای **⁨%s⁩** پیام ارسال کنید."
     },
@@ -4679,6 +4937,17 @@
       "_": "types.LangPackString",
       "key": "Chat.PremiumRequiredButton",
       "value": "دریافت پرمیوم"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Quiz.Explanation",
+      "value": "توضیحات"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "Chat.Quiz.MembersAnswered",
+      "one_value": "⁨%d⁩ عضو پاسخ داد",
+      "other_value": "⁨%d⁩ عضو پاسخ دادند"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -4814,13 +5083,33 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Chat.Service.ConferenceCall.Ended",
+      "value": "تماس گروهی به پایان رسید (⁨%1$@⁩)"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Service.ConferenceCall.Incoming",
+      "value": "تماس گروهی دریافتی. [پیوستن](open)"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Chat.Service.ConferenceCall.Invitation",
       "value": "دعوت به تماس گروهی"
     },
     {
       "_": "types.LangPackString",
+      "key": "Chat.Service.ConferenceCall.Missed",
+      "value": "تماس گروهی ناموفق"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Chat.Service.ConferenceCall.Ongoing",
       "value": "تماس گروهی در حال انجام"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Service.ConferenceCall.Outgoing",
+      "value": "تماس گروهی خروجی. [باز کردن](open)"
     },
     {
       "_": "types.LangPackString",
@@ -5184,6 +5473,11 @@
       "_": "types.LangPackString",
       "key": "ChatList.Context.Pin",
       "value": "سنجاق کردن"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatList.Context.Preview",
+      "value": "پیش‌نمایش"
     },
     {
       "_": "types.LangPackString",
@@ -5735,6 +6029,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ClearRecentSearch",
+      "value": "پاک کردن"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ClearRecentStickersAlertMessage",
       "value": "آیا می‌خواهید تمامی استیکرهای اخیر خود را پاک کنید؟"
     },
@@ -6163,6 +6462,106 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "CreateBot.BotWasCreated",
+      "value": "ربات **⁨%s⁩** ایجاد شد"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBot.Create",
+      "value": "ایجاد"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBot.Description",
+      "value": "**⁨%s⁩** می‌خواهد از طرف شما یک ربات گفتگو ایجاد و مدیریت کند."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBot.FailedToCreate",
+      "value": "ربات ایجاد نشد."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBot.Link",
+      "value": "لینک: ⁨%s⁩"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBot.Name.Caption",
+      "value": "برای ربات خود نامی انتخاب کنید"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBot.Name.Label",
+      "value": "نام ربات"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBot.Title",
+      "value": "ایجاد ربات"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBot.TooManyBotsCreated",
+      "value": "شما ربات‌های بسیار زیادی ایجاد کرده‌اید. لطفاُ پیش ایجاد ربات جدید، ⁨%s⁩ صبر کنید."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBot.Username.Available",
+      "value": "نام کاربری امکان‌پذیر نیست."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBot.Username.Caption",
+      "value": "برای ربات خود یک نام کاربری انتخاب کنید"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBot.Username.Checking",
+      "value": "در حال بررسی نام کاربری..."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBot.Username.Error",
+      "value": "بررسی نام کاربری ناموفق بود."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBot.Username.Invalid",
+      "value": "نام کاربری نامعتبر است."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBot.Username.InvalidChars",
+      "value": "نام کاربری فقط می‌تواند شامل حروف، اعداد و زیرخط باشد."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBot.Username.Label",
+      "value": "نام کاربری ربات"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBot.Username.MustStartLetter",
+      "value": "نام کاربری باید با یک حرف شروع شود."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBot.Username.Taken",
+      "value": "این نام کاربری در حال حاضر انتخاب شده است."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBot.Username.TooLong",
+      "value": "نام کاربری بسیار طولانی است"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBot.Username.TooShort",
+      "value": "این نام کاربری بسیار کوتاه است."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "CreateGeneralTopicTitle",
       "value": "نام موضوع را انتخاب کنید"
     },
@@ -6530,6 +6929,11 @@
       "_": "types.LangPackString",
       "key": "DescriptionPlaceholder",
       "value": "توضیحات"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Deselect",
+      "value": "لغو انتخاب"
     },
     {
       "_": "types.LangPackString",
@@ -7098,6 +7502,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "EditThisGIF",
+      "value": "ویرایش این گیف"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "EditThisPhoto",
       "value": "ویرایش این عکس"
     },
@@ -7437,6 +7846,11 @@
       "_": "types.LangPackString",
       "key": "ExceptionModal.Search.Placeholder",
       "value": "افزودن استثنا..."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Exceptions",
+      "value": "استثناها"
     },
     {
       "_": "types.LangPackString",
@@ -7997,8 +8411,24 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "FwdMessageTo",
+      "value": "پیام به ⁨%s⁩ فوروارد شد."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "FwdMessageToSavedMessages",
       "value": "پیام به **پیام‌های ذخیره شده** فوروارد شد."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "FwdMessagesTo",
+      "value": "پیام‌ها به ⁨%s⁩ فوروارد شدند."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "FwdMessagesToChats",
+      "one_value": "",
+      "other_value": "⁨%d⁩ گفتگو"
     },
     {
       "_": "types.LangPackString",
@@ -8943,6 +9373,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "InviteLinkSentMany",
+      "value": "لینک دعوت به **⁨%d⁩ گفتگو** ارسال شد."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "InviteLinkSentSingle",
       "value": "لینک دعوت برای **⁨%s⁩** ارسال شد."
     },
@@ -9050,6 +9485,11 @@
       "value": "پیوستن به گروه"
     },
     {
+      "_": "types.LangPackString",
+      "key": "JoinCall",
+      "value": "پیوستن به تماس"
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "key": "JoinRequests",
       "one_value": "⁨%1$d⁩ درخواست عضویت",
@@ -9072,6 +9512,171 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "KeyboardShortcuts.Action.Bold",
+      "value": "برجسته"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "KeyboardShortcuts.Action.ClosePopup",
+      "value": "بستن پاپ‌آپ یا منو"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "KeyboardShortcuts.Action.CloseStories",
+      "value": "بستن استوری‌ها"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "KeyboardShortcuts.Action.EditLast",
+      "value": "ویرایش آخرین پیام"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "KeyboardShortcuts.Action.Italic",
+      "value": "کج"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "KeyboardShortcuts.Action.JumpToInputEnd",
+      "value": "رفتن به انتهای ورودی"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "KeyboardShortcuts.Action.JumpToInputStart",
+      "value": "رفتن به ابتدای ورودی"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "KeyboardShortcuts.Action.Link",
+      "value": "افزودن لینک"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "KeyboardShortcuts.Action.LockPasscode",
+      "value": "قفل کردن با گذرواژه"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "KeyboardShortcuts.Action.Monospace",
+      "value": "تک‌فاصله"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "KeyboardShortcuts.Action.NewLine",
+      "value": "خط جدید"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "KeyboardShortcuts.Action.NextChat",
+      "value": "گفتگوی بعدی"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "KeyboardShortcuts.Action.NextMedia",
+      "value": "رسانه بعدی"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "KeyboardShortcuts.Action.NextStory",
+      "value": "استوری بعدی"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "KeyboardShortcuts.Action.OpenSearch",
+      "value": "باز کردن جستجو"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "KeyboardShortcuts.Action.PlayPauseStory",
+      "value": "پخش / مکث استوری"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "KeyboardShortcuts.Action.PreviousChat",
+      "value": "گفتگوی قبلی"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "KeyboardShortcuts.Action.PreviousMedia",
+      "value": "رسانه قبلی"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "KeyboardShortcuts.Action.PreviousStory",
+      "value": "استوری قبلی"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "KeyboardShortcuts.Action.Redo",
+      "value": "انجام مجدد"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "KeyboardShortcuts.Action.SavedMessages",
+      "value": "باز کردن پیام‌های ذخیره شده"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "KeyboardShortcuts.Action.Send",
+      "value": "ارسال پیام"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "KeyboardShortcuts.Action.Spoiler",
+      "value": "اسپویلر"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "KeyboardShortcuts.Action.Strikethrough",
+      "value": "خط خورده"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "KeyboardShortcuts.Action.Underline",
+      "value": "زیرخط"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "KeyboardShortcuts.Action.Undo",
+      "value": "بازگردانی"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "KeyboardShortcuts.Action.ZoomIn",
+      "value": "بزرگنمایی"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "KeyboardShortcuts.Action.ZoomOut",
+      "value": "کوچکنمایی"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "KeyboardShortcuts.Caption",
+      "value": "میان‌برهایی که برای پلتفرم شما نمایش داده می‌شوند."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "KeyboardShortcuts.Hint.LockPasscodeNotSet",
+      "value": "تنظیم در حریم خصوصی و امنیت"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "KeyboardShortcuts.Hint.SendDepends",
+      "value": "وابسته به تنظیمات"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "KeyboardShortcuts.Hint.WhenInputEmpty",
+      "value": "هنگامی که ورودی خالی است"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "KeyboardShortcuts.Section.Chat",
+      "value": "گفتگو"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "KeyboardShortcuts.Section.Formatting",
       "value": "قالب‌بندی متن"
     },
@@ -9079,6 +9684,41 @@
       "_": "types.LangPackString",
       "key": "KeyboardShortcuts.Section.Formatting.Caption",
       "value": "متن را در قسمت ورودی گفتگو انتخاب کرده تا قالب‌بندی را اعمال کنید."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "KeyboardShortcuts.Section.MediaEditor",
+      "value": "ویرایشگر رسانه"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "KeyboardShortcuts.Section.MediaViewer",
+      "value": "مشاهده کننده رسانه"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "KeyboardShortcuts.Section.Messages",
+      "value": "پیام‌ها"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "KeyboardShortcuts.Section.Messages.Caption",
+      "value": "نحوه ارسال پیام‌ها و درج خطوط جدید را انتخاب کنید."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "KeyboardShortcuts.Section.Navigation",
+      "value": "جابجایی"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "KeyboardShortcuts.Section.Other",
+      "value": "سایر"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "KeyboardShortcuts.Section.Stories",
+      "value": "استوری‌ها"
     },
     {
       "_": "types.LangPackString",
@@ -9951,6 +10591,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "LiteMode.Key.blur.Title",
+      "value": "جلوه محو"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "LiteMode.Key.chat.Title",
       "value": "انیمیشن گفتگوها"
     },
@@ -9988,6 +10633,11 @@
       "_": "types.LangPackString",
       "key": "LiteMode.Key.emoji.Title",
       "value": "انیمیشن‌های اموجی"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LiteMode.Key.emoji_appear.Title",
+      "value": "جلوه ظاهر اموجی"
     },
     {
       "_": "types.LangPackString",
@@ -10102,7 +10752,7 @@
     {
       "_": "types.LangPackString",
       "key": "Login.Passkey",
-      "value": "ورود به حساب کاربری با کلید عبور"
+      "value": "ورود به حساب کاربری با کلید عبور >"
     },
     {
       "_": "types.LangPackString",
@@ -10137,7 +10787,7 @@
     {
       "_": "types.LangPackString",
       "key": "Login.QR.Cancel",
-      "value": "ورود به حساب کاربری از طریق شماره تلفن"
+      "value": "ورود به حساب کاربری از طریق شماره تلفن >"
     },
     {
       "_": "types.LangPackString",
@@ -10157,12 +10807,17 @@
     {
       "_": "types.LangPackString",
       "key": "Login.QR.Login",
-      "value": "ورود به حساب کاربری از طریق کد QR"
+      "value": "ورود به حساب کاربری از طریق کد QR >"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Login.QR.Subtitle",
+      "value": "برنامه تلگرام را تلفن همراه خود اسکن کنید"
     },
     {
       "_": "types.LangPackString",
       "key": "Login.QR.Title",
-      "value": "ورود به حساب کاربری تلگرام از طریق کد QR"
+      "value": "ورود به حساب کاربری از طریق کد QR"
     },
     {
       "_": "types.LangPackString",
@@ -11047,6 +11702,26 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "NewPoll.AllowMultipleAnswers",
+      "value": "امکان انتخاب چند پاسخ"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NewPoll.AllowMultipleAnswersSubtitle",
+      "value": "رأی دهندگان می‌توانند بیش از یک گزینه را انتخاب کنند"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NewPoll.AllowRevoting",
+      "value": "امکان رأی مجدد"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NewPoll.AllowRevotingSubtitle",
+      "value": "رأی دهندگان می‌توانند رأی خود را تغییر دهند"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "NewPoll.AllowedCountries",
       "value": "کشورهای مجاز"
     },
@@ -11062,6 +11737,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "NewPoll.CouldNotCreate",
+      "value": "نظرسنجی ایجاد نشد"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NewPoll.EndDate",
+      "value": "پایان در ⁨%@⁩ ساعت ⁨%@⁩"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NewPoll.EndToday",
+      "value": "پایان امروز ساعت ⁨%@⁩"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "NewPoll.Explanation.Placeholder",
       "value": "افزودن توضیحات (اختیاری)"
     },
@@ -11069,6 +11759,11 @@
       "_": "types.LangPackString",
       "key": "NewPoll.HideResults",
       "value": "پنهان کردن نتایج"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NewPoll.HideResultsSubtitle",
+      "value": "نتایج تا زمان به پایان رسیدن نظرسنجی قابل مشاهده نخواهند بود"
     },
     {
       "_": "types.LangPackString",
@@ -11087,8 +11782,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "NewPoll.LimitDurationSubtitle",
+      "value": "نظرسنجی در زمان مشخصی به صورت خودکار بسته می‌شود"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NewPoll.MaxOptions",
+      "value": "شما حداکثر تعداد گزینه‌ها را اضافه کرده‌اید."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NewPoll.MinEndTime",
+      "value": "حداقل زمان پایان: ⁨%s⁩"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "NewPoll.MultipleChoice",
       "value": "چندگزینه‌ای"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NewPoll.Option",
+      "value": "گزینه"
     },
     {
       "_": "types.LangPackString",
@@ -11099,6 +11814,17 @@
       "_": "types.LangPackString",
       "key": "NewPoll.OptionsAddOption",
       "value": "افزودن گزینه..."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "NewPoll.OptionsLeft",
+      "one_value": "شما می‌توانید ⁨%d⁩ گزینه دیگر اضافه کنید",
+      "other_value": "شما می‌توانید ⁨%d⁩ گزینه دیگر اضافه کنید"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NewPoll.PollDuration",
+      "value": "مدت زمان نظرسنجی"
     },
     {
       "_": "types.LangPackString",
@@ -11117,8 +11843,33 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "NewPoll.SetCorrectAnswer",
+      "value": "تنظیم پاسخ درست"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NewPoll.SetCorrectAnswerSubtitle",
+      "value": "یک گزینه را به عنوان پاسخ درست علامت بزنید"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NewPoll.SetMultipleCorrectAnswerSubtitle",
+      "value": "یک یا چند گزینه را به عنوان پاسخ درست علامت بزنید"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NewPoll.ShowWhoVoted",
+      "value": "نمایش رأی دهندگان"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "NewPoll.ShowWhoVotedSubtitle",
       "value": "نمایش رأی دهندگان هر گزینه"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NewPoll.ShuffleOptions",
+      "value": "تصادفی کردن گزینه‌ها"
     },
     {
       "_": "types.LangPackString",
@@ -12470,7 +13221,7 @@
     {
       "_": "types.LangPackString",
       "key": "Peer.Activity.User.TypingText",
-      "value": "در حال نوشتن"
+      "value": "در حال تایپ"
     },
     {
       "_": "types.LangPackString",
@@ -12712,8 +13463,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PinnedJoinCall",
+      "value": "پیوستن به تماس"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PinnedMessage",
       "value": "پیام سنجاق شده"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PinnedMessages",
+      "value": "پیام‌های سنجاق شده"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -13543,6 +14304,71 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Privacy.Gifts",
+      "value": "چه کسانی می‌توانند در پروفایل من هدیه‌هایی نمایش دهند"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Privacy.GiftsAcceptedTypes",
+      "value": "انواع هدیه‌های پذیرفته شده"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Privacy.GiftsAcceptedTypesInfo",
+      "value": "انواع هدیه‌هایی که قبول می‌کنید را انتخاب کنید."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Privacy.GiftsCaption",
+      "value": "شما می‌توانید کسانی که قادرند در پروفایل شما هدیه‌هایی نمایش دهند را با جزئیات دقیق محدود کنید."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Privacy.GiftsPremiumError",
+      "value": "با خرید اشتراک [تلگرام پرمیوم]()، کسانی که می‌توانند برای شما هدیه ارسال کنند را محدود کنید."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Privacy.GiftsRow",
+      "value": "چه کسانی می‌توانند برای من هدیه ارسال کنند؟"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Privacy.GiftsShowIcon",
+      "value": "نمایش آیکون هدیه در گفتگوها"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Privacy.GiftsShowIconInfo",
+      "value": "آیکون هدیه در قسمت نوشتن پیام برای هر دو شرکت کننده در تمامی گفتگوها نمایش داده شود."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Privacy.GiftsTypeChannel",
+      "value": "از کانال‌ها"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Privacy.GiftsTypeLimited",
+      "value": "نسخه محدود"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Privacy.GiftsTypePremium",
+      "value": "اشتراک‌های پرمیوم"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Privacy.GiftsTypeUnique",
+      "value": "منحصر به فرد"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Privacy.GiftsTypeUnlimited",
+      "value": "نامحدود"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Privacy.MessagesCaption",
       "value": "مشخص کنید که چه کسانی می‌توانند برای شما پیام ارسال کنند."
     },
@@ -13644,6 +14470,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PrivacyContactsAndMiniApps",
+      "value": "مخاطبین و مینی‌برنامه‌ها"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PrivacyDeleteCloudDrafts",
       "value": "حذف تمامی پیش‌نویس‌های ابری"
     },
@@ -13656,6 +14487,11 @@
       "_": "types.LangPackString",
       "key": "PrivacyForwardsTitle",
       "value": "چه کسانی می‌توانند در هنگام فوروارد پیام‌های من، لینکی به حساب کاربری من اضافه کنند؟"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PrivacyGifts",
+      "value": "هدیه‌ها"
     },
     {
       "_": "types.LangPackString",
@@ -13699,8 +14535,23 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PrivacyMiniApps",
+      "value": "مینی‌برنامه‌ها"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PrivacyMiniAppsStatus",
+      "value": "مینی‌برنامه‌هایی که استفاده می‌کنید"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PrivacyModal.Search.Placeholder",
       "value": "افزودن کاربران یا گروه‌ها..."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PrivacyNoMiniApps",
+      "value": "بجز مینی‌برنامه‌ها"
     },
     {
       "_": "types.LangPackString",
@@ -14051,6 +14902,26 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "QRCode.Copied",
+      "value": "کد QR در حافظه کپی شد."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QRCode.CopiedLink",
+      "value": "لینک پروفایل در حافظه کپی شد"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QRCode.Copy",
+      "value": "کپی کد QR"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QRCode.Title",
+      "value": "کد QR"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Quality",
       "value": "کیفیت"
     },
@@ -14113,6 +14984,11 @@
       "_": "types.LangPackString",
       "key": "ReadAllMentions",
       "value": "خواندن تمامی اشاره‌ها"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ReadAllPollVotes",
+      "value": "خواندن تمامی رأی‌های نظرسنجی"
     },
     {
       "_": "types.LangPackString",
@@ -14212,8 +15088,33 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "RemovedUsers",
+      "value": "کاربران حذف شده"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ReplaceBoostChannelDescription",
       "value": "شما در حال حاضر از **⁨%1$s⁩** حمایت می‌کنید. آیا می‌خواهید در عوض **⁨%2$s⁩** را حمایت کنید؟"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ReplaceGIF",
+      "value": "جایگزین کردن گیف"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ReplacePhoto",
+      "value": "جایگزین کردن عکس"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ReplaceSticker",
+      "value": "جایگزین کردن استیکر"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ReplaceVideo",
+      "value": "جایگزین کردن ویدیو"
     },
     {
       "_": "types.LangPackString",
@@ -15089,6 +15990,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Search.EmptyQuery",
+      "value": "جستجو کنید."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Search.From",
       "value": "از:"
     },
@@ -15305,6 +16211,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "SendGiftTo",
+      "value": "ارسال هدیه به"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "SendMessage",
       "value": "ارسال پیام"
     },
@@ -15492,6 +16403,11 @@
       "_": "types.LangPackString",
       "key": "ShareMyPhoneNoCaps",
       "value": "به اشتراک گذاشتن شماره تلفن من"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShareWith",
+      "value": "به اشتراک گذاشتن با"
     },
     {
       "_": "types.LangPackString",
@@ -15752,6 +16668,11 @@
       "_": "types.LangPackString",
       "key": "ShowTranslateChatButton",
       "value": "ترجمه کامل گفتگوها"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Sidebar.Resize.ShiftTip",
+      "value": "برای تغییر اندازه هر دو ستون به صورت همزمان، **Shift** را نگه دارید"
     },
     {
       "_": "types.LangPackString",
@@ -18257,6 +19178,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "StoryViewers",
+      "value": "مشاهده کنندگان استوری"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "SubscribeRequests",
       "value": "درخواست‌های عضویت"
     },
@@ -18799,12 +19725,22 @@
     {
       "_": "types.LangPackString",
       "key": "ThemeDay",
+      "value": "کلاسیک"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ThemeLight",
       "value": "روز"
     },
     {
       "_": "types.LangPackString",
       "key": "ThemeNight",
       "value": "شب"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ThemeTinted",
+      "value": "تاریک"
     },
     {
       "_": "types.LangPackString",
@@ -20105,5 +21041,5 @@
       "other_value": "⁨%1$d⁩ پیام"
     }
   ],
-  "version": 346870
+  "version": 348600
 }
