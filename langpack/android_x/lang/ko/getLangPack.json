@@ -901,7 +901,12 @@
     {
       "_": "types.LangPackString",
       "key": "AndroidVersionWarning",
-      "value": "죄송합니다. 아직 이 기능은 Android %1$s(%2$s) 이상에서만 사용하실 수 있습니다."
+      "value": "이 기능은 안드로이드 %1$s(%2$s) 이상에서만 사용할 수 있습니다"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AndroidVersionWarningTitle",
+      "value": "지원되지 않는 안드로이드 버전"
     },
     {
       "_": "types.LangPackString",
@@ -941,12 +946,22 @@
     {
       "_": "types.LangPackStringPluralized",
       "key": "AnonymousGiftedPremium",
-      "other_value": "누군가 회원님에게 텔레그램 프리미엄 %1$s개월을 %2$s에 선물했습니다"
+      "other_value": "누군가 회원님에게 텔레그램 프리미엄 %1$s개월 이용권을 %2$s에 선물했습니다"
     },
     {
       "_": "types.LangPackStringPluralized",
       "key": "AnonymousGiftedPremiumCode",
-      "other_value": "누군가 회원님에게 텔레그램 프리미엄 %1$s개월 선물 코드를 보냈습니다"
+      "other_value": "누군가 회원님에게 텔레그램 프리미엄 %1$s개월 이용권의 선물 코드를 보냈습니다"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "AnonymousGiftedPremiumCodeDays",
+      "other_value": "누군가 회원님에게 텔레그램 프리미엄 %1$s일 이용권의 선물 코드를 보냈습니다"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "AnonymousGiftedPremiumDays",
+      "other_value": "누군가 회원님에게 텔레그램 프리미엄 %1$s일 이용권을 %2$s에 선물했습니다"
     },
     {
       "_": "types.LangPackString",
@@ -2977,6 +2992,16 @@
       "_": "types.LangPackString",
       "key": "ChatContentGroupJoin",
       "value": "초대 링크로 그룹에 참여했습니다"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatContentGroupJoinCommunity",
+      "value": "커뮤니티를 통해 그룹에 참여했습니다"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatContentGroupJoinCommunity_outgoing",
+      "value": "커뮤니티를 통해 그룹에 참여했습니다"
     },
     {
       "_": "types.LangPackString",
@@ -5022,6 +5047,21 @@
       "_": "types.LangPackString",
       "key": "DeleteArchivedPack",
       "value": "보관함에서 삭제"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "DeleteCallHistory",
+      "value": "통화 기록 삭제"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "DeleteCallHistoryConfirm",
+      "value": "**주의!**\n\n통화 기록 **전체**를 삭제하시겠습니까? 해당 대화에 있는 관련 통화 메시지도 모두 삭제됩니다.\n\n이 작업은 되돌릴 수 없습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "DeleteCallHistoryForEveryone",
+      "value": "모두에게서 삭제"
     },
     {
       "_": "types.LangPackString",
@@ -7105,6 +7145,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "EventLogPromotedManageWelcomeMessages",
+      "value": "환영 메시지 관리"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "EventLogPromotedNew",
       "value": "%1$s님을 승격했습니다"
     },
@@ -8066,12 +8111,22 @@
     {
       "_": "types.LangPackStringPluralized",
       "key": "GiftedPremium",
-      "other_value": "%2$s님이 %3$s에 텔레그램 프리미엄 %1$s개월을 선물했습니다"
+      "other_value": "%2$s님이 회원님에게 텔레그램 프리미엄 %1$s개월 이용권을 %3$s에 선물했습니다"
     },
     {
       "_": "types.LangPackStringPluralized",
       "key": "GiftedPremiumCode",
-      "other_value": "%2$s님이 %1$s개월 텔레그램 프리미엄 기프트 코드를 보냈습니다"
+      "other_value": "%2$s님이 회원님에게 텔레그램 프리미엄 %1$s개월 이용권의 선물 코드를 보냈습니다"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "GiftedPremiumCodeDays",
+      "other_value": "%2$s님이 회원님에게 텔레그램 프리미엄 %1$s일 이용권의 선물 코드를 보냈습니다"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "GiftedPremiumDays",
+      "other_value": "%2$s님이 회원님에게 텔레그램 프리미엄 %1$s일 이용권을 %3$s에 선물했습니다"
     },
     {
       "_": "types.LangPackString",
@@ -16030,6 +16085,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "RightWelcomeMessages",
+      "value": "개인 메시지 관리"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Ringtone",
       "value": "벨소리"
     },
@@ -20906,7 +20966,7 @@
     {
       "_": "types.LangPackStringPluralized",
       "key": "YouGiftedPremium",
-      "other_value": "텔레그램 프리미엄 %1$s개월을 %2$s에 선물했습니다"
+      "other_value": "텔레그램 프리미엄 %1$s개월 이용권을 %2$s에 선물했습니다"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -20915,8 +20975,23 @@
     },
     {
       "_": "types.LangPackStringPluralized",
+      "key": "YouGiftedPremiumCodeDays",
+      "other_value": "텔레그램 프리미엄 %1$s일 이용권의 선물 코드를 보냈습니다"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "YouGiftedPremiumDays",
+      "other_value": "텔레그램 프리미엄 %1$s일 이용권을 %2$s에 선물했습니다"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "YouGiftedPremiumDaysTo",
+      "other_value": "%3$s님에게 텔레그램 프리미엄 %1$s일 이용권을 %2$s에 선물했습니다"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
       "key": "YouGiftedPremiumTo",
-      "other_value": "%3$s님에게 %2$s에 텔레그램 프리미엄 %1$s개월을 선물했습니다"
+      "other_value": "%3$s님에게 텔레그램 프리미엄 %1$s개월 이용권을 %2$s에 선물했습니다"
     },
     {
       "_": "types.LangPackString",
@@ -21457,6 +21532,11 @@
       "_": "types.LangPackString",
       "key": "error_PREMIUM_ACCOUNT_REQUIRED",
       "value": "이 기능을 사용하려면 텔레그램 프리미엄 구독이 필요합니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "error_PremiumActive",
+      "value": "이미 %1$s까지 유효한 텔레그램 프리미엄 구독이 있습니다."
     },
     {
       "_": "types.LangPackString",
@@ -22102,6 +22182,26 @@
       "_": "types.LangPackString",
       "key": "group_user_join_by_link_with_approval",
       "value": "%1$s님이 초대 링크로 그룹에 참여했으며, %2$s님이 승인했습니다"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "group_user_join_from_community",
+      "value": "%1$s님이 커뮤니티를 통해 그룹에 참여했습니다"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "group_user_join_from_community_name",
+      "value": "%1$s님이 \"%2$s\" 커뮤니티를 통해 그룹에 참여했습니다"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "group_user_join_from_community_name_self",
+      "value": "\"%2$s\" 커뮤니티를 통해 그룹에 참여했습니다"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "group_user_join_from_community_self",
+      "value": "커뮤니티를 통해 그룹에 참여했습니다"
     },
     {
       "_": "types.LangPackString",
@@ -23480,6 +23580,11 @@
     },
     {
       "_": "types.LangPackStringPluralized",
+      "key": "xGiveawayPrizeReceivedInfoDays",
+      "other_value": "회원님의 경품은 **텔레그램 프리미엄** **%1$s**일 이용권입니다."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
       "key": "xGiveawayPrizeStar",
       "other_value": "%1$s **텔레그램 스타**."
     },
@@ -23487,6 +23592,11 @@
       "_": "types.LangPackStringPluralized",
       "key": "xGiveawayUnclaimedPrizeReceivedInfo",
       "other_value": "이 상품은 **%1$s**개월 **텔레그램 프리미엄** 구독입니다."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "xGiveawayUnclaimedPrizeReceivedInfoDays",
+      "other_value": "이 경품은 **텔레그램 프리미엄** **%1$s**일 이용권입니다."
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -23607,6 +23717,11 @@
       "_": "types.LangPackStringPluralized",
       "key": "xNewMessages",
       "other_value": "새로운 메시지 %1$s개"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "xOfYChatsSelected3",
+      "other_value": "대화 %2$s개 중 %1$s개 선택됨"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -23810,6 +23925,11 @@
     },
     {
       "_": "types.LangPackStringPluralized",
+      "key": "xTelegramPremiumForDays",
+      "other_value": "텔레그램 프리미엄 %1$s일 이용권"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
       "key": "xTelegramPremiumForMonth",
       "other_value": "텔레그램 프리미엄 %1$s개월"
     },
@@ -23879,5 +23999,5 @@
       "other_value": "%1$s년"
     }
   ],
-  "version": 1656010
+  "version": 1656108
 }
