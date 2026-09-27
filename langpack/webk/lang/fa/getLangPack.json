@@ -4720,6 +4720,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ChannelSettingsJoinRequestChannel",
+      "value": "پذیرفتن مشترکین جدید"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ChannelSettingsJoinRequestInfo",
       "value": "در صورتی که می‌خواهید کاربران فقط پس از موافقت مدیر عضو شوند، این گزینه را فعال کنید."
     },
@@ -5371,8 +5376,43 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Chat.Service.CommunityAdded.Channel",
+      "value": "این کانال به انجمن ⁨%1$s⁩ اضافه شد"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Service.CommunityAdded.Group.By",
+      "value": "⁨%1$s⁩ این گروه را به انجمن ⁨%2$s⁩ اضافه کرد"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Service.CommunityAdded.Group.Unknown",
+      "value": "این گروه به انجمن ⁨%1$s⁩ اضافه شد"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Service.CommunityAdded.Group.You",
+      "value": "شما این گروه را به انجمن ⁨%1$s⁩ اضافه کردید"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Chat.Service.CommunityRemoved.Bot",
       "value": "این ربات از انجمن حذف شد"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Service.CommunityRemoved.Channel",
+      "value": "این کانال از انجمن حذف شد"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Service.CommunityRemoved.Group.By",
+      "value": "⁨%1$s⁩ این گروه را از انجمن حذف کرد"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Service.CommunityRemoved.Group.You",
+      "value": "شما این گروه را از انجمن حذف کردید"
     },
     {
       "_": "types.LangPackString",
@@ -5699,13 +5739,373 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ChatAutomation.AccessibleChats",
+      "value": "گفتگوهای قابل دسترس برای ربات"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAutomation.Add",
+      "value": "افزودن"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ChatAutomation.AllExcept",
       "value": "تمامی گفتگوهای خصوصی بجز..."
     },
     {
       "_": "types.LangPackString",
+      "key": "ChatAutomation.BotHasAccess",
+      "value": "ربات به این گفتگو دسترسی دارد"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAutomation.BotManagesChat",
+      "value": "ربات این گفتگو را مدیریت می‌کند"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAutomation.BotPaused",
+      "value": "ربات مکث شد"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ChatAutomation.BotUnsupported",
       "value": "این ربات هنوز از حالت منشی پشتیبانی نمی‌کند."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAutomation.ChangeGiftSettings",
+      "value": "تغییر دادن تنظیمات هدیه"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAutomation.ConnectedFrom",
+      "value": "متصل شده از"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAutomation.ConnectionReview.Confirm",
+      "value": "بله، خودم بودم"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAutomation.ConnectionReview.Confirmed",
+      "value": "ربات جدید مجاز شد."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAutomation.ConnectionReview.Reject",
+      "value": "خیر، من نبودم!"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAutomation.ConnectionReview.Rejected",
+      "value": "دسترسی ربات باطل شد."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAutomation.ConnectionReview.Text",
+      "value": "از ⁨%s⁩ به حساب کاربری شما متصل شد. آیا خودتان بودید؟"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAutomation.ConnectionReview.TextNoLocation",
+      "value": "به حساب کاربری شما متصل شد. آیا خودتان بودید؟"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAutomation.ConnectionReview.Title",
+      "value": "یک ربات همین الان به پیام‌های شما دسترسی پیدا کرد!"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAutomation.Contacts",
+      "value": "مخاطبین"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAutomation.DeleteReceived",
+      "value": "حذف پیام‌های دریافت شده"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAutomation.DeleteSent",
+      "value": "حذف پیام‌های ارسال شده"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAutomation.EditBio",
+      "value": "ویرایش بیوگرافی"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAutomation.EditName",
+      "value": "ویرایش نام"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAutomation.EditPhoto",
+      "value": "ویرایش عکس پروفایل"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAutomation.EditUsername",
+      "value": "ویرایش نام کاربری"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAutomation.ExcludeChats",
+      "value": "شامل نکردن گفتگوها"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAutomation.ExcludedChats",
+      "value": "گفتگوهای شامل نشده"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAutomation.ExcludedDescription",
+      "value": "گفتگوها یا دسته‌بندی‌های گفتگویی که ربات به آن‌ها دسترسی **نخواهد داشت** را انتخاب کنید."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAutomation.ExistingChats",
+      "value": "گفتگوهای موجود"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAutomation.GiftsAndStarsWarning",
+      "value": "ربات **⁨%s⁩** قادر به **مدیریت هدیه‌ها و ستاره‌های شما**، از جمله اهدای آن‌ها به سایر کاربران خواهد بود."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAutomation.GiftsWarning",
+      "value": "ربات **⁨%s⁩** قادر به **مدیریت هدیه‌های شما**، از جمله اهدای آن‌ها به سایر کاربران خواهد بود."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAutomation.IncludedChats",
+      "value": "گفتگوهای شامل شده"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAutomation.IncludedDescription",
+      "value": "گفتگوها یا دسته‌بندی‌های گفتگویی که ربات به آن‌ها دسترسی **خواهد داشت** را انتخاب کنید."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAutomation.ManageAutomation",
+      "value": "مدیریت خودکارسازی گفتگو"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAutomation.ManageBot",
+      "value": "مدیریت ربات"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAutomation.ManageGifts",
+      "value": "مدیریت هدیه‌ها و ستاره‌ها"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAutomation.ManageMessages",
+      "value": "مدیریت پیام‌ها"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAutomation.ManageProfile",
+      "value": "مدیریت پروفایل"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAutomation.ManageStories",
+      "value": "مدیریت استوری‌ها"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAutomation.MarkRead",
+      "value": "علامت زدن پیام‌ها به عنوان خوانده شده"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAutomation.NewChats",
+      "value": "گفتگوهای جدید"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAutomation.NonContacts",
+      "value": "غیرمخاطبین"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAutomation.OnlySelected",
+      "value": "فقط گفتگوهای انتخاب شده"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAutomation.PermissionWarningProceed",
+      "value": "ادامه"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAutomation.PermissionWarningTitle",
+      "value": "هشدار"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAutomation.Permissions",
+      "value": "اختیارات ربات"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAutomation.PermissionsDescription",
+      "value": "این ربات فقط در گفتگوهایی که در 24 ساعت گذشته فعال بوده‌اند، می‌تواند از طرف شما پاسخ دهد."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAutomation.ReadMessages",
+      "value": "خواندن پیام‌ها"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAutomation.RecipientCategories",
+      "value": "دسته‌بندی‌های گفتگو"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAutomation.RecipientLimit",
+      "value": "می‌توانید حداکثر 100 کاربر را انتخاب کنید."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAutomation.RecipientSummaryEmpty",
+      "value": "افزودن"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAutomation.RecipientsEmpty",
+      "value": "لطفاً حداقل یک دریافت کننده انتخاب کنید."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAutomation.RemoveBot",
+      "value": "حذف ربات"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAutomation.RemoveFromChat",
+      "value": "حذف ربات از این گفتگو"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAutomation.Reply",
+      "value": "پاسخ به پیام‌ها"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAutomation.RevokeFromChat",
+      "value": "باطل کردن دسترسی به این گفتگو"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAutomation.SaveSuccess",
+      "value": "خودکارسازی گفتگو به‌روز شد."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAutomation.SelectChats",
+      "value": "انتخاب گفتگوها"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAutomation.SellGifts",
+      "value": "فروش هدیه‌ها"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAutomation.Session",
+      "value": "ربات خودکارسازی گفتگو"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAutomation.SessionDate",
+      "value": "تاریخ"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAutomation.SessionDevice",
+      "value": "دستگاه"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAutomation.SessionLocation",
+      "value": "موقعیت مکانی"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAutomation.SetupNotCompletedLeave",
+      "value": "ترک کردن"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAutomation.SetupNotCompletedText",
+      "value": "شما رباتی برای مدیریت حساب کاربری خود اضافه نکرده‌اید. با این حال ترک می‌کنید؟"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAutomation.SetupNotCompletedTitle",
+      "value": "رباتی اضافه نشد"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAutomation.StarsWarning",
+      "value": "ربات **⁨%s⁩** قادر به **انتقال ستاره‌های شما** خواهد بود."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAutomation.Start",
+      "value": "شروع"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAutomation.Stop",
+      "value": "متوقف کردن"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAutomation.TerminateConnectedBot",
+      "value": "همچنین پایان دادن به ⁨%s⁩"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAutomation.TerminateSession",
+      "value": "پایان دادن به نشست"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAutomation.TransferGifts",
+      "value": "انتقال و ارتقاء هدیه‌ها"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAutomation.TransferStars",
+      "value": "انتقال ستاره‌ها"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAutomation.UsernameWarning",
+      "value": "ربات **⁨%s⁩** قادر به **تنظیم و حذف نام‌های کاربری** برای حساب کاربری شما خواهد بود، که ممکن است منجر به از دست رفتن نام کاربری فعلی شما شود."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAutomation.ViaBotTooltip",
+      "value": "فقط شما می‌توانید ببینید که این پیام توسط یک ربات ارسال شده است."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAutomation.ViewGifts",
+      "value": "مشاهده هدیه‌ها"
     },
     {
       "_": "types.LangPackString",
@@ -10120,6 +10520,36 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "GroupRequestApproved",
+      "value": "با درخواست شما برای عضویت در گروه موافقت شد"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GroupRequestApprovedChannel",
+      "value": "با درخواست شما برای عضویت در کانال موافقت شد"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GroupRequestDeclined",
+      "value": "درخواست عضویت شما در گروه رد شد."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GroupRequestDeclinedChannel",
+      "value": "درخواست عضویت شما در کانال رد شد."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GroupRequestSent",
+      "value": "در صورتی که یک مدیر با درخواست شما موافقت کنند، به گروه اضافه خواهید شد."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GroupRequestSentChannel",
+      "value": "در صورتی که مدیران کانال با درخواست شما موافقت کنند، به کانال اضافه خواهید شد."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "GroupStats.Title",
       "value": "آمار گروه"
     },
@@ -10211,8 +10641,48 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "GuardBotEnable",
+      "value": "فعال کردن"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GuardBotEnableMembersText",
+      "value": "از این پس، اعضای جدید پیش از امکان ارسال پیام در این گروه، نیازمند موافقت **⁨%s⁩** خواهند بود"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GuardBotEnableSubscribersText",
+      "value": "از این پس، مشترکین جدید پیش از پیوستن به این کانال، نیازمند موافقت **⁨%s⁩** هستند"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GuardBotManagedBy",
+      "value": "مدیریت شده توسط ⁨%s⁩"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "GuardBotProcessJoinRequests",
       "value": "پردازش درخواست‌های عضویت"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GuardBotProcessJoinRequestsInfo",
+      "value": "به این ربات اجازه دهید اعضای جدید را با استفاده از رابط‌های اختصاصی خود، مانند کپچاها، تأیید کند."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GuardBotReplaceText",
+      "value": "در حال حاضر، **⁨%1$s⁩** درخواست‌های عضویت را پردازش می‌کند. آیا به **⁨%2$s⁩** تغییر می‌دهید؟"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GuardBotReplaceTitle",
+      "value": "جایگزین کردن ربات"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GuardBotReplaceUse",
+      "value": "استفاده از ⁨%s⁩"
     },
     {
       "_": "types.LangPackString",
@@ -12129,6 +12599,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "MediaCopied",
+      "value": "رسانه در حافظه کپی شد"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MediaCopyFailed",
+      "value": "کپی رسانه در حافظه ناموفق بود"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "MediaEditor.Adjustments.Brightness",
       "value": "روشنایی"
     },
@@ -12317,6 +12797,11 @@
       "key": "MediaFiles",
       "one_value": "⁨%d⁩ فایل رسانه‌ای",
       "other_value": "⁨%d⁩ فایل رسانه‌ای"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MediaViewer.Context.Copy",
+      "value": "کپی رسانه"
     },
     {
       "_": "types.LangPackString",
@@ -16076,6 +16561,16 @@
       "_": "types.LangPackString",
       "key": "ProfileStoriesArchiveHint",
       "value": "فقط شما می‌توانید استوری‌های بایگانی شده را مشاهده کنید، مگر اینکه بخواهید آن‌ها را در پروفایل خود پست کنید."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ProfileTab.OrderChanged",
+      "value": "ترتیب زبانه تغییر کرد."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ProfileTab.SetAsMain",
+      "value": "تنظیم به عنوان زبانه اصلی"
     },
     {
       "_": "types.LangPackString",
@@ -22400,6 +22895,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WebAppGuardDisclaimerText",
+      "value": "**⁨%1$s⁩** برای خوش‌آمدگویی به اعضای جدید از **⁨%2$s⁩** استفاده می‌کند. برای ادامه، باید با [شرایط و ضوابط استفاده]() از مینی‌برنامه‌ها موافقت کنید."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WebPage.InstantView",
       "value": "مشاهده فوری"
     },
@@ -22527,5 +23027,5 @@
       "other_value": "⁨%1$d⁩ پیام"
     }
   ],
-  "version": 349133
+  "version": 349134
 }
