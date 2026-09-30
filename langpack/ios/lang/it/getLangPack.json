@@ -5657,6 +5657,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "CHAT_REACT_STORY",
+      "value": "%2$@|%1$@ ha reagito con %3$@ alla tua storia"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "CHAT_RETURNED",
       "value": "%1$@ è tornato nel gruppo %2$@"
     },
@@ -39075,6 +39080,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PasscodeSettings.WalletProtectionInfo",
+      "value": "Richiesto quando si inviano fondi o si confermano altre azioni sensibili del wallet."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Passkeys.AddPasskey",
       "value": "Aggiungi passkey"
     },
@@ -45615,6 +45625,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "REACT_SCREENSHOT",
+      "value": "%1$@|ha reagito con %2$@ al tuo screenshot"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "REACT_STARGIFT_UNPACK_UPGRADE",
       "value": "%1$@|ha reagito con %2$@ all regalo che hai aiutato a migliorare"
     },
@@ -45625,8 +45640,23 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "REACT_SUGGEST_BIRTHDAY",
+      "value": "%1$@|ha reagito con %2$@ al tuo compleanno suggerito"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "REACT_SUGGEST_USERPIC",
+      "value": "%1$@|ha reagito con %2$@ alla tua foto suggerita"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "REACT_THEME",
       "value": "%1$@|ha reagito con %2$@ al tuo cambio di tema"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "REACT_UNIQUE_STARGIFT",
+      "value": "%1$@|ha reagito con %2$@ al tuo regalo"
     },
     {
       "_": "types.LangPackString",
@@ -58607,6 +58637,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.Stop",
+      "value": "Termina"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "VoiceOver.Chat.Title",
       "value": "Titolo: %@"
     },
@@ -58943,6 +58978,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Apps.DisconnectAllText",
+      "value": "Queste app perderanno l'accesso al tuo wallet. Potrai ricollegarle in qualsiasi momento."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Apps.DisconnectAllTitle",
       "value": "Disconnettere tutte le app?"
     },
@@ -58950,6 +58990,16 @@
       "_": "types.LangPackString",
       "key": "Wallet.Apps.DisconnectError",
       "value": "Impossibile disconnettere questa app. Riprova."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Apps.Disconnected",
+      "value": "%@ disconnessa."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Apps.Permissions",
+      "value": "Questa app può visualizzare l'indirizzo del tuo wallet, il saldo e i movimenti. Non può trasferire fondi senza la tua approvazione."
     },
     {
       "_": "types.LangPackString",
@@ -58965,6 +59015,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.Connect.Action",
       "value": "Connetti"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Connect.Disclaimer",
+      "value": "%@ non potrà trasferire fondi senza autorizzazione."
     },
     {
       "_": "types.LangPackString",
@@ -58993,8 +59048,38 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.EarningsBalance",
+      "value": "Hai %@ come Guadagni in Gram"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Empty.ZeroFeesTitle",
+      "value": "Nessun costo"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.GotIt",
       "value": "Capito"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Import.Action",
+      "value": "Importa"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Import.InvalidCurrentPhraseLength",
+      "value": "La tua attuale frase segreta deve contenere esattamente 24 parole. La frase incollata ne contiene %@."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Import.InvalidPhraseLength",
+      "value": "Una frase segreta deve contenere esattamente 12 o 24 parole. La frase incollata ne contiene %@."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Import.InvalidPhraseText",
+      "value": "Controlla l'ordine delle parole.\n\nQui è possibile importare solo una frase segreta creata su Telegram."
     },
     {
       "_": "types.LangPackString",
@@ -59012,6 +59097,16 @@
       "value": "Procedi"
     },
     {
+      "_": "types.LangPackString",
+      "key": "Wallet.Import.Text",
+      "value": "Inserisci la frase segreta di 12 o 24 parole proveniente da un altro wallet di tua proprietà."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Import.Title",
+      "value": "Importa wallet"
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "key": "Wallet.Import.WordCount",
       "one_value": "%@ parola",
@@ -59019,8 +59114,48 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Import.WrongPhraseText",
+      "value": "Le parole che inserite non corrispondono a quelle del wallet."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Import.WrongPhraseTitle",
       "value": "Frase segreta errata"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Info.BlockchainVerifiedText",
+      "value": "Tutte le transazioni sono registrate\ne sono verificabili su un registro pubblico."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Info.BlockchainVerifiedTitle",
+      "value": "Verificato dalla blockchain"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Info.CheapText",
+      "value": "I costi sono praticamente nulli, anche per i trasferimenti di importo elevato."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Info.CheapTitle",
+      "value": "Economico"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Info.FastText",
+      "value": "I trasferimenti vengono confermati in pochi secondi, in qualsiasi parte del mondo."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Info.FastTitle",
+      "value": "Veloce"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Info.FirstGramsRateText",
+      "value": "**1 Gram** equivale attualmente a **%@**.\nPuoi:"
     },
     {
       "_": "types.LangPackString",
@@ -59034,13 +59169,83 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Info.GramRateText",
+      "value": "La valuta nativa della blockchain TON. **1 Gram** attualmente equivale a **%@**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Info.GramText",
+      "value": "La valuta nativa della blockchain TON."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Info.GramTitle",
       "value": "Gram"
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Info.InstantTransfersTitle",
+      "value": "Trasferimenti istantanei"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Info.NeverSharePhrase",
+      "value": "**Non condividere mai** la tua frase segreta con nessuno."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Info.PhraseSupportWarning",
+      "value": "L'assistenza di Telegram **non ti chiederà mai** la tua frase segreta."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Info.PhraseTheftWarning",
+      "value": "Se qualcuno ha la tua frase segreta, **può sottrarti i tuoi fondi**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Info.StoreTitle",
+      "value": "Conserva"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Info.Text",
+      "value": "Solo tu hai il controllo dei tuoi fondi:\nnessun altro ha accesso."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Info.Title",
       "value": "Come funziona"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Info.TradeText",
+      "value": "Converti i Gram in denaro o in cripto sugli exchange."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Info.TradeTitle",
+      "value": "Scambia"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Info.UsefulText",
+      "value": "Paga app, servizi e commissioni nell'ecosistema TON."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Info.UsefulTitle",
+      "value": "Utile"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Info.ZeroFeesText",
+      "value": "I primi 5 trasferimenti di ogni giorno sono gratuiti. Gli altri costano quasi nulla."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Info.ZeroFeesTitle",
+      "value": "Zero costi"
     },
     {
       "_": "types.LangPackString",
@@ -59064,6 +59269,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.PreviousWalletsBalance",
+      "value": "Hai anche %@ in vecchi wallet"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.ProtectAccount",
       "value": "Proteggi il tuo account"
     },
@@ -59079,6 +59289,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Receive.PurchaseUnavailableText",
+      "value": "Al momento non è possibile effettuare acquisti. Riprova più tardi."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Receive.PurchaseUnavailableTitle",
       "value": "Acquisto non disponibile"
     },
@@ -59089,8 +59304,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Receive.Text",
+      "value": "Condividi l'indirizzo o il\ncodice QR per ricevere GRAM."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Recipient.Error",
       "value": "Si è verificato un errore. Riprova più tardi."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Recipient.InvalidAddress",
+      "value": "Il testo incollato non è un indirizzo TON valido."
     },
     {
       "_": "types.LangPackString",
@@ -59101,6 +59326,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.Recipient.NoResults",
       "value": "Nessun risultato"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Recipient.NoResultsText",
+      "value": "Nessun risultato per \"%@\".\nProva un altro nome o indirizzo."
     },
     {
       "_": "types.LangPackString",
@@ -59124,6 +59354,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.SecretPhraseInfo",
+      "value": "La tua frase segreta è la chiave per eseguire il backup del tuo wallet. Conservala sempre al sicuro e non rivelarla a nessuno."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Send",
       "value": "Invia"
     },
@@ -59144,6 +59379,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Send.AmountPlaceholder",
+      "value": "Tocca per inserire l'importo"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Send.DepositFunds",
       "value": "Deposita fondi"
     },
@@ -59154,8 +59394,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Send.Grams",
+      "value": "Gram"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Send.InsufficientFunds",
       "value": "Fondi insufficienti."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Send.NetworkFee",
+      "value": "Costo di rete:"
     },
     {
       "_": "types.LangPackString",
@@ -59179,6 +59429,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Settings.BackupDisabledInfo",
+      "value": "Il backup crittografato della tua chiave sarà suddiviso in tre parti e conservato in tre continenti diversi.\n\nPuò essere ricomposto solo sui tuoi dispositivi, quindi nessuno, nemmeno Telegram, può accedere alla tua chiave."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Settings.BackupEnabledInfo",
+      "value": "Il backup crittografato della tua chiave è suddiviso in tre parti e conservato in tre continenti diversi.\n\nPuò essere ricomposto solo sui tuoi dispositivi, quindi nessuno, nemmeno Telegram, può accedere alla tua chiave."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Settings.DisableBackup",
       "value": "Disattiva il backup"
     },
@@ -59189,8 +59449,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Settings.EnterSecretPhrase",
+      "value": "Inserisci frase segreta"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Settings.PreviousWallets",
       "value": "Wallet precedenti"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Settings.SecretPhraseInfo",
+      "value": "Puoi trasferire il tuo wallet su un altro dispositivo copiando la tua frase segreta di 12 o 24 parole."
     },
     {
       "_": "types.LangPackString",
@@ -59201,6 +59471,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.Settings.WalletCreatedTitle",
       "value": "Wallet creato"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Settings.WalletImportedText",
+      "value": "Il tuo wallet è stato ripristinato dalla tua frase segreta."
     },
     {
       "_": "types.LangPackString",
@@ -59231,6 +59506,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.Sign.MessageExplanation",
       "value": "Controlla i dettagli del messaggio e firma se sei d'accordo."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sign.Submission",
+      "value": "L'app effettuerà questo trasferimento."
     },
     {
       "_": "types.LangPackString",
@@ -59279,6 +59559,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Transaction.CommentDecryptionErrorTitle",
+      "value": "Impossibile decifrare il commento"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Transaction.CommentPrivacy",
       "value": "Privacy commento"
     },
@@ -59299,6 +59584,26 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Transaction.Failed",
+      "value": "Fallita"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.FailedOperation",
+      "value": "%@ · Fallita"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.Fee",
+      "value": "Costo"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.FreeFee",
+      "value": "Gratis (pagato da Telegram)"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Transaction.GramInfo",
       "value": "Cos'è Gram?"
     },
@@ -59311,6 +59616,21 @@
       "_": "types.LangPackString",
       "key": "Wallet.Transaction.IncomingTransfer",
       "value": "Trasferimento in entrata"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.KeyUpdate",
+      "value": "Aggiornamento chiave"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.NetworkFeesText",
+      "value": "Ogni trasferimento comporta una piccola commissione di rete pari a %1$@.\n\nTelegram copre i tuoi primi %2$@ ogni giorno."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.NetworkFeesTitle",
+      "value": "Costi di rete"
     },
     {
       "_": "types.LangPackString",
@@ -59400,6 +59720,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Transfer.CommentEncryptionErrorTitle",
+      "value": "Impossibile crittografare il commento"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transfer.CommentTooLongText",
+      "value": "Il commento crittografato è troppo lungo. Abbrevialo e riprova."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Transfer.CommentTooLongTitle",
       "value": "Commento troppo lungo"
     },
@@ -59412,6 +59742,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.Transfer.KeyChangedTitle",
       "value": "Chiave wallet cambiata"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transfer.PendingText",
+      "value": "Il trasferimento potrebbe essere stato inviato. Non inviarlo di nuovo mentre ne viene verificato lo stato."
     },
     {
       "_": "types.LangPackString",
@@ -59442,6 +59777,16 @@
       "_": "types.LangPackString",
       "key": "Wallet.Words.NewTitle",
       "value": "Nuova frase segreta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Words.TooFastAction",
+      "value": "Ok, scusa"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Words.TooFastTitle",
+      "value": "Tutto fatto?"
     },
     {
       "_": "types.LangPackString",
@@ -61171,5 +61516,5 @@
       "value": "Hai inserito un codice di sicurezza non valido."
     }
   ],
-  "version": 22121554
+  "version": 22124230
 }
