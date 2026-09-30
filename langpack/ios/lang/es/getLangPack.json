@@ -59529,6 +59529,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.OptionalMessage",
+      "value": "Mensaje opcional"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.PasscodeFaceId",
       "value": "Código de bloqueo y Face ID"
     },
@@ -59679,6 +59684,26 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Send.Add",
+      "value": "Añadir"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Send.AddComment",
+      "value": "Añadir comentario"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Send.Amount",
+      "value": "Enviar %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Send.AmountPlaceholder",
+      "value": "Toca para poner un monto"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Send.Balance",
       "value": "Saldo: %@"
     },
@@ -59689,8 +59714,23 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Send.EditComment",
+      "value": "Editar comentario"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Send.Grams",
       "value": "Grams"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Send.InsufficientFunds",
+      "value": "Fondos insuficientes."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Send.NetworkFee",
+      "value": "Tarifa de red:"
     },
     {
       "_": "types.LangPackString",
@@ -59704,8 +59744,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Send.UnlinkedWallet",
+      "value": "Billetera no vinculada"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.SendMoney",
       "value": "Enviar dinero"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Settings.Backup",
+      "value": "Respaldo cifrado"
     },
     {
       "_": "types.LangPackString",
@@ -59726,6 +59776,26 @@
       "_": "types.LangPackString",
       "key": "Wallet.Settings.DeleteWalletText",
       "value": "Perderás el acceso a tus fondos a menos que hayas guardado tu frase secreta."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Settings.DisableBackup",
+      "value": "Desactivar respaldo"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Settings.EnableBackup",
+      "value": "Activar respaldo"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Settings.EnterSecretPhrase",
+      "value": "Pon la frase secreta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Settings.EnterSecretPhraseInfo",
+      "value": "Pon tu frase secreta para restaurar el acceso a esta billetera."
     },
     {
       "_": "types.LangPackString",
@@ -59809,6 +59879,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.TonAddressCopied",
+      "value": "Dirección de TON copiada al portapapeles"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Transaction.Deposit",
       "value": "Depósito"
     },
@@ -59835,8 +59910,43 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Transfer.CommentEncryptionErrorText",
+      "value": "El comentario no se pudo cifrar para esta billetera. Verifica la conexión a la red y reinténtalo."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transfer.CommentEncryptionErrorTitle",
+      "value": "No se pudo cifrar el comentario"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transfer.CommentEncryptionUnavailable",
+      "value": "Esta billetera no puede recibir comentarios cifrados ahora."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transfer.CommentTooLongText",
+      "value": "El comentario cifrado es muy largo. Acórtalo y reinténtalo."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transfer.CommentTooLongTitle",
+      "value": "Comentario muy largo"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Transfer.DetailsHeader",
       "value": "DETALLES"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transfer.ErrorText",
+      "value": "No se pudo preparar ni enviar la transferencia. Revisa la dirección, el saldo, la conexión a la red y luego reinténtalo."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transfer.ErrorTitle",
+      "value": "Transferencia fallida"
     },
     {
       "_": "types.LangPackString",
@@ -59847,6 +59957,21 @@
       "_": "types.LangPackString",
       "key": "Wallet.Transfer.HeaderMultiple",
       "value": "TRANSFERENCIAS"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transfer.KeyChangedText",
+      "value": "La clave de la billetera ha cambiado. Actualiza la billetera y restablece el acceso con su frase de recuperación actual si es necesario. Luego confirma la transferencia nuevamente."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transfer.KeyChangedTitle",
+      "value": "Clave de la billetera cambiada"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transfer.PendingText",
+      "value": "Es posible que la transferencia haya sido enviada. No la vuelvas a enviar mientras se verifica su estado."
     },
     {
       "_": "types.LangPackString",
@@ -61632,5 +61757,5 @@
       "value": "Pusiste un código de seguridad inválido."
     }
   ],
-  "version": 22137760
+  "version": 22137767
 }
