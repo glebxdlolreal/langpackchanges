@@ -31385,6 +31385,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "MESSAGE_GRAM_TRANSFER",
+      "value": "{1} te envió {2}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MESSAGE_GRAM_TRANSFER_COMMENT",
+      "value": "{1} te envió {2}: {3}"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "MESSAGE_INVOICE",
       "value": "%1$@ te envió una factura por %2$@"
     },
@@ -39010,6 +39020,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PasscodeSettings.WalletEnableBiometricsReason",
+      "value": "Activa la biometría para tus billeteras"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Passkeys.AddPasskey",
       "value": "Añadir llave de acceso"
     },
@@ -45500,8 +45515,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "REACT_GAME_SCORE",
+      "value": "%1$@|reaccionó %2$@ a tu puntuación"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "REACT_GIVEAWAY",
       "value": "%1$@ reaccionó %2$@ a tu sorteo"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "REACT_PAID_MEDIA",
+      "value": "%1$@|reaccionó %2$@ a tu post de pago"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "REACT_PHOTO_SECRET",
+      "value": "%1$@|reaccionó %2$@ a tu foto con autodestrucción"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "REACT_VIDEO_SECRET",
+      "value": "%1$@|reaccionó %2$@ a tu video con autodestrucción"
     },
     {
       "_": "types.LangPackString",
@@ -47646,7 +47681,7 @@
     {
       "_": "types.LangPackString",
       "key": "Settings.MyTon",
-      "value": "Grams ganados"
+      "value": "Ganancias de grams"
     },
     {
       "_": "types.LangPackString",
@@ -58738,6 +58773,276 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Authorization.BackupDisabledText",
+      "value": "Activa el respaldo cifrado antes de restaurar la frase secreta desde Telegram."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Authorization.BackupDisabledTitle",
+      "value": "El respaldo está desactivado"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Authorization.BackupUnavailableText",
+      "value": "El respaldo cifrado no está disponible para esta billetera."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Authorization.BackupUnavailableTitle",
+      "value": "Respaldo no disponible"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Authorization.PasswordTooNewTitle",
+      "value": "La contraseña es demasiado nueva"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Authorization.SessionRetryAfter",
+      "value": "Por tu seguridad, reinténtalo en %@."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Authorization.SessionTooNewTitle",
+      "value": "La sesión es demasiado nueva"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Authorization.TwoStepRequiredTitle",
+      "value": "Verificación en dos pasos requerida"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Authorization.UpdatePhraseErrorText",
+      "value": "La nueva frase secreta no fue activada. Tu frase anterior y el respaldo cifrado siguen siendo válidos."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Authorization.VerificationExpiredTitle",
+      "value": "Verificación expirada"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Authorization.VerifyWalletErrorTitle",
+      "value": "No se pudo verificar la billetera"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.CancelDisabling",
+      "value": "Cancelar desactivación"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.CancelDisablingTitle",
+      "value": "¿Cancelar la desactivación del respaldo?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.DisableErrorTitle",
+      "value": "No se pudo desactivar el respaldo"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.DisableRetryText",
+      "value": "%@\n\nToca Desactivar para reintentarlo."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.DisableText",
+      "value": "La única forma de recuperar tus fondos será introducir manualmente tu frase secreta."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.DisableTitle",
+      "value": "¿Quieres desactivar el respaldo?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.DisabledText",
+      "value": "Tu frase secreta es ahora la única manera de restaurar tu billetera."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.DisabledTitle",
+      "value": "Respaldo desactivado"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.EnableErrorTitle",
+      "value": "No se pudo activar el respaldo"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.EnabledTitle",
+      "value": "Respaldo activado"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.InsufficientFundsTitle",
+      "value": "No hay suficientes grams"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.RequiredBalanceText",
+      "value": "Necesitas %@ para actualizar tu frase secreta. Añade fondos y reinténtalo."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.UpdateErrorTitle",
+      "value": "No se pudo actualizar el respaldo"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.UpdatePhrase",
+      "value": "Actualizar frase secreta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.UpdatePhraseErrorTitle",
+      "value": "No se pudo actualizar la frase secreta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.VerifyPhraseErrorTitle",
+      "value": "No se pudo verificar la frase secreta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.WalletChangedTitle",
+      "value": "Billetera cambiada"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Connect.SuccessText",
+      "value": "Ahora estás conectado a [%@]()."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Connect.SuccessTitle",
+      "value": "Conexión exitosa"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.GramTooltip",
+      "value": "Gram — La moneda digital para Telegram"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.HiddenTransactions",
+      "value": "Las transacciones por debajo de %@ están ocultas."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Import.EnableBackupText",
+      "value": "Pon la frase secreta actual de tu billetera para activar el respaldo cifrado."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Import.ErrorTitle",
+      "value": "No se pudo importar la billetera"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Import.InvalidCurrentPhraseLength",
+      "value": "Tu frase secreta actual debe tener exactamente 24 palabras. La frase pegada tiene %@."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Import.InvalidWord",
+      "value": "Palabra inválida"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.PasswordSetText",
+      "value": "Tu cuenta ahora está protegida."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.PasswordSetTitle",
+      "value": "Contraseña establecida"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Receive.CopyAddress",
+      "value": "Copiar mi dirección"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Recipient.Placeholder",
+      "value": "Nombre o dirección de la billetera"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Recipient.Title",
+      "value": "Elige destinatario"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.RestoreErrorTitle",
+      "value": "No se pudo restaurar la billetera"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Send.Balance",
+      "value": "Saldo: %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Send.Title",
+      "value": "Enviar dinero a"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Settings.DeleteWallet",
+      "value": "Eliminar billetera"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Settings.ImportWallet",
+      "value": "Importar una billetera existente"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Settings.ReplaceWalletErrorTitle",
+      "value": "No se pudo reemplazar la billetera"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Settings.ShowPhraseErrorTitle",
+      "value": "No se pudo mostrar la frase secreta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TermsText",
+      "value": "Al usar Wallet, aceptas los [términos de servicio]()."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TermsText_URL",
+      "value": "https://telegram.org/tos"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transfer.Header",
+      "value": "TRANSFERENCIA"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transfer.HeaderMultiple",
+      "value": "TRANSFERENCIAS"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Unavailable",
+      "value": "Wallet no está disponible actualmente."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Words.Title",
+      "value": "Tu frase secreta"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallpaper.ApplyForAll",
       "value": "Aplicar para todos los chats"
     },
@@ -60464,5 +60769,5 @@
       "value": "Pusiste un código de seguridad inválido."
     }
   ],
-  "version": 22125525
+  "version": 22134963
 }
