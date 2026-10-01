@@ -2166,6 +2166,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Attachment.Money",
+      "value": "Novac"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Attachment.MyAlbums",
       "value": "Moji albumi"
     },
@@ -31725,6 +31730,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "MESSAGE_GRAM_TRANSFER",
+      "value": "{1} vam šalje {2}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MESSAGE_GRAM_TRANSFER_COMMENT",
+      "value": "{1} vam šalje {2}: {3}"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "MESSAGE_INVOICE",
       "value": "%1$@ vam šalje račun od %2$@"
     },
@@ -34067,6 +34082,11 @@
       "_": "types.LangPackString",
       "key": "Monetization.TransactionsTitle",
       "value": "POVIJEST TRANSAKCIJA"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Monetization.Withdraw.AmountTooSmallError",
+      "value": "Ne možete isplatiti manje od 10 Grama."
     },
     {
       "_": "types.LangPackString",
@@ -38711,6 +38731,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PUSH_LOCKED_STORY",
+      "value": "Imate novu priču%1$@"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PUSH_MESSAGE",
       "value": "%1$@|Nova poruka"
     },
@@ -42500,6 +42525,11 @@
       "_": "types.LangPackString",
       "key": "PlaybackSpeed.Title",
       "value": "Brzina"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Poll.Timer.MinutesSeconds",
+      "value": "%1$@:%2$@"
     },
     {
       "_": "types.LangPackString",
@@ -48217,6 +48247,11 @@
       "_": "types.LangPackString",
       "key": "Settings.LogoutConfirmationTitle",
       "value": "Odjaviti se?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Settings.Money",
+      "value": "Novac"
     },
     {
       "_": "types.LangPackString",
@@ -59491,6 +59526,51 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Authorization.PasswordText",
+      "value": "Za nastavak unesite svoju Telegram lozinku za potvrdu u 2 koraka."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Authorization.PasswordTitle",
+      "value": "Telegram lozinka"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.CancelDisablingText",
+      "value": "Vaš tajni niz riječi neće biti ažuriran."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.DisablePhraseUpdateErrorText",
+      "value": "Promjena tajnog niza riječi nije mogla biti dovršena. Provjerite stanje novčanika i pokušajte ponovno."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.DisabledText",
+      "value": "Vaš tajni niz riječi sada je jedini način da vratite svoj novčanik."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.NetworkFee",
+      "value": "Mrežna naknada: %@."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.NewPhraseText",
+      "value": "Dobit ćete novi tajni niz riječi koje trebate zapisati. Adresa i vaša sredstva ostaju isti."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.WalletChangedTitle",
+      "value": "Novčanik je promijenjen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.CopyAddress",
+      "value": "Kopiraj adresu"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Currency",
       "value": "Valuta"
     },
@@ -59508,6 +59588,16 @@
       "_": "types.LangPackString",
       "key": "Wallet.GotIt",
       "value": "U redu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.GramTooltip",
+      "value": "Gram — Digitalna valuta za Telegram"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.HiddenTransactions",
+      "value": "Transakcije manje od %@ su skrivene."
     },
     {
       "_": "types.LangPackString",
@@ -59613,13 +59703,73 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.PasswordSetText",
+      "value": "Vaš račun je sada zaštićen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.PasswordSetTitle",
+      "value": "Lozinka je postavljena"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Receive.CopyAddress",
+      "value": "Kopiraj moju adresu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Recipient.InvalidAddressText",
+      "value": "Adresa novčanika nije važeća.\nProvjerite ili pokušajte s drugom adresom."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Recipient.NoRecentRecipients",
+      "value": "Nedavni primatelji\nće se pojaviti ovdje"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Recipient.Placeholder",
       "value": "Naziv ili adresa novčanika"
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Recipient.Title",
+      "value": "Odaberite primatelja"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Send",
       "value": "Pošalji"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Send.Add",
+      "value": "Dodaj"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Send.AddComment",
+      "value": "Dodaj komentar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Send.Balance",
+      "value": "Stanje: %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Send.EditComment",
+      "value": "Uredi komentar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Send.InsufficientFunds",
+      "value": "Nedovoljno sredstava."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Send.NetworkFee",
+      "value": "Mrežna naknada:"
     },
     {
       "_": "types.LangPackString",
@@ -59633,8 +59783,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Settings.CreateWallet",
+      "value": "Napravi novi novčanik"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Settings.DeleteAnyway",
+      "value": "Svejedno izbriši"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Settings.DeleteWallet",
       "value": "Izbriši novčanik"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Settings.DeleteWalletText",
+      "value": "Izgubit ćete pristup svojim sredstvima osim ako niste spremili svoj tajni niz riječi."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Settings.DeleteWalletTitle",
+      "value": "Izbrisati račun?"
     },
     {
       "_": "types.LangPackString",
@@ -59648,8 +59818,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Settings.ImportWallet",
+      "value": "Uvezi postojeći novčanik"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Settings.PreviousWalletsInfo",
       "value": "Novčanici koje ste prije koristili na ovom uređaju. Spremite njihove tajne nizove riječi — bit će uklonjeni ako se odjavite ili ponovno instalirate aplikaciju."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Settings.ReplaceWalletTitle",
+      "value": "Kako želite zamijeniti stari novčanik?"
     },
     {
       "_": "types.LangPackString",
@@ -59658,8 +59838,43 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Settings.WalletCreatedText",
+      "value": "Vaš novi novčanik je spreman za korištenje."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Settings.WalletImportedText",
       "value": "Vaš novčanik je obnovljen pomoću tajnog niza riječi."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sign.Fee",
+      "value": "Naknada: %@."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sign.FeeWithFiat",
+      "value": "Naknada: %1$@ (%2$@)."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sign.FieldAddress",
+      "value": "adresa"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sign.FieldAmount",
+      "value": "iznos"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sign.FieldComment",
+      "value": "komentar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sign.FieldMessage",
+      "value": "poruka"
     },
     {
       "_": "types.LangPackString",
@@ -59678,13 +59893,33 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Transaction.AnonymousNumber",
+      "value": "Anonimni broj"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Transaction.Date",
       "value": "Datum"
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Transaction.Fee",
+      "value": "Naknada"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Transaction.GramInfo",
       "value": "Što je Gram?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.NetworkFeesTitle",
+      "value": "Mrežne naknade"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.PrivateComment",
+      "value": "Vidljivo samo vama i primatelju."
     },
     {
       "_": "types.LangPackString",
@@ -59703,8 +59938,65 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Transaction.UnknownAddress",
+      "value": "Nepoznata adresa"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.Username",
+      "value": "Korisničko ime"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.WhatIsGram",
+      "value": "Što je Gram?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transfer.AllBalance",
+      "value": "Ukupno stanje"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transfer.DetailsHeader",
+      "value": "DETALJI"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transfer.Header",
+      "value": "PRIJENOS"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transfer.HeaderMultiple",
+      "value": "PRIJENOSI"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Transfer.KeyChangedTitle",
       "value": "Ključ novčanika promijenjen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transfer.PreviewHeader",
+      "value": "PREGLED"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "%@ primatelja",
+      "key": "Wallet.Transfer.RecipientCount",
+      "one_value": "%@ primatelj",
+      "other_value": "%@ primatelja"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Unavailable",
+      "value": "Novčanik trenutno nije dotupan."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Words.Title",
+      "value": "Vaš tajni niz riječi"
     },
     {
       "_": "types.LangPackString",
@@ -61441,5 +61733,5 @@
       "value": "Unijeli ste pogrešan sigurnosni kod."
     }
   ],
-  "version": 22140965
+  "version": 22142840
 }
