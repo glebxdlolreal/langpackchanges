@@ -39110,6 +39110,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PasscodeSettings.TurnOffWalletProtectionWarning",
+      "value": "Esto también desactivará el código y la protección biométrica para todas las billeteras en este dispositivo."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PasscodeSettings.TurnPasscodeOff",
       "value": "Desactivar código"
     },
@@ -39157,6 +39162,16 @@
       "_": "types.LangPackString",
       "key": "PasscodeSettings.WalletEnableBiometricsReason",
       "value": "Activa la biometría para tus billeteras"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PasscodeSettings.WalletProtectionError",
+      "value": "No se pudo actualizar la protección de la billetera. Por favor, reinténtalo."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PasscodeSettings.WalletProtectionInfo",
+      "value": "Requerido al enviar fondos o al confirmar otras acciones sensibles de la billetera."
     },
     {
       "_": "types.LangPackString",
@@ -47937,6 +47952,11 @@
       "_": "types.LangPackString",
       "key": "Settings.LogoutConfirmationText",
       "value": "Esto cancelará todos tus chats secretos.\n\nPuedes usar Telegram en todos tus dispositivos al mismo tiempo y usar varias cuentas en la misma app."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Settings.LogoutConfirmationTextWithWallets",
+      "value": "Esto cancelará todos tus chats secretos y **eliminará los respaldos de la billetera que contienen %@**. Perderás el acceso a estos fondos si no has guardado sus frases de recuperación.\n\nPuedes usar Telegram en todos tus dispositivos a la vez y usar varias cuentas en la misma app."
     },
     {
       "_": "types.LangPackString",
@@ -59088,6 +59108,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Apps.AllPermissions",
+      "value": "Las apps conectadas pueden ver tu dirección de la billetera, saldo y actividad. No pueden mover fondos sin tu aprobación."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Apps.Disconnect",
       "value": "Desconectar"
     },
@@ -59168,6 +59193,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Authorization.PasswordText",
+      "value": "Pon la contraseña de verificación en dos pasos de Telegram para continuar."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Authorization.PasswordTitle",
       "value": "Contraseña de Telegram"
     },
@@ -59188,6 +59218,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Authorization.TwoStepRequiredText",
+      "value": "Establece una contraseña de Telegram antes de cambiar esta billetera."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Authorization.TwoStepRequiredTitle",
       "value": "Verificación en dos pasos requerida"
     },
@@ -59198,8 +59233,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Authorization.VerificationExpiredText",
+      "value": "La solicitud de verificación de la billetera expiró. Por favor, intenta importarla de nuevo."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Authorization.VerificationExpiredTitle",
       "value": "Verificación expirada"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Authorization.VerifyWalletErrorText",
+      "value": "Telegram no pudo verificar que esta billetera te pertenece. Por favor, intenta importarla de nuevo."
     },
     {
       "_": "types.LangPackString",
@@ -59228,8 +59273,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Backup.DisableConfirmationText",
+      "value": "Tu respaldo cifrado será eliminado. Tu frase secreta será la única manera de recuperar esta billetera."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.DisableErrorText",
+      "value": "No se pudo confirmar que el respaldo fue desactivado. Verifica la conexión a la red y reinténtalo."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Backup.DisableErrorTitle",
       "value": "No se pudo desactivar el respaldo"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.DisablePhraseUpdateErrorText",
+      "value": "No se pudo completar el cambio de la frase secreta. Verifica el estado de tu billetera y reinténtalo."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.DisablePhraseUpdatePendingText",
+      "value": "Telegram aún no pudo confirmar el cambio de la frase secreta en la blockchain. Espera un momento y toca Desactivar de nuevo."
     },
     {
       "_": "types.LangPackString",
@@ -59248,6 +59313,26 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Backup.DisableVerificationErrorText",
+      "value": "Telegram no pudo verificar que esta billetera te pertenece. Por favor, reinténtalo."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.DisableVerificationExpiredText",
+      "value": "La solicitud de verificación de la billetera expiró. Toca Desactivar para reintentarlo."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.DisableWalletChangedText",
+      "value": "La frase secreta de la billetera cambió mientras actualizabas los ajustes del respaldo. Restaura el acceso usando la frase secreta actual y reinténtalo."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.DisableWithNewPhraseText",
+      "value": "Tu respaldo cifrado será eliminado. Tu billetera cambiará a la nueva frase secreta. Esta frase secreta será la única manera de recuperar esta billetera."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Backup.DisabledText",
       "value": "Tu frase secreta es ahora la única manera de restaurar tu billetera."
     },
@@ -59260,6 +59345,26 @@
       "_": "types.LangPackString",
       "key": "Wallet.Backup.EnableErrorTitle",
       "value": "No se pudo activar el respaldo"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.EnablePhraseUpdatePendingText",
+      "value": "Telegram aún no pudo confirmar el cambio de la frase secreta en la blockchain. Espera un momento y reinténtalo, o pon la frase secreta actual."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.EnableVerificationExpiredText",
+      "value": "La solicitud de verificación de la billetera expiró. Por favor, reintenta activar el respaldo."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.EnableWalletChangedText",
+      "value": "La billetera cambió mientras se activaba el respaldo. Abre sus ajustes y reinténtalo."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.EnabledText",
+      "value": "Tus claves ahora están almacenadas cifradas en los centros de datos de Telegram."
     },
     {
       "_": "types.LangPackString",
@@ -59278,8 +59383,23 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Backup.InvalidPhraseText",
+      "value": "Verifica todas las palabras de tu frase secreta actual y reinténtalo."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Backup.NetworkFee",
       "value": "Tarifa de red: %@."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.NewPhraseText",
+      "value": "Tendrás una nueva frase para anotar. La dirección y el saldo siguen siendo los mismos."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.PhraseUpdatePendingTitle",
+      "value": "Actualización de la frase secreta pendiente"
     },
     {
       "_": "types.LangPackString",
@@ -59305,6 +59425,16 @@
       "_": "types.LangPackString",
       "key": "Wallet.Backup.UpdatePhraseErrorTitle",
       "value": "No se pudo actualizar la frase secreta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.UpdatePhraseTopUpText",
+      "value": "Necesitas un saldo que no esté en cero para actualizar tu frase secreta."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.VerifyPhraseErrorText",
+      "value": "Esta frase secreta puede estar desactualizada para tu billetera. Pon la frase secreta actual para activar el respaldo."
     },
     {
       "_": "types.LangPackString",
@@ -59409,7 +59539,7 @@
     {
       "_": "types.LangPackString",
       "key": "Wallet.Import.EnableBackupText",
-      "value": "Pon la frase secreta actual de tu billetera para activar el respaldo cifrado."
+      "value": "Pon la frase secreta actual de 12 o 24 palabras de tu billetera para activar el respaldo cifrado."
     },
     {
       "_": "types.LangPackString",
@@ -59438,6 +59568,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Import.InvalidPhraseText",
+      "value": "Verifica el orden de las palabras.\n\nAquí sólo se puede importar una frase secreta creada en Telegram."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Import.InvalidPhraseTitle",
       "value": "Frase secreta inválida"
     },
@@ -59460,6 +59595,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.Import.Proceed",
       "value": "Seguir"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Import.RecoveryExplanation",
+      "value": "Como desactivaste los respaldos para tu billetera, tienes que poner manualmente tu frase secreta en cada sesión de Telegram nueva."
     },
     {
       "_": "types.LangPackString",
@@ -59649,6 +59789,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.NetworkError",
+      "value": "Verifica la conexión a la red y reinténtalo."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.OptionalMessage",
       "value": "Mensaje opcional"
     },
@@ -59660,7 +59805,7 @@
     {
       "_": "types.LangPackString",
       "key": "Wallet.PasscodeTouchId",
-      "value": "Código de bloqueo y Touch ID"
+      "value": "Código y Touch ID"
     },
     {
       "_": "types.LangPackString",
@@ -59765,7 +59910,7 @@
     {
       "_": "types.LangPackString",
       "key": "Wallet.Recipient.Placeholder",
-      "value": "Nombre o dirección de la billetera"
+      "value": "Nombre o dirección"
     },
     {
       "_": "types.LangPackString",
@@ -60014,6 +60159,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Sign.BinaryContent",
+      "value": "Contenido binario"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sign.BinaryWarning",
+      "value": "Estás firmando a ciegas. Firma sólo datos de fuentes de confianza."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Sign.Confirm",
       "value": "Confirmar"
     },
@@ -60026,6 +60181,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.Sign.Data",
       "value": "Datos"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sign.Error",
+      "value": "No se pudo completar esta solicitud. Por favor, reinténtalo."
     },
     {
       "_": "types.LangPackString",
@@ -60079,6 +60239,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Sign.Sign",
+      "value": "Firmar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sign.SignData",
+      "value": "Firmar datos"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Sign.Submission",
       "value": "La app enviará esta transferencia."
     },
@@ -60116,6 +60286,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.Transaction.AnonymousNumber",
       "value": "Número anónimo"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.CallContract",
+      "value": "Llamar al contrato"
     },
     {
       "_": "types.LangPackString",
@@ -60159,8 +60334,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Transaction.DeployContract",
+      "value": "Desplegar contrato"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Transaction.Deposit",
       "value": "Depósito"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.Excess",
+      "value": "Excedente"
     },
     {
       "_": "types.LangPackString",
@@ -62183,5 +62368,5 @@
       "value": "Pusiste un código de seguridad inválido."
     }
   ],
-  "version": 22142919
+  "version": 22142951
 }
