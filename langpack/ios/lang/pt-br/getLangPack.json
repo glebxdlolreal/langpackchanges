@@ -6650,6 +6650,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Camera.CollageRemoveHint",
+      "value": "Toque para remover a grade"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Camera.CollageReorderHint",
+      "value": "Segure e arraste os blocos para reordená-los"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Camera.CollageReorderingInfo",
       "value": "Arraste o bloco para reordenar."
     },
@@ -11298,6 +11308,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Chat.GramTransfer.WithFiat",
+      "value": "%1$@ te enviou %2$@ (%3$@)"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.GramTransfer.WithFiatYou",
+      "value": "Você enviou %2$@ (%3$@) para %1$@"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Chat.GroupEmojiTooltip",
       "value": "Todos os membros do grupo podem usar o pacote **%@**."
     },
@@ -13594,7 +13614,7 @@
     {
       "_": "types.LangPackString",
       "key": "ChatList.AddBirthdayText",
-      "value": "Deixe os contatos saberem quando você comemora."
+      "value": "Deixe os contatos saberem quando comemorar."
     },
     {
       "_": "types.LangPackString",
@@ -31385,6 +31405,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "MESSAGE_GRAM_TRANSFER",
+      "value": "{1} te enviou {2}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MESSAGE_GRAM_TRANSFER_COMMENT",
+      "value": "{1} te enviou {2}: {3}"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "MESSAGE_INVOICE",
       "value": "%1$@ te enviou uma fatura de %2$@"
     },
@@ -31512,6 +31542,16 @@
       "_": "types.LangPackString",
       "key": "MESSAGE_VIDEO_SEPARATED",
       "value": "%1$@|te enviou um vídeo"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MESSAGE_WALLET_TONCONNECT_REQUEST",
+      "value": "Você tem uma solicitação TON Connect"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MESSAGE_WALLET_TONCONNECT_REQUEST_DAPP",
+      "value": "Você tem uma solicitação TON Connect de {2}"
     },
     {
       "_": "types.LangPackString",
@@ -33682,6 +33722,11 @@
       "_": "types.LangPackString",
       "key": "Monetization.TransactionsTitle",
       "value": "HISTÓRICO DE TRANSAÇÕES"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Monetization.Withdraw.AmountTooSmallError",
+      "value": "Você não pode sacar menos de 10 Grams."
     },
     {
       "_": "types.LangPackString",
@@ -38223,6 +38268,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PUSH_LOCKED_STORY",
+      "value": "Você tem um novo story%1$@"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PUSH_MESSAGE",
       "value": "%1$@|Nova mensagem"
     },
@@ -38965,6 +39015,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PasscodeSettings.LockWallet",
+      "value": "Bloquear Carteira"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PasscodeSettings.PasscodeOptions",
       "value": "Opções de Bloqueio"
     },
@@ -39007,6 +39062,11 @@
       "_": "types.LangPackString",
       "key": "PasscodeSettings.UnlockWithTouchId",
       "value": "Desbloquear com Touch ID"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PasscodeSettings.WalletProtectionInfo",
+      "value": "Obrigatório ao enviar fundos ou confirmar outras ações confidenciais da Carteira."
     },
     {
       "_": "types.LangPackString",
@@ -52588,6 +52648,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Story.Editor.CollageDraftAllMediaMissing",
+      "value": "Nenhuma das mídias nesta colagem está mais disponível. Este rascunho será apagado."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Story.Editor.Curves.All",
       "value": "Tudo"
     },
@@ -58738,6 +58803,688 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.AddFunds",
+      "value": "Adicionar Fundos"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Apps.AllPermissions",
+      "value": "Os apps conectados podem ver o endereço, o saldo e a atividade da sua carteira. Eles não podem movimentar fundos sem a sua aprovação."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Authorization.BackupDisabledText",
+      "value": "Ative o backup criptografado antes de restaurar a frase secreta pelo Telegram."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Authorization.BackupDisabledTitle",
+      "value": "Backup Está Desativado"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Authorization.BackupUnavailableText",
+      "value": "O backup criptografado não está disponível para esta carteira."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Authorization.BackupUnavailableTitle",
+      "value": "Backup Indisponível"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Authorization.PasswordRetryAfter",
+      "value": "Tente de novo em %@."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Authorization.PasswordText",
+      "value": "Digite sua senha de Verificação em Duas Etapas do Telegram para continuar."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Authorization.PasswordTitle",
+      "value": "Senha do Telegram"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Authorization.PasswordTooNewTitle",
+      "value": "Senha Muito Nova"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Authorization.SessionRetryAfter",
+      "value": "Para sua segurança, tente de novo em %@."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Authorization.SessionTooNewTitle",
+      "value": "Sessão Muito Nova"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Authorization.TwoStepRequiredText",
+      "value": "Configure uma senha do Telegram antes de alterar esta carteira."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Authorization.TwoStepRequiredTitle",
+      "value": "Verificação em Duas Etapas Necessária"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Authorization.UpdatePhraseErrorText",
+      "value": "A nova frase secreta não foi ativada. Sua frase anterior e backup criptografado ainda são válidos."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Authorization.VerificationExpiredText",
+      "value": "A solicitação de verificação da carteira expirou. Tente importá-la novamente."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Authorization.VerificationExpiredTitle",
+      "value": "Verificação Expirada"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Authorization.VerifyWalletErrorText",
+      "value": "O Telegram não conseguiu verificar se esta carteira é sua. Tente importá-la novamente."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Authorization.VerifyWalletErrorTitle",
+      "value": "Erro ao Verificar Carteira"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.CancelDisabling",
+      "value": "Cancelar Desativação"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.CancelDisablingText",
+      "value": "Sua frase secreta não será atualizada."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.CancelDisablingTitle",
+      "value": "Cancelar Desativação do Backup?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.Disable",
+      "value": "Desativar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.DisableConfirmationText",
+      "value": "Seu backup criptografado distribuído será apagado. Sua frase secreta será a única forma de recuperar esta carteira."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.DisableErrorText",
+      "value": "Não foi possível confirmar se o backup foi desativado. Verifique a conexão de rede e tente novamente."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.DisableErrorTitle",
+      "value": "Erro ao Desativar Backup"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.DisablePhraseUpdateErrorText",
+      "value": "A alteração da frase secreta não pôde ser concluída. Verifique o estado da sua carteira e tente novamente."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.DisablePhraseUpdatePendingText",
+      "value": "O Telegram ainda não conseguiu confirmar a mudança da frase secreta no blockchain. Espere um momento e toque em Desativar novamente."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.DisableRetryText",
+      "value": "%@\n\nToque em Desativar para tentar novamente."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.DisableText",
+      "value": "A única maneira de recuperar seus fundos será inserir manualmente sua frase secreta."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.DisableTitle",
+      "value": "Desativar Backup?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.DisableVerificationErrorText",
+      "value": "O Telegram não conseguiu verificar se esta carteira é sua. Tente novamente."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.DisableVerificationExpiredText",
+      "value": "A solicitação de verificação da carteira expirou. Toque em Desativar para tentar novamente."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.DisableWalletChangedText",
+      "value": "A frase secreta da carteira mudou enquanto você atualizava as configurações de backup. Restaure o acesso usando a frase secreta atual e tente novamente."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.DisableWithNewPhraseText",
+      "value": "Seu backup criptografado distribuído será apagado. Sua carteira mudará para a nova frase secreta. Esta frase secreta será a única forma de recuperar esta carteira."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.DisabledText",
+      "value": "Sua frase secreta agora é a única maneira de restaurar sua carteira."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.DisabledTitle",
+      "value": "Backup Desativado"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.EnableErrorTitle",
+      "value": "Erro ao Ativar Backup"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.EnablePhraseUpdatePendingText",
+      "value": "O Telegram ainda não conseguiu confirmar a mudança da frase secreta na blockchain. Aguarde um momento e tente novamente ou digite a frase secreta atual."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.EnableVerificationExpiredText",
+      "value": "A solicitação de verificação da carteira expirou. Tente ativar o backup novamente."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.EnableWalletChangedText",
+      "value": "A carteira mudou ao ativar o backup. Abra as configurações e tente novamente."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.EnabledText",
+      "value": "Suas chaves agora são armazenadas criptografadas entre servidores do Telegram."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.EnabledTitle",
+      "value": "Backup Ativado"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.EnterCurrentPhrase",
+      "value": "Digite a Frase Secreta Atual"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.InsufficientFundsTitle",
+      "value": "Grams Insuficientes"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.InvalidPhraseText",
+      "value": "Verifique todas as palavras da sua frase secreta atual e tente novamente."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.NetworkFee",
+      "value": "Taxa de rede: %@."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.NewPhraseText",
+      "value": "Você receberá uma nova frase para anotar. Endereço e saldo permanecem os mesmos."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.PhraseUpdatePendingTitle",
+      "value": "Atualização da Frase Secreta Pendente"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.RequiredBalanceText",
+      "value": "Você precisa de %@ para atualizar sua frase secreta. Adicione fundos e tente novamente."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.TopUp",
+      "value": "Carregar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.UpdateErrorTitle",
+      "value": "Erro ao Atualizar Backup"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.UpdatePhrase",
+      "value": "Atualizar Frase Secreta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.UpdatePhraseErrorTitle",
+      "value": "Erro ao Atualizar Frase Secreta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.UpdatePhraseTopUpText",
+      "value": "Você precisa de um saldo diferente de zero para atualizar sua frase secreta."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.VerifyPhraseErrorText",
+      "value": "Esta frase secreta pode estar desatualizada para sua carteira. Digite a frase secreta atual para ativar o backup."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.VerifyPhraseErrorTitle",
+      "value": "Erro ao Verificar a Frase Secreta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.WalletChangedTitle",
+      "value": "Carteira Alterada"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Connect.Action",
+      "value": "Conectar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Connect.Disclaimer",
+      "value": "%@ não poderá movimentar fundos sem permissão."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Connect.Proof",
+      "value": "Será solicitado que você comprove que esta é sua carteira para %@."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Connect.SuccessText",
+      "value": "Agora você se conectou a [%@]()."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Connect.SuccessTitle",
+      "value": "Conexão Bem-Sucedida"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Connect.Title",
+      "value": "Conectar-se a %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Currency",
+      "value": "Moeda"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Empty.InstantTransfersTitle",
+      "value": "Envie Dinheiro Instantâneo"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Empty.ZeroFeesTitle",
+      "value": "Sem Taxas"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.GotIt",
+      "value": "Entendi"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.GramTooltip",
+      "value": "Gram — Moeda digital para o Telegram"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.HiddenTransactions",
+      "value": "As transações em %@ estão ocultas."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Import.EnableBackupText",
+      "value": "Digite a frase secreta atual de 12 ou 24 palavras da sua carteira para ativar o backup criptografado."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Import.EnterPhraseText",
+      "value": "Digite a Frase Secreta da sua carteira\npara continuar. [Por quê?]()"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Import.ErrorText",
+      "value": "Verifique a frase secreta e a conexão de rede e tente novamente."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Import.ErrorTitle",
+      "value": "Erro ao Importar Carteira"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Import.InvalidCurrentPhraseLength",
+      "value": "Sua frase secreta atual deve conter exatamente 12 ou 24 palavras. A frase colada contém %@."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Import.InvalidWord",
+      "value": "Palavra inválida"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Info.BlockchainVerifiedText",
+      "value": "Todas as transações são registradas\ne verificáveis em um registro público."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Info.BlockchainVerifiedTitle",
+      "value": "Verificado na Blockchain"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Info.InstantTransfersText",
+      "value": "Envie Grams em qualquer chat, como quem compartilha uma foto."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Info.InstantTransfersTitle",
+      "value": "Transferências Instantâneas"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Info.SendTitle",
+      "value": "Enviar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Info.Text",
+      "value": "Só você controla seus fundos —\nninguém mais tem acesso."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Info.Title",
+      "value": "Como Funciona"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Info.ZeroFeesText",
+      "value": "As primeiras 5 transferências do dia são grátis. O resto custa quase nada."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Info.ZeroFeesTitle",
+      "value": "Taxa Zero"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.KeysAndBackup",
+      "value": "Chaves e Backup"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.NetworkError",
+      "value": "Verifique a conexão de rede e tente novamente."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.PasscodeFaceId",
+      "value": "Senha e Face ID"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.PasswordSetText",
+      "value": "Sua conta agora está protegida."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.PasswordSetTitle",
+      "value": "Senha definida"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Receive.CopyAddress",
+      "value": "Copiar meu endereço"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Receive.Text",
+      "value": "Compartilhe seu endereço ou o\nQR Code para receber GRAM."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Recipient.GramWallet",
+      "value": "Carteira de Gram"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Recipient.InvalidAddressText",
+      "value": "Este endereço de carteira é inválido.\nVerifique ou tente outro endereço."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Recipient.NoRecentRecipients",
+      "value": "Destinatários recentes\naparecerão aqui"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Recipient.Placeholder",
+      "value": "Nome ou endereço"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Recipient.Title",
+      "value": "Escolha o Destinatário"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.RestoreErrorTitle",
+      "value": "Erro ao Restaurar Carteira"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Retry",
+      "value": "Repetir"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Send",
+      "value": "Enviar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Send.Balance",
+      "value": "Saldo: %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Send.Grams",
+      "value": "Grams"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Send.Title",
+      "value": "Enviar Dinheiro para"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Settings.CreateWallet",
+      "value": "Criar Nova Carteira"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Settings.DeleteAnyway",
+      "value": "Apagar Mesmo Assim"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Settings.DeleteWallet",
+      "value": "Apagar Carteira"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Settings.DeleteWalletText",
+      "value": "Você perderá o acesso aos seus fundos, a menos que salve sua frase secreta."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Settings.DeleteWalletTitle",
+      "value": "Apagar Carteira?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Settings.ImportWallet",
+      "value": "Importar Carteira Existente"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Settings.LastUsed",
+      "value": "\n%1$@ — último uso %2$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Settings.ReplaceWalletErrorTitle",
+      "value": "Erro ao Substituir Carteira"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Settings.ReplaceWalletTitle",
+      "value": "Como deseja substituir a carteira antiga?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Settings.ShowPhraseErrorTitle",
+      "value": "Erro ao Mostrar Frase Secreta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sign.FieldAddress",
+      "value": "endereço"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sign.FieldAmount",
+      "value": "quantia"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sign.FieldComment",
+      "value": "comentário"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sign.FieldMessage",
+      "value": "mensagem"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sign.FieldPayload",
+      "value": "payload (BOC/Base64)"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sign.FieldStateInit",
+      "value": "stateInit (BOC/Base64)"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sign.FieldValidUntil",
+      "value": "valid_until"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sign.MessageExplanation",
+      "value": "Revise os detalhes da mensagem e assine se concordar."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sign.Submission",
+      "value": "O app enviará esta transferência."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sign.SubmissionUntil",
+      "value": "O app pode enviar esta transferência até %@."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sign.TextExplanation",
+      "value": "Revise cuidadosamente a mensagem e, se concordar, assine os dados."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TermsText",
+      "value": "Ao usar a Carteira, você concorda com os [Termos]()."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TermsText_URL",
+      "value": "https://telegram.org/tos"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "Wallet.Transaction.ItemCount",
+      "one_value": "%@ item",
+      "other_value": "%@ itens"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transfer.AllBalance",
+      "value": "Todo o Saldo"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transfer.DetailsHeader",
+      "value": "DETALHES"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transfer.Header",
+      "value": "TRANSFERIR"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transfer.HeaderMultiple",
+      "value": "TRANSFERÊNCIAS"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transfer.PreviewHeader",
+      "value": "PRÉVIA"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "Wallet.Transfer.RecipientCount",
+      "one_value": "%@ destinatário",
+      "other_value": "%@ destinatários"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transfer.ToAddress",
+      "value": "para %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transfer.Unavailable",
+      "value": "Indisponível"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Words.Title",
+      "value": "Sua Frase Secreta"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallpaper.ApplyForAll",
       "value": "Aplicar Em Todos os Chats"
     },
@@ -60464,5 +61211,5 @@
       "value": "Você inseriu um código de segurança inválido."
     }
   ],
-  "version": 22143007
+  "version": 22144596
 }
