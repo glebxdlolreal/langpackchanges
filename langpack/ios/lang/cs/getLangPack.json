@@ -32086,12 +32086,22 @@
     {
       "_": "types.LangPackString",
       "key": "MESSAGE_GRAM_TRANSFER",
-      "value": "{1} vám poslal/a {2}"
+      "value": "%1$@ vám poslal/a %2$@"
     },
     {
       "_": "types.LangPackString",
       "key": "MESSAGE_GRAM_TRANSFER_COMMENT",
-      "value": "{1} vám poslal/a {2}: {3}"
+      "value": "%1$@ vám poslal/a %2$@: %3$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MESSAGE_GRAM_TRANSFER_UNKNOWN",
+      "value": "Obdržel/a jste %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MESSAGE_GRAM_TRANSFER_UNKNOWN_COMMENT",
+      "value": "Obdržel/a jste %@: %@"
     },
     {
       "_": "types.LangPackString",
@@ -32231,7 +32241,7 @@
     {
       "_": "types.LangPackString",
       "key": "MESSAGE_WALLET_TONCONNECT_REQUEST_DAPP",
-      "value": "Máte žádost o připojení TON z {2}"
+      "value": "Máte žádost o připojení TON z %@"
     },
     {
       "_": "types.LangPackString",
@@ -35865,6 +35875,31 @@
       "_": "types.LangPackString",
       "key": "Notification.GramTransfer",
       "value": "%1$@ vám poslal/a %2$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.GramTransfer.UnknownUser",
+      "value": "NEZNÁMÝ UŽIVATEL"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.GramTransfer.WithFiat",
+      "value": "%1$@ vám poslal/a %2$@ (%3$@)"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.GramTransfer.WithFiatYou",
+      "value": "Poslal/a jste %1$@ %2$@ (%3$@)"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.GramTransferUnknown",
+      "value": "Někdo vám poslal %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.GramTransferUnknown.WithFiat",
+      "value": "Někdo vám poslal %1$@ (%2$@)"
     },
     {
       "_": "types.LangPackString",
@@ -60309,6 +60344,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.AddressCopied",
+      "value": "Adresa zkopírována"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Apps.ActiveConnections",
       "value": "Aktivní připojení"
     },
@@ -60654,6 +60694,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Collectibles",
+      "value": "Sběratelské"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Connect.Action",
       "value": "Připojit"
     },
@@ -60792,13 +60837,38 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Info.CheapText",
+      "value": "Poplatky jsou téměř nulové, a to i u velkých převodů."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Info.FastText",
+      "value": "Potvrzení převodu trvá jen několik sekund, a to kdekoli na světě."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Info.FirstGramsRateText",
       "value": "**1 Gram** se momentálně rovná **%@**.\nMůžete:"
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Info.FirstGramsText",
+      "value": "Můžete:"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Info.FirstGramsTitle",
       "value": "Váš první Gram!"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Info.GramRateText",
+      "value": "Místní měna blockchainu TON. **1 Gram** v současné době odpovídá **%@**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Info.GramText",
+      "value": "Místní měna blockchainu TON."
     },
     {
       "_": "types.LangPackString",
@@ -60814,6 +60884,21 @@
       "_": "types.LangPackString",
       "key": "Wallet.Info.InstantTransfersTitle",
       "value": "Okamžité převody"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Info.NeverSharePhrase",
+      "value": "**Nikdy nikomu nesdělujte** svou tajnou frázi."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Info.PhraseSupportWarning",
+      "value": "Podpora Telegramu **vás nikdy nebude žádat** o zadání tajné fráze."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Info.PhraseTheftWarning",
+      "value": "Pokud někdo zná vaši tajnou frázi, **může vám ukrást prostředky**."
     },
     {
       "_": "types.LangPackString",
@@ -60857,6 +60942,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Info.UsefulText",
+      "value": "Platit za aplikace, služby a poplatky v celém ekosystému TON."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Info.ZeroFeesText",
       "value": "Prvních 5 převodů je každý den zdarma. Zbytek nestojí téměř nic."
     },
@@ -60887,6 +60977,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.PasscodeTouchId",
+      "value": "Přístupový kód a Touch ID"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.PasswordSetText",
       "value": "Váš účet je nyní chráněn."
     },
@@ -60897,8 +60992,43 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.ProtectAccount",
+      "value": "Chraňte svůj účet"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Receive.Buy",
+      "value": "Nakupujte v hotovosti nebo kryptoměnou"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Receive.CopyAddress",
       "value": "Kopírovat moji adresu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Receive.PurchaseFailedText",
+      "value": "Nákup se nepodařilo zahájit. Zkuste to znovu."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Receive.PurchaseFailedTitle",
+      "value": "Nákup selhal"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Receive.PurchaseUnavailableText",
+      "value": "Nákup není momentálně dostupný. Zkuste to později."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Receive.PurchaseUnavailableTitle",
+      "value": "Nákup nedostupný"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Receive.ShowQR",
+      "value": "Zobrazit můj QR"
     },
     {
       "_": "types.LangPackString",
@@ -60907,8 +61037,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Recipient.Error",
+      "value": "Došlo k neznámé chybě. Zkuste to později."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Recipient.GramWallet",
       "value": "Gram Wallet"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Recipient.InvalidAddress",
+      "value": "Vložený text není platnou adresou TON."
     },
     {
       "_": "types.LangPackString",
@@ -60917,8 +61057,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Recipient.LinkedAddress",
+      "value": "Tato adresa v blockchainu TON je propojena s %@ na Telegramu."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Recipient.NoRecentRecipients",
       "value": "Zde se zobrazí\nnedávní příjemci"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Recipient.NoResults",
+      "value": "Žádné výsledky"
     },
     {
       "_": "types.LangPackString",
@@ -60932,8 +61082,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Recipient.ScanQR",
+      "value": "Vyhledejte QR kód, který obsahuje adresu peněženky"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Recipient.Title",
       "value": "Vyberte příjemce"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Recipient.UnlinkedAddress",
+      "value": "K této adrese v blockchainu TON není přiřazen žádný účet na Telegramu."
     },
     {
       "_": "types.LangPackString",
@@ -60947,8 +61107,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.ScanQR",
+      "value": "Vyhledejte QR kód, který obsahuje adresu peněženky,\nnebo připojte aplikaci"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.SecretPhrase",
       "value": "Tajná fráze"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.SecretPhraseInfo",
+      "value": "Vaše tajná fráze je klíčem k záloze vaší peněženky. Uchovávejte ji vždy v tajnosti a v bezpečí."
     },
     {
       "_": "types.LangPackString",
@@ -60964,6 +61134,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.Send.AddComment",
       "value": "Přidat komentář"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Send.Amount",
+      "value": "Poslat %@"
     },
     {
       "_": "types.LangPackString",
@@ -61007,6 +61182,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Send.RecipientWallet",
+      "value": "Peněženka uživatele %@"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Send.Title",
       "value": "Poslat peníze do"
     },
@@ -61019,6 +61199,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.SendMoney",
       "value": "Poslat peníze"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Settings.Backup",
+      "value": "Šifrovaná záloha"
     },
     {
       "_": "types.LangPackString",
@@ -61044,6 +61229,21 @@
       "_": "types.LangPackString",
       "key": "Wallet.Settings.DeleteWalletTitle",
       "value": "Smazat peněženku?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Settings.DisableBackup",
+      "value": "Zakázat zálohu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Settings.EnableBackup",
+      "value": "Povolit zálohu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Settings.EnterSecretPhrase",
+      "value": "Zadat tajnou frázi"
     },
     {
       "_": "types.LangPackString",
@@ -61094,6 +61294,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.Settings.WalletImportedTitle",
       "value": "Peněženka importována"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.ShowSecretPhrase",
+      "value": "Zobrazit tajnou frázi"
     },
     {
       "_": "types.LangPackString",
@@ -61338,6 +61543,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Transactions",
+      "value": "Transakce"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Transfer.AllBalance",
       "value": "Všechny zůstatky"
     },
@@ -61363,8 +61573,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Transfer.CommentTooLongTitle",
+      "value": "Komentář je příliš dlouhý"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Transfer.DetailsHeader",
       "value": "DETAILY"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transfer.ErrorText",
+      "value": "Převod se nepodařilo připravit ani odeslat. Zkontrolujte adresu, zůstatek a připojení k síti a zkuste to znovu."
     },
     {
       "_": "types.LangPackString",
@@ -61390,6 +61610,16 @@
       "_": "types.LangPackString",
       "key": "Wallet.Transfer.KeyChangedTitle",
       "value": "Klíč peněženky změněn"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transfer.PendingText",
+      "value": "Převod již mohl být odeslán. Neodesílejte jej znovu, dokud se ověřuje jeho stav."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transfer.PendingTitle",
+      "value": "Převod ve frontě"
     },
     {
       "_": "types.LangPackString",
@@ -63196,5 +63426,5 @@
       "value": "Byl zadán neplatný kód."
     }
   ],
-  "version": 22155762
+  "version": 22165488
 }
