@@ -31466,12 +31466,22 @@
     {
       "_": "types.LangPackString",
       "key": "MESSAGE_GRAM_TRANSFER",
-      "value": "{1} te envió {2}"
+      "value": "%1$@ te envió %2$@"
     },
     {
       "_": "types.LangPackString",
       "key": "MESSAGE_GRAM_TRANSFER_COMMENT",
-      "value": "{1} te envió {2}: {3}"
+      "value": "%1$@ te envió %2$@: %3$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MESSAGE_GRAM_TRANSFER_UNKNOWN",
+      "value": "Recibiste %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MESSAGE_GRAM_TRANSFER_UNKNOWN_COMMENT",
+      "value": "Recibiste %@: %@"
     },
     {
       "_": "types.LangPackString",
@@ -31611,7 +31621,7 @@
     {
       "_": "types.LangPackString",
       "key": "MESSAGE_WALLET_TONCONNECT_REQUEST_DAPP",
-      "value": "Tienes una solicitud de TON Connect de {2}"
+      "value": "Tienes una solicitud de TON Connect de %@"
     },
     {
       "_": "types.LangPackString",
@@ -35093,6 +35103,31 @@
       "_": "types.LangPackString",
       "key": "Notification.GramTransfer",
       "value": "%1$@ te envió %2$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.GramTransfer.UnknownUser",
+      "value": "USUARIO DESCONOCIDO"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.GramTransfer.WithFiat",
+      "value": "%1$@ te envió %2$@ (%3$@)"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.GramTransfer.WithFiatYou",
+      "value": "Enviaste %1$@ %2$@ (%3$@)"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.GramTransferUnknown",
+      "value": "Alguien te envió %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.GramTransferUnknown.WithFiat",
+      "value": "Alguien te envió %1$@ (%2$@)"
     },
     {
       "_": "types.LangPackString",
@@ -62388,5 +62423,5 @@
       "value": "Pusiste un código de seguridad inválido."
     }
   ],
-  "version": 22174092
+  "version": 22174140
 }
