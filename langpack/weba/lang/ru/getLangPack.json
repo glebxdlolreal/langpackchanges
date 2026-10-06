@@ -555,6 +555,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ActionJoinedViaCommunity",
+      "value": "{from} вступил(а) через сообщество {community}"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ActionKickUser",
       "value": "{from} исключил(а) {user}"
     },
@@ -2335,6 +2340,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AudioOpenPlaylist",
+      "value": "Плейлист"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AudioPause",
       "value": "Пауза"
     },
@@ -2342,6 +2352,16 @@
       "_": "types.LangPackString",
       "key": "AudioPlay",
       "value": "Воспроизвести"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AudioPlaybackOrder",
+      "value": "Порядок воспроизведения"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AudioPlaybackRate",
+      "value": "Скорость воспроизведения"
     },
     {
       "_": "types.LangPackString",
@@ -2365,6 +2385,26 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AudioRepeatList",
+      "value": "Зациклить список"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AudioRepeatOff",
+      "value": "Повтор откл."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AudioRepeatSong",
+      "value": "Зациклить трек"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AudioReverseOrder",
+      "value": "Обратный порядок"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AudioSaveToMyProfileSaved",
       "value": "Аудиофайл добавлен в профиль."
     },
@@ -2372,6 +2412,21 @@
       "_": "types.LangPackString",
       "key": "AudioSaveToMyProfileUnsaved",
       "value": "Аудиофайл удалён из профиля."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AudioShowInChat",
+      "value": "Показать в чате"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AudioShuffleList",
+      "value": "Случайный порядок"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AudioVolume",
+      "value": "Громкость"
     },
     {
       "_": "types.LangPackString",
@@ -2802,6 +2857,11 @@
       "_": "types.LangPackString",
       "key": "BotDownloadFileTitle",
       "value": "Скачивание файла"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotDraftStop",
+      "value": "Остановить"
     },
     {
       "_": "types.LangPackString",
@@ -5237,6 +5297,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "EditAdminManageWelcomeMessages",
+      "value": "Управление приветствиями"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "EditAdminPinMessages",
       "value": "Закрепление сообщений"
     },
@@ -5512,6 +5577,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "EphemeralAnchoredNotice",
+      "value": "Эту версию сообщения видите только Вы."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "EphemeralContextMenuNotice",
       "value": "Это сообщение видите только Вы. Оно исчезнет после перезапуска приложения."
     },
@@ -5529,6 +5599,21 @@
       "_": "types.LangPackString",
       "key": "EphemeralReplyUnavailable",
       "value": "Сообщение больше не доступно"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EphemeralRevert",
+      "value": "Вернуть"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EphemeralRevertDescription",
+      "value": "Возвращает исходный вид сообщения"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EphemeralUpdated",
+      "value": "обновлено"
     },
     {
       "_": "types.LangPackString",
@@ -6127,7 +6212,7 @@
     {
       "_": "types.LangPackString",
       "key": "FormattingEnterUrl",
-      "value": "Укажите ссылку..."
+      "value": "Ссылка..."
     },
     {
       "_": "types.LangPackString",
@@ -9917,6 +10002,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "OpenUrlWarning",
+      "value": "Эта ссылка содержит подозрительные символы или скрывает настоящий адрес. Будьте осторожны при переходе по ней."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "OptionHint",
       "value": "Ответ"
     },
@@ -10058,13 +10148,103 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PasscodeDataCorrupted",
+      "value": "Не удалось восстановить зашифрованные данные. Чтобы пользоваться Telegram дальше, выйдите из всех аккаунтов и войдите в них заново."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PasscodeEnterPasscodePlaceholder",
       "value": "Введите код-пароль"
     },
     {
       "_": "types.LangPackString",
+      "key": "PasscodeForgotHelp",
+      "value": "Важно: если Вы забудете код-пароль, нужно будет {logOut}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PasscodeForgotHelpLink",
+      "value": "выйти из всех аккаунтов"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PasscodeKeepBackground",
+      "value": "Использовать фон"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PasscodeKeepBackgroundInfo",
+      "value": "Показывать фоновое изображение на экране блокировки"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PasscodeLockScreenTitle",
+      "value": "Экран блокировки"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PasscodeLogOutAllAccounts",
+      "value": "Выйти из всех аккаунтов"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PasscodeLogOutAllConfirm",
+      "value": "Удалить все учётные записи и локальные данные из этого браузера? Сеансы будут активны, пока Вы не завершите их в разделе Настройки > Устройства."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PasscodePasskeyDescription",
+      "value": "Настройте вход по лицу, отпечатку или ПИН-коду устройства вместо кода-пароля."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PasscodePasskeyEnable",
+      "value": "Настроить ключ доступа"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PasscodePasskeyError",
+      "value": "Не удалось войти с ключом доступа. Используте код-пароль."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PasscodePasskeyName",
+      "value": "Код-пароль"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PasscodePasskeyRemovedChange",
+      "value": "Ключ доступа был удалён при смене кода-пароля. Добавьте ключ доступа заново, чтобы использовать его для входа."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PasscodePasskeyTitle",
+      "value": "Ключ доступа"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PasscodePasskeyUnsupported",
+      "value": "Ваше устройство или браузер не поддерживает использование ключа доступа для входа."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PasscodeSwitchToKInfo",
+      "value": "Чтобы переключиться на версию K, сперва отключите код-пароль."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PasscodeTooManyAttempts",
+      "value": "Лимит попыток исчерпан. Попробуйте позже."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PasscodeTurnOff",
       "value": "Выключить код-пароль"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PasscodeUsePasskey",
+      "value": "Вход с ключом доступа"
     },
     {
       "_": "types.LangPackString",
@@ -10530,6 +10710,11 @@
       "_": "types.LangPackString",
       "key": "PlaylistTitle",
       "value": "Плейлист {peer}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PlaylistYourTitle",
+      "value": "Ваш плейлист"
     },
     {
       "_": "types.LangPackString",
@@ -11266,8 +11451,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PrivacyMusic",
+      "value": "Сохранённая музыка"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PrivacyMusicInfo",
       "value": "Вы можете выбрать, кому доступен просмотр сохранённой музыки в Вашем профиле."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PrivacyMusicTitle",
+      "value": "Кто видит мою сохранённую музыку?"
     },
     {
       "_": "types.LangPackString",
@@ -11435,6 +11630,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ProfilePollsEmpty",
+      "value": "Опросов пока нет"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ProfileSendAGift",
       "value": "Отправить подарок"
     },
@@ -11482,6 +11682,11 @@
       "_": "types.LangPackString",
       "key": "ProfileTabPlaylist",
       "value": "Плейлист"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ProfileTabPolls",
+      "value": "Опросы"
     },
     {
       "_": "types.LangPackString",
@@ -12039,6 +12244,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Retry",
+      "value": "Повторить"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Review",
       "value": "Изменить"
     },
@@ -12069,6 +12279,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "RichButtonAction",
+      "value": "Действие"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichButtonAdd",
+      "value": "Добавить кнопку в ряд"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "RichButtonAlign",
       "value": "Выровнять"
     },
@@ -12076,6 +12296,11 @@
       "_": "types.LangPackString",
       "key": "RichButtonCenter",
       "value": "По центру"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichButtonCopy",
+      "value": "Текст"
     },
     {
       "_": "types.LangPackString",
@@ -12089,6 +12314,36 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "RichButtonDisabled",
+      "value": "Неактивна"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichButtonEarlier",
+      "value": "Переместить кнопку назад"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichButtonEdit",
+      "value": "Настройка кнопки"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichButtonInline",
+      "value": "Кнопка"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichButtonInvalidUrl",
+      "value": "Введите корректный URL-адрес."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichButtonLater",
+      "value": "Переместить кнопку вперёд"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "RichButtonLeft",
       "value": "По левому краю"
     },
@@ -12099,8 +12354,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "RichButtonProfile",
+      "value": "Профиль"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichButtonRemove",
+      "value": "Удалить кнопку"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "RichButtonRight",
       "value": "По правому краю"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichButtonRow",
+      "value": "Ряд кнопок"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichButtonSelectUser",
+      "value": "Выбор профиля"
     },
     {
       "_": "types.LangPackString",
@@ -12116,6 +12391,21 @@
       "_": "types.LangPackString",
       "key": "RichButtonSuccess",
       "value": "Зелёная"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichButtonUrl",
+      "value": "Ссылка"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichButtonUserId",
+      "value": "ID пользователя"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichButtons",
+      "value": "Кнопки"
     },
     {
       "_": "types.LangPackString",
@@ -12334,6 +12624,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "RichEditorTableCompact",
+      "value": "Компактный вид"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "RichEditorTableDelete",
       "value": "Удалить"
     },
@@ -12470,8 +12765,26 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "RichMediaRetry",
+      "value": "Повторить загрузку"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Пропущено {count} файла.",
+      "key": "RichMediaSkippedFiles",
+      "many_value": "Пропущено {count} файлов.",
+      "one_value": "Пропущен {count} файл.",
+      "other_value": "Пропущено {count} файла."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "RichMediaSlideshow",
       "value": "Слайд-шоу"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichMediaUploadFailed",
+      "value": "Ошибка при загрузке"
     },
     {
       "_": "types.LangPackString",
@@ -14511,7 +14824,7 @@
     {
       "_": "types.LangPackString",
       "key": "SuggestionBirthdaySetupMessage",
-      "value": "Контакты будут знать, когда Вас поздравить"
+      "value": "Контакты будут знать, когда Вас поздравить."
     },
     {
       "_": "types.LangPackString",
@@ -15720,6 +16033,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WebLoginInvalid",
+      "value": "Ссылка для входа недействительна или устарела. Воспользуйтесь действующей ссылкой или войдите обычным способом."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WebSessionsTitle",
       "value": "Авторизованные сайты"
     },
@@ -15870,5 +16188,5 @@
       "value": "Ваше имя"
     }
   ],
-  "version": 294459
+  "version": 295354
 }
