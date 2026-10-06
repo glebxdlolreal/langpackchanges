@@ -5699,8 +5699,43 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "CHAT_REACT_GAME_SCORE",
+      "value": "%2$@|%1$@ a reacționat cu %3$@ la scorul tău în joc"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "CHAT_REACT_GIVEAWAY",
       "value": "%1$@ a reacționat cu %3$@ în grupul %2$@ la giveaway-ul tău"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CHAT_REACT_NOTHEME",
+      "value": "%2$@|%1$@ a reacționat cu %3$@ la modificarea ta a temei"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CHAT_REACT_POLL_APPEND",
+      "value": "%2$@|%1$@ a reacționat cu %3$@ la actualizarea ta a sondajului"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CHAT_REACT_STORY",
+      "value": "%2$@|%1$@ a reacționat cu %3$@ la povestea ta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CHAT_REACT_THEME",
+      "value": "%2$@|%1$@ a reacționat cu %3$@ la schimbarea ta de temă"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CHAT_REACT_TODO_APPEND",
+      "value": "%2$@|%1$@ a reacționat cu %3$@ la actualizarea ta a listei"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CHAT_REACT_TODO_DONE",
+      "value": "%2$@|%1$@ a reacționat cu %3$@ la actualizarea ta a listei"
     },
     {
       "_": "types.LangPackString",
@@ -6332,6 +6367,11 @@
       "_": "types.LangPackString",
       "key": "Call.StatusWeakSignal",
       "value": "Semnal rețea slab"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Call.SystemStartErrorMessage",
+      "value": "A apărut o problemă"
     },
     {
       "_": "types.LangPackString",
@@ -11408,6 +11448,16 @@
       "_": "types.LangPackString",
       "key": "Chat.Giveaway.Toast.Participating",
       "value": "Participi la acest giveaway."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.GramTransfer.Received",
+      "value": "primit"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.GramTransfer.Sent",
+      "value": "trimis"
     },
     {
       "_": "types.LangPackString",
@@ -31746,12 +31796,22 @@
     {
       "_": "types.LangPackString",
       "key": "MESSAGE_GRAM_TRANSFER",
-      "value": "{1} ți-a trimis {2}"
+      "value": "%1$@ ți-a trimis %2$@"
     },
     {
       "_": "types.LangPackString",
       "key": "MESSAGE_GRAM_TRANSFER_COMMENT",
-      "value": "{1} ți-a trimis {2}: {3}"
+      "value": "%1$@ ți-a trimis %2$@: %3$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MESSAGE_GRAM_TRANSFER_UNKNOWN",
+      "value": "Ai primit %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MESSAGE_GRAM_TRANSFER_UNKNOWN_COMMENT",
+      "value": "Ai primit %@: %@"
     },
     {
       "_": "types.LangPackString",
@@ -31871,12 +31931,12 @@
     {
       "_": "types.LangPackString",
       "key": "MESSAGE_VIDEO_SECRET",
-      "value": "%1$@ ți-a trimis un video cu autodistrugere"
+      "value": "%1$@ ți-a trimis un clip cu autodistrugere"
     },
     {
       "_": "types.LangPackString",
       "key": "MESSAGE_VIDEO_SECRET_SEPARATED",
-      "value": "%1$@|ți-a trimis un video cu autodistrugere"
+      "value": "%1$@|ți-a trimis un clip cu autodistrugere"
     },
     {
       "_": "types.LangPackString",
@@ -31891,7 +31951,7 @@
     {
       "_": "types.LangPackString",
       "key": "MESSAGE_WALLET_TONCONNECT_REQUEST_DAPP",
-      "value": "Ai o solicitare TON Connect de la {2}"
+      "value": "Ai o solicitare TON Connect de la %@"
     },
     {
       "_": "types.LangPackString",
@@ -35447,6 +35507,46 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Notification.GramTransfer",
+      "value": "%1$@ ți-a trimis %2$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.GramTransfer.Compact",
+      "value": "ți-a trimis %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.GramTransfer.UnknownUser",
+      "value": "UTILIZATOR NECUNOSCUT"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.GramTransfer.WithFiat",
+      "value": "%1$@ ți-a trimis %2$@ (%3$@)"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.GramTransfer.WithFiatYou",
+      "value": "Ai trimis %1$@ %2$@ (%3$@)"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.GramTransferUnknown",
+      "value": "Cineva ți-a trimis %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.GramTransferUnknown.WithFiat",
+      "value": "Cineva ți-a trimis %1$@ (%2$@)"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.GramTransferYou",
+      "value": "Ai trimis %1$@ %2$@"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Notification.GroupChangedWallpaper",
       "value": "Grupul a setat un nou fundal"
     },
@@ -36495,12 +36595,12 @@
     {
       "_": "types.LangPackString",
       "key": "Notification.StarsGift.UpgradePrepaid",
-      "value": "%@ a despachetat cadoul la avansarea căruia ai ajutat"
+      "value": "%@ a despachetat cadoul la a cărui avansare ai ajutat"
     },
     {
       "_": "types.LangPackString",
       "key": "Notification.StarsGift.UpgradePrepaidYou",
-      "value": "Ai desfăcut cadoul la avansarea căruia %@ a ajutat"
+      "value": "Ai desfăcut cadoul la a cărui avansare %@ a ajutat"
     },
     {
       "_": "types.LangPackString",
@@ -39014,7 +39114,7 @@
     {
       "_": "types.LangPackString",
       "key": "PUSH_MESSAGE_VIDEO_SECRET",
-      "value": "%1$@|🔥 Video cu autodistrugere"
+      "value": "%1$@|🔥 Clip cu autodistrugere"
     },
     {
       "_": "types.LangPackString",
@@ -39510,6 +39610,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PasscodeSettings.LockTelegram",
+      "value": "Blochează Telegram"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PasscodeSettings.LockWallet",
       "value": "Blocare Bani"
     },
@@ -39557,6 +39662,36 @@
       "_": "types.LangPackString",
       "key": "PasscodeSettings.UnlockWithTouchId",
       "value": "Deblocare cu Touch ID"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PasscodeSettings.UpdateError",
+      "value": "Actualizarea codului de acces eșuată. Deblochează din nou și încearcă iar."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PasscodeSettings.VerificationError",
+      "value": "Verificarea codului de acces eșuată. Încearcă iar."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PasscodeSettings.WalletConfirmWithFaceId",
+      "value": "Confirmă cu Face ID"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PasscodeSettings.WalletConfirmWithPasscode",
+      "value": "Confirmă cu codul de acces"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PasscodeSettings.WalletConfirmWithTouchId",
+      "value": "Confirmă cu Touch ID"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PasscodeSettings.WalletEnableBiometricsReason",
+      "value": "Activează datele biometrice pt. portofelele tale"
     },
     {
       "_": "types.LangPackString",
@@ -46100,8 +46235,143 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "REACT_GAME_SCORE",
+      "value": "%1$@|a reacționat cu %2$@ la scorul tău în joc"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "REACT_GIFTCODE",
+      "value": "%1$@|a reacționat cu %2$@ la Codul tău Cadou"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "REACT_GIFT_THEME",
+      "value": "%1$@|a reacționat cu %2$@ la schimbarea ta de temă"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "REACT_GIVEAWAY",
       "value": "%1$@ a reacționat cu %2$@ la giveaway-ul tău"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "REACT_GIVEAWAY_STARS",
+      "value": "%1$@|a reacționat cu %2$@ la giveaway-ul tău"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "REACT_GRAM_TRANSFER",
+      "value": "%1$@|a reacționat cu %2$@ la transferul tău de %3$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "REACT_GRAM_TRANSFER_COMMENT",
+      "value": "%1$@|a reacționat cu %2$@ la transferul tău de %3$@: %4$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "REACT_NOTHEME",
+      "value": "%1$@|a reacționat cu %2$@ la schimbarea ta de temă"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "REACT_PAID_MEDIA",
+      "value": "%1$@|a reacționat cu %2$@ la postarea ta plătită"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "REACT_PHOTO_SECRET",
+      "value": "%1$@|a reacționat cu %2$@ la poza ta cu autodistrugere"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "REACT_PROXIMITY",
+      "value": "%1$@|a reacționat cu %2$@ la alerta ta de proximitate"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "REACT_RECURRING_PAY",
+      "value": "%1$@|a reacționat cu %2$@ la plata ta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "REACT_SAME_WALLPAPER",
+      "value": "%1$@|a reacționat cu %2$@ la același fundal"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "REACT_SCREENSHOT",
+      "value": "%1$@|a reacționat cu %2$@ la captura ta de ecran"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "REACT_STARGIFT",
+      "value": "%1$@|a reacționat cu %2$@ la Cadoul tău de %3$@ stele"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "REACT_STARGIFT_PREPAID_UPGRADE",
+      "value": "%1$@|a reacționat cu %2$@ la avansarea de %3$@ Stele a Cadoului tău"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "REACT_STARGIFT_UNPACK_UPGRADE",
+      "value": "%1$@|a reacționat cu %2$@ la Cadoul la a cărui avansare ai ajutat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "REACT_STARGIFT_UPGRADE",
+      "value": "%1$@|a reacționat cu %2$@ la Cadoul tău avansat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "REACT_STORY_MENTION",
+      "value": "%1$@|a reacționat cu %2$@ la mențiunea ta în poveste"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "REACT_SUGGEST_BIRTHDAY",
+      "value": "%1$@|a reacționat cu %2$@ la sugestia ta a zilei de naștere"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "REACT_SUGGEST_USERPIC",
+      "value": "%1$@|a reacționat cu %2$@ la sugestia ta de poză"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "REACT_THEME",
+      "value": "%1$@|a reacționat cu %2$@ la schimbarea ta de temă"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "REACT_TODO_APPEND",
+      "value": "%1$@|a reacționat cu %2$@ la actualizarea ta a listei"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "REACT_TODO_DONE",
+      "value": "%1$@|a reacționat cu %2$@ la actualizarea ta a listei"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "REACT_UNIQUE_STARGIFT",
+      "value": "%1$@|a reacționat cu %2$@ la Cadoul tău"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "REACT_VIDEO_SECRET",
+      "value": "%1$@|a reacționat cu %2$@ la clipul tău cu autodistrugere"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "REACT_WALLET_TONCONNECT_REQUEST",
+      "value": "%1$@|a reacționat cu %2$@ la solicitarea ta TON Connect"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "REACT_WALLPAPER",
+      "value": "%1$@|a reacționat cu %2$@ la noul fundal"
     },
     {
       "_": "types.LangPackString",
@@ -46800,6 +47070,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "RichText.AddEmoji",
+      "value": "Adaugă emoji"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "RichText.AddMediaTitle",
       "value": "Adăugare media"
     },
@@ -47075,6 +47350,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "RichText.PlaceholderCodeLanguage",
+      "value": "Limbaj"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "RichText.PlaceholderDetailTitle",
       "value": "Titlu"
     },
@@ -47117,6 +47397,16 @@
       "_": "types.LangPackString",
       "key": "RichText.TitleArticle",
       "value": "Text"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichTextPreview.Channel",
+      "value": "Canal"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichTextPreview.EmbeddedContent",
+      "value": "Conținut încorporat"
     },
     {
       "_": "types.LangPackString",
@@ -49754,6 +50044,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "SocksProxySetup.ProxyStatusNotTested",
+      "value": "netestat"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "SocksProxySetup.ProxyStatusPing",
       "value": "%@ ms ping"
     },
@@ -49771,6 +50066,11 @@
       "_": "types.LangPackString",
       "key": "SocksProxySetup.ProxyType",
       "value": "TIP"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SocksProxySetup.ProxyWeb",
+      "value": "WEB"
     },
     {
       "_": "types.LangPackString",
@@ -59229,6 +59529,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.Stop",
+      "value": "Oprește"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "VoiceOver.Chat.Title",
       "value": "Titlu: %@"
     },
@@ -59601,6 +59906,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.AuthenticationReason",
+      "value": "Confirmă accesul la portofelul tău"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Authorization.BackupDisabledText",
       "value": "Activează backupul criptat înainte de a restabili fraza secretă de pe Telegram."
     },
@@ -59931,6 +60241,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.CopyAddress",
+      "value": "Copiază adresa"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Currency",
       "value": "Monedă"
     },
@@ -59996,6 +60311,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Import.InvalidPhraseLength",
+      "value": "O frază secretă trebuie să conțină exact 12 sau 24 de cuvinte. Fraza lipită conține %@."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Import.InvalidPhraseText",
+      "value": "Verifică ordinea cuvintelor.\n\nDoar o frază secretă creată pe Telegram poate fi importată aici."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Import.InvalidPhraseTitle",
       "value": "Frază secretă invalidă"
     },
@@ -60006,8 +60331,43 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Import.PhraseChangedText",
+      "value": "Cheia acestui portofel a fost schimbată. Introdu fraza secretă curentă de 24 de cuvinte."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Import.PhraseChangedTitle",
+      "value": "Fraza secretă a fost schimbată"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Import.Proceed",
       "value": "Continuă"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Import.RecoveryExplanation",
+      "value": "Pentru că ai dezactivat backupurile portofelului tău, va trebui să introduci manual fraza ta secretă în fiecare sesiune Telegram nouă."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Import.TestText",
+      "value": "Asigură-te că ți-ai notat fraza secretă corect.\nIntrodu cuvintele **%1$@**, **%2$@** și **%3$@**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Import.TestTextFallback",
+      "value": "Asigură-te că ți-ai notat fraza secretă corect."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Import.TestTitle",
+      "value": "Să testăm"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Import.Text",
+      "value": "Introdu fraza secretă de 12 sau 24 de cuvinte a unui alt portofel pe care îl deții."
     },
     {
       "_": "types.LangPackString",
@@ -60020,6 +60380,11 @@
       "key": "Wallet.Import.WordCount",
       "one_value": "%@ cuvânt",
       "other_value": "%@ de cuvinte"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Import.WrongPhraseText",
+      "value": "Cuvintele pe care le-ai introdus nu se potrivesc cu portofelul."
     },
     {
       "_": "types.LangPackString",
@@ -60038,8 +60403,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Info.CheapText",
+      "value": "Taxele sunt aproape zero, și pentru transferurile mari."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Info.CheapTitle",
       "value": "Ieftin"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Info.FastText",
+      "value": "Transferurile sunt confirmate în câteva secunde, oriunde în lume."
     },
     {
       "_": "types.LangPackString",
@@ -60063,6 +60438,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Info.GramRateText",
+      "value": "Moneda nativă a blockchain-ului TON. **1 Gram** e acum egal cu **%@**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Info.GramText",
+      "value": "Moneda nativă a blockchain-ului TON."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Info.GramTitle",
       "value": "Gram"
     },
@@ -60075,6 +60460,16 @@
       "_": "types.LangPackString",
       "key": "Wallet.Info.InstantTransfersTitle",
       "value": "Transferuri instante"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Info.NeverSharePhrase",
+      "value": "**Nu partaja niciodată** fraza ta secretă cu nimeni."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Info.PhraseSupportWarning",
+      "value": "Asistența Telegram **nu-ți va solicita niciodată** fraza ta secretă."
     },
     {
       "_": "types.LangPackString",
@@ -60120,6 +60515,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.Info.TradeTitle",
       "value": "Tranzacționa"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Info.UsefulText",
+      "value": "Plătește pentru aplicații, servicii, și taxe în ecosistemul TON."
     },
     {
       "_": "types.LangPackString",
@@ -60513,6 +60913,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Sign.BinaryContent",
+      "value": "Conținut binar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sign.BinaryWarning",
+      "value": "Semnezi fără să verifici. Semnează date doar de la surse de încredere."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Sign.Confirm",
       "value": "Confirmă"
     },
@@ -60525,6 +60935,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.Sign.Data",
       "value": "Date"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sign.Error",
+      "value": "Solicitarea nu poate fi finalizată. Încearcă iar."
     },
     {
       "_": "types.LangPackString",
@@ -60628,6 +61043,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Transaction.CallContract",
+      "value": "Invocă contractul"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Transaction.CardTopUp",
       "value": "Încărcare card"
     },
@@ -60665,6 +61085,21 @@
       "_": "types.LangPackString",
       "key": "Wallet.Transaction.Date",
       "value": "Dată"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.DeployContract",
+      "value": "Publică contractul"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.Deposit",
+      "value": "Depozit"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.Excess",
+      "value": "Excedent"
     },
     {
       "_": "types.LangPackString",
@@ -60774,6 +61209,11 @@
       "value": "Autor"
     },
     {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.Transfer",
+      "value": "Transfer"
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "few_value": "%@ transferuri",
       "key": "Wallet.Transaction.Transfers",
@@ -60784,6 +61224,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.Transaction.UnknownAddress",
       "value": "Adresă necunoscută"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.UnknownOperation",
+      "value": "Operațiune necunoscută"
     },
     {
       "_": "types.LangPackString",
@@ -60914,8 +61359,23 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Unavailable",
+      "value": "Portofelul este momentan indisponibil."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.UnlinkedAddress",
+      "value": "Această adresă nu are un cont Telegram atașat."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.ViewInExplorer",
       "value": "Vezi în Explorer"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.ViewProfile",
+      "value": "Vezi profilul >"
     },
     {
       "_": "types.LangPackString",
@@ -62687,5 +63147,5 @@
       "value": "Ai introdus un cod de securitate invalid."
     }
   ],
-  "version": 22175765
+  "version": 22186989
 }
