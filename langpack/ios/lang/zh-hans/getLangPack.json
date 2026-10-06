@@ -41580,6 +41580,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Poll.Timer.MinutesSeconds",
+      "value": "%1$@:%2$@"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PollResults.Collapse",
       "value": "折叠"
     },
@@ -58135,8 +58140,88 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Apps.ActiveConnections",
+      "value": "活跃连接"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Apps.AllDisconnected",
+      "value": "所有应用已断开连接。"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Apps.AllPermissions",
       "value": "已连接的应用程序可以查看您的钱包地址、余额及交易记录。未经您批准，它们无法转移资金。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Apps.Disconnect",
+      "value": "断开连接"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Apps.DisconnectAll",
+      "value": "断开所有应用程序"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Apps.DisconnectAllAction",
+      "value": "全部断开"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Apps.DisconnectAllError",
+      "value": "无法断开這些应用程序。请再试一次。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Apps.DisconnectAllText",
+      "value": "这些应用程序将失去访问您钱包的权限。您可随时重新连接。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Apps.DisconnectAllTitle",
+      "value": "断开所有应用连接？"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Apps.DisconnectError",
+      "value": "无法断开此应用程序。请再试一次。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Apps.Disconnected",
+      "value": "%@ 已断开连接。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Apps.Permissions",
+      "value": "此应用可查看您的钱包地址、余额及交易记录。未经您批准，它无法转移资金。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Apps.Title",
+      "value": "已连接的 App"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Authorization.BackupDisabledText",
+      "value": "在从 Telegram 恢复助记词之前，请启用加密备份。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Authorization.BackupDisabledTitle",
+      "value": "备份已禁用"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Authorization.BackupUnavailableText",
+      "value": "此钱包不支持加密备份。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Authorization.BackupUnavailableTitle",
+      "value": "无法备份"
     },
     {
       "_": "types.LangPackString",
@@ -58145,8 +58230,63 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Authorization.PasswordText",
+      "value": "请输入你的 Telegram 两步验证码以继续操作。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Authorization.PasswordTitle",
+      "value": "Telegram 验证码"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Authorization.PasswordTooNewTitle",
+      "value": "验证码太新"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Authorization.SessionRetryAfter",
       "value": "为了您的安全，请在 %@ 后尝试。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Authorization.SessionTooNewTitle",
+      "value": "会话太新"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Authorization.TwoStepRequiredText",
+      "value": "在更改此钱包之前，请先设置 Telegram 密码。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Authorization.TwoStepRequiredTitle",
+      "value": "需要两步验证"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Authorization.UpdatePhraseErrorText",
+      "value": "新的助记词尚未启用。你之前的助记词和加密备份仍然有效。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Authorization.VerificationExpiredText",
+      "value": "钱包验证请求已过期。请重新尝试导入。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Authorization.VerificationExpiredTitle",
+      "value": "验证已过期"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Authorization.VerifyWalletErrorText",
+      "value": "Telegram 无法验证你的钱包。请重新尝试导入。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Authorization.VerifyWalletErrorTitle",
+      "value": "无法验证钱包"
     },
     {
       "_": "types.LangPackString",
@@ -58165,6 +58305,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Backup.Disable",
+      "value": "禁用"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Backup.DisableConfirmationText",
       "value": "您的分布式加密备份将被删除。此后，助记词将成为恢复此钱包的唯一方式。"
     },
@@ -58180,8 +58325,38 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Backup.DisablePhraseUpdateErrorText",
+      "value": "无法完成助记词更改。请检查您的钱包状态并重试。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.DisablePhraseUpdatePendingText",
+      "value": "Telegram 尚无法在区块链上确认密语的更改。请稍等片刻，然后再次点击 “禁用”。"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Backup.DisableRetryText",
       "value": "%@\n\n请点击「禁用」以重试。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.DisableText",
+      "value": "恢复资金的唯一方式是手动输入您的助记词。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.DisableTitle",
+      "value": "禁用备份？"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.DisableVerificationErrorText",
+      "value": "Telegram 无法验证您是否拥有此钱包。请重试。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.DisableVerificationExpiredText",
+      "value": "钱包验证请求已过期。点击 “禁用” 重试。"
     },
     {
       "_": "types.LangPackString",
@@ -58205,6 +58380,26 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Backup.EnableErrorTitle",
+      "value": "无法启用备份"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.EnablePhraseUpdatePendingText",
+      "value": "Telegram 暂无法在区块链上确认密语更改。请稍后重试，或输入当前密语。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.EnableVerificationExpiredText",
+      "value": "钱包验证请求已过期。请重新尝试启用备份。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.EnableWalletChangedText",
+      "value": "启用备份时钱包文件已更改。请打开钱包设置并重试。"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Backup.EnabledText",
       "value": "您的密钥现已在 Telegram 各数据中心加密存储。"
     },
@@ -58225,8 +58420,23 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Backup.InvalidPhraseText",
+      "value": "请核对当前助记词的所有单词，然后重试。"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Backup.NetworkFee",
       "value": "网络费用: %@。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.NewPhraseText",
+      "value": "您将收到一句新短语，请将其写下来。地址和余额维持不变。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.PhraseUpdatePendingTitle",
+      "value": "助记词更新待处理"
     },
     {
       "_": "types.LangPackString",
@@ -58235,8 +58445,68 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Backup.TopUp",
+      "value": "充值"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Backup.UpdateErrorTitle",
       "value": "无法更新备份"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.UpdatePhrase",
+      "value": "更新助记词"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.UpdatePhraseErrorTitle",
+      "value": "无法更新助记词"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.UpdatePhraseTopUpText",
+      "value": "您的余额必須不为零才能更新您的助记词。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.VerifyPhraseErrorText",
+      "value": "此助记词可能已过期，无法用于您的钱包。请输入当前的助记词以启用备份。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.VerifyPhraseErrorTitle",
+      "value": "无法验证密语"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.WalletChangedTitle",
+      "value": "钱包已更换"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Connect.Action",
+      "value": "连接"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Connect.Disclaimer",
+      "value": "未经许可，%@ 将无法转移资金。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Connect.Error",
+      "value": "无法连接此应用程序。请再试一次。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Connect.Permissions",
+      "value": "它将能查看您的钱包地址、余额及交易活动。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Connect.Proof",
+      "value": "它会要求您向 %@ 证明您拥有此钱包。"
     },
     {
       "_": "types.LangPackString",
@@ -58247,6 +58517,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.Connect.SuccessTitle",
       "value": "连接成功"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Connect.Title",
+      "value": "连接至 %@"
     },
     {
       "_": "types.LangPackString",
@@ -58395,6 +58670,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.NetworkError",
+      "value": "请检查网络连接并重试。"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.PasscodeFaceId",
       "value": "密码和面容 ID"
     },
@@ -58412,6 +58692,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.Receive.CopyAddress",
       "value": "复制我的地址"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Receive.Text",
+      "value": "分享您的地址或此\n二维码以接收 GRAM。"
     },
     {
       "_": "types.LangPackString",
@@ -58442,6 +58727,16 @@
       "_": "types.LangPackString",
       "key": "Wallet.Recipient.Title",
       "value": "选择收款方"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.RestoreErrorTitle",
+      "value": "无法恢复钱包"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Retry",
+      "value": "重试"
     },
     {
       "_": "types.LangPackString",
@@ -58495,6 +58790,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Settings.LastUsed",
+      "value": "\n%1$@ — 上次使用于 %2$@"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Settings.ReplaceWalletErrorTitle",
       "value": "无法替换钱包"
     },
@@ -58502,6 +58802,31 @@
       "_": "types.LangPackString",
       "key": "Wallet.Settings.ReplaceWalletTitle",
       "value": "您想要如何替换旧钱包？"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Settings.ShowPhraseErrorTitle",
+      "value": "无法显示助记词"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Settings.WalletCreatedText",
+      "value": "您的新钱包已可正常使用。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Settings.WalletCreatedTitle",
+      "value": "钱包已创建"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sign.Fee",
+      "value": "费用: %@."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sign.FeeWithFiat",
+      "value": "费用: %1$@ (%2$@)."
     },
     {
       "_": "types.LangPackString",
@@ -58516,7 +58841,7 @@
     {
       "_": "types.LangPackString",
       "key": "Wallet.Sign.FieldComment",
-      "value": "附言"
+      "value": "评论"
     },
     {
       "_": "types.LangPackString",
@@ -58540,6 +58865,26 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Sign.MessageExplanation",
+      "value": "请核对消息详情，如同意请签名。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sign.Submission",
+      "value": "该应用可以提交此转账。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sign.SubmissionUntil",
+      "value": "该应用可在 %@ 之前提交此转账。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sign.TextExplanation",
+      "value": "请仔细核对消息内容，如同意请对数据进行签名。"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.TermsText",
       "value": "使用此服务，即表示您同意 [条款]()。"
     },
@@ -58549,14 +58894,49 @@
       "value": "https://telegram.org/tos"
     },
     {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.CommentPrivacy",
+      "value": " 评论隐私"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.FailedOperation",
+      "value": "%@ · 失败"
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "key": "Wallet.Transaction.ItemCount",
       "other_value": "%@ 个项目"
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Transaction.NetworkFeesText",
+      "value": "每次转账都会收取一小笔网络费用 %1$@。\n\n每天的前 %2$@ 由 Telegram 为您承担。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.OpenWallet",
+      "value": "打开「我的钱包」"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.SendCollectible",
+      "value": "发送典藏品"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "Wallet.Transaction.Transfers",
+      "other_value": "%@ 笔转账"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Transfer.AllBalance",
       "value": "全部余额"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transfer.CollectibleSuccess",
+      "value": "此典藏品已发送至 **%@**。"
     },
     {
       "_": "types.LangPackString",
@@ -58595,8 +58975,38 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.ViewInExplorer",
+      "value": "在浏览器上查看"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Words.NewText",
+      "value": "已生成您钱包的新密语。请抄写并妥善保管，切勿泄露。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Words.NewTitle",
+      "value": "新密语"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Words.Title",
       "value": "你的助记词"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Words.TooFastAction",
+      "value": "好吧，抱歉"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Words.TooFastText",
+      "value": "您没有足够的时间将这些单词写下来。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Words.TooFastTitle",
+      "value": "都完成了吗？"
     },
     {
       "_": "types.LangPackString",
@@ -60319,5 +60729,5 @@
       "value": "您输入的安全码无效。"
     }
   ],
-  "version": 22178458
+  "version": 22178635
 }
