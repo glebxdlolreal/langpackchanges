@@ -13594,7 +13594,7 @@
     {
       "_": "types.LangPackString",
       "key": "ChatList.AddBirthdayText",
-      "value": "Kutlama yapacağınız zaman bunu kişilerinize bildirin."
+      "value": "Kişilerinize ne zaman kutlama yapacaklarını bildirin."
     },
     {
       "_": "types.LangPackString",
@@ -31385,6 +31385,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "MESSAGE_GRAM_TRANSFER_UNKNOWN_COMMENT",
+      "value": "%@ aldınız: %@"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "MESSAGE_INVOICE",
       "value": "%1$@, size %2$@ için bir fatura gönderdi"
     },
@@ -34983,6 +34988,21 @@
       "_": "types.LangPackString",
       "key": "Notification.GiveawayStartedStarsGroup",
       "value": "%1$@, üyeleri için %2$@ Telegram Yıldızı hediye etmeye başladı."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.GramTransfer.UnknownUser",
+      "value": "BİLİNMEYEN KULLANICI"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.GramTransferUnknown",
+      "value": "Birisi size %@ gönderdi"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.GramTransferUnknown.WithFiat",
+      "value": "Birisi size %1$@ (%2$@) gönderdi"
     },
     {
       "_": "types.LangPackString",
@@ -38890,7 +38910,7 @@
     {
       "_": "types.LangPackString",
       "key": "PasscodeSettings.AlphanumericCode",
-      "value": "Özel Alfanümerik Kod"
+      "value": "Alfasayısal Kod"
     },
     {
       "_": "types.LangPackString",
@@ -38965,6 +38985,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PasscodeSettings.LockWallet",
+      "value": "Parayı Kilitle"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PasscodeSettings.PasscodeOptions",
       "value": "Parola Seçenekleri"
     },
@@ -39007,6 +39032,11 @@
       "_": "types.LangPackString",
       "key": "PasscodeSettings.UnlockWithTouchId",
       "value": "Touch ID ile kilit aç"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PasscodeSettings.WalletProtectionInfo",
+      "value": "Para gönderirken veya diğer hassas Para eylemlerini onaylarken gereklidir."
     },
     {
       "_": "types.LangPackString",
@@ -46465,8 +46495,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "RichText.PlaceholderCaption",
+      "value": "Başlık ekle"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "RichText.PlaceholderCode",
       "value": "Buraya kodu yazın"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.PlaceholderCodeLanguage",
+      "value": "Dil"
     },
     {
       "_": "types.LangPackString",
@@ -47646,7 +47686,7 @@
     {
       "_": "types.LangPackString",
       "key": "Settings.MyTon",
-      "value": "Grams'ım"
+      "value": "Gram Kazançları"
     },
     {
       "_": "types.LangPackString",
@@ -49102,6 +49142,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "SocksProxySetup.ProxyStatusNotTested",
+      "value": "test edilmedi"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "SocksProxySetup.ProxyStatusPing",
       "value": "ping süresi: %@ ms "
     },
@@ -49119,6 +49164,11 @@
       "_": "types.LangPackString",
       "key": "SocksProxySetup.ProxyType",
       "value": "TÜR"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SocksProxySetup.ProxyWeb",
+      "value": "WEB"
     },
     {
       "_": "types.LangPackString",
@@ -58738,6 +58788,216 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.AddFunds",
+      "value": "Fon Ekle"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Connect.Action",
+      "value": "Bağlan"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Currency",
+      "value": "Para Birimi"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Empty.InstantTransfersTitle",
+      "value": "Anında Para Gönder"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Empty.ZeroFeesTitle",
+      "value": "Komisyon Yok"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.GotIt",
+      "value": "Anladım"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.GramTooltip",
+      "value": "Gram — Telegram için dijital para birimi"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Info.BlockchainVerifiedText",
+      "value": "Tüm işlemler kaydedilir ve herkese açık bir defter üzerinde doğrulanabilir."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Info.BlockchainVerifiedTitle",
+      "value": "Blockchain Doğrulaması"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Info.CheapText",
+      "value": "Büyük transferlerde bile ücretler neredeyse sıfırdır."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Info.CheapTitle",
+      "value": "Ucuz"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Info.FastText",
+      "value": "Transferler dünyanın herhangi bir yerinde saniyeler içinde doğrulanır."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Info.FastTitle",
+      "value": "Hızlı"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Info.FirstGramsRateText",
+      "value": "**1 Gram** şu anda **%@** eşittir.\nŞunları yapabilirsiniz:"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Info.FirstGramsText",
+      "value": "Şunları yapabilirsiniz:"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Info.FirstGramsTitle",
+      "value": "İlk Gram'ın!"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Info.GramText",
+      "value": "TON blok zincirinin yerel para birimi."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Info.InstantTransfersText",
+      "value": "Tıpkı fotoğraf paylaşır gibi, herhangi bir sohbette Gram gönderin."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Info.InstantTransfersTitle",
+      "value": "Anında Transferler"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Info.SendText",
+      "value": "Gram'ı herkese aktarın.\nSohbetlerde # → Para'ya dokunun."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Info.SendTitle",
+      "value": "Gönder"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Info.StoreText",
+      "value": "Gramlarınızı Telegram'da (#→ Para) veya diğer cüzdanlarda saklayın."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Info.StoreTitle",
+      "value": "Sakla"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Info.Text",
+      "value": "Fonlarınızı yalnızca siz kontrol edersiniz;\nbaşkalarının erişimi yoktur."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Info.Title",
+      "value": "Nasıl Çalışır"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Info.TradeText",
+      "value": "Borsalarda Gram’ları nakit veya kriptoya dönüştürün."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Info.TradeTitle",
+      "value": "Dönüştür"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Info.UsefulText",
+      "value": "TON ekosistemindeki uygulamalar, hizmetler ve ücretler için ödeme yapın."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Info.UsefulTitle",
+      "value": "Kullanışlı"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Info.ZeroFeesText",
+      "value": "Her gün ilk 5 transfer ücretsizdir. Geri kalanların maliyeti ise neredeyse sıfırdır."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Info.ZeroFeesTitle",
+      "value": "Sıfır Ücret"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.KeysAndBackup",
+      "value": "Anahtarlar ve Yedekleme"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.PasscodeFaceId",
+      "value": "Şifre ve Face ID"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Receive.BuyShort",
+      "value": "Nakit veya kripto ile satın alın"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Send",
+      "value": "Gönder"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Send.Add",
+      "value": "Ekle"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Send.Amount",
+      "value": "%@ Gönder"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Send.RecipientWallet",
+      "value": "%@ kişisinin cüzdanı"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Settings.DeleteWallet",
+      "value": "Cüzdanı Sil"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sign.Confirm",
+      "value": "Onayla"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TermsText",
+      "value": "Bu hizmeti kullanarak [Şartları]() kabul etmiş olursunuz."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.Deposit",
+      "value": "Yatır"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallpaper.ApplyForAll",
       "value": "Tüm Sohbetlere Uygula"
     },
@@ -60464,5 +60724,5 @@
       "value": "Geçersiz bir güvenlik kodu girdiniz."
     }
   ],
-  "version": 22143007
+  "version": 22189812
 }
