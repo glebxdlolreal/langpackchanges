@@ -41326,6 +41326,36 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Controller.Sign",
+      "value": "Firma"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Controller.SignData",
+      "value": "Firma i dati"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Controller.SigningData",
+      "value": "Dati"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Controller.SmallTransactionsHidden",
+      "value": "Le transazioni inferiori a %1$@ sono nascoste."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Controller.TermsAgreement",
+      "value": "Usando questo servizio, accetti i [Termini](%1$@)"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Controller.Transactions",
+      "value": "Transazioni"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.ImportController.Ok",
       "value": "OK"
     },
@@ -41333,6 +41363,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.ImportController.RestoreFailedTitle",
       "value": "Impossibile ripristinare il wallet"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.ImportController.SaveFailedInfo",
+      "value": "Sblocca il dispositivo e riprova"
     },
     {
       "_": "types.LangPackString",
@@ -41396,6 +41431,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.InfoController.BlockchainVerifiedInfo",
+      "value": "Tutte le transazioni sono registrate\ne verificabili su un registro pubblico."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.InfoController.Cheap",
       "value": "Economico"
     },
@@ -41446,8 +41486,218 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.InfoController.InstantTransfersInfo",
+      "value": "Invia Gram in qualsiasi chat,\ncome condividere una foto."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.InfoController.NeverShare",
+      "value": "**Non condividere mai** la tua frase segreta con nessuno."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.InfoController.SupportNeverAsks",
+      "value": "L'assistenza di Telegram **non ti chiederà mai** la tua frase segreta."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.InfoController.Trade",
+      "value": "Scambiare"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.InfoController.TradeInfo",
+      "value": "Converti i Gram in denaro o in cripto sugli exchange."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.InfoController.Useful",
+      "value": "Utile"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.InfoController.UsefulInfo",
+      "value": "Paga app, servizi e commissioni nell'ecosistema TON."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.InfoController.ZeroFees",
+      "value": "Nessun costo"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.LinkedRecipientRowItem.GramWallet",
       "value": "Wallet Gram"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.LinkedRecipientRowItem.NotLinked",
+      "value": "Questo indirizzo della blockchain TON non è associato ad alcun account Telegram."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.LinkedRecipientRowItem.PeerWallet",
+      "value": "Wallet di %1$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.LinkedRecipientRowItem.UnlinkedWallet",
+      "value": "Wallet scollegato"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.LoadMoreRowItem.ShowMore",
+      "value": "Mostra altro"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.ReceiveController.AddressCopied",
+      "value": "✓ Indirizzo copiato"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.ReceiveController.Buy",
+      "value": "Acquista con denaro o cripto"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.ReceiveController.Caption",
+      "value": "Condividi l'indirizzo o il\ncodice QR per ricevere GRAM."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.ReceiveController.CopyAddress",
+      "value": "Copia il mio indirizzo"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.ReceiveController.PurchaseFailedInfo",
+      "value": "Non è stato possibile avviare l'acquisto. Riprova."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.ReceiveController.PurchaseFailedTitle",
+      "value": "Acquisto fallito"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.ReceiveController.PurchaseUnavailableInfo",
+      "value": "Al momento non è possibile effettuare acquisti. Riprova più tardi."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.ReceiveController.PurchaseUnavailableTitle",
+      "value": "Acquisto non disponibile"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.ReceiveController.ShowQr",
+      "value": "Mostra il mio QR"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.RecipientController.AddressPlaceholder",
+      "value": "Indirizzo o nome"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.RecipientController.Continue",
+      "value": "Continua"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.RecipientController.DepositFunds",
+      "value": "Deposita fondi"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.RecipientController.PeopleHeader",
+      "value": "PERSONE"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.RecipientController.RecentHeader",
+      "value": "RECENTI"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.RecipientController.RecipientHeader",
+      "value": "DESTINATARIO"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.RecipientController.ShowMore",
+      "value": "Mostra altro"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.RecipientController.Title",
+      "value": "Scegli destinatario"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.RecipientController.UnknownError",
+      "value": "Si è verificato un errore. Riprova più tardi."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.RecipientNoResultsItem.InvalidAddress",
+      "value": "Questo indirizzo wallet non è valido.\nControllalo o prova un altro indirizzo."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.ReplaceController.CreateNew",
+      "value": "Crea nuovo wallet"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.SendController.Add",
+      "value": "Aggiungi"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.SendController.Balance",
+      "value": "Saldo: %1$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.SendController.CollectibleSent",
+      "value": "Il collezionabile è stato inviato a %1$@."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.SendController.CommentPlaceholder",
+      "value": "Messaggio opzionale"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.SendController.Continue",
+      "value": "Continua"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.SendController.DepositFunds",
+      "value": "Deposita fondi"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.SendController.EditComment",
+      "value": "Modifica commento"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.SendController.Grams",
+      "value": "Gram"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.SettingsController.CheckNetwork",
+      "value": "Controlla la connessione di rete e riprova."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.SettingsController.ShowSecretPhrase",
+      "value": "Mostra frase segreta"
     },
     {
       "_": "types.LangPackString",
@@ -42531,5 +42781,5 @@
       "value": "Mostra sostituzioni"
     }
   ],
-  "version": 2351912
+  "version": 2354365
 }
