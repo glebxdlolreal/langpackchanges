@@ -41161,6 +41161,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Controller.CallContract",
+      "value": "Invocar contrato"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Controller.NoFundsWithoutPermission",
       "value": "%1$@ no podrá mover fondos sin tu permiso."
     },
@@ -41178,6 +41183,49 @@
       "_": "types.LangPackString",
       "key": "Wallet.ImportController.InvalidPhraseInfo",
       "value": "Verifica el orden de las palabras.\n\nAquí sólo se puede importar una frase secreta creada en Telegram."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "Wallet.ImportController.InvalidWordCount",
+      "one_value": "",
+      "other_value": "Una frase secreta debe tener exactamente 12 o 24 palabras. La frase pegada tiene %1$d."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "Wallet.ImportController.InvalidWordCountCurrent",
+      "one_value": "",
+      "other_value": "Tu frase secreta actual debe tener exactamente 12 o 24 palabras. La frase pegada tiene %1$d."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.ImportController.SecretPhraseInfo",
+      "value": "Pon la frase secreta de tu billetera\npara continuar."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "Wallet.InfoController.ZeroFeesInfo",
+      "one_value": "",
+      "other_value": "Las primeras %1$d transacciones diarias son gratis. El resto cuesta casi nada."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.LinkedRecipientRowItem.LinkedTo",
+      "value": "Esta dirección de la blockchain TON está vinculada a %1$@ en Telegram."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.LogoutWarning.BackupsWillBeDeleted",
+      "value": "Esto cancelará todos tus chats secretos y **eliminará los respaldos de la billetera que contienen %1$@**. Perderás el acceso a estos fondos si no has guardado sus frases de recuperación.\n\nPuedes usar Telegram en todos tus dispositivos a la vez y usar varias cuentas en la misma app."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.RecipientNoResultsItem.NoResultsFor",
+      "value": "No hubo resultados para “%1$@”.\nPrueba con otro nombre o dirección."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.ReplaceController.ImportedInfo",
+      "value": "Tu billetera se restauró desde tu frase secreta."
     },
     {
       "_": "types.LangPackString",
@@ -42030,5 +42078,5 @@
       "value": "Mostrar sustituciones"
     }
   ],
-  "version": 2369291
+  "version": 2369368
 }
