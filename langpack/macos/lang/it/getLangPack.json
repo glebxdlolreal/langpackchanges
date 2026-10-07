@@ -42397,6 +42397,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Controller.ZeroFees",
+      "value": "Nessun costo"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.FlowAuthorization.Cancel",
       "value": "Annulla"
     },
@@ -42437,6 +42442,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.ImportController.BackupDisabledInfo",
+      "value": "Dato che hai disattivato i backup del tuo wallet, devi inserire manualmente la tua frase segreta in ogni nuova sessione di Telegram."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.ImportController.Cancel",
       "value": "Annulla"
     },
@@ -42472,8 +42482,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.ImportController.ImportWalletInfo",
+      "value": "Inserisci la frase segreta di 12 o 24 parole proveniente da un altro wallet di tua proprietà."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.ImportController.ImportWalletTitle",
       "value": "Importa wallet"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.ImportController.InvalidPhraseInfo",
+      "value": "Controlla l'ordine delle parole.\n\nQui è possibile importare solo una frase segreta creata su Telegram."
     },
     {
       "_": "types.LangPackString",
@@ -42512,6 +42532,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.ImportController.Replace",
+      "value": "Sostituisci"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.ImportController.ReplaceWalletTitle",
+      "value": "Sostituisci il wallet"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.ImportController.RestoreFailedTitle",
       "value": "Impossibile ripristinare il wallet"
     },
@@ -42519,6 +42549,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.ImportController.SaveFailedInfo",
       "value": "Sblocca il dispositivo e riprova"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.ImportController.SecretPhraseInfo",
+      "value": "Inserisci la frase segreta del tuo wallet per continuare."
     },
     {
       "_": "types.LangPackString",
@@ -42682,8 +42717,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.InfoController.Send",
+      "value": "Invia"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.InfoController.ShowSecretPhrase",
       "value": "Mostra frase segreta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.InfoController.Store",
+      "value": "Conservare"
     },
     {
       "_": "types.LangPackString",
@@ -42716,9 +42761,20 @@
       "value": "Nessun costo"
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "key": "Wallet.InfoController.ZeroFeesInfo",
+      "one_value": "",
+      "other_value": "I primi %1$d trasferimenti di ogni giorno sono gratuiti. Gli altri costano quasi nulla."
+    },
+    {
       "_": "types.LangPackString",
       "key": "Wallet.LinkedRecipientRowItem.GramWallet",
       "value": "Wallet Gram"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.LinkedRecipientRowItem.LinkedTo",
+      "value": "Questo indirizzo della blockchain TON è associato a %1$@ su Telegram."
     },
     {
       "_": "types.LangPackString",
@@ -42799,6 +42855,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.RecipientController.DepositFunds",
       "value": "Deposita fondi"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.RecipientController.InvalidAddress",
+      "value": "Indirizzo non valido"
     },
     {
       "_": "types.LangPackString",
@@ -42972,6 +43033,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.SendController.SendPrefix",
+      "value": "Invia"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.SendController.Sending",
       "value": "Invio…"
     },
@@ -43124,6 +43190,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.SettingsController.ErrorDisableBackupTitle",
       "value": "Impossibile disattivare il backup"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.SettingsController.ErrorInsufficientBalance",
+      "value": "Hai bisogno di %1$@ per aggiornare la tua frase segreta. Aggiungi fondi e riprova."
     },
     {
       "_": "types.LangPackString",
@@ -43469,6 +43540,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.TransactionController.Transaction",
       "value": "Transazione"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TransactionController.TransferFailedInfo",
+      "value": "Impossibile preparare o inviare il trasferimento. Controlla l'indirizzo, il saldo e la connessione di rete, quindi riprova."
     },
     {
       "_": "types.LangPackString",
@@ -44542,5 +44618,5 @@
       "value": "Mostra sostituzioni"
     }
   ],
-  "version": 2368535
+  "version": 2368599
 }
