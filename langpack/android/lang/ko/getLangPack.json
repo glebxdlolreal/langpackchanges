@@ -1784,6 +1784,11 @@
       "other_value": "프리미엄 %d개월"
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "key": "ActionGiftPremiumTitle2Days",
+      "other_value": "프리미엄 %d일"
+    },
+    {
       "_": "types.LangPackString",
       "key": "ActionGiftPremiumView",
       "value": "보기"
@@ -4382,6 +4387,11 @@
       "_": "types.LangPackString",
       "key": "AreYouSureLogout",
       "value": "정말 로그아웃하시겠습니까?\n\n로그아웃시, 모든 비밀 대화가 사라지게 됩니다.\n\n회원님의 모든 기기에서 동시에, 하나의 앱에서 여러개의 텔레그램 계정을 사용할 수 있습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AreYouSureLogoutGrams",
+      "value": "로그아웃하시겠습니까?\n\n모든 비밀 대화가 취소되고 **%s이(가) 들어 있는 지갑 백업이 삭제됩니다**. 해당 지갑의 비밀 문구가 없으면 이 자금에 접근할 수 없게 됩니다.\n\n텔레그램은 여러 기기에서 동시에 사용할 수 있으며, 같은 앱에서 여러 계정을 사용할 수 있습니다."
     },
     {
       "_": "types.LangPackString",
@@ -25224,6 +25234,41 @@
       "value": "그레인"
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "key": "GramCapital",
+      "other_value": "%1$s 그램"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GramCurrency",
+      "value": "그램"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GramEarnings",
+      "value": "그램 수익"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GramEarningsHint",
+      "value": "Fragment를 통해 그램을 출금할 수 있습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GramEarningsText",
+      "value": "선물, 광고, Fragment에서\n얻은 그램"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GramEarningsTitle",
+      "value": "그램 수익"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "Grams",
+      "other_value": "%1$s 그램"
+    },
+    {
       "_": "types.LangPackString",
       "key": "Gray",
       "value": "회색"
@@ -32105,6 +32150,26 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "NotificationGramTransfer",
+      "value": "%1$s님이 회원님에게 %2$s을(를) 보냈습니다"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NotificationGramTransferComment",
+      "value": "%1$s님이 회원님에게 %2$s을(를) 보냈습니다: %3$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NotificationGramTransferUnknown",
+      "value": "%2$s을(를) 받았습니다"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NotificationGramTransferUnknownComment",
+      "value": "%2$s을(를) 받았습니다: %3$s"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "NotificationGroupAddMember",
       "value": "%1$s님이 %3$s님을 %2$s 그룹에 초대했습니다"
     },
@@ -32617,6 +32682,16 @@
       "_": "types.LangPackString",
       "key": "NotificationUnrecognizedDevice",
       "value": "%1$s님,\n%2$s에 새로운 기기에서 회원님의 계정에 로그인한 것이 감지되었습니다.\n\n기기: %3$s\n위치: %4$s\n\n본인이 아니라면 설정 > 기기에서 해당 세션을 종료할 수 있습니다.\n\n누군가 회원님의 의사와 상관없이 계정에 로그인했다고 생각되면 개인정보 및 보안 설정에서 2단계 인증을 활성화할 수 있습니다.\n\n감사합니다.\n텔레그램 팀"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NotificationWalletTonConnectRequest",
+      "value": "TON Connect 요청이 있습니다"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NotificationWalletTonConnectRequestDapp",
+      "value": "%1$s에서 TON Connect 요청을 보냈습니다"
     },
     {
       "_": "types.LangPackString",
@@ -39210,6 +39285,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PushChatReactGameScore",
+      "value": "%2$s에서 회원님의 게임 점수에 %3$s"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PushChatReactGeo",
       "value": "내 지도에 대해 %3$s"
     },
@@ -39245,6 +39325,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PushChatReactPollUpdate",
+      "value": "%2$s에서 회원님의 설문 업데이트에 %3$s"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PushChatReactQuiz",
       "value": "내 퀴즈 %4$s에 대해 %3$s"
     },
@@ -39260,13 +39345,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PushChatReactStory",
+      "value": "%2$s에서 회원님의 스토리에 %3$s"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PushChatReactText",
       "value": "내 \"%4$s\"에 대해 %3$s"
     },
     {
       "_": "types.LangPackString",
+      "key": "PushChatReactThemeChange",
+      "value": "%2$s에서 회원님의 테마 변경에 %3$s"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PushChatReactTodo",
       "value": "%2$s의 내 체크리스트 %4$s에 %3$s 반응"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PushChatReactTodoUpdate",
+      "value": "%2$s에서 회원님의 할 일 업데이트에 %3$s"
     },
     {
       "_": "types.LangPackString",
@@ -39295,6 +39395,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PushReactGameScore",
+      "value": "회원님의 게임 점수에 %2$s"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PushReactGeo",
       "value": "내 지도에 대해 %2$s"
     },
@@ -39307,6 +39412,21 @@
       "_": "types.LangPackString",
       "key": "PushReactGif",
       "value": "내 GIF에 대해 %2$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PushReactGiftCode",
+      "value": "회원님의 선물 코드에 %2$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PushReactGramTransfer",
+      "value": "회원님의 %3$s 전송에 %2$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PushReactGramTransferComment",
+      "value": "회원님의 %3$s 전송에 %2$s: %4$s"
     },
     {
       "_": "types.LangPackString",
@@ -39325,8 +39445,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PushReactPaidMedia",
+      "value": "회원님의 유료 게시물에 %2$s"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PushReactPhoto",
       "value": "내 사진에 대해 %2$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PushReactPhotoSecret",
+      "value": "회원님의 자동 삭제 사진에 %2$s"
     },
     {
       "_": "types.LangPackString",
@@ -39335,13 +39465,53 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PushReactProximity",
+      "value": "회원님의 근접 알림에 %2$s"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PushReactQuiz",
       "value": "내 퀴즈 %3$s에 대해 %2$s"
     },
     {
       "_": "types.LangPackString",
+      "key": "PushReactRecurringPay",
+      "value": "회원님의 결제에 %2$s"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PushReactRound",
       "value": "내 영상 메시지에 대해 %2$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PushReactSameWallpaper",
+      "value": "같은 배경에 %2$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PushReactScreenshot",
+      "value": "회원님의 스크린샷에 %2$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PushReactStarGift",
+      "value": "스타 %3$s개 상당인 회원님의 선물에 %2$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PushReactStarGiftPrepaidUpgrade",
+      "value": "스타 %3$s개 상당인 회원님의 선물 업그레이드에 %2$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PushReactStarGiftUnpackUpgrade",
+      "value": "회원님이 업그레이드를 도운 선물에 %2$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PushReactStarGiftUpgrade",
+      "value": "회원님의 업그레이드된 선물에 %2$s"
     },
     {
       "_": "types.LangPackString",
@@ -39365,8 +39535,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PushReactStoryMention",
+      "value": "회원님의 스토리 언급에 %2$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PushReactSuggestBirthday",
+      "value": "회원님의 생일 제안에 %2$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PushReactSuggestUserpic",
+      "value": "회원님의 사진 제안에 %2$s"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PushReactText",
       "value": "내 \"%3$s\"에 대해 %2$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PushReactThemeChange",
+      "value": "회원님의 테마 변경에 %2$s"
     },
     {
       "_": "types.LangPackString",
@@ -39375,8 +39565,33 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PushReactTodoUpdate",
+      "value": "회원님의 할 일 업데이트에 %2$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PushReactUniqueStarGift",
+      "value": "회원님의 선물에 %2$s"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PushReactVideo",
       "value": "내 영상에 대해 %2$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PushReactVideoSecret",
+      "value": "회원님의 자동 삭제 동영상에 %2$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PushReactWalletTonConnectRequest",
+      "value": "회원님의 TON Connect 요청에 %2$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PushReactWallpaper",
+      "value": "새 배경에 %2$s"
     },
     {
       "_": "types.LangPackString",
@@ -41622,6 +41837,76 @@
       "_": "types.LangPackString",
       "key": "RoamingUsage",
       "value": "로밍 데이터 사용량"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RoundVideoBitrate",
+      "value": "동영상 비트레이트"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RoundVideoCameraResolution",
+      "value": "카메라 해상도"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RoundVideoCameraResolutionHigh",
+      "value": "높음"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RoundVideoCameraResolutionLow",
+      "value": "낮음"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RoundVideoCameraResolutionMedium",
+      "value": "중간"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RoundVideoComposition",
+      "value": "영상 구성"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RoundVideoCompositionEnabled",
+      "value": "원형 동영상 스타일 적용"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RoundVideoCompositionInfo",
+      "value": "스타일 적용을 끄면 원 바깥의 흐림 효과, 어두워지는 효과, 텔레그램 오버레이가 없는 일반 정사각형 영상으로 녹화됩니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RoundVideoFrameRate",
+      "value": "프레임 속도"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RoundVideoGeneral",
+      "value": "녹화기"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RoundVideoGeneralInfo",
+      "value": "전면과 후면 카메라가 모두 지원하는 경우에만 60 FPS로 녹화됩니다. 그렇지 않으면 30 FPS로 녹화됩니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RoundVideoOutputResolution",
+      "value": "출력 해상도"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RoundVideoSettings",
+      "value": "원형 동영상"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RoundVideoUseNewRecorder",
+      "value": "Camera2 녹화기 사용"
     },
     {
       "_": "types.LangPackString",
@@ -55425,8 +55710,1158 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletActionReceivedGrams",
+      "value": "un1님이 **%1$s**을(를) 보냈습니다"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletActionReceivedGramsSomeone",
+      "value": "누군가 **%1$s**을(를) 보냈습니다"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletActionSentGrams",
+      "value": "un1님에게 **%1$s**을(를) 보냈습니다"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletActionSentGramsShort",
+      "value": "**%1$s**을(를) 보냈습니다"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletActions",
+      "value": "작업"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletActiveConnections",
+      "value": "활성 연결"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletAddComment",
+      "value": "메모 추가"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletAddFunds",
+      "value": "충전"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletAddress",
+      "value": "주소"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletAddressCopied",
       "value": "지갑 주소가 클립보드에 복사되었습니다"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletAddressCopiedBulletin",
+      "value": "주소를 복사했습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletAddressCopiedShort",
+      "value": "주소를 복사했습니다"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletAddressNoLinkedAccount",
+      "value": "이 주소에 연결된\n텔레그램 계정이 없습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletAddressOrName",
+      "value": "주소 또는 이름"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletAppRequestsSignature",
+      "value": "%1$s에서 회원님의 서명을 요청합니다"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletAppRequestsTransfer",
+      "value": "%1$s에서 전송을 요청합니다"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletAttachMoney",
+      "value": "자산"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletAuthorizeTransactionPasscode",
+      "value": "거래를 승인하려면 현재 텔레그램 암호를 입력하세요."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBack",
+      "value": "뒤로"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBackupDisabled",
+      "value": "백업 꺼짐"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBackupDisabledDescription",
+      "value": "암호화된 키 백업이 세 부분으로 나뉘어 세 대륙에 분산 저장됩니다.\n\n회원님의 기기에서만 다시 조합할 수 있으므로 텔레그램을 포함한 누구도 회원님의 키에 접근할 수 없습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBackupDisabledInfo",
+      "value": "이제 비밀 문구로만 지갑을 복구할 수 있습니다"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBackupEnabled",
+      "value": "백업 켜짐"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBackupEnabledDescription",
+      "value": "암호화된 키 백업이 세 부분으로 나뉘어 세 대륙에 분산 저장되어 있습니다.\n\n회원님의 기기에서만 다시 조합할 수 있으므로 텔레그램을 포함한 누구도 회원님의 키에 접근할 수 없습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBackupEnabledInfo",
+      "value": "키가 암호화되어 텔레그램 데이터센터에 분산 저장되었습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBalanceAmount",
+      "value": "잔액: %1$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBinaryData",
+      "value": "바이너리 데이터"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBinaryDataWarning",
+      "value": "내용을 확인할 수 없는 상태에서 서명합니다. 신뢰할 수 있는 출처의 요청에만 서명하세요."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBlockchainVerified",
+      "value": "블록체인으로 검증"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBlockchainVerifiedInfo",
+      "value": "모든 거래는 공개 원장에 기록되며 검증할 수 있습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBuyWithCashOrCrypto",
+      "value": "현금 또는 암호화폐로 구매"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCancel",
+      "value": "취소"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCollectible",
+      "value": "수집품"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCollectibleGift",
+      "value": "수집형 선물"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCollectibleModelBackdrop",
+      "value": "%2$s 배경의 %1$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCollectibleNumber",
+      "value": "수집형 번호"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCollectibleTransferPrepareFailed",
+      "value": "수집품 전송을 준비할 수 없습니다"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCollectibleUsername",
+      "value": "수집형 사용자명"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCollectibles",
+      "value": "수집품"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCommentOptionalMessage",
+      "value": "메시지(선택 사항)"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConfirm",
+      "value": "확인"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConfirmAction",
+      "value": "작업 확인"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConfirmWithFingerprint",
+      "value": "지문으로 확인"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConfirmWithPasscode",
+      "value": "암호로 확인"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnect",
+      "value": "연결"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectInfo",
+      "value": "앱이 회원님의 TON 주소, 잔액,\n활동 내역을 볼 수 있게 됩니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectPermissionInfo",
+      "value": "앱은 회원님의 승인 없이\n자금을 이동할 수 없습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectProofInfo",
+      "value": "앱이 회원님의 TON 주소, 잔액, 활동 내역을 볼 수 있고, 로그인을 위한 서명을 요청할 수 있게 됩니다. 자금을 전송하는 요청은 아닙니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectToApp",
+      "value": "%1$s에 지갑 연결"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectToDApp",
+      "value": "탈중앙화 앱에 지갑 연결"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectedApp",
+      "value": "연결된 앱"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectedAppInfo",
+      "value": "이 앱은 회원님의 지갑 주소, 잔액, 활동 내역을 볼 수 있습니다. 회원님의 승인 없이는 자금을 이동할 수 없습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectedApps",
+      "value": "연결된 앱"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectedAppsInfo",
+      "value": "연결된 앱은 회원님의 지갑 주소, 잔액, 활동 내역을 볼 수 있습니다. 회원님의 승인 없이는 자금을 이동할 수 없습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletContinue",
+      "value": "계속"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletContractCall",
+      "value": "컨트랙트 호출"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCopyAddress",
+      "value": "주소 복사"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCreateNew",
+      "value": "새 지갑 만들기"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCreated",
+      "value": "지갑 생성 완료"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCreatedInfo",
+      "value": "새 지갑을 사용할 준비가 되었습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCurrency",
+      "value": "통화"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCurrencyUSD",
+      "value": "미국 달러"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCurrentSecretPhrase",
+      "value": "현재 비밀 문구"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCurrentSecretPhraseInfo",
+      "value": "이 문구를 아는 사람은 누구나 회원님의 지갑을 제어할 수 있습니다. 적어 두고 다른 사람에게 공개하지 마세요. 문구를 잃어버리면 자금을 잃게 됩니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDate",
+      "value": "날짜"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDecline",
+      "value": "거절"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDelete",
+      "value": "삭제"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDeleteAnyway",
+      "value": "그래도 삭제"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDeleteWallet",
+      "value": "지갑 삭제"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDeleteWalletInfo",
+      "value": "12개 단어로 된 비밀 문구를 저장해 두지 않았다면 자금에 접근할 수 없게 됩니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDeleteWalletTitle",
+      "value": "지갑을 삭제하시겠습니까?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDepositFunds",
+      "value": "입금"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDisable",
+      "value": "끄기"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDisableBackup",
+      "value": "백업 끄기"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDisableBackupConfirmInfo",
+      "value": "분산 저장된 암호화 백업이 삭제되고 지갑의 비밀 문구가 새 문구로 변경됩니다. 이후에는 이 새 비밀 문구로만 지갑을 복구할 수 있습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDisableBackupExistingPhraseInfo",
+      "value": "분산 저장된 암호화 백업이 삭제됩니다. 이후에는 비밀 문구로만 이 지갑을 복구할 수 있습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDisableBackupInfo",
+      "value": "자금을 복구하려면 비밀 문구를 직접 입력해야 합니다. 다른 방법으로는 복구할 수 없습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDisableBackupTitle",
+      "value": "백업을 끄시겠습니까?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDisconnect",
+      "value": "연결 해제"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDomain",
+      "value": "도메인"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDone",
+      "value": "완료"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletEnableBackup",
+      "value": "백업 켜기"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletEncryptedBackup",
+      "value": "암호화 백업"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletEnterSecretPhrase",
+      "value": "계속하려면 지갑의 비밀 문구를\n입력하세요. **왜 필요한가요?**"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletEnterSecretPhraseInfo",
+      "value": "지갑 백업을 껐으므로 새로운 텔레그램 세션마다 비밀 문구를 직접 입력해야 합니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletFailed",
+      "value": "실패"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletFailedTransfer",
+      "value": "전송 실패"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletFee",
+      "value": "수수료"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletFeeAmount",
+      "value": "수수료: %1$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletFeeAmountWithCurrency",
+      "value": "수수료: %1$s(~%2$s)."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletFeePaidByTelegram",
+      "value": "무료(텔레그램에서 부담)"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletFingerprintRetry",
+      "value": "지문이 인식되지 않았습니다. 다시 시도하세요."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletFirstGrams",
+      "value": "첫 그램을 받았습니다!"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletFirstGramsActions",
+      "value": "다음과 같이 사용할 수 있습니다:"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletFirstGramsRate",
+      "value": "현재 %1$s의 가치는 %2$s USD입니다.\n다음을 할 수 있습니다:"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletFirstGramsSendInfo",
+      "value": "누구에게나 그램을 전송하세요.\n대화에서 📎 → 자산을 누르세요."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletFirstGramsStoreInfo",
+      "value": "텔레그램(💬 → ⋮ → 지갑)이나\n다른 지갑에 그램을 보관하세요."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletFirstGramsTradeInfo",
+      "value": "거래소에서 그램을 현금이나 암호화폐로 교환하세요."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletGotIt",
+      "value": "알겠습니다"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletGramEarningsBalance",
+      "value": "그램 수익에도 %1$s이(가) 있습니다"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletGramWalletAddress",
+      "value": "그램 지갑"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletHiddenTransactions",
+      "value": "%1$s 미만의 거래는 숨겨집니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletHowItWorks",
+      "value": "이용 안내"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletHowItWorksInfo",
+      "value": "회원님만 자금을 관리할 수 있으며,\n다른 누구도 접근할 수 없습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletImport",
+      "value": "지갑 가져오기"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletImportButton",
+      "value": "가져오기"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletImportCurrentPhraseInfo",
+      "value": "다른 기기에서 사용 중인 회원님 지갑의 %1$d개 단어로 된 비밀 문구를 입력하세요."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletImportExisting",
+      "value": "기존 지갑 가져오기"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletImportPhraseInfo",
+      "value": "회원님이 소유한 다른 지갑의 %1$d개 단어로 된 비밀 문구를 입력하세요."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletImportThisWallet",
+      "value": "이 지갑 가져오기"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletImported",
+      "value": "지갑 가져오기 완료"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletImportedInfo",
+      "value": "비밀 문구로 지갑을 복구했습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletIncomingCollectibleAmount",
+      "value": "+1개"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletIncomingTransfer",
+      "value": "받은 자금"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletIncomingTransferNft",
+      "value": "받은 수집품"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletInsufficientFunds",
+      "value": "자금이 부족합니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletInvalidRecoveryPhrase",
+      "value": "유효하지 않은 비밀 문구"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletInvalidRecoveryPhraseInfo",
+      "value": "단어 순서를 확인하세요.\n\n여기에서는 텔레그램에서 생성한 비밀 문구만 가져올 수 있습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletKeyUpdate",
+      "value": "키 변경"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletKeysAndBackup",
+      "value": "키 및 백업"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletLock",
+      "value": "지갑 잠금"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletLockInfo",
+      "value": "자금을 보내거나 지갑에서 보안이 중요한 다른 작업을 확인할 때 필요합니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletMakeCommentPublic",
+      "value": "메모 공개"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletMinimumAmount",
+      "value": "최소 금액: %1$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletNetworkFee",
+      "value": "네트워크 수수료"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletNetworkFeeAmount",
+      "value": "네트워크 수수료: %1$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletNetworkFeeInfo",
+      "value": "모든 전송에는 소액의 네트워크 수수료(**~%1$s**)가 부과됩니다. 매일 처음 **5**번의 전송 수수료는 텔레그램이 부담합니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletNewSecretPhrase",
+      "value": "새 비밀 문구"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletNewSecretPhraseInfo",
+      "value": "회원님 지갑의 새 비밀 문구가 생성되었습니다. 적어 두고 다른 사람에게 공개하지 마세요."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletNoFees",
+      "value": "수수료 없음"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletNoFeesInfo",
+      "value": "매일 처음 5번의 전송은 무료입니다. 그 이후에도 수수료는 거의 들지 않습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletNotEnoughGram",
+      "value": "그램이 부족합니다"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletNotNow",
+      "value": "지금 안 함"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletOK",
+      "value": "확인"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletOldWalletsBalance",
+      "value": "이전 지갑에도 %1$s이(가) 있습니다"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletOpenMyWallet",
+      "value": "내 지갑 열기"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletOptionalComment",
+      "value": "메모(선택 사항)"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletOutgoingCollectibleAmount",
+      "value": "-1개"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletOutgoingTransfer",
+      "value": "보낸 자금"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletOutgoingTransferNft",
+      "value": "보낸 수집품"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletPaste",
+      "value": "붙여넣기"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "WalletPhraseWords",
+      "other_value": "단어 %d개"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletPreview",
+      "value": "미리보기"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletPreviousWalletLastUsed",
+      "value": "%1$s — 마지막 사용: %2$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletPreviousWallets",
+      "value": "이전 지갑"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletPreviousWalletsInfo",
+      "value": "이 기기에서 이전에 사용한 지갑입니다. 로그아웃하거나 앱을 다시 설치하면 삭제되므로 비밀 문구를 저장해 두세요."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletPrivateCommentInfo",
+      "value": "회원님과 수신자만 볼 수 있습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletProtectAccount",
+      "value": "계정 보호"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletPublicCommentInfo",
+      "value": "누구나 메모를 볼 수 있습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletReceiveInfo",
+      "value": "주소나 이 QR 코드를 공유해\n그램을 받으세요."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletRecipient",
+      "value": "수신자"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletRecipientUnavailable",
+      "value": "받는 사람의 지갑을 사용할 수 없습니다"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletRecoveryPhraseFundsWarning",
+      "value": "다른 사람이 비밀 문구를 알게 되면 **회원님의 자금을 훔칠 수 있습니다**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletRecoveryPhraseInfo",
+      "value": "비밀 문구는 지갑을 백업하고 복구하는 데 필요한 키입니다. 항상 안전하게 보관하고 다른 사람에게 공개하지 마세요."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletRecoveryPhraseLearnButton",
+      "value": "비밀 문구 표시"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletRecoveryPhraseLearnInfo",
+      "value": "비밀 문구는 지갑을 백업하는 데 필요한 키입니다. 항상 안전하게 보관하고 다른 사람에게 공개하지 마세요."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletRecoveryPhraseLearnTitle",
+      "value": "비밀 문구"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletRecoveryPhraseNeverShare",
+      "value": "비밀 문구를 누구에게도 **절대 공유하지 마세요**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletRecoveryPhraseSupportWarning",
+      "value": "텔레그램 지원팀은 회원님의 비밀 문구를 **절대 요구하지 않습니다**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletRecoveryPhraseTransferInfo",
+      "value": "12개 단어로 된 비밀 문구를 복사하면 다른 기기로 지갑을 옮길 수 있습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletReplaceWalletTitle",
+      "value": "기존 지갑을 어떻게 교체하시겠습니까?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletReviewSigningData",
+      "value": "메시지를 꼼꼼히 검토하고, 내용에 동의하면 데이터에 서명하세요."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSaveOnDevice",
+      "value": "이 기기에 현재 지갑 저장"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletScanQRCode",
+      "value": "QR 코드 스캔"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSearchNoResults",
+      "value": "\"%1$s\"에 대한 검색 결과가 없습니다.\n다른 이름이나 주소로 검색해 보세요."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSecretPhrase",
+      "value": "비밀 문구"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSell",
+      "value": "판매"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSend",
+      "value": "전송"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendAmount",
+      "value": "%1$s 전송"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendGrams",
+      "value": "그램 전송"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendInstantly",
+      "value": "즉시 송금"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendInstantlyInfo",
+      "value": "사진을 공유하듯 어느 대화에서나 그램을 보내세요."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendMoney",
+      "value": "송금"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendMoneyTo",
+      "value": "송금 대상"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSender",
+      "value": "발신자"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSending",
+      "value": "전송 중…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletShowMyQR",
+      "value": "내 QR 코드 표시"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSign",
+      "value": "서명"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSignData",
+      "value": "데이터 서명"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSigningData",
+      "value": "데이터"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSigningDataCopied",
+      "value": "데이터를 클립보드에 복사했습니다"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletStore",
+      "value": "보관"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTapToSetAmount",
+      "value": "눌러서 금액 입력"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTermsOfService",
+      "value": "지갑을 사용하면 **이용약관**에 동의하게 됩니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTestPhrase",
+      "value": "비밀 문구 확인"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTestPhraseInfo",
+      "value": "비밀 문구를 올바르게 기록했는지 확인하세요. **%1$d**번째, **%2$d**번째, **%3$d**번째 단어를 입력하세요."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTitle",
+      "value": "지갑"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTonConnectManifestLoadFailed",
+      "value": "탈중앙화 앱 매니페스트를 불러오지 못했습니다: %1$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTonConnectRequestAppDeclined",
+      "value": "%s의 거래 요청이 거절되었습니다"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTonConnectRequestAppExpired",
+      "value": "%s의 거래 요청이 만료되었습니다"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTonConnectRequestAppPending",
+      "value": "%s에서 거래를 요청합니다. 눌러서 검토하세요."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTonConnectRequestAppProcessed",
+      "value": "%s의 거래 요청이 처리되었습니다"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTonConnectRequestDeclined",
+      "value": "앱의 거래 요청이 거절되었습니다"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTonConnectRequestExpired",
+      "value": "앱의 거래 요청이 만료되었습니다"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTonConnectRequestPending",
+      "value": "연결된 앱에서 거래를 요청합니다. 눌러서 검토하세요."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTonConnectRequestProcessed",
+      "value": "앱의 거래 요청이 처리되었습니다"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTonConnectRequestUnavailable",
+      "value": "이 TON Connect 요청은 사용할 수 없거나 이미 응답한 요청입니다"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTonConnectSessionClosed",
+      "value": "TON Connect 세션이 종료되었습니다"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTonConnectSessionResponseEmpty",
+      "value": "TON Connect 세션 응답이 비어 있습니다"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTopUp",
+      "value": "충전"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTouchFingerprint",
+      "value": "지갑의 잠금을 해제하려면 지문 센서에 손가락을 대세요."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTrade",
+      "value": "거래"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionAmountStatus",
+      "value": "%1$s · %2$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionSimulationFailed",
+      "value": "거래 시뮬레이션에 실패했습니다"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionTopUp",
+      "value": "카드로 충전"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionTopUpCrypto",
+      "value": "암호화폐로 충전"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactions",
+      "value": "거래 내역"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransfer",
+      "value": "전송"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransferCollectible",
+      "value": "수집품 전송"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransferStatusFailed",
+      "value": "실패함"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransferStatusReceived",
+      "value": "받음"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransferStatusSent",
+      "value": "보냄"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransferTo",
+      "value": "%1$s(으)로"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransferToMultiple",
+      "value": "%1$s(으)로  +%2$d"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransferWorth",
+      "value": "%1$s (%2$s)"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUnknown",
+      "value": "알 수 없음"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUnknownAddress",
+      "value": "알 수 없는 주소"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUnknownUser",
+      "value": "알 수 없는 사용자"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUnlock",
+      "value": "지갑 잠금 해제"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUpdateSecretPhrase",
+      "value": "비밀 문구 변경"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUpdateSecretPhraseInfo",
+      "value": "기록해 둘 새 비밀 문구가 생성됩니다. 주소와 잔액은 그대로 유지됩니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUpdateSecretPhraseInfoWithFee",
+      "value": "기록해 둘 새 비밀 문구가 생성됩니다. 주소와 잔액은 그대로 유지됩니다.\n\n네트워크 수수료: %1$s(~%2$s)."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUpdateSecretPhraseInsufficientFunds",
+      "value": "비밀 문구를 변경하려면 %1$s(~%2$s)이(가) 필요합니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUseDevicePasscode",
+      "value": "기기 PIN 또는 비밀번호 사용"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletViewInExplorer",
+      "value": "블록체인 탐색기에서 보기"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletWaltFunds",
+      "value": "Walt에도 자금이 있습니다"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletWhatIsGram",
+      "value": "그램이란 무엇인가요?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletWhatIsWallet",
+      "value": "지갑이란 무엇인가요?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletWrongSecretPhrase",
+      "value": "잘못된 비밀 문구"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletWrongSecretPhraseInfo",
+      "value": "입력한 단어들이 지갑과 일치하지 않습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletYourRecoveryPhrase",
+      "value": "회원님의 비밀 문구"
     },
     {
       "_": "types.LangPackString",
@@ -56484,5 +57919,5 @@
       "value": "텔레그램 패스포트"
     }
   ],
-  "version": 61157892
+  "version": 61181275
 }

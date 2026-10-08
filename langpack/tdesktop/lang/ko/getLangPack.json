@@ -1749,6 +1749,66 @@
       "value": "방금 {from}에서 참가자들을 대상으로 텔레그램 프리미엄 경품을 시작했습니다."
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_action_gram_transfer_amount",
+      "other_value": "{amount} 그램"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gram_transfer_amount_fiat",
+      "value": "{amount} ({fiat})"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gram_transfer_comment",
+      "value": "{text}: {comment}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gram_transfer_encrypted_comment",
+      "value": "암호화된 메모"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gram_transfer_failed_tag",
+      "value": "실패함"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gram_transfer_received",
+      "value": "{user}님이 회원님에게 {amount}을(를) 보냈습니다"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gram_transfer_received_tag",
+      "value": "받음"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gram_transfer_received_unknown",
+      "value": "{amount}을(를) 받았습니다"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gram_transfer_sent",
+      "value": "{amount}을(를) {user}님에게 보냈습니다"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gram_transfer_sent_tag",
+      "value": "보냄"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gram_transfer_sent_unknown",
+      "value": "{amount}을(를) 보냈습니다"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_action_gram_transfer_ticker",
+      "other_value": "그램"
+    },
+    {
       "_": "types.LangPackString",
       "key": "lng_action_group_call_finished",
       "value": "실시간 방송 종료됨 ({duration})"
@@ -2362,6 +2422,71 @@
       "_": "types.LangPackStringPluralized",
       "key": "lng_action_todo_tasks_fallback",
       "other_value": "작업 {count}개"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_ton_connect_accepted",
+      "value": "{app}의 요청이 수락되었습니다"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_ton_connect_accepted_unknown",
+      "value": "요청이 수락되었습니다"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_ton_connect_declined",
+      "value": "{app}의 요청이 거절되었습니다"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_ton_connect_declined_unknown",
+      "value": "요청이 거절되었습니다"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_ton_connect_disconnect",
+      "value": "{app}에서 연결 끊기를 요청합니다"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_ton_connect_expired",
+      "value": "{app}의 요청이 만료되었습니다"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_ton_connect_expired_unknown",
+      "value": "요청이 만료되었습니다"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_ton_connect_request",
+      "value": "{app}에서 요청을 보냈습니다"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_ton_connect_request_unknown",
+      "value": "연결된 앱에서 요청을 보냈습니다"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_ton_connect_review",
+      "value": "{text}. 클릭하여 검토 {arrow}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_ton_connect_send_transaction",
+      "value": "{app}에서 거래 전송을 요청합니다"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_ton_connect_sign_data",
+      "value": "{app}에서 데이터 서명을 요청합니다"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_ton_connect_sign_message",
+      "value": "{app}에서 메시지 서명을 요청합니다"
     },
     {
       "_": "types.LangPackString",
@@ -6460,6 +6585,31 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_bot_allow_camera",
+      "value": "이 봇이 카메라를 사용하도록 허용하시겠습니까?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_allow_camera_microphone",
+      "value": "이 봇이 카메라와 마이크를 사용하도록 허용하시겠습니까?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_allow_location",
+      "value": "이 봇이 회원님의 위치에 접근하도록 허용하시겠습니까?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_allow_microphone",
+      "value": "이 봇이 마이크를 사용하도록 허용하시겠습니까?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_allow_permission_confirm",
+      "value": "허용"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_bot_allow_write",
       "value": "봇이 나에게 메시지 보내는 것을 허용하겠습니까?"
     },
@@ -8222,6 +8372,11 @@
       "_": "types.LangPackString",
       "key": "lng_channel_earn_off_about",
       "value": "광고를 끄면 어떤 보상도 받을 수 없습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_channel_earn_out_amount_too_small",
+      "value": "출금하기에는 금액이 너무 적습니다."
     },
     {
       "_": "types.LangPackString",
@@ -10972,6 +11127,11 @@
       "_": "types.LangPackString",
       "key": "lng_context_mark_read_all_sure_2",
       "value": "**이 작업은 되돌릴 수 없습니다.**"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_context_mark_read_archive_sure",
+      "value": "보관된 모든 대화를 읽은 상태로 표시하시겠습니까?"
     },
     {
       "_": "types.LangPackString",
@@ -25350,6 +25510,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_open_link_suspicious_chars",
+      "value": "강조 표시된 문자는 주소의 나머지 부분과 다른 문자 체계에 속합니다."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_open_menu",
       "value": "네비게이션 메뉴 열기"
     },
@@ -25727,6 +25892,56 @@
       "_": "types.LangPackString",
       "key": "lng_passcode_remove_button",
       "value": "삭제"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_passcode_strength_advice_date",
+      "value": "날짜나 연도는 사용하지 마세요."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_passcode_strength_advice_fine",
+      "value": "이 암호는 추측하기 어렵습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_passcode_strength_advice_keyboard",
+      "value": "키보드 배열에 따른 패턴은 사용하지 마세요."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_passcode_strength_advice_leet",
+      "value": "글자를 비슷하게 생긴 기호로 바꿔도 도움이 되지 않습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_passcode_strength_advice_repeat",
+      "value": "같은 문자를 반복하지 마세요."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_passcode_strength_advice_sequence",
+      "value": "abc나 123처럼 연속된 문자는 사용하지 마세요."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_passcode_strength_advice_short",
+      "value": "8자 이상 사용하세요."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_passcode_strength_advice_variety",
+      "value": "더 길게 만들고 다양한 종류의 문자를 섞어 보세요."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_passcode_strength_advice_word",
+      "value": "흔한 단어나 이름은 사용하지 마세요."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_passcode_strength_empty",
+      "value": "암호 강도 추정."
     },
     {
       "_": "types.LangPackString",
@@ -35080,8 +35295,23 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_settings_passcode_lock_app",
+      "value": "암호로 텔레그램 잠그기"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_settings_passcode_lock_off_wallet",
+      "value": "지갑은 이 암호로 계속 보호됩니다. 앱 실행 시 잠금만 꺼집니다."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_settings_passcode_title",
       "value": "로컬 암호"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_settings_passcode_wallet_about",
+      "value": "이 암호는 이 기기에 저장된 지갑 키를 보호합니다."
     },
     {
       "_": "types.LangPackString",
@@ -38245,6 +38475,26 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_status_bot_agent",
+      "value": "에이전트"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_status_bot_ai",
+      "value": "AI"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_status_bot_app",
+      "value": "앱"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_status_bot_game",
+      "value": "게임"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_status_bot_not_reads_all",
       "value": "메시지 접근 권한 없음"
     },
@@ -39792,6 +40042,26 @@
       "_": "types.LangPackString",
       "key": "lng_sure_logout",
       "value": "로그아웃을 하시겠습니까?"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_sure_logout_wallet_local",
+      "other_value": "그램 지갑 {count}개의 키는 이 기기에만 저장되어 있으며 텔레그램에 백업이 없습니다. 계속하면 해당 키가 삭제되며, 비밀 문구로만 해당 지갑을 복구할 수 있습니다."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_sure_logout_wallet_parked",
+      "other_value": "이 기기에는 다른 그램 지갑 {count}개의 키도 저장되어 있습니다. 계속하면 해당 키가 삭제되며, 비밀 문구를 적어 둔 경우에만 해당 지갑을 복구할 수 있습니다."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_sure_logout_wallet_rotating",
+      "other_value": "이 기기에서 지갑 키 변경 {count}건이 아직 확인되지 않았습니다. 새 키는 이 기기에만 저장되어 있으며 텔레그램에 백업이 없습니다. 계속하면 새 키가 삭제됩니다. 변경이 완료되면 해당 지갑은 새 비밀 문구로만 복구할 수 있습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_sure_logout_wallet_unknown",
+      "value": "이 기기에 그램 지갑 키가 저장되어 있다면 계속할 경우 해당 키가 삭제됩니다. 텔레그램 백업이나 비밀 문구로만 복구할 수 있습니다."
     },
     {
       "_": "types.LangPackString",
@@ -41505,6 +41775,1411 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_about_chain_text",
+      "value": "모든 거래는 공개 장부에 기록되어 검증할 수 있습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_about_chain_title",
+      "value": "블록체인으로 검증"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_wallet_about_fees_text",
+      "other_value": "매일 처음 {count}회 전송은 무료이며, 이후에도 수수료는 매우 적습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_about_fees_title",
+      "value": "수수료 없음"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_about_instant_text",
+      "value": "사진을 공유하듯 어떤 대화에서든 그램을 보내세요."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_about_instant_title",
+      "value": "즉시 송금"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_add_funds",
+      "value": "충전"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_apps_about",
+      "value": "TON Connect로 이 지갑에 연결한 앱입니다. 앱 연결을 끊으면 모든 기기에서 해당 앱과의 연결이 종료됩니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_apps_disconnect_failed",
+      "value": "앱 연결을 끊지 못했습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_apps_disconnect_sure",
+      "value": "정말 {name}과(와) 연결을 끊으시겠습니까?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_apps_disconnect_title",
+      "value": "앱 연결 끊기"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_apps_empty",
+      "value": "연결된 앱 없음"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_apps_title",
+      "value": "연결된 앱"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_apps_unknown",
+      "value": "알 수 없는 앱"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_about_on",
+      "value": "암호화 백업은 키를 세 부분으로 나누어 세 대륙에 분산 저장합니다.\n\n회원님의 기기에서만 다시 합칠 수 있으므로 텔레그램을 포함해 누구도 회원님의 키에 접근할 수 없습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_about_unavailable",
+      "value": "비밀 문구로 가져온 지갑에서는 암호화 백업을 사용할 수 없습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_cancel_text",
+      "value": "비밀 문구가 변경되지 않습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_cancel_title",
+      "value": "백업 끄기를 취소하시겠습니까?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_disable",
+      "value": "백업 끄기"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_disable_text",
+      "value": "자금을 복구하려면 비밀 문구를 직접 입력해야만 합니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_disable_title",
+      "value": "백업을 끄시겠습니까?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_disabled_text",
+      "value": "이제 비밀 문구만으로 지갑을 복구할 수 있습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_disabled_title",
+      "value": "백업 꺼짐"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_enable",
+      "value": "백업 켜기"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_enabled_text",
+      "value": "키가 암호화되어 텔레그램 데이터센터에 분산 저장되었습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_enabled_title",
+      "value": "백업 켜짐"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_error",
+      "value": "백업 설정을 변경하지 못했습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_new_phrase_text",
+      "value": "지갑의 새 비밀 문구가 생성되었습니다. 적어 두고 다른 사람에게 공개하지 마세요."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_new_phrase_title",
+      "value": "새 비밀 문구"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_rotate_failed_text",
+      "value": "{reason} 비밀 문구는 변경되지 않았습니다. 현재 문구를 계속 사용하세요. 적어 둔 새 단어들은 사용되지 않습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_rotate_failed_title",
+      "value": "작업 실패"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_rotate_reason_failed",
+      "value": "변경을 완료하지 못했습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_section",
+      "value": "암호화 백업"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_sure_text",
+      "value": "이 단어들을 적어 두기에는 시간이 너무 짧았습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_sure_title",
+      "value": "모두 적으셨나요?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_test_text",
+      "value": "비밀 문구를 올바르게 적어 두었는지 확인하세요. {index1}번째, {index2}번째, {index3}번째 단어를 입력하세요."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_test_title",
+      "value": "비밀 문구 확인"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_topup_text",
+      "value": "비밀 문구를 변경하려면 {amount} 그램({fiat})이 필요합니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_topup_title",
+      "value": "그램 부족"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_update_check",
+      "value": "비밀 문구 변경"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_update_fee",
+      "value": "네트워크 수수료: {amount} 그램({fiat})."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_update_text",
+      "value": "기록해 둘 새 비밀 문구가 생성됩니다. 주소와 잔액은 그대로 유지됩니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_buy_button",
+      "value": "카드 또는 암호화폐로 구매"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_buy_empty",
+      "value": "사용 가능한 결제 수단이 없습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_chip_gift",
+      "value": "수집품 선물"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_chip_nft",
+      "value": "수집품"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_chip_number",
+      "value": "익명 번호"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_chip_username",
+      "value": "수집 가능한 사용자명"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_collectible_nft_about",
+      "value": "The Open Network(TON) 블록체인에 저장된 수집품입니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_collectible_number_about",
+      "value": "SIM 카드에 연결되지 않은 텔레그램 계정을 만드는 데 사용할 수 있는 익명 번호 {number}입니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_collectible_username_about",
+      "value": "텔레그램 사용자명 {username}입니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_comment_add",
+      "value": "추가"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_comment_decryption_failed",
+      "value": "이 메모를 복호화하지 못했습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_comment_encryption_failed",
+      "value": "이 메모를 암호화하지 못했습니다. 다시 시도하거나, 공개로 설정하거나, 수정하거나, 제거하세요."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_comment_key_mismatch",
+      "value": "이 메모는 다른 지갑 키로 암호화되어 이 기기에서 복호화할 수 없습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_comment_make_public",
+      "value": "메모 공개"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_comment_public",
+      "value": "공개 메모는 블록체인에 기록되어 모든 사람이 영구적으로 볼 수 있습니다. 개인 정보는 절대 포함하지 마세요."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_comment_title",
+      "value": "메모 추가"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_comment_too_long",
+      "value": "이 메모는 너무 깁니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_conflict_bar",
+      "value": "이 기기에 이전 지갑도 있습니다"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_conflict_existing",
+      "value": "이전 지갑에도 {amount}이(가) 있습니다"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_conflict_switch",
+      "value": "지금 전환"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_conflict_switch_error",
+      "value": "이 기기에서 이전 지갑을 제거하지 못했습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_conflict_text",
+      "value": "이 기기에서 이전에 사용한 지갑입니다. 텔레그램 지갑으로 전환하기 전에 비밀 문구를 저장하세요."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_button",
+      "value": "연결"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_expired",
+      "value": "이 연결 요청은 더 이상 유효하지 않습니다. 앱에서 연결을 다시 시작하세요."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_failed",
+      "value": "지갑을 연결하지 못했습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_manifest_invalid",
+      "value": "이 앱의 정보가 유효하지 않거나 다른 도메인에 속하므로 지갑이 연결되지 않았습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_manifest_missing",
+      "value": "이 앱의 정보를 불러오지 못해 지갑이 연결되지 않았습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_permission",
+      "value": "앱에서 회원님의 TON 주소, 잔액 및 활동 내역을 볼 수 있습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_proof",
+      "value": "앱에서 이 지갑이 회원님 소유인지도 확인하려고 합니다. 이는 로그인용 서명이며 자금을 전송하는 작업이 아닙니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_reassurance",
+      "value": "앱은 허가 없이 자금을 이동할 수 없습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_actions",
+      "value": "작업"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_call_contract",
+      "value": "컨트랙트 호출"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_closed",
+      "value": "이 앱은 더 이상 연결되어 있지 않습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_confirm",
+      "value": "확인"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_decline",
+      "value": "거절"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_deploy",
+      "value": "이 주소에 컨트랙트를 배포합니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_deploy_contract",
+      "value": "컨트랙트 배포"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_expired",
+      "value": "요청이 만료되었습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_failed",
+      "value": "요청에 응답하지 못했습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_fee_failed",
+      "value": "네트워크 수수료를 추정하지 못했습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_fee_loading",
+      "value": "네트워크 수수료 추정 중…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_handled",
+      "value": "다른 기기에서 이 요청을 처리했습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_locked",
+      "value": "이 요청을 보려면 지갑의 잠금을 해제하세요."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_message",
+      "value": "메시지"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_messages",
+      "value": "메시지"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_not_sent",
+      "value": "거래가 전송되지 않았습니다. 앱에 실패했다고 알렸습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_other_key",
+      "value": "이 앱은 이 지갑의 다른 키로 연결되었으므로 이 기기에서는 앱의 요청에 응답하거나 연결을 끊을 수 없습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_payload",
+      "value": "페이로드"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_preview",
+      "value": "미리보기"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_wallet_connect_request_recipients",
+      "other_value": "수신 대상 {count}개"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_recipients_title",
+      "value": "수신 대상"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_sent",
+      "value": "거래가 전송되었습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_title",
+      "value": "앱 요청"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_title_app",
+      "value": "{name}에서 전송을 요청합니다"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_total",
+      "value": "총금액"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_trace_failed",
+      "value": "미리보기 결과, 이 거래의 일부가 실패할 수 있습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_trace_incomplete",
+      "value": "이 거래의 미리보기가 완전하지 않습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_transfer",
+      "value": "전송"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_unavailable",
+      "value": "이 요청은 더 이상 사용할 수 없습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_undelivered",
+      "value": "앱에 응답을 전달하지 못했습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_unhandled_about",
+      "value": "지금 거절하거나 다른 기기에서 응답할 수 있습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_unknown_operation",
+      "value": "알 수 없는 작업"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_unlock",
+      "value": "잠금 해제"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_unsupported",
+      "value": "이 기기에서는 이 요청을 지원하지 않습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_restore",
+      "value": "이 기기에는 이 지갑의 현재 키가 없습니다. 연결된 앱을 사용하려면 키를 복구하세요."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_sign_binary",
+      "value": "바이너리 데이터"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_sign_blind",
+      "value": "내용을 확인하지 못한 채 서명하고 있습니다. 신뢰할 수 있는 출처의 데이터에만 서명하세요."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_sign_button",
+      "value": "서명"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_sign_data",
+      "value": "데이터"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_sign_done",
+      "value": "데이터에 서명했습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_sign_text_about",
+      "value": "데이터를 주의 깊게 검토하고 동의하는 경우에만 서명하세요."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_sign_title",
+      "value": "데이터 서명"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_title",
+      "value": "지갑 연결"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_title_app",
+      "value": "{name}에 지갑 연결"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_create_error",
+      "value": "지갑을 생성하지 못했습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_created_text",
+      "value": "새 지갑을 사용할 준비가 되었습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_created_title",
+      "value": "지갑 생성 완료"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_currency_none",
+      "value": "통화를 찾을 수 없습니다"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_currency_title",
+      "value": "통화 선택"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_delete_text",
+      "value": "비밀 문구를 저장하지 않았다면 자금에 접근할 수 없게 됩니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_delete_title",
+      "value": "지갑을 삭제하시겠습니까?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_address",
+      "value": "주소"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_date",
+      "value": "날짜"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_failed_reason",
+      "value": "실패({reason})"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_fee",
+      "value": "수수료"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_fee_free",
+      "value": "무료(텔레그램에서 부담)"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_fee_unknown",
+      "value": "조회 실패"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_open_wallet",
+      "value": "내 지갑 열기"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_operation",
+      "value": "작업"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_recipient",
+      "value": "수신자"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_sender",
+      "value": "발신자"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_status",
+      "value": "상태"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_title",
+      "value": "거래"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_earnings_existing",
+      "value": "그램 수익에도 {amount}이(가) 있습니다"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_error_with_type",
+      "value": "{message} (오류: {error})"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_wallet_fees_text",
+      "other_value": "전송할 때마다 소액의 네트워크 수수료가 발생합니다.\n\n매일 처음 {count}회 전송까지는 텔레그램에서 수수료를 부담합니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_fees_title",
+      "value": "네트워크 수수료"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_first_rate",
+      "value": "현재 1 그램의 가치는 {amount}입니다.\n다음을 할 수 있습니다:"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_first_rate_none",
+      "value": "그램으로 다음을 할 수 있습니다:"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_first_send_text",
+      "value": "누구에게나 그램을 전송하세요.\n대화에서 {attach} → {money}를 클릭하세요."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_first_send_title",
+      "value": "전송"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_first_store_text",
+      "value": "텔레그램이나 다른 지갑에 그램을 보관하세요.\n({menu} → {wallet})"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_first_store_title",
+      "value": "보관"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_first_title",
+      "value": "첫 그램을 받았습니다!"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_first_trade_text",
+      "value": "거래소에서 그램을 현금이나 암호화폐로 교환하세요."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_first_trade_title",
+      "value": "거래"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_history_searching",
+      "value": "거래 내역 검색 중"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_how_menu",
+      "value": "지갑이란?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_how_subtitle",
+      "value": "회원님만 자금을 관리할 수 있으며 다른 사람은 접근할 수 없습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_how_title",
+      "value": "이용 안내"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_import_button",
+      "value": "가져오기"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_import_failed",
+      "value": "지갑을 가져오지 못했습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_import_invalid_scheme",
+      "value": "여기에서는 텔레그램에서 생성한 비밀 문구만 가져올 수 있습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_import_invalid_spelling",
+      "value": "단어 순서를 확인하세요."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_import_invalid_title",
+      "value": "유효하지 않은 비밀 문구"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_import_key_changing",
+      "value": "지갑 키를 변경하고 있습니다. 변경이 확인되면 다시 시도하세요."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_import_not_verified",
+      "value": "텔레그램에서 이 지갑의 소유권을 확인하지 못했습니다. 비밀 문구를 보관하고 지원팀에 문의하세요."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_import_paste_error",
+      "value": "붙여넣은 텍스트에는 12개 또는 24개 단어가 있어야 합니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_import_text",
+      "value": "회원님 소유의 다른 지갑에서 비밀 문구를 입력하세요."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_import_title",
+      "value": "지갑 가져오기"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_wallet_import_words",
+      "other_value": "단어 {count}개"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_imported_not_stored",
+      "value": "지갑은 교체되었지만 이 기기에 키를 저장하지 못했습니다. 여기에서 전송할 수 없다면 비밀 문구로 키를 복구하세요."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_imported_text",
+      "value": "비밀 문구로 지갑을 복구했습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_imported_title",
+      "value": "지갑 가져오기 완료"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_intro_text",
+      "value": "그램 — 텔레그램을 위한 디지털 화폐"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_key_save_error",
+      "value": "이 기기에 지갑 키를 저장하지 못했습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_keys_delete",
+      "value": "지갑 삭제"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_keys_phrase_about",
+      "value": "비밀 문구를 복사하면 지갑을 다른 기기로 옮길 수 있습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_keys_restore",
+      "value": "비밀 문구로 복구"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_keys_show_phrase",
+      "value": "비밀 문구 보기"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_keys_title",
+      "value": "키 및 백업"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_menu",
+      "value": "자산"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_menu_currency",
+      "value": "통화"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_passcode_forgot",
+      "value": "암호를 잊어버리셨나요?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_passcode_forgot_about",
+      "value": "암호가 없으면 이 기기에 저장된 지갑 키를 열 수 없습니다. 이 기기의 모든 지갑 키와 암호를 제거하고 텔레그램을 계속 사용할 수 있습니다. 로그아웃되지는 않습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_passcode_forgot_backed",
+      "value": "텔레그램 백업에서 지갑을 복구할 수 있습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_passcode_forgot_confirm",
+      "value": "키 제거"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_passcode_forgot_done",
+      "value": "이 기기에서 지갑 키와 암호를 제거했습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_passcode_forgot_failed",
+      "value": "지갑 키를 제거하지 못했습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_passcode_remember",
+      "value": "15분 동안 요청 안 함"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_phrase_check_wait",
+      "value": "{duration} 후에 이 작업을 완료할 수 있습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_phrase_error",
+      "value": "비밀 문구를 표시하지 못했습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_phrase_intro_text",
+      "value": "비밀 문구는 지갑을 백업하는 데 필요한 키입니다. 항상 안전하게 보관하고 다른 사람에게 공개하지 마세요."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_phrase_intro_title",
+      "value": "비밀 문구"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_phrase_password_description",
+      "value": "비밀 문구를 보려면 비밀번호를 입력하세요."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_wallet_phrase_text",
+      "other_value": "이 단어 {count}개를 순서대로 적어 안전하게 보관하세요. 항상 안전하게 보관하고 다른 사람에게 공개하지 마세요."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_phrase_title",
+      "value": "회원님의 비밀 문구"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_phrase_warn_share",
+      "value": "비밀 문구를 누구에게도 **절대 공개하지 마세요**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_phrase_warn_steal",
+      "value": "다른 사람이 회원님의 비밀 문구를 알면 **자금을 훔칠 수 있습니다**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_phrase_warn_support",
+      "value": "**텔레그램 지원팀**은 회원님의 비밀 문구를 절대 요구하지 않습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_profile_send_money",
+      "value": "송금"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protect_account",
+      "value": "계정 보호"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_about",
+      "value": "이 기기에서 자금을 보호할 방식을 선택하세요."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_create_about",
+      "value": "이 암호는 이 기기의 지갑 키를 보호합니다. 설정에서 암호 잠금을 켜기 전에는 텔레그램을 잠그지 않습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_error",
+      "value": "지갑 키의 보호 방식을 변경하지 못했습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_hardware_absent",
+      "value": "이 기기의 지갑 키는 {provider}(으)로 보호되어 있었으나 이제 이 기기에서 해당 키를 사용할 수 없습니다. 키를 다시 저장하려면 텔레그램의 암호화 백업이나 비밀 문구로 지갑을 복구하세요."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_hardware_failed",
+      "value": "{provider}에서 본인 여부를 확인하지 못했습니다. 아무것도 변경되지 않았습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_hardware_unavailable",
+      "value": "이 기기의 지갑 키는 {provider}(으)로 보호되어 있으나 지금은 사용할 수 없습니다. 다시 시도하려면 텔레그램을 다시 시작하세요. 또는 텔레그램의 암호화 백업이나 비밀 문구로 지갑을 복구하여 다른 방식으로 보호하세요."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_hello_about",
+      "value": "모든 자금 사용을 Windows PIN으로 확인합니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_hello_label",
+      "value": "Windows Hello"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_open",
+      "value": "암호 요청 안 함"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_open_about",
+      "value": "회원님의 텔레그램에 접근할 수 있는 사람은 누구나 자금을 사용할 수 있습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_open_confirm",
+      "value": "그대로 저장"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_open_title",
+      "value": "암호 없이 저장하시겠습니까?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_open_warning_lock",
+      "value": "이 컴퓨터에서 잠금이 해제된 텔레그램 데스크톱에 접근할 수 있는 사람은 누구나 지갑의 자금을 훔칠 수 있습니다.\n\n나중에 지갑 메뉴의 암호 잠금에서 변경할 수 있습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_open_warning_nolock",
+      "value": "이 컴퓨터에 접근할 수 있는 사람은 누구나 지갑의 자금을 훔칠 수 있습니다.\n\n나중에 지갑 메뉴의 암호 잠금에서 변경할 수 있습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_passcode",
+      "value": "로컬 암호 요청"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_passcode_about",
+      "value": "모든 자금 사용을 텔레그램 암호로 확인합니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_passcode_change",
+      "value": "암호 변경 {arrow}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_passcode_changed_error",
+      "value": "암호는 변경되었지만 지갑 보호 설정을 변경하지 못했습니다. 백업이나 비밀 문구로 지갑 키를 복구하세요."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_passcode_keep",
+      "value": "이 암호 계속 요청"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_removal_about",
+      "value": "암호를 제거한 후 자금을 보호할 방식을 선택하세요."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_removal_wallets",
+      "value": "계정 {accounts}의 지갑에 적용됩니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_retained",
+      "value": "텔레그램은 15분 동안 {provider} 인증을 다시 요청하지 않습니다. {link}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_retained_ask",
+      "value": "다음에 요청"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_title",
+      "value": "암호 잠금"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_touchid_about",
+      "value": "모든 자금 사용을 지문 또는 Mac 비밀번호로 확인합니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_touchid_label",
+      "value": "Touch ID"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_touchid_reason",
+      "value": "지갑 키의 잠금 해제"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_provisioning",
+      "value": "지갑 설정 중…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_readonly_bar",
+      "value": "이 기기에서는 이 지갑을 볼 수 있지만 전송할 수는 없습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_receive_about",
+      "value": "그램을 받으려면 주소나 QR 코드를 공유하세요."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_receive_caveat",
+      "value": "이 기기에서 전송하려면 비밀 문구가 필요합니다. 또는 이 지갑을 가져온 기기를 사용하세요."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_receive_copy_hint",
+      "value": "클릭하여 주소 복사"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_replace_create",
+      "value": "새 지갑 만들기"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_replace_import",
+      "value": "기존 지갑 가져오기"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_replace_title",
+      "value": "기존 지갑을 어떻게 교체하시겠습니까?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_restore_error",
+      "value": "이 지갑의 접근 권한을 복구하지 못했습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_restore_explain_text",
+      "value": "암호화 백업에서 이 지갑의 키를 복구하려면 2단계 인증 비밀번호를 입력하세요."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_restore_not_saved",
+      "value": "이 기기에 비밀 문구가 저장되지 않았습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_restore_other_text",
+      "value": "입력한 단어들이 이 지갑과 일치하지 않습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_restore_outdated_text",
+      "value": "이 단어들은 이 지갑의 이전 비밀 문구입니다.\n\n마지막으로 백업을 끌 때 받은 새 문구를 입력하세요."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_restore_text",
+      "value": "이 지갑의 비밀 문구를 입력하세요."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_restore_title",
+      "value": "지갑 복구"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_restore_ton_connect_text",
+      "value": "이 기기에서 연결된 앱을 사용하려면 이 지갑의 비밀 문구를 입력하세요."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_restore_wrong_title",
+      "value": "잘못된 비밀 문구"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_restoring_key",
+      "value": "암호화 백업에서 지갑 키 복구 중..."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_collectible_in",
+      "value": "받은 수집품"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_collectible_out",
+      "value": "보낸 수집품"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_deposit",
+      "value": "입금"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_incoming",
+      "value": "받은 자금"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_wallet_row_items",
+      "other_value": "항목 {count}개"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_key_change",
+      "value": "키 변경"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_outgoing",
+      "value": "보낸 자금"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_sending",
+      "value": "전송 중"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_topup",
+      "value": "충전"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_withdrawal",
+      "value": "출금"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_rows_collectibles",
+      "value": "수집품"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_rows_hidden_below",
+      "value": "{amount} 그램 미만의 거래는 숨겨집니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_rows_title",
+      "value": "거래 내역"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_amount",
+      "value": "{amount} 그램 보내기"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_balance",
+      "value": "잔액: {amount} 그램"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_comment_optional",
+      "value": "메모(선택 사항)"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_error_failed",
+      "value": "전송을 완료하지 못했습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_error_in_progress",
+      "value": "다른 전송이 아직 진행 중입니다. 완료될 때까지 기다려 주세요."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_error_insufficient",
+      "value": "이 전송에 필요한 그램이 부족합니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_error_quote_expired",
+      "value": "전송 내용이 변경되었거나 준비하지 못했습니다. 내용을 검토하고 다시 시도하세요."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_error_too_small",
+      "value": "최소 전송 금액은 {amount} 그램입니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_invalid_address",
+      "value": "유효하지 않은 주소"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_key_changed_text",
+      "value": "다른 앱에서 이 지갑의 키를 변경했으므로 이 기기의 키는 더 이상 작동하지 않습니다.\n\n이 기기에서 지갑을 다시 사용하려면 현재 비밀 문구로 지갑을 복구하세요."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_key_changed_title",
+      "value": "지갑 키가 변경되었습니다"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_link_expired",
+      "value": "이 결제 링크는 만료되었습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_link_invalid",
+      "value": "이 링크는 유효하지 않습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_name_not_found",
+      "value": "이 이름에 연결된 지갑이 없습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_network_fee",
+      "value": "네트워크 수수료: {amount} 그램"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_recipient_loading",
+      "value": "수신자의 지갑 조회 중..."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_title",
+      "value": "그램 보내기"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_user_load_error",
+      "value": "수신자의 지갑을 불러오지 못했습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_user_title",
+      "value": "{user}님에게 보내기"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_user_unavailable",
+      "value": "이 사용자는 그램을 받을 수 없습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_wallet_loading",
+      "value": "지갑 불러오는 중..."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_sent_toast",
+      "value": "🎉 {address}(으)로 그램을 전송했습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_state_error",
+      "value": "지갑을 불러오지 못했습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_unavailable",
+      "value": "이 계정에서는 지갑을 사용할 수 없습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_vault_locked",
+      "value": "이 기기의 지갑 키가 잠겨 있습니다. 잠금을 해제하고 다시 시도하세요."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_vault_reset_about",
+      "value": "현재 이 기기에 저장된 지갑 키를 더 이상 열 수 없습니다. 계속하면 해당 키와 함께 저장된 다른 모든 지갑 키가 이 기기에서 삭제되고, 그 자리에 이 지갑의 키가 저장됩니다. 이 작업은 되돌릴 수 없습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_vault_reset_title",
+      "value": "저장된 키를 삭제하시겠습니까?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_vault_unavailable",
+      "value": "이 기기에 저장된 지갑 키를 읽을 수 없습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_walt_existing",
+      "value": "Walt에도 자산이 있습니다"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_weekday1",
       "value": "월"
     },
@@ -41576,7 +43251,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_welcome_messages_preview_about",
-      "value": "새 멤버는 참여할 때 이 메시지를 볼 수 있습니다"
+      "value": "새 멤버가 참여하면 이 메시지들이 표시됩니다"
     },
     {
       "_": "types.LangPackString",
@@ -41634,5 +43309,5 @@
       "other_value": "{count} 스타를 결제했습니다."
     }
   ],
-  "version": 5910534
+  "version": 5916340
 }
