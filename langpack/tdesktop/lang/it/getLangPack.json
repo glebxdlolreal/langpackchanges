@@ -1784,8 +1784,23 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_action_gram_transfer_encrypted_comment",
+      "value": "Commento crittografato"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gram_transfer_received",
+      "value": "{user} ti ha inviato {amount}"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_action_gram_transfer_received_unknown",
       "value": "Hai ricevuto {amount}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gram_transfer_sent",
+      "value": "Hai inviato {amount} a {user}"
     },
     {
       "_": "types.LangPackString",
@@ -2453,6 +2468,31 @@
       "_": "types.LangPackString",
       "key": "lng_action_ton_connect_expired_unknown",
       "value": "La richiesta è scaduta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_ton_connect_request",
+      "value": "{app} ha inviato una richiesta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_ton_connect_review",
+      "value": "{text}. Clicca per verificare {arrow}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_ton_connect_send_transaction",
+      "value": "{app} di chiede di inviare una transazione"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_ton_connect_sign_data",
+      "value": "{app} ti chiede di firmare i dati"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_ton_connect_sign_message",
+      "value": "{app} ti chiede di firmare un messaggio"
     },
     {
       "_": "types.LangPackString",
@@ -35709,6 +35749,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_settings_passcode_lock_app",
+      "value": "Blocca Telegram col codice"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_settings_passcode_title",
       "value": "Codice di blocco"
     },
@@ -42517,8 +42562,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_expired",
+      "value": "La richiesta è scaduta."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_failed",
+      "value": "Impossibile rispondere alla richiesta."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_fee_failed",
+      "value": "Impossibile stimare il costo di rete."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_connect_request_fee_loading",
       "value": "Stimo il costo di rete…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_handled",
+      "value": "La richiesta è stata gestita su un altro dispositivo."
     },
     {
       "_": "types.LangPackString",
@@ -42558,6 +42623,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_sent",
+      "value": "La transazione è stata inviata."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_connect_request_title",
       "value": "Richiesta app"
     },
@@ -42568,6 +42638,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_total",
+      "value": "Importo totale"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_connect_request_unknown_operation",
       "value": "Operazione sconosciuta"
     },
@@ -42575,6 +42650,11 @@
       "_": "types.LangPackString",
       "key": "lng_wallet_connect_request_unlock",
       "value": "Sblocca"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_unsupported",
+      "value": "La richiesta non è supportata su questo dispositivo."
     },
     {
       "_": "types.LangPackString",
@@ -42603,6 +42683,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_connect_title",
+      "value": "Connetti il wallet"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_connect_title_app",
       "value": "Connetti il wallet a {name}"
     },
@@ -42613,6 +42698,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_created_text",
+      "value": "Il tuo nuovo wallet è pronto all'uso."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_created_title",
       "value": "Wallet creato"
     },
@@ -42620,6 +42710,11 @@
       "_": "types.LangPackString",
       "key": "lng_wallet_currency_title",
       "value": "Scegli valuta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_delete_text",
+      "value": "Perderai l'accesso ai tuoi fondi a meno che tu non abbia salvato la tua frase segreta."
     },
     {
       "_": "types.LangPackString",
@@ -42738,6 +42833,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_import_button",
+      "value": "Importa"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_import_failed",
       "value": "Impossibile importare il wallet."
     },
@@ -42750,6 +42850,16 @@
       "_": "types.LangPackString",
       "key": "lng_wallet_import_invalid_spelling",
       "value": "Controlla l'ordine delle parole."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_import_invalid_title",
+      "value": "Parole segrete non valide"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_import_paste_error",
+      "value": "Il testo incollato deve contenere 12 o 24 parole."
     },
     {
       "_": "types.LangPackString",
@@ -42789,6 +42899,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_keys_phrase_about",
+      "value": "Puoi trasferire il tuo wallet su un altro dispositivo copiando la tua frase segreta."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_keys_show_phrase",
       "value": "Mostra frase segreta"
     },
@@ -42816,6 +42931,11 @@
       "_": "types.LangPackString",
       "key": "lng_wallet_passcode_forgot_confirm",
       "value": "Rimuovi chiavi"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_passcode_forgot_failed",
+      "value": "Impossibile rimuovere le chiavi del wallet."
     },
     {
       "_": "types.LangPackString",
@@ -42909,6 +43029,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_protection_removal_wallets",
+      "value": "Questo si applica ai wallet di {accounts}."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_protection_retained_ask",
       "value": "Chiedi la prossima volta"
     },
@@ -42921,6 +43046,11 @@
       "_": "types.LangPackString",
       "key": "lng_wallet_protection_touchid_label",
       "value": "Touch ID"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_provisioning",
+      "value": "Imposto il tuo wallet…"
     },
     {
       "_": "types.LangPackString",
@@ -43065,6 +43195,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_send_name_not_found",
+      "value": "Nessun wallet collegato a questo nome."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_network_fee",
+      "value": "Costo di rete: {amount} Gram"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_send_title",
       "value": "Invia Gram"
     },
@@ -43077,6 +43217,11 @@
       "_": "types.LangPackString",
       "key": "lng_wallet_send_wallet_loading",
       "value": "Carico il tuo wallet..."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_state_error",
+      "value": "Impossibile caricare il tuo wallet."
     },
     {
       "_": "types.LangPackString",
@@ -43219,5 +43364,5 @@
       "other_value": "Hai pagato {count} stelle."
     }
   ],
-  "version": 5917454
+  "version": 5917529
 }
