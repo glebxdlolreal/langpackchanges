@@ -1767,6 +1767,68 @@
       "value": "{from} acaba de iniciar un sorteo de suscripciones a Telegram Premium para sus miembros."
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_action_gram_transfer_amount",
+      "one_value": "{amount} gram",
+      "other_value": "{amount} grams"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gram_transfer_amount_fiat",
+      "value": "{amount} ({fiat})"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gram_transfer_comment",
+      "value": "{text}: {comment}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gram_transfer_encrypted_comment",
+      "value": "Comentario cifrado"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gram_transfer_failed_tag",
+      "value": "fallida"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gram_transfer_received",
+      "value": "{user} te envió {amount}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gram_transfer_received_tag",
+      "value": "recibida"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gram_transfer_received_unknown",
+      "value": "Recibiste {amount}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gram_transfer_sent",
+      "value": "Enviaste {amount} a {user}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gram_transfer_sent_tag",
+      "value": "enviada"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gram_transfer_sent_unknown",
+      "value": "Enviaste {amount}"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_action_gram_transfer_ticker",
+      "one_value": "Gram",
+      "other_value": "Grams"
+    },
+    {
       "_": "types.LangPackString",
       "key": "lng_action_group_call_finished",
       "value": "Stream en directo finalizado ({duration})"
@@ -2394,6 +2456,41 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_action_ton_connect_accepted",
+      "value": "La solicitud de {app} fue aceptada"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_ton_connect_accepted_unknown",
+      "value": "La solicitud fue aceptada"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_ton_connect_declined",
+      "value": "La solicitud de {app} fue rechazada"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_ton_connect_declined_unknown",
+      "value": "La solicitud fue rechazada"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_ton_connect_disconnect",
+      "value": "{app} pide la desconexión"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_ton_connect_expired",
+      "value": "La solicitud de {app} expiró"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_ton_connect_expired_unknown",
+      "value": "La solicitud expiró"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_action_ton_connect_request",
       "value": "{app} envió una solicitud"
     },
@@ -2401,6 +2498,26 @@
       "_": "types.LangPackString",
       "key": "lng_action_ton_connect_request_unknown",
       "value": "Una app conectada envió una solicitud"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_ton_connect_review",
+      "value": "{text}. Haz clic para revisar {arrow}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_ton_connect_send_transaction",
+      "value": "{app} te pide que envíes una transacción"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_ton_connect_sign_data",
+      "value": "{app} te pide que firmes datos"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_ton_connect_sign_message",
+      "value": "{app} te pide que firmes un mensaje"
     },
     {
       "_": "types.LangPackString",
@@ -35717,8 +35834,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_settings_passcode_lock_app",
+      "value": "Bloquear Telegram con un código"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_settings_passcode_title",
       "value": "Código de bloqueo"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_settings_passcode_wallet_about",
+      "value": "Este código protege las claves de la billetera almacenadas en este dispositivo."
     },
     {
       "_": "types.LangPackString",
@@ -42280,6 +42407,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_apps_about",
+      "value": "Apps que conectaste a esta billetera con TON Connect. Al desconectar una app, finaliza su conexión en todos tus dispositivos."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_apps_disconnect_failed",
+      "value": "No se pudo desconectar la app."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_apps_disconnect_sure",
       "value": "¿Quieres desconectar {name}?"
     },
@@ -42295,8 +42432,23 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_apps_title",
+      "value": "Apps conectadas"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_apps_unknown",
       "value": "App desconocida"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_about_on",
+      "value": "El respaldo cifrado divide tu clave en tres partes almacenadas en tres continentes.\n\nSólo se puede volver a ensamblar en tus dispositivos, así que nadie, ni siquiera Telegram, puede acceder a tu clave."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_about_unavailable",
+      "value": "El respaldo cifrado no está disponible para las billeteras importadas desde una frase secreta."
     },
     {
       "_": "types.LangPackString",
@@ -42340,6 +42492,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_backup_new_phrase_text",
+      "value": "Se generó una nueva frase de recuperación para tu billetera. Anótala y mantenla en secreto."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_new_phrase_title",
+      "value": "Nueva frase secreta"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_backup_rotate_failed_title",
       "value": "Acción fallida"
     },
@@ -42352,6 +42514,16 @@
       "_": "types.LangPackString",
       "key": "lng_wallet_backup_section",
       "value": "Respaldo cifrado"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_sure_title",
+      "value": "¿Todo listo?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_test_text",
+      "value": "Asegúrate de haber escrito tu frase secreta correctamente.\nPon palabras {index1}, {index2} y {index3}."
     },
     {
       "_": "types.LangPackString",
@@ -42385,8 +42557,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_buy_empty",
+      "value": "No hay opciones de pago disponibles."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_chip_gift",
       "value": "Regalo coleccionable"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_chip_nft",
+      "value": "Coleccionable"
     },
     {
       "_": "types.LangPackString",
@@ -42405,8 +42587,23 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_comment_make_public",
+      "value": "Hacer público el comentario"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_comment_title",
+      "value": "Añadir comentario"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_comment_too_long",
       "value": "Este comentario es muy largo."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_conflict_switch",
+      "value": "Cambiar ahora"
     },
     {
       "_": "types.LangPackString",
@@ -42417,6 +42614,16 @@
       "_": "types.LangPackString",
       "key": "lng_wallet_connect_failed",
       "value": "No se pudo conectar la billetera."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_permission",
+      "value": "La app podrá ver tu dirección de TON, saldo y actividad."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_reassurance",
+      "value": "La app no podrá mover fondos sin permiso."
     },
     {
       "_": "types.LangPackString",
@@ -42445,6 +42652,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_deploy",
+      "value": "Despliega un contrato en esta dirección."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_connect_request_deploy_contract",
       "value": "Desplegar contrato"
     },
@@ -42465,6 +42677,26 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_fee_failed",
+      "value": "No se pudo calcular la tarifa de red."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_fee_loading",
+      "value": "Estimando la tarifa de red…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_handled",
+      "value": "Esta solicitud se gestionó en otro dispositivo."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_locked",
+      "value": "Desbloquea tu billetera para ver esta solicitud."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_connect_request_message",
       "value": "Mensaje"
     },
@@ -42477,6 +42709,16 @@
       "_": "types.LangPackString",
       "key": "lng_wallet_connect_request_not_sent",
       "value": "La transacción no se envió. La app indica que falló."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_other_key",
+      "value": "Esta app estaba conectada con una clave diferente de esta billetera, por lo que este dispositivo no puede responder a sus peticiones ni desconectarla."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_payload",
+      "value": "Payload"
     },
     {
       "_": "types.LangPackString",
@@ -42501,6 +42743,26 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_title",
+      "value": "Solicitud de la app"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_title_app",
+      "value": "{name} solicita una transferencia"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_total",
+      "value": "Monto total"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_trace_failed",
+      "value": "La vista previa muestra que parte de esta transacción puede fallar."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_connect_request_trace_incomplete",
       "value": "La vista previa de esta transacción está incompleta."
     },
@@ -42521,6 +42783,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_unhandled_about",
+      "value": "Puedes rechazarla ahora o responder en otro dispositivo."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_connect_request_unknown_operation",
       "value": "Operación desconocida"
     },
@@ -42528,6 +42795,11 @@
       "_": "types.LangPackString",
       "key": "lng_wallet_connect_request_unlock",
       "value": "Desbloquear"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_unsupported",
+      "value": "Esta solicitud no es compatible con este dispositivo."
     },
     {
       "_": "types.LangPackString",
@@ -42571,6 +42843,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_connect_title_app",
+      "value": "Conectar billetera a {name}"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_created_title",
       "value": "Billetera creada"
     },
@@ -42598,6 +42875,11 @@
       "_": "types.LangPackString",
       "key": "lng_wallet_details_fee",
       "value": "Tarifa"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_fee_free",
+      "value": "Gratis (pagada por Telegram)"
     },
     {
       "_": "types.LangPackString",
@@ -42630,6 +42912,12 @@
       "value": "{message} (error: {error})"
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_wallet_fees_text",
+      "one_value": "Cada transferencia tiene una pequeña tarifa de red. \n\nTelegram cubre tu primera transferencia cada día.",
+      "other_value": "Cada transferencia tiene una pequeña tarifa de red.\n\nTelegram cubre tus primeras {count} transferencias cada día."
+    },
+    {
       "_": "types.LangPackString",
       "key": "lng_wallet_fees_title",
       "value": "Tarifas de red"
@@ -42643,6 +42931,11 @@
       "_": "types.LangPackString",
       "key": "lng_wallet_first_store_title",
       "value": "Almacena"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_first_title",
+      "value": "¡Tus primeros grams!"
     },
     {
       "_": "types.LangPackString",
@@ -42661,6 +42954,27 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_import_text",
+      "value": "Pon la frase secreta de otra billetera que tengas."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_import_title",
+      "value": "Importar billetera"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_wallet_import_words",
+      "one_value": "{count} palabra",
+      "other_value": "{count} palabras"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_imported_title",
+      "value": "Billetera importada"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_intro_text",
       "value": "Gram — La moneda digital para Telegram"
     },
@@ -42668,6 +42982,11 @@
       "_": "types.LangPackString",
       "key": "lng_wallet_keys_delete",
       "value": "Eliminar billetera"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_keys_restore",
+      "value": "Restaurar desde frase secreta"
     },
     {
       "_": "types.LangPackString",
@@ -42721,6 +43040,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_profile_send_money",
+      "value": "Enviar dinero"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_protection_hello_about",
       "value": "Confirma todos los gastos con tu PIN de Windows."
     },
@@ -42746,6 +43070,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_readonly_bar",
+      "value": "Este dispositivo puede ver esta billetera pero no puede hacer envíos desde ella."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_receive_copy_hint",
       "value": "Haz clic para copiar la dirección"
     },
@@ -42763,6 +43092,26 @@
       "_": "types.LangPackString",
       "key": "lng_wallet_replace_title",
       "value": "¿Cómo quieres reemplazar la billetera antigua?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_restore_other_text",
+      "value": "Las palabras que pusiste no coinciden con la billetera."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_restore_text",
+      "value": "Pon la frase secreta de esta billetera."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_restore_title",
+      "value": "Restaurar billetera"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_restore_wrong_title",
+      "value": "Frase secreta equivocada"
     },
     {
       "_": "types.LangPackString",
@@ -42837,6 +43186,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_send_error_in_progress",
+      "value": "Otra transferencia está en curso. Por favor, espera a que se complete."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_send_error_insufficient",
       "value": "No tienes suficientes grams para esta transferencia."
     },
@@ -42857,8 +43211,23 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_send_title",
+      "value": "Enviar grams"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_send_user_title",
       "value": "Enviar a {user}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_state_error",
+      "value": "No se pudo cargar tu billetera."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_walt_existing",
+      "value": "También tienes fondos en Walt"
     },
     {
       "_": "types.LangPackString",
@@ -42996,5 +43365,5 @@
       "other_value": "Pagaste {count} estrellas."
     }
   ],
-  "version": 5917615
+  "version": 5917840
 }

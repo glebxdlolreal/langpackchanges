@@ -1767,6 +1767,63 @@
       "value": "{from} aloitti ryhmän jäsenten kesken arvonnan, jossa voi voittaa Telegram Premium -tilauksia."
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_action_gram_transfer_amount",
+      "one_value": "{amount} gram",
+      "other_value": "{amount} gramia"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gram_transfer_amount_fiat",
+      "value": "{amount} ({fiat})"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gram_transfer_comment",
+      "value": "{text} - {comment}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gram_transfer_failed_tag",
+      "value": "virhe"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gram_transfer_received",
+      "value": "{user} lähetti sinulle: {amount}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gram_transfer_received_tag",
+      "value": "saatu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gram_transfer_received_unknown",
+      "value": "Olet saanut: {amount}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gram_transfer_sent",
+      "value": "Lähetit käyttäjälle {user}: {amount}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gram_transfer_sent_tag",
+      "value": "lähetetty"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gram_transfer_sent_unknown",
+      "value": "Lähetit: {amount}"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_action_gram_transfer_ticker",
+      "one_value": "gram",
+      "other_value": "gramia"
+    },
+    {
       "_": "types.LangPackString",
       "key": "lng_action_group_call_finished",
       "value": "Suora lähetys päättyi ({duration})"
@@ -6565,6 +6622,31 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_bot_allow_camera",
+      "value": "Haluatko sallia botin käyttää kameraasi?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_allow_camera_microphone",
+      "value": "Haluatko sallia botin käyttää kameraasi ja mikrofoniasi?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_allow_location",
+      "value": "Haluatko sallia botin nähdä sijaintisi?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_allow_microphone",
+      "value": "Haluatko sallia botin käyttää mikrofoniasi?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_allow_permission_confirm",
+      "value": "Salli"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_bot_allow_write",
       "value": "Haluatko antaa botille luvan lähettää sinulle viestejä?"
     },
@@ -8335,6 +8417,11 @@
       "_": "types.LangPackString",
       "key": "lng_channel_earn_off_about",
       "value": "Jos poistat mainokset käytöstä, et voi saada niistä tuloja."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_channel_earn_out_amount_too_small",
+      "value": "Näin pientä määrää ei voi nostaa."
     },
     {
       "_": "types.LangPackString",
@@ -11123,6 +11210,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_context_mark_read_archive_sure",
+      "value": "Haluatko varmasti merkitä kaikki arkistoidut keskustelut luetuiksi?"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_context_mark_read_mentions_all",
       "value": "Merkitse kaikki maininnat luetuiksi"
     },
@@ -12884,7 +12976,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_dialogs_suggestions_birthday_about",
-      "value": "Kerro tuttavillesi milloin vietät syntymäpäivääsi."
+      "value": "Kerro tuttavillesi milloin on syytä juhlia."
     },
     {
       "_": "types.LangPackString",
@@ -25740,6 +25832,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_open_link_suspicious_chars",
+      "value": "Korostetut merkit ovat eri aakkosistosta kuin loput osoitteesta."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_open_menu",
       "value": "Avaa navigointivalikko"
     },
@@ -26127,6 +26224,56 @@
       "_": "types.LangPackString",
       "key": "lng_passcode_remove_button",
       "value": "Poista"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_passcode_strength_advice_date",
+      "value": "Vältä päivämääriä."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_passcode_strength_advice_fine",
+      "value": "Pääsykoodi on vaikea arvata."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_passcode_strength_advice_keyboard",
+      "value": "Vältä näppäimistökuvioita."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_passcode_strength_advice_leet",
+      "value": "Kirjainten vaihtaminen samannäköisiksi merkeiksi tuskin auttaa."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_passcode_strength_advice_repeat",
+      "value": "Vältä toistuvia merkkejä."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_passcode_strength_advice_sequence",
+      "value": "Vältä peräkkäisiä merkkejä (abc, 123)."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_passcode_strength_advice_short",
+      "value": "Ainakin kahdeksaa merkkiä suositellaan."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_passcode_strength_advice_variety",
+      "value": "Koodista kannattaa tehdä pidempi ja lisätä siihen erilaisia merkkejä."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_passcode_strength_advice_word",
+      "value": "Vältä yleisiä sanoja ja nimiä."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_passcode_strength_empty",
+      "value": "Pääsykoodin vahvuusarvio."
     },
     {
       "_": "types.LangPackString",
@@ -30873,7 +31020,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_proxy_web_warning",
-      "value": "Tämä WEB-välityspalvelin ylläpitää palveluntarjoajan verkkosivua taustalla, kun sinulla on yhteys. Käytä välityspalvelinta vain, jos luotat palveluntarjoajaan. Palvelu saattaa myös mainostaa kanavaa keskustelulistallasi. Tämä ei paljasta Telegram-liikennettäsi."
+      "value": "Tämä verkkovälityspalvelin ylläpitää palveluntarjoajan verkkosivua taustalla, kun sinulla on yhteys. Käytä välityspalvelinta vain, jos luotat palveluntarjoajaan. Palvelu saattaa myös mainostaa kanavaa keskustelulistallasi. Tämä ei paljasta Telegram-liikennettäsi."
     },
     {
       "_": "types.LangPackString",
@@ -35607,6 +35754,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_settings_passcode_lock_app",
+      "value": "Lukitse Telegram pääsykoodilla"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_settings_passcode_title",
       "value": "Laitepääsykoodi"
     },
@@ -38807,6 +38959,31 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_status_bot_agent",
+      "value": "agentti"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_status_bot_ai",
+      "value": "tekoäly"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_status_bot_app",
+      "value": "sovellus"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_status_bot_game",
+      "value": "peli"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_status_bot_gay",
+      "value": "muunsukupuolinen"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_status_bot_not_reads_all",
       "value": "ei voi lukea viestejä"
     },
@@ -40385,6 +40562,29 @@
       "_": "types.LangPackString",
       "key": "lng_sure_logout",
       "value": "Haluatko varmasti kirjautua ulos?"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_sure_logout_wallet_local",
+      "one_value": "Gram-lompakkosi avaimet ovat vain tällä laitteella, eikä niistä ole varmuuskopiota Telegramin palvelimilla. Jos jatkat, avaimet tuhoutuvat — lompakon voi palauttaa vain palautuslauseella.",
+      "other_value": "{count} gram-lompakkosi avaimet ovat vain tällä laitteella, eikä niistä ole varmuuskopiota Telegramin palvelimilla. Jos jatkat, avaimet tuhoutuvat — lompakot voi palauttaa vain palautuslauseella."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_sure_logout_wallet_parked",
+      "one_value": "Tällä laitteella on vielä yhden Gram-lompakon avaimet. Jos jatkat, avaimet tuhoutuvat — lompakon voi palauttaa vain palautuslauseella.",
+      "other_value": "Tällä laitteella on vielä {count} Gram-lompakon avaimet. Jos jatkat, avaimet tuhoutuvat — lompakon voi palauttaa vain palautuslauseella."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_sure_logout_wallet_rotating",
+      "one_value": "Lompakon avaimen muutos tällä laitteella on yhä vireillä. Telegramilla ei vielä ole uudesta avaimesta varmuuskopiota. Jos jatkat, avaimet tuhoutuvat — lompakon voi palauttaa vain palautuslauseella.",
+      "other_value": "{count} lompakon avaimen muutos tällä laitteella on yhä vireillä. Telegramilla ei vielä ole uudesta avaimesta varmuuskopiota. Jos jatkat, avaimet tuhoutuvat — lompakon voi palauttaa vain palautuslauseella."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_sure_logout_wallet_unknown",
+      "value": "Jos tällä laitteella on gram-lompakon avaimia ja jatkat, avaimet tuhoutuvat — lompakot voi palauttaa vain palautuslauseella."
     },
     {
       "_": "types.LangPackString",
@@ -42115,6 +42315,578 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_about_chain_text",
+      "value": "Kaikki siirrot ovat julkisia, ja ne voi tarkistaa julkisesta tilikirjasta."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_about_chain_title",
+      "value": "Lohkoketjun vahvistama"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_about_fees_title",
+      "value": "Ei kuluja"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_about_instant_text",
+      "value": "Lähetä grameja keskusteluun aivan kuin mediaa."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_about_instant_title",
+      "value": "Lähetä rahaa välittömästi"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_add_funds",
+      "value": "Lisää varoja"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_apps_about",
+      "value": "TON Connectilla tähän lompakkoon yhdistämäsi sovellukset näkyvät täällä. Katkaiseminen päättää yhteyden kaikilta laitteilta."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_apps_disconnect_failed",
+      "value": "Sovelluksen yhteyttä ei voitu katkaista."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_apps_disconnect_title",
+      "value": "Katkaise sovellus"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_apps_empty",
+      "value": "Ei yhdistettyjä sovelluksia"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_apps_title",
+      "value": "Yhdistetyt sovellukset"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_apps_unknown",
+      "value": "Tuntematon sovellus"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_cancel_text",
+      "value": "Salalausettasi ei muuteta."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_cancel_title",
+      "value": "Perutaanko varmuuskopion käytöstäpoisto?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_disable",
+      "value": "Poista varmuuskopio käytöstä"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_disable_text",
+      "value": "Varat voi palauttaa vain syöttämällä salalause."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_disable_title",
+      "value": "Poistetaanko varmuuskopio käytöstä?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_disabled_text",
+      "value": "Lompakkosi voi nyt palauttaa vain palautuslauseella."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_disabled_title",
+      "value": "Varmuuskopio ei käytössä"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_enable",
+      "value": "Ota varmuuskopio käyttöön"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_enabled_text",
+      "value": "Avaimesi on talletettu salattuna Telegramin palvelimille."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_enabled_title",
+      "value": "Varmuuskopio käytössä"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_new_phrase_text",
+      "value": "Uusi palautuslause on luotu lompakollesi. Ota se talteen ja pidä sitä turvassa muilta."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_new_phrase_title",
+      "value": "Uusi salalause"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_section",
+      "value": "Salattu varmuuskopio"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_sure_text",
+      "value": "Et ehtinyt kirjoittaa näitä sanoja."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_test_text",
+      "value": "Varmista, että kirjoitit salalauseen oikein.\nKirjoita sanat {index1}, {index2} ja {index3}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_test_title",
+      "value": "Kokeillaan"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_topup_text",
+      "value": "Salalauseen muuttamiseen vaaditaan {amount} gramia ({fiat}). Lisää varoja ja yritä uudelleen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_topup_title",
+      "value": "Gramit eivät riitä"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_update_check",
+      "value": "Vaihda salalause"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_update_text",
+      "value": "Saat uuden salalauseen. Kirjoita se muistiin. Osoite ja saldo pysyvät ennallaan."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_chip_gift",
+      "value": "Keräiltävä lahja"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_chip_nft",
+      "value": "Keräilyesine"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_chip_number",
+      "value": "Tuntematon numero"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_chip_username",
+      "value": "Keräilyesineen käyttäjänimi"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_comment_make_public",
+      "value": "Tee kommentista julkinen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_comment_public",
+      "value": "Julkiset kommentit näkyvät pysyvästi lohkoketjussa kaikille. Älä kirjoita niihin mitään yksityisenä pidettävää."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_comment_title",
+      "value": "Lisää kommentti"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_conflict_existing",
+      "value": "Vanhoissa lompakoissa on vielä {amount}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_permission",
+      "value": "Sovellus pääsee näkemään TON-osoitteesi, saldosi ja tiliotteesi."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_reassurance",
+      "value": "Sovellus ei voi siirtää varoja ilman suostumustasi."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_call_contract",
+      "value": "Sopimuskutsu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_closed",
+      "value": "Sovelluksen yhteys on katkennut."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_deploy_contract",
+      "value": "Sopimuksen julkaisu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_excess",
+      "value": "Ylimäärä"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_not_sent",
+      "value": "Tapahtuma epäonnistui. Tämä tieto on annettu sovellukselle."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_other_key",
+      "value": "Sovellus on yhdistetty lompakon eri avaimeen. Laite ei voi vastata sen pyyntöihin tai katkaista sitä."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_title_app",
+      "value": "{name} pyytää siirtoa"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_undelivered",
+      "value": "Vastausta ei voitu toimittaa sovellukselle."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_sign_binary",
+      "value": "Binäärisisältö"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_sign_blind",
+      "value": "Allekirjoitat sokkona. Allekirjoita tiedot vain luotetuista lähteistä."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_sign_button",
+      "value": "Allekirjoita"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_sign_data",
+      "value": "Tiedot"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_sign_title",
+      "value": "Allekirjoita tiedot"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_title_app",
+      "value": "Yhdistä lompakko: {name}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_created_text",
+      "value": "Uusi lompakkosi on valmis käytettäväksi."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_created_title",
+      "value": "Lompakko luotiin"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_delete_text",
+      "value": "Jos et pidä salalausettasi tallessa, menetät pääsyn varoihisi."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_delete_title",
+      "value": "Poistetaanko lompakko?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_fee_free",
+      "value": "Maksuton (Telegramin kustantama)"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_open_wallet",
+      "value": "Avaa lompakkoni"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_earnings_existing",
+      "value": "Olet myös ansainnut grameja: {amount}"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_wallet_fees_text",
+      "one_value": "Jokaiseen siirtoon kuuluu pieni lisämaksu.\n\n**{count}** maksu päivässä onnistuu kuluitta, koska Telegram kattaa ne, lopuista kulut maksetaan itse.",
+      "other_value": "Jokaiseen siirtoon kuuluu pieni lisämaksu.\n\n**{count}** maksua päivässä onnistuvat kuluitta, koska Telegram kattaa ne, lopuista kulut maksetaan itse."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_first_rate",
+      "value": "Nykyinen muuntokurssi: 1 gram = {amount}.\nGrameilla onnistuu:"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_first_store_title",
+      "value": "Talletus"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_first_title",
+      "value": "Ensimmäiset gramisi!"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_first_trade_text",
+      "value": "Muunna grameja rahaksi tai kryptovaluutaksi vaihtopörssien kautta."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_first_trade_title",
+      "value": "Kaupankäynti"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_how_menu",
+      "value": "Mikä lompakko on?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_how_subtitle",
+      "value": "Varasi pysyy hallussasi — muut eivät pääse niihin käsiksi."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_how_title",
+      "value": "Kuinka se toimii"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_import_text",
+      "value": "Syötä toisen omistamasi lompakon palautuslause."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_import_title",
+      "value": "Tuo lompakko"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_wallet_import_words",
+      "one_value": "{count} sana",
+      "other_value": "{count} sanaa"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_imported_text",
+      "value": "Lompakkosi palautettiin salalauseen avulla."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_imported_title",
+      "value": "Lompakko tuotiin"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_intro_text",
+      "value": "Gram — Telegramin digitaalivaluutta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_keys_delete",
+      "value": "Poista lompakko"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_keys_phrase_about",
+      "value": "Voit siirtää lompakon toiselle laitteelle kopioimalla salalauseesi."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_keys_show_phrase",
+      "value": "Näytä palautuslause"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_keys_title",
+      "value": "Avaimet ja varmuuskopiot"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_menu",
+      "value": "Raha"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_menu_currency",
+      "value": "Valuutta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_phrase_intro_text",
+      "value": "Tämä salalause on lompakkosi varmuuskopioavain. Pidä se koko ajan salassa ja turvassa."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_phrase_warn_share",
+      "value": "**Älä koskaan jaa** salalausettasi muille."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_phrase_warn_steal",
+      "value": "Jos joku saa salalauseesi, hän **voi varastaa varat lompakostasi**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_phrase_warn_support",
+      "value": "**Telegramin tuki** ei koskaan kysy sinulta salalausettasi."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_profile_send_money",
+      "value": "Lähetä rahaa"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_hello_about",
+      "value": "Vahvista maksut Windowsin PIN-koodilla."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_hello_label",
+      "value": "Windows Hello"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_open_about",
+      "value": "Kuka tahansa, joka pääsee Telegramille tällä laitteella, pystyy käyttämään lompakkosi varoja."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_passcode",
+      "value": "Pyydä pääsykoodia"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_passcode_about",
+      "value": "Vahvista maksut Telegramin pääsykoodilla."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_passcode_keep",
+      "value": "Pyydä edelleen tätä pääsykoodia"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_receive_about",
+      "value": "Jaa osoitteesi tai QR-koodi pyytääksesi grameja."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_replace_create",
+      "value": "Luo uusi lompakko"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_replace_import",
+      "value": "Tuo olemassa oleva lompakko"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_replace_title",
+      "value": "Kuinka haluat korvata vanhan lompakkosi?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_restore_other_text",
+      "value": "Syöttämäsi sanat eivät vastaa tätä lompakkoa."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_restore_wrong_title",
+      "value": "Väärä salalause"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_collectible_in",
+      "value": "Saapuva keräilyesine"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_collectible_out",
+      "value": "Lähtevä keräilyesine"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_incoming",
+      "value": "Saapuva siirto"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_key_change",
+      "value": "Avaimen muutos"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_outgoing",
+      "value": "Lähtevä siirto"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_rows_collectibles",
+      "value": "Keräilyesineet"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_rows_hidden_below",
+      "value": "Siirtoja ei näytetä, jos niiden summa on alle {amount}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_rows_title",
+      "value": "Tapahtumat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_error_failed",
+      "value": "Siirto ei onnistunut."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_key_changed_title",
+      "value": "Lompakon avaimen muutos"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_title",
+      "value": "Lähetä grameja"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_user_wallet_about",
+      "value": "Tämä TON-lohkoketjuosoite on kytketty Telegram-tiliin {name}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_walt_existing",
+      "value": "Sinulla on vielä varoja Waltissa"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_weekday1",
       "value": "ma"
     },
@@ -42188,7 +42960,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_welcome_messages_preview_about",
-      "value": "Tämä viesti näkyy liittyville jäsenille"
+      "value": "Nämä viestit näkyvät uusille liittyville jäsenille"
     },
     {
       "_": "types.LangPackString",
@@ -42249,5 +43021,5 @@
       "other_value": "Maksoit {count} tähteä."
     }
   ],
-  "version": 5859456
+  "version": 5917939
 }

@@ -247,6 +247,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AboutFeature.ModalController.FirstGramsSendInfo",
+      "value": "Trasferisci Gram a chiunque.\nClicca Allega > Denaro nelle chat."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AboutFeature.ModalController.FirstGramsStore",
       "value": "Conservare"
     },
@@ -7682,6 +7687,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Chat.Controller.SendMoney",
+      "value": "Invia denaro"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Chat.Controller.ViewInExplorer",
       "value": "Vedi nell'explorer"
     },
@@ -9107,6 +9117,11 @@
       "_": "types.LangPackString",
       "key": "Chat.MessageAction.ShowMessage",
       "value": "MOSTRA MESSAGGIO"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.MessageMenuItems.SendMoney",
+      "value": "Invia denaro"
     },
     {
       "_": "types.LangPackString",
@@ -14032,7 +14047,7 @@
     {
       "_": "types.LangPackString",
       "key": "Checkout.NewCard.SaveInfoHelp",
-      "value": "Puoi salvare le tue informazioni di pagamento per uso futuro. Saranno memorizzate direttamente con il fornitore dei pagamenti. Telegram non ha accesso ai dati della tua carta di credito."
+      "value": "Puoi salvare le tue informazioni di pagamento per uso futuro. Saranno conservate direttamente con il fornitore dei pagamenti. Telegram non ha accesso ai dati della tua carta di credito."
     },
     {
       "_": "types.LangPackString",
@@ -17963,7 +17978,7 @@
     {
       "_": "types.LangPackString",
       "key": "ExportData.SessionsAbout",
-      "value": "Potremmo memorizzarle per mostrare i dispositivi collegati in Impostazioni > Privacy e sicurezza > Mostra tutte le sessioni."
+      "value": "Potremmo conservarle per mostrare i dispositivi collegati in Impostazioni > Privacy e sicurezza > Mostra tutte le sessioni."
     },
     {
       "_": "types.LangPackString",
@@ -25128,7 +25143,7 @@
     {
       "_": "types.LangPackString",
       "key": "Passcode.SettingsViewController.WalletInfo",
-      "value": "Richiesto quando si inviano fondi o si confermano altre azioni sensibili del wallet."
+      "value": "Richiesto quando si inviano fondi o si confermano altre azioni sensibili."
     },
     {
       "_": "types.LangPackString",
@@ -26791,6 +26806,11 @@
       "_": "types.LangPackString",
       "key": "PeerInfo.GroupsInCommon",
       "value": "Gruppi in comune"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PeerInfo.HeadItem.SendMoney",
+      "value": "Invia denaro"
     },
     {
       "_": "types.LangPackString",
@@ -42955,12 +42975,12 @@
     {
       "_": "types.LangPackString",
       "key": "Wallet.Controller.ErrorDataMismatch",
-      "value": "I dati memorizzati di questo wallet non corrispondono a quelli presenti sul server, pertanto non è possibile aprirlo. Puoi eliminare questo wallet e ripristinarlo usando la tua frase segreta."
+      "value": "I dati conservati di questo wallet non corrispondono a quelli presenti sul server, pertanto non è possibile aprirlo. Puoi eliminare questo wallet e ripristinarlo usando la tua frase segreta."
     },
     {
       "_": "types.LangPackString",
       "key": "Wallet.Controller.ErrorDataUnreadable",
-      "value": "I dati del wallet memorizzati non possono essere letti. Puoi eliminare questo wallet e ripristinarlo usando la tua frase segreta."
+      "value": "I dati del wallet conservati non possono essere letti. Puoi eliminare questo wallet e ripristinarlo usando la tua frase segreta."
     },
     {
       "_": "types.LangPackString",
@@ -42989,6 +43009,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Controller.InstantTransfers",
+      "value": "Invia denaro istantaneamente"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Controller.InstantTransfersInfo",
       "value": "Invia Gram in qualsiasi chat,\ncome condividere una foto."
     },
@@ -42996,6 +43021,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.Controller.KeysAndBackup",
       "value": "Chiavi e backup"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Controller.Money",
+      "value": "Denaro"
     },
     {
       "_": "types.LangPackString",
@@ -43015,7 +43045,7 @@
     {
       "_": "types.LangPackString",
       "key": "Wallet.Controller.PermissionProof",
-      "value": "Ti chiederà di provare la proprietà di questo wallet a %1$@."
+      "value": "%1$@ richiede di dimostrare la proprietà di questo wallet."
     },
     {
       "_": "types.LangPackString",
@@ -43100,7 +43130,7 @@
     {
       "_": "types.LangPackString",
       "key": "Wallet.Controller.TermsAgreement",
-      "value": "Usando questo servizio, accetti i [Termini](%1$@)"
+      "value": "Usando questo servizio, accetti i suoi [Termini](%1$@)"
     },
     {
       "_": "types.LangPackString",
@@ -43574,12 +43604,12 @@
     {
       "_": "types.LangPackString",
       "key": "Wallet.LinkedRecipientRowItem.LinkedTo",
-      "value": "Questo indirizzo della blockchain TON è associato a %1$@ su Telegram."
+      "value": "Questo indirizzo della blockchain TON è collegato a %1$@ su Telegram."
     },
     {
       "_": "types.LangPackString",
       "key": "Wallet.LinkedRecipientRowItem.NotLinked",
-      "value": "Questo indirizzo della blockchain TON non è associato ad alcun account Telegram."
+      "value": "Questo indirizzo della blockchain TON non è collegato ad alcun account Telegram."
     },
     {
       "_": "types.LangPackString",
@@ -43883,6 +43913,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.SendController.Title",
+      "value": "Invia denaro a"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.SendController.TransferFailedDetailedInfo",
       "value": "Impossibile preparare o inviare il trasferimento. Controlla l'indirizzo, il saldo e la connessione di rete, quindi riprova."
     },
@@ -43949,7 +43984,7 @@
     {
       "_": "types.LangPackString",
       "key": "Wallet.SettingsController.DataUnreadable",
-      "value": "I dati del wallet memorizzati non possono essere letti su questo dispositivo, pertanto la frase segreta e le impostazioni di backup non sono disponibili. Puoi eliminare questo wallet e ripristinarlo usando la frase segreta."
+      "value": "I dati del wallet conservati non possono essere letti su questo dispositivo, pertanto la frase segreta e le impostazioni di backup non sono disponibili. Puoi eliminare questo wallet e ripristinarlo usando la frase segreta."
     },
     {
       "_": "types.LangPackString",
@@ -44139,7 +44174,7 @@
     {
       "_": "types.LangPackString",
       "key": "Wallet.SettingsController.SecretPhraseNotStored",
-      "value": "La frase segreta di questo wallet non è più memorizzata su questo dispositivo."
+      "value": "La frase segreta di questo wallet non è più conservata su questo dispositivo."
     },
     {
       "_": "types.LangPackString",
@@ -44621,7 +44656,7 @@
     {
       "_": "types.LangPackString",
       "key": "Wallet.WordsController.CancelDisablingTitle",
-      "value": "Annullare disattivazione backup?"
+      "value": "Conservare il backup?"
     },
     {
       "_": "types.LangPackString",
@@ -45574,5 +45609,5 @@
       "value": "Mostra sostituzioni"
     }
   ],
-  "version": 2371257
+  "version": 2371534
 }

@@ -35928,6 +35928,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Notification.GramTransfer.Compact",
+      "value": "отправил(а) Вам %@"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Notification.GramTransfer.UnknownUser",
       "value": "НЕИЗВЕСТНЫЙ ПОЛЬЗОВАТЕЛЬ"
     },
@@ -47785,6 +47790,26 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "RichText.Menu.Table.AddColumnLeft",
+      "value": "Вставить слева"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.Menu.Table.AddColumnRight",
+      "value": "Вставить справа"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.Menu.Table.AddRowAbove",
+      "value": "Вставить сверху"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.Menu.Table.AddRowBelow",
+      "value": "Вставить снизу"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "RichText.Menu.Table.BordersOff",
       "value": "Скрыть границы"
     },
@@ -47820,6 +47845,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "RichText.Menu.Table.DeleteColumn",
+      "value": "Удалить столбец"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.Menu.Table.DeleteRow",
+      "value": "Удалить строку"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "RichText.Menu.Table.HighlightOff",
       "value": "Убрать заливку"
     },
@@ -47827,6 +47862,16 @@
       "_": "types.LangPackString",
       "key": "RichText.Menu.Table.HighlightOn",
       "value": "Залить"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.Menu.Table.MergeCells",
+      "value": "Объединить"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.Menu.Table.SplitCell",
+      "value": "Разделить ячейку"
     },
     {
       "_": "types.LangPackString",
@@ -47880,6 +47925,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "RichText.PlaceholderCaption",
+      "value": "Подпись"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "RichText.PlaceholderCode",
       "value": "Код..."
     },
@@ -47897,6 +47947,11 @@
       "_": "types.LangPackString",
       "key": "RichText.PlaceholderQuote",
       "value": "Текст цитаты"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.PlaceholderQuoteAuthor",
+      "value": "Автор"
     },
     {
       "_": "types.LangPackString",
@@ -60920,12 +60975,12 @@
     {
       "_": "types.LangPackString",
       "key": "Wallet.Connect.Permissions",
-      "value": "Сможет просматривать адрес кошелька,\nбаланс и историю операций."
+      "value": "Приложение может просматривать\nадрес кошелька, баланс и историю операций."
     },
     {
       "_": "types.LangPackString",
       "key": "Wallet.Connect.Proof",
-      "value": "Вам будет предложено подтвердить для %@ право владения этим кошельком."
+      "value": "%@ потребуется подтверждение, что Вы являетесь владельцем этого кошелька."
     },
     {
       "_": "types.LangPackString",
@@ -60984,6 +61039,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.HiddenTransactions",
+      "value": "Транзакции на сумму менее %@ скрыты."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Import.Action",
       "value": "Импортировать"
     },
@@ -60995,7 +61055,7 @@
     {
       "_": "types.LangPackString",
       "key": "Wallet.Import.EnterPhraseText",
-      "value": "Чтобы продолжить, введите секретную фразу кошелька. [Зачем?]()"
+      "value": "Чтобы продолжить, введите секретную фразу кошелька. [Почему?]()"
     },
     {
       "_": "types.LangPackString",
@@ -61178,7 +61238,7 @@
     {
       "_": "types.LangPackString",
       "key": "Wallet.Info.PhraseTheftWarning",
-      "value": "Если кто-то узнает Вашу секретную фразу, он **сможет похитить Ваши средства**."
+      "value": "Тот, кто знает Вашу секретную фразу, **сможет похитить Ваши средства**."
     },
     {
       "_": "types.LangPackString",
@@ -61288,6 +61348,11 @@
     {
       "_": "types.LangPackString",
       "key": "Wallet.Receive.Buy",
+      "value": "Купить за деньги/криптовалюту"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Receive.BuyShort",
       "value": "Купить за деньги/криптовалюту"
     },
     {
@@ -61718,7 +61783,7 @@
     {
       "_": "types.LangPackString",
       "key": "Wallet.Sign.TextExplanation",
-      "value": "Внимательно ознакомьтесь с текстом сообщения и, если согласны, подпишите транзакцию."
+      "value": "Внимательно ознакомьтесь с текстом сообщения и, если согласны, подпишите данные."
     },
     {
       "_": "types.LangPackString",
@@ -61748,7 +61813,7 @@
     {
       "_": "types.LangPackString",
       "key": "Wallet.Transaction.CallContract",
-      "value": "Исполнение смарт-контракта"
+      "value": "Вызов смарт-контракта"
     },
     {
       "_": "types.LangPackString",
@@ -61833,7 +61898,7 @@
     {
       "_": "types.LangPackString",
       "key": "Wallet.Transaction.IncomingCollectible",
-      "value": "Получение коллекционногь предмета"
+      "value": "Получение коллекционного предмета"
     },
     {
       "_": "types.LangPackString",
@@ -61957,6 +62022,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.Transfer.CollectibleSuccess",
       "value": "Коллекционный предмет отправлен **%@**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transfer.CollectibleTopUpText",
+      "value": "Для передачи NFT в кошельке должно быть не менее 0,1 GRAM. Пополните баланс и попробуйте снова."
     },
     {
       "_": "types.LangPackString",
@@ -63853,5 +63923,5 @@
       "value": "Вы ввели неверный код безопасности."
     }
   ],
-  "version": 22187830
+  "version": 22201682
 }
