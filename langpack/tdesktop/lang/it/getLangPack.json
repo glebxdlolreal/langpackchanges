@@ -1767,6 +1767,28 @@
       "value": "{from} ha appena avviato un giveaway di abbonamenti Telegram Premium per i suoi membri."
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_action_gram_transfer_amount",
+      "one_value": "{amount} Gram",
+      "other_value": "{amount} Gram"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gram_transfer_received_unknown",
+      "value": "Hai ricevuto {amount}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gram_transfer_sent_unknown",
+      "value": "Hai inviato {amount}"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_action_gram_transfer_ticker",
+      "one_value": "Gram",
+      "other_value": "Gram"
+    },
+    {
       "_": "types.LangPackString",
       "key": "lng_action_group_call_finished",
       "value": "Diretta streaming terminata ({duration})"
@@ -6562,6 +6584,11 @@
       "_": "types.LangPackString",
       "key": "lng_bot_add_to_side_menu_done",
       "value": "Bot aggiunto al menu principale."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_allow_permission_confirm",
+      "value": "Consenti"
     },
     {
       "_": "types.LangPackString",
@@ -38832,6 +38859,26 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_status_bot_agent",
+      "value": "agent"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_status_bot_ai",
+      "value": "ai"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_status_bot_app",
+      "value": "app"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_status_bot_game",
+      "value": "game"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_status_bot_not_reads_all",
       "value": "non ha accesso ai messaggi"
     },
@@ -42245,6 +42292,41 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_chip_gift",
+      "value": "Regalo collezionabile"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_chip_nft",
+      "value": "Collezionabile"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_chip_number",
+      "value": "Numero collezionabile"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_chip_username",
+      "value": "Username collezionabile"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_comment_add",
+      "value": "Aggiungi"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_comment_make_public",
+      "value": "Rendi pubblico il commento"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_comment_title",
+      "value": "Aggiungi un commento"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_conflict_switch_error",
       "value": "Impossibile rimuovere il vecchio wallet da questo dispositivo."
     },
@@ -42375,13 +42457,113 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_delete_title",
+      "value": "Eliminare il wallet?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_address",
+      "value": "Indirizzo"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_date",
+      "value": "Data"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_failed_reason",
+      "value": "Fallita ({reason})"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_fee",
+      "value": "Costo"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_fee_free",
+      "value": "Gratis (pagato da Telegram)"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_operation",
+      "value": "Operazione"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_recipient",
+      "value": "Destinatario"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_sender",
+      "value": "Mittente"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_status",
+      "value": "Stato"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_title",
+      "value": "Transazione"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_error_with_type",
       "value": "{message} (errore: {error})"
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_fees_title",
+      "value": "Costi di rete"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_first_store_title",
+      "value": "Conservare"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_first_trade_text",
+      "value": "Converti i Gram in denaro o in cripto sugli exchange."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_first_trade_title",
+      "value": "Scambiare"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_import_text",
       "value": "Inserisci la frase segreta da un altro wallet di tua proprietà."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_imported_title",
+      "value": "Wallet importato"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_intro_text",
+      "value": "Gram: valuta digitale per Telegram"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_keys_delete",
+      "value": "Elimina wallet"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_keys_show_phrase",
+      "value": "Mostra frase segreta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_keys_title",
+      "value": "Chiavi e backup"
     },
     {
       "_": "types.LangPackString",
@@ -42402,6 +42584,16 @@
       "_": "types.LangPackString",
       "key": "lng_wallet_phrase_intro_text",
       "value": "La tua frase segreta è la chiave per eseguire il backup del tuo wallet. Tienila sempre al sicuro e non rivelarla a nessuno."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_phrase_warn_share",
+      "value": "**Non condividere mai** la tua frase segreta con nessuno."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_phrase_warn_support",
+      "value": "L'assistenza di Telegram **non ti chiederà mai** la tua frase segreta."
     },
     {
       "_": "types.LangPackString",
@@ -42450,6 +42642,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_replace_create",
+      "value": "Crea nuovo wallet"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_replace_import",
+      "value": "Importa wallet esistente"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_replace_title",
+      "value": "Come vuoi sostituire il vecchio wallet?"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_restore_error",
       "value": "Impossibile ripristinare l'accesso a questo wallet."
     },
@@ -42460,8 +42667,79 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_row_collectible_in",
+      "value": "Collezionabile in entrata"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_collectible_out",
+      "value": "Collezionabile in uscita"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_deposit",
+      "value": "Deposito"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_incoming",
+      "value": "Trasferimento in entrata"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_wallet_row_items",
+      "one_value": "{count} oggetto",
+      "other_value": "{count} oggetti"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_key_change",
+      "value": "Aggiornamento chiave"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_outgoing",
+      "value": "Trasferimento in uscita"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_topup",
+      "value": "Ricarica"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_withdrawal",
+      "value": "Prelievo"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_rows_collectibles",
+      "value": "Collezionabili"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_rows_hidden_below",
       "value": "Le transazioni inferiori a {amount} Gram sono nascoste."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_rows_title",
+      "value": "Transazioni"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_amount",
+      "value": "Invia {amount} Gram"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_balance",
+      "value": "Saldo: {amount} Gram"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_comment_optional",
+      "value": "Commento opzionale"
     },
     {
       "_": "types.LangPackString",
@@ -42470,8 +42748,23 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_send_invalid_address",
+      "value": "Indirizzo non valido"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_send_key_changed_title",
       "value": "Chiave wallet cambiata"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_user_wallet_title",
+      "value": "Wallet di {name}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_wallet_loading",
+      "value": "Carico il tuo wallet..."
     },
     {
       "_": "types.LangPackString",
@@ -42609,5 +42902,5 @@
       "other_value": "Hai pagato {count} stelle."
     }
   ],
-  "version": 5916981
+  "version": 5917041
 }
