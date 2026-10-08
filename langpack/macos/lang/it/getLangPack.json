@@ -42965,7 +42965,7 @@
     {
       "_": "types.LangPackString",
       "key": "Wallet.Controller.Excess",
-      "value": "Eccesso"
+      "value": "Eccedenza"
     },
     {
       "_": "types.LangPackString",
@@ -43241,7 +43241,7 @@
     {
       "_": "types.LangPackString",
       "key": "Wallet.ImportController.ImportWalletInfo",
-      "value": "Inserisci la frase segreta di 12 o 24 parole proveniente da un altro wallet di tua proprietà."
+      "value": "Inserisci la frase segreta di 12 o 24 parole da un altro wallet di tua proprietà."
     },
     {
       "_": "types.LangPackString",
@@ -43304,6 +43304,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.ImportController.Replace",
       "value": "Sostituisci"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.ImportController.ReplaceWalletInfo",
+      "value": "Questa frase segreta appartiene a un altro wallet. La sostituzione del wallet attuale ne rimuoverà l'accesso su questo dispositivo. Assicurati di aver salvato la frase segreta prima di continuare."
     },
     {
       "_": "types.LangPackString",
@@ -43813,6 +43818,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.SendController.InsufficientFundsInfo",
+      "value": "Hai bisogno di %1$@ incluso il costo di rete per inviare questo trasferimento."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.SendController.InsufficientFundsTitle",
       "value": "Fondi insufficienti"
     },
@@ -43830,6 +43840,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.SendController.OpenChat",
       "value": "Apri chat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.SendController.PublicCommentInfo",
+      "value": "I commenti pubblici possono essere letti da chiunque sulla blockchain. In caso contrario, solo tu e il destinatario potete leggerli."
     },
     {
       "_": "types.LangPackString",
@@ -43925,6 +43940,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.SettingsController.CheckNetwork",
       "value": "Controlla la connessione di rete e riprova."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.SettingsController.DataUnreadable",
+      "value": "I dati del wallet memorizzati non possono essere letti su questo dispositivo, pertanto la frase segreta e le impostazioni di backup non sono disponibili. Puoi eliminare questo wallet e ripristinarlo usando la frase segreta."
     },
     {
       "_": "types.LangPackString",
@@ -44120,6 +44140,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.SettingsController.SecretPhraseRequired",
       "value": "Frase segreta richiesta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.SettingsController.SecretPhraseRequiredForBackup",
+      "value": "Per cambiare le impostazioni di backup, inserisci la tua frase segreta di 12 o 24 parole per ripristinare l'accesso a questo wallet."
     },
     {
       "_": "types.LangPackString",
@@ -45544,5 +45569,5 @@
       "value": "Mostra sostituzioni"
     }
   ],
-  "version": 2370515
+  "version": 2370803
 }
