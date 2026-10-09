@@ -1228,6 +1228,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_action_community_added",
+      "value": "{from} added this group to the {community} community."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_action_community_added_channel",
       "value": "This channel was added to the {community} community."
     },
@@ -1245,6 +1250,11 @@
       "_": "types.LangPackString",
       "key": "lng_action_community_added_unknown_chat",
       "value": "This chat was added to a community."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_community_removed",
+      "value": "{from} removed this group from the community."
     },
     {
       "_": "types.LangPackString",
@@ -2737,6 +2747,11 @@
       "_": "types.LangPackString",
       "key": "lng_admin_log_admin_manage_topics",
       "value": "Manage topics"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_admin_log_admin_manage_welcome_messages",
+      "value": "Manage Welcome Messages"
     },
     {
       "_": "types.LangPackString",
@@ -9273,6 +9288,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_community_add_chat",
+      "value": "Add a Chat to Community"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_community_add_confirm_channel",
       "value": "If this channel is approved by a community admin, its subscribers will be able to join or request to join other chats in the community."
     },
@@ -9299,6 +9319,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_community_create_name",
+      "value": "Community Name"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_community_delete",
+      "value": "Delete Community"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_community_delete_sure",
       "value": "Are you sure you want to delete this community? This will unlink all its chats."
     },
@@ -9306,6 +9336,11 @@
       "_": "types.LangPackString",
       "key": "lng_community_hidden_chat_about",
       "value": "Only invited members and community admins will see this chat."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_community_hidden_chat_title",
+      "value": "Hidden Chat"
     },
     {
       "_": "types.LangPackString",
@@ -9319,13 +9354,44 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_community_hidden_status",
+      "value": "Hidden"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_community_manage_all_members",
+      "value": "All members"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_community_manage_all_members_about",
       "value": "Allow members to add their chats to the community."
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_community_manage_only_admins",
+      "value": "Only admins"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_community_manage_only_admins_about",
       "value": "Suggested chats require admin approval."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_community_manage_who_add",
+      "value": "Who can add chats"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_community_profile_status",
+      "one_value": "Community with {count} chat",
+      "other_value": "Community with {count} chats"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_community_request_add",
+      "value": "Add"
     },
     {
       "_": "types.LangPackString",
@@ -9341,6 +9407,52 @@
       "_": "types.LangPackString",
       "key": "lng_community_request_message_owner_channel",
       "value": "Message Channel Owner"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_community_requests_add_all_sure",
+      "one_value": "Do you want to add {count} chat to the community?",
+      "other_value": "Do you want to add {count} chats to the community?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_community_requests_add_all_title",
+      "value": "Add All Chats"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_community_requests_decline_all_title",
+      "value": "Decline All"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_community_requests_title",
+      "value": "Pending Requests"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_community_title",
+      "value": "Community"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_community_ungroup",
+      "value": "Ungroup"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_community_ungroup_text",
+      "value": "Chats from this community will appear separately in your chat list."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_community_ungroup_title",
+      "value": "Ungroup Chats"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_community_view",
+      "value": "View"
     },
     {
       "_": "types.LangPackString",
@@ -10277,6 +10389,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_context_monoforum_ban",
+      "value": "Ban user from channel"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_context_monoforum_unban",
+      "value": "Unban user in channel"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_context_mute",
       "value": "Mute notifications"
     },
@@ -10694,6 +10816,11 @@
       "_": "types.LangPackString",
       "key": "lng_context_view_channel",
       "value": "View channel info"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_context_view_community",
+      "value": "View community info"
     },
     {
       "_": "types.LangPackString",
@@ -11978,7 +12105,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_dialogs_suggestions_birthday_about",
-      "value": "Let your contacts know when you’re celebrating."
+      "value": "Let your contacts know when to celebrate."
     },
     {
       "_": "types.LangPackString",
@@ -14034,7 +14161,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_export_option_sessions_about",
-      "value": "We may store this to display your connected devices in Settings > Privacy & Security > Show all sessions."
+      "value": "We may store this to display your connected devices in Settings > Privacy & Security > Active sessions."
     },
     {
       "_": "types.LangPackString",
@@ -15108,6 +15235,31 @@
       "_": "types.LangPackString",
       "key": "lng_filters_subtitle",
       "value": "My folders"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_filters_tabs_default",
+      "value": "Default"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_filters_tabs_icons",
+      "value": "Icons only"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_filters_tabs_subtitle",
+      "value": "Tabs appearance"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_filters_tabs_text",
+      "value": "Text only"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_filters_tabs_text_icons",
+      "value": "Text and icons"
     },
     {
       "_": "types.LangPackString",
@@ -20483,6 +20635,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_in_dlg_table",
+      "value": "Table"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_in_dlg_todo_list",
       "value": "Checklist"
     },
@@ -22435,6 +22592,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_manage_peer_welcome_messages",
+      "value": "Welcome Message"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_manage_private_group_noforwards_title",
       "value": "Private restricted"
     },
@@ -23003,6 +23165,16 @@
       "_": "types.LangPackString",
       "key": "lng_media_video_title",
       "value": "Videos"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_media_zoom_in",
+      "value": "Zoom In"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_media_zoom_out",
+      "value": "Zoom Out"
     },
     {
       "_": "types.LangPackString",
@@ -24808,6 +24980,66 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_passkey_cable_bluetooth",
+      "value": "Keep Bluetooth on — your phone connects to this device over Bluetooth."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_passkey_cable_continue",
+      "value": "Continue on your phone"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_passkey_cable_error",
+      "value": "Couldn't connect to your phone.\nPlease try again."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_passkey_cable_error_title",
+      "value": "Something went wrong"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_passkey_cable_follow",
+      "value": "Follow the instructions on your phone."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_passkey_cable_key_about",
+      "value": "Insert and touch your security key."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_passkey_cable_login_about",
+      "value": "Scan this QR code with the camera on the phone or tablet that has your passkey."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_passkey_cable_login_title",
+      "value": "Sign in with a passkey"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_passkey_cable_no_bluetooth",
+      "value": "Bluetooth is unavailable. Turn on Bluetooth to sign in with a phone."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_passkey_cable_register_about",
+      "value": "Scan this QR code with the camera on the phone or tablet where you want to save your passkey."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_passkey_cable_register_title",
+      "value": "Add a passkey"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_passkey_method_key",
+      "value": "Use a security key"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_passport_about_password",
       "value": "This password will also be required whenever\nyou log in to a new device."
     },
@@ -26055,6 +26287,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_photo_editor_align",
+      "value": "Alignment"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_photo_editor_corners_about",
       "value": "Choose how rounded the sticker corners should look."
     },
@@ -26095,6 +26332,36 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_photo_editor_font",
+      "value": "Font"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_font_condensed",
+      "value": "Condensed"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_font_default",
+      "value": "Default"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_font_italic",
+      "value": "Italic"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_font_monospace",
+      "value": "Monospace"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_font_serif",
+      "value": "Serif"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_photo_editor_menu_delete",
       "value": "Delete"
     },
@@ -26110,8 +26377,48 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_photo_editor_shape_arrow",
+      "value": "Arrow"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_shape_bubble",
+      "value": "Bubble"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_shape_circle",
+      "value": "Circle"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_shape_filled",
+      "value": "Filled"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_shape_rectangle",
+      "value": "Rectangle"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_shape_star",
+      "value": "Star"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_text_placeholder",
+      "value": "Add Text"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_photo_editor_text_style_framed",
       "value": "Framed"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_text_style_opaque",
+      "value": "Opaque"
     },
     {
       "_": "types.LangPackString",
@@ -28199,6 +28506,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_profile_action_short_video_chat",
+      "value": "Video chat"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_profile_actions_section",
       "value": "Actions"
     },
@@ -28324,6 +28636,11 @@
       "_": "types.LangPackString",
       "key": "lng_profile_changed_photo_title",
       "value": "Photo updated"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_profile_choose_frame",
+      "value": "Choose a frame for your profile photo"
     },
     {
       "_": "types.LangPackString",
@@ -28936,6 +29253,11 @@
       "value": "Username:"
     },
     {
+      "_": "types.LangPackString",
+      "key": "lng_profile_video_confirm_button",
+      "value": "Set Video"
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "key": "lng_profile_videos",
       "one_value": "{count} video",
@@ -29174,6 +29496,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_proxy_not_tested",
+      "value": "not tested"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_proxy_online",
       "value": "online"
     },
@@ -29234,6 +29561,41 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_proxy_web_fallback",
+      "value": "The built-in web transport couldn't connect. Telegram will keep retrying it in the background. You can open the proxy page in your browser instead."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_proxy_web_host_label",
+      "value": "Web proxy hostname"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_proxy_web_host_ph",
+      "value": "proxy.example.com"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_proxy_web_open",
+      "value": "Open browser"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_proxy_web_server_label",
+      "value": "Web proxy server"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_proxy_web_waiting",
+      "value": "retrying built-in web transport…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_proxy_web_warning",
+      "value": "This WEB proxy runs a web page from its provider in the background while you're connected. Only use it if you trust the provider. It may also display a sponsored channel in your chat list. This doesn't reveal any of your Telegram traffic."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_public_post_private_hint_cmd",
       "value": "Use Cmd+Click to copy a non-public link."
     },
@@ -29241,6 +29603,26 @@
       "_": "types.LangPackString",
       "key": "lng_public_post_private_hint_ctrl",
       "value": "Use Ctrl+Click to copy a non-public link."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_pull_next_channel",
+      "value": "Pull up to go to the next unread channel"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_pull_next_topic",
+      "value": "Pull up to go to the next unread topic"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_pull_no_unread_channels",
+      "value": "You have no unread channels"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_pull_no_unread_topics",
+      "value": "No more unread topics in {group}"
     },
     {
       "_": "types.LangPackString",
@@ -29667,6 +30049,16 @@
       "_": "types.LangPackString",
       "key": "lng_record_voice_tip",
       "value": "Hold to record audio. Click to switch to video."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_release_next_channel",
+      "value": "Release to go to the next unread channel"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_release_next_topic",
+      "value": "Release to go to the next unread topic"
     },
     {
       "_": "types.LangPackString",
@@ -30973,6 +31365,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_rights_community_ban",
+      "value": "Ban Members"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_rights_community_info",
+      "value": "Edit Community Name"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_rights_community_linked",
       "value": "Edit Chat List"
     },
@@ -31093,8 +31495,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_rights_group_send_welcome_messages",
+      "value": "Send Welcome Messages"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_rights_group_topics",
       "value": "Manage topics"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_rights_manage_welcome_messages",
+      "value": "Manage Welcome Messages"
     },
     {
       "_": "types.LangPackString",
@@ -31130,6 +31542,11 @@
       "_": "types.LangPackString",
       "key": "lng_rights_restriction_for_all",
       "value": "This option is disabled for all members in Group Permissions."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_rights_send_welcome_messages",
+      "value": "Send Welcome Messages"
     },
     {
       "_": "types.LangPackString",
@@ -33849,6 +34266,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_settings_passkeys_delete_sure_about_name",
+      "value": "Once deleted, {name} can't be used to log in."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_settings_passkeys_delete_sure_title",
       "value": "Delete Passkey"
     },
@@ -34084,6 +34506,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_settings_pull_to_next_channel",
+      "value": "Swipe to the next unread channel"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_settings_qt_frame",
       "value": "Use Qt window frame"
     },
@@ -34206,6 +34633,11 @@
       "_": "types.LangPackString",
       "key": "lng_settings_restart_now",
       "value": "Restart"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_settings_restore_windows",
+      "value": "Restore last opened windows"
     },
     {
       "_": "types.LangPackString",
@@ -35108,8 +35540,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_shortcuts_reopen_closed_window",
+      "value": "Reopen closed window"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_shortcuts_reset",
       "value": "Reset to default"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_shortcuts_rich_editor",
+      "value": "Open article editor"
     },
     {
       "_": "types.LangPackString",
@@ -36777,6 +37219,16 @@
       "_": "types.LangPackString",
       "key": "lng_stats_earn_loading_subtext",
       "value": "Please wait a few moments while we generate your stats."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_stats_export",
+      "value": "Export to File"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_stats_export_done",
+      "value": "Statistics saved to {file}."
     },
     {
       "_": "types.LangPackString",
@@ -39978,6 +40430,11 @@
       "value": "Link shared with **{user}**."
     },
     {
+      "_": "types.LangPackString",
+      "key": "lng_video_quality_original",
+      "value": "Original"
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "key": "lng_video_stream_comment_paid_ph",
       "one_value": "Comment for {count} Star",
@@ -40229,6 +40686,41 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_welcome_messages_delete_all",
+      "value": "Delete All"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_welcome_messages_delete_all_sure",
+      "value": "Are you sure you want to delete all welcome messages?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_welcome_messages_empty_about",
+      "value": "Automatically greet new members when they join."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_welcome_messages_empty_title",
+      "value": "Create a Welcome Message"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_welcome_messages_placeholder",
+      "value": "Add a Welcome Message"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_welcome_messages_preview_about",
+      "value": "New members will see these messages when they join"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_welcome_messages_title",
+      "value": "Welcome Message"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_will_be_notified",
       "value": "Subscribers will be notified when you post."
     },
@@ -40281,5 +40773,5 @@
       "other_value": "You paid {count} Stars."
     }
   ],
-  "version": 5823462
+  "version": 5924912
 }
