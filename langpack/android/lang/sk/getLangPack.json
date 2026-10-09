@@ -1679,6 +1679,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ActionJoinedFromCommunityYou",
+      "value": "Do skupiny ste sa pripojili cez komunitu un1"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ActionKickUser",
       "value": "un1 odstránil/a un2"
     },
@@ -4115,6 +4120,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ArticleConversionText",
+      "value": "Táto správa používa rozšírené formátovanie, ktoré vyžaduje **Telegram Prémium**."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ArticleConversionTitle",
       "value": "Odstrániť formátovanie"
     },
@@ -4320,8 +4330,23 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ArticleRemoveHighlight",
+      "value": "Odstrániť zvýraznenie"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ArticleSaveDraftMessage",
+      "value": "Pred zatvorením môžete napísaný text uložiť ako koncept."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ArticleSaveDraftTitle",
       "value": "Uložiť tento koncept?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ArticleSplitCells",
+      "value": "Rozdeliť bunky"
     },
     {
       "_": "types.LangPackString",
@@ -4332,6 +4357,11 @@
       "_": "types.LangPackString",
       "key": "ArticleTableCompact",
       "value": "Kompaktné"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ArticleTableTitleHint",
+      "value": "Pridať nadpis"
     },
     {
       "_": "types.LangPackString",
@@ -11468,7 +11498,7 @@
     {
       "_": "types.LangPackString",
       "key": "ChartInTON",
-      "value": "%s in gramoch"
+      "value": "%s v gramoch"
     },
     {
       "_": "types.LangPackString",
@@ -12752,6 +12782,19 @@
       "value": "Pridať správcu"
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Chcete pridať **%1$d** konverzácie do komunity?",
+      "key": "CommunityAddAllChatsMessage",
+      "many_value": "",
+      "one_value": "Chcete pridať **%1$d** konverzáciu do komunity?",
+      "other_value": "Chcete pridať **%1$d** konverzácií do komunity?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CommunityAddAllChatsTitle",
+      "value": "Pridať všetky konverzácie"
+    },
+    {
       "_": "types.LangPackString",
       "key": "CommunityAddBotToCommunity",
       "value": "Pridať bota do komunity"
@@ -12785,6 +12828,11 @@
       "_": "types.LangPackString",
       "key": "CommunityAddGroupToCommunityInfo",
       "value": "Skupinu môžete pridať do komunity s viacerými súvisiacimi konverzáciami."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CommunityAddToCommunityButton",
+      "value": "Pridať do komunity"
     },
     {
       "_": "types.LangPackString",
@@ -12838,6 +12886,32 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "CommunityBanFromCommunity",
+      "value": "Vylúčiť z komunity"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Používateľ bude odstránený z **%1$d konverzácií >**",
+      "key": "CommunityBanFromCommunityInfo",
+      "many_value": "",
+      "one_value": "Používateľ bude odstránený z **%1$d konverzácie >**",
+      "other_value": "Používateľ bude odstránený z **%1$d konverzácií >**"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CommunityBanUserTitle",
+      "value": "Zablokovať používateľa"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Používateľ **%2$s** bude odstránený z **%1$d** komunitných konverzácií.",
+      "key": "CommunityBanWillRemoveFromChats",
+      "many_value": "",
+      "one_value": "Používateľ **%2$s** bude odstránený z **%1$d** komunitnej konverzácie.",
+      "other_value": "Používateľ **%2$s** bude odstránený z **%1$d** komunitných konverzácií."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "CommunityChatVisibilityCannotChange",
       "value": "Neskôr to už nebudete môcť zmeniť."
     },
@@ -12854,7 +12928,7 @@
     {
       "_": "types.LangPackString",
       "key": "CommunityChatVisibilityHiddenInfo",
-      "value": "Túto konverzáciu uvidia iba pozvaní členovia a správcovia komunít."
+      "value": "Túto konverzáciu uvidia iba pozvaní členovia a správcovia komunity."
     },
     {
       "_": "types.LangPackString",
@@ -12931,6 +13005,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "CommunityHiddenGroupUnavailable",
+      "value": "Do tejto skupiny sa nemôžete pripojiť ani si ju prezrieť, pokiaľ vás nepozve správca."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "CommunityInviteOnlyChannelInfo",
       "value": "Tento kanál súkromný.\nMôžu ho zobraziť len jeho členovia."
     },
@@ -12988,6 +13067,21 @@
       "_": "types.LangPackString",
       "key": "CommunityMenuRemoveGroupFromCommunityConfirm",
       "value": "Naozaj chcete odstrániť túto skupinu z komunity?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CommunityMenuSettings",
+      "value": "Nastavenia"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CommunityMenuShowAsOneChat",
+      "value": "Zobraziť ako jednu konverzáciu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CommunityMenuShowAsSeparateChats",
+      "value": "Zobraziť ako samostatné konverzácie"
     },
     {
       "_": "types.LangPackString",
@@ -13147,6 +13241,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "CommunitySectionHiddenChats",
+      "value": "Skryté konverzácie"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "CommunitySectionWhoCanAddChats",
       "value": "Kto môže pridávať konverzácie"
     },
@@ -13187,6 +13286,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "CommunitySettingsChangePhoto",
+      "value": "Zmeniť fotku komunity"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "CommunitySettingsSetPhoto",
       "value": "Nastaviť fotku komunity"
     },
@@ -13217,6 +13321,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "CommunityUngroupChatsText",
+      "value": "Konverzácie z tejto komunity sa zobrazia samostatne vo vašom zozname konverzácií."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "CommunityWhoCanAddChatsAllMembers",
       "value": "Všetci členovia"
     },
@@ -13233,7 +13342,7 @@
     {
       "_": "types.LangPackString",
       "key": "CommunityWhoCanAddChatsOnlyAdminsInfo",
-      "value": "Konverzácie navrhnuté členmi komunity vyžadujú schválenie správcu."
+      "value": "Konverzácie navrhnuté členmi komunity vyžadujú schválenie správcom."
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -14912,12 +15021,12 @@
     {
       "_": "types.LangPackString",
       "key": "Deselect",
-      "value": "Zrušiť výber"
+      "value": "Odznačiť"
     },
     {
       "_": "types.LangPackString",
       "key": "DeselectAll",
-      "value": "Zrušiť výber"
+      "value": "Odznačiť všetko"
     },
     {
       "_": "types.LangPackString",
@@ -33882,6 +33991,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PremiumPreviewRichEditorDescription",
+      "value": "Do správ pridávajte nadpisy, tabuľky, vložené médiá a obsah AI."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PremiumPreviewSharingDisable",
       "value": "Vypnúť zdieľanie"
     },
@@ -37774,7 +37888,7 @@
     {
       "_": "types.LangPackString",
       "key": "RevenueSharingAdsInfo1Subtitle",
-      "value": "Reklamy na Telegrame nepoužívajú vaše osobné údaje a sú založené na kanáli, v ktorom ich vidíte."
+      "value": "Obsah vašich súkromných konverzácií ani zoznamov kontaktov nepoužívame na cielenie reklám ani na iné komerčné účely."
     },
     {
       "_": "types.LangPackString",
@@ -37829,7 +37943,7 @@
     {
       "_": "types.LangPackString",
       "key": "RevenueSharingAdsInfo4Subtitle2",
-      "value": "Reklamu pre tento kanál môže vytvoriť ktokoľvek – s minimálnym rozpočtom. Viac informácií na **Reklamná platforma Telegram**. %1$s"
+      "value": "Inzeráty na Telegrame môže zverejňovať ktokoľvek – s minimálnym rozpočtom. Viac informácií na **Reklamná platforma Telegram**. %1$s"
     },
     {
       "_": "types.LangPackString",
@@ -48437,7 +48551,7 @@
     {
       "_": "types.LangPackString",
       "key": "UsersDeselectAll",
-      "value": "Zrušiť výber"
+      "value": "Odznačiť všetko"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -51364,7 +51478,7 @@
     {
       "_": "types.LangPackString",
       "key": "formatterMonth",
-      "value": "dd'.' MMM"
+      "value": "d. MMM"
     },
     {
       "_": "types.LangPackString",
@@ -51443,5 +51557,5 @@
       "value": "Telegram pas"
     }
   ],
-  "version": 61197762
+  "version": 61197843
 }
