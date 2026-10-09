@@ -2456,8 +2456,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_action_ton_connect_accepted",
+      "value": "Sovelluksen {app} pyyntö hyväksyttiin"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_action_ton_connect_accepted_unknown",
       "value": "Pyyntö hyväksyttiin"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_ton_connect_declined",
+      "value": "Sovelluksen {app} pyyntö hylättiin"
     },
     {
       "_": "types.LangPackString",
@@ -2466,8 +2476,48 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_action_ton_connect_disconnect",
+      "value": "{app} pyytää katkaisua"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_ton_connect_expired",
+      "value": "Sovelluksen {app} pyyntö vanheni"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_action_ton_connect_expired_unknown",
       "value": "Pyyntö vanheni"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_ton_connect_request",
+      "value": "{app} lähetti pyynnön"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_ton_connect_request_unknown",
+      "value": "Yhdistetty sovellus pyysi jotain"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_ton_connect_review",
+      "value": "{text}, napsauta tarkistaaksesi {arrow}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_ton_connect_send_transaction",
+      "value": "{app} pyytää sinua siirtämään rahaa"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_ton_connect_sign_data",
+      "value": "{app} pyytää sinua allekirjoittamaan"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_ton_connect_sign_message",
+      "value": "{app} pyytää sinua lähettämään viestin"
     },
     {
       "_": "types.LangPackString",
@@ -35779,8 +35829,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_settings_passcode_lock_off_wallet",
+      "value": "Tämä pääsykoodi suojaa lompakkoasi. Se ei ole lukittuna, kun avaat Telegramin."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_settings_passcode_title",
       "value": "Laitepääsykoodi"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_settings_passcode_wallet_about",
+      "value": "Tämä pääsykoodi suojaa laitteelle tallennetut lompakkoavaimet."
     },
     {
       "_": "types.LangPackString",
@@ -39000,7 +39060,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_status_bot_gay",
-      "value": "muunsukupuolinen"
+      "value": "sukupuolivähemmistöön kuuluva"
     },
     {
       "_": "types.LangPackString",
@@ -40586,25 +40646,25 @@
     {
       "_": "types.LangPackStringPluralized",
       "key": "lng_sure_logout_wallet_local",
-      "one_value": "Gram-lompakkosi avaimet ovat vain tällä laitteella, eikä niistä ole varmuuskopiota Telegramin palvelimilla. Jos jatkat, avaimet tuhoutuvat — lompakon voi palauttaa vain palautuslauseella.",
-      "other_value": "{count} gram-lompakkosi avaimet ovat vain tällä laitteella, eikä niistä ole varmuuskopiota Telegramin palvelimilla. Jos jatkat, avaimet tuhoutuvat — lompakot voi palauttaa vain palautuslauseella."
+      "one_value": "Gram-lompakkosi avaimet ovat vain tällä laitteella, eikä niistä ole varmuuskopiota Telegramin palvelimilla. Jos jatkat, avaimet tuhoutuvat — lompakon voi palauttaa vain salalauseella.",
+      "other_value": "{count} gram-lompakkosi avaimet ovat vain tällä laitteella, eikä niistä ole varmuuskopiota Telegramin palvelimilla. Jos jatkat, avaimet tuhoutuvat — lompakot voi palauttaa vain salalauseella."
     },
     {
       "_": "types.LangPackStringPluralized",
       "key": "lng_sure_logout_wallet_parked",
-      "one_value": "Tällä laitteella on vielä yhden Gram-lompakon avaimet. Jos jatkat, avaimet tuhoutuvat — lompakon voi palauttaa vain palautuslauseella.",
-      "other_value": "Tällä laitteella on vielä {count} Gram-lompakon avaimet. Jos jatkat, avaimet tuhoutuvat — lompakon voi palauttaa vain palautuslauseella."
+      "one_value": "Tällä laitteella on vielä yhden Gram-lompakon avaimet. Jos jatkat, avaimet tuhoutuvat — lompakon voi palauttaa vain salalauseella.",
+      "other_value": "Tällä laitteella on vielä {count} Gram-lompakon avaimet. Jos jatkat, avaimet tuhoutuvat — lompakon voi palauttaa vain salalauseella."
     },
     {
       "_": "types.LangPackStringPluralized",
       "key": "lng_sure_logout_wallet_rotating",
-      "one_value": "Lompakon avaimen muutos tällä laitteella on yhä vireillä. Telegramilla ei vielä ole uudesta avaimesta varmuuskopiota. Jos jatkat, avaimet tuhoutuvat — lompakon voi palauttaa vain palautuslauseella.",
-      "other_value": "{count} lompakon avaimen muutos tällä laitteella on yhä vireillä. Telegramilla ei vielä ole uudesta avaimesta varmuuskopiota. Jos jatkat, avaimet tuhoutuvat — lompakon voi palauttaa vain palautuslauseella."
+      "one_value": "Lompakon avaimen muutos tällä laitteella on yhä vireillä. Telegramilla ei vielä ole uudesta avaimesta varmuuskopiota. Jos jatkat, avaimet tuhoutuvat — lompakon voi palauttaa vain salalauseella.",
+      "other_value": "{count} lompakon avaimen muutos tällä laitteella on yhä vireillä. Telegramilla ei vielä ole uudesta avaimesta varmuuskopiota. Jos jatkat, avaimet tuhoutuvat — lompakon voi palauttaa vain salalauseella."
     },
     {
       "_": "types.LangPackString",
       "key": "lng_sure_logout_wallet_unknown",
-      "value": "Jos tällä laitteella on gram-lompakon avaimia ja jatkat, avaimet tuhoutuvat — lompakot voi palauttaa vain palautuslauseella."
+      "value": "Jos tällä laitteella on gram-lompakon avaimia ja jatkat, avaimet tuhoutuvat — lompakot voi palauttaa vain salalauseella."
     },
     {
       "_": "types.LangPackString",
@@ -42344,6 +42404,12 @@
       "value": "Lohkoketjun vahvistama"
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_wallet_about_fees_text",
+      "one_value": "Päivän ensimmäinen {count} siirto ovat ilmaisia. Loputkin ovat lähes ilmaisia.",
+      "other_value": "Päivän ensimmäiset {count} siirtoa ovat ilmaisia. Loputkin ovat lähes ilmaisia."
+    },
+    {
       "_": "types.LangPackString",
       "key": "lng_wallet_about_fees_title",
       "value": "Ei kuluja"
@@ -42375,6 +42441,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_apps_disconnect_sure",
+      "value": "Haluatko varmasti katkaista sovelluksen {name}?"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_apps_disconnect_title",
       "value": "Katkaise sovellus"
     },
@@ -42395,13 +42466,23 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_backup_about_on",
+      "value": "Avaimen salattu varmuuskopio pilkotaan kolmeen osaan ja talletetaan kolmelle eri maanosalle.\n\nAvaimen voi koota takaisin vain laitteellasi. Kukaan muu ei pääse siihen käsiksi — ei edes Telegram."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_about_unavailable",
+      "value": "Salalauseella tuoduille lompakoille ei voi ottaa käyttöön salattuja varmuuskopioita."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_backup_cancel_text",
       "value": "Salalausettasi ei muuteta."
     },
     {
       "_": "types.LangPackString",
       "key": "lng_wallet_backup_cancel_title",
-      "value": "Perutaanko varmuuskopion käytöstäpoisto?"
+      "value": "Pidetäänkö varmuuskopio?"
     },
     {
       "_": "types.LangPackString",
@@ -42421,7 +42502,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_wallet_backup_disabled_text",
-      "value": "Lompakkosi voi nyt palauttaa vain palautuslauseella."
+      "value": "Lompakkosi voi nyt palauttaa vain salalauseella."
     },
     {
       "_": "types.LangPackString",
@@ -42451,12 +42532,17 @@
     {
       "_": "types.LangPackString",
       "key": "lng_wallet_backup_new_phrase_text",
-      "value": "Uusi palautuslause on luotu lompakollesi. Ota se talteen ja pidä sitä turvassa muilta."
+      "value": "Uusi salalause on luotu lompakollesi. Ota se talteen ja pidä sitä turvassa muilta."
     },
     {
       "_": "types.LangPackString",
       "key": "lng_wallet_backup_new_phrase_title",
       "value": "Uusi salalause"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_rotate_failed_text",
+      "value": "{reason} Salalauseesi ei ole muuttunut — käytä aiempaa. Talteen ottamasi uudet sanat eivät ole voimassa."
     },
     {
       "_": "types.LangPackString",
@@ -42496,7 +42582,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_wallet_backup_topup_text",
-      "value": "Salalauseen muuttamiseen vaaditaan {amount} gramia ({fiat}). Lisää varoja ja yritä uudelleen."
+      "value": "Salalauseen muuttamiseen vaaditaan {amount} gramia ({fiat})."
     },
     {
       "_": "types.LangPackString",
@@ -42510,8 +42596,13 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_backup_update_fee",
+      "value": "Palvelumaksu: {amount} gramia ({fiat})."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_backup_update_text",
-      "value": "Saat uuden salalauseen. Kirjoita se muistiin. Osoite ja saldo pysyvät ennallaan."
+      "value": "Saat uuden salalauseen. Kirjoita se talteen. Osoite ja saldo pysyvät ennallaan."
     },
     {
       "_": "types.LangPackString",
@@ -42542,6 +42633,21 @@
       "_": "types.LangPackString",
       "key": "lng_wallet_chip_username",
       "value": "Keräilyesineen käyttäjänimi"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_collectible_nft_about",
+      "value": "The Open Network (TON) -lohkoketjuun tallennettu keräilyesine."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_collectible_number_about",
+      "value": "Puhelinnumero {number}, jolla voidaan luoda Telegram-tili ilman SIM-korttia."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_collectible_username_about",
+      "value": "Telegram-käyttäjänimi {username}."
     },
     {
       "_": "types.LangPackString",
@@ -42585,6 +42691,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_conflict_bar",
+      "value": "Tällä laitteella on myös vanha lompakko"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_conflict_existing",
       "value": "Vanhoissa lompakoissa on vielä {amount}"
     },
@@ -42595,8 +42706,23 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_conflict_switch_error",
+      "value": "Vanhaa lompakkoa ei voitu poistaa tältä laitteelta."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_conflict_text",
+      "value": "Aiemmin tällä laitteella käyttämäsi lompakko. Ota salalause talteen ennen Telegram-lompakkoon vaihtamista."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_connect_button",
       "value": "Yhdistä"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_expired",
+      "value": "Yhteyspyyntö ei ole enää voimassa. Yritä yhdistää sovelluksesta uudelleen."
     },
     {
       "_": "types.LangPackString",
@@ -42605,8 +42731,23 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_connect_manifest_invalid",
+      "value": "Sovelluksen tiedot ovat virheellisiä tai kuuluvat eri verkkotunnukselle. Lompakkoa ei yhdistetty."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_manifest_missing",
+      "value": "Sovelluksen tietoja ei voitu ladata. Lompakkoa ei yhdistetty."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_connect_permission",
       "value": "Sovellus pääsee näkemään TON-osoitteesi, saldosi ja tiliotteesi."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_proof",
+      "value": "Sovellus pyytää varmistamaan, että omistat tämän lompakon. Tämä on todentamista varten eikä suorita siirtoa."
     },
     {
       "_": "types.LangPackString",
@@ -42640,6 +42781,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_deploy",
+      "value": "Julkaisee älysopimuksen tällä osoitteella."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_connect_request_deploy_contract",
       "value": "Sopimuksen julkaisu"
     },
@@ -42660,8 +42806,23 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_fee_failed",
+      "value": "Palvelumaksua ei voitu arvioida."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_fee_loading",
+      "value": "Arvioidaan palvelumaksua…"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_connect_request_handled",
       "value": "Tämä pyyntö käsiteltiin eri laitteella."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_locked",
+      "value": "Avaa lompakko katsellaksesi pyyntöä."
     },
     {
       "_": "types.LangPackString",
@@ -42694,6 +42855,12 @@
       "value": "Esikatselu"
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_wallet_connect_request_recipients",
+      "one_value": "{count} saaja",
+      "other_value": "{count} saajaa"
+    },
+    {
       "_": "types.LangPackString",
       "key": "lng_wallet_connect_request_recipients_title",
       "value": "Saajat"
@@ -42720,6 +42887,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_trace_failed",
+      "value": "Esikatselun mukaan tapahtuma ei välttämättä onnistu kokonaan."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_trace_incomplete",
+      "value": "Tapahtuman esikatselu on puutteellinen."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_connect_request_transfer",
       "value": "Siirrä"
     },
@@ -42735,6 +42912,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_unhandled_about",
+      "value": "Voit hylätä pyynnön nyt, tai tarkastella sitä toiselta laitteelta."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_connect_request_unknown_operation",
       "value": "Tuntematon toiminto"
     },
@@ -42747,6 +42929,11 @@
       "_": "types.LangPackString",
       "key": "lng_wallet_connect_request_unsupported",
       "value": "Tätä pyyntöä ei tueta tällä laitteella."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_restore",
+      "value": "Laitteella ei ole lompakon nykyistä avainta. Palauta lompakko käyttääksesi sovelluksia."
     },
     {
       "_": "types.LangPackString",
@@ -42772,6 +42959,11 @@
       "_": "types.LangPackString",
       "key": "lng_wallet_connect_sign_done",
       "value": "Tiedot allekirjoitettiin."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_sign_text_about",
+      "value": "Tarkista tiedot huolella ja allekirjoita vain, jos suostut."
     },
     {
       "_": "types.LangPackString",
@@ -42835,6 +43027,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_details_failed_reason",
+      "value": "Virhe ({reason})"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_details_fee",
       "value": "Kulut"
     },
@@ -42851,7 +43048,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_wallet_details_open_wallet",
-      "value": "Avaa lompakkoni"
+      "value": "Avaa rahanäkymä"
     },
     {
       "_": "types.LangPackString",
@@ -42884,6 +43081,11 @@
       "value": "Olet myös ansainnut grameja: {amount}"
     },
     {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_error_with_type",
+      "value": "{message} (virhe: {error})"
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "key": "lng_wallet_fees_text",
       "one_value": "Jokaiseen siirtoon kuuluu pieni lisämaksu.\n\n**{count}** maksu päivässä onnistuu kuluitta, koska Telegram kattaa ne, lopuista kulut maksetaan itse.",
@@ -42901,8 +43103,23 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_first_rate_none",
+      "value": "Grameilla onnistuu:"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_first_send_text",
+      "value": "Siirrä grameja keskustelussa:\nNapsauta {attach} → {money}."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_first_send_title",
       "value": "Lähetä"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_first_store_text",
+      "value": "Pidä gramisi Telegramissa\n({menu} → {wallet}) tai muissa lompakoissa."
     },
     {
       "_": "types.LangPackString",
@@ -42932,7 +43149,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_wallet_how_menu",
-      "value": "Mikä lompakko on?"
+      "value": "Mikä tämä on?"
     },
     {
       "_": "types.LangPackString",
@@ -42956,6 +43173,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_import_invalid_scheme",
+      "value": "Vain Telegramin luoman salalauseen voi tuoda."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_import_invalid_spelling",
       "value": "Tarkista sanajärjestys."
     },
@@ -42971,8 +43193,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_import_not_verified",
+      "value": "Telegram ei voinut varmistaa, että omistat tämän lompakon. Pidä salalauseesi tallessa ja käänny Telegramin tuen puoleen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_import_paste_error",
+      "value": "Liitetyssä tekstissä on oltava 12 tai 24 sanaa."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_import_text",
-      "value": "Syötä toisen omistamasi lompakon palautuslause."
+      "value": "Syötä toisen omistamasi lompakon salalause."
     },
     {
       "_": "types.LangPackString",
@@ -42984,6 +43216,11 @@
       "key": "lng_wallet_import_words",
       "one_value": "{count} sana",
       "other_value": "{count} sanaa"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_imported_not_stored",
+      "value": "Lompakko korvattin, mutta sen avainta ei löytynyt tällä laitteella. Saatat joutua palauttamaan sen salalauseellasi."
     },
     {
       "_": "types.LangPackString",
@@ -42999,6 +43236,11 @@
       "_": "types.LangPackString",
       "key": "lng_wallet_intro_text",
       "value": "Gram — Telegramin digitaalivaluutta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_key_save_error",
+      "value": "Lompakon avainta ei voitu tallentaa tälle laitteelle."
     },
     {
       "_": "types.LangPackString",
@@ -43018,7 +43260,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_wallet_keys_show_phrase",
-      "value": "Näytä palautuslause"
+      "value": "Näytä salalause"
     },
     {
       "_": "types.LangPackString",
@@ -43037,6 +43279,51 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_passcode_forgot",
+      "value": "Unohditko pääsykoodisi?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_passcode_forgot_about",
+      "value": "Laite ei voi avata tallennettuja lompakkoavaimia ilman pääsykoodia. Voit poistaa kaikki laitteella olevat lompakkoavaimet ja pääsykoodin, ja jatkaa Telegramin käyttöä. Sinua ei kirjattaisi ulos tililtäsi."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_passcode_forgot_backed",
+      "value": "Lompakon voi palauttaa Telegramin varmuuskopiosta."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_passcode_forgot_confirm",
+      "value": "Poista avaimet"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_passcode_forgot_done",
+      "value": "Lompakon avaimet ja pääsykoodi poistettiin laitteelta."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_passcode_forgot_failed",
+      "value": "Lompakkojen avaimia ei voitu poistaa."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_passcode_remember",
+      "value": "Älä kysy 15 minuuttiin"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_phrase_check_wait",
+      "value": "Odota vielä {duration} ennen tätä toimintoa."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_phrase_error",
+      "value": "Salalausetta ei voitu näyttää."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_phrase_intro_text",
       "value": "Tämä salalause on lompakkosi varmuuskopioavain. Pidä se koko ajan salassa ja turvassa."
     },
@@ -43044,6 +43331,17 @@
       "_": "types.LangPackString",
       "key": "lng_wallet_phrase_intro_title",
       "value": "Salalause"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_phrase_password_description",
+      "value": "Syötä salasanasi nähdäksesi salalauseesi."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_wallet_phrase_text",
+      "one_value": "Ota tämä {count} sana talteen ja pidä sitä koko ajan salassa sekä turvassa.",
+      "other_value": "Ota nämä {count} sanaa talteen ja pidä niitä koko ajan salassa sekä turvassa."
     },
     {
       "_": "types.LangPackString",
@@ -43077,6 +43375,36 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_protection_about",
+      "value": "Valitse, kuinka lompakkosi suojataan tällä laitteella."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_create_about",
+      "value": "Tämä pääsykoodi suojaa lompakkosi avainta tällä laitteella. Sitä ei käytetä Telegramin lukitsemiseen, ellet ota sitä käyttöön asetuksista. "
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_error",
+      "value": "Lompakon avaimen suojausta ei voitu muuttaa."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_hardware_absent",
+      "value": "{provider} suojeli lompakon avainta tällä laitteella, mutta avainta ei voi enää käyttää tällä laitteella. Palauta lompakko varmuuskopiosta tai salalauseella vaihtaaksesi avaimen suojausmenetelmää."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_hardware_failed",
+      "value": "{provider} ei voinut varmistaa henkilöllisyyttäsi. Muutoksia ei tehty."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_hardware_unavailable",
+      "value": "{provider} suojelee lompakon avainta tällä laitteella, eikä sitä voi käyttää juuri nyt. Käynnistä Telegram uudelleen, tai palauta lompakko varmuuskopiosta tai salalauseella vaihtaaksesi sen suojausmenetelmää."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_protection_hello_about",
       "value": "Vahvista maksut Windowsin PIN-koodilla."
     },
@@ -43107,6 +43435,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_protection_open_warning_lock",
+      "value": "Jos joku pääsee tietokoneellesi ja auki olevaan Telegramiin, hän voi varastaa varat lompakostasi.\n\nVoit muuttaa tätä myöhemmin lompakon pääsykoodiasetuksista."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_open_warning_nolock",
+      "value": "Jos joku pääsee tietokoneellesi, hän voi varastaa varat lompakostasi.\n\nVoit muuttaa tätä myöhemmin lompakon pääsykoodiasetuksista."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_protection_passcode",
       "value": "Pyydä pääsykoodia"
     },
@@ -43117,8 +43455,33 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_protection_passcode_change",
+      "value": "Vaihda pääsykoodi {arrow}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_passcode_changed_error",
+      "value": "Pääsykoodi vaihdettiin, mutta lompakon suojausta ei voitu päivittää. Palauta lompakko varmuuskopiosta tai salalauseella."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_protection_passcode_keep",
       "value": "Pyydä edelleen tätä pääsykoodia"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_removal_about",
+      "value": "Valitse, kuinka lompakkosi suojataan ilman pääsykoodia."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_removal_wallets",
+      "value": "Tämä pätee seuraavien tilien lompakkoihin: {accounts}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_retained",
+      "value": "Telegram ei kysy palvelulta {provider} uudelleen 15 minuuttiin. {link}"
     },
     {
       "_": "types.LangPackString",
@@ -43127,13 +43490,43 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_protection_title",
+      "value": "Pääsykoodilukitus"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_touchid_about",
+      "value": "Vahvista maksut sormenjäljellä tai Macin salasanalla."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_touchid_label",
+      "value": "Touch ID"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_touchid_reason",
+      "value": "avata lompakon avaimen"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_provisioning",
       "value": "Valmistellaan lompakkoa..."
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_readonly_bar",
+      "value": "Tällä laitteella voi katsella lompakkoa, mutta siltä ei voi lähettää."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_receive_about",
       "value": "Jaa osoitteesi tai QR-koodi pyytääksesi grameja."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_receive_caveat",
+      "value": "Tältä laitteelta lähettäminen vaatii joko salalauseen tai sen laitteen, jolla lompakko tuotiin."
     },
     {
       "_": "types.LangPackString",
@@ -43157,8 +43550,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_restore_error",
+      "value": "Lompakkoa ei voitu palauttaa."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_restore_explain_text",
+      "value": "Syötä kaksivaiheisen todennuksen salasana palauttaaksesi lompakon avaimen salatusta varmuuskopiosta."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_restore_not_saved",
+      "value": "Salalausetta ei tallennettu tälle laitteelle."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_restore_other_text",
       "value": "Syöttämäsi sanat eivät vastaa tätä lompakkoa."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_restore_outdated_text",
+      "value": "Nämä sanat vastaavat lompakon vanhaa salalausetta.\n\nSyötä uusi salalause, jonka sait, kun poistit viimeksi varmuuskopion käytöstä."
     },
     {
       "_": "types.LangPackString",
@@ -43172,8 +43585,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_restore_ton_connect_text",
+      "value": "Syötä tämän lompakon salalause käyttääksesi sovelluksia tällä laitteella."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_restore_wrong_title",
       "value": "Väärä salalause"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_restoring_key",
+      "value": "Lompakon avainta palautetaan salatusta varmuuskopiosta..."
     },
     {
       "_": "types.LangPackString",
@@ -43194,6 +43617,12 @@
       "_": "types.LangPackString",
       "key": "lng_wallet_row_incoming",
       "value": "Saapuva siirto"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_wallet_row_items",
+      "one_value": "{count} esine",
+      "other_value": "{count} esinettä"
     },
     {
       "_": "types.LangPackString",
@@ -43237,6 +43666,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_send_amount",
+      "value": "Lähetä {amount} gramia"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_balance",
+      "value": "Saldo: {amount} gramia"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_send_comment_optional",
       "value": "Valinnainen kommentti"
     },
@@ -43247,8 +43686,33 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_send_error_in_progress",
+      "value": "Toinen siirto on jo meneillään. Odota, että se valmistuu."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_error_insufficient",
+      "value": "Gramisi eivät riitä tähän siirtoon."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_error_quote_expired",
+      "value": "Tapahtuman yksityiskohdat muuttuivat, tai valmistelu epäonnistui. Tarkista tiedot ja yritä uudelleen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_error_too_small",
+      "value": "Vähintään {amount} gramia pitää siirtää."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_send_invalid_address",
       "value": "Virheellinen osoite"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_key_changed_text",
+      "value": "Tämän lompakon avain muuttui toisessa sovelluksessa. Tällä laitteella olevaa avainta ei voi enää käyttää.\n\nPalauta lompakko salalauseella käyttääksesi sitä taas tällä laitteella."
     },
     {
       "_": "types.LangPackString",
@@ -43272,6 +43736,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_send_network_fee",
+      "value": "Palvelumaksu: {amount} gramia"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_send_recipient_loading",
       "value": "Haetaan saajan lompakkoa..."
     },
@@ -43287,6 +43756,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_send_user_title",
+      "value": "Lähetä saajalle {user}"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_send_user_unavailable",
       "value": "Tämä käyttäjä ei voi ottaa grameja vastaan."
     },
@@ -43297,13 +43771,48 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_send_user_wallet_title",
+      "value": "Lompakko: {name}"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_send_wallet_loading",
       "value": "Ladataan lompakkoa..."
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_sent_toast",
+      "value": "🎉 Gramit lähetettiin osoitteeseen {address}."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_state_error",
       "value": "Lompakkoa ei voitu ladata."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_unavailable",
+      "value": "Rahatoiminnot eivät ole käytettävissä tällä tilillä."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_vault_locked",
+      "value": "Lompakon avain on lukittu tällä laitteella. Avaa lukitus ja yritä uudelleen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_vault_reset_about",
+      "value": "Tälle laitteelle tallennettua lompakkoavainta ei saa enää auki. Jos jatkat, se ja sen mukaan tallennetut lompakkoavaimet poistetaan laitteelta, ja tämän lompakon avain tallennetaan sen tilalle. Tätä ei voi kumota."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_vault_reset_title",
+      "value": "Poistetaanko tallennettu avain?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_vault_unavailable",
+      "value": "Tälle laitteelle tallennettua lompakon avainta ei ole luettavissa."
     },
     {
       "_": "types.LangPackString",
@@ -43446,5 +43955,5 @@
       "other_value": "Maksoit {count} tähteä."
     }
   ],
-  "version": 5923842
+  "version": 5923844
 }
