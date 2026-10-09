@@ -37318,6 +37318,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_shortcuts_stash_message",
+      "value": "Almacenar o restaurar mensaje"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_shortcuts_toggle_link_preview",
       "value": "Alternar vista previa del enlace"
     },
@@ -38897,6 +38902,21 @@
       "_": "types.LangPackString",
       "key": "lng_start_msgs",
       "value": "Empezar a chatear"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_stash_files_limit",
+      "value": "Demasiados archivos o archivos demasiado grandes para almacenar."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_stash_hint",
+      "value": "Presiona {shortcut} para almacenar este borrador."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_stash_restore",
+      "value": "Restaurar mensaje almacenado"
     },
     {
       "_": "types.LangPackString",
@@ -40742,6 +40762,24 @@
       "_": "types.LangPackString",
       "key": "lng_sure_logout",
       "value": "¿Quieres cerrar sesión?"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_sure_logout_wallet_local",
+      "one_value": "Las claves de tu billetera se almacenan sólo en este dispositivo y Telegram no tiene un respaldo de ellas. Si continúas, se destruirán. Sólo tu frase secreta puede restaurar la billetera.",
+      "other_value": "Las claves de {count} de tus billeteras se almacenan sólo en este dispositivo y Telegram no tiene un respaldo de ellas. Si continúas, se destruirán. Sólo las frases secretas pueden restaurar las billeteras."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_sure_logout_wallet_parked",
+      "one_value": "Este dispositivo también contiene las claves de otra billetera de grams. Si continúas, se destruirán, y esa billetera sólo se puede restaurar si se anotó su frase secreta.",
+      "other_value": "Este dispositivo también contiene las claves de otras {count} billeteras de grams. Si continúas, se destruirán, y esas billeteras sólo se pueden restaurar si se anotaron sus frases secretas."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_sure_logout_wallet_rotating",
+      "one_value": "Aún no se ha confirmado un cambio de la clave de la billetera en este dispositivo. Su clave de reemplazo se almacena sólo aquí y Telegram no tiene ningún respaldo de ella. Si continúas, se destruirá. Si el cambio se realiza, sólo la frase secreta de reemplazo puede restaurar la billetera.",
+      "other_value": "Aún no se han confirmado {count} cambios de claves de las billeteras en este dispositivo. Sus claves de reemplazo se almacenan sólo aquí y Telegram no tiene ningún respaldo de ellas. Si continúas, se destruirán. Si el cambio se realiza, sólo las frases secretas de reemplazo pueden restaurar las billeteras."
     },
     {
       "_": "types.LangPackString",
@@ -42773,6 +42811,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_conflict_existing",
+      "value": "También tienes {amount} en billeteras antiguas"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_conflict_switch",
       "value": "Cambiar ahora"
     },
@@ -43417,8 +43460,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_protection_hardware_absent",
+      "value": "La clave de tu billetera en este dispositivo estaba protegida por {provider}, pero esa clave ya no se puede usar en este dispositivo. Restaura la billetera desde el respaldo cifrado de Telegram o con tu frase secreta para almacenar la clave nuevamente."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_protection_hardware_failed",
       "value": "{provider} no confirmó que eras tú. No se cambió nada."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_hardware_unavailable",
+      "value": "La clave de tu billetera en este dispositivo está protegida por {provider}, que no se puede usar en este momento. Reinicia Telegram para reintentarlo, o restaura la billetera desde el respaldo cifrado de Telegram o con tu frase secreta para protegerla de otra manera."
     },
     {
       "_": "types.LangPackString",
@@ -43688,6 +43741,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_send_key_changed_text",
+      "value": "La clave de esta billetera se cambió en otra app, por lo que la clave de este dispositivo ya no funciona.\n\nRestaura la billetera con su frase secreta actual para usarla nuevamente en este dispositivo."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_send_key_changed_title",
       "value": "Clave de la billetera cambiada"
     },
@@ -43917,5 +43975,5 @@
       "other_value": "Pagaste {count} estrellas."
     }
   ],
-  "version": 5924802
+  "version": 5924906
 }
