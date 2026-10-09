@@ -42391,6 +42391,12 @@
       "value": "Blockchain verificada"
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_wallet_about_fees_text",
+      "one_value": "La primera transacción diaria es gratis. El resto cuesta casi nada.",
+      "other_value": "Las primeras {count} transacciones diarias son gratis. El resto cuesta casi nada."
+    },
+    {
       "_": "types.LangPackString",
       "key": "lng_wallet_about_fees_title",
       "value": "Sin tarifas"
@@ -42502,6 +42508,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_backup_error",
+      "value": "No se pudieron cambiar los ajustes de respaldo."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_backup_new_phrase_text",
       "value": "Se generó una nueva frase secreta para tu billetera. Anótala y mantenla en secreto."
     },
@@ -42597,6 +42608,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_comment_decryption_failed",
+      "value": "El comentario no pudo ser descifrado."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_comment_make_public",
       "value": "Hacer público el comentario"
     },
@@ -42612,8 +42628,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_conflict_bar",
+      "value": "También tienes una billetera antigua en este dispositivo"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_conflict_switch",
       "value": "Cambiar ahora"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_conflict_switch_error",
+      "value": "No se pudo eliminar la billetera antigua de este dispositivo."
     },
     {
       "_": "types.LangPackString",
@@ -42858,6 +42884,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_create_error",
+      "value": "No se pudo crear una billetera."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_created_text",
       "value": "Tu nueva billetera está lista para usarla."
     },
@@ -42865,6 +42896,16 @@
       "_": "types.LangPackString",
       "key": "lng_wallet_created_title",
       "value": "Billetera creada"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_currency_none",
+      "value": "No se encontró una moneda"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_currency_title",
+      "value": "Elige una moneda"
     },
     {
       "_": "types.LangPackString",
@@ -42903,6 +42944,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_details_fee_unknown",
+      "value": "La consulta falló"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_details_open_wallet",
       "value": "Abrir Dinero"
     },
@@ -42933,14 +42979,19 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_earnings_existing",
+      "value": "También tienes {amount} en ganancias de grams"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_error_with_type",
       "value": "{message} (error: {error})"
     },
     {
       "_": "types.LangPackStringPluralized",
       "key": "lng_wallet_fees_text",
-      "one_value": "Cada transferencia tiene una pequeña tarifa de red. \n\nTelegram cubre tu primera transferencia cada día.",
-      "other_value": "Cada transferencia tiene una pequeña tarifa de red.\n\nTelegram cubre tus primeras {count} transferencias cada día."
+      "one_value": "Cada transferencia tiene una pequeña tarifa de red. \n\nTelegram cubre tu primera transferencia diaria.",
+      "other_value": "Cada transferencia tiene una pequeña tarifa de red.\n\nTelegram cubre tus primeras {count} transferencias diarias."
     },
     {
       "_": "types.LangPackString",
@@ -42949,8 +43000,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_first_rate",
+      "value": "1 gram equivale actualmente a {amount}.\nPuedes:"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_first_rate_none",
+      "value": "Con grams, puedes:"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_first_send_text",
+      "value": "Transfiere grams a cualquiera.\nHaz clic en {attach} → {money} en chats."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_first_send_title",
       "value": "Enviar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_first_store_text",
+      "value": "Mantén tus grams en Telegram \n({menu} → {wallet}) u otras billeteras."
     },
     {
       "_": "types.LangPackString",
@@ -42974,6 +43045,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_history_searching",
+      "value": "Buscando transacciones"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_how_menu",
       "value": "¿Qué es Dinero?"
     },
@@ -42994,6 +43070,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_import_failed",
+      "value": "No se pudo importar la billetera."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_import_invalid_spelling",
       "value": "Verifica el orden de las palabras."
     },
@@ -43006,6 +43087,11 @@
       "_": "types.LangPackString",
       "key": "lng_wallet_import_key_changing",
       "value": "La clave de tu billetera está siendo cambiada. Reinténtalo cuando se confirme el cambio."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_import_paste_error",
+      "value": "El texto pegado debe contener 12 o 24 palabras."
     },
     {
       "_": "types.LangPackString",
@@ -43032,6 +43118,11 @@
       "_": "types.LangPackString",
       "key": "lng_wallet_intro_text",
       "value": "Gram — La moneda digital para Telegram"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_key_save_error",
+      "value": "No se pudo guardar la clave de la billetera en este dispositivo."
     },
     {
       "_": "types.LangPackString",
@@ -43062,6 +43153,11 @@
       "_": "types.LangPackString",
       "key": "lng_wallet_menu_currency",
       "value": "Moneda"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_phrase_check_wait",
+      "value": "Podrás completar esta acción en {duration}."
     },
     {
       "_": "types.LangPackString",
@@ -43103,6 +43199,11 @@
       "_": "types.LangPackString",
       "key": "lng_wallet_profile_send_money",
       "value": "Enviar dinero"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protect_account",
+      "value": "Protege tu cuenta"
     },
     {
       "_": "types.LangPackString",
@@ -43151,6 +43252,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_provisioning",
+      "value": "Configurando tu billetera…"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_readonly_bar",
       "value": "Este dispositivo puede ver esta billetera pero no puede hacer envíos desde ella."
     },
@@ -43162,7 +43268,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_wallet_receive_copy_hint",
-      "value": "Haz clic para copiar la dirección"
+      "value": "Clic para copiar la dirección"
     },
     {
       "_": "types.LangPackString",
@@ -43178,6 +43284,11 @@
       "_": "types.LangPackString",
       "key": "lng_wallet_replace_title",
       "value": "¿Cómo quieres reemplazar la billetera antigua?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_restore_error",
+      "value": "No se pudo restaurar el acceso a esta billetera."
     },
     {
       "_": "types.LangPackString",
@@ -43211,6 +43322,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_row_deposit",
+      "value": "Depósito"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_row_incoming",
       "value": "Transferencia entrante"
     },
@@ -43234,6 +43350,16 @@
       "_": "types.LangPackString",
       "key": "lng_wallet_row_sending",
       "value": "Enviando"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_topup",
+      "value": "Recarga"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_withdrawal",
+      "value": "Retiro"
     },
     {
       "_": "types.LangPackString",
@@ -43297,6 +43423,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_send_link_expired",
+      "value": "El enlace de pago expiró."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_send_link_invalid",
       "value": "Este enlace no es válido."
     },
@@ -43312,8 +43443,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_send_user_load_error",
+      "value": "La billetera del destinatario no se pudo cargar."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_send_user_title",
       "value": "Enviar a {user}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_user_unavailable",
+      "value": "Este usuario no puede recibir grams."
     },
     {
       "_": "types.LangPackString",
@@ -43324,6 +43465,11 @@
       "_": "types.LangPackString",
       "key": "lng_wallet_send_wallet_loading",
       "value": "Cargando tu billetera…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_sent_toast",
+      "value": "🎉 Grams enviados a {address}."
     },
     {
       "_": "types.LangPackString",
@@ -43339,6 +43485,11 @@
       "_": "types.LangPackString",
       "key": "lng_wallet_vault_locked",
       "value": "La clave de la billetera de este dispositivo está bloqueada. Desbloquéala y reinténtalo."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_vault_reset_title",
+      "value": "¿Eliminar la clave almacenada?"
     },
     {
       "_": "types.LangPackString",
@@ -43486,5 +43637,5 @@
       "other_value": "Pagaste {count} estrellas."
     }
   ],
-  "version": 5924636
+  "version": 5924657
 }
