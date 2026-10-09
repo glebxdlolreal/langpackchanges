@@ -4565,6 +4565,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Channel.EditAdmin.Permission.ManageWelcomeMessages",
+      "value": "Gérer les messages d'accueil"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Channel.EditAdmin.Permission.PinMessages",
       "value": "Épingler des messages"
     },
@@ -4602,6 +4607,11 @@
       "_": "types.LangPackString",
       "key": "Channel.EditAdmin.Permission.SendVoice",
       "value": "Envoyer des vocaux"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Channel.EditAdmin.Permission.SendWelcomeMessages",
+      "value": "Envoyer des messages d'accueil"
     },
     {
       "_": "types.LangPackString",
@@ -9376,6 +9386,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Chat.RichText.ShowMore",
+      "value": "Afficher plus"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Chat.Right.Context.Reminder",
       "value": "Rappel"
     },
@@ -10267,6 +10282,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Chat.Service.StarGift.Refunded",
+      "value": "Ce cadeau ne peut pas être converti en étoiles car le paiement y afférent a été remboursé."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Chat.Service.StarGift.Sent",
       "value": "%1$@ vous a envoyé un cadeau de %2$@"
     },
@@ -10997,6 +11017,31 @@
       "_": "types.LangPackString",
       "key": "Chat.UnpinAllMessagesConfirmation_countable",
       "value": "%d"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Unsupported.BlockInfo",
+      "value": "Mettez à jour Telegram pour voir cette partie du message"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Unsupported.BlockTitle",
+      "value": "Bloc non pris en charge"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Unsupported.MessageInfo",
+      "value": "Mettez à jour Telegram pour voir ce message"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Unsupported.MessageTitle",
+      "value": "Message non pris en charge"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Unsupported.Update",
+      "value": "Méttre à jour"
     },
     {
       "_": "types.LangPackString",
@@ -17833,6 +17878,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Gallery.Context.CopySubject",
+      "value": "Copier l'objet"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gallery.Context.CopyToClipboard",
       "value": "Copier le média"
     },
@@ -17855,6 +17905,11 @@
       "_": "types.LangPackString",
       "key": "Gallery.Context.SaveVideo",
       "value": "Enregistrer la vidéo"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gallery.Context.SendSubjectAsSticker",
+      "value": "Envoyer comme autocollant"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -17948,6 +18003,11 @@
       "_": "types.LangPackString",
       "key": "Gallery.SendHere",
       "value": "Modifier et envoyer"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gallery.Subject.NotFound",
+      "value": "Aucun sujet n'a été identifié sur cette photo."
     },
     {
       "_": "types.LangPackString",
@@ -24242,12 +24302,12 @@
     {
       "_": "types.LangPackString",
       "key": "Passcode.SettingsViewController.LockWallet",
-      "value": "Verrouiller le portefeuille"
+      "value": "Verrouiller votre argent"
     },
     {
       "_": "types.LangPackString",
       "key": "Passcode.SettingsViewController.WalletInfo",
-      "value": "Obligatoire lors d'un tranfert ou de la confirmation d'autres opérations financières sensibles."
+      "value": "Obligatoire lors d'un tranfert ou de la confirmation d'autres opérations sensibles."
     },
     {
       "_": "types.LangPackString",
@@ -29209,6 +29269,46 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ProxySettings.WEB",
+      "value": "WEB"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ProxySettings.Web.FixedPort",
+      "value": "Les proxys Web utilisent HTTPS sur le port 443."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ProxySettings.Web.InvalidHost",
+      "value": "Saisissez un nom d'hôte DNS valide, sans schéma, chemin ni port."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ProxySettings.Web.InvalidSecret",
+      "value": "Saisissez une clé secrète valide de 16 octets ou une clé secrète de 17 octets précédée du préfixe « dd »."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ProxySettings.Web.NotTested",
+      "value": "non testé"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ProxySettings.Web.Warning.Enable",
+      "value": "Activer"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ProxySettings.Web.Warning.Text",
+      "value": "Ce proxy charge du code JavaScript contrôlé par le fournisseur dans un navigateur masqué. Le fournisseur peut modifier la synchronisation du trafic, le regroupement des requêtes, le remplissage et l'utilisation du réseau, et peut solliciter le processeur, la mémoire ou la batterie. Les identifiants Telegram et les API natives ne sont pas exposés intentionnellement, mais le code du fournisseur reste non fiable. N'activez que les fournisseurs en qui vous avez confiance."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ProxySettings.Web.Warning.Title",
+      "value": "Activer le proxy Web ?"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "QuickLook.Preview",
       "value": "Aperçu"
     },
@@ -29745,6 +29845,76 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "RichTextEditor.ButtonActionCopy",
+      "value": "Copie le texte"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichTextEditor.ButtonActionDisabled",
+      "value": "Désactiver"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichTextEditor.ButtonActionNotEditable",
+      "value": "L'action de ce bouton ne peut pas être modifiée"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichTextEditor.ButtonDelete",
+      "value": "Supprimer le button "
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichTextEditor.ButtonEditorTitle",
+      "value": "Bouton"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichTextEditor.ButtonLabelPlaceholder",
+      "value": "Libellé"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichTextEditor.ButtonRow.Add",
+      "value": "Ajouter un bouton"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichTextEditor.ButtonRow.AlignJustify",
+      "value": "Justifier"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichTextEditor.ButtonRow.Alignment",
+      "value": "Alignement"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichTextEditor.ButtonSectionContent",
+      "value": "CONTENU"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichTextEditor.ButtonSectionStyle",
+      "value": "STYLE"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichTextEditor.ButtonStyleDefault",
+      "value": "Par défaut"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichTextEditor.ButtonStyleLink",
+      "value": "Lien"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichTextEditor.ButtonURLPlaceholder",
+      "value": "URL"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "RichTextEditor.Checklist",
       "value": "Liste"
     },
@@ -29920,6 +30090,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "RichTextEditor.MenuButtonRow",
+      "value": "Ligne de boutons"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichTextEditor.MenuInlineButton",
+      "value": "Bouton"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "RichTextEditor.More",
       "value": "Plus"
     },
@@ -30017,6 +30197,26 @@
       "_": "types.LangPackString",
       "key": "RichTextEditor.Table.AlignRight",
       "value": "Aligner à droite"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichTextEditor.Table.BordersOff",
+      "value": "Cacher les bordures"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichTextEditor.Table.BordersOn",
+      "value": "Afficher les bordures"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichTextEditor.Table.CompactOff",
+      "value": "Remplissage normal"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichTextEditor.Table.CompactOn",
+      "value": "Compact"
     },
     {
       "_": "types.LangPackString",
@@ -33771,6 +33971,11 @@
       "value": "Remboursement"
     },
     {
+      "_": "types.LangPackString",
+      "key": "Star.List.SpendTopupUnavailable",
+      "value": "Vous n'avez pas assez d'étoiles sur votre solde pour effectuer cette action."
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "key": "Star.List.StarsNeeded",
       "one_value": "%d étoile nécessaire",
@@ -33926,6 +34131,21 @@
       "_": "types.LangPackString",
       "key": "Star.Nft.Gift.Confirm.Title",
       "value": "Acheter un cadeau"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Star.Nft.Gift.PriceChanged.Info",
+      "value": "Le prix de ce cadeau est passé de %1$@ à %2$@. Souhaitez-vous l'acheter au nouveau prix ?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Star.Nft.Gift.PriceChanged.OK",
+      "value": "Acheter pour %1$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Star.Nft.Gift.PriceChanged.Title",
+      "value": "Changement de prix"
     },
     {
       "_": "types.LangPackString",
@@ -34236,6 +34456,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Star.Transaction.Button.UpgradeFree",
+      "value": "Améliorer gratuitement"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Star.Transaction.Commission",
       "value": "Commission"
     },
@@ -34515,6 +34740,36 @@
       "_": "types.LangPackString",
       "key": "StarGift.ActionLockedTitle",
       "value": "Action verrouillée"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarGift.AddMessage.InputPlaceholder",
+      "value": "Ajouter un message..."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarGift.AddMessage.MakePublic",
+      "value": "Publier le message"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarGift.AddMessage.PreviewInChat",
+      "value": "Aperçu dans l'échange"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarGift.AddMessage.SendNow",
+      "value": "Envoyer maintenant"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarGift.AddMessage.Title",
+      "value": "Ajouter un message"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarGift.AddMessage.YourMessage",
+      "value": "Votre message..."
     },
     {
       "_": "types.LangPackString",
@@ -34842,6 +35097,11 @@
       "_": "types.LangPackString",
       "key": "StarGift.Preview.Title.Buy",
       "value": "Acheter un cadeau"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarGift.Preview.WishPlaceholder",
+      "value": "Ajouter un message..."
     },
     {
       "_": "types.LangPackString",
@@ -38200,6 +38460,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "TextUtils.JoinedViaCommunity",
+      "value": "%1$@ a rejoint le groupe via la communauté"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "TextUtils.JoinedViaCommunityYou",
+      "value": "Vous avez rejoint le groupe via la communauté"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "TextUtils.ManagedBotCreated",
       "value": "%1$@ a créé %2$@"
     },
@@ -41348,6 +41618,727 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.DecryptFailedTitle",
+      "value": "Impossible de déchiffrer le commentaire"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.EnableBackupFailedTitle",
+      "value": "Impossible d'activer la sauvegarde"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.EncryptFailedInfo",
+      "value": "Le commentaire n'a pas pu être chiffré pour ce portefeuille. Vérifiez votre connexion réseau et réessayez."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.EncryptFailedTitle",
+      "value": "Impossible de crypter le commentaire"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.EncryptRecipientUnavailableInfo",
+      "value": "Pour l'instant, ce portefeuille ne peut pas recevoir de commentaires cryptés."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.EnterCurrentPhrase",
+      "value": "Saisissez la phrase secrète actuelle"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.InvalidPassword",
+      "value": "Mot de passe incorrect. Veuillez réessayer."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.InvalidPhraseInfo",
+      "value": "Vérifiez tous les mots de votre phrase secrète actuelle, puis réessayez."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.InvalidPhraseTitle",
+      "value": "Phrase secrète invalide"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.KeyRotationFailedInfo",
+      "value": "La nouvelle phrase secrète n'a pas été activée. Votre phrase précédente et votre sauvegarde chiffrée restent valides."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.KeyRotationFailedTitle",
+      "value": "Impossible de mettre à jour la phrase secrète"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.PasswordInfo",
+      "value": "Saisissez votre mot de passe de double authentification Telegram pour continuer."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.PasswordPlaceholder",
+      "value": "Mot de passe"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.PasswordTitle",
+      "value": "Mot de passe Telegram"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.PasswordTooNewInfo",
+      "value": "Réessayez dans %1$@."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.PasswordTooNewTitle",
+      "value": "Le mot de passe est trop récent"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.PhraseChangedInfo",
+      "value": "La clé de ce portefeuille a changé. Saisissez la phrase secrète actuelle de 24 mots."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.PhraseChangedTitle",
+      "value": "La phrase secrète a changé"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.ProofExpiredInfo",
+      "value": "La demande de vérification du portefeuille a expiré. Veuillez réessayer de l'importer."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.ProofExpiredTitle",
+      "value": "Vérification expirée"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.ProofInvalidInfo",
+      "value": "Telegram n'a pas pu vérifier que vous êtes propriétaire de ce portefeuille. Veuillez réessayer de l'importer."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.ProofInvalidTitle",
+      "value": "Impossible de vérifier le portefeuille"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.Retry",
+      "value": "Réessayer"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.RotationPendingInfo",
+      "value": "Telegram n'a pas encore pu confirmer la modification de la phrase secrète sur la blockchain. Veuillez patienter un instant, puis réessayez."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.RotationPendingTitle",
+      "value": "Mise à jour de la phrase secrète en cours"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.SessionTooNewInfo",
+      "value": "Pour votre sécurité, veuillez réessayer dans %1$@."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.SessionTooNewTitle",
+      "value": "La session est trop récente"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.TwoStepRequiredInfo",
+      "value": "Configurez un mot de passe Telegram avant de modifier ce portefeuille."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.TwoStepRequiredTitle",
+      "value": "Double authentification obligatoire"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.WalletChangedInfo",
+      "value": "Le portefeuille a changé lors de l'activation de la sauvegarde. Ouvrez ses paramètres et réessayez."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.WalletChangedTitle",
+      "value": "Portefeuille modifié"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.WalletKeyChangedInfo",
+      "value": "La clé du portefeuille a changé. Actualisez le portefeuille et, si nécessaire, rétablissez l'accès à l'aide de sa phrase secrète actuelle, puis confirmez à nouveau le transfert."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.WalletKeyChangedTitle",
+      "value": "Clé de portefeuille modifiée"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Biometrics.ConfirmAccess",
+      "value": "Confirmez l'accès à votre portefeuille"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Biometrics.EnableReason",
+      "value": "Activez la biométrie pour vos portefeuilles"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.CardView.GramUnit",
+      "value": " Gram"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.CardView.GramsUnit",
+      "value": " Grams"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.CollectibleDetailsController.ActionSell",
+      "value": "vendre"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.CollectibleDetailsController.ActionTransfer",
+      "value": "transfert"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.CollectibleDetailsController.ActionWear",
+      "value": "porter"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.CollectibleDetailsController.Address",
+      "value": "Adresse"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.CollectibleDetailsController.AnonymousNumber",
+      "value": "Numéro anonyme"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.CollectibleDetailsController.Backdrop",
+      "value": "Fond"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.CollectibleDetailsController.Collectible",
+      "value": "Objet de collection"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.CollectibleDetailsController.CollectibleGift",
+      "value": "Cadeau de collection"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.CollectibleDetailsController.Collection",
+      "value": "Collection"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.CollectibleDetailsController.Model",
+      "value": "Modèle"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.CollectibleDetailsController.NextCollectible",
+      "value": "Objet de collection suivant"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.CollectibleDetailsController.OK",
+      "value": "OK"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.CollectibleDetailsController.Owner",
+      "value": "Propriétaire"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.CollectibleDetailsController.OwnerYou",
+      "value": "Vous"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.CollectibleDetailsController.PreviousCollectible",
+      "value": "Objet de collection précédent"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.CollectibleDetailsController.StillSyncing",
+      "value": "Le portefeuille continue de se synchroniser. Veuillez réessayer dans quelques instants."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.CollectibleDetailsController.Symbol",
+      "value": "Symbole"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.CollectibleDetailsController.Type",
+      "value": "Type"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.CollectibleDetailsController.Username",
+      "value": "Nom d'utilisateur"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.CollectibleDetailsController.ViewInExplorer",
+      "value": "Afficher dans l'Explorateur"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.ConnectedAppsController.ActiveConnections",
+      "value": "CONNEXIONS ACTIVES"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.ConnectedAppsController.AllAppsDisconnected",
+      "value": "Toutes les applications ont été déconnectées."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.ConnectedAppsController.AppDisconnected",
+      "value": "%1$@ déconnecté."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.ConnectedAppsController.AppInfoDescription",
+      "value": "Cette application peut voir l'adresse de votre portefeuille, votre solde et l'historique de vos transactions. Elle ne peut pas effectuer de virements sans votre autorisation."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.ConnectedAppsController.Cancel",
+      "value": "Annuler"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.ConnectedAppsController.Disconnect",
+      "value": "Déconnecter"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.ConnectedAppsController.DisconnectAll",
+      "value": "Tout déconnecter"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.ConnectedAppsController.DisconnectAllApps",
+      "value": "Déconnecter toutes les applications"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.ConnectedAppsController.DisconnectAllConfirmInfo",
+      "value": "Ces applications n'auront plus accès à votre portefeuille. Vous pourrez les reconnecter à tout moment."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.ConnectedAppsController.DisconnectAllConfirmTitle",
+      "value": "Déconnecter toutes les applications ?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.ConnectedAppsController.DisconnectAllFailed",
+      "value": "Impossible de déconnecter ces applications. Veuillez réessayer."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.ConnectedAppsController.DisconnectFailed",
+      "value": "Impossible de déconnecter cette application. Veuillez réessayer."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.ConnectedAppsController.Disconnecting",
+      "value": "Déconnexion…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.ConnectedAppsController.Footer",
+      "value": "Les applications connectées peuvent voir l'adresse, le solde et l'historique de votre portefeuille. Elles ne peuvent pas effectuer de transfert sans votre autorisation."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.ConnectedAppsController.Title",
+      "value": "Applications connectées"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Controller.AccountProtected",
+      "value": "Votre compte est désormais protégé."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Controller.AddFunds",
+      "value": "Ajouter des fonds"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Controller.BlockchainVerified",
+      "value": "Vérifié par la blockchain"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Controller.BlockchainVerifiedInfo",
+      "value": "Toutes les transactions sont enregistrées\net vérifiables dans un registre public."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Controller.CallContract",
+      "value": "Appeler le Contrat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Controller.Cancel",
+      "value": "Annuler"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Controller.Collectibles",
+      "value": "Objets de collection"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Controller.Confirm",
+      "value": "Confirmer"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Controller.ConfirmAction",
+      "value": "Confirmer l'action"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Controller.Connect",
+      "value": "Se connecter"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Controller.ConnectApp",
+      "value": "Connecter une application"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Controller.ConnectFailed",
+      "value": "Impossible de connecter cette application. Veuillez réessayer."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Controller.ConnectLinkInvalid",
+      "value": "Ce lien TON Connect ou cette adresse de portefeuille est invalide."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Controller.ConnectLinkPlaceholder",
+      "value": "Lien ou adresse TON Connect"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Controller.ConnectTo",
+      "value": "Se connecter à %1$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Controller.ConnectedApps",
+      "value": "Applications connectées"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Controller.ConnectedTo",
+      "value": "Vous êtes désormais connecté à %1$@."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Controller.ConnectionSuccessful",
+      "value": "Connexion établie"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Controller.Currency",
+      "value": "Devise"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Controller.DeployContract",
+      "value": "Déployer le contrat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Controller.EarningsBannerPrefix",
+      "value": "Vous avez "
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Controller.ErrorDataMismatch",
+      "value": "Ce portefeuille à des données qui diffèrent de celles du portefeuille sur le serveur ; il est donc impossible de l'ouvrir. Vous pouvez supprimer ce portefeuille et le restaurer à partir de votre phrase secrète."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Controller.ErrorDataUnreadable",
+      "value": "Les données du portefeuille enregistrées ne peuvent pas être lues. Vous pouvez supprimer ce portefeuille et le restaurer à partir de votre phrase secrète."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Controller.ErrorStorageUnavailable",
+      "value": "Le stockage du portefeuille n'est pas disponible. Veuillez redémarrer l'application et réessayer."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Controller.Excess",
+      "value": "Excès"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Controller.Failed",
+      "value": "Échec"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Controller.FailedSuffix",
+      "value": "%1$@ · Échec"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Controller.HowItWorks",
+      "value": "Comment ça marche ?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Controller.InstantTransfers",
+      "value": "Envoyer de l'argent instantanément"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Controller.InstantTransfersInfo",
+      "value": "Envoyez des Grams dans n'importe quel échange,\ncomme une photo."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Controller.KeysAndBackup",
+      "value": "Clés et sauvegarde"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Controller.Money",
+      "value": "Argent"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Controller.NoFundsWithoutPermission",
+      "value": "%1$@ ne pourra pas transférer de fonds sans autorisation."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Controller.PasscodeAndTouchId",
+      "value": "Code d'accès et Touch ID"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Controller.PasswordSet",
+      "value": "Mot de passe défini"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Controller.PermissionViewWallet",
+      "value": "Il pourra voir l'adresse de votre portefeuille, votre solde et l'historique de vos transactions."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Controller.PreviewHeader",
+      "value": "APERÇU"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Controller.Proceed",
+      "value": "Continuer"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Controller.ProtectAccount",
+      "value": "Protégez votre compte"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Controller.RequestFailed",
+      "value": "Impossible de traiter cette demande. Veuillez réessayer."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Controller.SecretPhraseRequired",
+      "value": "Phrase secrète requise"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Controller.SecretPhraseRequiredToSend",
+      "value": "To send funds, you’ll need to enter your 12- or 24-word secret phrase to restore access to this wallet."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Controller.Send",
+      "value": "Envoyer"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Controller.SettingUp",
+      "value": "Configuration de votre portefeuille. Cela ne prend généralement que quelques secondes..."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Controller.Sign",
+      "value": "Signer"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Controller.SignData",
+      "value": "Signer les données"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Controller.SigningData",
+      "value": "Données"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Controller.StillSyncing",
+      "value": "Le portefeuille continue de se synchroniser. Veuillez réessayer dans quelques instants."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Controller.ToAddress",
+      "value": "à %1$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Controller.Transactions",
+      "value": "Transactions"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Controller.Transfer",
+      "value": "Transfert"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Controller.TransferHeader",
+      "value": "TRANSFERT"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Controller.TransfersHeader",
+      "value": "TRANSFERTS"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Controller.UnknownOperation",
+      "value": "Opération inconnue"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Controller.WalletImported",
+      "value": "Portefeuille importé"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Controller.WalletImportedInfo",
+      "value": "Votre portefeuille a été restauré à partir de votre phrase secrète."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Controller.WaltFundsBanner",
+      "value": "Vous avez également de fonds dans Walt"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Controller.Withdrawal",
+      "value": "Retrait"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Controller.ZeroFees",
+      "value": "Pas de frais"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "Wallet.Controller.ZeroFeesInfo",
+      "one_value": "",
+      "other_value": "Les %1$d premiers transferts quotidiens sont gratuits. Les autres ne coûtent presque rien."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.FlowAuthorization.Cancel",
+      "value": "Annuler"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.FlowAuthorization.CheckConnection",
+      "value": "Vérifiez la connexion réseau et réessayez."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.FlowAuthorization.ConfirmAccessReason",
+      "value": "Confirmez l'accès à votre portefeuille"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.FlowAuthorization.RestoreFailedTitle",
+      "value": "Impossible de restaurer le portefeuille"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.FlowAuthorization.RestoreReason",
+      "value": "Restaurer le portefeuille"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.FlowAuthorization.Retry",
+      "value": "Réessayer"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Format.AddressCopied",
+      "value": "Adresse TON copiée dans le presse-papiers"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.GramTooltip.DigitalCurrency",
+      "value": "Gram — Monnaie digitale de Telegram"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.ImportController.BackupDisabledInfo",
+      "value": "Comme vous avez désactivé les sauvegardes de votre portefeuille, vous devez saisir manuellement votre phrase secrète à chaque nouvelle session Telegram."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.ImportController.Cancel",
+      "value": "Annuler"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.ImportController.Continue",
+      "value": "Continuer"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.ImportController.EnableBackup",
+      "value": "Activer la sauvegarde"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.ImportController.TestTimeWordsAnd",
       "value": "et"
     },
@@ -43440,5 +44431,5 @@
       "value": "Afficher les substitutions"
     }
   ],
-  "version": 2371381
+  "version": 2374246
 }
