@@ -1749,6 +1749,66 @@
       "value": "{from} 剛發起贈送 Telegram Premium 訂閱給成員的贈獎活動。"
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_action_gram_transfer_amount",
+      "other_value": "{amount} Gram"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gram_transfer_amount_fiat",
+      "value": "{amount}（{fiat}）"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gram_transfer_comment",
+      "value": "{text}：{comment}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gram_transfer_encrypted_comment",
+      "value": "加密附言"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gram_transfer_failed_tag",
+      "value": "失敗"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gram_transfer_received",
+      "value": "{user} 向您轉帳 {amount}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gram_transfer_received_tag",
+      "value": "已接收"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gram_transfer_received_unknown",
+      "value": "您已收到 {amount}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gram_transfer_sent",
+      "value": "您已轉帳 {amount} 給 {user}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gram_transfer_sent_tag",
+      "value": "已轉出"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gram_transfer_sent_unknown",
+      "value": "您已轉出 {amount}"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_action_gram_transfer_ticker",
+      "other_value": "Gram"
+    },
+    {
       "_": "types.LangPackString",
       "key": "lng_action_group_call_finished",
       "value": "直播結束 ({duration})"
@@ -2362,6 +2422,71 @@
       "_": "types.LangPackStringPluralized",
       "key": "lng_action_todo_tasks_fallback",
       "other_value": "{count} 個任務"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_ton_connect_accepted",
+      "value": "來自 {app} 的請求已被接受"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_ton_connect_accepted_unknown",
+      "value": "請求已被接受"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_ton_connect_declined",
+      "value": "來自 {app} 的請求遭拒絕"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_ton_connect_declined_unknown",
+      "value": "請求遭拒絕"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_ton_connect_disconnect",
+      "value": "{app} 請求斷開連線"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_ton_connect_expired",
+      "value": "來自 {app} 的請求已過期。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_ton_connect_expired_unknown",
+      "value": "請求已過期"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_ton_connect_request",
+      "value": "{app} 傳送了請求"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_ton_connect_request_unknown",
+      "value": "已連線的應用程式傳送了請求"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_ton_connect_review",
+      "value": "{text}。點擊查看 {arrow}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_ton_connect_send_transaction",
+      "value": "{app} 請求您傳送交易"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_ton_connect_sign_data",
+      "value": "{app} 請求您簽署資料"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_ton_connect_sign_message",
+      "value": "{app} 請求您簽署一則訊息"
     },
     {
       "_": "types.LangPackString",
@@ -6460,6 +6585,31 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_bot_allow_camera",
+      "value": "您要允許此機器人使用您的相機嗎？"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_allow_camera_microphone",
+      "value": "您要允許此機器人使用您的相機和麥克風嗎？"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_allow_location",
+      "value": "您要允許此機器人存取您的位置嗎？"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_allow_microphone",
+      "value": "您要允許此機器人使用您的麥克風嗎？"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_allow_permission_confirm",
+      "value": "允許"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_bot_allow_write",
       "value": "您想要允許此機器人向您發送訊息嗎？"
     },
@@ -8217,6 +8367,11 @@
       "_": "types.LangPackString",
       "key": "lng_channel_earn_off_about",
       "value": "如果您關閉廣告，您將沒有資格獲得任何獎勵。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_channel_earn_out_amount_too_small",
+      "value": "金額過少，無法提現。"
     },
     {
       "_": "types.LangPackString",
@@ -10967,6 +11122,11 @@
       "_": "types.LangPackString",
       "key": "lng_context_mark_read_all_sure_2",
       "value": "**此操作無法復原！**"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_context_mark_read_archive_sure",
+      "value": "您確定要將所有已封存的聊天室標記為已讀嗎？"
     },
     {
       "_": "types.LangPackString",
@@ -14886,7 +15046,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_export_option_sessions_about",
-      "value": "\n我們儲存此資訊，以便在「設定」>「隱私和安全」>「裝置」中顯示所有您已登入的裝置。"
+      "value": "我們儲存此資訊，以便在「設定」>「隱私和安全」>「裝置」中顯示所有您已登入的裝置。"
     },
     {
       "_": "types.LangPackString",
@@ -14906,7 +15066,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_export_option_stories_about",
-      "value": "您透過 Telegram 行動應用程式發表的所有動態。"
+      "value": "您透過 Telegram 行動應用程式發布的所有動態。"
     },
     {
       "_": "types.LangPackString",
@@ -25340,6 +25500,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_open_link_suspicious_chars",
+      "value": "突顯的字元與地址中其他部分使用的字母表不同。"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_open_menu",
       "value": "開啟主選單"
     },
@@ -25717,6 +25882,56 @@
       "_": "types.LangPackString",
       "key": "lng_passcode_remove_button",
       "value": "移除"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_passcode_strength_advice_date",
+      "value": "請避免使用日期和年份。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_passcode_strength_advice_fine",
+      "value": "此解鎖碼難以猜中。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_passcode_strength_advice_keyboard",
+      "value": "請避免使用鍵盤排列模式。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_passcode_strength_advice_leet",
+      "value": "用相似的符號替換字母並不能解決問題。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_passcode_strength_advice_repeat",
+      "value": "請避免重複使用相同字元。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_passcode_strength_advice_sequence",
+      "value": "請避免使用連續字元組合，例如 abc 或 123。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_passcode_strength_advice_short",
+      "value": "請使用至少 8 個字元。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_passcode_strength_advice_variety",
+      "value": "請將解鎖碼設得更長，並加入更多種類的字元。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_passcode_strength_advice_word",
+      "value": "請避免使用常見單字和人名。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_passcode_strength_empty",
+      "value": "解鎖碼強度估算。"
     },
     {
       "_": "types.LangPackString",
@@ -35070,8 +35285,23 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_settings_passcode_lock_app",
+      "value": "使用解鎖碼鎖定 Telegram"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_settings_passcode_lock_off_wallet",
+      "value": "您的錢包會受到此解鎖碼的保護。目前僅關閉啟動鎖定。"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_settings_passcode_title",
       "value": "本機解鎖碼"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_settings_passcode_wallet_about",
+      "value": "此解鎖碼用於保護儲存於本裝置上的錢包金鑰。"
     },
     {
       "_": "types.LangPackString",
@@ -38235,6 +38465,31 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_status_bot_agent",
+      "value": "agent"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_status_bot_ai",
+      "value": "ai"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_status_bot_app",
+      "value": "app"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_status_bot_game",
+      "value": "遊戲"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_status_bot_gay",
+      "value": "gay"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_status_bot_not_reads_all",
       "value": "無法存取訊息"
     },
@@ -39782,6 +40037,26 @@
       "_": "types.LangPackString",
       "key": "lng_sure_logout",
       "value": "您確定要登出？"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_sure_logout_wallet_local",
+      "other_value": "您有 {count} 個錢包的金鑰僅儲存於此裝置上，且未透過 Telegram 進行備份。繼續操作將永久刪除這些錢包——唯有透過其助記詞才能將其恢復。"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_sure_logout_wallet_parked",
+      "other_value": "此裝置還儲存了 {count} 個其他 Gram 錢包的金鑰。若繼續操作將導致這些金鑰被銷毀，而這些錢包僅在已將其助記詞記錄下來時才能還原。"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_sure_logout_wallet_rotating",
+      "other_value": "此裝置上有 {count} 項錢包金鑰變更尚未確認。它們的替代金鑰僅儲存於此處，Telegram 並未備份這些金鑰。繼續操作將導致這些金鑰被銷毀——若變更生效，唯有對應的替代助記詞才能還原該錢包。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_sure_logout_wallet_unknown",
+      "value": "如果此裝置儲存了任何 Gram 錢包金鑰，繼續操作將導致這些金鑰被銷毀。這些金鑰僅能透過 Telegram 備份或您的助記詞進行還原。"
     },
     {
       "_": "types.LangPackString",
@@ -41495,6 +41770,1426 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_about_chain_text",
+      "value": "所有交易都會被記錄下來，並可在公開帳本上進行驗證。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_about_chain_title",
+      "value": "經區塊鏈驗證"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_wallet_about_fees_text",
+      "other_value": "每天前 {count} 筆轉帳免費，其餘轉帳費用幾乎為零。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_about_fees_title",
+      "value": "無費用"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_about_instant_text",
+      "value": "在任何聊天室中傳送 Gram，就像分享照片一樣簡單。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_about_instant_title",
+      "value": "即時轉帳"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_add_funds",
+      "value": "儲值"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_apps_about",
+      "value": "這些是您透過 TON Connect 連接至此錢包的應用程式。斷開應用程式的連接將終止其在您所有裝置上的連線。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_apps_disconnect_failed",
+      "value": "無法斷開與應用程式的連線。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_apps_disconnect_sure",
+      "value": "您確定要斷開與 {name} 的連接嗎？"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_apps_disconnect_title",
+      "value": "斷開應用程式"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_apps_empty",
+      "value": "沒有已連線的應用程式"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_apps_title",
+      "value": "已連線的應用程式"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_apps_unknown",
+      "value": "未知應用程式"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_about_on",
+      "value": "您的加密金鑰備份將分成三部分，分別儲存在三大洲。 \n\n它只能在您的裝置上重新組合，因此任何人——即使是 Telegram 也無法存取您的金鑰。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_about_unavailable",
+      "value": "透過助記詞匯入的錢包無法進行加密備份。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_cancel_text",
+      "value": "您的助記詞將不會更新。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_cancel_title",
+      "value": "要保留備份嗎？"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_disable",
+      "value": "停用備份"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_disable_text",
+      "value": "要取回您的資金，唯一的方法就是手動輸入您的助記詞。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_disable_title",
+      "value": "停用備份？"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_disabled_text",
+      "value": "您的助記詞現為還原錢包的唯一方式。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_disabled_title",
+      "value": "已停用備份"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_enable",
+      "value": "啟用備份"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_enabled_text",
+      "value": "您的金鑰現在已加密儲存在 Telegram 的各個資料中心。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_enabled_title",
+      "value": "已啟用備份"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_error",
+      "value": "無法變更備份設定。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_new_phrase_text",
+      "value": "已為您的錢包產生新的助記詞。請將其記錄下來並妥善保管。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_new_phrase_title",
+      "value": "新的助記詞"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_rotate_failed_text",
+      "value": "{reason} 您的助記詞並未變更——請繼續使用目前的助記詞。您新寫下的單字尚未啟用。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_rotate_failed_title",
+      "value": "操作失敗"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_rotate_reason_failed",
+      "value": "無法完成更新。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_section",
+      "value": "加密備份"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_sure_text",
+      "value": "您沒有足夠的時間將這些單字寫下來。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_sure_title",
+      "value": "確定完成了嗎？"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_test_text",
+      "value": "請確認您已正確寫下您的助記詞。\n請輸入 {index1}、{index2} 及 {index3} 這三個單字。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_test_title",
+      "value": "測試時間"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_topup_text",
+      "value": "您需要 {amount} Gram（{fiat}）才能更新助記詞。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_topup_title",
+      "value": "Gram 不足"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_update_check",
+      "value": "更新助記詞"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_update_fee",
+      "value": "網路費用：{amount} GRAM（{fiat}）。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_update_text",
+      "value": "您將收到一句新短語，請將其寫下來。地址和餘額維持不變。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_buy_button",
+      "value": "透過銀行卡或加密貨幣購買"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_buy_empty",
+      "value": "目前沒有可用的付款選項。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_chip_gift",
+      "value": "典藏品禮物"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_chip_nft",
+      "value": "典藏品"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_chip_number",
+      "value": "典藏電話號碼"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_chip_username",
+      "value": "典藏用戶名"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_collectible_nft_about",
+      "value": "這是一件儲存於 The Open Network (TON) 區塊鏈上的典藏品。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_collectible_number_about",
+      "value": "匿名號碼 {number}，可用於建立一個不與 SIM 卡綁定的 Telegram 帳號。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_collectible_username_about",
+      "value": "Telegram 上的 {username} 用戶名稱。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_comment_add",
+      "value": "加入"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_comment_decryption_failed",
+      "value": "無法解密此附言。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_comment_encryption_failed",
+      "value": "此附言無法加密。請重新嘗試、將其設為公開、編輯或刪除。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_comment_key_mismatch",
+      "value": "此附言針對另一個錢包金鑰進行加密，無法在此裝置上解密。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_comment_make_public",
+      "value": "將附言設為公開"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_comment_public",
+      "value": "公開附言會寫入區塊鏈，並永久對所有人可見。請切勿包含任何私人資訊。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_comment_title",
+      "value": "加入附言"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_comment_too_long",
+      "value": "此附言太長。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_conflict_bar",
+      "value": "您在此裝置上還有一個舊錢包"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_conflict_existing",
+      "value": "您在舊錢包中還持有 {amount}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_conflict_switch",
+      "value": "立即切換"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_conflict_switch_error",
+      "value": "無法從此裝置移除舊錢包。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_conflict_text",
+      "value": "您先前在此裝置上使用的錢包。在切換至您的 Telegram 錢包之前，請先儲存助記詞。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_button",
+      "value": "連接"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_expired",
+      "value": "此連接請求已失效。請從應用程式重新建立連接。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_failed",
+      "value": "無法連接錢包。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_manifest_invalid",
+      "value": "此應用程式的詳細資訊無效或屬於其他網域，因此未能連線至錢包。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_manifest_missing",
+      "value": "無法載入此應用程式的詳細資訊，因此未能連線至錢包。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_permission",
+      "value": "此應用程式將能查看您的 TON 地址、餘額及交易紀錄。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_proof",
+      "value": "此應用程式還會要求您確認此錢包是否屬於您。這屬於登入簽名，並非轉帳操作。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_reassurance",
+      "value": "未經授權的情況下，此應用程式無法轉移資金。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_actions",
+      "value": "操作"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_call_contract",
+      "value": "呼叫合約"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_closed",
+      "value": "此應用程式已斷開連線。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_confirm",
+      "value": "確認"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_decline",
+      "value": "拒絕"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_deploy",
+      "value": "在此地址部署合約。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_deploy_contract",
+      "value": "部署合約"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_excess",
+      "value": "超限"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_expired",
+      "value": "請求已過期。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_failed",
+      "value": "無法回應請求。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_fee_failed",
+      "value": "無法估算網路費用。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_fee_loading",
+      "value": "正在估算網路費用…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_handled",
+      "value": "此請求已在另一台裝置上處理。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_locked",
+      "value": "解鎖您的錢包以查看此請求。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_message",
+      "value": "訊息"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_messages",
+      "value": "訊息"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_not_sent",
+      "value": "交易未成功傳送。應用程式已收到失敗通知。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_other_key",
+      "value": "此應用程式透過此錢包的另一組金鑰進行連線，因此本裝置無法回應其請求，也無法斷開與其的連線。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_payload",
+      "value": "Payload"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_preview",
+      "value": "預覽"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_wallet_connect_request_recipients",
+      "other_value": "{count} 個接收者"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_recipients_title",
+      "value": "接收者"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_sent",
+      "value": "交易已傳送。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_title",
+      "value": "應用程式請求"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_title_app",
+      "value": "{name} 請求轉帳"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_total",
+      "value": "總金額"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_trace_failed",
+      "value": "預覽顯示此交易的部分內容可能會失敗。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_trace_incomplete",
+      "value": "此交易的預覽不完整。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_transfer",
+      "value": "轉帳"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_unavailable",
+      "value": "此請求已不再可用。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_undelivered",
+      "value": "無法將答覆傳送至應用程式。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_unhandled_about",
+      "value": "您可以現在拒絕或在其他裝置上回覆。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_unknown_operation",
+      "value": "未知操作"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_unlock",
+      "value": "解鎖"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_unsupported",
+      "value": "此裝置不支援此請求。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_restore",
+      "value": "此裝置未儲存此錢包的目前金鑰。請還原金鑰以使用已連線的應用程式。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_sign_binary",
+      "value": "二進位內容"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_sign_blind",
+      "value": "您正在盲目簽署。請僅對來自可信來源的資料進行簽署。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_sign_button",
+      "value": "簽署"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_sign_data",
+      "value": "資料"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_sign_done",
+      "value": "資料已簽署。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_sign_text_about",
+      "value": "請仔細檢視資料，僅在同意的情況下才進行簽署。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_sign_title",
+      "value": "簽署資料"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_title",
+      "value": "連接錢包"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_title_app",
+      "value": "連接錢包至 {name}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_create_error",
+      "value": "無法建立錢包。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_created_text",
+      "value": "您的新錢包已準備就緒。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_created_title",
+      "value": "錢包已建立"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_currency_none",
+      "value": "未找到任何貨幣"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_currency_title",
+      "value": "選擇貨幣"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_delete_text",
+      "value": "如果您沒有儲存助記詞，您將無法存取您的資金。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_delete_title",
+      "value": "刪除錢包？"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_address",
+      "value": "地址"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_date",
+      "value": "日期"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_failed_reason",
+      "value": "失敗（{reason}）"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_fee",
+      "value": "費用"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_fee_free",
+      "value": "免費（由 Telegram 支付）"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_fee_unknown",
+      "value": "查詢失敗"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_open_wallet",
+      "value": "開啟「我的錢包」"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_operation",
+      "value": "操作"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_recipient",
+      "value": "接收者"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_sender",
+      "value": "傳送者"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_status",
+      "value": "狀態"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_title",
+      "value": "交易"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_earnings_existing",
+      "value": "您在「Gram 收益」中持有 {amount}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_error_with_type",
+      "value": "{message}（錯誤{error}）"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_wallet_fees_text",
+      "other_value": "每次轉帳都會收取一小筆網路費用。\n\nTelegram 每天免費為您支付前 {count} 次轉帳費用。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_fees_title",
+      "value": "網路費用"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_first_rate",
+      "value": "1 Gram 目前等於 {amount}。\n您可以："
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_first_rate_none",
+      "value": "使用 Gram，您可以："
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_first_send_text",
+      "value": "將 Gram 轉帳給任何人。\n在聊天室中點擊「{attach}」→「{money}」。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_first_send_title",
+      "value": "轉出"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_first_store_text",
+      "value": "將您的 Gram 存放在 Telegram\n（{menu}→ {wallet}）或其他錢包中。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_first_store_title",
+      "value": "儲存"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_first_title",
+      "value": "您的第一筆 Gram！"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_first_trade_text",
+      "value": "在交易所將 Gram 兌換成現金或加密貨幣。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_first_trade_title",
+      "value": "交易"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_history_searching",
+      "value": "正在搜尋交易"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_how_menu",
+      "value": "什麼是錢包？"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_how_subtitle",
+      "value": "只有您能掌控您的資金——其他人無法存取。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_how_title",
+      "value": "運作原理"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_import_button",
+      "value": "匯入"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_import_failed",
+      "value": "無法匯入錢包。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_import_invalid_scheme",
+      "value": "此處僅可匯入在 Telegram 中建立的助記詞。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_import_invalid_spelling",
+      "value": "請檢查詞序。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_import_invalid_title",
+      "value": "無效助記詞"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_import_key_changing",
+      "value": "您的錢包金鑰正在變更中。請待變更確認後再試一次。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_import_not_verified",
+      "value": "Telegram 無法驗證此錢包的所有權。請妥善保管您的助記詞，並聯絡支援。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_import_paste_error",
+      "value": "貼上的文字必須包含 12 或 24 個單字。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_import_text",
+      "value": "請輸入您擁有的另一只錢包中的助記詞。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_import_title",
+      "value": "匯入錢包"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_wallet_import_words",
+      "other_value": "{count} 字"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_imported_not_stored",
+      "value": "您的錢包已替換，但其金鑰無法儲存於此裝置上。如果您無法由此處傳送交易，請使用您的助記詞進行還原。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_imported_text",
+      "value": "您的錢包已透過助記詞復原。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_imported_title",
+      "value": "錢包已匯入"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_intro_text",
+      "value": "Gram — Telegram 的數位貨幣"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_key_save_error",
+      "value": "無法在此裝置上儲存錢包金鑰。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_keys_delete",
+      "value": "刪除錢包"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_keys_phrase_about",
+      "value": "您可以透過複製助記詞，將錢包轉移至另一台裝置。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_keys_restore",
+      "value": "透過助記詞復原"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_keys_show_phrase",
+      "value": "顯示助記詞"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_keys_title",
+      "value": "金鑰與備份"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_menu",
+      "value": "我的錢包"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_menu_currency",
+      "value": "貨幣"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_passcode_forgot",
+      "value": "忘記解鎖碼？"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_passcode_forgot_about",
+      "value": "沒有解鎖碼，此裝置將無法開啟其儲存的錢包金鑰。您可以移除此裝置上的所有錢包金鑰及解鎖碼，並繼續使用 Telegram ——您不會因此登出。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_passcode_forgot_backed",
+      "value": "您的錢包可從 Telegram 備份中還原。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_passcode_forgot_confirm",
+      "value": "移除金鑰"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_passcode_forgot_done",
+      "value": "錢包金鑰和解鎖碼已從此裝置中移除。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_passcode_forgot_failed",
+      "value": "無法移除錢包金鑰。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_passcode_remember",
+      "value": "15 分鐘內不再詢問"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_phrase_check_wait",
+      "value": "您將能在 {duration} 內完成此操作。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_phrase_error",
+      "value": "無法顯示助記詞。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_phrase_intro_text",
+      "value": "您的助記詞是備份錢包的關鍵。請務必隨時保密並妥善保管。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_phrase_intro_title",
+      "value": "助記詞"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_phrase_password_description",
+      "value": "請輸入您的密碼以查看您的助記詞。"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_wallet_phrase_text",
+      "other_value": "請將這 {count} 個單字依序寫下來，並妥善保管。務必始終保密。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_phrase_title",
+      "value": "您的助記詞"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_phrase_warn_share",
+      "value": "**千萬不要**把您的助記詞告訴任何人。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_phrase_warn_steal",
+      "value": "如果有人取得您的助記詞，他們**便能竊取您的資金**。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_phrase_warn_support",
+      "value": "Telegram 客服**絕不會要求您**提供助記詞。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_profile_send_money",
+      "value": "轉帳"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protect_account",
+      "value": "保護您的帳號"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_about",
+      "value": "選擇您在此裝置上的資金保護方式。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_create_about",
+      "value": "此解鎖碼用於保護您在此裝置上的錢包金鑰。除非您在「設定」中啟用此功能，否則它不會鎖定 Telegram。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_error",
+      "value": "無法變更錢包金鑰的保護設定。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_hardware_absent",
+      "value": "您在此裝置上的錢包金鑰原本由 {provider} 保護，但該金鑰現已無法在此裝置上使用。請透過 Telegram 的加密備份或您的助記詞來還原錢包，以便再次儲存該金鑰。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_hardware_failed",
+      "value": "{provider} 並未確認那是您本人。未做任何變更。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_hardware_unavailable",
+      "value": "您在此裝置上的錢包金鑰由 {provider} 保護，但目前無法使用。請重新啟動 Telegram 後再試一次，或透過 Telegram 的加密備份，或使用您的助記詞來還原錢包，以採取其他方式保護它。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_hello_about",
+      "value": "請使用您的 Windows PIN 碼確認所有支出。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_hello_label",
+      "value": "Windows Hello"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_open",
+      "value": "不再詢問解鎖碼"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_open_about",
+      "value": "任何能夠存取您的 Telegram 帳號的人，都能動用您的資金。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_open_confirm",
+      "value": "仍然儲存"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_open_title",
+      "value": "不設定解鎖碼就儲存嗎？"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_open_warning_lock",
+      "value": "任何能存取這台電腦上未上鎖的 Telegram Desktop 的人，都將能夠竊取您錢包中的資金。\n\n您稍後可透過錢包選單中的「密碼鎖」來變更設定。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_open_warning_nolock",
+      "value": "任何能存取這台電腦的人，都能竊取您錢包中的資金。\n\n您稍後可透過錢包選單中的「密碼鎖」功能變更設定。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_passcode",
+      "value": "要求本機解鎖碼"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_passcode_about",
+      "value": "所有支出都必須使用您的 Telegram 解鎖碼進行確認。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_passcode_change",
+      "value": "變更解鎖碼 {arrow}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_passcode_changed_error",
+      "value": "密碼已變更，但無法更新錢包保護設定。請透過備份或助記詞還原您的錢包金鑰。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_passcode_keep",
+      "value": "請務必總是要求此解鎖碼"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_removal_about",
+      "value": "選擇移除密碼後如何保護您的資金。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_removal_wallets",
+      "value": "這將套用於 {accounts} 的錢包。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_retained",
+      "value": "Telegram 將在 15 分鐘內不再要求您提供 {provider}。{link}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_retained_ask",
+      "value": "下次詢問"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_title",
+      "value": "密碼鎖"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_touchid_about",
+      "value": "請使用指紋或 Mac 密碼確認所有支出。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_touchid_label",
+      "value": "Touch ID"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_touchid_reason",
+      "value": "解鎖您的錢包金鑰"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_provisioning",
+      "value": "正在設定您的錢包…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_readonly_bar",
+      "value": "此裝置可檢視此錢包，但無法從中轉帳。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_receive_about",
+      "value": "分享您的地址或此 QR 碼以接收 GRAM。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_receive_caveat",
+      "value": "如果要從此裝置傳送交易，您需要輸入助記詞，或使用當初匯入此錢包的裝置。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_receive_copy_hint",
+      "value": "點擊複製地址"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_replace_create",
+      "value": "建立新錢包"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_replace_import",
+      "value": "匯入現有錢包"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_replace_title",
+      "value": "您想要如何替換舊錢包？"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_restore_error",
+      "value": "無法還原對此錢包的存取權限。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_restore_explain_text",
+      "value": "請輸入您的兩步驟驗證密碼，以便從加密備份中還原此錢包的金鑰。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_restore_not_saved",
+      "value": "助記詞並未儲存於此裝置中。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_restore_other_text",
+      "value": "您輸入的字詞與該錢包不符。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_restore_outdated_text",
+      "value": "這些單字是此錢包的舊助記詞。\n\n請輸入您上次停用備份時所獲得的新助記詞。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_restore_text",
+      "value": "請輸入此錢包的助記詞。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_restore_title",
+      "value": "還原錢包"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_restore_ton_connect_text",
+      "value": "請輸入此錢包的助記詞，才能在此裝置上使用相關應用程式。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_restore_wrong_title",
+      "value": "助記詞錯誤"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_restoring_key",
+      "value": "正在從加密備份中還原您的錢包金鑰..."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_collectible_in",
+      "value": "轉入典藏品"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_collectible_out",
+      "value": "轉出典藏品"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_deposit",
+      "value": "存入"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_incoming",
+      "value": "轉入"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_wallet_row_items",
+      "other_value": "{count} 個項目"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_key_change",
+      "value": "金鑰更新"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_outgoing",
+      "value": "轉出"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_sending",
+      "value": "正在傳送"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_topup",
+      "value": "儲值"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_withdrawal",
+      "value": "提款"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_rows_collectibles",
+      "value": "典藏品"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_rows_hidden_below",
+      "value": "金額低於 {amount} 的交易已隱藏。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_rows_title",
+      "value": "交易"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_amount",
+      "value": "轉出 {amount} Gram"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_balance",
+      "value": "餘額：{amount} Gram"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_comment_optional",
+      "value": "可選附言"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_error_failed",
+      "value": "轉帳無法完成。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_error_in_progress",
+      "value": "另一筆轉帳仍在進行中。請等待其完成。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_error_insufficient",
+      "value": "您目前持有的 Gram 不足以進行此筆轉帳。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_error_quote_expired",
+      "value": "轉帳詳細資訊已變更或無法準備就緒。請檢視詳細資訊後再試一次。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_error_too_small",
+      "value": "最低轉帳金額為 {amount} Gram。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_invalid_address",
+      "value": "無效地址"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_key_changed_text",
+      "value": "此錢包的金鑰已在另一款應用程式中變更，因此本裝置上的金鑰已無法使用。\n\n請使用目前的助記詞還原錢包，才能在本裝置上再次使用它。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_key_changed_title",
+      "value": "錢包金鑰已變更"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_link_expired",
+      "value": "此付款連結已過期。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_link_invalid",
+      "value": "此連結無效。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_name_not_found",
+      "value": "此名稱未綁定任何錢包。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_network_fee",
+      "value": "網路費用：{amount} Gram"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_recipient_loading",
+      "value": "正在查看接收者的錢包…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_title",
+      "value": "轉出 Grams"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_user_load_error",
+      "value": "無法載入接收者的錢包。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_user_title",
+      "value": "轉帳至 {user}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_user_unavailable",
+      "value": "此用戶無法接收 Gram。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_user_wallet_about",
+      "value": "此 TON 區塊鏈地址已與 Telegram 上的 {name} 綁定。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_user_wallet_title",
+      "value": "{name} 的錢包"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_wallet_loading",
+      "value": "正在加載您的錢包…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_sent_toast",
+      "value": "🎉 已將 Gram 轉帳至 {address}。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_state_error",
+      "value": "無法載入您的錢包。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_unavailable",
+      "value": "此帳號無法使用「我的錢包」。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_vault_locked",
+      "value": "此裝置上的錢包金鑰已鎖定。請先解鎖，然後再試一次。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_vault_reset_about",
+      "value": "目前儲存於此裝置上的錢包金鑰，將無法再在此處開啟。如果繼續操作，系統將從此裝置中刪除該金鑰及其所儲存的其他錢包金鑰，並將此錢包的金鑰儲存至該位置。此操作無法復原。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_vault_reset_title",
+      "value": "刪除已儲存的金鑰嗎？"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_vault_unavailable",
+      "value": "無法讀取儲存於此裝置上的錢包金鑰。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_walt_existing",
+      "value": "您在 Walt 中也有餘額"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_weekday1",
       "value": "週一"
     },
@@ -41624,5 +43319,5 @@
       "other_value": "您支付了 {count} 顆星星。"
     }
   ],
-  "version": 5902212
+  "version": 5923020
 }
