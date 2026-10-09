@@ -40885,6 +40885,12 @@
       "other_value": "{count} dei tuoi wallet hanno le chiavi conservate  esclusivamente su questo dispositivo, senza alcun backup su Telegram. Se procedi, saranno eliminate: solo le relative frasi segrete potranno ripristinarli."
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_sure_logout_wallet_parked",
+      "one_value": "Questo dispositivo contiene anche le chiavi di un altro wallet Gram. Se procedi, saranno eliminate e quel wallet potrà essere ripristinato solo se la sua frase segreta è stata annotata.",
+      "other_value": "Questo dispositivo contiene anche le chiavi di altri {count} wallet Gram. Se procedi, saranno eliminate e quei wallet potranno essere ripristinati solo se la loro frase segreta è stata annotata."
+    },
+    {
       "_": "types.LangPackString",
       "key": "lng_sure_logout_wallet_unknown",
       "value": "Se su questo dispositivo sono presenti chiavi del wallet Gram, continuando saranno distrutte. Potranno essere ripristinate solo da un backup di Telegram o tramite la tua frase segreta."
@@ -43627,6 +43633,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_protection_hardware_absent",
+      "value": "La chiave del tuo wallet su questo dispositivo era protetta da {provider}, ma non è più possibile usarla su questo dispositivo. Ripristina il wallet dal backup crittografato di Telegram o usando la tua frase segreta per salvare nuovamente la chiave."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_protection_hardware_failed",
       "value": "{provider} non ha confermato che fossi tu. Non è cambiato nulla."
     },
@@ -44192,5 +44203,5 @@
       "other_value": "Hai pagato {count} stelle."
     }
   ],
-  "version": 5929648
+  "version": 5929653
 }
