@@ -43285,6 +43285,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.ImportController.ReplaceWalletInfo",
+      "value": "Овај тајни израз припада другом новчанику. Замена тренутног новчаника уклониће приступ њему на овом уређају. Пре него што наставите, уверите се да сте сачували његов тајни израз."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.ImportController.ReplaceWalletTitle",
       "value": "Замена новчаника"
     },
@@ -43477,6 +43482,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.InfoController.SecretPhrase",
       "value": "Тајни израз"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.InfoController.SecretPhraseInfo",
+      "value": "Ваш тајни израз је кључ за прављење резервне копије новчаника. Увек га чувајте у тајности и на сигурном месту."
     },
     {
       "_": "types.LangPackString",
@@ -43797,6 +43807,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.SendController.InsufficientFundsInfo",
+      "value": "Потребно вам је %1$@, укључујући мрежну накнаду, да бисте послали овај пренос."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.SendController.InsufficientFundsTitle",
       "value": "Недовољно средстава"
     },
@@ -43847,6 +43862,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.SendController.StillSyncing",
+      "value": "Новчаник се и даље синхронизује. Покушајте поново за тренутак."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.SendController.Title",
       "value": "Пошаљите новац"
     },
@@ -43854,6 +43874,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.SendController.TransferFailedDetailedInfo",
       "value": "Није било могуће припремити нити послати пренос. Проверите адресу, стање и мрежну везу, па покушајте поново."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.SendController.TransferFailedInfo",
+      "value": "Припрема или слање преноса није успело."
     },
     {
       "_": "types.LangPackString",
@@ -43909,6 +43934,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.SettingsController.CheckNetwork",
       "value": "Проверите мрежну везу и покушајте поново."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.SettingsController.DataUnreadable",
+      "value": "Сачувани подаци о новчанику не могу се прочитати на овом уређају, па су трајни израз и подешавања резервне копије недоступни. Можете избрисати овај новчаник и опоравити га помоћу свог тајног израза."
     },
     {
       "_": "types.LangPackString",
@@ -44097,8 +44127,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.SettingsController.SecretPhraseNotStored",
+      "value": "Тајни израз овог новчаника више се не чува на овом уређају."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.SettingsController.SecretPhraseRequired",
       "value": "Потребан тајни израз"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.SettingsController.SecretPhraseRequiredForBackup",
+      "value": "Да бисте променили подешавања резервне копије, унесите свој тајни израз од 12 или 24 речи како бисте повратили приступ овом новчанику."
     },
     {
       "_": "types.LangPackString",
@@ -44279,6 +44319,13 @@
       "_": "types.LangPackString",
       "key": "Wallet.TransactionController.FeeFree",
       "value": "Бесплатно (Telegram)"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": ".\n\nTelegram покрива ваша прва %1$d преноса сваког дана.",
+      "key": "Wallet.TransactionController.NetworkFeeGasless",
+      "one_value": ".\n\nTelegram покрива ваш први пренос (%1$d) сваког дана.",
+      "other_value": ".\n\nTelegram покрива ваших првих %1$d преноса сваког дана."
     },
     {
       "_": "types.LangPackString",
@@ -45488,5 +45535,5 @@
       "value": "Прикажи замене"
     }
   ],
-  "version": 2374905
+  "version": 2374915
 }
