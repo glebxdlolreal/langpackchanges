@@ -1803,6 +1803,72 @@
       "value": "{from} только что объявила о розыгрыше Telegram Premium среди своих участников."
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "{amount} GRAM",
+      "key": "lng_action_gram_transfer_amount",
+      "many_value": "{amount} GRAM",
+      "one_value": "{amount} GRAM",
+      "other_value": "{amount} GRAM"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gram_transfer_amount_fiat",
+      "value": "{amount} ({fiat})"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gram_transfer_comment",
+      "value": "{text}: {comment}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gram_transfer_encrypted_comment",
+      "value": "Зашифрованный комментарий"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gram_transfer_failed_tag",
+      "value": "не выполнено"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gram_transfer_received",
+      "value": "{user} отправил(а) Вам {amount}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gram_transfer_received_tag",
+      "value": "получено"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gram_transfer_received_unknown",
+      "value": "Вы получили {amount}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gram_transfer_sent",
+      "value": "Вы отправили {user} {amount}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gram_transfer_sent_tag",
+      "value": "отправлено"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gram_transfer_sent_unknown",
+      "value": "Вы отправили {amount}"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "GRAM",
+      "key": "lng_action_gram_transfer_ticker",
+      "many_value": "GRAM",
+      "one_value": "GRAM",
+      "other_value": "GRAM"
+    },
+    {
       "_": "types.LangPackString",
       "key": "lng_action_group_call_finished",
       "value": "Трансляция закончена ({duration})"
@@ -2449,6 +2515,11 @@
       "many_value": "{count} задач",
       "one_value": "{count} задачу",
       "other_value": "{count} задачи"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_ton_connect_expired_unknown",
+      "value": "Срок действия запроса истёк"
     },
     {
       "_": "types.LangPackString",
@@ -5015,6 +5086,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_attach_audio",
+      "value": "Звук"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_attach_camera",
       "value": "Камера"
     },
@@ -6772,6 +6848,31 @@
       "_": "types.LangPackString",
       "key": "lng_bot_add_to_side_menu_done",
       "value": "Бот добавлен в главное меню."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_allow_camera",
+      "value": "Разрешить этому боту доступ к камере?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_allow_camera_microphone",
+      "value": "Разрешить этому боту доступ к камере и микрофону?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_allow_location",
+      "value": "Разрешить этому боту доступ к Вашей геопозиции?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_allow_microphone",
+      "value": "Разрешить этому боту доступ к микрофону?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_allow_permission_confirm",
+      "value": "Разрешить"
     },
     {
       "_": "types.LangPackString",
@@ -9463,6 +9564,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_choose_audio",
+      "value": "Выбрать аудиофайл"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_choose_cover",
       "value": "Выбрать обложку"
     },
@@ -11426,6 +11532,11 @@
       "_": "types.LangPackString",
       "key": "lng_context_mark_read_all_sure_2",
       "value": "**Это действие нельзя будет отменить.**"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_context_mark_read_archive_sure",
+      "value": "Вы точно хотите пометить все чаты в архиве как прочитанные?"
     },
     {
       "_": "types.LangPackString",
@@ -18717,7 +18828,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_gift_send_message_restricted",
-      "value": "Пользователь не принимает подарки с комментариями. Удалите комментарий и повторите попытку."
+      "value": "Пользователь не принимает подарки с сообщениями. Удалите сообщение и повторите попытку."
     },
     {
       "_": "types.LangPackString",
@@ -28247,7 +28358,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_payments_webview_install_webkit",
-      "value": "Используйте свой менеджер пакетов, чтобы установить WebKitGTK (webkit2gtk-4.1/webkit2gtk-4.0)."
+      "value": "Используйте свой менеджер пакетов, чтобы установить WebKitGTK (webkitgtk-6.0/webkit2gtk-4.1/webkit2gtk-4.0)."
     },
     {
       "_": "types.LangPackString",
@@ -28391,6 +28502,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_photo_editor_audio_remove",
+      "value": "Убрать звук"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_photo_editor_corners_about",
       "value": "Выберите радиус скругления углов стикера."
     },
@@ -28463,6 +28579,11 @@
       "_": "types.LangPackString",
       "key": "lng_photo_editor_keep_ratio",
       "value": "Не менять соотношение сторон"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_link_customize",
+      "value": "Текстовая ссылка"
     },
     {
       "_": "types.LangPackString",
@@ -31858,6 +31979,11 @@
       "_": "types.LangPackString",
       "key": "lng_proxy_web_open",
       "value": "Открыть браузер"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_proxy_web_warning",
+      "value": "Этот WEB-прокси запускает веб-страницу от своего провайдера в фоновом режиме на время подключения. Используйте его, только если доверяете провайдеру. Он также может отображать канал спонсора в списке чатов. Это не раскрывает Ваш трафик в Telegram."
     },
     {
       "_": "types.LangPackString",
@@ -36661,6 +36787,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_settings_passcode_lock_off_wallet",
+      "value": "Код-пароль будет использоваться для подтверждения транзакций, а не для входа в кошелёк."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_settings_passcode_title",
       "value": "Код-пароль"
     },
@@ -39671,6 +39802,16 @@
       "_": "types.LangPackString",
       "key": "lng_start_msgs",
       "value": "Начать общение"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_stash_files_limit",
+      "value": "Слишком много файлов или файлы слишком большие."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_stash_hint",
+      "value": "Нажмите {shortcut}, чтобы сохранить черновик."
     },
     {
       "_": "types.LangPackString",
@@ -43334,9 +43475,210 @@
       "value": "Очень быстро"
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Первые {count} перевода в день бесплатны, последующие — почти ничего не стоят.",
+      "key": "lng_wallet_about_fees_text",
+      "many_value": "Первые {count} переводов в день бесплатны, последующие — почти ничего не стоят.",
+      "one_value": "{count} перевод в день бесплатен, последующие — почти ничего не стоят.",
+      "other_value": "Первые {count} перевода в день бесплатны, последующие — почти ничего не стоят."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_about_fees_title",
+      "value": "Отсутствие комиссии"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_about_instant_text",
+      "value": "GRAM так же легко отправить в любой чат, как фотографию или видео."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_about_instant_title",
+      "value": "Мгновенная отправка"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_add_funds",
+      "value": "Пополнить"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_apps_disconnect_failed",
+      "value": "Не удалось отключить приложение."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_apps_disconnect_sure",
+      "value": "Вы точно хотите отключить {name}?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_apps_disconnect_title",
+      "value": "Отключить приложение"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_apps_title",
+      "value": "Подключённые приложения"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_apps_unknown",
+      "value": "Неизвестное приложение"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_about_on",
+      "value": "Зашифрованная резервная копия ключа разделена на три части, которые хранятся на трёх континентах.\n\nИх можно объединить только на Ваших устройствах, поэтому никто — даже Telegram — не может получить доступ к Вашему ключу."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_cancel_title",
+      "value": "Оставить резервное копирование?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_enable",
+      "value": "Включить резервное копирование"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_new_phrase_text",
+      "value": "Для Вашего кошелька сгенерирована новая секретная фраза. Запишите её и не сообщайте никому."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_buy_button",
+      "value": "Купить за деньги/криптовалюту"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_collectible_not_owned",
+      "value": "Этот коллекционный предмет больше не в Вашем кошельке."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_collectible_own_wallet",
+      "value": "Этот коллекционный предмет уже в Вашем кошельке."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_collectible_send",
+      "value": "Отправить {name}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_conflict_existing",
+      "value": "В Ваших старых кошельках {amount}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_failed",
+      "value": "Не удалось подключить кошелёк."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_proof",
+      "value": "Приложению также требуется подтверждение, что этот кошелёк принадлежит Вам. Это подпись для авторизации, а не перевод средств."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "{count} получателя",
+      "key": "lng_wallet_connect_request_recipients",
+      "many_value": "{count} получателей",
+      "one_value": "{count} получатель",
+      "other_value": "{count} получателя"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_recipients_title",
+      "value": "Получатели"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_title",
+      "value": "Запрос от приложения"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_title_app",
+      "value": "{name} запрашивает перевод"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_currency_title",
+      "value": "Выберите валюту"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_fee_free",
+      "value": "Бесплатно (за счёт Telegram)"
+    },
+    {
       "_": "types.LangPackString",
       "key": "lng_wallet_details_open_wallet",
       "value": "Перейти к моим деньгам"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_history_searching",
+      "value": "Поиск транзакций"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_how_menu",
+      "value": "Что такое Деньги?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_how_subtitle",
+      "value": "Вы сами распоряжаетесь средствами —\nникто другой не имеет к ним доступа."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_how_title",
+      "value": "Как это работает"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_menu",
+      "value": "Деньги"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_menu_currency",
+      "value": "Валюта"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_phrase_intro_text",
+      "value": "Ваша секретная фраза — это ключ для восстановления кошелька. Храните её в надёжном месте и не сообщайте никому."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_phrase_warn_share",
+      "value": "**Никому не сообщайте** свою секретную фразу."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protect_account",
+      "value": "Защита Вашего аккаунта"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_receive_about",
+      "value": "Чтобы получить GRAM, скопируйте свой адрес или покажите QR-код."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_error_insufficient",
+      "value": "Недостаточно средств."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_gram_wallet",
+      "value": "Кошелёк GRAM"
     },
     {
       "_": "types.LangPackString",
@@ -43417,7 +43759,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_welcome_messages_preview_about",
-      "value": "Новые участники увидят это сообщение, когда присоединятся к чату"
+      "value": "Новые участники увидят эти сообщения, когда присоединятся к чату"
     },
     {
       "_": "types.LangPackString",
@@ -43484,5 +43826,5 @@
       "other_value": "Вы заплатили {count} звезды."
     }
   ],
-  "version": 5923573
+  "version": 5930303
 }
