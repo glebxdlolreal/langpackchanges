@@ -30155,6 +30155,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ProxySettings.Web.Warning.Text",
+      "value": "Este proxy carga JavaScript controlado por el proveedor en un navegador oculto. El proveedor puede cambiar la temporización del tráfico, el batching, el padding y el uso de la red, y puede consumir CPU, memoria o batería. Las credenciales de Telegram y las API nativas no se exponen intencionadamente, pero el código del proveedor no es confiable. Habilita sólo los proveedores en los que confíes."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ProxySettings.Web.Warning.Title",
       "value": "¿Quieres activar el proxy WEB?"
     },
@@ -43878,6 +43883,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.SendController.InsufficientFundsInfo",
+      "value": "Necesitas %1$@, incluida la tarifa de red, para enviar esta transferencia."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.SendController.InsufficientFundsTitle",
       "value": "Fondos insuficientes"
     },
@@ -43928,6 +43938,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.SendController.StillSyncing",
+      "value": "La billetera aún se está sincronizando. Por favor, reinténtalo en un momento."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.SendController.Title",
       "value": "Enviar dinero a"
     },
@@ -43935,6 +43950,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.SendController.TransferFailedDetailedInfo",
       "value": "No se pudo preparar ni enviar la transferencia. Revisa la dirección, el saldo, la conexión a la red y luego reinténtalo."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.SendController.TransferFailedInfo",
+      "value": "No se pudo preparar ni enviar la transferencia."
     },
     {
       "_": "types.LangPackString",
@@ -43990,6 +44010,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.SettingsController.CheckNetwork",
       "value": "Verifica la conexión a la red y reinténtalo."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.SettingsController.DataUnreadable",
+      "value": "Los datos almacenados de la billetera no se pueden leer en este dispositivo, por lo que la frase secreta y los ajustes del respaldo no están disponibles. Puedes eliminar esta billetera y restaurarla desde tu frase secreta."
     },
     {
       "_": "types.LangPackString",
@@ -44178,8 +44203,23 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.SettingsController.SecretPhraseNotStored",
+      "value": "La frase secreta de esta billetera ya no se almacena en este dispositivo."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.SettingsController.SecretPhraseRequired",
       "value": "Frase secreta requerida"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.SettingsController.SecretPhraseRequiredForBackup",
+      "value": "Para cambiar los ajustes del respaldo, pon tu frase secreta de 12 o 24 palabras para restaurar el acceso a esta billetera."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.SettingsController.SettingUp",
+      "value": "Configurando tu billetera. Esto suele tomar unos segundos…\n\nTu frase secreta y ajustes del respaldo aparecerán aquí una vez que esté lista."
     },
     {
       "_": "types.LangPackString",
@@ -45599,5 +45639,5 @@
       "value": "Mostrar sustituciones"
     }
   ],
-  "version": 2374899
+  "version": 2374902
 }
