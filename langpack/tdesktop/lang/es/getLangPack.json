@@ -42786,6 +42786,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_backup_rotate_failed_text",
+      "value": "{reason} Tu frase secreta no fue cambiada; sigue usando la actual. Las nuevas palabras que anotaste no están en uso."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_backup_rotate_failed_title",
       "value": "Acción fallida"
     },
@@ -42966,8 +42971,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_conflict_text",
+      "value": "Billetera que usaste antes en este dispositivo. Guarda la frase secreta antes de cambiar a tu billetera de Telegram."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_connect_button",
       "value": "Conectar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_expired",
+      "value": "Esta solicitud de conexión ya no es válida. Inicia la conexión de nuevo desde la app."
     },
     {
       "_": "types.LangPackString",
@@ -42976,8 +42991,23 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_connect_manifest_invalid",
+      "value": "Los detalles de esta app no son válidos o pertenecen a otro dominio, por lo que la billetera no estaba conectada."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_manifest_missing",
+      "value": "No se pudieron cargar los detalles de esta app, por lo que la billetera no estaba conectada."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_connect_permission",
       "value": "La app podrá ver tu dirección de TON, saldo y actividad."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_proof",
+      "value": "La app también te pide que confirmes que esta billetera es tuya. Esta es una firma de inicio de sesión, no una transferencia."
     },
     {
       "_": "types.LangPackString",
@@ -43159,6 +43189,11 @@
       "_": "types.LangPackString",
       "key": "lng_wallet_connect_request_unsupported",
       "value": "Esta solicitud no es compatible con este dispositivo."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_restore",
+      "value": "Este dispositivo no contiene la clave actual de esta billetera. Restáurala para usar apps conectadas."
     },
     {
       "_": "types.LangPackString",
@@ -43660,6 +43695,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_protection_passcode_changed_error",
+      "value": "El código fue cambiado, pero la protección de la billetera no se pudo actualizar. Restaura las claves de tu billetera desde un respaldo o frase secreta."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_protection_passcode_keep",
       "value": "Seguir solicitando este código"
     },
@@ -43740,6 +43780,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_restore_explain_text",
+      "value": "Pon tu contraseña de verificación en dos pasos para restaurar la clave de esta billetera desde tu respaldo cifrado."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_restore_not_saved",
       "value": "La frase secreta no fue guardada en este dispositivo."
     },
@@ -43747,6 +43792,11 @@
       "_": "types.LangPackString",
       "key": "lng_wallet_restore_other_text",
       "value": "Las palabras que pusiste no coinciden con la billetera."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_restore_outdated_text",
+      "value": "Estas palabras son una frase secreta antigua para esta billetera.\n\nPon la nueva frase que obtuviste cuando desactivaste el respaldo por última vez."
     },
     {
       "_": "types.LangPackString",
@@ -43767,6 +43817,11 @@
       "_": "types.LangPackString",
       "key": "lng_wallet_restore_wrong_title",
       "value": "Frase secreta equivocada"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_restoring_key",
+      "value": "Restaurando la clave de tu billetera desde el respaldo cifrado…"
     },
     {
       "_": "types.LangPackString",
@@ -44130,5 +44185,5 @@
       "other_value": "Pagaste {count} estrellas."
     }
   ],
-  "version": 5929756
+  "version": 5929765
 }
