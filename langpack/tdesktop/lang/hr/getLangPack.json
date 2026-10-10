@@ -1785,9 +1785,23 @@
       "value": "Grupa {from} je upravo pokrenula darivanje Telegram Premium pretplata svojim članovima."
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "{amount} Grama",
+      "key": "lng_action_gram_transfer_amount",
+      "one_value": "{amount} Gram",
+      "other_value": "{amount} Grama"
+    },
+    {
       "_": "types.LangPackString",
       "key": "lng_action_gram_transfer_received_tag",
       "value": "primljeno"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Grama",
+      "key": "lng_action_gram_transfer_ticker",
+      "one_value": "Gram",
+      "other_value": "Grama"
     },
     {
       "_": "types.LangPackString",
@@ -42765,6 +42779,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_about_instant_text",
+      "value": "Pošaljite Gram u bilo koji razgovor, jednostavno kao da šaljete sliku."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_add_funds",
       "value": "Dodaj sredstva"
     },
@@ -42917,6 +42936,26 @@
       "_": "types.LangPackString",
       "key": "lng_wallet_first_rate",
       "value": "1 Gram trenutno vrijedi {amount}.\nMožete ih:"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_first_send_text",
+      "value": "Pošaljite Grame bilo kome.\nKliknite {attach} → {money} u razgovorima."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_first_store_text",
+      "value": "Pohranite svoje Grame u Telegramu\n({menu} → {wallet}) ili u drugim novčanicima."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_first_title",
+      "value": "Vaši prvi Grami!"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_first_trade_text",
+      "value": "Pretvorite Gram u gotovinu ili kriptovalute na mjenjačnicama."
     },
     {
       "_": "types.LangPackString",
@@ -43077,8 +43116,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_send_error_too_small",
+      "value": "Minimalni prijenos je {amount} grama."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_send_gram_wallet",
       "value": "Gram novčanik"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_network_fee",
+      "value": "Mrežna naknada: {amount} GRAM"
     },
     {
       "_": "types.LangPackString",
@@ -43087,8 +43136,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_send_user_unavailable",
+      "value": "Ovaj korisnik ne može primati Grame."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_send_user_wallet_about",
       "value": "Ova TON Blockchain adresa je povezana sa {name} na Telegramu."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_sent_toast",
+      "value": "🎉 Grami su poslani na {address}."
     },
     {
       "_": "types.LangPackString",
@@ -43241,5 +43300,5 @@
       "other_value": "Platili ste {count} zvjezdica."
     }
   ],
-  "version": 5930119
+  "version": 5930134
 }
