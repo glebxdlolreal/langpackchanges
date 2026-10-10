@@ -1803,8 +1803,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_action_gram_transfer_received_unknown",
+      "value": "Primili ste {amount}"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_action_gram_transfer_sent",
       "value": "Korisniku {user} ste poslali {amount}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gram_transfer_sent_tag",
+      "value": "poslano"
     },
     {
       "_": "types.LangPackString",
@@ -8389,7 +8399,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_channel_earn_history_out_button",
-      "value": "Pogledaj u blockchain pregledniku"
+      "value": "Pogledaj u pregledniku"
     },
     {
       "_": "types.LangPackString",
@@ -26579,8 +26589,53 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_passcode_strength_advice_date",
+      "value": "Izbjegavajte datume i godine."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_passcode_strength_advice_fine",
       "value": "Ovu lozinku je teško pogoditi."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_passcode_strength_advice_keyboard",
+      "value": "Izbjegavajte uzorke tipkovnice."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_passcode_strength_advice_leet",
+      "value": "Zamjena slova sličnim simbolima ne pomaže."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_passcode_strength_advice_repeat",
+      "value": "Izbjegavajte znakove koji se ponavljaju."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_passcode_strength_advice_sequence",
+      "value": "Izbjegavajte nizove kao abc ili 123."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_passcode_strength_advice_short",
+      "value": "Koristite najmanje 8 znakova."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_passcode_strength_advice_variety",
+      "value": "Produžite je i dodajte više vrsta znakova."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_passcode_strength_advice_word",
+      "value": "Izbjegavajte uobičajene riječi i imena."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_passcode_strength_empty",
+      "value": "Procjena jačine lozinke."
     },
     {
       "_": "types.LangPackString",
@@ -42794,8 +42849,35 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_about_chain_text",
+      "value": "Sve transakcije su zabilježene i mogu se provjeriti u javnom zapisu."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_about_chain_title",
+      "value": "Blockchain potvrda"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Prva {count} slanja dnevno su besplatna. Svako sljedeće košta gotovo ništa.",
+      "key": "lng_wallet_about_fees_text",
+      "one_value": "Prvih {count} slanja dnevno je besplatno. Svako sljedeće košta gotovo ništa.",
+      "other_value": "Prvih {count} slanja dnevno je besplatno. Svako sljedeće košta gotovo ništa."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_about_fees_title",
+      "value": "Bez naknada"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_about_instant_text",
       "value": "Pošaljite Gram u bilo koji razgovor, jednostavno kao da šaljete sliku."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_about_instant_title",
+      "value": "Pošaljite novac u trenu"
     },
     {
       "_": "types.LangPackString",
@@ -42986,8 +43068,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_how_subtitle",
+      "value": "Samo vi kontrolirate svoja sredstva —\nnitko drugi nema pristup."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_how_title",
       "value": "Kako radi"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_import_not_verified",
+      "value": "Telegram nije mogao potvrditi vlasništvo nad ovim novčanikom. Čuvajte svoju tajni niz i kontaktirajte podršku."
     },
     {
       "_": "types.LangPackString",
@@ -43041,6 +43133,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_passcode_remember",
+      "value": "Ne traži 15 minuta"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_phrase_intro_text",
       "value": "Vaš tajni niz je ključ sigurnosne kopije vašeg novčanika. Držite ga tajnim i sigurnim u svakom trenutku."
     },
@@ -43078,8 +43175,48 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_protection_open",
+      "value": "Ne traži lozinku"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_open_about",
+      "value": "Svatko s pristupom vašem Telegramu može potrošiti vaša sredstva."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_open_warning_lock",
+      "value": "Svatko tko dobije pristup otključanom Telegramu na ovom računalu moći će ukrasti sredstva vašeg novčanika.\n\nTo možete promijeniti kasnije u zaključavanju lozinkom u izborniku novčanika."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_open_warning_nolock",
+      "value": "Svatko tko dobije pristup ovom računalu moći će ukrasti sredstva iz vašeg novčanika.\n\nTo možete promijeniti kasnije u zaključavanju lozinkom u izborniku novčanika."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_passcode",
+      "value": "Zatraži lokalnu lozinku"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_protection_passcode_about",
       "value": "Potvrdite sva plaćanja koristeći Telegram lozinku."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_passcode_change",
+      "value": "Promijeni lozinku {arrow}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_passcode_changed_error",
+      "value": "Lozinka je promijenjena, ali zaštita novčanika se nije mogla ažurirati. Vratite svoje ključeve novčanika iz sigurnosne kopije ili pomoću tajnog niza."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_passcode_keep",
+      "value": "Nastavi tražiti ovu lozinku"
     },
     {
       "_": "types.LangPackString",
@@ -43125,6 +43262,11 @@
       "_": "types.LangPackString",
       "key": "lng_wallet_row_incoming",
       "value": "Dolazni prijenos"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_outgoing",
+      "value": "Odlazni prijenos"
     },
     {
       "_": "types.LangPackString",
@@ -43347,5 +43489,5 @@
       "other_value": "Platili ste {count} zvjezdica."
     }
   ],
-  "version": 5930155
+  "version": 5930302
 }
