@@ -1793,8 +1793,23 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_action_gram_transfer_received",
+      "value": "{user} vam šalje {amount}"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_action_gram_transfer_received_tag",
       "value": "primljeno"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gram_transfer_sent",
+      "value": "Korisniku {user} ste poslali {amount}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gram_transfer_sent_unknown",
+      "value": "Poslali ste {amount}"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -42929,10 +42944,10 @@
     },
     {
       "_": "types.LangPackStringPluralized",
-      "few_value": "Za svaki prijenos naplaćuje se mala mrežna naknada.\nTelegram pokriva vaša prva {count} prijenosa svakog dana.",
+      "few_value": "Za svaki prijenos naplaćuje se mala mrežna naknada.\n\nTelegram pokriva vaša prva {count} prijenosa svakog dana.",
       "key": "lng_wallet_fees_text",
-      "one_value": "Za svaki prijenos naplaćuje se mala mrežna naknada.\nTelegram pokriva vaših prvih {count} prijenosa svakog dana.",
-      "other_value": "Za svaki prijenos naplaćuje se mala mrežna naknada.\nTelegram pokriva vaših prvih {count} prijenosa svakog dana."
+      "one_value": "Za svaki prijenos naplaćuje se mala mrežna naknada.\n\nTelegram pokriva vaših prvih {count} prijenosa svakog dana.",
+      "other_value": "Za svaki prijenos naplaćuje se mala mrežna naknada.\n\nTelegram pokriva vaših prvih {count} prijenosa svakog dana."
     },
     {
       "_": "types.LangPackString",
@@ -42971,6 +42986,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_how_title",
+      "value": "Kako radi"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_import_paste_error",
       "value": "Zalijepljeni tekst mora sadržavati 12 ili 24 riječi."
     },
@@ -42983,6 +43003,11 @@
       "_": "types.LangPackString",
       "key": "lng_wallet_imported_text",
       "value": "Vaš novčanik je obnovljen pomoću tajnog niza riječi."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_intro_text",
+      "value": "Gram — Digitalna valuta za Telegram"
     },
     {
       "_": "types.LangPackString",
@@ -43108,6 +43133,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_rows_title",
+      "value": "Transakcije"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_send_amount",
       "value": "Pošalji {amount} GRAM"
     },
@@ -43143,6 +43173,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_send_user_title",
+      "value": "Pošaljite prema {user}"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_send_user_unavailable",
       "value": "Ovaj korisnik ne može primati Grame."
     },
@@ -43155,6 +43190,11 @@
       "_": "types.LangPackString",
       "key": "lng_wallet_sent_toast",
       "value": "🎉 Grami su poslani na {address}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_unavailable",
+      "value": "Novac nije dostupan za ovaj račun."
     },
     {
       "_": "types.LangPackString",
@@ -43307,5 +43347,5 @@
       "other_value": "Platili ste {count} zvjezdica."
     }
   ],
-  "version": 5930137
+  "version": 5930155
 }
