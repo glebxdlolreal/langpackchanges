@@ -40901,9 +40901,15 @@
       "other_value": "Questo dispositivo contiene anche le chiavi di altri {count} wallet Gram. Se procedi, saranno eliminate e quei wallet potranno essere ripristinati solo se la loro frase segreta è stata annotata."
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_sure_logout_wallet_rotating",
+      "one_value": "La modifica della chiave del wallet su questo dispositivo non è ancora stata confermata. La chiave sostitutiva è conservata solo qui e Telegram non ne possiede alcun backup. Se procedi, la chiave sarà eliminata: se la modifica viene confermata, solo la frase segreta sostitutiva potrà ripristinare il wallet.",
+      "other_value": "{count} modifiche della chiave del wallet su questo dispositivo non sono ancora state confermate. Le chiavi sostitutive sono conservate solo qui e Telegram non ne possiede alcun backup. Se procedi, le chiavi saranno eliminate: se una modifica viene applicata, solo la sua frase segreta sostitutiva potrà ripristinare quel wallet."
+    },
+    {
       "_": "types.LangPackString",
       "key": "lng_sure_logout_wallet_unknown",
-      "value": "Se su questo dispositivo sono presenti chiavi del wallet Gram, continuando saranno distrutte. Potranno essere ripristinate solo da un backup di Telegram o tramite la tua frase segreta."
+      "value": "Se su questo dispositivo sono presenti chiavi del wallet Gram, se procedi saranno eliminate. Potranno essere ripristinate solo da un backup di Telegram o tramite la tua frase segreta."
     },
     {
       "_": "types.LangPackString",
@@ -44060,7 +44066,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_wallet_vault_reset_about",
-      "value": "La chiave del wallet attualmente conservata su questo dispositivo non può più essere aperta qui. Proseguendo, sarà eliminata da questo dispositivo, insieme a qualsiasi altra chiave wallet conservata su di esso, e al suo posto sarà conservata la chiave di questo wallet. L'operazione non può essere annullata."
+      "value": "La chiave del wallet attualmente conservata su questo dispositivo non può più essere aperta qui. Se procedi, sarà eliminata da questo dispositivo, insieme a qualsiasi altra chiave wallet conservata su di esso, e al suo posto sarà conservata la chiave di questo wallet. L'operazione non può essere annullata."
     },
     {
       "_": "types.LangPackString",
@@ -44213,5 +44219,5 @@
       "other_value": "Hai pagato {count} stelle."
     }
   ],
-  "version": 5929990
+  "version": 5930018
 }
