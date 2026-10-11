@@ -25912,6 +25912,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_open_link_suspicious_chars",
+      "value": "Ерекшеленген таңбалар мекенжайдың қалған бөлігінің енгізу тілінен өзгеше орналасуды қолданып жазылған."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_open_menu",
       "value": "Навигация мәзірін ашу"
     },
@@ -40729,6 +40734,29 @@
       "value": "Шығасыз ба?"
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_sure_logout_wallet_local",
+      "one_value": "Әмияныңыздың кілттері тек осы құрылғыда сақталған, Telegram-да сақтық көшірмесі жоқ. Жалғастыру оларды жояды, тек олардың құпия тіркестері оларды қалпына келтіре алады.",
+      "other_value": "{count} әмияныңыздың кілттері тек осы құрылғыда сақталған, Telegram-да сақтық көшірмесі жоқ. Жалғастыру оларды жояды, тек олардың құпия тіркестері оларды қалпына келтіре алады."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_sure_logout_wallet_parked",
+      "one_value": "Бұл құрылғыда басқа бір Gram әмиянының кілттері де бар. Жалғастыру оларды жояды, ал бұл әмиянды оның құпия тіркесі жазылған жағдайда ғана қалпына келтіруге болады.",
+      "other_value": "Бұл құрылғыда басқа {count} Gram әмиянының кілттері де бар. Жалғастыру оларды жояды, ал бұл әмиянды олардың құпия тіркестері жазылған жағдайда ғана қалпына келтіруге болады."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_sure_logout_wallet_rotating",
+      "one_value": "Бұл құрылғыда әмиян кілтінің өзгерістері әлі расталған жоқ. Олардың ауыстыратын кілттері тек осында сақталады және Telegram-да олардың сақтық көшірмесі жоқ. Жалғастыру оларды жояды, өзгеріс орын алса, тек оның орнын басатын құпия тіркес бұл әмиянды қалпына келтіре алады.",
+      "other_value": "Бұл құрылғыда {count} әмиян кілтінің өзгерістері әлі расталған жоқ. Олардың ауыстыратын кілттері тек осында сақталады және Telegram-да олардың сақтық көшірмесі жоқ. Жалғастыру оларды жояды, өзгеріс орын алса, тек оның орнын басатын құпия тіркес бұл әмиянды қалпына келтіре алады."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_sure_logout_wallet_unknown",
+      "value": "Бұл құрылғыда кез келген Gram әмиян кілттері болса, жалғастыру оларды жояды. Оларды тек Telegram сақтық көшірмесінен не құпия тіркесінен қалпына келтіруге болады."
+    },
+    {
       "_": "types.LangPackString",
       "key": "lng_sure_remove_user_channel",
       "value": "{user} арнадан шығарасыз ба?"
@@ -42493,6 +42521,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_apps_about",
+      "value": "TON Connect арқылы осы әмиянға қосылған қолданбалар. Қолданбаны ажырату оның барлық құрылғыңыздағы байланысын тоқтатады."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_apps_disconnect_failed",
       "value": "Қолданбаны ажыратылмады."
     },
@@ -42798,6 +42831,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_connect_expired",
+      "value": "Бұл байланыс сұранымы енді жарамсыз. Байланысты қолданбадан қайта бастаңыз."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_failed",
+      "value": "Әмиян қосылмады."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_manifest_invalid",
+      "value": "Бұл қолданбаның мәліметтері жарамсыз не басқа доменге тиесілі, сондықтан әмиян қосылмады."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_connect_manifest_missing",
       "value": "Бұл қолданбаның мәліметтері жүктелмеді, сондықтан әмиян қосылмаған."
     },
@@ -42815,6 +42863,11 @@
       "_": "types.LangPackString",
       "key": "lng_wallet_connect_reassurance",
       "value": "Қолданба рұқсатсыз қаражатты ауыстыра алмайды."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_actions",
+      "value": "Әрекет"
     },
     {
       "_": "types.LangPackString",
@@ -42868,6 +42921,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_fee_loading",
+      "value": "Желі комиссиясын есептеу…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_handled",
+      "value": "Бұл сұраным басқа құрылғыда өңделді."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_connect_request_locked",
       "value": "Бұл сұранымды көру үшін әмияныңыздың құлпын ашыңыз."
     },
@@ -42880,6 +42943,16 @@
       "_": "types.LangPackString",
       "key": "lng_wallet_connect_request_messages",
       "value": "Хаттар"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_not_sent",
+      "value": "Транзакция жіберілмеді. Қолданбаға ол істен шықты деп айтылды."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_other_key",
+      "value": "Бұл қолданба осы әмиянның басқа кілтімен байланысқан, сондықтан бұл құрылғы оның сұранымдарына жауап бере алмайды не оны ажырата алмайды."
     },
     {
       "_": "types.LangPackString",
@@ -42899,8 +42972,33 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_recipients_title",
+      "value": "Алушы"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_sent",
+      "value": "Транзакция жіберілді."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_title",
+      "value": "Қолданба сұранымы"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_connect_request_title_app",
       "value": "{name} аударымды талап етеді"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_total",
+      "value": "Жалпы сома"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_trace_failed",
+      "value": "Алдын ала көру бұл транзакцияның бір бөлігі сәтсіз болуы мүмкін екенін көрсетеді."
     },
     {
       "_": "types.LangPackString",
@@ -42914,8 +43012,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_unavailable",
+      "value": "Бұл сұраным енді қолжетімсіз."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_connect_request_undelivered",
       "value": "Жауапты қолданбаға жеткізілмеді."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_unhandled_about",
+      "value": "Қазір бас тарта аласыз не оған басқа құрылғыда жауап бере аласыз."
     },
     {
       "_": "types.LangPackString",
@@ -42926,6 +43034,16 @@
       "_": "types.LangPackString",
       "key": "lng_wallet_connect_request_unlock",
       "value": "Ашу"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_unsupported",
+      "value": "Бұл сұранымға бұл құрылғыда қолдау жоқ."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_restore",
+      "value": "Бұл құрылғыда бұл әмиянның қазіргі кілті жоқ. Байланысқан қолданбаларды қолдану үшін оны қалпына келтіріңіз."
     },
     {
       "_": "types.LangPackString",
@@ -43211,6 +43329,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_imported_not_stored",
+      "value": "Әмияныңыз ауыстырылды, бірақ оның кілті бұл құрылғыда сақталмады. Осы жерден жібере алмасаңыз, оны құпия тіркесінен қалпына келтіріңіз."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_imported_text",
       "value": "Әмияныңыз құпия тіркес арқылы қалпына келтірілді."
     },
@@ -43377,8 +43500,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_protection_hardware_absent",
+      "value": "Бұл құрылғыдағы әмиян кілтін {provider} қорғады, бірақ ол кілтті бұл құрылғыда енді қолдануға болмайды. Кілтті қайта сақтау үшін әмиянды Telegram-ның шифрланған сақтық көшірмесінен не құпия тіркесіңізбен қалпына келтіріңіз."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_protection_hardware_failed",
       "value": "{provider} бұл сіз екеніңізді растамады. Жаңа өзгеріс енгізілген жоқ."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_hardware_unavailable",
+      "value": "Бұл құрылғыдағы әмиян кілтін {provider} қорғаған, оны қазір қолдануға болмайды. Қайталап көру үшін Telegram-ды қайта іске қосыңыз не әмиянды басқа жолмен қорғау үшін оны Telegram-ның шифрланған сақтық көшірмесінен не құпия тіркеспен қалпына келтіріңіз."
     },
     {
       "_": "types.LangPackString",
@@ -43434,6 +43567,11 @@
       "_": "types.LangPackString",
       "key": "lng_wallet_protection_passcode_change",
       "value": "Құлыптау кодын өзгерту {arrow}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_passcode_changed_error",
+      "value": "Құлыптау коды өзгертілді, бірақ әмиян қорғанысы жаңартылмады. Әмиян кілттерін сақтық көшірмеден немесе құпия тіркесінен қалпына келтіріңіз."
     },
     {
       "_": "types.LangPackString",
@@ -43688,6 +43826,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_send_key_changed_text",
+      "value": "Бұл әмиянның кілті басқа қолданбада өзгертілген, сондықтан бұл құрылғыдағы кілт енді жұмыс істемейді.\n\nОны осы құрылғыда қайта қолдану үшін әмиянды қазіргі құпия тіркеспен қалпына келтіріңіз."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_send_key_changed_title",
       "value": "Әмиян кілті өзгертілді"
     },
@@ -43927,5 +44070,5 @@
       "other_value": "{count} жұлдыз төледіңіз"
     }
   ],
-  "version": 5935813
+  "version": 5935893
 }
