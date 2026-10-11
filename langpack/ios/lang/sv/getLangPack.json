@@ -2153,6 +2153,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Attachment.Money",
+      "value": "Pengar"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Attachment.MyAlbums",
       "value": "Mina album"
     },
@@ -11315,6 +11320,16 @@
       "_": "types.LangPackString",
       "key": "Chat.Giveaway.Toast.Participating",
       "value": "Du deltar i denna utlottning."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.GramTransfer.Received",
+      "value": "mottagen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.GramTransfer.Sent",
+      "value": "skickat"
     },
     {
       "_": "types.LangPackString",
@@ -35086,6 +35101,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Notification.GramTransferYou",
+      "value": "Du skickade %1$@ %2$@"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Notification.GroupChangedWallpaper",
       "value": "Gruppen valde en ny bakgrund"
     },
@@ -39120,8 +39140,13 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PasscodeSettings.WalletConfirmWithPasscode",
+      "value": "Bekräfta med lösenord"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PasscodeSettings.WalletProtectionInfo",
-      "value": "Krävs vid överföring av pengar eller bekräftelse av andra känsliga transaktioner i Pengar."
+      "value": "Krävs vid överföring av pengar eller bekräftelse av andra känsliga åtgärder."
     },
     {
       "_": "types.LangPackString",
@@ -59313,6 +59338,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Info.NeverSharePhrase",
+      "value": "**Berätta aldrig** din hemliga fras för någon."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Info.PhraseSupportWarning",
+      "value": "Telegrams support **kommer aldrig att be dig** om din hemliga fras."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Info.PhraseTheftWarning",
+      "value": "Om någon känner till din hemliga fras kan de **stjäla dina pengar**."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Info.SendText",
       "value": "Skicka Gram till vem som helst.\nTryck på  # → Pengar i chattarna."
     },
@@ -59373,6 +59413,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.OptionalMessage",
+      "value": "Valfritt meddelande"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.PasscodeFaceId",
       "value": "Åtkomstkod & Face ID"
     },
@@ -59398,6 +59443,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Receive.ShowQR",
+      "value": "Visa min QR-kod"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Receive.Text",
       "value": "Dela din adress eller den här\nQR-koden för att få GRAM."
     },
@@ -59410,6 +59460,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.Recipient.InvalidAddressText",
       "value": "Den här plånboksadressen är ogiltig.\nKontrollera den eller prova en annan adress."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Recipient.LinkedAddress",
+      "value": "Denna TON-blockkedjeadress är kopplad till %@ på Telegram."
     },
     {
       "_": "types.LangPackString",
@@ -59443,8 +59498,23 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.SecretPhrase",
+      "value": "Hemlig fras"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.SecretPhraseInfo",
+      "value": "Din hemliga fras är nyckeln till att säkerhetskopiera din plånbok. Se till att den alltid förblir hemlig och säker."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Send",
       "value": "Skicka"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Send.AddComment",
+      "value": "Lägg till kommentar"
     },
     {
       "_": "types.LangPackString",
@@ -59453,13 +59523,43 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Send.DepositFunds",
+      "value": "Sätt in pengar"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Send.Grams",
       "value": "Grams"
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Send.PublicComment",
+      "value": "Gör kommentaren offentlig"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Send.RecipientWallet",
+      "value": "%@s plånbok"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Send.Title",
       "value": "Skicka pengar till"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.SendMoney",
+      "value": "Skicka pengar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Settings.Backup",
+      "value": "Krypterad säkerhetskopia"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Settings.BackupEnabledInfo",
+      "value": "Din krypterade nyckelbackup är uppdelad i tre delar och lagras på tre olika kontinenter.\n\nDen kan endast återställas på dina enheter, så ingen – inte ens Telegram – kan komma åt din nyckel."
     },
     {
       "_": "types.LangPackString",
@@ -59488,6 +59588,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Settings.DisableBackup",
+      "value": "Inaktivera säkerhetskopiering"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Settings.ImportWallet",
       "value": "Importera en befintlig plånbok"
     },
@@ -59508,8 +59613,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Settings.SecretPhraseInfo",
+      "value": "Du kan överföra din plånbok till en annan enhet genom att kopiera din hemliga fras på 12 eller 24 ord."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Settings.ShowPhraseErrorTitle",
       "value": "Det gick inte att visa den hemliga frasen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.ShowSecretPhrase",
+      "value": "Visa hemlig fras"
     },
     {
       "_": "types.LangPackString",
@@ -59567,10 +59682,55 @@
       "value": "https://telegram.org/tos"
     },
     {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.Address",
+      "value": "Adress"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.Date",
+      "value": "Datum"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.Fee",
+      "value": "Avgift"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.FreeFee",
+      "value": "Gratis (betalas av Telegram)"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.IncomingTransfer",
+      "value": "Inkommande överföring"
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "key": "Wallet.Transaction.ItemCount",
       "one_value": "%@ artikel",
       "other_value": "%@ artiklar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.OpenWallet",
+      "value": "Öppna Mina pengar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.OutgoingTransfer",
+      "value": "Utgående överföring"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.Recipient",
+      "value": "Mottagare"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.WhatIsGram",
+      "value": "Vad är Gram?"
     },
     {
       "_": "types.LangPackString",
@@ -59612,6 +59772,21 @@
       "_": "types.LangPackString",
       "key": "Wallet.Transfer.Unavailable",
       "value": "Ej tillgänglig"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.UnlinkedAddress",
+      "value": "Den här adressen har inget kopplat Telegram-konto."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.ViewInExplorer",
+      "value": "Visa i Explorer"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.WaltBalance",
+      "value": "Du har också pengar i Walt"
     },
     {
       "_": "types.LangPackString",
@@ -61346,5 +61521,5 @@
       "value": "Du har angett en felaktig säkerhetskod."
     }
   ],
-  "version": 22202254
+  "version": 22230250
 }
