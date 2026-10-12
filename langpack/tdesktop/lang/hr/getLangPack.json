@@ -1798,6 +1798,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_action_gram_transfer_comment",
+      "value": "{text}: {comment}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gram_transfer_encrypted_comment",
+      "value": "Šifrirani komentar"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_action_gram_transfer_received",
       "value": "{user} vam šalje {amount}"
     },
@@ -6724,6 +6734,31 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_bot_allow_camera",
+      "value": "Želite li dopustiti ovom botu da koristi vašu kameru?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_allow_camera_microphone",
+      "value": "Želite li dopustiti ovom botu da koristi vašu kameru i mikrofon?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_allow_location",
+      "value": "Želite li dopustiti ovom botu da ima pristup vašoj lokaciji?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_allow_microphone",
+      "value": "Želite li dopustiti ovom botu da koristi vaš mikrofon?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_allow_permission_confirm",
+      "value": "Dopusti"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_bot_allow_write",
       "value": "Želite li dopustiti ovom botu da vam šalje poruke?"
     },
@@ -8507,6 +8542,11 @@
       "_": "types.LangPackString",
       "key": "lng_channel_earn_off_about",
       "value": "Ako isključite oglase nećete ispunjavati uvjete za nagrađivanje preko kanala."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_channel_earn_out_amount_too_small",
+      "value": "Iznos je premalen za isplatu."
     },
     {
       "_": "types.LangPackString",
@@ -11332,6 +11372,11 @@
       "_": "types.LangPackString",
       "key": "lng_context_mark_read_all_sure_2",
       "value": "**Ova radnja se ne može poništiti.**"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_context_mark_read_archive_sure",
+      "value": "Želite li označiti sve arhivirane razgovore kao pročitane?"
     },
     {
       "_": "types.LangPackString",
@@ -26196,6 +26241,11 @@
       "_": "types.LangPackString",
       "key": "lng_open_link",
       "value": "Otvori"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_open_link_suspicious_chars",
+      "value": "Istaknuti znakovi su iz drugog alfabeta od ostatka adrese."
     },
     {
       "_": "types.LangPackString",
@@ -41145,6 +41195,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_sure_logout_wallet_unknown",
+      "value": "Ako ovaj uređaj sadrži ključeve Gram novčanika, nastavak ih uništava. Mogu se vratiti samo iz sigurnosne kopije Telegrama ili vašeg tajnog niza riječi."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_sure_remove_user_channel",
       "value": "Želite li ukloniti {user} iz kanala?"
     },
@@ -42956,6 +43011,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_backup_disabled_text",
+      "value": "Vaš tajni niz riječi sada je jedini način da vratite svoj novčanik."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_backup_disabled_title",
       "value": "Sigurnosna kopija je onemogućena"
     },
@@ -43026,6 +43086,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_backup_update_text",
+      "value": "Dobit ćete novi tajni niz riječi koje trebate zapisati. Adresa i vaša sredstva ostaju isti."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_buy_button",
       "value": "Kupi novcem ili kriptom"
     },
@@ -43071,6 +43136,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_comment_public",
+      "value": "Javni komentari zapisuju se u blockchain i trajno su vidljivi svima. Nikada nemojte stavljati ​​privatne podatke."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_comment_title",
       "value": "Dodaj komentar"
     },
@@ -43078,6 +43148,43 @@
       "_": "types.LangPackString",
       "key": "lng_wallet_conflict_existing",
       "value": "Također imate {amount} u starim novčanicima"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_actions",
+      "value": "Radnje"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_messages",
+      "value": "Poruke"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_preview",
+      "value": "Pregled"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "{count} primatelja",
+      "key": "lng_wallet_connect_request_recipients",
+      "one_value": "{count} primatelj",
+      "other_value": "{count} primatelja"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_recipients_title",
+      "value": "Primatelji"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_sign_data",
+      "value": "Podaci"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_title",
+      "value": "Poveži novčanik"
     },
     {
       "_": "types.LangPackString",
@@ -43320,6 +43427,26 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_passcode_forgot",
+      "value": "Zaboravili ste lozinku?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_passcode_forgot_about",
+      "value": "Bez lozinke ovaj uređaj ne može otvoriti pohranjene ključeve novčanika. Možete ukloniti sve ključeve novčanika na ovom uređaju i lozinku i nastaviti koristiti Telegram — nećete biti odjavljeni."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_passcode_forgot_backed",
+      "value": "Vaš novčanik se može vratiti iz sigurnosne kopije Telegrama."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_passcode_forgot_confirm",
+      "value": "Ukloni ključeve"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_passcode_remember",
       "value": "Ne traži lozinku 15 min"
     },
@@ -43442,8 +43569,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_protection_removal_wallets",
+      "value": "Ovo se odnosi na novčanike korisnika {accounts}."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_protection_title",
       "value": "Zaključavanje lozinkom"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_readonly_bar",
+      "value": "Ovaj uređaj može vidjeti ovaj novčanik, ali ne može slati s njega."
     },
     {
       "_": "types.LangPackString",
@@ -43474,6 +43611,11 @@
       "_": "types.LangPackString",
       "key": "lng_wallet_restore_explain_text",
       "value": "Unesite svoju lozinku za provjeru u dva koraka kako biste vratili ključ ovog novčanika iz svoje šifrirane sigurnosne kopije."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_restore_not_saved",
+      "value": "Tajni niz riječi nije spremljen na ovom uređaju."
     },
     {
       "_": "types.LangPackString",
@@ -43609,6 +43751,11 @@
       "_": "types.LangPackString",
       "key": "lng_wallet_vault_reset_title",
       "value": "Izbrisati pohranjeni ključ?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_walt_existing",
+      "value": "Imate sredstava i u Walt novčaniku"
     },
     {
       "_": "types.LangPackString",
@@ -43751,5 +43898,5 @@
       "other_value": "Platili ste {count} zvjezdica."
     }
   ],
-  "version": 5937933
+  "version": 5937999
 }
