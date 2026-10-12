@@ -2518,8 +2518,68 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_action_ton_connect_accepted",
+      "value": "Запрос от {app} принят"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_ton_connect_accepted_unknown",
+      "value": "Запрос принят"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_ton_connect_declined",
+      "value": "Запрос от {app} отклонён"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_ton_connect_declined_unknown",
+      "value": "Запрос отклонён"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_ton_connect_disconnect",
+      "value": "{app} запрашивает отключение"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_ton_connect_expired",
+      "value": "Срок действия запроса от {app} истёк"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_action_ton_connect_expired_unknown",
       "value": "Срок действия запроса истёк"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_ton_connect_request",
+      "value": "Приложение {app} прислало запрос"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_ton_connect_request_unknown",
+      "value": "Подключённое приложение прислало запрос"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_ton_connect_review",
+      "value": "{text}. Нажмите для просмотра {arrow}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_ton_connect_send_transaction",
+      "value": "{app} запрашивает отправку транзакции"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_ton_connect_sign_data",
+      "value": "{app} запрашивает подписание данных"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_ton_connect_sign_message",
+      "value": "{app} запрашивает подписание сообщения"
     },
     {
       "_": "types.LangPackString",
@@ -8672,6 +8732,11 @@
       "_": "types.LangPackString",
       "key": "lng_channel_earn_off_about",
       "value": "Если Вы отключите рекламу, то не сможете получить вознаграждение."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_channel_earn_out_amount_too_small",
+      "value": "Недостаточная сумма для вывода."
     },
     {
       "_": "types.LangPackString",
@@ -26651,6 +26716,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_open_link_suspicious_chars",
+      "value": "Выделенные символы написаны с использованием раскладки, которая отличается от языка ввода остальной части адреса."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_open_menu",
       "value": "Открыть меню навигации"
     },
@@ -27257,12 +27327,12 @@
     {
       "_": "types.LangPackString",
       "key": "lng_passkey_pin_about",
-      "value": "Введите PIN-код ключа безопасности."
+      "value": "Введите ПИН-код ключа безопасности."
     },
     {
       "_": "types.LangPackString",
       "key": "lng_passkey_pin_blocked",
-      "value": "PIN-код ключа безопасности заблокирован. Попробуйте вставить ключ снова или сбросить его."
+      "value": "ПИН-код ключа безопасности заблокирован. Попробуйте вставить ключ снова или сбросить его."
     },
     {
       "_": "types.LangPackString",
@@ -27277,7 +27347,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_passkey_pin_title",
-      "value": "PIN-код ключа безопасности"
+      "value": "ПИН-код ключа безопасности"
     },
     {
       "_": "types.LangPackString",
@@ -28629,6 +28699,81 @@
       "_": "types.LangPackString",
       "key": "lng_photo_editor_keep_ratio",
       "value": "Не менять соотношение сторон"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_canvas_redo",
+      "value": "Повторить"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_canvas_undo",
+      "value": "Отменить"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_canvas_zoom",
+      "value": "Приблизить область изображения, где находится курсор"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_crop_expand",
+      "value": "Растянуть холст за границы фотографии"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_crop_room",
+      "value": "Просмотреть фото в уменьшенном масштабе, с полями"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_gesture",
+      "value": "{modifier}+{gesture}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_gesture_drag",
+      "value": "тянуть"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_gesture_drag_edge",
+      "value": "тянуть за границу"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_gesture_drag_handle",
+      "value": "тянуть за маркер"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_legend",
+      "value": "Показать сочетания клавиш"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_objects_delete",
+      "value": "Удалить выбранное"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_objects_rotate",
+      "value": "Только вращать с шагом 45°"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_objects_text",
+      "value": "Изменить текст"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_tooltip",
+      "value": "Сочетания клавиш"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_wheel",
+      "value": "Колесо мыши"
     },
     {
       "_": "types.LangPackString",
@@ -40137,6 +40282,26 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_status_bot_agent",
+      "value": "агент"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_status_bot_ai",
+      "value": "ИИ"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_status_bot_app",
+      "value": "приложение"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_status_bot_game",
+      "value": "игра"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_status_bot_not_reads_all",
       "value": "не имеет доступа к сообщениям"
     },
@@ -41777,6 +41942,30 @@
       "_": "types.LangPackString",
       "key": "lng_sure_logout",
       "value": "Вы действительно хотите выйти?"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Ключи {count} Ваших кошельков хранятся только на этом устройстве, и у Telegram нет их резервных копий. Если продолжить, они будут утрачены — восстановить кошельки можно будет только с помощью секретной фразы.",
+      "key": "lng_sure_logout_wallet_local",
+      "many_value": "Ключи {count} Ваших кошельков хранятся только на этом устройстве, и у Telegram нет их резервных копий. Если продолжить, они будут утрачены — восстановить кошельки можно будет только с помощью секретной фразы.",
+      "one_value": "Ключи Вашего кошелька хранятся только на этом устройстве, и у Telegram нет их резервной копии. Если продолжить, они будут утрачены — восстановить кошелёк можно будет только с помощью секретной фразы.",
+      "other_value": "Ключи {count} Ваших кошельков хранятся только на этом устройстве, и у Telegram нет их резервных копий. Если продолжить, они будут утрачены — восстановить кошельки можно будет только с помощью секретной фразы."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "На этом устройстве также хранятся ключи ещё {count} кошельков для GRAM. Если Вы продолжите, ключи будут удалены. Восстановить их можно будет, только если Вы записали секретные фразы этих кошельков.",
+      "key": "lng_sure_logout_wallet_parked",
+      "many_value": "На этом устройстве также хранятся ключи ещё {count} кошельков для GRAM. Если Вы продолжите, ключи будут удалены. Восстановить их можно будет, только если Вы записали секретные фразы этих кошельков.",
+      "one_value": "На этом устройстве также хранятся ключи ещё {count} кошелька для GRAM. Если Вы продолжите, ключи будут удалены. Восстановить их можно будет, только если Вы записали секретную фразу этого кошелька.",
+      "other_value": "На этом устройстве также хранятся ключи ещё {count} кошельков для GRAM. Если Вы продолжите, ключи будут удалены. Восстановить их можно будет, только если Вы записали секретные фразы этих кошельков."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Смена ключей {count} кошельков на этом устройстве пока не подтверждена. Запасные ключи хранятся только здесь, у Telegram нет их резервных копий. В случае продолжения они будут утрачены — если смена ключей успешно завершится, восстановить кошельки можно будет только с помощью новой секретной фразы.",
+      "key": "lng_sure_logout_wallet_rotating",
+      "many_value": "Смена ключей {count} кошельков на этом устройстве пока не подтверждена. Запасные ключи хранятся только здесь, у Telegram нет их резервных копий. В случае продолжения они будут утрачены — если смена ключей успешно завершится, восстановить кошельки можно будет только с помощью новой секретной фразы.",
+      "one_value": "Смена ключа кошелька на этом устройстве пока не подтверждена. Запасной ключ хранится только здесь, у Telegram нет его резервной копии. В случае продолжения он будет утрачен — если смена ключа успешно завершится, восстановить кошелёк можно будет только с помощью новой секретной фразы.",
+      "other_value": "Смена ключей {count} кошельков на этом устройстве пока не подтверждена. Запасные ключи хранятся только здесь, у Telegram нет их резервных копий. В случае продолжения они будут утрачены — если смена ключей успешно завершится, восстановить кошельки можно будет только с помощью новой секретной фразы."
     },
     {
       "_": "types.LangPackString",
@@ -43584,6 +43773,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_apps_about",
+      "value": "Приложения, которые Вы подключили к этому кошельку с помощью TON Connect. При отключении приложение отключается сразу на всех Ваших устройствах."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_apps_disconnect_failed",
       "value": "Не удалось отключить приложение."
     },
@@ -43599,6 +43793,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_apps_empty",
+      "value": "Нет подключённых приложений"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_apps_title",
       "value": "Подключённые приложения"
     },
@@ -43611,6 +43810,11 @@
       "_": "types.LangPackString",
       "key": "lng_wallet_backup_about_on",
       "value": "Зашифрованная резервная копия ключа разделена на три части, которые хранятся на трёх континентах.\n\nИх можно объединить только на Ваших устройствах, поэтому никто — даже Telegram — не может получить доступ к Вашему ключу."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_about_unavailable",
+      "value": "Зашифрованную резервную копию нельзя создать для кошелька, импортированного с помощью секретной фразы."
     },
     {
       "_": "types.LangPackString",
@@ -43664,8 +43868,33 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_backup_error",
+      "value": "Не удалось изменить настройки резервного копирования."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_backup_new_phrase_text",
       "value": "Для Вашего кошелька сгенерирована новая секретная фраза. Запишите её и не сообщайте никому."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_new_phrase_title",
+      "value": "Новая секретная фраза"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_rotate_failed_text",
+      "value": "{reason} Ваша секретная фраза не изменилась — продолжайте использовать текущую. Новые слова, которые Вы записали, неактуальны."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_rotate_failed_title",
+      "value": "Ошибка"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_rotate_reason_failed",
+      "value": "Не удалось сменить секретную фразу."
     },
     {
       "_": "types.LangPackString",
@@ -43694,13 +43923,73 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_backup_topup_text",
+      "value": "Для смены секретной фразы требуется {amount} GRAM ({fiat})."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_topup_title",
+      "value": "Недостаточно GRAM"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_update_check",
+      "value": "Сменить секретную фразу"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_update_fee",
+      "value": "Сетевая комиссия: {amount} GRAM ({fiat})."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_update_text",
+      "value": "Будет сгенерирована новая фраза, которую необходимо записать. Адрес и баланс останутся прежними."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_buy_button",
       "value": "Купить за деньги/криптовалюту"
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_buy_empty",
+      "value": "Нет доступных способов оплаты."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_chip_gift",
+      "value": "Коллекционный подарок"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_chip_nft",
+      "value": "Коллекционный предмет"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_chip_username",
+      "value": "Коллекционное имя пользователя"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_collectible_gift_attributes",
+      "value": "{model} на {backdrop}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_collectible_nft_about",
+      "value": "Коллекционный предмет (NFT), хранящийся в блокчейне TON."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_collectible_not_owned",
       "value": "Этот коллекционный предмет больше не в Вашем кошельке."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_collectible_number_about",
+      "value": "Анонимный номер {number} можно использовать для создания аккаунта в Telegram, не привязанного к SIM-карте."
     },
     {
       "_": "types.LangPackString",
@@ -43711,6 +44000,31 @@
       "_": "types.LangPackString",
       "key": "lng_wallet_collectible_send",
       "value": "Отправить {name}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_collectible_username_about",
+      "value": "Имя пользователя {username} в Telegram."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_comment_add",
+      "value": "Добавить"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_comment_decryption_failed",
+      "value": "Не удалось расшифровать комментарий."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_comment_encryption_failed",
+      "value": "Не удалось зашифровать комментарий. Повторите попытку или попробуйте сделать комментарий публичным, изменить или удалить его."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_comment_key_mismatch",
+      "value": "Комментарий был зашифрован с использованием другого ключа кошелька и не может быть расшифрован на этом устройстве."
     },
     {
       "_": "types.LangPackString",
@@ -43729,8 +44043,43 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_comment_too_long",
+      "value": "Слишком длинный комментарий."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_conflict_bar",
+      "value": "На этом устройстве также есть Ваш старый кошелёк"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_conflict_existing",
       "value": "В Ваших старых кошельках {amount}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_conflict_switch",
+      "value": "Подключить сейчас"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_conflict_switch_error",
+      "value": "Не удалось удалить старый кошелёк с этого устройства."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_conflict_text",
+      "value": "Кошелек, который Вы использовали на этом устройстве ранее. Сохраните секретную фразу, прежде чем подключить кошелёк Telegram."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_button",
+      "value": "Подключить"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_expired",
+      "value": "Этот запрос на подключение больше не действителен. Начните подключение заново в приложении."
     },
     {
       "_": "types.LangPackString",
@@ -43739,8 +44088,128 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_connect_manifest_invalid",
+      "value": "Кошелек не был подключён, поскольку данные этого приложения недействительны или относятся к другому домену."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_manifest_missing",
+      "value": "Кошелёк не был подключён, поскольку не удалось загрузить данные приложения."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_permission",
+      "value": "Приложение может просматривать Ваш адрес в сети TON, баланс и историю операций."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_connect_proof",
       "value": "Приложению также требуется подтверждение, что этот кошелёк принадлежит Вам. Это подпись для авторизации, а не перевод средств."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_reassurance",
+      "value": "Приложение не сможет переводить средства без Вашего разрешения."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_actions",
+      "value": "Действия"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_call_contract",
+      "value": "Вызов смарт-контракта"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_closed",
+      "value": "Приложение больше не подключено."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_confirm",
+      "value": "Подтвердить"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_decline",
+      "value": "Отклонить"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_deploy",
+      "value": "Запускает смарт-контракт по этому адресу."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_deploy_contract",
+      "value": "Запуск смарт-контракта"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_excess",
+      "value": "Превышение"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_expired",
+      "value": "Срок действия запроса истёк."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_failed",
+      "value": "Не удалось ответить на запрос."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_fee_failed",
+      "value": "Не удалось рассчитать сетевую комиссию."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_fee_loading",
+      "value": "Расчёт сетевой комиссии..."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_handled",
+      "value": "Запрос был обработан на другом устройстве."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_locked",
+      "value": "Для просмотра запроса разблокируйте кошелёк."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_message",
+      "value": "Сообщение"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_messages",
+      "value": "Сообщения"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_not_sent",
+      "value": "Транзакция не была отправлена. Приложение проинформировано о сбое."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_other_key",
+      "value": "Приложение было подключено с использованием другого ключа этого кошелька, поэтому с данного устройства нельзя ответить на его запрос или отключить его."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_payload",
+      "value": "Полезная нагрузка"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_preview",
+      "value": "Предпросмотр"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -43757,6 +44226,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_sent",
+      "value": "Транзакция отправлена."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_connect_request_title",
       "value": "Запрос от приложения"
     },
@@ -43764,6 +44238,121 @@
       "_": "types.LangPackString",
       "key": "lng_wallet_connect_request_title_app",
       "value": "{name} запрашивает перевод"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_total",
+      "value": "Сумма"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_trace_failed",
+      "value": "Согласно предпросмотру, эта транзакция может завершиться частичным сбоем."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_trace_incomplete",
+      "value": "Предварительный просмотр этой транзакции не завершён."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_transfer",
+      "value": "Перевод"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_unavailable",
+      "value": "Запрос больше не доступен."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_undelivered",
+      "value": "Не удалось доставить ответ приложению."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_unhandled_about",
+      "value": "Вы можете отклонить запрос или ответить на него на другом устройстве."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_unknown_operation",
+      "value": "Неизвестная операция"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_unlock",
+      "value": "Разблокировать"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_unsupported",
+      "value": "Запрос не поддерживается на этом устройстве."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_restore",
+      "value": "На устройстве не хранится действующий ключ этого кошелька. Восстановите ключ, чтобы использовать подключённые приложения."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_sign_binary",
+      "value": "Бинарные данные"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_sign_blind",
+      "value": "Вы подписываете вслепую. Подписывайте только данные из надёжных источников."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_sign_button",
+      "value": "Подписать"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_sign_data",
+      "value": "Данные"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_sign_done",
+      "value": "Данные подписаны."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_sign_text_about",
+      "value": "Внимательно ознакомьтесь с данными и подпишите, только если со всем согласны."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_sign_title",
+      "value": "Подписать данные"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_title",
+      "value": "Подключить кошелёк"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_title_app",
+      "value": "Подключить кошелёк к {name}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_create_error",
+      "value": "Не удалось создать кошелёк."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_created_text",
+      "value": "Ваш новый кошелёк готов к использованию."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_created_title",
+      "value": "Кошелёк создан"
     },
     {
       "_": "types.LangPackString",
@@ -43797,6 +44386,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_details_failed_reason",
+      "value": "Ошибка ({reason})"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_details_fee",
       "value": "Комиссия"
     },
@@ -43807,8 +44401,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_details_fee_unknown",
+      "value": "Ошибка при поиске"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_details_open_wallet",
       "value": "Перейти к моим Деньгам"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_operation",
+      "value": "Операция"
     },
     {
       "_": "types.LangPackString",
@@ -43822,6 +44426,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_details_status",
+      "value": "Статус"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_details_title",
       "value": "Транзакция"
     },
@@ -43829,6 +44438,11 @@
       "_": "types.LangPackString",
       "key": "lng_wallet_earnings_existing",
       "value": "У Вас {amount} в Заработанных GRAM"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_error_with_type",
+      "value": "{message} (ошибка: {error})"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -43847,6 +44461,11 @@
       "_": "types.LangPackString",
       "key": "lng_wallet_first_rate",
       "value": "1 GRAM сейчас стоит {amount}.\nВам доступны:"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_first_rate_none",
+      "value": "Для GRAM доступны:"
     },
     {
       "_": "types.LangPackString",
@@ -43905,8 +44524,86 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_import_button",
+      "value": "Импортировать"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_import_failed",
+      "value": "Не удалось импортировать кошелёк."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_import_invalid_scheme",
+      "value": "Можно использовать только секретную фразу, созданную в Telegram."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_import_invalid_spelling",
+      "value": "Проверьте порядок слов."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_import_invalid_title",
+      "value": "Некорректная секретная фраза"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_import_key_changing",
+      "value": "Ключ кошелька в процессе замены. Дождитесь окончания и попробуйте снова."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_import_not_verified",
+      "value": "Telegram не смог подтвердить, что Вы являетесь владельцем этого кошелька. Сохраните секретную фразу и обратитесь в службу поддержки."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_import_paste_error",
+      "value": "Вставленный текст должен состоять из 12 или 24 слов."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_import_text",
+      "value": "Введите секретную фразу другого Вашего кошелька."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_import_title",
+      "value": "Импортировать кошелёк"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "{count} слова",
+      "key": "lng_wallet_import_words",
+      "many_value": "{count} слов",
+      "one_value": "{count} слово",
+      "other_value": "{count} слова"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_imported_not_stored",
+      "value": "Кошелек был заменён, но ключ не удалось сохранить на этом устройстве. Если возникнут проблемы с отправкой средств, восстановите кошелёк с помощью секретной фразы."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_imported_text",
+      "value": "Кошелёк восстановлен с помощью секретной фразы."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_imported_title",
+      "value": "Кошелёк импортирован"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_intro_text",
       "value": "GRAM — цифровая валюта для Telegram"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_key_save_error",
+      "value": "Не удалось сохранить ключ кошелька на этом устройстве."
     },
     {
       "_": "types.LangPackString",
@@ -43917,6 +44614,11 @@
       "_": "types.LangPackString",
       "key": "lng_wallet_keys_phrase_about",
       "value": "Вы можете перенести кошелёк на другое устройство. Для этого скопируйте секретную фразу."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_keys_restore",
+      "value": "Восстановить секретной фразой"
     },
     {
       "_": "types.LangPackString",
@@ -43960,8 +44662,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_passcode_forgot_done",
+      "value": "Ключи кошельков удалены с этого устройства. Код-пароль отключён. "
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_passcode_forgot_failed",
+      "value": "Произошла ошибка при удалении ключей кошельков."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_passcode_remember",
       "value": "Не спрашивать 15 минут"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_phrase_check_wait",
+      "value": "Вы сможете выполнить это действие через {duration}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_phrase_error",
+      "value": "Не удалось отобразить секретную фразу."
     },
     {
       "_": "types.LangPackString",
@@ -43972,6 +44694,11 @@
       "_": "types.LangPackString",
       "key": "lng_wallet_phrase_intro_title",
       "value": "Секретная фраза"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_phrase_password_description",
+      "value": "Для просмотра секретной фразы введите пароль."
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -44018,6 +44745,31 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_protection_error",
+      "value": "Защиту ключа этого кошелька не удалось изменить."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_hardware_absent",
+      "value": "Ключ Вашего кошелька на этом устройстве был защищён {provider}, но теперь его больше нельзя использовать на этом устройстве. Чтобы снова сохранить ключ, восстановите кошелёк с помощью зашифрованной резервной копии в Telegram или секретной фразы."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_hardware_failed",
+      "value": "{provider} не удалось подтвердить, что это Вы. Изменения не были внесены."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_hardware_unavailable",
+      "value": "Ключ Вашего кошелька на этом устройстве защищён {provider}, но в данный момент этот способ разблокировки недоступен. Перезапустите Telegram и попробуйте снова — либо восстановите кошелёк с помощью зашифрованной резервной копии в Telegram или секретной фразы и выберите другой способ защиты."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_hello_label",
+      "value": "Windows Hello"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_protection_open",
       "value": "Не использовать пароли"
     },
@@ -44035,6 +44787,11 @@
       "_": "types.LangPackString",
       "key": "lng_wallet_protection_open_title",
       "value": "Хранить средства без пароля?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_open_warning_lock",
+      "value": "Если кто-то получит доступ к незаблокированному приложению Telegram Desktop на этом компьютере, он сможет похитить средства из Вашего кошелька.\n\nЭту настройку можно изменить позже в разделе «Код-пароль» в меню кошелька."
     },
     {
       "_": "types.LangPackString",
@@ -44058,6 +44815,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_protection_passcode_changed_error",
+      "value": "Код-пароль был изменён, но обновить защиту кошелька не удалось. Восстановите ключи кошелька с помощью резервной копии или секретной фразы."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_protection_passcode_keep",
       "value": "Использовать тот же пароль"
     },
@@ -44073,8 +44835,38 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_protection_retained",
+      "value": "Telegram не будет запрашивать {provider} в течение 15 минут. {link}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_retained_ask",
+      "value": "Спросить в другой раз"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_protection_title",
       "value": "Код-пароль"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_touchid_about",
+      "value": "Все траты подтверждаются отпечатком пальца или вводом пароля для входа в Mac."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_touchid_label",
+      "value": "Touch ID"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_touchid_reason",
+      "value": "разблокируйте ключ кошелька"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_provisioning",
+      "value": "Подготовка кошелька..."
     },
     {
       "_": "types.LangPackString",
@@ -44088,8 +44880,33 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_receive_caveat",
+      "value": "Для отправки с этого устройства требуется секретная фраза или устройство, на которое был импортирован кошелёк."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_receive_copy_hint",
       "value": "Копировать адрес"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_replace_create",
+      "value": "Создать новый"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_replace_import",
+      "value": "Подключить существующий"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_restore_error",
+      "value": "Не удалось восстановить доступ к этому кошельку."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_restore_explain_text",
+      "value": "Для восстановления ключа этого кошелька из резервной копии введите облачный пароль."
     },
     {
       "_": "types.LangPackString",
@@ -44098,13 +44915,91 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_restore_other_text",
+      "value": "Введённые слова не подходят к кошельку."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_restore_outdated_text",
+      "value": "Это старая секретная фраза кошелька.\n\nВведите новую фразу, которую Вы записали при последнем отключении резервного копирования."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_restore_text",
+      "value": "Введите секретную фразу этого кошелька."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_restore_title",
+      "value": "Восстановление кошелька"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_restore_ton_connect_text",
+      "value": "Введите секретную фразу кошелька, чтобы использовать подключённые приложения на этом устройстве."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_restore_wrong_title",
+      "value": "Неверная секретная фраза"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_restoring_key",
+      "value": "Восстановление ключа кошелька из зашифрованной резервной копии…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_collectible_in",
+      "value": "Получение коллекционного предмета"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_collectible_out",
+      "value": "Отправка коллекционного предмета"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_deposit",
+      "value": "Пополнение"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_row_incoming",
       "value": "Входящий перевод"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "{count} предмета",
+      "key": "lng_wallet_row_items",
+      "many_value": "{count} предметов",
+      "one_value": "{count} предмет",
+      "other_value": "{count} предмета"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_key_change",
+      "value": "Изменение ключа"
     },
     {
       "_": "types.LangPackString",
       "key": "lng_wallet_row_outgoing",
       "value": "Исходящий перевод"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_sending",
+      "value": "Отправка"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_topup",
+      "value": "Покупка"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_withdrawal",
+      "value": "Вывод"
     },
     {
       "_": "types.LangPackString",
@@ -44133,8 +45028,23 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_send_error_failed",
+      "value": "Не удалось отправить перевод."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_error_in_progress",
+      "value": "Идёт отправка другого перевода. Дождитесь её завершения."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_send_error_insufficient",
       "value": "Недостаточно средств."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_error_quote_expired",
+      "value": "Данные перевода изменились или их не удалось подготовить. Проверьте данные и попробуйте ещё раз."
     },
     {
       "_": "types.LangPackString",
@@ -44148,13 +45058,63 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_send_invalid_address",
+      "value": "Некорректный адрес"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_key_changed_text",
+      "value": "Ключ, хранящийся на этом устройстве, больше не действителен, поскольку ключ этого кошелька был изменён в другом приложении.\n\nЧтобы снова использовать кошелёк на этом устройстве, восстановите его с помощью действующей секретной фразы."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_key_changed_title",
+      "value": "Ключ кошелька изменился"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_link_expired",
+      "value": "Срок действия этой ссылки на оплату истёк."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_link_invalid",
+      "value": "Некорректная ссылка."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_name_not_found",
+      "value": "К этому имени не привязан кошелёк."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_network_fee",
+      "value": "Сетевая комиссия: {amount} GRAM"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_recipient_loading",
+      "value": "Поиск кошелька получателя..."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_send_title",
       "value": "Отправить GRAM"
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_send_user_load_error",
+      "value": "Не удалось загрузить кошелёк получателя."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_send_user_title",
       "value": "Отправить {user}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_user_unavailable",
+      "value": "Этому пользователю нельзя отправить GRAM."
     },
     {
       "_": "types.LangPackString",
@@ -44168,8 +45128,48 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_send_wallet_loading",
+      "value": "Загрузка Вашего кошелька..."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_sent_toast",
+      "value": "🎉 GRAM отправлены {address}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_state_error",
+      "value": "Не удалось загрузить кошелёк."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_unavailable",
       "value": "Деньги недоступны для этой учётной записи."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_vault_locked",
+      "value": "Ключ кошелька на этом устройстве заблокирован. Разблокируйте его и попробуйте снова."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_vault_reset_about",
+      "value": "Ключ кошелька, который сейчас хранится на этом устройстве, больше нельзя будет на нём открыть. Если продолжить, он будет удалён с этого устройства вместе с ключами других кошельков, хранящимися вместе с ним, — его заменит ключ этого кошелька. Это действие нельзя будет отменить."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_vault_reset_title",
+      "value": "Удалить сохранённый ключ?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_vault_unavailable",
+      "value": "Не удаётся прочесть ключ кошелька на этом устройстве."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_walt_existing",
+      "value": "У Вас также есть средства в Walt"
     },
     {
       "_": "types.LangPackString",
@@ -44317,5 +45317,5 @@
       "other_value": "Вы заплатили {count} звезды."
     }
   ],
-  "version": 5937653
+  "version": 5937703
 }
