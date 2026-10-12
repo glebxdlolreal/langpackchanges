@@ -1797,6 +1797,12 @@
       "other_value": "%d måneder Premium"
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "key": "ActionGiftPremiumTitle2Days",
+      "one_value": "%d dag med Premium",
+      "other_value": "%d dager med Premium"
+    },
+    {
       "_": "types.LangPackString",
       "key": "ActionGiftPremiumView",
       "value": "Se"
@@ -3471,7 +3477,7 @@
     {
       "_": "types.LangPackString",
       "key": "AllowPostSuggestionsHint2",
-      "value": "Tillat brukere å sende meldinger til kanalen din, med en valgfri avgift pr. melding."
+      "value": "Tillat brukere å sende meldinger til kanalen din, med et valgfritt gebyr pr. melding."
     },
     {
       "_": "types.LangPackString",
@@ -4422,6 +4428,11 @@
       "_": "types.LangPackString",
       "key": "AreYouSureLogout",
       "value": "Er du sikker på at du vil logge ut?\n\nDette vil avbryte alle dine hemmelige samtaler.\n\nDu kan bruke Telegram på alle enhetene dine samtidig og ha flere kontoer i samme app."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AreYouSureLogoutGrams",
+      "value": "Dette vil kansellere alle dine hemmelige samtaler og **slette lommeboksikkerhetskopier med %s**. Du vil miste tilgangen til disse midlene hvis du ikke har lagret de tilhørende hemmelige frasene.\n\nDu kan bruke Telegram på alle enhetene dine samtidig og bruke flere kontoer i samme app."
     },
     {
       "_": "types.LangPackString",
@@ -5692,7 +5703,7 @@
     {
       "_": "types.LangPackString",
       "key": "AutoDownloadMedium",
-      "value": "Medium"
+      "value": "Middels"
     },
     {
       "_": "types.LangPackString",
@@ -16856,7 +16867,7 @@
     {
       "_": "types.LangPackString",
       "key": "DirectRemoveFee",
-      "value": "Fjern avgift"
+      "value": "Fjern gebyr"
     },
     {
       "_": "types.LangPackString",
@@ -18595,7 +18606,7 @@
     {
       "_": "types.LangPackString",
       "key": "ErrorOccurred",
-      "value": "Noe gikk galt."
+      "value": "Det oppstod en feil."
     },
     {
       "_": "types.LangPackString",
@@ -19790,7 +19801,7 @@
     {
       "_": "types.LangPackString",
       "key": "ExplainStarsFeature4Text",
-      "value": "Støtt favorittkanalene dine ved å sende stjernereaksjoner til innleggene deres."
+      "value": "Støtt favorittkanalene dine ved å sende stjernereaksjoner på innleggene deres."
     },
     {
       "_": "types.LangPackString",
@@ -24289,8 +24300,8 @@
     {
       "_": "types.LangPackStringPluralized",
       "key": "GiftCraftFailedText",
-      "one_value": "Forsøket på å crafte mislyktes.\n**%d** gave gikk tapt.",
-      "other_value": "Forsøket på å crafte mislyktes.\n**%d** gaver gikk tapt."
+      "one_value": "Forsøket på å crafte feilet.\n**%d** gave gikk tapt.",
+      "other_value": "Forsøket på å crafte feilet.\n**%d** gaver gikk tapt."
     },
     {
       "_": "types.LangPackString",
@@ -24684,7 +24695,7 @@
     {
       "_": "types.LangPackString",
       "key": "GiftOfferRowFee",
-      "value": "Avgift"
+      "value": "Gebyr"
     },
     {
       "_": "types.LangPackString",
@@ -24784,12 +24795,12 @@
     {
       "_": "types.LangPackString",
       "key": "GiftOfferTransferInfoTextSellStars",
-      "value": "Vil du selge **%3$s** til **%2$s** for **%1$s stjerner**?\n\nDu vil motta **%4$s stjerner** etter avgifter."
+      "value": "Vil du selge **%3$s** til **%2$s** for **%1$s stjerner**?\n\nDu vil motta **%4$s stjerner** etter gebyrer."
     },
     {
       "_": "types.LangPackString",
       "key": "GiftOfferTransferInfoTextSellTON",
-      "value": "Vil du selge **%3$s** til **%2$s** for **%1$s Gram**?\n\nDu vil motta **%4$s Gram** etter avgifter."
+      "value": "Vil du selge **%3$s** til **%2$s** for **%1$s Gram**?\n\nDu vil motta **%4$s Gram** etter gebyrer."
     },
     {
       "_": "types.LangPackString",
@@ -25499,6 +25510,43 @@
       "value": "Korn"
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "key": "GramCapital",
+      "one_value": "%1$s GRAM",
+      "other_value": "%1$s GRAM"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GramCurrency",
+      "value": "GRAM"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GramEarnings",
+      "value": "Gram inntekter"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GramEarningsHint",
+      "value": "Du kan ta ut dine Gram ved å bruke Fragment."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GramEarningsText",
+      "value": "Dine Gram fra gaver,\nannonser og Fragment."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GramEarningsTitle",
+      "value": "Gram inntekter"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "Grams",
+      "one_value": "%1$s Gram",
+      "other_value": "%1$s Gram"
+    },
+    {
       "_": "types.LangPackString",
       "key": "Gray",
       "value": "Grå"
@@ -25884,7 +25932,7 @@
     {
       "_": "types.LangPackString",
       "key": "GroupMessagesPriceInfo",
-      "value": "Gruppen din vil motta %1$s av den valgte avgiften (~%2$s$) for hver innkommende melding."
+      "value": "Gruppen din vil motta %1$s av det angitte gebyret (~%2$s$) for hver innkommende melding."
     },
     {
       "_": "types.LangPackString",
@@ -29001,7 +29049,7 @@
     {
       "_": "types.LangPackString",
       "key": "LocationNotifiation",
-      "value": "Avstandsvarsel"
+      "value": "Nærhetsvarsel"
     },
     {
       "_": "types.LangPackString",
@@ -29911,12 +29959,12 @@
     {
       "_": "types.LangPackString",
       "key": "MessageLockedStarsRemoveFee",
-      "value": "%1$s må betale %2$s⭐️ for hver melding sendt til deg.\n**Fjern avgift** "
+      "value": "%1$s må betale %2$s⭐️ for hver melding sendt til deg.\n**Fjern gebyr**"
     },
     {
       "_": "types.LangPackString",
       "key": "MessageLockedStarsRemoveFeeShort",
-      "value": "%1$s betaler %2$s ⭐ for hver melding til deg.\n**Fjern avgift**"
+      "value": "%1$s betaler %2$s ⭐ for hver melding til deg.\n**Fjern gebyr**"
     },
     {
       "_": "types.LangPackString",
@@ -30774,7 +30822,7 @@
     {
       "_": "types.LangPackString",
       "key": "MonetizationTransactionDetailWithdrawButton",
-      "value": "Se i blokkjedeutforsker"
+      "value": "Se i utforsker"
     },
     {
       "_": "types.LangPackString",
@@ -32414,7 +32462,7 @@
     {
       "_": "types.LangPackString",
       "key": "NotificationChatReactGiveaway",
-      "value": "%1$s reagerte med %3$s i gruppen %2$s til din giveaway"
+      "value": "%1$s reagerte med %3$s i gruppen %2$s på din giveaway"
     },
     {
       "_": "types.LangPackString",
@@ -32460,6 +32508,26 @@
       "_": "types.LangPackString",
       "key": "NotificationEnabledAutomatically",
       "value": "Automatisk aktivert"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NotificationGramTransfer",
+      "value": "%1$s sendte deg %2$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NotificationGramTransferComment",
+      "value": "%1$s sendte deg %2$s: %3$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NotificationGramTransferUnknown",
+      "value": "Du mottok %2$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NotificationGramTransferUnknownComment",
+      "value": "Du mottok %2$s: %3$s"
     },
     {
       "_": "types.LangPackString",
@@ -32939,7 +33007,7 @@
     {
       "_": "types.LangPackString",
       "key": "NotificationReactGiveaway",
-      "value": "%1$s reagerte med %2$s til din giveaway"
+      "value": "%1$s reagerte med %2$s på din giveaway"
     },
     {
       "_": "types.LangPackString",
@@ -32981,6 +33049,16 @@
       "_": "types.LangPackString",
       "key": "NotificationUnrecognizedDevice",
       "value": "%1$s,\nVi oppdaget en pålogging på din konto fra en ny enhet på %2$s\n\nEnhet: %3$s\nPosisjon: %4$s\n\nHvis dette ikke var deg, kan du gå til Innstillinger > Enheter og avslutte den aktuelle økten.\n\nHvis du mistenker at noen har logget seg på din konto mot din vilje, kan du aktivere totrinnsbekreftelse i innstillingene for personvern og sikkerhet.\n\nMed vennlig hilsen,\nTelegram teamet"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NotificationWalletTonConnectRequest",
+      "value": "Du har en TON Connect-forespørsel"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NotificationWalletTonConnectRequestDapp",
+      "value": "Du har en TON Connect-forespørsel fra %1$s"
     },
     {
       "_": "types.LangPackString",
@@ -37226,12 +37304,12 @@
     {
       "_": "types.LangPackString",
       "key": "PostSuggestionsPriceInfo",
-      "value": "Kanalen din vil motta %1$s av den valgte avgiften (~%2$s) for hver innkommende melding."
+      "value": "Kanalen din vil motta %1$s av det angitte gebyret (~%2$s) for hver innkommende melding."
     },
     {
       "_": "types.LangPackString",
       "key": "PostSuggestionsPriceInfo2",
-      "value": "Du vil motta %1$s av den valgte avgiften (~%2$s$) pr. innkommende melding."
+      "value": "Du vil motta %1$s av det angitte gebyret (~%2$s$) for hver innkommende melding."
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -38766,7 +38844,7 @@
     {
       "_": "types.LangPackString",
       "key": "PrivateMessagesExceptions",
-      "value": "Fjern avgift"
+      "value": "Fjern gebyr"
     },
     {
       "_": "types.LangPackString",
@@ -38786,7 +38864,7 @@
     {
       "_": "types.LangPackString",
       "key": "PrivateMessagesPriceInfo",
-      "value": "Du vil motta %1$s av den angitte avgiften (~%2$s$) for hver innkommende melding."
+      "value": "Du vil motta %1$s av det angitte gebyret (~%2$s$) for hver innkommende melding."
     },
     {
       "_": "types.LangPackString",
@@ -39369,12 +39447,12 @@
     {
       "_": "types.LangPackString",
       "key": "ProximityAlertCancelled",
-      "value": "Avstandsvarsel avbrutt"
+      "value": "Nærhetsvarsel avbrutt"
     },
     {
       "_": "types.LangPackString",
       "key": "ProximityAlertSet",
-      "value": "Avstandsvarsel aktivert"
+      "value": "Nærhetsvarsel aktivert"
     },
     {
       "_": "types.LangPackString",
@@ -39615,27 +39693,32 @@
     {
       "_": "types.LangPackString",
       "key": "PushChatReactAudio",
-      "value": "%3$s til talemeldingen din"
+      "value": "%3$s på talemeldingen din"
     },
     {
       "_": "types.LangPackString",
       "key": "PushChatReactContact",
-      "value": "%3$s til din kontakt %4$s"
+      "value": "%3$s på kontakten din %4$s"
     },
     {
       "_": "types.LangPackString",
       "key": "PushChatReactDoc",
-      "value": "%3$s til filen din"
+      "value": "%3$s på filen din"
     },
     {
       "_": "types.LangPackString",
       "key": "PushChatReactGame",
-      "value": "%3$s til spillet ditt"
+      "value": "%3$s på spillet ditt"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PushChatReactGameScore",
+      "value": "%3$s til spillpoengsummen din i %2$s"
     },
     {
       "_": "types.LangPackString",
       "key": "PushChatReactGeo",
-      "value": "%3$s til kartet ditt"
+      "value": "%3$s på kartet ditt"
     },
     {
       "_": "types.LangPackString",
@@ -39645,47 +39728,62 @@
     {
       "_": "types.LangPackString",
       "key": "PushChatReactGif",
-      "value": "%3$s til GIF'en din"
+      "value": "%3$s på GIF'en din"
     },
     {
       "_": "types.LangPackString",
       "key": "PushChatReactInvoice",
-      "value": "%3$s til fakturaen din"
+      "value": "%3$s på fakturaen din"
     },
     {
       "_": "types.LangPackString",
       "key": "PushChatReactNotext",
-      "value": "%3$s til meldingen din"
+      "value": "%3$s på meldingen din"
     },
     {
       "_": "types.LangPackString",
       "key": "PushChatReactPhoto",
-      "value": "%3$s til bildet ditt"
+      "value": "%3$s på bildet ditt"
     },
     {
       "_": "types.LangPackString",
       "key": "PushChatReactPoll",
-      "value": "%3$s til avstemningen din %4$s"
+      "value": "%3$s på avstemningen din %4$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PushChatReactPollUpdate",
+      "value": "%3$s på avstemningsoppdateringen din i %2$s"
     },
     {
       "_": "types.LangPackString",
       "key": "PushChatReactQuiz",
-      "value": "%3$s til quizen din %4$s"
+      "value": "%3$s på quizen din %4$s"
     },
     {
       "_": "types.LangPackString",
       "key": "PushChatReactRound",
-      "value": "%3$s til videomeldingen din"
+      "value": "%3$s på videomeldingen din"
     },
     {
       "_": "types.LangPackString",
       "key": "PushChatReactSticker",
-      "value": "%3$s til ditt %4$s-klistremerke"
+      "value": "%3$s på %4$s-klistremerket ditt"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PushChatReactStory",
+      "value": "%3$s på historien din i %2$s"
     },
     {
       "_": "types.LangPackString",
       "key": "PushChatReactText",
-      "value": "%3$s til \"%4$s\""
+      "value": "%3$s på \"%4$s\""
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PushChatReactThemeChange",
+      "value": "%3$s til temaendringen din i %2$s"
     },
     {
       "_": "types.LangPackString",
@@ -39694,18 +39792,23 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PushChatReactTodoUpdate",
+      "value": "%3$s på oppgaveoppdateringen din i %2$s"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PushChatReactVideo",
-      "value": "%3$s til videoen din"
+      "value": "%3$s på videoen din"
     },
     {
       "_": "types.LangPackString",
       "key": "PushReactAudio",
-      "value": "%2$s til talemeldingen din"
+      "value": "%2$s på talemeldingen din"
     },
     {
       "_": "types.LangPackString",
       "key": "PushReactContect",
-      "value": "%2$s til din kontakt %3$s"
+      "value": "%2$s på kontakten din %3$s"
     },
     {
       "_": "types.LangPackString",
@@ -39715,12 +39818,17 @@
     {
       "_": "types.LangPackString",
       "key": "PushReactGame",
-      "value": "%2$s til spillet ditt"
+      "value": "%2$s på spillet ditt"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PushReactGameScore",
+      "value": "%2$s på din spillpoengsum"
     },
     {
       "_": "types.LangPackString",
       "key": "PushReactGeo",
-      "value": "%2$s til kartet ditt"
+      "value": "%2$s på kartet ditt"
     },
     {
       "_": "types.LangPackString",
@@ -39730,7 +39838,22 @@
     {
       "_": "types.LangPackString",
       "key": "PushReactGif",
-      "value": "%2$s til GIF'en din"
+      "value": "%2$s på GIF'en din"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PushReactGiftCode",
+      "value": "%2$s på gavekoden din"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PushReactGramTransfer",
+      "value": "%2$s til din %3$s overføring"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PushReactGramTransferComment",
+      "value": "%2$s til din %3$s overføring: %4$s"
     },
     {
       "_": "types.LangPackString",
@@ -39740,37 +39863,87 @@
     {
       "_": "types.LangPackString",
       "key": "PushReactInvoice",
-      "value": "%2$s til fakturaen din"
+      "value": "%2$s på fakturaen din"
     },
     {
       "_": "types.LangPackString",
       "key": "PushReactNoText",
-      "value": "%2$s til meldingen din"
+      "value": "%2$s på meldingen din"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PushReactPaidMedia",
+      "value": "%2$s på ditt betalte innlegg"
     },
     {
       "_": "types.LangPackString",
       "key": "PushReactPhoto",
-      "value": "%2$s til bildet ditt"
+      "value": "%2$s på bildet ditt"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PushReactPhotoSecret",
+      "value": "%2$s på det selvdestruerende bildet ditt"
     },
     {
       "_": "types.LangPackString",
       "key": "PushReactPoll",
-      "value": "%2$s til %3$s avstemningen din"
+      "value": "%2$s på %3$s avstemningen din"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PushReactProximity",
+      "value": "%2$s til ditt nærhetsvarsel"
     },
     {
       "_": "types.LangPackString",
       "key": "PushReactQuiz",
-      "value": "%2$s til din quiz %3$s"
+      "value": "%2$s på quizen din %3$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PushReactRecurringPay",
+      "value": "%2$s på betalingen din"
     },
     {
       "_": "types.LangPackString",
       "key": "PushReactRound",
-      "value": "%2$s til videomeldingen din"
+      "value": "%2$s på videomeldingen din"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PushReactSameWallpaper",
+      "value": "%2$s på samme bakgrunn"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PushReactScreenshot",
+      "value": "%2$s på skjermbildet ditt"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PushReactStarGift",
+      "value": "%2$s reagerte på gaven din verdt %3$s stjerner"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PushReactStarGiftPrepaidUpgrade",
+      "value": "%2$s til din gaveoppgradering verdt %3$s stjerner"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PushReactStarGiftUnpackUpgrade",
+      "value": "%2$s til gaven du hjalp til med å oppgradere"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PushReactStarGiftUpgrade",
+      "value": "%2$s til din oppgraderte gave"
     },
     {
       "_": "types.LangPackString",
       "key": "PushReactSticker",
-      "value": "%2$s til ditt %3$s-klistremerke"
+      "value": "%2$s på %3$s-klistremerket ditt"
     },
     {
       "_": "types.LangPackString",
@@ -39789,8 +39962,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PushReactStoryMention",
+      "value": "%2$s på historienevningen din"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PushReactSuggestBirthday",
+      "value": "%2$s på bursdagsforslaget ditt"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PushReactSuggestUserpic",
+      "value": "%2$s på bildeforslaget ditt"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PushReactText",
-      "value": "%2$s til \"%3$s\""
+      "value": "%2$s på \"%3$s\""
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PushReactThemeChange",
+      "value": "%2$s på temaendringen din"
     },
     {
       "_": "types.LangPackString",
@@ -39799,8 +39992,33 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PushReactTodoUpdate",
+      "value": "%2$s på oppgaveoppdateringen din"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PushReactUniqueStarGift",
+      "value": "%2$s på gaven din"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PushReactVideo",
-      "value": "%2$s til videoen din"
+      "value": "%2$s på videoen din"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PushReactVideoSecret",
+      "value": "%2$s på den selvødestruerende videoen din"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PushReactWalletTonConnectRequest",
+      "value": "%2$s på TON Connect-forespørselen din"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PushReactWallpaper",
+      "value": "%2$s på den nye bakgrunnen"
     },
     {
       "_": "types.LangPackString",
@@ -39905,7 +40123,7 @@
     {
       "_": "types.LangPackString",
       "key": "Quality720",
-      "value": "Medium"
+      "value": "Middels"
     },
     {
       "_": "types.LangPackString",
@@ -40206,7 +40424,7 @@
     {
       "_": "types.LangPackString",
       "key": "ReactionInDialog",
-      "value": "Reagerte med %s til meldingen din"
+      "value": "Reagerte med %s på meldingen din"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -40649,7 +40867,7 @@
     {
       "_": "types.LangPackString",
       "key": "RemoveMessageFeeTitle",
-      "value": "Fjern avgift"
+      "value": "Fjern gebyr"
     },
     {
       "_": "types.LangPackString",
@@ -42073,6 +42291,76 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "RoundVideoBitrate",
+      "value": "Video bitrate"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RoundVideoCameraResolution",
+      "value": "Kameraoppløsning"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RoundVideoCameraResolutionHigh",
+      "value": "Høy"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RoundVideoCameraResolutionLow",
+      "value": "Lav"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RoundVideoCameraResolutionMedium",
+      "value": "Middels"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RoundVideoComposition",
+      "value": "Komposisjon"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RoundVideoCompositionEnabled",
+      "value": "Videomeldingsstil"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RoundVideoCompositionInfo",
+      "value": "Deaktiver stil for å gjøre opptak i en helt vanlig firkant uten uskarphet på utsiden av sirkelen, dimming eller Telegram-overlegg."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RoundVideoFrameRate",
+      "value": "Bildefrekvens"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RoundVideoGeneral",
+      "value": "Innspilling"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RoundVideoGeneralInfo",
+      "value": "60 FPS brukes kun når både front- og bakkamera støtter det. Ellers faller opptaket tilbake til 30 FPS."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RoundVideoOutputResolution",
+      "value": "Utgangsoppløsning"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RoundVideoSettings",
+      "value": "Videomelding"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RoundVideoUseNewRecorder",
+      "value": "Bruk Camera2-innspilling"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "SETTINGS",
       "value": "Innstillinger"
     },
@@ -42141,7 +42429,7 @@
     {
       "_": "types.LangPackString",
       "key": "SMSFeeTitle",
-      "value": "Engangs SMS-avgift"
+      "value": "Engangs SMS-gebyr"
     },
     {
       "_": "types.LangPackString",
@@ -45839,7 +46127,7 @@
     {
       "_": "types.LangPackString",
       "key": "SpeedMedium",
-      "value": "Medium"
+      "value": "Middels"
     },
     {
       "_": "types.LangPackString",
@@ -47242,12 +47530,12 @@
     {
       "_": "types.LangPackString",
       "key": "StarsTransactionLiveStoryMessageFee",
-      "value": "Avgift for kommentar på direktesendt historie"
+      "value": "Gebyr for kommentar på direktesendt historie"
     },
     {
       "_": "types.LangPackString",
       "key": "StarsTransactionLiveStoryReactionFee",
-      "value": "Avgift for reaksjon på direktesendt historie"
+      "value": "Gebyr for reaksjon på direktesendt historie"
     },
     {
       "_": "types.LangPackString",
@@ -47262,8 +47550,8 @@
     {
       "_": "types.LangPackStringPluralized",
       "key": "StarsTransactionMessageFee",
-      "one_value": "Avgift for %d melding",
-      "other_value": "Avgift for %d meldinger"
+      "one_value": "Gebyr for %d melding",
+      "other_value": "Gebyr for %d meldinger"
     },
     {
       "_": "types.LangPackString",
@@ -47273,7 +47561,7 @@
     {
       "_": "types.LangPackString",
       "key": "StarsTransactionMessageFeeInfoLink",
-      "value": "**Endre avgift >**"
+      "value": "**Endre gebyr >**"
     },
     {
       "_": "types.LangPackString",
@@ -47348,7 +47636,7 @@
     {
       "_": "types.LangPackString",
       "key": "StarsTransactionViewInBlockchainExplorer",
-      "value": "Se i blokkjedeutforsker"
+      "value": "Se i utforsker"
     },
     {
       "_": "types.LangPackString",
@@ -50787,7 +51075,7 @@
     {
       "_": "types.LangPackString",
       "key": "TextSizeHeader",
-      "value": "Tekststørrelse for meldinger"
+      "value": "Meldingstekststørrelse"
     },
     {
       "_": "types.LangPackString",
@@ -52242,12 +52530,12 @@
     {
       "_": "types.LangPackString",
       "key": "TranslationFailedAlert1",
-      "value": "Oversettelse mislyktes. Prøv igjen senere."
+      "value": "Oversettelse feilet. Prøv igjen senere."
     },
     {
       "_": "types.LangPackString",
       "key": "TranslationFailedAlert2",
-      "value": "Oversettelse mislyktes."
+      "value": "Oversettelse feilet."
     },
     {
       "_": "types.LangPackString",
@@ -53101,6 +53389,16 @@
       "_": "types.LangPackString",
       "key": "UseProxyUsername",
       "value": "Brukernavn"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UseProxyWeb",
+      "value": "WEB proxy"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UseProxyWebInfo",
+      "value": "WEB-proxy bruker en HTTPS-side inne i en privat WebView. Angi et vertsnavn uten protokoll eller bane, og en 16-byte MTProxy-hemmelighet. Dette konseptbeviset krever en oppdatert Android System WebView og er beregnet for testing i forgrunnen."
     },
     {
       "_": "types.LangPackString",
@@ -54915,7 +55213,7 @@
     {
       "_": "types.LangPackString",
       "key": "VoipFailed",
-      "value": "Tilkobling mislyktes"
+      "value": "Tilkobling feilet"
     },
     {
       "_": "types.LangPackString",
@@ -56015,8 +56313,1169 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletActionReceivedGrams",
+      "value": "un1 sendte deg **%1$s**"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletActionReceivedGramsSomeone",
+      "value": "Noen sendte deg **%1$s**"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletActionSentGrams",
+      "value": "Du sendte un1 **%1$s**"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletActionSentGramsShort",
+      "value": "Du sendte **%1$s**"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletActions",
+      "value": "Handlinger"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletActiveConnections",
+      "value": "Aktive koblinger"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletAddComment",
+      "value": "Legg til kommentar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletAddFunds",
+      "value": "Legg til midler"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletAddress",
+      "value": "Adresse"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletAddressCopied",
       "value": "Lommebokens adresse kopiert til utklippstavle"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletAddressCopiedBulletin",
+      "value": "Adressen er kopiert."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletAddressCopiedShort",
+      "value": "Adresse kopiert"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletAddressLinkedToUser",
+      "value": "Denne TON-blokkjedeadressen er knyttet til **%1$s** på Telegram."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletAddressNoLinkedAccount",
+      "value": "Ingen Telegram-konto er\nkoblet til denne adressen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletAddressOrName",
+      "value": "Adresse eller navn"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletAppRequestsSignature",
+      "value": "%1$s ber om din signatur"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletAppRequestsTransfer",
+      "value": "%1$s ber om overføring"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletAttachMoney",
+      "value": "Penger"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletAuthorizeTransactionPasscode",
+      "value": "Skriv inn ditt nåværende Telegram passkode for å godkjenne transaksjonen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBack",
+      "value": "Tilbake"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBackupDisabled",
+      "value": "Sikkerhetskopiering deaktivert"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBackupDisabledDescription",
+      "value": "Din krypterte nøkkelsikkerhetskopi vil bli delt i tre deler og lagret på tre kontinenter.\n\nDen kan bare settes sammen på enhetene dine, så ingen, ikke engang Telegram, har tilgang til nøkkelen din."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBackupDisabledInfo",
+      "value": "Din hemmelige frase er nå den eneste måten å gjenopprette lommeboken på"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBackupEnabled",
+      "value": "Sikkerhetskopiering aktivert"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBackupEnabledDescription",
+      "value": "Din krypterte nøkkelsikkerhetskopi er delt i tre deler og lagret på tre kontinenter.\n\nDen kan bare settes sammen på enhetene dine, så ingen, ikke engang Telegram, har tilgang til nøkkelen din."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBackupEnabledInfo",
+      "value": "Nøklene dine lagres nå kryptert på tvers av Telegrams datasentre."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBalanceAmount",
+      "value": "Saldo: %1$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBinaryData",
+      "value": "Binærdata"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBinaryDataWarning",
+      "value": "Du signerer blindt. Signer kun data fra pålitelige kilder."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBlockchainVerified",
+      "value": "Blokkjedebekreftet"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBlockchainVerifiedInfo",
+      "value": "Alle transaksjoner blir registrert\nkan verifiseres i en offentlig hovedbok."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBuyWithCashOrCrypto",
+      "value": "Kjøp med kontanter eller krypto"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCancel",
+      "value": "Avbryt"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCollectible",
+      "value": "Samleobjekt"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCollectibleGift",
+      "value": "Samlebar gave"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCollectibleModelBackdrop",
+      "value": "%1$s på %2$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCollectibleNumber",
+      "value": "Anonymt nummer"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCollectibleTransferPrepareFailed",
+      "value": "Kan ikke forberede overføring av samleobjekt"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCollectibleUsername",
+      "value": "Samlebart brukernavn"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCollectibles",
+      "value": "Samleobjekter"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCommentOptionalMessage",
+      "value": "Valgfri melding"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConfirm",
+      "value": "Bekreft"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConfirmAction",
+      "value": "Bekreft handling"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConfirmWithFingerprint",
+      "value": "Bekreft med fingeravtrykk"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConfirmWithPasscode",
+      "value": "Bekreft med passkode"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnect",
+      "value": "Koble til"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectInfo",
+      "value": "Appen vil kunne se din TON\nadresse, saldo og aktivitet."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectPermissionInfo",
+      "value": "Applikasjonen kan ikke flytte\nmidler uten tillatelse."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectProofInfo",
+      "value": "Appen vil kunne se din TON-adresse, saldo og aktivitet, og be om en signatur for å logge deg på. Dette er ikke en overføring."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectToApp",
+      "value": "Koble lommeboken til %1$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectToDApp",
+      "value": "Koble lommeboken til dApp"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectedApp",
+      "value": "Tilkoblet applikasjon"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectedAppInfo",
+      "value": "Denne appen kan se lommebokadressen, saldoen og aktiviteten din. Den kan ikke flytte midler uten din godkjenning."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectedApps",
+      "value": "Tilkoblede applikasjoner"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectedAppsInfo",
+      "value": "Tilkoblede applikasjoner kan se din lommebokadresse, saldo og aktivitet. De kan ikke flytte midler uten din godkjenning."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletContinue",
+      "value": "Fortsett"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletContractCall",
+      "value": "Kall kontrakt"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCopyAddress",
+      "value": "Kopier adresse"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCreateNew",
+      "value": "Opprett en ny lommebok"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCreated",
+      "value": "Lommebok opprettet"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCreatedInfo",
+      "value": "Den nye lommeboken din er klar til bruk."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCurrency",
+      "value": "Valuta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCurrencyUSD",
+      "value": "Amerikansk Dollar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCurrentSecretPhrase",
+      "value": "Nåværende hemmelige frase"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCurrentSecretPhraseInfo",
+      "value": "Den som har tilgang til denne frasen kontrollerer lommeboken din. Skriv det ned og hold det hemmelig. Hvis du mister det, vil du miste midlene dine."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDate",
+      "value": "Dato"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDecline",
+      "value": "Avslå"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDelete",
+      "value": "Slett"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDeleteAnyway",
+      "value": "Slett allikevel"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDeleteWallet",
+      "value": "Slett lommebok"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDeleteWalletInfo",
+      "value": "Du mister tilgangen til pengene dine med mindre du har lagret den hemmelige frasen din."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDeleteWalletTitle",
+      "value": "Vil du slette lommeboken?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDepositFunds",
+      "value": "Sett inn midler"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDisable",
+      "value": "Deaktiver"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDisableBackup",
+      "value": "Deaktiver sikkerhetskopiering"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDisableBackupConfirmInfo",
+      "value": "Din distribuerte krypterte sikkerhetskopi vil bli slettet. Lommeboken din vil bytte til den nye hemmelige frasen. Denne hemmelige frasen vil være den eneste måten å gjenopprette denne lommeboken på."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDisableBackupExistingPhraseInfo",
+      "value": "Din distribuerte krypterte sikkerhetskopi vil bli slettet. Den hemmelige frasen din vil være den eneste måten å gjenopprette denne lommeboken på."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDisableBackupInfo",
+      "value": "Den eneste måten å få tilbake pengene dine på vil være å skrive inn den hemmelige frasen manuelt."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDisableBackupTitle",
+      "value": "Deaktivere sikkerhetskopiering?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDisconnect",
+      "value": "Koble fra"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDomain",
+      "value": "Domene"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDone",
+      "value": "Fullført"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletEnableBackup",
+      "value": "Aktiver sikkerhetskopiering"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletEncryptedBackup",
+      "value": "Kryptert sikkerhetskopi"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletEnterSecretPhrase",
+      "value": "Skriv inn lommebokens hemmelige frase\nfor å fortsette. **Hvorfor?**"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletEnterSecretPhraseInfo",
+      "value": "Siden du har deaktivert sikkerhetskopiering for lommeboken din, må du manuelt skrive inn den hemmelige frasen i hver nye Telegram-økt."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletFailed",
+      "value": "Feilet"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletFailedTransfer",
+      "value": "Overføring feilet"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletFee",
+      "value": "Gebyr"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletFeeAmount",
+      "value": "Gebyr: %1$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletFeeAmountWithCurrency",
+      "value": "Gebyr: %1$s (~%2$s)."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletFeePaidByTelegram",
+      "value": "Gratis (betalt av Telegram)"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletFingerprintRetry",
+      "value": "Fingeravtrykk ble ikke gjenkjent. Prøv igjen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletFirstGrams",
+      "value": "Dine første Gram!"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletFirstGramsActions",
+      "value": "Du kan:"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletFirstGramsRate",
+      "value": "%1$s tilsvarer for øyeblikket %2$s USD.\nDu kan:"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletFirstGramsSendInfo",
+      "value": "Overfør Gram til hvem som helst.\nTrykk på 📎 → Penger i samtaler."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletFirstGramsStoreInfo",
+      "value": "Bevar dine Gram i Telegram\n(💬 → ⋮ → Penger) eller andre lommebøker."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletFirstGramsTradeInfo",
+      "value": "Konverter Gram til kontanter eller krypto på børser."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletGotIt",
+      "value": "Jeg skjønner"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletGramEarningsBalance",
+      "value": "Du har %1$s i Gram-inntekter"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletGramWalletAddress",
+      "value": "Gram lommebok"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletHiddenTransactions",
+      "value": "Transaksjoner under %1$s er skjult."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletHowItWorks",
+      "value": "Hvordan det fungerer"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletHowItWorksInfo",
+      "value": "Bare du kontrollerer midlene dine.\nIngen andre har tilgang."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletImport",
+      "value": "Importer lommebok"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletImportButton",
+      "value": "Importer"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletImportCurrentPhraseInfo",
+      "value": "Skriv inn den hemmelige frasen på %1$d ord til lommeboken din fra en annen enhet."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletImportExisting",
+      "value": "Importer en eksisterende lommebok"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletImportPhraseInfo",
+      "value": "Skriv inn den hemmelige frasen på %1$d ord fra en annen lommebok du eier."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletImportThisWallet",
+      "value": "Importer denne lommeboken"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletImported",
+      "value": "Lommebok importert"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletImportedInfo",
+      "value": "Lommeboken din ble gjenopprettet fra den hemmelige frasen din."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletIncomingCollectibleAmount",
+      "value": "+1 objekt"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletIncomingTransfer",
+      "value": "Innkommende overføring"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletIncomingTransferNft",
+      "value": "Innkommende samleobjekt"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletInsufficientFunds",
+      "value": "Utilstrekkelige midler."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletInvalidRecoveryPhrase",
+      "value": "Ugyldig hemmelig frase"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletInvalidRecoveryPhraseInfo",
+      "value": "Sjekk rekkefølgen på ordene.\n\nBare en hemmelig frase opprettet i Telegram kan importeres her."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletKeyUpdate",
+      "value": "Nøkkeloppdatering"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletKeysAndBackup",
+      "value": "Nøkler og backup"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletLock",
+      "value": "Lås penger"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletLockInfo",
+      "value": "Obligatorisk når du sender penger eller bekrefter andre sensitive handlinger."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletMakeCommentPublic",
+      "value": "Gjør kommentar offentlig"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletMinimumAmount",
+      "value": "Minste beløp: %1$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletNetworkFee",
+      "value": "Nettverksavgifter"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletNetworkFeeAmount",
+      "value": "Nettverksavgift: %1$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletNetworkFeeInfo",
+      "value": "Hver overføring medfører en liten nettverksavgift (**~%1$s**). Telegram dekker dine første **5** overføringer daglig."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletNewSecretPhrase",
+      "value": "Ny hemmelig frase"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletNewSecretPhraseInfo",
+      "value": "En ny hemmelig frase for lommeboken din har blitt generert. Skriv den ned og hold den hemmelig."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletNoFees",
+      "value": "Ingen gebyrer"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletNoFeesInfo",
+      "value": "De første 5 overføringene hver dag er gratis. Resten koster nesten ingenting."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletNotEnoughGram",
+      "value": "Ikke nok Gram"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletNotNow",
+      "value": "Ikke nå"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletOK",
+      "value": "OK"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletOldWalletsBalance",
+      "value": "Du har også %1$s i gamle lommebøker"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletOpenMyWallet",
+      "value": "Åpne mine penger"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletOptionalComment",
+      "value": "Valgfri kommentar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletOutgoingCollectibleAmount",
+      "value": "-1 objekt"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletOutgoingTransfer",
+      "value": "Utgående overføring"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletOutgoingTransferNft",
+      "value": "Utgående samleobjekt"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletPaste",
+      "value": "Lim inn"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "WalletPhraseWords",
+      "one_value": "%d ord",
+      "other_value": "%d ord"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletPreview",
+      "value": "Forhåndsvisning"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletPreviousWalletLastUsed",
+      "value": "\n%1$s — sist brukt %2$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletPreviousWallets",
+      "value": "Tidligere lommebøker"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletPreviousWalletsInfo",
+      "value": "Lommebøker du brukte før på denne enheten. Lagre deres hemmelige fraser – de vil bli fjernet hvis du logger ut eller installerer appen på nytt."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletPrivateCommentInfo",
+      "value": "Bare synlig for deg og mottakeren."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletProtectAccount",
+      "value": "Beskytt kontoen din"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletPublicCommentInfo",
+      "value": "Kommentaren er synlig for alle."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletReceiveInfo",
+      "value": "Del adressen din eller denne\nQR-koden for å motta GRAM."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletRecipient",
+      "value": "Mottaker"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletRecipientUnavailable",
+      "value": "Mottakers lommebok er utilgjengelig"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletRecoveryPhraseFundsWarning",
+      "value": "Hvis noen har den hemmelige frasen din, **kan de stjele pengene dine**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletRecoveryPhraseInfo",
+      "value": "Din hemmelige frase er nøkkelen til å sikkerhetskopiere og gjenopprette lommeboken din. Hold den hemmelig og sikker til enhver tid."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletRecoveryPhraseLearnButton",
+      "value": "Vis hemmelig frase"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletRecoveryPhraseLearnInfo",
+      "value": "Din hemmelige frase er nøkkelen til å sikkerhetskopiere lommeboken din. Hold den hemmelig og sikker til enhver tid."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletRecoveryPhraseLearnTitle",
+      "value": "Hemmelig frase"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletRecoveryPhraseNeverShare",
+      "value": "**Aldri del** den hemmelige frasen din med noen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletRecoveryPhraseSupportWarning",
+      "value": "Telegram Support **vil aldri be deg** om din hemmelige frase."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletRecoveryPhraseTransferInfo",
+      "value": "Du kan overføre lommeboken til en annen enhet ved å kopiere den hemmelige frasen din på 12 ord."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletReplaceWalletTitle",
+      "value": "Hvordan vil du erstatte den gamle lommeboken?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletReviewSigningData",
+      "value": "Se nøye gjennom meldingen, og signer dataene hvis du er enig."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSaveOnDevice",
+      "value": "Lagre gjeldende lommebok på denne enheten"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletScanQRCode",
+      "value": "Skann QR-kode"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSearchNoResults",
+      "value": "Det var ingen resultater for \"%1$s\".\nPrøv et annet navn eller adresse."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSecretPhrase",
+      "value": "Hemmelig frase"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSell",
+      "value": "Selg"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSend",
+      "value": "Send"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendAmount",
+      "value": "Send %1$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendGrams",
+      "value": "Send Gram"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendInstantly",
+      "value": "Send penger umiddelbart"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendInstantlyInfo",
+      "value": "Send Gram i hvilken som helst samtale, like lett som å dele et bilde."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendMoney",
+      "value": "Send penger"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendMoneyTo",
+      "value": "Send penger til"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSender",
+      "value": "Avsender"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSending",
+      "value": "Sender…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletShowMyQR",
+      "value": "Vis min QR"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSign",
+      "value": "Signer"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSignData",
+      "value": "Signer data"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSigningData",
+      "value": "Data"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSigningDataCopied",
+      "value": "Data kopiert til utklippstavle"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletStore",
+      "value": "Lagre"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTapToSetAmount",
+      "value": "Trykk for å angi beløp"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTermsOfService",
+      "value": "Ved å bruke denne tjenesten godtar du **vilkårene**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTestPhrase",
+      "value": "Testtid"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTestPhraseInfo",
+      "value": "Sørg for at du har skrevet ned den hemmelige frasen din riktig. Skriv inn ordene **%1$d**, **%2$d** og **%3$d**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTitle",
+      "value": "Lommebok"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTonConnectManifestLoadFailed",
+      "value": "Kunne ikke laste dApp-manifestet: %1$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTonConnectRequestAppDeclined",
+      "value": "%ssin transaksjonsforespørsel ble avvist"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTonConnectRequestAppExpired",
+      "value": "%s sin transaksjonsforespørsel har utløpt"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTonConnectRequestAppPending",
+      "value": "%s har bedt om en transaksjon. Trykk for å se gjennom."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTonConnectRequestAppProcessed",
+      "value": "%s sin transaksjonsforespørsel ble behandlet"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTonConnectRequestDeclined",
+      "value": "Applikasjonens transaksjonsforespørsel ble avslått"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTonConnectRequestExpired",
+      "value": "Applikasjonens transaksjonsforespørsel har utløpt"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTonConnectRequestPending",
+      "value": "Tilkoblet applikasjon har bedt om en transaksjon. Trykk for å se gjennom."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTonConnectRequestProcessed",
+      "value": "Applikasjonens transaksjonsforespørsel ble behandlet"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTonConnectRequestUnavailable",
+      "value": "Denne TON Connect-forespørselen er utilgjengelig eller har allerede blitt besvart"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTonConnectSessionClosed",
+      "value": "TON Connect-økten er lukket"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTonConnectSessionResponseEmpty",
+      "value": "Tom TON Connect-øktrespons"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTopUp",
+      "value": "Fyll opp"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTouchFingerprint",
+      "value": "Trykk på fingeravtrykkssensoren for å låse opp lommeboken."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTrade",
+      "value": "Handel"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionAmountStatus",
+      "value": "%1$s · %2$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionSimulationFailed",
+      "value": "Transaksjonssimulering feilet"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionTopUp",
+      "value": "Kortpåfylling"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionTopUpCrypto",
+      "value": "Kryptopåfylling"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactions",
+      "value": "Transaksjoner"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransfer",
+      "value": "Overføring"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransferCollectible",
+      "value": "Overfør samleobjekt"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransferStatusFailed",
+      "value": "feilet"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransferStatusReceived",
+      "value": "mottatt"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransferStatusSent",
+      "value": "sendt"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransferTo",
+      "value": "til %1$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransferToMultiple",
+      "value": "til %1$s  +%2$d"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransferWorth",
+      "value": "%1$s (%2$s)"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUnknown",
+      "value": "Ukjent"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUnknownAddress",
+      "value": "Ukjent adresse"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUnknownUser",
+      "value": "UKJENT BRUKER"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUnlock",
+      "value": "Lås opp lommebok"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUpdateSecretPhrase",
+      "value": "Oppdater hemmelig frase"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUpdateSecretPhraseInfo",
+      "value": "Du får en ny frase å skrive ned. Adresse og saldo forblir den samme."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUpdateSecretPhraseInfoWithFee",
+      "value": "Du får en ny frase å skrive ned. Adresse og saldo forblir den samme.\n\nNettverksavgift: %1$s (~%2$s)."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUpdateSecretPhraseInsufficientFunds",
+      "value": "Du trenger %1$s (~%2$s) for å oppdatere den hemmelige frasen din."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUseDevicePasscode",
+      "value": "Bruk enhetens PIN-kode eller passord"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUserWallet",
+      "value": "%1$s sin lommebok"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletViewInExplorer",
+      "value": "Vis i utforsker"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletWaltFunds",
+      "value": "Du har også midler i Walt"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletWhatIsGram",
+      "value": "Hva er Gram?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletWhatIsWallet",
+      "value": "Hva er penger?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletWrongSecretPhrase",
+      "value": "Feil hemmelig frase"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletWrongSecretPhraseInfo",
+      "value": "Ordene du skrev inn samsvarer ikke med lommeboken."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletYourRecoveryPhrase",
+      "value": "Din hemmelige frase"
     },
     {
       "_": "types.LangPackString",
@@ -57081,5 +58540,5 @@
       "value": "Telegram Passport"
     }
   ],
-  "version": 61077018
+  "version": 61245194
 }
