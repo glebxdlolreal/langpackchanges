@@ -480,6 +480,41 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ActionGramReceivedPreview",
+      "value": "Recibiste {amount}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ActionGramReceivedText",
+      "value": "Recibiste {amount}{worth}:"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ActionGramTransferPreview",
+      "value": "{from} te envió {amount}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ActionGramTransferPreviewYou",
+      "value": "Enviaste {amount} a {from}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ActionGramTransferText",
+      "value": "{from} te envió {amount}{worth}:"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ActionGramTransferTextYou",
+      "value": "Enviaste {amount}{worth} a {from}:"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ActionGramTransferWorth",
+      "value": "({fiat})"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ActionGroupCallFinishedChannel",
       "value": "Stream en directo finalizado ({duration})"
     },
@@ -762,6 +797,11 @@
       "_": "types.LangPackString",
       "key": "ActionRemovedPhotoYou",
       "value": "Eliminaste la foto del grupo"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ActionRequestedPeer",
+      "value": "Compartiste {peer} con {bot}"
     },
     {
       "_": "types.LangPackString",
@@ -1807,6 +1847,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AreYouSureLogoutGrams",
+      "value": "¿Quieres cerrar sesión?\n\nEsto cancelará todos tus chats secretos y **eliminará los respaldos de la billetera que contienen {amount}**. Sin sus frases secretas, perderás el acceso a estos fondos.\n\nPuedes usar Telegram en todos tus dispositivos a la vez y usar varias cuentas en la misma app."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AreYouSureSessions",
       "value": "¿Quieres cerrar todas las demás sesiones?"
     },
@@ -2277,6 +2322,11 @@
       "_": "types.LangPackString",
       "key": "AudioAddToProfile",
       "value": "Añadir al perfil"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AudioAddToSaved",
+      "value": "Añadir a Mensajes guardados"
     },
     {
       "_": "types.LangPackString",
@@ -9422,6 +9472,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "NoAudioFound",
+      "value": "No se encontraron resultados"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NoAudioFoundInfo2",
+      "value": "No existen coincidencias con **{query}**."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "NoBlocked",
       "value": "Aún sin usuarios bloqueados"
     },
@@ -11887,9 +11947,59 @@
       "value": "Reportar spam y salir"
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "key": "RequestPeerChooseBot",
+      "one_value": "Elige un bot",
+      "other_value": "Elige bots"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "RequestPeerChooseChannel",
+      "one_value": "Elige un canal",
+      "other_value": "Elige canales"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "RequestPeerChooseGroup",
+      "one_value": "Elige un grupo",
+      "other_value": "Elige grupos"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "RequestPeerChooseUser",
+      "one_value": "Elige un usuario",
+      "other_value": "Elige usuarios"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RequestPeerConfirm",
+      "value": "¿Quieres enviar **{peer}** a **{bot}**?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RequestPeerConfirmAddBot",
+      "value": "Esto también añadirá a **{bot}** a **{peer}**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RequestPeerConfirmBotRights",
+      "value": "Esto también añadirá a **{bot}** a **{peer}** con estos privilegios: {rights}."
+    },
+    {
       "_": "types.LangPackString",
       "key": "RequestPeerReqAdminRights",
       "value": "Debes tener estos privilegios de admin.: {rights}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RequestPeerRequirements",
+      "value": "Requisitos"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "RequestPeerSelectLimit",
+      "one_value": "Puedes seleccionar hasta {count}.",
+      "other_value": "Puedes seleccionar hasta {count}."
     },
     {
       "_": "types.LangPackString",
@@ -12691,6 +12801,11 @@
       "key": "SearchMessagesFound",
       "one_value": "1 mensaje encontrado",
       "other_value": "{count} mensajes encontrados"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SearchMusic",
+      "value": "Buscar música"
     },
     {
       "_": "types.LangPackString",
@@ -15636,13 +15751,163 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletAddressNoLinkedAccount",
+      "value": "Esta dirección no tiene una cuenta de Telegram vinculada."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletAppPasscodeDescription",
+      "value": "Pon tu código para continuar."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletAppPasscodePlaceholder",
+      "value": "Código"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCollectibleNumber",
+      "value": "Número coleccionable"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCollectibleSell",
+      "value": "Vender"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCollectibleTransfer",
+      "value": "Transferir"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletConnectRetry",
       "value": "Reintentar"
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletConnectTitle",
+      "value": "Conectar Dinero"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletConnectToApp",
       "value": "Conectar Dinero a {name}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDeleteSave",
+      "value": "Guardar esta billetera en este dispositivo"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDeleteText",
+      "value": "Perderás el acceso a tus fondos a menos que hayas guardado tu frase secreta."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDeleteTitle",
+      "value": "¿Eliminar la billetera?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDeleteWallet",
+      "value": "Eliminar billetera"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDepositFunds",
+      "value": "Depositar fondos"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDisableBackup",
+      "value": "Desactivar respaldo"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletEnableBackup",
+      "value": "Activar respaldo"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletEnterPhraseTitle",
+      "value": "Pon la frase secreta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletEnterSecretPhrase",
+      "value": "Pon la frase secreta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletFeatureInstantText",
+      "value": "Envía grams en cualquier chat, tal como si compartieras una foto."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletFeatureNoFeesText",
+      "value": "Las primeras 5 transacciones diarias son gratis. El resto cuesta casi nada."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletFeatureNoFeesTitle",
+      "value": "Sin tarifas"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletFeatureVerifiedText",
+      "value": "Todas las transacciones se registran y verifican en contabilidad pública."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletFeatureVerifiedTitle",
+      "value": "Blockchain verificada"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletHowItWorksDone",
+      "value": "Entendido"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletHowItWorksSubtitle",
+      "value": "Sólo tú controlas tus fondos. Nadie más tiene acceso."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletImportOwnSubtitle",
+      "value": "Pon la frase secreta de tu billetera de otro dispositivo."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletPasscodeInvalid",
+      "value": "Código incorrecto. Por favor, reinténtalo"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletPaste",
+      "value": "Pegar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletPastePhrase",
+      "value": "Pegar desde el portapapeles"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletPhraseInfoNeverShare",
+      "value": "**Nunca compartas** tu frase secreta."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletPhraseInfoSupport",
+      "value": "El soporte de Telegram **nunca te preguntará** por tu frase secreta."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletProofInvalidError",
+      "value": "Verifica el orden de las palabras.\n\nAquí sólo se puede importar una frase secreta creada en Telegram."
     },
     {
       "_": "types.LangPackString",
@@ -15656,8 +15921,148 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletRecoveryPhraseHint",
+      "value": "Puedes transferir tu billetera a otro dispositivo copiando tu frase secreta."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletRecoveryPhraseSubtitle",
+      "value": "Tu frase secreta es la clave para hacer un respaldo de tu billetera. Mantenla en secreto y protegida siempre."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletRecoveryPhraseTitle",
+      "value": "Frase secreta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletReplaceImport",
+      "value": "Importar una billetera existente"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSecretPhraseWhy",
+      "value": "¿Por qué?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendBalance",
+      "value": "Saldo: {amount}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendCollectibleSuccess",
+      "value": "Coleccionable enviado"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendCollectibleTitle",
+      "value": "Transferir coleccionable"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendInsufficientFunds",
+      "value": "Fondos insuficientes."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendInvalidAddress",
+      "value": "Dirección de billetera inválida."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendMax",
+      "value": "Máximo"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendSuccess",
+      "value": "Grams enviados"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSettingsTitle",
+      "value": "Ajustes"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletShowRecoveryPhrase",
+      "value": "Mostrar frase secreta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTabCollectibles",
+      "value": "Coleccionables"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTermsLink",
+      "value": "términos"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletTermsNotice",
       "value": "Al usar este servicio, aceptas sus {link}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionDate",
+      "value": "Fecha"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionNotFound",
+      "value": "No se encontró la transacción."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionRecipient",
+      "value": "Destinatario"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionSender",
+      "value": "Remitente"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionTitle",
+      "value": "Transacción"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionsHidden",
+      "value": "Las transacciones por debajo de {amount} están ocultas."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUnknownUser",
+      "value": "Usuario desconocido"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUnsupportedWallet",
+      "value": "Esta billetera aún no es compatible."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletViewInExplorer",
+      "value": "Ver en el explorador"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletWhatIsGram",
+      "value": "¿Qué es Gram?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletWhatIsWallet",
+      "value": "¿Qué es Dinero?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletYourRecoveryPhrase",
+      "value": "Tu frase secreta"
     },
     {
       "_": "types.LangPackString",
@@ -15852,5 +16257,5 @@
       "value": "Tu nombre"
     }
   ],
-  "version": 300802
+  "version": 300938
 }
