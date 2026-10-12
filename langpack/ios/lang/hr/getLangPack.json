@@ -31776,7 +31776,7 @@
     {
       "_": "types.LangPackString",
       "key": "MESSAGE_GRAM_TRANSFER",
-      "value": "{1} vam šalje {2}"
+      "value": "%1$@ vam šalje %2$@"
     },
     {
       "_": "types.LangPackString",
@@ -31931,7 +31931,7 @@
     {
       "_": "types.LangPackString",
       "key": "MESSAGE_WALLET_TONCONNECT_REQUEST_DAPP",
-      "value": "Imate zahtjev za TON Connect od %@"
+      "value": "Imate zahtjev za TON Connect od %2$@"
     },
     {
       "_": "types.LangPackString",
@@ -35489,6 +35489,11 @@
       "_": "types.LangPackString",
       "key": "Notification.GramTransfer",
       "value": "%1$@ vam šalje %2$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.GramTransfer.Compact",
+      "value": "vam šalje %@"
     },
     {
       "_": "types.LangPackString",
@@ -39585,6 +39590,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PasscodeSettings.LockTelegram",
+      "value": "Zaključavanje Telegrama"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PasscodeSettings.LockWallet",
       "value": "Zaključavanje novčanika"
     },
@@ -39635,8 +39645,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PasscodeSettings.WalletConfirmWithFaceId",
+      "value": "Zatraži Face ID"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PasscodeSettings.WalletConfirmWithPasscode",
       "value": "Zatraži lozinku"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PasscodeSettings.WalletConfirmWithTouchId",
+      "value": "Zatraži Touch ID"
     },
     {
       "_": "types.LangPackString",
@@ -59811,6 +59831,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Backup.CancelDisablingTitle",
+      "value": "Zadržati kopiju?"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Backup.Disable",
       "value": "Onemogući"
     },
@@ -60118,6 +60143,26 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Info.CheapText",
+      "value": "Naknade su gotovo jednake nuli, čak i za velike prijenose."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Info.CheapTitle",
+      "value": "Jeftino"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Info.FastText",
+      "value": "Prijenosi se potvrđuju u nekoliko sekundi, bilo gdje u svijetu."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Info.FastTitle",
+      "value": "Brzo"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Info.FirstGramsRateText",
       "value": "**1 Gram** trenutno vrijedi **%@**.\nMožete ih:"
     },
@@ -60125,6 +60170,16 @@
       "_": "types.LangPackString",
       "key": "Wallet.Info.FirstGramsTitle",
       "value": "Vaši prvi Grami!"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Info.GramRateText",
+      "value": "Izvorna valuta TON blockchaina. **1 Gram** trenutno vrijedi **%@**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Info.GramTitle",
+      "value": "Gram"
     },
     {
       "_": "types.LangPackString",
@@ -60190,6 +60245,16 @@
       "_": "types.LangPackString",
       "key": "Wallet.Info.TradeTitle",
       "value": "Prodati"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Info.UsefulText",
+      "value": "Plaćajte aplikacije, usluge i naknade u TON ekosustavu."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Info.UsefulTitle",
+      "value": "Korisno"
     },
     {
       "_": "types.LangPackString",
@@ -60303,6 +60368,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Recipient.ScanQR",
+      "value": "Pronađite QR kod koji sadrži adresu novčanika"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Recipient.Title",
       "value": "Odaberite primatelja"
     },
@@ -60343,6 +60413,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Send.Amount",
+      "value": "Pošalji %@"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Send.Balance",
       "value": "Stanje: %@"
     },
@@ -60355,6 +60430,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.Send.EditComment",
       "value": "Uredi komentar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Send.Grams",
+      "value": "Grame"
     },
     {
       "_": "types.LangPackString",
@@ -60380,6 +60460,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.Send.Title",
       "value": "Pošaljite novac"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Send.UnlinkedWallet",
+      "value": "Nepovezani novčanik"
     },
     {
       "_": "types.LangPackString",
@@ -60663,6 +60748,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Transaction.Send",
+      "value": "pošalji"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Transaction.Sender",
       "value": "Pošiljatelj"
     },
@@ -60770,8 +60860,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.UnlinkedAddress",
+      "value": "Ova adresa nema povezani Telegram račun."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.ViewInExplorer",
       "value": "Pogledaj u pregledniku"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.ViewProfile",
+      "value": "Pogledaj profil >"
     },
     {
       "_": "types.LangPackString",
@@ -60795,8 +60895,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Words.TooFastAction",
+      "value": "U redu"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Words.TooFastText",
       "value": "Niste imali dovoljno vremena da zapišete ove riječi."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Words.TooFastTitle",
+      "value": "Jeste li sigurni?"
     },
     {
       "_": "types.LangPackString",
@@ -62430,7 +62540,7 @@
     {
       "_": "types.LangPackString",
       "key": "WelcomeMessages.ServiceHeader2",
-      "value": "Dodirnite poruku za brisanje"
+      "value": "Pritisnite i držite za brisanje"
     },
     {
       "_": "types.LangPackString",
@@ -62533,5 +62643,5 @@
       "value": "Unijeli ste pogrešan sigurnosni kod."
     }
   ],
-  "version": 22241665
+  "version": 22241745
 }
