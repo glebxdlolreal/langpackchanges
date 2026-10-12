@@ -495,6 +495,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ActionGramTransferPreviewYou",
+      "value": "Послали сте кориснику {from} {amount}"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ActionGroupCallFinishedChannel",
       "value": "Пренос уживо завршен ({duration})"
     },
@@ -1821,6 +1826,11 @@
       "_": "types.LangPackString",
       "key": "AreYouSureDeleteThisChatWithGroup",
       "value": "Желите ли да избришете ћаскање **{chat}**?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AreYouSureLogoutGrams",
+      "value": "Желите ли да се одјавите?\n\nОво ће отказати сва ваша тајна ћаскања и **избрисати резервне копије новчаника са {amount}**. Изгубићете приступ овим средствима ако нисте сачували тајне изразе.\n\nTelegram можете користити на свим својим уређајима истовремено и користити више налога у истој апликацији."
     },
     {
       "_": "types.LangPackString",
@@ -12035,6 +12045,20 @@
       "value": "Пријави непожељно и напусти"
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Изаберите ботове",
+      "key": "RequestPeerChooseBot",
+      "one_value": "Изаберите бота",
+      "other_value": "Изаберите ботове"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Изаберите кориснике",
+      "key": "RequestPeerChooseUser",
+      "one_value": "Изаберите корисника",
+      "other_value": "Изаберите кориснике"
+    },
+    {
       "_": "types.LangPackString",
       "key": "RequestToJoinChannelDeclined",
       "value": "Ваш захтев за придруживање каналу је одбијен."
@@ -15807,8 +15831,23 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletAddressNoLinkedAccount",
+      "value": "Ова адреса нема повезан\nTelegram налог."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletBackupEnabledTitle",
       "value": "Резервна копија омогућена"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBackupHint",
+      "value": "Резервна копија вашег шифрованог кључа је подељена на три дела и сачувана на три континента.\n\nМоже се саставити искључиво на вашим уређајима, тако да нико — па ни Telegram — нема приступ вашем кључу."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBackupOffHint",
+      "value": "Резервна копија вашег шифрованог кључа биће подељена на три дела и сачувана на три континента.\n\nМоже се саставити искључиво на вашим уређајима, тако да нико — па ни Telegram — нема приступ вашем кључу."
     },
     {
       "_": "types.LangPackString",
@@ -15887,6 +15926,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletCollectibleSell",
+      "value": "Продај"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletCollectibleTitle",
       "value": "Колекционарски предмет"
     },
@@ -15894,6 +15938,11 @@
       "_": "types.LangPackString",
       "key": "WalletCollectibleTraits",
       "value": "{model} на {backdrop}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCollectibleTransfer",
+      "value": "Пренеси"
     },
     {
       "_": "types.LangPackString",
@@ -15909,6 +15958,11 @@
       "_": "types.LangPackString",
       "key": "WalletConnectBlindSign",
       "value": "Потписујете на слепо. Потписујте само податке из поузданих извора."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectDisconnected",
+      "value": "Веза са апликацијом {name} прекинута"
     },
     {
       "_": "types.LangPackString",
@@ -15937,6 +15991,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletConnectedApps",
+      "value": "Повезане апликације"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletCopyAddress",
       "value": "Копирај адресу"
     },
@@ -15952,6 +16011,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletDeleteText",
+      "value": "Изгубићете приступ својим средствима осим ако нисте сачували свој тајни израз."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDeleteTitle",
+      "value": "Избрисати новчаник?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDeleteWallet",
+      "value": "Избриши новчаник"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletDepositFunds",
       "value": "Допуни средства"
     },
@@ -15959,6 +16033,11 @@
       "_": "types.LangPackString",
       "key": "WalletDisableBackup",
       "value": "Онемогући резервну копију"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDisableBackupRotateText",
+      "value": "Ваша дистрибуирана шифрована резервна копија биће избрисана. Ваш новчаник ће прећи на нови тајни израз. Овај тајни израз биће једини начин да обновите овај новчаник."
     },
     {
       "_": "types.LangPackString",
@@ -15977,6 +16056,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletDisconnectAllConfirm",
+      "value": "Прекини све везе"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletDisconnectAllTitle",
       "value": "Прекинути везу са свим апликацијама?"
     },
@@ -15987,13 +16071,63 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletEnterSecretPhrase",
+      "value": "Унесите тајни израз"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletExistingWaltBalance",
       "value": "Имате средства и у Walt-у"
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletFeatureInstantText",
+      "value": "Шаљите граме у било ком ћаскању, баш као што делите слику."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletFeatureInstantTitle",
+      "value": "Брзо слање новца"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletFeatureNoFeesText",
+      "value": "Првих 5 преноса дневно је бесплатно, а остали коштају симболично."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletFeatureNoFeesTitle",
+      "value": "Без накнада"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletFeatureVerifiedText",
+      "value": "Све трансакције су забележене и могу се проверити у јавном регистру."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletFeatureVerifiedTitle",
+      "value": "Блокчејн потврда"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletHowItWorksDone",
+      "value": "У реду"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletHowItWorksSubtitle",
+      "value": "Само ви контролишете средства — нико други нема приступ."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletHowItWorksTitle",
       "value": "Како ово ради"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletImportOwnSubtitle",
+      "value": "Унесите тајни израз вашег новчаника са другог уређаја."
     },
     {
       "_": "types.LangPackString",
@@ -16036,9 +16170,66 @@
       "value": "Можете:"
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "За сваки пренос плаћа се мала мрежна накнада (**~{fee} GRAM**). \nTelegram покрива ваша прва **{count}** преноса дневно.",
+      "key": "WalletNetworkFeesInfo",
+      "one_value": "За сваки пренос плаћа се мала мрежна накнада (**~{fee} GRAM**). \nTelegram покрива ваш први пренос дневно (**{count}**).",
+      "other_value": "За сваки пренос плаћа се мала мрежна накнада (**~{fee} GRAM**). \nTelegram покрива ваших првих **{count}** преноса дневно."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletNetworkFeesTitle",
+      "value": "Мрежне накнаде"
+    },
+    {
       "_": "types.LangPackString",
       "key": "WalletOtherWalletsTitle",
       "value": "Претходни новчаници"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletPaste",
+      "value": "Налепи"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletPastePhrase",
+      "value": "Налепи из привремене оставе"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletPhrase12Words",
+      "value": "12 речи"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletPhrase24Words",
+      "value": "24 речи"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletPhraseInfoCanSteal",
+      "value": "Ако неко има ваш тајни израз, **може да украде ваша средства**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletPhraseInfoNeverShare",
+      "value": "**Никада не делите** тајни израз ни са ким."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletPhraseInfoSupport",
+      "value": "Подршка за Telegram **никада вам неће тражити** тајни израз."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletPrivateCommentInfo",
+      "value": "Видљиво само вама и примаоцу."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletProofInvalidError",
+      "value": "Проверите редослед речи.\n\nОвде се може увести само тајни израз направљен у Telegram-у."
     },
     {
       "_": "types.LangPackString",
@@ -16047,8 +16238,23 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletPublicCommentInfo",
+      "value": "Коментар је видљив свима."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletReceiveBuy",
       "value": "Купи новцем или криптовалутом"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletRecoveryPhraseHint",
+      "value": "Свој новчаник можете пренети на други уређај копирањем тајног израза."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletRecoveryPhraseSubtitle",
+      "value": "Ваш тајни израз је кључ за прављење резервне копије новчаника. Увек га чувајте у тајности и на сигурном месту."
     },
     {
       "_": "types.LangPackString",
@@ -16059,6 +16265,11 @@
       "_": "types.LangPackString",
       "key": "WalletReplaceCreate",
       "value": "Направи нови новчаник"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletReplaceImport",
+      "value": "Увези постојећи новчаник"
     },
     {
       "_": "types.LangPackString",
@@ -16082,6 +16293,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletSendAddressLinked",
+      "value": "Ова TON блокчејн адреса је на Telegram-у повезана са **{name}**."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletSendAmount",
       "value": "Износ"
     },
@@ -16092,8 +16308,33 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletSendCollectibleTitle",
+      "value": "Пренес колекционарског предмета"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendContinue",
+      "value": "Настави"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletSendInsufficientFunds",
       "value": "Недовољно средстава."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendInvalidAddress",
+      "value": "Неважећа адреса новчаника."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendNetworkFee",
+      "value": "Мрежна накнада: {amount}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendRecent",
+      "value": "Недавно"
     },
     {
       "_": "types.LangPackString",
@@ -16102,8 +16343,58 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletSendTitle",
+      "value": "Пошаљите граме"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSettingsTitle",
+      "value": "Подешавања"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletShowRecoveryPhrase",
+      "value": "Прикажи тајни израз"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTabCollectibles",
+      "value": "Колекционарски предмети"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTabTransactions",
+      "value": "Трансакције"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTermsLink",
+      "value": "Услове"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTermsNotice",
+      "value": "Коришћењем ове услуге прихватате {link}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionAddress",
+      "value": "Адреса"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionDate",
+      "value": "Датум"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletTransactionDeposit",
       "value": "Улог"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionDomain",
+      "value": "Домен"
     },
     {
       "_": "types.LangPackString",
@@ -16112,8 +16403,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletTransactionFee",
+      "value": "Накнада"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletTransactionFeeFree",
       "value": "Бесплатно (покрива Telegram)"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionIncoming",
+      "value": "Долазни пренос"
     },
     {
       "_": "types.LangPackString",
@@ -16142,8 +16443,23 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletTransactionRecipient",
+      "value": "Прималац"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionSender",
+      "value": "Пошиљалац"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletTransactionSending",
       "value": "Слање…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionTitle",
+      "value": "Трансакција"
     },
     {
       "_": "types.LangPackString",
@@ -16162,6 +16478,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletTransactionsHidden",
+      "value": "Трансакције испод {amount} су скривене."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletUpdatePhrase",
       "value": "Ажурирај тајни израз"
     },
@@ -16169,6 +16490,21 @@
       "_": "types.LangPackString",
       "key": "WalletUpdatePhraseHint",
       "value": "Добићете нови тајни израз који треба да запишете. Адреса и стање остају исти."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletViewInExplorer",
+      "value": "Погледај у истраживачу"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletWhatIsGram",
+      "value": "Шта је грам?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletWhatIsWallet",
+      "value": "Шта је „Новац”?"
     },
     {
       "_": "types.LangPackString",
@@ -16370,5 +16706,5 @@
       "value": "Ваше име"
     }
   ],
-  "version": 300806
+  "version": 300890
 }
