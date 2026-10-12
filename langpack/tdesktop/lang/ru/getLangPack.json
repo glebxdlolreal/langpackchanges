@@ -27061,6 +27061,56 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_passcode_strength_advice_date",
+      "value": "Не используйте даты и годы."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_passcode_strength_advice_fine",
+      "value": "Этот пароль трудно угадать."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_passcode_strength_advice_keyboard",
+      "value": "Не используйте последовательности символов на клавиатуре."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_passcode_strength_advice_leet",
+      "value": "Замена букв похожими символами не повышает надёжность."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_passcode_strength_advice_repeat",
+      "value": "Не используйте поворяющиеся символы."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_passcode_strength_advice_sequence",
+      "value": "Не используйте последовательные символы: «abc», «123»."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_passcode_strength_advice_short",
+      "value": "Минимальная длина — 8 символов."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_passcode_strength_advice_variety",
+      "value": "Сделайте пароль длиннее и добавьте символы разных типов."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_passcode_strength_advice_word",
+      "value": "Не используйте распространённые слова и имена."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_passcode_strength_empty",
+      "value": "Проверка надёжности пароля."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_passcode_submit",
       "value": "Подтвердить"
     },
@@ -36787,6 +36837,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_settings_passcode_lock_app",
+      "value": "Использовать для Telegram"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_settings_passcode_lock_off_wallet",
       "value": "Код-пароль будет использоваться для подтверждения транзакций, а не для входа в кошелёк."
     },
@@ -36794,6 +36849,11 @@
       "_": "types.LangPackString",
       "key": "lng_settings_passcode_title",
       "value": "Код-пароль"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_settings_passcode_wallet_about",
+      "value": "Код-пароль защищает ключи кошелька, хранящиеся на этом устройстве."
     },
     {
       "_": "types.LangPackString",
@@ -38186,6 +38246,11 @@
       "_": "types.LangPackString",
       "key": "lng_shortcuts_silent_send",
       "value": "Беззвучная отправка"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_shortcuts_stash_message",
+      "value": "Скрытие/возврат сообщения"
     },
     {
       "_": "types.LangPackString",
@@ -41715,6 +41780,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_sure_logout_wallet_unknown",
+      "value": "Если Вы продолжите, все ключи кошельков для GRAM, которые могут храниться на этом устройстве, будут удалены. Восстановить их можно будет только с помощью резервной копии в Telegram или секретной фразы."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_sure_remove_user_channel",
       "value": "Исключить {user} из канала?"
     },
@@ -43475,6 +43545,16 @@
       "value": "Очень быстро"
     },
     {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_about_chain_text",
+      "value": "Все транзакции фиксируются, их можно проверить в общедоступном реестре."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_about_chain_title",
+      "value": "Проверка в блокчейне"
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "few_value": "Первые {count} перевода в день бесплатны, последующие — почти ничего не стоят.",
       "key": "lng_wallet_about_fees_text",
@@ -43534,18 +43614,83 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_backup_cancel_text",
+      "value": "Секретная фраза не будет изменена."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_backup_cancel_title",
-      "value": "Оставить резервное копирование?"
+      "value": "Оставить резервные копии?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_disable",
+      "value": "Отключить резервные копии"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_disable_text",
+      "value": "Получить доступ к средствам можно будет только с помощью секретной фразы, которая вводится вручную."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_disable_title",
+      "value": "Отключить резервные копии?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_disabled_text",
+      "value": "Теперь кошелёк можно восстановить только с помощью секретной фразы."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_disabled_title",
+      "value": "Резервные копии отключены"
     },
     {
       "_": "types.LangPackString",
       "key": "lng_wallet_backup_enable",
-      "value": "Включить резервное копирование"
+      "value": "Включить резервные копии"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_enabled_text",
+      "value": "Теперь Ваши ключи хранятся в зашифрованном виде и распределены по нескольким центрам обработки данных Telegram."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_enabled_title",
+      "value": "Резервные копии включены"
     },
     {
       "_": "types.LangPackString",
       "key": "lng_wallet_backup_new_phrase_text",
       "value": "Для Вашего кошелька сгенерирована новая секретная фраза. Запишите её и не сообщайте никому."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_section",
+      "value": "Зашифрованная резервная копия"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_sure_text",
+      "value": "Слишком быстро. Для записи слов требуется больше времени."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_sure_title",
+      "value": "Уже готово?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_test_text",
+      "value": "Убедитесь, что секретная фраза записана верно.\nВведите слова {index1}, {index2} и {index3}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_test_title",
+      "value": "Проверка"
     },
     {
       "_": "types.LangPackString",
@@ -43566,6 +43711,21 @@
       "_": "types.LangPackString",
       "key": "lng_wallet_collectible_send",
       "value": "Отправить {name}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_comment_make_public",
+      "value": "Сделать публичным"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_comment_public",
+      "value": "Публичный комментарий будет записан в блокчейн и навсегда станет виден всем. Это нельзя будет изменить. Ни в коем случае не указывайте личную информацию."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_comment_title",
+      "value": "Добавить комментарий"
     },
     {
       "_": "types.LangPackString",
@@ -43607,8 +43767,38 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_currency_none",
+      "value": "Валюты не найдены"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_currency_title",
       "value": "Выберите валюту"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_delete_text",
+      "value": "Вы потеряете доступ к средствам, если не сохранили секретную фразу."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_delete_title",
+      "value": "Удалить кошелёк?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_address",
+      "value": "Адрес"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_date",
+      "value": "Дата"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_fee",
+      "value": "Комиссия"
     },
     {
       "_": "types.LangPackString",
@@ -43618,7 +43808,80 @@
     {
       "_": "types.LangPackString",
       "key": "lng_wallet_details_open_wallet",
-      "value": "Перейти к моим деньгам"
+      "value": "Перейти к моим Деньгам"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_recipient",
+      "value": "Получатель"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_sender",
+      "value": "Отправитель"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_title",
+      "value": "Транзакция"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_earnings_existing",
+      "value": "У Вас {amount} в Заработанных GRAM"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "За каждый перевод взимается небольшая комиссия.\n\nTelegram не берёт плату за первые {count} перевода в день.",
+      "key": "lng_wallet_fees_text",
+      "many_value": "За каждый перевод взимается небольшая комиссия.\n\nTelegram не берёт плату за первые {count} переводов в день.",
+      "one_value": "За каждый перевод взимается небольшая комиссия.\n\nTelegram не берёт плату за {count} перевод в день.",
+      "other_value": "За каждый перевод взимается небольшая комиссия.\n\nTelegram не берёт плату за первые {count} переводов в день."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_fees_title",
+      "value": "Сетевая комиссия"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_first_rate",
+      "value": "1 GRAM сейчас стоит {amount}.\nВам доступны:"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_first_send_text",
+      "value": "GRAM можно переводить другим\nв чатах через меню {attach} → {money}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_first_send_title",
+      "value": "Отправка"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_first_store_text",
+      "value": "GRAM можно хранить в Telegram\n({menu} → {wallet}) или других кошельках."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_first_store_title",
+      "value": "Хранение"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_first_title",
+      "value": "Ваши первые GRAM!"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_first_trade_text",
+      "value": "GRAM обмениваются на деньги\nили криптовалюту на биржах."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_first_trade_title",
+      "value": "Обмен"
     },
     {
       "_": "types.LangPackString",
@@ -43642,6 +43905,31 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_intro_text",
+      "value": "GRAM — цифровая валюта для Telegram"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_keys_delete",
+      "value": "Удалить кошелёк"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_keys_phrase_about",
+      "value": "Вы можете перенести кошелёк на другое устройство. Для этого скопируйте секретную фразу."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_keys_show_phrase",
+      "value": "Показать секретную фразу"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_keys_title",
+      "value": "Ключи и резервная копия"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_menu",
       "value": "Деньги"
     },
@@ -43652,13 +43940,66 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_passcode_forgot",
+      "value": "Забыли код-пароль?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_passcode_forgot_about",
+      "value": "Без кода-пароля не получится открыть хранящиеся на этом устройстве ключи кошельков. Вы можете удалить с этого устройства все ключи кошельков и отключить код-пароль. При этом Вы по-прежнему сможете пользоваться Telegram; выходить из аккаунта не потребуется."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_passcode_forgot_backed",
+      "value": "Кошелёк можно восстановить из резервной копии в Telegram."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_passcode_forgot_confirm",
+      "value": "Удалить ключи"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_passcode_remember",
+      "value": "Не спрашивать 15 минут"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_phrase_intro_text",
       "value": "Ваша секретная фраза — это ключ для восстановления кошелька. Храните её в надёжном месте и не сообщайте никому."
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_phrase_intro_title",
+      "value": "Секретная фраза"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Запишите эти {count} слова по порядку и храните в надёжном месте. Никогда никому их не сообщайте.",
+      "key": "lng_wallet_phrase_text",
+      "many_value": "Запишите эти {count} слов по порядку и храните в надёжном месте. Никогда никому их не сообщайте.",
+      "one_value": "Запишите {count} слово и храните в надёжном месте. Не сообщайте его никому.",
+      "other_value": "Запишите эти {count} слов по порядку и храните в надёжном месте. Никогда никому их не сообщайте."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_phrase_title",
+      "value": "Ваша секретная фраза"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_phrase_warn_share",
-      "value": "**Никому не сообщайте** свою секретную фразу."
+      "value": "**Никогда никому не сообщайте** свою секретную фразу."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_phrase_warn_steal",
+      "value": "Тот, кто знает секретную фразу, **сможет похитить Ваши средства**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_phrase_warn_support",
+      "value": "Поддержка Telegram **никогда не запрашивает** секретную фразу."
     },
     {
       "_": "types.LangPackString",
@@ -43667,8 +44008,128 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_protection_about",
+      "value": "Выберите способ защиты своих средств на этом устройстве."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_create_about",
+      "value": "Код-пароль защищает ключ Вашего кошелька на этом устройстве. Он не будет использоваться для блокировки приложения Telegram, если Вы не включите эту функцию в настройках."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_open",
+      "value": "Не использовать пароли"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_open_about",
+      "value": "Тратить Ваши средства может любой, у кого есть доступ к Вашему Telegram."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_open_confirm",
+      "value": "Всё равно хранить"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_open_title",
+      "value": "Хранить средства без пароля?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_open_warning_nolock",
+      "value": "Любой, кто получит доступ к этому компьютеру, сможет похитить средства из Вашего кошелька.\n\nЭту настройку можно изменить позже в разделе «Код-пароль» в меню кошелька."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_passcode",
+      "value": "Использовать код-пароль"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_passcode_about",
+      "value": "Все траты подтверждаются вводом кода-пароля от Telegram."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_passcode_change",
+      "value": "Изменить код-пароль {arrow}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_passcode_keep",
+      "value": "Использовать тот же пароль"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_removal_about",
+      "value": "Выберите способ защиты своих средств после отключения кода-пароля."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_removal_wallets",
+      "value": "Это относится к кошелькам {accounts}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_title",
+      "value": "Код-пароль"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_readonly_bar",
+      "value": "На этом устройстве можно только просматривать этот кошелёк, но не отправлять из него средства."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_receive_about",
       "value": "Чтобы получить GRAM, скопируйте свой адрес или покажите QR-код."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_receive_copy_hint",
+      "value": "Копировать адрес"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_restore_not_saved",
+      "value": "Секретная фраза не была сохранена на этом устройстве."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_incoming",
+      "value": "Входящий перевод"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_outgoing",
+      "value": "Исходящий перевод"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_rows_hidden_below",
+      "value": "Транзакции на сумму менее {amount} GRAM скрыты."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_rows_title",
+      "value": "Транзакции"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_amount",
+      "value": "Отправить {amount} GRAM"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_balance",
+      "value": "Баланс: {amount} GRAM"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_comment_optional",
+      "value": "Комментарий (необязательно)"
     },
     {
       "_": "types.LangPackString",
@@ -43677,8 +44138,33 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_send_error_too_small",
+      "value": "Минимальная сумма — {amount} GRAM."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_send_gram_wallet",
       "value": "Кошелёк GRAM"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_title",
+      "value": "Отправить GRAM"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_user_title",
+      "value": "Отправить {user}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_user_wallet_about",
+      "value": "К этому адресу в блокчейне TON привязан аккаунт {name} в Telegram."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_user_wallet_title",
+      "value": "Кошелёк {name}"
     },
     {
       "_": "types.LangPackString",
@@ -43831,5 +44317,5 @@
       "other_value": "Вы заплатили {count} звезды."
     }
   ],
-  "version": 5931241
+  "version": 5937653
 }
