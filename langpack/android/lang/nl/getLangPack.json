@@ -25594,6 +25594,12 @@
       "value": "Korreligheid"
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "key": "GramCapital",
+      "one_value": "%1$s GRAM",
+      "other_value": "%1$s GRAM"
+    },
+    {
       "_": "types.LangPackString",
       "key": "GramCurrency",
       "value": "GRAM"
@@ -42199,8 +42205,58 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "RoundVideoBitrate",
+      "value": "Bitrate van video"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RoundVideoCameraResolution",
+      "value": "Cameraresolutie"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RoundVideoCameraResolutionHigh",
+      "value": "Hoog"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RoundVideoCameraResolutionLow",
+      "value": "Laag"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RoundVideoCameraResolutionMedium",
+      "value": "Middelmatig"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RoundVideoFrameRate",
+      "value": "Framesnelheid"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "RoundVideoGeneral",
       "value": "Opname"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RoundVideoGeneralInfo",
+      "value": "60 FPS wordt alleen gebruikt wanneer de voor- en achtercamera het ondersteunen. Anders valt de opname terug naar 30 FPS."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RoundVideoOutputResolution",
+      "value": "Uitvoerresolutie"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RoundVideoSettings",
+      "value": "Ronde video"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RoundVideoUseNewRecorder",
+      "value": "Opname via Camera2"
     },
     {
       "_": "types.LangPackString",
@@ -56231,6 +56287,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletBackupEnabledDescription",
+      "value": "Je gecodeerde sleutel is in drie delen gesplitst en wordt op drie verschillende continenten opgeslagen.\n\nAlleen op jouw apparaten kan het weer in elkaar worden gezet, dus niemand anders — ook Telegram niet — heeft toegang tot je sleutel."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletBalanceAmount",
       "value": "Saldo: %1$s"
     },
@@ -56238,6 +56299,16 @@
       "_": "types.LangPackString",
       "key": "WalletBinaryData",
       "value": "Binaire gegevens"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBlockchainVerified",
+      "value": "Blockchainverificatie"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBlockchainVerifiedInfo",
+      "value": "Alle transacties worden geregistreerd en zijn verifieerbaar in een openbaar logboek."
     },
     {
       "_": "types.LangPackString",
@@ -56281,6 +56352,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletCurrentSecretPhrase",
+      "value": "Huidige geheime zin"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCurrentSecretPhraseInfo",
+      "value": "De persoon die deze zin kent, beslist over je wallet. Schrijf het op en bewaar het op een veilige plek. Als je het kwijtraakt, raak je ook je saldo kwijt."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletDate",
       "value": "Datum"
     },
@@ -56291,13 +56372,68 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletDeleteAnyway",
+      "value": "Toch verwijderen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDeleteWallet",
+      "value": "Wallet verwijderen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDeleteWalletInfo",
+      "value": "Je raakt de toegang tot je saldo kwijt, tenzij je geheime zin van 12 woorden ergens is opgeslagen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDeleteWalletTitle",
+      "value": "Wallet verwijderen?"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletDepositFunds",
       "value": "Saldo toevoegen"
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletDisable",
+      "value": "Uitschakelen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDisableBackup",
+      "value": "Back-up uitschakelen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDisableBackupExistingPhraseInfo",
+      "value": "Je gecodeerde back-up elders wordt verwijderd. Je geheime zin zal dan de enige manier zijn om deze wallet te herstellen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDisableBackupInfo",
+      "value": "De enige manier om de toegang tot je geld te herstellen, is door je geheime zin handmatig in te voeren."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDisableBackupTitle",
+      "value": "Back-up uitschakelen?"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletDone",
       "value": "Gereed"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletEnableBackup",
+      "value": "Back-up inschakelen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletEncryptedBackup",
+      "value": "Versleutelde back-up"
     },
     {
       "_": "types.LangPackString",
@@ -56316,13 +56452,43 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletGotIt",
+      "value": "Begrepen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletGramEarningsBalance",
+      "value": "Je hebt %1$s aan inkomsten in Gram"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletGramWalletAddress",
+      "value": "Gram Wallet"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletHiddenTransactions",
       "value": "Transacties van minder dan %1$s zijn verborgen."
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletHowItWorks",
+      "value": "Hoe werkt het?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletHowItWorksInfo",
+      "value": "Alleen jij beheert je fondsen —\nniemand anders heeft toegang."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletIncomingTransfer",
       "value": "Inkomende overmaking"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletInsufficientFunds",
+      "value": "Onvoldoende saldo."
     },
     {
       "_": "types.LangPackString",
@@ -56343,6 +56509,26 @@
       "_": "types.LangPackString",
       "key": "WalletMakeCommentPublic",
       "value": "Opmerking openbaar maken"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletNetworkFee",
+      "value": "Netwerkkosten"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletNetworkFeeInfo",
+      "value": "Voor elke overmaking betaal je een klein bedrag aan netwerkkosten (**~%1$s**). Telegram dekt je eerste **5** overmakingen per dag."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletNoFees",
+      "value": "Geen kosten"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletNoFeesInfo",
+      "value": "De eerste 5 overmakingen per dag zijn gratis. De rest kost vrijwel niets."
     },
     {
       "_": "types.LangPackString",
@@ -56382,13 +56568,43 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletRecoveryPhraseFundsWarning",
+      "value": "Als iemand je geheime zin kent, **kan die je geld stelen**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletRecoveryPhraseInfo",
+      "value": "Je geheime zin is de sleutel die als back-up van je wallet dient en kan worden gebruikt om het te herstellen. Houd het te allen tijde geheim en veilig."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletRecoveryPhraseLearnButton",
       "value": "Geheime zin tonen"
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletRecoveryPhraseLearnInfo",
+      "value": "Je geheime zin is de sleutel die als back-up van je wallet dient. Houd het te allen tijde geheim en veilig."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletRecoveryPhraseLearnTitle",
       "value": "Geheime zin"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletRecoveryPhraseNeverShare",
+      "value": "Deel je geheime zin **nooit** met iemand anders."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletRecoveryPhraseSupportWarning",
+      "value": "Telegram Support **zal nooit vragen** naar je geheime zin."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletRecoveryPhraseTransferInfo",
+      "value": "Je kunt je wallet naar een ander apparaat overzetten door je geheime zin van 12 woorden te kopiëren."
     },
     {
       "_": "types.LangPackString",
@@ -56412,6 +56628,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletSendInstantly",
+      "value": "Stuur direct geld"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendInstantlyInfo",
+      "value": "Stuur Grams in elke chat, net als hoe je foto's verstuurt."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletSendMoney",
       "value": "Geld sturen"
     },
@@ -56422,6 +56648,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletSender",
+      "value": "Afzender"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletSending",
       "value": "Sturen…"
     },
@@ -56429,6 +56660,26 @@
       "_": "types.LangPackString",
       "key": "WalletShowMyQR",
       "value": "Toon mijn QR"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTapToSetAmount",
+      "value": "Tik om het bedrag in te stellen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTermsOfService",
+      "value": "Als je deze dienst gebruikt, ga je akkoord met de **voorwaarden**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTestPhrase",
+      "value": "Een korte test"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTestPhraseInfo",
+      "value": "Dubbelcheck of je geheime zin goed is bewaard. Voer woord nummer **%1$d**, **%2$d** en **%3$d** in."
     },
     {
       "_": "types.LangPackString",
@@ -56472,6 +56723,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletUpdateSecretPhrase",
+      "value": "Geheime zijn vernieuwen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUpdateSecretPhraseInfoWithFee",
+      "value": "Je krijgt een nieuwe zin om op te schrijven. Je adres en saldo blijven ongewijzigd.\n\nNetwerkkosten: %1$s (~%2$s)."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletUserWallet",
       "value": "de wallet van %1$s"
     },
@@ -56484,6 +56745,11 @@
       "_": "types.LangPackString",
       "key": "WalletWhatIsGram",
       "value": "Wat is Gram?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletYourRecoveryPhrase",
+      "value": "Je geheime zin"
     },
     {
       "_": "types.LangPackString",
@@ -57548,5 +57814,5 @@
       "value": "Telegram Passport"
     }
   ],
-  "version": 61250116
+  "version": 61250145
 }
