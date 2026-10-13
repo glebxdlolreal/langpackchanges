@@ -500,6 +500,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ActionGramTransferReceived",
+      "value": "Recibida"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ActionGramTransferSent",
+      "value": "Enviada"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ActionGramTransferText",
       "value": "{from} te envió {amount}{worth}:"
     },
@@ -507,6 +517,11 @@
       "_": "types.LangPackString",
       "key": "ActionGramTransferTextYou",
       "value": "Enviaste {amount}{worth} a {from}:"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ActionGramTransferTicker",
+      "value": "Grams"
     },
     {
       "_": "types.LangPackString",
@@ -2295,6 +2310,11 @@
       "other_value": "Reemplazar {count} videos"
     },
     {
+      "_": "types.LangPackString",
+      "key": "AttachmentSelectFromFiles",
+      "value": "Seleccionar desde Archivos"
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "key": "AttachmentSendAudio",
       "one_value": "Enviar audio",
@@ -2412,6 +2432,21 @@
       "_": "types.LangPackString",
       "key": "AudioSaveToMyProfileUnsaved",
       "value": "Audio quitado de tu perfil."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AudioSearchChats",
+      "value": "Música compartida"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AudioSearchGlobal",
+      "value": "Búsqueda global"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AudioSearchProfile",
+      "value": "Música del perfil"
     },
     {
       "_": "types.LangPackString",
@@ -7743,6 +7778,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "GramEarnings",
+      "value": "Ganancias de grams"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GramEarningsHint",
+      "value": "Puedes retirar tus grams usando Fragment."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "GramGiftReceived",
       "value": "Recarga de grams"
     },
@@ -9474,6 +9519,11 @@
       "_": "types.LangPackString",
       "key": "Next",
       "value": "Siguiente"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NoAudioFiles",
+      "value": "Sin audios"
     },
     {
       "_": "types.LangPackString",
@@ -13759,6 +13809,11 @@
       "value": "Muestra los nombres de las carpetas para cada chat en la lista de chats."
     },
     {
+      "_": "types.LangPackString",
+      "key": "ShowMore",
+      "value": "Mostrar más"
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "key": "ShowMoreChats",
       "one_value": "Mostrar 1 chat más",
@@ -15816,6 +15871,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletAlsoHaveEarnings",
+      "value": "También tienes {amount} en ganancias de grams"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletAlsoHaveOldWallets",
+      "value": "También tienes {amount} en billeteras antiguas"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletAppPasscodeDescription",
       "value": "Pon tu código para continuar."
     },
@@ -15846,8 +15911,38 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletBuyError",
+      "value": "No se pudo iniciar la compra. Por favor, reinténtalo."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBuyMethodCrossChain",
+      "value": "Transferencia Cross-Chain"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBuyMinMax",
+      "value": "Mín. {min} · Máx. {max}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCollectibleNotOwned",
+      "value": "Este coleccionable ya no está en tu billetera."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCollectibleNotReady",
+      "value": "Este coleccionable aún no está listo para ser transferido."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletCollectibleNumber",
       "value": "Número coleccionable"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCollectibleOnSale",
+      "value": "Este coleccionable está en venta. Quítalo de la venta para transferirlo."
     },
     {
       "_": "types.LangPackString",
@@ -15858,6 +15953,16 @@
       "_": "types.LangPackString",
       "key": "WalletCollectibleTransfer",
       "value": "Transferir"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCollectibleUnavailable",
+      "value": "No se pudo preparar la transferencia del coleccionable."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCommentEncryptionUnavailable",
+      "value": "Esta billetera aún no puede recibir comentarios cifrados"
     },
     {
       "_": "types.LangPackString",
@@ -15986,6 +16091,43 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletIntroRate",
+      "value": "1 gram equivale actualmente a {rate}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletLinkNoWallet",
+      "value": "Este usuario aún no tiene billetera."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "WalletNetworkFeesInfo",
+      "one_value": "Cada transferencia tiene una pequeña tarifa de red (**~{fee}**). Telegram cubre tu primera transferencia diaria.",
+      "other_value": "Cada transferencia tiene una pequeña tarifa de red (**~{fee}**). Telegram cubre tus primeras **{count}** transferencias diarias."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "WalletNetworkFeesInfoShort",
+      "one_value": "Cada transferencia tiene una pequeña tarifa de red. Telegram cubre tu primera transferencia diaria.",
+      "other_value": "Cada transferencia tiene una pequeña tarifa de red. Telegram cubre tus primeras **{count}** transferencias diarias."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletNetworkFeesTitle",
+      "value": "Tarifas de red"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletNoCollectibles",
+      "value": "Tus coleccionables aparecerán aquí."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletNoCollectiblesAction",
+      "value": "Obtén uno en Fragment"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletNoLocalSecretError",
       "value": "La clave de la billetera no está almacenada en este dispositivo"
     },
@@ -16013,6 +16155,11 @@
       "_": "types.LangPackString",
       "key": "WalletPastePhrase",
       "value": "Pegar desde el portapapeles"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletPhraseInfoCanSteal",
+      "value": "Si alguien tiene tu frase secreta, **podrá robar tus fondos**."
     },
     {
       "_": "types.LangPackString",
@@ -16076,6 +16223,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletReleaseKeyTitle",
+      "value": "Clave de la billetera"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletReplaceError",
+      "value": "No se pudo reemplazar la billetera"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletReplaceImport",
       "value": "Importar una billetera existente"
     },
@@ -16096,8 +16253,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletSecretPhraseSubtitle",
+      "value": "Pon la frase secreta de tu billetera para continuar. {why}"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletSecretPhraseWhy",
       "value": "¿Por qué?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendAddressLinked",
+      "value": "Esta dirección de la blockchain TON está vinculada a **{name}** en Telegram."
     },
     {
       "_": "types.LangPackString",
@@ -16131,6 +16298,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletSendFeeUnavailable",
+      "value": "No se pudo calcular la tarifa de red."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletSendInsufficientFunds",
       "value": "Fondos insuficientes."
     },
@@ -16146,8 +16318,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletSendNetworkFee",
+      "value": "Tarifa de red: {amount}"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletSendSuccess",
       "value": "Grams enviados"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendSuccessGasless",
+      "value": "Grams enviados, no se cobró una tarifa"
     },
     {
       "_": "types.LangPackString",
@@ -16173,6 +16355,11 @@
       "_": "types.LangPackString",
       "key": "WalletTabCollectibles",
       "value": "Coleccionables"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTabTransactions",
+      "value": "Transacciones"
     },
     {
       "_": "types.LangPackString",
@@ -16216,6 +16403,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletUnavailable",
+      "value": "La billetera de grams aún no está disponible."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletUnknownUser",
       "value": "Usuario desconocido"
     },
@@ -16243,6 +16435,11 @@
       "_": "types.LangPackString",
       "key": "WalletWrongPhraseError",
       "value": "Esta frase secreta no coincide con tu billetera"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletWrongPhraseText",
+      "value": "Las palabras que pusiste no coinciden con la billetera."
     },
     {
       "_": "types.LangPackString",
@@ -16442,5 +16639,5 @@
       "value": "Tu nombre"
     }
   ],
-  "version": 302106
+  "version": 302113
 }
