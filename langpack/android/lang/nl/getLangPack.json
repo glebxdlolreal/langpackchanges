@@ -3606,7 +3606,7 @@
     {
       "_": "types.LangPackString",
       "key": "AnonymousNumber",
-      "value": "Anoniem nummer"
+      "value": "Verzamelbaar nummer"
     },
     {
       "_": "types.LangPackString",
@@ -30917,7 +30917,7 @@
     {
       "_": "types.LangPackString",
       "key": "MonetizationTransactionDetailWithdrawButton",
-      "value": "In blockchainverkenner weergeven"
+      "value": "Bekijken in Explorer"
     },
     {
       "_": "types.LangPackString",
@@ -33144,6 +33144,16 @@
       "_": "types.LangPackString",
       "key": "NotificationUnrecognizedDevice",
       "value": "%1$s,\nEr is op %2$s vanaf een nieuw apparaat op je account ingelogd.\n\nApparaat: %3$s\nLocatie: %4$s\n\nAls dit niet door jou is gedaan, kun je gaan naar Instellingen > Apparaten en deze sessie beëindigen.\n\nAls je gelooft dat iemand zonder jouw toestemming op je account is ingelogd, kun je tweestapsverificatie inschakelen via Instellingen > Privacy en veiligheid.\n\nMet vriendelijke groet,\nHet Telegram-team"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NotificationWalletTonConnectRequest",
+      "value": "Je hebt een TON-verbindingsverzoek"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NotificationWalletTonConnectRequestDapp",
+      "value": "Je hebt een TON-verbindingsverzoek van %1$s"
     },
     {
       "_": "types.LangPackString",
@@ -39797,6 +39807,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PushChatReactGameScore",
+      "value": "%3$s op je spelscore in %2$s"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PushChatReactGeo",
       "value": "%3$s op je map"
     },
@@ -39832,6 +39847,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PushChatReactPollUpdate",
+      "value": "%3$s op je peiling-update in %2$s"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PushChatReactQuiz",
       "value": "%3$s op je quiz %4$s"
     },
@@ -39847,13 +39867,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PushChatReactStory",
+      "value": "%3$s op je verhaal in %2$s"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PushChatReactText",
       "value": "%3$s op je \"%4$s\""
     },
     {
       "_": "types.LangPackString",
+      "key": "PushChatReactThemeChange",
+      "value": "%3$s op je themawijziging in %2$s"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PushChatReactTodo",
       "value": "%3$s op je checklist %4$s in %2$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PushChatReactTodoUpdate",
+      "value": "%3$s op je taakupdate in %2$s"
     },
     {
       "_": "types.LangPackString",
@@ -39882,6 +39917,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PushReactGameScore",
+      "value": "%2$s op je spelscore"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PushReactGeo",
       "value": "%2$s op je kaart"
     },
@@ -39894,6 +39934,21 @@
       "_": "types.LangPackString",
       "key": "PushReactGif",
       "value": "%2$s op je GIF"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PushReactGiftCode",
+      "value": "%2$s op je cadeaucode"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PushReactGramTransfer",
+      "value": "%2$s op je overdracht van %3$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PushReactGramTransferComment",
+      "value": "%2$s op je overdracht van %3$s: %4$s"
     },
     {
       "_": "types.LangPackString",
@@ -39912,8 +39967,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PushReactPaidMedia",
+      "value": "%2$s op je betaalde bericht"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PushReactPhoto",
       "value": "%2$s op je foto"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PushReactPhotoSecret",
+      "value": "%2$s op je zelfvernietigende foto"
     },
     {
       "_": "types.LangPackString",
@@ -39922,13 +39987,53 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PushReactProximity",
+      "value": "%2$s op je nabijheidsmelding"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PushReactQuiz",
       "value": "%2$s op je quiz %3$s"
     },
     {
       "_": "types.LangPackString",
+      "key": "PushReactRecurringPay",
+      "value": "%2$s op je betaling"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PushReactRound",
       "value": "%2$s op je videobericht"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PushReactSameWallpaper",
+      "value": "%2$s op dezelfde achtergrond"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PushReactScreenshot",
+      "value": "%2$s op je screenshot"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PushReactStarGift",
+      "value": "%2$s op je cadeau ter waarde van %3$s sterren"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PushReactStarGiftPrepaidUpgrade",
+      "value": "%2$s op je cadeau-upgrade ter waarde van %3$s sterren"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PushReactStarGiftUnpackUpgrade",
+      "value": "%2$s op het cadeau dat je hebt helpen upgraden"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PushReactStarGiftUpgrade",
+      "value": "%2$s op je geüpgradede cadeau"
     },
     {
       "_": "types.LangPackString",
@@ -39952,8 +40057,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PushReactStoryMention",
+      "value": "%2$s op je verhaalvermelding"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PushReactSuggestBirthday",
+      "value": "%2$s op je verjaardagssuggestie"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PushReactSuggestUserpic",
+      "value": "%2$s op je fotosuggestie"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PushReactText",
       "value": "%2$s op je \"%3$s\""
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PushReactThemeChange",
+      "value": "%2$s op je themawijziging"
     },
     {
       "_": "types.LangPackString",
@@ -39962,8 +40087,33 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PushReactTodoUpdate",
+      "value": "%2$s op je taakupdate"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PushReactUniqueStarGift",
+      "value": "%2$s op je cadeau"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PushReactVideo",
       "value": "%2$s op je video"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PushReactVideoSecret",
+      "value": "%2$s op je zelfvernietigende video"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PushReactWalletTonConnectRequest",
+      "value": "%2$s op je TON-verbindingsverzoek"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PushReactWallpaper",
+      "value": "%2$s op de nieuwe achtergrond"
     },
     {
       "_": "types.LangPackString",
@@ -42258,6 +42408,21 @@
       "_": "types.LangPackString",
       "key": "RoundVideoCameraResolutionMedium",
       "value": "Middelmatig"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RoundVideoComposition",
+      "value": "Beeldopbouw"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RoundVideoCompositionEnabled",
+      "value": "Styling van ronde video"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RoundVideoCompositionInfo",
+      "value": "Schakel styling uit om een gewone vierkant op te nemen zonder vervanging van de buitencirkel, dimmen of Telegram-overlays."
     },
     {
       "_": "types.LangPackString",
@@ -56428,6 +56593,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletCollectibleTransferPrepareFailed",
+      "value": "Het is niet gelukt om de overdracht van het verzamelobject voor te bereiden"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletCollectibleUsername",
       "value": "Verzamelbare gebruikersnaam"
     },
@@ -56515,6 +56685,11 @@
       "_": "types.LangPackString",
       "key": "WalletContinue",
       "value": "Doorgaan"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletContractCall",
+      "value": "Contractoproep"
     },
     {
       "_": "types.LangPackString",
@@ -57129,6 +57304,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletSignData",
+      "value": "Data ondertekenen"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletSigningData",
       "value": "Data"
     },
@@ -57169,6 +57349,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletTonConnectManifestLoadFailed",
+      "value": "Laden van dApp-manifest mislukt: %1$s"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletTonConnectRequestAppDeclined",
       "value": "Transactieverzoek van %s geweigerd"
     },
@@ -57206,6 +57391,21 @@
       "_": "types.LangPackString",
       "key": "WalletTonConnectRequestProcessed",
       "value": "Transactieverzoek van app verwerkt"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTonConnectRequestUnavailable",
+      "value": "Dit TON-verbindingsverzoek is niet beschikbaar of is reeds beantwoord"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTonConnectSessionClosed",
+      "value": "TON-verbindingssessie gesloten"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTonConnectSessionResponseEmpty",
+      "value": "Lege reactie op TON-verbindingssessie"
     },
     {
       "_": "types.LangPackString",
@@ -58425,5 +58625,5 @@
       "value": "Telegram Passport"
     }
   ],
-  "version": 61250484
+  "version": 61250719
 }
