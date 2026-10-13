@@ -485,6 +485,26 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ActionGramTransferReceived",
+      "value": "Ricevuto"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ActionGramTransferSent",
+      "value": "Inviato"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ActionGramTransferTicker",
+      "value": "Gram"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ActionGramTransferWorth",
+      "value": "({fiat})"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ActionGroupCallFinishedChannel",
       "value": "Diretta streaming terminata ({duration})"
     },
@@ -1809,6 +1829,11 @@
       "_": "types.LangPackString",
       "key": "AreYouSureDeleteThisChatWithGroup",
       "value": "Vuoi davvero eliminare la chat **{chat}**?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AreYouSureLogoutGrams",
+      "value": "Vuoi davvero uscire?\n\nQuesto annullerà tutte le tue chat segrete e **eliminerà i backup dei wallet che contengono {amount}**. Perderai l'accesso a questi fondi se non hai salvato le loro frasi segrete.\n\nPuoi usare Telegram su tutti i tuoi dispositivi contemporaneamente e usare diversi account nella stessa app."
     },
     {
       "_": "types.LangPackString",
@@ -15716,13 +15741,123 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletAlsoHaveEarnings",
+      "value": "Hai anche {amount} come Guadagni in Gram"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletAlsoHaveOldWallets",
+      "value": "Hai anche {amount} in vecchi wallet"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBackupEnabledText",
+      "value": "Le tue chiavi ora sono conservate in forma crittografata nei data center di Telegram."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletBackupEnabledTitle",
       "value": "Backup attivato"
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletBackupHint",
+      "value": "Il backup crittografato della tua chiave è suddiviso in tre parti e conservato in tre continenti diversi.\n\nPuò essere ricomposto solo sui tuoi dispositivi, quindi nessuno, nemmeno Telegram, può accedere alla tua chiave."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBackupOffHint",
+      "value": "Il backup crittografato della tua chiave sarà suddiviso in tre parti e conservato in tre continenti diversi.\n\nPuò essere ricomposto solo sui tuoi dispositivi, quindi nessuno, nemmeno Telegram, può accedere alla tua chiave."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletBackupTitle",
       "value": "Backup crittografato"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBuyAmountLabel",
+      "value": "Paghi in {currency}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBuyContinue",
+      "value": "Acquista"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBuyCurrency",
+      "value": "Valuta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBuyExtraFee",
+      "value": "Costo extra"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBuyFee",
+      "value": "Costo"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBuyMethodAchBankTransfer",
+      "value": "Bonifico ACH"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBuyMethodApplePay",
+      "value": "Apple Pay"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBuyMethodCard",
+      "value": "Carta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBuyMethodGbpBankTransfer",
+      "value": "Bonifico GBP"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBuyMethodGooglePay",
+      "value": "Google Pay"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBuyMethodPaypal",
+      "value": "PayPal"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBuyMethodPix",
+      "value": "PIX"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBuyMethodSepaBankTransfer",
+      "value": "Bonifico SEPA"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBuyMethodVenmo",
+      "value": "Venmo"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBuyNetworkFee",
+      "value": "Costo di rete"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBuyTitle",
+      "value": "Acquista Gram"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBuyTotal",
+      "value": "Totale"
     },
     {
       "_": "types.LangPackString",
@@ -15746,6 +15881,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletCollectibleSell",
+      "value": "Vendi"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletCollectibleTitle",
       "value": "Collezionabile"
     },
@@ -15753,6 +15893,16 @@
       "_": "types.LangPackString",
       "key": "WalletCollectibleTraits",
       "value": "{model} su {backdrop}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCollectibleTransfer",
+      "value": "Trasferisci"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCollectibleUnavailable",
+      "value": "Impossibile preparare il trasferimento del collezionabile"
     },
     {
       "_": "types.LangPackString",
@@ -15773,6 +15923,11 @@
       "_": "types.LangPackString",
       "key": "WalletConnectBlindSign",
       "value": "Stai firmando alla cieca. Firma solo dati provenienti da fonti affidabili."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectDisconnected",
+      "value": "{name} disconnessa"
     },
     {
       "_": "types.LangPackString",
@@ -15846,6 +16001,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletDeleteTitle",
+      "value": "Eliminare il wallet?"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletDeleteWallet",
       "value": "Elimina il wallet"
     },
@@ -15858,6 +16018,16 @@
       "_": "types.LangPackString",
       "key": "WalletDisableBackup",
       "value": "Disattiva il backup"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDisableBackupRotateText",
+      "value": "Il tuo backup crittografato distribuito verrà eliminato. Il tuo wallet passerà alla nuova frase segreta. Questa frase segreta sarà l'unico modo per recuperare questo wallet."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDisableBackupText",
+      "value": "Il tuo backup crittografato distribuito verrà eliminato. La tua frase segreta sarà l'unico modo per recuperare questo wallet."
     },
     {
       "_": "types.LangPackString",
@@ -15891,13 +16061,43 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletEnterSecretPhrase",
+      "value": "Inserisci frase segreta"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletExistingWaltBalance",
       "value": "Hai anche dei fondi su Walt"
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletFeatureInstantText",
+      "value": "Invia Gram in qualsiasi chat, come condividere una foto."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletFeatureInstantTitle",
       "value": "Invia denaro istantaneamente"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletFeatureNoFeesText",
+      "value": "I primi 5 trasferimenti di ogni giorno sono gratuiti. Gli altri costano quasi nulla."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletFeatureNoFeesTitle",
+      "value": "Nessun costo"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletFeatureVerifiedText",
+      "value": "Tutte le transazioni sono registrate e verificabili su un registro pubblico."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletFeatureVerifiedTitle",
+      "value": "Verificato dalla blockchain"
     },
     {
       "_": "types.LangPackString",
@@ -15913,6 +16113,11 @@
       "_": "types.LangPackString",
       "key": "WalletHowItWorksTitle",
       "value": "Come funziona"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletImportOwnSubtitle",
+      "value": "Inserisci la frase segreta del tuo wallet da un altro dispositivo."
     },
     {
       "_": "types.LangPackString",
@@ -15966,8 +16171,43 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletNetworkFeesTitle",
+      "value": "Costi di rete"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletOtherWalletsHint",
+      "value": "Wallet già usati su questo dispositivo. Salva le relative frasi segrete: verranno eliminate se esci dall'app o la reinstalli."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletOtherWalletsTitle",
       "value": "Wallet precedenti"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletPasscodeTitle",
+      "value": "Codice"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletPaste",
+      "value": "Incolla"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletPastePhrase",
+      "value": "Incolla dagli appunti"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletPhrase12Words",
+      "value": "12 parole"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletPhrase24Words",
+      "value": "24 parole"
     },
     {
       "_": "types.LangPackString",
@@ -15988,6 +16228,11 @@
       "_": "types.LangPackString",
       "key": "WalletPrivateCommentInfo",
       "value": "Visibile solo a te e al destinatario."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletProofInvalidError",
+      "value": "Controlla l'ordine delle parole.\n\nQui è possibile importare solo una frase segreta creata su Telegram."
     },
     {
       "_": "types.LangPackString",
@@ -16046,6 +16291,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletReplaceImport",
+      "value": "Importa wallet esistente"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletReplaceTitle",
       "value": "Come vuoi sostituire il vecchio wallet?"
     },
@@ -16056,8 +16306,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletRestored",
+      "value": "Il tuo wallet è stato ripristinato dalla tua frase segreta."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletSavedImport",
       "value": "Importa questo wallet"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSecretPhraseSubtitle",
+      "value": "Inserisci la frase segreta del tuo wallet per continuare. {why}"
     },
     {
       "_": "types.LangPackString",
@@ -16071,8 +16331,33 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletSecretPhraseWhyText",
+      "value": "Dato che hai disattivato i backup del tuo wallet, devi inserire manualmente la tua frase segreta in ogni nuova sessione di Telegram."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletSend",
       "value": "Invia"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendAmount",
+      "value": "Importo"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendBalance",
+      "value": "Saldo: {amount}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendCollectibleTitle",
+      "value": "Trasferisci collezionabile"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendComment",
+      "value": "Commento opzionale"
     },
     {
       "_": "types.LangPackString",
@@ -16081,8 +16366,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletSendFeeUnavailable",
+      "value": "Impossibile stimare il costo di rete."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletSendInsufficientFunds",
       "value": "Fondi insufficienti."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendInvalidAddress",
+      "value": "Indirizzo non valido."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendMoney",
+      "value": "Invia denaro"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendNetworkFee",
+      "value": "Costo di rete: {amount}"
     },
     {
       "_": "types.LangPackString",
@@ -16101,8 +16406,33 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletSettingsTitle",
+      "value": "Impostazioni"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletShowAddress",
+      "value": "Mostra indirizzo"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletShowRecoveryPhrase",
       "value": "Mostra frase segreta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTabCollectibles",
+      "value": "Collezionabili"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTabTransactions",
+      "value": "Transazioni"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTermsLink",
+      "value": "Termini di Servizio"
     },
     {
       "_": "types.LangPackString",
@@ -16116,8 +16446,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletTransactionAddress",
+      "value": "Indirizzo"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionComment",
+      "value": "Commento"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionDate",
+      "value": "Data"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletTransactionDeposit",
       "value": "Deposito"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionDomain",
+      "value": "Dominio"
     },
     {
       "_": "types.LangPackString",
@@ -16161,8 +16511,23 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletTransactionRecipient",
+      "value": "Destinatario"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionSender",
+      "value": "Mittente"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletTransactionSending",
       "value": "Invio…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionTitle",
+      "value": "Transazione"
     },
     {
       "_": "types.LangPackString",
@@ -16178,6 +16543,16 @@
       "_": "types.LangPackString",
       "key": "WalletTransactionWithdrawal",
       "value": "Prelievo"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionsHidden",
+      "value": "Le transazioni inferiori a {amount} sono nascoste."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUnknownUser",
+      "value": "Utente sconosciuto"
     },
     {
       "_": "types.LangPackString",
@@ -16203,6 +16578,11 @@
       "_": "types.LangPackString",
       "key": "WalletWhatIsWallet",
       "value": "Cos'è Denaro?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletWrongPhraseText",
+      "value": "Le parole che inserite non corrispondono a quelle del wallet."
     },
     {
       "_": "types.LangPackString",
@@ -16402,5 +16782,5 @@
       "value": "Il tuo nome"
     }
   ],
-  "version": 302163
+  "version": 302249
 }
