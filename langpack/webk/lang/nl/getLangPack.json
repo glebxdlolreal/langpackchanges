@@ -1894,7 +1894,7 @@
     {
       "_": "types.LangPackString",
       "key": "AnonymousNumber",
-      "value": "Anoniem nummer"
+      "value": "Verzamelbaar nummer"
     },
     {
       "_": "types.LangPackString",
@@ -3600,6 +3600,36 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "BotAddAsAdminChannelConfirm",
+      "value": "Wil je deze bot als beheerder aan het kanaal **%1$s** toevoegen? Het krijgt dan toegang tot het overzicht van beheerders en abonnees van het kanaal."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotAddAsAdminGroupConfirm",
+      "value": "Weet je zeker dat je deze bot als beheerder aan de groep **%1$s** wilt toevoegen? Het krijgt dan toegang tot het overzicht van anonieme beheerders."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotAddToChannelAbout",
+      "value": "Deze bot is in staat om een kanaal te beheren."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotAddToGroupAbout",
+      "value": "Deze bot is in staat om een groep te beheren."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotAddToGroupOrChannel",
+      "value": "Toevoegen aan groep of kanaal"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotAddToGroupOrChannelAbout",
+      "value": "Deze bot kan een groep of kanaal beheren."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "BotAllowAccessTo",
       "value": "Toegang geven tot"
     },
@@ -3642,6 +3672,11 @@
       "_": "types.LangPackString",
       "key": "BotCantReadChatTooltip",
       "value": "Deze bot kan de chat niet lezen — alleen het bericht waarin het is genoemd."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotChooseGroup",
+      "value": "Selecteer een groep"
     },
     {
       "_": "types.LangPackString",
@@ -5063,6 +5098,11 @@
       "_": "types.LangPackString",
       "key": "Chat.Poll.AddAnOption",
       "value": "Voeg een optie toe"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Poll.AttachLink",
+      "value": "Link toevoegen"
     },
     {
       "_": "types.LangPackString",
@@ -8251,6 +8291,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "DeleteReaction",
+      "value": "Reactie verwijderen"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "DeleteReportSpam",
       "value": "Spam rapporteren"
     },
@@ -8996,6 +9041,16 @@
       "_": "types.LangPackString",
       "key": "EditedMessage",
       "value": "bewerkt"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EditedMessage.At",
+      "value": "bewerkt om %1$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EditedMessage.On",
+      "value": "bewerkt op %1$s om %2$s"
     },
     {
       "_": "types.LangPackString",
@@ -13379,13 +13434,29 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "NewPoll.AllowedCountries",
+      "value": "Toegestane landen"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "NewPoll.Anonymous",
       "value": "Anoniem stemmen"
     },
     {
       "_": "types.LangPackString",
+      "key": "NewPoll.ChooseCountry",
+      "value": "Selecteer tenminste één land."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "NewPoll.CouldNotCreate",
       "value": "Peiling aanmaken mislukt"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "NewPoll.CountriesCount",
+      "one_value": "%d land",
+      "other_value": "%d landen"
     },
     {
       "_": "types.LangPackString",
@@ -13411,6 +13482,16 @@
       "_": "types.LangPackString",
       "key": "NewPoll.HideResultsSubtitle",
       "value": "De resultaten verschijnen pas nadat de peiling gesloten is"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NewPoll.LimitByCountry",
+      "value": "Beperken per land"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NewPoll.LimitByCountrySubtitle",
+      "value": "Alleen gebruikers uit geselecteerde landen kunnen stemmen."
     },
     {
       "_": "types.LangPackString",
@@ -13467,6 +13548,16 @@
       "_": "types.LangPackString",
       "key": "NewPoll.Quiz",
       "value": "Quiz-modus"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NewPoll.RestrictToSubscribers",
+      "value": "Beperken tot abonnees"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NewPoll.RestrictToSubscribersSubtitle",
+      "value": "Alleen abonnees die langer dan 24 uur lid zijn kunnen stemmen."
     },
     {
       "_": "types.LangPackString",
@@ -15231,6 +15322,31 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Poll.VoteRestricted.Countries",
+      "value": "Alleen gebruikers uit geselecteerde landen kunnen stemmen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Poll.VoteRestricted.CountriesList",
+      "value": "Alleen gebruikers uit %s kunnen stemmen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Poll.VoteRestricted.Subscribers",
+      "value": "Alleen abonnees kunnen stemmen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Poll.VoteRestricted.SubscribersChannel",
+      "value": "Alleen abonnees van  %s kunnen stemmen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Poll.VoteRestricted.SubscribersRecent",
+      "value": "Alleen abonnees die langer dan 24 uur geleden zijn aangesloten, kunnen stemmen."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PollOptions",
       "value": "Peilingsopties"
     },
@@ -15249,6 +15365,26 @@
       "_": "types.LangPackString",
       "key": "PollResults.Title.Quiz",
       "value": "Quizresultaten"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PollStats.NoVotes",
+      "value": "Geen stemmen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PollStats.Title",
+      "value": "Statistieken van peiling"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PollStats.View",
+      "value": "Statistieken bekijken"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PollStats.Votes",
+      "value": "Stemmen in peiling"
     },
     {
       "_": "types.LangPackString",
@@ -16914,6 +17050,17 @@
       "value": "Opmerking toevoegen (optioneel)"
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "key": "Report2MessagesCount",
+      "one_value": "Rapporteer %1$d bericht",
+      "other_value": "Rapporteer %1$d berichten"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Report2SelectMessages",
+      "value": "Selecteer de berichten die je wilt rapporteren."
+    },
+    {
       "_": "types.LangPackString",
       "key": "Report2Send",
       "value": "Rapport indienen"
@@ -18410,6 +18557,11 @@
       "_": "types.LangPackString",
       "key": "Show",
       "value": "Weergeven"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShowAllReactions",
+      "value": "Alle reacties tonen"
     },
     {
       "_": "types.LangPackString",
@@ -21347,6 +21499,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "TapAndHoldToDeleteReaction",
+      "value": "Houd ingedrukt om te verwijderen."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Telegram.GeneralSettingsViewController",
       "value": "Algemeen"
     },
@@ -23015,5 +23172,5 @@
       "other_value": "%1$d berichten"
     }
   ],
-  "version": 351208
+  "version": 351253
 }
