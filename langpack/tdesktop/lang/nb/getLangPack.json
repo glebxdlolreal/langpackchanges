@@ -26177,6 +26177,56 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_passcode_strength_advice_date",
+      "value": "Unngå datoer og årstall."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_passcode_strength_advice_fine",
+      "value": "Denne tilgangskoden er vanskelig å gjette."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_passcode_strength_advice_keyboard",
+      "value": "Unngå tastaturmønstre."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_passcode_strength_advice_leet",
+      "value": "Det hjelper ikke å bytte bokstaver med lignende symboler."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_passcode_strength_advice_repeat",
+      "value": "Unngå gjentatte tegn."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_passcode_strength_advice_sequence",
+      "value": "Unngå rekkefølger som abc eller 123."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_passcode_strength_advice_short",
+      "value": "Bruk minst 8 tegn."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_passcode_strength_advice_variety",
+      "value": "Gjør den lengre og bland inn flere forskjellige tegntyper."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_passcode_strength_advice_word",
+      "value": "Unngå vanlige ord og navn."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_passcode_strength_empty",
+      "value": "Estimert tilgangskodestyrke."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_passcode_submit",
       "value": "Send"
     },
@@ -35665,12 +35715,12 @@
     {
       "_": "types.LangPackString",
       "key": "lng_settings_passcode_lock_app",
-      "value": "Lås Telegram med passkode"
+      "value": "Lås Telegram med tilgangskode"
     },
     {
       "_": "types.LangPackString",
       "key": "lng_settings_passcode_lock_off_wallet",
-      "value": "Denne passkoden vil bare være nødvendig for å bekrefte transaksjoner, ikke for å åpne lommeboken."
+      "value": "Denne tilgangskoden vil bare være nødvendig for å bekrefte transaksjoner, ikke for å åpne lommeboken."
     },
     {
       "_": "types.LangPackString",
@@ -35680,7 +35730,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_settings_passcode_wallet_about",
-      "value": "Denne passkoden beskytter lommeboknøklene som er lagret på denne enheten."
+      "value": "Denne tilgangskoden beskytter lommeboknøklene som er lagret på denne enheten."
     },
     {
       "_": "types.LangPackString",
@@ -40475,6 +40525,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_sure_logout_wallet_unknown",
+      "value": "Hvis denne enheten har noen Gram-lommeboknøkler, blir de ødelagt hvis du fortsetter. De kan bare gjenopprettes fra en Telegram-sikkerhetskopi eller den hemmelige frasen din."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_sure_remove_user_channel",
       "value": "Utesteng {user} fra kanalen?"
     },
@@ -42238,8 +42293,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_apps_about",
+      "value": "Applikasjoner du har koblet til denne lommeboken med TON Connect. Hvis du kobler fra en applikasjon, avsluttes tilkoblingen på alle enhetene dine."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_apps_title",
+      "value": "Tilkoblede applikasjoner"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_backup_about_on",
       "value": "Din krypterte nøkkelsikkerhetskopi er delt i tre deler og lagret på tre kontinenter.\n\nDen kan bare settes sammen på enhetene dine, så ingen, ikke engang Telegram, har tilgang til nøkkelen din."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_cancel_text",
+      "value": "Din hemmelige frase vil ikke bli oppdatert."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_cancel_title",
+      "value": "Vil du beholde sikkerhetskopien?"
     },
     {
       "_": "types.LangPackString",
@@ -42248,13 +42323,58 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_backup_disable_text",
+      "value": "Den eneste måten å få tilbake pengene dine på vil være å skrive inn den hemmelige frasen manuelt."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_disable_title",
+      "value": "Deaktivere sikkerhetskopiering?"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_backup_disabled_text",
       "value": "Din hemmelige frase er nå den eneste måten å gjenopprette lommeboken på."
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_backup_disabled_title",
+      "value": "Sikkerhetskopiering deaktivert"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_enable",
+      "value": "Aktiver sikkerhetskopiering"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_enabled_text",
+      "value": "Nøklene dine lagres nå kryptert på tvers av Telegrams datasentre."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_enabled_title",
+      "value": "Sikkerhetskopiering aktivert"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_backup_section",
       "value": "Kryptert sikkerhetskopi"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_sure_text",
+      "value": "Du har ikke brukt nok tid på å skrive ned disse ordene."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_sure_title",
+      "value": "Ferdig så fort?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_test_text",
+      "value": "Sørg for at du har skrevet ned den hemmelige frasen din riktig. Skriv inn ordene {index1}, {index2} og {index3}."
     },
     {
       "_": "types.LangPackString",
@@ -42273,8 +42393,88 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_comment_make_public",
+      "value": "Gjør kommentar offentlig"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_comment_public",
+      "value": "Offentlige kommentarer skrives til blokkjeden og er permanent synlige for alle. Aldri inkluder privat informasjon."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_comment_title",
+      "value": "Legg til kommentar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_conflict_bar",
+      "value": "Du har også en gammel lommebok på denne enheten"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_conflict_switch",
+      "value": "Bytt nå"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_conflict_text",
+      "value": "Lommebok du tidligere har brukt på denne enheten. Lagre den hemmelige frasen før du bytter til Telegram-lommeboken."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_button",
+      "value": "Koble til"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_permission",
+      "value": "Applikasjonen vil kunne se din TON adresse, saldo og aktivitet."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_proof",
+      "value": "Applikasjonen ber deg også bekrefte at denne lommeboken er din. Dette er en påloggingssignatur, ikke en overføring."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_reassurance",
+      "value": "Applikasjonen kan ikke flytte midler uten tillatelse."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_title_app",
+      "value": "Koble lommeboken til {name}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_created_text",
+      "value": "Den nye lommeboken din er klar til bruk."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_created_title",
+      "value": "Lommebok opprettet"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_currency_none",
+      "value": "Ingen valutaer funnet"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_currency_title",
       "value": "Velg valuta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_delete_text",
+      "value": "Du mister tilgangen til pengene dine med mindre du har lagret den hemmelige frasen din."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_delete_title",
+      "value": "Vil du slette lommeboken?"
     },
     {
       "_": "types.LangPackString",
@@ -42320,6 +42520,17 @@
       "_": "types.LangPackString",
       "key": "lng_wallet_earnings_existing",
       "value": "Du har {amount} i Gram-inntekter"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_wallet_fees_text",
+      "one_value": "Hver overføring medfører en liten nettverksavgift.\n\nTelegram dekker den første overføringen din daglig.",
+      "other_value": "Hver overføring medfører en liten nettverksavgift.\n\nTelegram dekker de første {count} overføringene dine daglig."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_fees_title",
+      "value": "Nettverksavgifter"
     },
     {
       "_": "types.LangPackString",
@@ -42378,13 +42589,59 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_import_button",
+      "value": "Importer"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_import_invalid_spelling",
+      "value": "Sjekk rekkefølgen på ordene."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_import_invalid_title",
+      "value": "Ugyldig hemmelig frase"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_import_text",
+      "value": "Skriv inn den hemmelige frasen fra en annen lommebok du eier."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_import_title",
+      "value": "Importer denne lommeboken"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_wallet_import_words",
+      "one_value": "{count} ord",
+      "other_value": "{count} ord"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_imported_not_stored",
       "value": "Lommeboken din ble erstattet, men nøkkelen kunne ikke lagres på denne enheten. Hvis du ikke kan sende herfra, gjenopprett den fra den hemmelige frasen din."
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_imported_text",
+      "value": "Lommeboken din ble gjenopprettet fra den hemmelige frasen din."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_imported_title",
+      "value": "Lommebok importert"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_intro_text",
       "value": "Gram — Digital valuta for Telegram"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_key_save_error",
+      "value": "Kunne ikke lagre lommeboknøkkelen på denne enheten."
     },
     {
       "_": "types.LangPackString",
@@ -42418,6 +42675,46 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_passcode_forgot",
+      "value": "Glemt tilgangskode?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_passcode_forgot_about",
+      "value": "Uten tilgangskoden kan ikke denne enheten åpne de lagrede lommeboknøklene. Du kan fjerne alle lommeboknøkler på denne enheten og tilgangskoden og fortsette å bruke Telegram. Dette logger deg ikke ut."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_passcode_forgot_backed",
+      "value": "Lommeboken din kan gjenopprettes fra Telegram-sikkerhetskopien din."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_passcode_forgot_confirm",
+      "value": "Fjern nøkler"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_passcode_forgot_done",
+      "value": "Lommeboknøklene og passordet ble fjernet fra denne enheten."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_passcode_forgot_failed",
+      "value": "Lommeboknøklene kunne ikke fjernes."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_passcode_remember",
+      "value": "Ikke spør igjen neste 15 minutter"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_phrase_check_wait",
+      "value": "Du vil kunne fullføre denne handlingen om {duration}."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_phrase_intro_text",
       "value": "Din hemmelige frase er nøkkelen til å sikkerhetskopiere lommeboken din. Hold den hemmelig og sikker til enhver tid."
     },
@@ -42425,6 +42722,12 @@
       "_": "types.LangPackString",
       "key": "lng_wallet_phrase_intro_title",
       "value": "Hemmelig frase"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_wallet_phrase_text",
+      "one_value": "Skriv ned dette ene ordet og oppbevar det trygt. Hold det hemmelig og sikkert til enhver tid.",
+      "other_value": "Skriv ned disse {count} ordene og oppbevar de trygt. Oppbevar de hemmelig og sikkert til enhver tid."
     },
     {
       "_": "types.LangPackString",
@@ -42458,8 +42761,33 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_protection_create_about",
+      "value": "Denne passnøkkelen beskytter lommeboknøkkelen på denne enheten. Det låser ikke Telegram før du slår det på i innstillingene."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_error",
+      "value": "Lommeboknøkkelens beskyttelse kunne ikke endres."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_hardware_failed",
+      "value": "{provider} bekreftet ikke at det var deg. Ingenting ble endret."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_hello_about",
+      "value": "Bekreft all betaling med Windows PIN-koden."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_hello_label",
+      "value": "Windows Hello"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_protection_open",
-      "value": "Ikke be om passkode"
+      "value": "Ikke be om tilgangskode"
     },
     {
       "_": "types.LangPackString",
@@ -42474,32 +42802,42 @@
     {
       "_": "types.LangPackString",
       "key": "lng_wallet_protection_open_title",
-      "value": "Lagre uten passkode?"
+      "value": "Lagre uten tilgangskode?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_open_warning_lock",
+      "value": "Alle som får tilgang til ditt ulåste Telegram-skrivebord på denne datamaskinen, vil kunne stjele midlene i lommeboken din.\n\nDu kan endre dette senere fra Tilgangskodelås i lommebokmenyen."
     },
     {
       "_": "types.LangPackString",
       "key": "lng_wallet_protection_open_warning_nolock",
-      "value": "Alle som får tilgang til denne datamaskinen vil kunne stjele lommebokens midler.\n\nDu kan endre dette senere fra Passkodelås i lommebokmenyen."
+      "value": "Alle som får tilgang til denne datamaskinen vil kunne stjele lommebokens midler.\n\nDu kan endre dette senere fra Tilgangskodelås i lommebokmenyen."
     },
     {
       "_": "types.LangPackString",
       "key": "lng_wallet_protection_passcode",
-      "value": "Be om lokal passkode"
+      "value": "Be om lokal tilgangskode"
     },
     {
       "_": "types.LangPackString",
       "key": "lng_wallet_protection_passcode_about",
-      "value": "Bekreft alle utgifter med din Telegram passkode."
+      "value": "Bekreft alle utgifter med din Telegram tilgangskode."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_passcode_change",
+      "value": "Endre tilgangskode {arrow}"
     },
     {
       "_": "types.LangPackString",
       "key": "lng_wallet_protection_passcode_keep",
-      "value": "Fortsett å be om denne passkoden"
+      "value": "Fortsett å be om denne tilgangskoden"
     },
     {
       "_": "types.LangPackString",
       "key": "lng_wallet_protection_removal_about",
-      "value": "Velg hvordan pengene dine forblir beskyttet når passkoden er fjernet."
+      "value": "Velg hvordan pengene dine forblir beskyttet når tilgangskoden er fjernet."
     },
     {
       "_": "types.LangPackString",
@@ -42508,8 +42846,38 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_protection_retained",
+      "value": "Telegram vil ikke be om {provider} igjen i 15 minutter. {link}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_retained_ask",
+      "value": "Spør neste gang"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_protection_title",
-      "value": "Passkodelås"
+      "value": "Tilgangskodelås"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_touchid_about",
+      "value": "Bekreft alle utgifter med ditt fingeravtrykk eller Mac-passord."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_touchid_label",
+      "value": "Touch ID"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_touchid_reason",
+      "value": "låse opp lommeboknøkkelen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_readonly_bar",
+      "value": "Denne enheten kan se denne lommeboken, men kan ikke sende fra den."
     },
     {
       "_": "types.LangPackString",
@@ -42520,6 +42888,46 @@
       "_": "types.LangPackString",
       "key": "lng_wallet_receive_copy_hint",
       "value": "Klikk for å kopiere adressen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_replace_create",
+      "value": "Opprett en ny lommebok"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_replace_import",
+      "value": "Importer en eksisterende lommebok"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_replace_title",
+      "value": "Hvordan vil du erstatte den gamle lommeboken?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_restore_not_saved",
+      "value": "Den hemmelige frasen ble ikke lagret på denne enheten."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_restore_other_text",
+      "value": "Ordene du skrev inn samsvarer ikke med lommeboken."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_restore_title",
+      "value": "Gjenopprett lommebok"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_restoring_key",
+      "value": "Gjenoppretter lommeboknøkkelen fra den krypterte sikkerhetskopien..."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_deposit",
+      "value": "Innskudd"
     },
     {
       "_": "types.LangPackString",
@@ -42553,6 +42961,26 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_send_comment_optional",
+      "value": "Valgfri melding"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_error_insufficient",
+      "value": "Utilstrekkelige midler."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_error_too_small",
+      "value": "Minste beløp er {amount} Gram."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_gram_wallet",
+      "value": "Gram lommebok"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_send_title",
       "value": "Send Gram"
     },
@@ -42575,6 +43003,26 @@
       "_": "types.LangPackString",
       "key": "lng_wallet_unavailable",
       "value": "Penger er ikke tilgjengelig for denne kontoen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_vault_locked",
+      "value": "Lommeboknøkkelen på denne enheten er låst. Lås den opp og prøv igjen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_vault_reset_about",
+      "value": "Lommeboknøkkelen som er lagret på denne enheten, kan ikke lenger åpnes her. Fortsetter du vil den slettes fra denne enheten, sammen med eventuelle andre lommeboknøkler som er lagret sammen med den, og lagrer nøkkelen til denne lommeboken i dens sted. Dette kan ikke angres."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_vault_reset_title",
+      "value": "Vil du slette den lagrede nøkkelen?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_vault_unavailable",
+      "value": "Lommeboknøkkelen som er lagret på denne enheten kan ikke leses."
     },
     {
       "_": "types.LangPackString",
@@ -42712,5 +43160,5 @@
       "other_value": "Du betalte {count} stjerner."
     }
   ],
-  "version": 5938349
+  "version": 5947440
 }
