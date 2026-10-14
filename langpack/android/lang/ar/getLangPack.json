@@ -3766,7 +3766,7 @@
     {
       "_": "types.LangPackString",
       "key": "AnonymousNumber",
-      "value": "رقم مجهول"
+      "value": "رقم مقتنى رقمي"
     },
     {
       "_": "types.LangPackString",
@@ -19071,7 +19071,7 @@
     {
       "_": "types.LangPackString",
       "key": "EmailNotAllowed",
-      "value": "نطاق البريد هذا غير مسموح به."
+      "value": "لا يمكن استخدام عنوان البريد الإلكتروني هذا."
     },
     {
       "_": "types.LangPackString",
@@ -28981,7 +28981,7 @@
     {
       "_": "types.LangPackString",
       "key": "InviteToCommunityError",
-      "value": "عذرًا، لا يمكنك إضافة هذا المستخدم إلى المجتمع بسبب إعدادات الخصوصية لديه."
+      "value": "عذرًا، لا يمكنك إضافة هذا المستخدم إلى المجتمع بسبب إعدادات الخصوصية الخاصة به."
     },
     {
       "_": "types.LangPackString",
@@ -32726,7 +32726,7 @@
     {
       "_": "types.LangPackString",
       "key": "MonetizationTransactionDetailWithdrawButton",
-      "value": "عرض في متصفح Blockchain"
+      "value": "عرض في المتصفح"
     },
     {
       "_": "types.LangPackString",
@@ -42030,6 +42030,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PushReactGameScore",
+      "value": "⁨%2$s⁩ على نقاطك في اللعبة"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PushReactGeo",
       "value": "⁨%2$s⁩ على خريطتك"
     },
@@ -42042,6 +42047,21 @@
       "_": "types.LangPackString",
       "key": "PushReactGif",
       "value": "⁨%2$s⁩ على الـ GIF"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PushReactGiftCode",
+      "value": "⁨%2$s⁩ على رمز هديتك"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PushReactGramTransfer",
+      "value": "⁨%2$s⁩ على تحويلك ⁨%3$s⁩"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PushReactGramTransferComment",
+      "value": "⁨%2$s⁩ إلى تحويلك ⁨%3$s⁩: ⁨%4$s⁩"
     },
     {
       "_": "types.LangPackString",
@@ -42060,8 +42080,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PushReactPaidMedia",
+      "value": "⁨%2$s⁩ على منشورك المدفوع"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PushReactPhoto",
       "value": "⁨%2$s⁩ على صورتك"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PushReactPhotoSecret",
+      "value": "⁨%2$s⁩ مع صورتك ذاتية التدمير"
     },
     {
       "_": "types.LangPackString",
@@ -42070,13 +42100,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PushReactProximity",
+      "value": "⁨%2$s⁩ إلى تنبيه القرب الخاص بك"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PushReactQuiz",
       "value": "⁨%2$s⁩ على الاختبار «⁨%3$s⁩»"
     },
     {
       "_": "types.LangPackString",
+      "key": "PushReactRecurringPay",
+      "value": "⁨%2$s⁩ على عملية الدفع"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PushReactRound",
       "value": "⁨%2$s⁩ على رسالتك المرئية"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PushReactSameWallpaper",
+      "value": "⁨%2$s⁩ على خلفية محادثتك"
     },
     {
       "_": "types.LangPackString",
@@ -42087,6 +42132,21 @@
       "_": "types.LangPackString",
       "key": "PushReactStarGift",
       "value": "⁨%2$s⁩ مع هديتك التي تبلغ قيمتها ⁨%3$s⁩ نجوم"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PushReactStarGiftPrepaidUpgrade",
+      "value": "⁨%2$s⁩ لترقية هديتك بقيمة ⁨%3$s⁩ نجوم"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PushReactStarGiftUnpackUpgrade",
+      "value": "⁨%2$s⁩ على الهدية التي ساعدت في ترقيتها"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PushReactStarGiftUpgrade",
+      "value": "⁨%2$s⁩ مع هديتك المُحدَّثة"
     },
     {
       "_": "types.LangPackString",
@@ -42110,8 +42170,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PushReactStoryMention",
+      "value": "⁨%2$s⁩ على الإشارة في القصة"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PushReactSuggestBirthday",
+      "value": "⁨%2$s⁩ على اقتراح يوم الميلاد"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PushReactSuggestUserpic",
+      "value": "⁨%2$s⁩ على الصورة التي اقترحتها"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PushReactText",
       "value": "⁨%2$s⁩ على «⁨%3$s⁩»"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PushReactThemeChange",
+      "value": "⁨%2$s⁩ على تغيير النمط الخاصة بك"
     },
     {
       "_": "types.LangPackString",
@@ -42125,8 +42205,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PushReactUniqueStarGift",
+      "value": "⁨%2$s⁩ مع هديتك"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PushReactVideo",
       "value": "⁨%2$s⁩ على مقطعك المرئي"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PushReactVideoSecret",
+      "value": "⁨%2$s⁩ على مقطع الفيديو ذاتي التدمير"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PushReactWalletTonConnectRequest",
+      "value": "⁨%2$s⁩ لطلب TON Connect الخاص بك"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PushReactWallpaper",
+      "value": "⁨%2$s⁩ على الخلفية الجديدة"
     },
     {
       "_": "types.LangPackString",
@@ -50096,7 +50196,7 @@
     {
       "_": "types.LangPackString",
       "key": "StarsTransactionViewInBlockchainExplorer",
-      "value": "عرض في Blockchain Explorer"
+      "value": "عرض في المتصفح"
     },
     {
       "_": "types.LangPackString",
@@ -59834,6 +59934,16 @@
       "value": "لصق"
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "⁨%d⁩ كلمات",
+      "key": "WalletPhraseWords",
+      "many_value": "⁨%d⁩ كلمة",
+      "one_value": "كلمة واحدة",
+      "other_value": "⁨%d⁩ كلمة",
+      "two_value": "كلمتين",
+      "zero_value": ""
+    },
+    {
       "_": "types.LangPackString",
       "key": "WalletPreview",
       "value": "معاينة"
@@ -60056,7 +60166,7 @@
     {
       "_": "types.LangPackString",
       "key": "WalletTitle",
-      "value": "المحفظة"
+      "value": "الأموال"
     },
     {
       "_": "types.LangPackString",
@@ -61374,5 +61484,5 @@
       "value": "جواز تيليجرام"
     }
   ],
-  "version": 61291390
+  "version": 61293559
 }
