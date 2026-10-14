@@ -42131,7 +42131,12 @@
     {
       "_": "types.LangPackString",
       "key": "lng_wallet_backup_about_on",
-      "value": "La clau de la còpia de seguretat xifrada se separa en tres parts, i s'emmagatzemen arreu de tres continents.\n\nNomés es pot tornar a ajuntar als vostres dispositius, per la qual cosa ningú (ni tan sols Telegram) hi pot accedir."
+      "value": "La clau de la còpia de seguretat xifrada es divideix en tres parts, i s'emmagatzemen arreu de tres continents.\n\nNomés es pot tornar a unir als vostres dispositius, per la qual cosa ningú (ni tan sols Telegram) hi pot accedir."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_cancel_text",
+      "value": "La clau secreta no s'actualitzarà."
     },
     {
       "_": "types.LangPackString",
@@ -42145,8 +42150,73 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_backup_disable_text",
+      "value": "Només podreu recuperar els fons introduint de manera manual la frase secreta."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_disable_title",
+      "value": "Voleu desactivar la còpia de seguretat?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_disabled_text",
+      "value": "La frase secreta és ara l'única manera de recuperar la cartera."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_disabled_title",
+      "value": "S'ha desactivat la còpia de seguretat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_enable",
+      "value": "Activa la còpia de seguretat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_enabled_text",
+      "value": "Les claus s'emmagatzemen xifrades als centres de dades de Telegram."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_enabled_title",
+      "value": "S'ha activat la còpia de seguretat"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_backup_section",
       "value": "Còpia de seguretat xifrada"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_sure_text",
+      "value": "No heu tingut prou temps per a apuntar-les."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_sure_title",
+      "value": "Ho heu fet?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_test_text",
+      "value": "Comproveu que heu escrit correctament la frase secreta. Introduïu les paraules {index1}, {index2} i {index3}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_test_title",
+      "value": "Feu la prova"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_update_check",
+      "value": "Actualitza la frase secreta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_update_text",
+      "value": "Obtindreu una altra frase secreta que haureu d'apuntar. L'adreça i el saldo romanen iguals."
     },
     {
       "_": "types.LangPackString",
@@ -42162,6 +42232,26 @@
       "_": "types.LangPackString",
       "key": "lng_wallet_comment_title",
       "value": "Afegeix un comentari"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_conflict_existing",
+      "value": "També teniu {amount} en carteres antigues"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_title_app",
+      "value": "Connecta la cartera amb {name}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_created_text",
+      "value": "Està llesta perquè la useu."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_created_title",
+      "value": "S'ha creat la cartera"
     },
     {
       "_": "types.LangPackString",
@@ -42195,6 +42285,47 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_import_button",
+      "value": "Importa"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_import_invalid_title",
+      "value": "Paraules secretes no vàlides"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_import_text",
+      "value": "Introduïu la frase secreta d'altra de les vostres carteres."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_import_title",
+      "value": "Importeu una cartera"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_wallet_import_words",
+      "one_value": "{count} paraula",
+      "other_value": "{count} paraules"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_imported_text",
+      "value": "La cartera s'ha restaurat amb la frase secreta."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_imported_title",
+      "value": "S'ha importat la cartera"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_intro_text",
+      "value": "Gram — Moneda digital de Telegram"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_keys_phrase_about",
       "value": "Podeu transferir la cartera a un altre dispositiu copiant la frase secreta."
     },
@@ -42202,6 +42333,11 @@
       "_": "types.LangPackString",
       "key": "lng_wallet_keys_show_phrase",
       "value": "Mostra la frase secreta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_menu",
+      "value": "Diners"
     },
     {
       "_": "types.LangPackString",
@@ -42215,6 +42351,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_phrase_title",
+      "value": "La vostra frase secreta"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_phrase_warn_share",
       "value": "**No compartiu mai** la frase secreta amb ningú."
     },
@@ -42222,6 +42363,11 @@
       "_": "types.LangPackString",
       "key": "lng_wallet_phrase_warn_steal",
       "value": "Si algú l'aconseguís, **podrien robar els vostres fons**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_phrase_warn_support",
+      "value": "L'Assistència de Telegram **no us demanarà mai** la frase secreta."
     },
     {
       "_": "types.LangPackString",
@@ -42277,6 +42423,16 @@
       "_": "types.LangPackString",
       "key": "lng_wallet_send_error_insufficient",
       "value": "Fons insuficients."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_gram_wallet",
+      "value": "Cartera de Grams"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_network_fee",
+      "value": "Tarifa de xarxa: {amount} Grams"
     },
     {
       "_": "types.LangPackString",
@@ -42424,5 +42580,5 @@
       "other_value": "Heu pagat {count} estrelles."
     }
   ],
-  "version": 5946544
+  "version": 5946710
 }
