@@ -41667,8 +41667,23 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.BackupDisabledInfo",
+      "value": "Omogućite šifriranu sigurnosnu kopiju prije vraćanja tajnog niza iz Telegrama."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.AuthorizedOperation.BackupDisabledTitle",
       "value": "Sigurnosna kopija je onemogućena"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.EnableBackupFailedTitle",
+      "value": "Omogućavanje sigurnosne kopije nije uspjelo"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.EnterCurrentPhrase",
+      "value": "Unesite trenutni tajni niz"
     },
     {
       "_": "types.LangPackString",
@@ -41702,13 +41717,63 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.ConnectedAppsController.AllAppsDisconnected",
+      "value": "Veza sa svim aplikacijama je prekinuta."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.ConnectedAppsController.AppInfoDescription",
       "value": "Ova aplikacija može vidjeti adresu vašeg novčanika, stanje i aktivnost. Ne može premještati sredstva bez vašeg odobrenja."
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.ConnectedAppsController.Disconnect",
+      "value": "Prekini vezu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.ConnectedAppsController.DisconnectAll",
+      "value": "Prekini sve"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.ConnectedAppsController.DisconnectAllConfirmInfo",
+      "value": "Ove aplikacije će izgubiti pristup vašem novčaniku. Možete ih ponovno povezati u bilo kojem trenutku."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.ConnectedAppsController.DisconnectAllConfirmTitle",
+      "value": "Prekinuti vezu sa svim aplikacijama?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.ConnectedAppsController.DisconnectAllFailed",
+      "value": "Nije moguće prekinuti vezu ovih aplikacija. Molimo pokušajte ponovo."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.ConnectedAppsController.DisconnectFailed",
+      "value": "Nije moguće prekinuti vezu ove aplikacije. Molimo pokušajte ponovo."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.ConnectedAppsController.Footer",
       "value": "Povezane aplikacije mogu vidjeti vašu adresu novčanika, stanje i aktivnost. Ne mogu premještati sredstva bez vašeg odobrenja."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Controller.Connect",
+      "value": "Poveži"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Controller.ConnectTo",
+      "value": "Povežite sa %1$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Controller.ConnectedApps",
+      "value": "Povezane aplikacije"
     },
     {
       "_": "types.LangPackString",
@@ -41724,6 +41789,21 @@
       "_": "types.LangPackString",
       "key": "Wallet.Controller.Money",
       "value": "Novac"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Controller.NoFundsWithoutPermission",
+      "value": "%1$@ neće moći premještati sredstva bez dopuštenja."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Controller.PermissionProof",
+      "value": "%1$@ zahtijeva da dokažete vlasništvo nad ovim novčanikom."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Controller.PermissionViewWallet",
+      "value": "Moći će vidjeti vašu adresu novčanika, stanje i aktivnost."
     },
     {
       "_": "types.LangPackString",
@@ -41777,6 +41857,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.FlowAuthorization.RestoreFailedTitle",
+      "value": "Vraćanje novčanika nije uspjelo"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.ImportController.BackupDisabledInfo",
       "value": "Budući da ste onemogućili sigurnosne kopije za svoj novčanik, morate ručno unijeti tajni niz riječi u svakoj novoj Telegram sesiji."
     },
@@ -41789,6 +41874,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.ImportController.EnableBackupInfo",
       "value": "Unesite trenutačni tajni niz od 12 ili 24 riječi kako biste omogućili šifriranu sigurnosnu kopiju."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.ImportController.Import",
+      "value": "Uvezi"
     },
     {
       "_": "types.LangPackString",
@@ -41982,6 +42072,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.ReceiveController.PurchaseFailedTitle",
+      "value": "Kupnja nije uspjela"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.ReceiveController.PurchaseUnavailableInfo",
+      "value": "Kupnju nije bilo moguće pokrenuti. Pokušajte ponovno."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.ReceiveController.PurchaseUnavailableTitle",
+      "value": "Kupnja nije moguća"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.ReceiveController.ShowQr",
       "value": "Prikaži moj QR"
     },
@@ -42022,8 +42127,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.ReplaceController.ReplaceFailedTitle",
+      "value": "Zamjena novčanika nije uspela"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.SendController.AddComment",
       "value": "Dodaj komentar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.SendController.CollectibleSent",
+      "value": "Kolekcionarski primjerak je poslan primatelju %1$@."
     },
     {
       "_": "types.LangPackString",
@@ -42069,6 +42184,16 @@
       "_": "types.LangPackString",
       "key": "Wallet.SendController.Title",
       "value": "Pošaljite novac"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.SendController.TransferPendingInfo",
+      "value": "Sredstva su možda poslana. Nemojte ih ponovno slati dok se status slanja provjerava."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.SendController.TransferPendingTitle",
+      "value": "Prijenos je na čekanju"
     },
     {
       "_": "types.LangPackString",
@@ -42137,6 +42262,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.SettingsController.DisableBackupZeroBalance",
+      "value": "Za ažuriranje vašeg tajnog niza potrebna su vam neka sredstva."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.SettingsController.EncryptedBackupHeader",
       "value": "ŠIFRIRANA SIGURNOSNA KOPIJA"
     },
@@ -42149,6 +42279,16 @@
       "_": "types.LangPackString",
       "key": "Wallet.SettingsController.EnterSecretPhraseInfo",
       "value": "Unesite svoj tajni niz riječi da vratite pristup ovom novčaniku."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.SettingsController.ErrorDisableBackup",
+      "value": "Nije moguće potvrditi da je sigurnosna kopija onemogućena. Provjerite mrežnu vezu i pokušajte ponovno."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.SettingsController.ErrorDisableBackupTitle",
+      "value": "Onemogućavanje sigurnosne kopije nije uspjelo"
     },
     {
       "_": "types.LangPackString",
@@ -42192,8 +42332,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.SettingsController.InsufficientBalanceTopUp",
+      "value": "Dopuni"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.SettingsController.KeysAndBackup",
       "value": "Ključevi i kopija"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.SettingsController.PreviousWalletSubtitle",
+      "value": "\n%1$@ — zadnje korišteno %2$@"
     },
     {
       "_": "types.LangPackString",
@@ -42209,6 +42359,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.SettingsController.ShowSecretPhrase",
       "value": "Prikaži tajni niz"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.SettingsController.ShowSecretPhraseFailed",
+      "value": "Prikaz tajnog niza nije uspio"
     },
     {
       "_": "types.LangPackString",
@@ -42239,6 +42394,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.SettingsController.WalletImportedInfo",
       "value": "Vaš novčanik je obnovljen pomoću tajnog niza riječi."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TonConnect.Retry",
+      "value": "Pokušaj ponovno"
     },
     {
       "_": "types.LangPackString",
@@ -42367,6 +42527,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.TransactionRowItem.CardTopUp",
+      "value": "Dopuna karticom"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.TransactionRowItem.CollectibleGift",
       "value": "Kolekcionarski poklon"
     },
@@ -42374,6 +42539,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.TransactionRowItem.Deposit",
       "value": "Polog"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TransactionRowItem.Failed",
+      "value": "Neuspješno"
     },
     {
       "_": "types.LangPackString",
@@ -42417,6 +42587,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.TransactionRowItem.Withdrawal",
+      "value": "Isplata"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.TransferPresentation.AllBalance",
       "value": "Ukupno stanje"
     },
@@ -42431,6 +42606,21 @@
       "key": "Wallet.TransferPresentation.Recipients",
       "one_value": "%1$d primatelj",
       "other_value": "%1$d primatelja"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TransferPresentation.SignMessageExplanation",
+      "value": "Pregledajte detalje poruke i potpišite ako se slažete."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TransferPresentation.SignTextExplanation",
+      "value": "Pažljivo pregledajte poruku i ako se slažete, potpišite podatke."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TransferPresentation.SubmitUntil",
+      "value": "Aplikacija može poslati ovaj prijenos do %1$@."
     },
     {
       "_": "types.LangPackString",
@@ -43328,5 +43518,5 @@
       "value": "Prikaži zamjene"
     }
   ],
-  "version": 2379666
+  "version": 2381145
 }
