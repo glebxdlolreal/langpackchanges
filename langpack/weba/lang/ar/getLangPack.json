@@ -425,6 +425,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ActionGramTransferSent",
+      "value": "أُرسل"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ActionGroupCallFinishedChannel",
       "value": "انتهت المحادثة المرئية (⁨{duration}⁩)"
     },
@@ -1272,6 +1277,11 @@
       "_": "types.LangPackString",
       "key": "AreYouSureDeleteThisChatWithGroup",
       "value": "هل تريدون فعلًا حذف المحادثة **⁨{chat}⁩**؟"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AreYouSureLogoutGrams",
+      "value": "هل تريد فعلًا تسجيل الخروج؟\n\nسيؤدي هذا إلى إلغاء كل محادثاتك السرية و**حذف النسخ الاحتياطية للمحفظة التي تحتوي على ⁨{amount}⁩**. بدون عباراتها السرية، ستفقد الوصول إلى هذه الأموال!\n\nيمكنك استخدام تيليجرام على كل أجهزتك في نفس الوقت، ويمكنك استخدام عدة حسابات في نفس التطبيق."
     },
     {
       "_": "types.LangPackString",
@@ -5082,6 +5092,11 @@
       "other_value": "خلال ⁨{days}⁩ يوم، سوف تكون قادرًا على إرسال هذا المقتنى الرقمي إلى أي عنوان TON blockchain خارج تيليجرام للبيع أو المزاد.",
       "two_value": "خلال يومين، سوف تكون قادرًا على إرسال هذا المقتنى الرقمي إلى أي عنوان TON blockchain خارج تيليجرام للبيع أو المزاد.",
       "zero_value": ""
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GramEarningsText",
+      "value": "عملة «جرام» التي حصلت عليها من الهدايا،\nوالإعلانات، و «Fragment»."
     },
     {
       "_": "types.LangPackString",
@@ -9765,6 +9780,486 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletAddressNoLinkedAccount",
+      "value": "لا يوجد حساب على تيليجرام \nمرتبط بهذا العنوان."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletAlsoHaveOldWallets",
+      "value": "لديك أيضًا ⁨{amount}⁩ في محافظ قديمة"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBackupEnabledText",
+      "value": "يتم الآن تخزين مفاتيحك مشفرة عبر مراكز بيانات تيليجرام."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBackupEnabledTitle",
+      "value": "تم تفعيل النسخ الاحتياطي"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBackupHint",
+      "value": "يتم تقسيم النسخة الاحتياطية المشفرة لمفتاحك إلى ثلاثة أجزاء وتخزينها في ثلاث قارات مختلفة.\n\nولا يمكن إعادة تجميعها إلا على أجهزتك، لذا لا يمكن لأحد — ولا حتى تيليجرام — الوصول إلى مفتاحك."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBackupOffHint",
+      "value": "سيتم تقسيم نسخة مفتاحك المشفر الاحتياطية إلى ثلاثة أجزاء وتخزينها في ثلاث قارات.\n\nلا يمكن إعادة تجميعها إلا على أجهزتك، لذا لا يمكن لأحد - ولا حتى تطبيق تيليجرام - الوصول إلى مفتاحك."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBackupTitle",
+      "value": "نسخة احتياطية مشفرة"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCollectibleGift",
+      "value": "هدية مقتنى رقمي"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCollectibleItemIn",
+      "value": "+1 عنصر"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCollectibleItemOut",
+      "value": "-1 عنصر"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCollectibleNumber",
+      "value": "رقم مقتنى رقمي"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCollectibleTraits",
+      "value": "⁨{model}⁩ على ⁨{backdrop}⁩"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCollectibleUnavailable",
+      "value": "تعذر إعداد عملية نقل المقتنيات"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCollectibleUsername",
+      "value": "اسم مستخدم مقتنى رقمي"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectBinaryData",
+      "value": "البيانات الثنائية"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectBlindSign",
+      "value": "أنت توقع على أساس أعمى. لا توقع إلا من مصادر موثوقة."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectReviewSign",
+      "value": "يرجى مراجعة الرسالة بعناية والتوقيع على البيانات في حال الموافقة."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectSign",
+      "value": "توقيع"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectSignData",
+      "value": "توقيع البيانات"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectedApps",
+      "value": "التطبيقات المرتبطة"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCopyAddress",
+      "value": "نسخ العنوان"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCreatedTitle",
+      "value": "تم إنشاء المحفظة"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDeleteAnyway",
+      "value": "حذف على أي حال"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDeleteText",
+      "value": "ستفقد إمكانية الوصول إلى أموالك ما لم تكن قد حفظت عبارتك السرية."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDeleteTitle",
+      "value": "حذف المحفظة؟"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDeleteWallet",
+      "value": "حذف المحفظة"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDepositFunds",
+      "value": "إيداع الأموال"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDisableBackup",
+      "value": "تعطيل النسخ الاحتياطي"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDisableBackupRotateText",
+      "value": "سيتم حذف النسخة الاحتياطية المشفرة الموزعة. سيتم تحويل محفظتك إلى عبارة سرية جديدة. ستكون هذه العبارة السرية هي الطريقة الوحيدة لاستعادة هذه المحفظة."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDisableBackupText",
+      "value": "سيتم حذف النسخة الاحتياطية المشفرة الموزعة الخاصة بك. ستكون عبارة الاستعادة السرية هي الطريقة الوحيدة لاستعادة هذه المحفظة."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDisableBackupTitle",
+      "value": "تعطيل النسخ الاحتياطي؟"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDisconnect",
+      "value": "إلغاء الربط"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletEnableBackup",
+      "value": "تفعيل النسخ الاحتياطي"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletExistingWaltBalance",
+      "value": "لديك أيضاً أموال في حساب Walt"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletFeatureInstantText",
+      "value": "أرسل «عملة جرام» في أي محادثة، تمامًا مثل\nمشاركة صورة"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletFeatureInstantTitle",
+      "value": "أرسل الأموال فوراً"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletFeatureNoFeesText",
+      "value": "أول 5 عمليات تحويل يوميًا مجانية. أما البقية فتكلف مبلغًا ضئيلًا للغاية."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletFeatureNoFeesTitle",
+      "value": "بلا رسوم"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletFeatureVerifiedText",
+      "value": "تُسجل جميع العمليات\nويمكن التحقق منها في سجل عام."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletFeatureVerifiedTitle",
+      "value": "تم التحقق من صحة البيانات باستخدام تقنية البلوك تشين"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletHowItWorksDone",
+      "value": "فهمت"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletHowItWorksSubtitle",
+      "value": "أنت وحدك من يتحكم في أموالك، \nلا يستطيع أحد الوصول إليها."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletHowItWorksTitle",
+      "value": "كيفية عملها"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletImportOwnSubtitle",
+      "value": "أدخل عبارة الاسترداد الخاصة بمحفظتك من جهاز آخر."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletIntroStoreText",
+      "value": "احتفظ بـ«جرام» الخاصة بك في تيليجرام \n(💬 → ⋮ → «الأموال») أو في محافظ أخرى."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletNetworkFeesTitle",
+      "value": "رسوم الشبكة"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletOtherWalletsHint",
+      "value": "المحافظ التي استخدمتها سابقًا على هذا الجهاز. احفظ عبارات الاسترداد الخاصة بها — فستتم إزالتها إذا قمت بتسجيل الخروج أو مسح بيانات المتصفح."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletOtherWalletsTitle",
+      "value": "المحافظ السابقة"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletPaste",
+      "value": "لصق"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletPhraseInfoCanSteal",
+      "value": "إذا كان لدى شخص ما عبارتك السرية، فإنه **يستطيع سرقة أموالك**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletPhraseInfoNeverShare",
+      "value": "**لا تشارك** عبارتك السرية مع أي شخص."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletPhraseInfoSupport",
+      "value": "**لن يطلب منك** فريق دعم تيليجرام **أبدًا** عبارة السر الخاصة بك."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletProofInvalidError",
+      "value": "تحقق من ترتيب الكلمات.\n\nفقط عبارة الاسترداد التي تم إنشاؤها في تيليجرام يمكن استيرادها هنا."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletReceiveBuy",
+      "value": "الشراء نقدًا أو بالعملات الرقمية"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletReceiveNetworkNote",
+      "value": "شارك عنوانك أو رمز الاستجابة السريعة هذا لاستلام عملة جرام."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletReceiveTitle",
+      "value": "إضافة أموال"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletRecoveryPhraseHint",
+      "value": "يمكنك نقل محفظتك إلى جهاز آخر عن طريق نسخ عبارتك السرية."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletRecoveryPhraseSubtitle",
+      "value": "عبارتك السرية هي مفتاح حماية محفظتك. حافظ عليها سرية وآمنة في جميع الأوقات."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletReplaceCreate",
+      "value": "إنشاء محفظة جديدة"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletReplaceImport",
+      "value": "استيراد محفظة موجودة"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletReplaceTitle",
+      "value": "كيف تريد استبدال المحفظة القديمة؟"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletReplaced",
+      "value": "محفظتك الجديدة جاهزة للاستخدام."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletRestored",
+      "value": "تم استعادة محفظتك باستخدام عبارتك السرية."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSavedImport",
+      "value": "استيراد المحفظة"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSecretPhraseTitle",
+      "value": "العبارة السرية"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSend",
+      "value": "إرسال"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendAddressLinked",
+      "value": "يرتبط عنوان TON Blockchain هذا بـ ⁨{name}⁩ على تيليجرام."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendBalance",
+      "value": "الرصيد: ⁨{amount}⁩"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendCollectibleTitle",
+      "value": "تحويل مقتنيات رقمية"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendContinue",
+      "value": "متابعة"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendInsufficientFunds",
+      "value": "الأموال غير كافية."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendMinAmount",
+      "value": "الحد الأدنى للمبلغ: ⁨{amount}⁩"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendMoney",
+      "value": "إرسال الأموال"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendNetworkFee",
+      "value": "رسوم الشبكة: ⁨{amount}⁩"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendRecipient",
+      "value": "الاسم أو عنوان المحفظة"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendTitle",
+      "value": "إرسال جرام"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletShowRecoveryPhrase",
+      "value": "إظهار العبارة السرية"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTermsNotice",
+      "value": "باستخدامك لهذه الخدمة، فإنك توافق على ⁨{link}⁩."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTitle",
+      "value": "الأموال"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionAddress",
+      "value": "العنوان"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionFee",
+      "value": "العمولة"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionFeeFree",
+      "value": "مجاني (يتم الدفع عبر تيليجرام)"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionIncoming",
+      "value": "تحويل وارد"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionOpenWallet",
+      "value": " فتح أموالي"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionOutgoing",
+      "value": "تحويل صادر"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionRecipient",
+      "value": "المستلم"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionSender",
+      "value": "المرسل"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionSending",
+      "value": "إرسال…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionTopUp",
+      "value": "تعبئة"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionsHidden",
+      "value": "العمليات التي تقل عن ⁨{amount}⁩ مخفية."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUpdatePhrase",
+      "value": "تحديث العبارة السرية"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUpdatePhraseHint",
+      "value": "ستحصل على عبارة جديدة لتدوينها. يبقى العنوان والرصيد كما هما."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletViewInExplorer",
+      "value": "عرض في المتصفح"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletWhatIsGram",
+      "value": "ما هي عملة جرام؟"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletWhatIsWallet",
+      "value": "ما هي الأموال؟"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletWrongPhraseText",
+      "value": "الكلمات المُدخلة لا تتطابق مع المحفظة."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WantsToSpeak",
       "value": "يطلب التحدّث"
     },
@@ -9959,5 +10454,5 @@
       "value": "اسمك"
     }
   ],
-  "version": 300767
+  "version": 302927
 }
