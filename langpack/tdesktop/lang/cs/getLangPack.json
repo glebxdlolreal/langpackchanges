@@ -1803,6 +1803,47 @@
       "value": "{from} právě zahájil/a soutěž o předplatné Telegram Premium pro své členy."
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "{amount} Gram",
+      "key": "lng_action_gram_transfer_amount",
+      "many_value": "{amount} Gram",
+      "one_value": "{amount} Gram",
+      "other_value": "{amount} Gram"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gram_transfer_amount_fiat",
+      "value": "{amount} ({fiat})"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gram_transfer_received",
+      "value": "{user} vám poslal/a {amount}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gram_transfer_received_tag",
+      "value": "přijato"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gram_transfer_sent",
+      "value": "Poslal/a jste {amount} uživateli {user}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gram_transfer_sent_tag",
+      "value": "posláno"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Gram",
+      "key": "lng_action_gram_transfer_ticker",
+      "many_value": "Gram",
+      "one_value": "Gram",
+      "other_value": "Gram"
+    },
+    {
       "_": "types.LangPackString",
       "key": "lng_action_group_call_finished",
       "value": "Živý přenos ukončen ({duration})"
@@ -5012,6 +5053,11 @@
       "_": "types.LangPackString",
       "key": "lng_attach",
       "value": "Přidat přílohu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_attach_audio",
+      "value": "Audio"
     },
     {
       "_": "types.LangPackString",
@@ -8467,7 +8513,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_channel_earn_history_out_button",
-      "value": "Zobrazit v Blockchain Explorer"
+      "value": "Zobrazit v Průzkumníku"
     },
     {
       "_": "types.LangPackString",
@@ -9460,6 +9506,11 @@
       "_": "types.LangPackString",
       "key": "lng_chatbots_warning_username_text",
       "value": "Bot {bot} bude moci **nastavovat a odstraňovat uživatelská jména** vašeho účtu, což může vést ke ztrátě vašeho aktuálního uživatelského jména."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_choose_audio",
+      "value": "Vyberte audio soubor"
     },
     {
       "_": "types.LangPackString",
@@ -26950,6 +27001,56 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_passcode_strength_advice_date",
+      "value": "Vyhněte se uvádění dat a letopočtů."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_passcode_strength_advice_fine",
+      "value": "Tento přístupový kód je těžké uhodnout."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_passcode_strength_advice_keyboard",
+      "value": "Vyhněte se klávesovým zkratkám."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_passcode_strength_advice_leet",
+      "value": "Nahrazování písmen symboly, které se jim podobají, nepomůže."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_passcode_strength_advice_repeat",
+      "value": "Vyhněte se opakujícím se znakům."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_passcode_strength_advice_sequence",
+      "value": "Vyhněte se řetězcům jako abc nebo 123."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_passcode_strength_advice_short",
+      "value": "Zadejte alespoň 8 znaků."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_passcode_strength_advice_variety",
+      "value": "Prodlužte kód a přidejte více různých typů znaků."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_passcode_strength_advice_word",
+      "value": "Vyhněte se běžným slovům a jménům."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_passcode_strength_empty",
+      "value": "Odhad síly přístupového kódu."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_passcode_submit",
       "value": "POTVRDIT"
     },
@@ -28247,7 +28348,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_payments_webview_install_webkit",
-      "value": "Nainstalujte si prosím WebKitGTK (webkit2gtk-4.1/webkit2gtk-4.0) pomocí svého správce balíčků."
+      "value": "Nainstalujte WebKitGTK (webkitgtk-6.0/webkit2gtk-4.1/webkit2gtk-4.0) pomocí svého správce balíčků."
     },
     {
       "_": "types.LangPackString",
@@ -28391,6 +28492,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_photo_editor_audio_remove",
+      "value": "Odebrat audio"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_photo_editor_corners_about",
       "value": "Vyberte, jaké zaoblení mají mít rohy samolepky."
     },
@@ -28463,6 +28569,191 @@
       "_": "types.LangPackString",
       "key": "lng_photo_editor_keep_ratio",
       "value": "Zachovat původní poměr stran"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_canvas",
+      "value": "Plátno"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_canvas_pan",
+      "value": "Plátno s panoramatickým přiblížením"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_canvas_paste",
+      "value": "Vložit obrázek, samolepku, soubor nebo odkaz"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_canvas_redo",
+      "value": "Opakovat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_canvas_undo",
+      "value": "Vrátit zpět"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_canvas_zoom",
+      "value": "Zvětšit plátno v místě kurzoru"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_crop",
+      "value": "Oříznout"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_crop_expand",
+      "value": "Rozšířit plátno za okraj fotky"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_double_click",
+      "value": "Dvojklik"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_fixed_pan",
+      "value": "Posunout obrázek uvnitř rámečku"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_fixed_zoom",
+      "value": "Zvětšit obrázek uvnitř rámečku"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_fixed_zoom_fine",
+      "value": "Přiblížit v jemnějších krocích"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_gesture",
+      "value": "{modifier}-{gesture}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_gesture_click",
+      "value": "kliknutí"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_gesture_drag",
+      "value": "přetáhnout"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_gesture_drag_edge",
+      "value": "přetáhnout okraj"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_gesture_wheel",
+      "value": "kolo"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_legend",
+      "value": "Zobrazit tyto zkratky"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_middle_drag",
+      "value": "Tah středem"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_objects",
+      "value": "Objekty"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_objects_delete",
+      "value": "Smazat výběr"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_objects_duplicate",
+      "value": "Duplikovat výběr"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_objects_flip",
+      "value": "Překlopit výběr vodorovně"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_objects_rotate",
+      "value": "Pouze otočit, po 45°"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_objects_snap",
+      "value": "Přichytit k vodítkům plátna"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_objects_stretch",
+      "value": "Tvar libovolně roztáhnout"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_objects_text",
+      "value": "Upravit text"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_shapes",
+      "value": "Tvary"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_shapes_instant",
+      "value": "Vložit tvar přímo z nabídky"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_shapes_proportions",
+      "value": "Zachovat proporce nebo úhel šipky"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_timeline",
+      "value": "Časová osa"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_timeline_scroll",
+      "value": "Posouvat časovou osu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_timeline_window",
+      "value": "Přesunout oříznutý rozsah"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_timeline_zoom",
+      "value": "Přiblížit časovou osu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_tooltip",
+      "value": "Klávesové zkratky"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_wheel",
+      "value": "Kolo"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_link_customize",
+      "value": "Přizpůsobit text odkazu"
     },
     {
       "_": "types.LangPackString",
@@ -36681,8 +36972,23 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_settings_passcode_lock_app",
+      "value": "Zamknout Telegram přístupovým kódem"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_settings_passcode_lock_off_wallet",
+      "value": "Tento přístupový kód bude vyžadován jen k potvrzení transakcí, ne k otevření vaší peněženky."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_settings_passcode_title",
       "value": "Lokální heslo"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_settings_passcode_wallet_about",
+      "value": "Tento přístupový kód chrání klíče peněženky uložené v tomto zařízení."
     },
     {
       "_": "types.LangPackString",
@@ -38075,6 +38381,11 @@
       "_": "types.LangPackString",
       "key": "lng_shortcuts_silent_send",
       "value": "Tiše poslat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_shortcuts_stash_message",
+      "value": "Uložit nebo obnovit zprávu"
     },
     {
       "_": "types.LangPackString",
@@ -39691,6 +40002,16 @@
       "_": "types.LangPackString",
       "key": "lng_start_msgs",
       "value": "Začít komunikovat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_stash_files_limit",
+      "value": "Příliš mnoho souborů nebo příliš velké soubory k uložení."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_stash_hint",
+      "value": "Stiskněte {shortcut} pro uložení tohoto konceptu."
     },
     {
       "_": "types.LangPackString",
@@ -41594,6 +41915,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_sure_logout_wallet_unknown",
+      "value": "Pokud toto zařízení obsahuje klíče k peněžence Gram, jejich další používání je zničí. Lze je obnovit pouze ze zálohy v Telegramu nebo pomocí vaší tajné fráze."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_sure_remove_user_channel",
       "value": "Odebrat uživatele {user} z kanálu?"
     },
@@ -43355,6 +43681,174 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_about_chain_text",
+      "value": "Všechny transakce jsou zaznamenány a lze je ověřit ve veřejné účetní knize."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_about_chain_title",
+      "value": "Ověřeno pomocí blockchainu"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "První {count} převody jsou každý den zdarma. Zbytek nestojí téměř nic.",
+      "key": "lng_wallet_about_fees_text",
+      "many_value": "Prvních {count} převodů je každý den zdarma. Zbytek nestojí téměř nic.",
+      "one_value": "První {count} převod je každý den zdarma. Zbytek nestojí téměř nic.",
+      "other_value": "Prvních {count} převodů je každý den zdarma. Zbytek nestojí téměř nic."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_about_fees_title",
+      "value": "Žádné poplatky"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_about_instant_text",
+      "value": "Posílejte Gram v jakékoliv konverzaci, stejně jako sdílení fotek."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_about_instant_title",
+      "value": "Okamžitý převod peněz"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_add_funds",
+      "value": "Přidat prostředky"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_about_on",
+      "value": "Vaše šifrovaná záloha klíče je rozdělena na tři části a uložena na třech kontinentech.\n\nSložit ji lze pouze na vašich zařízeních, takže k vašemu klíči nemá přístup nikdo — ani samotný Telegram."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_cancel_text",
+      "value": "Vaše tajná fráze nebude aktualizována."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_cancel_title",
+      "value": "Ponechat zálohu?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_disable",
+      "value": "Zakázat zálohu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_disable_text",
+      "value": "Jediným způsobem, jak získat své prostředky zpět, bude ruční zadání tajné fráze."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_disable_title",
+      "value": "Zakázat zálohu?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_disabled_text",
+      "value": "Vaše tajná fráze je nyní jediným způsobem, jak obnovit vaši peněženku."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_disabled_title",
+      "value": "Záloha zakázána"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_enable",
+      "value": "Povolit zálohu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_enabled_text",
+      "value": "Vaše klíče jsou nyní uloženy v šifrované podobě v datových centrech Telegram."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_enabled_title",
+      "value": "Záloha povolena"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_section",
+      "value": "Šifrovaná záloha"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_sure_text",
+      "value": "Neměl/a jste dostatek času tato slova zapsat."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_sure_title",
+      "value": "Opravdu hotovo?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_test_text",
+      "value": "Ujistěte se, že jste si tajnou frázi zapsali správně.\nZadejte slova {index1}, {index2}* a {index3}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_test_title",
+      "value": "Čas testu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_buy_button",
+      "value": "Nakupovat v hotovosti nebo kryptoměnou"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_chip_number",
+      "value": "Sběratelské číslo"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_collectible_gift_attributes",
+      "value": "{model} na {backdrop}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_collectible_not_owned",
+      "value": "Tento sběratelský předmět už ve vaší peněžence není."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_collectible_number_about",
+      "value": "Sběratelské číslo {number} lze použít k vytvoření účtu v Telegramu, který není vázán na SIM kartu."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_collectible_own_wallet",
+      "value": "Tento sběratelský předmět už máte v peněžence."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_collectible_send",
+      "value": "Poslat {name}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_comment_make_public",
+      "value": "Zveřejnit komentář"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_comment_public",
+      "value": "Veřejné komentáře se zapisují do blockchainu a jsou trvale viditelné pro všechny. Nikdy do nich neuvádějte osobní údaje."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_comment_title",
+      "value": "Přidat komentář"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_connect_request_call_contract",
       "value": "Volání kontraktu"
     },
@@ -43367,6 +43861,397 @@
       "_": "types.LangPackString",
       "key": "lng_wallet_connect_request_deploy_contract",
       "value": "Nasazení kontraktu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_currency_none",
+      "value": "Nenalezeny žádné měny"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_currency_title",
+      "value": "Zvolte měnu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_delete_text",
+      "value": "Ztratíte přístup ke svým prostředkům, pokud jste si neuložili 12slovnou tajnou frázi."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_delete_title",
+      "value": "Smazat peněženku?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_address",
+      "value": "Adresa"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_date",
+      "value": "Datum"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_fee",
+      "value": "Poplatek"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_fee_free",
+      "value": "Zdarma (platí Telegram)"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_open_wallet",
+      "value": "Otevřít Mé peníze"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_recipient",
+      "value": "Příjemce"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_sender",
+      "value": "Odesílatel"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_title",
+      "value": "Transakce"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_earnings_existing",
+      "value": "Také máte {amount} v příjmech Gram"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Každý převod je spojen s malým síťovým poplatkem. \nTelegram hradí první {count} převody každý den.",
+      "key": "lng_wallet_fees_text",
+      "many_value": "Každý převod je spojen s malým síťovým poplatkem. \nTelegram hradí prvních {count} převodů každý den.",
+      "one_value": "Každý převod je spojen s malým síťovým poplatkem. \nTelegram hradí první {count} převod každý den.",
+      "other_value": "Každý převod je spojen s malým síťovým poplatkem. \nTelegram hradí prvních {count} převodů každý den."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_fees_title",
+      "value": "Síťový poplatek"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_first_rate",
+      "value": "1 Gram se momentálně rovná {amount}.\nMůžete:"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_first_send_text",
+      "value": "Převést Gram komukoliv.\nKlikněte na {attach} → {money} v konverzaci."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_first_send_title",
+      "value": "Poslat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_first_store_text",
+      "value": "Uchovávat Gram v Telegramu\n({menu} → {wallet}) nebo v jiných peněženkách."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_first_store_title",
+      "value": "Uložit"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_first_title",
+      "value": "Váš první Gram!"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_first_trade_text",
+      "value": "Převést Gram na hotovost nebo kryptoměny na burzách."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_first_trade_title",
+      "value": "Obchodovat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_how_menu",
+      "value": "Co jsou Peníze?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_how_subtitle",
+      "value": "O svých prostředcích rozhodujete jen vy — nikdo jiný k nim nemá přístup."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_how_title",
+      "value": "Jak to funguje"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_intro_text",
+      "value": "Gram — digitální měna pro Telegram"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_keys_delete",
+      "value": "Smazat peněženku"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_keys_phrase_about",
+      "value": "Peněženku můžete přenést do jiného zařízení zkopírováním své 12slovné tajné fráze."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_keys_show_phrase",
+      "value": "Zobrazit tajnou frázi"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_keys_title",
+      "value": "Klíče a záloha"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_menu",
+      "value": "Peníze"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_menu_currency",
+      "value": "Měna"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_passcode_forgot",
+      "value": "Zapomněli jste přístupový kód?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_passcode_forgot_about",
+      "value": "Bez přístupového kódu nelze na tomto zařízení otevřít uložené klíče peněženky. Můžete z tohoto zařízení odstranit všechny klíče peněženky i přístupový kód a nadále používat Telegram — nebudete odhlášeni."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_passcode_forgot_backed",
+      "value": "Peněženku lze obnovit ze zálohy v Telegramu."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_passcode_forgot_confirm",
+      "value": "Odstranit klíče"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_phrase_intro_text",
+      "value": "Vaše tajná fráze je klíčem k záloze vaší peněženky. Uchovávejte ji vždy v tajnosti a v bezpečí."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_phrase_intro_title",
+      "value": "Tajná fráze"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Zapište si tato {count} slovo a uložte si je na bezpečném místě. Uchovávejte je vždy v tajnosti a v bezpečí.",
+      "key": "lng_wallet_phrase_text",
+      "many_value": "Zapište si těchto {count} slov a uložte si je na bezpečném místě. Uchovávejte je vždy v tajnosti a v bezpečí.",
+      "one_value": "Zapište si toto {count} slovo a uložte si ho na bezpečném místě. Uchovávejte ho vždy v tajnosti a v bezpečí.",
+      "other_value": "Zapište si těchto {count} slov a uložte si je na bezpečném místě. Uchovávejte je vždy v tajnosti a v bezpečí."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_phrase_title",
+      "value": "Vaše tajná fráze"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_phrase_warn_share",
+      "value": "**Nikdy nikomu nesdělujte** svou tajnou frázi."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_phrase_warn_steal",
+      "value": "Pokud někdo zná vaši tajnou frázi, **může vám ukrást prostředky**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_phrase_warn_support",
+      "value": "Podpora Telegramu **vás nikdy nebude žádat** o zadání tajné fráze."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_about",
+      "value": "Zvolte, jakým způsobem budou vaše finanční prostředky na tomto zařízení chráněny."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_create_about",
+      "value": "Tento přístupový kód chrání klíč vaší peněženky na tomto zařízení. Nezamykejte Telegram, dokud tuto funkci nezapnete v nastavení."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_open",
+      "value": "Nežádat o přístupový kód"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_open_about",
+      "value": "Kdokoli s přístupem k vašemu účtu Telegram může utratit vaše prostředky."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_open_confirm",
+      "value": "Přesto uložit"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_open_title",
+      "value": "Ukládat bez přístupového kódu?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_open_warning_nolock",
+      "value": "Kdokoli, kdo získá přístup k tomuto počítači, bude moci ukrást prostředky z vaší peněženky.\n\nToto nastavení můžete později změnit v Zamykání přístup. kódem v menu peněženky."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_passcode",
+      "value": "Požádat o místní přístupový kód"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_passcode_about",
+      "value": "Všechny výdaje potvrzujte pomocí svého přístupového kódu v Telegramu."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_passcode_change",
+      "value": "Změnit přístupový kód {arrow}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_passcode_keep",
+      "value": "Neustále vyžadovat tento přístupový kód"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_removal_about",
+      "value": "Zvolte, jak budou vaše prostředky chráněny po odstranění přístupového kódu."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_removal_wallets",
+      "value": "To se týká peněženek {accounts}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_title",
+      "value": "Zamykání přístup. kódem"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_readonly_bar",
+      "value": "Toto zařízení může tuto peněženku zobrazit, ale nemůže z ní odesílat platby."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_receive_about",
+      "value": "Sdílejte svou adresu nebo tento QR kód a získejte GRAM."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_receive_copy_hint",
+      "value": "Kliknutím zkopírovat adresu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_replace_title",
+      "value": "Jak chcete nahradit starou peněženku?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_restore_not_saved",
+      "value": "Tajná fráze nebyla v tomto zařízení uložena."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_incoming",
+      "value": "Příchozí převod"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_outgoing",
+      "value": "Odchozí převod"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_rows_hidden_below",
+      "value": "Transakce pod {amount} Gram jsou skryté."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_rows_title",
+      "value": "Transakce"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_amount",
+      "value": "Poslat {amount} Gram"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_balance",
+      "value": "Zůstatek: {amount} Gram"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_comment_optional",
+      "value": "Volitelný komentář"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_error_insufficient",
+      "value": "Nedostatek prostředků."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_error_too_small",
+      "value": "Min. převod je {amount} Gram."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_gram_wallet",
+      "value": "Peněženka Gram"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_title",
+      "value": "Poslat Gram"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_user_title",
+      "value": "Poslat peníze do"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_user_wallet_about",
+      "value": "Tato adresa v blockchainu TON je propojena s {name} na Telegramu."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_user_wallet_title",
+      "value": "Peněženka uživatele {name}"
     },
     {
       "_": "types.LangPackString",
@@ -43514,5 +44399,5 @@
       "other_value": "Zaplatil/a jste {count} hvězd."
     }
   ],
-  "version": 5935401
+  "version": 5946776
 }
