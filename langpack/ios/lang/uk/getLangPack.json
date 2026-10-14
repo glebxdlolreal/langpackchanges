@@ -761,7 +761,7 @@
     {
       "_": "types.LangPackString",
       "key": "AffiliateSetup.ToastTerminated.Text",
-      "value": "Партнерів, які беруть участь, було повідомлено. Всі реферальні посилання будуть вимкнені через 24 години."
+      "value": "Партнерів, які беруть участь, сповіщено. Всі реферальні посилання будуть вимкнені через 24 години."
     },
     {
       "_": "types.LangPackString",
@@ -1856,7 +1856,7 @@
     {
       "_": "types.LangPackString",
       "key": "ArchiveInfo.HideTitle",
-      "value": "Приховати архів"
+      "value": "Приховування архіву"
     },
     {
       "_": "types.LangPackString",
@@ -2176,6 +2176,11 @@
       "_": "types.LangPackString",
       "key": "Attachment.MessagesPreview",
       "value": "Попередній перегляд"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Attachment.Money",
+      "value": "Гроші"
     },
     {
       "_": "types.LangPackString",
@@ -3359,7 +3364,7 @@
     {
       "_": "types.LangPackString",
       "key": "BalanceNeeded.FragmentTitle",
-      "value": "Потрібно %@ Gram"
+      "value": "Потрібно %@ GRAM"
     },
     {
       "_": "types.LangPackString",
@@ -5736,8 +5741,43 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "CHAT_REACT_GAME_SCORE",
+      "value": "%2$@|%1$@ ставить %3$@ вашому результату гри"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "CHAT_REACT_GIVEAWAY",
       "value": "%1$@ ставить %3$@ у групі %2$@ вашому розіграшу"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CHAT_REACT_NOTHEME",
+      "value": "%2$@|%1$@ ставить %3$@ зміні теми"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CHAT_REACT_POLL_APPEND",
+      "value": "%2$@|%1$@ ставить %3$@ зміні опитування"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CHAT_REACT_STORY",
+      "value": "%2$@|%1$@ ставить %3$@ вашій історії"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CHAT_REACT_THEME",
+      "value": "%2$@|%1$@ ставить %3$@ зміні теми"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CHAT_REACT_TODO_APPEND",
+      "value": "%2$@|%1$@ ставить %3$@ вашій зміні списку задач"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CHAT_REACT_TODO_DONE",
+      "value": "%2$@|%1$@ ставить %3$@ вашій зміні списку задач"
     },
     {
       "_": "types.LangPackString",
@@ -6380,6 +6420,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Call.SystemStartErrorMessage",
+      "value": "Виникла помилка"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Call.Video",
       "value": "відео"
     },
@@ -6750,6 +6795,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Camera.CollageRemoveHint",
+      "value": "Торкніться, щоб прибрати колаж"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Camera.CollageReorderHint",
+      "value": "Утримуйте та перетягуйте плитки, щоб змінити порядок"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Camera.CollageReorderingInfo",
       "value": "Утримуйте та перетягуйте плитки, щоб змінити порядок."
     },
@@ -6851,7 +6906,7 @@
     {
       "_": "types.LangPackString",
       "key": "CancelResetAccount.Success",
-      "value": "Процес видалення вашого акаунта %@ було скасовано."
+      "value": "Процес видалення вашого акаунта %@ скасовано."
     },
     {
       "_": "types.LangPackString",
@@ -11494,6 +11549,26 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Chat.GramTransfer.Received",
+      "value": "отримано"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.GramTransfer.Sent",
+      "value": "надіслано"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.GramTransfer.WithFiat",
+      "value": "%1$@ надсилає вам %2$@ (%3$@)"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.GramTransfer.WithFiatYou",
+      "value": "Ви надсилаєте %1$@ %2$@ (%3$@)"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Chat.GroupEmojiTooltip",
       "value": "Усім учасникам групи\nдоступний набір # **%@**"
     },
@@ -12318,12 +12393,12 @@
     {
       "_": "types.LangPackString",
       "key": "Chat.PostApproval.DetailStatus.AdminFailedRefunded",
-      "value": "Оплату за пропонований допис було повернуто, тому що у користувача не вистачає коштів на балансі"
+      "value": "Оплату за пропонований допис повернуто, тому що у користувача не вистачає коштів на балансі"
     },
     {
       "_": "types.LangPackString",
       "key": "Chat.PostApproval.DetailStatus.FailedDeleted",
-      "value": "Оплату за пропонований допис було повернуто, тому що допис було видалено"
+      "value": "Оплату за пропонований допис повернуто, тому що допис було видалено"
     },
     {
       "_": "types.LangPackString",
@@ -12340,16 +12415,16 @@
     },
     {
       "_": "types.LangPackStringPluralized",
-      "few_value": "# Gram",
+      "few_value": "# GRAM",
       "key": "Chat.PostApproval.DetailStatus.TonAmount",
-      "many_value": "# Gram",
-      "one_value": "# Gram",
-      "other_value": "# Gram"
+      "many_value": "# GRAM",
+      "one_value": "# GRAM",
+      "other_value": "# GRAM"
     },
     {
       "_": "types.LangPackString",
       "key": "Chat.PostApproval.DetailStatus.UserFailedRefunded",
-      "value": "Оплату за пропонований допис було повернуто, тому що у вас не вистачає коштів на балансі"
+      "value": "Оплату за пропонований допис повернуто, тому що у вас не вистачає коштів на балансі"
     },
     {
       "_": "types.LangPackString",
@@ -12469,7 +12544,7 @@
     {
       "_": "types.LangPackString",
       "key": "Chat.PostApproval.Status.AdminApproved",
-      "value": "Допис було схвалено"
+      "value": "Допис схвалено"
     },
     {
       "_": "types.LangPackString",
@@ -12479,12 +12554,12 @@
     {
       "_": "types.LangPackString",
       "key": "Chat.PostApproval.Status.UserApproved",
-      "value": "Ваш допис було схвалено"
+      "value": "Ваш допис схвалено"
     },
     {
       "_": "types.LangPackString",
       "key": "Chat.PostApproval.Status.UserRejected",
-      "value": "Ваш допис було відхилено"
+      "value": "Ваш допис відхилено"
     },
     {
       "_": "types.LangPackString",
@@ -12494,12 +12569,12 @@
     {
       "_": "types.LangPackString",
       "key": "Chat.PostSuggestion.Approve.AdminConfirmationPriceStars",
-      "value": "Ви отримаєте ⭐ %1$@ (%2$@%)\nза публікацію цього допису. Він повинен залишатися доступним протягом **24** годин після публікації."
+      "value": "Ви отримаєте ⭐ %1$@ (%2$@%) за публікацію цього допису. Він повинен залишатися доступним протягом **24** годин після публікації."
     },
     {
       "_": "types.LangPackString",
       "key": "Chat.PostSuggestion.Approve.AdminConfirmationPriceTon",
-      "value": "Ви отримаєте %1$@ Gram (%2$@%)\nза публікацію цього допису. Він повинен залишатися доступним протягом **24** годин після публікації."
+      "value": "Ви отримаєте %1$@ GRAM (%2$@%) за публікацію цього допису. Він повинен залишатися доступним протягом **24** годин після публікації."
     },
     {
       "_": "types.LangPackString",
@@ -12524,7 +12599,7 @@
     {
       "_": "types.LangPackString",
       "key": "Chat.PostSuggestion.ApproveTime.AdminConfirmationPriceTon",
-      "value": "Ви отримаєте %1$@ Gram (%2$@%)\nза публікацію цього допису."
+      "value": "Ви отримаєте %1$@ GRAM (%2$@%)\nза публікацію цього допису."
     },
     {
       "_": "types.LangPackString",
@@ -12669,7 +12744,7 @@
     {
       "_": "types.LangPackString",
       "key": "Chat.PostSuggestion.Suggest.OfferDescriptionTon",
-      "value": "Вкажіть, скільки Gram запропонувати %@ за публікацію допису."
+      "value": "Вкажіть, скільки GRAM запропонувати %@ за публікацію допису."
     },
     {
       "_": "types.LangPackString",
@@ -12704,7 +12779,7 @@
     {
       "_": "types.LangPackString",
       "key": "Chat.PostSuggestion.Suggest.RequestDescriptionTon",
-      "value": "Вкажіть, скільки Gram користувач повинен заплатити за публікацію."
+      "value": "Вкажіть, скільки GRAM користувач повинен заплатити за публікацію."
     },
     {
       "_": "types.LangPackString",
@@ -13050,7 +13125,7 @@
     {
       "_": "types.LangPackString",
       "key": "Chat.ScheduledForceSendProcessingVideo.Text",
-      "value": "Це відео ще не було конвертовано та оптимізовано. Якщо ви надішлете його зараз, глядачі відео можуть отримати низьку швидкість завантаження."
+      "value": "Це відео ще не було конвертовано та оптимізовано. Якщо ви надішлете його зараз, глядачі можуть отримати низьку швидкість завантаження."
     },
     {
       "_": "types.LangPackString",
@@ -13655,6 +13730,11 @@
       "_": "types.LangPackString",
       "key": "Chat.ViewGroupCall",
       "value": "ПРИЄДНАТИСЯ"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.ViewStyle",
+      "value": "ПЕРЕГЛЯНУТИ СТИЛЬ"
     },
     {
       "_": "types.LangPackString",
@@ -14505,6 +14585,11 @@
       "_": "types.LangPackString",
       "key": "ChatList.FolderAllChats",
       "value": "Усі чати"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatList.FoldersTip",
+      "value": "Утримуйте  #**Чати**\nдля перегляду всіх чатів."
     },
     {
       "_": "types.LangPackString",
@@ -17838,7 +17923,7 @@
     {
       "_": "types.LangPackString",
       "key": "Conversation.AudioRateOptionsTooltip",
-      "value": "Затисніть для інших швидкостей."
+      "value": "Утримуйте для точнішого вибору швидкості."
     },
     {
       "_": "types.LangPackString",
@@ -19136,7 +19221,7 @@
     {
       "_": "types.LangPackString",
       "key": "Conversation.ImportedMessageHint",
-      "value": "Це повідомлення було імпортовано з іншого застосунку. Telegram не може гарантувати, що воно справжнє."
+      "value": "Це імпортоване повідомлення з іншого застосунку. Telegram не може гарантувати його справжність."
     },
     {
       "_": "types.LangPackString",
@@ -19354,7 +19439,7 @@
     {
       "_": "types.LangPackString",
       "key": "Conversation.MessageDeliveryFailed",
-      "value": "Ваше повідомлення не було надіслано. Натисніть «Ще раз», щоб надіслати знову."
+      "value": "Повідомлення не надіслано."
     },
     {
       "_": "types.LangPackString",
@@ -19369,7 +19454,7 @@
     {
       "_": "types.LangPackString",
       "key": "Conversation.MessageDialogRetry",
-      "value": "Ще раз"
+      "value": "Повторити"
     },
     {
       "_": "types.LangPackString",
@@ -20517,7 +20602,7 @@
     {
       "_": "types.LangPackString",
       "key": "Conversation.TapAndHoldToRecord",
-      "value": "Утримайте для запису"
+      "value": "Утримуйте для запису"
     },
     {
       "_": "types.LangPackString",
@@ -20823,7 +20908,7 @@
     {
       "_": "types.LangPackString",
       "key": "Conversation.UnsupportedMedia.Text",
-      "value": "Оновіть Telegram, щоб побачити його"
+      "value": "Щоб побачити це повідомлення, оновіть Telegram"
     },
     {
       "_": "types.LangPackString",
@@ -21678,11 +21763,11 @@
     },
     {
       "_": "types.LangPackStringPluralized",
-      "few_value": "%@ Gram",
+      "few_value": "%@ GRAM",
       "key": "Currency.Grams",
-      "many_value": "%@ Gram",
-      "one_value": "%@ Gram",
-      "other_value": "%@ Gram"
+      "many_value": "%@ GRAM",
+      "one_value": "%@ GRAM",
+      "other_value": "%@ GRAM"
     },
     {
       "_": "types.LangPackString",
@@ -21982,12 +22067,12 @@
     {
       "_": "types.LangPackString",
       "key": "DeleteAccount.Options.SetPasscodeText",
-      "value": "Блокування застосунку кодом блокування."
+      "value": "Блокування застосунку кодом доступу."
     },
     {
       "_": "types.LangPackString",
       "key": "DeleteAccount.Options.SetPasscodeTitle",
-      "value": "Встановити код блокування"
+      "value": "Встановити код доступу"
     },
     {
       "_": "types.LangPackString",
@@ -22145,7 +22230,7 @@
     {
       "_": "types.LangPackString",
       "key": "DialogList.Read",
-      "value": "Прочитаний"
+      "value": "Прочитано"
     },
     {
       "_": "types.LangPackString",
@@ -22295,7 +22380,7 @@
     {
       "_": "types.LangPackString",
       "key": "DialogList.Unread",
-      "value": "Непрочитаний"
+      "value": "Не прочитано"
     },
     {
       "_": "types.LangPackString",
@@ -22983,7 +23068,7 @@
     {
       "_": "types.LangPackString",
       "key": "EmojiStatus.AppliedText",
-      "value": "Ваш емоджі-статус було оновлено."
+      "value": "Ваш емоджі-статус оновлено."
     },
     {
       "_": "types.LangPackString",
@@ -23058,7 +23143,7 @@
     {
       "_": "types.LangPackString",
       "key": "EnableSharing.Text",
-      "value": "Шоб зняти заборону на копіювання, потрібно отримати згоду **%@**. Надіслати запит?"
+      "value": "Щоб зняти заборону на копіювання, потрібно отримати згоду **%@**. Надіслати запит?"
     },
     {
       "_": "types.LangPackString",
@@ -23078,37 +23163,37 @@
     {
       "_": "types.LangPackString",
       "key": "EnterPasscode.ChangeTitle",
-      "value": "Змінити код блокування"
+      "value": "Змінити код доступу"
     },
     {
       "_": "types.LangPackString",
       "key": "EnterPasscode.EnterCurrentPasscode",
-      "value": "Введіть поточний код блокування"
+      "value": "Введіть поточний код доступу"
     },
     {
       "_": "types.LangPackString",
       "key": "EnterPasscode.EnterNewPasscodeChange",
-      "value": "Введіть новий код блокування"
+      "value": "Введіть новий код доступу"
     },
     {
       "_": "types.LangPackString",
       "key": "EnterPasscode.EnterNewPasscodeNew",
-      "value": "Введіть код блокування"
+      "value": "Введіть код доступу"
     },
     {
       "_": "types.LangPackString",
       "key": "EnterPasscode.EnterPasscode",
-      "value": "Введіть код блокування Telegram"
+      "value": "Введіть код доступу Telegram"
     },
     {
       "_": "types.LangPackString",
       "key": "EnterPasscode.EnterTitle",
-      "value": "Введіть код блокування Telegram"
+      "value": "Введіть код доступу Telegram"
     },
     {
       "_": "types.LangPackString",
       "key": "EnterPasscode.RepeatNewPasscode",
-      "value": "Введіть новий код ще раз"
+      "value": "Введіть код доступу ще раз"
     },
     {
       "_": "types.LangPackString",
@@ -23193,7 +23278,7 @@
     {
       "_": "types.LangPackString",
       "key": "FastTwoStepSetup.PasswordConfirmationPlaceholder",
-      "value": "Знову введіть ваш пароль"
+      "value": "Введіть пароль ще раз"
     },
     {
       "_": "types.LangPackString",
@@ -23998,7 +24083,7 @@
     {
       "_": "types.LangPackString",
       "key": "FrozenAccount.ReadOnly.Text",
-      "value": "Ви маєте доступ до свого акаунта, але не можете надсилати повідомлення або виконувати дії."
+      "value": "Ви маєте доступ до акаунта, але не можете надсилати повідомлення та виконувати дії."
     },
     {
       "_": "types.LangPackString",
@@ -24925,16 +25010,16 @@
     },
     {
       "_": "types.LangPackStringPluralized",
-      "few_value": "Купити за %@ Gram",
+      "few_value": "Купити за %@ GRAM",
       "key": "Gift.Buy.Confirm.BuyForGrams",
-      "many_value": "Купити за %@ Gram",
-      "one_value": "Купити за %@ Gram",
-      "other_value": "Купити за %@ Gram"
+      "many_value": "Купити за %@ GRAM",
+      "one_value": "Купити за %@ GRAM",
+      "other_value": "Купити за %@ GRAM"
     },
     {
       "_": "types.LangPackString",
       "key": "Gift.Buy.Confirm.BuyForTon",
-      "value": "Купити за %@ Gram"
+      "value": "Купити за %@ GRAM"
     },
     {
       "_": "types.LangPackString",
@@ -25127,11 +25212,11 @@
     },
     {
       "_": "types.LangPackStringPluralized",
-      "few_value": "Спроба крафту не вдалася.\n**%@ подарунки** було втрачено.",
+      "few_value": "Спроба крафту не вдалася.\nВтрачено **%@** подарунки.",
       "key": "Gift.Craft.CraftingFailed.Text",
-      "many_value": "Спроба крафту не вдалася.\n**%@ подарунків** було втрачено.",
-      "one_value": "Спроба крафту не вдалася.\n**%@ подарунок** було втрачено.",
-      "other_value": "Спроба крафту не вдалася.\n**%@ подарунків** було втрачено."
+      "many_value": "Спроба крафту не вдалася.\nВтрачено **%@** подарунків.",
+      "one_value": "Спроба крафту не вдалася.\nВтрачено **%@** подарунок.",
+      "other_value": "Спроба крафту не вдалася.\nВтрачено **%@** подарунків."
     },
     {
       "_": "types.LangPackString",
@@ -25437,7 +25522,7 @@
     {
       "_": "types.LangPackString",
       "key": "Gift.Offer.PriceDescriptionTon",
-      "value": "Вкажіть, скільки Gram ви готові запропонувати за **%@**."
+      "value": "Вкажіть, скільки GRAM ви готові запропонувати за **%@**."
     },
     {
       "_": "types.LangPackString",
@@ -25684,16 +25769,16 @@
     },
     {
       "_": "types.LangPackStringPluralized",
-      "few_value": "Виставити за %@ Gram",
+      "few_value": "Виставити за %@ GRAM",
       "key": "Gift.Sell.Confirm.ListForGrams",
-      "many_value": "Виставити за %@ Gram",
-      "one_value": "Виставити за %@ Gram",
-      "other_value": "Виставити за %@ Gram"
+      "many_value": "Виставити за %@ GRAM",
+      "one_value": "Виставити за %@ GRAM",
+      "other_value": "Виставити за %@ GRAM"
     },
     {
       "_": "types.LangPackString",
       "key": "Gift.Sell.Confirm.ListForTon",
-      "value": "Виставити за %@ Gram"
+      "value": "Виставити за %@ GRAM"
     },
     {
       "_": "types.LangPackString",
@@ -27015,7 +27100,7 @@
     {
       "_": "types.LangPackString",
       "key": "Gift.View.Resale.Success.Text",
-      "value": "%@ було повідомлено про ваш подарунок."
+      "value": "%@ сповіщено про ваш подарунок."
     },
     {
       "_": "types.LangPackString",
@@ -27133,7 +27218,7 @@
     {
       "_": "types.LangPackString",
       "key": "Gift.View.UnavailableDescription",
-      "value": "Цей подарунок було розпродано"
+      "value": "Подарунок розпродано"
     },
     {
       "_": "types.LangPackString",
@@ -27451,12 +27536,12 @@
     {
       "_": "types.LangPackString",
       "key": "GiftLink.UsedDescription",
-      "value": "Це посилання було використано для активації підписки **Telegram Premium**."
+      "value": "Посилання було використано для активації підписки **Telegram Premium**."
     },
     {
       "_": "types.LangPackString",
       "key": "GiftLink.UsedFooter",
-      "value": "Це посилання було використано %@."
+      "value": "Посилання було використано %@."
     },
     {
       "_": "types.LangPackString",
@@ -29465,7 +29550,7 @@
     {
       "_": "types.LangPackString",
       "key": "Intents.ErrorLockedText",
-      "value": "Відкрийте Telegram та введіть код блокування, щоб відредагувати віджет."
+      "value": "Відкрийте Telegram та введіть код доступу, щоб змінити віджет."
     },
     {
       "_": "types.LangPackString",
@@ -29999,7 +30084,7 @@
     {
       "_": "types.LangPackString",
       "key": "InviteLink.InviteLinkRevoked",
-      "value": "Запрошувальне посилання було відкликано."
+      "value": "Запрошувальне посилання відкликано."
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -31025,7 +31110,7 @@
     {
       "_": "types.LangPackString",
       "key": "Login.AnonymousNumbers",
-      "value": "Анонімні номери"
+      "value": "Колекційні номери"
     },
     {
       "_": "types.LangPackString",
@@ -31936,12 +32021,12 @@
     {
       "_": "types.LangPackString",
       "key": "LogoutOptions.SetPasscodeText",
-      "value": "Встановіть на застосунок код блокування, щоб інші не змогли відкрити його."
+      "value": "Налаштуйте код доступу, щоб інші не змогли відкрити застосунок."
     },
     {
       "_": "types.LangPackString",
       "key": "LogoutOptions.SetPasscodeTitle",
-      "value": "Встановити код блокування"
+      "value": "Встановити код доступу"
     },
     {
       "_": "types.LangPackString",
@@ -32052,6 +32137,26 @@
       "_": "types.LangPackString",
       "key": "MESSAGE_GIVEAWAY",
       "value": "%1$@ надсилає вам розіграш %2$@ x Telegram Premium на %3$@ міс."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MESSAGE_GRAM_TRANSFER",
+      "value": "%1$@ надсилає вам %2$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MESSAGE_GRAM_TRANSFER_COMMENT",
+      "value": "%1$@ надсилає вам %2$@: %3$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MESSAGE_GRAM_TRANSFER_UNKNOWN",
+      "value": "Ви отримали %2$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MESSAGE_GRAM_TRANSFER_UNKNOWN_COMMENT",
+      "value": "Ви отримали %2$@: %3$@"
     },
     {
       "_": "types.LangPackString",
@@ -32182,6 +32287,16 @@
       "_": "types.LangPackString",
       "key": "MESSAGE_VIDEO_SEPARATED",
       "value": "%1$@|надсилає вам відео"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MESSAGE_WALLET_TONCONNECT_REQUEST",
+      "value": "Ви отримали запит TON Connect"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MESSAGE_WALLET_TONCONNECT_REQUEST_DAPP",
+      "value": "Ви отримали запит TON Connect від %2$@"
     },
     {
       "_": "types.LangPackString",
@@ -33307,12 +33422,12 @@
     {
       "_": "types.LangPackString",
       "key": "MemberRequests.RequestToJoinDescriptionChannel",
-      "value": "Нових підписників у цьому каналі схвалюють адміністратори."
+      "value": "Нових підписників у цьому каналі схвалюють адміни."
     },
     {
       "_": "types.LangPackString",
       "key": "MemberRequests.RequestToJoinDescriptionGroup",
-      "value": "Нових учасників у цій групі схвалюють адміністратори."
+      "value": "Нових учасників у цій групі схвалюють адміни."
     },
     {
       "_": "types.LangPackString",
@@ -34308,7 +34423,7 @@
     {
       "_": "types.LangPackString",
       "key": "Monetization.Proceeds.Ton.Info",
-      "value": "Gram з вашого загального балансу можуть бути використані або виведені як винагорода через 3 дні після зарахування. Вивести можна від 10 Gram."
+      "value": "Gram з вашого загального балансу можуть бути використані або виведені як винагорода через 3 дні після зарахування. Вивести можна від 10 GRAM."
     },
     {
       "_": "types.LangPackString",
@@ -34373,7 +34488,7 @@
     {
       "_": "types.LangPackString",
       "key": "Monetization.TonTransactions",
-      "value": "Операції в Gram"
+      "value": "Операції в GRAM"
     },
     {
       "_": "types.LangPackString",
@@ -34431,7 +34546,7 @@
     {
       "_": "types.LangPackString",
       "key": "Monetization.TransactionInfo.ViewInExplorer",
-      "value": "Переглянути в оглядачі блокчейну"
+      "value": "Відкрити в оглядачі"
     },
     {
       "_": "types.LangPackString",
@@ -34442,6 +34557,11 @@
       "_": "types.LangPackString",
       "key": "Monetization.TransactionsTitle",
       "value": "ІСТОРІЯ ОПЕРАЦІЙ"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Monetization.Withdraw.AmountTooSmallError",
+      "value": "Мінімальна сума для виведення — 10 GRAM."
     },
     {
       "_": "types.LangPackString",
@@ -35808,6 +35928,46 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Notification.GramTransfer",
+      "value": "%1$@ надсилає вам %2$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.GramTransfer.Compact",
+      "value": "надсилає вам %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.GramTransfer.UnknownUser",
+      "value": "НЕВІДОМИЙ КОРИСТУВАЧ"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.GramTransfer.WithFiat",
+      "value": "%1$@ надсилає вам %2$@ (%3$@)"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.GramTransfer.WithFiatYou",
+      "value": "Ви надсилаєте %1$@ %2$@ (%3$@)"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.GramTransferUnknown",
+      "value": "Вам надіслали %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.GramTransferUnknown.WithFiat",
+      "value": "Вам надіслали %1$@ (%2$@)"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.GramTransferYou",
+      "value": "Ви надсилаєте %1$@ %2$@"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Notification.GroupChangedWallpaper",
       "value": "Група встановлює нові шпалери"
     },
@@ -35874,7 +36034,7 @@
     {
       "_": "types.LangPackString",
       "key": "Notification.JoinedGroupByRequest",
-      "value": "%@ було прийнято до групи"
+      "value": "%@ прийнято до групи"
     },
     {
       "_": "types.LangPackString",
@@ -36573,7 +36733,7 @@
     {
       "_": "types.LangPackString",
       "key": "Notification.StarGift.Subtitle.Downgraded",
-      "value": "Покращення цього подарунка було скасовано, оскільки було зроблено запит на повернення платежу, повʼязаного з цим подарунком, і гроші були повернуті."
+      "value": "Покращення цього подарунка скасовано, оскільки було зроблено запит на повернення платежу, повʼязаного з цим подарунком, і гроші були повернуті."
     },
     {
       "_": "types.LangPackString",
@@ -36629,7 +36789,7 @@
     {
       "_": "types.LangPackString",
       "key": "Notification.StarGift.Subtitle.Upgraded",
-      "value": "Цей подарунок було покращено.\n"
+      "value": "Подарунок було покращено."
     },
     {
       "_": "types.LangPackString",
@@ -36708,7 +36868,7 @@
     {
       "_": "types.LangPackString",
       "key": "Notification.StarGiftOffer.Status.Accepted",
-      "value": "Цю пропозицію було прийнято."
+      "value": "Пропозицію прийнято."
     },
     {
       "_": "types.LangPackString",
@@ -36723,7 +36883,7 @@
     {
       "_": "types.LangPackString",
       "key": "Notification.StarGiftOffer.Status.Rejected",
-      "value": "Цю пропозицію було відхилено."
+      "value": "Пропозицію відхилено."
     },
     {
       "_": "types.LangPackString",
@@ -37187,7 +37347,7 @@
     {
       "_": "types.LangPackString",
       "key": "Notification.Ton.SubtitleYou",
-      "value": "Із Gram %@ зможе пропонувати дописи каналам."
+      "value": "З Gram %@ зможе пропонувати дописи каналам."
     },
     {
       "_": "types.LangPackString",
@@ -37737,7 +37897,7 @@
     {
       "_": "types.LangPackString",
       "key": "Notifications.MessageSoundInfo",
-      "value": "До цього списку можна також додати голосове повідомлення або MP3-файл малої тривалості. Щоб це зробити, затисніть повідомлення та виберіть «Зберегти для сповіщень»."
+      "value": "До цього списку можна також додати голосове повідомлення або MP3-файл малої тривалості. Щоб це зробити, утримуйте повідомлення й виберіть «Зберегти для сповіщень»."
     },
     {
       "_": "types.LangPackString",
@@ -39110,7 +39270,7 @@
     {
       "_": "types.LangPackString",
       "key": "PUSH_CHAT_REACT_TODO",
-      "value": "%2$@|%1$@ ставить %3$@ на ваш список %4$@"
+      "value": "%2$@|%1$@ ставить %3$@ вашому списку %4$@"
     },
     {
       "_": "types.LangPackString",
@@ -39176,6 +39336,11 @@
       "_": "types.LangPackString",
       "key": "PUSH_LOCKED_MESSAGE",
       "value": "У вас нове повідомлення%1$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PUSH_LOCKED_STORY",
+      "value": "У вас нова історія%1$@"
     },
     {
       "_": "types.LangPackString",
@@ -39658,7 +39823,7 @@
     {
       "_": "types.LangPackString",
       "key": "PUSH_REACT_TODO",
-      "value": "%1$@|ставить %2$@ на ваш список %3$@"
+      "value": "%1$@|ставить %2$@ вашому списку %3$@"
     },
     {
       "_": "types.LangPackString",
@@ -39903,12 +40068,12 @@
     {
       "_": "types.LangPackString",
       "key": "PasscodeSettings.ChangePasscode",
-      "value": "Змінити код блокування"
+      "value": "Змінити код доступу"
     },
     {
       "_": "types.LangPackString",
       "key": "PasscodeSettings.DoNotMatch",
-      "value": "Коди блокування не збігаються. Спробуйте ще раз."
+      "value": "Коди не збігаються. Спробуйте ще раз."
     },
     {
       "_": "types.LangPackString",
@@ -39918,7 +40083,7 @@
     {
       "_": "types.LangPackString",
       "key": "PasscodeSettings.EncryptDataHelp",
-      "value": "Обережно, експериментальна можливість. Зашифруйте свої локальні дані, використовуючи похідну від коду блокування як ключ."
+      "value": "Обережно, експериментальна можливість. Зашифруйте свої локальні дані, використовуючи похідну від коду доступу як ключ."
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -39931,17 +40096,27 @@
     {
       "_": "types.LangPackString",
       "key": "PasscodeSettings.Help",
-      "value": "Коли код встановлено, над списком чатів зʼявляється значок замка для блокування застосунку.\n\nПримітка: якщо ви забудете код, перевстановіть застосунок. Секретні чати буде втрачено."
+      "value": "Коли код доступу встановлено, над списком чатів зʼявляється значок замка. Торкніться його, щоб заблокувати застосунок.\n\nЯкщо ви забудете код доступу, перевстановіть застосунок. Секретні чати буде втрачено."
     },
     {
       "_": "types.LangPackString",
       "key": "PasscodeSettings.HelpBottom",
-      "value": "Зауважте: якщо ви забудете код блокування, перевстановіть застосунок. При цьому всі секретні чати буде втрачено."
+      "value": "Зауважте: якщо ви забудете код доступу, перевстановіть застосунок. При цьому всі секретні чати буде втрачено."
     },
     {
       "_": "types.LangPackString",
       "key": "PasscodeSettings.HelpTop",
-      "value": "Коли код блокування встановлено, над списком чатів зʼявляється значок замка."
+      "value": "Коли код доступу встановлено, над списком чатів зʼявляється значок замка. Торкніться його, щоб заблокувати застосунок."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PasscodeSettings.LockTelegram",
+      "value": "Блокування Telegram"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PasscodeSettings.LockWallet",
+      "value": "Блокування Грошей"
     },
     {
       "_": "types.LangPackString",
@@ -39951,17 +40126,17 @@
     {
       "_": "types.LangPackString",
       "key": "PasscodeSettings.SimplePasscode",
-      "value": "Простий код блокування"
+      "value": "Простий код доступу"
     },
     {
       "_": "types.LangPackString",
       "key": "PasscodeSettings.SimplePasscodeHelp",
-      "value": "Простий код блокування містить 4 цифри."
+      "value": "Простий код доступу містить 4 цифри."
     },
     {
       "_": "types.LangPackString",
       "key": "PasscodeSettings.Title",
-      "value": "Код блокування"
+      "value": "Код доступу"
     },
     {
       "_": "types.LangPackString",
@@ -39970,13 +40145,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PasscodeSettings.TurnOffWalletProtectionWarning",
+      "value": "Це також вимкне захист за допомогою коду доступу та біометрії для всіх гаманців на цьому пристрої."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PasscodeSettings.TurnPasscodeOff",
-      "value": "Вимкнути код блокування"
+      "value": "Вимкнути код доступу"
     },
     {
       "_": "types.LangPackString",
       "key": "PasscodeSettings.TurnPasscodeOn",
-      "value": "Увімкнути код блокування"
+      "value": "Увімкнути код доступу"
     },
     {
       "_": "types.LangPackString",
@@ -39987,6 +40167,46 @@
       "_": "types.LangPackString",
       "key": "PasscodeSettings.UnlockWithTouchId",
       "value": "Розблокування з Touch ID"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PasscodeSettings.UpdateError",
+      "value": "Не вдалося змінити код доступу. Розблокуйте й спробуйте ще раз."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PasscodeSettings.VerificationError",
+      "value": "Не вдалося підтвердити код доступу. Спробуйте ще раз."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PasscodeSettings.WalletConfirmWithFaceId",
+      "value": "Підтвердження з Face ID"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PasscodeSettings.WalletConfirmWithPasscode",
+      "value": "Підтвердження кодом доступу"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PasscodeSettings.WalletConfirmWithTouchId",
+      "value": "Підтвердження з Touch ID"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PasscodeSettings.WalletEnableBiometricsReason",
+      "value": "Увімкніть біометрію для захисту гаманців"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PasscodeSettings.WalletProtectionError",
+      "value": "Не вдалося змінити захист гаманця. Спробуйте ще раз."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PasscodeSettings.WalletProtectionInfo",
+      "value": "Запитувати код доступу при надсиланні коштів та підтвердженні інших важливих дій."
     },
     {
       "_": "types.LangPackString",
@@ -40031,7 +40251,7 @@
     {
       "_": "types.LangPackString",
       "key": "Passkeys.Into.Text1",
-      "value": "Використовуйте Face ID, Touch ID або код блокування для входу до акаунта."
+      "value": "Використовуйте Face ID, Touch ID або код доступу для входу в акаунт."
     },
     {
       "_": "types.LangPackString",
@@ -42610,7 +42830,7 @@
     {
       "_": "types.LangPackString",
       "key": "PeerStatusSetup.NoTimerTitle",
-      "value": "Затисніть, щоб встановити таймер"
+      "value": "Утримуйте, щоб встановити таймер"
     },
     {
       "_": "types.LangPackString",
@@ -42997,6 +43217,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Poll.Timer.MinutesSeconds",
+      "value": "%1$@:%2$@"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PollResults.Collapse",
       "value": "ЗГОРНУТИ"
     },
@@ -43046,7 +43271,7 @@
     {
       "_": "types.LangPackString",
       "key": "PowerSaving.AllDescriptionLimit",
-      "value": "Режим економії енергії вимикає всі ресурсоємні процеси зі списку нижче. Вмикається, якщо заряд акумулятора впаде до %@%."
+      "value": "Зменшує енергоспоживання й вимикає ресурсоємні процеси, коли заряд акумулятора нижчий за %@%."
     },
     {
       "_": "types.LangPackString",
@@ -43101,7 +43326,7 @@
     {
       "_": "types.LangPackString",
       "key": "PowerSavingScreen.OptionAutoplayGifText",
-      "value": "Автоматично програвати GIF у чатах і панелі, зациклюючи їх."
+      "value": "Автоматично програвати GIF, зациклюючи їх."
     },
     {
       "_": "types.LangPackString",
@@ -43710,7 +43935,7 @@
     {
       "_": "types.LangPackString",
       "key": "Premium.Gift.Sent.Multiple.Text",
-      "value": "%1$@%2$@ було повідомлено про придбані вами подарунки.\n\nТепер їм доступні додаткові можливості."
+      "value": "%1$@%2$@ сповіщено про придбані вами подарунки.\n\nТепер їм доступні додаткові можливості."
     },
     {
       "_": "types.LangPackString",
@@ -43720,7 +43945,7 @@
     {
       "_": "types.LangPackString",
       "key": "Premium.Gift.Sent.One.Text",
-      "value": "**%@** було повідомлено про придбаний вами подарунок.\n\nТепер цьому користувачу доступні додаткові можливості."
+      "value": "**%@** сповіщено про придбаний вами подарунок.\n\nТепер цьому користувачу доступні додаткові можливості."
     },
     {
       "_": "types.LangPackString",
@@ -45938,17 +46163,17 @@
     {
       "_": "types.LangPackString",
       "key": "PrivacySettings.Passcode",
-      "value": "Код блокування"
+      "value": "Код доступу"
     },
     {
       "_": "types.LangPackString",
       "key": "PrivacySettings.PasscodeAndFaceId",
-      "value": "Код блокування і Face ID"
+      "value": "Код доступу й Face ID"
     },
     {
       "_": "types.LangPackString",
       "key": "PrivacySettings.PasscodeAndTouchId",
-      "value": "Код блокування та Touch ID"
+      "value": "Код доступу й Touch ID"
     },
     {
       "_": "types.LangPackString",
@@ -46560,8 +46785,143 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "REACT_GAME_SCORE",
+      "value": "%1$@|ставить %2$@ вашому результату гри"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "REACT_GIFTCODE",
+      "value": "%1$@|ставить %2$@ вашому подарунковому коду"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "REACT_GIFT_THEME",
+      "value": "%1$@|ставить %2$@ зміні теми"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "REACT_GIVEAWAY",
       "value": "%1$@ ставить %2$@ вашому розіграшу"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "REACT_GIVEAWAY_STARS",
+      "value": "%1$@|ставить %2$@ вашому розіграшу"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "REACT_GRAM_TRANSFER",
+      "value": "%1$@|ставить %2$@ вашому переказу %3$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "REACT_GRAM_TRANSFER_COMMENT",
+      "value": "%1$@|ставить %2$@ вашому переказу %3$@: %4$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "REACT_NOTHEME",
+      "value": "%1$@|ставить %2$@ зміні теми"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "REACT_PAID_MEDIA",
+      "value": "%1$@|ставить %2$@ вашому платному допису"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "REACT_PHOTO_SECRET",
+      "value": "%1$@|ставить %2$@ вашому самознищуваному фото"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "REACT_PROXIMITY",
+      "value": "%1$@|ставить %2$@ сповіщенню про наближення"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "REACT_RECURRING_PAY",
+      "value": "%1$@|ставить %2$@ вашому платежу"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "REACT_SAME_WALLPAPER",
+      "value": "%1$@|ставить %2$@ однаковим шпалерам"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "REACT_SCREENSHOT",
+      "value": "%1$@|ставить %2$@ вашому знімку екрана"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "REACT_STARGIFT",
+      "value": "%1$@|ставить %2$@ вашому подарунку за ⭐️ %3$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "REACT_STARGIFT_PREPAID_UPGRADE",
+      "value": "%1$@|ставить %2$@ вашому покращенню подарунка за ⭐ %3$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "REACT_STARGIFT_UNPACK_UPGRADE",
+      "value": "%1$@|ставить %2$@ вашому покращенню подарунка"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "REACT_STARGIFT_UPGRADE",
+      "value": "%1$@|ставить %2$@ подарунку, який ви покращили"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "REACT_STORY_MENTION",
+      "value": "%1$@|ставить %2$@ згадці в історії"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "REACT_SUGGEST_BIRTHDAY",
+      "value": "%1$@|ставить %2$@ пропонованій даті народження"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "REACT_SUGGEST_USERPIC",
+      "value": "%1$@|ставить %2$@ пропонованому фото"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "REACT_THEME",
+      "value": "%1$@|ставить %2$@ зміні теми"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "REACT_TODO_APPEND",
+      "value": "%1$@|ставить %2$@ вашій зміні списку задач"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "REACT_TODO_DONE",
+      "value": "%1$@|ставить %2$@ вашій зміні списку задач"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "REACT_UNIQUE_STARGIFT",
+      "value": "%1$@|ставить %2$@ вашому подарунку"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "REACT_VIDEO_SECRET",
+      "value": "%1$@|ставить %2$@ вашому самознищуваному відео"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "REACT_WALLET_TONCONNECT_REQUEST",
+      "value": "%1$@|ставить %2$@ вашому запиту TON Connect"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "REACT_WALLPAPER",
+      "value": "%1$@|ставить %2$@ новим шпалерам"
     },
     {
       "_": "types.LangPackString",
@@ -47265,6 +47625,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "RichText.AddEmoji",
+      "value": "Додати емоджі"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "RichText.AddMediaTitle",
       "value": "Додати медіа"
     },
@@ -47440,6 +47805,26 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "RichText.Menu.Table.AddColumnLeft",
+      "value": "Додати стовпець зліва"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.Menu.Table.AddColumnRight",
+      "value": "Додати стовпець справа"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.Menu.Table.AddRowAbove",
+      "value": "Додати рядок вище"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.Menu.Table.AddRowBelow",
+      "value": "Додати рядок нижче"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "RichText.Menu.Table.BordersOff",
       "value": "Приховати межі"
     },
@@ -47475,6 +47860,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "RichText.Menu.Table.DeleteColumn",
+      "value": "Видалити стовпець"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.Menu.Table.DeleteRow",
+      "value": "Видалити рядок"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "RichText.Menu.Table.HighlightOff",
       "value": "Прибрати виділення"
     },
@@ -47482,6 +47877,16 @@
       "_": "types.LangPackString",
       "key": "RichText.Menu.Table.HighlightOn",
       "value": "Виділити"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.Menu.Table.MergeCells",
+      "value": "Обʼєднати клітинки"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.Menu.Table.SplitCell",
+      "value": "Розділити клітинку"
     },
     {
       "_": "types.LangPackString",
@@ -47535,8 +47940,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "RichText.PlaceholderCaption",
+      "value": "Опис"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "RichText.PlaceholderCode",
       "value": "Код..."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.PlaceholderCodeLanguage",
+      "value": "Мова"
     },
     {
       "_": "types.LangPackString",
@@ -47547,6 +47962,11 @@
       "_": "types.LangPackString",
       "key": "RichText.PlaceholderQuote",
       "value": "Вміст цитати"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.PlaceholderQuoteAuthor",
+      "value": "Автор"
     },
     {
       "_": "types.LangPackString",
@@ -47582,6 +48002,16 @@
       "_": "types.LangPackString",
       "key": "RichText.TitleArticle",
       "value": "Текст"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichTextPreview.Channel",
+      "value": "Канал"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichTextPreview.EmbeddedContent",
+      "value": "Вбудований контент"
     },
     {
       "_": "types.LangPackString",
@@ -48740,8 +49170,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Settings.LogoutConfirmationTextWithWallets",
+      "value": "Це призведе до **видалення** всіх ваших секретних чатів та **резервних копій гаманців з %@**. Ви втратите доступ до цих коштів, якщо не зберегли секретні фрази для відновлення.\n\nВи можете користуватися Telegram на всіх ваших пристроях одночасно та підʼєднувати кілька акаунтів."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Settings.LogoutConfirmationTitle",
       "value": "Вийти?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Settings.Money",
+      "value": "Гроші"
     },
     {
       "_": "types.LangPackString",
@@ -50256,13 +50696,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "SocksProxySetup.ProxyStatusNotTested",
+      "value": "не перевірявся"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "SocksProxySetup.ProxyStatusPing",
       "value": "Пінг: %@ мс"
     },
     {
       "_": "types.LangPackString",
       "key": "SocksProxySetup.ProxyStatusUnavailable",
-      "value": "недоступно"
+      "value": "недоступний"
     },
     {
       "_": "types.LangPackString",
@@ -50273,6 +50718,11 @@
       "_": "types.LangPackString",
       "key": "SocksProxySetup.ProxyType",
       "value": "ТИП"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SocksProxySetup.ProxyWeb",
+      "value": "WEB"
     },
     {
       "_": "types.LangPackString",
@@ -52547,7 +52997,7 @@
     {
       "_": "types.LangPackString",
       "key": "Stats.RevenueInTon",
-      "value": "Дохід в Gram"
+      "value": "Дохід в GRAM"
     },
     {
       "_": "types.LangPackString",
@@ -53385,7 +53835,7 @@
     {
       "_": "types.LangPackString",
       "key": "StorageManagement.SectionOther",
-      "value": "Додатково"
+      "value": "Інше"
     },
     {
       "_": "types.LangPackString",
@@ -53874,6 +54324,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Story.Editor.CollageDraftAllMediaMissing",
+      "value": "Жоден з медіафайлів у цьому колажі більше не доступний. Чернетку буде видалено."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Story.Editor.Curves.All",
       "value": "Усі"
     },
@@ -54278,7 +54733,7 @@
     {
       "_": "types.LangPackString",
       "key": "Story.LongTapForMoreReactions",
-      "value": "Затисніть для вибору реакції."
+      "value": "Утримуйте для вибору реакції."
     },
     {
       "_": "types.LangPackString",
@@ -57294,7 +57749,7 @@
     {
       "_": "types.LangPackString",
       "key": "TwoFactorSetup.ResetFloodWait",
-      "value": "Ви нещодавно запитували скидання пароля, але запит було скасовано. Будь ласка, зачекайте %@, перш ніж зробити новий запит."
+      "value": "Ви нещодавно запитували скидання пароля, але запит було скасовано. Зачекайте %@, перш ніж зробити новий запит."
     },
     {
       "_": "types.LangPackString",
@@ -57519,7 +57974,7 @@
     {
       "_": "types.LangPackString",
       "key": "TwoStepAuth.ReEnterPasswordTitle",
-      "value": "Ще раз уведіть пароль"
+      "value": "Введіть пароль ще раз"
     },
     {
       "_": "types.LangPackString",
@@ -57659,7 +58114,7 @@
     {
       "_": "types.LangPackString",
       "key": "TwoStepAuth.SetupPasswordConfirmPassword",
-      "value": "Ще раз введіть пароль:"
+      "value": "Введіть пароль ще раз:"
     },
     {
       "_": "types.LangPackString",
@@ -57881,7 +58336,7 @@
     {
       "_": "types.LangPackString",
       "key": "UserInfo.AnonymousNumberLabel",
-      "value": "анонімний номер"
+      "value": "колекційний номер"
     },
     {
       "_": "types.LangPackString",
@@ -59397,7 +59852,7 @@
     {
       "_": "types.LangPackString",
       "key": "VoiceChat.UnmuteHelp",
-      "value": "або затисніть і говоріть"
+      "value": "або утримуйте й говоріть"
     },
     {
       "_": "types.LangPackString",
@@ -59856,6 +60311,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.Stop",
+      "value": "Завершити"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "VoiceOver.Chat.Title",
       "value": "Назва: %@"
     },
@@ -60151,6 +60611,1603 @@
       "_": "types.LangPackString",
       "key": "VoiceOver.SuggestPost",
       "value": "Запропонувати допис"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AddFunds",
+      "value": "Поповнити"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AddressCopied",
+      "value": "Адресу скопійовано"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Apps.ActiveConnections",
+      "value": "Активні зʼєднання"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Apps.AllDisconnected",
+      "value": "Усі застосунки відʼєднано"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Apps.AllPermissions",
+      "value": "Підʼєднані застосунки можуть переглядати адресу гаманця, баланс та історію операцій. Вони не можуть переказувати кошти без вашого дозволу."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Apps.Disconnect",
+      "value": "Відʼєднати"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Apps.DisconnectAll",
+      "value": "Відʼєднати всі застосунки"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Apps.DisconnectAllAction",
+      "value": "Відʼєднати всі"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Apps.DisconnectAllError",
+      "value": "Не вдалося відʼєднати ці застосунки. Спробуйте ще раз."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Apps.DisconnectAllText",
+      "value": "Ці застосунки втратять доступ до вашого гаманця. Ви зможете знову підʼєднати їх у будь-який час."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Apps.DisconnectAllTitle",
+      "value": "Відʼєднати всі застосунки?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Apps.DisconnectError",
+      "value": "Не вдалося відʼєднати цей застосунок. Спробуйте ще раз."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Apps.Disconnected",
+      "value": "%@ відʼєднано."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Apps.Permissions",
+      "value": "Цей застосунок може переглядати адресу гаманця, баланс та історію операцій. Він не може переказувати кошти без вашого дозволу."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Apps.Title",
+      "value": "Підʼєднані застосунки"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthenticationReason",
+      "value": "Підтвердьте доступ до гаманця"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Authorization.BackupDisabledText",
+      "value": "Перед тим як відновити секретну фразу з Telegram, увімкніть резервне копіювання з шифруванням."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Authorization.BackupDisabledTitle",
+      "value": "Резервне копіювання вимкнено"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Authorization.BackupUnavailableText",
+      "value": "Для цього гаманця резервна копія з шифруванням недоступна."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Authorization.BackupUnavailableTitle",
+      "value": "Резервна копія недоступна"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Authorization.PasswordRetryAfter",
+      "value": "Спробуйте ще раз через %@."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Authorization.PasswordText",
+      "value": "Введіть пароль двоетапної перевірки Telegram, щоб продовжити."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Authorization.PasswordTitle",
+      "value": "Пароль Telegram"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Authorization.PasswordTooNewTitle",
+      "value": "Пароль занадто новий"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Authorization.SessionRetryAfter",
+      "value": "З міркувань безпеки повторіть спробу через %@."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Authorization.SessionTooNewTitle",
+      "value": "Сеанс занадто новий"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Authorization.TwoStepRequiredText",
+      "value": "Перед тим як змінити цей гаманець, встановіть пароль двоетапної перевірки у Telegram."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Authorization.TwoStepRequiredTitle",
+      "value": "Потрібен пароль двоетапної перевірки"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Authorization.UpdatePhraseErrorText",
+      "value": "Нову секретну фразу не активовано. Попередня фраза та зашифрована резервна копія залишаються дійсними."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Authorization.VerificationExpiredText",
+      "value": "Термін дії запиту на підтвердження гаманця сплив. Спробуйте імпортувати його ще раз."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Authorization.VerificationExpiredTitle",
+      "value": "Термін підтвердження сплив"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Authorization.VerifyWalletErrorText",
+      "value": "Telegram не зміг підтвердити, що цей гаманець належить вам. Спробуйте імпортувати його ще раз."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Authorization.VerifyWalletErrorTitle",
+      "value": "Не вдалося підтвердити гаманець"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.CancelDisabling",
+      "value": "Скасувати вимкнення"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.CancelDisablingText",
+      "value": "Секретну фразу не буде змінено."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.CancelDisablingTitle",
+      "value": "Залишити резервне копіювання?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.Disable",
+      "value": "Вимкнути"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.DisableConfirmationText",
+      "value": "Зашифровану резервну копію, що зберігається розподілено, буде видалено. Секретна фраза стане єдиним способом відновити ваш гаманець."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.DisableErrorText",
+      "value": "Не вдалося підтвердити, що резервне копіювання було вимкнено. Перевірте інтернет-з’єднання та спробуйте ще раз."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.DisableErrorTitle",
+      "value": "Не вдалося вимкнути резервне копіювання"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.DisablePhraseUpdateErrorText",
+      "value": "Не вдалося виконати зміну секретної фрази. Перевірте стан гаманця й спробуйте ще раз."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.DisablePhraseUpdatePendingText",
+      "value": "Telegram поки не вдалося підтвердити зміну секретної фрази в блокчейні. Трохи зачекайте й натисніть «Вимкнути» ще раз."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.DisableRetryText",
+      "value": "%@\n\nНатисніть «Вимкнути», щоб повторити спробу."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.DisableText",
+      "value": "Єдиним способом відновити кошти стане секретна фраза, яку потрібно вводити вручну."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.DisableTitle",
+      "value": "Вимкнути резервне копіювання?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.DisableVerificationErrorText",
+      "value": "Telegram не зміг підтвердити, що цей гаманець належить вам. Спробуйте ще раз."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.DisableVerificationExpiredText",
+      "value": "Термін дії запиту на підтвердження гаманця сплив. Натисніть «Вимкнути», щоб спробувати ще раз."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.DisableWalletChangedText",
+      "value": "Під час зміни налаштувань резервного копіювання змінилася секретна фраза гаманця. Відновіть доступ за допомогою поточної секретної фрази й спробуйте ще раз."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.DisableWithNewPhraseText",
+      "value": "Зашифровану резервну копію, що зберігається розподілено, буде видалено. Секретна фраза вашого гаманця зміниться — нова фраза стане єдиним способом відновити ваш гаманець."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.DisabledText",
+      "value": "Тепер гаманець можна відновити тільки за допомогою секретної фрази."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.DisabledTitle",
+      "value": "Резервне копіювання вимкнено"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.EnableErrorTitle",
+      "value": "Резервне копіювання не увімкнено"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.EnablePhraseUpdatePendingText",
+      "value": "Telegram поки не вдалося підтвердити зміну секретної фрази в блокчейні. Трохи зачекайте й спробуйте ще раз або введіть поточну секретну фразу."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.EnableVerificationExpiredText",
+      "value": "Термін дії запиту на підтвердження гаманця сплив. Спробуйте увімкнути резервне копіювання ще раз."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.EnableWalletChangedText",
+      "value": "Під час увімкнення резервного копіювання гаманець зазнав змін. Відкрийте його налаштування та спробуйте ще раз."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.EnabledText",
+      "value": "Тепер ваші ключі зберігаються в зашифрованому вигляді й розподілені між дата-центрами Telegram."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.EnabledTitle",
+      "value": "Резервне копіювання увімкнено"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.EnterCurrentPhrase",
+      "value": "Введіть поточну секретну фразу"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.InsufficientFundsTitle",
+      "value": "Недостатньо GRAM"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.InvalidPhraseText",
+      "value": "Перевірте всі слова вашої поточної секретної фрази та спробуйте ще раз."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.NetworkFee",
+      "value": "Комісія мережі: %@."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.NewPhraseText",
+      "value": "Ви отримаєте нову фразу, яку потрібно записати. Адреса та баланс залишаться без змін."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.PhraseUpdatePendingTitle",
+      "value": "Очікується зміна секретної фрази"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.RequiredBalanceText",
+      "value": "Для зміни секретної фрази потрібно %@. Поповніть рахунок і спробуйте ще раз."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.TopUp",
+      "value": "Поповнити"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.UpdateErrorTitle",
+      "value": "Не вдалося оновити резервну копію"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.UpdatePhrase",
+      "value": "Змінити секретну фразу"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.UpdatePhraseErrorTitle",
+      "value": "Не вдалося змінити секретну фразу"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.UpdatePhraseTopUpText",
+      "value": "Щоб змінити секретну фразу, потрібно мати кошти на балансі."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.VerifyPhraseErrorText",
+      "value": "Можливо, ця секретна фраза застаріла. Введіть поточну секретну фразу, щоб увімкнути резервне копіювання."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.VerifyPhraseErrorTitle",
+      "value": "Не вдалося перевірити секретну фразу"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.WalletChangedTitle",
+      "value": "Гаманець змінено"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Collectibles",
+      "value": "Колекційні предмети"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Connect.Action",
+      "value": "Підʼєднати"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Connect.Disclaimer",
+      "value": "%@ не зможе переказувати кошти без вашого дозволу."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Connect.Error",
+      "value": "Не вдалося підʼєднати цей застосунок. Спробуйте ще раз."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Connect.Permissions",
+      "value": "Застосунок зможе переглядати адресу\nгаманця, баланс та історію операцій."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Connect.Proof",
+      "value": "%@ просить підтвердити право власності на цей гаманець."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Connect.SuccessText",
+      "value": "Тепер ви підʼєднані до [%@]()."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Connect.SuccessTitle",
+      "value": "Підʼєднано"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Connect.Title",
+      "value": "Підʼєднати %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Continue",
+      "value": "Продовжити"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.CopyAddress",
+      "value": "Копіювати адресу"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Currency",
+      "value": "Валюта"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.EarningsBalance",
+      "value": "Ви також маєте %@ у Надходженнях Gram"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Empty.InstantTransfersTitle",
+      "value": "Миттєві перекази"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Empty.ZeroFeesTitle",
+      "value": "Відсутність комісії"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.GotIt",
+      "value": "Зрозуміло"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.GramTooltip",
+      "value": "Gram — цифрова валюта для Telegram"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.HiddenTransactions",
+      "value": "Операції на суму менш як %@ приховані."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Import.Action",
+      "value": "Імпортувати"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Import.EnableBackupText",
+      "value": "Введіть секретну фразу гаманця з 12 або 24 слів, щоб увімкнути резервне копіювання з шифруванням."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Import.EnterPhraseText",
+      "value": "Введіть секретну фразу вашого гаманця,\nщоб продовжити. [Навіщо?]()"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Import.ErrorText",
+      "value": "Перевірте секретну фразу та інтернет-зʼєднання, а потім спробуйте ще раз."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Import.ErrorTitle",
+      "value": "Не вдалося імпортувати гаманець"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Import.InvalidCurrentPhraseLength",
+      "value": "Секретна фраза містить рівно 12 або 24 слів. У вставленій фразі їх %@."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Import.InvalidPhraseLength",
+      "value": "Секретна фраза містить рівно 12 або 24 слів. У вставленій фразі їх %@."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Import.InvalidPhraseText",
+      "value": "Перевірте порядок слів.\n\nТут можна використати тільки секретну фразу, створену в Telegram."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Import.InvalidPhraseTitle",
+      "value": "Некоректна секретна фраза"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Import.InvalidWord",
+      "value": "Некоректне слово"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Import.PhraseChangedText",
+      "value": "Ключ цього гаманця змінився. Введіть поточну секретну фразу з 24 слів."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Import.PhraseChangedTitle",
+      "value": "Секретна фраза змінилася"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Import.Proceed",
+      "value": "Продовжити"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Import.RecoveryExplanation",
+      "value": "Оскільки ви вимкнули резервне копіювання гаманця, вам доведеться вручну вводити секретну фразу після кожного входу в Telegram."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Import.TestText",
+      "value": "Переконайтеся, що секретна фраза записана правильно.\nВведіть слова **%1$@**, **%2$@** та **%3$@**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Import.TestTextFallback",
+      "value": "Переконайтеся, що записали секретну фразу без помилок."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Import.TestTitle",
+      "value": "Час для перевірки"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Import.Text",
+      "value": "Введіть секретну фразу іншого вашого гаманця, що складається з 12 або 24 слів."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Import.Title",
+      "value": "Імпортувати гаманець"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "%@ слова",
+      "key": "Wallet.Import.WordCount",
+      "many_value": "%@ слів",
+      "one_value": "%@ слово",
+      "other_value": "%@ слів"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Import.WrongPhraseText",
+      "value": "Введені слова не відповідають цьому гаманцю."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Import.WrongPhraseTitle",
+      "value": "Неправильна секретна фраза"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Info.BlockchainVerifiedText",
+      "value": "Транзакції записуються в публічному реєстрі, де їх можна перевірити."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Info.BlockchainVerifiedTitle",
+      "value": "Підтверджено блокчейном"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Info.CheapText",
+      "value": "Практично нульова комісія — навіть для великих переказів."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Info.CheapTitle",
+      "value": "Дешево"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Info.FastText",
+      "value": "Перекази підтверджуються за лічені секунди в будь-якій точці світу."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Info.FastTitle",
+      "value": "Швидко"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Info.FirstGramsRateText",
+      "value": "**1 GRAM** зараз коштує **%@**.\nВи можете:"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Info.FirstGramsText",
+      "value": "Ви можете:"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Info.FirstGramsTitle",
+      "value": "Ваші перші Gram!"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Info.GramRateText",
+      "value": "Власна криптовалюта блокчейну TON. **1 GRAM** зараз коштує **%@**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Info.GramText",
+      "value": "Власна криптовалюта блокчейну TON."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Info.GramTitle",
+      "value": "Gram"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Info.InstantTransfersText",
+      "value": "Gram можна надіслати у будь-який чат так само легко, як фотографію."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Info.InstantTransfersTitle",
+      "value": "Миттєві перекази"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Info.NeverSharePhrase",
+      "value": "**Ніколи не повідомляйте** вашу секретну фразу іншим."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Info.PhraseSupportWarning",
+      "value": "Підтримка Telegram **ніколи не запитує** секретну фразу."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Info.PhraseTheftWarning",
+      "value": "Знаючи вашу секретну фразу, можна **вкрасти ваші кошти**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Info.SendText",
+      "value": "Переказуйте Gram будь-кому.\nВиберіть  # → Гроші у чаті."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Info.SendTitle",
+      "value": "Надсилати"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Info.StoreText",
+      "value": "Зберігайте Gram у Telegram (#→ Гроші) або інших гаманцях."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Info.StoreTitle",
+      "value": "Зберігати"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Info.Text",
+      "value": "Ви самі розпоряджаєтеся коштами —\nніхто інший не має до них доступу."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Info.Title",
+      "value": "Як це працює"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Info.TradeText",
+      "value": "Gram можна обмінювати на готівку або криптовалюту на біржах."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Info.TradeTitle",
+      "value": "Обмінювати"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Info.UsefulText",
+      "value": "Оплачуйте застосунки, послуги та комісії в екосистемі TON."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Info.UsefulTitle",
+      "value": "Зручно"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Info.ZeroFeesText",
+      "value": "Перші 5 переказів щодня — безплатні. Решта коштують практично нічого."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Info.ZeroFeesTitle",
+      "value": "Відсутність комісії"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.KeysAndBackup",
+      "value": "Ключі та копія"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.NetworkError",
+      "value": "Перевірте інтернет-зʼєднання та спробуйте ще раз."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.OptionalMessage",
+      "value": "Повідомлення"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.PasscodeFaceId",
+      "value": "Код доступу й Face ID"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.PasscodeTouchId",
+      "value": "Код доступу й Touch ID"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.PasswordSetText",
+      "value": "Ваш акаунт захищено."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.PasswordSetTitle",
+      "value": "Пароль встановлено"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.PreviousWalletsBalance",
+      "value": "Ви також маєте %@ на старих гаманцях"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.ProtectAccount",
+      "value": "Захистіть свій акаунт"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Receive.Buy",
+      "value": "Купити за гроші/криптовалюту"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Receive.BuyShort",
+      "value": "Купити"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Receive.CopyAddress",
+      "value": "Копіювати мою адресу"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Receive.PurchaseFailedText",
+      "value": "Не вдалося розпочати купівлю. Спробуйте ще раз."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Receive.PurchaseFailedTitle",
+      "value": "Купівлю не виконано"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Receive.PurchaseUnavailableText",
+      "value": "Наразі здійснити купівлю неможливо. Спробуйте ще раз пізніше."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Receive.PurchaseUnavailableTitle",
+      "value": "Купівля недоступна"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Receive.ShowQR",
+      "value": "Показати мій QR-код"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Receive.Text",
+      "value": "Щоб отримати GRAM, поділіться\nсвоєю адресою або QR-кодом."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Recipient.Error",
+      "value": "Виникла невідома помилка. Спробуйте ще раз пізніше."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Recipient.GramWallet",
+      "value": "Гаманець Gram"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Recipient.InvalidAddress",
+      "value": "Вставлений текст не є дійсною адресою мережі TON."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Recipient.InvalidAddressText",
+      "value": "Некоректна адреса гаманця.\nПеревірте цю адресу або вкажіть іншу."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Recipient.LinkedAddress",
+      "value": "Ця адреса в блокчейні TON повʼязана з %@ в Telegram."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Recipient.NoRecentRecipients",
+      "value": "Останні отримувачі\nз’являтимуться тут"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Recipient.NoResults",
+      "value": "Немає результатів"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Recipient.NoResultsText",
+      "value": "За запитом «%@» нічого не знайдено.\nСпробуйте ввести інше ім’я або адресу."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Recipient.Placeholder",
+      "value": "Імʼя або адреса"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Recipient.ScanQR",
+      "value": "Знайдіть QR-код з адресою гаманця"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Recipient.Title",
+      "value": "Виберіть отримувача"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Recipient.UnlinkedAddress",
+      "value": "Ця адреса в блокчейні TON не повʼязана з жодним акаунтом в Telegram."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.RestoreErrorTitle",
+      "value": "Не вдалося відновити гаманець"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Retry",
+      "value": "Повторити"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.ScanQR",
+      "value": "Знайдіть QR-код адреси гаманця\nабо підʼєднайте застосунок"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.SecretPhrase",
+      "value": "Секретна фраза"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.SecretPhraseInfo",
+      "value": "Ваша секретна фраза — це ключ для відновлення гаманця. Завжди зберігайте її у надійному місці й не повідомляйте нікому."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Send",
+      "value": "Надіслати"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Send.Add",
+      "value": "Додати"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Send.AddComment",
+      "value": "Додати коментар"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Send.Amount",
+      "value": "Надіслати %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Send.AmountPlaceholder",
+      "value": "Торкніться, щоб вказати суму"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Send.Balance",
+      "value": "Баланс: %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Send.DepositFunds",
+      "value": "Поповнити"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Send.EditComment",
+      "value": "Змінити коментар"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Send.Grams",
+      "value": "Gram"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Send.InsufficientFunds",
+      "value": "Недостатньо коштів."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Send.NetworkFee",
+      "value": "Комісія мережі:"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Send.PublicComment",
+      "value": "Зробити публічним"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Send.RecipientWallet",
+      "value": "Гаманець %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Send.Title",
+      "value": "Надіслати гроші"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Send.UnlinkedWallet",
+      "value": "Відʼєднаний гаманець"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.SendMoney",
+      "value": "Надіслати гроші"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Settings.Backup",
+      "value": "Зашифрована резервна копія"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Settings.BackupDisabledInfo",
+      "value": "Зашифровану резервну копію вашого ключа буде розділено на три частини, що зберігатимуться на трьох континентах.\n\nЇх можна обʼєднати тільки на ваших пристроях, тому ніхто — навіть Telegram — не зможе отримати доступ до вашого ключа."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Settings.BackupEnabledInfo",
+      "value": "Зашифрована резервна копія ключа розділена на три частини, що зберігаються на трьох континентах.\n\nЇх можна обʼєднати тільки на ваших пристроях, тому ніхто — навіть Telegram — не може отримати доступ до вашого ключа."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Settings.CreateWallet",
+      "value": "Створити новий"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Settings.DeleteAnyway",
+      "value": "Все одно видалити"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Settings.DeleteWallet",
+      "value": "Видалити гаманець"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Settings.DeleteWalletText",
+      "value": "Ви втратите доступ до коштів, якщо не зберегли секретну фразу."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Settings.DeleteWalletTitle",
+      "value": "Видалити гаманець?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Settings.DisableBackup",
+      "value": "Вимкнути резервне копіювання"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Settings.EnableBackup",
+      "value": "Увімкнути резервне копіювання"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Settings.EnterSecretPhrase",
+      "value": "Введіть секретну фразу"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Settings.EnterSecretPhraseInfo",
+      "value": "Введіть секретну фразу, щоб відновити доступ до цього гаманця."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Settings.ImportWallet",
+      "value": "Імпортувати наявний"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Settings.LastUsed",
+      "value": "\n%1$@ — використовувався %2$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Settings.PreviousWallets",
+      "value": "Попередні гаманці"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Settings.PreviousWalletsInfo",
+      "value": "Гаманці, якими ви користувалися на цьому пристрої раніше. Збережіть їхні секретні фрази — вони видаляться, якщо ви вийдете з акаунта або перевстановите застосунок."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Settings.ReplaceWalletErrorTitle",
+      "value": "Не вдалося замінити гаманець"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Settings.ReplaceWalletTitle",
+      "value": "Як ви хочете замінити старий гаманець?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Settings.SecretPhraseInfo",
+      "value": "Ви можете перенести гаманець на інший пристрій, скопіювавши секретну фразу з 12 або 24 слів."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Settings.ShowPhraseErrorTitle",
+      "value": "Не вдалося показати секретну фразу"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Settings.WalletCreatedText",
+      "value": "Ваш новий гаманець готовий до використання."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Settings.WalletCreatedTitle",
+      "value": "Гаманець створено"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Settings.WalletImportedText",
+      "value": "Гаманець відновлено за допомогою секретної фрази."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Settings.WalletImportedTitle",
+      "value": "Гаманець імпортовано"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.ShowSecretPhrase",
+      "value": "Показати секретну фразу"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sign.BinaryContent",
+      "value": "Двійкові дані"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sign.BinaryWarning",
+      "value": "Ви підписуєте наосліп. Підписуйте тільки дані з надійних джерел."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sign.Confirm",
+      "value": "Підтвердити"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sign.ConfirmAction",
+      "value": "Підтвердити дію"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sign.Data",
+      "value": "Дані"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sign.Error",
+      "value": "Не вдалося виконати цей запит. Спробуйте ще раз."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sign.Fee",
+      "value": "Комісія: %@."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sign.FeeWithFiat",
+      "value": "Комісія: %1$@ (%2$@)."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sign.FieldAddress",
+      "value": "адреса"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sign.FieldAmount",
+      "value": "сума"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sign.FieldComment",
+      "value": "коментар"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sign.FieldMessage",
+      "value": "повідомлення"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sign.FieldPayload",
+      "value": "корисне навантаження (BOC/Base64)"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sign.FieldStateInit",
+      "value": "stateInit (BOC/Base64)"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sign.FieldValidUntil",
+      "value": "valid_until"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sign.MessageExplanation",
+      "value": "Ознайомтеся з вмістом повідомлення та підпишіть його, якщо згодні."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sign.Sign",
+      "value": "Підписати"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sign.SignData",
+      "value": "Підписати дані"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sign.Submission",
+      "value": "Застосунок надішле цей переказ."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sign.SubmissionUntil",
+      "value": "Застосунок може надіслати цей переказ до %@."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sign.TextExplanation",
+      "value": "Уважно ознайомтеся з повідомленням і, якщо згодні, підпишіть дані."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TermsText",
+      "value": "Користуючись цим сервісом,\nви погоджуєтеся з його [Умовами]()."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TermsText_URL",
+      "value": "https://telegram.org/tos"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TonAddressCopied",
+      "value": "Адресу TON скопійовано"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.Address",
+      "value": "Адреса"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.AnonymousNumber",
+      "value": "Колекційний номер"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.CallContract",
+      "value": "Виклик контракту"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.CardTopUp",
+      "value": "Поповнення з картки"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.Collectible",
+      "value": "Колекційний предмет"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.CollectibleGift",
+      "value": "Колекційний подарунок"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.CommentDecryptionErrorText",
+      "value": "Не вдалося розшифрувати коментар."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.CommentDecryptionErrorTitle",
+      "value": "Коментар не розшифровано"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.CommentPrivacy",
+      "value": "Видимість коментаря"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.CryptoTopUp",
+      "value": "Поповнення криптовалютою"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.Date",
+      "value": "Дата"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.DeployContract",
+      "value": "Розгортання контракту"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.Deposit",
+      "value": "Зарахування"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.Excess",
+      "value": "Надлишок"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.Failed",
+      "value": "Не виконано"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.FailedOperation",
+      "value": "%@ · Не виконано"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.Fee",
+      "value": "Комісія"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.FreeFee",
+      "value": "Безплатно (за кошт Telegram)"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.GramInfo",
+      "value": "Що таке Gram?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.IncomingCollectible",
+      "value": "Отриманий колекційний предмет"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.IncomingTransfer",
+      "value": "Вхідний переказ"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "%@ предмети",
+      "key": "Wallet.Transaction.ItemCount",
+      "many_value": "%@ предметів",
+      "one_value": "%@ предмет",
+      "other_value": "%@ предметів"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.KeyUpdate",
+      "value": "Зміна ключа"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.NetworkFeesText",
+      "value": "За кожен переказ стягується невелика комісія мережі%1$@.\n\nTelegram оплачує ваші перші %2$@ переказів щодня."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.NetworkFeesTitle",
+      "value": "Комісія мережі"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.OpenWallet",
+      "value": "Перейти до моїх Грошей"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.OutgoingCollectible",
+      "value": "Надісланий колекційний предмет"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.OutgoingTransfer",
+      "value": "Надісланий переказ"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.PrivateComment",
+      "value": "Видно тільки вам та отримувачу."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.Processing",
+      "value": "Обробка..."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.PublicComment",
+      "value": "Коментар видно всім."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.Recipient",
+      "value": "Отримувач"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.Send",
+      "value": "надіслати"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.SendCollectible",
+      "value": "Надіслати колекційний предмет"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.Sender",
+      "value": "Відправник"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.Transfer",
+      "value": "Переказ"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "%@ перекази",
+      "key": "Wallet.Transaction.Transfers",
+      "many_value": "%@ переказів",
+      "one_value": "%@ переказ",
+      "other_value": "%@ переказів"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.UnknownAddress",
+      "value": "Невідома адреса"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.UnknownOperation",
+      "value": "Невідома операція"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.Username",
+      "value": "Імʼя користувача"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.WhatIsGram",
+      "value": "Що таке Gram?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.Withdrawal",
+      "value": "Виведення"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transactions",
+      "value": "Операції"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transfer.AllBalance",
+      "value": "Загальний баланс"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transfer.CollectibleSuccess",
+      "value": "Колекційний предмет надіслано **%@**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transfer.CollectibleTopUpText",
+      "value": "Для передачі NFT у гаманці має бути щонайменше 0,1 GRAM. Поповніть баланс і спробуйте ще раз."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transfer.CommentEncryptionErrorText",
+      "value": "Не вдалося зашифрувати коментар для цього гаманця. Перевірте зʼєднання з мережею та спробуйте ще раз."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transfer.CommentEncryptionErrorTitle",
+      "value": "Не вдалося зашифрувати коментар"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transfer.CommentEncryptionUnavailable",
+      "value": "Наразі цей гаманець не може приймати зашифровані коментарі."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transfer.CommentTooLongText",
+      "value": "Зашифрований коментар задовгий. Скоротіть його та спробуйте ще раз."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transfer.CommentTooLongTitle",
+      "value": "Коментар задовгий"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transfer.DetailsHeader",
+      "value": "ДЕТАЛІ"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transfer.ErrorText",
+      "value": "Не вдалося підготувати або надіслати переказ. Перевірте адресу, залишок коштів та зʼєднання з мережею, а потім спробуйте ще раз."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transfer.ErrorTitle",
+      "value": "Переказ не виконано"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transfer.Header",
+      "value": "ПЕРЕКАЗ"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transfer.HeaderMultiple",
+      "value": "ПЕРЕКАЗИ"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transfer.KeyChangedText",
+      "value": "Ключ гаманця змінився. Оновіть гаманець і, за потреби, відновіть доступ за допомогою поточної секретної фрази. Потім ще раз підтвердьте переказ."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transfer.KeyChangedTitle",
+      "value": "Ключ гаманця змінився"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transfer.PendingText",
+      "value": "Можливо, переказ уже надіслано. Не надсилайте його ще раз, поки триває перевірка його статусу."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transfer.PendingTitle",
+      "value": "Переказ обробляється"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transfer.PreviewHeader",
+      "value": "ПЕРЕДОГЛЯД"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "%@ отримувачі",
+      "key": "Wallet.Transfer.RecipientCount",
+      "many_value": "%@ отримувачів",
+      "one_value": "%@ отримувач",
+      "other_value": "%@ отримувачів"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transfer.Success",
+      "value": "Gram надіслано **%@**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transfer.ToAddress",
+      "value": "для %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transfer.Unavailable",
+      "value": "Недоступно"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Unavailable",
+      "value": "Гроші наразі недоступні."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.UnlinkedAddress",
+      "value": "Ця адреса не пов’язана з жодним акаунтом у Telegram."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.ViewInExplorer",
+      "value": "Відкрити в оглядачі"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.ViewProfile",
+      "value": "Переглянути профіль >"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.WaltBalance",
+      "value": "Ви також маєте кошти у Walt"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Words.NewText",
+      "value": "Для вашого гаманця згенеровано нову секретну фразу. Запишіть її та зберігайте у таємниці."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Words.NewTitle",
+      "value": "Нова секретна фраза"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Words.Title",
+      "value": "Ваша секретна фраза"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Words.TooFastAction",
+      "value": "Гаразд, вибачте"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Words.TooFastText",
+      "value": "У вас не було достатньо часу, щоб встигнути записати ці слова."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Words.TooFastTitle",
+      "value": "Так швидко?"
     },
     {
       "_": "types.LangPackString",
@@ -60538,7 +62595,7 @@
     {
       "_": "types.LangPackString",
       "key": "Watch.ChatList.NoConversationsText",
-      "value": "Щоб почати спілкування,\nзатисніть і виберіть\nНове повідомлення"
+      "value": "Щоб почати спілкування,\nзатисніть і виберіть\n«Нове повідомлення»"
     },
     {
       "_": "types.LangPackString",
@@ -61791,7 +63848,7 @@
     {
       "_": "types.LangPackString",
       "key": "WelcomeMessages.ServiceHeader2",
-      "value": "Торкніться, щоб видалити"
+      "value": "Утримуйте, щоб видалити"
     },
     {
       "_": "types.LangPackString",
@@ -61894,5 +63951,5 @@
       "value": "Ви ввели неправильний код безпеки."
     }
   ],
-  "version": 22202254
+  "version": 22251364
 }
