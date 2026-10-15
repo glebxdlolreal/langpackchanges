@@ -2865,7 +2865,7 @@
     {
       "_": "types.LangPackString",
       "key": "Business.ChatBots.BotNotSupported",
-      "value": "This bot doesn't support Telegram Business yet."
+      "value": "This bot doesn't support Secretary Mode yet."
     },
     {
       "_": "types.LangPackString",
@@ -4083,6 +4083,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Channel.Admin.ApproveMembersEnable",
+      "value": "Enable"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Channel.Admin.ApproveMembersHeader",
+      "value": "Approve New Members"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Channel.Admin.ApproveMembersInfo",
+      "value": "New members will now need approval from %1$@ before they can send messages in this group."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Channel.Admin.CantEdit",
       "value": "You are not allowed to edit the rights of this admin."
     },
@@ -4095,6 +4110,16 @@
       "_": "types.LangPackString",
       "key": "Channel.Admin.Dismiss",
       "value": "Dismiss Admin"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Channel.Admin.ProcessJoinRequests",
+      "value": "Process Join Requests"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Channel.Admin.ProcessJoinRequestsInfo",
+      "value": "Allow this bot to approve new members using its own interfaces, such as captchas."
     },
     {
       "_": "types.LangPackString",
@@ -4615,6 +4640,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Channel.EditAdmin.Permission.ManageWelcomeMessages",
+      "value": "Manage Welcome Messages"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Channel.EditAdmin.Permission.PinMessages",
       "value": "Pin Messages"
     },
@@ -4652,6 +4682,11 @@
       "_": "types.LangPackString",
       "key": "Channel.EditAdmin.Permission.SendVoice",
       "value": "Send Voice Messages"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Channel.EditAdmin.Permission.SendWelcomeMessages",
+      "value": "Send Welcome Messages"
     },
     {
       "_": "types.LangPackString",
@@ -9185,7 +9220,7 @@
     {
       "_": "types.LangPackString",
       "key": "Chat.Pinned.DontShow",
-      "value": "Don't Show Pinned Messages"
+      "value": "Hide Pinned Messages"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -9463,6 +9498,11 @@
       "_": "types.LangPackString",
       "key": "Chat.ReplyQuotePanelTitle",
       "value": "Reply to quote from %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.RichText.ShowMore",
+      "value": "Show more"
     },
     {
       "_": "types.LangPackString",
@@ -10377,6 +10417,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Chat.Service.StarGift.Refunded",
+      "value": "This gift cannot be converted to Stars because the payment related to it was refunded."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Chat.Service.StarGift.Sent",
       "value": "%1$@ sent you a gift for %2$@"
     },
@@ -11215,6 +11260,31 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Chat.Unsupported.BlockInfo",
+      "value": "Update Telegram to view this part of the message"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Unsupported.BlockTitle",
+      "value": "Unsupported block"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Unsupported.MessageInfo",
+      "value": "Update Telegram to view this message"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Unsupported.MessageTitle",
+      "value": "Unsupported message"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Unsupported.Update",
+      "value": "Update"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Chat.Unsupported.UpdatedApp",
       "value": "UPDATE"
     },
@@ -11883,6 +11953,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ChatInputAccessory.HideSenderPremium",
+      "value": "Hiding the sender's name for AI-composed messages is available with Telegram Premium."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ChatLink.Unavailable",
       "value": "Sorry, this link doesn't seem to exist."
     },
@@ -11981,7 +12056,7 @@
     {
       "_": "types.LangPackString",
       "key": "ChatList.Birthday.Add.Info",
-      "value": "Let your contacts know when you're celebrating."
+      "value": "Let your contacts know when to celebrate."
     },
     {
       "_": "types.LangPackString",
@@ -14411,8 +14486,146 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Communities.AddToExisting",
+      "value": "ADD TO AN EXISTING COMMUNITY"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Communities.AdminRequired",
+      "value": "Only admins of this chat can create a community for it."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Communities.CantChangeLater",
+      "value": "You won't be able to change this later."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Communities.ChatVisibility",
+      "value": "CHAT VISIBILITY"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "Communities.Chats",
+      "one_value": "",
+      "other_value": "%1$d chats"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Communities.CommunityName",
+      "value": "Community Name"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Communities.Create",
+      "value": "Create"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Communities.CreateCommunity",
+      "value": "Create Community"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Communities.Hidden",
+      "value": "Hidden"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Communities.HiddenInfo",
+      "value": "Only invited members and community admins will see this chat."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "Communities.Members",
+      "one_value": "",
+      "other_value": "%1$d members"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Communities.NewCommunity",
+      "value": "New Community"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Communities.SomethingWentWrong",
+      "value": "Something went wrong."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Communities.SubtitleBot",
+      "value": "Make your bot a part of community with multiple related chats."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Communities.SubtitleChannel",
+      "value": "Make your channel a part of community with multiple related chats."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Communities.SubtitleGroup",
+      "value": "Make your group a part of community with multiple related chats."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Communities.Title",
+      "value": "Community"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Communities.Visible",
+      "value": "Visible"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Communities.VisibleInfo",
+      "value": "Anyone in the community will be able to see this chat."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Community.Continue",
+      "value": "Continue"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Community.DismissAdminHeader",
+      "value": "Dismiss yourself as community admin"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Community.DismissAdminInfo",
+      "value": "You'll lose access to community admin tools, but keep your group admin rights."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Community.Group",
+      "value": "Group"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Community.InviteOnlyInfo",
       "value": "This chat is invite-only.\nOnly its members can view it."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "Community.Members",
+      "one_value": "",
+      "other_value": "%1$d members"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Community.MessageGroupOwner",
+      "value": "Message Group Owner"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Community.NoThanks",
+      "value": "No, thanks"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Community.YouAreAdmin",
+      "value": "You are a community admin"
     },
     {
       "_": "types.LangPackString",
@@ -14421,8 +14634,271 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "CommunityAdd.ChatVisibility",
+      "value": "CHAT VISIBILITY"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CommunityAdd.Confirm",
+      "value": "Add to Community"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CommunityAdd.ErrorAdminRequired",
+      "value": "Only community admins can add chats."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CommunityAdd.ErrorGeneric",
+      "value": "Something went wrong."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CommunityAdd.ErrorLimitReached",
+      "value": "This community has reached its limit of chats."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CommunityAdd.Hidden",
+      "value": "Hidden"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CommunityAdd.HiddenInfo",
+      "value": "Only invited members and community admins will see this chat."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "CommunityAdd.Members",
+      "one_value": "",
+      "other_value": "%1$d members"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CommunityAdd.Title",
+      "value": "Add Chat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CommunityAdd.VisibilityFooter",
+      "value": "You won't be able to change this later."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CommunityAdd.Visible",
+      "value": "Visible"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CommunityAdd.VisibleInfo",
+      "value": "Anyone in the community will be able to see this chat."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CommunityAdmin.AddAdmin",
+      "value": "Add Admin"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CommunityAdmin.BanMembers",
+      "value": "Ban Members"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CommunityAdmin.Dismiss",
+      "value": "Dismiss Admin"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CommunityAdmin.DismissConfirm",
+      "value": "Are you sure you want to dismiss this admin?"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "CommunityAdmin.EditGroupList",
       "value": "Edit Chat List"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CommunityAdmin.EditName",
+      "value": "Edit Community Name"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CommunityAdmin.ErrorGeneric",
+      "value": "Something went wrong."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CommunityAdmin.PermissionsHeader",
+      "value": "WHAT CAN THIS ADMIN DO"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CommunityAdmin.Save",
+      "value": "Save"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CommunityAdmins.AddAdmin",
+      "value": "Add Admin"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CommunityAdmins.Header",
+      "value": "ADMINS"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CommunityAdmins.Loading",
+      "value": "Loading…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CommunityAdmins.StatusAdmin",
+      "value": "admin"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CommunityAdmins.StatusCreator",
+      "value": "creator"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CommunityAdmins.StatusPromotedBy",
+      "value": "promoted by %1$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CommunityAdmins.Title",
+      "value": "Administrators"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CommunityEdit.AddAChatToCommunity",
+      "value": "Add a Chat to Community"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CommunityEdit.AddChatToCommunity",
+      "value": "Add Chat to Community"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CommunityEdit.Administrators",
+      "value": "Administrators"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CommunityEdit.AllMembers",
+      "value": "All Members"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CommunityEdit.AllMembersDescription",
+      "value": "Allow members to add their groups and channels to the community."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CommunityEdit.ChangePhoto",
+      "value": "Change Photo"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "CommunityEdit.ChatsCount",
+      "one_value": "",
+      "other_value": "%d CHATS"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CommunityEdit.CommunityName",
+      "value": "Community Name"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CommunityEdit.Delete",
+      "value": "Delete"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CommunityEdit.DeleteCommunity",
+      "value": "Delete Community"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CommunityEdit.DeleteCommunityConfirm",
+      "value": "Are you sure you want to delete this community? This cannot be undone."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CommunityEdit.Hidden",
+      "value": "Hidden"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "CommunityEdit.MembersCount",
+      "one_value": "",
+      "other_value": "%d members"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CommunityEdit.OnlyAdmins",
+      "value": "Only Admins"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CommunityEdit.OnlyAdminsDescription",
+      "value": "Chats suggested by community members require admin approval."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CommunityEdit.PendingRequests",
+      "value": "Pending Requests"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CommunityEdit.Remove",
+      "value": "Remove"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CommunityEdit.RemoveChatConfirm",
+      "value": "Remove this chat from the community?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CommunityEdit.RemoveFromCommunity",
+      "value": "Remove from Community"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CommunityEdit.RemovedUsers",
+      "value": "Removed Users"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CommunityEdit.SetPhoto",
+      "value": "Set Photo"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CommunityEdit.SomethingWentWrong",
+      "value": "Something went wrong."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CommunityEdit.Title",
+      "value": "Edit Community"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CommunityEdit.UpdatingPhoto",
+      "value": "Updating Photo..."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CommunityEdit.WhoCanAddChats",
+      "value": "WHO CAN ADD CHATS"
     },
     {
       "_": "types.LangPackString",
@@ -14442,8 +14918,29 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "CommunityList.AddChatToCommunity",
+      "value": "Add a Chat to Community"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CommunityList.DefaultTitle",
+      "value": "Community"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "CommunityList.EditCommunity",
       "value": "Edit Community"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CommunityList.ErrorGeneric",
+      "value": "Something went wrong."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "CommunityList.Members",
+      "one_value": "",
+      "other_value": "%1$d members"
     },
     {
       "_": "types.LangPackString",
@@ -14452,13 +14949,100 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "CommunityList.Remove",
+      "value": "Remove"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CommunityList.RemoveChatConfirm",
+      "value": "Remove this chat from the community?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CommunityList.SectionJoined",
+      "value": "Chats You Are In"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CommunityList.SectionRequestable",
+      "value": "Chats You Can Request to Join"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CommunityList.SectionVisible",
+      "value": "Chats You Can View"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "CommunityList.ShowAsOneChat",
       "value": "Show as One Chat"
     },
     {
       "_": "types.LangPackString",
+      "key": "CommunityRequests.Add",
+      "value": "Add"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CommunityRequests.AddAll",
+      "value": "Add All"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CommunityRequests.AddAllConfirm",
+      "value": "Add all suggested chats to the community?"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "CommunityRequests.ApprovalInfo",
       "value": "Chats require admin approval before they're added to the community. [Change Settings](settings)"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CommunityRequests.Decline",
+      "value": "Decline"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CommunityRequests.DeclineAll",
+      "value": "Decline All"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CommunityRequests.DeclineAllConfirm",
+      "value": "Decline all suggested chats?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CommunityRequests.Empty",
+      "value": "No pending requests."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CommunityRequests.Loading",
+      "value": "Loading…"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "CommunityRequests.MembersCount",
+      "one_value": "",
+      "other_value": "%d members"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CommunityRequests.PendingRequests",
+      "value": "Pending Requests"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CommunityRequests.Someone",
+      "value": "Someone"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "CommunityRequests.SuggestedHeader",
+      "one_value": "",
+      "other_value": "%d CHATS SUGGESTED FOR THIS COMMUNITY"
     },
     {
       "_": "types.LangPackString",
@@ -14472,13 +15056,109 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "CommunityRequests.Unknown",
+      "value": "Unknown"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CommunityRequests.VisibleOnlyToMembers",
+      "value": "visible only to its members"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CommunityRequests.VisibleOnlyToMembersSuffix",
+      "value": " · visible only to its members"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CommunityView.AddChatToCommunity",
+      "value": "Add a Chat to Community"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CommunityView.EditCommunity",
+      "value": "Edit Community"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "CommunityView.HideChat",
       "value": "Hide"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "CommunityView.Members",
+      "one_value": "",
+      "other_value": "%1$d members"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CommunityView.Mute",
+      "value": "Mute"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CommunityView.PendingRequests",
+      "value": "Pending Requests"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CommunityView.Remove",
+      "value": "Remove"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CommunityView.RemoveChatConfirm",
+      "value": "Remove this chat from the community?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CommunityView.RemoveFromCommunity",
+      "value": "Remove from Community"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CommunityView.SectionChatsYouAreIn",
+      "value": "CHATS YOU ARE IN"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CommunityView.SectionChatsYouCanJoin",
+      "value": "CHATS YOU CAN JOIN"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CommunityView.SectionChatsYouCanRequestToJoin",
+      "value": "CHATS YOU CAN REQUEST TO JOIN"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CommunityView.ShowAsOneChat",
+      "value": "Show as One Chat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CommunityView.ShowAsOneChatInfo",
+      "value": "Group all community chats into one item in the chat list."
     },
     {
       "_": "types.LangPackString",
       "key": "CommunityView.ShowChat",
       "value": "Show"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CommunityView.SomethingWentWrong",
+      "value": "Something went wrong."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CommunityView.Title",
+      "value": "Community"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CommunityView.Unmute",
+      "value": "Unmute"
     },
     {
       "_": "types.LangPackString",
@@ -18059,6 +18739,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Gallery.Context.CopySubject",
+      "value": "Copy Subject"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gallery.Context.CopyToClipboard",
       "value": "Copy Media"
     },
@@ -18081,6 +18766,11 @@
       "_": "types.LangPackString",
       "key": "Gallery.Context.SaveVideo",
       "value": "Save Video"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gallery.Context.SendSubjectAsSticker",
+      "value": "Send as Sticker"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -18174,6 +18864,11 @@
       "_": "types.LangPackString",
       "key": "Gallery.SendHere",
       "value": "Edit & Send"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gallery.Subject.NotFound",
+      "value": "No subject found in this photo."
     },
     {
       "_": "types.LangPackString",
@@ -25667,7 +26362,7 @@
     {
       "_": "types.LangPackString",
       "key": "PeerInfo.BotEdit.TonBalance",
-      "value": "TON Balance"
+      "value": "Gram Balance"
     },
     {
       "_": "types.LangPackString",
@@ -28228,7 +28923,7 @@
     {
       "_": "types.LangPackString",
       "key": "PreviewSender.Archive",
-      "value": "Send as ZIP Archive"
+      "value": "Send as ZIP File"
     },
     {
       "_": "types.LangPackString",
@@ -29435,6 +30130,46 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ProxySettings.WEB",
+      "value": "WEB"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ProxySettings.Web.FixedPort",
+      "value": "WEB proxies use HTTPS on port 443."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ProxySettings.Web.InvalidHost",
+      "value": "Enter a valid DNS hostname without a scheme, path, or port."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ProxySettings.Web.InvalidSecret",
+      "value": "Enter a valid 16-byte secret or dd-prefixed 17-byte secret."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ProxySettings.Web.NotTested",
+      "value": "not tested"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ProxySettings.Web.Warning.Enable",
+      "value": "Enable"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ProxySettings.Web.Warning.Text",
+      "value": "This proxy loads provider-controlled JavaScript in a hidden browser. The provider can change traffic timing, batching, padding, and network use, and may consume CPU, memory, or battery. Telegram credentials and native APIs are not intentionally exposed, but provider code remains untrusted. Enable only providers you trust."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ProxySettings.Web.Warning.Title",
+      "value": "Enable WEB Proxy?"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "QuickLook.Preview",
       "value": "Preview"
     },
@@ -29931,6 +30666,46 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "RichTextEditor.AddMedia",
+      "value": "Add Photo or Video"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichTextEditor.AlignCenter",
+      "value": "Align Center"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichTextEditor.AlignLeft",
+      "value": "Align Left"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichTextEditor.AlignRight",
+      "value": "Align Right"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichTextEditor.Apply",
+      "value": "Apply"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichTextEditor.AttachTitle",
+      "value": "Article"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichTextEditor.Body",
+      "value": "Body"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichTextEditor.BulletList",
+      "value": "Bullet List"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "RichTextEditor.ButtonActionCopy",
       "value": "Copies text"
     },
@@ -30036,6 +30811,131 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "RichTextEditor.Checklist",
+      "value": "Checklist"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichTextEditor.Copy",
+      "value": "Copy"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichTextEditor.Cut",
+      "value": "Cut"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichTextEditor.DecreaseIndent",
+      "value": "Decrease Indent"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichTextEditor.Delete",
+      "value": "Delete"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichTextEditor.DeleteColumn",
+      "value": "Delete Column"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichTextEditor.DeleteRow",
+      "value": "Delete Row"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichTextEditor.Edit",
+      "value": "Edit"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichTextEditor.EditFormula",
+      "value": "Edit Formula"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichTextEditor.Format",
+      "value": "Format"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichTextEditor.Formula",
+      "value": "Formula"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichTextEditor.FormulaPreviewPlaceholder",
+      "value": "Preview will appear here"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichTextEditor.Heading",
+      "value": "Heading"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichTextEditor.Highlight",
+      "value": "Highlight"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichTextEditor.IncreaseIndent",
+      "value": "Increase Indent"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichTextEditor.InsertAbove",
+      "value": "Insert Above"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichTextEditor.InsertBelow",
+      "value": "Insert Below"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichTextEditor.InsertLeft",
+      "value": "Insert Left"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichTextEditor.InsertRight",
+      "value": "Insert Right"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichTextEditor.InsertTable",
+      "value": "Insert Table"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichTextEditor.InvalidFormula",
+      "value": "Invalid formula"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichTextEditor.LatexSection",
+      "value": "LATEX"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichTextEditor.Link",
+      "value": "Link"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichTextEditor.ListNone",
+      "value": "None"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichTextEditor.MakeCollage",
+      "value": "Make Collage"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "RichTextEditor.Menu.Bold",
       "value": "Bold"
     },
@@ -30096,6 +30996,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "RichTextEditor.More",
+      "value": "More"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichTextEditor.NumberedList",
+      "value": "Numbered List"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichTextEditor.Paste",
+      "value": "Paste"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "RichTextEditor.Placeholder.AddAuthor",
       "value": "Add author"
     },
@@ -30113,6 +31028,36 @@
       "_": "types.LangPackString",
       "key": "RichTextEditor.Placeholder.TypeSomething",
       "value": "Type something…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichTextEditor.Remove",
+      "value": "Remove"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichTextEditor.RemoveHighlight",
+      "value": "Remove Highlight"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichTextEditor.Replace",
+      "value": "Replace"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichTextEditor.ResultSection",
+      "value": "RESULT"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichTextEditor.SelectAll",
+      "value": "Select All"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichTextEditor.ShowAsCollage",
+      "value": "Show as Collage"
     },
     {
       "_": "types.LangPackString",
@@ -30193,6 +31138,11 @@
       "_": "types.LangPackString",
       "key": "RichTextEditor.Table.DeleteRows",
       "value": "Delete Rows"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichTextEditor.Text",
+      "value": "Text"
     },
     {
       "_": "types.LangPackString",
@@ -33922,6 +34872,11 @@
       "value": "Refund"
     },
     {
+      "_": "types.LangPackString",
+      "key": "Star.List.SpendTopupUnavailable",
+      "value": "You don't have enough Stars on your balance to complete this action."
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "key": "Star.List.StarsNeeded",
       "one_value": "%d Star Needed",
@@ -34077,6 +35032,21 @@
       "_": "types.LangPackString",
       "key": "Star.Nft.Gift.Confirm.Title",
       "value": "Buy Gift"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Star.Nft.Gift.PriceChanged.Info",
+      "value": "The price of this gift has increased from %1$@ to %2$@. Do you want to buy it at the new price?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Star.Nft.Gift.PriceChanged.OK",
+      "value": "Buy for %1$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Star.Nft.Gift.PriceChanged.Title",
+      "value": "Price Changed"
     },
     {
       "_": "types.LangPackString",
@@ -34387,6 +35357,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Star.Transaction.Button.UpgradeFree",
+      "value": "Upgrade for Free"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Star.Transaction.Commission",
       "value": "Commission"
     },
@@ -34679,8 +35654,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "StarGift.AddMessage.PreviewInChat",
+      "value": "Preview in chat"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "StarGift.AddMessage.SendNow",
       "value": "Send Now"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarGift.AddMessage.Title",
+      "value": "Add Message"
     },
     {
       "_": "types.LangPackString",
@@ -35013,6 +35998,11 @@
       "_": "types.LangPackString",
       "key": "StarGift.Preview.Title.Buy",
       "value": "Buy a Gift"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarGift.Preview.WishPlaceholder",
+      "value": "Add Message..."
     },
     {
       "_": "types.LangPackString",
@@ -38368,6 +39358,16 @@
       "_": "types.LangPackString",
       "key": "TextUtils.AddedToCommunity",
       "value": "Added to \"%1$@\" community"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "TextUtils.JoinedViaCommunity",
+      "value": "%1$@ joined the group via community"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "TextUtils.JoinedViaCommunityYou",
+      "value": "You joined the group via community"
     },
     {
       "_": "types.LangPackString",
@@ -44654,5 +45654,5 @@
       "value": "Show Substitutions"
     }
   ],
-  "version": 2382808
+  "version": 2382813
 }

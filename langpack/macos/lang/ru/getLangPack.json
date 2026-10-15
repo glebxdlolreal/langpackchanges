@@ -15808,6 +15808,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "CrashRecovery.Cancel",
+      "value": "Отмена"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CrashRecovery.CheckAgain",
+      "value": "Проверить снова"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CrashRecovery.Checking",
+      "value": "Проверка обновлений…"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "CrashRecovery.TryAgain",
       "value": "Попробовать ещё раз"
     },
@@ -18739,6 +18754,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Gallery.Context.CopySubject",
+      "value": "Копировать объект"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gallery.Context.CopyToClipboard",
       "value": "Копировать медиа"
     },
@@ -18865,6 +18885,11 @@
       "_": "types.LangPackString",
       "key": "Gallery.SendHere",
       "value": "Изменить и отправить"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gallery.Subject.NotFound",
+      "value": "Объекты на фотографии не найдены."
     },
     {
       "_": "types.LangPackString",
@@ -30274,6 +30299,21 @@
       "_": "types.LangPackString",
       "key": "ProxySettings.WEB",
       "value": "WEB"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ProxySettings.Web.FixedPort",
+      "value": "WEB-прокси работают через порт 443 по протоколу HTTPS."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ProxySettings.Web.InvalidHost",
+      "value": "Введите действующее имя хоста в системе DNS без указания схемы, пути, или порта."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ProxySettings.Web.InvalidSecret",
+      "value": "Введите действующий секретный ключ длиной 16 байт — или 17 байт с префиксом «dd»."
     },
     {
       "_": "types.LangPackString",
@@ -42736,6 +42776,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.AuthorizeController.Description",
+      "value": "Введите код-пароль от Telegram, чтобы открыть кошелёк."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizeController.EnterPasscode",
+      "value": "Введите код-пароль"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.AuthorizeController.Passcode",
       "value": "Код-пароль"
     },
@@ -42819,8 +42869,108 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.DecryptFailedInfo",
+      "value": "Не удалось расшифровать комментарий."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.DecryptFailedTitle",
+      "value": "Комментарий не расшифрован"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.EnableBackupFailedTitle",
+      "value": "Резервное копирование не включено"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.AuthorizedOperation.EncryptFailedInfo",
       "value": "Не удалось зашифровать комментарий для этого кошелька. Проверьте соединение с интернетом и попробуйте ещё раз."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.EncryptFailedTitle",
+      "value": "Комментарий не зашифрован"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.EncryptRecipientUnavailableInfo",
+      "value": "Этот кошелёк сейчас не может получать зашифрованные комментарии."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.EnterCurrentPhrase",
+      "value": "Введите действующую секретную фразу"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.InvalidPassword",
+      "value": "Неверный пароль. Попробуйте снова."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.InvalidPhraseInfo",
+      "value": "Проверьте все слова в действующей секретной фразе и попробуйте снова."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.InvalidPhraseTitle",
+      "value": "Некорректная секретная фраза"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.KeyRotationFailedInfo",
+      "value": "Новая секретная фраза не была активирована. Предыдущая фраза и зашифрованная резервная копия по-прежнему действительны."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.KeyRotationFailedTitle",
+      "value": "Секретная фраза не изменена"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.PasswordInfo",
+      "value": "Чтобы продолжить, введите облачный пароль от Вашей учётной записи в Telegram."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.PasswordPlaceholder",
+      "value": "Пароль"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.PasswordTitle",
+      "value": "Пароль Telegram"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.PasswordTooNewInfo",
+      "value": "Попробуйте снова через %1$@."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.PasswordTooNewTitle",
+      "value": "Пароль задан недостаточно давно"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.PhraseChangedInfo",
+      "value": "Ключ кошелька изменился. Введите актуальную секретную фразу из 24 слов."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.PhraseChangedTitle",
+      "value": "Секретная фраза изменилась"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.ProofExpiredInfo",
+      "value": "Срок действия запроса на подтверждение кошелька истек. Попробуйте импортировать его ещё раз."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.ProofExpiredTitle",
+      "value": "Срок подтверждения истёк"
     },
     {
       "_": "types.LangPackString",
@@ -42834,13 +42984,68 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.Retry",
+      "value": "Повторить"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.AuthorizedOperation.RotationPendingInfo",
       "value": "Telegram пока не может подтвердить изменение секретной фразы в блокчейне. Попробуйте позже."
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.RotationPendingTitle",
+      "value": "Секретная фраза обновляется"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.SessionTooNewInfo",
+      "value": "В целях безопасности попробуйте снова через %1$@."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.SessionTooNewTitle",
+      "value": "Сеанс начат недостаточно давно"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.TwoStepRequiredInfo",
+      "value": "Перед изменением этого кошелька необходимо установить облачный пароль."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.TwoStepRequiredTitle",
+      "value": "Требуется облачный пароль"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.WalletChangedInfo",
+      "value": "За время включения резервного копирования кошелёк изменился. Перейдите в настройки кошелька и попробуйте снова."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.WalletChangedTitle",
+      "value": "Кошелёк изменился"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.WalletKeyChangedInfo",
+      "value": "Ключ кошелька изменился. Обновите кошелёк и при необходимости восстановите доступ с помощью актуальной секретной фразы, затем снова подтвердите перевод."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.WalletKeyChangedTitle",
+      "value": "Ключ кошелька изменился"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Biometrics.ConfirmAccess",
       "value": "Подтвердите доступ к кошельку"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Biometrics.EnableReason",
+      "value": "Включите биометрию для защиты кошельков"
     },
     {
       "_": "types.LangPackString",
@@ -42854,8 +43059,58 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.CollectibleDetailsController.ActionSell",
+      "value": "продать"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.CollectibleDetailsController.ActionTransfer",
+      "value": "передать"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.CollectibleDetailsController.ActionWear",
+      "value": "носить"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.CollectibleDetailsController.Address",
+      "value": "Адрес"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.CollectibleDetailsController.AnonymousNumber",
       "value": "Коллекционный номер"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.CollectibleDetailsController.Backdrop",
+      "value": "Фон"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.CollectibleDetailsController.Collectible",
+      "value": "Коллекционный предмет"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.CollectibleDetailsController.CollectibleGift",
+      "value": "Коллекционный подарок"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.CollectibleDetailsController.Collection",
+      "value": "Коллекция"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.CollectibleDetailsController.Model",
+      "value": "Модель"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.CollectibleDetailsController.NextCollectible",
+      "value": "Следующий"
     },
     {
       "_": "types.LangPackString",
@@ -42864,8 +43119,138 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.CollectibleDetailsController.Owner",
+      "value": "Владелец"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.CollectibleDetailsController.OwnerYou",
+      "value": "Вы"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.CollectibleDetailsController.PreviousCollectible",
+      "value": "Предыдущий"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.CollectibleDetailsController.StillSyncing",
       "value": "Идёт синхронизация кошелька. Попробуйте чуть позже."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.CollectibleDetailsController.Symbol",
+      "value": "Узор"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.CollectibleDetailsController.Type",
+      "value": "Категория"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.CollectibleDetailsController.Username",
+      "value": "Имя пользователя"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.CollectibleDetailsController.ViewInExplorer",
+      "value": "Открыть в обозревателе"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.ConnectedAppsController.ActiveConnections",
+      "value": "ДЕЙСТВУЮЩИЕ ПОДКЛЮЧЕНИЯ"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.ConnectedAppsController.AllAppsDisconnected",
+      "value": "Все приложения отключены."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.ConnectedAppsController.AppDisconnected",
+      "value": "%1$@ отключено."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.ConnectedAppsController.AppInfoDescription",
+      "value": "Это приложение может просматривать адрес Вашего кошелька, баланс и историю операций. Оно не может переводить средства без Вашего разрешения."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.ConnectedAppsController.Cancel",
+      "value": "Отмена"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.ConnectedAppsController.Disconnect",
+      "value": "Отключить"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.ConnectedAppsController.DisconnectAll",
+      "value": "Отключить все"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.ConnectedAppsController.DisconnectAllApps",
+      "value": "Отключить все приложения"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.ConnectedAppsController.DisconnectAllConfirmInfo",
+      "value": "У этих приложений больше не будет доступа к Вашему кошельку. Вы сможете снова подключить их в любой момент."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.ConnectedAppsController.DisconnectAllConfirmTitle",
+      "value": "Отключить все приложения?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.ConnectedAppsController.DisconnectAllFailed",
+      "value": "Не удалось отключить эти приложения. Попробуйте ещё раз."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.ConnectedAppsController.DisconnectFailed",
+      "value": "Не удалось отключить это приложение. Попробуйте ещё раз."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.ConnectedAppsController.Disconnecting",
+      "value": "Отключение..."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.ConnectedAppsController.Footer",
+      "value": "Подключённые приложения могут просматривать адрес кошелька, баланс и историю операций. Они не могут переводить средства без Вашего разрешения."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.ConnectedAppsController.Title",
+      "value": "Подключённые приложения"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Controller.AccountProtected",
+      "value": "Ваша учётная запись защищена."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Controller.AddFunds",
+      "value": "Пополнить"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Controller.BlockchainVerified",
+      "value": "Проверка в блокчейне"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Controller.BlockchainVerifiedInfo",
+      "value": "Все транзакции фиксируются, их можно\nпроверить в общедоступном реестре."
     },
     {
       "_": "types.LangPackString",
@@ -42874,8 +43259,23 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Controller.Cancel",
+      "value": "Отмена"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Controller.Collectibles",
       "value": "Коллекции"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Controller.Confirm",
+      "value": "Подтвердить"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Controller.ConfirmAction",
+      "value": "Подтвердить действие"
     },
     {
       "_": "types.LangPackString",
@@ -42929,8 +43329,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Controller.Currency",
+      "value": "Валюта"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Controller.DeployContract",
       "value": "Запуск смарт-контракта"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Controller.Deposit",
+      "value": "Пополнение"
     },
     {
       "_": "types.LangPackString",
@@ -42944,8 +43354,38 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Controller.ErrorDataMismatch",
+      "value": "Данные кошелька, сохранённые на этом устройстве, не совпадают с данными кошелька на сервере, поэтому его невозможно открыть. Вы можете удалить кошелёк и восстановить его с помощью секретной фразы."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Controller.ErrorDataUnreadable",
+      "value": "Данные кошелька, сохранённые на этом устройстве, нечитаемы. Вы можете удалить кошелёк и восстановить его с помощью секретной фразы."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Controller.ErrorStorageUnavailable",
+      "value": "Хранилище кошелька недоступно. Перезапустите приложение и попробуйте ещё раз."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Controller.Excess",
       "value": "Превышение"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Controller.Failed",
+      "value": "Ошибка"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Controller.FailedSuffix",
+      "value": "%1$@ · Не выполнено"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Controller.HowItWorks",
+      "value": "Как это работает"
     },
     {
       "_": "types.LangPackString",
@@ -42954,8 +43394,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Controller.InstantTransfersInfo",
+      "value": "GRAM так же легко отправить в любой чат,\nкак фотографию или видео."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Controller.KeysAndBackup",
+      "value": "Ключи и резервная копия"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Controller.Money",
       "value": "Деньги"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Controller.NoFundsWithoutPermission",
+      "value": "%1$@ не сможет переводить средства без Вашего разрешения."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Controller.PasscodeAndTouchId",
+      "value": "Код-пароль и Touch ID"
     },
     {
       "_": "types.LangPackString",
@@ -44470,7 +44930,7 @@
     {
       "_": "types.LangPackString",
       "key": "Wallet.TransactionRowItem.Deposit",
-      "value": "Поступление"
+      "value": "Пополнение"
     },
     {
       "_": "types.LangPackString",
@@ -45132,6 +45592,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WelcomeMessage.Header",
+      "value": "Приветствие будет автоматически отправляться новым участникам."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WelcomeMessage.InputPlaceholder",
       "value": "Сообщение..."
     },
@@ -45536,5 +46001,5 @@
       "value": "Показать автозамены"
     }
   ],
-  "version": 2381995
+  "version": 2382810
 }

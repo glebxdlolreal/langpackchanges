@@ -12381,7 +12381,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_credits_buy_button_short",
-      "value": "Recharger"
+      "value": "Recharge"
     },
     {
       "_": "types.LangPackString",
@@ -27640,7 +27640,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_payments_webview_install_webkit",
-      "value": "Veuillez installer WebKitGTK (webkit2gtk-4.1/webkit2gtk-4.0) à l'aide de votre gestionnaire de paquets."
+      "value": "Veuillez installer WebKitGTK (webkitgtk-6.0/webkit2gtk-4.1/webkit2gtk-4.0) à l'aide de votre gestionnaire de paquets."
     },
     {
       "_": "types.LangPackString",
@@ -27864,6 +27864,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_canvas",
+      "value": "Toile"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_canvas_pan",
+      "value": "Zoom panoramique sur la toile"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_photo_editor_keys_canvas_paste",
       "value": "Coller une image, un autocollant, un fichier ou un lien"
     },
@@ -27879,8 +27889,23 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_canvas_zoom",
+      "value": "Zoomer la toile au niveau du curseur"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_photo_editor_keys_crop",
       "value": "Rogner"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_crop_expand",
+      "value": "Agrandir la toile au-delà de la photo"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_crop_room",
+      "value": "Réduisez le zoom pour laisser de l'espace autour de la photo"
     },
     {
       "_": "types.LangPackString",
@@ -27889,8 +27914,43 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_fixed_pan",
+      "value": "Déplacer l'image à l'intérieur du cadre"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_fixed_zoom",
+      "value": "Agrandir l'image à l'intérieur du cadre"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_fixed_zoom_fine",
+      "value": "Zoom par paliers plus fins"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_gesture",
+      "value": "{modifier}-{gesture}"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_photo_editor_keys_gesture_click",
       "value": "cliquer"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_gesture_drag",
+      "value": "glisser"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_gesture_drag_edge",
+      "value": "Faire glisser le bord"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_gesture_drag_handle",
+      "value": "glisser la poignée"
     },
     {
       "_": "types.LangPackString",
@@ -27964,8 +28024,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_timeline",
+      "value": "Chronologie"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_timeline_scroll",
+      "value": "Défiler la chronologie"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_photo_editor_keys_timeline_window",
       "value": "Déplacer la plage sélectionnée"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_timeline_zoom",
+      "value": "Zoom sur la chronologie"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_tooltip",
+      "value": "Raccourcis clavier"
     },
     {
       "_": "types.LangPackString",
@@ -28046,6 +28126,11 @@
       "_": "types.LangPackString",
       "key": "lng_photo_editor_text_style_semi_transparent",
       "value": "Semi-transparent"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_trim_shortest",
+      "value": "Couper à la longueur minimale"
     },
     {
       "_": "types.LangPackString",
@@ -38945,6 +39030,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_stash_restore",
+      "value": "Restaurer un message enregistré"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_stats_admins_title",
       "value": "Top des admins"
     },
@@ -39201,6 +39291,11 @@
       "_": "types.LangPackString",
       "key": "lng_status_bot_game",
       "value": "jeu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_status_bot_gay",
+      "value": "gay"
     },
     {
       "_": "types.LangPackString",
@@ -40782,6 +40877,24 @@
       "_": "types.LangPackString",
       "key": "lng_sure_logout",
       "value": "Voulez-vous vraiment vous déconnecter ?"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_sure_logout_wallet_local",
+      "one_value": "Les clés de votre portefeuille sont stockées uniquement sur cet appareil et Telegram ne garde aucune sauvegarde. Si vous continuez, elles seront détruites. Seule votre phrase secrète permettra de restaurer le portefeuille.",
+      "other_value": "{count} clés de vos portefeuilles sont stockées uniquement sur cet appareil et Telegram ne garde aucune sauvegarde. Si vous continuez, elles seront détruites. Seule votre phrase secrète permettra de restaurer le portefeuille."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_sure_logout_wallet_parked",
+      "one_value": "Cet appareil contient aussi les clés d'un autre portefeuille Gram. Si vous continuez, elle sera détruit, et ce portefeuille ne pourra être restauré que si sa phrase secrète a été notée.",
+      "other_value": "Cet appareil contient aussi les clés de {count} autres portefeuilles Gram. Si vous continuez, elles seront détruites, et ces portefeuilles ne pourront être restaurés que si leurs phrases secrètes ont été notées."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_sure_logout_wallet_rotating",
+      "one_value": "Le changement de clé du portefeuille sur cet appareil n'est pas encore confirmé. La clé de remplacement n'est stockée qu'ici et Telegram ne dispose d'aucune sauvegarde de celle-ci. Si vous continuez, elle sera détruite : si le changement est effectif, seule la phrase secrète de remplacement permettra de restaurer le portefeuille.",
+      "other_value": "{count} changements de clé de portefeuille sur cet appareil n'ont pas encore été confirmés. Les clés de remplacement sont stockées uniquement ici et Telegram n'en conserve aucune sauvegarde. Si vous continuez, elles seront détruites : si un changement est validé, seule la phrase secrète de remplacement permettra de restaurer ce portefeuille."
     },
     {
       "_": "types.LangPackString",
@@ -42774,7 +42887,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_wallet_collectible_number_about",
-      "value": "Le numéro anonyme {number} qui permet de créer un compte Telegram non lié à une carte SIM."
+      "value": "Le numéro de collection {number} qui permet de créer un compte Telegram non lié à une carte SIM."
     },
     {
       "_": "types.LangPackString",
@@ -43335,6 +43448,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_import_not_verified",
+      "value": "Telegram n'a pas pu vérifier à qui appartient ce portefeuille. Gardez votre phrase secrète en sécurité et contactez le service d'assistance."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_import_paste_error",
       "value": "Le texte collé doit comporter 12 ou 24 mots."
     },
@@ -43353,6 +43471,11 @@
       "key": "lng_wallet_import_words",
       "one_value": "{count} mot",
       "other_value": "{count} mots"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_imported_not_stored",
+      "value": "Votre portefeuille a été remplacé, mais sa clé n'a pas pu être enregistrée sur cet appareil. Si vous n'arrivez pas à effectuer d'envoi depuis cet appareil, restaurez-le à l'aide de votre phrase secrète."
     },
     {
       "_": "types.LangPackString",
@@ -43567,6 +43690,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_protection_open_warning_lock",
+      "value": "Toute personne ayant accès à votre application Telegram Desktop non verrouillée sur cet ordinateur pourra voler les fonds de votre portefeuille.\n\nVous pouvez modifier ce paramètre plus tard, dans le menu « Verrouillage par code d'accès » de votre portefeuille."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_protection_open_warning_nolock",
       "value": "Quiconque accède à cet ordinateur pourra voler les fonds de votre portefeuille.\n\nVous pourrez modifier cela plus tard depuis l'option « Verrouillage par code d'accès » dans le menu du portefeuille."
     },
@@ -43649,6 +43777,11 @@
       "_": "types.LangPackString",
       "key": "lng_wallet_receive_about",
       "value": "Partagez votre adresse ou ce code QR pour recevoir des GRAM."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_receive_caveat",
+      "value": "Les envois depuis cet appareil nécessitent votre phrase secrète ou l'appareil sur lequel ce portefeuille a été importé."
     },
     {
       "_": "types.LangPackString",
@@ -43884,7 +44017,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_wallet_send_user_title",
-      "value": "Envoyer à {user}"
+      "value": "Envoyer de l'argent à"
     },
     {
       "_": "types.LangPackString",
@@ -43925,6 +44058,11 @@
       "_": "types.LangPackString",
       "key": "lng_wallet_vault_locked",
       "value": "La clé du portefeuille sur cet appareil est verrouillée. Déverrouillez-la et réessayez."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_vault_reset_about",
+      "value": "La clé de portefeuille actuellement stockée sur cet appareil ne peut plus être ouverte ici. Si vous continuez, elle sera supprimée de cet appareil, ainsi que toutes les autres clés de portefeuille qui y sont stockées, et la clé de ce portefeuille sera enregistrée à la place. Cette action est irréversible."
     },
     {
       "_": "types.LangPackString",
@@ -44077,5 +44215,5 @@
       "other_value": "Vous avez payé {count} étoiles."
     }
   ],
-  "version": 5946656
+  "version": 5948401
 }
