@@ -480,8 +480,53 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ActionGramReceivedPreview",
+      "value": "Você recebeu {amount}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ActionGramReceivedText",
+      "value": "Você recebeu {amount}{worth}:"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ActionGramTransferPreview",
+      "value": "{from} te enviou {amount}"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ActionGramTransferPreviewYou",
       "value": "Você enviou {amount} para {from}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ActionGramTransferReceived",
+      "value": "Recebido"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ActionGramTransferSent",
+      "value": "Enviado"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ActionGramTransferText",
+      "value": "{from} te enviou {amount}{worth}:"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ActionGramTransferTextYou",
+      "value": "Você enviou {amount}{worth} para {from}:"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ActionGramTransferTicker",
+      "value": "Grams"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ActionGramTransferWorth",
+      "value": "({fiat})"
     },
     {
       "_": "types.LangPackString",
@@ -767,6 +812,11 @@
       "_": "types.LangPackString",
       "key": "ActionRemovedPhotoYou",
       "value": "Você removeu a foto do grupo"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ActionRequestedPeer",
+      "value": "Você compartilhou {peer} com {bot}"
     },
     {
       "_": "types.LangPackString",
@@ -2255,6 +2305,11 @@
       "other_value": "Substituir {count} Vídeos"
     },
     {
+      "_": "types.LangPackString",
+      "key": "AttachmentSelectFromFiles",
+      "value": "Selecionar dos Arquivos"
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "key": "AttachmentSendAudio",
       "one_value": "Enviar Áudio",
@@ -2282,6 +2337,11 @@
       "_": "types.LangPackString",
       "key": "AudioAddToProfile",
       "value": "Colocar no Perfil"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AudioAddToSaved",
+      "value": "Adicionar às Mensagens Salvas"
     },
     {
       "_": "types.LangPackString",
@@ -2367,6 +2427,21 @@
       "_": "types.LangPackString",
       "key": "AudioSaveToMyProfileUnsaved",
       "value": "Áudio removido do seu perfil."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AudioSearchChats",
+      "value": "Músicas Compartilhadas"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AudioSearchGlobal",
+      "value": "Busca Global"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AudioSearchProfile",
+      "value": "Música de Perfil"
     },
     {
       "_": "types.LangPackString",
@@ -5204,6 +5279,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "EditAdminManageLinkedChannels",
+      "value": "Gerenciar Canais Vinculados"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "EditAdminManageTopics",
       "value": "Gerenciar Tópicos"
     },
@@ -7693,6 +7773,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "GramEarnings",
+      "value": "Ganhos em Gram"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GramEarningsHint",
+      "value": "Você pode sacar seus Grams usando o Fragment."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GramEarningsText",
+      "value": "Seu Gram de presentes, anúncios e Fragment"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "GramGiftReceived",
       "value": "Recarregar Grams"
     },
@@ -9424,6 +9519,26 @@
       "_": "types.LangPackString",
       "key": "Next",
       "value": "Próximo"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NoAudioFiles",
+      "value": "Nenhum arquivo de áudio"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NoAudioFilesInfo",
+      "value": "A sua biblioteca de músicas está vazia."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NoAudioFound",
+      "value": "Nenhum resultado"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NoAudioFoundInfo2",
+      "value": "Nenhum resultado com **{query}**."
     },
     {
       "_": "types.LangPackString",
@@ -11892,6 +12007,56 @@
       "value": "Denunciar spam e sair"
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "key": "RequestPeerChooseBot",
+      "one_value": "Escolher Bot",
+      "other_value": "Escolher Bots"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "RequestPeerChooseChannel",
+      "one_value": "Escolher Canal",
+      "other_value": "Escolher Canais"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "RequestPeerChooseGroup",
+      "one_value": "Escolher Grupo",
+      "other_value": "Escolher Grupos"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "RequestPeerChooseUser",
+      "one_value": "Escolher Usuário",
+      "other_value": "Escolher Usuários"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RequestPeerConfirm",
+      "value": "Tem certeza que deseja enviar **{peer}** para **{bot}**?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RequestPeerConfirmAddBot",
+      "value": "Isso também adicionará **{bot}** a **{peer}**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RequestPeerConfirmBotRights",
+      "value": "Isso também adicionará **{bot}** a **{peer}** com as seguintes permissões: {rights}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RequestPeerRequirements",
+      "value": "Requisitos"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "RequestPeerSelectLimit",
+      "one_value": "Você pode selecionar até {count}.",
+      "other_value": "Você pode selecionar até {count}."
+    },
+    {
       "_": "types.LangPackString",
       "key": "RequestToJoinChannelDeclined",
       "value": "Seu pedido para entrar no canal foi recusado."
@@ -12691,6 +12856,11 @@
       "key": "SearchMessagesFound",
       "one_value": "1 mensagem encontrada",
       "other_value": "{count} mensagens encontradas"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SearchMusic",
+      "value": "Buscar músicas"
     },
     {
       "_": "types.LangPackString",
@@ -13582,6 +13752,11 @@
       "_": "types.LangPackString",
       "key": "ShowFolderTagsHint",
       "value": "Mostra os nomes das pastas de cada chat na lista de chats."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShowMore",
+      "value": "Mostrar mais"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -15631,6 +15806,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletAddFunds",
+      "value": "Adicionar Fundos"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletAddressCopied",
       "value": "O endereço da carteira foi copiado."
     },
@@ -15641,8 +15821,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletBuyTitle",
+      "value": "Comprar Grams"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletCollectibleNumber",
       "value": "Número Colecionável"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCurrencyTicker",
+      "value": "GRAM"
     },
     {
       "_": "types.LangPackString",
@@ -15655,10 +15845,75 @@
       "value": "Envie Dinheiro Instantâneo"
     },
     {
+      "_": "types.LangPackString",
+      "key": "WalletLoadError",
+      "value": "Erro ao carregar sua carteira."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletMenuItem",
+      "value": "Dinheiro"
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "key": "WalletNetworkFeesInfo",
       "one_value": "Cada transferência custa uma pequena taxa da rede (**~{fee} Grams**).\nO Telegram cobre sua primeira todo dia.",
       "other_value": "Cada transferência custa uma pequena taxa da rede (**~{fee} Grams**).\nO Telegram cobre suas primeiras **{count}** todo dia."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletProvisioning",
+      "value": "Criando sua carteira…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletReceiveCopyHint",
+      "value": "Clique para copiar endereço"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletReceiveNetworkNote",
+      "value": "Compartilhe seu endereço ou QR code para receber GRAM."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletReceiveTitle",
+      "value": "Adicionar Fundos"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSend",
+      "value": "Enviar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendMoney",
+      "value": "Enviar Dinheiro"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletShowAddress",
+      "value": "Mostrar Endereço"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTitle",
+      "value": "Dinheiro"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionUnsupportedPeer",
+      "value": "Não suportado"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUnavailable",
+      "value": "A Carteira de Gram ainda não está disponível."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUnknownUser",
+      "value": "Usuário Desconhecido"
     },
     {
       "_": "types.LangPackString",
@@ -15853,5 +16108,5 @@
       "value": "Seu Nome"
     }
   ],
-  "version": 302526
+  "version": 304346
 }
