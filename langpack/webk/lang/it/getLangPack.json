@@ -4467,8 +4467,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "CallLink.Join",
+      "value": "Partecipa per primo alla chiamata e aggiungi persone da lì. %1$@"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "CallLink.JoinLink",
       "value": "Apri chiamata >"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CallLink.Revoked",
+      "value": "Link rimosso. È stato generato un nuovo link."
     },
     {
       "_": "types.LangPackString",
@@ -5210,6 +5220,12 @@
       "_": "types.LangPackString",
       "key": "Chat.BotCommands",
       "value": "Comandi bot"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "Chat.CallMessage.GroupCallParticipantCount",
+      "one_value": "%d persona",
+      "other_value": "%d persone"
     },
     {
       "_": "types.LangPackString",
@@ -6488,6 +6504,16 @@
       "_": "types.LangPackString",
       "key": "Chat.Service.Group.UpdatedPinnedMessage",
       "value": "%@ ha fissato \"%@\""
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Service.JoinedViaCommunity",
+      "value": "%1$s si è unito al gruppo tramite la community %2$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Service.JoinedViaCommunity.Unknown",
+      "value": "%1$s si è unito al gruppo tramite una community"
     },
     {
       "_": "types.LangPackString",
@@ -8677,6 +8703,12 @@
       "value": "Chiama"
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "key": "ConferenceCall.Create.Description",
+      "one_value": "Puoi aggiungere fino a %1$d partecipante a una chiamata.",
+      "other_value": "Puoi aggiungere fino a %1$d partecipanti a una chiamata."
+    },
+    {
       "_": "types.LangPackString",
       "key": "ConferenceCall.Create.Text",
       "value": "Entrerai con l'audio disattivato. Potrai invitare altre persone dopo l'inizio della conferenza."
@@ -8860,6 +8892,11 @@
       "_": "types.LangPackString",
       "key": "ConferenceEncrypted",
       "value": "Crittografata end-to-end"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ConferenceEncryptedInfo",
+      "value": "Queste emoji rappresentano la chiave di crittografia. Devono corrispondere per tutti i partecipanti e cambiano quando qualcuno si unisce o esce."
     },
     {
       "_": "types.LangPackString",
@@ -18261,6 +18298,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "QRCode.Show",
+      "value": "Mostra il mio QR"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "QRCode.Title",
       "value": "Codice QR"
     },
@@ -18934,6 +18976,11 @@
       "_": "types.LangPackString",
       "key": "RevokedLinks",
       "value": "Link revocati"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichMessage.PremiumRequired.Text",
+      "value": "Questo messaggio usa la formattazione avanzata, che richiede Telegram Premium."
     },
     {
       "_": "types.LangPackString",
@@ -21799,6 +21846,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Stars.Transaction.GiftDescription",
+      "value": "Descrizione regalo rimossa"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Stars.Transaction.GiftSale",
       "value": "Vendita regalo"
     },
@@ -21806,6 +21858,16 @@
       "_": "types.LangPackString",
       "key": "Stars.Transaction.GramTopup",
       "value": "Ricarica Gram"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Stars.Transaction.History",
+      "value": "Cronologia transazioni"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Stars.Transaction.LiveReaction",
+      "value": "Reazione diretta streaming"
     },
     {
       "_": "types.LangPackString",
@@ -22855,8 +22917,23 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "StorySettingsHiddenPeople",
+      "value": "La tua storia non sarà mai visibile a [%s]()."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "StorySettingsHideFrom",
       "value": "Nascondi le mie storie a"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StorySettingsKeepInfo",
+      "value": "Conserva la storia sul profilo anche dopo la scadenza tra %s ore. Si applicano le impostazioni privacy."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StorySettingsPrivacyInfo",
+      "value": "[Seleziona le persone]() che non vedranno mai le tue storie."
     },
     {
       "_": "types.LangPackString",
@@ -25086,5 +25163,5 @@
       "other_value": "%1$d messaggi"
     }
   ],
-  "version": 354970
+  "version": 354989
 }
