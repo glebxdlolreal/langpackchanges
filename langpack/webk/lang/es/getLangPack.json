@@ -2424,6 +2424,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AreYouSureDeleteFewChats",
+      "value": "¿Quieres eliminar los chats seleccionados?"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AreYouSureDeleteFewMessages",
       "value": "¿Quieres eliminar estos mensajes?"
     },
@@ -3027,7 +3032,7 @@
     {
       "_": "types.LangPackString",
       "key": "BlockedUsers.SearchKeywords",
-      "value": "bloquear, expulsados, desbloquear, suspender, banear"
+      "value": "bloquear, bloqueados, expulsados, desbloquear, restringir, suspender, banear"
     },
     {
       "_": "types.LangPackString",
@@ -4620,6 +4625,11 @@
       "_": "types.LangPackString",
       "key": "CallLink.RevokeAlert",
       "value": "¿Quieres anular este enlace? Se generará un nuevo enlace y nadie podrá unirse usando el anterior."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CallLink.Revoked",
+      "value": "Enlace anulado. Se generó un enlace nuevo."
     },
     {
       "_": "types.LangPackString",
@@ -11243,6 +11253,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "FolderShowTags.SearchKeywords",
+      "value": "etiquetas, rótulos, colores, nombres de carpetas"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "FolderShowTagsInfo",
       "value": "Muestra los nombres de las carpetas para cada chat en la lista de chats."
     },
@@ -13980,6 +13995,16 @@
       "_": "types.LangPackString",
       "key": "LiteMode.Key.motion.Info",
       "value": "Animaciones de deslizamiento y zoom. Cuando está desactivado, los efectos desaparecen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LiteMode.Key.motion.Title",
+      "value": "Efectos de movimiento"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LiteMode.Key.motion.Title.SearchKeywords",
+      "value": "reducir movimiento, reducir animaciones, transiciones, deslizamiento, zoom, desvanecimiento"
     },
     {
       "_": "types.LangPackString",
@@ -22261,6 +22286,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Stars.Subscription.ExpiredCaption",
+      "value": "Tu suscripción expiró el %s."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Stars.Subscription.Expires",
       "value": "Expira el"
     },
@@ -22286,6 +22316,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Stars.Subscription.MissingBalanceCaption",
+      "value": "No tienes suficientes estrellas para renovar esta suscripción."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Stars.Subscription.PerPeriod",
+      "value": "por %s"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Stars.Subscription.Renew",
       "value": "RENOVAR SUSCRIPCIÓN"
     },
@@ -22298,6 +22338,11 @@
       "_": "types.LangPackString",
       "key": "Stars.Subscription.Restore",
       "value": "REANUDAR SUSCRIPCIÓN"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Stars.Subscription.RestoreCaption",
+      "value": "Ya pagaste por esta suscripción hasta el %s."
     },
     {
       "_": "types.LangPackString",
@@ -25797,13 +25842,34 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WelcomeMessages.DeleteAllSure",
+      "value": "¿Quieres eliminar todos los mensajes de bienvenida?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WelcomeMessages.EmptyAbout",
+      "value": "Saluda automáticamente a los nuevos miembros cuando se unen."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WelcomeMessages.EmptyTitle",
       "value": "Crea un mensaje de bienvenida"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "WelcomeMessages.LimitReached",
+      "one_value": "Límite de %d mensaje alcanzado.",
+      "other_value": "Límite de %d mensajes alcanzado."
     },
     {
       "_": "types.LangPackString",
       "key": "WelcomeMessages.Placeholder",
       "value": "Añade un mensaje de bienvenida"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WelcomeMessages.PreviewAbout",
+      "value": "Los nuevos miembros verán este mensaje al unirse"
     },
     {
       "_": "types.LangPackString",
@@ -25913,5 +25979,5 @@
       "other_value": "%1$d mensajes"
     }
   ],
-  "version": 355619
+  "version": 355623
 }
