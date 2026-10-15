@@ -27874,6 +27874,41 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_crop",
+      "value": "Cortar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_crop_expand",
+      "value": "Aumentar tela além da foto"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_crop_room",
+      "value": "Reduzir para ver espaço ao redor da foto"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_double_click",
+      "value": "Clique duplo"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_fixed_zoom",
+      "value": "Ampliar imagem dentro do quadro"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_legend",
+      "value": "Mostrar estes atalhos"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_middle_drag",
+      "value": "Arrastar com botão do meio"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_photo_editor_link_customize",
       "value": "Personalizar Texto do Link"
     },
@@ -40689,6 +40724,24 @@
       "value": "Tem certeza de que deseja sair?"
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_sure_logout_wallet_local",
+      "one_value": "As chaves da sua carteira são armazenadas apenas neste dispositivo e o Telegram não tem backup delas. Continuar as destrói – apenas sua frase secreta pode restaurar a carteira.",
+      "other_value": "{count} das suas carteiras têm suas chaves armazenadas apenas neste dispositivo, sem backup do Telegram. Continuar as destrói – apenas suas frases secretas podem restaurá-las."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_sure_logout_wallet_parked",
+      "one_value": "Este dispositivo também contém as chaves de outra carteira Gram. Continuar as destrói, e aquela carteira só pode ser restaurada se a Frase Secreta dela foi anotada.",
+      "other_value": "Este dispositivo também contém as chaves de {count} carteiras Gram. Continuar as destrói, e aquelas carteiras só podem ser restauradas se as Frases Secretas delas foram anotadas."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_sure_logout_wallet_rotating",
+      "one_value": "A alteração da chave da carteira neste dispositivo ainda não foi confirmada. Sua chave substituta é armazenada apenas aqui e o Telegram não possui backup dela. Continuar a destrói – se a alteração for aprovada, apenas a Frase Secreta substituta poderá restaurar a carteira.",
+      "other_value": "{count} alterações da chave da carteira neste dispositivo ainda não foram confirmadas. Suas chaves substitutas são armazenadas apenas aqui e o Telegram não possui backup delas. Continuar as destrói – se uma mudança for realizada, apenas sua Frase Secreta substituta poderá restaurar essa carteira."
+    },
+    {
       "_": "types.LangPackString",
       "key": "lng_sure_logout_wallet_unknown",
       "value": "Se este dispositivo tiver chaves da carteira Gram, continuar irá destruí-las. Elas só podem ser restauradas a partir de um backup do Telegram ou de sua Frase Secreta."
@@ -42463,8 +42516,33 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_apps_disconnect_failed",
+      "value": "Erro ao desconectar app."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_apps_disconnect_sure",
+      "value": "Tem certeza de que deseja desconectar {name}?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_apps_disconnect_title",
+      "value": "Desconectar app"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_apps_empty",
+      "value": "Nenhum app conectado"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_apps_title",
       "value": "Apps Conectados"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_apps_unknown",
+      "value": "App desconhecido"
     },
     {
       "_": "types.LangPackString",
@@ -42523,6 +42601,36 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_backup_error",
+      "value": "Erro ao alterar as configurações de backup."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_new_phrase_text",
+      "value": "Uma nova Frase Secreta para sua carteira foi gerada. Anote-a e mantenha em segredo."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_new_phrase_title",
+      "value": "Nova Frase Secreta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_rotate_failed_text",
+      "value": "{reason} Sua Frase Secreta não foi alterada – continue usando a atual. As novas palavras que você anotou não estão em uso."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_rotate_failed_title",
+      "value": "Falha na Ação"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_rotate_reason_failed",
+      "value": "A atualização não pôde ser concluída."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_backup_section",
       "value": "Backup Criptografado"
     },
@@ -42548,8 +42656,33 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_backup_topup_title",
+      "value": "Grams Insuficientes"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_update_check",
+      "value": "Atualizar Frase Secreta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_update_fee",
+      "value": "Taxa da rede: {amount} GRAM ({fiat})."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_update_text",
+      "value": "Você receberá uma nova frase para anotar. Endereço e saldo permanecem os mesmos."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_buy_button",
       "value": "Compre com cartão ou cripto"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_buy_empty",
+      "value": "Nenhuma opção de pagamento disponível."
     },
     {
       "_": "types.LangPackString",
@@ -42633,6 +42766,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_conflict_existing",
+      "value": "Você também tem {amount} em carteiras antigas"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_conflict_switch",
       "value": "Trocar agora"
     },
@@ -42653,6 +42791,26 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_connect_expired",
+      "value": "Esta solicitação de conexão não é mais válida. Inicie a conexão novamente no app."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_failed",
+      "value": "Erro ao conectar a carteira."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_manifest_invalid",
+      "value": "Os detalhes deste app são inválidos ou pertencem a outro domínio, portanto a carteira não foi conectada."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_manifest_missing",
+      "value": "Erro ao carregar os detalhes deste app, portanto a carteira não estava conectada."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_connect_permission",
       "value": "O app poderá ver seu endereço TON, saldo e atividade."
     },
@@ -42668,8 +42826,134 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_actions",
+      "value": "Ações"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_confirm",
+      "value": "Confirmar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_decline",
+      "value": "Recusar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_deploy",
+      "value": "Implanta um contrato neste endereço."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_expired",
+      "value": "A solicitação expirou."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_fee_failed",
+      "value": "Erro ao estimar a taxa da rede."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_fee_loading",
+      "value": "Estimando a taxa da rede…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_locked",
+      "value": "Desbloqueie sua carteira para ver esta solicitação."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_message",
+      "value": "Mensagem"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_messages",
+      "value": "Mensagens"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_not_sent",
+      "value": "A transação não foi enviada. O app foi informado de que falhou."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_payload",
+      "value": "Payload"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_preview",
+      "value": "Prévia"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_wallet_connect_request_recipients",
+      "one_value": "{count} destinatário",
+      "other_value": "{count} destinatários"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_recipients_title",
+      "value": "Destinatários"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_sent",
+      "value": "A transação foi enviada."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_title",
+      "value": "Solicitação de App"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_title_app",
+      "value": "{name} solicita uma transferência"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_total",
+      "value": "Quantia total"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_trace_failed",
+      "value": "A prévia mostra que parte desta transação pode falhar."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_trace_incomplete",
+      "value": "A prévia desta transação está incompleta."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_connect_request_transfer",
       "value": "Transferir"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_unknown_operation",
+      "value": "Operação Desconhecida"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_unlock",
+      "value": "Desbloquear"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_restore",
+      "value": "Este dispositivo não contém a chave atual desta carteira. Restaure-a para usar apps conectados."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_title",
+      "value": "Conectar Carteira"
     },
     {
       "_": "types.LangPackString",
@@ -42905,6 +43189,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_imported_not_stored",
+      "value": "Sua carteira foi substituída, mas não foi possível salvar a chave dela neste dispositivo. Se você não conseguir enviar daqui, restaure-a a partir da sua Frase Secreta."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_imported_text",
       "value": "Sua carteira foi restaurada com sua Frase Secreta."
     },
@@ -43056,8 +43345,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_protection_hardware_absent",
+      "value": "A chave da sua carteira neste dispositivo foi protegida por {provider}, mas essa chave não pode mais ser usada neste dispositivo. Restaure a carteira a partir do backup criptografado do Telegram ou com sua Frase Secreta para armazenar a chave novamente."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_protection_hardware_failed",
       "value": "{provider} não confirmou que era você. Nada foi alterado."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_hardware_unavailable",
+      "value": "A chave da sua carteira neste dispositivo é protegida por {provider}, que não pode ser usada no momento. Reinicie o Telegram para tentar novamente, ou restaure a carteira a partir do backup criptografado do Telegram ou com sua Frase Secreta para protegê-la de outra forma."
     },
     {
       "_": "types.LangPackString",
@@ -43113,6 +43412,11 @@
       "_": "types.LangPackString",
       "key": "lng_wallet_protection_passcode_change",
       "value": "Alterar senha {arrow}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_passcode_changed_error",
+      "value": "A senha foi alterada, mas a proteção da carteira não pôde ser atualizada. Restaure as chaves da sua carteira a partir de um backup ou Frase Secreta."
     },
     {
       "_": "types.LangPackString",
@@ -43201,8 +43505,33 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_restore_explain_text",
+      "value": "Digite sua senha de Verificação em Duas Etapas para restaurar a chave desta carteira a partir do seu backup criptografado."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_restore_not_saved",
       "value": "A Frase Secreta não foi salva neste dispositivo."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_restore_other_text",
+      "value": "As palavras que você digitou não correspondem à carteira."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_restore_outdated_text",
+      "value": "Estas palavras são uma antiga Frase Secreta desta carteira.\n\nDigite a nova frase que você obteve quando desativou o backup pela última vez."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_restore_title",
+      "value": "Restaurar Carteira"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_restoring_key",
+      "value": "Restaurando chave da sua carteira a partir do backup criptografado..."
     },
     {
       "_": "types.LangPackString",
@@ -43287,6 +43616,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_send_error_failed",
+      "value": "A transferência não pôde ser concluída."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_error_in_progress",
+      "value": "Outra transferência ainda está em andamento. Aguarde a conclusão."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_send_error_insufficient",
       "value": "Fundos insuficientes."
     },
@@ -43309,6 +43648,16 @@
       "_": "types.LangPackString",
       "key": "lng_wallet_send_invalid_address",
       "value": "Endereço inválido"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_key_changed_text",
+      "value": "A chave desta carteira foi alterada em outro aplicativo, portanto a chave deste dispositivo não funciona mais.\n\nRestaure a carteira com a Frase Secreta atual para usá-la novamente neste dispositivo."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_key_changed_title",
+      "value": "Chave da Carteira Alterada"
     },
     {
       "_": "types.LangPackString",
@@ -43541,5 +43890,5 @@
       "other_value": "Você pagou {count} Estrelas."
     }
   ],
-  "version": 5947936
+  "version": 5948888
 }
