@@ -3219,6 +3219,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AvatarEditor.SetCommunityPhoto",
+      "value": "Set as Community Photo"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AvatarEditor.SetGroupPhoto",
       "value": "Set as Group Photo"
     },
@@ -5652,8 +5657,33 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "CHAT_REACT_GAME_SCORE",
+      "value": "%2$@|%1$@ reacted %3$@ to your game score"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "CHAT_REACT_GIVEAWAY",
       "value": "%1$@ reacted %3$@ in group %2$@ to your giveaway"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CHAT_REACT_NOTHEME",
+      "value": "%2$@|%1$@ reacted %3$@ to your theme change"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CHAT_REACT_POLL_APPEND",
+      "value": "%2$@|%1$@ reacted %3$@ to your poll update"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CHAT_REACT_STORY",
+      "value": "%2$@|%1$@ reacted %3$@ to your story"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CHAT_REACT_THEME",
+      "value": "%2$@|%1$@ reacted %3$@ to your theme change"
     },
     {
       "_": "types.LangPackString",
@@ -6287,6 +6317,11 @@
       "_": "types.LangPackString",
       "key": "Call.StatusWeakSignal",
       "value": "Weak network signal"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Call.SystemStartErrorMessage",
+      "value": "An error occurred"
     },
     {
       "_": "types.LangPackString",
@@ -16649,6 +16684,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Community.Add.Confirm.TextBot",
+      "value": "If this bot is approved by a community admin, community members will be able to see and use it."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Community.Add.Confirm.TextChannel",
+      "value": "If this channel is approved by a community admin, its subscribers will be able to join or request to join other chats in the community."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Community.Add.Confirm.TextGroup",
+      "value": "If this group is approved by a community admin, its members will be able to join or request to join other chats in the community."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Community.Add.Title",
       "value": "Add Chat"
     },
@@ -16704,6 +16754,22 @@
       "other_value": "The user will be removed from [%@ chats >](community)"
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "key": "Community.AdminActions.WarningChatCount",
+      "one_value": "%@ chat",
+      "other_value": "%@ chats"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Community.AdminActions.WarningText",
+      "value": "Banning **%@** will also remove **%@** they created from the community."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Community.AdminActions.WarningTitle",
+      "value": "Warning"
+    },
+    {
       "_": "types.LangPackString",
       "key": "Community.Admins.AddAdmin",
       "value": "Add Admin"
@@ -16740,6 +16806,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Community.Blacklist.UsersSectionTitle",
+      "value": "REMOVED USERS"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Community.Chat.JoinToView",
       "value": "You need to join this group to view its messages."
     },
@@ -16763,6 +16834,11 @@
       "key": "Community.Edit.ChatsHeader",
       "one_value": "%@ CHAT",
       "other_value": "%@ CHATS"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Community.Edit.ChatsLimitReached",
+      "value": "Sorry, this community has reached the maximum number of chats."
     },
     {
       "_": "types.LangPackString",
@@ -16922,6 +16998,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Community.Request.ApprovedToast",
+      "value": "You've added the chat to the community."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Community.Request.Decline",
       "value": "Decline"
     },
@@ -16934,6 +17015,11 @@
       "_": "types.LangPackString",
       "key": "Community.Request.DeclineAllConfirmation",
       "value": "Do you want to decline all %@ requests to join the community?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Community.Request.DeclinedToast",
+      "value": "You declined adding the chat to the community."
     },
     {
       "_": "types.LangPackString",
@@ -16978,13 +17064,38 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Community.Request.UnknownRequester",
+      "value": "Someone"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Community.View.AddChatButton",
       "value": "Add a Chat to Community"
     },
     {
       "_": "types.LangPackString",
+      "key": "Community.View.ChatsLimitReached",
+      "value": "Sorry, this community has reached the maximum number of chats."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Community.View.HiddenChatToast",
       "value": "You can't join or view this chat until an admin invites you."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Community.View.PendingRequestApprovedToast",
+      "value": "You've added the group to the community."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Community.View.PendingRequestDeclinedToast",
+      "value": "You declined adding the chat to the community."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Community.View.PendingRequestHeader",
+      "value": "PENDING REQUEST"
     },
     {
       "_": "types.LangPackString",
@@ -17020,6 +17131,11 @@
       "_": "types.LangPackString",
       "key": "Community.View.ShowAsOneChatInfo",
       "value": "Group all community chats into one item in the chat list."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Community.View.Title",
+      "value": "Community"
     },
     {
       "_": "types.LangPackString",
@@ -20405,6 +20521,21 @@
       "_": "types.LangPackString",
       "key": "Conversation.UnsupportedMedia",
       "value": "This message is not supported by your version of Telegram. Update the app to view: https://telegram.org/update"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Conversation.UnsupportedMedia.Action",
+      "value": "Update"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Conversation.UnsupportedMedia.Text",
+      "value": "Update Telegram to view this message"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Conversation.UnsupportedMedia.Title",
+      "value": "Unsupported message"
     },
     {
       "_": "types.LangPackString",
@@ -33669,6 +33800,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Monetization.Withdraw.AmountTooSmallError",
+      "value": "You cannot withdraw less than 10 Grams."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Monetization.Withdraw.ComeBackLater",
       "value": "\n\nPlease come back later."
     },
@@ -34599,6 +34735,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Notification.CommunityAddedGroupYou",
+      "value": "You added this group to the community %1$@"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Notification.CommunityRemovedBot",
       "value": "This bot was removed from a community"
     },
@@ -34606,6 +34747,11 @@
       "_": "types.LangPackString",
       "key": "Notification.CommunityRemovedChannel",
       "value": "This channel was removed from a community"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.CommunityRemovedGroup",
+      "value": "%1$@ removed this group from a community"
     },
     {
       "_": "types.LangPackString",
@@ -34960,6 +35106,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Notification.GramTransfer",
+      "value": "%1$@ sent you %2$@"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Notification.GramTransfer.Compact",
       "value": "sent you %@"
     },
@@ -35067,6 +35218,16 @@
       "_": "types.LangPackString",
       "key": "Notification.JoinedGroupByRequestYou",
       "value": "Your request to join the group was approved"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.JoinedGroupViaCommunity",
+      "value": "%@ joined the group via community"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.JoinedGroupViaCommunityYou",
+      "value": "You joined the group via community"
     },
     {
       "_": "types.LangPackString",
@@ -38222,6 +38383,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PUSH_LOCKED_STORY",
+      "value": "You have a new story%1$@"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PUSH_MESSAGE",
       "value": "%1$@|New message"
     },
@@ -39024,6 +39190,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PasscodeSettings.UpdateError",
+      "value": "Couldn't update the passcode. Unlock again and try once more."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PasscodeSettings.VerificationError",
+      "value": "Couldn't verify the passcode. Please try again."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PasscodeSettings.WalletConfirmWithFaceId",
       "value": "Confirm with Face ID"
     },
@@ -39036,6 +39212,16 @@
       "_": "types.LangPackString",
       "key": "PasscodeSettings.WalletConfirmWithTouchId",
       "value": "Confirm with Touch ID"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PasscodeSettings.WalletEnableBiometricsReason",
+      "value": "Enable biometrics for your wallets"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PasscodeSettings.WalletProtectionError",
+      "value": "Couldn't update wallet protection. Please try again."
     },
     {
       "_": "types.LangPackString",
@@ -42023,6 +42209,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Poll.Timer.MinutesSeconds",
+      "value": "%1$@:%2$@"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PollResults.Collapse",
       "value": "COLLAPSE"
     },
@@ -42944,6 +43135,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Premium.Limits.Messages",
+      "value": "Messages"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Premium.Limits.MessagesInfo",
+      "value": "Express yourself with longer messages"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Premium.Limits.PinnedChats",
       "value": "Pinned Chats"
     },
@@ -43390,6 +43591,16 @@
       "_": "types.LangPackString",
       "key": "Premium.Purchase.OnlyOneSubscriptionAllowed",
       "value": "You have already purchased Telegram Premium for another account. You can only have one Telegram Premium subscription on one Apple ID."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Premium.Purchase.Pending",
+      "value": "Purchase Pending"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Premium.Purchase.PendingInfo",
+      "value": "Your purchase is awaiting confirmation. You can leave this screen. Premium will activate when the purchase is confirmed."
     },
     {
       "_": "types.LangPackString",
@@ -44168,6 +44379,11 @@
       "_": "types.LangPackString",
       "key": "Privacy.GroupsAndChannels.InviteToChannelMultipleError",
       "value": "Sorry, you can't create a group with these users due to their privacy settings."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Privacy.GroupsAndChannels.InviteToCommunityError",
+      "value": "Sorry, you cannot add %@ to the community because of %@'s privacy settings."
     },
     {
       "_": "types.LangPackString",
@@ -45509,13 +45725,113 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "REACT_GAME_SCORE",
+      "value": "%1$@|reacted %2$@ to your game score"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "REACT_GIFTCODE",
+      "value": "%1$@|reacted %2$@ to your Gift Code"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "REACT_GIFT_THEME",
+      "value": "%1$@|reacted %2$@ to your theme change"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "REACT_GIVEAWAY",
       "value": "%1$@ reacted %2$@ to your giveaway"
     },
     {
       "_": "types.LangPackString",
+      "key": "REACT_GIVEAWAY_STARS",
+      "value": "%1$@|reacted %2$@ to your giveaway"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "REACT_GRAM_TRANSFER",
+      "value": "%1$@|reacted %2$@ to your %3$@ transfer"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "REACT_GRAM_TRANSFER_COMMENT",
+      "value": "%1$@|reacted %2$@ to your %3$@ transfer: %4$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "REACT_NOTHEME",
+      "value": "%1$@|reacted %2$@ to your theme change"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "REACT_PAID_MEDIA",
+      "value": "%1$@|reacted %2$@ to your paid post"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "REACT_PHOTO_SECRET",
+      "value": "%1$@|reacted %2$@ to your self-destructing photo"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "REACT_PROXIMITY",
+      "value": "%1$@|reacted %2$@ to your proximity alert"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "REACT_RECURRING_PAY",
+      "value": "%1$@|reacted %2$@ to your payment"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "REACT_SAME_WALLPAPER",
+      "value": "%1$@|reacted %2$@ to the same background"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "REACT_SCREENSHOT",
+      "value": "%1$@|reacted %2$@ to your screenshot"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "REACT_STARGIFT",
       "value": "%1$@|reacted %2$@ to your Gift worth %3$@ Stars"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "REACT_STARGIFT_PREPAID_UPGRADE",
+      "value": "%1$@|reacted %2$@ to your Gift upgrade worth %3$@ Stars"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "REACT_STARGIFT_UNPACK_UPGRADE",
+      "value": "%1$@|reacted %2$@ to the Gift you helped upgrade"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "REACT_STARGIFT_UPGRADE",
+      "value": "%1$@|reacted %2$@ to your upgraded Gift"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "REACT_STORY_MENTION",
+      "value": "%1$@|reacted %2$@ to your story mention"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "REACT_SUGGEST_BIRTHDAY",
+      "value": "%1$@|reacted %2$@ to your birthday suggestion"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "REACT_SUGGEST_USERPIC",
+      "value": "%1$@|reacted %2$@ to your photo suggestion"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "REACT_THEME",
+      "value": "%1$@|reacted %2$@ to your theme change"
     },
     {
       "_": "types.LangPackString",
@@ -45526,6 +45842,26 @@
       "_": "types.LangPackString",
       "key": "REACT_TODO_DONE",
       "value": "%1$@|reacted %2$@ to your task update"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "REACT_UNIQUE_STARGIFT",
+      "value": "%1$@|reacted %2$@ to your Gift"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "REACT_VIDEO_SECRET",
+      "value": "%1$@|reacted %2$@ to your self-destructing video"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "REACT_WALLET_TONCONNECT_REQUEST",
+      "value": "%1$@|reacted %2$@ to your TON Connect request"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "REACT_WALLPAPER",
+      "value": "%1$@|reacted %2$@ to the new background"
     },
     {
       "_": "types.LangPackString",
@@ -46219,8 +46555,23 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "RichText.AddEmoji",
+      "value": "Add emoji"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "RichText.AddMediaTitle",
       "value": "Add Media"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.ButtonActionCopy",
+      "value": "Copies text"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.ButtonActionDisabled",
+      "value": "Disabled"
     },
     {
       "_": "types.LangPackString",
@@ -46529,6 +46880,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "RichText.PlaceholderCodeLanguage",
+      "value": "Language"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "RichText.PlaceholderDetailTitle",
       "value": "Title"
     },
@@ -46576,6 +46932,16 @@
       "_": "types.LangPackString",
       "key": "RichText.TitleArticle",
       "value": "Text"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichTextPreview.Channel",
+      "value": "Channel"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichTextPreview.EmbeddedContent",
+      "value": "Embedded content"
     },
     {
       "_": "types.LangPackString",
@@ -58531,6 +58897,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.Stop",
+      "value": "Stop"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "VoiceOver.Chat.Title",
       "value": "Title: %@"
     },
@@ -58842,6 +59213,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Apps.AllDisconnected",
+      "value": "All apps disconnected."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Apps.AllPermissions",
       "value": "Connected apps can see your wallet address, balance and activity. They can't move funds without your approval."
     },
@@ -58852,6 +59228,41 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Apps.DisconnectAll",
+      "value": "Disconnect All Apps"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Apps.DisconnectAllAction",
+      "value": "Disconnect All"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Apps.DisconnectAllError",
+      "value": "Unable to disconnect these apps. Please try again."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Apps.DisconnectAllText",
+      "value": "These apps will lose access to your wallet. You can connect them again at any time."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Apps.DisconnectAllTitle",
+      "value": "Disconnect All Apps?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Apps.DisconnectError",
+      "value": "Unable to disconnect this app. Please try again."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Apps.Disconnected",
+      "value": "%@ disconnected."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Apps.Permissions",
       "value": "This app can see your wallet address, balance and activity. It can't move funds without your approval."
     },
@@ -58859,6 +59270,96 @@
       "_": "types.LangPackString",
       "key": "Wallet.Apps.Title",
       "value": "Connected Apps"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthenticationReason",
+      "value": "Confirm access to your wallet"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Authorization.BackupDisabledText",
+      "value": "Enable encrypted backup before restoring the secret phrase from Telegram."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Authorization.BackupDisabledTitle",
+      "value": "Backup Is Disabled"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Authorization.BackupUnavailableText",
+      "value": "Encrypted backup is not available for this wallet."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Authorization.BackupUnavailableTitle",
+      "value": "Backup Unavailable"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Authorization.PasswordRetryAfter",
+      "value": "Try again in %@."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Authorization.PasswordText",
+      "value": "Enter your Telegram 2-Step Verification password to continue."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Authorization.PasswordTitle",
+      "value": "Telegram Password"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Authorization.PasswordTooNewTitle",
+      "value": "Password Is Too New"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Authorization.SessionRetryAfter",
+      "value": "For your security, try again in %@."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Authorization.SessionTooNewTitle",
+      "value": "Session Is Too New"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Authorization.TwoStepRequiredText",
+      "value": "Set up a Telegram password before changing this wallet."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Authorization.TwoStepRequiredTitle",
+      "value": "Two-Step Verification Required"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Authorization.UpdatePhraseErrorText",
+      "value": "The new secret phrase was not activated. Your previous phrase and encrypted backup are still valid."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Authorization.VerificationExpiredText",
+      "value": "The wallet verification request expired. Please try importing it again."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Authorization.VerificationExpiredTitle",
+      "value": "Verification Expired"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Authorization.VerifyWalletErrorText",
+      "value": "Telegram couldn't verify that you own this wallet. Please try importing it again."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Authorization.VerifyWalletErrorTitle",
+      "value": "Couldn't Verify Wallet"
     },
     {
       "_": "types.LangPackString",
@@ -58887,6 +59388,31 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Backup.DisableErrorText",
+      "value": "Couldn't confirm that backup was disabled. Check the network connection and try again."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.DisableErrorTitle",
+      "value": "Couldn't Disable Backup"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.DisablePhraseUpdateErrorText",
+      "value": "The secret phrase change could not be completed. Check your wallet state and try again."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.DisablePhraseUpdatePendingText",
+      "value": "Telegram couldn't confirm the secret phrase change on the blockchain yet. Wait a moment and tap Disable again."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.DisableRetryText",
+      "value": "%@\n\nTap Disable to try again."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Backup.DisableText",
       "value": "The only way to recover your funds will be to manually enter your secret phrase."
     },
@@ -58894,6 +59420,21 @@
       "_": "types.LangPackString",
       "key": "Wallet.Backup.DisableTitle",
       "value": "Disable Backup?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.DisableVerificationErrorText",
+      "value": "Telegram couldn't verify that you own this wallet. Please try again."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.DisableVerificationExpiredText",
+      "value": "The wallet verification request expired. Tap Disable to try again."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.DisableWalletChangedText",
+      "value": "The wallet's secret phrase changed while you were updating backup settings. Restore access using the current secret phrase and try again."
     },
     {
       "_": "types.LangPackString",
@@ -58912,6 +59453,26 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Backup.EnableErrorTitle",
+      "value": "Couldn't Enable Backup"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.EnablePhraseUpdatePendingText",
+      "value": "Telegram couldn't confirm the secret phrase change on the blockchain yet. Wait a moment and retry, or enter the current secret phrase."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.EnableVerificationExpiredText",
+      "value": "The wallet verification request expired. Please try enabling backup again."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.EnableWalletChangedText",
+      "value": "The wallet changed while enabling backup. Open its settings and try again."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Backup.EnabledText",
       "value": "Your keys are now stored encrypted across Telegram's datacenters."
     },
@@ -58919,6 +59480,21 @@
       "_": "types.LangPackString",
       "key": "Wallet.Backup.EnabledTitle",
       "value": "Backup Enabled"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.EnterCurrentPhrase",
+      "value": "Enter Current Secret Phrase"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.InsufficientFundsTitle",
+      "value": "Not Enough Grams"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.InvalidPhraseText",
+      "value": "Check all words of your current secret phrase and try again."
     },
     {
       "_": "types.LangPackString",
@@ -58932,8 +59508,58 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Backup.PhraseUpdatePendingTitle",
+      "value": "Secret Phrase Update Pending"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.RequiredBalanceText",
+      "value": "You need %@ to update your secret phrase. Add funds and try again."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.TopUp",
+      "value": "Top Up"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.UpdateErrorTitle",
+      "value": "Couldn’t Update Backup"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Backup.UpdatePhrase",
       "value": "Update Secret Phrase"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.UpdatePhraseErrorTitle",
+      "value": "Couldn't Update Secret Phrase"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.UpdatePhraseTopUpText",
+      "value": "You need a non-zero balance to update your secret phrase."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.VerifyPhraseErrorText",
+      "value": "This secret phrase may be outdated for your wallet. Enter the current secret phrase to enable backup."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.VerifyPhraseErrorTitle",
+      "value": "Couldn't Verify Secret Phrase"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.WalletChangedTitle",
+      "value": "Wallet Changed"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Collectibles",
+      "value": "Collectibles"
     },
     {
       "_": "types.LangPackString",
@@ -58947,6 +59573,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Connect.Error",
+      "value": "Unable to connect this app. Please try again."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Connect.Permissions",
       "value": "It will be able to view your wallet address, balance and activity."
     },
@@ -58954,6 +59585,16 @@
       "_": "types.LangPackString",
       "key": "Wallet.Connect.Proof",
       "value": "%@ requires you to prove ownership of this wallet."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Connect.SuccessText",
+      "value": "You are now connected to [%@]()."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Connect.SuccessTitle",
+      "value": "Connection Successful"
     },
     {
       "_": "types.LangPackString",
@@ -58974,6 +59615,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.Currency",
       "value": "Currency"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.EarningsBalance",
+      "value": "You have %@ in Gram Earnings"
     },
     {
       "_": "types.LangPackString",
@@ -59007,8 +59653,33 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Import.EnableBackupText",
+      "value": "Enter your wallet's current 12- or 24-word secret phrase to enable encrypted backup."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Import.EnterPhraseText",
       "value": "Enter your wallet's Secret Phrase\nto continue. [Why?]()"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Import.ErrorText",
+      "value": "Check the secret phrase and network connection, then try again."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Import.ErrorTitle",
+      "value": "Couldn’t Import Wallet"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Import.InvalidCurrentPhraseLength",
+      "value": "Your current secret phrase must contain exactly 12 or 24 words. The pasted phrase contains %@."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Import.InvalidPhraseLength",
+      "value": "A secret phrase must contain exactly 12 or 24 words. The pasted phrase contains %@."
     },
     {
       "_": "types.LangPackString",
@@ -59027,8 +59698,33 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Import.PhraseChangedText",
+      "value": "The key for this wallet has changed. Enter the current 24-word secret phrase."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Import.PhraseChangedTitle",
+      "value": "Secret Phrase Has Changed"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Import.Proceed",
+      "value": "Proceed"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Import.RecoveryExplanation",
+      "value": "Since you disabled backups for your wallet, you have to manually enter your Secret Phrase in every new Telegram session."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Import.TestText",
       "value": "Make sure you wrote your secret phrase down correctly.\nEnter words **%1$@**, **%2$@** and **%3$@**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Import.TestTextFallback",
+      "value": "Make sure you wrote your secret phrase down correctly."
     },
     {
       "_": "types.LangPackString",
@@ -59050,6 +59746,16 @@
       "key": "Wallet.Import.WordCount",
       "one_value": "%@ word",
       "other_value": "%@ words"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Import.WrongPhraseText",
+      "value": "The words you entered don't match the wallet."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Import.WrongPhraseTitle",
+      "value": "Wrong Secret Phrase"
     },
     {
       "_": "types.LangPackString",
@@ -59088,6 +59794,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Info.FirstGramsText",
+      "value": "You can:"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Info.FirstGramsTitle",
       "value": "Your first Grams!"
     },
@@ -59095,6 +59806,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.Info.GramRateText",
       "value": "The native currency of the TON blockchain. **1 Gram** currently equals **%@**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Info.GramText",
+      "value": "The native currency of the TON blockchain."
     },
     {
       "_": "types.LangPackString",
@@ -59193,6 +59909,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.NetworkError",
+      "value": "Check the network connection and try again."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.OptionalMessage",
       "value": "Optional message"
     },
@@ -59203,8 +59924,33 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.PasscodeTouchId",
+      "value": "Passcode & Touch ID"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.PasswordSetText",
+      "value": "Your account is now protected."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.PasswordSetTitle",
+      "value": "Password set"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.PreviousWalletsBalance",
       "value": "You also have %@ in old wallets"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.ProtectAccount",
+      "value": "Protect Your Account"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Receive.Buy",
+      "value": "Buy with cash or crypto"
     },
     {
       "_": "types.LangPackString",
@@ -59218,6 +59964,26 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Receive.PurchaseFailedText",
+      "value": "The purchase couldn't be started. Please try again."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Receive.PurchaseFailedTitle",
+      "value": "Purchase Failed"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Receive.PurchaseUnavailableText",
+      "value": "Purchasing is currently unavailable. Please try again later."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Receive.PurchaseUnavailableTitle",
+      "value": "Purchase Unavailable"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Receive.ShowQR",
       "value": "Show my QR"
     },
@@ -59228,8 +59994,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Recipient.Error",
+      "value": "An unknown error occurred. Please try again later."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Recipient.GramWallet",
       "value": "Gram Wallet"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Recipient.InvalidAddress",
+      "value": "The pasted text is not a valid TON address."
     },
     {
       "_": "types.LangPackString",
@@ -59278,6 +60054,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.RestoreErrorTitle",
+      "value": "Couldn’t Restore Wallet"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Retry",
+      "value": "Retry"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.ScanQR",
       "value": "Find a QR code that contains a wallet address\nor connect an app"
     },
@@ -59313,6 +60099,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Send.AmountPlaceholder",
+      "value": "Tap to set amount"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Send.Balance",
       "value": "Balance: %@"
     },
@@ -59320,6 +60111,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.Send.DepositFunds",
       "value": "Deposit funds"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Send.EditComment",
+      "value": "Edit Comment"
     },
     {
       "_": "types.LangPackString",
@@ -59413,6 +60209,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Settings.EnterSecretPhrase",
+      "value": "Enter Secret Phrase"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Settings.EnterSecretPhraseInfo",
+      "value": "Enter your secret phrase to restore access to this wallet."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Settings.ImportWallet",
       "value": "Import an Existing Wallet"
     },
@@ -59433,6 +60239,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Settings.ReplaceWalletErrorTitle",
+      "value": "Couldn’t Replace Wallet"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Settings.ReplaceWalletTitle",
       "value": "How do you want to replace the old wallet?"
     },
@@ -59440,6 +60251,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.Settings.SecretPhraseInfo",
       "value": "You can transfer your wallet to another device by copying your 12- or 24-word secret phrase."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Settings.ShowPhraseErrorTitle",
+      "value": "Couldn’t Show Secret Phrase"
     },
     {
       "_": "types.LangPackString",
@@ -59468,8 +60284,118 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Sign.BinaryContent",
+      "value": "Binary content"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sign.BinaryWarning",
+      "value": "You are signing blindly. Only sign data from trusted sources."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sign.Confirm",
+      "value": "Confirm"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sign.ConfirmAction",
+      "value": "Confirm Action"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sign.Data",
+      "value": "Data"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sign.Error",
+      "value": "Unable to complete this request. Please try again."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sign.Fee",
+      "value": "Fee: %@."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sign.FeeWithFiat",
+      "value": "Fee: %1$@ (%2$@)."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sign.FieldAddress",
+      "value": "address"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sign.FieldAmount",
+      "value": "amount"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sign.FieldComment",
+      "value": "comment"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sign.FieldMessage",
+      "value": "message"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sign.FieldPayload",
+      "value": "payload (BOC/Base64)"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sign.FieldStateInit",
+      "value": "stateInit (BOC/Base64)"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sign.FieldValidUntil",
+      "value": "valid_until"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sign.MessageExplanation",
+      "value": "Review the message details and sign if you agree."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sign.Sign",
+      "value": "Sign"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sign.SignData",
+      "value": "Sign Data"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sign.Submission",
+      "value": "The app will submit this transfer."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sign.SubmissionUntil",
+      "value": "The app can submit this transfer until %@."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sign.TextExplanation",
+      "value": "Carefully review the message and, if you agree, sign the data."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.TermsText",
       "value": "By using this service, you agree to its [Terms]()."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TermsText_URL",
+      "value": "https://telegram.org/tos"
     },
     {
       "_": "types.LangPackString",
@@ -59488,8 +60414,73 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Transaction.CallContract",
+      "value": "Call Contract"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.CardTopUp",
+      "value": "Card top-up"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.Collectible",
+      "value": "Collectible"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.CollectibleGift",
+      "value": "Collectible Gift"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.CommentDecryptionErrorText",
+      "value": "The comment could not be decrypted."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.CommentDecryptionErrorTitle",
+      "value": "Couldn't Decrypt Comment"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.CommentPrivacy",
+      "value": "Comment privacy"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.CryptoTopUp",
+      "value": "Crypto top-up"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Transaction.Date",
       "value": "Date"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.DeployContract",
+      "value": "Deploy Contract"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.Deposit",
+      "value": "Deposit"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.Excess",
+      "value": "Excess"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.Failed",
+      "value": "Failed"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.FailedOperation",
+      "value": "%@ · Failed"
     },
     {
       "_": "types.LangPackString",
@@ -59508,8 +60499,24 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Transaction.IncomingCollectible",
+      "value": "Incoming collectible"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Transaction.IncomingTransfer",
       "value": "Incoming transfer"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "Wallet.Transaction.ItemCount",
+      "one_value": "%@ item",
+      "other_value": "%@ items"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.KeyUpdate",
+      "value": "Key Update"
     },
     {
       "_": "types.LangPackString",
@@ -59528,8 +60535,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Transaction.OutgoingCollectible",
+      "value": "Outgoing collectible"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Transaction.OutgoingTransfer",
       "value": "Outgoing transfer"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.PrivateComment",
+      "value": "Visible only to you and the recipient."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.Processing",
+      "value": "Processing..."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.PublicComment",
+      "value": "The comment is visible to everyone."
     },
     {
       "_": "types.LangPackString",
@@ -59543,8 +60570,39 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Transaction.SendCollectible",
+      "value": "Send Collectible"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.Sender",
+      "value": "Sender"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Transaction.Transfer",
       "value": "Transfer"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "Wallet.Transaction.Transfers",
+      "one_value": "%@ transfer",
+      "other_value": "%@ transfers"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.UnknownAddress",
+      "value": "Unknown Address"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.UnknownOperation",
+      "value": "Unknown Operation"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.Username",
+      "value": "Username"
     },
     {
       "_": "types.LangPackString",
@@ -59553,13 +60611,124 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Transaction.Withdrawal",
+      "value": "Withdrawal"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transactions",
+      "value": "Transactions"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transfer.AllBalance",
+      "value": "All Balance"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transfer.CollectibleSuccess",
+      "value": "The collectible has been sent to **%@**."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Transfer.CollectibleTopUpText",
       "value": "You need at least 0.1 Grams in your wallet to transfer an NFT. Top up your balance and try again."
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Transfer.CommentEncryptionErrorText",
+      "value": "The comment could not be encrypted for this wallet. Check the network connection and try again."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transfer.CommentEncryptionErrorTitle",
+      "value": "Couldn't Encrypt Comment"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transfer.CommentEncryptionUnavailable",
+      "value": "This wallet can't receive encrypted comments now."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transfer.CommentTooLongText",
+      "value": "The encrypted comment is too long. Shorten it and try again."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transfer.CommentTooLongTitle",
+      "value": "Comment Too Long"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transfer.DetailsHeader",
+      "value": "DETAILS"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transfer.ErrorText",
+      "value": "The transfer could not be prepared or sent. Check the address, balance and network connection, then try again."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transfer.ErrorTitle",
+      "value": "Transfer Failed"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transfer.Header",
+      "value": "TRANSFER"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transfer.HeaderMultiple",
+      "value": "TRANSFERS"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Transfer.KeyChangedText",
       "value": "The wallet key has changed. Refresh the wallet and restore access with its current Secret Phrase if needed, then confirm the transfer again."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transfer.KeyChangedTitle",
+      "value": "Wallet Key Changed"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transfer.PendingText",
+      "value": "The transfer may have been sent. Don’t send it again while its status is being checked."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transfer.PendingTitle",
+      "value": "Transfer Pending"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transfer.PreviewHeader",
+      "value": "PREVIEW"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "Wallet.Transfer.RecipientCount",
+      "one_value": "%@ recipient",
+      "other_value": "%@ recipients"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transfer.Success",
+      "value": "Grams have been sent to **%@**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transfer.ToAddress",
+      "value": "to %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transfer.Unavailable",
+      "value": "Unavailable"
     },
     {
       "_": "types.LangPackString",
@@ -59580,6 +60749,21 @@
       "_": "types.LangPackString",
       "key": "Wallet.ViewProfile",
       "value": "View Profile >"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.WaltBalance",
+      "value": "You also have funds in Walt"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Words.NewText",
+      "value": "A new secret phrase for your wallet has been generated. Write it down and keep it secret."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Words.NewTitle",
+      "value": "New Secret Phrase"
     },
     {
       "_": "types.LangPackString",
@@ -61329,5 +62513,5 @@
       "value": "You've entered an invalid security code."
     }
   ],
-  "version": 22253615
+  "version": 22253636
 }
