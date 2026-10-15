@@ -1862,6 +1862,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AreYouSureLogoutGrams",
+      "value": "Quer mesmo sair?\n\nIsso cancelará todos os seus Chats Secretos e **apagará os backups da carteira com {amount}*. Sem as Frases Secretas, você perderá o acesso ao dinheiro.\n\nVocê pode usar o Telegram em todos os seus dispositivos ao mesmo tempo e usar várias contas no mesmo app."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AreYouSureSessions",
       "value": "Tem certeza de que deseja terminar todas as outras sessões?"
     },
@@ -10111,6 +10116,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PasscodeWalletKeyOtherAccounts",
+      "value": "As chaves da carteira em outra conta do Telegram são protegidas por esta senha. Mude para cada conta e remova as chaves da carteira antes de desativar a senha do app."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PasscodeWrong",
       "value": "Senha incorreta"
     },
@@ -15821,13 +15831,53 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletAppPasscodeDescription",
+      "value": "Digite sua senha para continuar."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletAppPasscodePlaceholder",
+      "value": "Senha"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletBackupDisabledError",
       "value": "O backup está desativado para esta carteira"
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletBackupEnabledText",
+      "value": "Suas chaves agora são armazenadas criptografadas nos datacenters do Telegram."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBackupEnabledTitle",
+      "value": "Backup Ativado"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletBackupFailedError",
       "value": "Falha ao atualizar o backup da carteira"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBackupHint",
+      "value": "Seu backup da chave criptografada é dividido em três partes e armazenado em três continentes.\n\nEle só pode ser remontado em seus dispositivos, para que ninguém – nem mesmo o Telegram – possa acessar sua chave."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBackupOffHint",
+      "value": "Seu backup da chave criptografada será dividido em três partes e armazenado em três continentes.\n\nEle só pode ser remontado em seus dispositivos, para que ninguém – nem mesmo o Telegram – possa acessar sua chave."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBackupPartsMissingError",
+      "value": "O backup da carteira está incompleto no servidor"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBackupTitle",
+      "value": "Backup Criptografado"
     },
     {
       "_": "types.LangPackString",
@@ -16036,13 +16086,78 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletCreatedTitle",
+      "value": "Carteira Criada"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletCurrencyTicker",
       "value": "GRAM"
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletDecryptError",
+      "value": "Falha ao descriptografar o comentário. Tente novamente."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletDeleteText",
       "value": "Você perderá o acesso aos seus fundos, a menos que tenha salvo sua frase secreta."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDepositFunds",
+      "value": "Depositar fundos"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDisableBackup",
+      "value": "Desativar Backup"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDisableBackupConfirm",
+      "value": "Desativar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDisableBackupFee",
+      "value": "Taxa da rede: {amount} GRAM{fiat}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDisableBackupRotateText",
+      "value": "Seu backup criptografado distribuído será apagado. Sua carteira mudará para a nova frase secreta. Esta frase secreta será a única forma de recuperar esta carteira."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDisableBackupText",
+      "value": "Seu backup criptografado distribuído será apagado. Sua frase secreta será a única forma de recuperar esta carteira."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDisableBackupTitle",
+      "value": "Desativar Backup?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletEnableBackup",
+      "value": "Ativar Backup"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletEnterPhraseSubtitle",
+      "value": "Digite a frase de recuperação da sua carteira para reativar o backup."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletEnterPhraseTitle",
+      "value": "Insira a Frase de Recuperação"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletExistingWaltBalance",
+      "value": "Você também tem fundos na Walt"
     },
     {
       "_": "types.LangPackString",
@@ -16078,6 +16193,11 @@
       "_": "types.LangPackString",
       "key": "WalletFeatureVerifiedTitle",
       "value": "Verificado na Blockchain"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletLinkNoWallet",
+      "value": "Este usuário ainda não tem carteira."
     },
     {
       "_": "types.LangPackString",
@@ -16123,6 +16243,41 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletPasscodeInvalid",
+      "value": "Senha errada, tente novamente"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletPasscodeTitle",
+      "value": "Senha"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletPaste",
+      "value": "Colar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletPastePhrase",
+      "value": "Colar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletPhrase12Words",
+      "value": "12 palavras"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletPhrase24Words",
+      "value": "24 palavras"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletPhraseNotKept",
+      "value": "Sua carteira foi restaurada, mas não foi possível salvar a frase de recuperação neste dispositivo. Digite-a novamente para poder enviar desta carteira."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletPhraseOutdatedError",
       "value": "Esta frase de recuperação não controla mais a carteira. Digite sua frase atual."
     },
@@ -16130,6 +16285,16 @@
       "_": "types.LangPackString",
       "key": "WalletPrivateCommentInfo",
       "value": "Visível só para você e o destinatário."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletProofInvalidError",
+      "value": "Verifique a ordem das palavras.\n\nSó uma frase secreta criada no Telegram pode ser importada aqui."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletProtectAccountBanner",
+      "value": "Proteja sua conta"
     },
     {
       "_": "types.LangPackString",
@@ -16155,6 +16320,36 @@
       "_": "types.LangPackString",
       "key": "WalletReceiveTitle",
       "value": "Adicionar Fundos"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletRecoveryPhraseTitle",
+      "value": "Frase de Recuperação"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletReleaseKeyRemove",
+      "value": "Remover Chaves"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletReleaseKeyText",
+      "value": "As chaves da sua carteira Gram são protegidas pelo código de acesso do app e estão vinculadas a ele. Certifique-se de que o backup esteja ativado ou que as frases de recuperação foram anotadas antes de desativá-lo."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletReleaseKeyTitle",
+      "value": "Chave da Carteira"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletReplaceError",
+      "value": "Falha ao substituir a carteira"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletReplaced",
+      "value": "Sua nova carteira está pronta para uso."
     },
     {
       "_": "types.LangPackString",
@@ -16203,6 +16398,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletSendDomainLookupFailed",
+      "value": "Erro ao verificar o domínio. Tente novamente."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendDomainNotFound",
+      "value": "Este domínio não tem endereço de carteira"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletSendError",
       "value": "Falha ao enviar Grams. Tente novamente."
     },
@@ -16210,6 +16415,21 @@
       "_": "types.LangPackString",
       "key": "WalletSendFeeUnavailable",
       "value": "Erro ao estimar a taxa da rede."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendInactiveAddress",
+      "value": "Esse endereço nunca foi usado, então a transferência iria voltar. Peça ao destinatário o endereço mostrado na carteira dele."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendInsufficientFunds",
+      "value": "Saldo insuficiente."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendInvalidAddress",
+      "value": "Endereço de carteira inválido."
     },
     {
       "_": "types.LangPackString",
@@ -16255,6 +16475,16 @@
       "_": "types.LangPackString",
       "key": "WalletSendTitle",
       "value": "Enviar Grams"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendWalletChanged",
+      "value": "Sua carteira mudou. Por favor, comece de novo."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSessionTooFreshError",
+      "value": "Por motivos de segurança, esta ação não estará disponível nas primeiras 24 horas após o login. Tente novamente mais tarde."
     },
     {
       "_": "types.LangPackString",
@@ -16415,6 +16645,26 @@
       "_": "types.LangPackString",
       "key": "WalletUnknownUser",
       "value": "Usuário Desconhecido"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUnsupportedWallet",
+      "value": "Esta carteira ainda não é suportada."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUpdatePhrase",
+      "value": "Atualizar Frase Secreta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUpdatePhraseHint",
+      "value": "Você receberá uma nova frase para anotar. Endereço e saldo permanecem os mesmos."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletWrongPhraseError",
+      "value": "Esta frase de recuperação não corresponde à sua carteira"
     },
     {
       "_": "types.LangPackString",
@@ -16609,5 +16859,5 @@
       "value": "Seu Nome"
     }
   ],
-  "version": 304455
+  "version": 304510
 }
