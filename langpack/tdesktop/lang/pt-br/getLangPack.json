@@ -1767,6 +1767,43 @@
       "value": "{from} iniciou agora um sorteio de assinaturas do Telegram Premium para os membros."
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_action_gram_transfer_amount",
+      "one_value": "{amount} Gram",
+      "other_value": "{amount} Grams"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gram_transfer_amount_fiat",
+      "value": "{amount} ({fiat})"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gram_transfer_received",
+      "value": "{user} te enviou {amount}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gram_transfer_received_tag",
+      "value": "recebido"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gram_transfer_sent",
+      "value": "Você enviou {amount} para {user}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gram_transfer_sent_tag",
+      "value": "enviado"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_action_gram_transfer_ticker",
+      "one_value": "Gram",
+      "other_value": "Grams"
+    },
+    {
       "_": "types.LangPackString",
       "key": "lng_action_group_call_finished",
       "value": "Transmissão ao vivo encerrada ({duration})"
@@ -4932,6 +4969,11 @@
       "_": "types.LangPackString",
       "key": "lng_attach",
       "value": "Adicionar anexo"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_attach_audio",
+      "value": "Áudio"
     },
     {
       "_": "types.LangPackString",
@@ -9213,6 +9255,11 @@
       "_": "types.LangPackString",
       "key": "lng_chatbots_warning_username_text",
       "value": "O bot {bot} poderá **definir e remover nomes de usuário** da sua conta, o que pode resultar na perda do seu nome de usuário atual."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_choose_audio",
+      "value": "Escolher arquivo de áudio"
     },
     {
       "_": "types.LangPackString",
@@ -26140,6 +26187,51 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_passcode_strength_advice_date",
+      "value": "Evite datas e anos."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_passcode_strength_advice_fine",
+      "value": "Esta senha é difícil de adivinhar."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_passcode_strength_advice_leet",
+      "value": "Trocar letras por símbolos semelhantes não ajuda."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_passcode_strength_advice_repeat",
+      "value": "Evite caracteres repetidos."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_passcode_strength_advice_sequence",
+      "value": "Evite sequências, como ABC ou 123."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_passcode_strength_advice_short",
+      "value": "Use pelo menos 8 caracteres."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_passcode_strength_advice_variety",
+      "value": "Deixe-a mais longa e misture mais tipos de caracteres"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_passcode_strength_advice_word",
+      "value": "Evite palavras e nomes comuns."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_passcode_strength_empty",
+      "value": "Estimativa de força da senha."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_passcode_submit",
       "value": "Entrar"
     },
@@ -27567,6 +27659,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_photo_editor_audio_remove",
+      "value": "Remover Áudio"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_photo_editor_corners_about",
       "value": "Escolha o quão arredondados devem ser os cantos do sticker."
     },
@@ -27639,6 +27736,11 @@
       "_": "types.LangPackString",
       "key": "lng_photo_editor_keep_ratio",
       "value": "Manter a proporção original"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_link_customize",
+      "value": "Personalizar Texto do Link"
     },
     {
       "_": "types.LangPackString",
@@ -35617,8 +35719,23 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_settings_passcode_lock_app",
+      "value": "Bloquear Telegram com senha"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_settings_passcode_lock_off_wallet",
+      "value": "Esta senha só será necessária para confirmar transações, não para abrir sua carteira."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_settings_passcode_title",
       "value": "Senha local"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_settings_passcode_wallet_about",
+      "value": "Esta senha protege as chaves da carteira armazenadas neste dispositivo."
     },
     {
       "_": "types.LangPackString",
@@ -36998,6 +37115,11 @@
       "_": "types.LangPackString",
       "key": "lng_shortcuts_silent_send",
       "value": "Envio silencioso"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_shortcuts_stash_message",
+      "value": "Guardar ou restaurar mensagem"
     },
     {
       "_": "types.LangPackString",
@@ -38580,6 +38702,16 @@
       "_": "types.LangPackString",
       "key": "lng_start_msgs",
       "value": "Comece a Conversar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_stash_files_limit",
+      "value": "Muitos arquivos ou grandes demais para guardar."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_stash_hint",
+      "value": "Pressione {shortcut} para guardar este rascunho."
     },
     {
       "_": "types.LangPackString",
@@ -42130,8 +42262,59 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_about_chain_text",
+      "value": "Todas as transações são registradas e verificáveis em um registro público."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_about_chain_title",
+      "value": "Verificado no Blockchain"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_wallet_about_fees_text",
+      "one_value": "A primeira {count} transferência do dia é grátis. O resto custa quase nada.",
+      "other_value": "As primeiras {count} transferências do dia são grátis. O resto custa quase nada."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_about_fees_title",
+      "value": "Sem Taxas"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_about_instant_text",
+      "value": "Envie Grams em qualquer chat, como quem compartilha uma foto."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_about_instant_title",
       "value": "Envie Dinheiro Instantâneo"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_add_funds",
+      "value": "Adicionar Fundos"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_about_on",
+      "value": "Seu backup da chave criptografada é dividido em três partes e armazenado em três continentes.\n\nEle só pode ser remontado em seus dispositivos, para que ninguém – nem mesmo o Telegram – possa acessar sua chave."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_cancel_text",
+      "value": "Sua frase secreta não será atualizada."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_cancel_title",
+      "value": "Manter Backup?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_disable",
+      "value": "Desativar Backup"
     },
     {
       "_": "types.LangPackString",
@@ -42140,8 +42323,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_backup_disable_title",
+      "value": "Desativar Backup?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_section",
+      "value": "Backup Criptografado"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_buy_button",
+      "value": "Compre com cartão ou cripto"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_chip_number",
       "value": "Número Colecionável"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_currency_title",
+      "value": "Escolha a Moeda"
     },
     {
       "_": "types.LangPackString",
@@ -42149,10 +42352,306 @@
       "value": "Você perderá o acesso aos seus fundos, a menos que tenha salvo sua frase secreta."
     },
     {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_delete_title",
+      "value": "Apagar Carteira?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_address",
+      "value": "Endereço"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_date",
+      "value": "Data"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_fee",
+      "value": "Taxa"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_fee_free",
+      "value": "Gratuito (pago pelo Telegram)"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_open_wallet",
+      "value": "Abrir Meu Dinheiro"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_recipient",
+      "value": "Destinatário"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_sender",
+      "value": "Remetente"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_title",
+      "value": "Transação"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_earnings_existing",
+      "value": "Você tem {amount} de Ganhos em Gram"
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "key": "lng_wallet_fees_text",
       "one_value": "Cada transferência custa uma pequena taxa da rede.\n\nO Telegram cobre sua primeira transferência todo dia.",
       "other_value": "Cada transferência custa uma pequena taxa da rede.\n\nO Telegram cobre suas primeiras {count} transferências todo dia."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_first_rate",
+      "value": "1 Gram equivale a {amount}.\nVocê pode:"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_first_send_text",
+      "value": "Transfira Grams para qualquer pessoa.\nClique {attach} → {money} nos chats."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_first_send_title",
+      "value": "Enviar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_first_store_text",
+      "value": "Mantenha seus Grams no Telegram\n({menu} → {wallet}) ou outras carteiras."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_first_store_title",
+      "value": "Guardar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_first_title",
+      "value": "Seus primeiros Grams!"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_first_trade_text",
+      "value": "Converta Grams em dinheiro ou cripto nas exchanges."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_first_trade_title",
+      "value": "Trocar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_how_menu",
+      "value": "O que é Dinheiro?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_how_subtitle",
+      "value": "Só você controla seus fundos — ninguém mais tem acesso."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_how_title",
+      "value": "Como Funciona"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_intro_text",
+      "value": "Gram — Moeda digital para o Telegram"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_keys_delete",
+      "value": "Apagar Carteira"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_keys_phrase_about",
+      "value": "Você pode transferir sua carteira para outro dispositivo copiando sua Frase Secreta."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_keys_show_phrase",
+      "value": "Mostrar Frase Secreta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_keys_title",
+      "value": "Chaves e Backup"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_menu",
+      "value": "Dinheiro"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_menu_currency",
+      "value": "Moeda"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_phrase_intro_text",
+      "value": "Sua Frase Secreta é a chave para restaurar sua carteira. Mantenha ela sempre secreta e segura."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_phrase_intro_title",
+      "value": "Frase Secreta"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_wallet_phrase_text",
+      "one_value": "Anote esta palavra e guarde-a com segurança. Mantenha-a sempre em segredo e segura.",
+      "other_value": "Anote estas {count} palavras e guarde-as com segurança. Mantenha-as sempre em segredo e seguras."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_phrase_title",
+      "value": "Sua Frase Secreta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_phrase_warn_share",
+      "value": "**Nunca compartilhe** sua Frase Secreta com ninguém."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_phrase_warn_steal",
+      "value": "Se alguém tiver sua Frase Secreta, ele **pode roubar seu dinheiro**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_phrase_warn_support",
+      "value": "O Suporte do Telegram **nunca pedirá** sua Frase Secreta."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_about",
+      "value": "Escolha como seus fundos são protegidos neste dispositivo."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_create_about",
+      "value": "Esta senha protege a chave da sua carteira neste dispositivo. Ela não bloqueia o Telegram até que você ative isso nas Configurações."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_open",
+      "value": "Não pedir senha"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_open_about",
+      "value": "Qualquer pessoa com acesso ao seu Telegram pode gastar seu dinheiro."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_open_confirm",
+      "value": "Armazenar mesmo assim"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_open_title",
+      "value": "Armazenar sem senha?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_open_warning_nolock",
+      "value": "Qualquer pessoa que tenha acesso a este computador poderá roubar dinheiro da sua carteira.\n\nVocê pode alterar isso mais tarde em Senha de Bloqueio no menu da carteira."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_passcode",
+      "value": "Pedir a senha local"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_passcode_about",
+      "value": "Confirme todos os gastos com sua senha do Telegram."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_passcode_keep",
+      "value": "Continuar pedindo esta senha"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_removal_about",
+      "value": "Escolha como seus fundos permanecerão protegidos depois que a senha for removida."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_removal_wallets",
+      "value": "Isto aplica-se às carteiras de {accounts}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_title",
+      "value": "Bloqueio por Senha"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_receive_about",
+      "value": "Compartilhe seu endereço ou o QR code para receber GRAM."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_receive_copy_hint",
+      "value": "Clique para copiar o endereço"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_incoming",
+      "value": "Transferência recebida"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_outgoing",
+      "value": "Transferência enviada"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_rows_hidden_below",
+      "value": "Transações menores de {amount} Grams estão ocultas."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_rows_title",
+      "value": "Transações"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_amount",
+      "value": "Enviar {amount} Grams"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_title",
+      "value": "Enviar Grams"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_user_wallet_about",
+      "value": "Este endereço Blockchain TON está vinculado a {name} no Telegram."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_user_wallet_title",
+      "value": "Carteira de {name}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_unavailable",
+      "value": "Dinheiro não está disponível para esta conta."
     },
     {
       "_": "types.LangPackString",
@@ -42290,5 +42789,5 @@
       "other_value": "Você pagou {count} Estrelas."
     }
   ],
-  "version": 5946065
+  "version": 5947773
 }
