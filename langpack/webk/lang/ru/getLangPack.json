@@ -1615,6 +1615,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AdminRights.GroupSendWelcomeMessages",
+      "value": "Отправка приветствий"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AdminRights.ManageMessages",
       "value": "Управление публикациями"
     },
@@ -1625,6 +1630,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AdminRights.ManageWelcomeMessages",
+      "value": "Управление приветствиями"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AdminRights.Other",
       "value": "Другое"
     },
@@ -1632,6 +1642,11 @@
       "_": "types.LangPackString",
       "key": "AdminRights.PostStories",
       "value": "Публикация историй"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AdminRights.SendWelcomeMessages",
+      "value": "Отправка приветствий"
     },
     {
       "_": "types.LangPackString",
@@ -1697,6 +1712,11 @@
       "_": "types.LangPackString",
       "key": "AiEditor.Fix",
       "value": "Исправить"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AiEditor.MessageChanged",
+      "value": "Сообщение изменилось. Снова откройте ИИ-редактор, чтобы применить результат к текущей версии сообщения."
     },
     {
       "_": "types.LangPackString",
@@ -5274,6 +5294,26 @@
       "value": "Предпросмотр этого файла может раскрыть Ваш IP-адрес его автору."
     },
     {
+      "_": "types.LangPackString",
+      "key": "Chat.GoToLatestMessage",
+      "value": "Перейти к последнему сообщению"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.GoToNextMention",
+      "value": "Перейти к следующему упоминанию"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.GoToNextPollVote",
+      "value": "Перейти к следующему голосу в опросе"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.GoToNextReaction",
+      "value": "Перейти к следующей реакции"
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "few_value": "%d заявки на вступление",
       "key": "Chat.Header.RequestToJoin",
@@ -5308,8 +5348,78 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.Button.Action",
+      "value": "Действие"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.Button.ActionCopy",
+      "value": "Текст"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.Button.ActionDisabled",
+      "value": "Неактивна"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.Button.ActionMention",
+      "value": "Упоминание"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.Button.ActionUrl",
+      "value": "Ссылка"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.Button.ChooseUser",
+      "value": "Выбор пользователя"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.Button.CopyText",
+      "value": "Копируемый текст"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.Button.CreateTitle",
+      "value": "Кнопка"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.Button.Delete",
+      "value": "Удалить кнопку"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.Button.EditTitle",
+      "value": "Настройка кнопки"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.Button.NoUser",
+      "value": "Выберите пользователя, чей профиль будет открывать кнопка."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.Button.SeparateLine",
+      "value": "На отдельной строке"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.Button.Style",
+      "value": "Вид"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Chat.Input.Editor.Button.StyleDanger",
       "value": "Красная"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.Button.StyleDefault",
+      "value": "Обычная"
     },
     {
       "_": "types.LangPackString",
@@ -5320,6 +5430,61 @@
       "_": "types.LangPackString",
       "key": "Chat.Input.Editor.Button.StyleSuccess",
       "value": "Зелёная"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.Button.Text",
+      "value": "Текст кнопки"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.ButtonRow.Add",
+      "value": "Добавить кнопку"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.ButtonRow.AlignCenter",
+      "value": "По центру"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.ButtonRow.AlignLeft",
+      "value": "По левому краю"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.ButtonRow.AlignRight",
+      "value": "По правому краю"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.ButtonRow.Delete",
+      "value": "Удалить ряд"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.ButtonRow.Stretch",
+      "value": "На всю ширину"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.CodeLanguage.Auto",
+      "value": "Определить автоматически"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.CodeLanguage.Choose",
+      "value": "Выбор языка программирования"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.CodeLanguage.Custom",
+      "value": "Язык программирования"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.CodeLanguage.CustomTitle",
+      "value": "Указать язык"
     },
     {
       "_": "types.LangPackString",
@@ -5335,6 +5500,21 @@
       "_": "types.LangPackString",
       "key": "Chat.Input.Editor.Format.Superscript",
       "value": "Надстрочный"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.Link.EditTitle",
+      "value": "Изменение ссылки"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.Link.Text",
+      "value": "Текст"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.Link.Title",
+      "value": "Новая ссылка"
     },
     {
       "_": "types.LangPackString",
@@ -5388,6 +5568,36 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.Math.EditTitle",
+      "value": "Изменение формулы"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.Math.Latex",
+      "value": "LaTeX"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.Math.Placeholder",
+      "value": "Формула LaTeX"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.Math.Result",
+      "value": "Вид в тексте"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.Math.SeparateLine",
+      "value": "На отдельной строке"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.Math.Title",
+      "value": "Новая формула"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Chat.Input.Editor.Media.Add",
       "value": "Добавить ещё"
     },
@@ -5395,6 +5605,16 @@
       "_": "types.LangPackString",
       "key": "Chat.Input.Editor.Media.Edit",
       "value": "Редактировать"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.Media.GroupAsCollage",
+      "value": "Объединить выбранное в коллаж"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.Media.GroupAsSlideshow",
+      "value": "Объединить выбранное в слайд-шоу"
     },
     {
       "_": "types.LangPackString",
@@ -5473,6 +5693,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.Table.CellPlaceholder",
+      "value": "Ячейка"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.Table.HeaderPlaceholder",
+      "value": "Заголовок"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.Table.TitlePlaceholder",
+      "value": "Название"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Chat.Input.Editor.Toolbar.AI",
       "value": "ИИ-редактор"
     },
@@ -5493,8 +5728,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.Toolbar.Button",
+      "value": "Кнопка"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Chat.Input.Editor.Toolbar.Checklist",
       "value": "Контрольный список"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.Toolbar.Code",
+      "value": "Код"
     },
     {
       "_": "types.LangPackString",
@@ -5548,8 +5793,23 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.Toolbar.InlineMath",
+      "value": "В тексте"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.Toolbar.Link",
+      "value": "Ссылка"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Chat.Input.Editor.Toolbar.Lists",
       "value": "Список"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.Toolbar.Math",
+      "value": "Формула"
     },
     {
       "_": "types.LangPackString",
@@ -5575,6 +5835,176 @@
       "_": "types.LangPackString",
       "key": "Chat.Input.Editor.Toolbar.ShowAsSlideshow",
       "value": "Объединить в слайд-шоу"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.Toolbar.Table",
+      "value": "Таблица"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.Toolbar.TableAddCells",
+      "value": "Добавить ячейки"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.Toolbar.TableAlign",
+      "value": "Выравнивание"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.Toolbar.TableAlignBottom",
+      "value": "По низу"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.Toolbar.TableAlignCenter",
+      "value": "По центру"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.Toolbar.TableAlignLeft",
+      "value": "По левому краю"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.Toolbar.TableAlignMiddle",
+      "value": "По центру"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.Toolbar.TableAlignRight",
+      "value": "По правому краю"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.Toolbar.TableAlignTop",
+      "value": "По верху"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.Toolbar.TableBorderless",
+      "value": "Прозрачная граница"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.Toolbar.TableCellActions",
+      "value": "Действия с ячейкой"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.Toolbar.TableColumnLeft",
+      "value": "Вставить слева"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.Toolbar.TableColumnRight",
+      "value": "Вставить справа"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.Toolbar.TableCompact",
+      "value": "Компактный вид"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.Toolbar.TableDelete",
+      "value": "Удалить таблицу"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.Toolbar.TableDeleteCells",
+      "value": "Удалить ячейки"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.Toolbar.TableDeleteColumn",
+      "value": "Удалить столбец"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.Toolbar.TableDeleteColumns",
+      "value": "Удалить столбцы"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.Toolbar.TableDeleteRow",
+      "value": "Удалить строку"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.Toolbar.TableDeleteRows",
+      "value": "Удалить строки"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.Toolbar.TableHeaderCell",
+      "value": "Ячейка-заголовок"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.Toolbar.TableMove",
+      "value": "Переместить"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.Toolbar.TableMoveDown",
+      "value": "Переместить вниз"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.Toolbar.TableMoveLeft",
+      "value": "Переместить влево"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.Toolbar.TableMoveRight",
+      "value": "Переместить вправо"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.Toolbar.TableMoveUp",
+      "value": "Переместить вверх"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.Toolbar.TableRowAbove",
+      "value": "Вставить сверху"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.Toolbar.TableRowBelow",
+      "value": "Вставить снизу"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.Toolbar.TableSelectColumn",
+      "value": "Выбрать столбец"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.Toolbar.TableSelectRow",
+      "value": "Выделить строку"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.Toolbar.TableSelectTable",
+      "value": "Выделить таблицу"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.Toolbar.TableSplitCell",
+      "value": "Разделить ячейку"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.Toolbar.TableStriped",
+      "value": "Чередующиеся строки"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.Toolbar.TableUniteCells",
+      "value": "Объединить ячейки"
     },
     {
       "_": "types.LangPackString",
@@ -5898,6 +6328,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Chat.Search.NextResult",
+      "value": "Следующий результат поиска"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Chat.Search.NoMessagesFound",
       "value": "Сообщения не найдены"
     },
@@ -5905,6 +6340,11 @@
       "_": "types.LangPackString",
       "key": "Chat.Search.NothingFound",
       "value": "Ничего не найдено..."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Search.PreviousResult",
+      "value": "Предыдущий результат поиска"
     },
     {
       "_": "types.LangPackString",
@@ -8584,6 +9024,14 @@
       "_": "types.LangPackString",
       "key": "Contacts.PhoneNumber.Placeholder",
       "value": "Номер телефона"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Выбраны %d контакт",
+      "key": "ContactsSelected",
+      "many_value": "Выбрано %d контактов",
+      "one_value": "Выбран %d контакт",
+      "other_value": "Выбрано %d контактов"
     },
     {
       "_": "types.LangPackString",
@@ -13136,6 +13584,11 @@
       "_": "types.LangPackString",
       "key": "Link.Invalid",
       "value": "Недопустимая ссылка"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Link.NotSupported",
+      "value": "Эта ссылка не поддерживается в Telegram для браузера."
     },
     {
       "_": "types.LangPackString",
@@ -18621,6 +19074,106 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "RichMessage.Error.InsertTargetChanged",
+      "value": "Сообщение изменилось до вставки файла. Попробуйте ещё раз."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichMessage.Error.MediaUnsupported",
+      "value": "К сообщению с расширенным форматированием нельзя добавить вложение. Отправьте файл, фото или видео отдельным сообщением."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichMessage.Error.MediaUploading",
+      "value": "Дождитесь загрузки медиафайлов перед отправкой."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichMessage.Error.ResourcesUnavailable",
+      "value": "Некоторые элементы в сообщении с расширенным форматированием больше не доступны. Вставьте их заново перед отправкой."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichMessage.Error.TooDeep",
+      "value": "В сообщении с расширенным форматированием слишком много уровней вложенности (%1$d из %2$d)."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichMessage.Error.TooLarge",
+      "value": "Слишком большое сообщение с расширенным форматированием (%1$d из %2$d байт)."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichMessage.Error.TooLong",
+      "value": "Слишком длинное сообщение с расширенным форматированием (%1$d из %2$d символов)."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichMessage.Error.TooManyBlocks",
+      "value": "В сообщении с расширенным форматированием слишком много блоков (%1$d из %2$d)."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichMessage.Error.TooManyMedia",
+      "value": "В сообщении с расширенным форматированием слишком много медиафайлов (%1$d из %2$d)."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichMessage.Error.TooManyTableColumns",
+      "value": "В таблице слишком много столбцов (%1$d из %2$d)."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichMessage.Error.UnsupportedContent",
+      "value": "Сообщение с расширенным форматированием содержит элементы, которые редактор пока не может правильно обработать."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichMessage.PremiumRequired.Text",
+      "value": "В сообщении используется расширенное форматирование, доступное только с подпиской Telegram Premium."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichMessage.PremiumRequired.Title",
+      "value": "Сбросить форматирование?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichMessage.SendWithoutFormatting",
+      "value": "Сбросить и отправить"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichMessage.SubscribeToPremium",
+      "value": "Оформить Premium"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichMessage.Unavailable.Text",
+      "value": "Сейчас публикация сообщений с расширенным форматированием недоступна. Вы можете отправить это сообщение без форматирования."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichMessage.Unavailable.Title",
+      "value": "Форматирование недоступно"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichMessage.Upload.Preparing",
+      "value": "Подготовка…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichMessage.Upload.Processing",
+      "value": "Обработка…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichMessage.Upload.Retry",
+      "value": "Повторить"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "RoundVideoTranscription.PremiumAlert",
       "value": "Расшифровка голосовых и видеосообщений доступна с подпиской Telegram Premium. [Подробнее]()"
     },
@@ -21342,6 +21895,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Stars.Subscription.BotCancelled",
+      "value": "Отменена ботом"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Stars.Subscription.BusinessCancelled",
+      "value": "Отменена компанией"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Stars.Subscription.Cancel",
       "value": "Отменить продление"
     },
@@ -21357,6 +21920,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Stars.Subscription.Expired",
+      "value": "Истекла"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Stars.Subscription.ExpiredCaption",
+      "value": "Ваша подписка истекла %s."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Stars.Subscription.Expires",
+      "value": "Истекает"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Stars.Subscription.Fee",
       "value": "%s в месяц"
     },
@@ -21364,6 +21942,11 @@
       "_": "types.LangPackString",
       "key": "Stars.Subscription.Fulfill",
       "value": "ПОДПИСАТЬСЯ НА КАНАЛ"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Stars.Subscription.MissingBalance",
+      "value": "Недостаточно звёзд"
     },
     {
       "_": "types.LangPackString",
@@ -22458,6 +23041,11 @@
       "many_value": "%d человек",
       "one_value": "%d человек",
       "other_value": "%d человек"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryPrivacyOptionSelectedContacts",
+      "value": "Выбранные контакты"
     },
     {
       "_": "types.LangPackString",
@@ -24602,8 +25190,33 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WelcomeMessages.DeleteAll",
+      "value": "Удалить все"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WelcomeMessages.DeleteAllSure",
+      "value": "Вы точно хотите удалить все приветственные сообщения?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WelcomeMessages.EmptyAbout",
+      "value": "Приветствие будет автоматически отправляться новым участникам."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WelcomeMessages.EmptyTitle",
       "value": "Новое приветствие"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WelcomeMessages.Placeholder",
+      "value": "Сообщение"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WelcomeMessages.PreviewAbout",
+      "value": "Новые участники увидят эти сообщения, когда присоединятся к чату"
     },
     {
       "_": "types.LangPackString",
@@ -24717,5 +25330,5 @@
       "other_value": "%1$d сообщений"
     }
   ],
-  "version": 354442
+  "version": 354914
 }
