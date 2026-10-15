@@ -24,9 +24,56 @@
       "value": "Прикажи изнад поруке"
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "%d звездице",
+      "key": "AccDescr.CallRatingStars",
+      "one_value": "%d звездица",
+      "other_value": "%d звездица"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AccDescr.GifNumber",
+      "value": "GIF %s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AccDescr.Gifs",
+      "value": "GIF-ови"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AccDescr.MessageHistory",
+      "value": "Историја порука"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AccDescr.OpenContact",
+      "value": "Отвори контакт %s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AccDescr.OpenDocument",
+      "value": "Отвори датотеку %s"
+    },
+    {
       "_": "types.LangPackString",
       "key": "AccDescr.PlaybackSpeed",
       "value": "Брзина репродукције"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AccDescr.ResumeRecording",
+      "value": "Настави снимање"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AccDescr.StickerNumber",
+      "value": "Налепница %s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AccDescr.Stickers",
+      "value": "Налепнице"
     },
     {
       "_": "types.LangPackString",
@@ -1687,6 +1734,11 @@
       "_": "types.LangPackString",
       "key": "AiEditor.ComposeError",
       "value": "Дошло је до грешке при покушају састављања поруке."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AiEditor.Create.AddToMessage",
+      "value": "Додај у поруку"
     },
     {
       "_": "types.LangPackString",
@@ -4421,6 +4473,16 @@
       "_": "types.LangPackString",
       "key": "CallBack",
       "value": "Узврати позив"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CallLink.About",
+      "value": "Сваки Telegram корисник може се придружити вашем позиву путем везе у наставку."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CallLink.Join",
+      "value": "Први се придружите позиву и додајте остале учеснике. %1$@"
     },
     {
       "_": "types.LangPackString",
@@ -8784,7 +8846,7 @@
     {
       "_": "types.LangPackString",
       "key": "ConferenceCall.Controls.HandRaised",
-      "value": "Подигнута рука"
+      "value": "Рука подигнута"
     },
     {
       "_": "types.LangPackString",
@@ -8808,8 +8870,20 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ConferenceCall.Create.Action",
+      "value": "Започни нови позив"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ConferenceCall.Create.Button",
       "value": "Позови"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "У позив можете додати до %1$d учесника.",
+      "key": "ConferenceCall.Create.Description",
+      "one_value": "У позив можете додати до %1$d учесника.",
+      "other_value": "У позив можете додати до %1$d учесника."
     },
     {
       "_": "types.LangPackString",
@@ -10643,6 +10717,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Ephemeral.AnchoredAbout",
+      "value": "Ова верзија поруке је видљива само вама."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Ephemeral.CantSchedule",
       "value": "Привремене поруке се не могу заказати."
     },
@@ -10673,6 +10752,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Ephemeral.Revert",
+      "value": "Врати"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Ephemeral.Revert.About",
+      "value": "враћа поруку на првобитни садржај"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Ephemeral.SendFailed",
       "value": "Слање ове приватне поруке није успело."
     },
@@ -10690,6 +10779,11 @@
       "_": "types.LangPackString",
       "key": "Ephemeral.UnsupportedContent",
       "value": "Овај садржај се не може послати као привремена порука."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Ephemeral.Updated",
+      "value": "ажурирано"
     },
     {
       "_": "types.LangPackString",
@@ -13892,6 +13986,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Login.Code.SecretPhrase",
+      "value": "Тајни израз"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Login.Code.SecretWord",
+      "value": "Тајна реч"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Login.Code.SentCall",
       "value": "Позваћемо вас и\nиздиктирати кôд."
     },
@@ -13912,8 +14016,33 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Login.Code.SentSmsPhrase",
+      "value": "Послали смо СМС са тајним изразом на ваш број телефона **%s**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Login.Code.SentSmsPhraseBeginning",
+      "value": "Послали смо СМС са тајним изразом који почиње са „**%2$s**” на ваш број телефона **%1$s**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Login.Code.SentSmsWord",
+      "value": "Послали смо СМС са тајном речју на ваш број телефона **%s**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Login.Code.SentSmsWordBeginning",
+      "value": "Послали смо СМС са тајном речју која почиње са „**%2$s**” на ваш број телефона **%1$s**."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Login.Code.SentUnknown",
       "value": "Проверите све\nза кôд (тип: %s)"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Login.Code.WordBeginningInvalid",
+      "value": "Нетачна реч"
     },
     {
       "_": "types.LangPackString",
@@ -14304,6 +14433,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "MediaEditor.FlipHorizontal",
+      "value": "Пресликај водоравно"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "MediaEditor.Font",
       "value": "Фонт"
     },
@@ -14376,6 +14510,11 @@
       "_": "types.LangPackString",
       "key": "MediaEditor.StickerSets",
       "value": "Пакети налепница"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MediaEditor.Tab.Crop",
+      "value": "Опсецање"
     },
     {
       "_": "types.LangPackString",
@@ -17426,6 +17565,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PremiumBusinessIntro",
+      "value": "Почетна страница"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PremiumBusinessIntroDescription",
       "value": "Прилагодите поруку коју људи виде пре него што започну ћаскање с вама."
     },
@@ -19160,6 +19304,11 @@
       "_": "types.LangPackString",
       "key": "RichMessage.Error.TooManyTableColumns",
       "value": "Табела има превише колона (%1$d од %2$d)."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichMessage.PremiumRequired.Text",
+      "value": "Ова порука користи напредно обликовање, које је доступно уз Telegram Premium."
     },
     {
       "_": "types.LangPackString",
@@ -21417,10 +21566,24 @@
     },
     {
       "_": "types.LangPackStringPluralized",
+      "few_value": "**%2$s** је послао/ла побољшање вредно **%1$d звездице** за поклон који сте добили од **%3$s**",
+      "key": "StarGiftSentMessagePrepaidIncomingOther",
+      "one_value": "**%2$s** је послао/ла побољшање вредно **%1$d звездицу** за поклон који сте добили од **%3$s**",
+      "other_value": "**%2$s** је послао/ла побољшање вредно **%1$d звездица** за поклон који сте добили од **%3$s**"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
       "few_value": "Послали сте побољшање вредно **%d звездице**",
       "key": "StarGiftSentMessagePrepaidOutgoing",
       "one_value": "Послали сте побољшање вредно **%d звездицу**",
       "other_value": "Послали сте побољшање вредно **%d звездица**"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Послали сте побољшање вредно **%1$d звездице** за поклон **%2$s** добијен од **%3$s**",
+      "key": "StarGiftSentMessagePrepaidOutgoingOther",
+      "one_value": "Послали сте побољшање вредно **%1$d звездицу** за поклон **%2$s** добијен од **%3$s**",
+      "other_value": "Послали сте побољшање вредно **%1$d звездица** за поклон **%2$s** добијен од **%3$s**"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -22112,6 +22275,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Stars.Transaction.GramTopup",
+      "value": "Допуна грама"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Stars.Transaction.History",
       "value": "Историја трансакција"
     },
@@ -22149,6 +22317,11 @@
       "_": "types.LangPackString",
       "key": "Stars.Transaction.Retry",
       "value": "Покушај поново"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Stars.Transaction.UnknownPeer",
+      "value": "Непознат корисник"
     },
     {
       "_": "types.LangPackString",
@@ -22563,6 +22736,11 @@
       "_": "types.LangPackString",
       "key": "StickerEffects",
       "value": "Ефекти налепница"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StickerSet.Archived",
+      "value": "Пакет налепница је архивиран."
     },
     {
       "_": "types.LangPackString",
@@ -23206,6 +23384,11 @@
       "_": "types.LangPackString",
       "key": "StorySettingsHideFrom",
       "value": "Сакриј моје приче од"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StorySettingsKeepInfo",
+      "value": "Сачувајте ову причу на профилу чак и након што истекне за %s часова. Важиће подешена приватност."
     },
     {
       "_": "types.LangPackString",
@@ -25070,6 +25253,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "VoiceChat.HandRaised",
+      "value": "Рука подигнута"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "VoiceChat.Invite.InviteMembers",
       "value": "Позови чланове"
     },
@@ -25095,6 +25283,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "VoiceChat.Participants.Hide",
+      "value": "Сакриј учеснике"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceChat.Participants.Show",
+      "value": "Прикажи учеснике"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "VoiceChat.PinScreencast",
       "value": "Закачи дељење екрана"
     },
@@ -25105,6 +25303,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "VoiceChat.RaiseHand",
+      "value": "Подигни руку"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "VoiceChat.RemovePeer",
       "value": "Уклони"
     },
@@ -25112,6 +25315,11 @@
       "_": "types.LangPackString",
       "key": "VoiceChat.RemovePeer.Confirm",
       "value": "Желите ли да уклоните %1$@ из групе?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceChat.RemovePeer.Confirm.Call",
+      "value": "Желите ли да уклоните %1$@ из овог позива?"
     },
     {
       "_": "types.LangPackString",
@@ -25349,6 +25557,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WelcomeMessages.EmptyAbout",
+      "value": "Аутоматски поздравите нове чланове када се придруже."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WelcomeMessages.EmptyTitle",
       "value": "Направите поруку добродошлице"
     },
@@ -25363,6 +25576,11 @@
       "_": "types.LangPackString",
       "key": "WelcomeMessages.Placeholder",
       "value": "Додајте поруку добродошлице"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WelcomeMessages.PreviewAbout",
+      "value": "Нови чланови ће видети ове поруке када се придруже"
     },
     {
       "_": "types.LangPackString",
@@ -25474,5 +25692,5 @@
       "other_value": "%1$d порука"
     }
   ],
-  "version": 353246
+  "version": 353555
 }
