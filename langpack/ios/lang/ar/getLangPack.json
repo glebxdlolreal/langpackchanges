@@ -11066,7 +11066,7 @@
     {
       "_": "types.LangPackString",
       "key": "Chat.EphemeralMessage.RevertInfo",
-      "value": "يعيد الرسالة إلى محتواها الأصلي"
+      "value": "يستعيد المحتوى الأصلي للرسالة"
     },
     {
       "_": "types.LangPackString",
@@ -28664,6 +28664,16 @@
       "value": "تفعيل **الموافقة على الأعضاء الجدد** في ⁨%@⁩ لهذه المجموعة؟"
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "يوجد ⁨%@⁩ روابط دعوة",
+      "key": "Group.Setup.ApproveNewMembersApplyToExistingInviteLinksText.Links",
+      "many_value": "يوجد ⁨%@⁩ رابط دعوة",
+      "one_value": "يوجد رابط دعوة واحد",
+      "other_value": "يوجد ⁨%@⁩ رابط دعوة",
+      "two_value": "يوجد رابطا دعوة",
+      "zero_value": "لا توجد روابط دعوة"
+    },
+    {
       "_": "types.LangPackString",
       "key": "Group.Setup.ApproveNewMembersApplyToExistingInviteLinksTitle",
       "value": "تطبيق على روابط الدعوة الموجودة؟"
@@ -36705,6 +36715,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Notification.GramTransfer.WithFiat",
+      "value": "أرسل إليك ⁨%1$@⁩ ⁨%2$@⁩ (⁨%3$@⁩)"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Notification.GramTransfer.WithFiatYou",
       "value": "لقد أرسلتَ ⁨%1$@⁩ ⁨%2$@⁩ (⁨%3$@⁩)"
     },
@@ -41091,7 +41106,7 @@
     {
       "_": "types.LangPackString",
       "key": "PasscodeSettings.WalletProtectionInfo",
-      "value": "مطلوب عند إرسال الأموال أو تأكيد إجراءات مالية حساسة أخرى."
+      "value": "مطلوب عند إرسال الأموال أو تأكيد إجراءات حساسة أخرى."
     },
     {
       "_": "types.LangPackString",
@@ -62025,6 +62040,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Connect.Disclaimer",
+      "value": "لن يتمكن ⁨%@⁩ من تحويل الأموال بدون إذن."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Connect.Error",
       "value": "تعذر الاتصال بهذا التطبيق. يرجى المحاولة مرة أخرى."
     },
@@ -62036,7 +62056,7 @@
     {
       "_": "types.LangPackString",
       "key": "Wallet.Connect.Proof",
-      "value": "سيطلب منك إثبات ملكية هذه المحفظة لـ ⁨%@⁩."
+      "value": "يطلب منك ⁨%@⁩ إثبات ملكية هذه المحفظة."
     },
     {
       "_": "types.LangPackString",
@@ -62072,6 +62092,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.GotIt",
       "value": "فهمت"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.GramTooltip",
+      "value": "(جرام) العملة الرقمية لتيليجرام"
     },
     {
       "_": "types.LangPackString",
@@ -62535,6 +62560,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Settings.WalletImportedTitle",
+      "value": "تم استيراد المحفظة"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.ShowSecretPhrase",
       "value": "إظهار العبارة السرية"
     },
@@ -62601,7 +62631,7 @@
     {
       "_": "types.LangPackString",
       "key": "Wallet.TermsText",
-      "value": "باستخدامك لهذه الخدمة، فإنك توافق على [الشروط]()."
+      "value": "استعمالك لهذه الخدمة يعني موافقتك على [شروطها]()."
     },
     {
       "_": "types.LangPackString",
@@ -64441,12 +64471,12 @@
     {
       "_": "types.LangPackString",
       "key": "WelcomeMessages.ServiceHeader1",
-      "value": "سيشاهد الأعضاء الجدد هذه الرسائل\nعند انضمامهم"
+      "value": "سيشاهد الأعضاء الجدد هذه الرسائل عند انضمامهم"
     },
     {
       "_": "types.LangPackString",
       "key": "WelcomeMessages.ServiceHeader2",
-      "value": "المسها واضغط عليها باستمرار لحذفها"
+      "value": "ضغطة مطولة لحذفها"
     },
     {
       "_": "types.LangPackString",
@@ -64549,5 +64579,5 @@
       "value": "لقد قمت بإدخال رمز أمان غير صحيح."
     }
   ],
-  "version": 22251546
+  "version": 22252038
 }
