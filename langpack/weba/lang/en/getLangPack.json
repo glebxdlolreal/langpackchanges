@@ -1732,6 +1732,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AreYouSureLogoutGrams",
+      "value": "Are you sure you want to log out?\n\nThis will cancel all your Secret Chats and **delete wallet backups holding {amount}**. Without their recovery phrases, you'll lose access to these funds.\n\nYou can use Telegram on all your devices at once and use several accounts in the same app."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AreYouSureSessions",
       "value": "Are you sure you want to terminate all other sessions?"
     },
@@ -9436,6 +9441,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PasscodeWalletKeyOtherAccounts",
+      "value": "Wallet keys in another Telegram account are protected by this passcode. Switch to each account and remove its wallet keys before turning off the app passcode."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PasscodeWrong",
       "value": "Wrong passcode"
     },
@@ -14351,13 +14361,263 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletAddressNoLinkedAccount",
+      "value": "This address has no linked\nTelegram account."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletAlsoHaveEarnings",
+      "value": "You also have {amount} in Gram Earnings"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletAlsoHaveOldWallets",
+      "value": "You also have {amount} in old wallets"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletAppPasscodeDescription",
+      "value": "Enter your passcode to continue."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletAppPasscodePlaceholder",
+      "value": "Passcode"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBackupDisabledError",
+      "value": "Backup is disabled for this wallet"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBackupEnabledText",
+      "value": "Your keys are now stored encrypted across Telegram's datacenters."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBackupEnabledTitle",
+      "value": "Backup Enabled"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBackupFailedError",
+      "value": "Failed to update the wallet backup"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBackupHint",
+      "value": "Your encrypted key backup is split into three parts and stored across three continents.\n\nIt can only be reassembled on your devices, so no one — not even Telegram — can access your key."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBackupOffHint",
+      "value": "Your encrypted key backup will be split into three parts and stored across three continents.\n\nIt can only be reassembled on your devices, so no one — not even Telegram — can access your key."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBackupPartsMissingError",
+      "value": "The wallet backup is incomplete on the server"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBackupTitle",
+      "value": "Encrypted Backup"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBuyAmountLabel",
+      "value": "You pay in {currency}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBuyContinue",
+      "value": "Buy"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBuyError",
+      "value": "Could not start the purchase. Please try again."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBuyExtraFee",
+      "value": "Extra fee"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBuyFee",
+      "value": "Fee"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBuyMethodAchBankTransfer",
+      "value": "ACH Bank Transfer"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBuyMethodApplePay",
+      "value": "Apple Pay"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBuyMethodCard",
+      "value": "Card"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBuyMethodCrossChain",
+      "value": "Cross-Chain Transfer"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBuyMethodGbpBankTransfer",
+      "value": "GBP Bank Transfer"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBuyMethodGooglePay",
+      "value": "Google Pay"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBuyMethodOpenBanking",
+      "value": "Open Banking"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBuyMethodP2pExpress",
+      "value": "P2P Express"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBuyMethodPaypal",
+      "value": "PayPal"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBuyMethodPix",
+      "value": "PIX"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBuyMethodSepaBankTransfer",
+      "value": "SEPA Bank Transfer"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBuyMethodVenmo",
+      "value": "Venmo"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBuyMethodWalletBalance",
+      "value": "Wallet Balance"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBuyMinMax",
+      "value": "Min {min} · Max {max}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBuyNetworkFee",
+      "value": "Network fee"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBuyTotal",
+      "value": "Total"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBuyUnavailable",
+      "value": "Buying Grams is not available in your region."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBuyYouGet",
+      "value": "you get"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCollectibleGift",
+      "value": "Collectible Gift"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCollectibleItemIn",
+      "value": "+1 item"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCollectibleItemOut",
+      "value": "−1 item"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCollectibleNotOwned",
+      "value": "This collectible is no longer in your wallet."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCollectibleNotReady",
+      "value": "This collectible is not ready to be transferred yet."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCollectibleNumber",
+      "value": "Collectible Number"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCollectibleOnSale",
+      "value": "This collectible is up for sale. Take it off sale to transfer it."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletCollectibleSell",
       "value": "Sell"
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletCollectibleTitle",
+      "value": "Collectible"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCollectibleTraits",
+      "value": "{model} on {backdrop}"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletCollectibleTransfer",
       "value": "Transfer"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCollectibleUnavailable",
+      "value": "Unable to prepare collectible transfer."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCollectibleUsername",
+      "value": "Collectible Username"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCommentEncrypted",
+      "value": "🔒 Encrypted comment"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCommentEncryptionUnavailable",
+      "value": "This wallet can't receive encrypted comments yet"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCommentTooLong",
+      "value": "Encrypted comment is too long"
     },
     {
       "_": "types.LangPackString",
@@ -14527,6 +14787,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletConnectRetry",
+      "value": "Retry"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletConnectReviewSign",
       "value": "Carefully review the message, and if you agree, sign data."
     },
@@ -14617,8 +14882,78 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletCopyAddress",
+      "value": "Copy Address"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCreatedTitle",
+      "value": "Wallet Created"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDecryptError",
+      "value": "Failed to decrypt the comment. Please try again."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDeleteAnyway",
+      "value": "Delete anyway"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDeleteSave",
+      "value": "Save this wallet on this device"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletDeleteText",
       "value": "You'll lose access to your funds unless you've saved your Secret Phrase."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDeleteTitle",
+      "value": "Delete Wallet?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDeleteWallet",
+      "value": "Delete Wallet"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDepositFunds",
+      "value": "Deposit funds"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDisableBackup",
+      "value": "Disable Backup"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDisableBackupConfirm",
+      "value": "Disable"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDisableBackupFee",
+      "value": "Network fee: {amount} GRAM{fiat}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDisableBackupRotateText",
+      "value": "Your distributed encrypted backup will be deleted. Your wallet will switch to the new secret phrase. This secret phrase will be the only way to recover this wallet."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDisableBackupText",
+      "value": "Your distributed encrypted backup will be deleted. Your secret phrase will be the only way to recover this wallet."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDisableBackupTitle",
+      "value": "Disable Backup?"
     },
     {
       "_": "types.LangPackString",
@@ -14647,13 +14982,195 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletEnableBackup",
+      "value": "Enable Backup"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletEnterPhraseSubtitle",
+      "value": "Enter the recovery phrase of your wallet to turn the backup back on."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletEnterPhraseTitle",
+      "value": "Enter Recovery Phrase"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletEnterSecretPhrase",
+      "value": "Enter Secret Phrase"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletExistingWaltBalance",
+      "value": "You also have funds in Walt"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletExportError",
+      "value": "Failed to export the recovery phrase. Please try again."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletFeatureInstantText",
+      "value": "Send Grams in any chat, just like sharing a photo."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletFeatureInstantTitle",
+      "value": "Send Money Instantly"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletFeatureNoFeesText",
+      "value": "First 5 transfers each day are free, the rest cost almost nothing."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletFeatureNoFeesTitle",
+      "value": "No Fees"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletFeatureVerifiedText",
+      "value": "All transactions are recorded and verifiable on a public ledger."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletFeatureVerifiedTitle",
+      "value": "Blockchain Verified"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletHowItWorksDone",
+      "value": "Got it"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletHowItWorksSubtitle",
+      "value": "Only you control your funds — no one else has access."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletHowItWorksTitle",
+      "value": "How It Works"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletImportOwnSubtitle",
+      "value": "Enter the recovery phrase of your wallet from another device."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletImportPhraseSubtitle",
+      "value": "Enter the recovery phrase of the wallet you want to import."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletIntroRate",
+      "value": "1 Gram currently equals {rate}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletIntroSendText",
+      "value": "Transfer Grams to anyone.\nTap 📎 → Money in chats."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletIntroSendTitle",
+      "value": "Send"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletIntroStoreText",
+      "value": "Keep your Grams in Telegram\n(💬 → ⋮ → Money) or other wallets."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletIntroStoreTitle",
+      "value": "Store"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletIntroTitle",
+      "value": "Your first Grams!"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletIntroTradeText",
+      "value": "Convert Grams to cash or crypto on exchanges."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletIntroTradeTitle",
+      "value": "Trade"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletIntroYouCan",
+      "value": "You can:"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletKeyMismatchError",
+      "value": "The wallet key was changed on another device. Enter the current Secret Phrase to keep sending from this device."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletLinkNoWallet",
+      "value": "This user has no wallet yet."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletLogoutWarning",
       "value": "The Secret Phrases saved on this device for your wallets will be deleted when you log out. Make sure each phrase has a cloud backup or a written copy first."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "WalletNetworkFeesInfo",
+      "one_value": "Every transfer costs a small network fee (**~{fee} Grams**). Telegram covers your first **{count}** transfer each day.",
+      "other_value": "Every transfer costs a small network fee (**~{fee} Grams**). Telegram covers your first **{count}** transfers each day."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "WalletNetworkFeesInfoShort",
+      "one_value": "Every transfer costs a small network fee. Telegram covers your first **{count}** transfer each day.",
+      "other_value": "Every transfer costs a small network fee. Telegram covers your first **{count}** transfers each day."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletNetworkFeesTitle",
+      "value": "Network Fees"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletNoCollectibles",
+      "value": "Collectible gifts you own will appear here."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletNoCollectiblesAction",
+      "value": "Get One on Fragment"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletNoLocalSecretError",
+      "value": "The wallet key is not stored on this device"
     },
     {
       "_": "types.LangPackString",
       "key": "WalletOtherWalletsHint",
       "value": "Wallets you used before on this device. Save their recovery phrases — they'll be removed if you log out or clear the browser data."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletOtherWalletsTitle",
+      "value": "Previous wallets"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletPasscodeInvalid",
+      "value": "Wrong passcode, please try again"
     },
     {
       "_": "types.LangPackString",
@@ -14672,8 +15189,88 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletPasscodeTitle",
+      "value": "Passcode"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletPaste",
+      "value": "Paste"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletPastePhrase",
+      "value": "Paste from Clipboard"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletPhrase12Words",
+      "value": "12 words"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletPhrase24Words",
+      "value": "24 words"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletPhraseInfoCanSteal",
+      "value": "If someone has your Recovery Phrase they **can steal your funds**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletPhraseInfoNeverShare",
+      "value": "**Never share** your Recovery Phrase with anyone."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletPhraseInfoSupport",
+      "value": "Telegram Support **will never ask you** for your Recovery Phrase."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletPhraseKeepError",
+      "value": "Couldn't keep the phrase on this device. Please try again."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletPhraseKept",
+      "value": "Your Secret Phrase is now kept on this device."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletPhraseNotKept",
+      "value": "Your wallet was restored, but the recovery phrase could not be saved on this device. Enter it again to send from this wallet."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletPhraseOutdatedError",
+      "value": "This recovery phrase no longer controls the wallet. Enter its current phrase."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletPrivateCommentInfo",
+      "value": "Visible only to you and the recipient."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletProofInvalidError",
+      "value": "Check the word order.\n\nOnly a recovery phrase created in Telegram can be imported here."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletProtectAccountBanner",
+      "value": "Protect your account"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletProtectBanner",
       "value": "Protect your Money"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletPublicCommentInfo",
+      "value": "The comment is visible to everyone."
     },
     {
       "_": "types.LangPackString",
@@ -14682,13 +15279,238 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletRecoveryPhraseHint",
+      "value": "You can transfer your wallet to another device by copying your recovery phrase."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletRecoveryPhraseSubtitle",
+      "value": "Your Secret Recovery Phrase is the key to back up your wallet. Keep it secret and secure at all times."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletRecoveryPhraseTitle",
+      "value": "Recovery Phrase"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletReleaseKeyRemove",
+      "value": "Remove Keys"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletReleaseKeyText",
+      "value": "Your Gram wallet keys are protected by the app passcode and go with it. Make sure the backup is on or the recovery phrases are written down before turning it off."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletReleaseKeyTitle",
+      "value": "Wallet Key"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletReplaceCreate",
+      "value": "Create a New Wallet"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletReplaceError",
+      "value": "Failed to replace the wallet"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletReplaceImport",
+      "value": "Import an Existing Wallet"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletReplaceTitle",
+      "value": "How do you want to replace the old wallet?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletReplaced",
+      "value": "Your new wallet is ready to use."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletReplacedElsewhere",
       "value": "Your wallet was replaced on another device."
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletRestored",
+      "value": "Your wallet was restored from your recovery phrase."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletRotationPendingError",
+      "value": "The key change is still being confirmed. Please try again in a minute."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSavedImport",
+      "value": "Import This Wallet"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSecretPhraseSubtitle",
+      "value": "Enter your wallet's Secret Phrase to continue. {why}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSecretPhraseTitle",
+      "value": "Secret Phrase"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSecretPhraseWhy",
+      "value": "Why?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSecretPhraseWhyText",
+      "value": "Since you disabled backups for your wallet, you have to manually enter your Secret Phrase in every new Telegram session."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendAddressLinked",
+      "value": "This TON Blockchain address is linked to **{name}** on Telegram."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendAmount",
+      "value": "Amount"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendBalance",
+      "value": "Balance: {amount}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendCollectibleSuccess",
+      "value": "Collectible sent"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendCollectibleTitle",
+      "value": "Transfer Collectible"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendComment",
+      "value": "Comment (optional)"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendContinue",
+      "value": "Continue"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendDomainLookupFailed",
+      "value": "Couldn't check the domain. Please try again."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendDomainNotFound",
+      "value": "This domain has no wallet address"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendError",
+      "value": "Failed to send Grams. Please try again."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendFeeUnavailable",
+      "value": "Couldn't estimate the network fee."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletSendGaslessUnavailable",
       "value": "The free transfer is not available right now. Check the network fee and try again."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendInactiveAddress",
+      "value": "This address has never been used, so the transfer would come back. Ask the recipient for the address shown in their wallet."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendInsufficientFunds",
+      "value": "Insufficient funds."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendInvalidAddress",
+      "value": "Invalid wallet address."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendMax",
+      "value": "Max"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendMinAmount",
+      "value": "Minimum transfer: {amount}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendNetworkFee",
+      "value": "Network fee: {amount}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendPendingError",
+      "value": "Your previous transfer is still on its way. Please try again in a minute."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendRecent",
+      "value": "Recent"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendRecipient",
+      "value": "Address or name"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendSuccess",
+      "value": "Grams sent"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendSuccessGasless",
+      "value": "Grams sent, no fee charged"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendTitle",
+      "value": "Send Grams"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendWalletChanged",
+      "value": "Your wallet has changed. Please start over."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSessionTooFreshError",
+      "value": "For security reasons, this action is unavailable during the first 24 hours after logging in. Please try again later."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSettingsTitle",
+      "value": "Settings"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletShowRecoveryPhrase",
+      "value": "Show Recovery Phrase"
     },
     {
       "_": "types.LangPackString",
@@ -14717,13 +15539,193 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletTabCollectibles",
+      "value": "Collectibles"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTabTransactions",
+      "value": "Transactions"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTermsLink",
+      "value": "Terms of Service"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletTermsNotice",
       "value": "By using this service you agree to its {link}."
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletTransactionAddress",
+      "value": "Address"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionComment",
+      "value": "Comment"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionDate",
+      "value": "Date"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionDeposit",
+      "value": "Deposit"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionDomain",
+      "value": "Domain"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionFailed",
+      "value": "Failed"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionFee",
+      "value": "Fee"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionFeeFree",
+      "value": "Free (paid by Telegram)"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionIncoming",
+      "value": "Incoming transfer"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionIncomingCollectible",
+      "value": "Incoming collectible"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionKeyChange",
+      "value": "Key Update"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionNotFound",
+      "value": "Transaction is not found."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionOpenWallet",
+      "value": "Open My Wallet"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionOutgoing",
+      "value": "Outgoing transfer"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionOutgoingCollectible",
+      "value": "Outgoing collectible"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionProvider",
+      "value": "Provider"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionRecipient",
+      "value": "Recipient"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionSender",
+      "value": "Sender"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionSending",
+      "value": "Sending…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionTitle",
+      "value": "Transaction"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionTopUp",
+      "value": "Top Up"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionTopUpCrypto",
+      "value": "Crypto Top-up"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionWithdrawal",
+      "value": "Withdrawal"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionsHidden",
+      "value": "Transactions under {amount} are hidden."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUnsupportedWallet",
+      "value": "This wallet is not supported yet."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUpdatePhrase",
+      "value": "Update Secret Phrase"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUpdatePhraseHint",
+      "value": "You'll get a new phrase to write down. Address and balance stay the same."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletViewInExplorer",
+      "value": "View in Explorer"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletWhatIsGram",
+      "value": "What is Gram?"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletWhatIsWallet",
       "value": "What is Money?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletWrongPhraseError",
+      "value": "This recovery phrase does not match your wallet"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletWrongPhraseText",
+      "value": "The words you entered don't match the wallet."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletWrongPhraseTitle",
+      "value": "Wrong Secret Phrase"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletYourRecoveryPhrase",
+      "value": "Your Recovery Phrase"
     },
     {
       "_": "types.LangPackString",
@@ -14913,5 +15915,5 @@
       "value": "Your Name"
     }
   ],
-  "version": 303732
+  "version": 303734
 }
