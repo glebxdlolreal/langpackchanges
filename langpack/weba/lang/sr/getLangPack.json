@@ -6321,6 +6321,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ErrorAdminRankEmojiNotAllowed",
+      "value": "Ознака администратора не може садржати емоџије"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorAdminRankInvalid",
+      "value": "Наведена ознака администратора није важећа"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorAdminsTooMuch",
+      "value": "Има превише администратора"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ErrorBotPrecheckoutTimeout",
       "value": "Захтев за плаћање је истекао"
     },
@@ -6328,6 +6343,11 @@
       "_": "types.LangPackString",
       "key": "ErrorChannelPrivate",
       "value": "Овај канал је приватан"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorChatAdminRequired",
+      "value": "Морате бити администратор у овом ћаскању да бисте ово урадили"
     },
     {
       "_": "types.LangPackString",
@@ -6380,6 +6400,26 @@
       "value": "Није могуће извршити ову радњу за избрисан налог"
     },
     {
+      "_": "types.LangPackString",
+      "key": "ErrorInviteHashEmpty",
+      "value": "Хеш позивнице је празан"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorInviteHashExpired",
+      "value": "Позивница је истекла"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorInviteHashInvalid",
+      "value": "Хеш позивнице није важећи"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorMediaInvalid",
+      "value": "Неважећи медиј"
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "few_value": "Порука је предугачка. Уклоните {count} знака.",
       "key": "ErrorMessageTooLong",
@@ -6428,6 +6468,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ErrorPeersListEmpty",
+      "value": "Ниједно ћаскање није додато на списак"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ErrorPhoneBanned",
       "value": "Овај број телефона је забрањен"
     },
@@ -6467,6 +6512,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ErrorScheduleDateInvalid",
+      "value": "Наведени датум заказивања није важећи"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ErrorSendRestrictedStickersAll",
       "value": "У овој групи није дозвољено слање налепница"
     },
@@ -6487,6 +6537,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ErrorSubscriptionAlreadyActive",
+      "value": "Већ пратите"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ErrorUnexpected",
       "value": "Неочекивана грешка"
     },
@@ -6504,6 +6559,16 @@
       "_": "types.LangPackString",
       "key": "ErrorUrlExpired",
       "value": "Ова веза је истекла"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorUserAlreadyParticipant",
+      "value": "Већ сте у групи"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorWallpaperDimensionsInvalid",
+      "value": "Димензије позадине нису одговарајуће. Изаберите другу датотеку."
     },
     {
       "_": "types.LangPackString",
@@ -11453,6 +11518,66 @@
       "_": "types.LangPackString",
       "key": "PaymentCheckoutShippingMethod",
       "value": "Начин доставе"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PaymentIncorrectCardNumber",
+      "value": "Неважећи број картице"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PaymentIncorrectCity",
+      "value": "Неважећи град"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PaymentIncorrectCountry",
+      "value": "Неважећа држава"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PaymentIncorrectCvv",
+      "value": "Неважећи CVV"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PaymentIncorrectEmail",
+      "value": "Неважећа е-пошта"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PaymentIncorrectMonth",
+      "value": "Неважећи месец"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PaymentIncorrectName",
+      "value": "Неважеће име"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PaymentIncorrectPhone",
+      "value": "Неважећи број телефона"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PaymentIncorrectPostCode",
+      "value": "Неважећи поштански број"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PaymentIncorrectState",
+      "value": "Неважећи регион"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PaymentIncorrectStreet",
+      "value": "Неважећа адреса"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PaymentIncorrectYear",
+      "value": "Неважећа година"
     },
     {
       "_": "types.LangPackString",
@@ -19695,7 +19820,7 @@
     {
       "_": "types.LangPackString",
       "key": "WebLoginInvalid",
-      "value": "Ова веза за пријаву је неважећа или је истекла. Отворите нову везу или се пријавите на уобичајен начин."
+      "value": "Ова веза за пријаву није важећа или је истекла. Отворите нову везу или се пријавите на уобичајен начин."
     },
     {
       "_": "types.LangPackString",
@@ -19782,5 +19907,5 @@
       "value": "Ваше име"
     }
   ],
-  "version": 355751
+  "version": 355803
 }
