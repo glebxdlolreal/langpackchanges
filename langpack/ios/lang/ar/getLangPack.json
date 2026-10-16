@@ -5831,7 +5831,7 @@
     {
       "_": "types.LangPackString",
       "key": "CHAT_REACT_POLL_APPEND",
-      "value": "⁨%2$@⁩|⁨%1$@⁩ تفاعل ⁨%3$@⁩ مع تحديث استطلاعك"
+      "value": "⁨%2$@⁩|⁨%1$@⁩ تفاعل بـ ⁨%3$@⁩ على تحديث الاستفتاء"
     },
     {
       "_": "types.LangPackString",
@@ -40255,6 +40255,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PUSH_LOCKED_STORY",
+      "value": "لديك قصة جديدة⁨%1$@⁩"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PUSH_MESSAGE",
       "value": "⁨%1$@⁩|رسالة جديدة"
     },
@@ -47892,6 +47897,11 @@
       "_": "types.LangPackString",
       "key": "REACT_VIDEO_SECRET",
       "value": "⁨%1$@⁩|⁨%2$@⁩ تفاعل على مقطع الفيديو ذاتي التدمير"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "REACT_WALLET_TONCONNECT_REQUEST",
+      "value": "⁨%1$@⁩| تفاعل بـ ⁨%2$@⁩ على طلبك TON Connect"
     },
     {
       "_": "types.LangPackString",
@@ -62041,12 +62051,32 @@
     {
       "_": "types.LangPackString",
       "key": "Wallet.Authorization.BackupUnavailableTitle",
-      "value": "النسخة الاحتياطية غير متاح"
+      "value": "النسخة الاحتياطية غير متاحة"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Authorization.PasswordRetryAfter",
+      "value": "حاول مرة أخرى خلال ⁨%@⁩."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Authorization.PasswordText",
+      "value": "أدخل كلمة مرور التحقق بخطوتين في تطبيق تيليجرام للمتابعة."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Authorization.PasswordTitle",
+      "value": "كلمة مرور تيليجرام"
     },
     {
       "_": "types.LangPackString",
       "key": "Wallet.Authorization.PasswordTooNewTitle",
       "value": "كلمة المرور جديدة جدًا"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Authorization.SessionRetryAfter",
+      "value": "من أجل أمانك، حاول مرة أخرى خلال ⁨%@⁩."
     },
     {
       "_": "types.LangPackString",
@@ -62235,6 +62265,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Backup.VerifyPhraseErrorTitle",
+      "value": "تعذر التحقق من العبارة السرية"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Backup.WalletChangedTitle",
       "value": "تم تغيير المحفظة"
     },
@@ -62267,6 +62302,16 @@
       "_": "types.LangPackString",
       "key": "Wallet.Connect.Proof",
       "value": "يطلب منك ⁨%@⁩ إثبات ملكية هذه المحفظة."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Connect.SuccessText",
+      "value": "أنت الآن متصل بـ [⁨%@⁩]()."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Connect.SuccessTitle",
+      "value": "الاتصال ناجح"
     },
     {
       "_": "types.LangPackString",
@@ -62327,6 +62372,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.Import.EnterPhraseText",
       "value": "أدخل عبارة الأمان الخاصة بمحفظتك\n\nللمتابعة. [لماذا؟]()"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Import.ErrorText",
+      "value": "يرجى التحقق من العبارة السرية واتصال الشبكة، ثم حاول مرة أخرى."
     },
     {
       "_": "types.LangPackString",
@@ -62587,6 +62637,16 @@
       "_": "types.LangPackString",
       "key": "Wallet.PasscodeTouchId",
       "value": "رمز المرور وبصمة الإصبع"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.PasswordSetText",
+      "value": "حسابك الآن محمي."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.PasswordSetTitle",
+      "value": "تعيين كلمة المرور"
     },
     {
       "_": "types.LangPackString",
@@ -62906,7 +62966,7 @@
     {
       "_": "types.LangPackString",
       "key": "Wallet.Settings.ShowPhraseErrorTitle",
-      "value": "لم يتمكن من إظهار العبارة السرية"
+      "value": "تعذر إظهار العبارة السرية"
     },
     {
       "_": "types.LangPackString",
@@ -62972,6 +63032,36 @@
       "_": "types.LangPackString",
       "key": "Wallet.Sign.FeeWithFiat",
       "value": "الرسوم: ⁨%1$@⁩ (⁨%2$@⁩)"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sign.FieldAddress",
+      "value": "العنوان"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sign.FieldAmount",
+      "value": "المبلغ"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sign.FieldComment",
+      "value": "التعليق"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sign.FieldMessage",
+      "value": "الرسالة"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sign.FieldPayload",
+      "value": "حمولة البيانات (BOC/Base64)"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sign.FieldStateInit",
+      "value": "stateInit (BOC/Base64)"
     },
     {
       "_": "types.LangPackString",
@@ -63111,7 +63201,7 @@
     {
       "_": "types.LangPackString",
       "key": "Wallet.Transaction.IncomingCollectible",
-      "value": "السلع القابلة للتحصيل الواردة"
+      "value": "المقتنيات الرقمية الواردة"
     },
     {
       "_": "types.LangPackString",
@@ -63215,6 +63305,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Transfer.AllBalance",
+      "value": "الرصيد الكلي"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Transfer.CollectibleSuccess",
       "value": "تم إرسال المقتنى الرقمي إلى **⁨%@⁩**."
     },
@@ -63250,6 +63345,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Transfer.DetailsHeader",
+      "value": "التفاصيل"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Transfer.ErrorText",
       "value": "لم يتم تجهيز أو إرسال التحويل. يرجى التحقق من العنوان والرصيد واتصال الشبكة، ثم حاول مرة أخرى."
     },
@@ -63257,6 +63357,16 @@
       "_": "types.LangPackString",
       "key": "Wallet.Transfer.ErrorTitle",
       "value": "لقد فشل التحويل"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transfer.Header",
+      "value": "تحويل"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transfer.HeaderMultiple",
+      "value": "التحويلات"
     },
     {
       "_": "types.LangPackString",
@@ -63275,6 +63385,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Transfer.PreviewHeader",
+      "value": "معاينة"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Transfer.Success",
       "value": "تم إرسال عملات جرام إلى **⁨%@⁩**."
     },
@@ -63282,6 +63397,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.Transfer.ToAddress",
       "value": "إلى ⁨%@⁩"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transfer.Unavailable",
+      "value": "غير متاح"
     },
     {
       "_": "types.LangPackString",
@@ -65094,5 +65214,5 @@
       "value": "لقد قمت بإدخال رمز أمان غير صحيح."
     }
   ],
-  "version": 22256107
+  "version": 22260190
 }
