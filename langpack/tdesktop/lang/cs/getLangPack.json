@@ -4129,7 +4129,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_ai_compose_create_placeholder",
-      "value": "Napište nám, co máme vytvořit..."
+      "value": "Vytvořte text, vzorce nebo tabulky..."
     },
     {
       "_": "types.LangPackString",
@@ -9880,12 +9880,12 @@
     {
       "_": "types.LangPackString",
       "key": "lng_cloud_password_waiting",
-      "value": "Ověřovací odkaz odeslán na {email}..."
+      "value": "Ověřovací odkaz odeslán na {email}…"
     },
     {
       "_": "types.LangPackString",
       "key": "lng_cloud_password_waiting_code",
-      "value": "Potvrzovací kód odeslán na {email}..."
+      "value": "Potvrzovací kód odeslán na {email}…"
     },
     {
       "_": "types.LangPackString",
@@ -28742,6 +28742,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_crop_room",
+      "value": "Oddalte, aby kolem fotky vznikl volný prostor"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_photo_editor_keys_double_click",
       "value": "Dvojklik"
     },
@@ -28779,6 +28784,11 @@
       "_": "types.LangPackString",
       "key": "lng_photo_editor_keys_gesture_drag_edge",
       "value": "přetáhnout okraj"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_gesture_drag_handle",
+      "value": "přetáhnout úchyt"
     },
     {
       "_": "types.LangPackString",
@@ -28954,6 +28964,11 @@
       "_": "types.LangPackString",
       "key": "lng_photo_editor_text_style_semi_transparent",
       "value": "Poloprůhledný"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_trim_shortest",
+      "value": "Oříznout na nejkratší délku"
     },
     {
       "_": "types.LangPackString",
@@ -36662,7 +36677,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_settings_downloading_update",
-      "value": "Stahování aktualizace {progress}..."
+      "value": "Stahování aktualizace {progress}…"
     },
     {
       "_": "types.LangPackString",
@@ -40145,6 +40160,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_stash_restore",
+      "value": "Obnovit uložené zprávy"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_stats_admins_title",
       "value": "Top správci"
     },
@@ -40419,6 +40439,11 @@
       "_": "types.LangPackString",
       "key": "lng_status_bot_game",
       "value": "hra"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_status_bot_gay",
+      "value": "gay"
     },
     {
       "_": "types.LangPackString",
@@ -42062,6 +42087,30 @@
       "_": "types.LangPackString",
       "key": "lng_sure_logout",
       "value": "Opravdu se chcete odhlásit?"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Klíče vašich {count} peněženek jsou uloženy výhradně na tomto zařízení a Telegram o nich neuchovává žádnou zálohu. Pokračováním dojde k jejich zničení — peněženky lze obnovit pouze pomocí vašich tajných frází.",
+      "key": "lng_sure_logout_wallet_local",
+      "many_value": "Klíče vašich {count} peněženek jsou uloženy výhradně na tomto zařízení a Telegram o nich neuchovává žádnou zálohu. Pokračováním dojde k jejich zničení — peněženky lze obnovit pouze pomocí vašich tajných frází.",
+      "one_value": "Klíče vaší peněženky jsou uloženy výhradně na tomto zařízení a Telegram o nich neuchovává žádnou zálohu. Pokračováním dojde k jejich zničení — peněženku lze obnovit pouze pomocí vaší tajné fráze.",
+      "other_value": "Klíče vašich {count} peněženek jsou uloženy výhradně na tomto zařízení a Telegram o nich neuchovává žádnou zálohu. Pokračováním dojde k jejich zničení — peněženky lze obnovit pouze pomocí vašich tajných frází."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Toto zařízení obsahuje také klíče ke {count} dalším peněženkám Gram. Pokračováním v akci dojde k jejich zničení a tuto peněženku bude možné obnovit pouze v případě, že byla její tajná fráze zapsána.",
+      "key": "lng_sure_logout_wallet_parked",
+      "many_value": "Toto zařízení obsahuje také klíče k {count} dalším peněženkám Gram. Pokračováním v akci dojde k jejich zničení a tuto peněženku bude možné obnovit pouze v případě, že byla její tajná fráze zapsána.",
+      "one_value": "Toto zařízení obsahuje také klíče k jedné další peněžence Gram. Pokračováním v akci dojde k jejich zničení a tuto peněženku bude možné obnovit pouze v případě, že byla její tajná fráze zapsána.",
+      "other_value": "Toto zařízení obsahuje také klíče k {count} dalším peněženkám Gram. Pokračováním v akci dojde k jejich zničení a tuto peněženku bude možné obnovit pouze v případě, že byla její tajná fráze zapsána."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Změna {count} klíčů peněženky na tomto zařízení zatím nebyla potvrzena. Náhradní klíče jsou uloženy pouze zde a Telegram nemají žádnou zálohu. Pokračováním dojde k jejich zničení — pokud bude změna provedena, peněženku bude možné obnovit pouze pomocí náhradní tajné fráze.",
+      "key": "lng_sure_logout_wallet_rotating",
+      "many_value": "Změna {count} klíčů peněženky na tomto zařízení zatím nebyla potvrzena. Náhradní klíče jsou uloženy pouze zde a Telegram nemají žádnou zálohu. Pokračováním dojde k jejich zničení — pokud bude změna provedena, peněženku bude možné obnovit pouze pomocí náhradní tajné fráze.",
+      "one_value": "Změna klíče peněženky na tomto zařízení zatím nebyla potvrzena. Náhradní klíč je uložen pouze zde a Telegram nemá žádnou zálohu. Pokračováním dojde k jeho zničení — pokud bude změna provedena, peněženku bude možné obnovit pouze pomocí náhradní tajné fráze.",
+      "other_value": "Změna {count} klíčů peněženky na tomto zařízení zatím nebyla potvrzena. Náhradní klíče jsou uloženy pouze zde a Telegram nemají žádnou zálohu. Pokračováním dojde k jejich zničení — pokud bude změna provedena, peněženku bude možné obnovit pouze pomocí náhradní tajné fráze."
     },
     {
       "_": "types.LangPackString",
@@ -43874,13 +43923,43 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_apps_disconnect_failed",
+      "value": "Nelze odpojit aplikaci."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_apps_disconnect_sure",
+      "value": "Opravdu chcete odpojit {name}?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_apps_disconnect_title",
+      "value": "Odpojit aplikaci"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_apps_empty",
+      "value": "Žádné připojené aplikace"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_apps_title",
       "value": "Připojené aplikace"
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_apps_unknown",
+      "value": "Neznámá aplikace"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_backup_about_on",
       "value": "Vaše šifrovaná záloha klíče je rozdělena na tři části a uložena na třech kontinentech.\n\nSložit ji lze pouze na vašich zařízeních, takže k vašemu klíči nemá přístup nikdo — ani samotný Telegram."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_about_unavailable",
+      "value": "Šifrovaná záloha není k dispozici pro peněženky importované pomocí tajné fráze."
     },
     {
       "_": "types.LangPackString",
@@ -43934,6 +44013,36 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_backup_error",
+      "value": "Nelze změnit nastavení zálohy."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_new_phrase_text",
+      "value": "Byla vygenerována nová tajná fráze pro vaši peněženku. Zapište ji a uchovejte v tajnosti."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_new_phrase_title",
+      "value": "Nová tajná fráze"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_rotate_failed_text",
+      "value": "{reason} Vaše tajná fráze nebyla změněna — pokračujte v používání té stávající. Nová slova, která jste si zapsali, se nepoužívají."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_rotate_failed_title",
+      "value": "Akce selhala"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_rotate_reason_failed",
+      "value": "Aktualizaci nelze dokončit."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_backup_section",
       "value": "Šifrovaná záloha"
     },
@@ -43959,8 +44068,38 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_backup_topup_text",
+      "value": "K aktualizaci tajné fráze potřebujete {amount} GRAM ({fiat}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_topup_title",
+      "value": "Nedostatek Gram"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_update_check",
+      "value": "Aktualizovat tajnou frázi"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_update_fee",
+      "value": "Síťový poplatek: {amount} GRAM ({fiat})."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_update_text",
+      "value": "Obdržíte novou frázi, kterou si zapíšete. Adresa a zůstatek se nezmění."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_buy_button",
       "value": "Nakupovat v hotovosti nebo kryptoměnou"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_buy_empty",
+      "value": "Nejsou dostupné žádné možnosti platby."
     },
     {
       "_": "types.LangPackString",
@@ -44059,13 +44198,53 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_conflict_bar",
+      "value": "Na tomto zařízení máte také starou peněženku"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_conflict_existing",
+      "value": "Také máte {amount} ve starých peněženkách"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_conflict_switch",
+      "value": "Přepnout nyní"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_conflict_switch_error",
       "value": "Nelze odebrat starou peněženku z tohoto zařízení."
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_conflict_text",
+      "value": "Peněženka, kterou jste na tomto zařízení používali dříve. Před přechodem na peněženku v Telegramu si uložte tajnou frázi."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_connect_button",
       "value": "Připojit"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_expired",
+      "value": "Tato žádost o připojení již není platná. Zkuste se znovu připojit z aplikace."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_failed",
+      "value": "Nelze připojit peněženku"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_manifest_invalid",
+      "value": "Detaily této aplikace jsou neplatné nebo patří k jiné doméně, proto se peněženku nepodařilo připojit."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_manifest_missing",
+      "value": "Nelze načíst detaily aplikace, proto nebyla peněženka připojena."
     },
     {
       "_": "types.LangPackString",
@@ -44084,8 +44263,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_actions",
+      "value": "Akce"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_connect_request_call_contract",
       "value": "Volání kontraktu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_closed",
+      "value": "Tato aplikace již není připojena."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_confirm",
+      "value": "Potvrdit"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_decline",
+      "value": "Zamítnout"
     },
     {
       "_": "types.LangPackString",
@@ -44099,8 +44298,196 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_excess",
+      "value": "Nadbytek"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_expired",
+      "value": "Žádost vypršela."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_failed",
+      "value": "Žádost nebylo možné vyřídit."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_fee_failed",
+      "value": "Nelze odhadnout síťový poplatek."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_fee_loading",
+      "value": "Odhaduji síťový poplatek…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_handled",
+      "value": "Tato žádost byla zpracována na jiném zařízení."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_locked",
+      "value": "Odemkněte svou peněženku, abyste si mohli tuto žádost prohlédnout."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_message",
+      "value": "Zpráva"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_messages",
+      "value": "Zprávy"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_not_sent",
+      "value": "Transakce nebyla odeslána. Aplikace dostala hlášení o selhání."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_other_key",
+      "value": "Tato aplikace byla připojena jiným klíčem této peněženky, takže toto zařízení nemůže reagovat na její požadavky ani ji odpojit."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_payload",
+      "value": "Payload"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_preview",
+      "value": "Náhled"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "{count} příjemci",
+      "key": "lng_wallet_connect_request_recipients",
+      "many_value": "{count} příjemců",
+      "one_value": "{count} příjemce",
+      "other_value": "{count} příjemců"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_recipients_title",
+      "value": "Příjemci"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_sent",
+      "value": "Transakce byla odeslána."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_title",
+      "value": "Žádost aplikace"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_title_app",
+      "value": "{name} vyžaduje převod"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_total",
+      "value": "Celková částka"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_trace_failed",
+      "value": "Z náhledu vyplývá, že část této transakce může selhat."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_trace_incomplete",
+      "value": "Náhled této transakce je neúplný."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_transfer",
+      "value": "Převést"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_unavailable",
+      "value": "Tato žádost již není k dispozici."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_undelivered",
+      "value": "Nelze odeslat odpověď do aplikace."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_unhandled_about",
+      "value": "Můžete ji odmítnout hned teď nebo na ni odpovědět na jiném zařízení."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_unknown_operation",
+      "value": "Neznámá operace"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_unlock",
+      "value": "Odemknout"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_unsupported",
+      "value": "Tato žádost není na tomto zařízení podporována."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_restore",
+      "value": "Toto zařízení neobsahuje aktuální klíč této peněženky. Obnovte jej, abyste mohli používat připojené aplikace."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_sign_binary",
+      "value": "Binární data"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_sign_blind",
+      "value": "Podepisujete naslepo. Podepisujte pouze z důvěryhodných zdrojů."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_sign_button",
+      "value": "Podepsat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_sign_data",
+      "value": "Data"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_sign_done",
+      "value": "Tato data byla podepsána."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_sign_text_about",
+      "value": "Pečlivě si zprávu projděte a pokud souhlasíte, podepište údaje."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_sign_title",
+      "value": "Podepsat data"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_title",
+      "value": "Připojit peněženku"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_connect_title_app",
-      "value": "Připojit peněženku do {name}"
+      "value": "Připojit Money k {name}"
     },
     {
       "_": "types.LangPackString",
@@ -44170,7 +44557,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_wallet_details_open_wallet",
-      "value": "Otevřít Mé peníze"
+      "value": "Otevřít Money"
     },
     {
       "_": "types.LangPackString",
@@ -44273,7 +44660,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_wallet_how_menu",
-      "value": "Co jsou Peníze?"
+      "value": "Co je Money?"
     },
     {
       "_": "types.LangPackString",
@@ -44297,6 +44684,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_import_invalid_scheme",
+      "value": "Zde lze importovat pouze tajnou frázi vytvořenou v Telegramu."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_import_invalid_spelling",
       "value": "Zkontrolujte pořadí slov."
     },
@@ -44309,6 +44701,11 @@
       "_": "types.LangPackString",
       "key": "lng_wallet_import_key_changing",
       "value": "Probíhá změna klíče vaší peněženky. Zkuste to znovu, jakmile bude změna potvrzena."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_import_not_verified",
+      "value": "Telegram nemohl ověřit vlastnictví této peněženky. Uschovejte si svou tajnou frázi a obraťte se na podporu."
     },
     {
       "_": "types.LangPackString",
@@ -44335,6 +44732,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_imported_not_stored",
+      "value": "Vaše peněženka byla nahrazena, ale její klíč se na tomto zařízení nepodařilo uložit. Pokud odtud nemůžete odesílat platby, obnovte ji pomocí své tajné fráze."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_imported_text",
       "value": "Vaše peněženka byla obnovena z vaší tajné fráze."
     },
@@ -44350,6 +44752,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_key_save_error",
+      "value": "Na tomto zařízení nelze uložit klíč k peněžence."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_keys_delete",
       "value": "Smazat peněženku"
     },
@@ -44357,6 +44764,11 @@
       "_": "types.LangPackString",
       "key": "lng_wallet_keys_phrase_about",
       "value": "Peněženku můžete přenést do jiného zařízení zkopírováním své 12slovné tajné fráze."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_keys_restore",
+      "value": "Obnovit z tajné fráze"
     },
     {
       "_": "types.LangPackString",
@@ -44371,7 +44783,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_wallet_menu",
-      "value": "Peníze"
+      "value": "Money"
     },
     {
       "_": "types.LangPackString",
@@ -44400,6 +44812,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_passcode_forgot_done",
+      "value": "Z tohoto zařízení byly odebrány klíče peněženky a přístupový kód."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_passcode_forgot_failed",
+      "value": "Klíče peněženky se nelze odebrat."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_passcode_remember",
       "value": "Neptat se za 15 minut"
     },
@@ -44410,6 +44832,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_phrase_error",
+      "value": "Nelze zobrazit tajnou frázi."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_phrase_intro_text",
       "value": "Vaše tajná fráze je klíčem k záloze vaší peněženky. Uchovávejte ji vždy v tajnosti a v bezpečí."
     },
@@ -44417,6 +44844,11 @@
       "_": "types.LangPackString",
       "key": "lng_wallet_phrase_intro_title",
       "value": "Tajná fráze"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_phrase_password_description",
+      "value": "Zadejte své heslo, abyste si mohli zobrazit svou tajnou frázi."
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -44468,6 +44900,36 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_protection_error",
+      "value": "Ochranu klíče peněženky se nepodařilo změnit."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_hardware_absent",
+      "value": "Klíč k vaší peněžence na tomto zařízení byl chráněn pomocí {provider}, ale tento klíč již nelze na tomto zařízení používat. Obnovte peněženku ze šifrované zálohy Telegramu nebo pomocí tajné fráze, abyste klíč znovu uložili."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_hardware_failed",
+      "value": "{provider} nepotvrdil, že jste to byli vy. Nic se nezměnilo."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_hardware_unavailable",
+      "value": "Klíč vaší peněženky na tomto zařízení je chráněn pomocí {provider}, kterou momentálně nelze použít. Restartujte Telegram a zkuste to znovu, nebo peněženku obnovte ze šifrované zálohy Telegramu či pomocí tajné fráze, abyste ji ochránili jiným způsobem."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_hello_about",
+      "value": "Všechny výdaje potvrďte pomocí svého PIN kódu pro Windows."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_hello_label",
+      "value": "Windows Hello"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_protection_open",
       "value": "Nežádat o přístupový kód"
     },
@@ -44485,6 +44947,11 @@
       "_": "types.LangPackString",
       "key": "lng_wallet_protection_open_title",
       "value": "Ukládat bez přístupového kódu?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_open_warning_lock",
+      "value": "Kdokoli, kdo získá přístup k vašemu odemknutému Telegram Desktop na tomto počítači, bude moci ukrást prostředky z vaší peněženky.\n\nToto nastavení můžete později změnit v Zamykání přístup. kódem v menu peněženky."
     },
     {
       "_": "types.LangPackString",
@@ -44508,6 +44975,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_protection_passcode_changed_error",
+      "value": "Přístupový kód byl změněn, ale ochranu peněženky se nepodařilo aktualizovat. Obnovte klíče peněženky ze zálohy nebo pomocí tajné fráze."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_protection_passcode_keep",
       "value": "Neustále vyžadovat tento přístupový kód"
     },
@@ -44523,6 +44995,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_protection_retained",
+      "value": "Telegram se po dobu 15 minut již nebude ptát na {provider}. {link}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_retained_ask",
+      "value": "Zeptat se příště"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_protection_title",
       "value": "Zamykání přístup. kódem"
     },
@@ -44530,6 +45012,16 @@
       "_": "types.LangPackString",
       "key": "lng_wallet_protection_touchid_about",
       "value": "Všechny výdaje potvrďte otiskem prstu nebo heslem k Macu."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_touchid_label",
+      "value": "Touch ID"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_touchid_reason",
+      "value": "odemkněte klíč ke své peněžence"
     },
     {
       "_": "types.LangPackString",
@@ -44545,6 +45037,11 @@
       "_": "types.LangPackString",
       "key": "lng_wallet_receive_about",
       "value": "Sdílejte svou adresu nebo tento QR kód a získejte GRAM."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_receive_caveat",
+      "value": "K odeslání z tohoto zařízení je zapotřebí vaše tajná fráze nebo zařízení, do kterého byla tato peněženka importována."
     },
     {
       "_": "types.LangPackString",
@@ -44573,8 +45070,48 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_restore_explain_text",
+      "value": "Zadejte heslo pro dvoufázové ověření, abyste mohli obnovit klíč této peněženky ze zašifrované zálohy."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_restore_not_saved",
       "value": "Tajná fráze nebyla v tomto zařízení uložena."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_restore_other_text",
+      "value": "Zadaná slova se neshodují s peněženkou."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_restore_outdated_text",
+      "value": "Tato slova představují starou tajnou frázi pro tuto peněženku.\n\nZadejte novou frázi, kterou jste obdrželi při posledním zakázání zálohy."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_restore_text",
+      "value": "Zadejte tajnou frázi této peněženky."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_restore_title",
+      "value": "Obnovit peněženku"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_restore_ton_connect_text",
+      "value": "Zadejte tajnou frázi této peněženky, abyste mohli z tohoto zařízení používat připojené aplikace."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_restore_wrong_title",
+      "value": "Nesprávná tajná fráze"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_restoring_key",
+      "value": "Obnovuji klíč peněženky ze zašifrované zálohy..."
     },
     {
       "_": "types.LangPackString",
@@ -44661,6 +45198,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_send_error_failed",
+      "value": "Nelze odeslat převod."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_error_in_progress",
+      "value": "Právě probíhá další převod. Vyčkejte, až se dokončí."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_send_error_insufficient",
       "value": "Nedostatek prostředků."
     },
@@ -44683,6 +45230,16 @@
       "_": "types.LangPackString",
       "key": "lng_wallet_send_invalid_address",
       "value": "Neplatná sdresa"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_key_changed_text",
+      "value": "Klíč této peněženky byl změněn v jiné aplikaci, takže klíč na tomto zařízení již nefunguje.\n\nObnovte peněženku pomocí aktuální tajné fráze, abyste ji mohli na tomto zařízení znovu používat."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_key_changed_title",
+      "value": "Klíč peněženky změněn"
     },
     {
       "_": "types.LangPackString",
@@ -44756,8 +45313,33 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_unavailable",
+      "value": "Peníze nejsou pro tento účet dostupné."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_vault_locked",
       "value": "Klíč peněženky na tomto zařízení je uzamčen. Odemkněte jej a zkuste to znovu."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_vault_reset_about",
+      "value": "Klíč k peněžence, který je momentálně uložen na tomto zařízení, již nelze otevřít. Pokračováním dojde k jeho smazání z tohoto zařízení spolu se všemi dalšími klíči k peněženkám, které jsou zde uloženy, a místo něj se uloží klíč k této peněžence. Tuto akci nelze vrátit."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_vault_reset_title",
+      "value": "Smazat uložený klíč?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_vault_unavailable",
+      "value": "Klíč peněženky uložený v tomto zařízení nelze přečíst."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_walt_existing",
+      "value": "Také máte prostředky ve Walt"
     },
     {
       "_": "types.LangPackString",
@@ -44905,5 +45487,5 @@
       "other_value": "Zaplatil/a jste {count} hvězd."
     }
   ],
-  "version": 5948404
+  "version": 5950200
 }
