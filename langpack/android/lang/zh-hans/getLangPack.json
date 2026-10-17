@@ -3856,7 +3856,7 @@
     {
       "_": "types.LangPackStringPluralized",
       "key": "ApproveNewMembersEnableForLinks",
-      "other_value": "同时启用此群组中 %1$d 个现有邀请链接的 **批准新成员** 功能？"
+      "other_value": "同时启用此群组中 %1$d 个现有邀请链接的**批准新订阅者**功能？"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -3966,7 +3966,7 @@
     {
       "_": "types.LangPackString",
       "key": "ArchiveHintSection1",
-      "value": "已归档的动态"
+      "value": "已存档聊天"
     },
     {
       "_": "types.LangPackString",
@@ -4385,6 +4385,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AreYouSureLogoutGrams",
+      "value": "此操作将取消您所有的秘密聊天，并 **删除存储 %s 的钱包备份**。如果您尚未保存这些钱包的助记词，将无法再访问其中的资金。\n\n您可以在所有设备上同时使用 Telegram，并在同一应用中登录多个账号。"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AreYouSureRegistration",
       "value": "您确定要取消注册吗？"
     },
@@ -4786,7 +4791,7 @@
     {
       "_": "types.LangPackString",
       "key": "ArticleListTodo",
-      "value": "核对列表"
+      "value": "代办"
     },
     {
       "_": "types.LangPackString",
@@ -12351,7 +12356,7 @@
     {
       "_": "types.LangPackString",
       "key": "ChannelPostDeleted",
-      "value": "抱歉，该贴文已从讨论群组中移除。"
+      "value": "抱歉，此公告已从讨论群组移除。"
     },
     {
       "_": "types.LangPackString",
@@ -19031,7 +19036,7 @@
     {
       "_": "types.LangPackString",
       "key": "EventLogPinTopic",
-      "value": "un1 置顶话题 un2"
+      "value": "un1 已置顶话题 un2"
     },
     {
       "_": "types.LangPackString",
@@ -39235,6 +39240,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PushChatReactStory",
+      "value": "%3$s 对你的动态作出了 %2$s 回应"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PushChatReactText",
       "value": "对您的 “%4$s” %3$s"
     },
@@ -41727,6 +41737,26 @@
       "_": "types.LangPackString",
       "key": "RoundVideoCameraResolution",
       "value": "相机分辨率"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RoundVideoCameraResolutionHigh",
+      "value": "高解析度"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RoundVideoCameraResolutionLow",
+      "value": "低解析度"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RoundVideoCameraResolutionMedium",
+      "value": "中解析度"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RoundVideoComposition",
+      "value": "构图"
     },
     {
       "_": "types.LangPackString",
@@ -49211,7 +49241,7 @@
     {
       "_": "types.LangPackString",
       "key": "SuggestStickers",
-      "value": "根据表情联想贴纸"
+      "value": "根据表情符号建议贴纸"
     },
     {
       "_": "types.LangPackString",
@@ -53246,7 +53276,7 @@
     {
       "_": "types.LangPackString",
       "key": "UsernameAlso",
-      "value": "同时 %1$s"
+      "value": "还有 %1$s"
     },
     {
       "_": "types.LangPackString",
@@ -55685,8 +55715,23 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletBackupEnabledInfo",
+      "value": "您的密钥现已在 Telegram 各数据中心加密存储。"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletBalanceAmount",
       "value": "余额: %1$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBinaryData",
+      "value": "二进制内容"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBinaryDataWarning",
+      "value": "您正在盲目签名。请仅对来自可信来源的资料进行签名。"
     },
     {
       "_": "types.LangPackString",
@@ -55732,6 +55777,11 @@
       "_": "types.LangPackString",
       "key": "WalletCollectibleUsername",
       "value": "收藏家用户名"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCollectibles",
+      "value": "收藏品"
     },
     {
       "_": "types.LangPackString",
@@ -55910,6 +55960,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletDisableBackupConfirmInfo",
+      "value": "您的分布式加密备份将被删除。您的钱包将切换至新的助记词，此后该助记词将是恢复此钱包的唯一方式。"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletDisableBackupExistingPhraseInfo",
       "value": "您的全部加密备份将被删除。此后，密语将成为恢复此钱包的唯一方式。"
     },
@@ -55995,6 +56050,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletFirstGrams",
+      "value": "您的第一笔 Gram！"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletFirstGramsActions",
+      "value": "你可以:"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletFirstGramsRate",
       "value": "%1$s 目前等于 %2$s 美元。\n您可以："
     },
@@ -56056,7 +56121,7 @@
     {
       "_": "types.LangPackString",
       "key": "WalletImportCurrentPhraseInfo",
-      "value": "进入%1$d-从另一台设备上读取您钱包的秘密助记词。"
+      "value": "请从另一台设备输入您钱包的 %1$d 字助记词。"
     },
     {
       "_": "types.LangPackString",
@@ -56320,6 +56385,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletReplaceWalletTitle",
+      "value": "您想要如何替换旧钱包？"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletReviewSigningData",
+      "value": "请仔细核对消息内容，如同意请对数据进行签名。"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletSaveOnDevice",
       "value": "将目前钱包保存至此设备"
     },
@@ -56327,6 +56402,11 @@
       "_": "types.LangPackString",
       "key": "WalletScanQRCode",
       "value": "扫描二维码"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSearchNoResults",
+      "value": "搜索 \"%1$s\" 未找到任何结果。\n请尝试输入其他名称或地址。"
     },
     {
       "_": "types.LangPackString",
@@ -56427,6 +56507,11 @@
       "_": "types.LangPackString",
       "key": "WalletTestPhrase",
       "value": "测试时间"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTestPhraseInfo",
+      "value": "确认你已正确写下你的助记词。\n请输入 **%1$d**、**%2$d** 及 **%3$d** 这三个单词。"
     },
     {
       "_": "types.LangPackString",
@@ -57704,5 +57789,5 @@
       "value": "Telegram 通行证"
     }
   ],
-  "version": 61309122
+  "version": 61315017
 }
