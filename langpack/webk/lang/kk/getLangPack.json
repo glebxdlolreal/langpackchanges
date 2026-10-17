@@ -176,6 +176,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AccDescr.SkipToConversation",
+      "value": "Сұхбатқа өту"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AccDescr.StickerNumber",
       "value": "Стикер %s"
     },
@@ -5538,8 +5543,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.Button.Delete",
+      "value": "Батырманы жою"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Chat.Input.Editor.Button.EditTitle",
       "value": "Батырманы өңдеу"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.Button.NoUser",
+      "value": "Осы батырма қай қолданушының бейінін ашатынын таңдаңыз."
     },
     {
       "_": "types.LangPackString",
@@ -5615,6 +5630,16 @@
       "_": "types.LangPackString",
       "key": "Chat.Input.Editor.CodeLanguage.Choose",
       "value": "Бағдарламалау тілі"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.CodeLanguage.Custom",
+      "value": "Жеке тіл"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.CodeLanguage.CustomTitle",
+      "value": "Код тілін көрсету"
     },
     {
       "_": "types.LangPackString",
@@ -5758,6 +5783,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.Media.GroupAsCollage",
+      "value": "Таңдалған медианы коллаж қып топтастыру"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.Media.GroupAsSlideshow",
+      "value": "Таңдалған медианы слайд-шоу ретінде топтастыру"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Chat.Input.Editor.Media.Next",
       "value": "Келесі медиа"
     },
@@ -5775,6 +5810,11 @@
       "_": "types.LangPackString",
       "key": "Chat.Input.Editor.Media.Replace",
       "value": "Медианы ауыстыру"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.Media.Spoiler",
+      "value": "Жасырынға жасыру"
     },
     {
       "_": "types.LangPackString",
@@ -5840,6 +5880,11 @@
       "_": "types.LangPackString",
       "key": "Chat.Input.Editor.Toolbar.Audio",
       "value": "Аудиофайл"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.Toolbar.BodyText",
+      "value": "Мәтін"
     },
     {
       "_": "types.LangPackString",
@@ -5913,6 +5958,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.Toolbar.InlineMath",
+      "value": "Кіріктірілген формула"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Chat.Input.Editor.Toolbar.Link",
       "value": "Сілтеме қосу"
     },
@@ -5925,6 +5975,11 @@
       "_": "types.LangPackString",
       "key": "Chat.Input.Editor.Toolbar.Math",
       "value": "Формула"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.Toolbar.More",
+      "value": "Қосымша әрекет"
     },
     {
       "_": "types.LangPackString",
@@ -5995,6 +6050,11 @@
       "_": "types.LangPackString",
       "key": "Chat.Input.Editor.Toolbar.TableBorderless",
       "value": "Жиексіз"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.Toolbar.TableCellActions",
+      "value": "Ұяшық әрекеті"
     },
     {
       "_": "types.LangPackString",
@@ -19371,6 +19431,46 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "RichMessage.Error.MediaUnsupported",
+      "value": "Кеңейтілген мәтінді медиамен біріктірілмейді. Оны бөлек хат қып жіберіңіз."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichMessage.Error.TooDeep",
+      "value": "Бұл кеңейтілген мәтін хатында тым көп деңгей (%1$d / %2$d деңгей)."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichMessage.Error.TooLarge",
+      "value": "Бұл кеңейтілген мәтін хаты тым үлкен (%1$d / %2$d байт)."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichMessage.Error.TooLong",
+      "value": "Бұл кеңейтілген мәтін хаты тым ұзын (%1$d / %2$d таңба)."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichMessage.Error.TooManyBlocks",
+      "value": "Бұл кеңейтілген мәтін хатында тым көп блок бар (%1$d / %2$d)."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichMessage.Error.TooManyMedia",
+      "value": "Бұл кеңейтілген мәтін хатында тым көп медиа (%1$d / %2$d)."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichMessage.Error.TooManyTableColumns",
+      "value": "Кестеде бағандар тым көп (%1$d / %2$d)."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichMessage.Error.UnsupportedContent",
+      "value": "Бұл кеңейтілген мәтін хатында бұл өңдегіш әзірге қауіпсіз түрде түзете алмайтын контент бар."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "RichMessage.PremiumRequired.Text",
       "value": "Бұл хат Telegram Premium-ді қажет ететін пішімдеуді қолданады."
     },
@@ -25824,5 +25924,5 @@
       "other_value": "%1$d хат"
     }
   ],
-  "version": 357843
+  "version": 359364
 }
