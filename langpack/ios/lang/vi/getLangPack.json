@@ -38391,7 +38391,7 @@
     {
       "_": "types.LangPackString",
       "key": "PasscodeSettings.AlphanumericCode",
-      "value": "Mã chữ và số"
+      "value": "Mã PIN chữ và số"
     },
     {
       "_": "types.LangPackString",
@@ -38456,12 +38456,17 @@
     {
       "_": "types.LangPackString",
       "key": "PasscodeSettings.HelpBottom",
-      "value": "Chú ý: nếu bạn quên mã PIN, bạn sẽ cần phải đăng xuất hoặc cài đặt lại ứng dụng. Tất cả chat bí mật sẽ bị mất."
+      "value": "Chú ý: nếu quên mã PIN, bạn sẽ cần phải cài đặt lại ứng dụng. Tất cả chat bí mật sẽ bị mất."
     },
     {
       "_": "types.LangPackString",
       "key": "PasscodeSettings.HelpTop",
       "value": "Khi đã đặt mã PIN, biểu tượng ổ khóa sẽ xuất hiện trên danh sách chat. Bấm vào để khóa Telegram."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PasscodeSettings.LockTelegram",
+      "value": "Khóa Telegram"
     },
     {
       "_": "types.LangPackString",
@@ -38495,6 +38500,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PasscodeSettings.TurnOffWalletProtectionWarning",
+      "value": "Việc này cũng sẽ tắt mã PIN và xác thực sinh trắc học cho từng ví trên thiết bị này."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PasscodeSettings.TurnPasscodeOff",
       "value": "Tắt mã PIN"
     },
@@ -38515,8 +38525,38 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PasscodeSettings.UpdateError",
+      "value": "Không thể cập nhật mã PIN. Mở khóa lại và thử lần nữa."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PasscodeSettings.VerificationError",
+      "value": "Không thể xác thực mã PIN. Hãy thử lại."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PasscodeSettings.WalletConfirmWithFaceId",
+      "value": "Xác thực với Face ID"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PasscodeSettings.WalletConfirmWithPasscode",
+      "value": "Xác thực với mã PIN"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PasscodeSettings.WalletConfirmWithTouchId",
+      "value": "Xác thực với Touch ID"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PasscodeSettings.WalletEnableBiometricsReason",
+      "value": "Bật sinh trắc học cho ví của bạn"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PasscodeSettings.WalletProtectionInfo",
-      "value": "Bắt buộc khi chuyển tiền hoặc xác nhận các việc nhạy cảm liên quan đến tiền."
+      "value": "Bắt buộc khi chuyển tiền hoặc xác nhận các hành động nhạy cảm khác."
     },
     {
       "_": "types.LangPackString",
@@ -38561,7 +38601,7 @@
     {
       "_": "types.LangPackString",
       "key": "Passkeys.Into.Text1",
-      "value": "Dùng Face ID, Touch ID hoặc passcode để đăng nhập."
+      "value": "Dùng Face ID, Touch ID hoặc mã PIN để đăng nhập."
     },
     {
       "_": "types.LangPackString",
@@ -58180,6 +58220,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Import.InvalidPhraseTitle",
+      "value": "Cụm từ không hợp lệ"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Import.InvalidWord",
       "value": "Sai cụm từ"
     },
@@ -58267,6 +58312,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.PasscodeFaceId",
       "value": "Mật mã & Face ID"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.PasscodeTouchId",
+      "value": "Mã PIN & Touch ID"
     },
     {
       "_": "types.LangPackString",
@@ -58427,6 +58477,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.Settings.WalletImportedText",
       "value": "Ví của bạn đã được khôi phục từ cụm từ bí mật."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.ShowSecretPhrase",
+      "value": "Hiện cụm từ bí mật"
     },
     {
       "_": "types.LangPackString",
@@ -60359,5 +60414,5 @@
       "value": "Bạn đã nhập sai mã bảo mật."
     }
   ],
-  "version": 22202254
+  "version": 22262206
 }
