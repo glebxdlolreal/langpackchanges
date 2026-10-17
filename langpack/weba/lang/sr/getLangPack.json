@@ -4296,8 +4296,38 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ChatAllowedFiles",
+      "value": "датотеке"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAllowedMusic",
+      "value": "музика"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAllowedPhotos",
+      "value": "слике"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAllowedStickers",
+      "value": "налепнице и GIF-ови"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAllowedText",
+      "value": "текстуалне поруке"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ChatAllowedVideoMessages",
       "value": "видео-поруке"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAllowedVideos",
+      "value": "видео-записи"
     },
     {
       "_": "types.LangPackString",
@@ -4579,6 +4609,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ChatMessagingRestrictedPlaceholder",
+      "value": "{user} прихвата поруке само од Premium корисника."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ChatMessagingRestrictedPlaceholderAction",
       "value": "Сазнај више..."
     },
@@ -4643,6 +4678,11 @@
       "_": "types.LangPackString",
       "key": "ChatPollTotalVotesResultEmpty",
       "value": "Нема гласова"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatPrivateMessageEditTimestampDate",
+      "value": "уређено {date}"
     },
     {
       "_": "types.LangPackString",
@@ -5147,6 +5187,11 @@
       "key": "ConfirmationModalPaymentForMessage",
       "one_value": "{user} наплаћује **{amount}** по долазној поруци. Желите ли да платите **{totalAmount}** да бисте послали {count} поруку?",
       "other_value": "{user} наплаћује **{amount}** по долазној поруци. Желите ли да платите **{totalAmount}** да бисте послали {count} порука?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ConnectedAccountsLimitSubtitle",
+      "value": "Повежите {count} налога с различитим бројевима мобилних телефона"
     },
     {
       "_": "types.LangPackString",
@@ -6090,6 +6135,11 @@
       "_": "types.LangPackString",
       "key": "DownloadSpeedLimited",
       "value": "Брзина преузимања ограничена"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "DownloadSpeedLimitedMessage",
+      "value": "Претплатите се на **Telegram Premium** и повећајте брзину преузимања {factor} пута."
     },
     {
       "_": "types.LangPackString",
@@ -7046,6 +7096,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ExpiredStoryMentioned",
+      "value": "Прича у којој сте поменули {user} више није доступна"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "FactCheck",
       "value": "Провера чињеница"
     },
@@ -7644,8 +7699,23 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "FragmentPhoneMessage",
+      "value": "Овај број телефона је купљен на платформи **Fragment** {date} за **{amount}** {details}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "FragmentPhoneTitle",
+      "value": "**{phone}** је колекционарски број телефона који припада"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "FragmentUsernameOpen",
       "value": "Сазнај више"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "FragmentUsernameTitle",
+      "value": "**{username}** је колекционарско корисничко име које припада"
     },
     {
       "_": "types.LangPackString",
@@ -9211,6 +9281,13 @@
       "value": "Појачај групу"
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "**{count}** пута",
+      "key": "GroupBoostBoostToUnrestrictTimes",
+      "one_value": "**{count}** пут",
+      "other_value": "**{count}** пута"
+    },
+    {
       "_": "types.LangPackString",
       "key": "GroupCallContextPinCamera",
       "value": "Закачи видео"
@@ -9494,6 +9571,11 @@
       "_": "types.LangPackString",
       "key": "HEX",
       "value": "HEX"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "HashtagSearchPlaceholder",
+      "value": "Унесите хеш-ознаку да бисте пронашли поруке које је садрже."
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -10690,6 +10772,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "MessageContainsEmojiPack",
+      "value": "Ова порука садржи емоџије из пакета {pack}."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Ова порука садржи емоџије из **{count} пакета**.",
+      "key": "MessageContainsEmojiPacks",
+      "one_value": "Ова порука садржи емоџије из **{count} пакета**.",
+      "other_value": "Ова порука садржи емоџије из **{count} пакета**."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "MessageMetaApproximate",
       "value": "око"
     },
@@ -10955,6 +11049,11 @@
       "_": "types.LangPackString",
       "key": "MonetizationInfoTONLink",
       "value": "https://telegram.org/privacy"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MonetizationIntroSplitText",
+      "value": "Можете добити 50% прихода од огласа као награду у GRAM."
     },
     {
       "_": "types.LangPackString",
@@ -11515,6 +11614,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "NotificationStarsGiftSentYou",
+      "value": "Послали сте поклон вредан {amount}"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "NotificationTitleNotSupportedInFrozenAccount",
       "value": "Ваш налог је замрзнут"
     },
@@ -12052,6 +12156,11 @@
       "_": "types.LangPackString",
       "key": "PaymentCheckoutShippingMethod",
       "value": "Начин доставе"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PaymentConfirmationMessage",
+      "value": "Ваша картица {cardName} је сачувана. Да бисте платили овом картицом, унесите лозинку за потврду у два корака."
     },
     {
       "_": "types.LangPackString",
@@ -17312,6 +17421,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "StoryHideFrom",
+      "value": "Сакриј моје приче од {user}"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "StoryKeep",
       "value": "Сачувај на мом профилу"
     },
@@ -17493,6 +17607,11 @@
       "_": "types.LangPackString",
       "key": "StorySharedTo",
       "value": "Прича прослеђена примаоцу **{user}**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryShowBackTo",
+      "value": "Не сакривај моје приче од {user}"
     },
     {
       "_": "types.LangPackString",
@@ -20810,5 +20929,5 @@
       "value": "Ваше име"
     }
   ],
-  "version": 357539
+  "version": 357591
 }
