@@ -5891,6 +5891,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "DownloadKeepAppOpen",
+      "value": "Загрузка началась. Не закрывайте приложение до её окончания."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "DownloadSizeUnsupported",
+      "value": "Ваш браузер не поддерживает загрузку файлов объёмом более 2 ГБ."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "DownloadSpeedLimited",
       "value": "Скорость скачивания ограничена"
     },
@@ -6336,6 +6346,46 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ErrorAdminRankEmojiNotAllowed",
+      "value": "В теге администратора нелья использовать эмодзи"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorAdminRankInvalid",
+      "value": "Некорректный тег администратора"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorAdminsTooMuch",
+      "value": "Слишком много администраторов"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorBotGroupsBlocked",
+      "value": "Этого бота нельзя добавлять в группы"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorBotPrecheckoutTimeout",
+      "value": "Срок действия запроса на оплату истёк"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorBotsTooMuch",
+      "value": "В этом чате/канале слишком много ботов"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorChannelsTooMuch",
+      "value": "Вы участвуете в максимальном числе каналов/супергрупп"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorChatAdminRequired",
+      "value": "Это действие доступно только администраторам чата"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ErrorChatLinkExists",
       "value": "Это публичный чат, нельзя скрыть его историю от новых участников"
     },
@@ -6363,6 +6413,11 @@
       "_": "types.LangPackString",
       "key": "ErrorChatSendStickersForbidden",
       "value": "Вы не можете отправлять стикеры в этот чат"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorChatWriteForbidden",
+      "value": "Вы не можете писать в этот чат"
     },
     {
       "_": "types.LangPackString",
@@ -6396,8 +6451,23 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ErrorFreshAdmin",
+      "value": "Вы были назначены администратором недавно и пока не можете добавлять администраторов или изменять их права"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ErrorIncorrectPassword",
       "value": "Неверный пароль, попробуйте снова"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorInputUserDeactivated",
+      "value": "Это действие недоступно для удалённых аккаунтов"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorInviteHashExpired",
+      "value": "Срок действия пригласительной ссылки истёк"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -6409,8 +6479,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ErrorMessageTooLongText",
+      "value": "Слишком длинное сообщение"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ErrorNewSaltInvalid",
       "value": "При подтверждении облачного пароля произошла ошибка. Попробуйте снова."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorPaidMediaForbidden",
+      "value": "Вы не можете отправлять платные медиа в этот чат"
     },
     {
       "_": "types.LangPackString",
@@ -6449,6 +6529,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ErrorProviderAccountTimeout",
+      "value": "Срок действия запроса к платёжной системе истёк"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ErrorRichMessageTableTooWide",
       "value": "В таблице в этом сообщении слишком много столбцов. Их не может быть больше {count}."
     },
@@ -6475,6 +6560,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ErrorScheduleDateInvalid",
+      "value": "Некорректно указана дата запланированного действия"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ErrorSendRestrictedStickersAll",
       "value": "В этой группе запрещено отправлять стикеры"
     },
@@ -6482,6 +6572,21 @@
       "_": "types.LangPackString",
       "key": "ErrorSessionFresh",
       "value": "В целях безопасности подождите {time} или используйте устройство, где Вы авторизовались раньше"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorSessionTooFresh",
+      "value": "Сеанс начат недостаточно давно, попробуйте позже"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorStargiftConvertTooOld",
+      "value": "Этот подарок больше нельзя обменять на звёзды"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorSubscriptionAlreadyActive",
+      "value": "Вы уже подписаны"
     },
     {
       "_": "types.LangPackString",
@@ -6502,6 +6607,56 @@
       "_": "types.LangPackString",
       "key": "ErrorUrlExpired",
       "value": "Срок действия ссылки истёк."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorUserAlreadyParticipant",
+      "value": "Вы уже в группе"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorUserBannedInChannel",
+      "value": "Вы не можете отправлять сообщения в каналы/супергруппы"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorUserChannelsTooMuch",
+      "value": "У одного из пользователей, которых Вы хотите добавить, превышен лимит каналов/супергрупп"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorUserIsBlocked",
+      "value": "Этот пользователь заблокировал Вас"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorUserKicked",
+      "value": "Пользователь был заблокирован в этом канале/супергруппе"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorUserNotMutualContact",
+      "value": "Вы с пользователем не добавили друг друга в контакты"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorUserPrivacyRestricted",
+      "value": "Настройки конфиденциальности этого пользователя не позволяют Вам выполнить это действие"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorUsersTooMuch",
+      "value": "Превышено максимальное количество пользователей"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorWallpaperDimensionsInvalid",
+      "value": "У этого изображения недопустимые размеры, выберите другой файл для использования в качестве обоев"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorYouBlockedUser",
+      "value": "Вы заблокировали этого пользователя"
     },
     {
       "_": "types.LangPackString",
@@ -8746,6 +8901,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "GroupCallsUnsupported",
+      "value": "Ваш браузер не поддерживает групповые звонки"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "GroupChatsSearchContext",
       "value": "групп"
     },
@@ -9676,6 +9836,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "LiveStreamUnsupported",
+      "value": "Трансляции с большим количеством участников пока не поддерживаются"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Loading",
       "value": "Загрузка..."
     },
@@ -10367,6 +10532,11 @@
       "_": "types.LangPackString",
       "key": "MessagesPrivacyPremiumAbout",
       "value": "C подпиской Telegram Premium Вы сможете изменить эту настройку и получить доступ к другим эксклюзивным функциям."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MiniAppQrScanUnsupported",
+      "value": "Этот клиент пока не поддерживает сканирование QR-кодов"
     },
     {
       "_": "types.LangPackString",
@@ -11113,6 +11283,14 @@
     },
     {
       "_": "types.LangPackStringPluralized",
+      "few_value": "{count} уведомления",
+      "key": "PageTitleNotifications",
+      "many_value": "{count} уведомлений",
+      "one_value": "{count} уведомление",
+      "other_value": "{count} уведомлений"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
       "few_value": "Оплата {count} сообщений",
       "key": "PaidMessageTransaction",
       "many_value": "Оплата {count} сообщений",
@@ -11469,6 +11647,66 @@
       "_": "types.LangPackString",
       "key": "PaymentCheckoutShippingMethod",
       "value": "Способ доставки"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PaymentIncorrectCardNumber",
+      "value": "Неверно указан номер карты"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PaymentIncorrectCity",
+      "value": "Неверно указан город"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PaymentIncorrectCountry",
+      "value": "Неверно указана страна"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PaymentIncorrectCvv",
+      "value": "Неверно указан CVV-код"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PaymentIncorrectEmail",
+      "value": "Неверно указана электронная почта"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PaymentIncorrectMonth",
+      "value": "Неверно указан месяц"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PaymentIncorrectName",
+      "value": "Неверно указано имя"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PaymentIncorrectPhone",
+      "value": "Неверно указан номер телефона"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PaymentIncorrectPostCode",
+      "value": "Неверно указан индекс"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PaymentIncorrectState",
+      "value": "Неверно указана область"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PaymentIncorrectStreet",
+      "value": "Неверно указана улица"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PaymentIncorrectYear",
+      "value": "Неверно указан год"
     },
     {
       "_": "types.LangPackString",
@@ -15327,6 +15565,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ShowTranslateChatButton",
+      "value": "Переводить чаты целиком"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SimilarChannelsLimitSubtitle",
+      "value": "Просмотр до {count} похожих каналов"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "SimilarChannelsLimitTitle",
       "value": "Похожие каналы"
     },
@@ -15739,6 +15987,14 @@
       "value": "Купите **звёзды**, чтобы отправлять сообщения."
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Требуются {count} звезды",
+      "key": "StarsNeededTitle",
+      "many_value": "Требуется {count} звёзд",
+      "one_value": "Требуется {count} звезда",
+      "other_value": "Требуется {count} звезды"
+    },
+    {
       "_": "types.LangPackString",
       "key": "StarsParticipantSubscriptionPerMonth",
       "value": "в месяц"
@@ -15807,6 +16063,14 @@
       "_": "types.LangPackString",
       "key": "StarsReactionsSent",
       "value": "Звёздная реакция"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Вы отправили **{count}** звезды.",
+      "key": "StarsSentText",
+      "many_value": "Вы отправили **{count}** звёзд.",
+      "one_value": "Вы отправили **{count}** звезду.",
+      "other_value": "Вы отправили **{count}** звезды."
     },
     {
       "_": "types.LangPackString",
@@ -15881,8 +16145,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "StarsSubscriptionExpiredInfo",
+      "value": "Ваша подписка истекла {date}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsSubscriptionExpires",
+      "value": "истекает {date}"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "StarsSubscriptionRenew",
       "value": "Возобновить подписку"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsSubscriptionRenews",
+      "value": "продлится {date}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsSubscriptionStatusCancelled",
+      "value": "отменена"
     },
     {
       "_": "types.LangPackString",
@@ -15898,6 +16182,11 @@
       "_": "types.LangPackString",
       "key": "StarsSubscriptionUntilRenews",
       "value": "Продлится"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsTOSLink",
+      "value": "https://telegram.org/tos"
     },
     {
       "_": "types.LangPackString",
@@ -16498,6 +16787,11 @@
       "_": "types.LangPackString",
       "key": "StoryViewListEmptyTextSearch",
       "value": "Просмотры не найдены"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryYouMentionedTitle",
+      "value": "Вы упомянули {user} в истории."
     },
     {
       "_": "types.LangPackString",
@@ -17783,6 +18077,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "VideoPlayerPictureInPicture",
+      "value": "Картинка в картинке"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "VideoUnsupportedDesktop",
       "value": "__К сожалению, просмотр этого видеофайла в Telegram для браузера недоступен. Попробуйте открыть его в [приложении для компьютера](https://getdesktop.telegram.org/).__"
     },
@@ -17890,6 +18189,16 @@
       "_": "types.LangPackString",
       "key": "ViewPackPreview",
       "value": "Посмотреть набор"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceChatInactive",
+      "value": "Этот голосовой чат неактивен"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceChatJoinFailed",
+      "value": "Не удалось подключиться к голосовому звонку"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -18204,6 +18513,26 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletDisableBackupConfirm",
+      "value": "Отключить"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDisableBackupFee",
+      "value": "Сетевая комиссия: {amount} GRAM ({fiat})."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDisableBackupRotateText",
+      "value": "Зашифрованная резервная копия, хранящаяся распределённо, будет удалена. Секретная фраза изменится — восстановить кошелёк можно будет только с помощью новой фразы."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDisableBackupText",
+      "value": "Зашифрованная резервная копия, хранящаяся распределённо, будет удалена. Секретная фраза станет единственным способом восстановить кошелёк."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletDisableBackupTitle",
       "value": "Отключить резервное копирование?"
     },
@@ -18295,6 +18624,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletPasscodeTitle",
+      "value": "Код-пароль"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletPaste",
       "value": "Вставить"
     },
@@ -18332,6 +18666,11 @@
       "_": "types.LangPackString",
       "key": "WalletReceiveTitle",
       "value": "Пополнить"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletRecoveryPhraseTitle",
+      "value": "Секретная фраза"
     },
     {
       "_": "types.LangPackString",
@@ -18545,6 +18884,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletUpdatePhrase",
+      "value": "Сменить секретную фразу"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUpdatePhraseHint",
+      "value": "Будет сгенерирована новая фраза, которую необходимо записать. Адрес и баланс останутся прежними."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletViewInExplorer",
       "value": "Открыть в обозревателе"
     },
@@ -18690,5 +19039,5 @@
       "value": "Ваше имя"
     }
   ],
-  "version": 355700
+  "version": 357547
 }
