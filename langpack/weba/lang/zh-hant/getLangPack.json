@@ -330,6 +330,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ActionGiftStarsSubtitle",
+      "value": "有了星星，**{peer}** 就能解鎖 Telegram 上的內容和服務。"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ActionGiftStarsText",
       "value": "使用星星解鎖 Telegram 上的內容和服務。"
     },
@@ -1370,6 +1375,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AdReported",
+      "value": "我們將審查此廣告，以確保其符合我們的**廣告政策和指南**。"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Add",
       "value": "新增"
     },
@@ -1397,6 +1407,11 @@
       "_": "types.LangPackString",
       "key": "AddToFavorites",
       "value": "加入到「最愛」"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AddedToDoNotTranslate",
+      "value": "**{language}** 已加入到您的「不翻譯」清單中。"
     },
     {
       "_": "types.LangPackString",
@@ -2695,6 +2710,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "BoostGiftLimitSubscribersInfo",
+      "value": "選擇是否要將贈獎活動僅限於活動發起後加入頻道的用戶或來自特定國家的用戶。"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "BoostGiftStarsInfo",
       "value": "選擇要送出多少顆星星以及一年內獲得多少次助推。"
     },
@@ -2754,6 +2774,11 @@
       "value": "透過禮物助推"
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "key": "BoostingChannelWillReceiveBoost",
+      "other_value": "此頻道將獲得 {count} 次助推"
+    },
+    {
       "_": "types.LangPackString",
       "key": "BoostingChannelsGroupsIncludedGiveaway",
       "value": "包含的群組和頻道"
@@ -2810,6 +2835,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "BoostingGetMoreBoostsGroup",
+      "value": "透過向您的成員贈送 Premium 來為您的群組獲得更多助推。"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "BoostingGift",
       "value": "禮物"
     },
@@ -2834,6 +2864,16 @@
       "value": "贈獎活動"
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "key": "BoostingGiveawayAdditionPrizeCountHint",
+      "other_value": "所有獎品：**{count}** 份為期 {duration} 的 Telegram Premium 訂閱。"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "BoostingGiveawayAdditionPrizeCountNameHint",
+      "other_value": "所有獎品：**{count}** {prize} 份為期 {duration} 的 Telegram Premium 訂閱。"
+    },
+    {
       "_": "types.LangPackString",
       "key": "BoostingGiveawayAdditionPrizeHint",
       "value": "如果您除了 Premium 訂閱之外還想為獲獎者提供您自己的獎品，請開啟此選項。"
@@ -2845,6 +2885,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "BoostingGiveawayCanceledByPayment",
+      "value": "此頻道透過退款取消了獎品。"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "BoostingGiveawayEnd",
       "value": "贈獎活動結束"
     },
@@ -2852,6 +2897,46 @@
       "_": "types.LangPackString",
       "key": "BoostingGiveawayEnterYourPrize",
       "value": "輸入您的獎品"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "BoostingGiveawayHowItWorksIncludeText",
+      "other_value": "**{chat}** 還包括 **{quantity}** 份 **{prize}** 等獎品。頻道管理員負責發放這些獎品。"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "BoostingGiveawayHowItWorksSubText",
+      "other_value": "Telegram 於 {date} 自動選擇了 **{quantity}** 位已加入 **{chat}** 的隨機用戶。"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "BoostingGiveawayHowItWorksSubTextEnd",
+      "other_value": "Telegram 於 {date} 自動選擇了 **{quantity}** 位已加入 **{chat}** 的隨機用戶。"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "BoostingGiveawayHowItWorksSubTextSeveral1",
+      "other_value": "Telegram 於 {date} 自動選擇了 **{quantity}** 位已加入 **{chat}**（{otherChannels}）的隨機用戶。"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "BoostingGiveawayHowItWorksSubTextSeveral2",
+      "other_value": "以及 **{count}** 個列出的其他頻道"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "BoostingGiveawayHowItWorksSubTextSeveralEnd1",
+      "other_value": "Telegram 於 {date} 自動選擇了 **{quantity}** 位已加入 **{chat}**（{otherChannels}）的隨機用戶。"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "BoostingGiveawayHowItWorksText",
+      "other_value": "此贈獎活動由 {chat} 的管理員贊助，他們為其訂閱者準備了 **{quantity} 份 {duration}的 Telegram Premium** 訂閱。"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "BoostingGiveawayHowItWorksTextEnd",
+      "other_value": "此贈獎活動由 {chat} 的管理員贊助，他們為其訂閱者準備了 **{quantity} 份 {duration}的 Telegram Premium** 訂閱。"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -2872,6 +2957,16 @@
       "_": "types.LangPackString",
       "key": "BoostingGiveawayMsgWithDivider",
       "value": "及"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingGiveawayNotEligible",
+      "value": "您沒有資格參加此贈獎活動，因為您是在 **{date}** 即活動開始之前加入此頻道的。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingGiveawayNotEligibleAdmin",
+      "value": "您沒有資格參與此贈獎活動，因為您是主辦頻道的管理員 (**{chat}**)。"
     },
     {
       "_": "types.LangPackString",
@@ -2999,6 +3094,16 @@
       "value": "您也可以**傳送這條連結**作為禮物給任何人。"
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "key": "BoostingStarsGiveawayHowItWorksText",
+      "other_value": "此贈獎活動由 **{chat}** 的管理員贊助，他們為其訂閱者提供了 **{count} 顆星星**。"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "BoostingStarsGiveawayHowItWorksTextEnd",
+      "other_value": "此贈獎活動由 **{chat}** 的管理員贊助，他們為其訂閱者提供了 **{count} 顆星星**。"
+    },
+    {
       "_": "types.LangPackString",
       "key": "BoostingStarsOptions",
       "value": "待送出的數量"
@@ -3035,6 +3140,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "BoostingTelegramPremiumFor",
+      "value": "{duration}的 Telegram Premium"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "BoostingTo",
       "value": "到"
     },
@@ -3047,6 +3157,11 @@
       "_": "types.LangPackString",
       "key": "BoostingUseLink",
       "value": "使用連結"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingUsedLinkDate",
+      "value": "此連結已於 {date} 使用。"
     },
     {
       "_": "types.LangPackString",
@@ -3295,6 +3410,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "BotNameRequired",
+      "value": "請提供名稱"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "BotOpenPageMessage",
       "value": "**{bot}** 想要開啟其 Web 應用程式以繼續。\n\n它將能夠存取您的 **IP 位址**和裝置基本資訊。"
     },
@@ -3332,6 +3452,11 @@
       "_": "types.LangPackString",
       "key": "BotReadTextFromClipboardTitle",
       "value": "剪貼簿存取"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotRemoveFromMenu",
+      "value": "這將從所有選單中移除 **{user}** 捷徑。"
     },
     {
       "_": "types.LangPackString",
@@ -3655,6 +3780,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "CallMicrophoneAccessNeeded",
+      "value": "Telegram 需要存取您的麥克風，以便您可以進行語音通話。"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "CallMuteAudio",
       "value": "關麥克風"
     },
@@ -3805,8 +3935,33 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ChannelBoostErrorBoostTooOftenText",
+      "value": "您每天只能變更一次助推的頻道。您將在 **{time}** 後可再次助推。"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ChannelBoostErrorBoostTooOftenTitle",
       "value": "不能頻繁助推！"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "ChannelBoostMoreBoosts",
+      "other_value": "**{count}** 次額外的助推"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChannelBoostMoreBoostsNeededText",
+      "value": "**{chat}** 需要 {moreBoosts} 來解鎖新功能。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChannelBoostReplaceBoost",
+      "value": "您目前正在助推 **{currentChat}**。您想改為助推 **{chat}** 嗎？"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChannelBoostYouBoostedChannelText",
+      "value": "您助推了 {chat}！"
     },
     {
       "_": "types.LangPackString",
@@ -4215,6 +4370,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ChannelVisibilityConfirmMakePrivateChannel",
+      "value": "如果您將此群組設為私人群組，則名稱 @{currentUsername} 將被移除。任何人都可以把它拿來用在自己的公開群組或頻道。"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ChannelVisibilityForwardingChannelInfo",
       "value": "如果設為限制，訂閱者將無法從此頻道拷貝、儲存和轉傳內容。"
     },
@@ -4335,6 +4495,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ChatEmptyStateIntroFooter",
+      "value": "{user} 為所有空聊天室加入了上述訊息"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatEmptyTopicPlaceholderText",
+      "value": "傳送第一則訊息以\n開啟此話題。"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ChatEmptyTopicPlaceholderTitle",
       "value": "差不多完成了！"
     },
@@ -4342,6 +4512,46 @@
       "_": "types.LangPackString",
       "key": "ChatForwardActionHeader",
       "value": "轉傳訊息"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatGiveawayInfoNotQualified",
+      "value": "要參加此贈獎活動，請在 **{date}** 之前加入頻道 **{chat}**。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatGiveawayInfoNotQualifiedMany",
+      "value": "要參加此贈獎活動，請在 **{date}** 之前加入頻道 **{chat}**（和{otherChannels}）。"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "ChatGiveawayInfoOtherChannels",
+      "other_value": "**{count}** 個列出的其他頻道"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatGiveawayInfoParticipating",
+      "value": "您正在參與此贈獎活動，因為您已加入頻道 **{chat}**。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatGiveawayInfoParticipatingMany",
+      "value": "您正在參與此贈獎活動，因為您已加入頻道 **{chat}**（和{otherChannels}）。"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "ChatGiveawayInfoSubscriptions",
+      "other_value": "**{count} 份 Telegram Premium** 訂閱"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatGiveawayMessageCountriesFrom",
+      "value": "來自 {countries}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatGiveawayMessageStarsPrizeText",
+      "value": "{stars}將送給 **{winners}** 位獲獎者。"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -4450,6 +4660,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ChatListEmptyTopicsDescription",
+      "value": "此群組的歷史訊息已經遷移到 「一般」 話題。"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ChatListEmptyTopicsTitle",
       "value": "這裡還沒有話題"
     },
@@ -4467,6 +4682,16 @@
       "_": "types.LangPackString",
       "key": "ChatListFilterErrorTitleEmpty",
       "value": "請輸入此資料夾的標題。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatListFilterInviteLinkIncludeExcludeError",
+      "value": "您無法與特定聊天室類型或被排除的聊天室分享資料夾。"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "ChatListFilterLinkLabelChatCount",
+      "other_value": "包含 {count} 個聊天室"
     },
     {
       "_": "types.LangPackString",
@@ -4545,6 +4770,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ChatMessagingRestrictedPlaceholder",
+      "value": "只有 Premium 用戶可以向 {user} 傳送訊息。"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ChatMessagingRestrictedPlaceholderAction",
       "value": "了解更多..."
     },
@@ -4610,8 +4840,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ChatPrivateMessageEditTimestampDate",
+      "value": "編輯於 {date}"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ChatQuizTotalVotesEmpty",
       "value": "沒人回答"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatSendAllowedContentText",
+      "value": "此群組的管理員只允許傳送 {types}。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatSendNotAllowedText",
+      "value": "此群組中不允許傳訊息。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatSetPhotoOrVideo",
+      "value": "設定照片或影片"
     },
     {
       "_": "types.LangPackString",
@@ -4705,8 +4955,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Checkout2FAText",
+      "value": "僅在啟用兩步驟驗證的情況下，才可儲存付款資訊。"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "CheckoutNewCardCardholderNamePlaceholder",
       "value": "持卡人姓名"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CheckoutNewCardSaveInfoHelp",
+      "value": "您可以儲存付款資訊以備將來使用。"
     },
     {
       "_": "types.LangPackString",
@@ -4737,6 +4997,11 @@
       "_": "types.LangPackString",
       "key": "Clear",
       "value": "清除"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ClearHistoryMessageSingle",
+      "value": "您確定要取消收藏來自 {chat} 的訊息嗎？"
     },
     {
       "_": "types.LangPackString",
@@ -5080,6 +5345,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ConnectedAccountsLimitSubtitle",
+      "value": "登入 {count} 個不同手機號碼的帳號"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ConnectedAccountsLimitTitle",
       "value": "多帳號登入"
     },
@@ -5087,6 +5357,11 @@
       "_": "types.LangPackString",
       "key": "Connecting",
       "value": "連線中…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ContactFirstNameRequired",
+      "value": "請提供名字"
     },
     {
       "_": "types.LangPackString",
@@ -5295,6 +5570,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ConversationContextMenuSendGiftTo",
+      "value": "贈送禮物給 {user}"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "ConversationContextViewReplies",
+      "other_value": "查看 {count} 則回覆"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ConversationDefaultRestrictedMedia",
       "value": "此群組中不允許傳送媒體。"
     },
@@ -5352,6 +5637,16 @@
       "_": "types.LangPackString",
       "key": "ConversationSearchPlaceholder",
       "value": "搜尋這個聊天室"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ConversationShareLinkTooltipChatOne",
+      "value": "連結已分享給 **{user}**"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ConversationStoryForwardTooltipSavedMessagesOne",
+      "value": "動態已轉傳到**我的收藏**"
     },
     {
       "_": "types.LangPackString",
@@ -5522,6 +5817,11 @@
       "_": "types.LangPackString",
       "key": "DebugDownloadLog",
       "value": "下載日誌"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "DebugExportedSenders",
+      "value": "啟用已匯出傳送者偵錯功能"
     },
     {
       "_": "types.LangPackString",
@@ -5980,6 +6280,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "DownloadSpeedLimitedMessage",
+      "value": "訂閱 **Telegram Premium**，讓下載速度提升 {factor} 倍。"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Draft",
       "value": "草稿"
     },
@@ -6345,6 +6650,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "EnableSomeReactionsInfo",
+      "value": "群組成員只能使用部分允許的表情符號作為對訊息的反應。"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "EnabledPasswordText",
       "value": "您已啟用兩步驟驗證。\n您需要此處設定的密碼以登入您的 Telegram 帳號。"
     },
@@ -6475,8 +6785,58 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ErrorBotPrecheckoutTimeout",
+      "value": "付款請求已過期"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorBotsTooMuch",
+      "value": "此聊天室或頻道中的機器人數量過多"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ErrorChannelPrivate",
       "value": "這是私人頻道"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorChannelsTooMuch",
+      "value": "您已經加入了太多頻道及超級群組"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorChatAdminRequired",
+      "value": "您必須是此聊天室的管理員才能執行此操作"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorChatLinkExists",
+      "value": "此聊天室為公開聊天室，您無法對新用戶隱藏聊天紀錄"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorChatRestricted",
+      "value": "您無法在此聊天中傳送訊息，您的權限已受限制"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorChatSendGifsForbidden",
+      "value": "您無法在此聊天室中傳送 GIF"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorChatSendMediaForbidden",
+      "value": "您無法在此聊天室中傳送媒體"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorChatSendPollForbidden",
+      "value": "您無法在此聊天室中發起投票"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorChatSendStickersForbidden",
+      "value": "您無法在此聊天室中傳送貼圖"
     },
     {
       "_": "types.LangPackString",
@@ -6515,6 +6875,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ErrorFreshAdmin",
+      "value": "您剛被選為管理員，目前還無法新增或修改其他管理員"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorFreshSessionLogout",
+      "value": "如果距離您登入目前裝置的時間不到 24 小時，則無法登出其他裝置"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ErrorImageProcessFailed",
       "value": "處理圖片時發生錯誤"
     },
@@ -6522,6 +6892,11 @@
       "_": "types.LangPackString",
       "key": "ErrorIncorrectPassword",
       "value": "無效的電子郵件地址，請再試一次"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorInputUserDeactivated",
+      "value": "無法對已刪除的帳號執行此操作"
     },
     {
       "_": "types.LangPackString",
@@ -6567,6 +6942,21 @@
       "_": "types.LangPackString",
       "key": "ErrorMediaNewInvalid",
       "value": "無法替換新媒體"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorMessageDeleteForbidden",
+      "value": "您無法刪除其中一則嘗試刪除的訊息，很可能是因為它是服務訊息。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorMessageEditTimeExpired",
+      "value": "您已無法編輯此訊息。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorMessageNotModified",
+      "value": "訊息未修改。新內容與目前內容完全相同。"
     },
     {
       "_": "types.LangPackString",
@@ -6620,6 +7010,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ErrorPeersListEmpty",
+      "value": "清單中尚未加入任何聊天室"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ErrorPhoneBanned",
       "value": "這個電話號碼被封鎖了"
     },
@@ -6647,6 +7042,11 @@
       "_": "types.LangPackString",
       "key": "ErrorPinnedDialogsTooMuch",
       "value": "抱歉，您只能置頂 5 個聊天。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorProviderAccountTimeout",
+      "value": "向支付服務供應商發出的請求已過期"
     },
     {
       "_": "types.LangPackString",
@@ -6685,13 +7085,33 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ErrorScheduleDateInvalid",
+      "value": "提供的預約日期無效"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ErrorSendRestrictedStickersAll",
       "value": "抱歉，在這個群組中不允許傳送貼圖"
     },
     {
       "_": "types.LangPackString",
+      "key": "ErrorServiceWorkerDisabled",
+      "value": "Service Worker 已停用。可能不支援串流媒體。請嘗試在不按住 <Shift> 鍵的情況下重新載入頁面"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ErrorSessionFresh",
       "value": "出於安全考慮，請等待 {time} 或改用較早登入的裝置"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorSessionTooFresh",
+      "value": "連線剛建立，請稍後再試"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorSlowmodeWaitX",
+      "value": "此聊天室已啟用慢速模式：您必須等待指定秒數後，才能向聊天室傳送另一則訊息。"
     },
     {
       "_": "types.LangPackString",
@@ -6730,8 +7150,23 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ErrorUserBannedInChannel",
+      "value": "您已被禁止在超級群組和頻道中傳送訊息"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorUserChannelsTooMuch",
+      "value": "您嘗試添加的用戶之一，目前已加入過多頻道或超級群組"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ErrorUserIsBlocked",
       "value": "您已被此用戶封鎖"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorUserKicked",
+      "value": "此用戶已被踢出此超級群組或頻道"
     },
     {
       "_": "types.LangPackString",
@@ -6742,6 +7177,16 @@
       "_": "types.LangPackString",
       "key": "ErrorUserPrivacyRestricted",
       "value": "該用戶的隱私權設定不允許您執行此操作"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorUsersTooMuch",
+      "value": "用戶數已超過上限"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorWallpaperDimensionsInvalid",
+      "value": "背景尺寸無效，請選擇其他檔案"
     },
     {
       "_": "types.LangPackString",
@@ -6795,8 +7240,23 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ExpiredStoryMentioned",
+      "value": "您提及 {user} 的動態無法再訪問。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ExpiredViewsStub",
+      "value": "動態到期 **24 小時**後將無法查看訪客名單。"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "FactCheck",
       "value": "事實查核"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "FactCheckFooter",
+      "value": "此澄清由您所在國家（{country}）政府負責打擊不實資訊的部門所指派的查證機構提供。"
     },
     {
       "_": "types.LangPackString",
@@ -6912,6 +7372,11 @@
       "_": "types.LangPackString",
       "key": "FilterDeleteAlert",
       "value": "您確定要移除此資料夾？您的聊天室不會被刪除。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "FilterDeleteAlertLinks",
+      "value": "您確定要刪除此資料夾？這也將停用為分享此資料夾而建立的所有邀請連結。"
     },
     {
       "_": "types.LangPackString",
@@ -7035,6 +7500,16 @@
     },
     {
       "_": "types.LangPackStringPluralized",
+      "key": "FolderLinkHeaderChatsJoin",
+      "other_value": "將加入的 {count} 個聊天室"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "FolderLinkHeaderChatsQuit",
+      "other_value": "將退出 {count} 個聊天室"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
       "key": "FolderLinkNotificationAddedSubtitle",
       "other_value": "您同時也加入了 {count} 個聊天室。"
     },
@@ -7117,6 +7592,11 @@
       "_": "types.LangPackString",
       "key": "FolderLinkSubtitleNew",
       "value": "您要新增資料夾並加入其包含的群組和頻道嗎？"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "FolderLinkSubtitleRemove",
+      "value": "您同時也想退出此資料夾中包含的聊天室嗎？"
     },
     {
       "_": "types.LangPackString",
@@ -7365,6 +7845,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ForwardToAnotherChat",
+      "value": "轉傳至另一個聊天室"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ForwardedFrom",
       "value": "轉傳自"
     },
@@ -7375,8 +7860,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "FragmentPhoneMessage",
+      "value": "此電話號碼於 {date} 在 **Fragment** 上以 **{amount}** 購買 {details}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "FragmentPhoneTitle",
+      "value": "**{phone}** 是一個典藏電話號碼，屬於"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "FragmentUsernameMessage",
+      "value": "此用戶名稱於 {date} 在 **Fragment** 上以 **{amount}** 購買 {details}"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "FragmentUsernameOpen",
       "value": "了解更多"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "FragmentUsernameTitle",
+      "value": "**{username}** 是一個典藏用戶名，屬於"
     },
     {
       "_": "types.LangPackString",
@@ -8465,6 +8970,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "GiftPremiumFeaturesTerms",
+      "value": "您可以在{link}查看 Telegram Premium 的功能清單和更多詳細資訊。"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "GiftPremiumFeaturesTermsLink",
       "value": "此處"
     },
@@ -8632,6 +9142,11 @@
       "_": "types.LangPackString",
       "key": "GiftStarsTitle",
       "value": "贈送星星"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftTelegramPremiumOrStarsTitle",
+      "value": "贈送 Premium 或星星"
     },
     {
       "_": "types.LangPackString",
@@ -8824,6 +9339,16 @@
       "other_value": "您最多可以選擇 {count} 個國家。"
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "key": "GiveawayReceiverTypeCountries",
+      "other_value": "來自 {count} 個國家"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "GiveawayStarsPrepaidDesc",
+      "other_value": "給 {count} 位用戶"
+    },
+    {
       "_": "types.LangPackString",
       "key": "GiveawayStarsPrepaidTitle",
       "value": "{count} Telegram Stars"
@@ -8895,6 +9420,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "GroupBoostBoostToUnrestrict",
+      "value": "助推群組 **{boostTimes} 次**以移除訊息限制。您的助推將有助於 **{chat}** 解鎖新功能。"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "GroupBoostBoostToUnrestrictTimes",
+      "other_value": "**{count}** 次"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "GroupCallContextPinCamera",
       "value": "置頂視訊"
     },
@@ -8922,6 +9457,11 @@
       "_": "types.LangPackString",
       "key": "GroupEmoji",
       "value": "群組表情符號"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GroupErrorAccessDenied",
+      "value": "抱歉，這是私人群組。"
     },
     {
       "_": "types.LangPackString",
@@ -9164,6 +9704,11 @@
       "value": "十六進位"
     },
     {
+      "_": "types.LangPackString",
+      "key": "HashtagSearchPlaceholder",
+      "value": "輸入一個主題標籤並搜尋包含此標籤的訊息。"
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "key": "HeaderDescriptionResaleGifts",
       "other_value": "{count} 件在售"
@@ -9217,6 +9762,11 @@
       "_": "types.LangPackString",
       "key": "HideReadTime",
       "value": "隱藏已讀時間"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "HideReadTimeInfo",
+      "value": "對不能看到您最後上線時間的用戶隱藏您的已讀時間。如果您開啟此功能，他們的已讀時間也會對您隱藏。 \n此設定不影響群聊。"
     },
     {
       "_": "types.LangPackString",
@@ -9295,6 +9845,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "InstalledStickersDynamicPackOrderInfo",
+      "value": "最近使用的貼圖包將顯示在其他貼圖包之上。"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "InstantView",
       "value": "即時瀏覽"
     },
@@ -9326,7 +9881,7 @@
     {
       "_": "types.LangPackString",
       "key": "InviteBlockedPremiumButton",
-      "value": "訂閲 Telegram Premium"
+      "value": "訂閱 Telegram Premium"
     },
     {
       "_": "types.LangPackString",
@@ -9690,6 +10245,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "LimitReachedFolderLinks",
+      "value": "您只能建立 **{limit}** 條連結。\n您可以透過訂閱 **Telegram Premium** 將上限增加到 **{limit2}**。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LimitReachedFolderLinksLocked",
+      "value": "您只能建立 **{limit}** 條邀請連結。我們正在努力讓您在未來增加此上限。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LimitReachedFolderLinksPremium",
+      "value": "您只能建立 {limit} 條邀請連結。嘗試刪除其中一些。"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "LimitReachedFolders",
       "value": "您已達到 **{limit}** 個資料夾的上限。您可以透過訂閱 **Telegram Premium** 將上限翻倍到 **{limit2}** 個資料夾。"
     },
@@ -9720,6 +10290,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "LimitReachedPinSavedDialogs",
+      "value": "抱歉，您不能置頂超過 {limit} 個話題。您可以取消一些目前的置頂，或是訂閱 **Telegram Premium** 以將上限提高到 **{limit2}** 個聊天。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LimitReachedPinnedTopics",
+      "value": "抱歉，您不能置頂超過 {limit} 個話題。"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "LimitReachedPublicLinks",
       "value": "您已擁有太多公開的連結。嘗試從較舊的群組或頻道撤銷連結，或訂閱 **Telegram Premium** 以將上限翻倍到 **{limit2}** 個公開連結。"
     },
@@ -9732,6 +10312,21 @@
       "_": "types.LangPackString",
       "key": "LimitReachedPublicLinksPremium",
       "value": "您已擁有太多公開的連結。試著撤掉一個舊群組或頻道的連結。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LimitReachedSharedFolders",
+      "value": "您只能有 {limit} 個可共享的資料夾。 \n升級到 **Telegram Premium** 以將此上限增加到 **{limit2}** 個。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LimitReachedSharedFoldersLocked",
+      "value": "您只能有 {limit} 個可共享的資料夾。我們正在努力讓您在未來增加此上限。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LimitReachedSharedFoldersPremium",
+      "value": "您最多只能有 {limit} 個可共享資料夾。請嘗試刪除一些可共享資料夾。"
     },
     {
       "_": "types.LangPackString",
@@ -9799,6 +10394,11 @@
       "value": "更新於 {date}"
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "key": "LiveLocationUpdatedHoursAgo",
+      "other_value": "更新於 {count} 小時前"
+    },
+    {
       "_": "types.LangPackString",
       "key": "LiveLocationUpdatedJustNow",
       "value": "剛剛更新"
@@ -9812,6 +10412,11 @@
       "_": "types.LangPackString",
       "key": "LiveLocationUpdatedTodayAt",
       "value": "在 {time} 更新  "
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LiveLocationUpdatedYesterdayAt",
+      "value": "更新於昨天 {time}"
     },
     {
       "_": "types.LangPackString",
@@ -10300,6 +10905,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "MessageContainsEmojiPack",
+      "value": "此訊息包含表情包 {pack} 的表情符號。"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "MessageContainsEmojiPacks",
+      "other_value": "此訊息包含來自 **{count} 個表情包**的表情符號。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MessageLockedPremium",
+      "value": "訂閱 **Premium** 以傳訊息給 **{peer}**。"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "MessageMetaApproximate",
       "value": "約"
     },
@@ -10337,6 +10957,11 @@
       "_": "types.LangPackString",
       "key": "MessagePreview",
       "value": "訊息預覽"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MessageReadAt",
+      "value": "已讀於 {date}"
     },
     {
       "_": "types.LangPackString",
@@ -10550,8 +11175,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "MonetizationIntroSplitText",
+      "value": "您可以獲得廣告收入的 50% 的等額 Gram 獎勵。"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "MonetizationOverview",
       "value": "收益總覽"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MonetizationProceedsTONInfo",
+      "value": "總餘額中的 TON 可在獲得 3 天後用於廣告或作為獎勵提取。"
     },
     {
       "_": "types.LangPackString",
@@ -10562,6 +11197,11 @@
       "_": "types.LangPackString",
       "key": "MonetizationWithdraw",
       "value": "透過 Fragment 提現"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MonetizationWithdrawErrorText",
+      "value": "僅在以下情況下才可進行提現：\n\n• 您的帳號已在 7 天前啟用兩步驟驗證。\n\n• 您已登入此裝置超過 24 小時。 \n\n請稍後再試。"
     },
     {
       "_": "types.LangPackString",
@@ -10655,8 +11295,23 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "MoreSimilarText",
+      "value": "訂閱 **Telegram Premium** 解鎖\n最多 {limit} 個相似頻道。"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "MuteForDays",
+      "other_value": "關閉通知 {count} 天"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "MuteForForever",
       "value": "永遠關閉"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "MuteForHours",
+      "other_value": "關閉通知 {count} 小時"
     },
     {
       "_": "types.LangPackString",
@@ -10965,6 +11620,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "NoResultFoundFor",
+      "value": "沒有找到「{query}」的結果。"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "NoSavingDescription",
       "value": "停用複製文字和將照片或影片儲存到相簿的功能。"
     },
@@ -11075,6 +11735,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "NotificationStarsGiftSentYou",
+      "value": "您為 {amount} 送出一份禮物"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "NotificationTitleNotSupportedInFrozenAccount",
       "value": "您的帳號已被凍結"
     },
@@ -11147,6 +11812,11 @@
       "_": "types.LangPackString",
       "key": "OnlyAcceptGramDescription",
       "value": "如果買家使用 Gram 付款，則不存在買家要求退款的風險，這是與星星付款的不同之處。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "OnlyAllowThisReactions",
+      "value": "僅允許這些反應"
     },
     {
       "_": "types.LangPackString",
@@ -11575,6 +12245,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PaymentCheckoutAcceptTerms",
+      "value": "我接受來自 {bot} 的 {link}。"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PaymentCheckoutMethod",
       "value": "支付方式"
     },
@@ -11602,6 +12277,11 @@
       "_": "types.LangPackString",
       "key": "PaymentCheckoutShippingMethod",
       "value": "配送方式"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PaymentConfirmationMessage",
+      "value": "您儲存了銀行卡 {cardName}。要將其用於付款，請輸入您的兩步驟驗證密碼。"
     },
     {
       "_": "types.LangPackString",
@@ -11667,6 +12347,11 @@
       "_": "types.LangPackString",
       "key": "PaymentInfoDone",
       "value": "進行結帳"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PaymentInfoHint",
+      "value": "您為 **{title}** 支付了 **{amount}**。"
     },
     {
       "_": "types.LangPackString",
@@ -12301,7 +12986,7 @@
     {
       "_": "types.LangPackString",
       "key": "PremiumLastSeenButton2",
-      "value": "訂閲 Telegram Premium"
+      "value": "訂閱 Telegram Premium"
     },
     {
       "_": "types.LangPackString",
@@ -12312,6 +12997,16 @@
       "_": "types.LangPackString",
       "key": "PremiumLastSeenSet",
       "value": "您的最後上線時間已設為可見。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PremiumLastSeenText1Locked",
+      "value": "如果要查看 **{user}** 最後上線時間，請先開始顯示您自己的最後上線時間。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PremiumLastSeenText2",
+      "value": "訂閱後您將可以看到 **{user}** 的最後上線時間 ，而無需顯示您的狀態。"
     },
     {
       "_": "types.LangPackString",
@@ -12347,6 +13042,11 @@
       "_": "types.LangPackString",
       "key": "PremiumNeeded",
       "value": "需要訂閲 Premium！"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PremiumNeededForBoosting",
+      "value": "只有 **Telegram Premium** 訂閱者可以助推頻道。您想訂閱 **Telegram Premium 嗎**？"
     },
     {
       "_": "types.LangPackString",
@@ -12400,8 +13100,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PremiumPreviewEmojiDescription",
+      "value": "在您傳送的任何訊息中包含來自不同表情包的動態表情符號。"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PremiumPreviewEmojiStatus",
       "value": "表情符號狀態"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PremiumPreviewEmojiStatusDescription",
+      "value": "在您的名稱旁添加數千種表情符號中的任意一種，以顯示目前狀態。"
     },
     {
       "_": "types.LangPackString",
@@ -12427,6 +13137,11 @@
       "_": "types.LangPackString",
       "key": "PremiumPreviewMessagePrivacy",
       "value": "訊息隱私"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PremiumPreviewMessagePrivacyDescription",
+      "value": "限制不認識的人向您傳送訊息。"
     },
     {
       "_": "types.LangPackString",
@@ -12465,6 +13180,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PremiumPreviewReactions2Description",
+      "value": "從數千個表情符號選擇要做出的反應——每則訊息可進行多次反應。"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PremiumPreviewReactionsDescription",
       "value": "額外的動態表情符號反應，只有 Premium 訂閱者可使用。"
     },
@@ -12487,6 +13207,16 @@
       "_": "types.LangPackString",
       "key": "PremiumPreviewStickersDescription",
       "value": "具有額外特效的獨家放大貼圖，定期更新。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PremiumPreviewStories",
+      "value": "已升級的動態"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PremiumPreviewStoriesDescription",
+      "value": "優先順序、隱身模式、永久訪客名單及更多功能。"
     },
     {
       "_": "types.LangPackString",
@@ -12517,6 +13247,11 @@
       "_": "types.LangPackString",
       "key": "PremiumPreviewTranslations",
       "value": "即時翻譯"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PremiumPreviewTranslationsDescription",
+      "value": "將頻道和聊天内容即時翻譯成其他語言。"
     },
     {
       "_": "types.LangPackString",
@@ -12560,6 +13295,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PremiumReadText1",
+      "value": "如果要查看 **{user}** 何時已讀訊息，請先開始顯示您自己的已讀時間..."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PremiumReadText2",
+      "value": "訂閱後您將可以看到 **{user}** 的已讀時間，而無需顯示您自己的已讀時間。"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PremiumStickerTooltip",
       "value": "這個貼圖包有像這樣的優質貼圖。"
     },
@@ -12567,6 +13312,21 @@
       "_": "types.LangPackString",
       "key": "PremiumStoriesAboutMobile",
       "value": "* 從 iOS 和 Android 版 Telegram 應用程式發表動態時適用。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PremiumStoriesCaptionDescription",
+      "value": "為您的動態加入十倍長的説明文字——最多 2048 個符號。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PremiumStoriesExpirationDescription",
+      "value": "為您的動態設定持續時長，例如 6 或 48 小時。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PremiumStoriesFormattingDescription",
+      "value": "在動態説明文字中添加連結和格式。"
     },
     {
       "_": "types.LangPackString",
@@ -12582,6 +13342,11 @@
       "_": "types.LangPackString",
       "key": "PremiumStoriesSaveToGallery",
       "value": "儲存動態到相簿"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PremiumStoriesSaveToGalleryDescription",
+      "value": "儲存其他用戶未受保護的動態到您的相簿。"
     },
     {
       "_": "types.LangPackString",
@@ -12761,7 +13526,7 @@
     {
       "_": "types.LangPackString",
       "key": "PrivacyGiftPremiumSubscription",
-      "value": "Premium 訂閲"
+      "value": "Premium 訂閱"
     },
     {
       "_": "types.LangPackString",
@@ -12796,12 +13561,12 @@
     {
       "_": "types.LangPackString",
       "key": "PrivacyLastSeenPremium",
-      "value": "訂閲 Telegram Premium"
+      "value": "訂閱 Telegram Premium"
     },
     {
       "_": "types.LangPackString",
       "key": "PrivacyLastSeenPremiumForPremium",
-      "value": "訂閲 Telegram Premium"
+      "value": "訂閱 Telegram Premium"
     },
     {
       "_": "types.LangPackString",
@@ -12895,8 +13660,23 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PrivacyProfilePhotoPublicPhotoInfo",
+      "value": "您可以為無權查看您真實大頭貼的用戶上傳公開大頭貼。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PrivacyProfilePhotoPublicPhotoSuccess",
+      "value": "這張大頭貼將顯示給無法查看您真實大頭貼的用戶。"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PrivacyProfilePhotoRemovePublicPhoto",
       "value": "移除公開大頭貼"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PrivacyProfilePhotoRemovePublicVideo",
+      "value": "刪除公開影片"
     },
     {
       "_": "types.LangPackString",
@@ -12912,6 +13692,11 @@
       "_": "types.LangPackString",
       "key": "PrivacyProfilePhotoUpdatePublicPhoto",
       "value": "更新公開大頭貼"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PrivacyResetPhotoConfirm",
+      "value": "您確定要刪除您的公開大頭貼嗎？"
     },
     {
       "_": "types.LangPackString",
@@ -12952,6 +13737,16 @@
       "_": "types.LangPackString",
       "key": "PrivacyVoiceMessages",
       "value": "語音訊息"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PrivacyVoiceMessagesInfo",
+      "value": "您可以精確限制誰可以傳給您語音訊息。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PrivacyVoiceMessagesTitle",
+      "value": "誰可以傳給我語音訊息？"
     },
     {
       "_": "types.LangPackString",
@@ -13206,12 +14001,17 @@
     {
       "_": "types.LangPackString",
       "key": "PublicPostsSubscribeToPremium",
-      "value": "訂閲 Premium"
+      "value": "訂閱 Premium"
     },
     {
       "_": "types.LangPackString",
       "key": "PublishNow",
       "value": "立即發布"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PushReactText",
+      "value": "對您的「{summary}」作出{emoji}"
     },
     {
       "_": "types.LangPackString",
@@ -13237,6 +14037,11 @@
       "_": "types.LangPackString",
       "key": "QuizPoll",
       "value": "記名測驗"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QuotePrivate",
+      "value": "這段引用來自私聊。"
     },
     {
       "_": "types.LangPackString",
@@ -13575,6 +14380,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ReplyToQuote",
+      "value": "回覆以引用 {senderTitle}"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Report2Comment",
       "value": "寫則評論"
     },
@@ -13870,6 +14680,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "RevenueSharingAdsInfo1Subtitle",
+      "value": "Telegram 上的廣告不會使用您的個人資訊，且會根據您所瀏覽的頻道進行投放。"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "RevenueSharingAdsInfo1Title",
       "value": "尊重您的隱私"
     },
@@ -13885,8 +14700,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "RevenueSharingAdsInfo3Subtitle",
+      "value": "您可以透過訂閱 **Telegram Premium** 關閉廣告，並且 {level} 級頻道管理員可以為其訂閱者移除廣告。"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "RevenueSharingAdsInfo3Title",
       "value": "可以移除"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RevenueSharingAdsInfo4Subtitle2",
+      "value": "任何人都可以創建廣告並在此機器人中展示——只需最少的預算。請查看 **Telegram 廣告平台**了解詳情。 {details}"
     },
     {
       "_": "types.LangPackString",
@@ -14351,7 +15176,7 @@
     {
       "_": "types.LangPackString",
       "key": "RichFormattingSubscribe",
-      "value": "訂閲 Premium"
+      "value": "訂閱 Premium"
     },
     {
       "_": "types.LangPackString",
@@ -14412,6 +15237,11 @@
       "_": "types.LangPackString",
       "key": "SaveLink",
       "value": "儲存連結"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SaveToPosts",
+      "value": "儲存到動態"
     },
     {
       "_": "types.LangPackString",
@@ -14744,6 +15574,11 @@
       "value": "您的兩步驟驗證密碼上次變更時間超過 **7 天**。"
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "key": "SeenByUsers",
+      "other_value": "{count} 位用戶已看過"
+    },
+    {
       "_": "types.LangPackString",
       "key": "SelectChat",
       "value": "選擇聊天室"
@@ -14756,7 +15591,7 @@
     {
       "_": "types.LangPackString",
       "key": "SelectSendAsPeerPremiumHint",
-      "value": "訂閲 **Telegram Premium** 可以讓您在任何群聊中以頻道身分發言！"
+      "value": "訂閱 **Telegram Premium** 可以讓您在任何群聊中以頻道身分發言！"
     },
     {
       "_": "types.LangPackString",
@@ -14930,6 +15765,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ServerErrorViewers",
+      "value": "未能保留訪客紀錄。"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ServiceNotifications",
       "value": "服務通知"
     },
@@ -15022,6 +15862,16 @@
       "_": "types.LangPackString",
       "key": "SetReminder",
       "value": "設定提醒"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "SetTimeoutForDays",
+      "other_value": "狀態持續 {count} 天"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "SetTimeoutForHours",
+      "other_value": "狀態持續 {count} 小時"
     },
     {
       "_": "types.LangPackString",
@@ -15440,6 +16290,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "SettingsStartWave",
+      "value": "開始傳送訊息"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "SettingsStickersDesc",
       "value": "貼圖、表情符號、表情符號反應"
     },
@@ -15467,6 +16322,11 @@
       "_": "types.LangPackString",
       "key": "SettingsTitleChatName",
       "value": "顯示聊天名稱"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SettingsVaporizeButton",
+      "value": "移除此按鈕"
     },
     {
       "_": "types.LangPackString",
@@ -15844,6 +16704,11 @@
       "value": "已獲得星星！"
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "key": "StarsAcquiredInfo",
+      "other_value": "**{count}** 顆星星已添加至您的餘額。"
+    },
+    {
       "_": "types.LangPackString",
       "key": "StarsAmount",
       "value": "⭐️{amount}"
@@ -15980,8 +16845,23 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "StarsNeededText",
+      "value": "購買**星星**並在 **{user}** 和其他迷你程式上使用它們。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsNeededTextGift",
+      "value": "購買**星星**以將禮物送給 **{peer}** 和其他聯絡人。"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "StarsNeededTextLink",
       "value": "購買**星星**以保持您的頻道訂閱。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsNeededTextReactions",
+      "value": "購買**星星**以送出付費反應給 **{chat}** 和其他頻道。"
     },
     {
       "_": "types.LangPackString",
@@ -16050,6 +16930,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "StarsReactionText",
+      "value": "選擇您想要送出多少顆星星給 **{chat}** 以支持此貼文。"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "StarsReactionTitle",
       "value": "星星反應"
     },
@@ -16115,8 +17000,13 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "StarsSubscriptionBotCancelledText",
+      "value": "機器人已取消您的訂閱。"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "StarsSubscriptionBotProduct",
-      "value": "訂閲"
+      "value": "訂閱"
     },
     {
       "_": "types.LangPackString",
@@ -16144,6 +17034,11 @@
       "value": "訂閱成功！"
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "key": "StarsSubscriptionCompletedText",
+      "other_value": "{amount} 顆星星已轉移至 **{channel}**。"
+    },
+    {
       "_": "types.LangPackString",
       "key": "StarsSubscriptionExpired",
       "value": "已於 {date} 到期"
@@ -16157,6 +17052,11 @@
       "_": "types.LangPackString",
       "key": "StarsSubscriptionExpires",
       "value": "將於 {date} 到期"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsSubscriptionRefulfillInfo",
+      "value": "您已離開頻道，但仍可在 {date} 之前返回。"
     },
     {
       "_": "types.LangPackString",
@@ -16230,6 +17130,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "StarsTransactionIDCopied",
+      "value": "交易 ID 已複製至剪貼簿"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "StarsTransactionId",
       "value": "交易 ID"
     },
@@ -16299,9 +17204,24 @@
       "value": "轉出"
     },
     {
+      "_": "types.LangPackString",
+      "key": "StarsTransferInfo",
+      "value": "您想以 **{amount} **在**{bot}**上購買「**{title}**」嗎？"
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "key": "StarsTransferPhotos",
       "other_value": "{count} 張照片"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsTransferUnlockInfo",
+      "value": "您想以 **{amount}** 解鎖 **{chat}** 中的{media}嗎？"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "StarsTransferVideos",
+      "other_value": "{count} 個影片"
     },
     {
       "_": "types.LangPackString",
@@ -16595,6 +17515,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "StoryCloseFriendsHint",
+      "value": "**{user}** 將您加入了密友列表，因此您能看到這則動態。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryContactsHint",
+      "value": "只有 **{user}** 的聯絡人可以查看此動態。"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "StoryContextRemoveFromProfile",
       "value": "從資料頁中移除"
     },
@@ -16610,8 +17540,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "StoryHideFrom",
+      "value": "向 {user} 隱藏我的動態"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "StoryKeep",
       "value": "保留在我的資料頁"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "StoryKeepInfo",
+      "other_value": "即使此動態在 {count}後過期，仍將其保留在您的資料頁上。隱私設定將套用。"
     },
     {
       "_": "types.LangPackString",
@@ -16637,6 +17577,11 @@
       "_": "types.LangPackString",
       "key": "StoryListSavedEmptyStateTitle",
       "value": "沒有已儲存的動態"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryMentionedTitle",
+      "value": "**{peer}** 在一則動態中提及了您。"
     },
     {
       "_": "types.LangPackString",
@@ -16729,6 +17674,21 @@
       "value": "所有人"
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "key": "StoryPrivacyOptionExcludePeople",
+      "other_value": "除 {count} 人外"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryPrivacyOptionExcludePerson",
+      "value": "除了 {user}"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "StoryPrivacyOptionPeople",
+      "other_value": "{count} 人"
+    },
+    {
       "_": "types.LangPackString",
       "key": "StoryPrivacyOptionSelectedContacts",
       "value": "選定的聯絡人"
@@ -16760,6 +17720,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "StorySelectedContactsHint",
+      "value": "只有 **{user}** 選定的部分聯絡人可以查看此動態。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StorySharedTo",
+      "value": "不要向 **{user}** 隱藏我的動態。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryShowBackTo",
+      "value": "不要向 {user} 隱藏我的動態"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "StoryStatistics",
       "value": "動態統計資料"
     },
@@ -16767,6 +17742,11 @@
       "_": "types.LangPackString",
       "key": "StoryToastRemovedFromProfileText",
       "value": "動態已從您的資料頁上移除"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryToastSavedToProfileText",
+      "value": "其他人可以查看您資料頁上已儲存的動態，直到您移除它們。"
     },
     {
       "_": "types.LangPackString",
@@ -16807,6 +17787,16 @@
       "_": "types.LangPackString",
       "key": "StoryViewListEmptyTextSearch",
       "value": "還沒人查看"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryViewListNotFullyRecorded",
+      "value": "未能保留訪客紀錄。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryYouMentionedTitle",
+      "value": "您在一則動態中提及了 {user}。"
     },
     {
       "_": "types.LangPackString",
@@ -17135,6 +18125,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "TelegramPremiumUserGiftedPremiumOutboundDialogSubtitle",
+      "value": "**{user}** 現在可以使用額外的功能了。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "TelegramPremiumUserStatusDialogSubtitle",
+      "value": "用表情符號表達個人狀態是一項 Premium 版的功能。**Telegram Premium** 還包含其他功能："
+    },
+    {
+      "_": "types.LangPackString",
       "key": "TelegramStars",
       "value": "Telegram 星星"
     },
@@ -17370,6 +18370,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "TranslateToButton",
+      "value": "翻譯成{language}"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "TranslationTone",
       "value": "翻譯語氣"
     },
@@ -17402,6 +18407,11 @@
       "_": "types.LangPackString",
       "key": "TurnPasswordOff",
       "value": "關閉密碼"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "TwoStepAuthConfirmEmailDescription",
+      "value": "請輸入我們剛傳送到 {recoveryEmail} 的驗證碼。"
     },
     {
       "_": "types.LangPackString",
@@ -17559,6 +18569,11 @@
       "value": "顯示更多 APP"
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "key": "UnlockPaidContent",
+      "other_value": "花 ⭐️{count} 解鎖"
+    },
+    {
       "_": "types.LangPackString",
       "key": "UnlockPremiumEmojiHint",
       "value": "訂閱 **Telegram Premium** 以解鎖此表情符號。"
@@ -17610,6 +18625,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "UpgradedStories",
+      "value": "已升級的動態"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "UploadImage",
       "value": "上傳圖片"
     },
@@ -17617,6 +18637,11 @@
       "_": "types.LangPackString",
       "key": "UploadSpeedLimited",
       "value": "上傳速度受限"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UploadSpeedLimitedMessage",
+      "value": "訂閱 **Telegram Premium** 以將上傳速度提高 {factor} 倍。"
     },
     {
       "_": "types.LangPackString",
@@ -17685,6 +18710,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "UserInfoCustomPhotoInfo",
+      "value": "您可以用另一張只有您能看到的照片替換 {user} 的大頭貼。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UserInfoCustomVideo",
+      "value": "您設定的影片"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "UserInfoFirstNamePlaceholder",
       "value": "名字"
     },
@@ -17720,8 +18755,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "UserInfoResetToOriginalAlertText",
+      "value": "您確定要將 {user} 的照片重設為原始大頭貼嗎？"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "UserInfoSetCustomPhoto",
       "value": "為 {user} 設定大頭貼"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UserInfoSetCustomPhotoSuccessPhotoText",
+      "value": "您現在將總是看到 **{user}** 的這張大頭貼。"
     },
     {
       "_": "types.LangPackString",
@@ -17767,6 +18812,11 @@
       "_": "types.LangPackString",
       "key": "UserRestrictionsCanDo",
       "value": "這個用戶可以做什麼？"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "UserRestrictionsCanDoUsers",
+      "other_value": "選定的 {count} 位用戶可以做什麽？"
     },
     {
       "_": "types.LangPackString",
@@ -17827,6 +18877,11 @@
       "_": "types.LangPackString",
       "key": "UserRestrictionsNoSendPolls",
       "value": "禁傳投票活動"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UserRestrictionsNoSendRound",
+      "value": "禁傳視訊訊息"
     },
     {
       "_": "types.LangPackString",
@@ -18037,6 +19092,11 @@
       "_": "types.LangPackString",
       "key": "ValueGiftSortByPrice",
       "value": "價格"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VerifyChatInfo",
+      "value": "此聊天室用於接收來自第三方服務的驗證碼。"
     },
     {
       "_": "types.LangPackString",
@@ -19845,6 +20905,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WebAppAddToAttachmentAllowMessages",
+      "value": "允許 **{user}** 向我傳送訊息"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WebAppAddToAttachmentUnavailableError",
       "value": "此機器人無法被加入到附件選單。"
     },
@@ -19867,6 +20932,11 @@
       "_": "types.LangPackString",
       "key": "WebAppShareMessageInfo",
       "value": "{user} 允許您將此訊息傳送到您選擇的聊天室。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WebBotAccountDesclaimerDesc",
+      "value": "**{bot}** 捷徑將新增至您的附件選單和設定中。"
     },
     {
       "_": "types.LangPackString",
@@ -19954,5 +21024,5 @@
       "value": "您的姓名"
     }
   ],
-  "version": 356967
+  "version": 358286
 }
