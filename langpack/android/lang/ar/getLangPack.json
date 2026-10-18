@@ -16390,8 +16390,23 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "CreateManagedBotUsernameBotLimit",
+      "value": "هذا البوت لديه بالفعل اسم مستخدم مميز. قم بإزالته قبل إضافة اسم مستخدم آخر."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateManagedBotUsernameCheckFailed",
+      "value": "تعذر التحقق من اسم المستخدم هذا. يرجى المحاولة مرة أخرى."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "CreateManagedBotUsernameInfo",
       "value": "انقر لتعديل معرّف البوت."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateManagedBotUsernameSuffixMissing",
+      "value": "يجب أن ينتهي اسم المستخدم بـ ⁨%1$s⁩."
     },
     {
       "_": "types.LangPackString",
@@ -23609,6 +23624,11 @@
       "value": "**⁨%d⁩ نجوم** هو متوسط سعر البيع للهدايا **⁨%s⁩**."
     },
     {
+      "_": "types.LangPackString",
+      "key": "Gift2BrowseCollectiblesInfo",
+      "value": "إظهار الهدايا في ملفك الشخصي. ترقية الإصدارات المحدودة إلى مقتنيات قابلة للتداول."
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "few_value": "بيعها مقابل ⁨%d⁩ نجوم",
       "key": "Gift2ButtonSell",
@@ -24265,6 +24285,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift2KeepOnProfile",
+      "value": "استمر في إظهار ذلك على ملفي الشخصي"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gift2LearnMoreText",
       "value": "السماح لـ ⁨%s⁩ بتحويل هذه الهدية إلى مقتنى رقمي فريد."
     },
@@ -24392,6 +24417,26 @@
       "_": "types.LangPackString",
       "key": "Gift2More",
       "value": "**المزيد عن النجوم**"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift2Move",
+      "value": "نقل"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift2MoveAppearIn",
+      "value": "ستظهر في"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift2MoveToMyWallet",
+      "value": "نقل إلى محفظتي"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift2MoveToMyWalletText",
+      "value": "هل ترغب بنقل هذه الهدية إلى محفظة البلوك تشين الخاصة بك؟"
     },
     {
       "_": "types.LangPackString",
@@ -33700,6 +33745,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "NoPaidMessagesTokenImported",
+      "value": "يمكنك الآن مراسلة **⁨%1$s⁩** مجاناً."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NoPaidMessagesTokenUsed",
+      "value": "استخدم ⁨un1⁩ رمز الاستجابة السريعة الخاص بك ويمكنه مراسلتك مجانًا"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NoPaidMessagesTokenUsedOut",
+      "value": "لقد استخدمت رمز الاستجابة السريعة الخاص بـ ⁨un1⁩ ويمكنك مراسلتهم مجاناً"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "NoPhoneFound",
       "value": "لا يوجد حساب تيليجرام برقم الهاتف هذا."
     },
@@ -42270,8 +42330,173 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "QrBrowseGifts",
+      "value": "تصفح الهدايا"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrChatNoCollectibles",
+      "value": "لا توجد هدايا مقتنى رقمي هنا حتى الآن."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "QrCode",
       "value": "رمز QR"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrCollectibles",
+      "value": "المقتنيات الرقمية"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrCreatingLink",
+      "value": "جارٍ إنشاء الرابط…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrEmojiPresets",
+      "value": "الإعدادات المسبقة"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrGift",
+      "value": "الهدية"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrLoadingGifts",
+      "value": "جارٍ تحميل الهدايا…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrNoCollectibles",
+      "value": "ليس لديك هدايا مقتنى رقمي حتى الآن."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrNoGiftsInfo",
+      "value": "استخدم أي هدية مقتنى رقمي تملكها\nلتصميم رمز الاستجابة السريعة الخاص بك."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrNoGiftsTitle",
+      "value": "لا توجد هدايا حتى الآن"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrNoPaidExpiresIn",
+      "value": "تنتهي صلاحيتها خلال ⁨%1$s⁩"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrNoPaidFree",
+      "value": "مجاناً"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrNoPaidMenuDisableTimer",
+      "value": "تعطيل المؤقت"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrNoPaidMenuDisableTimerInfo",
+      "value": "يظل مجانيًا، دون حد زمني"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrNoPaidMenuEnableTimer",
+      "value": "تفعيل المؤقت"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrNoPaidMenuEnableTimerInfo",
+      "value": "ينتهي خلال دقيقة واحدة"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrNoPaidMenuReset",
+      "value": "إعادة ضبط الرمز"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrNoPaidMenuRestoreFee",
+      "value": "استعادة رسوم الرسالة"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrNoPaidNoTimeLimit",
+      "value": "لا يوجد حد زمني"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrNoPaidRemoveFee",
+      "value": "إلغاء رسوم الرسالة"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrNoPaidRemoveStarsFee",
+      "value": "إزالة رسوم ★ ⁨%1$s⁩"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrNoPaidToastExpired",
+      "value": "انتهت صلاحية الرمز، وعادت الرسوم."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrNoPaidToastExpires",
+      "value": "سينتهي صلاحية هذا الرمز خلال دقيقة واحدة."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrNoPaidToastFeeRestored",
+      "value": "تم استعادة رسوم الرسائل"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrNoPaidToastNewCode",
+      "value": "تم إنشاء رمز جديد"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrNoPaidToastNoTimeLimit",
+      "value": "الكود يبقى مجانيًا، بدون حد زمني"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrPremiumEmojiToast",
+      "value": "اشتراك في المميزة لاستخدام جميع الرموز التعبيرية."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrPremiumGiftsToast",
+      "value": "اشترك في المميزة لاستخدام\nالهدايا الموجودة في رمز الاستجابة السريعة الخاص بك."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrPremiumSubscribe",
+      "value": "اشترك"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrProfileColors",
+      "value": "ألوان الملف الشخصي"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrSavedToGallery",
+      "value": "تم حفظ رمز الاستجابة السريعة في المعرض"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrScanQr",
+      "value": "مسح رمز الاستجابة السريعة (QR)"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrThemePremiumOnly",
+      "value": "تتطلب الرموز التعبيرية والهدايا اشتراك في المميز"
     },
     {
       "_": "types.LangPackString",
@@ -59720,6 +59945,51 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletGiftAddToCard",
+      "value": "إضافة إلى البطاقة"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletGiftApplyColor",
+      "value": "تطبيق اللون"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletGiftColorOnly",
+      "value": "لا يمكن استخدام سوى ⁨%1$s⁩ و ⁨%2$s⁩ لتغيير لون بطاقتك."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletGiftColorOnlyOne",
+      "value": "لا يمكن استخدام سوى الرمز ⁨%1$s⁩ لتغيير لون بطاقتك."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletGiftDragHere",
+      "value": "اسحب هذا المقتنى الرقمي إلى هنا."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletGiftDragHint",
+      "value": "اسحب هذا المقتنى الرقمي إلى بطاقتك لتزيينها."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletGiftOnCard",
+      "value": "على البطاقة"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletGiftRemoveColor",
+      "value": "إزالة اللون"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletGiftRemoveFromCard",
+      "value": "إزالة من البطاقة"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletGotIt",
       "value": "فهمت"
     },
@@ -59970,6 +60240,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletProfileOwnsNoGrams",
+      "value": "⁨%1$s⁩ لا يمتلك أي جرام حتى الآن."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletProtectAccount",
       "value": "حماية حسابك"
     },
@@ -60052,6 +60327,11 @@
       "_": "types.LangPackString",
       "key": "WalletScanQRCode",
       "value": "امسح رمز الاستجابة السريعة"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSearchGifts",
+      "value": "بحث عن الهدايا"
     },
     {
       "_": "types.LangPackString",
@@ -61484,5 +61764,5 @@
       "value": "جواز تيليجرام"
     }
   ],
-  "version": 61340290
+  "version": 61368046
 }
