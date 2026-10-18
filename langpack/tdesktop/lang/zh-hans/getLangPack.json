@@ -1749,6 +1749,46 @@
       "value": "{from} 刚开始为其会员赠送 Telegram 高级版订阅的抽奖活动。"
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_action_gram_transfer_amount",
+      "other_value": "{amount} Gram"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gram_transfer_amount_fiat",
+      "value": "{amount}（{fiat}）"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gram_transfer_received",
+      "value": "{user} 向您转账 {amount}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gram_transfer_received_tag",
+      "value": "已收到"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gram_transfer_received_unknown",
+      "value": "您已收到 {amount}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gram_transfer_sent",
+      "value": "您已转给 {user} {amount}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gram_transfer_sent_tag",
+      "value": "已发送"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_action_gram_transfer_ticker",
+      "other_value": "Gram"
+    },
+    {
       "_": "types.LangPackString",
       "key": "lng_action_group_call_finished",
       "value": "直播已终止 ({duration})"
@@ -8116,7 +8156,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_channel_earn_history_out_button",
-      "value": "在区块链检索器中查看"
+      "value": "在浏览器中查看"
     },
     {
       "_": "types.LangPackString",
@@ -35070,8 +35110,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_settings_passcode_lock_app",
+      "value": "用锁定码锁定 Telegram"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_settings_passcode_title",
       "value": "本机锁定码"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_settings_passcode_wallet_about",
+      "value": "此锁定码用于保护储存在本设备上的钱包密钥。"
     },
     {
       "_": "types.LangPackString",
@@ -36437,6 +36487,11 @@
       "_": "types.LangPackString",
       "key": "lng_shortcuts_silent_send",
       "value": "静音发送"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_shortcuts_stash_message",
+      "value": "暂存或恢复消息"
     },
     {
       "_": "types.LangPackString",
@@ -41436,7 +41491,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_view_button_style",
-      "value": "查看样式"
+      "value": "查看风格"
     },
     {
       "_": "types.LangPackString",
@@ -41492,6 +41547,76 @@
       "_": "types.LangPackString",
       "key": "lng_voice_speed_very_fast",
       "value": "非常快"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_cancel_title",
+      "value": "是否保留备份？"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_chip_number",
+      "value": "典藏号码"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_address",
+      "value": "地址"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_date",
+      "value": "日期"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_fee",
+      "value": "费用"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_fee_free",
+      "value": "免费（由 Telegram 支付）"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_open_wallet",
+      "value": "打开 “我的钱包”"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_recipient",
+      "value": "接收方"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_sender",
+      "value": "发送方"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_title",
+      "value": "交易"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_how_menu",
+      "value": "什么是钱包？"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_open_confirm",
+      "value": "仍然保存"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_user_wallet_about",
+      "value": "此 TON 区块链地址已关联到 Telegram 上的 {name}。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_user_wallet_title",
+      "value": "{name} 的钱包"
     },
     {
       "_": "types.LangPackString",
@@ -41566,7 +41691,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_welcome_messages_preview_about",
-      "value": "新成员加入时将看到此消息"
+      "value": "新成员加入时将看到这些消息"
     },
     {
       "_": "types.LangPackString",
@@ -41624,5 +41749,5 @@
       "other_value": "您支付了 {count} 颗星星。"
     }
   ],
-  "version": 5910574
+  "version": 5955214
 }
