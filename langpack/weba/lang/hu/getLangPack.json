@@ -199,6 +199,18 @@
       "value": "Felhasználó"
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "key": "ActionGameScore",
+      "one_value": "{from} {count} pontot ért el a(z) {game} játékban",
+      "other_value": "{from} {count} pontot ért el a(z) {game} játékban"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "ActionGameScoreNoGame",
+      "one_value": "{from} pontszáma: {count}",
+      "other_value": "{from} pontszáma: {count}"
+    },
+    {
       "_": "types.LangPackString",
       "key": "ActionGiftPremiumDuration",
       "value": "{duration} Prémium"
@@ -317,6 +329,21 @@
       "_": "types.LangPackString",
       "key": "ActionPaymentDone",
       "value": "{amount} sikeresen átutalva neki: {user}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ActionPaymentDoneFor",
+      "value": "Sikeresen átutaltál {amount} összeget {user} számára ezért: {invoice}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ActionPaymentInitRecurringFor",
+      "value": "Sikeresen átutaltál {amount} összeget {user} számára ehhez: {invoice} és engedélyezted a jövőbeli ismétlődő fizetéseket"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ActionPaymentUsedRecurring",
+      "value": "{amount} összeggel lettél megterhelve ismétlődő fizetéssel"
     },
     {
       "_": "types.LangPackString",
@@ -530,6 +557,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ActionSuggestedPhoto",
+      "value": "{user} azt javasolja, hogy használd ezt a Telegram profilképednek."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ActionSuggestedPhotoButton",
       "value": "Kép megtekintése"
     },
@@ -555,8 +587,23 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ActionTopicCreated",
+      "value": "\"{topic}\" téma létrehozva"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ActionTopicHiddenInside",
       "value": "Téma elrejtve"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ActionTopicIconChanged",
+      "value": "{from} megváltoztatta a {link} ikonját: {emoji}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ActionTopicIconRemoved",
+      "value": "{from} eltávolította a {link} ikonját"
     },
     {
       "_": "types.LangPackString",
@@ -627,6 +674,11 @@
       "_": "types.LangPackString",
       "key": "ActionWebappBotAllowed",
       "value": "Engedélyezted, hogy ez a bot üzenetet küldjön neked a web-alkalmazásban"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ActionWebviewDataDone",
+      "value": "A \"{text}\" gomb adatai átkerültek a bothoz."
     },
     {
       "_": "types.LangPackString",
@@ -1220,8 +1272,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "BoostingGiveawayNotEligibleCountry",
+      "value": "Nem vehetsz részt ebben a nyereményjátékban, mert az országod nem szerepel a nyereményjáték részvételi feltételei között."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Bot",
       "value": "bot"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotCloseWarning",
+      "value": "Előfordulhat, hogy az elvégzett módosítások nem kerülnek mentésre."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotCloseWarningSure",
+      "value": "Bezárás mindenképp"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotCloseWarningTitle",
+      "value": "Figyelmeztetés"
     },
     {
       "_": "types.LangPackString",
@@ -1317,6 +1389,11 @@
       "_": "types.LangPackString",
       "key": "BotStart",
       "value": "Indítás"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotStop",
+      "value": "Bot letiltása"
     },
     {
       "_": "types.LangPackString",
@@ -1751,6 +1828,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ChannelReactionsMaxCountInfo",
+      "value": "Korlátozza a különböző reakciók számát, amelyek egy bejegyzéshez hozzáadhatók, beleértve a már közzétett reakciókat is."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ChannelSendMessage",
       "value": "Közvetlen üzenetek"
     },
@@ -1786,6 +1868,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ChannelSignProfilesInfo",
+      "value": "Add hozzá az adminok nevét és fényképét az általuk közzétett üzenetekhez, a profiljukra való hivatkozással."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ChannelStatsGraphFollowers",
       "value": "KÖVETŐK"
     },
@@ -1816,6 +1903,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ChannelStatsGraphReactions",
+      "value": "REAKCIÓK EMOTIKONOK ÁLTAL"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChannelStatsGraphStoriesReactions",
+      "value": "TÖRTÉNET REAKCIÓK"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ChannelStatsGraphViewsByHours",
       "value": "ÓRÁK SZERINTI NÉZET (UTC)"
     },
@@ -1836,13 +1933,38 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ChannelStatsOverviewReactionsPerPost",
+      "value": "Reakciók bejegyzésenként"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChannelStatsOverviewReactionsPerStory",
+      "value": "Reakciók történetenként"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ChannelStatsOverviewSharesPerPost",
       "value": "Megosztások üzenetenként"
     },
     {
       "_": "types.LangPackString",
+      "key": "ChannelStatsOverviewSharesPerStory",
+      "value": "Megosztások történetenként"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChannelStatsOverviewViews",
+      "value": "Megtekintések"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ChannelStatsOverviewViewsPerPost",
       "value": "Nézettség bejegyzésenként"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChannelStatsOverviewViewsPerStory",
+      "value": "Megtekintések történetenként"
     },
     {
       "_": "types.LangPackString",
@@ -2105,6 +2227,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ChatTranslateMenuTo",
+      "value": "Másik nyelv választása"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ChatTypeChannel",
       "value": "Csatorna"
     },
@@ -2128,6 +2255,11 @@
       "key": "ChatUnpinAllMessagesConfirmation",
       "one_value": "Fel akarod oldani az üzenet rögzítését?",
       "other_value": "Fel akarod oldani {count} üzenet rögzítését?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatVoiceSingleDeleteAndClose",
+      "value": "Törlés és bezárás"
     },
     {
       "_": "types.LangPackString",
@@ -2374,6 +2506,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ContextArchiveToList",
+      "value": "Mozgatás a csevegési listára"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ContextArchiveToMenu",
       "value": "Mozgatás a főmenübe"
     },
@@ -2600,6 +2737,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "CustomEmojiUsedSets",
+      "value": "Használt emoji-készletek"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "CustomHelp",
       "value": "Hacsak nem vagy Prémium előfizető, nem fogod látni az Utoljára aktív vagy az Elérhető státuszokat azoknál az embereknél, akikkel nem osztod meg a sajátjaidat. Helyette hozzávetőleges időpontok jelennek meg (nemrég, egy héten belül, egy hónapon belül)."
     },
@@ -2720,6 +2862,11 @@
       "_": "types.LangPackString",
       "key": "DeleteThisChat",
       "value": "Csevegés törlése"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Deleted",
+      "value": "Törölve"
     },
     {
       "_": "types.LangPackString",
@@ -3068,6 +3215,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "EmojiPremiumRestore",
+      "value": "Visszaállítás"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "EmptyChatAppearanceDark",
       "value": "Sötét"
     },
@@ -3130,6 +3282,11 @@
       "_": "types.LangPackString",
       "key": "EnterNewPasscode",
       "value": "Új jelkód megadása"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EnterPassword",
+      "value": "Jelszó"
     },
     {
       "_": "types.LangPackString",
@@ -3580,6 +3737,51 @@
       "_": "types.LangPackString",
       "key": "FormattingUnderlineAria",
       "value": "Aláhúzás"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ForumCreateTopic",
+      "value": "Téma létrehozása"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ForumNoMessages",
+      "value": "Nincsenek üzenetek"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ForumRepliesOnly",
+      "value": "A témákban lévő üzenetekre válaszolhatsz."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ForumTopicClose",
+      "value": "Téma lezárása"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ForumTopicDeleteSure",
+      "value": "Biztos, hogy törölni akarod ezt a témát?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ForumTopicEdit",
+      "value": "Téma szerkesztése"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ForumTopicReopen",
+      "value": "Téma újranyitása"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ForumTopicTitle",
+      "value": "Téma neve"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ForumViewAsMessages",
+      "value": "Csevegés nézet"
     },
     {
       "_": "types.LangPackString",
@@ -4375,6 +4577,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "GlobalSearch",
+      "value": "Globális keresés"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "GraphZoomOut",
       "value": "Kicsinyítés"
     },
@@ -4382,6 +4589,21 @@
       "_": "types.LangPackString",
       "key": "GroupAddMembers",
       "value": "Tagok hozzáadása"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GroupCallContextPinCamera",
+      "value": "Videó kitűzése"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GroupCallContextUnpinCamera",
+      "value": "Videó feloldása"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GroupCallScreenShareStop",
+      "value": "Megosztás leállítása"
     },
     {
       "_": "types.LangPackString",
@@ -4413,6 +4635,11 @@
       "key": "GroupInfoParticipantCount",
       "one_value": "1 tag",
       "other_value": "{count} tag"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GroupInviteBadLink",
+      "value": "A meghívó link hibás vagy lejárt."
     },
     {
       "_": "types.LangPackString",
@@ -4558,8 +4785,33 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "InfoUserTitle",
+      "value": "Felhasználói profil"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "InputAttachPopoverMusic",
+      "value": "Hangfájl"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "InputTitleSuggestMessageTime",
       "value": "Közzététel ideje"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "InstalledStickersDynamicPackOrder",
+      "value": "Dinamikus csomagrendezés"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "InstantView",
+      "value": "GYORSNÉZET"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "InstantViewWrongLayout",
+      "value": "Helytelen elrendezés?"
     },
     {
       "_": "types.LangPackString",
@@ -4713,6 +4965,16 @@
       "_": "types.LangPackString",
       "key": "LaunchConfetti",
       "value": "Konfetti kilövése!"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LaunchExeDontAsk",
+      "value": "Ne kérdezd újra"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LaunchSvgWarning",
+      "value": "A fájl megnyitása feltárhatja az IP-címed a készítője számára. Folytatod?"
     },
     {
       "_": "types.LangPackString",
@@ -4896,6 +5158,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "LinkPreview",
+      "value": "Hivatkozás előnézet"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "LinkedChannel",
       "value": "Csatlakoztatott csatorna"
     },
@@ -4972,6 +5239,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "LoginQRHelp2",
+      "value": "Menj: **Beállítások** > **Eszközök** > **Asztali eszköz társítása**"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "LoginQRHelp3",
       "value": "Irányítsd a telefont erre a képernyőre a bejelentkezés megerősítéséhez"
     },
@@ -5024,6 +5296,11 @@
       "_": "types.LangPackString",
       "key": "MediaFileEmpty",
       "value": "Még nincsenek itt fájlok"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MediaGifEmpty",
+      "value": "Még nincsenek itt GIF-ek"
     },
     {
       "_": "types.LangPackString",
@@ -5080,8 +5357,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "MediaviewChannelPhoto",
+      "value": "Csatorna profilkép"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MediaviewGroupPhoto",
+      "value": "Csoport profilkép"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "MediaviewProfilePhoto",
       "value": "Profilkép"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MediaviewProfilePhotoByYou",
+      "value": "Általad beállított kép"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MediaviewProfilePublicPhoto",
+      "value": "Nyilvános fotó"
     },
     {
       "_": "types.LangPackString",
@@ -5150,6 +5447,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "MenuContacts",
+      "value": "Névjegyek"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "MenuCopyDate",
       "value": "Dátum másolása"
     },
@@ -5177,6 +5479,11 @@
       "_": "types.LangPackString",
       "key": "MenuSendGift",
       "value": "Ajándék küldése"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MenuSettings",
+      "value": "Beállítások"
     },
     {
       "_": "types.LangPackString",
@@ -5212,6 +5519,11 @@
       "_": "types.LangPackString",
       "key": "MessageMetaImported",
       "value": "Importálva"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MessageNotFound",
+      "value": "Az üzenet nem létezik"
     },
     {
       "_": "types.LangPackString",
@@ -5808,6 +6120,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PasscodeAutoLockDisabled",
+      "value": "Letiltva"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PasscodeChange",
       "value": "Jelkód megváltoztatása"
     },
@@ -6126,6 +6443,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PersonalChannelTitle",
+      "value": "Személyes csatorna"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Phone",
       "value": "Telefonszám"
     },
@@ -6305,6 +6627,11 @@
       "_": "types.LangPackString",
       "key": "PostsSearchTransaction",
       "value": "Nyilvános bejegyzések keresése"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PremiumEmojiStatusTitle",
+      "value": "{user} ezt az emojit állította be aktuális státuszának: {link}."
     },
     {
       "_": "types.LangPackString",
@@ -6814,6 +7141,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Redo",
+      "value": "Újra"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Refunded",
       "value": "Visszatérítés"
     },
@@ -6864,6 +7196,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ReportChatMessagesRequired",
+      "value": "Válaszd ki az üzeneteket amelyeket csatolni szeretnél a jelentéshez."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ReportPeerAlertSuccess",
       "value": "Köszönjük!\nA jelentés megérkezett, csapatunk kivizsgálja."
     },
@@ -6876,6 +7213,11 @@
       "_": "types.LangPackString",
       "key": "ReportPeerReport",
       "value": "Jelentés"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ReportPleaseSelectMessages",
+      "value": "Kérjük, válaszd ki a jelenteni kívánt üzeneteket."
     },
     {
       "_": "types.LangPackString",
@@ -7014,6 +7356,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Saved",
+      "value": "Mentett"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "SavedGifsLimitSubtitle",
       "value": "Ments akár {count} GIF-et a kedvencek közé"
     },
@@ -7110,6 +7457,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "SearchEmoji",
+      "value": "Emoji keresése"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "SearchFriends",
       "value": "Névjegyek keresése"
     },
@@ -7122,6 +7474,11 @@
       "_": "types.LangPackString",
       "key": "SearchMessages",
       "value": "Üzenetek"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SearchStickers",
+      "value": "Matricák keresése"
     },
     {
       "_": "types.LangPackString",
@@ -7711,6 +8068,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "SettingsTitleChatName",
+      "value": "Csevegés nevének megjelenítése"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SettingsWindowSystem",
+      "value": "Ablak címsora"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Share",
       "value": "Megosztás"
     },
@@ -7923,6 +8290,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "StarListBuyMoreStars",
+      "value": "További csillagok vásárlása"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarListGetStars",
+      "value": "Szerezz Csillagokat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarTransactionFrom",
+      "value": "Tőle"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "StarsAmount",
       "value": "⭐{amount}"
     },
@@ -7954,6 +8336,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "StarsIntroTransactionTelegramBotApiSubtitle",
+      "value": "Bot API"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "StarsNeededTextSendPaidMessages",
       "value": "Vásárolj **Csillagokat** üzenetek küldéséhez."
     },
@@ -7981,6 +8368,11 @@
       "_": "types.LangPackString",
       "key": "StarsReactionTerms",
       "value": "A Csillagok elküldésével elfogadod a **{link}**et."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsReactionTitle",
+      "value": "Csillag reakció"
     },
     {
       "_": "types.LangPackString",
@@ -8569,6 +8961,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Typing",
+      "value": "éppen ír"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Unarchive",
       "value": "Archívból visszahelyezés"
     },
@@ -8704,6 +9101,46 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "UserActionRecordAudio",
+      "value": "{user} éppen hangüzenetet rögzít"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UserActionRecordRound",
+      "value": "{user} éppen egy videóüzenetet vesz fel"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UserActionRecordVideo",
+      "value": "{user} épp videót vesz fel"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UserActionUploadAudio",
+      "value": "{user} épp hangüzenetet küld"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UserActionUploadFile",
+      "value": "{user} éppen fájlt küld"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UserActionUploadPhoto",
+      "value": "{user} épp képet küld"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UserActionUploadRound",
+      "value": "{user} épp videóüzenetet küld"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UserActionUploadVideo",
+      "value": "{user} épp videoüzenetet küld"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "UserBio",
       "value": "Bemutatkozás"
     },
@@ -8741,6 +9178,11 @@
       "_": "types.LangPackString",
       "key": "UserNoteTitle",
       "value": "Jegyzetek"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UserPlayingGame",
+      "value": "{user} épp egy játékkal játszik"
     },
     {
       "_": "types.LangPackString",
@@ -8878,6 +9320,21 @@
       "value": "A felhasználónév túl rövid"
     },
     {
+      "_": "types.LangPackString",
+      "key": "UsernamesActive",
+      "value": "aktív"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UsernamesDescription",
+      "value": "Fogd és húzd módszerrel rendezheted át a sorrendet, amelyben a felhasználónevek megjelennek a profilodon."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UsernamesEdit",
+      "value": "kattints a szerkesztéshez"
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "key": "Users",
       "one_value": "1 felhasználó",
@@ -8942,6 +9399,16 @@
       "_": "types.LangPackString",
       "key": "VideoPlayerFullscreen",
       "value": "Teljes képernyő"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VideoUnsupportedDesktop",
+      "value": "__Ez a videó sajnos nem játszható le a Telegram Web-en. Próbáld meg inkább az [asztali alkalmazásunkkal](https://getdesktop.telegram.org/) megnyitni.__"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VideoUnsupportedMobile",
+      "value": "__Ez a videó sajnos nem játszható le a Telegram Web-en. Próbáld meg inkább a [mobilalkalmazásunkkal](https://telegram.org/dl/) megnyitni.__"
     },
     {
       "_": "types.LangPackString",
@@ -9161,6 +9628,36 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletFeatureInstantTitle",
+      "value": "Azonnali pénzátutalás"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletFeatureNoFeesText",
+      "value": "Minden nap ingyenes az első 5 átutalás. A többi szinte semmibe sem kerül."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletFeatureNoFeesTitle",
+      "value": "Nincs díj"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletHowItWorksTitle",
+      "value": "Hogyan működik"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletReceiveBuy",
+      "value": "Vásárlás pénzzel vagy kriptóval"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSend",
+      "value": "Küldés"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WantsToSpeak",
       "value": "beszélni akar"
     },
@@ -9238,6 +9735,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Yes",
+      "value": "Igen"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "YourEmailCode",
       "value": "Az e-mail kódod"
     },
@@ -9262,5 +9764,5 @@
       "value": "Neved"
     }
   ],
-  "version": 343144
+  "version": 358506
 }
