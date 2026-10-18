@@ -9747,12 +9747,12 @@
     {
       "_": "types.LangPackString",
       "key": "lng_cloud_password_waiting",
-      "value": "Link za potvrdu je poslan na {email}"
+      "value": "Link za potvrdu je poslan na {email}…"
     },
     {
       "_": "types.LangPackString",
       "key": "lng_cloud_password_waiting_code",
-      "value": "Kod je poslan na {email}"
+      "value": "Kod je poslan na {email}…"
     },
     {
       "_": "types.LangPackString",
@@ -28278,6 +28278,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_double_click",
+      "value": "Dupli klik"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_photo_editor_keys_objects_delete",
       "value": "Izbriši odabrano"
     },
@@ -35950,7 +35955,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_settings_downloading_update",
-      "value": "Preuzimanje ažuriranja {progress}..."
+      "value": "Preuzimanje ažuriranja {progress}…"
     },
     {
       "_": "types.LangPackString",
@@ -41279,6 +41284,20 @@
       "value": "Želite li se odjaviti?"
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "{count} ključa novčanika su pohranjena samo ovdje i Telegram nema njihovu sigurnosnu kopiju. Nastavak ih uništava — ako promjena prođe, samo tajni niz riječi može vratiti novčanik.",
+      "key": "lng_sure_logout_wallet_local",
+      "one_value": "Ključ novčanik je pohranjen samo ovdje i Telegram nema njegovu sigurnosnu kopiju. Nastavak ga uništava — ako promjena prođe, samo tajni niz riječi može vratiti novčanik.",
+      "other_value": "{count} ključeva novčanika je pohranjeno samo ovdje i Telegram nema njihovu sigurnosnu kopiju. Nastavak ih uništava — ako promjena prođe, samo tajni niz riječi može vratiti novčanik."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Promjena {count} ključa novčanika na ovom uređaju još nije potvrđena. Zamjenski ključevi su pohranjeni samo ovdje i Telegram nema njihovu sigurnosnu kopiju. Nastavak ih uništava — ako promjena prođe, samo tajni niz riječi može vratiti novčanik.",
+      "key": "lng_sure_logout_wallet_rotating",
+      "one_value": "Promjena ključa novčanika na ovom uređaju još nije potvrđena. Njegov zamjenski ključ pohranjen je samo ovdje i Telegram nema njegovu sigurnosnu kopiju. Nastavak ga uništava — ako promjena prođe, samo tajni niz riječi može vratiti novčanik.",
+      "other_value": "Promjena {count} ključeva novčanika na ovom uređaju još nije potvrđena. Zamjenski ključevi su pohranjeni samo ovdje i Telegram nema njihovu sigurnosnu kopiju. Nastavak ih uništava — ako promjena prođe, samo tajni niz riječi može vratiti novčanik."
+    },
+    {
       "_": "types.LangPackString",
       "key": "lng_sure_logout_wallet_unknown",
       "value": "Ako ovaj uređaj sadrži ključeve Gram novčanika, nastavak ih uništava. Mogu se vratiti samo iz sigurnosne kopije Telegrama ili vašeg tajnog niza riječi."
@@ -43471,6 +43490,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_payload",
+      "value": "Payload"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_connect_request_preview",
       "value": "Pregled"
     },
@@ -43989,8 +44013,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_protection_hardware_absent",
+      "value": "Vaš ključ novčanika na ovom uređaju zaštitio je {provider}, ali se taj ključ više ne može koristiti na ovom uređaju. Vratite novčanik iz Telegramove šifrirane sigurnosne kopije ili pomoću svojeg tajnog niza da ponovno pohranite ključ."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_protection_hardware_failed",
       "value": "{provider} nije potvrdio da ste to bili vi. Ništa nije promijenjeno."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_hardware_unavailable",
+      "value": "Vaš ključ novčanika na ovom uređaju zaštitio je {provider}, koji se trenutno ne može koristiti. Ponovo pokrenite Telegram da biste pokušali ponovno ili vratite novčanik iz Telegramove šifrirane sigurnosne kopije ili pomoću vašeg tajnog niza riječi da biste ga zaštitili na drugi način."
     },
     {
       "_": "types.LangPackString",
@@ -44289,6 +44323,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_send_key_changed_text",
+      "value": "Ključ ovog novčanika promijenjen je u drugoj aplikaciji, tako da ključ na ovom uređaju više ne radi.\n\nVratite novčanik s trenutnim tajnim nizom riječi da biste ga ponovno koristili na ovom uređaju."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_send_key_changed_title",
       "value": "Ključ novčanika je promijenjen"
     },
@@ -44533,5 +44572,5 @@
       "other_value": "Platili ste {count} zvjezdica."
     }
   ],
-  "version": 5949015
+  "version": 5956249
 }
