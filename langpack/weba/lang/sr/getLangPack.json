@@ -2918,6 +2918,20 @@
     },
     {
       "_": "types.LangPackStringPluralized",
+      "few_value": "Ово даривање спонзоришу администратори канала **{chat}**, који су за своје пратиоце купили **{quantity} Telegram Premium** претплате на {duration}.",
+      "key": "BoostingGiveawayHowItWorksText",
+      "one_value": "Ово даривање спонзоришу администратори канала **{chat}**, који су за своје пратиоце купили **{quantity} Telegram Premium** претплату на {duration}.",
+      "other_value": "Ово даривање спонзоришу администратори канала **{chat}**, који су за своје пратиоце купили **{quantity} Telegram Premium** претплата на {duration}."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Ово даривање су спонзорисали администратори канала **{chat}**, који су за своје пратиоце купили **{quantity} Telegram Premium** претплате на {duration}.",
+      "key": "BoostingGiveawayHowItWorksTextEnd",
+      "one_value": "Ово даривање су спонзорисали администратори канала **{chat}**, који су за своје пратиоце купили **{quantity} Telegram Premium** претплату на {duration}.",
+      "other_value": "Ово даривање су спонзорисали администратори канала **{chat}**, који су за своје пратиоце купили **{quantity} Telegram Premium** претплата на {duration}."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
       "few_value": "Сви пратиоци канала:",
       "key": "BoostingGiveawayMsgAllSubsPlural",
       "one_value": "Сви пратиоци канала:",
@@ -2939,6 +2953,16 @@
       "_": "types.LangPackString",
       "key": "BoostingGiveawayMsgWithDivider",
       "value": "и"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingGiveawayNotEligible",
+      "value": "Не испуњавате услове учествовања у овом даривању јер сте се придружили овом каналу **{date}**, што је пре започетог даривања."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingGiveawayNotEligibleAdmin",
+      "value": "Не испуњавате услове за учествовање у овом даривању јер сте администратор учесничког канала (**{chat}**)."
     },
     {
       "_": "types.LangPackString",
@@ -2971,6 +2995,13 @@
       "value": "**Добитници изабрани!**"
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Telegram је насумично изабрао {count} добитника **даривања**.",
+      "key": "BoostingGiveawayResultsMsgWinnersTitle",
+      "one_value": "Telegram је насумично изабрао {count} добитника **даривања**.",
+      "other_value": "Telegram је насумично изабрао {count} добитника **даривања**."
+    },
+    {
       "_": "types.LangPackString",
       "key": "BoostingGiveawayShowWinners",
       "value": "Прикажи добитнике"
@@ -2979,6 +3010,13 @@
       "_": "types.LangPackString",
       "key": "BoostingGiveawayShowWinnersHint",
       "value": "Укључите ову опцију ако желите објавити списак добитника када се даривање заврши."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Везу за поклоне су већ искористила **{count}** добитника.",
+      "key": "BoostingGiveawayUsedLinksPlural",
+      "one_value": "Везу за поклон је већ искористио **{count}** добитник.",
+      "other_value": "Везу за поклоне је већ искористило **{count}** добитника."
     },
     {
       "_": "types.LangPackString",
@@ -3058,6 +3096,20 @@
       "_": "types.LangPackString",
       "key": "BoostingSendLinkToAnyone",
       "value": "**Ову везу можете послати** било коме као поклон."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Ово даривање спонзоришу администратори канала **{chat}**, који су за своје пратиоце купили **{count} звездице**.",
+      "key": "BoostingStarsGiveawayHowItWorksText",
+      "one_value": "Ово даривање спонзоришу администратори канала **{chat}**, који су за своје пратиоце купили **{count} звездицу**.",
+      "other_value": "Ово даривање спонзоришу администратори канала **{chat}**, који су за своје пратиоце купили **{count} звездица**."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Ово даривање су спонзорисали администратори канала **{chat}**, који су за своје пратиоце купили **{count} звездице**.",
+      "key": "BoostingStarsGiveawayHowItWorksTextEnd",
+      "one_value": "Ово даривање су спонзорисали администратори канала **{chat}**, који су за своје пратиоце купили **{count} звездицу**.",
+      "other_value": "Ово даривање су спонзорисали администратори канала **{chat}**, који су за своје пратиоце купили **{count} звездица**."
     },
     {
       "_": "types.LangPackString",
@@ -3901,6 +3953,16 @@
       "key": "ChannelBoostMoreBoosts",
       "one_value": "још **{count}** појачање",
       "other_value": "још **{count}** појачања"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChannelBoostMoreBoostsNeededText",
+      "value": "Потребно је {moreBoosts} да **{chat}** откључа нове функције."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChannelBoostReplaceBoost",
+      "value": "Тренутно појачавате **{currentChat}**. Желите ли уместо тога да појачате **{chat}**?"
     },
     {
       "_": "types.LangPackString",
@@ -9367,6 +9429,13 @@
       "key": "GiveawayReceiverTypeCountries",
       "one_value": "из {count} државе",
       "other_value": "из {count} држава"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Можете изабрати до {count} корисника.",
+      "key": "GiveawayUserSelectionLimit",
+      "one_value": "Можете изабрати до {count} корисника.",
+      "other_value": "Можете изабрати до {count} корисника."
     },
     {
       "_": "types.LangPackString",
@@ -21134,5 +21203,5 @@
       "value": "Ваше име"
     }
   ],
-  "version": 357845
+  "version": 357859
 }
