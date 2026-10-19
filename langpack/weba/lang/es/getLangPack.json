@@ -1786,6 +1786,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ArchiveStory",
+      "value": "Archivar historia"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ArchivedChats",
       "value": "Chats archivados"
     },
@@ -2689,6 +2694,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "BoostGiftLimitSubscribersInfo",
+      "value": "Elige si quieres limitar el sorteo sólo para aquellos que se unieron al canal después de iniciar el sorteo."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "BoostGiftStarsInfo",
       "value": "Elige cuántas estrellas sortear y cuántos impulsos recibir por 1 año."
     },
@@ -2830,6 +2840,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "BoostingGiveawayCanceledByPayment",
+      "value": "El canal canceló los premios revirtiendo el pago."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "BoostingGiveawayEnd",
       "value": "Sorteo finalizado"
     },
@@ -2840,9 +2855,33 @@
     },
     {
       "_": "types.LangPackStringPluralized",
+      "key": "BoostingGiveawayHowItWorksIncludeText",
+      "one_value": "**{chat}** también incluyó **{quantity}** **{prize}** a los premios. Los admins. del canal son responsables del envío de estos premios.",
+      "other_value": "**{chat}** también incluyó **{quantity}** **{prize}** a los premios. Los admins. del canal son responsables del envío de estos premios."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "BoostingGiveawayHowItWorksSubText",
+      "one_value": "El **{date}**, Telegram seleccionará automáticamente a **{quantity}** usuario al azar que se unió a **{chat}**.",
+      "other_value": "El **{date}**, Telegram seleccionará automáticamente a **{quantity}** usuarios al azar que se unieron a **{chat}**."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "BoostingGiveawayHowItWorksSubTextEnd",
+      "one_value": "El **{date}**, Telegram seleccionó automáticamente a **{quantity}** usuario al azar que se unió a **{chat}**.",
+      "other_value": "El **{date}**, Telegram seleccionó automáticamente a **{quantity}** usuarios al azar que se unieron a **{chat}**."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
       "key": "BoostingGiveawayHowItWorksSubTextSeveral1",
       "one_value": "El **{date}**, Telegram seleccionará automáticamente a **{quantity}** usuario al azar que se unió a **{chat}** {otherChannels}.",
       "other_value": "El **{date}**, Telegram seleccionará automáticamente a **{quantity}** usuarios al azar que se unieron a **{chat}** {otherChannels}."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "BoostingGiveawayHowItWorksSubTextSeveralEnd1",
+      "one_value": "El **{date}**, Telegram seleccionó automáticamente a **{quantity}** usuario al azar que se unió a **{chat}** {otherChannels}.",
+      "other_value": "El **{date}**, Telegram seleccionó automáticamente a **{quantity}** usuarios al azar que se unieron a **{chat}** {otherChannels}."
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -2871,6 +2910,11 @@
       "_": "types.LangPackString",
       "key": "BoostingGiveawayMsgWithDivider",
       "value": "y"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingGiveawayNotEligible",
+      "value": "No eres elegible para participar en este sorteo porque te uniste a este canal el **{date}**, que es antes de que comenzara el concurso."
     },
     {
       "_": "types.LangPackString",
@@ -3789,6 +3833,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ChannelBoostErrorBoostTooOftenText",
+      "value": "Puedes cambiar el canal que impulsas sólo una vez al día. Podrás impulsar en **{time}**."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ChannelBoostErrorBoostTooOftenTitle",
       "value": "No puedes impulsar\ntan a menudo"
     },
@@ -4278,6 +4327,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ChatEmptyStateIntroFooter",
+      "value": "{user} añadió el mensaje de arriba para todos los chats vacíos"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ChatEmptyTopicPlaceholderTitle",
       "value": "¡Casi listo!"
     },
@@ -4288,13 +4342,33 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ChatGiveawayInfoNotQualified",
+      "value": "Para participar en este sorteo, únete al canal **{chat}** antes del **{date}**."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ChatGiveawayInfoNotQualifiedMany",
       "value": "Para participar en este sorteo, únete al canal **{chat}** (y a {otherChannels}) antes del **{date}**."
     },
     {
       "_": "types.LangPackString",
+      "key": "ChatGiveawayInfoParticipating",
+      "value": "Estás participando en este sorteo porque te uniste al canal **{chat}**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatGiveawayInfoParticipatingMany",
+      "value": "Estás participando en este sorteo porque te uniste al canal **{chat}** (y a {otherChannels})."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ChatGiveawayMessageCountriesFrom",
       "value": "de {countries}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatGiveawayMessageStarsPrizeText",
+      "value": "{stars} serán distribuidas {winners}"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -19976,5 +20050,5 @@
       "value": "Tu nombre"
     }
   ],
-  "version": 360037
+  "version": 360042
 }
