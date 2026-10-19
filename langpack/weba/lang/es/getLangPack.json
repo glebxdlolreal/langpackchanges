@@ -1385,6 +1385,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AdReported",
+      "value": "Revisaremos este anuncio para asegurarnos de que se ajusta a nuestras **políticas y directrices publicitarias**."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Add",
       "value": "Añadir"
     },
@@ -1412,6 +1417,11 @@
       "_": "types.LangPackString",
       "key": "AddToFavorites",
       "value": "Añadir a Favoritos"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AddedToDoNotTranslate",
+      "value": "Añadiste el **{language}** a la lista de no traducir. "
     },
     {
       "_": "types.LangPackString",
@@ -1683,6 +1693,12 @@
       "_": "types.LangPackString",
       "key": "AlwaysShareWith",
       "value": "Compartir con"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "AmongWinners",
+      "one_value": "a {count} ganador",
+      "other_value": "entre {count} ganadores"
     },
     {
       "_": "types.LangPackString",
@@ -2753,6 +2769,12 @@
       "value": "Impulsos vía regalos"
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "key": "BoostingChannelWillReceiveBoost",
+      "one_value": "este canal recibirá {count} impulso",
+      "other_value": "este canal recibirá {count} impulsos"
+    },
+    {
       "_": "types.LangPackString",
       "key": "BoostingChannelsGroupsIncludedGiveaway",
       "value": "Grupos y canales incluidos"
@@ -2901,6 +2923,12 @@
     },
     {
       "_": "types.LangPackStringPluralized",
+      "key": "BoostingGiveawayHowItWorksSubTextSeveral2",
+      "one_value": "y **{count}** canal más en la lista",
+      "other_value": "y **{count}** canales más en la lista"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
       "key": "BoostingGiveawayHowItWorksSubTextSeveralEnd1",
       "one_value": "El **{date}**, Telegram seleccionó automáticamente a **{quantity}** usuario al azar que se unió a **{chat}** {otherChannels}.",
       "other_value": "El **{date}**, Telegram seleccionó automáticamente a **{quantity}** usuarios al azar que se unieron a **{chat}** {otherChannels}."
@@ -2927,6 +2955,12 @@
       "_": "types.LangPackString",
       "key": "BoostingGiveawayMsgParticipants",
       "value": "**Participantes**"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "BoostingGiveawayMsgPrizes",
+      "one_value": "**{quantity}** {prize}",
+      "other_value": "**{quantity}** {prize}"
     },
     {
       "_": "types.LangPackString",
@@ -3006,6 +3040,12 @@
       "value": "Ganaste un premio en este sorteo 🏆"
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "key": "BoostingGroupWillReceiveBoost",
+      "one_value": "este grupo recibirá {count} impulso",
+      "other_value": "este grupo recibirá {count} impulsos"
+    },
+    {
       "_": "types.LangPackString",
       "key": "BoostingIncompleteGiveaway",
       "value": "Sorteo incompleto"
@@ -3054,6 +3094,12 @@
       "_": "types.LangPackString",
       "key": "BoostingSelectPaidGiveaway",
       "value": "Selecciona un sorteo que ya hayas pagado para configurarlo."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "BoostingSelectUpToWarningChannelsPlural",
+      "one_value": "Puedes seleccionar {count} canal.",
+      "other_value": "Puedes seleccionar hasta {count} canales."
     },
     {
       "_": "types.LangPackString",
@@ -9107,6 +9153,12 @@
     },
     {
       "_": "types.LangPackStringPluralized",
+      "key": "GiveawayCountryLimit",
+      "one_value": "Puedes seleccionar {count} país.",
+      "other_value": "\nPuedes seleccionar hasta {count} países."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
       "key": "GiveawayStarsPrepaidDesc",
       "one_value": "para {count} usuario",
       "other_value": "para {count} usuarios"
@@ -9115,6 +9167,12 @@
       "_": "types.LangPackString",
       "key": "GiveawayStarsPrepaidTitle",
       "value": "{count} estrellas de Telegram"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "GiveawayUserSelectionLimit",
+      "one_value": "Puedes seleccionar {count} usuario.",
+      "other_value": "Puedes seleccionar hasta {count} usuarios."
     },
     {
       "_": "types.LangPackString",
@@ -16468,6 +16526,12 @@
       "value": "¡Estrellas adquiridas!"
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "key": "StarsAcquiredInfo",
+      "one_value": "**{count} estrella** añadida a tu saldo.",
+      "other_value": "**{count} estrellas** añadidas a tu saldo."
+    },
+    {
       "_": "types.LangPackString",
       "key": "StarsAmount",
       "value": "⭐️{amount}"
@@ -16605,8 +16669,23 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "StarsNeededText",
+      "value": "Compra **estrellas** para usarlas en **{user}** y otras miniapps."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsNeededTextGift",
+      "value": "Compra **estrellas** para enviar regalos a **{peer}** y a otros contactos."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "StarsNeededTextLink",
       "value": "Compra **estrellas** para mantener las suscripciones a tus canales."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsNeededTextReactions",
+      "value": "Compra **estrellas** para enviar reacciones de pago a **{chat}** y otros canales."
     },
     {
       "_": "types.LangPackString",
@@ -16673,6 +16752,11 @@
       "_": "types.LangPackString",
       "key": "StarsReactionTerms",
       "value": "Al enviar estrellas, aceptas los {link}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsReactionText",
+      "value": "Elige cuántas estrellas quieres enviar a **{chat}** para apoyar esta publicación."
     },
     {
       "_": "types.LangPackString",
@@ -16744,6 +16828,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "StarsSubscriptionBotCancelledText",
+      "value": "El bot canceló tu suscripción."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "StarsSubscriptionBotProduct",
       "value": "Suscripción"
     },
@@ -16754,6 +16843,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "StarsSubscriptionCancelInfo",
+      "value": "Si cancelas ahora, podrás seguir accediendo a tu suscripción hasta el {date}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsSubscriptionCancelledText",
+      "value": "Cancelaste tu suscripción."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "StarsSubscriptionChannel",
       "value": "Suscripción"
     },
@@ -16761,6 +16860,12 @@
       "_": "types.LangPackString",
       "key": "StarsSubscriptionCompleted",
       "value": "¡Suscripción exitosa!"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "StarsSubscriptionCompletedText",
+      "one_value": "{amount} estrella transferida a **{channel}**.",
+      "other_value": "{amount} estrellas transferidas a **{channel}**."
     },
     {
       "_": "types.LangPackString",
@@ -16776,6 +16881,11 @@
       "_": "types.LangPackString",
       "key": "StarsSubscriptionExpires",
       "value": "expira el {date}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsSubscriptionRefulfillInfo",
+      "value": "Saliste del canal, pero todavía puedes volver hasta el {date}."
     },
     {
       "_": "types.LangPackString",
@@ -17399,6 +17509,11 @@
       "_": "types.LangPackString",
       "key": "StoryToastRemovedFromProfileText",
       "value": "Historia quitada de tu perfil"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryToastSavedToProfileText",
+      "value": "Las historias publicadas pueden ser vistas por otros usuarios en tu perfil hasta que las quites."
     },
     {
       "_": "types.LangPackString",
@@ -20589,5 +20704,5 @@
       "value": "Tu nombre"
     }
   ],
-  "version": 360107
+  "version": 360118
 }
