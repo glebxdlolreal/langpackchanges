@@ -2804,6 +2804,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "BoostingGetMoreBoostsGroup",
+      "value": "Obtén más impulsos para tu grupo regalando Premium a los miembros."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "BoostingGift",
       "value": "Regalo"
     },
@@ -2827,6 +2832,18 @@
       "_": "types.LangPackString",
       "key": "BoostingGiveaway",
       "value": "Sorteo"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "BoostingGiveawayAdditionPrizeCountHint",
+      "one_value": "Todos los premios: **{count}** suscripción a Telegram Premium de {duration}.",
+      "other_value": "Todos los premios: **{count}** suscripciones a Telegram Premium de {duration}."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "BoostingGiveawayAdditionPrizeCountNameHint",
+      "one_value": "Todos los premios: **{count}** {prize} y una suscripción a Telegram Premium de {duration}.",
+      "other_value": "Todos los premios: **{count}** {prize} y suscripciones a Telegram Premium de {duration}."
     },
     {
       "_": "types.LangPackString",
@@ -2918,6 +2935,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "BoostingGiveawayNotEligibleAdmin",
+      "value": "No eres elegible para participar en este sorteo, porque eres admin. de un chat participante (**{chat}**)."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "BoostingGiveawayNotEligibleCountry",
       "value": "No eres elegible para participar en este sorteo porque tu país no está incluido en los términos del sorteo."
     },
@@ -2947,6 +2969,12 @@
       "value": "**¡Ya hay ganadores!**"
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "key": "BoostingGiveawayResultsMsgWinnersTitle",
+      "one_value": "{count} ganador del **sorteo** fue seleccionado al azar por Telegram.",
+      "other_value": "{count} ganadores del **sorteo** fueron seleccionados al azar por Telegram."
+    },
+    {
       "_": "types.LangPackString",
       "key": "BoostingGiveawayShowWinners",
       "value": "Mostrar ganadores"
@@ -2955,6 +2983,12 @@
       "_": "types.LangPackString",
       "key": "BoostingGiveawayShowWinnersHint",
       "value": "Elige si quieres hacer pública la lista de ganadores cuando finalice el sorteo."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "BoostingGiveawayUsedLinksPlural",
+      "one_value": "**{count}** ganador ya usó su enlace de regalo.",
+      "other_value": "**{count}** de los ganadores ya usaron sus enlaces de regalo."
     },
     {
       "_": "types.LangPackString",
@@ -3843,6 +3877,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ChannelBoostMoreBoostsNeededText",
+      "value": "**{chat}** necesita {moreBoosts} para desbloquear nuevas funciones."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChannelBoostReplaceBoost",
+      "value": "Actualmente impulsas a **{currentChat}**. ¿Quieres impulsar a **{chat}** en su lugar?"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ChannelCreator",
       "value": "Propietario"
     },
@@ -4496,6 +4540,11 @@
       "_": "types.LangPackString",
       "key": "ChatListFilterErrorTitleEmpty",
       "value": "Pon un nombre para esta carpeta."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatListFilterInviteLinkIncludeExcludeError",
+      "value": "No puedes compartir carpetas que incluyan o excluyan tipos de chats específicos como “Grupos”, “Contactos”, etc."
     },
     {
       "_": "types.LangPackString",
@@ -6011,6 +6060,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "DownloadSpeedLimitedMessage",
+      "value": "Suscríbete a **Telegram Premium** para aumentar la velocidad de descarga {factor} veces."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Draft",
       "value": "Borrador"
     },
@@ -6374,6 +6428,11 @@
       "_": "types.LangPackString",
       "key": "EnableSharing",
       "value": "Activar compartir"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EnableSomeReactionsInfo",
+      "value": "Los miembros del grupo pueden usar sólo algunos emojis permitidos como reacciones a los mensajes."
     },
     {
       "_": "types.LangPackString",
@@ -6795,6 +6854,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ExpiredViewsStub",
+      "value": "La lista de vistas ya no está disponible una vez transcurridas **24 horas** desde que la historia expiró."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "FactCheck",
       "value": "Verificación de datos"
     },
@@ -6921,6 +6985,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "FilterDeleteAlertLinks",
+      "value": "¿Quieres eliminar esta carpeta? Esto también desactivará todos los enlaces de invitación creados para compartir esta carpeta."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "FilterEditFolders",
       "value": "Editar carpetas"
     },
@@ -7042,6 +7111,12 @@
     },
     {
       "_": "types.LangPackStringPluralized",
+      "key": "FolderLinkHeaderChatsQuit",
+      "one_value": "Salir de {count} chat",
+      "other_value": "Salir de {count} chats"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
       "key": "FolderLinkNotificationAddedSubtitle",
       "one_value": "También te uniste a {count} chat",
       "other_value": "También te uniste a {count} chats"
@@ -7128,6 +7203,11 @@
       "_": "types.LangPackString",
       "key": "FolderLinkSubtitleNew",
       "value": "¿Quieres añadir una nueva carpeta de chats y unirte a sus grupos y canales?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "FolderLinkSubtitleRemove",
+      "value": "¿También quieres salir de los chats incluidos en esta carpeta?"
     },
     {
       "_": "types.LangPackString",
@@ -7386,6 +7466,16 @@
       "_": "types.LangPackString",
       "key": "Fragment",
       "value": "Fragment"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "FragmentPhoneMessage",
+      "value": "Este número de teléfono fue adquirido en **Fragment** el {date} por **{amount}** {details}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "FragmentUsernameMessage",
+      "value": "Este nombre de usuario fue adquirido en **Fragment** el {date} por **{amount}** {details}"
     },
     {
       "_": "types.LangPackString",
@@ -8928,6 +9018,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "GroupBoostBoostToUnrestrict",
+      "value": "Impulsa el grupo {boostTimes} para quitar las restricciones de mensajes. Tus impulsos ayudarán a **{chat}** a desbloquear nuevas funciones."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "GroupCallContextPinCamera",
       "value": "Fijar video"
     },
@@ -9197,6 +9292,11 @@
       "value": "HEX"
     },
     {
+      "_": "types.LangPackString",
+      "key": "HashtagSearchPlaceholder",
+      "value": "Pon un hashtag para encontrar mensajes que lo contengan."
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "key": "HeaderDescriptionResaleGifts",
       "one_value": "{count} ítem",
@@ -9329,6 +9429,11 @@
       "_": "types.LangPackString",
       "key": "InstalledStickersDynamicPackOrder",
       "value": "Orden dinámico de packs"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "InstalledStickersDynamicPackOrderInfo",
+      "value": "Los packs de stickers usados recientemente se mostrarán encima de los más antiguos."
     },
     {
       "_": "types.LangPackString",
@@ -9733,6 +9838,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "LimitReachedFolderLinks",
+      "value": "Sólo puedes crear {limit} enlaces de invitación.\nObtén **Telegram Premium** para crear hasta **{limit2}**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LimitReachedFolderLinksLocked",
+      "value": "Sólo puedes crear {limit} enlaces de invitación. Este número puede aumentar en el futuro."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LimitReachedFolderLinksPremium",
+      "value": "Sólo puedes crear {limit} enlaces de invitación. Prueba a eliminar algunos enlaces de invitación a carpetas."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "LimitReachedFolders",
       "value": "Alcanzaste el límite de **{limit}** carpetas. Puedes duplicar el límite a **{limit2}** carpetas suscribiéndote a **Telegram Premium**."
     },
@@ -9763,6 +9883,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "LimitReachedPinSavedDialogs",
+      "value": "No puedes fijar más de {limit} chats en la parte superior. Desfija algunos de los que ya están fijos o suscríbete a **Telegram Premium** para aumentar el límite a **{limit2}** chats."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LimitReachedPinnedTopics",
+      "value": "No puedes fijar más de {limit} temas en la parte superior."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "LimitReachedPublicLinks",
       "value": "Tienes demasiados enlaces públicos. Puedes anular el enlace de uno de tus grupos o canales anteriores, o suscríbete a **Telegram Premium** para duplicar el límite a **{limit2}** enlaces públicos."
     },
@@ -9775,6 +9905,21 @@
       "_": "types.LangPackString",
       "key": "LimitReachedPublicLinksPremium",
       "value": "Tienes demasiados enlaces públicos. Puedes anular el enlace de uno de tus grupos o canales anteriores."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LimitReachedSharedFolders",
+      "value": "Sólo puedes tener {limit} carpetas compartibles.\nSuscríbete a **Telegram Premium** para aumentar el límite a **{limit2}**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LimitReachedSharedFoldersLocked",
+      "value": "Sólo puedes tener {limit} carpetas compartibles. Este límite puede aumentar en el futuro."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LimitReachedSharedFoldersPremium",
+      "value": "Sólo puedes tener {limit} carpetas compartibles. Prueba a eliminar una de tus carpetas compartibles."
     },
     {
       "_": "types.LangPackString",
@@ -10339,6 +10484,12 @@
       "other_value": "{count} tareas"
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "key": "MessageContainsEmojiPacks",
+      "one_value": "Este mensaje contiene emojis de **{count} pack**.",
+      "other_value": "Este mensaje contiene emojis de **{count} packs**."
+    },
+    {
       "_": "types.LangPackString",
       "key": "MessageMetaApproximate",
       "value": "aprox."
@@ -10604,8 +10755,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "MonetizationIntroSplitText",
+      "value": "Recibes el 50 % de los ingresos por anuncios en grams."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "MonetizationOverview",
       "value": "Resumen de ingresos"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MonetizationProceedsTONInfo",
+      "value": "Después de 3 días de haber obtenido los grams de tu saldo total, puedes utilizarlos en anuncios o retirarlos como recompensas."
     },
     {
       "_": "types.LangPackString",
@@ -10616,6 +10777,11 @@
       "_": "types.LangPackString",
       "key": "MonetizationWithdraw",
       "value": "Retirar vía Fragment"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MonetizationWithdrawErrorText",
+      "value": "Los retiros están disponibles sólo si:\n\n• La verificación en dos pasos fue activada para tu cuenta hace más de 7 días.\n\n• Iniciaste sesión en este dispositivo hace más de 24 horas.\n\nPor favor, vuelve más tarde."
     },
     {
       "_": "types.LangPackString",
@@ -11206,6 +11372,11 @@
       "_": "types.LangPackString",
       "key": "OnlyAcceptGramDescription",
       "value": "Si el comprador te paga en grams no hay riesgo de reembolsos, a diferencia de lo que ocurre con los pagos en estrellas."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "OnlyAllowThisReactions",
+      "value": "Permitir sólo estas reacciones"
     },
     {
       "_": "types.LangPackString",
@@ -20050,5 +20221,5 @@
       "value": "Tu nombre"
     }
   ],
-  "version": 360042
+  "version": 360055
 }
