@@ -20997,8 +20997,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "CreateBot.UsernameEnding",
+      "value": "'%@'"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBot.UsernameEndingDelimiter",
+      "value": ", "
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBot.UsernameEndingFinalDelimiter",
+      "value": " ili "
+    },
+    {
+      "_": "types.LangPackString",
       "key": "CreateBot.UsernameHint",
       "value": "Mora završavati na %1$@ – ili %2$@ uz [Telegram Premium]()."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBot.UsernameHintFree",
+      "value": "Mora završavati na %@."
     },
     {
       "_": "types.LangPackString",
@@ -21024,13 +21044,40 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "CreateBot.UsernameStatus.Long",
+      "value": "Korisničko ime ne može biti duže od 32 znaka."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "CreateBot.UsernameStatus.Number",
       "value": "Korisničko ime ne smije započeti s brojem."
     },
     {
       "_": "types.LangPackString",
+      "key": "CreateBot.UsernameStatus.PremiumRequired",
+      "value": "Za korisnička imena koja završavaju na %@ potreban je Premium."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "CreateBot.UsernameStatus.Short",
       "value": "Korisničko ime mora imati barem 5 znakova."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBot.UsernameStatus.Subscribe",
+      "value": "Pretplatite se >"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBot.UsernameStatus.SuffixLimit",
+      "value": "Za sve svoje botove možete imati samo %1$@ koji se završavaju na %2$@."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "%d korisnička imena",
+      "key": "CreateBot.UsernameStatus.SuffixLimitCount",
+      "one_value": "%d korisničko ime",
+      "other_value": "%d korisničkih imena"
     },
     {
       "_": "types.LangPackString",
@@ -25209,6 +25256,11 @@
       "_": "types.LangPackString",
       "key": "Gift.Message.YourMessage",
       "value": "Vaša poruka..."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.MoveToGifts.Success",
+      "value": "Poklon je premješten na vaš račun."
     },
     {
       "_": "types.LangPackString",
@@ -35822,6 +35874,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Notification.NoPaidMessagesTokenUsed",
+      "value": "Korisnik %@ je iskoristio vašu link da vam besplatno pošalje poruku"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.NoPaidMessagesTokenUsedYou",
+      "value": "Iskoristili ste link korisnika %@ da mu besplatno pošaljete poruku"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Notification.OverviewTopicClosed",
       "value": "%1$@ zatvara temu %2$@ %3$@"
     },
@@ -46184,6 +46246,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "QrStudio.Colors.Profile",
+      "value": "Boje"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "QrStudio.Colors.Themes",
       "value": "Teme"
     },
@@ -46209,8 +46276,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "QrStudio.Menu.DisableTimer",
+      "value": "Isključi timer"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "QrStudio.Menu.DisableTimerInfo",
       "value": "Trajno ostaje besplatno"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Menu.Expire",
+      "value": "Istječe nakon 1 minute"
     },
     {
       "_": "types.LangPackString",
@@ -46229,6 +46306,26 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "QrStudio.NoPaidToken.Invalid",
+      "value": "Ovaj link za besplatne poruke nije važeći ili je istekao."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Pill.ExpiresIn",
+      "value": "Istječe za %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Pill.Free",
+      "value": "Besplatno"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Pill.Permanent",
+      "value": "Trajno"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "QrStudio.Pill.RemoveFee",
       "value": "Ukloni naknadu od %@"
     },
@@ -46239,8 +46336,48 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "QrStudio.Share.Share",
+      "value": "Podijeli…"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "QrStudio.Toast.Expires",
       "value": "Ovaj kod će isteći za 1 minutu."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Toast.Failed",
+      "value": "Nešto nije u redu. Pokušajte ponovno."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Toast.FeeRemoved",
+      "value": "Poruke s ovim kodom su sada besplatne."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Toast.FeeRestored",
+      "value": "Naplaćivanje poruka je vraćeno."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Toast.ImageSaved",
+      "value": "Slika je spremljena u Foto."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Toast.LinkCopied",
+      "value": "Link je kopiran u međuspremnik."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Toast.NewCode",
+      "value": "Napravljen je novi kod. Stari više ne radi."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Toast.Permanent",
+      "value": "Ovaj kod više ne ističe."
     },
     {
       "_": "types.LangPackString",
@@ -49857,6 +49994,11 @@
       "_": "types.LangPackString",
       "key": "ShareMenu.ShareTo",
       "value": "Podijeli"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShareScreen.RecentChats",
+      "value": "Nedavni razgovori"
     },
     {
       "_": "types.LangPackString",
@@ -53846,6 +53988,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Story.Editor.DownloadingMedia",
+      "value": "Preuzimanje s iClouda..."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Story.Editor.DraftDiscaedText",
       "value": "Ako se vratite bez spremanja, izgubit ćete sve promjene koje ste napravili."
     },
@@ -53890,6 +54037,16 @@
       "_": "types.LangPackString",
       "key": "Story.Editor.InputPlaceholderAddCaption",
       "value": "Dodajte opis..."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.Editor.MediaUnavailable",
+      "value": "Ovaj medij nije pohranjen na vašem uređaju i ne može se preuzeti s iClouda. Provjerite vezu i pokušajte ponovno."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.Editor.MediaUnavailableSomeSkipped",
+      "value": "Neki mediji nisu pohranjeni na vašem uređaju i ne mogu se preuzeti s iClouda. Samo dostupni artikli će biti objavljeni."
     },
     {
       "_": "types.LangPackString",
@@ -60401,6 +60558,26 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Collectible.Header.AddToCard",
+      "value": "dodaj na karticu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Collectible.Header.ApplyColor",
+      "value": "postavi boju"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Collectible.Header.RemoveColor",
+      "value": "ukloni boju"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Collectible.Header.RemoveFromCard",
+      "value": "ukloni s kartice"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Collectibles",
       "value": "Kolekcije"
     },
@@ -60488,6 +60665,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.HiddenTransactions",
       "value": "Transakcije manje od %@ su skrivene."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.HowDoesItWork",
+      "value": "Kako radi"
     },
     {
       "_": "types.LangPackString",
@@ -60813,6 +60995,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Receive.PeerShowQR",
+      "value": "Prikaži QR"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Receive.PeerText",
+      "value": "Pošaljite GRAM na ovu adresu\nili skenirajte ovaj QR kod."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Receive.PurchaseFailedText",
       "value": "Kupnja se nije mogla pokrenuti. Molimo pokušajte ponovo."
     },
@@ -60960,6 +61152,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.Send.DepositFunds",
       "value": "Dodaj sredstva"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Send.DiscardAlertText",
+      "value": "Odbaciti ovaj prijenos?"
     },
     {
       "_": "types.LangPackString",
@@ -61238,6 +61435,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Sticker.ApplyColor",
+      "value": "Postavi boju"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sticker.BackgroundNotAllowedError",
+      "value": "Ovaj poklon se ne može postaviti kao pozadina vaše kartice."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Sticker.ColorRestricted",
       "value": "Za promjenu boje kartice može se koristiti samo %@."
     },
@@ -61245,6 +61452,26 @@
       "_": "types.LangPackString",
       "key": "Wallet.Sticker.ColorRestrictedCollection",
       "value": "%@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sticker.GridFooter",
+      "value": "Držite poklon da ga odlijepite i zalijepite na svoju karticu. Držite naljepnicu na kartici kako biste je ponovno odlijepili; drugi prst je okreće i mijenja joj veličinu."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sticker.InvalidError",
+      "value": "Jedna od ovih naljepnica se ne može koristiti na kartici. Podržani su samo pokloni u vlasništvu ovog novčanika."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sticker.LimitError",
+      "value": "Na karticu možete postaviti najviše %@ poklona.\nUklonite neki od njih da biste dodali novi."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sticker.ProfileError",
+      "value": "Poklon prikazan na vašem profilu ne može biti i naljepnica na kartici. Prvo ga sakrijte sa svog profila."
     },
     {
       "_": "types.LangPackString",
@@ -61258,8 +61485,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Sticker.SaveErrorTitle",
+      "value": "Spremanje kartice nije uspjelo"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Sticker.TutorialCard",
       "value": "Povucite ovaj kolekcionarski primjerak ovdje."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sticker.TutorialDone",
+      "value": "Možete dodati više kolekcionarskih primjeraka."
     },
     {
       "_": "types.LangPackString",
@@ -61447,6 +61684,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.Transaction.Sender",
       "value": "Pošiljatelj"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.Telegram",
+      "value": "Telegram"
     },
     {
       "_": "types.LangPackString",
@@ -63392,5 +63634,5 @@
       "value": "Unijeli ste pogrešan sigurnosni kod."
     }
   ],
-  "version": 22287384
+  "version": 22287499
 }
