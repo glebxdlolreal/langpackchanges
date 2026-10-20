@@ -20806,6 +20806,31 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "CreateBot.UsernameEnding",
+      "value": "« %@ »"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBot.UsernameEndingDelimiter",
+      "value": ", "
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBot.UsernameEndingFinalDelimiter",
+      "value": " ou "
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBot.UsernameHint",
+      "value": "Doit se terminer par « %1$@ » ou %2$@ avec [Telegram Premium]()."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBot.UsernameHintFree",
+      "value": "Doit se terminer par %@."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "CreateBot.UsernameStatus.Checking",
       "value": "Vérification..."
     },
@@ -20827,13 +20852,39 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "CreateBot.UsernameStatus.Long",
+      "value": "Un nom d'utilisateur ne doit pas dépasser 32 caractères."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "CreateBot.UsernameStatus.Number",
       "value": "Un nom d'utilisateur ne peut pas commencer par un chiffre."
     },
     {
       "_": "types.LangPackString",
+      "key": "CreateBot.UsernameStatus.PremiumRequired",
+      "value": "Les noms d'utilisateur se terminant par « %@ » requièrent Telegram Premium."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "CreateBot.UsernameStatus.Short",
       "value": "Un nom d'utilisateur doit comporter au moins 5 caractères."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBot.UsernameStatus.Subscribe",
+      "value": "S'abonner >"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBot.UsernameStatus.SuffixLimit",
+      "value": "Vous ne pouvez avoir que %1$@ se terminant par %2$@ sur l'ensemble de vos bots."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "CreateBot.UsernameStatus.SuffixLimitCount",
+      "one_value": "%d nom d'utilisateur",
+      "other_value": "%d noms d'utilisateur"
     },
     {
       "_": "types.LangPackString",
@@ -24941,6 +24992,46 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift.MoveToGifts.Success",
+      "value": "Cadeau transféré sur votre compte."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.MoveToGifts.Text",
+      "value": "Transférer cet objet de collection hors chaîne vers votre compte Telegram ?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.MoveToGifts.Title",
+      "value": "Déplacer vers mes cadeaux"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.MoveToWallet.Location",
+      "value": "Il paraîtra dans"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.MoveToWallet.Move",
+      "value": "Déplacer"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.MoveToWallet.Success",
+      "value": "Cadeau transféré dans votre portefeuille."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.MoveToWallet.Text",
+      "value": "Transférer ce cadeau vers votre portefeuille blockchain ?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.MoveToWallet.Title",
+      "value": "Transférer à mon portefeuille"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gift.Offer.Duration",
       "value": "Durée de l'offre"
     },
@@ -25616,6 +25707,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift.Transfer.MoveToGifts",
+      "value": "Déplacer vers mes cadeaux"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Transfer.MoveToWallet",
+      "value": "Transférer vers mon portefeuille"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gift.Transfer.SendUnlocks",
       "value": "se débloque dans %@"
     },
@@ -26213,6 +26314,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift.View.Context.HideFromProfile",
+      "value": "Cacher du profil"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gift.View.Context.SetAsTheme",
       "value": "Définir comme thème dans..."
     },
@@ -26220,6 +26326,11 @@
       "_": "types.LangPackString",
       "key": "Gift.View.Context.Share",
       "value": "Partager"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.View.Context.ShowOnProfile",
+      "value": "Afficher sur le profil"
     },
     {
       "_": "types.LangPackString",
@@ -33665,7 +33776,7 @@
     {
       "_": "types.LangPackString",
       "key": "Monetization.Proceeds.Ton.Info",
-      "value": "Les Grams de votre solde total deviennent disponibles pour être dépensés en publicités et récompenses 3 jours après avoir été gagnés. Vous ne pouvez pas retirer moins de 10 Grams."
+      "value": "Les Grams de votre solde total peuvent être utilisés pour des publicités ou retirés comme récompenses 3 jours après avoir été gagnés. Vous ne pouvez pas retirer moins de 10 Grams."
     },
     {
       "_": "types.LangPackString",
@@ -35348,6 +35459,16 @@
       "_": "types.LangPackString",
       "key": "Notification.NewAuthDetected",
       "value": "%1$@,\nNous avons détecté une connexion sur votre compte depuis un nouvel appareil le %2$@, %3$@ à %4$@ \n\nAppareil : %5$@\nPosition : %6$@\n\nSi ce n'était pas vous, vous pouvez vous rendre dans Paramètres > Confidentialité et sécurité > Sessions actives pour terminer cette session.\n\nSi vous pensez que quelqu'un s'est connecté à votre compte sans votre consentement, vous pouvez activer la double authentification dans les paramètres de Confidentialité et sécurité.\n\nCordialement,\nL'équipe Telegram"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.NoPaidMessagesTokenUsed",
+      "value": "%@ a utilisé votre lien pour vous contacter gratuitement"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.NoPaidMessagesTokenUsedYou",
+      "value": "Vous avez utilisé le lien de %@ pour envoyer un message gratuitement"
     },
     {
       "_": "types.LangPackString",
@@ -45597,6 +45718,151 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "QrStudio.Colors.Profile",
+      "value": "Couleurs"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Colors.Themes",
+      "value": "Thèmes"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Gifts.Browse",
+      "value": "Voir les cadeaux"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Gifts.EmptyText",
+      "value": "Utilisez n'importe quel objet de collection que vous possédez pour personnaliser votre code QR."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Gifts.EmptyTitle",
+      "value": "Aucun cadeau pour l'instant"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Gifts.Title",
+      "value": "Objets de collection"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Menu.DisableTimer",
+      "value": "Désactiver le minuteur"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Menu.DisableTimerInfo",
+      "value": "Reste gratuit, sans limite"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Menu.Expire",
+      "value": "Expire après 1 minute"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Menu.Reset",
+      "value": "Réinitialiser"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Menu.Restore",
+      "value": "Rétablir les frais de messages"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.NoPaidToken.Imported",
+      "value": "Vous pouvez désormais contacter %@ gratuitement."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.NoPaidToken.Invalid",
+      "value": "Ce lien de message gratuit est invalide ou a expiré."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Pill.ExpiresIn",
+      "value": "Expire dans %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Pill.Free",
+      "value": "Gratuit"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Pill.Permanent",
+      "value": "Permanent"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Pill.RemoveFee",
+      "value": "Supprimer les frais de %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Share.CopyLink",
+      "value": "Copier le lien"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Share.Share",
+      "value": "Partager…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Toast.Expires",
+      "value": "Ce code expirera dans 1 minute."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Toast.Failed",
+      "value": "Une erreur s'est produite. Veuillez réessayer."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Toast.FeeRemoved",
+      "value": "Les messages avec ce code sont désormais gratuits."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Toast.FeeRestored",
+      "value": "Vos frais de message s'appliquent à nouveau."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Toast.ImageSaved",
+      "value": "Image enregistrée dans Photos."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Toast.LinkCopied",
+      "value": "Lien copié dans le presse-papiers."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Toast.NewCode",
+      "value": "Nouveau code créé. L'ancien ne fonctionne plus."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Toast.Permanent",
+      "value": "Ce code n'expire plus."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Toast.PremiumEmoji",
+      "value": "Abonnez-vous à Premium pour utiliser tous les emojis."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Toast.Subscribe",
+      "value": "S'abonner"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "QuickReplies.EmptyState.AddButton",
       "value": "Ajouter une réponse rapide"
     },
@@ -46820,6 +47086,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "RichText.MenuButtonInline",
+      "value": "En ligne"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "RichText.MenuButtonRow",
       "value": "Ligne de boutons"
     },
@@ -46832,6 +47103,16 @@
       "_": "types.LangPackString",
       "key": "RichText.MenuFormula",
       "value": "Formule"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.MenuFormulaInline",
+      "value": "En ligne"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.MenuFormulaStandalone",
+      "value": "Autonome"
     },
     {
       "_": "types.LangPackString",
@@ -49171,6 +49452,26 @@
     {
       "_": "types.LangPackString",
       "key": "ShareMenu.ShareTo",
+      "value": "Partager avec"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShareScreen.Caption",
+      "value": "Ajouter une légende..."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShareScreen.CreateGroupTooltip",
+      "value": "Créer un groupe et le partager"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShareScreen.RecentChats",
+      "value": "Échanges récents"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShareScreen.Title",
       "value": "Partager avec"
     },
     {
@@ -53073,6 +53374,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Story.Editor.DownloadingMedia",
+      "value": "Téléchargement depuis iCloud…"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Story.Editor.DraftDiscaedText",
       "value": "Si vous revenez en arrière sans sauvegarder, vous perdrez toutes les modifications que vous avez effectuées."
     },
@@ -53116,6 +53422,16 @@
       "_": "types.LangPackString",
       "key": "Story.Editor.InputPlaceholderAddCaption",
       "value": "Ajouter une légende..."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.Editor.MediaUnavailable",
+      "value": "Ce média n'est pas stocké sur votre appareil et n'a pas pu être téléchargé depuis iCloud. Vérifiez votre connexion et réessayez."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.Editor.MediaUnavailableSomeSkipped",
+      "value": "Certains médias ne sont pas stockés sur votre appareil et n'ont pas pu être téléchargés depuis iCloud. Seuls les éléments disponibles seront publiés."
     },
     {
       "_": "types.LangPackString",
@@ -59558,6 +59874,31 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Collectible.AlsoShowInMyGifts",
+      "value": "afficher également dans mes cadeaux"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Collectible.Header.AddToCard",
+      "value": "Ajouter à la carte"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Collectible.Header.ApplyColor",
+      "value": "appliquer la couleur"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Collectible.Header.RemoveColor",
+      "value": "supprimer la couleur"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Collectible.Header.RemoveFromCard",
+      "value": "supprimer de la carte"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Collectibles",
       "value": "Objets de collection"
     },
@@ -59645,6 +59986,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.HiddenTransactions",
       "value": "Les transactions inférieures à %@ sont masquées."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.HowDoesItWork",
+      "value": "Comment ça marche ?"
     },
     {
       "_": "types.LangPackString",
@@ -59939,6 +60285,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.PeerBalanceNotice",
+      "value": "%1$@ détient %2$@ sur la blockchain TON."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.PreviousWalletsBalance",
       "value": "Vous avez aussi %@ dans vos anciens portefeuilles"
     },
@@ -59946,6 +60297,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.ProtectAccount",
       "value": "Protégez votre compte"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.PublicBalanceNotice",
+      "value": "Votre solde est public grâce à la transparence de la blockchain."
     },
     {
       "_": "types.LangPackString",
@@ -59961,6 +60317,16 @@
       "_": "types.LangPackString",
       "key": "Wallet.Receive.CopyAddress",
       "value": "Copier mon adresse"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Receive.PeerShowQR",
+      "value": "Afficher le QR"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Receive.PeerText",
+      "value": "Envoyez des GRAM à cette adresse\nou scannez ce code QR."
     },
     {
       "_": "types.LangPackString",
@@ -60111,6 +60477,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.Send.DepositFunds",
       "value": "Déposer des fonds"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Send.DiscardAlertText",
+      "value": "Annuler ce transfert ?"
     },
     {
       "_": "types.LangPackString",
@@ -60389,6 +60760,81 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Sticker.AddToCard",
+      "value": "Ajouter à la carte"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sticker.ApplyColor",
+      "value": "Appliquer la couleur"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sticker.BackgroundNotAllowedError",
+      "value": "Ce cadeau ne peut pas être utilisé comme arrière-plan de votre carte."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sticker.ColorRestricted",
+      "value": "Seul %@ peut être utilisé pour modifier la couleur de votre carte."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sticker.ColorRestrictedCollection",
+      "value": "%@s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sticker.GridFooter",
+      "value": "Tenez un cadeau pour le décoller et le coller sur votre carte. Tenez un autocollant sur la carte pour le décoller à nouveau ; un deuxième doigt permet de le faire pivoter et de le redimensionner."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sticker.InvalidError",
+      "value": "L'un de ces autocollants ne peut pas être utilisé sur la carte. Seuls les cadeaux associés à ce portefeuille sont pris en charge."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sticker.LimitError",
+      "value": "Vous pouvez ajouter jusqu'à %@ cadeaux sur votre carte.\nSupprimez-en un pour en ajouter un autre."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sticker.ProfileError",
+      "value": "Un cadeau affiché sur votre profil ne peut pas être également un autocollant de carte. Vous devez d'abord le masquer sur votre profil."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sticker.RemoveColor",
+      "value": "Supprimer la couleur"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sticker.RemoveFromCard",
+      "value": "Supprimer de la carte"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sticker.SaveErrorTitle",
+      "value": "Impossible d'enregistrer la carte"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sticker.TutorialCard",
+      "value": "Glissez cet objet de collection ici."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sticker.TutorialDone",
+      "value": "Vous pouvez ajouter plusieurs objets de collection."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sticker.TutorialTile",
+      "value": "Glissez cet objet de collection sur une carte pour la décorer."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.TermsText",
       "value": "En utilisant ce service, vous acceptez les [Conditions d'utilisation]()."
     },
@@ -60520,6 +60966,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Transaction.MovedFromProfile",
+      "value": "déplacé du profil"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.MovedToProfile",
+      "value": "déplacé sur le profil"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Transaction.NetworkFeesText",
       "value": "Chaque transfert entraîne des frais de réseau minimes de %1$@.\n\nTelegram prend en charge %2$@ chaque jour."
     },
@@ -60577,6 +61033,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.Transaction.Sender",
       "value": "Expéditeur"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.Telegram",
+      "value": "Telegram"
     },
     {
       "_": "types.LangPackString",
@@ -62513,5 +62974,5 @@
       "value": "Vous avez entré un code de sécurité invalide."
     }
   ],
-  "version": 22261075
+  "version": 22318810
 }
