@@ -20781,6 +20781,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "CreateBot.UsernameEndingDelimiter",
+      "value": ", "
+    },
+    {
+      "_": "types.LangPackString",
       "key": "CreateBot.UsernameEndingFinalDelimiter",
       "value": " o "
     },
@@ -24921,8 +24926,43 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift.MoveToGifts.Success",
+      "value": "S'ha mogut el regal al vostre compte."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.MoveToGifts.Text",
+      "value": "Voleu transferir-lo fora de la cadena de blocs, al vostre compte de Telegram?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.MoveToGifts.Title",
+      "value": "Mou als meus regals"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.MoveToWallet.Location",
+      "value": "Apareixerà en"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gift.MoveToWallet.Move",
       "value": "Mou"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.MoveToWallet.Success",
+      "value": "S'ha mogut el regal a la vostra cartera."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.MoveToWallet.Text",
+      "value": "Voleu transferir el regal a la vostra cartera de la cadena de blocs?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.MoveToWallet.Title",
+      "value": "Moviment a la meva cartera"
     },
     {
       "_": "types.LangPackString",
@@ -25601,6 +25641,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift.Transfer.MoveToGifts",
+      "value": "Mou als meus regals"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Transfer.MoveToWallet",
+      "value": "Mou a la meva cartera"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gift.Transfer.SendUnlocks",
       "value": "es desbloca en %@"
     },
@@ -26195,6 +26245,11 @@
       "_": "types.LangPackString",
       "key": "Gift.View.Context.Craft",
       "value": "Fabrica"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.View.Context.HideFromProfile",
+      "value": "Amaga al perfil"
     },
     {
       "_": "types.LangPackString",
@@ -35333,6 +35388,16 @@
       "_": "types.LangPackString",
       "key": "Notification.NewAuthDetected",
       "value": "%1$@,\nHem detectat un inici de sessió al vostre compte des d'un dispositiu nou el %2$@, %3$@, a les %4$@\n\nDispositiu: %5$@\nUbicació: %6$@\n\nSi no en sabeu res, aneu a Configuració > Dispositius i finalitzeu aquesta sessió.\n\nSi penseu que una altra persona hi ha iniciat sessió contra la vostra voluntat, podeu activar la verificació en dos passos a la configuració de Privadesa i seguretat.\n\nAtentament,\nL'equip del Telegram"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.NoPaidMessagesTokenUsed",
+      "value": "%@ ha usat el vostre enllaç per a enviar missatges de franc"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.NoPaidMessagesTokenUsedYou",
+      "value": "Heu usat l'enllaç de %@ per a enviar missatges de franc"
     },
     {
       "_": "types.LangPackString",
@@ -45567,8 +45632,78 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "QrStudio.Gifts.Browse",
+      "value": "Explora els regals"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Gifts.EmptyText",
+      "value": "Useu un dels vostres col·leccionables\nper a donar estil al codi QR."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Gifts.EmptyTitle",
+      "value": "Encara no hi ha regals"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Gifts.Title",
+      "value": "Col·leccionables"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Menu.DisableTimer",
+      "value": "Sense caducitat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Menu.DisableTimerInfo",
+      "value": "De franc per a sempre"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Menu.Expire",
+      "value": "Caduca passat 1 minut"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Menu.Reset",
+      "value": "Sol·licita un codi"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Menu.Restore",
+      "value": "Restableix la tarifa"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.NoPaidToken.Imported",
+      "value": "Ja podeu escriure a %@ de franc."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.NoPaidToken.Invalid",
+      "value": "Aquest enllaç no és vàlid o ha caducat."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Pill.ExpiresIn",
+      "value": "Caduca d'aquí a %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Pill.Free",
+      "value": "De franc"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "QrStudio.Pill.Permanent",
       "value": "Permanent"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Pill.RemoveFee",
+      "value": "Elimina la tarifa (%@)"
     },
     {
       "_": "types.LangPackString",
@@ -45579,6 +45714,56 @@
       "_": "types.LangPackString",
       "key": "QrStudio.Share.Share",
       "value": "Comparteix…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Toast.Expires",
+      "value": "El codi caducarà d'aquí a 1 minut."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Toast.Failed",
+      "value": "Alguna cosa ha anat malament. Torneu a provar-ho."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Toast.FeeRemoved",
+      "value": "Els missatges amb aquest codi són de franc."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Toast.FeeRestored",
+      "value": "S'ha tornat a aplicar la tarifa."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Toast.ImageSaved",
+      "value": "S'ha desat la imatge a Fotos."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Toast.LinkCopied",
+      "value": "S'ha copiat l'enllaç al porta-retalls."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Toast.NewCode",
+      "value": "S'ha creat el codi. L'antic ja no funcionarà."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Toast.Permanent",
+      "value": "Aquest codi ja no caducarà."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Toast.PremiumEmoji",
+      "value": "Subscriviu-vos al Premium per a poder usar tots els emojis."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Toast.Subscribe",
+      "value": "Subscriu-me"
     },
     {
       "_": "types.LangPackString",
@@ -59278,6 +59463,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Collectible.AlsoShowInMyGifts",
+      "value": "mostra-ho també als meus regals"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Collectibles",
+      "value": "Col·leccionables"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Connect.Action",
       "value": "Connecta"
     },
@@ -59599,6 +59794,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.PublicBalanceNotice",
+      "value": "El vostre saldo és públic a causa de la transparència de la cadena de blocs."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Receive.BuyShort",
       "value": "Compreu amb diners o criptomonedes"
     },
@@ -59611,6 +59811,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.Receive.PeerShowQR",
       "value": "Mostra el QR"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Receive.PeerText",
+      "value": "Envieu GRAM a aquesta adreça\no escanegeu el codi QR."
     },
     {
       "_": "types.LangPackString",
@@ -59721,6 +59926,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.Send.DepositFunds",
       "value": "Depositeu fons"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Send.DiscardAlertText",
+      "value": "Voleu descartar la transferència?"
     },
     {
       "_": "types.LangPackString",
@@ -59929,6 +60139,26 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Sticker.BackgroundNotAllowedError",
+      "value": "No es pot establir aquest regal com a fons de la targeta."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sticker.ColorRestricted",
+      "value": "Només es pot usar el %@ per a canviar el color de la targeta."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sticker.ColorRestrictedCollection",
+      "value": "%@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sticker.LimitError",
+      "value": "Podeu posar fins a %@ regals en la targeta.\nElimineu-ne un per a afegir-ne un altre."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.TermsText",
       "value": "En usar aquest servei, accepteu les seves [Condicions]()."
     },
@@ -60082,6 +60312,16 @@
       "_": "types.LangPackString",
       "key": "Wallet.Transfer.DetailsHeader",
       "value": "DETALLS"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transfer.ErrorText",
+      "value": "La transferència no s'ha pogut preparar o enviar. Comproveu l'adreça, el saldo i la connexió de xarxa, i torneu a provar-ho."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transfer.ErrorTitle",
+      "value": "Ha fallat la transferència"
     },
     {
       "_": "types.LangPackString",
@@ -61887,5 +62127,5 @@
       "value": "Heu introduït un codi de seguretat no vàlid."
     }
   ],
-  "version": 22284526
+  "version": 22318871
 }
