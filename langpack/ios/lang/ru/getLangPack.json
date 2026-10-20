@@ -21188,6 +21188,31 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "CreateBot.UsernameEnding",
+      "value": "«%@»"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBot.UsernameEndingDelimiter",
+      "value": ", "
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBot.UsernameEndingFinalDelimiter",
+      "value": " или "
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBot.UsernameHint",
+      "value": "Должно заканчиваться на %1$@ — или %2$@ с [Telegram Premium]()."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBot.UsernameHintFree",
+      "value": "Должно заканчиваться на %@."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "CreateBot.UsernameStatus.Checking",
       "value": "Проверка..."
     },
@@ -21211,13 +21236,41 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "CreateBot.UsernameStatus.Long",
+      "value": "Имя пользователя не может быть длиннее 32 символов."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "CreateBot.UsernameStatus.Number",
       "value": "Имя пользователя не может начинаться с цифры."
     },
     {
       "_": "types.LangPackString",
+      "key": "CreateBot.UsernameStatus.PremiumRequired",
+      "value": "Создать имя пользователя, заканчивающееся на %@, можно только с Telegram Premium."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "CreateBot.UsernameStatus.Short",
       "value": "Имя пользователя должно содержать не меньше 5 символов."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBot.UsernameStatus.Subscribe",
+      "value": "Оформить >"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBot.UsernameStatus.SuffixLimit",
+      "value": "У Ваших ботов суммарно может быть не более %1$@ на %2$@."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "%d имён пользователя, заканчивающихся",
+      "key": "CreateBot.UsernameStatus.SuffixLimitCount",
+      "many_value": "%d имён пользователя, заканчивающихся",
+      "one_value": "%d имени пользователя, заканчивающегося",
+      "other_value": "%d имён пользователя, заканчивающихся"
     },
     {
       "_": "types.LangPackString",
@@ -25473,6 +25526,46 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift.MoveToGifts.Success",
+      "value": "Подарок перенесён в Ваш аккаунт."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.MoveToGifts.Text",
+      "value": "Перенести этот коллекционный подарок из блокчейна в Ваш аккаунт в Telegram?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.MoveToGifts.Title",
+      "value": "Перенести в подарки"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.MoveToWallet.Location",
+      "value": "Он появится в разделе"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.MoveToWallet.Move",
+      "value": "Перенести"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.MoveToWallet.Success",
+      "value": "Подарок перенесён в Ваш кошелёк."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.MoveToWallet.Text",
+      "value": "Перенести этот подарок в Ваш блокчейн-кошелёк?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.MoveToWallet.Title",
+      "value": "Перенос в кошелёк"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gift.Offer.Duration",
       "value": "Срок действия"
     },
@@ -26188,6 +26281,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift.Transfer.MoveToGifts",
+      "value": "Перенести в подарки"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Transfer.MoveToWallet",
+      "value": "Перенести в кошелёк"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gift.Transfer.SendUnlocks",
       "value": "доступно через %@"
     },
@@ -26799,6 +26902,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift.View.Context.HideFromProfile",
+      "value": "Скрыть из профиля"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gift.View.Context.SetAsTheme",
       "value": "Сделать темой в..."
     },
@@ -26806,6 +26914,11 @@
       "_": "types.LangPackString",
       "key": "Gift.View.Context.Share",
       "value": "Поделиться"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.View.Context.ShowOnProfile",
+      "value": "Показывать в профиле"
     },
     {
       "_": "types.LangPackString",
@@ -36170,6 +36283,16 @@
       "_": "types.LangPackString",
       "key": "Notification.NewAuthDetected",
       "value": "%1$@,\nв Ваш аккаунт выполнен вход с нового устройства (%2$@ %3$@ в %4$@).\n\nУстройство: %5$@\nМесто: %6$@\n\nЕсли это были не Вы, перейдите в Настройки > Устройства и завершите этот сеанс.\n\nЕсли Вы считаете, что кто-то вошёл в Ваш аккаунт без Вашего ведома, советуем установить облачный пароль в разделе Конфиденциальность.\n\nКоманда Telegram"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.NoPaidMessagesTokenUsed",
+      "value": "%@ написал(а) Вам бесплатно по ссылке"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.NoPaidMessagesTokenUsedYou",
+      "value": "Вы написали %@ бесплатно по ссылке"
     },
     {
       "_": "types.LangPackString",
@@ -46651,6 +46774,151 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "QrStudio.Colors.Profile",
+      "value": "Цвета"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Colors.Themes",
+      "value": "Темы оформления"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Gifts.Browse",
+      "value": "Найти подарки"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Gifts.EmptyText",
+      "value": "QR-код можно украсить своими\nколлекционными подарками."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Gifts.EmptyTitle",
+      "value": "Подарков пока нет"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Gifts.Title",
+      "value": "Коллекционные подарки"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Menu.DisableTimer",
+      "value": "Отключить таймер"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Menu.DisableTimerInfo",
+      "value": "Бесплатно всегда"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Menu.Expire",
+      "value": "Включить таймер"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Menu.Reset",
+      "value": "Сбросить код"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Menu.Restore",
+      "value": "Брать плату"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.NoPaidToken.Imported",
+      "value": "Теперь Вы можете писать %@ бесплатно."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.NoPaidToken.Invalid",
+      "value": "Ссылка для бесплатной отправки сообщений недействительна."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Pill.ExpiresIn",
+      "value": "Истекает через %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Pill.Free",
+      "value": "Бесплатно"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Pill.Permanent",
+      "value": "Бессрочно"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Pill.RemoveFee",
+      "value": "Отменить плату %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Share.CopyLink",
+      "value": "Копировать ссылку"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Share.Share",
+      "value": "Поделиться…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Toast.Expires",
+      "value": "Код сбросится через 1 минуту."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Toast.Failed",
+      "value": "Что-то пошло не так. Попробуйте ещё раз."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Toast.FeeRemoved",
+      "value": "По коду можно написать Вам бесплатно."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Toast.FeeRestored",
+      "value": "Сообщения снова платные."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Toast.ImageSaved",
+      "value": "Изображение сохранено в галерею."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Toast.LinkCopied",
+      "value": "Ссылка скопирована."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Toast.NewCode",
+      "value": "Создан новый код. Старый код недействителен."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Toast.Permanent",
+      "value": "Код действует бессрочно."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Toast.PremiumEmoji",
+      "value": "С Premium доступны все эмодзи."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Toast.Subscribe",
+      "value": "Оформить"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "QuickReplies.EmptyState.AddButton",
       "value": "Добавить быстрый ответ"
     },
@@ -47890,6 +48158,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "RichText.MenuButtonInline",
+      "value": "Кнопка в тексте"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "RichText.MenuButtonRow",
       "value": "Ряд кнопок"
     },
@@ -47902,6 +48175,16 @@
       "_": "types.LangPackString",
       "key": "RichText.MenuFormula",
       "value": "Формула"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.MenuFormulaInline",
+      "value": "В тексте"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.MenuFormulaStandalone",
+      "value": "На отдельной строке"
     },
     {
       "_": "types.LangPackString",
@@ -50282,6 +50565,26 @@
       "_": "types.LangPackString",
       "key": "ShareMenu.ShareTo",
       "value": "Отправить"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShareScreen.Caption",
+      "value": "Подпись..."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShareScreen.CreateGroupTooltip",
+      "value": "Создайте группу для трансляции экрана"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShareScreen.RecentChats",
+      "value": "Недавние чаты"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShareScreen.Title",
+      "value": "Транслировать для"
     },
     {
       "_": "types.LangPackString",
@@ -54359,6 +54662,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Story.Editor.DownloadingMedia",
+      "value": "Загрузка из iCloud..."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Story.Editor.DraftDiscaedText",
       "value": "Все изменения будут утрачены, если Вы не сохраните черновик."
     },
@@ -54404,6 +54712,16 @@
       "_": "types.LangPackString",
       "key": "Story.Editor.InputPlaceholderAddCaption",
       "value": "Добавить подпись..."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.Editor.MediaUnavailable",
+      "value": "Этот медиафайл не хранится на Вашем устройстве, загрузить его из iCloud не удалось. Проверьте подключение и попробуйте ещё раз."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.Editor.MediaUnavailableSomeSkipped",
+      "value": "Часть медиафайлов не хранится на Вашем устройстве, загрузить их из iCloud не удалось. Будут опубликованы только доступные файлы."
     },
     {
       "_": "types.LangPackString",
@@ -60974,6 +61292,31 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Collectible.AlsoShowInMyGifts",
+      "value": "отображать в моих подарках"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Collectible.Header.AddToCard",
+      "value": "поместить на карту"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Collectible.Header.ApplyColor",
+      "value": "применить цвет"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Collectible.Header.RemoveColor",
+      "value": "убрать цвет"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Collectible.Header.RemoveFromCard",
+      "value": "убрать с карты"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Collectibles",
       "value": "Коллекции"
     },
@@ -61061,6 +61404,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.HiddenTransactions",
       "value": "Транзакции на сумму менее %@ скрыты."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.HowDoesItWork",
+      "value": "Как это работает?"
     },
     {
       "_": "types.LangPackString",
@@ -61357,6 +61705,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.PeerBalanceNotice",
+      "value": "У %1$@ %2$@ в блокчейне TON."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.PreviousWalletsBalance",
       "value": "В Ваших старых кошельках %@"
     },
@@ -61364,6 +61717,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.ProtectAccount",
       "value": "Защита Вашего аккаунта"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.PublicBalanceNotice",
+      "value": "Ваш баланс — открытая информация в силу прозрачности блокчейна."
     },
     {
       "_": "types.LangPackString",
@@ -61379,6 +61737,16 @@
       "_": "types.LangPackString",
       "key": "Wallet.Receive.CopyAddress",
       "value": "Копировать мой адрес"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Receive.PeerShowQR",
+      "value": "Показать QR-код"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Receive.PeerText",
+      "value": "Чтобы отправить GRAM, скопируйте\nэтот адрес или отсканируйте QR-код."
     },
     {
       "_": "types.LangPackString",
@@ -61529,6 +61897,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.Send.DepositFunds",
       "value": "Пополнить баланс"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Send.DiscardAlertText",
+      "value": "Отменить перевод средств?"
     },
     {
       "_": "types.LangPackString",
@@ -61807,6 +62180,81 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Sticker.AddToCard",
+      "value": "Поместить на карту"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sticker.ApplyColor",
+      "value": "Применить цвет"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sticker.BackgroundNotAllowedError",
+      "value": "Фон этого подарка нельзя перенести на карту."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sticker.ColorRestricted",
+      "value": "Для смены цвета карты подходят только %@."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sticker.ColorRestrictedCollection",
+      "value": "%@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sticker.GridFooter",
+      "value": "Нажмите и удерживайте подарок, чтобы отклеить его как наклейку, и перенесите на карту. Чтобы снять наклейку, удерживайте её одним пальцем; двумя пальцами можно повернуть её или изменить размер."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sticker.InvalidError",
+      "value": "Одной из наклеек нельзя украсить карту. Можно использовать только подарки из этого кошелька."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sticker.LimitError",
+      "value": "На карту можно приклеить до %@ подарков.\nУберите один подарок, чтобы добавить другой."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sticker.ProfileError",
+      "value": "Подарком, добавленным в профиль, нельзя украсить карту. Сперва скройте его из профиля."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sticker.RemoveColor",
+      "value": "Убрать цвет"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sticker.RemoveFromCard",
+      "value": "Убрать с карты"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sticker.SaveErrorTitle",
+      "value": "Не удалось сохранить карту"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sticker.TutorialCard",
+      "value": "Перетащите подарок сюда."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sticker.TutorialDone",
+      "value": "Можно использовать несколько подарков."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sticker.TutorialTile",
+      "value": "Перетащите подарок на карту, чтобы украсить её."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.TermsText",
       "value": "Пользуясь сервисом, Вы принимаете его [условия]()."
     },
@@ -61940,6 +62388,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Transaction.MovedFromProfile",
+      "value": "перенесён из профиля"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.MovedToProfile",
+      "value": "перенесён в профиль"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Transaction.NetworkFeesText",
       "value": "За каждый перевод взимается небольшая комиссия%1$@.\n\nTelegram не берёт плату за первые %2$@ в день."
     },
@@ -61997,6 +62455,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.Transaction.Sender",
       "value": "Отправитель"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.Telegram",
+      "value": "Telegram"
     },
     {
       "_": "types.LangPackString",
@@ -63951,5 +64414,5 @@
       "value": "Вы ввели неверный код безопасности."
     }
   ],
-  "version": 22270752
+  "version": 22319685
 }

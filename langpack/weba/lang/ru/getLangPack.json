@@ -2023,6 +2023,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AriaReplaceAttachment",
+      "value": "Заменить вложение"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AriaSearchNewerResult",
       "value": "Перейти к предыдущему результату"
     },
@@ -2867,6 +2872,30 @@
     },
     {
       "_": "types.LangPackStringPluralized",
+      "few_value": "и ещё **{count}** канала",
+      "key": "BoostingGiveawayHowItWorksSubTextSeveral2",
+      "many_value": "и ещё **{count}** каналов",
+      "one_value": "и ещё **{count}** канал",
+      "other_value": "и ещё **{count}** каналов"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "**{date}** Telegram автоматически выбрал **{quantity}** случайных пользователей, подписавшихся на **{chat}** {otherChannels}.",
+      "key": "BoostingGiveawayHowItWorksSubTextSeveralEnd1",
+      "many_value": "**{date}** Telegram автоматически выбрал **{quantity}** случайных пользователей, подписавшихся на **{chat}** {otherChannels}.",
+      "one_value": "**{date}** Telegram автоматически выбрал **{quantity}** случайного пользователя, подписавшегося на **{chat}** {otherChannels}.",
+      "other_value": "**{date}** Telegram автоматически выбрал **{quantity}** случайных пользователей, подписавшихся на **{chat}** {otherChannels}."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Розыгрыш был организован администраторами **{chat}**, оплатившими **{quantity} подписки Telegram Premium** на {duration} для своих подписчиков.",
+      "key": "BoostingGiveawayHowItWorksTextEnd",
+      "many_value": "Розыгрыш был организован администраторами **{chat}**, оплатившими **{quantity} подписок Telegram Premium** на {duration} для своих подписчиков.",
+      "one_value": "Розыгрыш был организован администраторами **{chat}**, оплатившими **{quantity} подписку Telegram Premium** на {duration} для своих подписчиков.",
+      "other_value": "Розыгрыш был организован администраторами **{chat}**, оплатившими **{quantity} подписок Telegram Premium** на {duration} для своих подписчиков."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
       "few_value": "Все подписчики каналов:",
       "key": "BoostingGiveawayMsgAllSubsPlural",
       "many_value": "Все подписчики каналов:",
@@ -2879,9 +2908,27 @@
       "value": "**Участники**"
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "**{quantity}** x {prize}",
+      "key": "BoostingGiveawayMsgPrizes",
+      "many_value": "**{quantity}** x {prize}",
+      "one_value": "**{quantity}** x {prize}",
+      "other_value": "**{quantity}** x {prize}"
+    },
+    {
       "_": "types.LangPackString",
       "key": "BoostingGiveawayMsgWithDivider",
       "value": "и"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingGiveawayNotEligible",
+      "value": "Вы не можете участвовать в этом розыгрыше, поскольку подписались на канал **{date}**, до начала розыгрыша."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingGiveawayNotEligibleAdmin",
+      "value": "Вы не можете участвовать в этом розыгрыше, поскольку являетесь администратором участвующего канала (**{chat}**)."
     },
     {
       "_": "types.LangPackString",
@@ -2914,6 +2961,14 @@
       "value": "**Розыгрыш завершён!**"
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Telegram определил {count} победителей **розыгрыша**.",
+      "key": "BoostingGiveawayResultsMsgWinnersTitle",
+      "many_value": "Telegram определил {count} победителей **розыгрыша**.",
+      "one_value": "Telegram определил {count} победителя **розыгрыша**.",
+      "other_value": "Telegram определил {count} победителей **розыгрыша**."
+    },
+    {
       "_": "types.LangPackString",
       "key": "BoostingGiveawayShowWinners",
       "value": "Показать победителей"
@@ -2924,6 +2979,14 @@
       "value": "Выберите, будет ли по окончании розыгрыша опубликован список победителей."
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "**{count}** победителя уже активировали подарочную ссылку.",
+      "key": "BoostingGiveawayUsedLinksPlural",
+      "many_value": "**{count}** победителей уже активировали подарочную ссылку.",
+      "one_value": "**{count}** победитель уже активировал подарочную ссылку.",
+      "other_value": "**{count}** победителей уже активировали подарочную ссылку."
+    },
+    {
       "_": "types.LangPackString",
       "key": "BoostingGiveawayYouNotWon",
       "value": "Вы не получили приз в этом розыгрыше."
@@ -2932,6 +2995,14 @@
       "_": "types.LangPackString",
       "key": "BoostingGiveawayYouWon",
       "value": "Вы выиграли приз в этом розыгрыше 🏆"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "эта группа получит {count} голоса",
+      "key": "BoostingGroupWillReceiveBoost",
+      "many_value": "эта группа получит {count} голосов",
+      "one_value": "эта группа получит {count} голос",
+      "other_value": "эта группа получит {count} голосов"
     },
     {
       "_": "types.LangPackString",
@@ -2982,6 +3053,14 @@
       "_": "types.LangPackString",
       "key": "BoostingSelectPaidGiveaway",
       "value": "Выберите предоплаченный розыгрыш для настройки."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Можно выбрать не более {count} каналов.",
+      "key": "BoostingSelectUpToWarningChannelsPlural",
+      "many_value": "Можно выбрать не более {count} каналов.",
+      "one_value": "Можно выбрать не более {count} канала.",
+      "other_value": "Можно выбрать не более {count} каналов."
     },
     {
       "_": "types.LangPackString",
@@ -3838,6 +3917,11 @@
       "_": "types.LangPackString",
       "key": "ChannelEarnLearnInSubtitle",
       "value": "Реклама в Telegram"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChannelEarnLearnOutAbout",
+      "value": "GRAM можно получить в любой момент."
     },
     {
       "_": "types.LangPackString",
@@ -6346,6 +6430,31 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ErrorAddressCityInvalid",
+      "value": "Некорректно указан город"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorAddressCountryInvalid",
+      "value": "Некорректно указана страна"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorAddressPostcodeInvalid",
+      "value": "Некорректно указан индекс"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorAddressStateInvalid",
+      "value": "Некорректно указана область"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorAddressStreetInvalid",
+      "value": "Некорректно указан адрес"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ErrorAdminRankEmojiNotAllowed",
       "value": "В теге администратора нелья использовать эмодзи"
     },
@@ -6373,6 +6482,11 @@
       "_": "types.LangPackString",
       "key": "ErrorBotsTooMuch",
       "value": "В этом чате/канале слишком много ботов"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorChannelPrivate",
+      "value": "Это частный канал"
     },
     {
       "_": "types.LangPackString",
@@ -6456,6 +6570,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ErrorFreshSessionLogout",
+      "value": "Нельзя завершить другие сеансы, если Вы вошли в аккаунт на этом устройстве меньше 24 часов назад."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorImageProcessFailed",
+      "value": "Ошибка при обработке изображения"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ErrorIncorrectPassword",
       "value": "Неверный пароль, попробуйте снова"
     },
@@ -6468,6 +6592,51 @@
       "_": "types.LangPackString",
       "key": "ErrorInviteHashExpired",
       "value": "Срок действия пригласительной ссылки истёк"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorLinkNotModified",
+      "value": "Эта группа для обсуждений уже привязана к каналу"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorMediaCaptionTooLong",
+      "value": "Слишком длинная подпись"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorMediaGroupedInvalid",
+      "value": "Не удалось заменить медиафайл в альбоме"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorMediaInvalid",
+      "value": "Недопустимый медиафайл"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorMediaNewInvalid",
+      "value": "Не удалось заменить медиафайл"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorMessageDeleteForbidden",
+      "value": "Одно из сообщений нельзя удалить — скорее всего оно является служебным."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorMessageEditTimeExpired",
+      "value": "Это сообщение больше нельзя изменить."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorMessageNotModified",
+      "value": "Сообщение не изменено. Новое содержание совпадает с текущим."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorMessagePollClosed",
+      "value": "Опрос завершён"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -6519,6 +6688,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ErrorPeersListEmpty",
+      "value": "Чаты не добавлены в список"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ErrorPhoneBanned",
       "value": "Номер заблокирован в Telegram"
     },
@@ -6529,8 +6703,43 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ErrorPhotoExtInvalid",
+      "value": "У фотографии недопустимое разрешение"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorPhotoInvalidDimensions",
+      "value": "У фотографии недопустимые размеры"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorPhotoSaveFileInvalid",
+      "value": "Внутренний сбой, попробуйте позже"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorPinnedDialogsTooMuch",
+      "value": "Закрепить можно не более 5 чатов"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ErrorProviderAccountTimeout",
       "value": "Срок действия запроса к платёжной системе истёк"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorReqInfoEmailInvalid",
+      "value": "Некорректно указан адрес электронной почты"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorReqInfoNameInvalid",
+      "value": "Некорректно указано имя"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorReqInfoPhoneInvalid",
+      "value": "Некорректно указан номер телефона"
     },
     {
       "_": "types.LangPackString",
@@ -8822,6 +9031,22 @@
       "other_value": "Через {days} дня Вы сможете отправить этот коллекционный подарок на любой адрес в блокчейне TON, чтобы продать его или выставить на аукцион."
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Можно выбрать не более {count} стран.",
+      "key": "GiveawayCountryLimit",
+      "many_value": "Можно выбрать не более {count} стран.",
+      "one_value": "Можно выбрать не более {count} страны.",
+      "other_value": "Можно выбрать не более {count} стран."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Можно выбрать не более {count} пользователей.",
+      "key": "GiveawayUserSelectionLimit",
+      "many_value": "Можно выбрать не более {count} пользователей.",
+      "one_value": "Можно выбрать не более {count} пользователя.",
+      "other_value": "Можно выбрать не более {count} пользователей."
+    },
+    {
       "_": "types.LangPackString",
       "key": "GiveawayUsersAboutGroup",
       "value": "Выберите, будет ли круг участников ограничен пользователями из определённых стран и/или теми, кто вступил в группу после начала розыгрыша."
@@ -9026,6 +9251,11 @@
       "_": "types.LangPackString",
       "key": "GroupStickers",
       "value": "Стикеры группы"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GroupTitleEmptyError",
+      "value": "Название группы не может быть пустым"
     },
     {
       "_": "types.LangPackString",
@@ -10590,6 +10820,11 @@
       "_": "types.LangPackString",
       "key": "MonetizationInfoGramTitle",
       "value": "Что такое 💎 GRAM?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MonetizationProceedsTONInfo",
+      "value": "Покупка рекламы и получение вознаграждений возможны не ранее чем через 3 дня после поступления GRAM на баланс."
     },
     {
       "_": "types.LangPackString",
@@ -16135,6 +16370,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "StarsSubscriptionCancelledText",
+      "value": "Вы отменили продление подписки."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "StarsSubscriptionChannel",
       "value": "Подписка"
     },
@@ -16152,6 +16392,11 @@
       "_": "types.LangPackString",
       "key": "StarsSubscriptionExpires",
       "value": "истекает {date}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsSubscriptionRefulfillInfo",
+      "value": "Вы покинули канал, но можете вернуться до {date}."
     },
     {
       "_": "types.LangPackString",
@@ -16222,6 +16467,11 @@
       "_": "types.LangPackString",
       "key": "StarsTransactionHidden",
       "value": "Аноним"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsTransactionIDCopied",
+      "value": "Идентификатор операции скопирован"
     },
     {
       "_": "types.LangPackString",
@@ -16330,6 +16580,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "StatsBoostsExistingBoosts",
+      "value": "Голосов собрано"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "StatsBoostsLevel",
       "value": "Уровень"
     },
@@ -16417,6 +16672,11 @@
       "_": "types.LangPackString",
       "key": "StatsNoShares",
       "value": "Никто не поделился"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StatsStoryInteractionsTitle",
+      "value": "АКТИВНОСТЬ В ИСТОРИЯХ"
     },
     {
       "_": "types.LangPackString",
@@ -16590,6 +16850,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "StoryCloseFriendsHint",
+      "value": "Вы видите эту историю, потому что **{user}** добавил(а) Вас в список близких друзей"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryContactsHint",
+      "value": "Историю могут видеть только контакты **{user}**."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "StoryContextRemoveFromProfile",
       "value": "Удалить из профиля"
     },
@@ -16602,6 +16872,11 @@
       "_": "types.LangPackString",
       "key": "StoryHeaderEdited",
       "value": "изменено"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryHideFrom",
+      "value": "Скрыть мои истории от {user}"
     },
     {
       "_": "types.LangPackString",
@@ -16622,6 +16897,21 @@
       "_": "types.LangPackString",
       "key": "StoryListItemActionUnpin",
       "value": "Открепить"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryListSaveToProfile",
+      "value": "Опубликовать в профиле"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryListSavedEmptyStateTitle",
+      "value": "Опубликованных историй пока нет"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryMentionedTitle",
+      "value": "**{peer}** упомянул(а) Вас в истории."
     },
     {
       "_": "types.LangPackString",
@@ -16740,6 +17030,26 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "StorySave",
+      "value": "Опубликовать в профиле"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StorySelectedContactsHint",
+      "value": "Историю могут видеть только некоторые пользователи, которых выбрал(а) **{user}**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StorySharedTo",
+      "value": "История отправлена в чат **{user}**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryShowBackTo",
+      "value": "Не скрывать мои истории от {user}"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "StoryStatistics",
       "value": "Статистика истории"
     },
@@ -16747,6 +17057,11 @@
       "_": "types.LangPackString",
       "key": "StoryToastRemovedFromProfileText",
       "value": "История удалена из Вашего профиля"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryToastSavedToProfileText",
+      "value": "Опубликованные истории остаются видны из Вашего профиля, пока Вы их не удалите."
     },
     {
       "_": "types.LangPackString",
@@ -16787,6 +17102,11 @@
       "_": "types.LangPackString",
       "key": "StoryViewListEmptyTextSearch",
       "value": "Просмотры не найдены"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryViewListNotFullyRecorded",
+      "value": "Информация о других просмотревших не была сохранена."
     },
     {
       "_": "types.LangPackString",
@@ -17356,6 +17676,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "TranslateToButton",
+      "value": "Перевести на {language}"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "TranslationTone",
       "value": "Стиль перевода"
     },
@@ -17388,6 +17713,11 @@
       "_": "types.LangPackString",
       "key": "TurnPasswordOff",
       "value": "Отключить пароль"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "TwoStepAuthConfirmEmailDescription",
+      "value": "Введите код, который пришёл на электронную почту {recoveryEmail}."
     },
     {
       "_": "types.LangPackString",
@@ -17545,6 +17875,14 @@
       "value": "Показать больше приложений"
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Раскрыть за ⭐️{count}",
+      "key": "UnlockPaidContent",
+      "many_value": "Раскрыть за ⭐️{count}",
+      "one_value": "Раскрыть за ⭐️{count}",
+      "other_value": "Раскрыть за ⭐️{count}"
+    },
+    {
       "_": "types.LangPackString",
       "key": "UnlockPremiumEmojiHint",
       "value": "Получите этот эмодзи, оформив подписку **Telegram Premium**."
@@ -17593,6 +17931,11 @@
       "_": "types.LangPackString",
       "key": "UpgradeCostDrops",
       "value": "Стоимость улучшения снижается с каждой минутой."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UpgradedStories",
+      "value": "Истории"
     },
     {
       "_": "types.LangPackString",
@@ -17671,6 +18014,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "UserInfoCustomVideo",
+      "value": "видео установили Вы"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "UserInfoFirstNamePlaceholder",
       "value": "Имя"
     },
@@ -17703,6 +18051,21 @@
       "_": "types.LangPackString",
       "key": "UserInfoResetCustomPhoto",
       "value": "Вернуть исходную фотографию"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UserInfoSetCustomPhoto",
+      "value": "Установить фото для {user}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UserInfoSetCustomPhotoSuccessPhotoText",
+      "value": "Теперь Вы всегда будете видеть эту фотографию в профиле **{user}**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UserInfoSuggestPhoto",
+      "value": "Предложить фото {user}"
     },
     {
       "_": "types.LangPackString",
@@ -17806,6 +18169,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "UserRestrictionsNoSendRound",
+      "value": "без видеосообщений"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "UserRestrictionsNoSendStickers",
       "value": "без стикеров и GIF"
     },
@@ -17891,6 +18259,11 @@
       "_": "types.LangPackString",
       "key": "UsernameActivateAlertTitle",
       "value": "Активировать имя пользователя"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UsernameAlso",
+      "value": "а также {usernames}"
     },
     {
       "_": "types.LangPackString",
@@ -18014,6 +18387,11 @@
       "_": "types.LangPackString",
       "key": "ValueGiftSortByPrice",
       "value": "Цена"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VerifyChatInfo",
+      "value": "В этот чат приходят коды подтверждения от сторонних сервисов."
     },
     {
       "_": "types.LangPackString",
@@ -18543,6 +18921,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletDisconnectAllText",
+      "value": "У этих приложений больше не будет доступа к Вашему кошельку. Вы сможете снова подключить их в любой момент."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletEnableBackup",
       "value": "Включить резервное копирование"
     },
@@ -19039,5 +19422,5 @@
       "value": "Ваше имя"
     }
   ],
-  "version": 359499
+  "version": 360503
 }
