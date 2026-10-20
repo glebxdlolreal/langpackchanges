@@ -336,6 +336,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ActionGiftStarsSubtitle",
+      "value": "Tähdillä **{peer}** pääsee Telegramissa lisäsisältöön ja -palveluihin."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ActionGiftStarsText",
       "value": "Tähdillä pääset Telegramissa lisäsisältöön ja -palveluihin."
     },
@@ -1380,6 +1385,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AdReported",
+      "value": "Tarkistamme, noudattaako kyseinen mainos **käytäntöjämme ja ehtojamme**."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Add",
       "value": "Lisää"
     },
@@ -1407,6 +1417,11 @@
       "_": "types.LangPackString",
       "key": "AddToFavorites",
       "value": "Lisää suosikkeihin"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AddedToDoNotTranslate",
+      "value": "Kieltä **{language}** ei enää käännetä."
     },
     {
       "_": "types.LangPackString",
@@ -1678,6 +1693,12 @@
       "_": "types.LangPackString",
       "key": "AlwaysShareWith",
       "value": "Jaa aina"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "AmongWinners",
+      "one_value": "{count} voittajan kesken",
+      "other_value": "{count} voittajan kesken"
     },
     {
       "_": "types.LangPackString",
@@ -2699,13 +2720,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "BoostExpireOn",
+      "value": "nostatus vanhenee {date}"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "BoostGiftDateEnds",
       "value": "Päättyy"
     },
     {
       "_": "types.LangPackString",
+      "key": "BoostGiftLimitSubscribersInfo",
+      "value": "Valitse voiko arvontaan osallistua vain ne käyttäjät, jotka tilasivat kanavan arvonnan alettua."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "BoostGiftStarsInfo",
       "value": "Valitse montako tähteä annetaan ja montako vuoden pituista nostatusta saadaan."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostGiftStarsPerUser",
+      "value": "{count} käyttäjää kohden"
     },
     {
       "_": "types.LangPackString",
@@ -2748,9 +2784,21 @@
       "value": "Nostata ryhmää"
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "key": "BoostingBoostsCount",
+      "one_value": "{count} nostatus",
+      "other_value": "{count} nostatusta"
+    },
+    {
       "_": "types.LangPackString",
       "key": "BoostingBoostsViaGifts",
       "value": "Nostata lahjoin"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "BoostingChannelWillReceiveBoost",
+      "one_value": "kanava saa {count} nostatuksen",
+      "other_value": "kanava saa {count} nostatusta"
     },
     {
       "_": "types.LangPackString",
@@ -2809,6 +2857,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "BoostingGetMoreBoostsGroup",
+      "value": "Voit saada nostatuksia ryhmällesi lahjoittamalla Premium-tilauksia sen jäsenille."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "BoostingGift",
       "value": "Lahja"
     },
@@ -2816,6 +2869,12 @@
       "_": "types.LangPackString",
       "key": "BoostingGiftLink",
       "value": "Lahjalinkki"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "BoostingGiftsCount",
+      "one_value": "{count} lahja",
+      "other_value": "{count} lahjaa"
     },
     {
       "_": "types.LangPackString",
@@ -2826,6 +2885,18 @@
       "_": "types.LangPackString",
       "key": "BoostingGiveaway",
       "value": "Arvonta"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "BoostingGiveawayAdditionPrizeCountHint",
+      "one_value": "Palkinnot: **{count}** Telegram Premium -tilaus ({duration}).",
+      "other_value": "Palkinnot: **{count}** Telegram Premium -tilausta ({duration})."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "BoostingGiveawayAdditionPrizeCountNameHint",
+      "one_value": "Palkinnot: **{count}**× {prize} ja Telegram Premium -tilaus ({duration}).",
+      "other_value": "Palkinnot: **{count}**× {prize} ja Telegram Premium -tilaukset ({duration})."
     },
     {
       "_": "types.LangPackString",
@@ -2854,6 +2925,54 @@
     },
     {
       "_": "types.LangPackStringPluralized",
+      "key": "BoostingGiveawayHowItWorksIncludeText",
+      "one_value": "**{chat}** laittoi arvontaan palkinnoksi myös **{quantity}**× **{prize}**. Kanavan valvojat toimittavat kyseiset palkinnot.",
+      "other_value": "**{chat}** laittoi arvontaan palkinnoksi myös **{quantity}**× **{prize}**. Kanavan valvojat toimittavat kyseiset palkinnot."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "BoostingGiveawayHowItWorksSubText",
+      "one_value": "Telegram arpoo **{date}** automaattisesti **{quantity}** kanavalle **{chat}** liittyneen.",
+      "other_value": "Telegram arpoo **{date}** automaattisesti **{quantity}** kanavalle **{chat}** liittynyttä."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "BoostingGiveawayHowItWorksSubTextEnd",
+      "one_value": "Telegram arpoi **{date}** automaattisesti **{quantity}** kanavalle **{chat}** liittyneen.",
+      "other_value": "Telegram arpoi **{date}** automaattisesti **{quantity}** kanavalle **{chat}** liittynyttä."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "BoostingGiveawayHowItWorksSubTextSeveral1",
+      "one_value": "Telegram arpoo **{date}** automaattisesti **{quantity}** kanavalle **{chat}** {otherChannels} liittyneen.",
+      "other_value": "Telegram arpoo **{date}** automaattisesti **{quantity}** kanavalle **{chat}** {otherChannels} liittyneen."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "BoostingGiveawayHowItWorksSubTextSeveral2",
+      "one_value": "ja **{count}** muulle näytetylle kanavalle",
+      "other_value": "ja **{count}** muulle näytetylle kanavalle"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "BoostingGiveawayHowItWorksSubTextSeveralEnd1",
+      "one_value": "Telegram arpoi **{date}** automaattisesti **{quantity}** kanavalle **{chat}** {otherChannels} liittyneen.",
+      "other_value": "Telegram arpoi **{date}** automaattisesti **{quantity}** kanavalle **{chat}** {otherChannels} liittyneen."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "BoostingGiveawayHowItWorksText",
+      "one_value": "Arvonnasta vastaa kanavan **{chat}** valvojat, jotka hankkivat **{quantity} Telegram Premium** -tilauksen ({duration}) kanavan tilaajille.",
+      "other_value": "Arvonnasta vastaa kanavan **{chat}** valvojat, jotka hankkivat **{quantity} Telegram Premium** -tilausta ({duration}) kanavan tilaajille."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "BoostingGiveawayHowItWorksTextEnd",
+      "one_value": "Arvonnasta vastasi kanavan **{chat}** valvojat, jotka hankkivat **{quantity} Telegram Premium** -tilauksen ({duration}) kanavan tilaajille.",
+      "other_value": "Arvonnasta vastasi kanavan **{chat}** valvojat, jotka hankkivat **{quantity} Telegram Premium** -tilausta ({duration}) kanavan tilaajille."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
       "key": "BoostingGiveawayMsgAllSubsPlural",
       "one_value": "Kaikki tilaajat kanavalta:",
       "other_value": "Kaikki tilaajat kanavilta:"
@@ -2864,9 +2983,25 @@
       "value": "**Osallistujat**"
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "key": "BoostingGiveawayMsgPrizes",
+      "one_value": "**{quantity}**× {prize}",
+      "other_value": "**{quantity}**× {prize}"
+    },
+    {
       "_": "types.LangPackString",
       "key": "BoostingGiveawayMsgWithDivider",
       "value": "ja"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingGiveawayNotEligible",
+      "value": "Et voi osallistua arvontaan, koska liityit kanavalle **{date}** eli ennen arvonnan alkua."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingGiveawayNotEligibleAdmin",
+      "value": "Et voi osallistua arvontaan, koska olet arvontaryhmän (**{chat}**) valvoja."
     },
     {
       "_": "types.LangPackString",
@@ -2899,6 +3034,12 @@
       "value": "**Voittajat on valittu!**"
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "key": "BoostingGiveawayResultsMsgWinnersTitle",
+      "one_value": "Telegram arpoi {count} voittajan **arvonnassa**.",
+      "other_value": "Telegram arpoi {count} voittajaa **arvonnassa**."
+    },
+    {
       "_": "types.LangPackString",
       "key": "BoostingGiveawayShowWinners",
       "value": "Näytä voittajat"
@@ -2909,6 +3050,12 @@
       "value": "Valitse, näytetäänkö arvonnan voittajat julkisesti."
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "key": "BoostingGiveawayUsedLinksPlural",
+      "one_value": "**{count}** voittajista on jo käyttänyt lahjalinkkiään.",
+      "other_value": "**{count}** voittajista on jo käyttänyt lahjalinkkiään."
+    },
+    {
       "_": "types.LangPackString",
       "key": "BoostingGiveawayYouNotWon",
       "value": "Et voittanut tässä arvonnassa."
@@ -2917,6 +3064,12 @@
       "_": "types.LangPackString",
       "key": "BoostingGiveawayYouWon",
       "value": "Voitit tässä arvonnassa 🏆"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "BoostingGroupWillReceiveBoost",
+      "one_value": "ryhmä saa {count} nostatuksen",
+      "other_value": "ryhmä saa {count} nostatusta"
     },
     {
       "_": "types.LangPackString",
@@ -2969,9 +3122,27 @@
       "value": "Valitse arvonta, jonka maksut olet jo maksanut."
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "key": "BoostingSelectUpToWarningChannelsPlural",
+      "one_value": "Voit valita {count} kanavan.",
+      "other_value": "Voit valita enintään {count} kanavaa."
+    },
+    {
       "_": "types.LangPackString",
       "key": "BoostingSendLinkToAnyone",
       "value": "Voit myös **lähettää linkin** lahjana kelle tahansa."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "BoostingStarsGiveawayHowItWorksText",
+      "one_value": "Arvonnasta vastaa kanavan **{chat}** valvojat, jotka hankkivat **{count} tähden** kanavan tilaajille.",
+      "other_value": "Arvonnasta vastaa kanavan **{chat}** valvojat, jotka hankkivat **{count} tähteä** kanavan tilaajille."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "BoostingStarsGiveawayHowItWorksTextEnd",
+      "one_value": "Arvonnasta vastasi kanavan **{chat}** valvojat, jotka hankkivat **{count} tähden** kanavan tilaajille.",
+      "other_value": "Arvonnasta vastasi kanavan **{chat}** valvojat, jotka hankkivat **{count} tähteä** kanavan tilaajille."
     },
     {
       "_": "types.LangPackString",
@@ -3004,6 +3175,17 @@
       "value": "Aloita arvonta"
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "key": "BoostingTelegramPremiumCountPlural",
+      "one_value": "{count}× Telegram Premium",
+      "other_value": "{count}× Telegram Premium"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingTelegramPremiumFor",
+      "value": "Telegram Premium ({duration})"
+    },
+    {
       "_": "types.LangPackString",
       "key": "BoostingTo",
       "value": "Saaja"
@@ -3020,6 +3202,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "BoostingUsedLinkDate",
+      "value": "Linkkiä käytettiin {date}."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "BoostingWinnersDate",
       "value": "**Arvontapäivä**"
     },
@@ -3032,6 +3219,11 @@
       "_": "types.LangPackString",
       "key": "Boosts",
       "value": "Nostatus"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostsLevel",
+      "value": "Taso {level}"
     },
     {
       "_": "types.LangPackString",
@@ -3305,6 +3497,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "BotRemoveFromMenu",
+      "value": "Botin **{user}** pikakuvakkeet poistetaan kaikista valikoista."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "BotRemoveFromMenuTitle",
       "value": "Poista botti"
     },
@@ -3372,6 +3569,12 @@
       "_": "types.LangPackString",
       "key": "BotWebViewStartPermission",
       "value": "Sinut ohjataan botin sivustolle verkkosovelluksen avaamiseksi."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "Bots",
+      "one_value": "{count} botti",
+      "other_value": "{count} bottia"
     },
     {
       "_": "types.LangPackString",
@@ -3777,8 +3980,34 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ChannelBoostErrorBoostTooOftenText",
+      "value": "Voit vaihtaa nostattamaasi kanavaa vain kerran päivässä. Odota vielä **{time}** ennen kuin voit nostattaa toista kanavaa."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ChannelBoostErrorBoostTooOftenTitle",
       "value": "Et voi nostattaa näin usein"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "ChannelBoostMoreBoosts",
+      "one_value": "**{count}** nostatuksen",
+      "other_value": "**{count}** nostatusta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChannelBoostMoreBoostsNeededText",
+      "value": "**{chat}** tarvitsee {moreBoosts} käyttääkseen lisätoimintoja."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChannelBoostReplaceBoost",
+      "value": "Nostatat tällä hetkellä kanavaa **{currentChat}**. Haluatko sen sijaan nostattaa kanavaa **{chat}**?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChannelBoostYouBoostedChannelText",
+      "value": "Nostatit kanavaa {chat}!"
     },
     {
       "_": "types.LangPackString",
@@ -4077,6 +4306,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ChannelStatsGraphStories",
+      "value": "TARINOIDEN VUOROVAIKUTUKSET"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ChannelStatsGraphStoriesReactions",
       "value": "TARINOIDEN REAKTIOT"
     },
@@ -4183,6 +4417,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ChannelVisibilityConfirmMakePrivateChannel",
+      "value": "Jos teet tästä ryhmästä yksityisen, nimi @{currentUsername} poistetaan, ja se vapautuu yleiseen käyttöön, jolloin mikä tahansa julkinen ryhmä tai kanava voi varata sen."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ChannelVisibilityForwardingChannelInfo",
       "value": "Tilaajat voisivat kopioida, tallentaa ja välittää tämän kanavan sisältöä."
     },
@@ -4212,9 +4451,55 @@
       "value": "Viestien välitys tästä ryhmästä"
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "key": "Channels",
+      "one_value": "{count} kanava",
+      "other_value": "{count} kanavaa"
+    },
+    {
       "_": "types.LangPackString",
       "key": "ChannelsSearchContext",
       "value": "Kanavilta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAllowedFiles",
+      "value": "tiedostoja"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAllowedMusic",
+      "value": "musiikkia"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAllowedPhotos",
+      "value": "kuvia"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAllowedStickers",
+      "value": "tarroja ja GIFejä"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAllowedText",
+      "value": "tekstiviestejä"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAllowedVideoMessages",
+      "value": "videoviestejä"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAllowedVideos",
+      "value": "videoita"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAllowedVoices",
+      "value": "ääniviestejä"
     },
     {
       "_": "types.LangPackString",
@@ -4243,6 +4528,12 @@
       "value": "Näytä ketjuina"
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "key": "ChatDeleteMessagesConfirmation",
+      "one_value": "Poista viesti",
+      "other_value": "Poista {count} viestiä"
+    },
+    {
       "_": "types.LangPackString",
       "key": "ChatDraftPrefix",
       "value": "Luonnos:"
@@ -4254,6 +4545,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ChatEmptyStateIntroFooter",
+      "value": "{user} on lisännyt yllä olevan viestin kaikkiin tyhjiin keskusteluihin"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatEmptyTopicPlaceholderText",
+      "value": "Aloita ketju lähettämällä\nensimmäinen viesti."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ChatEmptyTopicPlaceholderTitle",
       "value": "Melkein valmista!"
     },
@@ -4261,6 +4562,48 @@
       "_": "types.LangPackString",
       "key": "ChatForwardActionHeader",
       "value": "Välitä viestit"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatGiveawayInfoNotQualified",
+      "value": "Jos haluat osallistua arvontaan, liity kanavan **{chat}** tilaajaksi **{date}** mennessä."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatGiveawayInfoNotQualifiedMany",
+      "value": "Jos haluat osallistua arvontaan, liity kanavan **{chat}** (ja {otherChannels}) tilaajaksi **{date}** mennessä."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "ChatGiveawayInfoOtherChannels",
+      "one_value": "**{count}** muun näytetyn kanavan",
+      "other_value": "**{count}** muun näytetyn kanavan"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatGiveawayInfoParticipating",
+      "value": "Olet tässä arvonnassa, koska olet kanavan **{chat}** tilaaja."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatGiveawayInfoParticipatingMany",
+      "value": "Olet tässä arvonnassa, koska olet kanavan **{chat}** (ja {otherChannels}) tilaaja."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "ChatGiveawayInfoSubscriptions",
+      "one_value": "**{count} Telegram Premium** -tilaus",
+      "other_value": "**{count} Telegram Premium** -tilausta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatGiveawayMessageCountriesFrom",
+      "value": "maat: {countries}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatGiveawayMessageStarsPrizeText",
+      "value": "{stars} jaetaan {winners}."
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -4371,6 +4714,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ChatListEmptyTopicsDescription",
+      "value": "Tämän ryhmän vanhemmat viestit on siirretty yleisketjuun."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ChatListEmptyTopicsTitle",
       "value": "Ei vielä ketjuja"
     },
@@ -4388,6 +4736,17 @@
       "_": "types.LangPackString",
       "key": "ChatListFilterErrorTitleEmpty",
       "value": "Anna tälle kansiolle nimi."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatListFilterInviteLinkIncludeExcludeError",
+      "value": "Kansiota ei voi jakaa, jos siinä on keskustelutyyppejä tai jos siitä on erikseen jätetty pois keskusteluita."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "ChatListFilterLinkLabelChatCount",
+      "one_value": "Sisältää 1 keskustelun",
+      "other_value": "Sisältää {count} keskustelua"
     },
     {
       "_": "types.LangPackString",
@@ -4418,6 +4777,11 @@
       "_": "types.LangPackString",
       "key": "ChatListPeerTypeGroup",
       "value": "ryhmä"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatListPeerTypeNonContact",
+      "value": "ei yhteystieto"
     },
     {
       "_": "types.LangPackString",
@@ -4458,6 +4822,11 @@
       "_": "types.LangPackString",
       "key": "ChatMemberListNoAccess",
       "value": "Et saa nähdä ryhmän jäseniä"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatMessagingRestrictedPlaceholder",
+      "value": "{user} ottaa viestejä vastaan vain Premium-tilaajilta."
     },
     {
       "_": "types.LangPackString",
@@ -4527,8 +4896,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ChatPrivateMessageEditTimestampDate",
+      "value": "muokattu {date}"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ChatQuizTotalVotesEmpty",
       "value": "Ei vielä vastauksia"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatSendAllowedContentText",
+      "value": "Tämän ryhmän valvojat antavat lähettää ryhmään vain {types}."
     },
     {
       "_": "types.LangPackString",
@@ -4634,8 +5013,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Checkout2FAText",
+      "value": "Maksutiedot voi tallentaa vain, jos käytössä on kaksivaiheinen todennus."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "CheckoutNewCardCardholderNamePlaceholder",
       "value": "Kortinhaltijan nimi"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CheckoutNewCardSaveInfoHelp",
+      "value": "Voit tallentaa maksutietosi myöhempää käyttöä varten."
     },
     {
       "_": "types.LangPackString",
@@ -4666,6 +5055,11 @@
       "_": "types.LangPackString",
       "key": "Clear",
       "value": "Tyhjennä"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ClearHistoryMessageSingle",
+      "value": "Haluatko varmasti poistaa käyttäjän {chat} viestit tallennetuista viesteistäsi?"
     },
     {
       "_": "types.LangPackString",
@@ -5014,6 +5408,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ConnectedAccountsLimitSubtitle",
+      "value": "Yhdistä {count} tiliä eri puhelinnumeroilla"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ConnectedAccountsLimitTitle",
       "value": "Yhdistetyt tilit"
     },
@@ -5235,6 +5634,17 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ConversationContextMenuSendGiftTo",
+      "value": "Lähetä lahja käyttäjälle {user}"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "ConversationContextViewReplies",
+      "one_value": "Näytä {count} vastaus",
+      "other_value": "Näytä {count} vastausta"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ConversationDefaultRestrictedMedia",
       "value": "Tähän ryhmään ei saa lähettää mediaa."
     },
@@ -5295,6 +5705,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ConversationShareLinkTooltipChatOne",
+      "value": "Linkki jaettiin käyttäjälle **{user}**"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ConversationStoryForwardTooltipSavedMessagesOne",
+      "value": "Tarina välitettiin **tallennettuihin viesteihin**."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ConversationSuggestedPhotoTitle",
       "value": "Ehdotettu kuva"
     },
@@ -5332,6 +5752,11 @@
       "_": "types.LangPackString",
       "key": "Create",
       "value": "Luo"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateGeneralTopicTitle",
+      "value": "Anna ketjulle nimi"
     },
     {
       "_": "types.LangPackString",
@@ -5382,6 +5807,11 @@
       "_": "types.LangPackString",
       "key": "CreateTopic",
       "value": "Luo ketju"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateTopicTitle",
+      "value": "Valitse ketjulle nimi ja kuvake"
     },
     {
       "_": "types.LangPackString",
@@ -5506,6 +5936,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "DeleteAllFrom",
+      "value": "Poista kaikki käyttäjältä {user}"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "DeleteAllFromUsers",
       "value": "Poista kaikki käyttäjiltä"
     },
@@ -5533,6 +5968,11 @@
       "_": "types.LangPackString",
       "key": "DeleteAndStop",
       "value": "Poista ja estä"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "DeleteBan",
+      "value": "Estä {user} keskustelusta"
     },
     {
       "_": "types.LangPackString",
@@ -5590,6 +6030,11 @@
       "_": "types.LangPackString",
       "key": "DeleteMega",
       "value": "Poista ryhmä"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "DeleteMessagesOptionAlso",
+      "value": "Poista myös käyttäjältä {user}"
     },
     {
       "_": "types.LangPackString",
@@ -5877,6 +6322,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "DoNotTranslateLanguage",
+      "value": "Älä käännä kieltä {language}"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Done",
       "value": "Valmis"
     },
@@ -5887,8 +6337,23 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "DownloadKeepAppOpen",
+      "value": "Lataus on alkanut. Pidäthän sovellusta auki, kunnes lataus on valmis."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "DownloadSizeUnsupported",
+      "value": "Selaimesi ei tue 2 Gt:a suurempien tiedostojen lataamista."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "DownloadSpeedLimited",
       "value": "Latausnopeus rajoitettu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "DownloadSpeedLimitedMessage",
+      "value": "Tilaa **Telegram Premium** nostaaksesi latausnopeuksia {factor}-kertaisesti."
     },
     {
       "_": "types.LangPackString",
@@ -6176,6 +6641,12 @@
       "value": "Taiteilijat voivat lisätä omia emojeitaan @stickers -botin avulla."
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "key": "EmojiCount",
+      "one_value": "{count} emoji",
+      "other_value": "{count} emojia"
+    },
+    {
       "_": "types.LangPackString",
       "key": "EmojiPremiumRestore",
       "value": "Palauta"
@@ -6249,6 +6720,11 @@
       "_": "types.LangPackString",
       "key": "EnableSharing",
       "value": "Salli jakaminen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EnableSomeReactionsInfo",
+      "value": "Tämän ryhmän jäsenet voivat käyttää reaktioihin vain tiettyjä emojeita."
     },
     {
       "_": "types.LangPackString",
@@ -6402,6 +6878,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ErrorChatAdminRequired",
+      "value": "SInun pitää olla keskustelun valvoja tätä varten"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ErrorChatLinkExists",
       "value": "Keskustelu on julkinen, joten sen historiaa ei voi piilottaa uusilta käyttäjiltä"
     },
@@ -6429,6 +6910,11 @@
       "_": "types.LangPackString",
       "key": "ErrorChatSendStickersForbidden",
       "value": "Et saa lähettää tarroja tänne"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorChatWriteForbidden",
+      "value": "Et saa kirjoittaa tänne"
     },
     {
       "_": "types.LangPackString",
@@ -6464,6 +6950,11 @@
       "_": "types.LangPackString",
       "key": "ErrorFreshAdmin",
       "value": "Sinut lisättiin vasta valvojaksi, et saa vielä lisätä tai muokata muita valvojia"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorFreshSessionLogout",
+      "value": "Et voi katkaista muita istuntoja, jos tälle istunnolle kirjautumisesta on alle 24 tuntia"
     },
     {
       "_": "types.LangPackString",
@@ -6527,6 +7018,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ErrorMessageDeleteForbidden",
+      "value": "Joitain poistettavaksi valitsemistasi viesteistä ei ole poistettavissa. Todennäköisesti jokin niistä on palveluviesti."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ErrorMessageEditTimeExpired",
       "value": "Tätä viestiä ei saa enää muokata."
     },
@@ -6555,6 +7051,11 @@
       "_": "types.LangPackString",
       "key": "ErrorNewSaltInvalid",
       "value": "Salasanan tarkistus epäonnistui, yritä uudelleen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorPaidMediaForbidden",
+      "value": "Et saa lähettää maksullista mediaa tänne"
     },
     {
       "_": "types.LangPackString",
@@ -6613,6 +7114,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ErrorPinnedDialogsTooMuch",
+      "value": "Pahoittelut, kiinnitettyjä keskusteluja voi olla vain viisi"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ErrorProviderAccountTimeout",
       "value": "Pyyntö maksupalveluntarjoajalle on vanhentunut"
     },
@@ -6665,6 +7171,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ErrorServiceWorkerDisabled",
+      "value": "Service Worker on pois käytöstä. Median suoratoisto ei välttämättä toimi. Yritä ladata sivu uudelleen painamatta Shiftiä."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ErrorSessionFresh",
       "value": "Turvallisuussyistä sinun tulee joko odottaa vielä {time} tai käyttää vanhempaa istuntoa"
     },
@@ -6675,8 +7186,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ErrorSlowmodeWaitX",
+      "value": "Tässä keskustelussa on hidas tila käytössä. Et voi lähettää toista viestiä ennen kuin olet odottanut jonkin aikaa."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ErrorStargiftConvertTooOld",
       "value": "Tätä lahjaa ei voi enää muuntaa tähdiksi"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorSubscriptionAlreadyActive",
+      "value": "Olet jo tilaaja"
     },
     {
       "_": "types.LangPackString",
@@ -6717,6 +7238,11 @@
       "_": "types.LangPackString",
       "key": "ErrorUserIsBlocked",
       "value": "Tämä käyttäjä on estänyt sinut"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorUserKicked",
+      "value": "Käyttäjä poistettiin superryhmästä/kanavasta"
     },
     {
       "_": "types.LangPackString",
@@ -6765,6 +7291,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ExactTextCopied",
+      "value": "\"{text}\" kopioitiin leikepöydälle"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ExceptionTitlePrivacyChargeForMessages",
       "value": "Maksutta"
     },
@@ -6785,8 +7316,23 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ExpiredStoryMentioned",
+      "value": "Tarinaa, jossa mainitsit käyttäjän {user}, ei ole enää saatavilla"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ExpiredViewsStub",
+      "value": "Katselijalistaa ei voi enää nähdä, jos tarinan erääntymisestä on **24 tuntia**."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "FactCheck",
       "value": "Oikaisu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "FactCheckFooter",
+      "value": "Tämän tarkennuksen lisäsi maasi ({country}) hallituksen osaston asettama faktojen tarkastusvirasto, jonka tarkoituksena on torjua misinformaatiota."
     },
     {
       "_": "types.LangPackString",
@@ -6832,6 +7378,12 @@
       "_": "types.LangPackString",
       "key": "FileTransferProgress",
       "value": "{currentSize} / {totalSize}"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "Files",
+      "one_value": "{count} tiedosto",
+      "other_value": "{count} tiedostoa"
     },
     {
       "_": "types.LangPackString",
@@ -6897,6 +7449,11 @@
       "_": "types.LangPackString",
       "key": "FilterDeleteAlert",
       "value": "Haluatko varmasti poistaa tämän kansion? Siinä olevia keskusteluja ei poisteta."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "FilterDeleteAlertLinks",
+      "value": "Haluatko varmasti poistaa tämän kansion? Kaikki kansioon luodut kutsulinkit lakkaavat myös toimimasta."
     },
     {
       "_": "types.LangPackString",
@@ -7119,6 +7676,11 @@
       "_": "types.LangPackString",
       "key": "FolderLinkSubtitleNew",
       "value": "Haluatko lisätä tämän kansion ja liittyä siinä oleviin keskusteluihin?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "FolderLinkSubtitleRemove",
+      "value": "Haluatko myös poistua tämän kansion keskusteluista?"
     },
     {
       "_": "types.LangPackString",
@@ -7370,6 +7932,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ForwardToAnotherChat",
+      "value": "Välitä toiseen keskusteluun"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ForwardedFrom",
       "value": "Välitetty käyttäjältä"
     },
@@ -7380,8 +7947,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "FragmentPhoneMessage",
+      "value": "Puhelinnumero ostettiin **Fragmentista** {date} hintaan **{amount}** {details}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "FragmentPhoneTitle",
+      "value": "**{phone}** on kerättävä puhelinnumero, jonka omistaa"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "FragmentUsernameMessage",
+      "value": "Käyttäjänimi ostettiin **Fragmentista** {date} hintaan **{amount}** {details}"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "FragmentUsernameOpen",
       "value": "Lue lisää"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "FragmentUsernameTitle",
+      "value": "**{username}** on kerättävä käyttäjänimi, jonka omistaa"
     },
     {
       "_": "types.LangPackString",
@@ -8493,6 +9080,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "GiftPremiumFeaturesTerms",
+      "value": "Voit lukea {link} lisätietoa Telegram Premiumista ja sen eduista."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftPremiumFeaturesTermsLink",
+      "value": "täältä"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "GiftPremiumHeader",
       "value": "Lahjoita Premium"
     },
@@ -8852,6 +9449,35 @@
       "other_value": "{days} päivän päästä voit lähettää tämän keräilyesineen mihin tahansa Telegramin ulkopuoliseen TON-lohkoketjuosoitteeseen myytäväksi tai huutokaupattavaksi."
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "key": "GiveawayCountryLimit",
+      "one_value": "Voit valita {count} maan.",
+      "other_value": "Voit valita enintään {count} maata."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "GiveawayReceiverTypeCountries",
+      "one_value": "{count} maasta",
+      "other_value": "{count} maista"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "GiveawayStarsPrepaidDesc",
+      "one_value": "{count} käyttäjälle",
+      "other_value": "{count} käyttäjälle"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiveawayStarsPrepaidTitle",
+      "value": "{count} Telegram-tähteä"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "GiveawayUserSelectionLimit",
+      "one_value": "Voit valita enintään {count} käyttäjän.",
+      "other_value": "Voit valita enintään {count} käyttäjää."
+    },
+    {
       "_": "types.LangPackString",
       "key": "GiveawayUsersAboutGroup",
       "value": "Valitse, rajoitetaanko arvontaan osallistujia niin, että siihen voi osallistua vain ryhmään arvonnan yhteydessä liittyvät tai tietyistä maasta olevat käyttäjät."
@@ -8914,6 +9540,17 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "GroupBoostBoostToUnrestrict",
+      "value": "Nostata ryhmää ({boostTimes}) ohittaaksesi viestirajoitukset. Nostattamalla autat ryhmää **{chat}** käyttämään lisätoimintoja."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "GroupBoostBoostToUnrestrictTimes",
+      "one_value": "**{count}** kerran",
+      "other_value": "**{count}** kertaa"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "GroupCallContextPinCamera",
       "value": "Kiinnitä videokuva"
     },
@@ -8926,6 +9563,11 @@
       "_": "types.LangPackString",
       "key": "GroupCallScreenShareStop",
       "value": "Lopeta jako"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GroupCallsUnsupported",
+      "value": "Valitettavasti selaimesi ei tue ryhmäpuheluita"
     },
     {
       "_": "types.LangPackString",
@@ -9250,6 +9892,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "HideReadTimeInfo",
+      "value": "Piilottaa, milloin luet viestejä, niiltä käyttäjiltä joille et näytä paikallaoloaikaasi. Jos otat tämän käyttöön, et myöskään näe, milloin he lukevat viestisi (paitsi jos olet Premium-tilaaja).\nTämä asetus ei vaikuta ryhmiin."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "HideSenderNames",
       "value": "Piilota lähettäjien nimet"
     },
@@ -9325,6 +9972,11 @@
       "_": "types.LangPackString",
       "key": "InstalledStickersDynamicPackOrder",
       "value": "Järjestä käytön mukaan"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "InstalledStickersDynamicPackOrderInfo",
+      "value": "Äskettäin käytetyt tarrakokoelmat näkyvät ylempänä."
     },
     {
       "_": "types.LangPackString",
@@ -9508,6 +10160,12 @@
       "_": "types.LangPackString",
       "key": "Language",
       "value": "Kieli"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "Languages",
+      "one_value": "{count} kieli",
+      "other_value": "{count} kieltä"
     },
     {
       "_": "types.LangPackString",
@@ -9723,6 +10381,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "LimitReachedFolderLinks",
+      "value": "Voit luoda vain {limit} kutsulinkkiä.\nRajan voi nostaa **{limit2} linkkiin** tilaamalla **Telegram Premiumin**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LimitReachedFolderLinksLocked",
+      "value": "Voit luoda vain {limit} kutsulinkkiä. Pyrimme nostamaan rajaa tulevaisuudessa."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LimitReachedFolderLinksPremium",
+      "value": "Voit luoda vain {limit} kutsulinkkiä. Kokeile poistaa joitain olemassa olevista ensin."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "LimitReachedFolders",
       "value": "Valitettavasti voit luoda vain **{limit}** kansiota. Voit nostaa rajan **{limit2}** kansioon tilaamalla **Telegram Premiumin**."
     },
@@ -9753,6 +10426,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "LimitReachedPinSavedDialogs",
+      "value": "Voit kiinnittää keskustelulistan yläosaan vain **{limit}** keskustelua. Irrota joitain keskusteluista ensin, tai tilaa **Telegram Premium** nostaaksesi rajan **{limit2}** kiinnitettyyn keskusteluun."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LimitReachedPinnedTopics",
+      "value": "Voit kiinnittää yläreunaan vain {limit} ketjua."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "LimitReachedPublicLinks",
       "value": "Olet varannut liian monta julkista linkkiä. Voit mitätöidä linkkejä joistain vanhemmista ryhmistäsi tai kanavistasi, voit tehdä tästä yksityisen, tai nostaa rajaa **{limit2}** julkiseen linkkiin tilaamalla **Telegram Premiumin**."
     },
@@ -9765,6 +10448,21 @@
       "_": "types.LangPackString",
       "key": "LimitReachedPublicLinksPremium",
       "value": "Olet varannut liian monta julkista linkkiä. Voit mitätöidä linkkejä joistain vanhemmista ryhmistäsi tai kanavistasi, tai voit tehdä tästä yksityisen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LimitReachedSharedFolders",
+      "value": "Voit lisätä vain {limit} jaettua kansiota.\nRajan voi nostaa **{limit2} kansioon** tilaamalla **Telegram Premiumin**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LimitReachedSharedFoldersLocked",
+      "value": "Voit lisätä vain {limit} jaettua kansiota. Pyrimme nostamaan rajaa tulevaisuudessa."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LimitReachedSharedFoldersPremium",
+      "value": "Voit lisätä vain {limit} jaettua kansiota. Poista jokin olemassa olevista ensin."
     },
     {
       "_": "types.LangPackString",
@@ -9828,6 +10526,17 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "LiveLocationUpdatedAtDate",
+      "value": "päivitetty {date}"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "LiveLocationUpdatedHoursAgo",
+      "one_value": "päivitetty {count} tunti sitten",
+      "other_value": "päivitetty {count} tuntia sitten"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "LiveLocationUpdatedJustNow",
       "value": "päivitetty äsken"
     },
@@ -9841,6 +10550,16 @@
       "_": "types.LangPackString",
       "key": "LiveLocationUpdatedTodayAt",
       "value": "päivitetty klo {time}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LiveLocationUpdatedYesterdayAt",
+      "value": "päivitetty eilen klo {time}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LiveStreamUnsupported",
+      "value": "Isoja suoria lähetyksiä ei vielä tueta"
     },
     {
       "_": "types.LangPackString",
@@ -9968,9 +10687,20 @@
       "value": "toukokuu"
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "key": "Media",
+      "one_value": "{count} media",
+      "other_value": "{count} mediaa"
+    },
+    {
       "_": "types.LangPackString",
       "key": "MediaAudioEmpty",
       "value": "Täällä ei ole vielä ääniviestejä"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MediaCounter",
+      "value": "{current} / {total}"
     },
     {
       "_": "types.LangPackString",
@@ -10320,6 +11050,22 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "MessageContainsEmojiPack",
+      "value": "Tässä viestissä on emojeita kokoelmasta {pack}."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "MessageContainsEmojiPacks",
+      "one_value": "Tässä viestissä on emojeita **{count} kokoelmasta**.",
+      "other_value": "Tässä viestissä on emojeita **{count} kokoelmasta**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MessageLockedPremium",
+      "value": "Lähetä viestejä käyttäjälle **{peer}** tilaamalla **Premium**."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "MessageMetaApproximate",
       "value": "noin"
     },
@@ -10357,6 +11103,11 @@
       "_": "types.LangPackString",
       "key": "MessagePreview",
       "value": "Viestin esikatselu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MessageReadAt",
+      "value": "luettu {date}"
     },
     {
       "_": "types.LangPackString",
@@ -10457,6 +11208,12 @@
       "value": "{count} t"
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "key": "MessageTimerShortMinutes",
+      "one_value": "{count} min",
+      "other_value": "{count} min"
+    },
+    {
       "_": "types.LangPackString",
       "key": "MessageTooltipEditedDate",
       "value": "Muokattu: {date}"
@@ -10512,6 +11269,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "MiniAppQrScanUnsupported",
+      "value": "Tämä Telegram-sovellus ei vielä tue QR-koodien skannaamista"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "MiniAppUnavailableError",
       "value": "Pienoissovellus ei käytettävissä"
     },
@@ -10563,6 +11325,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "MonetizationInfoTONLink",
+      "value": "https://telegram.org/privacy"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MonetizationIntroSplitText",
+      "value": "Saat 50% mainospalkkioista grameina."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "MonetizationOverview",
       "value": "Yleiskatsaus tuloista"
     },
@@ -10575,6 +11347,16 @@
       "_": "types.LangPackString",
       "key": "MonetizationProceedsTONInfoLink",
       "value": "https://telegram.org/tos/content-creator-rewards"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MonetizationWithdraw",
+      "value": "Nosta Fragmentilla"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MonetizationWithdrawErrorText",
+      "value": "Voit nostaa vain, jos:\n\n• kaksivaiheinen todennus on ollut käytössä tililläsi vähintään 7 päivää.\n\n• olet ollut kirjautuneena tällä laitteella vähintään 24 tuntia.\n\nKokeile myöhemmin uudelleen."
     },
     {
       "_": "types.LangPackString",
@@ -10670,8 +11452,25 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "MoreSimilarText",
+      "value": "Voit nähdä peräti {limit} samanlaista kanavaa\ntilaamalla **Telegram Premiumin**."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "MuteForDays",
+      "one_value": "Mykistä 1 päiväksi",
+      "other_value": "Mykistä {count} päiväksi"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "MuteForForever",
       "value": "Mykistä ikuisesti"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "MuteForHours",
+      "one_value": "Mykistä 1 tunniksi",
+      "other_value": "Mykistä {count} tunniksi"
     },
     {
       "_": "types.LangPackString",
@@ -10978,6 +11777,11 @@
       "_": "types.LangPackString",
       "key": "NoReplies",
       "value": "Ei vielä vastauksia..."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NoResultFoundFor",
+      "value": "Ei tuloksia haulla \"{query}\"."
     },
     {
       "_": "types.LangPackString",
@@ -11607,6 +12411,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PaymentCheckoutAcceptTerms",
+      "value": "Hyväksyn botin {bot} {link}."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PaymentCheckoutMethod",
       "value": "Maksutapa"
     },
@@ -11637,8 +12446,78 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PaymentConfirmationMessage",
+      "value": "Korttisi {cardName} on tallennettuna. Syötä kaksivaiheisen todennuksen salasanasi maksaaksesi tällä kortilla."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PaymentIncorrectCardNumber",
+      "value": "Väärä kortin numero"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PaymentIncorrectCity",
+      "value": "Väärä kaupunki"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PaymentIncorrectCountry",
+      "value": "Väärä maa"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PaymentIncorrectCvv",
+      "value": "Väärä turvakoodi (CVV)"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PaymentIncorrectEmail",
+      "value": "Väärä sähköpostiosoite"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PaymentIncorrectMonth",
+      "value": "Väärä kuukausi"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PaymentIncorrectName",
+      "value": "Väärä nimi"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PaymentIncorrectPhone",
+      "value": "Väärä puhelinnumero"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PaymentIncorrectPostCode",
+      "value": "Väärä postinumero"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PaymentIncorrectState",
+      "value": "Väärä maakunta/lääni"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PaymentIncorrectStreet",
+      "value": "Väärä katuosoite"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PaymentIncorrectYear",
+      "value": "Väärä vuosi"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PaymentInfoDone",
       "value": "Jatka maksamaan"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PaymentInfoHint",
+      "value": "Maksoit **{amount}** tuotteesta **{title}**."
     },
     {
       "_": "types.LangPackString",
@@ -11744,6 +12623,12 @@
       "_": "types.LangPackString",
       "key": "PeerChannel",
       "value": "kanava"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "PeerInfoAllowedReactionsMaxCountValue",
+      "one_value": "1 reaktio",
+      "other_value": "{count} reaktiota"
     },
     {
       "_": "types.LangPackString",
@@ -12292,6 +13177,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PremiumLastSeenText1Locked",
+      "value": "Näytä oma paikallaoloaikasi nähdäksesi käyttäjän **{user}** ajan."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PremiumLastSeenText2",
+      "value": "Tilaamalla voit nähdä käyttäjän **{user}** viimeisimmän paikallaoloajan näyttämättä omaasi."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PremiumLimitAccounts",
       "value": "Olet kohdannut yhdistettävien tilien määrärajan. Jos haluat lisätä yhden tilin enemmän, voit tilata Telegram Premiumin yhdellä yhdistettävistä tileistä."
     },
@@ -12319,6 +13214,16 @@
       "_": "types.LangPackString",
       "key": "PremiumMore",
       "value": "Lisää"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PremiumNeeded",
+      "value": "Premium vaaditaan!"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PremiumNeededForBoosting",
+      "value": "Vain **Telegram Premium** -tilaajat voivat nostattaa kanavia. Haluatko tilata **Telegram Premiumin**?"
     },
     {
       "_": "types.LangPackString",
@@ -12372,8 +13277,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PremiumPreviewEmojiDescription",
+      "value": "Lisää viesteihisi animoituja emojeita emojikokoelmistasi."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PremiumPreviewEmojiStatus",
       "value": "Emojitilat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PremiumPreviewEmojiStatusDescription",
+      "value": "Valitse yksi tuhansista emojeista näytettäväksi nimesi vieressä."
     },
     {
       "_": "types.LangPackString",
@@ -12399,6 +13314,11 @@
       "_": "types.LangPackString",
       "key": "PremiumPreviewMessagePrivacy",
       "value": "Viestien yksityisyys"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PremiumPreviewMessagePrivacyDescription",
+      "value": "Voit rajoittaa tuntemattomia lähettämästä sinulle viestejä."
     },
     {
       "_": "types.LangPackString",
@@ -12437,6 +13357,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PremiumPreviewReactions2Description",
+      "value": "Reagoi tuhansilla eri emojeilla — vaikka useasti samaan viestiin."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PremiumPreviewReactionsDescription",
       "value": "Premium-tilaajat voivat käyttää erityisiä animoituja reaktioita."
     },
@@ -12467,6 +13392,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PremiumPreviewStoriesDescription",
+      "value": "Ensisijaisuus, piileskelytila, pysyvä katseluhistoria ja muuta."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PremiumPreviewTags",
       "value": "Viestitunnisteet"
     },
@@ -12494,6 +13424,11 @@
       "_": "types.LangPackString",
       "key": "PremiumPreviewTranslations",
       "value": "Välitön käännös"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PremiumPreviewTranslationsDescription",
+      "value": "Kääntää keskusteluiden ja kanavien sisällön muille kielille suoraan."
     },
     {
       "_": "types.LangPackString",
@@ -12537,6 +13472,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PremiumReadText1",
+      "value": "Näytä oma lukuaikasi nähdäksesi käyttäjän **{user}** ajan:"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PremiumReadText2",
+      "value": "Tilaamalla voit nähdä käyttäjän **{user}** lukuajan näyttämättä omaasi."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PremiumStickerTooltip",
       "value": "Tämä kokoelma sisältää tämänlaisia Premium-tarroja."
     },
@@ -12544,6 +13489,21 @@
       "_": "types.LangPackString",
       "key": "PremiumStoriesAboutMobile",
       "value": "* Saatavilla, kun lähetät tarinoita Telegramin Android- tai iOS-sovelluksesta."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PremiumStoriesCaptionDescription",
+      "value": "Lisää 10× pidempiä tekstejä tarinoihisi — peräti 2048 merkkiä."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PremiumStoriesExpirationDescription",
+      "value": "Aseta mukautettuja aikoja kutan 6 tai 48 tuntia."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PremiumStoriesFormattingDescription",
+      "value": "Lisää tarinoidesi tekstiin linkkejä ja muotoilua."
     },
     {
       "_": "types.LangPackString",
@@ -12559,6 +13519,11 @@
       "_": "types.LangPackString",
       "key": "PremiumStoriesSaveToGallery",
       "value": "Tallenna tarinoita galleriaan"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PremiumStoriesSaveToGalleryDescription",
+      "value": "Tallenna muiden tarinoita galleriaasi, jos he antavat."
     },
     {
       "_": "types.LangPackString",
@@ -12601,6 +13566,12 @@
       "value": "Tilaa Telegram Premium käyttääksesi Premium-tarroja."
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "key": "PrepaidGiveawayMonths",
+      "one_value": "{count} kk",
+      "other_value": "{count} kk"
+    },
+    {
       "_": "types.LangPackString",
       "key": "PreviewDeletePhoto",
       "value": "Poista kuva"
@@ -12638,6 +13609,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PricePerMonth",
+      "value": "{amount} / kk"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PrimaryLinkHelp",
       "value": "Kuka tahansa Telegramin käyttäjä voi liittyä ryhmääsi tällä linkillä."
     },
@@ -12665,6 +13641,11 @@
       "_": "types.LangPackString",
       "key": "PrivacyBioTitle",
       "value": "Ketkä näkevät profiilikuvaukseni?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PrivacyBirthday",
+      "value": "Syntymäpäivä"
     },
     {
       "_": "types.LangPackString",
@@ -12858,6 +13839,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PrivacyProfilePhotoPublicPhotoInfo",
+      "value": "Voit lisätä kuvan, jonka näkee käyttäjät, jotka eivät saa nähdä oikeaa profiilikuvaasi."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PrivacyProfilePhotoPublicPhotoSuccess",
+      "value": "Tämä kuva näkyy käyttäjille, jotka eivät saa nähdä oikeaa profiilikuvaasi."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PrivacyProfilePhotoRemovePublicPhoto",
       "value": "Poista julkinen kuva"
     },
@@ -12925,6 +13916,11 @@
       "_": "types.LangPackString",
       "key": "PrivacyVoiceMessages",
       "value": "Ääniviestit"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PrivacyVoiceMessagesInfo",
+      "value": "Voit valita ketkä voivat lähettää sinulle ääniviestejä."
     },
     {
       "_": "types.LangPackString",
@@ -13195,6 +14191,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PushReactText",
+      "value": "{emoji} viestiisi \"{summary}\""
+    },
+    {
+      "_": "types.LangPackString",
       "key": "QrCodeCopied",
       "value": "QR-koodi kopioitiin leikepöydälle."
     },
@@ -13217,6 +14218,11 @@
       "_": "types.LangPackString",
       "key": "QuizPoll",
       "value": "Visa"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QuotePrivate",
+      "value": "Tämä lainaus on yksityisestä keskustelusta."
     },
     {
       "_": "types.LangPackString",
@@ -13558,6 +14564,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ReplyToQuote",
+      "value": "Vastaus: Käyttäjän {senderTitle} lainaus"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Report2Comment",
       "value": "Lisää kommentti"
     },
@@ -13680,6 +14691,11 @@
       "_": "types.LangPackString",
       "key": "ReportStory",
       "value": "Ilmianna tarina"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ReportSubmitError",
+      "value": "Ilmiantoa lähetettäessä tapahtui virhe. Yritä myöhemmin uudelleen."
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -13853,6 +14869,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "RevenueSharingAdsInfo1Subtitle",
+      "value": "Telegramin mainokset eivät käytä henkilökohtaisia tietojasi ja perustuvat pelkästään katselemaasi kanavaan."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "RevenueSharingAdsInfo1Title",
       "value": "Kunnioittavat yksityisyyttäsi"
     },
@@ -13868,8 +14889,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "RevenueSharingAdsInfo3Subtitle",
+      "value": "Voit piilottaa mainokset **Telegram Premium** -tilauksella, ja kanavat, jotka ovat tasolla {level}, voivat poistaa ne tilaajiltaan."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "RevenueSharingAdsInfo3Title",
       "value": "Voidaan poistaa"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RevenueSharingAdsInfo4Subtitle2",
+      "value": "Kuka tahansa voi mainostaa tällä kanavalla — vähilläkin varoilla. **Telegramin mainosalusta** tekee siitä mahdollista. {details}"
     },
     {
       "_": "types.LangPackString",
@@ -15029,6 +16060,18 @@
       "value": "Aseta muistutus"
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "key": "SetTimeoutForDays",
+      "one_value": "Aseta 1 päiväksi",
+      "other_value": "Aseta {count} päiväksi"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "SetTimeoutForHours",
+      "one_value": "Aseta 1 tunniksi",
+      "other_value": "Aseta {count} tunniksi"
+    },
+    {
       "_": "types.LangPackString",
       "key": "SetUp2FA",
       "value": "Ota kaksivaiheinen todennus käyttöön"
@@ -15576,6 +16619,12 @@
       "value": "Käännä koko keskustelut"
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "key": "ShowVotes",
+      "one_value": "Näytä lisää ({count})",
+      "other_value": "Näytä lisää ({count})"
+    },
+    {
       "_": "types.LangPackString",
       "key": "SimilarChannelsLimitSubtitle",
       "value": "Näe peräti {count} samanlaista kanavaa"
@@ -15842,6 +16891,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "StarTransactionCommission",
+      "value": "{percent} palkkio"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "StarTransactionFrom",
       "value": "Maksaja"
     },
@@ -15849,6 +16903,12 @@
       "_": "types.LangPackString",
       "key": "StarsAcquired",
       "value": "Tähdet ostettiin!"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "StarsAcquiredInfo",
+      "one_value": "**{count} tähti** lisättiin saldoosi.",
+      "other_value": "**{count} tähteä** lisättiin saldoosi."
     },
     {
       "_": "types.LangPackString",
@@ -15943,6 +17003,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "StarsIntroTransactionGoogleTopUpSubtitle",
+      "value": "Play Market"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "StarsIntroTransactionGoogleTopUpTitle",
       "value": "Tähtien hankinta"
     },
@@ -15983,8 +17048,23 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "StarsNeededText",
+      "value": "Ostamillasi **tähdillä** pääset Telegramin pienoissovelluksissa (kuten **{user}**) lisäsisältöön ja -palveluihin."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsNeededTextGift",
+      "value": "Ostamillasi **tähdillä** voit lähettää lahjoja käyttäjille kuten **{peer}**."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "StarsNeededTextLink",
       "value": "Ostamillasi **tähdillä** voit jatkaa tilauksiasi kanavilla."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsNeededTextReactions",
+      "value": "Ostamillasi **tähdillä** voit lähettää maksullisia reaktioilla kanavilla niin kuin **{chat}**."
     },
     {
       "_": "types.LangPackString",
@@ -16051,6 +17131,11 @@
       "_": "types.LangPackString",
       "key": "StarsReactionTerms",
       "value": "Lähettämällä tähtiä hyväksyt {link}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsReactionText",
+      "value": "Valitse, montako tähteä **{chat}** saa sinulta tukena tälle viestille."
     },
     {
       "_": "types.LangPackString",
@@ -16137,6 +17222,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "StarsSubscriptionCancelInfo",
+      "value": "Jos perut tilauksen nyt, voit jatkaa sen käyttöä {date} asti."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "StarsSubscriptionCancelledText",
       "value": "Olet perunut tilauksesi."
     },
@@ -16151,6 +17241,17 @@
       "value": "Tilaus onnistui!"
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "key": "StarsSubscriptionCompletedText",
+      "one_value": "{amount} tähti siirrettiin kanavalle **{channel}**.",
+      "other_value": "{amount} tähteä siirrettiin kanavalle **{channel}**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsSubscriptionExpired",
+      "value": "vanheni {date}"
+    },
+    {
       "_": "types.LangPackString",
       "key": "StarsSubscriptionExpiredInfo",
       "value": "Tilauksesi vanheni {date}."
@@ -16159,6 +17260,11 @@
       "_": "types.LangPackString",
       "key": "StarsSubscriptionExpires",
       "value": "vanhenee {date}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsSubscriptionRefulfillInfo",
+      "value": "Poistuit kanavalta, mutta voit yhä palata {date} asti."
     },
     {
       "_": "types.LangPackString",
@@ -16189,6 +17295,11 @@
       "_": "types.LangPackString",
       "key": "StarsSubscriptionUntilRenews",
       "value": "Uusiutuu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsTOSLink",
+      "value": "https://telegram.org/tos"
     },
     {
       "_": "types.LangPackString",
@@ -16299,6 +17410,28 @@
       "_": "types.LangPackString",
       "key": "StarsTransactionsOutgoing",
       "value": "Lähtevät"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsTransferInfo",
+      "value": "Haluatko ostaa tuotteen **{title}** sovelluksessa **{bot}** (hinta: **{amount}**)?"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "StarsTransferPhotos",
+      "one_value": "{count} kuvan",
+      "other_value": "{count} kuvaa"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsTransferUnlockInfo",
+      "value": "Haluatko avata {media} keskustelussa **{chat}** hintaan **{amount}**?"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "StarsTransferVideos",
+      "one_value": "{count} videon",
+      "other_value": "{count} videota"
     },
     {
       "_": "types.LangPackString",
@@ -16429,6 +17562,11 @@
       "_": "types.LangPackString",
       "key": "StatsNoShares",
       "value": "Ei jaettu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StatsStoryInteractionsTitle",
+      "value": "TARINOIDEN VUOROVAIKUTUKSET"
     },
     {
       "_": "types.LangPackString",
@@ -16592,6 +17730,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "StoryCloseFriendsHint",
+      "value": "Näet tämän tarinan, koska **{user}** on lisännyt sinut lähiystäväkseen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryContactsHint",
+      "value": "Vain käyttäjän **{user}** yhteystiedot näkevät tämän tarinan."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "StoryContextRemoveFromProfile",
       "value": "Poista profiilista"
     },
@@ -16607,8 +17755,19 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "StoryHideFrom",
+      "value": "Piilota tarinani käyttäjältä {user}"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "StoryKeep",
       "value": "Pidä sivullani"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "StoryKeepInfo",
+      "one_value": "Pitää tarinan profiilissasi, vaikka se erääntyy {count} tunnissa. Yksityisyysasetuksia sovelletaan silti.",
+      "other_value": "Pitää tarinan profiilissasi, vaikka se erääntyy {count} tunnissa. Yksityisyysasetuksia sovelletaan silti."
     },
     {
       "_": "types.LangPackString",
@@ -16624,6 +17783,21 @@
       "_": "types.LangPackString",
       "key": "StoryListItemActionUnpin",
       "value": "Irrota"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryListSaveToProfile",
+      "value": "Laita profiiliini"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryListSavedEmptyStateTitle",
+      "value": "Ei profiilitarinoita"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryMentionedTitle",
+      "value": "**{peer}** mainitsi sinut tarinassa."
     },
     {
       "_": "types.LangPackString",
@@ -16716,6 +17890,23 @@
       "value": "Kaikille"
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "key": "StoryPrivacyOptionExcludePeople",
+      "one_value": "paitsi {count} henkilö",
+      "other_value": "paitsi {count} henkilöä"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryPrivacyOptionExcludePerson",
+      "value": "paitsi {user}"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "StoryPrivacyOptionPeople",
+      "one_value": "{count} henkilö",
+      "other_value": "{count} henkilöä"
+    },
+    {
       "_": "types.LangPackString",
       "key": "StoryPrivacyOptionSelectedContacts",
       "value": "Valitut yhteystiedot"
@@ -16747,6 +17938,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "StorySelectedContactsHint",
+      "value": "Tämä tarina näkyy vain käyttäjän **{user}** valitsemille käyttäjille."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StorySharedTo",
+      "value": "Tarina välitettiin keskusteluun **{user}**."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "StoryShowBackTo",
       "value": "Näytä tarinani käyttäjälle {user}"
     },
@@ -16759,6 +17960,11 @@
       "_": "types.LangPackString",
       "key": "StoryToastRemovedFromProfileText",
       "value": "Tarina poistettiin profiilistasi"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryToastSavedToProfileText",
+      "value": "Profiiliisi laittamasi tarinat näkyvät siellä muille kunnes poistat ne."
     },
     {
       "_": "types.LangPackString",
@@ -16804,6 +18010,11 @@
       "_": "types.LangPackString",
       "key": "StoryViewListNotFullyRecorded",
       "value": "Muita tämän tarinan katselijoita ei ole kerätty."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryYouMentionedTitle",
+      "value": "Mainitsin käyttäjän {user} tarinassa."
     },
     {
       "_": "types.LangPackString",
@@ -17133,6 +18344,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "TelegramPremiumUserGiftedPremiumOutboundDialogSubtitle",
+      "value": "Käyttäjällä **{user}** on nyt pääsy lisätoimintoihin."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "TelegramPremiumUserStatusDialogSubtitle",
+      "value": "Emojitila on **Telegram Premiumin** tarjoama lisäetu, kuten nämäkin:"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "TelegramStars",
       "value": "Telegram-tähdet"
     },
@@ -17369,6 +18590,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "TranslateToButton",
+      "value": "Käännä → {language}"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "TranslationTone",
       "value": "Käännöstyyli"
     },
@@ -17401,6 +18627,11 @@
       "_": "types.LangPackString",
       "key": "TurnPasswordOff",
       "value": "Poista salasana käytöstä"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "TwoStepAuthConfirmEmailDescription",
+      "value": "Syötä koodi, jonka lähetimme osoitteeseen {recoveryEmail}."
     },
     {
       "_": "types.LangPackString",
@@ -17558,6 +18789,12 @@
       "value": "Näytä lisää sovelluksia"
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "key": "UnlockPaidContent",
+      "one_value": "Avaa (⭐️{count})",
+      "other_value": "Avaa (⭐️{count})"
+    },
+    {
       "_": "types.LangPackString",
       "key": "UnlockPremiumEmojiHint",
       "value": "Voit käyttää tätä emojia tilaamalla **Telegram Premiumin**."
@@ -17609,6 +18846,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "UpgradedStories",
+      "value": "Tarinat"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "UploadImage",
       "value": "Lähetä kuva"
     },
@@ -17616,6 +18858,11 @@
       "_": "types.LangPackString",
       "key": "UploadSpeedLimited",
       "value": "Lähetysnopeutta rajoitettu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UploadSpeedLimitedMessage",
+      "value": "Tilaa **Telegram Premium** nostaaksesi lähetysnopeuksia {factor}-kertaisesti."
     },
     {
       "_": "types.LangPackString",
@@ -17684,6 +18931,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "UserInfoCustomPhotoInfo",
+      "value": "Voit korvata käyttäjän {user} profiilikuvan omalla kuvallasi, joka näkyy vain sinulle."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UserInfoCustomVideo",
+      "value": "asettamasi video"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "UserInfoFirstNamePlaceholder",
       "value": "Etunimi"
     },
@@ -17716,6 +18973,11 @@
       "_": "types.LangPackString",
       "key": "UserInfoResetCustomPhoto",
       "value": "Palauta alkuperäinen kuva"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UserInfoResetToOriginalAlertText",
+      "value": "Haluatko palauttaa käyttäjälle {user} tämän alkuperäisen profiilikuvan?"
     },
     {
       "_": "types.LangPackString",
@@ -17837,6 +19099,11 @@
       "_": "types.LangPackString",
       "key": "UserRestrictionsNoSendPolls",
       "value": "ei kyselyitä"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UserRestrictionsNoSendRound",
+      "value": "ei videoviestejä"
     },
     {
       "_": "types.LangPackString",
@@ -18052,6 +19319,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "VerifyChatInfo",
+      "value": "Tähän keskusteluun tulee vahvistuskoodeja kolmansien osapuolten palveluista."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "VerifyCodesNotifications",
       "value": "Vahvistuskoodit"
     },
@@ -18224,6 +19496,28 @@
       "_": "types.LangPackString",
       "key": "ViewPackPreview",
       "value": "Näytä tarrakokoelma"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "Views",
+      "one_value": "{count} nähnyt",
+      "other_value": "{count} nähnyt"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "Voice",
+      "one_value": "{count} ääniviesti",
+      "other_value": "{count} ääniviestiä"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceChatInactive",
+      "value": "Äänikeskustelu ei ole käynnissä"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceChatJoinFailed",
+      "value": "Äänikeskusteluun ei voitu liittyä"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -19963,5 +21257,5 @@
       "value": "Nimesi"
     }
   ],
-  "version": 360506
+  "version": 360511
 }
