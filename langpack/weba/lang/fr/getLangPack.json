@@ -5320,6 +5320,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "CreateGeneralTopicTitle",
+      "value": "Choisissez le nom du sujet"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "CreateGroupError",
       "value": "Désolé, vous ne pouvez pas créer un groupe avec ces utilisateurs à cause de leurs paramètres de confidentialité."
     },
@@ -6322,8 +6327,58 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ErrorAddressCityInvalid",
+      "value": "La ville que vous avez fournie est invalide."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorAddressCountryInvalid",
+      "value": "Le pays que vous avez fourni est invalide."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorAddressPostcodeInvalid",
+      "value": "Le code postal que vous avez fourni est incorrect."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorAddressStateInvalid",
+      "value": "L'état que vous avez fourni est invalide."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorAddressStreetInvalid",
+      "value": "L'adresse que vous avez fournie est invalide."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorAdminsTooMuch",
+      "value": "Il y a trop d'administrateurs"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorBotGroupsBlocked",
+      "value": "Ce bot ne peut pas être ajouté aux groupes."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ErrorBotPrecheckoutTimeout",
       "value": "Le délai de paiement a expiré"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorBotsTooMuch",
+      "value": "Il y a trop de bots dans cet échange/canal"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorChannelPrivate",
+      "value": "Ce canal est privé"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorChannelsTooMuch",
+      "value": "Vous avez rejoint trop de canaux/supergroupes"
     },
     {
       "_": "types.LangPackString",
@@ -6367,14 +6422,84 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ErrorFreshAdmin",
+      "value": "Vous venez d'être élu administrateur ; vous ne pouvez pas encore ajouter ou modifier d'autres administrateurs."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorFreshSessionLogout",
+      "value": "Vous ne pouvez pas vous déconnecter d'autres sessions moins de 24 heures après vous être connecté à la session en cours."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorImageProcessFailed",
+      "value": "Échec lors du traitement de l'image"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ErrorIncorrectPassword",
       "value": "Mot de passe invalide, veuillez réessayer"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorInputUserDeactivated",
+      "value": "Impossible d'effectuer cette action sur un compte supprimé"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorInviteHashExpired",
+      "value": "Le lien d'invitation a expiré"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorLinkNotModified",
+      "value": "Cette discussion est déjà liée au canal"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorMediaCaptionTooLong",
+      "value": "La légende fournie est trop longue"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorMediaInvalid",
+      "value": "Média non valide"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorMediaNewInvalid",
+      "value": "Échec de remplacement du nouveau média"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorMessageDeleteForbidden",
+      "value": "Vous ne pouvez pas supprimer l'un des messages que vous avez essayé de supprimer, probablement parce qu'il s'agit d'un message de service."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorMessageEditTimeExpired",
+      "value": "Vous ne pouvez plus modifier ce message."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorMessageNotModified",
+      "value": "Le message n'a pas été modifié. Le nouveau contenu est identique à l'actuel."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorMessagePollClosed",
+      "value": "Sondage clos"
     },
     {
       "_": "types.LangPackStringPluralized",
       "key": "ErrorMessageTooLong",
       "one_value": "Le message saisi est trop long. Veuillez supprimer {count} caractère.",
       "other_value": "Le message saisi est trop long. Veuillez supprimer {count} caractères."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorMessageTooLongText",
+      "value": "Le message est trop long"
     },
     {
       "_": "types.LangPackString",
@@ -6428,8 +6553,43 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ErrorPhotoExtInvalid",
+      "value": "L'extension de la photo est invalide"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorPhotoInvalidDimensions",
+      "value": "Les dimensions de la photo sont incorrectes"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorPhotoSaveFileInvalid",
+      "value": "Problèmes internes, veuillez réessayer plus tard"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorPinnedDialogsTooMuch",
+      "value": "Désolé, vous ne pouvez pas épingler plus d'échanges."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ErrorProviderAccountTimeout",
       "value": "La requête au prestataire de paiement a expiré"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorReqInfoEmailInvalid",
+      "value": "L'e-mail que vous avez fournis est invalide."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorReqInfoNameInvalid",
+      "value": "Le nom que vous avez saisi est invalide"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorReqInfoPhoneInvalid",
+      "value": "Le numéro de téléphone que vous avez fourni est invalide."
     },
     {
       "_": "types.LangPackString",
@@ -6455,6 +6615,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ErrorScheduleDateInvalid",
+      "value": "Date de planification non valide fournie"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ErrorSendRestrictedStickersAll",
       "value": "L'envoi d'autocollants n'est pas autorisé dans ce groupe"
     },
@@ -6462,6 +6627,11 @@
       "_": "types.LangPackString",
       "key": "ErrorSessionFresh",
       "value": "Pour des raisons de sécurité, veuillez patienter {time} ou utiliser une session plus ancienne."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorSessionTooFresh",
+      "value": "La session est récente, veuillez réessayer plus tard."
     },
     {
       "_": "types.LangPackString",
@@ -6492,6 +6662,51 @@
       "_": "types.LangPackString",
       "key": "ErrorUrlExpired",
       "value": "Ce lien a expiré"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorUserAlreadyParticipant",
+      "value": "Vous faites déjà partie du groupe"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorUserChannelsTooMuch",
+      "value": "L'un des utilisateurs que vous avez essayé d'ajouter est déjà dans trop de canaux/supergroupes."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorUserIsBlocked",
+      "value": "Vous avez été bloqué par cet utilisateur"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorUserKicked",
+      "value": "Cet utilisateur a été exclu du supergroupe/canal"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorUserNotMutualContact",
+      "value": "L'utilisateur indiqué n'est pas un contact commun."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorUserPrivacyRestricted",
+      "value": "Les paramètres de confidentialité de l'utilisateur ne vous permettent pas cela."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorUsersTooMuch",
+      "value": "Le nombre maximal d'utilisateurs a été dépassé"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorWallpaperDimensionsInvalid",
+      "value": "Les dimensions du fond d'écran sont invalides, veuillez sélectionner un autre fichier"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorYouBlockedUser",
+      "value": "Vous avez bloqué cet utilisateur"
     },
     {
       "_": "types.LangPackString",
@@ -6863,6 +7078,11 @@
       "_": "types.LangPackString",
       "key": "FolderLinkSubtitleNew",
       "value": "Voulez-vous ajouter un nouveau dossier d'échange et rejoindre ses groupes et canaux ?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "FolderLinkSubtitleRemove",
+      "value": "Voulez-vous aussi quitter les échanges inclus dans ce dossier ?"
     },
     {
       "_": "types.LangPackString",
@@ -12684,6 +12904,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PrivacyVoiceMessagesInfo",
+      "value": "Vous pouvez restreindre les personnes qui peuvent vous envoyer des messages vocaux ou vidéo."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PrivacyVoiceMessagesTitle",
       "value": "Qui peut m'envoyer des messages vocaux ou vidéo ?"
     },
@@ -16255,6 +16480,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "StoryContactsHint",
+      "value": "Seuls les contacts de **{user}** peuvent voir cette story."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "StoryContextRemoveFromProfile",
       "value": "Retirer du profil"
     },
@@ -16267,6 +16497,11 @@
       "_": "types.LangPackString",
       "key": "StoryHeaderEdited",
       "value": "modifié"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryHideFrom",
+      "value": "Cacher mes stories pour {user}"
     },
     {
       "_": "types.LangPackString",
@@ -16290,8 +16525,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "StoryListSaveToProfile",
+      "value": "Publier sur mon profil"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "StoryListSavedEmptyStateTitle",
       "value": "Aucune story publiée"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryMentionedTitle",
+      "value": "**{peer}** vous a mentionné dans une story."
     },
     {
       "_": "types.LangPackString",
@@ -16384,6 +16629,23 @@
       "value": "Tout le monde"
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "key": "StoryPrivacyOptionExcludePeople",
+      "one_value": "à part {count} personne",
+      "other_value": "à part {count} personnes"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryPrivacyOptionExcludePerson",
+      "value": "sauf {user}"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "StoryPrivacyOptionPeople",
+      "one_value": "{count} personne",
+      "other_value": "{count} personnes"
+    },
+    {
       "_": "types.LangPackString",
       "key": "StoryPrivacyOptionSelectedContacts",
       "value": "Contacts sélectionnés"
@@ -16407,6 +16669,21 @@
       "_": "types.LangPackString",
       "key": "StoryRibbonMyStory",
       "value": "Ma story"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StorySave",
+      "value": "Enregistrer sur le profil"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StorySharedTo",
+      "value": "Story transférée à **{user}**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryShowBackTo",
+      "value": "Ne pas cacher mes stories pour {user}"
     },
     {
       "_": "types.LangPackString",
@@ -16457,6 +16734,11 @@
       "_": "types.LangPackString",
       "key": "StoryViewListEmptyTextSearch",
       "value": "Aucune vue trouvée"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryYouMentionedTitle",
+      "value": "Tu as mentionné {user} dans une story."
     },
     {
       "_": "types.LangPackString",
@@ -17328,6 +17610,11 @@
     {
       "_": "types.LangPackString",
       "key": "UserInfoCustomPhoto",
+      "value": "photo définie par vous"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UserInfoCustomVideo",
       "value": "photo définie par vous"
     },
     {
@@ -18715,7 +19002,7 @@
     {
       "_": "types.LangPackString",
       "key": "WalletFeatureInstantTitle",
-      "value": "Envoyer de l'argent instantanément"
+      "value": "Transferts instantanés"
     },
     {
       "_": "types.LangPackString",
@@ -18725,7 +19012,7 @@
     {
       "_": "types.LangPackString",
       "key": "WalletFeatureNoFeesTitle",
-      "value": "Pas de frais"
+      "value": "Zéro frais"
     },
     {
       "_": "types.LangPackString",
@@ -19602,5 +19889,5 @@
       "value": "Votre nom"
     }
   ],
-  "version": 360523
+  "version": 362478
 }

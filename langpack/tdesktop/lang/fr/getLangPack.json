@@ -1986,6 +1986,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_action_no_paid_token_used",
+      "value": "{from} a lancé un échange via votre lien de message gratuit"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_action_not_enough_funds",
       "value": "La transaction a échoué."
     },
@@ -2723,6 +2728,11 @@
       "_": "types.LangPackString",
       "key": "lng_action_you_joined_by_request_channel",
       "value": "Votre demande d'adhésion au canal a été approuvée"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_you_no_paid_token_used",
+      "value": "Vous avez lancé un échange via un lien de message gratuit"
     },
     {
       "_": "types.LangPackString",
@@ -4426,6 +4436,16 @@
       "_": "types.LangPackString",
       "key": "lng_animated_emoji_saved_open",
       "value": "Ouvrir"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_animated_emoji_subscribe",
+      "value": "Abonnez-vous à {link} pour débloquer cet emoji."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_animated_emoji_subscribe_link",
+      "value": "Telegram Premium"
     },
     {
       "_": "types.LangPackString",
@@ -10794,6 +10814,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_contact_link_invalid",
+      "value": "Ce lien est invalide ou a expiré."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_contact_mobile_hidden",
       "value": "Numéro caché"
     },
@@ -11117,6 +11142,11 @@
       "_": "types.LangPackString",
       "key": "lng_context_copy_text",
       "value": "Copier le texte"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_context_copy_text_from_image",
+      "value": "—Texte de l'image—"
     },
     {
       "_": "types.LangPackString",
@@ -11732,6 +11762,21 @@
       "_": "types.LangPackString",
       "key": "lng_context_translate_selected",
       "value": "Traduire le texte sélectionné"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_context_unban_done",
+      "value": "L'utilisateur n'est plus banni"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_context_unban_sure",
+      "value": "Débannir {user} dans ce groupe ?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_context_unban_user",
+      "value": "Débannir"
     },
     {
       "_": "types.LangPackString",
@@ -16475,13 +16520,38 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_folder_archive_deselect",
+      "value": "Désélectioner"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_folder_archive_failed",
       "value": "création d'archive échouée"
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_folder_archive_pack",
+      "value": "Compresser en archive ZIP"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_folder_archive_pack_selected",
+      "value": "Compresser la sélection en ZIP"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_folder_archive_select",
+      "value": "Sélectionner"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_folder_archive_status",
       "value": "Archive ZIP"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_folder_archive_unpack",
+      "value": "Décompresser l'archive"
     },
     {
       "_": "types.LangPackString",
@@ -17611,6 +17681,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_gift_delete_sure_text",
+      "value": "Voulez-vous supprimer ce cadeau ?\n\nIl disparaîtra de votre profil et ne pourra pas être récupéré."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_deleted",
+      "value": "Cadeau supprimé"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_gift_display_done",
       "value": "Ce cadeau est désormais affiché sur votre page de profil."
     },
@@ -17869,6 +17949,11 @@
       "_": "types.LangPackString",
       "key": "lng_gift_many_pinned_title",
       "value": "Trop de cadeaux épinglés"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_menu_delete",
+      "value": "Supprimer le cadeau"
     },
     {
       "_": "types.LangPackString",
@@ -18503,6 +18588,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_gift_stars_on_card",
+      "value": "Sur carte"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_gift_stars_on_sale",
       "value": "en vente"
     },
@@ -18688,6 +18778,76 @@
       "_": "types.LangPackString",
       "key": "lng_gift_transfer_title",
       "value": "Transférer à {name}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_transfer_to_gifts",
+      "value": "Déplacer vers mes cadeaux"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_transfer_to_gifts_appear",
+      "value": "Il paraîtra dans"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_transfer_to_gifts_button",
+      "value": "Tranférer"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_transfer_to_gifts_done",
+      "value": "Cadeau transféré sur votre compte."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_transfer_to_gifts_path_icons",
+      "value": "{profile} {arrow} {gifts}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_transfer_to_gifts_text",
+      "value": "Transférer cet objet de collection hors chaîne vers votre compte Telegram ?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_transfer_to_wallet",
+      "value": "Transférer vers mon portefeuille"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_transfer_to_wallet_appear",
+      "value": "Il paraîtra dans"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_transfer_to_wallet_button",
+      "value": "Déplacer"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_transfer_to_wallet_done",
+      "value": "Cadeau transféré dans votre portefeuille."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_transfer_to_wallet_keep_on_profile",
+      "value": "Toujours afficher sur mon profil"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_transfer_to_wallet_path_icons",
+      "value": "{menu} {arrow} {money} {arrow_next} {collectibles}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_transfer_to_wallet_text",
+      "value": "Transférer ce cadeau vers votre portefeuille blockchain ?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_transfer_to_wallet_view",
+      "value": "Voir"
     },
     {
       "_": "types.LangPackString",
@@ -20724,6 +20884,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_group_call_screen",
+      "value": "Écran"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_group_call_screen_share_audio",
       "value": "Partager le son du système"
     },
@@ -22420,6 +22585,251 @@
       "key": "lng_jump_unread_count",
       "one_value": "{count} non lu",
       "other_value": "{count} non lus"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_alt_text_select",
+      "value": "Sélectionner le texte au lieu d'ouvrir les liens"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_attach",
+      "value": "Joindre un fichier"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_autoscroll",
+      "value": "Défilement automatique de l'échange"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_chat_switcher",
+      "value": "Changement rapide d'échange"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_click",
+      "value": "Cliquez"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_drag",
+      "value": "Glissez"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_edit_last",
+      "value": "Modifier le dernier message"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_extend_selection",
+      "value": "Étendre la sélection de texte"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_folder_numbers",
+      "value": "Ouvrir le dossier par numéro"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_hold",
+      "value": "Maintenir"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_iv_close",
+      "value": "Fermer l'aperçu instantané"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_iv_search",
+      "value": "Rechercher sur la page"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_iv_zoom",
+      "value": "Agrandir la page"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_iv_zoom_reset",
+      "value": "Réinitialiser le zoom"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_media_2x",
+      "value": "2 fois plus rapide"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_media_chapter_next",
+      "value": "Chapitre suivant"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_media_chapter_prev",
+      "value": "Chapitre précédent"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_media_double",
+      "value": "Passer en mode plein écran"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_media_escape",
+      "value": "Fermer le lecteur"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_media_fit",
+      "value": "Ajuster à l'écran"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_media_flip",
+      "value": "Retourner la photo horizontalement ou verticalement"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_media_frame",
+      "value": "Avance image par image en mode pause"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_media_fullscreen",
+      "value": "Passer en mode plein écran"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_media_fullscreen_escape",
+      "value": "Quitter le mode plein écran"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_media_hold",
+      "value": "Accélérez la lecture, faites glisser pour régler la vitesse"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_media_nav",
+      "value": "Média précédent ou suivant"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_media_pause",
+      "value": "Mettre en pause ou reprendre"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_media_percent",
+      "value": "Aller directement à 0 à 90 % de la vidéo"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_media_play",
+      "value": "Lire ou mettre en pause"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_media_save",
+      "value": "Enregistrer média"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_media_seek",
+      "value": "Rechercher en arrière ou en avant"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_media_zoom",
+      "value": "Zoomer ou dézoomer"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_media_zoom_reset",
+      "value": "Réinitialiser le zoom"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_new_window",
+      "value": "Ouvrir l'échange dans une nouvelle fenêtre"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_open",
+      "value": "Afficher ces raccourcis"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_paste_plain",
+      "value": "Coller en tant que texte brut"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_pinned_chats",
+      "value": "Ouvrir un échange épinglée par son numéro"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_quick_preview",
+      "value": "Afficher un aperçu rapide de l'échange"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_reply_next",
+      "value": "Répondre au message suivant"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_reply_prev",
+      "value": "Répondre au message précédent"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_section_chats",
+      "value": "Liste d'échanges"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_section_compose",
+      "value": "Écrire des messages"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_section_fullscreen",
+      "value": "Vidéo en plein écran"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_section_general",
+      "value": "Général"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_section_iv",
+      "value": "Aperçu éclair"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_section_media",
+      "value": "Lecteur média"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_section_messages",
+      "value": "Messages"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_title",
+      "value": "Raccourcis et gestes"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_wheel",
+      "value": "Roue"
     },
     {
       "_": "types.LangPackString",
@@ -25638,6 +26048,96 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_no_paid_token_applied",
+      "value": "Vous pouvez désormais contacter {user} gratuitement."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_no_paid_token_invalid",
+      "value": "Ce lien de messages gratuits est invalide ou a expiré."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_no_paid_token_menu_disable_timer",
+      "value": "Désactiver le minuteur"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_no_paid_token_menu_disable_timer_about",
+      "value": "Reste gratuit, sans limite"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_no_paid_token_menu_enable_timer",
+      "value": "Activer le minuteur"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_no_paid_token_menu_enable_timer_about",
+      "value": "Expire dans 1 minute"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_no_paid_token_menu_reset",
+      "value": "Réinitialiser"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_no_paid_token_menu_restore",
+      "value": "Rétablir les frais de messages"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_no_paid_token_pill_permanent",
+      "value": "Gratuit · Sans limite de durée"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_no_paid_token_pill_remove_fee",
+      "value": "Supprimer les frais de {emoji}{amount}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_no_paid_token_pill_temporary",
+      "value": "Gratuit · Expire dans {time}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_no_paid_token_toast_expired",
+      "value": "Code expiré, frais rétablis"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_no_paid_token_toast_expires",
+      "value": "Ce code expirera dans {duration}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_no_paid_token_toast_expiring",
+      "value": "Ce code est sur le point d'expirer."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_no_paid_token_toast_permanent",
+      "value": "Le code reste gratuit, sans limite de durée"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_no_paid_token_toast_reset",
+      "value": "Nouveau code créé"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_no_paid_token_toast_restored",
+      "value": "Frais de message rétablis"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_no_paid_token_user_invalid",
+      "value": "Ce lien de messages gratuits ne fonctionne pas."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_no_saved_sublists",
       "value": "Vous pouvez enregistrer les messages d’autres échanges ici."
     },
@@ -27749,6 +28249,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_peer_qr_link_expiring",
+      "value": "Ce lien est sur le point d'expirer."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_peer_qr_link_unavailable",
+      "value": "Ce lien est indisponible. Veuillez scanner à nouveau le code QR pour réessayer."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_phone_desc",
       "value": "Veuillez confirmer l'indicatif de votre pays\net entrez votre numéro de téléphone."
     },
@@ -27791,6 +28301,11 @@
       "_": "types.LangPackString",
       "key": "lng_photo_editor_corners_about",
       "value": "Choisissez le degré d'arrondi des coins de l'autocollant."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_corners_circle",
+      "value": "Cercle"
     },
     {
       "_": "types.LangPackString",
@@ -27961,6 +28476,11 @@
       "_": "types.LangPackString",
       "key": "lng_photo_editor_keys_legend",
       "value": "Afficher ces raccourcis"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_middle_click",
+      "value": "Clic du milieu"
     },
     {
       "_": "types.LangPackString",
@@ -31339,8 +31859,38 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_qr_box_colors",
+      "value": "Couleurs"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_qr_box_emoji",
+      "value": "Emoji"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_qr_box_font_size",
       "value": "Taille de la police"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_qr_box_gifts",
+      "value": "Cadeaux"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_qr_box_gifts_browse",
+      "value": "Voir les cadeaux"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_qr_box_gifts_empty_about",
+      "value": "Utilisez n'importe quel objet de collection que vous possédez\npour personnaliser votre code QR."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_qr_box_gifts_empty_title",
+      "value": "Aucun cadeau pour l'instant"
     },
     {
       "_": "types.LangPackString",
@@ -37378,6 +37928,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_shortcuts_reset_sure",
+      "value": "Voulez-vous vraiment réinitialiser tous les raccourcis clavier à leurs valeurs par défaut ?"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_shortcuts_rich_editor",
       "value": "Ouvrir l'éditeur d'articles"
     },
@@ -38179,6 +38734,16 @@
       "_": "types.LangPackString",
       "key": "lng_sr_from_me",
       "value": "Moi"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_sr_group_call_column_hide",
+      "value": "Cacher les participants"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_sr_group_call_column_show",
+      "value": "Afficher les participants"
     },
     {
       "_": "types.LangPackString",
@@ -42127,6 +42692,36 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_url_auth_wallet_about",
+      "value": "{bot} demande de connecter votre portefeuille à ce site. Le site aura accès à votre adresse TON, votre solde et votre historique d'activité, mais ne pourra pas transférer de fonds sans votre autorisation. La connexion entraîne la création d'une signature d'authentification, et non d'un transfert."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_url_auth_wallet_connect",
+      "value": "Connecter le portefeuille"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_url_auth_wallet_label",
+      "value": "Portefeuille"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_url_auth_wallet_no_key",
+      "value": "Cet appareil ne contient pas la clé actuelle de ce portefeuille. {link} pour le connecter."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_url_auth_wallet_no_key_link",
+      "value": "Restaurer la clé"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_url_auth_wallet_reserved",
+      "value": "L'accès au portefeuille ne peut pas être autorisé sur ce site."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_user_action_choose_sticker",
       "value": "{user} choisit un autocollant"
     },
@@ -42647,7 +43242,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_wallet_about_fees_title",
-      "value": "Pas de frais"
+      "value": "Zéro frais"
     },
     {
       "_": "types.LangPackString",
@@ -42657,7 +43252,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_wallet_about_instant_title",
-      "value": "Envoyer de l'argent instantanément"
+      "value": "Transferts instantanés"
     },
     {
       "_": "types.LangPackString",
@@ -42851,6 +43446,72 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_card_add",
+      "value": "Ajouter à la carte"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_card_apply_color",
+      "value": "Appliquer la couleur"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_card_color_and_last",
+      "value": "{all} et {one}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_card_color_and_one",
+      "value": "{all}, {one}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_card_color_not_allowed",
+      "value": "Ce cadeau ne peut pas être défini comme fond de la carte."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_card_color_only",
+      "value": "Seuls les cadeaux {collections} peuvent être utilisés pour changer la couleur de votre carte."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_card_drag_hint",
+      "value": "Glissez cet objet de collection sur une carte pour la décorer."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_wallet_card_limit",
+      "one_value": "Vous pouvez ajouter jusqu'à {count} cadeaux sur votre carte.",
+      "other_value": "Vous pouvez ajouter jusqu'à {count} cadeaux sur votre carte."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_card_not_ready",
+      "value": "Votre carte n'est pas prête à être modifiée. Veuillez réessayer."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_card_remove",
+      "value": "Supprimer de la carte"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_card_remove_color",
+      "value": "Supprimer la couleur"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_card_save_error",
+      "value": "Impossible d'enregistrer votre carte"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_card_saved_profile",
+      "value": "Ce cadeau apparaît sur votre profil. Masquez-le pour l'ajouter à votre carte."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_chip_gift",
       "value": "Cadeau de collection"
     },
@@ -42898,6 +43559,11 @@
       "_": "types.LangPackString",
       "key": "lng_wallet_collectible_send",
       "value": "Envoyer {name}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_collectible_show_in_gifts",
+      "value": "afficher également dans mes cadeaux"
     },
     {
       "_": "types.LangPackString",
@@ -43302,6 +43968,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_details_moved_from_profile",
+      "value": "Déplacé du profil"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_moved_to_profile",
+      "value": "Déplacé sur le profil"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_details_open_wallet",
       "value": "Ouvrir mon argent"
     },
@@ -43620,6 +44296,32 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_profile_balance",
+      "value": "Solde :"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_profile_balance_none",
+      "value": "{name} n'a pas encore de Grams."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_wallet_profile_balance_owns",
+      "one_value": "{name} détient {amount} Gram sur la blockchain TON.",
+      "other_value": "{name} détient {amount} Grams sur la blockchain TON."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_profile_balance_public",
+      "value": "Votre solde est public grâce à la transparence de la blockchain."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_profile_how_works",
+      "value": "Comment ça marche ?"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_profile_send_money",
       "value": "Envoyer de l'argent"
     },
@@ -43886,6 +44588,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_row_moved_from_profile",
+      "value": "déplacé du profil"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_moved_to_profile",
+      "value": "déplacé sur le profil"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_row_outgoing",
       "value": "Transfert sortant"
     },
@@ -43893,6 +44605,11 @@
       "_": "types.LangPackString",
       "key": "lng_wallet_row_sending",
       "value": "Envoi"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_telegram",
+      "value": "Telegram"
     },
     {
       "_": "types.LangPackString",
@@ -44215,5 +44932,5 @@
       "other_value": "Vous avez payé {count} étoiles."
     }
   ],
-  "version": 5950376
+  "version": 5997894
 }
