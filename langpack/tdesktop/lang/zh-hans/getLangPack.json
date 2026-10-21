@@ -4935,6 +4935,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_attach_audio",
+      "value": "音频"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_attach_camera",
       "value": "相机"
     },
@@ -9122,6 +9127,11 @@
       "_": "types.LangPackString",
       "key": "lng_chatbots_warning_username_text",
       "value": "机器人 {bot} 将有权对您的账户 **设置和移除用户名**，这可能会导致您丢失目前的用户名。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_choose_audio",
+      "value": "选择音频文件"
     },
     {
       "_": "types.LangPackString",
@@ -17941,7 +17951,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_gift_send_message_restricted",
-      "value": "该用户不接受附带消息的礼物。请移除消息后重试。"
+      "value": "此用户不接受有附言的礼物。请删除附言后再试一次。"
     },
     {
       "_": "types.LangPackString",
@@ -27180,6 +27190,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_photo_editor_audio_remove",
+      "value": "移除音频"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_photo_editor_corners_about",
       "value": "选择贴纸角部的圆角程度。"
     },
@@ -27252,6 +27267,11 @@
       "_": "types.LangPackString",
       "key": "lng_photo_editor_keep_ratio",
       "value": "保持原始宽高比"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_link_customize",
+      "value": "自定义链接文本"
     },
     {
       "_": "types.LangPackString",
@@ -35115,6 +35135,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_settings_passcode_lock_off_wallet",
+      "value": "此锁定码仅用于确认交易，而非打开您的钱包。"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_settings_passcode_title",
       "value": "本机锁定码"
     },
@@ -38057,6 +38082,16 @@
       "_": "types.LangPackString",
       "key": "lng_start_msgs",
       "value": "开始聊天"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_stash_files_limit",
+      "value": "暂存文件数量过多或过大。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_stash_hint",
+      "value": "按下 {shortcut} 将此草稿暂存。"
     },
     {
       "_": "types.LangPackString",
@@ -41550,13 +41585,58 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_about_chain_text",
+      "value": "所有交易都会被记录下来，并可在公开账本上进行验证。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_about_chain_title",
+      "value": "经区块链验证"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_wallet_about_fees_text",
+      "other_value": "每天前 {count} 笔转账免费，其余转账费用也几乎可以忽略不计。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_about_fees_title",
+      "value": "免手续费"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_about_instant_text",
+      "value": "在任何聊天中发送 Gram，就像分享照片一样简单。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_about_instant_title",
+      "value": "即时转账"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_add_funds",
+      "value": "充值"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_backup_cancel_title",
       "value": "是否保留备份？"
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_buy_button",
+      "value": "用现金或加密货币购买"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_chip_number",
       "value": "典藏号码"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_currency_title",
+      "value": "选择货币"
     },
     {
       "_": "types.LangPackString",
@@ -41600,13 +41680,148 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_earnings_existing",
+      "value": "您的 Gram 收益中还有 {amount}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_first_rate",
+      "value": "1 Gram 目前等于 {amount}。\n您可以："
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_first_send_title",
+      "value": "转账"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_first_title",
+      "value": "您的第一笔 Gram！"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_how_menu",
       "value": "什么是钱包？"
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_how_subtitle",
+      "value": "只有您能掌控您的资金——其他人无法存取。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_how_title",
+      "value": "运作原理"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_intro_text",
+      "value": "Gram —— Telegram 的数字货币"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_menu",
+      "value": "钱包"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_menu_currency",
+      "value": "货币"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_about",
+      "value": "选择如何在此设备上保护您的资金。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_open",
+      "value": "不再要求输入锁定码"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_open_about",
+      "value": "任何能够访问您 Telegram 账号的人都可以动用您的资金。"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_protection_open_confirm",
       "value": "仍然保存"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_open_title",
+      "value": "是否不设置密码进行存储？"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_open_warning_nolock",
+      "value": "任何能够访问这台电脑的人都可能窃取您钱包中的资金。\n\n您可以稍后在钱包菜单的“密码锁定”中更改此设置。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_passcode",
+      "value": "要求本地锁定码"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_passcode_about",
+      "value": "所有支出均需使用 Telegram 锁定码确认。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_passcode_keep",
+      "value": "继续要求输入此锁定码"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_removal_about",
+      "value": "选择移除锁定码后如何保护您的资金。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_removal_wallets",
+      "value": "这将应用于 {accounts} 的钱包。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_title",
+      "value": "密码锁"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_receive_about",
+      "value": "分享您的地址或此二维码以接收 GRAM。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_receive_copy_hint",
+      "value": "点击复制地址"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_incoming",
+      "value": "转入"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_outgoing",
+      "value": "转出"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_rows_hidden_below",
+      "value": "金额低于 {amount} Gram 的交易已隐藏。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_rows_title",
+      "value": "转账"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_title",
+      "value": "发送 Gram"
     },
     {
       "_": "types.LangPackString",
@@ -41617,6 +41832,11 @@
       "_": "types.LangPackString",
       "key": "lng_wallet_send_user_wallet_title",
       "value": "{name} 的钱包"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_unavailable",
+      "value": "此账号无法使用钱包。"
     },
     {
       "_": "types.LangPackString",
@@ -41749,5 +41969,5 @@
       "other_value": "您支付了 {count} 颗星星。"
     }
   ],
-  "version": 5955214
+  "version": 5984782
 }

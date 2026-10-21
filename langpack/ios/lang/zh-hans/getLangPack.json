@@ -2141,7 +2141,7 @@
     {
       "_": "types.LangPackString",
       "key": "Attachment.Money",
-      "value": "资金"
+      "value": "钱包"
     },
     {
       "_": "types.LangPackString",
@@ -20615,6 +20615,31 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "CreateBot.UsernameEnding",
+      "value": "'%@'"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBot.UsernameEndingDelimiter",
+      "value": ", "
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBot.UsernameEndingFinalDelimiter",
+      "value": "或"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBot.UsernameHint",
+      "value": "必须以「%1$@」结尾——或有 **Telegram 高级版** 订阅的情况下，可以「%2$@」结尾。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBot.UsernameHintFree",
+      "value": "必须以「%@」结尾。"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "CreateBot.UsernameStatus.Checking",
       "value": "检查中..."
     },
@@ -20635,13 +20660,38 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "CreateBot.UsernameStatus.Long",
+      "value": "用户名长度不能超过 32 个字元。"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "CreateBot.UsernameStatus.Number",
       "value": "用户名不能以数字开头。"
     },
     {
       "_": "types.LangPackString",
+      "key": "CreateBot.UsernameStatus.PremiumRequired",
+      "value": "使用以「%@」结尾的用户需要订阅 Telegram 高级版。"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "CreateBot.UsernameStatus.Short",
       "value": "用户名必须至少有 5 个字元。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBot.UsernameStatus.Subscribe",
+      "value": "订阅 >"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBot.UsernameStatus.SuffixLimit",
+      "value": "您的所有机器人中，最多只能拥有 %1$@ 个以「%2$@」结尾的用户名。"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "CreateBot.UsernameStatus.SuffixLimitCount",
+      "other_value": "%d 个用户名"
     },
     {
       "_": "types.LangPackString",
@@ -24550,6 +24600,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift.Delete.Success",
+      "value": "礼物已删除"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Delete.Text",
+      "value": "要删除这份礼物吗？\n\n它将从你的个人资料中消失，且无法恢复。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Delete.Title",
+      "value": "删除礼物"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gift.Demo.Description",
       "value": "礼物是可以交易或在个人资料页上展示的典藏品。"
     },
@@ -24672,6 +24737,46 @@
       "_": "types.LangPackString",
       "key": "Gift.Message.YourMessage",
       "value": "请输入消息…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.MoveToGifts.Success",
+      "value": "礼物已转入你的账号。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.MoveToGifts.Text",
+      "value": "要将此收藏品通过链下方式转移到你的 Telegram 账号吗？"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.MoveToGifts.Title",
+      "value": "移至我的礼物"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.MoveToWallet.Location",
+      "value": "它将出现在"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.MoveToWallet.Move",
+      "value": "移动"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.MoveToWallet.Success",
+      "value": "礼物已转入您的钱包。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.MoveToWallet.Text",
+      "value": "请将这份礼物转入您的区块链钱包？"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.MoveToWallet.Title",
+      "value": "移至我的钱包"
     },
     {
       "_": "types.LangPackString",
@@ -25330,6 +25435,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift.Transfer.MoveToGifts",
+      "value": "移至我的礼物"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Transfer.MoveToWallet",
+      "value": "移至我的钱包"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gift.Transfer.SendUnlocks",
       "value": "%@ 天后解锁"
     },
@@ -25920,6 +26035,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift.View.Context.Delete",
+      "value": "删除礼物"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.View.Context.HideFromProfile",
+      "value": "从个人资料中隐藏"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gift.View.Context.SetAsTheme",
       "value": "应用主题到..."
     },
@@ -25927,6 +26052,11 @@
       "_": "types.LangPackString",
       "key": "Gift.View.Context.Share",
       "value": "分享"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.View.Context.ShowOnProfile",
+      "value": "在个人资料中显示"
     },
     {
       "_": "types.LangPackString",
@@ -30246,7 +30376,7 @@
     {
       "_": "types.LangPackString",
       "key": "Login.ContinueWithLocalization",
-      "value": "继续使用中文（简体）"
+      "value": "使用简体中文继续"
     },
     {
       "_": "types.LangPackString",
@@ -34937,6 +35067,16 @@
       "_": "types.LangPackString",
       "key": "Notification.NewAuthDetected",
       "value": "%1$@，\n我们发现您的帐号在 %3$@%2$@ %4$@ 从新的设备登录\n\n设备：%5$@\n位置：%6$@\n\n如果这不是您本人，您可以前往「Telegram 设置 > 隐私和安全 > 活动会话」中将该对话进行注销。\n\n如果您认为其他人在您不知情的情况下登录了您的账号，您可以在「Telegram 设置 > 隐私和安全」中开启「两步验证」。\n\n此致，\nTelegram 团队"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.NoPaidMessagesTokenUsed",
+      "value": "%@ 通过你的链接免费给你发了消息。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.NoPaidMessagesTokenUsedYou",
+      "value": "你通过 %@ 的链接免费发送了消息。"
     },
     {
       "_": "types.LangPackString",
@@ -45070,6 +45210,151 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "QrStudio.Colors.Profile",
+      "value": "颜色"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Colors.Themes",
+      "value": "主题"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Gifts.Browse",
+      "value": "浏览礼物"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Gifts.EmptyText",
+      "value": "使用你拥有的任何收藏品来设计你的二维码。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Gifts.EmptyTitle",
+      "value": "目前还没有礼物"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Gifts.Title",
+      "value": "收藏品"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Menu.DisableTimer",
+      "value": "禁用计时器"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Menu.DisableTimerInfo",
+      "value": "永久免费，无时间限制"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Menu.Expire",
+      "value": "1 分钟内有效"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Menu.Reset",
+      "value": "重置二维码"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Menu.Restore",
+      "value": "恢复消息费用"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.NoPaidToken.Imported",
+      "value": "您现在可以免费向 %@ 发送消息。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.NoPaidToken.Invalid",
+      "value": "此免费消息链接无效或已过期。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Pill.ExpiresIn",
+      "value": "%@ 后过期"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Pill.Free",
+      "value": "免费"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Pill.Permanent",
+      "value": "永久"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Pill.RemoveFee",
+      "value": "移除 %@ 费用"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Share.CopyLink",
+      "value": "复制链接"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Share.Share",
+      "value": "分享…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Toast.Expires",
+      "value": "此二维码将在 1 分钟后过期。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Toast.Failed",
+      "value": "发生错误. 请稍后再试."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Toast.FeeRemoved",
+      "value": "现在发送带有此二维码的消息免费。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Toast.FeeRestored",
+      "value": "你的消息费用将再次收取。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Toast.ImageSaved",
+      "value": "图片已保存至相册。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Toast.LinkCopied",
+      "value": "链接已复制到剪贴板。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Toast.NewCode",
+      "value": "新代码已创建，旧代码已失效。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Toast.Permanent",
+      "value": "此二维已失效。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Toast.PremiumEmoji",
+      "value": "订阅高级版即可使用所有表情符号。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Toast.Subscribe",
+      "value": "订阅"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "QuickReplies.EmptyState.AddButton",
       "value": "添加快速回复"
     },
@@ -46285,6 +46570,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "RichText.MenuButtonInline",
+      "value": "内联"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "RichText.MenuButtonRow",
       "value": "按钮行"
     },
@@ -46297,6 +46587,16 @@
       "_": "types.LangPackString",
       "key": "RichText.MenuFormula",
       "value": "公式"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.MenuFormulaInline",
+      "value": "内联"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.MenuFormulaStandalone",
+      "value": "独立"
     },
     {
       "_": "types.LangPackString",
@@ -48616,6 +48916,26 @@
     {
       "_": "types.LangPackString",
       "key": "ShareMenu.ShareTo",
+      "value": "分享给"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShareScreen.Caption",
+      "value": "添加说明..."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShareScreen.CreateGroupTooltip",
+      "value": "创建群组并分享"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShareScreen.RecentChats",
+      "value": "最近聊天"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShareScreen.Title",
       "value": "分享给"
     },
     {
@@ -52430,6 +52750,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Story.Editor.DownloadingMedia",
+      "value": "正在从 iCloud 下载..."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Story.Editor.DraftDiscaedText",
       "value": "如果没有保存就返回，您将丢失所做的任何更改。"
     },
@@ -52472,6 +52797,16 @@
       "_": "types.LangPackString",
       "key": "Story.Editor.InputPlaceholderAddCaption",
       "value": "添加说明文字…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.Editor.MediaUnavailable",
+      "value": "此媒体文件未保存在您的设备上，也无法从 iCloud 下载。请检查您的网络连线并重试。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.Editor.MediaUnavailableSomeSkipped",
+      "value": "部分媒体文件未保存在您的设备上，也无法从 iCloud 下载。我们将仅发表可下载的文件。"
     },
     {
       "_": "types.LangPackString",
@@ -58850,6 +59185,31 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Collectible.AlsoShowInMyGifts",
+      "value": "同时显示在我的礼物中"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Collectible.Header.AddToCard",
+      "value": "添加到卡片"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Collectible.Header.ApplyColor",
+      "value": "应用颜色"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Collectible.Header.RemoveColor",
+      "value": "移除颜色"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Collectible.Header.RemoveFromCard",
+      "value": "从卡片移除"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Collectibles",
       "value": "典藏品"
     },
@@ -58911,7 +59271,7 @@
     {
       "_": "types.LangPackString",
       "key": "Wallet.EarningsBalance",
-      "value": "您的 Grams 收益中还有 %@"
+      "value": "您的 Gram 收益中还有 %@"
     },
     {
       "_": "types.LangPackString",
@@ -58931,12 +59291,17 @@
     {
       "_": "types.LangPackString",
       "key": "Wallet.GramTooltip",
-      "value": "Gram — Telegram 的数字货币"
+      "value": "Gram —— Telegram 的数字货币"
     },
     {
       "_": "types.LangPackString",
       "key": "Wallet.HiddenTransactions",
-      "value": "%@ 下的交易已隐藏。"
+      "value": "金额低于 %@ 的交易已隐藏。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.HowDoesItWork",
+      "value": "它是如何运作的？"
     },
     {
       "_": "types.LangPackString",
@@ -59230,6 +59595,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.PeerBalanceNotice",
+      "value": "%1$@ 在 TON 区块链上拥有 %2$@。"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.PreviousWalletsBalance",
       "value": "您的旧钱包中还持有 %@"
     },
@@ -59237,6 +59607,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.ProtectAccount",
       "value": "保护你的账号"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.PublicBalanceNotice",
+      "value": "由于区块链的透明性，您的余额是公开的。"
     },
     {
       "_": "types.LangPackString",
@@ -59252,6 +59627,16 @@
       "_": "types.LangPackString",
       "key": "Wallet.Receive.CopyAddress",
       "value": "复制我的地址"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Receive.PeerShowQR",
+      "value": "显示二维码"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Receive.PeerText",
+      "value": "向此地址发送 Gram，\n或扫描此二维码。"
     },
     {
       "_": "types.LangPackString",
@@ -59402,6 +59787,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.Send.DepositFunds",
       "value": "存款资金"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Send.DiscardAlertText",
+      "value": "取消这笔转账吗?"
     },
     {
       "_": "types.LangPackString",
@@ -59680,6 +60070,81 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Sticker.AddToCard",
+      "value": "添加至卡片 "
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sticker.ApplyColor",
+      "value": "应用此颜色 "
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sticker.BackgroundNotAllowedError",
+      "value": "此礼物无法设置为卡片背景。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sticker.ColorRestricted",
+      "value": "只有 %@ 可用于更改卡片颜色。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sticker.ColorRestrictedCollection",
+      "value": "%@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sticker.GridFooter",
+      "value": "按住礼物即可将其揭下并贴到卡片上。按住卡片上的礼物可再次揭下，并用另一根手指旋转或调整其大小。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sticker.InvalidError",
+      "value": "其中一张贴纸无法用于卡片。仅支持此钱包拥有的礼物。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sticker.LimitError",
+      "value": "你最多可以在卡片上放置 %@ 个礼物。\n如需添加其他礼物，请先移除一个。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sticker.ProfileError",
+      "value": "显示在你个人资料上的礼物不能同时用作卡片贴纸。请先将其从个人资料中隐藏。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sticker.RemoveColor",
+      "value": "移除颜色"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sticker.RemoveFromCard",
+      "value": "从卡片中移除"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sticker.SaveErrorTitle",
+      "value": "无法保存卡片"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sticker.TutorialCard",
+      "value": "将这个收藏品拖到此处。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sticker.TutorialDone",
+      "value": "你可以添加多个收藏品。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sticker.TutorialTile",
+      "value": "将此收藏品拖到您的卡片上进行装饰。"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.TermsText",
       "value": "使用此服务，即表示您同意 [条款]()。"
     },
@@ -59810,6 +60275,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Transaction.MovedFromProfile",
+      "value": "从个人资料中移出"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.MovedToProfile",
+      "value": "已移至个人资料"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Transaction.NetworkFeesText",
       "value": "每次转账都会收取一小笔网络费用 %1$@。\n\n每天的前 %2$@ 由 Telegram 为您承担。"
     },
@@ -59867,6 +60342,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.Transaction.Sender",
       "value": "发送方"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.Telegram",
+      "value": "Telegram"
     },
     {
       "_": "types.LangPackString",
@@ -61794,5 +62274,5 @@
       "value": "您输入的安全码无效。"
     }
   ],
-  "version": 22274024
+  "version": 22324656
 }
