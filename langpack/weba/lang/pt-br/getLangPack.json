@@ -4739,6 +4739,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "CodeLanguagePlainText",
+      "value": "Texto puro"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "CollectibleStatusesCategory",
       "value": "Colecionáveis"
     },
@@ -6277,6 +6282,31 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ErrorAddressCityInvalid",
+      "value": "A cidade que você forneceu não é válida"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorAddressCountryInvalid",
+      "value": "O país que você forneceu não é válido"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorAddressPostcodeInvalid",
+      "value": "O CEP que você forneceu não é válido"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorAddressStateInvalid",
+      "value": "O estado que você forneceu não é válido"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorAddressStreetInvalid",
+      "value": "O endereço que você forneceu não é válido"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ErrorAdminRankEmojiNotAllowed",
       "value": "O nível de admin não pode conter emojis"
     },
@@ -6292,13 +6322,63 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ErrorBotGroupsBlocked",
+      "value": "Esse bot não pode ser adicionado a grupos"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ErrorBotPrecheckoutTimeout",
       "value": "A solicitação de pagamento expirou"
     },
     {
       "_": "types.LangPackString",
+      "key": "ErrorBotsTooMuch",
+      "value": "Há muitos bots neste chat/canal"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorChannelPrivate",
+      "value": "Este canal é privado"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorChannelsTooMuch",
+      "value": "Você entrou em muitos canais/supergrupos"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ErrorChatAdminRequired",
       "value": "Você deve ser admin neste chat para fazer isso"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorChatLinkExists",
+      "value": "O chat é público, você não pode ocultar o histórico para novos usuários"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorChatRestricted",
+      "value": "Você não pode enviar mensagens neste chat, você foi restringido"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorChatSendGifsForbidden",
+      "value": "Você não pode enviar gifs neste chat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorChatSendMediaForbidden",
+      "value": "Você não pode enviar mídia neste chat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorChatSendPollForbidden",
+      "value": "Você não pode criar enquetes neste chat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorChatSendStickersForbidden",
+      "value": "Você não pode enviar stickers neste chat"
     },
     {
       "_": "types.LangPackString",
@@ -6342,6 +6422,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ErrorFreshSessionLogout",
+      "value": "Você não pode encerrar outras sessões se a sessão atual foi conectada há menos de 24 horas."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorImageProcessFailed",
+      "value": "Falha ao processar imagem"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ErrorIncorrectPassword",
       "value": "Senha inválida. Por favor, tente de novo"
     },
@@ -6351,10 +6441,80 @@
       "value": "Não é possível realizar esta ação em uma conta excluída"
     },
     {
+      "_": "types.LangPackString",
+      "key": "ErrorInviteHashEmpty",
+      "value": "O hash do convite está vazio"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorInviteHashExpired",
+      "value": "O link do convite expirou"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorInviteHashInvalid",
+      "value": "O hash do convite é inválido"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorLinkNotModified",
+      "value": "Essa discussão já está vinculada ao canal"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorMediaCaptionTooLong",
+      "value": "A legenda fornecida é muito longa"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorMediaEmpty",
+      "value": "O objeto de mídia fornecido é inválido"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorMediaGroupedInvalid",
+      "value": "Falha ao substituir a mídia do álbum"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorMediaInvalid",
+      "value": "Mídia inválida"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorMediaNewInvalid",
+      "value": "Falha ao substituir nova mídia"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorMessageDeleteForbidden",
+      "value": "Você não pode apagar uma das mensagens que tentou apagar, provavelmente é uma mensagem de serviço."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorMessageEditTimeExpired",
+      "value": "Você não pode mais editar esta mensagem."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorMessageNotModified",
+      "value": "Mensagem não modificada. O novo conteúdo é idêntico ao atual."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorMessagePollClosed",
+      "value": "Enquete encerrada"
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "key": "ErrorMessageTooLong",
       "one_value": "A mensagem fornecida é muito longa. Por favor, remova {count} caractere.",
       "other_value": "A mensagem fornecida é muito longa. Por favor, remova {count} caracteres."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorMessageTooLongText",
+      "value": "A mensagem é muito longa"
     },
     {
       "_": "types.LangPackString",
@@ -6408,8 +6568,43 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ErrorPhotoExtInvalid",
+      "value": "A extensão da foto é inválida"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorPhotoInvalidDimensions",
+      "value": "As dimensões da foto são inválidas"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorPhotoSaveFileInvalid",
+      "value": "Problemas internos, tente novamente mais tarde"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorPinnedDialogsTooMuch",
+      "value": "Desculpe, você só pode fixar 5 chats no topo"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ErrorProviderAccountTimeout",
       "value": "A solicitação ao provedor de pagamento expirou"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorReqInfoEmailInvalid",
+      "value": "O e-mail que você forneceu não é válido"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorReqInfoNameInvalid",
+      "value": "O nome que você forneceu não é válido"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorReqInfoPhoneInvalid",
+      "value": "O telefone que você forneceu não é válido"
     },
     {
       "_": "types.LangPackString",
@@ -6445,6 +6640,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ErrorServiceWorkerDisabled",
+      "value": "Service Worker está desativado. O streaming de mídia pode não ser suportado. Tente recarregar a página sem segurar a tecla <Shift>"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ErrorSessionFresh",
       "value": "Por motivos de segurança, aguarde {time} ou use uma sessão mais antiga"
     },
@@ -6452,6 +6652,11 @@
       "_": "types.LangPackString",
       "key": "ErrorSessionTooFresh",
       "value": "A sessão é recente. Tente novamente mais tarde"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorSlowmodeWaitX",
+      "value": "O modo lento está ativado neste chat: você precisa aguardar o número de segundos especificado antes de enviar outra mensagem no chat."
     },
     {
       "_": "types.LangPackString",
@@ -6490,8 +6695,48 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ErrorUserBannedInChannel",
+      "value": "Você tem um ban e não pode enviar mensagens em supergrupos/canais"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorUserChannelsTooMuch",
+      "value": "Um dos usuários que você tentou adicionar já está em muitos canais/supergrupos"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorUserIsBlocked",
+      "value": "Este usuário bloqueou você"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorUserKicked",
+      "value": "Este usuário foi expulso deste supergrupo/canal"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorUserNotMutualContact",
+      "value": "O usuário fornecido não é um contato mútuo"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorUserPrivacyRestricted",
+      "value": "As configurações do usuário não permitem que você faça isso"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorUsersTooMuch",
+      "value": "O número máximo de usuários foi excedido"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ErrorWallpaperDimensionsInvalid",
       "value": "As dimensões do papel de parede são inválidas. Selecione outro arquivo"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorYouBlockedUser",
+      "value": "Você bloqueou este usuário"
     },
     {
       "_": "types.LangPackString",
@@ -19553,5 +19798,5 @@
       "value": "Seu Nome"
     }
   ],
-  "version": 361347
+  "version": 361417
 }
