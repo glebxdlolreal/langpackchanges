@@ -2954,9 +2954,25 @@
       "value": "**Partecipanti**"
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "key": "BoostingGiveawayMsgPrizes",
+      "one_value": "**{quantity}** {prize}",
+      "other_value": "**{quantity}** {prize}"
+    },
+    {
       "_": "types.LangPackString",
       "key": "BoostingGiveawayMsgWithDivider",
       "value": "con"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingGiveawayNotEligible",
+      "value": "Non puoi partecipare a questo giveaway perché ti sei iscritto a questo canale il **{date}**, cioè prima dell'inizio del contest."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingGiveawayNotEligibleAdmin",
+      "value": "Non puoi partecipare a questo giveaway, perché sei un amministratore del canale partecipante (**{chat}*)."
     },
     {
       "_": "types.LangPackString",
@@ -3086,6 +3102,18 @@
       "_": "types.LangPackString",
       "key": "BoostingSendLinkToAnyone",
       "value": "Puoi anche **inviare questo link** a chiunque come regalo."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "BoostingStarsGiveawayHowItWorksText",
+      "one_value": "Il giveaway è sponsorizzato dagli amministratori di **{chat}**, che hanno acquistato **{count} stella** per i suoi iscritti.",
+      "other_value": "Il giveaway è sponsorizzato dagli amministratori di **{chat}**, che hanno acquistato **{count} stelle** per i suoi iscritti."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "BoostingStarsGiveawayHowItWorksTextEnd",
+      "one_value": "Il giveaway è stato sponsorizzato dagli amministratori di **{chat}**, che hanno acquistato **{count} stella** per i suoi iscritti.",
+      "other_value": "Il giveaway è stato sponsorizzato dagli amministratori di **{chat}**, che hanno acquistato **{count} stelle** per i suoi iscritti."
     },
     {
       "_": "types.LangPackString",
@@ -4507,6 +4535,17 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ChatGiveawayInfoParticipatingMany",
+      "value": "Stai partecipando a questo giveaway perché ti sei unito al canale **{chat}** (e altri **{otherChannels}** canali elencati)."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "ChatGiveawayInfoSubscriptions",
+      "one_value": "**{count}** abbonamento **Telegram Premium**",
+      "other_value": "**{count}** abbonamenti **Telegram Premium**"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ChatGiveawayMessageCountriesFrom",
       "value": "da {countries}"
     },
@@ -4653,6 +4692,12 @@
       "value": "Non puoi condividere cartelle che includono o escludono specifici tipi di chat come \"Gruppi\", \"Contatti\", etc."
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "key": "ChatListFilterLinkLabelChatCount",
+      "one_value": "include 1 chat",
+      "other_value": "include {count} chat"
+    },
+    {
       "_": "types.LangPackString",
       "key": "ChatListMarkAllAsRead",
       "value": "Segna tutto come letto"
@@ -4681,6 +4726,11 @@
       "_": "types.LangPackString",
       "key": "ChatListPeerTypeGroup",
       "value": "gruppo"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatListPeerTypeNonContact",
+      "value": "non contatto"
     },
     {
       "_": "types.LangPackString",
@@ -4805,6 +4855,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ChatSendAllowedContentText",
+      "value": "Gli amministratori del gruppo consentono solo l'invio di {types}."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ChatSendNotAllowedText",
       "value": "Non è permesso inviare messaggi in questo gruppo."
     },
@@ -4909,6 +4964,11 @@
       "_": "types.LangPackString",
       "key": "CheckoutNewCardCardholderNamePlaceholder",
       "value": "Titolare della carta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CheckoutNewCardSaveInfoHelp",
+      "value": "Puoi salvare le tue informazioni di pagamento per uso futuro."
     },
     {
       "_": "types.LangPackString",
@@ -20417,5 +20477,5 @@
       "value": "Il tuo nome"
     }
   ],
-  "version": 362172
+  "version": 362186
 }
