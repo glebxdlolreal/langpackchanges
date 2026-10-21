@@ -336,6 +336,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ActionGiftStarsSubtitle",
+      "value": "Con le stelle, **{peer}** può sbloccare contenuti e servizi su Telegram."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ActionGiftStarsText",
       "value": "Usa le stelle per sbloccare contenuti e servizi su Telegram."
     },
@@ -1802,6 +1807,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ArchiveStory",
+      "value": "Archivia storia"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ArchivedChats",
       "value": "Chat archiviate"
     },
@@ -2780,6 +2790,12 @@
       "value": "Potenziamenti tramite regali"
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "key": "BoostingChannelWillReceiveBoost",
+      "one_value": "questo canale riceverà {count} potenziamento",
+      "other_value": "questo canale riceverà{count} potenziamenti"
+    },
+    {
       "_": "types.LangPackString",
       "key": "BoostingChannelsGroupsIncludedGiveaway",
       "value": "Gruppi e canali inclusi"
@@ -2866,6 +2882,18 @@
       "value": "Giveaway"
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "key": "BoostingGiveawayAdditionPrizeCountHint",
+      "one_value": "Tutti i premi: **{count}** abbonamento Telegram Premium per {duration}.",
+      "other_value": "Tutti i premi: **{count}** abbonamenti Telegram Premium per {duration}."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "BoostingGiveawayAdditionPrizeCountNameHint",
+      "one_value": "Tutti i premi: **{count}** {prize} con un abbonamento Telegram Premium per {duration}.",
+      "other_value": "Tutti i premi: **{count}** {prize} con abbonamenti Telegram Premium per {duration}."
+    },
+    {
       "_": "types.LangPackString",
       "key": "BoostingGiveawayAdditionPrizeHint",
       "value": "Attiva questa opzione se vuoi assegnare ai vincitori i tuoi premi oltre agli abbonamenti Premium."
@@ -2889,6 +2917,30 @@
       "_": "types.LangPackString",
       "key": "BoostingGiveawayEnterYourPrize",
       "value": "Inserisci il tuo premio"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "BoostingGiveawayHowItWorksIncludeText",
+      "one_value": "**{chat}** ha anche incluso **{quantity}** **{prize}** con i premi. Gli amministratori del canale sono responsabili per la consegna di questi premi",
+      "other_value": "**{chat}** ha anche incluso **{quantity}** **{prize}** con i premi. Gli amministratori del canale sono responsabili per la consegna di questi premi."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "BoostingGiveawayHowItWorksSubText",
+      "one_value": "Il **{date}**, Telegram selezionerà automaticamente **{quantity}** utente casuale tra quelli uniti a **{chat}**.",
+      "other_value": "Il **{date}**, Telegram selezionerà automaticamente **{quantity}** utenti casuali tra quelli uniti a **{chat}**."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "BoostingGiveawayHowItWorksSubTextEnd",
+      "one_value": "Il **{date}**, Telegram ha selezionato automaticamente **{quantity}** utente casuale tra quelli uniti a **{chat}**.",
+      "other_value": "Il **{date}**, Telegram ha selezionato automaticamente **{quantity}** utenti casuali tra quelli uniti a **{chat}**."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "BoostingGiveawayHowItWorksSubTextSeveral2",
+      "one_value": "e **{count}** altro canale elencato",
+      "other_value": "e altri **{count}** canali elencati"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -6212,6 +6264,11 @@
       "_": "types.LangPackString",
       "key": "EditAdminManageDirect",
       "value": "Gestire i messaggi diretti"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EditAdminManageLinkedChannels",
+      "value": "Gestire i canali collegati"
     },
     {
       "_": "types.LangPackString",
@@ -14161,9 +14218,21 @@
       "other_value": "Scegli i bot"
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "key": "RequestPeerChooseChannel",
+      "one_value": "Scegli un canale",
+      "other_value": "Scegli dei canali"
+    },
+    {
       "_": "types.LangPackString",
       "key": "RequestPeerChooseChannelTitle",
       "value": "Scegli un canale"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "RequestPeerChooseGroup",
+      "one_value": "Scegli un gruppo",
+      "other_value": "Scegli dei gruppi"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -14180,6 +14249,11 @@
       "_": "types.LangPackString",
       "key": "RequestPeerConfirmAddBot",
       "value": "Questo aggiungerà anche **{bot}** a **{peer}**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RequestPeerConfirmBotRights",
+      "value": "Questo aggiungerà anche **{bot}** a **{peer}** con i seguenti permessi: {rights}."
     },
     {
       "_": "types.LangPackString",
@@ -19762,7 +19836,7 @@
     {
       "_": "types.LangPackString",
       "key": "WalletProtectBanner",
-      "value": "Proteggi il tuo wallet"
+      "value": "Proteggi il tuo Denaro"
     },
     {
       "_": "types.LangPackString",
@@ -20101,6 +20175,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletUnavailable",
+      "value": "Il wallet Gram non è ancora disponibile."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletUnknownUser",
       "value": "Utente sconosciuto"
     },
@@ -20287,5 +20366,5 @@
       "value": "Il tuo nome"
     }
   ],
-  "version": 362141
+  "version": 362159
 }
