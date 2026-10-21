@@ -2007,6 +2007,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_action_no_paid_token_used",
+      "value": "Корисник {from} је започео ћаскање преко ваше везе за бесплатно слање поруке"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_action_not_enough_funds",
       "value": "Трансакција није успела."
     },
@@ -2754,6 +2759,11 @@
       "_": "types.LangPackString",
       "key": "lng_action_you_joined_by_request_channel",
       "value": "Ваш захтев за придруживање каналу је одобрен"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_you_no_paid_token_used",
+      "value": "Започели сте ћаскање преко везе за бесплатно слање порука"
     },
     {
       "_": "types.LangPackString",
@@ -10950,6 +10960,11 @@
       "_": "types.LangPackString",
       "key": "lng_contact_details_url",
       "value": "УРЛ"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_contact_link_invalid",
+      "value": "Ова веза није важећа или је истекла."
     },
     {
       "_": "types.LangPackString",
@@ -21529,7 +21544,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_group_invite_bad_link",
-      "value": "Ова позивница није исправна или је истекла."
+      "value": "Ова позивница није важећа или је истекла."
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -25885,7 +25900,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_minimize_window",
-      "value": "Умањи"
+      "value": "Минимизуј"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -26426,6 +26441,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_no_paid_token_invalid",
+      "value": "Ова веза за бесплатне поруке није важећа или је истекла."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_no_paid_token_menu_disable_timer",
       "value": "Онемогући тајмер"
     },
@@ -26456,8 +26476,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_no_paid_token_pill_permanent",
+      "value": "Бесплатно · Трајно"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_no_paid_token_pill_remove_fee",
       "value": "Уклони накнаду од {amount} {emoji}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_no_paid_token_pill_temporary",
+      "value": "Бесплатно · Истиче за {time}"
     },
     {
       "_": "types.LangPackString",
@@ -26468,6 +26498,11 @@
       "_": "types.LangPackString",
       "key": "lng_no_paid_token_toast_expires",
       "value": "Овај кôд ће истећи за {duration}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_no_paid_token_toast_expiring",
+      "value": "Овај кôд ускоро истиче."
     },
     {
       "_": "types.LangPackString",
@@ -28615,6 +28650,16 @@
       "_": "types.LangPackString",
       "key": "lng_peer_gifts_view_all",
       "value": "Погледај све поклоне"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_peer_qr_link_expiring",
+      "value": "Ова веза ускоро истиче."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_peer_qr_link_unavailable",
+      "value": "Ова веза није доступна. Поново отворите QR кôд и покушајте опет."
     },
     {
       "_": "types.LangPackString",
@@ -38377,7 +38422,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_shortcuts_minimize",
-      "value": "Умањи прозор"
+      "value": "Минимизуј прозор"
     },
     {
       "_": "types.LangPackString",
@@ -38413,6 +38458,11 @@
       "_": "types.LangPackString",
       "key": "lng_shortcuts_reset",
       "value": "Врати на подразумевано"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_shortcuts_reset_sure",
+      "value": "Желите ли да вратите све пречице на тастатури на подразумеване вредности?"
     },
     {
       "_": "types.LangPackString",
@@ -41204,7 +41254,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_stories_link_invalid",
-      "value": "Ова веза није исправна или је истекла."
+      "value": "Ова веза није важећа или је истекла."
     },
     {
       "_": "types.LangPackString",
@@ -43244,6 +43294,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_url_auth_wallet_about",
+      "value": "{bot} тражи да повеже ваш новчаник с овим веб-сајтом. Сајт ће моћи да види вашу TON адресу, стање и активност, али не може да премешта средства без вашег одобрења. Повезивањем се ствара дигитални потпис за пријаву, а не пренос средстава."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_url_auth_wallet_connect",
       "value": "Повежи новчаник"
     },
@@ -43251,6 +43306,16 @@
       "_": "types.LangPackString",
       "key": "lng_url_auth_wallet_label",
       "value": "Новчаник"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_url_auth_wallet_no_key",
+      "value": "Овај уређај не садржи тренутни кључ овог новчаника.{link} да га повежете."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_url_auth_wallet_no_key_link",
+      "value": "Обнови кључ"
     },
     {
       "_": "types.LangPackString",
@@ -44011,6 +44076,18 @@
       "value": "Превуците овај колекционарски предмет на картицу да је украсите."
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "На картицу можете поставити највише {count} поклона.",
+      "key": "lng_wallet_card_limit",
+      "one_value": "На картицу можете поставити највише {count} поклон.",
+      "other_value": "На картицу можете поставити највише {count} поклона."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_card_not_ready",
+      "value": "Ваша картица још није спремна за уређивање. Покушајте поново."
+    },
+    {
       "_": "types.LangPackString",
       "key": "lng_wallet_card_remove",
       "value": "Уклони с картице"
@@ -44024,6 +44101,11 @@
       "_": "types.LangPackString",
       "key": "lng_wallet_card_save_error",
       "value": "Чување картице није успело."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_card_saved_profile",
+      "value": "Овај поклон је приказан на вашем профилу. Сакријте га одатле да бисте га поставили на картицу."
     },
     {
       "_": "types.LangPackString",
@@ -44824,6 +44906,13 @@
       "value": "{name} тренутно\nнема ниједан грам."
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "{name} има {amount} грама\nна блокчејну TON.",
+      "key": "lng_wallet_profile_balance_owns",
+      "one_value": "{name} има {amount} грам\nна блокчејну TON.",
+      "other_value": "{name} има {amount} грама\nна блокчејну TON."
+    },
+    {
       "_": "types.LangPackString",
       "key": "lng_wallet_profile_balance_public",
       "value": "Стање ваших средстава је јавно због транспарентности блокчејна."
@@ -45451,5 +45540,5 @@
       "other_value": "Платили сте {count} звездица."
     }
   ],
-  "version": 5984597
+  "version": 5984688
 }
