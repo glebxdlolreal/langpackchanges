@@ -10966,6 +10966,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "MessageReadAt",
+      "value": "letto il {date}"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "MessageRecommendedLabel",
       "value": "consigliato"
     },
@@ -13044,6 +13049,11 @@
       "_": "types.LangPackString",
       "key": "PremiumMore",
       "value": "Altro"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PremiumNeeded",
+      "value": "Premium necessario!"
     },
     {
       "_": "types.LangPackString",
@@ -19466,6 +19476,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletBackupFailedError",
+      "value": "Impossibile aggiornare il backup del wallet"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletBackupHint",
       "value": "Il backup crittografato della tua chiave è suddiviso in tre parti e conservato in tre continenti diversi.\n\nPuò essere ricomposto solo sui tuoi dispositivi, quindi nessuno, nemmeno Telegram, può accedere alla tua chiave."
     },
@@ -20121,9 +20136,26 @@
       "value": "Denaro"
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "key": "WalletNetworkFeesInfo",
+      "one_value": "Ogni trasferimento comporta una piccola commissione di rete (**~{fee} Gram**). Telegram copre il tuo **primo** trasferimento ogni giorno.",
+      "other_value": "Ogni trasferimento comporta una piccola commissione di rete (**~{fee} Gram**). Telegram copre i tuoi primi **{count}** trasferimenti ogni giorno."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "WalletNetworkFeesInfoShort",
+      "one_value": "Ogni trasferimento comporta una piccola commissione di rete. Telegram copre il tuo **primo** trasferimento ogni giorno.",
+      "other_value": "Ogni trasferimento comporta una piccola commissione di rete. Telegram copre i tuoi primi **{count}**  trasferimenti ogni giorno."
+    },
+    {
       "_": "types.LangPackString",
       "key": "WalletNetworkFeesTitle",
       "value": "Costi di rete"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletNoCollectibles",
+      "value": "I regali collezionabili che possiedi appariranno qui."
     },
     {
       "_": "types.LangPackString",
@@ -20419,6 +20451,11 @@
       "_": "types.LangPackString",
       "key": "WalletSendSuccess",
       "value": "Gram inviati"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendSuccessGasless",
+      "value": "Gram inviati, nessun costo addebitato"
     },
     {
       "_": "types.LangPackString",
@@ -20803,5 +20840,5 @@
       "value": "Il tuo nome"
     }
   ],
-  "version": 362860
+  "version": 362869
 }
