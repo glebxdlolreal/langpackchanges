@@ -1807,6 +1807,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ArchiveStory",
+      "value": "Мұрағаттау"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ArchivedChats",
       "value": "Мұрағат"
     },
@@ -2882,6 +2887,18 @@
       "value": "Ұтыс"
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "key": "BoostingGiveawayAdditionPrizeCountHint",
+      "one_value": "Барлық жүлде: {duration}лық **{count}** Telegram Premium жазылымы.",
+      "other_value": "Барлық жүлде: {duration}лық **{count}** Telegram Premium жазылымы."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "BoostingGiveawayAdditionPrizeCountNameHint",
+      "one_value": "Барлық жүлде: **{count}** {prize} және {duration}лық Telegram Premium жазылымы.",
+      "other_value": "Барлық жүлде: **{count}** {prize} және {duration}лық Telegram Premium жазылымы."
+    },
+    {
       "_": "types.LangPackString",
       "key": "BoostingGiveawayAdditionPrizeHint",
       "value": "Жеңімпазға Premium жазылымынан бөлек қосымша жүлде беру үшін қосыңыз."
@@ -2908,9 +2925,51 @@
     },
     {
       "_": "types.LangPackStringPluralized",
+      "key": "BoostingGiveawayHowItWorksIncludeText",
+      "one_value": "Жүлдеге қоса **{chat}** қосымша **{quantity}** **{prize}** сыйлайды. Сыйлықтардың табысталуына арна әкімшілері жауапты.",
+      "other_value": "Жүлдеге қоса **{chat}** қосымша **{quantity}** **{prize}** сыйлайды. Сыйлықтардың табысталуына арна әкімшілері жауапты."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "BoostingGiveawayHowItWorksSubText",
+      "one_value": "**{date}** Telegram **{chat}** қосылған **{quantity}** кездейсоқ қолданушыны өздігінен таңдайды.",
+      "other_value": "**{date}** Telegram **{chat}** қосылған **{quantity}** кездейсоқ қолданушыны өздігінен таңдайды."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "BoostingGiveawayHowItWorksSubTextEnd",
+      "one_value": "**{date}** Telegram **{chat}** қосылған **{quantity}** кездейсоқ қолданушыны өздігінен таңдады.",
+      "other_value": "**{date}** Telegram **{chat}** қосылған **{quantity}** кездейсоқ қолданушыны өздігінен таңдады."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "BoostingGiveawayHowItWorksSubTextSeveral1",
+      "one_value": "**{date}** Telegram өздігінен **{chat}** {otherChannels} қосылған **{quantity}** кездейсоқ қолданушыны таңдайды.",
+      "other_value": "**{date}** Telegram өздігінен **{chat}** {otherChannels} қосылған **{quantity}** кездейсоқ қолданушыны таңдайды."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
       "key": "BoostingGiveawayHowItWorksSubTextSeveral2",
       "one_value": "және тізімде көрсетілген **{count}** арна",
       "other_value": "және тізімде көрсетілген **{count}** арна"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "BoostingGiveawayHowItWorksSubTextSeveralEnd1",
+      "one_value": "**{date}** Telegram өздігінен **{chat}** {otherChannels} қосылған **{quantity}** кездейсоқ қолданушыны таңдады.",
+      "other_value": "**{date}** Telegram өздігінен **{chat}** {otherChannels} қосылған **{quantity}** кездейсоқ қолданушыны таңдады."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "BoostingGiveawayHowItWorksText",
+      "one_value": "Ұтыс демеушісі: **{chat}** әкімшілері, олар жазылушылары үшін **{quantity} Telegram Premium ({duration})** жазылымын сатып алды.",
+      "other_value": "Ұтыс демеушісі: **{chat}** әкімшілері, олар жазылушылары үшін **{quantity} Telegram Premium ({duration})** жазылымын сатып алды."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "BoostingGiveawayHowItWorksTextEnd",
+      "one_value": "Ұтыс демеушісі: **{chat}** әкімшілері, олар жазылушылары үшін **{quantity} Telegram Premium** ({duration}) сатып алды.",
+      "other_value": "Ұтыс демеушісі: **{chat}** әкімшілері, олар жазылушылары үшін **{quantity} Telegram Premium** ({duration}) сатып алды."
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -3076,6 +3135,12 @@
     {
       "_": "types.LangPackStringPluralized",
       "key": "BoostingStarsGiveawayHowItWorksText",
+      "one_value": "Ұтыс демеушісі: **{chat}** әкімшілері, олар жазылушылары үшін **{count} жұлдыз** сатып алды.",
+      "other_value": "Ұтыс демеушісі: **{chat}** әкімшілері, олар жазылушылары үшін **{count} жұлдыз** сатып алды."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "BoostingStarsGiveawayHowItWorksTextEnd",
       "one_value": "Ұтыс демеушісі: **{chat}** әкімшілері, олар жазылушылары үшін **{count} жұлдыз** сатып алды.",
       "other_value": "Ұтыс демеушісі: **{chat}** әкімшілері, олар жазылушылары үшін **{count} жұлдыз** сатып алды."
     },
@@ -4487,6 +4552,16 @@
       "_": "types.LangPackString",
       "key": "ChatForwardActionHeader",
       "value": "Хатты жөнелту"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatGiveawayInfoNotQualified",
+      "value": "Ұтысқа қатысу үшін **{date}** дейін **{chat}** арнасына қосылыңыз."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatGiveawayInfoNotQualifiedMany",
+      "value": "Ұтысқа қатысу үшін **{chat}** арнасына (және тізімде көрсетілген **{otherChannels}** басқа арнаға) **{date}** дейін қосылыңыз."
     },
     {
       "_": "types.LangPackString",
@@ -9677,6 +9752,11 @@
       "value": "HEX"
     },
     {
+      "_": "types.LangPackString",
+      "key": "HashtagSearchPlaceholder",
+      "value": "Хатты табу үшін хештег енгізіңіз."
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "key": "HeaderDescriptionResaleGifts",
       "one_value": "{count} сатылымда",
@@ -9814,6 +9894,11 @@
       "_": "types.LangPackString",
       "key": "InstalledStickersDynamicPackOrder",
       "value": "Динамикалық стикер"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "InstalledStickersDynamicPackOrderInfo",
+      "value": "Жуырда қолданылған стикерлер жинағы ескілерінің үстінде көрсетіледі."
     },
     {
       "_": "types.LangPackString",
@@ -13393,6 +13478,12 @@
       "value": "Premium стикерді алу үшін Telegram Premium-ге жазылыңыз."
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "key": "PrepaidGiveawayMonths",
+      "one_value": "{count}-ай",
+      "other_value": "{count}-ай"
+    },
+    {
       "_": "types.LangPackString",
       "key": "PreviewDeletePhoto",
       "value": "Суретті жою"
@@ -13427,6 +13518,11 @@
       "_": "types.LangPackString",
       "key": "PriceInStars",
       "value": "Баға (жұлдыз)"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PricePerMonth",
+      "value": "{amount} / айына"
     },
     {
       "_": "types.LangPackString",
@@ -20776,5 +20872,5 @@
       "value": "Атыңыз"
     }
   ],
-  "version": 363141
+  "version": 363159
 }
