@@ -3146,6 +3146,12 @@
       "value": "Avvia giveaway"
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "key": "BoostingTelegramPremiumCountPlural",
+      "one_value": "{count} Telegram Premium",
+      "other_value": "{count} Telegram Premium"
+    },
+    {
       "_": "types.LangPackString",
       "key": "BoostingTelegramPremiumFor",
       "value": "Telegram Premium per {duration}"
@@ -9295,9 +9301,20 @@
     },
     {
       "_": "types.LangPackStringPluralized",
+      "key": "GiveawayReceiverTypeCountries",
+      "one_value": "da {count} Paese",
+      "other_value": "da {count} Paesi"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
       "key": "GiveawayStarsPrepaidDesc",
       "one_value": "per {count} utente",
       "other_value": "per {count} utenti"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiveawayStarsPrepaidTitle",
+      "value": "{count} stelle di Telegram"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -9646,6 +9663,11 @@
       "_": "types.LangPackString",
       "key": "HEX",
       "value": "HEX"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "HashtagSearchPlaceholder",
+      "value": "Inserisci un hashtag per trovare i messaggi che lo contengono."
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -10820,6 +10842,12 @@
       "_": "types.LangPackString",
       "key": "MessageContainsEmojiPack",
       "value": "Questo messaggio contiene le emoji {pack}."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "MessageContainsEmojiPacks",
+      "one_value": "Questo messaggio contiene emoji da **{count} set**.",
+      "other_value": "Questo messaggio contiene emoji da **{count} set**."
     },
     {
       "_": "types.LangPackString",
@@ -12253,6 +12281,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PaymentInfoHint",
+      "value": "Hai pagato **{amount}** per **{title}**."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PaymentInvoiceNotFound",
       "value": "Fattura non trovata."
     },
@@ -12357,9 +12390,20 @@
       "value": "canale"
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "key": "PeerInfoAllowedReactionsMaxCountValue",
+      "one_value": "1 reazione",
+      "other_value": "{count} reazioni"
+    },
+    {
       "_": "types.LangPackString",
       "key": "PeerInfoConfirmRemovePeer",
       "value": "Rimuovere {user} dal gruppo?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PeerInfoPaneStories",
+      "value": "Storie"
     },
     {
       "_": "types.LangPackString",
@@ -19321,6 +19365,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletBackupPartsMissingError",
+      "value": "Il backup del wallet è incompleto sul server"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletBackupTitle",
       "value": "Backup crittografato"
     },
@@ -19368,6 +19417,11 @@
       "_": "types.LangPackString",
       "key": "WalletBuyMethodCard",
       "value": "Carta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBuyMethodCrossChain",
+      "value": "Trasferimento cross-chain"
     },
     {
       "_": "types.LangPackString",
@@ -19431,6 +19485,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletBuyUnavailable",
+      "value": "L'acquisto di Gram non è disponibile nella tua regione."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletBuyYouGet",
       "value": "ottieni"
     },
@@ -19463,6 +19522,11 @@
       "_": "types.LangPackString",
       "key": "WalletCollectibleNumber",
       "value": "Numero collezionabile"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCollectibleOnSale",
+      "value": "Questo collezionabile è in vendita. Rimuovilo dalla vendita per trasferirlo."
     },
     {
       "_": "types.LangPackString",
@@ -19556,6 +19620,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletConnectDeclined",
+      "value": "Rifiutata"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletConnectDisconnected",
       "value": "{name} disconnessa"
     },
@@ -19575,6 +19644,12 @@
       "value": "Questa richiesta è scaduta."
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "key": "WalletConnectExpiresIn",
+      "one_value": "Scade tra {count} minuto",
+      "other_value": "Scade tra {count} minuti"
+    },
+    {
       "_": "types.LangPackString",
       "key": "WalletConnectFee",
       "value": "Costo di rete stimato: {amount}"
@@ -19591,6 +19666,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletConnectInvalid",
+      "value": "Questa richiesta wallet non è valida."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletConnectPermissionInfo",
       "value": "L'app non potrà spostare i fondi senza permesso."
     },
@@ -19598,6 +19678,11 @@
       "_": "types.LangPackString",
       "key": "WalletConnectProofAccess",
       "value": "L'app potrà vedere il tuo indirizzo TON, il saldo e l'attività, e richiederà una firma per accedere. Non si tratta di un trasferimento."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectRemaining",
+      "value": "Tempo rimanente: {seconds}s"
     },
     {
       "_": "types.LangPackString",
@@ -19646,6 +19731,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletConnectSuccess",
+      "value": "Connesso a {name}"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletConnectTitle",
       "value": "Connetti Denaro"
     },
@@ -19658,6 +19748,11 @@
       "_": "types.LangPackString",
       "key": "WalletConnectTransfer",
       "value": "Conferma transazione"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectUnavailable",
+      "value": "Il tuo wallet non è disponibile."
     },
     {
       "_": "types.LangPackString",
@@ -19686,8 +19781,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletDecryptError",
+      "value": "Impossibile decifrare il commento. Riprova."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletDeleteAnyway",
       "value": "Elimina comunque"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDeleteSave",
+      "value": "Salva questo wallet su questo dispositivo"
     },
     {
       "_": "types.LangPackString",
@@ -19891,6 +19996,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletLinkNoWallet",
+      "value": "Questo utente non ha ancora un wallet."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletLoadError",
       "value": "Impossibile caricare il tuo wallet."
     },
@@ -19906,6 +20016,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletNoCollectiblesAction",
+      "value": "Ottienine uno su Fragment"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletOtherWalletsHint",
       "value": "Wallet già usati su questo dispositivo. Salva le relative frasi segrete: verranno eliminate se esci dall'app o cancelli i dati del browser."
     },
@@ -19918,6 +20033,16 @@
       "_": "types.LangPackString",
       "key": "WalletPasscodeInvalid",
       "value": "Codice errato, riprova"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletPasscodeRequiredSetUp",
+      "value": "Imposta un codice"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletPasscodeRequiredTitle",
+      "value": "Codice richiesto"
     },
     {
       "_": "types.LangPackString",
@@ -20046,6 +20171,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletReplaceError",
+      "value": "Impossibile sostituire il wallet"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletReplaceImport",
       "value": "Importa wallet esistente"
     },
@@ -20146,6 +20276,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletSendMax",
+      "value": "Max"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletSendMinAmount",
       "value": "Importo minimo: {amount}"
     },
@@ -20181,6 +20316,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletSendWalletChanged",
+      "value": "Il tuo wallet è cambiato. Ricomincia."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletSettingsTitle",
       "value": "Impostazioni"
     },
@@ -20193,6 +20333,26 @@
       "_": "types.LangPackString",
       "key": "WalletShowRecoveryPhrase",
       "value": "Mostra frase segreta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSwitchAnyway",
+      "value": "Cambia senza conservarlo"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSwitchConfirm",
+      "value": "Cambia wallet"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSwitchKeep",
+      "value": "Conserva l'attuale wallet su questo dispositivo"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSwitchTitle",
+      "value": "Cambiare il wallet?"
     },
     {
       "_": "types.LangPackString",
@@ -20273,6 +20433,11 @@
       "_": "types.LangPackString",
       "key": "WalletTransactionKeyChange",
       "value": "Aggiornamento chiave"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionNotFound",
+      "value": "Transazione non trovata."
     },
     {
       "_": "types.LangPackString",
@@ -20527,5 +20692,5 @@
       "value": "Il tuo nome"
     }
   ],
-  "version": 362802
+  "version": 362835
 }
