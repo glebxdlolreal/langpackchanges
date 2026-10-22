@@ -2461,7 +2461,7 @@
     {
       "_": "types.LangPackString",
       "key": "AutoDeleteBadgeMonths",
-      "value": "а"
+      "value": "А"
     },
     {
       "_": "types.LangPackString",
@@ -4640,6 +4640,11 @@
       "_": "types.LangPackString",
       "key": "ChatListFilterErrorTitleEmpty",
       "value": "Бумаға атау беріңіз."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatListFilterInviteLinkIncludeExcludeError",
+      "value": "Чат түрі не қосылмайтын чаты (\"Топ\", \"Контакт\" және т.б.) бар буманы бөлісе алмайсыз."
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -9720,7 +9725,7 @@
     {
       "_": "types.LangPackString",
       "key": "HideReadTimeInfo",
-      "value": "Соңғы белсенділігіңізді көре алмайтын адамдардан хаттарды оқыған уақытты жасырыңыз. Бұны қоссаңыз, олардың оқу уақыты да сізден жасырылады.\nБұл баптау топ чаттарына әсер етпейді."
+      "value": "Соңғы белсенділігіңізді көре алмайтын адамдардан хаттарды оқыған уақытты жасырыңыз. Бұны қоссаңыз, олардың оқу уақыты да сізден жасырылады (Premium қолданушысы болмасаңыз).\nБұл баптау топ чаттарына әсер етпейді."
     },
     {
       "_": "types.LangPackString",
@@ -10203,6 +10208,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "LimitReachedFolderLinks",
+      "value": "{limit} шақыру сілтемесін жасай аласыз.\n**Telegram Premium**-ге жазылып, шектеуді **{limit2}** дейін ұлғайта аласыз."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "LimitReachedFolders",
       "value": "Шектеу: **{limit}** бума. **Telegram Premium**-ге жазылып, шектеуді **{limit2}** бумаға дейін ұлғайта аласыз."
     },
@@ -10230,6 +10240,11 @@
       "_": "types.LangPackString",
       "key": "LimitReachedPinDialogsPremium",
       "value": "{limit} чаттан көп бекіте алмайсыз. Кейбіреуін шешіңіз."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LimitReachedPinnedTopics",
+      "value": "Жоғарыға {limit} чаттан артық бекіте алмайсыз."
     },
     {
       "_": "types.LangPackString",
@@ -10523,26 +10538,26 @@
     {
       "_": "types.LangPackStringPluralized",
       "key": "MediaSizeB",
-      "one_value": "{size}Б",
-      "other_value": "{size}Б"
+      "one_value": "{size} Б",
+      "other_value": "{size} Б"
     },
     {
       "_": "types.LangPackStringPluralized",
       "key": "MediaSizeGB",
-      "one_value": "{size}ГБ",
-      "other_value": "{size}ГБ"
+      "one_value": "{size} ГБ",
+      "other_value": "{size} ГБ"
     },
     {
       "_": "types.LangPackStringPluralized",
       "key": "MediaSizeKB",
-      "one_value": "{size}КБ",
-      "other_value": "{size}КБ"
+      "one_value": "{size} КБ",
+      "other_value": "{size} КБ"
     },
     {
       "_": "types.LangPackStringPluralized",
       "key": "MediaSizeMB",
-      "one_value": "{size}МБ",
-      "other_value": "{size}МБ"
+      "one_value": "{size} МБ",
+      "other_value": "{size} МБ"
     },
     {
       "_": "types.LangPackString",
@@ -11109,6 +11124,11 @@
       "_": "types.LangPackString",
       "key": "MonetizationInfoTONLink",
       "value": "https://telegram.org/privacy/kz"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MonetizationIntroSplitText",
+      "value": "Жарнамадан түскен түсімнің 50%-ын Gram-мен аласыз."
     },
     {
       "_": "types.LangPackString",
@@ -11741,6 +11761,11 @@
       "_": "types.LangPackString",
       "key": "OnlyAcceptGramDescription",
       "value": "Сатып алушы сізге Gram-мен төлесе, жұлдыз төлемдерінен айырмашылығы, ақшаны қайтару қаупі жоқ."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "OnlyAllowThisReactions",
+      "value": "Осы реакцияға ғана рұқсат"
     },
     {
       "_": "types.LangPackString",
@@ -12954,6 +12979,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PremiumNeededForBoosting",
+      "value": "Тек **Telegram Premium** жазылушысы арнаға дауыс бере алады. **Telegram Premium**-ге жазыласыз ба?"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PremiumOr",
       "value": "не"
     },
@@ -13099,6 +13129,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PremiumPreviewStoriesDescription",
+      "value": "Шексіз жариялау, басымдық көрсетілім, жасырын режім, көруші тарихын сақтау және т.б."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PremiumPreviewTags",
       "value": "Хатқа арналған белгі"
     },
@@ -13176,6 +13211,16 @@
       "_": "types.LangPackString",
       "key": "PremiumStoriesAboutMobile",
       "value": "* iOS пен Android-қа арналған Telegram қолданбасында хикая салғанда болады."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PremiumStoriesCaptionDescription",
+      "value": "Хикаяңызға он есе ұзын сипаттаманы қосыңыз — 2048 таңбаға дейін."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PremiumStoriesExpirationDescription",
+      "value": "Хикая 6 не 48 сағат көрсетілсін деп орната аласыз."
     },
     {
       "_": "types.LangPackString",
@@ -13511,7 +13556,7 @@
     {
       "_": "types.LangPackString",
       "key": "PrivacyProfilePhotoRemovePublicVideo",
-      "value": "Жария суретін жою"
+      "value": "Жария суретті жою"
     },
     {
       "_": "types.LangPackString",
@@ -17377,7 +17422,7 @@
     {
       "_": "types.LangPackString",
       "key": "StoryKeep",
-      "value": "Бейінімде сақтау"
+      "value": "Бейініме жариялау"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -17525,7 +17570,7 @@
     {
       "_": "types.LangPackString",
       "key": "StoryPrivacyOptionSelectedContacts",
-      "value": "Таңдалған контактілер"
+      "value": "Таңдаулы"
     },
     {
       "_": "types.LangPackString",
@@ -17550,7 +17595,7 @@
     {
       "_": "types.LangPackString",
       "key": "StorySave",
-      "value": "Бейінге сақтау"
+      "value": "Бейінге жариялау"
     },
     {
       "_": "types.LangPackString",
@@ -17957,6 +18002,11 @@
       "_": "types.LangPackString",
       "key": "TelegramPremiumUserGiftedPremiumDialogSubtitle",
       "value": "Енді қосымша мүмкіндікке иесіз."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "TelegramPremiumUserGiftedPremiumOutboundDialogSubtitle",
+      "value": "Енді **{user}** қосымша мүмкіндікке ие."
     },
     {
       "_": "types.LangPackString",
@@ -19061,7 +19111,7 @@
     {
       "_": "types.LangPackString",
       "key": "ViewButtonVoiceChat",
-      "value": "ҚОҢЫРАУ"
+      "value": "БЕЙНЕЧАТ"
     },
     {
       "_": "types.LangPackString",
@@ -19098,12 +19148,12 @@
     {
       "_": "types.LangPackString",
       "key": "VoiceChatInactive",
-      "value": "Бұл дауысчат белсенсіз"
+      "value": "Бұл бейнечат белсенсіз"
     },
     {
       "_": "types.LangPackString",
       "key": "VoiceChatJoinFailed",
-      "value": "Дауысчатқа қосылу сәтсіз"
+      "value": "Бейнечатқа қосылу сәтсіз"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -19785,7 +19835,7 @@
     {
       "_": "types.LangPackString",
       "key": "WalletEnterPhraseTitle",
-      "value": "Қалпына келтіру тіркесін енгізіңіз"
+      "value": "Құпия тіркесті енгізіңіз"
     },
     {
       "_": "types.LangPackString",
@@ -20331,7 +20381,7 @@
     {
       "_": "types.LangPackString",
       "key": "WalletTransactionOpenWallet",
-      "value": "Әмиянымды ашу"
+      "value": "Ақшамды ашу"
     },
     {
       "_": "types.LangPackString",
@@ -20581,5 +20631,5 @@
       "value": "Атыңыз"
     }
   ],
-  "version": 362956
+  "version": 363060
 }
