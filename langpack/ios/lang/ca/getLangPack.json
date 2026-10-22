@@ -35237,6 +35237,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Notification.GramTransfer",
+      "value": "%1$@ us ha enviat %2$@"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Notification.GramTransfer.Compact",
       "value": "us ha enviat %@"
     },
@@ -39326,6 +39331,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PasscodeSettings.UpdateError",
+      "value": "No s'ha pogut actualitzar el codi d'accés. Desbloqueu de nou i torneu a provar-ho."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PasscodeSettings.WalletConfirmWithFaceId",
       "value": "Confirma amb Face ID"
     },
@@ -39338,6 +39348,16 @@
       "_": "types.LangPackString",
       "key": "PasscodeSettings.WalletConfirmWithTouchId",
       "value": "Confirma amb Touch ID"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PasscodeSettings.WalletEnableBiometricsReason",
+      "value": "Activeu l'accés biomètric a les vostres carteres"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PasscodeSettings.WalletProtectionError",
+      "value": "No s'ha pogut actualitzar la protecció de la cartera. Torneu a provar-ho."
     },
     {
       "_": "types.LangPackString",
@@ -59559,6 +59579,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.AuthenticationReason",
+      "value": "Confirmeu l'accés a la cartera"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Authorization.PasswordRetryAfter",
       "value": "Torneu a provar-ho d'aquí a %@."
     },
@@ -59794,6 +59819,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.EarningsBalance",
+      "value": "Teniu %@ en guanys de Gram"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Empty.InstantTransfersTitle",
       "value": "Transferències instantànies"
     },
@@ -59854,6 +59884,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Import.InvalidPhraseLength",
+      "value": "Una frase secreta ha de contenir exactament 12 o 24 paraules. La frase que heu enganxat conté %@."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Import.InvalidPhraseText",
       "value": "Comproveu l'ordre de les paraules.\n\nNomés hi podeu importar una frase secreta creada en Telegram."
     },
@@ -59869,13 +59904,33 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Import.PhraseChangedText",
+      "value": "La clau d'aquesta cartera ha canviat. Introduïu la frase secreta actual de 24 paraules."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Import.PhraseChangedTitle",
+      "value": "La frase secreta ha canviat"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Import.Proceed",
       "value": "Continua"
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Import.RecoveryExplanation",
+      "value": "Atès que heu desactivat les còpies de seguretat de la cartera, cal que introduïu manualment la frase secreta en cada nova sessió de Telegram."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Import.TestText",
       "value": "Comproveu que heu escrit correctament la frase secreta.\nIntroduïu les paraules **%1$@**, **%2$@** i **%3$@**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Import.TestTextFallback",
+      "value": "Comproveu que heu apuntat correctament la frase secreta."
     },
     {
       "_": "types.LangPackString",
@@ -59897,6 +59952,16 @@
       "key": "Wallet.Import.WordCount",
       "one_value": "%@ paraula",
       "other_value": "%@ paraules"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Import.WrongPhraseText",
+      "value": "Les paraules que heu introduït no coincideixen amb la cartera."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Import.WrongPhraseTitle",
+      "value": "Frase secreta incorrecta"
     },
     {
       "_": "types.LangPackString",
@@ -59935,6 +60000,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Info.FirstGramsText",
+      "value": "Podeu:"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Info.FirstGramsTitle",
       "value": "Els vostres primers Grams"
     },
@@ -59942,6 +60012,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.Info.GramRateText",
       "value": "La moneda nativa de la cadena de blocs TON. **1 Gram** equival actualment a **%@**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Info.GramText",
+      "value": "La moneda nativa de la cadena de blocs TON."
     },
     {
       "_": "types.LangPackString",
@@ -60050,6 +60125,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.PasscodeTouchId",
+      "value": "Codi d'accés i Touch ID"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.PasswordSetText",
       "value": "El vostre compte s'ha protegit."
     },
@@ -60070,8 +60150,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.ProtectAccount",
+      "value": "Protegiu el compte"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.PublicBalanceNotice",
       "value": "El vostre saldo és públic a causa de la transparència de la cadena de blocs."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Receive.Buy",
+      "value": "Compra amb diners o criptomoneda"
     },
     {
       "_": "types.LangPackString",
@@ -60095,6 +60185,26 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Receive.PurchaseFailedText",
+      "value": "La compra no s'ha pogut iniciar. Torneu a provar-ho."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Receive.PurchaseFailedTitle",
+      "value": "Ha fallat la compra"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Receive.PurchaseUnavailableText",
+      "value": "La compra no es troba disponible actualment. Torneu a provar-ho més tard."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Receive.PurchaseUnavailableTitle",
+      "value": "Compra no disponible"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Receive.ShowQR",
       "value": "Mostra el meu codi QR"
     },
@@ -60105,8 +60215,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Recipient.Error",
+      "value": "S'ha produït un error desconegut. Torneu a provar-ho."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Recipient.GramWallet",
       "value": "Cartera de Grams"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Recipient.InvalidAddress",
+      "value": "El text enganxat no és una adreça TON vàlida."
     },
     {
       "_": "types.LangPackString",
@@ -60192,6 +60312,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.Send.Amount",
       "value": "Envia %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Send.AmountPlaceholder",
+      "value": "Toqueu per a establir una quantitat"
     },
     {
       "_": "types.LangPackString",
@@ -60305,6 +60430,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Settings.EnterSecretPhrase",
+      "value": "Introduïu la frase secreta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Settings.EnterSecretPhraseInfo",
+      "value": "Introduïu la frase secreta per a restablir l'accés a aquesta cartera."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Settings.ImportWallet",
       "value": "Importa una cartera"
     },
@@ -60375,8 +60510,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Sign.ConfirmAction",
+      "value": "Confirmeu l'acció"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Sign.Data",
       "value": "Data"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sign.Error",
+      "value": "No s'ha pogut completar la sol·licitud. Torneu a provar-ho."
     },
     {
       "_": "types.LangPackString",
@@ -60412,6 +60557,16 @@
       "_": "types.LangPackString",
       "key": "Wallet.Sign.FieldValidUntil",
       "value": "valid_until"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sign.Sign",
+      "value": "Signa"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sign.SignData",
+      "value": "Signa les dades"
     },
     {
       "_": "types.LangPackString",
@@ -60515,13 +60670,43 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Transaction.CardTopUp",
+      "value": "Recàrrega de la targeta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.Collectible",
+      "value": "Col·leccionable"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.CollectibleGift",
+      "value": "Regal col·leccionable"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Transaction.CommentDecryptionErrorText",
       "value": "No s'ha pogut desxifrar el comentari."
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Transaction.CryptoTopUp",
+      "value": "Recàrrega de criptomoneda"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Transaction.Date",
       "value": "Data"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.Deposit",
+      "value": "Dipòsit"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.Excess",
+      "value": "Excés"
     },
     {
       "_": "types.LangPackString",
@@ -60545,6 +60730,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Transaction.IncomingCollectible",
+      "value": "Col·leccionable rebut"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Transaction.IncomingTransfer",
       "value": "Transferència rebuda"
     },
@@ -60553,6 +60743,11 @@
       "key": "Wallet.Transaction.ItemCount",
       "one_value": "%@ element",
       "other_value": "%@ elements"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.KeyUpdate",
+      "value": "Actualització de la clau"
     },
     {
       "_": "types.LangPackString",
@@ -60573,6 +60768,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.Transaction.NetworkFeesTitle",
       "value": "Tarifes de la xarxa"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.OutgoingCollectible",
+      "value": "Col·leccionable enviat"
     },
     {
       "_": "types.LangPackString",
@@ -60621,6 +60821,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Transaction.UnknownOperation",
+      "value": "Operació desconeguda"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Transaction.Username",
       "value": "Nom d'usuari"
     },
@@ -60628,6 +60833,16 @@
       "_": "types.LangPackString",
       "key": "Wallet.Transaction.WhatIsGram",
       "value": "Què són els Grams?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.Withdrawal",
+      "value": "Retirada"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transactions",
+      "value": "Transaccions"
     },
     {
       "_": "types.LangPackString",
@@ -60641,8 +60856,23 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Transfer.CommentEncryptionErrorText",
+      "value": "El comentari no s'ha pogut xifrar per a aquesta cartera. Comproveu la connexió de xarxa i torneu a provar-ho."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Transfer.CommentEncryptionErrorTitle",
       "value": "No s'ha pogut xifrar el comentari"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transfer.CommentEncryptionUnavailable",
+      "value": "La cartera no pot rebre comentaris xifrats actualment."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transfer.CommentTooLongText",
+      "value": "El comentari xifrat és massa llarg. Acurteu-lo i torneu a provar-ho."
     },
     {
       "_": "types.LangPackString",
@@ -60681,6 +60911,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Transfer.KeyChangedTitle",
+      "value": "La clau de la cartera ha canviat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transfer.PendingText",
+      "value": "La transferència podria haver-se enviat. No l'envieu de nou mentre es comprova el seu estat."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transfer.PendingTitle",
+      "value": "Transferència pendent"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Transfer.PreviewHeader",
       "value": "PREVISUALITZACIÓ"
     },
@@ -60689,6 +60934,11 @@
       "key": "Wallet.Transfer.RecipientCount",
       "one_value": "%@ destinatari",
       "other_value": "%@ destinataris"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transfer.Success",
+      "value": "S'han enviat els Grams a **%@**."
     },
     {
       "_": "types.LangPackString",
@@ -60719,6 +60969,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.ViewProfile",
       "value": "Mostra el perfil >"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.WaltBalance",
+      "value": "També teniu fons en Walt"
     },
     {
       "_": "types.LangPackString",
@@ -62468,5 +62723,5 @@
       "value": "Heu introduït un codi de seguretat no vàlid."
     }
   ],
-  "version": 22335995
+  "version": 22337054
 }
