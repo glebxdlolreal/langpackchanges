@@ -21204,6 +21204,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "InAppLinks.InvalidWalletLink",
+      "value": "Denne lenken er ugyldig."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "InAppLinks.LoginExpired",
       "value": "Innloggingslenken er utløpt."
     },
@@ -21830,6 +21835,11 @@
       "_": "types.LangPackString",
       "key": "LastSeen.HoursAgo_countable",
       "value": "%d"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LeaveChat.Actions.DeleteForAllSubscribers",
+      "value": "Slett for alle abonnenter"
     },
     {
       "_": "types.LangPackString",
@@ -25112,6 +25122,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Passcode.SettingsViewController.ConfirmWithPasscode",
+      "value": "Bekreft med tilgangskode"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Passcode.SettingsViewController.LockTelegram",
       "value": "Lås Telegram"
     },
@@ -25149,6 +25164,12 @@
       "_": "types.LangPackString",
       "key": "PasscodeController.Change.Title",
       "value": "Endre tilgangskode"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "PasscodeController.Cooldown",
+      "one_value": "For mange forsøk, vennligst prøv igjen om 1 sekund.",
+      "other_value": "For mange forsøk, vennligst prøv igjen om %1$d sekunder."
     },
     {
       "_": "types.LangPackString",
@@ -25197,6 +25218,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PasscodeController.SyncFailed",
+      "value": "Kunne ikke oppdatere tilgangskoden. Lås opp igjen og prøv en gang til."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PasscodeController.Text",
       "value": "For å låse, hold pekeren over innstillinger-ikonet på fanelinjen og velg \"Lås Telegram\" eller bruk ⌘ + L.\n\nMerk: Hvis du glemmer den lokale tilgangskoden din, må du logge ut av Telegram for macOS og deretter logge inn igjen."
     },
@@ -25207,8 +25233,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PasscodeController.WalletDisableWarning",
+      "value": "Dette vil også slå av tilgangskoden og biometrisk beskyttelse for alle lommebøker på denne enheten."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PasscodeController.WalletProtection.Title",
       "value": "Bekreft med tilgangskode"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PasscodeController.WalletProtectionFailed",
+      "value": "Kunne ikke oppdatere lommebokbeskyttelsen. Vennligst prøv igjen."
     },
     {
       "_": "types.LangPackString",
@@ -29023,7 +29059,7 @@
     {
       "_": "types.LangPackString",
       "key": "PreviewSender.Title.Archive",
-      "value": "ZIP-arkiv"
+      "value": "ZIP-fil"
     },
     {
       "_": "types.LangPackString",
@@ -34897,6 +34933,11 @@
       "value": "din saldo"
     },
     {
+      "_": "types.LangPackString",
+      "key": "Star.ListScreen.WithdrawMinimumGrams",
+      "value": "Du kan ikke ta ut mindre enn 10 Gram."
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "key": "Star.Marketplace.ResaleAvailable",
       "one_value": "%d oppføring",
@@ -39683,6 +39724,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "TonAmountFormat.Gram",
+      "value": "%1$@ Gram"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "TonAmountFormat.Grams",
+      "value": "%1$@ Gram"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "TonViewer.Url",
       "value": "https://tonviewer.com/%@"
     },
@@ -42322,13 +42373,469 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.AmountRowItem.Gram",
+      "value": "GRAM"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizeController.Description",
+      "value": "Vennligst skriv inn Telegram-tilgangskoden din for å få tilgang til lommeboken."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizeController.EnterPasscode",
+      "value": "Skriv inn tilgangskoden"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizeController.Passcode",
+      "value": "Tilgangskode"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "Wallet.AuthorizeController.TooManyAttempts",
+      "one_value": "For mange forsøk. Prøv igjen om %1$d sekund.",
+      "other_value": "For mange forsøk. Prøv igjen om %1$d sekunder."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizeController.VerifyFailed",
+      "value": "Kunne ikke bekrefte tilgangskoden. Vennligst prøv igjen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.BackupDisabledInfo",
+      "value": "Aktiver kryptert sikkerhetskopiering før du gjenoppretter den hemmelige frasen fra Telegram."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.BackupDisabledTitle",
+      "value": "Sikkerhetskopiering er deaktivert"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.BackupProofExpiredInfo",
+      "value": "Forespørselen for bekreftelse av lommeboken utløp. Vennligst prøv å aktivere sikkerhetskopiering på nytt."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.BackupRotationPendingInfo",
+      "value": "Telegram kunne ikke bekrefte den hemmelige fraseendringen på blokkjeden ennå. Vent et øyeblikk og prøv på nytt, eller skriv inn den gjeldende hemmelige frasen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.BackupUnavailableInfo",
+      "value": "Kryptert sikkerhetskopiering er ikke tilgjengelig for denne lommeboken."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.BackupUnavailableTitle",
+      "value": "Sikkerhetskopiering er ikke tilgjengelig"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.BackupVerifyFailedInfo",
+      "value": "Denne hemmelige frasen kan være utdatert for lommeboken din. Skriv inn den gjeldende hemmelige frasen for å aktivere sikkerhetskopiering."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.BackupVerifyFailedTitle",
+      "value": "Kunne ikke verifisere hemmelig frase"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.Cancel",
+      "value": "Avbryt"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.CheckNetworkInfo",
+      "value": "Sjekk nettverkstilkoblingen og prøv igjen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.CommentTooLongInfo",
+      "value": "Den krypterte kommentaren er for lang. Gjør den kortere og prøv igjen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.CommentTooLongTitle",
+      "value": "Kommentaren er for lang"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.Continue",
+      "value": "Fortsett"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.DecryptFailedInfo",
+      "value": "Kommentaren kunne ikke dekrypteres."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.DecryptFailedTitle",
+      "value": "Kunne ikke dekryptere kommentaren"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.EnableBackupFailedTitle",
+      "value": "Kunne ikke aktivere sikkerhetskopiering"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.EncryptFailedInfo",
+      "value": "Kommentaren kunne ikke krypteres for denne lommeboken. Sjekk nettverkstilkoblingen og prøv igjen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.EncryptFailedTitle",
+      "value": "Kunne ikke kryptere kommentaren"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.EncryptRecipientUnavailableInfo",
+      "value": "Denne lommeboken kan ikke motta krypterte kommentarer nå."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.EnterCurrentPhrase",
+      "value": "Skriv inn gjeldende hemmelig frase"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.InvalidPassword",
+      "value": "Ugyldig passord. Vennligst prøv igjen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.InvalidPhraseInfo",
+      "value": "Sjekk alle ordene i den nåværende hemmelige frasen og prøv igjen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.InvalidPhraseTitle",
+      "value": "Ugyldig hemmelig frase"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.KeyRotationFailedInfo",
+      "value": "Den nye hemmelige frasen ble ikke aktivert. Din forrige frase og krypterte sikkerhetskopi er fortsatt gyldig."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.KeyRotationFailedTitle",
+      "value": "Kunne ikke oppdatere hemmelig frase"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.PasswordInfo",
+      "value": "Skriv inn ditt Telegram 2-trinns bekreftelsespassord for å fortsette."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.PasswordPlaceholder",
+      "value": "Passord"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.PasswordTitle",
+      "value": "Telegram passord"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.PasswordTooNewInfo",
+      "value": "Prøv igjen om %1$@."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.PasswordTooNewTitle",
+      "value": "Passordet er for nytt"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.PhraseChangedInfo",
+      "value": "Nøkkelen til denne lommeboken er endret. Skriv inn den gjeldende hemmelige frasen på 24 ord."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.PhraseChangedTitle",
+      "value": "Hemmelig frase har blitt endret"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.ProofExpiredInfo",
+      "value": "Forespørselen for bekreftelse av lommeboken utløp. Vennligst prøv å importere den på nytt."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.ProofExpiredTitle",
+      "value": "Bekreftelse utløpt"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.ProofInvalidInfo",
+      "value": "Telegram kunne ikke verifisere at du eier denne lommeboken. Prøv å importere den på nytt."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.ProofInvalidTitle",
+      "value": "Kunne ikke bekrefte lommeboken"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.Retry",
+      "value": "Prøv på nytt"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.RotationPendingInfo",
+      "value": "Telegram kunne ikke bekrefte endringen av den hemmelige frasen på blokkjeden ennå. Vent et øyeblikk og prøv igjen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.RotationPendingTitle",
+      "value": "Oppdatering av hemmelig frase venter"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.SessionTooNewInfo",
+      "value": "For din sikkerhet, prøv igjen om %1$@."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.SessionTooNewTitle",
+      "value": "Økten er for ny"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.AuthorizedOperation.TwoStepRequiredInfo",
       "value": "Konfigurer et Telegram-passord før du endrer denne lommeboken."
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.TwoStepRequiredTitle",
+      "value": "To-trinns bekreftelse kreves"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.WalletChangedInfo",
+      "value": "Lommeboken endret seg mens sikkerhetskopiering ble aktivert. Åpne innstillingene og prøv igjen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.WalletChangedTitle",
+      "value": "Lommebok endret"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.WalletKeyChangedInfo",
+      "value": "Lommeboknøkkelen er endret. Oppdater lommeboken og gjenopprett tilgangen med gjeldende hemmelig frase om nødvendig, og bekreft deretter overføringen på nytt."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.WalletKeyChangedTitle",
+      "value": "Lommeboknøkkel endret"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Biometrics.ConfirmAccess",
+      "value": "Bekreft tilgang til lommeboken"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Biometrics.EnableReason",
+      "value": "Aktiver biometri for lommebøkene dine"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.CollectibleDetailsController.ActionSell",
+      "value": "selg"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.CollectibleDetailsController.ActionTransfer",
+      "value": "overfør"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.CollectibleDetailsController.ActionWear",
+      "value": "bruk"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.CollectibleDetailsController.Address",
+      "value": "Adresse"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.CollectibleDetailsController.Backdrop",
+      "value": "Bakgrunn"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.CollectibleDetailsController.Collectible",
+      "value": "Samleobjekt"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.CollectibleDetailsController.CollectibleGift",
+      "value": "Samlebar gave"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.CollectibleDetailsController.Collection",
+      "value": "Samling"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.CollectibleDetailsController.Model",
+      "value": "Variant"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.CollectibleDetailsController.NextCollectible",
+      "value": "Neste samleobjekt"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.CollectibleDetailsController.OK",
+      "value": "OK"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.CollectibleDetailsController.Owner",
+      "value": "Eier"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.CollectibleDetailsController.OwnerYou",
+      "value": "Deg"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.CollectibleDetailsController.PreviousCollectible",
+      "value": "Forrige samleobjekt"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.CollectibleDetailsController.StillSyncing",
+      "value": "Lommeboken synkroniseres fortsatt. Prøv igjen om et øyeblikk."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.CollectibleDetailsController.Symbol",
+      "value": "Ikon"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.CollectibleDetailsController.Type",
+      "value": "Type"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.CollectibleDetailsController.Username",
+      "value": "Brukernavn"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.CollectibleDetailsController.ViewInExplorer",
       "value": "Se i utforsker"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.ConnectedAppsController.ActiveConnections",
+      "value": "AKTIVE KOBLINGER"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.ConnectedAppsController.AllAppsDisconnected",
+      "value": "Alle applikasjoner er koblet fra."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.ConnectedAppsController.AppDisconnected",
+      "value": "%1$@ koblet fra."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.ConnectedAppsController.AppInfoDescription",
+      "value": "Denne appen kan se lommebokadressen, saldoen og aktiviteten din. Den kan ikke flytte midler uten din godkjenning."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.ConnectedAppsController.Cancel",
+      "value": "Avbryt"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.ConnectedAppsController.Disconnect",
+      "value": "Koble fra"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.ConnectedAppsController.DisconnectAll",
+      "value": "Koble fra alle"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.ConnectedAppsController.DisconnectAllApps",
+      "value": "Koble fra alle applikasjoner"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.ConnectedAppsController.DisconnectAllConfirmInfo",
+      "value": "Disse applikasjonene mister tilgangen til lommeboken din. Du kan koble dem til igjen når som helst."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.ConnectedAppsController.DisconnectAllConfirmTitle",
+      "value": "Koble fra alle applikasjoner?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.ConnectedAppsController.DisconnectAllFailed",
+      "value": "Kan ikke koble fra disse applikasjonene. Vennligst prøv igjen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.ConnectedAppsController.DisconnectFailed",
+      "value": "Kan ikke koble fra denne applikasjonen. Vennligst prøv igjen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.ConnectedAppsController.Disconnecting",
+      "value": "Kobler fra…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.ConnectedAppsController.Footer",
+      "value": "Tilkoblede applikasjoner kan se din lommebokadresse, saldo og aktivitet. De kan ikke flytte midler uten din godkjenning."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.ConnectedAppsController.Title",
+      "value": "Tilkoblede applikasjoner"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Controller.AccountProtected",
+      "value": "Kontoen din er nå beskyttet."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Controller.AddFunds",
+      "value": "Legg til midler"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Controller.BlockchainVerified",
+      "value": "Blokkjedebekreftet"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Controller.BlockchainVerifiedInfo",
+      "value": "Alle transaksjoner blir registrert\nog kan verifiseres i en offentlig hovedbok."
     },
     {
       "_": "types.LangPackString",
@@ -42343,7 +42850,7 @@
     {
       "_": "types.LangPackString",
       "key": "Wallet.Controller.InstantTransfers",
-      "value": "Send penger umiddelbart"
+      "value": "Umiddelbare overføringer"
     },
     {
       "_": "types.LangPackString",
@@ -42362,6 +42869,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Controller.ZeroFees",
+      "value": "Null gebyr"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.ImportController.TestTimeInfoPrefix",
       "value": "Sørg for at du har skrevet ned den hemmelige frasen din riktig.\nSkriv inn ordene "
     },
@@ -42369,6 +42881,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.ImportController.TestTimeTitle",
       "value": "Testtid"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.InfoController.BlockchainVerified",
+      "value": "Blokkjedebekreftet"
     },
     {
       "_": "types.LangPackString",
@@ -43361,5 +43878,5 @@
       "value": "Vis erstatninger"
     }
   ],
-  "version": 2391630
+  "version": 2394332
 }
