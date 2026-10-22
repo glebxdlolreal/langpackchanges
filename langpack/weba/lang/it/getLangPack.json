@@ -2943,9 +2943,33 @@
     },
     {
       "_": "types.LangPackStringPluralized",
+      "key": "BoostingGiveawayHowItWorksSubTextSeveral1",
+      "one_value": "Il **{date}**, Telegram selezionerà automaticamente **{quantity}** utente casuale tra quelli uniti a **{chat}** {otherChannels}.",
+      "other_value": "Il **{date}**, Telegram selezionerà automaticamente **{quantity}** utenti casuali tra quelli uniti a **{chat}** {otherChannels}."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
       "key": "BoostingGiveawayHowItWorksSubTextSeveral2",
       "one_value": "e **{count}** altro canale elencato",
       "other_value": "e altri **{count}** canali elencati"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "BoostingGiveawayHowItWorksSubTextSeveralEnd1",
+      "one_value": "Il **{date}**, Telegram ha selezionato automaticamente **{quantity}** utente casuale tra quelli uniti a **{chat}** {otherChannels}.",
+      "other_value": "Il **{date}**, Telegram ha selezionato automaticamente **{quantity}** utenti casuali tra quelli uniti a **{chat}** {otherChannels}."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "BoostingGiveawayHowItWorksText",
+      "one_value": "Il giveaway è sponsorizzato dagli amministratori di **{chat}**, che hanno acquistato **{quantity}** abbonamento **Telegram Premium** per {duration} per i suoi iscritti.",
+      "other_value": "Il giveaway è sponsorizzato dagli amministratori di **{chat}**, che hanno acquistato **{quantity}** abbonamenti **Telegram Premium** per {duration} per i suoi iscritti."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "BoostingGiveawayHowItWorksTextEnd",
+      "one_value": "Il giveaway è stato sponsorizzato dagli amministratori di **{chat}**, che hanno acquistato **{quantity}** abbonamento **Telegram Premium** per {duration} per i suoi iscritti.",
+      "other_value": "Il giveaway è stato sponsorizzato dagli amministratori di **{chat}**, che hanno acquistato **{quantity}** abbonamenti **Telegram Premium** per {duration} per i suoi iscritti."
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -5828,6 +5852,11 @@
       "key": "Days",
       "one_value": "{count} giorno",
       "other_value": "{count} giorni"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "DebugDownloadLog",
+      "value": "Scarica i log"
     },
     {
       "_": "types.LangPackString",
@@ -15588,6 +15617,12 @@
       "value": "La tua password per la Verifica in due passaggi non è stata cambiata negli ultimi **7 giorni**."
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "key": "SeenByUsers",
+      "one_value": "Visto da {count} utente",
+      "other_value": "Visto da {count} utenti"
+    },
+    {
       "_": "types.LangPackString",
       "key": "SelectChat",
       "value": "Seleziona chat"
@@ -19771,6 +19806,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletConnectBusyError",
+      "value": "È in corso un'altra richiesta wallet"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletConnectContractData",
       "value": "Dati contratto"
     },
@@ -19877,6 +19917,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletConnectSessionClosed",
+      "value": "Questa connessione non è più attiva."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletConnectSign",
       "value": "Firma"
     },
@@ -19889,6 +19934,11 @@
       "_": "types.LangPackString",
       "key": "WalletConnectSignTitle",
       "value": "{name} richiede la tua firma"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectStale",
+      "value": "Questa richiesta di connessione non è più valida. Richiedine una nuova dall'app."
     },
     {
       "_": "types.LangPackString",
@@ -20264,6 +20314,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletPhraseKept",
+      "value": "La tua frase segreta ora è conservata su questo dispositivo."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletPhraseOutdatedError",
       "value": "Questa frase segreta non controlla più il wallet. Inserisci la sua attuale frase."
     },
@@ -20436,6 +20491,21 @@
       "_": "types.LangPackString",
       "key": "WalletSendContinue",
       "value": "Continua"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendDomainLookupFailed",
+      "value": "Impossibile controllare il dominio. Riprova."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendDomainNotFound",
+      "value": "Questo dominio non ha un indirizzo wallet"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendError",
+      "value": "Impossibile inviare Gram. Riprova."
     },
     {
       "_": "types.LangPackString",
@@ -20636,6 +20706,11 @@
       "_": "types.LangPackString",
       "key": "WalletTransactionOutgoingCollectible",
       "value": "Collezionabile in uscita"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionProvider",
+      "value": "Fornitore"
     },
     {
       "_": "types.LangPackString",
@@ -20875,5 +20950,5 @@
       "value": "Il tuo nome"
     }
   ],
-  "version": 362902
+  "version": 362925
 }
