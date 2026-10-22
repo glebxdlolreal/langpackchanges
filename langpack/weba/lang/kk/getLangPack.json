@@ -3819,6 +3819,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "CallMicrophoneAccessNeeded",
+      "value": "Қоңырау шалу үшін Telegram микрофонға рұқсат алуы керек"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "CallMuteAudio",
       "value": "Үнсіз"
     },
@@ -4564,6 +4569,12 @@
       "value": "Ұтысқа қатысу үшін **{chat}** арнасына (және тізімде көрсетілген **{otherChannels}** басқа арнаға) **{date}** дейін қосылыңыз."
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "key": "ChatGiveawayInfoOtherChannels",
+      "one_value": "тізімде көрсетілген **{count}** арна",
+      "other_value": "тізімде көрсетілген **{count}** арна"
+    },
+    {
       "_": "types.LangPackString",
       "key": "ChatGiveawayInfoParticipating",
       "value": "**{chat}** арнасына қосылғандықтан осы ұтысқа қатысып жатырсыз."
@@ -4994,6 +5005,11 @@
       "_": "types.LangPackString",
       "key": "Checking",
       "value": "Тексеріліп жатыр..."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Checkout2FAText",
+      "value": "Төлем мәліметтерін сақтау тек 2 сатылы растау арқылы қолжетімді."
     },
     {
       "_": "types.LangPackString",
@@ -7285,6 +7301,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "FactCheckFooter",
+      "value": "Бұл түсініктемені жалған ақпаратпен күресуге жауапты ({country}) үкіметінің департаменті тағайындаған фактілерді тексеру агенттігі ұсынды."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "FakeMessage",
       "value": "ЖАЛҒАН"
     },
@@ -9208,6 +9229,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "GiftTelegramPremiumOrStarsTitle",
+      "value": "Premium не жұлдыз сыйлау"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "GiftTransferConfirmButton",
       "value": "{amount} тапсыру"
     },
@@ -9400,6 +9426,17 @@
     },
     {
       "_": "types.LangPackStringPluralized",
+      "key": "GiveawayReceiverTypeCountries",
+      "one_value": "{count} елден",
+      "other_value": "{count} елден"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiveawayStarsPrepaidTitle",
+      "value": "{count} ⭐️ Telegram"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
       "key": "GiveawayUserSelectionLimit",
       "one_value": "Ең көбі {count} жазылушыны таңдай аласыз.",
       "other_value": "Ең көбі {count} жазылушыны таңдай аласыз."
@@ -9464,6 +9501,11 @@
       "_": "types.LangPackString",
       "key": "GroupBoostBoostGroup",
       "value": "Топқа дауыс беру"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GroupBoostBoostToUnrestrict",
+      "value": "{boostTimes} тобына шектеусіз хат жазу үшін дауыс беріңіз. Дауыстарыңыз **{chat}** жаңа мүмкіндіктерді ашуға көмектеседі."
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -15878,6 +15920,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ServerErrorViewers",
+      "value": "Басқа көрушілер жайлы ақпар жазылмады."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ServiceNotifications",
       "value": "қызмет мәлімдемесі"
     },
@@ -17150,6 +17197,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "StarsSubscriptionRefulfillInfo",
+      "value": "Арнадан шықтыңыз, бірақ әлі де {date} дейін қайта аласыз."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "StarsSubscriptionRenew",
       "value": "Жазылымды жанарту"
     },
@@ -17217,6 +17269,11 @@
       "_": "types.LangPackString",
       "key": "StarsTransactionHidden",
       "value": "Аты жасырылған"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsTransactionIDCopied",
+      "value": "Транзакция ID-і көшірілді"
     },
     {
       "_": "types.LangPackString",
@@ -19620,6 +19677,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletBuyError",
+      "value": "Сатып алуды бастау мүмкін емес. Қайталап көріңіз."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletBuyExtraFee",
       "value": "Қосымша комиссия"
     },
@@ -20314,6 +20376,12 @@
       "key": "WalletNetworkFeesInfo",
       "one_value": "Әрбір аударым үшін шағын желі комиссиясы алынады (**~{fee} Gram**).\nTelegram күн сайын алғашқы **{count}** қамтиды.",
       "other_value": "Әрбір аударым үшін шағын желі комиссиясы алынады (**~{fee} Gram**).\nTelegram күн сайын алғашқы **{count}** қамтиды."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "WalletNetworkFeesInfoShort",
+      "one_value": "Әрбір аударым үшін шағын желі комиссия алынады. Telegram күн сайын алғашқы **{count}** аударымыңызды өтейді.",
+      "other_value": "Әрбір аударым үшін шағын желі комиссия алынады. Telegram күн сайын алғашқы **{count}** аударымыңызды өтейді."
     },
     {
       "_": "types.LangPackString",
@@ -21068,5 +21136,5 @@
       "value": "Атыңыз"
     }
   ],
-  "version": 363214
+  "version": 363237
 }
