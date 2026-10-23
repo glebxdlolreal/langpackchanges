@@ -5841,7 +5841,7 @@
     {
       "_": "types.LangPackString",
       "key": "Call.AlertMoveToConference",
-      "value": "Kết thúc cuộc gọi để bắt đầu hội nghị?"
+      "value": "Kết thúc cuộc gọi này để bắt đầu gọi nhóm?"
     },
     {
       "_": "types.LangPackString",
@@ -6036,7 +6036,7 @@
     {
       "_": "types.LangPackString",
       "key": "Call.LiveStreamInProgressConferenceMessage",
-      "value": "Rời livestream ở %1$@ và bắt đầu cuộc gọi mới?"
+      "value": "Rời livestream ở %1$@ và bắt đầu gọi nhóm?"
     },
     {
       "_": "types.LangPackString",
@@ -6246,7 +6246,7 @@
     {
       "_": "types.LangPackString",
       "key": "Call.VoiceChatInProgressConferenceMessage",
-      "value": "Rời chat thoại ở %1$@ và bắt đầu cuộc gọi mới?"
+      "value": "Rời chat video ở %1$@ và bắt đầu gọi nhóm?"
     },
     {
       "_": "types.LangPackString",
@@ -11986,7 +11986,7 @@
     {
       "_": "types.LangPackStringPluralized",
       "key": "Chat.PostApproval.DetailStatus.TonAmount",
-      "other_value": "# TON"
+      "other_value": "# Gram"
     },
     {
       "_": "types.LangPackString",
@@ -12141,7 +12141,7 @@
     {
       "_": "types.LangPackString",
       "key": "Chat.PostSuggestion.Approve.AdminConfirmationPriceTon",
-      "value": "Bạn sẽ nhận %1$@ TON (%2$@%)\nkhi đăng bài viết này. Bài viết phải xuất hiện ít nhất **24** giờ kể từ khi được đăng."
+      "value": "Bạn sẽ nhận %1$@ Gram (%2$@%)\nkhi đăng bài viết này. Bài viết phải xuất hiện ít nhất **24** giờ kể từ khi được đăng."
     },
     {
       "_": "types.LangPackString",
@@ -12166,7 +12166,7 @@
     {
       "_": "types.LangPackString",
       "key": "Chat.PostSuggestion.ApproveTime.AdminConfirmationPriceTon",
-      "value": "Bạn sẽ nhận %1$@ TON (%2$@%)\nkhi đăng bài viết này."
+      "value": "Bạn sẽ nhận %1$@ Gram (%2$@%)\nkhi đăng bài viết này."
     },
     {
       "_": "types.LangPackString",
@@ -12356,7 +12356,7 @@
     {
       "_": "types.LangPackString",
       "key": "Chat.PostSuggestion.Suggest.RequestTon",
-      "value": "Đề xuất TON"
+      "value": "Đề xuất Gram"
     },
     {
       "_": "types.LangPackString",
@@ -18136,12 +18136,12 @@
     {
       "_": "types.LangPackString",
       "key": "Conversation.EmojiStake.Lost",
-      "value": "%1$@ thua %2$@"
+      "value": "%1$@ thua $%2$@"
     },
     {
       "_": "types.LangPackString",
       "key": "Conversation.EmojiStake.LostYou",
-      "value": "Bạn thua %@"
+      "value": "Bạn thua $%@"
     },
     {
       "_": "types.LangPackString",
@@ -20520,6 +20520,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "CreateBot.UsernameEnding",
+      "value": "'%@'"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "CreateBot.UsernameEndingDelimiter",
       "value": ", "
     },
@@ -20527,6 +20532,11 @@
       "_": "types.LangPackString",
       "key": "CreateBot.UsernameEndingFinalDelimiter",
       "value": " hay "
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBot.UsernameHintFree",
+      "value": "Phải kết thúc là %@."
     },
     {
       "_": "types.LangPackString",
@@ -20557,6 +20567,16 @@
       "_": "types.LangPackString",
       "key": "CreateBot.UsernameStatus.Short",
       "value": "Tên link phải có ít nhất 5 ký tự."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBot.UsernameStatus.Subscribe",
+      "value": "Đăng ký >"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "CreateBot.UsernameStatus.SuffixLimitCount",
+      "other_value": "%d tên link"
     },
     {
       "_": "types.LangPackString",
@@ -24141,7 +24161,7 @@
     {
       "_": "types.LangPackString",
       "key": "Gift.Buy.AcceptsTonOnly",
-      "value": "Người bán chỉ chấp nhận\nthanh toán TON."
+      "value": "Người bán chỉ chấp nhận\nthanh toán Gram."
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -24216,7 +24236,7 @@
     {
       "_": "types.LangPackString",
       "key": "Gift.Buy.PayInTon",
-      "value": "Trả bằng TON"
+      "value": "Trả bằng Gram"
     },
     {
       "_": "types.LangPackString",
@@ -24452,6 +24472,21 @@
       "_": "types.LangPackString",
       "key": "Gift.Craft.ViewVariants",
       "value": "Xem các mẫu có thể chế tác"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Delete.Success",
+      "value": "Đã xóa quà"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Delete.Text",
+      "value": "Bạn có muốn xóa quà này?\n\nNó sẽ biến mất khỏi trang cá nhân của bạn và không thể khôi phục."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Delete.Title",
+      "value": "Xóa quà"
     },
     {
       "_": "types.LangPackString",
@@ -24881,7 +24916,7 @@
     {
       "_": "types.LangPackString",
       "key": "Gift.Sell.Confirm.ListForTon",
-      "value": "Rao bán %@ TON"
+      "value": "Rao bán %@ Gram"
     },
     {
       "_": "types.LangPackString",
@@ -25116,7 +25151,7 @@
     {
       "_": "types.LangPackString",
       "key": "Gift.Store.Balance.MyTon",
-      "value": "TON của tôi"
+      "value": "Gram của tôi"
     },
     {
       "_": "types.LangPackString",
@@ -25847,6 +25882,11 @@
       "_": "types.LangPackString",
       "key": "Gift.View.Context.Craft",
       "value": "Chế tác"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.View.Context.Delete",
+      "value": "Xóa quà"
     },
     {
       "_": "types.LangPackString",
@@ -30046,7 +30086,7 @@
     {
       "_": "types.LangPackString",
       "key": "Login.AnonymousNumbers",
-      "value": "Số ẩn danh"
+      "value": "Số sưu tầm"
     },
     {
       "_": "types.LangPackString",
@@ -31071,12 +31111,12 @@
     {
       "_": "types.LangPackString",
       "key": "MESSAGE_GRAM_TRANSFER",
-      "value": "{1} đã gửi bạn {2}"
+      "value": "%1$@ đã gửi bạn %2$@"
     },
     {
       "_": "types.LangPackString",
       "key": "MESSAGE_GRAM_TRANSFER_COMMENT",
-      "value": "{1} đã gửi bạn {2}: {3}"
+      "value": "%1$@ đã gửi bạn %2$@: %3$@"
     },
     {
       "_": "types.LangPackString",
@@ -31216,7 +31256,7 @@
     {
       "_": "types.LangPackString",
       "key": "MESSAGE_WALLET_TONCONNECT_REQUEST_DAPP",
-      "value": "Bạn có một yêu cầu TON Connect từ {2}"
+      "value": "Bạn có một yêu cầu TON Connect từ %2$@"
     },
     {
       "_": "types.LangPackString",
@@ -33326,7 +33366,7 @@
     {
       "_": "types.LangPackString",
       "key": "Monetization.TransactionInfo.ViewInExplorer",
-      "value": "Xem ở Blockchain Explorer"
+      "value": "Xem ở Explorer"
     },
     {
       "_": "types.LangPackString",
@@ -34615,6 +34655,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Notification.GramTransfer",
+      "value": "%1$@ đã gửi bạn %2$@"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Notification.GramTransfer.UnknownUser",
       "value": "NGƯỜI ẨN DANH"
     },
@@ -34622,6 +34667,11 @@
       "_": "types.LangPackString",
       "key": "Notification.GramTransferUnknown",
       "value": "Ai đó đã gửi bạn %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.GramTransferYou",
+      "value": "Bạn đã gửi %1$@ %2$@"
     },
     {
       "_": "types.LangPackString",
@@ -35886,12 +35936,12 @@
     {
       "_": "types.LangPackString",
       "key": "Notification.Ton.Subtitle",
-      "value": "Dùng TON để mua quà và đề xuất bài viết ở các kênh."
+      "value": "Dùng Gram để mua quà và đề xuất bài viết ở các kênh."
     },
     {
       "_": "types.LangPackString",
       "key": "Notification.Ton.SubtitleYou",
-      "value": "Với TON, %@ sẽ có thể gửi đề xuất bài viết đến các kênh."
+      "value": "Với Gram, %@ sẽ có thể gửi đề xuất bài viết đến các kênh."
     },
     {
       "_": "types.LangPackString",
@@ -40106,7 +40156,7 @@
     {
       "_": "types.LangPackString",
       "key": "PeerInfo.BotBalance.Ton",
-      "value": "Ton"
+      "value": "Gram"
     },
     {
       "_": "types.LangPackString",
@@ -43226,7 +43276,7 @@
     {
       "_": "types.LangPackString",
       "key": "Premium.UpgradeFor",
-      "value": "Nâng cấp với %@ / tháng"
+      "value": "Nâng cấp với %@"
     },
     {
       "_": "types.LangPackString",
@@ -45840,6 +45890,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "RichText.AddEmoji",
+      "value": "Thêm emoji"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "RichText.AddMediaTitle",
       "value": "Thêm media"
     },
@@ -46015,6 +46070,26 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "RichText.Menu.Table.AddColumnLeft",
+      "value": "Thêm cột ở trái"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.Menu.Table.AddColumnRight",
+      "value": "Thêm cột ở phải"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.Menu.Table.AddRowAbove",
+      "value": "Thêm hàng trên"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.Menu.Table.AddRowBelow",
+      "value": "Thêm hàng dưới"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "RichText.Menu.Table.BordersOff",
       "value": "Ẩn viền"
     },
@@ -46050,6 +46125,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "RichText.Menu.Table.DeleteColumn",
+      "value": "Xóa cột"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.Menu.Table.DeleteRow",
+      "value": "Xóa hàng"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "RichText.Menu.Table.HighlightOff",
       "value": "Xóa nổi bật"
     },
@@ -46057,6 +46142,16 @@
       "_": "types.LangPackString",
       "key": "RichText.Menu.Table.HighlightOn",
       "value": "Làm nổi bật"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.Menu.Table.MergeCells",
+      "value": "Gộp ô"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.Menu.Table.SplitCell",
+      "value": "Tách ô"
     },
     {
       "_": "types.LangPackString",
@@ -46107,6 +46202,11 @@
       "_": "types.LangPackString",
       "key": "RichText.PlaceholderBody",
       "value": "Hãy viết gì đó..."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.PlaceholderCaption",
+      "value": "Thêm chú thích"
     },
     {
       "_": "types.LangPackString",
@@ -46162,6 +46262,11 @@
       "_": "types.LangPackString",
       "key": "RichText.TitleArticle",
       "value": "Văn bản"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichTextPreview.Channel",
+      "value": "Kênh"
     },
     {
       "_": "types.LangPackString",
@@ -47641,17 +47746,17 @@
     {
       "_": "types.LangPackString",
       "key": "Settings.Ton.Description",
-      "value": "Dùng TON để mua quà và đề xuất bài viết ở các kênh."
+      "value": "Dùng Gram để mua quà và đề xuất bài viết ở các kênh."
     },
     {
       "_": "types.LangPackString",
       "key": "Settings.TransactionsTon.Subtitle",
-      "value": "Dùng TON để mua quà và đề xuất bài viết ở các kênh."
+      "value": "Dùng Gram để mua quà và đề xuất bài viết ở các kênh."
     },
     {
       "_": "types.LangPackString",
       "key": "Settings.TransactionsTon.Title",
-      "value": "TON"
+      "value": "Gram"
     },
     {
       "_": "types.LangPackString",
@@ -48360,6 +48465,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ShareScreen.Title",
+      "value": "Chia sẻ với"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "SharedMedia.CalendarTooltip",
       "value": "Nhấn vào đây để xem kiểu lịch"
     },
@@ -49001,7 +49111,7 @@
     {
       "_": "types.LangPackString",
       "key": "Stars.Gift.Ton.Text",
-      "value": "Dùng TON để mua quà và đề xuất bài viết ở các kênh."
+      "value": "Dùng Gram để mua quà và đề xuất bài viết ở các kênh."
     },
     {
       "_": "types.LangPackString",
@@ -49556,7 +49666,7 @@
     {
       "_": "types.LangPackString",
       "key": "Stars.SellGift.OnlyTon",
-      "value": "Chỉ chấp nhận TON"
+      "value": "Chỉ chấp nhận Gram"
     },
     {
       "_": "types.LangPackString",
@@ -49581,7 +49691,7 @@
     {
       "_": "types.LangPackString",
       "key": "Stars.SellGift.TonAmountTitle",
-      "value": "GIÁ (TON)"
+      "value": "GIÁ (GRAM)"
     },
     {
       "_": "types.LangPackString",
@@ -49671,7 +49781,7 @@
     {
       "_": "types.LangPackString",
       "key": "Stars.Ton.Title",
-      "value": "TON"
+      "value": "Số dư Gram"
     },
     {
       "_": "types.LangPackString",
@@ -49706,7 +49816,7 @@
     {
       "_": "types.LangPackString",
       "key": "Stars.Transaction.FragmentTopUpTon.Title",
-      "value": "Nạp TON"
+      "value": "Nạp Gram"
     },
     {
       "_": "types.LangPackString",
@@ -49726,7 +49836,7 @@
     {
       "_": "types.LangPackString",
       "key": "Stars.Transaction.FragmentWithdrawalTon.Title",
-      "value": "Rút TON"
+      "value": "Rút Gram"
     },
     {
       "_": "types.LangPackString",
@@ -50866,7 +50976,7 @@
     {
       "_": "types.LangPackString",
       "key": "Stats.RevenueInTon",
-      "value": "Doanh thu (TON)"
+      "value": "Doanh thu (Gram)"
     },
     {
       "_": "types.LangPackString",
@@ -52162,6 +52272,11 @@
       "_": "types.LangPackString",
       "key": "Story.Editor.Done",
       "value": "Xong"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.Editor.DownloadingMedia",
+      "value": "Đang tải về từ iCloud..."
     },
     {
       "_": "types.LangPackString",
@@ -54506,7 +54621,7 @@
     {
       "_": "types.LangPackString",
       "key": "Ton.WithdrawViaFragment.Info",
-      "value": "Thu thập TON bằng Fragment. [Tìm hiểu thêm >]()"
+      "value": "Thu thập Gram bằng Fragment. [Tìm hiểu thêm >]()"
     },
     {
       "_": "types.LangPackString",
@@ -55666,7 +55781,7 @@
     {
       "_": "types.LangPackString",
       "key": "UserInfo.AnonymousNumberLabel",
-      "value": "số ẩn danh"
+      "value": "số sưu tầm"
     },
     {
       "_": "types.LangPackString",
@@ -57605,6 +57720,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.Stop",
+      "value": "Dừng"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "VoiceOver.Chat.Title",
       "value": "Tiêu đề: %@"
     },
@@ -57975,6 +58095,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.AuthenticationReason",
+      "value": "Xác nhận truy cập ví của bạn"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Authorization.BackupDisabledText",
       "value": "Bật tính năng sao lưu mã hóa trước khi khôi phục cụm từ bí mật từ Telegram."
     },
@@ -58071,7 +58196,7 @@
     {
       "_": "types.LangPackString",
       "key": "Wallet.Backup.CancelDisablingTitle",
-      "value": "Hủy việc tắt sao lưu?"
+      "value": "Giữ sao lưu?"
     },
     {
       "_": "types.LangPackString",
@@ -58255,6 +58380,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Collectible.AlsoShowInMyGifts",
+      "value": "cũng hiện ở quà của tôi"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Collectibles",
       "value": "Đồ sưu tầm"
     },
@@ -58281,7 +58411,7 @@
     {
       "_": "types.LangPackString",
       "key": "Wallet.Connect.Proof",
-      "value": "Nó sẽ yêu cầu bạn chứng minh quyền sở hữu ví này với %@."
+      "value": "%@ yêu cầu bạn chứng minh quyền sở hữu ví này."
     },
     {
       "_": "types.LangPackString",
@@ -58316,12 +58446,12 @@
     {
       "_": "types.LangPackString",
       "key": "Wallet.Empty.InstantTransfersTitle",
-      "value": "Gửi tiền nhanh chóng"
+      "value": "Giao dịch nhanh"
     },
     {
       "_": "types.LangPackString",
       "key": "Wallet.Empty.ZeroFeesTitle",
-      "value": "Miễn phí"
+      "value": "Không phí"
     },
     {
       "_": "types.LangPackString",
@@ -58337,6 +58467,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.HiddenTransactions",
       "value": "Giao dịch nhỏ hơn %@ được ẩn."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.HowDoesItWork",
+      "value": "Hoạt động thế nào?"
     },
     {
       "_": "types.LangPackString",
@@ -58385,6 +58520,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Import.PhraseChangedTitle",
+      "value": "Cụm từ bí mật đã thay đổi"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Import.Proceed",
+      "value": "Tiếp tục"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Import.TestText",
       "value": "Hãy chắc chắn bạn đã ghi chính xác cụm từ bí mật. Hãy nhập từ thứ **%1$@**, **%2$@** và **%3$@**."
     },
@@ -58407,6 +58552,11 @@
       "_": "types.LangPackStringPluralized",
       "key": "Wallet.Import.WordCount",
       "other_value": "%@ từ"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Import.WrongPhraseTitle",
+      "value": "Sai cụm từ bí mật"
     },
     {
       "_": "types.LangPackString",
@@ -58525,6 +58675,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.PreviousWalletsBalance",
+      "value": "Bạn cũng có %@ ở các ví cũ"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.ProtectAccount",
       "value": "Bảo vệ tài khoản của bạn"
     },
@@ -58546,7 +58701,7 @@
     {
       "_": "types.LangPackString",
       "key": "Wallet.Receive.PeerText",
-      "value": "Gửi GRAM đến địa chỉ này\nhoặc quét mã QR này."
+      "value": "Gửi Gram đến địa chỉ này\nhoặc quét mã QR này."
     },
     {
       "_": "types.LangPackString",
@@ -58572,6 +58727,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.Recipient.NoRecentRecipients",
       "value": "Người nhận gần đây\nsẽ hiển thị ở đây"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Recipient.NoResults",
+      "value": "0 kết quả"
     },
     {
       "_": "types.LangPackString",
@@ -58650,6 +58810,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Send.EditComment",
+      "value": "Sửa nội dung"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Send.Grams",
       "value": "Gram"
     },
@@ -58677,6 +58842,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.Send.Title",
       "value": "Gửi tiền tới"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Send.UnlinkedWallet",
+      "value": "Hủy liên kết ví"
     },
     {
       "_": "types.LangPackString",
@@ -58735,6 +58905,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Settings.EnterSecretPhrase",
+      "value": "Nhập cụm từ bí mật"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Settings.ImportWallet",
       "value": "Nhập một ví đã có sẵn"
     },
@@ -58785,13 +58960,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Settings.WalletImportedTitle",
+      "value": "Đã nhập ví"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.ShowSecretPhrase",
       "value": "Hiện cụm từ bí mật"
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Sign.Confirm",
+      "value": "Xác nhận"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Sign.ConfirmAction",
       "value": "Xác nhận hành động"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sign.Data",
+      "value": "Dữ liệu"
     },
     {
       "_": "types.LangPackString",
@@ -58907,6 +59097,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.TermsText_URL",
       "value": "https://telegram.org/tos"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TonAddressCopied",
+      "value": "Đã sao chép địa chỉ TON"
     },
     {
       "_": "types.LangPackString",
@@ -59027,6 +59222,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.Transaction.Sender",
       "value": "Người gửi"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.Telegram",
+      "value": "Telegram"
     },
     {
       "_": "types.LangPackString",
@@ -60761,12 +60961,12 @@
     {
       "_": "types.LangPackString",
       "key": "WelcomeMessages.ServiceHeader1",
-      "value": "Thành viên mới tham gia sẽ thấy những tin nhắn này"
+      "value": "Thành viên mới sẽ thấy những tin nhắn này khi tham gia"
     },
     {
       "_": "types.LangPackString",
       "key": "WelcomeMessages.ServiceHeader2",
-      "value": "Bấm và giữ để xóa"
+      "value": "Bấm và giữ nó để xóa nó"
     },
     {
       "_": "types.LangPackString",
@@ -60869,5 +61069,5 @@
       "value": "Bạn đã nhập sai mã bảo mật."
     }
   ],
-  "version": 22286413
+  "version": 22345429
 }
