@@ -2974,6 +2974,12 @@
       "value": "Você também pode **enviar esse link** para qualquer pessoa como presente."
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "key": "BoostingStarsGiveawayHowItWorksTextEnd",
+      "one_value": "Este sorteio é patrocinado pelos admins de **{chat}**, que adquiriram **{count} Estrela** para os inscritos.",
+      "other_value": "Este sorteio é patrocinado pelos admins de **{chat}**, que adquiriram **{count} Estrelas** para os inscritos."
+    },
+    {
       "_": "types.LangPackString",
       "key": "BoostingStarsOptions",
       "value": "Estrelas para distribuir"
@@ -3004,6 +3010,17 @@
       "value": "Iniciar Sorteio"
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "key": "BoostingTelegramPremiumCountPlural",
+      "one_value": "{count} Telegram Premium",
+      "other_value": "{count} Telegram Premium"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingTelegramPremiumFor",
+      "value": "Telegram Premium de {duration}"
+    },
+    {
       "_": "types.LangPackString",
       "key": "BoostingTo",
       "value": "Para"
@@ -3020,6 +3037,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "BoostingUsedLinkDate",
+      "value": "Este link foi usado em {date}."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "BoostingWinnersDate",
       "value": "**Seleção dos Ganhadores**"
     },
@@ -3032,6 +3054,11 @@
       "_": "types.LangPackString",
       "key": "Boosts",
       "value": "Impulsos"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostsLevel",
+      "value": "Nível {level}"
     },
     {
       "_": "types.LangPackString",
@@ -3305,6 +3332,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "BotRemoveFromMenu",
+      "value": "Isso removerá atalhos de **{user}** de todos os menus."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "BotRemoveFromMenuTitle",
       "value": "Remover bot"
     },
@@ -3372,6 +3404,12 @@
       "_": "types.LangPackString",
       "key": "BotWebViewStartPermission",
       "value": "Para iniciar este app web, você se conectará ao site dele."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "Bots",
+      "one_value": "{count} bot",
+      "other_value": "{count} bots"
     },
     {
       "_": "types.LangPackString",
@@ -3543,6 +3581,11 @@
       "_": "types.LangPackString",
       "key": "CallBack",
       "value": "Ligar de Volta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CallCameraAccessNeeded",
+      "value": "O Telegram precisa de acesso à câmera para fazer a Chamada de Vídeo."
     },
     {
       "_": "types.LangPackString",
@@ -3772,8 +3815,34 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ChannelBoostErrorBoostTooOftenText",
+      "value": "Você pode mudar o canal que impulsiona apenas uma vez por dia. Você poderá impulsionar em **{time}**."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ChannelBoostErrorBoostTooOftenTitle",
       "value": "Impulsionou recentemente"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "ChannelBoostMoreBoosts",
+      "one_value": "mais **{count}** impulso",
+      "other_value": "mais **{count}** impulsos"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChannelBoostMoreBoostsNeededText",
+      "value": "**{chat}** precisa de {moreBoosts} para desbloquear novos recursos."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChannelBoostReplaceBoost",
+      "value": "Você está impulsionando **{currentChat}**. Deseja impulsionar **{chat}** em vez disso?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChannelBoostYouBoostedChannelText",
+      "value": "Você impulsionou {chat}!"
     },
     {
       "_": "types.LangPackString",
@@ -4072,6 +4141,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ChannelStatsGraphStories",
+      "value": "INTERAÇÕES COM STORIES"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ChannelStatsGraphStoriesReactions",
       "value": "REAÇÕES AOS STORIES"
     },
@@ -4178,6 +4252,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ChannelVisibilityConfirmMakePrivateChannel",
+      "value": "Se você tornar este canal privado, o nome @{currentUsername} será removido. Qualquer pessoa poderá usá-lo nos grupos ou canais públicos deles."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ChannelVisibilityForwardingChannelInfo",
       "value": "Inscritos poderão copiar, salvar e encaminhar conteúdo deste canal."
     },
@@ -4207,9 +4286,55 @@
       "value": "Encaminhar Deste Grupo"
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "key": "Channels",
+      "one_value": "{count} canal",
+      "other_value": "{count} canais"
+    },
+    {
       "_": "types.LangPackString",
       "key": "ChannelsSearchContext",
       "value": "Canais"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAllowedFiles",
+      "value": "arquivos"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAllowedMusic",
+      "value": "músicas"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAllowedPhotos",
+      "value": "fotos"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAllowedStickers",
+      "value": "stickers e GIFs"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAllowedText",
+      "value": "mensagens de texto"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAllowedVideoMessages",
+      "value": "mensagens de vídeo"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAllowedVideos",
+      "value": "vídeos"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAllowedVoices",
+      "value": "mensagens de voz"
     },
     {
       "_": "types.LangPackString",
@@ -4238,6 +4363,12 @@
       "value": "Ver como Tópicos"
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "key": "ChatDeleteMessagesConfirmation",
+      "one_value": "Apagar mensagem",
+      "other_value": "Apagar {count} mensagens"
+    },
+    {
       "_": "types.LangPackString",
       "key": "ChatDraftPrefix",
       "value": "Rascunho:"
@@ -4246,6 +4377,11 @@
       "_": "types.LangPackString",
       "key": "ChatEmptyChat",
       "value": "Ainda não há mensagens aqui."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatEmptyStateIntroFooter",
+      "value": "{user} adicionou a mensagem acima para todos os chats vazios"
     },
     {
       "_": "types.LangPackString",
@@ -4261,6 +4397,43 @@
       "_": "types.LangPackString",
       "key": "ChatForwardActionHeader",
       "value": "Mensagens Encaminhadas"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatGiveawayInfoNotQualified",
+      "value": "Para participar do sorteio, por favor entre no canal **{chat}** antes de **{date}**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatGiveawayInfoNotQualifiedMany",
+      "value": "Para participar do sorteio, por favor entre no canal **{chat}** (e **{otherChannels}** outros canais listados) antes de **{date}**."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "ChatGiveawayInfoOtherChannels",
+      "one_value": "**{count}** outro canal listado",
+      "other_value": "**{count}** outros canais listados"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatGiveawayInfoParticipating",
+      "value": "Você está participando do sorteio porque entrou no canal **{chat}**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatGiveawayInfoParticipatingMany",
+      "value": "Você está participando do sorteio porque entrou no canal **{chat}** (e **{otherChannels}** outros canais listados)."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "ChatGiveawayInfoSubscriptions",
+      "one_value": "**{count} assinatura do Telegram Premium**",
+      "other_value": "**{count} assinaturas do Telegram Premium**"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatGiveawayMessageCountriesFrom",
+      "value": "de {countries}"
     },
     {
       "_": "types.LangPackString",
@@ -4371,6 +4544,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ChatListEmptyTopicsCreate",
+      "value": "Criar Tópico"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatListEmptyTopicsDescription",
+      "value": "Mensagens mais antigas deste grupo foram movidas para \"Geral\"."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ChatListEmptyTopicsTitle",
       "value": "Nenhum tópico aqui ainda"
     },
@@ -4393,6 +4576,12 @@
       "_": "types.LangPackString",
       "key": "ChatListFilterInviteLinkIncludeExcludeError",
       "value": "Você não pode compartilhar pastas que incluem ou ignoram tipos de chats, como 'Grupos', 'Contatos' etc."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "ChatListFilterLinkLabelChatCount",
+      "one_value": "inclui 1 chat",
+      "other_value": "inclui {count} chats"
     },
     {
       "_": "types.LangPackString",
@@ -4423,6 +4612,11 @@
       "_": "types.LangPackString",
       "key": "ChatListPeerTypeGroup",
       "value": "grupo"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatListPeerTypeNonContact",
+      "value": "não é contato"
     },
     {
       "_": "types.LangPackString",
@@ -4463,6 +4657,11 @@
       "_": "types.LangPackString",
       "key": "ChatMemberListNoAccess",
       "value": "Você não tem acesso à lista de membros do grupo"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatMessagingRestrictedPlaceholder",
+      "value": "Só usuários Premium podem falar com {user}."
     },
     {
       "_": "types.LangPackString",
@@ -4532,8 +4731,23 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ChatPrivateMessageEditTimestampDate",
+      "value": "editado em {date}"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ChatQuizTotalVotesEmpty",
       "value": "Nenhuma reposta ainda"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatSendAllowedContentText",
+      "value": "Admins do grupo só permitem enviar {types}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatSendNotAllowedText",
+      "value": "Enviar mensagens não é permitido neste grupo"
     },
     {
       "_": "types.LangPackString",
@@ -4634,8 +4848,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Checkout2FAText",
+      "value": "Salvar detalhes de pagamentos só está disponível com a Verificação em Duas Etapas."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "CheckoutNewCardCardholderNamePlaceholder",
       "value": "Nome do Titular"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CheckoutNewCardSaveInfoHelp",
+      "value": "Você pode salvar suas informações de pagamento para uso futuro."
     },
     {
       "_": "types.LangPackString",
@@ -4666,6 +4890,11 @@
       "_": "types.LangPackString",
       "key": "Clear",
       "value": "Limpar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ClearHistoryMessageSingle",
+      "value": "Tem certeza que deseja apagar as mensagens salvas de {chat}?"
     },
     {
       "_": "types.LangPackString",
@@ -5014,6 +5243,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ConnectedAccountsLimitSubtitle",
+      "value": "Conecte {count} contas com diferentes números de celular"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ConnectedAccountsLimitTitle",
       "value": "Contas Conectadas"
     },
@@ -5235,6 +5469,17 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ConversationContextMenuSendGiftTo",
+      "value": "Enviar Presente para {user}"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "ConversationContextViewReplies",
+      "one_value": "Ver {count} Resposta",
+      "other_value": "Ver {count} Respostas"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ConversationDefaultRestrictedMedia",
       "value": "Não é permitido enviar mídias neste grupo."
     },
@@ -5292,6 +5537,16 @@
       "_": "types.LangPackString",
       "key": "ConversationSearchPlaceholder",
       "value": "Buscar no chat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ConversationShareLinkTooltipChatOne",
+      "value": "Link compartilhado com **{user}**"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ConversationStoryForwardTooltipSavedMessagesOne",
+      "value": "Story encaminhado para **Mensagens Salvas**"
     },
     {
       "_": "types.LangPackString",
@@ -5513,6 +5768,11 @@
       "_": "types.LangPackString",
       "key": "DeleteAll",
       "value": "Apagar Tudo"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "DeleteAllFrom",
+      "value": "Apagar tudo de {user}"
     },
     {
       "_": "types.LangPackString",
@@ -20820,5 +21080,5 @@
       "value": "Seu Nome"
     }
   ],
-  "version": 363537
+  "version": 363593
 }
