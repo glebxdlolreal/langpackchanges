@@ -4831,7 +4831,7 @@
     {
       "_": "types.LangPackString",
       "key": "CantBoostTooOftenDescription",
-      "value": "하루에 한번만 채널에 부스트를 할 수 있습니다. **%s** 이후에 다음 부스트를 할 수 있습니다."
+      "value": "부스트할 채널은 하루에 한 번만 변경할 수 있습니다. **%s** 후에 부스트할 수 있습니다."
     },
     {
       "_": "types.LangPackString",
@@ -7667,6 +7667,31 @@
       "_": "types.LangPackString",
       "key": "ChatList.SharedFolder.Title",
       "value": "**%s에 가입할 수 있습니다**"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatList.ShowAllChats",
+      "value": "모든 대화 보기"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatList.ShowUnreadOnly",
+      "value": "읽지 않은 대화만 보기"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatList.UnreadOnly.Empty",
+      "value": "읽지 않은 대화 없음"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatList.UnreadOnly.EmptyInfo",
+      "value": "여기에 있는 모든 대화를 읽었습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatList.UnreadOnly.Title",
+      "value": "읽지 않은 대화만"
     },
     {
       "_": "types.LangPackString",
@@ -12336,7 +12361,7 @@
     {
       "_": "types.LangPackString",
       "key": "HideReadTimeInfo",
-      "value": "회원님의 마지막으로 접속시간을 볼 수 없는 사람들이 보낸 메시지의 읽음 시간을 숨기세요. 이 기능을 켜면 상대방의 읽음 시간도 숨겨집니다(프리미엄 사용자가 아닌 경우).\n\n이 설정은 그룹 대화에는 영향을 미치지 않습니다."
+      "value": "내 마지막 접속 시간을 볼 수 없는 사람에게 메시지를 읽은 시간도 숨깁니다. 이 설정을 켜면 상대방의 읽음 시간도 볼 수 없습니다(프리미엄 사용자는 예외).\n\n이 설정은 그룹 대화에 영향을 주지 않습니다."
     },
     {
       "_": "types.LangPackString",
@@ -17701,7 +17726,7 @@
     {
       "_": "types.LangPackString",
       "key": "PremiumLastSeenText2",
-      "value": "구독시 내 마지막 상태를 보여주지 않고도 **%s**님의 정보를 볼 수 있습니다."
+      "value": "구독하면 내 마지막 접속 시간을 공개하지 않고도 **%s**님의 마지막 접속 상태를 볼 수 있습니다."
     },
     {
       "_": "types.LangPackString",
@@ -17796,7 +17821,7 @@
     {
       "_": "types.LangPackString",
       "key": "PremiumReadText2",
-      "value": "구독시 내 읽음 시간을 보여주지 않고도 **%s**님의 정보를 볼 수 있습니다."
+      "value": "구독하면 내 읽음 시간을 공개하지 않고도 **%s**님의 읽음 시간을 볼 수 있습니다."
     },
     {
       "_": "types.LangPackString",
@@ -20461,7 +20486,7 @@
     {
       "_": "types.LangPackString",
       "key": "SharedFolder.Link.ChatsRemove",
-      "value": "%s 출발 예정"
+      "value": "나갈 %s"
     },
     {
       "_": "types.LangPackString",
@@ -23411,7 +23436,7 @@
     {
       "_": "types.LangPackString",
       "key": "StoryKeep",
-      "value": "내 프로필에 유지"
+      "value": "내 프로필에 게시"
     },
     {
       "_": "types.LangPackString",
@@ -25844,5 +25869,5 @@
       "other_value": "메시지 %1$d개"
     }
   ],
-  "version": 358318
+  "version": 362782
 }

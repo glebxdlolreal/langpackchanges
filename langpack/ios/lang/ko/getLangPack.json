@@ -9316,7 +9316,7 @@
     {
       "_": "types.LangPackString",
       "key": "ChannelBoost.Error.BoostTooOftenText",
-      "value": "하루에 한번만 채널에 부스트를 할 수 있습니다. **%@** 이후에 다음 부스트를 할 수 있습니다."
+      "value": "부스트할 채널은 하루에 한 번만 변경할 수 있습니다. **%@** 후에 부스트할 수 있습니다."
     },
     {
       "_": "types.LangPackString",
@@ -20615,6 +20615,31 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "CreateBot.UsernameEnding",
+      "value": "'%@'"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBot.UsernameEndingDelimiter",
+      "value": ", "
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBot.UsernameEndingFinalDelimiter",
+      "value": " 또는 "
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBot.UsernameHint",
+      "value": "%1$@(으)로 끝나야 하며, [텔레그램 프리미엄]()을 구독하면 %2$@(으)로 끝날 수도 있습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBot.UsernameHintFree",
+      "value": "%@(으)로 끝나야 합니다."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "CreateBot.UsernameStatus.Checking",
       "value": "확인 중..."
     },
@@ -20635,13 +20660,38 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "CreateBot.UsernameStatus.Long",
+      "value": "사용자명은 32자를 초과할 수 없습니다."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "CreateBot.UsernameStatus.Number",
       "value": "사용자명은 숫자로 시작할 수 없습니다."
     },
     {
       "_": "types.LangPackString",
+      "key": "CreateBot.UsernameStatus.PremiumRequired",
+      "value": "%@(으)로 끝나는 사용자명을 사용하려면 텔레그램 프리미엄이 필요합니다."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "CreateBot.UsernameStatus.Short",
       "value": "사용자명은 최소 5자여야 합니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBot.UsernameStatus.Subscribe",
+      "value": "구독 >"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBot.UsernameStatus.SuffixLimit",
+      "value": "모든 봇을 통틀어 %2$@(으)로 끝나는 %1$@까지만 사용할 수 있습니다."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "CreateBot.UsernameStatus.SuffixLimitCount",
+      "other_value": "사용자명 %d개"
     },
     {
       "_": "types.LangPackString",
@@ -22821,7 +22871,7 @@
     {
       "_": "types.LangPackStringPluralized",
       "key": "FolderLinkPreview.RemoveSectionSelectedHeader",
-      "other_value": "종료할 대화 %d개"
+      "other_value": "나갈 대화 %d개"
     },
     {
       "_": "types.LangPackString",
@@ -24550,6 +24600,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift.Delete.Success",
+      "value": "선물이 삭제되었습니다"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Delete.Text",
+      "value": "이 선물을 삭제하시겠습니까?\n\n프로필에서 사라지며 복구할 수 없습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Delete.Title",
+      "value": "선물 삭제"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gift.Demo.Description",
       "value": "선물은 거래하거나 프로필에 전시할 수 있는 수집품입니다."
     },
@@ -24672,6 +24737,46 @@
       "_": "types.LangPackString",
       "key": "Gift.Message.YourMessage",
       "value": "내 메시지..."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.MoveToGifts.Success",
+      "value": "선물이 회원님의 계정으로 이동했습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.MoveToGifts.Text",
+      "value": "이 수집품을 블록체인 밖으로 옮겨 회원님의 텔레그램 계정으로 가져오시겠습니까?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.MoveToGifts.Title",
+      "value": "내 선물로 이동"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.MoveToWallet.Location",
+      "value": "표시 위치"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.MoveToWallet.Move",
+      "value": "이동"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.MoveToWallet.Success",
+      "value": "선물이 회원님의 지갑으로 이동했습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.MoveToWallet.Text",
+      "value": "이 선물을 회원님의 블록체인 지갑으로 전송하시겠습니까?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.MoveToWallet.Title",
+      "value": "내 지갑으로 이동"
     },
     {
       "_": "types.LangPackString",
@@ -25330,6 +25435,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift.Transfer.MoveToGifts",
+      "value": "내 선물로 이동"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Transfer.MoveToWallet",
+      "value": "내 지갑으로 이동"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gift.Transfer.SendUnlocks",
       "value": "%@ 후 잠금 해제"
     },
@@ -25920,6 +26035,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift.View.Context.Delete",
+      "value": "선물 삭제"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.View.Context.HideFromProfile",
+      "value": "프로필에서 숨기기"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gift.View.Context.SetAsTheme",
       "value": "다음에 테마로 설정..."
     },
@@ -25927,6 +26052,11 @@
       "_": "types.LangPackString",
       "key": "Gift.View.Context.Share",
       "value": "공유"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.View.Context.ShowOnProfile",
+      "value": "프로필에 표시"
     },
     {
       "_": "types.LangPackString",
@@ -34937,6 +35067,16 @@
       "_": "types.LangPackString",
       "key": "Notification.NewAuthDetected",
       "value": "%1$@님,\n%3$@ %2$@ %4$@에 새로운 기기에서 회원님의 계정에 로그인한 것이 감지되었습니다.\n\n기기: %5$@\n위치: %6$@\n\n본인이 아니라면 설정 > 기기에서 해당 세션을 종료할 수 있습니다.\n\n누군가 회원님의 의사와 상관없이 계정에 로그인했다고 생각되면 개인정보 및 보안 설정에서 2단계 인증을 활성화할 수 있습니다.\n\n감사합니다.\n텔레그램 팀"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.NoPaidMessagesTokenUsed",
+      "value": "%@님이 회원님에게 무료로 메시지를 보내기 위해 회원님의 링크를 사용했습니다"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.NoPaidMessagesTokenUsedYou",
+      "value": "무료로 메시지를 보내기 위해 %@님의 링크를 사용했습니다"
     },
     {
       "_": "types.LangPackString",
@@ -44246,7 +44386,7 @@
     {
       "_": "types.LangPackString",
       "key": "PrivacyInfo.ShowLastSeen.PremiumInfo",
-      "value": "구독시 내 마지막 상태를 보여주지 않고도 **%@**님의 정보를 볼 수 있습니다."
+      "value": "구독하면 내 마지막 접속 시간을 공개하지 않고도 **%@**님의 마지막 접속 상태를 볼 수 있습니다."
     },
     {
       "_": "types.LangPackString",
@@ -44271,7 +44411,7 @@
     {
       "_": "types.LangPackString",
       "key": "PrivacyInfo.ShowReadTime.PremiumInfo",
-      "value": "구독시 내 읽음 시간을 보여주지 않고도 **%@**님의 정보를 볼 수 있습니다."
+      "value": "구독하면 내 읽음 시간을 공개하지 않고도 **%@**님의 읽음 시간을 볼 수 있습니다."
     },
     {
       "_": "types.LangPackString",
@@ -45067,6 +45207,151 @@
       "_": "types.LangPackString",
       "key": "ProxyServer.VoiceOver.Active",
       "value": "작동 중"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Colors.Profile",
+      "value": "색상"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Colors.Themes",
+      "value": "테마"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Gifts.Browse",
+      "value": "선물 둘러보기"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Gifts.EmptyText",
+      "value": "보유한 수집용 선물로\nQR 코드를 꾸며 보세요."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Gifts.EmptyTitle",
+      "value": "아직 선물이 없습니다"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Gifts.Title",
+      "value": "수집품"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Menu.DisableTimer",
+      "value": "타이머 끄기"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Menu.DisableTimerInfo",
+      "value": "시간제한 없이 무료 유지"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Menu.Expire",
+      "value": "1분간 유효"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Menu.Reset",
+      "value": "코드 초기화"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Menu.Restore",
+      "value": "메시지 요금 다시 적용"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.NoPaidToken.Imported",
+      "value": "이제 %@님에게 무료로 메시지를 보낼 수 있습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.NoPaidToken.Invalid",
+      "value": "이 무료 메시지 링크가 유효하지 않거나 만료되었습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Pill.ExpiresIn",
+      "value": "%@ 후 만료"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Pill.Free",
+      "value": "무료"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Pill.Permanent",
+      "value": "시간제한 없음"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Pill.RemoveFee",
+      "value": "%@ 요금 없애기"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Share.CopyLink",
+      "value": "링크 복사"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Share.Share",
+      "value": "공유…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Toast.Expires",
+      "value": "이 코드는 1분 후 만료됩니다"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Toast.Failed",
+      "value": "문제가 발생했습니다. 다시 시도해 주세요."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Toast.FeeRemoved",
+      "value": "이제 이 코드로 무료로 메시지를 보낼 수 있습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Toast.FeeRestored",
+      "value": "메시지 요금이 다시 적용됐습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Toast.ImageSaved",
+      "value": "이미지를 사진 앱에 저장했습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Toast.LinkCopied",
+      "value": "링크를 클립보드에 복사했습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Toast.NewCode",
+      "value": "새 코드가 생성됐습니다. 이전 코드는 더 이상 사용할 수 없습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Toast.Permanent",
+      "value": "이 코드는 더 이상 만료되지 않습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Toast.PremiumEmoji",
+      "value": "모든 이모지를 사용하려면 프리미엄을 구독하세요."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Toast.Subscribe",
+      "value": "구독"
     },
     {
       "_": "types.LangPackString",
@@ -46285,6 +46570,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "RichText.MenuButtonInline",
+      "value": "인라인"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "RichText.MenuButtonRow",
       "value": "버튼 행"
     },
@@ -46297,6 +46587,16 @@
       "_": "types.LangPackString",
       "key": "RichText.MenuFormula",
       "value": "수식"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.MenuFormulaInline",
+      "value": "인라인"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.MenuFormulaStandalone",
+      "value": "별도 줄"
     },
     {
       "_": "types.LangPackString",
@@ -48617,6 +48917,26 @@
       "_": "types.LangPackString",
       "key": "ShareMenu.ShareTo",
       "value": "공유하기"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShareScreen.Caption",
+      "value": "설명을 추가하세요..."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShareScreen.CreateGroupTooltip",
+      "value": "그룹을 만들어 공유"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShareScreen.RecentChats",
+      "value": "최근 대화"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShareScreen.Title",
+      "value": "공유 대상"
     },
     {
       "_": "types.LangPackString",
@@ -52256,7 +52576,7 @@
     {
       "_": "types.LangPackString",
       "key": "Story.Context.SaveToChannel",
-      "value": "프로필로 저장"
+      "value": "프로필에 게시"
     },
     {
       "_": "types.LangPackString",
@@ -52430,6 +52750,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Story.Editor.DownloadingMedia",
+      "value": "iCloud에서 다운로드 중..."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Story.Editor.DraftDiscaedText",
       "value": "저장하지 않고 돌아갈 경우, 수정한 내역을 모두 잃게 됩니다."
     },
@@ -52472,6 +52797,16 @@
       "_": "types.LangPackString",
       "key": "Story.Editor.InputPlaceholderAddCaption",
       "value": "자막 추가하기..."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.Editor.MediaUnavailable",
+      "value": "이 미디어가 기기에 저장되어 있지 않고 iCloud에서도 다운로드하지 못했습니다. 연결 상태를 확인한 뒤 다시 시도하세요."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.Editor.MediaUnavailableSomeSkipped",
+      "value": "일부 미디어가 기기에 저장되어 있지 않고 iCloud에서도 다운로드하지 못했습니다. 사용할 수 있는 항목만 게시됩니다."
     },
     {
       "_": "types.LangPackString",
@@ -52971,7 +53306,7 @@
     {
       "_": "types.LangPackString",
       "key": "Story.Privacy.KeepOnMyPageInfo",
-      "value": "이 스토리가 %@ 후에 만료되더라도 프로필에 남게됩니다. 개인설정은 적용됩니다."
+      "value": "이 스토리가 %@ 후에 만료되더라도 프로필에 유지됩니다. 공개 범위 설정이 적용됩니다."
     },
     {
       "_": "types.LangPackString",
@@ -53581,7 +53916,7 @@
     {
       "_": "types.LangPackString",
       "key": "Story.Views.ViewsExpired",
-      "value": "스토리 만료 **24시간** 후에는 읽음 목록을 확인할 수 없습니다."
+      "value": "스토리 만료 후 **24시간**이 지나면 조회자 목록을 볼 수 없습니다."
     },
     {
       "_": "types.LangPackString",
@@ -58850,6 +59185,31 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Collectible.AlsoShowInMyGifts",
+      "value": "내 선물에도 표시"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Collectible.Header.AddToCard",
+      "value": "카드에 추가"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Collectible.Header.ApplyColor",
+      "value": "색상 적용"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Collectible.Header.RemoveColor",
+      "value": "색상 제거"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Collectible.Header.RemoveFromCard",
+      "value": "카드에서 제거"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Collectibles",
       "value": "수집품"
     },
@@ -58937,6 +59297,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.HiddenTransactions",
       "value": "%@ 미만의 거래는 숨겨집니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.HowDoesItWork",
+      "value": "어떻게 사용하나요?"
     },
     {
       "_": "types.LangPackString",
@@ -59230,6 +59595,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.PeerBalanceNotice",
+      "value": "%1$@의 TON 블록체인 보유 잔액은 %2$@입니다."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.PreviousWalletsBalance",
       "value": "이전 지갑에도 %@이(가) 있습니다"
     },
@@ -59237,6 +59607,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.ProtectAccount",
       "value": "계정 보호"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.PublicBalanceNotice",
+      "value": "블록체인의 투명성으로 인해 회원님의 잔액은 공개됩니다."
     },
     {
       "_": "types.LangPackString",
@@ -59252,6 +59627,16 @@
       "_": "types.LangPackString",
       "key": "Wallet.Receive.CopyAddress",
       "value": "내 주소 복사"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Receive.PeerShowQR",
+      "value": "QR 코드 보기"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Receive.PeerText",
+      "value": "이 주소로 그램을 보내거나\n이 QR 코드를 스캔하세요."
     },
     {
       "_": "types.LangPackString",
@@ -59397,6 +59782,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.Send.DepositFunds",
       "value": "입금"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Send.DiscardAlertText",
+      "value": "이 전송을 폐기하시겠습니까?"
     },
     {
       "_": "types.LangPackString",
@@ -59640,6 +60030,81 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Sticker.AddToCard",
+      "value": "카드에 추가"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sticker.ApplyColor",
+      "value": "색상 적용"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sticker.BackgroundNotAllowedError",
+      "value": "이 선물은 카드 배경으로 설정할 수 없습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sticker.ColorRestricted",
+      "value": "%@만 카드 색상을 바꾸는 데 사용할 수 있습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sticker.ColorRestrictedCollection",
+      "value": "%@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sticker.GridFooter",
+      "value": "선물을 길게 눌러 떼어낸 뒤 카드에 붙이세요. 카드에 붙인 선물도 길게 누르면 다시 뗄 수 있으며, 다른 손가락으로 회전하거나 크기를 조절할 수 있습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sticker.InvalidError",
+      "value": "이 스티커 중 하나는 카드에 사용할 수 없습니다. 이 지갑이 보유한 선물만 사용할 수 있습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sticker.LimitError",
+      "value": "카드에는 선물을 최대 %@개까지 놓을 수 있습니다.\n다른 선물을 추가하려면 하나를 제거하세요."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sticker.ProfileError",
+      "value": "프로필에 표시된 선물은 카드 스티커로 동시에 사용할 수 없습니다. 먼저 프로필에서 숨기세요."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sticker.RemoveColor",
+      "value": "색상 제거"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sticker.RemoveFromCard",
+      "value": "카드에서 제거"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sticker.SaveErrorTitle",
+      "value": "카드를 저장하지 못했습니다"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sticker.TutorialCard",
+      "value": "이 수집품을 여기로 드래그하세요."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sticker.TutorialDone",
+      "value": "수집품을 여러 개 추가할 수 있습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sticker.TutorialTile",
+      "value": "이 수집품을 카드로 드래그하여 꾸며 보세요."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.TermsText",
       "value": "이 서비스를 이용하면 [이용약관]()에 동의하게 됩니다."
     },
@@ -59765,6 +60230,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Transaction.MovedFromProfile",
+      "value": "프로필에서 이동"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.MovedToProfile",
+      "value": "프로필로 이동"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Transaction.NetworkFeesTitle",
       "value": "네트워크 수수료"
     },
@@ -59817,6 +60292,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.Transaction.Sender",
       "value": "발신자"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.Telegram",
+      "value": "텔레그램"
     },
     {
       "_": "types.LangPackString",
@@ -61734,5 +62214,5 @@
       "value": "올바르지 않은 보안코드를 입력하였습니다."
     }
   ],
-  "version": 22262277
+  "version": 22347653
 }
