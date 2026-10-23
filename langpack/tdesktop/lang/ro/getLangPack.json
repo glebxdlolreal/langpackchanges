@@ -1786,6 +1786,38 @@
     },
     {
       "_": "types.LangPackStringPluralized",
+      "few_value": "{amount} Gram",
+      "key": "lng_action_gram_transfer_amount",
+      "one_value": "{amount} Gram",
+      "other_value": "{amount} Gram"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gram_transfer_amount_fiat",
+      "value": "{amount} ({fiat})"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gram_transfer_received",
+      "value": "{user} ți-a trimis {amount}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gram_transfer_received_tag",
+      "value": "primit"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gram_transfer_sent",
+      "value": "I-ai trimis {amount} lui {user}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gram_transfer_sent_tag",
+      "value": "trimis"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
       "few_value": "Gram",
       "key": "lng_action_gram_transfer_ticker",
       "one_value": "Gram",
@@ -1947,6 +1979,11 @@
       "_": "types.LangPackString",
       "key": "lng_action_no_forwards_you_enabled",
       "value": "Ai activat partajarea în această conversație"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_no_paid_token_used",
+      "value": "{from} a început o conversație prin linkul tău pentru mesaje gratuite"
     },
     {
       "_": "types.LangPackString",
@@ -2632,6 +2669,11 @@
       "_": "types.LangPackString",
       "key": "lng_action_you_joined_by_request_channel",
       "value": "Cererea ta de alăturare în canal a fost aprobată"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_you_no_paid_token_used",
+      "value": "Ai început o conversație printr-un link pentru mesaje gratuite"
     },
     {
       "_": "types.LangPackString",
@@ -4343,6 +4385,16 @@
       "_": "types.LangPackString",
       "key": "lng_animated_emoji_saved_open",
       "value": "Deschide"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_animated_emoji_subscribe",
+      "value": "Abonează-te la {link} pt. acest emoji."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_animated_emoji_subscribe_link",
+      "value": "Telegram Premium"
     },
     {
       "_": "types.LangPackString",
@@ -25879,13 +25931,93 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_no_paid_token_applied",
+      "value": "Acum îi poți trimite mesaj lui {user} gratuit."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_no_paid_token_invalid",
+      "value": "Linkul pentru mesaje gratuite este invalid sau a expirat."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_no_paid_token_menu_disable_timer",
+      "value": "Dezactivează contor"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_no_paid_token_menu_disable_timer_about",
+      "value": "Rămâne gratuit, fără limită"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_no_paid_token_menu_enable_timer",
+      "value": "Activează contor"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_no_paid_token_menu_enable_timer_about",
       "value": "Expiră peste 1 minut"
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_no_paid_token_menu_reset",
+      "value": "Resetează Cod"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_no_paid_token_menu_restore",
       "value": "Restabilire taxă mesaje"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_no_paid_token_pill_permanent",
+      "value": "Gratuit · Fără limită"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_no_paid_token_pill_remove_fee",
+      "value": "Elimină taxa de {emoji} {amount}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_no_paid_token_pill_temporary",
+      "value": "Gratuit · Expiră în {time}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_no_paid_token_toast_expired",
+      "value": "Cod expirat, taxă restabilită"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_no_paid_token_toast_expires",
+      "value": "Acest cod expiră peste {duration}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_no_paid_token_toast_expiring",
+      "value": "Codul va expira curând."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_no_paid_token_toast_permanent",
+      "value": "Codul rămâne gratuit, fără limită"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_no_paid_token_toast_reset",
+      "value": "Cod nou creat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_no_paid_token_toast_restored",
+      "value": "Taxă mesaje restabilită"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_no_paid_token_user_invalid",
+      "value": "Linkul pentru mesaje gratuite nu poate fi folosit."
     },
     {
       "_": "types.LangPackString",
@@ -27966,6 +28098,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_peer_qr_link_expiring",
+      "value": "Linkul va expira curând."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_peer_qr_link_unavailable",
+      "value": "Linkul este indisponibil. Redeschide codul QR și încearcă iar."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_phone_desc",
       "value": "Te rugăm confirmă prefixul țării\nși introdu-ți numărul de telefon."
     },
@@ -28008,6 +28150,11 @@
       "_": "types.LangPackString",
       "key": "lng_photo_editor_corners_about",
       "value": "Alege cât de rotunjite să fie colțurile stickerului."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_corners_circle",
+      "value": "Cerc"
     },
     {
       "_": "types.LangPackString",
@@ -31446,8 +31593,38 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_qr_box_colors",
+      "value": "Culori"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_qr_box_emoji",
+      "value": "Emoji"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_qr_box_font_size",
       "value": "Mărime font"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_qr_box_gifts",
+      "value": "Cadouri"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_qr_box_gifts_browse",
+      "value": "Explorează Cadouri"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_qr_box_gifts_empty_about",
+      "value": "Folosește-ți orice cadou colecționabil pentru a-ți stiliza codul QR."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_qr_box_gifts_empty_title",
+      "value": "Niciun cadou încă"
     },
     {
       "_": "types.LangPackString",
@@ -38322,6 +38499,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_sr_group_call_column_hide",
+      "value": "Ascunde participanți"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_sr_group_call_column_show",
+      "value": "Afișează participanți"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_sr_group_call_menu",
       "value": "Meniu conversație video"
     },
@@ -42797,8 +42984,58 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_card_add",
+      "value": "Aplică pe Card"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_card_apply_color",
+      "value": "Aplică Culoare"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_card_color_and_last",
+      "value": "{all} și {one}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_card_color_and_one",
+      "value": "{all}, {one}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_card_color_not_allowed",
+      "value": "Cadoul nu poate fi setat ca fundalul cardului."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_card_drag_hint",
+      "value": "Trage agest colecționabil pe cardul tău pentru a-l decora."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_card_remove",
+      "value": "Elimină de pe Card"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_card_remove_color",
+      "value": "Elimină Culoare"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_card_save_error",
+      "value": "Salvare card eșuată."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_chip_number",
       "value": "Număr Colecționabil"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_collectible_show_in_gifts",
+      "value": "afișează și la cadourile mele"
     },
     {
       "_": "types.LangPackString",
@@ -42807,8 +43044,58 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_details_address",
+      "value": "Adresă"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_date",
+      "value": "Dată"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_fee",
+      "value": "Taxă"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_fee_free",
+      "value": "Gratuit (plătită de Telegram)"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_moved_from_profile",
+      "value": "Mutat de la profil"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_moved_to_profile",
+      "value": "Mutat la profil"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_open_wallet",
+      "value": "Deschide Banii Mei"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_recipient",
+      "value": "Destinatar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_sender",
+      "value": "Autor"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_details_title",
       "value": "Tranzacție"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_earnings_existing",
+      "value": "Mai ai încă {amount} în Câștiguri în Gram"
     },
     {
       "_": "types.LangPackString",
@@ -42817,13 +43104,58 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_how_menu",
+      "value": "Ce este Bani?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_menu",
+      "value": "Bani"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_profile_balance",
+      "value": "Sold:"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_profile_balance_none",
+      "value": "{name} nu are momentan\nniciun Gram."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_profile_balance_public",
       "value": "Soldul tău este public datorită transparenței pe blockchain."
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_profile_how_works",
+      "value": "Cum funcționează?"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_row_deposit",
       "value": "Depunere"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_moved_from_profile",
+      "value": "mutat de la profil"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_moved_to_profile",
+      "value": "mutat la profil"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_telegram",
+      "value": "Telegram"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_user_wallet_about",
+      "value": "Această adresă de pe Blockchain-ul TON este asociată cu {name} pe Telegram."
     },
     {
       "_": "types.LangPackString",
@@ -42971,5 +43303,5 @@
       "other_value": "Ai plătit {count} de Stele."
     }
   ],
-  "version": 6002595
+  "version": 6002924
 }
