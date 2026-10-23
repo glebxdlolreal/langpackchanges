@@ -2766,7 +2766,7 @@
     {
       "_": "types.LangPackString",
       "key": "BoostGiftLimitSubscribersInfo",
-      "value": "Выберите, будет ли круг участников ограничен пользователями, которые подписались на канал после начала розыгрыша."
+      "value": "Выберите, будет ли круг участников ограничен пользователями из определённых стран и/или теми, кто подписался на канал после начала розыгрыша."
     },
     {
       "_": "types.LangPackString",
@@ -4843,7 +4843,7 @@
     {
       "_": "types.LangPackString",
       "key": "ChatListFilterInviteLinkIncludeExcludeError",
-      "value": "Папкой не поделиться, если добавлены или исключены типы чатов."
+      "value": "Папкой не поделиться, если добавлены или исключены типы чатов («Группы», «Контакты» и др.)"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -10137,7 +10137,7 @@
     {
       "_": "types.LangPackString",
       "key": "HideReadTimeInfo",
-      "value": "Если включено, пользователи, от которых Вы скрыли время последнего захода, не смогут видеть, во сколько Вы прочли их сообщения. Вы также не будете видеть, во сколько они прочли Ваши.\nЭта настройка не распространяется на сообщения в группах."
+      "value": "Если включено, пользователи, от которых Вы скрыли время последнего захода, не смогут видеть, во сколько Вы прочли их сообщения. Вы также не будете видеть, во сколько они прочли Ваши (если у Вас нет Telegram Premium).\n\nЭта настройка не распространяется на сообщения в группах."
     },
     {
       "_": "types.LangPackString",
@@ -18305,7 +18305,7 @@
     {
       "_": "types.LangPackString",
       "key": "StoryPrivacyOptionSelectedContacts",
-      "value": "Выбранные контакты"
+      "value": "Выбранные пользователи"
     },
     {
       "_": "types.LangPackString",
@@ -19339,7 +19339,7 @@
     {
       "_": "types.LangPackString",
       "key": "UserInfoCustomVideo",
-      "value": "видео установили Вы"
+      "value": "фото установили Вы"
     },
     {
       "_": "types.LangPackString",
@@ -19883,7 +19883,7 @@
     {
       "_": "types.LangPackString",
       "key": "ViewButtonVoiceChat",
-      "value": "ГОЛОСОВОЙ ЗВОНОК"
+      "value": "ВИДЕОЧАТ"
     },
     {
       "_": "types.LangPackString",
@@ -19924,12 +19924,12 @@
     {
       "_": "types.LangPackString",
       "key": "VoiceChatInactive",
-      "value": "Этот голосовой чат неактивен"
+      "value": "Этот видеочат неактивен"
     },
     {
       "_": "types.LangPackString",
       "key": "VoiceChatJoinFailed",
-      "value": "Не удалось подключиться к голосовому звонку"
+      "value": "Не удалось подключиться к видеочату"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -20429,6 +20429,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletConnectDeclined",
+      "value": "Отклонено"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletConnectDisconnected",
       "value": "{name} отключено"
     },
@@ -20444,6 +20449,29 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletConnectError",
+      "value": "Не удалось выполнить запрос кошелька. Попробуйте ещё раз."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectExpired",
+      "value": "Срок действия запроса истёк."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Истекает через {count} минуты",
+      "key": "WalletConnectExpiresIn",
+      "many_value": "Истекает через {count} минут",
+      "one_value": "Истекает через {count} минуту",
+      "other_value": "Истекает через {count} минуты"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectFee",
+      "value": "Сетевая комиссия: {amount}"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletConnectFeeUnavailable",
       "value": "Ошибка моделирования транзакции."
     },
@@ -20451,6 +20479,16 @@
       "_": "types.LangPackString",
       "key": "WalletConnectHandled",
       "value": "Запрос был обработан на другом устройстве."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectInvalid",
+      "value": "Запрос кошелька недействителен."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectManifestError",
+      "value": "Кошелёк не был подключён, поскольку не удалось загрузить данные приложения. Попробуйте ещё раз."
     },
     {
       "_": "types.LangPackString",
@@ -20464,8 +20502,33 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletConnectRemaining",
+      "value": "Осталось: {seconds}с."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletConnectRequest",
       "value": "Запрос кошелька"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectRequestAppDeclined",
+      "value": "Запрос на транзакцию от {name} отклонён"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectRequestAppExpired",
+      "value": "Срок действия запроса на транзакцию от {name} истёк"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectRequestAppPending",
+      "value": "{name} запрашивает проведение транзакции. Нажмите для просмотра."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectRequestAppProcessed",
+      "value": "Запрос на транзакцию от {name} обработан"
     },
     {
       "_": "types.LangPackString",
@@ -20494,6 +20557,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletConnectSessionChanged",
+      "value": "Кошелёк или сеанс TON Connect изменился. Откройте запрос ещё раз."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectSessionClosed",
+      "value": "Подключение больше не активно."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletConnectSign",
       "value": "Подписать"
     },
@@ -20501,6 +20574,11 @@
       "_": "types.LangPackString",
       "key": "WalletConnectSignData",
       "value": "Подписать данные"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectSignMessageNote",
+      "value": "Перевод подписан, но ещё не отправлен. Приложение сможет отправить его позже; средства будут перемещены в момент отправки."
     },
     {
       "_": "types.LangPackString",
@@ -20519,6 +20597,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletConnectSuccess",
+      "value": "Подключён к {name}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectTitle",
+      "value": "Подключить Деньги"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletConnectToApp",
       "value": "Подключить Деньги к {name}"
     },
@@ -20529,8 +20617,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletConnectUnavailable",
+      "value": "Ваш кошелёк недоступен."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletConnectUnlock",
       "value": "Разблокируйте для просмотра запроса"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectUnsupported",
+      "value": "Это приложение запросило неподдерживаемый метод. Вы можете отклонить запрос."
     },
     {
       "_": "types.LangPackString",
@@ -20774,6 +20872,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletLinkNoWallet",
+      "value": "У этого пользователя ещё нет кошелька."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletLoadError",
       "value": "Не удалось загрузить кошелёк."
     },
@@ -20925,6 +21028,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletProtectBanner",
+      "value": "Защита Ваших Денег"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletProvisioning",
       "value": "Создание кошелька…"
     },
@@ -20956,7 +21064,7 @@
     {
       "_": "types.LangPackString",
       "key": "WalletRecoveryPhraseHint",
-      "value": "Вы можете перенести кошелёк на другое устройство. Для этого скопируйте секретную фразу из 12 слов."
+      "value": "Вы можете перенести кошелёк на другое устройство. Для этого скопируйте секретную фразу."
     },
     {
       "_": "types.LangPackString",
@@ -21125,6 +21233,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletSendInvalidAddress",
+      "value": "Некорректный адрес кошелька."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletSendMax",
       "value": "Макс."
     },
@@ -21172,6 +21285,11 @@
       "_": "types.LangPackString",
       "key": "WalletSendTitle",
       "value": "Отправить GRAM"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendWalletChanged",
+      "value": "Ваш кошелёк изменился. Попробуйте снова."
     },
     {
       "_": "types.LangPackString",
@@ -21380,6 +21498,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletUnsupportedWallet",
+      "value": "Этот кошелёк пока не поддерживается."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletUpdatePhrase",
       "value": "Сменить секретную фразу"
     },
@@ -21560,5 +21683,5 @@
       "value": "Ваше имя"
     }
   ],
-  "version": 364205
+  "version": 364215
 }
