@@ -1803,6 +1803,72 @@
       "value": "Grupa {from} właśnie rozpoczęła loterię subskrypcji Telegram Premium dla swoich członków."
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "{amount} Gram",
+      "key": "lng_action_gram_transfer_amount",
+      "many_value": "{amount} Gram",
+      "one_value": "{amount} Gram",
+      "other_value": "{amount} Grama"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gram_transfer_amount_fiat",
+      "value": "{amount} ({fiat})"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gram_transfer_comment",
+      "value": "{text}: {comment}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gram_transfer_encrypted_comment",
+      "value": "Zaszyfrowany komentarz"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gram_transfer_failed_tag",
+      "value": "nieudany"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gram_transfer_received",
+      "value": "Użytkownik {user} wysłał ci {amount}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gram_transfer_received_tag",
+      "value": "odebrane"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gram_transfer_received_unknown",
+      "value": "Otrzymano {amount}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gram_transfer_sent",
+      "value": "Wysłano {amount} do {user}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gram_transfer_sent_tag",
+      "value": "wysłane"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gram_transfer_sent_unknown",
+      "value": "Wysłano {amount}"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Gram",
+      "key": "lng_action_gram_transfer_ticker",
+      "many_value": "Gram",
+      "one_value": "Gram",
+      "other_value": "Gram"
+    },
+    {
       "_": "types.LangPackString",
       "key": "lng_action_group_call_finished",
       "value": "Transmisja na żywo zakończona ({duration})"
@@ -1959,6 +2025,11 @@
       "_": "types.LangPackString",
       "key": "lng_action_no_forwards_you_enabled",
       "value": "Włączono udostępnianie w tym czacie"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_no_paid_token_used",
+      "value": "Użytkownik {from} rozpoczął czat za pośrednictwem linku do darmowych wiadomości"
     },
     {
       "_": "types.LangPackString",
@@ -2654,6 +2725,11 @@
       "_": "types.LangPackString",
       "key": "lng_action_you_joined_by_request_channel",
       "value": "Twoja prośba o dołączenie do kanału została zatwierdzona"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_you_no_paid_token_used",
+      "value": "Rozpoczęto czat za pośrednictwem linku do darmowych wiadomości"
     },
     {
       "_": "types.LangPackString",
@@ -3998,7 +4074,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_ai_compose_create_placeholder",
-      "value": "Napisz, co mamy wygenerować…"
+      "value": "Generuj tekst, formuły lub tabele…"
     },
     {
       "_": "types.LangPackString",
@@ -4373,6 +4449,16 @@
       "_": "types.LangPackString",
       "key": "lng_animated_emoji_saved_open",
       "value": "Otwórz"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_animated_emoji_subscribe",
+      "value": "Subskrybuj {link}, aby odblokować tę emoji."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_animated_emoji_subscribe_link",
+      "value": "Telegram Premium"
     },
     {
       "_": "types.LangPackString",
@@ -5002,6 +5088,11 @@
       "_": "types.LangPackString",
       "key": "lng_attach",
       "value": "Dodaj załącznik"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_attach_audio",
+      "value": "Dźwięk"
     },
     {
       "_": "types.LangPackString",
@@ -6765,6 +6856,31 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_bot_allow_camera",
+      "value": "Chcesz zezwolić temu botowi na korzystanie z twojej kamery?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_allow_camera_microphone",
+      "value": "Chcesz zezwolić temu botowi na korzystanie z twojej kamery i mikrofonu?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_allow_location",
+      "value": "Chcesz zezwolić temu botowi na dostęp do twojej lokalizacji?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_allow_microphone",
+      "value": "Chcesz zezwolić temu botowi na korzystanie z twojego mikrofonu?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_allow_permission_confirm",
+      "value": "Zezwól"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_bot_allow_write",
       "value": "Zezwolić temu botowi na wysyłanie ci wiadomości?"
     },
@@ -8457,7 +8573,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_channel_earn_history_out_button",
-      "value": "Zobacz w eksploratorze blockchain"
+      "value": "Zobacz w eksploratorze"
     },
     {
       "_": "types.LangPackString",
@@ -9450,6 +9566,11 @@
       "_": "types.LangPackString",
       "key": "lng_chatbots_warning_username_text",
       "value": "Bot {bot} będzie mógł **ustawiać i usuwać nazwy użytkownika** dla twojego konta, co może skutkować utratą twojej obecnej nazwy użytkownika."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_choose_audio",
+      "value": "Wybierz plik audio"
     },
     {
       "_": "types.LangPackString",
@@ -11401,6 +11522,11 @@
       "_": "types.LangPackString",
       "key": "lng_context_mark_read_all_sure_2",
       "value": "**Ta operacja jest nieodwracalna.**"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_context_mark_read_archive_sure",
+      "value": "Na pewno oznaczyć wszystkie zarchiwizowane czaty jako przeczytane?"
     },
     {
       "_": "types.LangPackString",
@@ -16709,13 +16835,38 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_folder_archive_deselect",
+      "value": "Odznacz"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_folder_archive_failed",
       "value": "Nie udało się utworzyć archiwum."
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_folder_archive_pack",
+      "value": "Spakuj do archiwum ZIP"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_folder_archive_pack_selected",
+      "value": "Spakuj zaznaczone do archiwum ZIP"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_folder_archive_select",
+      "value": "Zaznacz"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_folder_archive_status",
       "value": "Archiwum ZIP"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_folder_archive_unpack",
+      "value": "Rozpakuj archiwum"
     },
     {
       "_": "types.LangPackString",
@@ -17867,6 +18018,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_gift_delete_sure_text",
+      "value": "Chcesz usunąć ten prezent?\n\nZniknie on z twojego profilu i nie będzie można go przywrócić."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_gift_display_done",
       "value": "Ten prezent jest teraz widoczny na twoim profilu."
     },
@@ -17991,7 +18147,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_gift_link_expired",
-      "value": "Link do prezentu wygasł"
+      "value": "Link do kodu prezentu wygasł"
     },
     {
       "_": "types.LangPackString",
@@ -18127,6 +18283,11 @@
       "_": "types.LangPackString",
       "key": "lng_gift_many_pinned_title",
       "value": "Zbyt wiele przypiętych prezentów"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_menu_delete",
+      "value": "Usuń prezent"
     },
     {
       "_": "types.LangPackString",
@@ -18984,6 +19145,41 @@
       "_": "types.LangPackString",
       "key": "lng_gift_transfer_title",
       "value": "Przekaż {name}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_transfer_to_gifts_button",
+      "value": "Przenieś"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_transfer_to_wallet",
+      "value": "Przenieś do mojego portfela"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_transfer_to_wallet_appear",
+      "value": "Pojawi się on w"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_transfer_to_wallet_button",
+      "value": "Przenieś"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_transfer_to_wallet_keep_on_profile",
+      "value": "Nadal wyświetlaj na moim profilu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_transfer_to_wallet_path_icons",
+      "value": "{menu} {arrow} {money} {arrow_next} {collectibles}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_transfer_to_wallet_text",
+      "value": "Przenieść ten prezent do twojego portfela blockchain?"
     },
     {
       "_": "types.LangPackString",
@@ -22810,6 +23006,51 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_keys_legend_open",
+      "value": "Pokaż te skróty"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_section_chats",
+      "value": "Lista czatów"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_section_compose",
+      "value": "Pisanie wiadomości"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_section_fullscreen",
+      "value": "Pełnoekranowe wideo"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_section_general",
+      "value": "Ogólne"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_section_iv",
+      "value": "Widok błyskawiczny"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_section_media",
+      "value": "Przeglądarka multimediów"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_section_messages",
+      "value": "Wiadomości"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_title",
+      "value": "Skróty klawiaturowe i gesty"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_language_already",
       "value": "Już używasz tego pakietu językowego. Możesz zmienić język w dowolnym momencie w Ustawieniach."
     },
@@ -23588,7 +23829,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_mac_menu_quit_telegram",
-      "value": "Wyłącz {telegram}"
+      "value": "Zamknij {telegram}"
     },
     {
       "_": "types.LangPackString",
@@ -26130,6 +26371,91 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_no_paid_token_applied",
+      "value": "Teraz możesz za darmo wysyłać wiadomości do {user}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_no_paid_token_invalid",
+      "value": "Ten link do darmowych wiadomości jest nieprawidłowy lub wygasł."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_no_paid_token_menu_disable_timer",
+      "value": "Wyłącz zegar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_no_paid_token_menu_disable_timer_about",
+      "value": "Darmowe, bez limitu czasowego"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_no_paid_token_menu_enable_timer",
+      "value": "Włącz zegar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_no_paid_token_menu_enable_timer_about",
+      "value": "Wygaśnie za 1 minutę"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_no_paid_token_menu_reset",
+      "value": "Zresetuj kod"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_no_paid_token_menu_restore",
+      "value": "Przywróć opłatę za wiadomość"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_no_paid_token_pill_permanent",
+      "value": "Za darmo · Bez limitu czasu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_no_paid_token_pill_remove_fee",
+      "value": "Usuń opłatę {emoji} {amount}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_no_paid_token_pill_temporary",
+      "value": "Za darmo · Wygaśnie za {time}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_no_paid_token_toast_expired",
+      "value": "Kod wygasł, opłata została przywrócona"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_no_paid_token_toast_expires",
+      "value": "Ten kod wygaśnie za {duration}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_no_paid_token_toast_permanent",
+      "value": "Kod pozostaje darmowy, bez limitu czasu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_no_paid_token_toast_reset",
+      "value": "Utworzono nowy kod"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_no_paid_token_toast_restored",
+      "value": "Przywrócono opłatę za wiadomości"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_no_paid_token_user_invalid",
+      "value": "Tego linku do darmowych wiadomości nie można użyć."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_no_saved_sublists",
       "value": "Tutaj możesz zapisywać wiadomości z innych czatów."
     },
@@ -26409,6 +26735,11 @@
       "_": "types.LangPackString",
       "key": "lng_open_link",
       "value": "Otwórz"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_open_link_suspicious_chars",
+      "value": "Wyróżnione znaki pochodzą z innego alfabetu niż pozostała część adresu."
     },
     {
       "_": "types.LangPackString",
@@ -26819,6 +27150,56 @@
       "_": "types.LangPackString",
       "key": "lng_passcode_remove_button",
       "value": "Usuń"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_passcode_strength_advice_date",
+      "value": "Unikaj dat i lat."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_passcode_strength_advice_fine",
+      "value": "Ten kod jest trudny do odgadnięcia."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_passcode_strength_advice_keyboard",
+      "value": "Unikaj schematów klawiaturowych."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_passcode_strength_advice_leet",
+      "value": "Zastępowanie liter podobnie wyglądającymi symbolami nie pomaga."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_passcode_strength_advice_repeat",
+      "value": "Unikaj powtarzających się znaków."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_passcode_strength_advice_sequence",
+      "value": "Unikaj ciągów znaków takich jak „abc” lub „123”."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_passcode_strength_advice_short",
+      "value": "Użyj co najmniej 8 znaków."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_passcode_strength_advice_variety",
+      "value": "Wydłuż kod i użyj większej różnorodności znaków."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_passcode_strength_advice_word",
+      "value": "Unikaj powszechnych słów i imion."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_passcode_strength_empty",
+      "value": "Szacowana siła kodu."
     },
     {
       "_": "types.LangPackString",
@@ -28119,7 +28500,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_payments_webview_install_webkit",
-      "value": "Zainstaluj WebKitGTK (webkit2gtk-4.1/webkit2gtk-4.0) za pomocą menedżera pakietów."
+      "value": "Zainstaluj WebKitGTK (webkitgtk-6.0/webkit2gtk-4.1/webkit2gtk-4.0) za pomocą menedżera pakietów."
     },
     {
       "_": "types.LangPackString",
@@ -28263,6 +28644,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_photo_editor_audio_remove",
+      "value": "Usuń dźwięk"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_photo_editor_corners_about",
       "value": "Wybierz, jak bardzo mają być zaokrąglone rogi naklejki."
     },
@@ -28335,6 +28721,16 @@
       "_": "types.LangPackString",
       "key": "lng_photo_editor_keep_ratio",
       "value": "Zachowaj oryginalny współczynnik proporcji"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_crop",
+      "value": "Przytnij"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_link_customize",
+      "value": "Dostosuj tekst linku"
     },
     {
       "_": "types.LangPackString",
@@ -31785,6 +32181,21 @@
       "_": "types.LangPackString",
       "key": "lng_qr_box_font_size",
       "value": "Rozmiar czcionki"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_qr_box_gifts_browse",
+      "value": "Przeglądaj prezenty"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_qr_box_gifts_empty_about",
+      "value": "Użyj dowolny posiadany prezent kolekcjonerski, aby spersonalizować swój kod QR."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_qr_box_gifts_empty_title",
+      "value": "Jeszcze nie masz prezentów"
     },
     {
       "_": "types.LangPackString",
@@ -36548,8 +36959,23 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_settings_passcode_lock_app",
+      "value": "Zablokuj Telegram kodem dostępu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_settings_passcode_lock_off_wallet",
+      "value": "Ten kod będzie wymagany wyłącznie do potwierdzania transakcji, a nie do otwierania portfela."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_settings_passcode_title",
       "value": "Lokalny kod dostępu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_settings_passcode_wallet_about",
+      "value": "Ten kod chroni klucze portfela przechowywane na tym urządzeniu."
     },
     {
       "_": "types.LangPackString",
@@ -36649,7 +37075,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_settings_passkeys_none_title",
-      "value": "Chroń swoje konto"
+      "value": "Zabezpiecz swoje konto"
     },
     {
       "_": "types.LangPackString",
@@ -37174,7 +37600,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_settings_suggestion_password_about",
-      "value": "Twoje konto jest chronione weryfikacją dwustopniową. Czy nadal pamiętasz swoje hasło?"
+      "value": "Twoje konto jest zabezpieczone weryfikacją dwustopniową. Czy nadal pamiętasz swoje hasło?"
     },
     {
       "_": "types.LangPackString",
@@ -37942,6 +38368,11 @@
       "_": "types.LangPackString",
       "key": "lng_shortcuts_silent_send",
       "value": "Wyślij po cichu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_shortcuts_stash_message",
+      "value": "Ukryj lub przywróć wiadomość"
     },
     {
       "_": "types.LangPackString",
@@ -39553,6 +39984,21 @@
       "_": "types.LangPackString",
       "key": "lng_start_msgs",
       "value": "Uruchom komunikator"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_stash_files_limit",
+      "value": "Zbyt wiele plików lub pliki są za duże, aby je zapisać."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_stash_hint",
+      "value": "Naciśnij {shortcut}, aby ukryć ten szkic."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_stash_restore",
+      "value": "Przywróć ukrytą wiadomość"
     },
     {
       "_": "types.LangPackString",
@@ -41369,7 +41815,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_sure_clear_downloads",
-      "value": "Czy chcesz usunąć wszystkie pobrane pliki z folderu tymczasowego? Odbywa się to automatycznie podczas wylogowywania lub dezinstalacji programu."
+      "value": "Czy chcesz usunąć wszystkie pobrane pliki z folderu tymczasowego? Odbywa się to automatycznie podczas wylogowywania lub deinstalacji programu."
     },
     {
       "_": "types.LangPackString",
@@ -41453,6 +41899,35 @@
       "_": "types.LangPackString",
       "key": "lng_sure_logout",
       "value": "Czy na pewno chcesz się wylogować?"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Klucze twoich {count} portfeli są przechowywane tylko na tym urządzeniu, a Telegram nie posiada ich kopii zapasowej. Kontynuowanie spowoduje ich zniszczenie — portfele można przywrócić tylko za pomocą ich tajnych fraz.",
+      "key": "lng_sure_logout_wallet_local",
+      "many_value": "Klucze twoich {count} portfeli są przechowywane tylko na tym urządzeniu, a Telegram nie posiada ich kopii zapasowej. Kontynuowanie spowoduje ich zniszczenie — portfele można przywrócić tylko za pomocą ich tajnych fraz.",
+      "one_value": "Klucze twojego portfela są przechowywane tylko na tym urządzeniu, a Telegram nie posiada ich kopii zapasowej. Kontynuowanie spowoduje ich zniszczenie — portfel można przywrócić tylko za pomocą tajnej frazy.",
+      "other_value": "Klucze twoich {count} portfeli są przechowywane tylko na tym urządzeniu, a Telegram nie posiada ich kopii zapasowej. Kontynuowanie spowoduje ich zniszczenie — portfele można przywrócić tylko za pomocą ich tajnych fraz."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "To urządzenie zawiera również klucze do {count} innych portfeli Gram. Kontynuowanie spowoduje ich zniszczenie i portfele te będzie można odzyskać tylko wtedy, gdy ich tajne frazy zostały wcześniej zapisane.",
+      "key": "lng_sure_logout_wallet_parked",
+      "many_value": "To urządzenie zawiera również klucze do {count} innych portfeli Gram. Kontynuowanie spowoduje ich zniszczenie i portfele te będzie można odzyskać tylko wtedy, gdy ich tajne frazy zostały wcześniej zapisane.",
+      "one_value": "To urządzenie zawiera również klucze do jednego innego portfela Gram. Kontynuowanie spowoduje ich zniszczenie i portfel ten będzie można odzyskać tylko wtedy, gdy jego tajna fraza została wcześniej zapisana.",
+      "other_value": "To urządzenie zawiera również klucze do {count} innych portfeli Gram. Kontynuowanie spowoduje ich zniszczenie i portfele te będzie można odzyskać tylko wtedy, gdy ich tajne frazy zostały wcześniej zapisane."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Zmiana {count} kluczy portfeli na tym urządzeniu nie została jeszcze potwierdzona. Ich zastępcze klucze są przechowywane tylko tu, a Telegram nie posiada ich kopii zapasowej. Kontynuowanie spowoduje ich zniszczenie, jeśli zmiana zostanie sfinalizowana, przywrócenie portfeli będzie możliwe wyłącznie za pomocą nowych tajnych fraz.",
+      "key": "lng_sure_logout_wallet_rotating",
+      "many_value": "Zmiana {count} kluczy portfeli na tym urządzeniu nie została jeszcze potwierdzona. Ich zastępcze klucze są przechowywane tylko tu, a Telegram nie posiada ich kopii zapasowej. Kontynuowanie spowoduje ich zniszczenie, jeśli zmiana zostanie sfinalizowana, przywrócenie portfeli będzie możliwe wyłącznie za pomocą nowych tajnych fraz.",
+      "one_value": "Zmiana klucza portfela na tym urządzeniu nie została jeszcze potwierdzona. Jego zastępczy klucz jest przechowywany tylko tu, a Telegram nie posiada jego kopii zapasowej. Kontynuowanie spowoduje jego zniszczenie, jeśli zmiana zostanie sfinalizowana, przywrócenie portfela będzie możliwe wyłącznie za pomocą nowej tajnej frazy.",
+      "other_value": "Zmiana {count} kluczy portfeli na tym urządzeniu nie została jeszcze potwierdzona. Ich zastępcze klucze są przechowywane tylko tu, a Telegram nie posiada ich kopii zapasowej. Kontynuowanie spowoduje ich zniszczenie, jeśli zmiana zostanie sfinalizowana, przywrócenie portfeli będzie możliwe wyłącznie za pomocą nowych tajnych fraz."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_sure_logout_wallet_unknown",
+      "value": "Jeśli na tym urządzeniu znajdują się jakiekolwiek klucze portfela Gram, kontynuowanie doprowadzi do ich zniszczenia. Będzie można je odzyskać wyłącznie z kopii zapasowej Telegrama lub tajnej frazy."
     },
     {
       "_": "types.LangPackString",
@@ -43217,6 +43692,1196 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_about_chain_text",
+      "value": "Wszystkie transakcje są rejestrowane i weryfikowalne w publicznym rejestrze."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_about_chain_title",
+      "value": "Weryfikacja w blockchain"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Pierwsze {count} przelewy każdego dnia są bezpłatne. Pozostałe kosztują grosze.",
+      "key": "lng_wallet_about_fees_text",
+      "many_value": "Pierwsze {count} przelewów każdego dnia jest bezpłatnych. Pozostałe kosztują grosze.",
+      "one_value": "{count} przelew każdego dnia jest bezpłatny. Pozostałe kosztują grosze.",
+      "other_value": "Pierwsze {count} przelewu każdego dnia jest bezpłatne. Pozostałe kosztują grosze."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_about_fees_title",
+      "value": "Zero opłat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_about_instant_text",
+      "value": "Wysyłaj Gramy w dowolnym czacie tak samo, jak udostępniasz zdjęcie."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_about_instant_title",
+      "value": "Natychmiastowe przelewy"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_add_funds",
+      "value": "Dodaj środki"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_apps_about",
+      "value": "Aplikacje połączone z tym portfelem za pomocą TON Connect. Odłączenie aplikacji kończy połączenie na wszystkich twoich urządzeniach."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_apps_disconnect_failed",
+      "value": "Nie udało się odłączyć aplikacji."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_apps_disconnect_sure",
+      "value": "Na pewno chcesz odłączyć {name}?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_apps_disconnect_title",
+      "value": "Odłącz aplikację"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_apps_empty",
+      "value": "Brak połączonych aplikacji"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_apps_title",
+      "value": "Połączone aplikacje"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_apps_unknown",
+      "value": "Nieznana aplikacja"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_about_on",
+      "value": "Twoja zaszyfrowana kopia zapasowa klucza jest podzielona na trzy części i przechowywana na trzech kontynentach.\n\nMożna ją scalić wyłącznie na twoich urządzeniach, dzięki czemu nikt – nawet Telegram – nie ma dostępu do twojego klucza."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_about_unavailable",
+      "value": "Zaszyfrowana kopia zapasowa nie jest dostępna dla portfeli zaimportowanych za pomocą tajnej frazy."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_cancel_text",
+      "value": "Twoja tajna fraza nie zostanie zaktualizowana."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_cancel_title",
+      "value": "Zachować kopię zapasową?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_disable",
+      "value": "Wyłącz kopię zapasową"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_disable_text",
+      "value": "Jedynym sposobem na odzyskanie środków będzie ręczne wprowadzenie tajnej frazy."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_disable_title",
+      "value": "Wyłączyć kopię zapasową?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_disabled_text",
+      "value": "Twoja tajna fraza jest teraz jedynym sposobem na odzyskanie portfela."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_disabled_title",
+      "value": "Kopia zapasowa wyłączona"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_enable",
+      "value": "Włącz kopię zapasową"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_enabled_text",
+      "value": "Twoje klucze są teraz przechowywane w postaci zaszyfrowanej w centrach danych Telegrama."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_enabled_title",
+      "value": "Kopia zapasowa włączona"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_error",
+      "value": "Nie udało się zmienić ustawień kopii zapasowej."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_new_phrase_text",
+      "value": "Wygenerowano nową tajną frazę dla twojego portfela. Zapisz ją i zachowaj w tajemnicy."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_new_phrase_title",
+      "value": "Nowa tajna fraza"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_rotate_failed_title",
+      "value": "Działanie nie powiodło się"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_rotate_reason_failed",
+      "value": "Aktualizacja nie mogła zostać ukończona."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_section",
+      "value": "Szyfrowana kopia zapasowa"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_sure_text",
+      "value": "Nie minęło wystarczająco dużo czasu na zapisanie tych słów."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_sure_title",
+      "value": "Wszystko gotowe?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_test_text",
+      "value": "Upewnij się, że twoja tajna fraza została poprawnie zapisana. Wprowadź słowa {index1}, {index2} i {index3}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_test_title",
+      "value": "Czas na test"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_topup_text",
+      "value": "Aby zaktualizować swoją tajną frazę, potrzebujesz {amount} GRAM ({fiat}). Dodaj środki i spróbuj ponownie."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_topup_title",
+      "value": "Za mało Gram"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_update_check",
+      "value": "Zaktualizuj tajną frazę"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_update_fee",
+      "value": "Opłata sieciowa: {amount} GRAMA ({fiat})."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_update_text",
+      "value": "Otrzymasz nową frazę do zapisania. Adres i saldo pozostaną bez zmian."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_buy_button",
+      "value": "Kup za gotówkę lub kryptowaluty"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_chip_number",
+      "value": "Kolekcjonerski numer"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_collectible_number_about",
+      "value": "Kolekcjonerski numer {number} może zostać użyty do utworzenia konta na Telegramie, które nie jest powiązane z kartą SIM."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_comment_add",
+      "value": "Dodaj"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_comment_decryption_failed",
+      "value": "Nie udało się odszyfrować komentarza."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_comment_encryption_failed",
+      "value": "Nie udało się zaszyfrować tego komentarza. Spróbuj ponownie, upublicznij go, edytuj lub usuń."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_comment_key_mismatch",
+      "value": "Ten komentarz został zaszyfrowany przy użyciu innego klucza portfela i nie można go odszyfrować na tym urządzeniu."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_comment_make_public",
+      "value": "Upublicznij komentarz"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_comment_public",
+      "value": "Publiczne komentarze są zapisywane w blockchainie i pozostają na zawsze widoczne dla wszystkich. Nigdy nie podawaj w nich prywatnych informacji."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_comment_title",
+      "value": "Dodaj komentarz"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_comment_too_long",
+      "value": "Ten komentarz jest za długi."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_conflict_bar",
+      "value": "Na tym urządzeniu masz również stary portfel."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_conflict_existing",
+      "value": "Masz równierz {amount} w starych portfelach"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_conflict_switch",
+      "value": "Przełącz teraz"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_conflict_text",
+      "value": "Portfel, którego używałeś wcześniej na tym urządzeniu. Zapisz frazę zabezpieczającą, zanim przejdziesz do swojego portfela w Telegramie."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_button",
+      "value": "Połącz"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_expired",
+      "value": "To żądanie nawiązania połączenia jest już nieważne. Rozpocznij nawiązywanie połączenia ponownie z aplikacji."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_permission",
+      "value": "Aplikacja będzie mogła uzyskać dostęp do twojego adresu TON, salda i aktywności."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_proof",
+      "value": "Aplikacja poprosi również o potwierdzenie, że ten portfel należy do ciebie. Jest to podpis służący do logowania, a nie do wykonania przelewu."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_reassurance",
+      "value": "Aplikacja nie będzie mogła przesyłać środków bez zgody."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_closed",
+      "value": "Ta aplikacja nie jest już połączona."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_confirm",
+      "value": "Potwierdź"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_decline",
+      "value": "Odrzuć"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_deploy",
+      "value": "Wdraża kontrakt pod tym adresem."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_deploy_contract",
+      "value": "Wdróż kontrakt"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_expired",
+      "value": "Żądanie wygasło."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_failed",
+      "value": "Nie udało się odpowiedzieć na żądanie."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_fee_failed",
+      "value": "Nie udało się oszacować opłaty sieciowej."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_fee_loading",
+      "value": "Szacowanie opłaty sieciowej…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_locked",
+      "value": "Odblokuj swój portfel, aby zobaczyć to żądanie."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_message",
+      "value": "wiadomość"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_messages",
+      "value": "Wiadomości"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_other_key",
+      "value": "Ta aplikacja była połączona z innym kluczem tego portfela, dlatego to urządzenie nie może odpowiadać na jej żądania ani jej odłączyć."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_payload",
+      "value": "payload (BOC/Base64)"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_preview",
+      "value": "Podgląd"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_recipients_title",
+      "value": "Odbiorcy"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_sent",
+      "value": "Przelew został wysłany."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_title",
+      "value": "Żądanie aplikacji"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_total",
+      "value": "kwota"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_trace_incomplete",
+      "value": "Podgląd tej transakcji jest niekompletny."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_transfer",
+      "value": "Przelew"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_unavailable",
+      "value": "To żądanie nie jest już dostępne."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_undelivered",
+      "value": "Nie udało się dostarczyć odpowiedzi do aplikacji."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_unhandled_about",
+      "value": "Możesz to teraz odrzucić lub odpowiedzieć na innym urządzeniu."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_unknown_operation",
+      "value": "Nieznana operacja"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_unlock",
+      "value": "Odblokuj"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_unsupported",
+      "value": "To żądanie nie jest obsługiwane na tym urządzeniu."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_restore",
+      "value": "To urządzenie nie zawiera bieżącego klucza tego portfela. Przywróć go, aby móc korzystać z połączonych aplikacji."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_title_app",
+      "value": "Połącz Pieniądze z {name}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_created_text",
+      "value": "Twój nowy portfel jest gotowy do użycia."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_created_title",
+      "value": "Portfel utworzony"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_currency_none",
+      "value": "Nie znaleziono walut"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_currency_title",
+      "value": "Wybierz walutę"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_delete_text",
+      "value": "Stracisz dostęp do swoich środków, chyba że masz zapisaną swoją tajną frazę."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_delete_title",
+      "value": "Usunąć portfel?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_address",
+      "value": "Adres"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_date",
+      "value": "Data"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_fee",
+      "value": "Opłata"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_fee_free",
+      "value": "Bezpłatna (zapłacił Telegram)"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_open_wallet",
+      "value": "Otwórz moje Pieniądze"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_recipient",
+      "value": "Odbiorca"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_sender",
+      "value": "Nadawca"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_title",
+      "value": "Transakcja"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_earnings_existing",
+      "value": "Masz równierz {amount} w Zarobkach Gram"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_error_with_type",
+      "value": "{message} (błąd: {error})"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Każdy przelew wiąże się z niewielką opłatą sieciową.\n\nTelegram pokrywa koszty pierwszych {count} przelewów każdego dnia.",
+      "key": "lng_wallet_fees_text",
+      "many_value": "Każdy przelew wiąże się z niewielką opłatą sieciową.\n\nTelegram pokrywa koszty pierwszych {count} przelewów każdego dnia.",
+      "one_value": "Każdy przelew wiąże się z niewielką opłatą sieciową.\n\nTelegram pokrywa koszt {count} przelewu każdego dnia.",
+      "other_value": "Każdy przelew wiąże się z niewielką opłatą sieciową.\n\nTelegram pokrywa koszty pierwszych {count} przelewów każdego dnia."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_fees_title",
+      "value": "Opłaty sieciowe"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_first_rate",
+      "value": "1 Gram jest obecnie wart {amount}.\nMożesz:"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_first_send_text",
+      "value": "Przesyłać Gramy dowolnej osobie. \nKliknij {attach} → {money} w czatach."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_first_send_title",
+      "value": "Wysyłać"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_first_store_text",
+      "value": "Trzymać swoje Gramy w Telegramie\n({menu} → {wallet}) lub w innych portfelach."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_first_store_title",
+      "value": "Przechowywać"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_first_title",
+      "value": "Twoje pierwsze Gramy!"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_first_trade_text",
+      "value": "Wymieniać Gramy na gotówkę lub kryptowaluty na giełdach."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_first_trade_title",
+      "value": "Handlować"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_how_menu",
+      "value": "Czym są Pieniądze?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_how_subtitle",
+      "value": "Tylko ty kontrolujesz swoje środki —\nnikt inny nie ma do nich dostępu."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_how_title",
+      "value": "Jak to działa"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_import_button",
+      "value": "Zaimortuj"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_import_failed",
+      "value": "Nie udało się zaimportować portfela."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_import_invalid_scheme",
+      "value": "Tutaj można zaimportować wyłącznie tajną frazę utworzoną w aplikacji Telegram."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_import_invalid_spelling",
+      "value": "Sprawdź kolejność słów.\n\nTutaj można zaimportować tylko tajną frazę utworzoną w aplikacji Telegram."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_import_invalid_title",
+      "value": "Nieprawidłowa tajna fraza"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_import_key_changing",
+      "value": "Klucz twojego portfela jest zmieniany. Spróbuj ponownie, gdy zmiana zostanie potwierdzona."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_import_not_verified",
+      "value": "Telegram nie był w stanie zweryfikować własności tego portfela. Zachowaj swoją tajną frazę i skontaktuj się z pomocą techniczną."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_import_paste_error",
+      "value": "Wklejony tekst musi zawierać 12 lub 24 słowa."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_import_text",
+      "value": "Wpisz tajną frazę z innego posiadanego przez ciebie portfela."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_import_title",
+      "value": "Importuj portfel"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "{count} słowa",
+      "key": "lng_wallet_import_words",
+      "many_value": "{count} słów",
+      "one_value": "{count} słowo",
+      "other_value": "{count} słowa"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_imported_not_stored",
+      "value": "Twój portfel został zastąpiony, ale jego klucza nie udało się zapisać na tym urządzeniu. Jeśli nie możesz wysyłać środków z poziomu tej aplikacji, odtwórz portfel za pomocą swojej tajnej frazy."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_imported_text",
+      "value": "Twój portfel został odtworzony z tajnej frazy."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_imported_title",
+      "value": "Portfel zaimportowany"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_intro_text",
+      "value": "Gram — cyfrowa waluta dla Telegrama"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_key_save_error",
+      "value": "Nie udało się zapisać klucza portfela na tym urządzeniu."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_keys_delete",
+      "value": "Usuń portfel"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_keys_phrase_about",
+      "value": "Możesz przenieść swój portfel na inne urządzenie, kopiując swoją tajną frazę."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_keys_restore",
+      "value": "Przywróć z tajnej frazy"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_keys_show_phrase",
+      "value": "Pokaż tajną frazę"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_keys_title",
+      "value": "Klucze i kopia zapasowa"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_menu",
+      "value": "Pieniądze"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_menu_currency",
+      "value": "Waluta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_passcode_forgot",
+      "value": "Nie pamiętasz kodu dostępu?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_passcode_forgot_about",
+      "value": "Bez kodu dostępu to urządzenie nie może uzyskać dostępu do zapisanych w nim kluczy portfela. Możesz usunąć z urządzenia wszystkie klucze portfela oraz kod dostępu i nadal korzystać z Telegrama — nie zostaniesz wylogowany."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_passcode_forgot_backed",
+      "value": "Twój portfel można odzyskać z kopii zapasowej Telegrama."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_passcode_forgot_confirm",
+      "value": "Usuń klucze"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_passcode_forgot_done",
+      "value": "Klucze portfela i kod dostępu zostały usunięte z tego urządzenia."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_passcode_forgot_failed",
+      "value": "Nie udało się usunąć kluczy portfela."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_passcode_remember",
+      "value": "Nie proś przez 15 minut"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_phrase_error",
+      "value": "Nie można pokazać tajnej frazy."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_phrase_intro_text",
+      "value": "Twoja tajna fraza to klucz do utworzenia kopii zapasowej portfela. Przechowuj ją w bezpiecznym miejscu i nikomu nie ujawniaj."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_phrase_intro_title",
+      "value": "Tajna fraza"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_phrase_password_description",
+      "value": "Wpisz hasło, aby wyświetlić swoją tajną frazę."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Zapisz te {count} słowa i przechowuj je w bezpiecznym miejscu. Zawsze zachowuj je w tajemnicy i dbaj o ich bezpieczeństwo.",
+      "key": "lng_wallet_phrase_text",
+      "many_value": "Zapisz te {count} słów i przechowuj je w bezpiecznym miejscu. Zawsze zachowuj je w tajemnicy i dbaj o ich bezpieczeństwo.",
+      "one_value": "Zapisz to {count} słowo i przechowuj je w bezpiecznym miejscu. Zawsze zachowuj je w tajemnicy i dbaj o jego bezpieczeństwo.",
+      "other_value": "Zapisz te {count} słowa i przechowuj je w bezpiecznym miejscu. Zawsze zachowuj je w tajemnicy i dbaj o ich bezpieczeństwo."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_phrase_title",
+      "value": "Twoja tajna fraza"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_phrase_warn_share",
+      "value": "**Nigdy nie udostępniaj** nikomu swojej tajnej frazy."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_phrase_warn_steal",
+      "value": "Jeśli ktoś zna twoją tajną frazę, **może ukraść twoje środki**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_phrase_warn_support",
+      "value": "Wsparcie techniczne Telegrama **nigdy nie poprosi cię** o twoją tajną frazę."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_profile_balance",
+      "value": "Saldo:"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "{name} posiada {amount} Gramy\nw TON blockchain.",
+      "key": "lng_wallet_profile_balance_owns",
+      "many_value": "{name} posiada {amount} Gramy\nw TON blockchain.",
+      "one_value": "{name} posiada {amount} Gram\nw TON blockchain.",
+      "other_value": "{name} posiada {amount} Grama\nw TON blockchain."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_profile_balance_public",
+      "value": "Twoje saldo jest publiczne ze względu na przejrzystość blockchain."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_profile_send_money",
+      "value": "Wyślij pieniądze"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protect_account",
+      "value": "Zabezpiecz swoje konto"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_about",
+      "value": "Wybierz sposób ochrony swoich środków na tym urządzeniu."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_create_about",
+      "value": "Ten kod dostępu chroni klucz twojego portfela na tym urządzeniu. Nie blokuje on aplikacji Telegram, dopóki nie włączysz tej funkcji w Ustawieniach."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_error",
+      "value": "Nie udało się zmienić zabezpieczenia klucza portfela."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_hardware_absent",
+      "value": "Klucz twojego portfela na tym urządzeniu był chroniony przez {provider}, jednak nie można go już na nim używać. Przywróć portfel z zaszyfrowanej kopii zapasowej Telegrama lub użyj swojej tajnej frazy, aby ponownie zapisać klucz."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_hardware_failed",
+      "value": "{provider} nie potwierdził, że to ty. Nic nie zostało zmienione."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_hardware_unavailable",
+      "value": "Klucz twojego portfela na tym urządzeniu jest chroniony przez {provider}, z którego nie można obecnie skorzystać. Uruchom ponownie Telegram, aby spróbować jeszcze raz, albo przywróć portfel z zaszyfrowanej kopii zapasowej Telegrama lub użyj tajnej frazy, aby zabezpieczyć go w inny sposób."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_hello_about",
+      "value": "Potwierdzaj wszystkie wydatki za pomocą kodu PIN Windowsa."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_hello_label",
+      "value": "Windows Hello"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_open",
+      "value": "Nie pytaj o kod dostępu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_open_about",
+      "value": "Każdy z dostępem do twojego konta Telegrama może wydać twoje środki."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_open_confirm",
+      "value": "Przechowuj mimo wszystko"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_open_title",
+      "value": "Przechowywać bez kodu dostępu?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_open_warning_lock",
+      "value": "Każdy, kto uzyska dostęp do odblokowanego Telegram Desktop na tym komputerze, będzie mógł ukraść środki z twojego portfela.\n\nMożesz to później zmienić w menu portfela, w sekcji blokady kodem dostępu."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_open_warning_nolock",
+      "value": "Każdy, kto uzyska dostęp do tego komputera, będzie mógł ukraść środki z twojego portfela.\n\nMożesz to później zmienić w menu portfela, w sekcji blokady kodem dostępu."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_passcode",
+      "value": "Pytaj o lokalny kod dostępu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_passcode_about",
+      "value": "Potwierdzaj wszystkie wydatki kodem dostępu do Telegrama."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_passcode_change",
+      "value": "Zmień kod dostępu {arrow}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_passcode_changed_error",
+      "value": "Kod dostępu został zmieniony, ale nie udało się zaktualizować zabezpieczeń portfela. Przywróć klucze portfela z kopii zapasowej lub za pomocą tajnej frazy."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_passcode_keep",
+      "value": "Nadal pytaj o ten kod dostępu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_removal_about",
+      "value": "Wybierz sposób ochrony swoich środków po usunięciu kodu dostępu."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_removal_wallets",
+      "value": "Dotyczy to portfeli kont {accounts}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_retained",
+      "value": "Telegram nie będzie pytać o {provider} przez kolejne 15 minut. {link}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_retained_ask",
+      "value": "Zapytaj następnym razem"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_title",
+      "value": "Blokada kodem dostępu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_touchid_about",
+      "value": "Potwierdzaj wszystkie wydatki odciskiem palca lub hasłem Mac."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_touchid_label",
+      "value": "Touch ID"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_touchid_reason",
+      "value": "odblokuj klucz do portfela"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_readonly_bar",
+      "value": "To urządzenie umożliwia podgląd tego portfela, ale nie pozwala na wysyłanie z niego środków."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_receive_about",
+      "value": "Udostępnij swój adres lub kod QR, aby otrzymać GRAM."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_receive_caveat",
+      "value": "Aby wysyłać środki z tego urządzenia, potrzebujesz swojej tajnej frazy lub urządzenia, na którym ten portfel został zaimportowany."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_receive_copy_hint",
+      "value": "Kliknij, aby skopiować adres"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_replace_create",
+      "value": "Utwórz nowy portfel"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_replace_import",
+      "value": "Importuj istniejący portfel"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_replace_title",
+      "value": "W jaki sposób chcesz zamienić stary portfel?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_restore_error",
+      "value": "Nie udało się przywrócić dostępu do tego portfela."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_restore_explain_text",
+      "value": "Wpisz hasło weryfikacji dwustopniowej, aby odzyskać klucz do tego portfela z zaszyfrowanej kopii zapasowej."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_restore_not_saved",
+      "value": "Tajna fraza nie została zapisana na tym urządzeniu."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_restore_other_text",
+      "value": "Wprowadzone przez ciebie słowa nie pasują do portfela."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_restore_outdated_text",
+      "value": "Te słowa stanowią starą tajną frazę dla tego portfela.\n\nWprowadź nową frazę, którą otrzymałeś podczas ostatniego wyłączania kopii zapasowej."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_restore_text",
+      "value": "Wpisz tajną frazę tego portfela."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_restore_title",
+      "value": "Przywróć portfel"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_restore_ton_connect_text",
+      "value": "Wpisz tajną frazę tego portfela, aby korzystać z połączonych aplikacji z tego urządzenia."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_restore_wrong_title",
+      "value": "Niepoprawna tajna fraza"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_restoring_key",
+      "value": "Odtwarzanie klucza portfela z zaszyfrowanej kopii zapasowej…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_deposit",
+      "value": "Wpłata"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_incoming",
+      "value": "Przelew przychodzący"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_outgoing",
+      "value": "Przelew wychodzący"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_rows_collectibles",
+      "value": "Kolekcjonerskie"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_rows_hidden_below",
+      "value": "Transakcje poniżej {amount} Grama są ukryte."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_rows_title",
+      "value": "Transakcje"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_amount",
+      "value": "Wyślij {amount} Gram"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_balance",
+      "value": "Saldo: {amount} Gram"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_comment_optional",
+      "value": "Opcjonalny komentarz"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_error_failed",
+      "value": "Nie udało się zrealizować przelewu."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_error_insufficient",
+      "value": "Niewystarczające środki."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_error_too_small",
+      "value": "Minimalny transfer wynosi {amount} Gram."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_gram_wallet",
+      "value": "Portfel Gram"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_invalid_address",
+      "value": "Nieprawidłowy adres"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_key_changed_text",
+      "value": "Klucz do tego portfela został zmieniony w innej aplikacji, dlatego klucz znajdujący się na tym urządzeniu przestał działać.\n\nAby ponownie korzystać z portfela na tym urządzeniu, przywróć go przy użyciu aktualnej tajnej frazy."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_key_changed_title",
+      "value": "Zmieniono klucz portfela"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_link_invalid",
+      "value": "Ten link jest nieprawidłowy."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_network_fee",
+      "value": "Opłata sieciowa: {amount} Grama"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_title",
+      "value": "Wyślij Gramy"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_user_title",
+      "value": "Wyślij pieniądze do"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_user_wallet_about",
+      "value": "Ten adres TON Blockchain jest powiązany z {name} na Telegramie."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_user_wallet_title",
+      "value": "Portfel {name}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_unavailable",
+      "value": "Na tym koncie nie ma środków."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_vault_locked",
+      "value": "Klucz portfela na tym urządzeniu jest zablokowany. Odblokuj go i spróbuj ponownie."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_vault_reset_about",
+      "value": "Klucza portfela aktualnie zapisanego na tym urządzeniu nie można już tutaj otworzyć. Kontynuacja spowoduje jego usunięcie z tego urządzenia wraz ze wszelkimi innymi kluczami portfela, które są z nim przechowywane i zastąpienie go kluczem do bieżącego portfela. Ta operacja jest nieodwracalna."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_vault_reset_title",
+      "value": "Usunąć zapisany klucz?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_vault_unavailable",
+      "value": "Nie można odczytać klucza portfela zapisanego na tym urządzeniu."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_walt_existing",
+      "value": "Masz równierz środki w Walt"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_weekday1",
       "value": "pn"
     },
@@ -43361,5 +45026,5 @@
       "other_value": "Zapłacono {count} Gwiazdki."
     }
   ],
-  "version": 5923950
+  "version": 6003212
 }
