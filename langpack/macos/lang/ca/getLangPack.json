@@ -41251,6 +41251,61 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.AuthorizeController.VerifyFailed",
+      "value": "No s'ha pogut verificar el codi d'accés. Torneu a provar-ho."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.BackupDisabledInfo",
+      "value": "Activeu la còpia de seguretat xifrada abans de restablir la frase secreta des de Telegram."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.BackupDisabledTitle",
+      "value": "S'ha desactivat la còpia de seguretat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.BackupProofExpiredInfo",
+      "value": "La sol·licitud de verificació de la cartera ha caducat. Proveu d'activar de nou la còpia de seguretat."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.BackupRotationPendingInfo",
+      "value": "Telegram encara no ha pogut confirmar el canvi de la frase secreta en la cadena de blocs. Espereu un moment i torneu a provar-ho, o introduïu la frase secreta actual."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.BackupUnavailableInfo",
+      "value": "La còpia de seguretat xifrada no es troba disponible per a aquesta cartera."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.BackupUnavailableTitle",
+      "value": "Còpia de seguretat no disponible"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.BackupVerifyFailedInfo",
+      "value": "La frase secreta d'aquesta cartera podria estar desactualitzada. Introduïu la frase secreta actual per a activar la còpia de seguretat."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.BackupVerifyFailedTitle",
+      "value": "No s'ha pogut verificar la frase secreta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.DecryptFailedTitle",
+      "value": "No s'ha pogut desxifrar el comentari"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.EnableBackupFailedTitle",
+      "value": "No s'ha pogut activar la còpia de seguretat"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.AuthorizedOperation.EncryptFailedInfo",
       "value": "El comentari no s'ha pogut xifrar per a aquesta cartera. Comproveu la connexió de xarxa i torneu a provar-ho."
     },
@@ -41261,13 +41316,48 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.InvalidPhraseInfo",
+      "value": "Comproveu totes les paraules de la frase secreta actual i torneu a provar-ho."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.KeyRotationFailedInfo",
+      "value": "La frase secreta nova no s'ha activat. La frase i còpia de seguretat xifrada anteriors encara són vàlides."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.PasswordInfo",
+      "value": "Introduïu la contrasenya de verificació en dos passos de Telegram per a continuar."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.AuthorizedOperation.PhraseChangedTitle",
       "value": "La frase secreta ha canviat"
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.ProofInvalidInfo",
+      "value": "Telegram no ha pogut verificar que aquesta cartera us pertany. Torneu a provar d'importar-la."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.AuthorizedOperation.SessionTooNewInfo",
       "value": "Per seguretat, torneu a provar-ho d'aquí a %1$@."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.TwoStepRequiredInfo",
+      "value": "Definiu una contrasenya abans de canviar la cartera."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.TwoStepRequiredTitle",
+      "value": "Cal la verificació en dos passos"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.WalletChangedInfo",
+      "value": "La cartera ha canviat mentre s'activava la còpia de seguretat. Obriu la seva configuració i torneu a provar-ho."
     },
     {
       "_": "types.LangPackString",
@@ -41286,8 +41376,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.ConnectedAppsController.AllAppsDisconnected",
+      "value": "S'han desconnectat totes les aplicacions."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.ConnectedAppsController.AppDisconnected",
+      "value": "%1$@ desconnectada."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.ConnectedAppsController.AppInfoDescription",
       "value": "L'aplicació pot veure l'adreça, el saldo i l'activitat de la cartera. No pot moure fons sense la vostra aprovació."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.ConnectedAppsController.DisconnectAll",
+      "value": "Desconnecta-ho tot"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.ConnectedAppsController.DisconnectAllConfirmInfo",
+      "value": "Aquestes aplicacions perdran l'accés a la cartera. Podeu connectar-les de nou en qualsevol moment."
     },
     {
       "_": "types.LangPackString",
@@ -41306,6 +41416,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Controller.ConnectFailed",
+      "value": "No s'ha pogut connectar aquesta aplicació. Torneu a provar-ho."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Controller.ConnectTo",
       "value": "Connecta amb %1$@"
     },
@@ -41318,6 +41433,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.Controller.Excess",
       "value": "Excés"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Controller.FailedSuffix",
+      "value": "%1$@ · Ha fallat"
     },
     {
       "_": "types.LangPackString",
@@ -41678,6 +41798,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.SendController.CollectibleSent",
+      "value": "S'ha enviat el col·leccionable a %1$@."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.SendController.CommentPlaceholder",
       "value": "Missatge opcional"
     },
@@ -41758,6 +41883,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.SettingsController.CheckNetwork",
+      "value": "Comproveu la connexió i torneu a provar-ho."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.SettingsController.DeleteAnyway",
       "value": "Elimina-la"
     },
@@ -41788,8 +41918,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.SettingsController.DisableBackupConfirmUpdatePhrase",
+      "value": "S'eliminarà la còpia de seguretat xifrada distribuïda. La cartera canviarà a la nova frase secreta. Aquesta frase serà l'única manera de recuperar la cartera."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.SettingsController.DisableBackupManualRecovery",
       "value": "Només podreu recuperar els fons introduint de manera manual la frase secreta."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.SettingsController.DisableBackupZeroBalance",
+      "value": "Us cal un saldo major que zero per a poder actualitzar la frase secreta."
     },
     {
       "_": "types.LangPackString",
@@ -41828,8 +41968,38 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.SettingsController.ErrorKeyRotationFailedTitle",
+      "value": "No s'ha pogut actualitzar la frase secreta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.SettingsController.ErrorProofExpired",
+      "value": "La sol·licitud de verificació de la cartera ha caducat. Toqueu Desactiva per a tornar a provar-ho."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.SettingsController.ErrorProofExpiredTitle",
+      "value": "La verificació ha caducat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.SettingsController.ErrorProofInvalid",
+      "value": "Telegram no ha pogut verificar que aquesta cartera us pertany. Torneu a provar-ho."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.SettingsController.ErrorRotationPending",
       "value": "Telegram no ha pogut confirmar encara en la cadena de blocs el canvi de la frase secreta. Espereu un moment i torneu a fer clic en Desactiva."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.SettingsController.ErrorRotationPendingTitle",
+      "value": "Pendent actualitzar la frase secreta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.SettingsController.InsufficientBalanceTopUp",
+      "value": "Recarrega"
     },
     {
       "_": "types.LangPackString",
@@ -41853,6 +42023,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.SettingsController.ShowSecretPhraseFailed",
+      "value": "No s'ha pogut mostrar la frase secreta"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.SettingsController.ShowSecretPhraseInfo",
       "value": "Podeu transferir la cartera a un altre dispositiu copiant la frase secreta de 12 o 24 paraules."
     },
@@ -41860,6 +42035,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.SettingsController.UpdateSecretPhrase",
       "value": "Actualitza la frase secreta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.SettingsController.WalletChanged",
+      "value": "La cartera ha canviat"
     },
     {
       "_": "types.LangPackString",
@@ -41875,6 +42055,21 @@
       "_": "types.LangPackString",
       "key": "Wallet.SettingsController.WalletImportedInfo",
       "value": "La cartera s'ha restaurat amb la frase secreta."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TonConnect.Retry",
+      "value": "Torna a provar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TonConnectSigningRowItem.BinaryWarning",
+      "value": "Ho esteu signant a cegues. Signeu dades només de fonts en què confieu."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TransactionController.CommentEncryptedPrivacy",
+      "value": "Visible només per a vós i el destinatari."
     },
     {
       "_": "types.LangPackString",
@@ -41905,6 +42100,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.TransactionController.NotEnoughGramsTitle",
       "value": "No hi ha prou Grams"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TransactionController.OpenMyMoney",
+      "value": "Obre els meus Diners"
     },
     {
       "_": "types.LangPackString",
@@ -41988,6 +42188,26 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.TransferPresentation.SignMessageExplanation",
+      "value": "Reviseu els detalls del missatge i signeu si hi esteu d'acord."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TransferPresentation.SignTextExplanation",
+      "value": "Reviseu amb cura el missatge i, si hi esteu d'acord, signeu les dades."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TransferPresentation.SubmitUntil",
+      "value": "L'aplicació pot enviar la transferència fins a %1$@."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TransferPresentation.WillSubmit",
+      "value": "L'aplicació enviarà la transferència."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.WordsController.AllDoneInfo",
       "value": "No heu tingut prou temps per a apuntar-les."
     },
@@ -42005,6 +42225,16 @@
       "_": "types.LangPackString",
       "key": "Wallet.WordsController.CancelDisablingTitle",
       "value": "Voleu mantenir la còpia de seguretat?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.WordsController.NewPhraseInfo",
+      "value": "S'ha generat una frase secreta nova per a la cartera. Apunteu-la i manteniu-la secreta."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.WordsController.NewPhraseTitle",
+      "value": "Frase secreta nova"
     },
     {
       "_": "types.LangPackString",
@@ -42867,5 +43097,5 @@
       "value": "Mostra les substitucions"
     }
   ],
-  "version": 2393348
+  "version": 2396161
 }
