@@ -2711,7 +2711,7 @@
     {
       "_": "types.LangPackString",
       "key": "BlockedUsersInfo",
-      "value": "Os usuários bloqueados não podem te enviar mensagens ou adicionar a grupos. Eles não verão suas fotos de perfil, seu online e nem o visto pela última vez."
+      "value": "Os usuários bloqueados não podem te enviar mensagens ou adicionar a grupos. Eles não verão suas fotos de perfil, stories, online e nem o visto por último."
     },
     {
       "_": "types.LangPackString",
@@ -2925,6 +2925,30 @@
     },
     {
       "_": "types.LangPackStringPluralized",
+      "key": "BoostingGiveawayHowItWorksIncludeText",
+      "one_value": "**{chat}** também incluiu **{quantity}** **{prize}** com os prêmios. Os admins do canal são responsáveis por entregar esse prêmio.",
+      "other_value": "**{chat}** também incluiu **{quantity}** **{prize}** com os prêmios. Os admins do canal são responsáveis por entregar esse prêmio."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "BoostingGiveawayHowItWorksSubText",
+      "one_value": "Em **{date}**, o Telegram selecionará automaticamente **{quantity}** usuário aleatório que se inscreveu em **{chat}**.",
+      "other_value": "Em **{date}**, o Telegram selecionará automaticamente **{quantity}** usuários aleatórios que se inscreveram em **{chat}**."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "BoostingGiveawayHowItWorksSubTextEnd",
+      "one_value": "Em **{date}**, o Telegram selecionou automaticamente **{quantity}** usuário aleatório que se inscreveu em **{chat}**.",
+      "other_value": "Em **{date}**, o Telegram selecionou automaticamente **{quantity}** usuários aleatórios que se inscreveram em **{chat}**."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "BoostingGiveawayHowItWorksSubTextSeveral1",
+      "one_value": "Em **{date}**, o Telegram selecionará automaticamente **{quantity}** usuário aleatório que entrou em **{chat}** {otherChannels}.",
+      "other_value": "Em **{date}**, o Telegram selecionará automaticamente **{quantity}** usuários aleatórios que entraram em **{chat}** {otherChannels}."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
       "key": "BoostingGiveawayHowItWorksSubTextSeveral2",
       "one_value": "e **{count}** outro canal listado",
       "other_value": "e **{count}** outros canais listados"
@@ -2934,6 +2958,18 @@
       "key": "BoostingGiveawayHowItWorksSubTextSeveralEnd1",
       "one_value": "Em **{date}**, o Telegram selecionou automaticamente **{quantity}** usuário aleatório que entrou em **{chat}** {otherChannels}.",
       "other_value": "Em **{date}**, o Telegram selecionou automaticamente **{quantity}** usuários aleatórios que entraram em **{chat}** {otherChannels}."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "BoostingGiveawayHowItWorksText",
+      "one_value": "Este sorteio é patrocinado pelos admins de **{chat}**, que adquiriram **{quantity}** assinatura do **Telegram Premium** de {duration} para seus inscritos.",
+      "other_value": "Este sorteio é patrocinado pelos admins de **{chat}**, que adquiriram **{quantity}** assinaturas do **Telegram Premium** de {duration} para seus inscritos."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "BoostingGiveawayHowItWorksTextEnd",
+      "one_value": "Este sorteio foi patrocinado pelos admins de **{chat}**, que adquiriram {quantity} assinatura do **Telegram Premium** de {duration} para seus inscritos.",
+      "other_value": "Este sorteio foi patrocinado pelos admins de **{chat}**, que adquiriram {quantity} assinaturas do **Telegram Premium** de {duration} para seus inscritos."
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -3095,6 +3131,12 @@
       "_": "types.LangPackString",
       "key": "BoostingSendLinkToAnyone",
       "value": "Você também pode **enviar esse link** para qualquer pessoa como presente."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "BoostingStarsGiveawayHowItWorksText",
+      "one_value": "Este sorteio é patrocinado pelos admins de **{chat}**, que adquiriram **{count} Estrela** para os inscritos.",
+      "other_value": "Este sorteio é patrocinado pelos admins de **{chat}**, que adquiriram **{count} Estrelas** para os inscritos."
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -17867,7 +17909,7 @@
     {
       "_": "types.LangPackString",
       "key": "StoryPrivacyOptionSelectedContacts",
-      "value": "Contatos Selecionados"
+      "value": "Usuários Selecionados"
     },
     {
       "_": "types.LangPackString",
@@ -17892,7 +17934,7 @@
     {
       "_": "types.LangPackString",
       "key": "StorySave",
-      "value": "Salvar no perfil"
+      "value": "Postar no perfil"
     },
     {
       "_": "types.LangPackString",
@@ -18805,7 +18847,7 @@
     {
       "_": "types.LangPackString",
       "key": "UpgradedStories",
-      "value": "Stories Atualizados"
+      "value": "Stories"
     },
     {
       "_": "types.LangPackString",
@@ -18895,7 +18937,7 @@
     {
       "_": "types.LangPackString",
       "key": "UserInfoCustomVideo",
-      "value": "vídeo definido por você"
+      "value": "foto definida por você"
     },
     {
       "_": "types.LangPackString",
@@ -19433,7 +19475,7 @@
     {
       "_": "types.LangPackString",
       "key": "ViewButtonVoiceChat",
-      "value": "CHAT DE VOZ"
+      "value": "CHAT DE VÍDEO"
     },
     {
       "_": "types.LangPackString",
@@ -19470,12 +19512,12 @@
     {
       "_": "types.LangPackString",
       "key": "VoiceChatInactive",
-      "value": "Este chat de voz não está ativo"
+      "value": "Este chat de vídeo não está ativo"
     },
     {
       "_": "types.LangPackString",
       "key": "VoiceChatJoinFailed",
-      "value": "Erro ao entrar no chat de voz"
+      "value": "Erro ao entrar no chat de vídeo"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -20288,12 +20330,12 @@
     {
       "_": "types.LangPackString",
       "key": "WalletEnterPhraseSubtitle",
-      "value": "Digite a frase de recuperação da sua carteira para reativar o backup."
+      "value": "Digite a Frase Secreta da sua carteira para reativar o backup."
     },
     {
       "_": "types.LangPackString",
       "key": "WalletEnterPhraseTitle",
-      "value": "Insira a Frase de Recuperação"
+      "value": "Insira a Frase Secreta"
     },
     {
       "_": "types.LangPackString",
@@ -20308,7 +20350,7 @@
     {
       "_": "types.LangPackString",
       "key": "WalletExportError",
-      "value": "Falha ao exportar a frase de recuperação. Tente novamente."
+      "value": "Falha ao exportar a Frase Secreta. Tente novamente."
     },
     {
       "_": "types.LangPackString",
@@ -20318,7 +20360,7 @@
     {
       "_": "types.LangPackString",
       "key": "WalletFeatureInstantTitle",
-      "value": "Envie Dinheiro Instantâneo"
+      "value": "Transferências Instantâneas"
     },
     {
       "_": "types.LangPackString",
@@ -20358,7 +20400,7 @@
     {
       "_": "types.LangPackString",
       "key": "WalletImportPhraseSubtitle",
-      "value": "Digite a frase de recuperação da carteira que deseja importar."
+      "value": "Digite a Frase Secreta da carteira que deseja importar."
     },
     {
       "_": "types.LangPackString",
@@ -20368,7 +20410,7 @@
     {
       "_": "types.LangPackString",
       "key": "WalletIntroSendText",
-      "value": "Transfira Grams para qualquer pessoa.\nToque em 📎 → Dinheiro nos chats."
+      "value": "Transfira Grams para qualquer pessoa.\nClique em 📎 → Dinheiro nos chats."
     },
     {
       "_": "types.LangPackString",
@@ -20460,7 +20502,7 @@
     {
       "_": "types.LangPackString",
       "key": "WalletOtherWalletsHint",
-      "value": "Carteiras que você usou antes neste dispositivo. Salve as frases secretas – elas serão removidas se você sair ou limpar dados do navegador."
+      "value": "Carteiras que você usou antes neste dispositivo. Salve as Frases Secretas – elas serão removidas se você sair ou limpar dados do navegador."
     },
     {
       "_": "types.LangPackString",
@@ -20515,17 +20557,17 @@
     {
       "_": "types.LangPackString",
       "key": "WalletPhraseInfoCanSteal",
-      "value": "Se alguém tiver sua Frase de Recuperação, ele **pode roubar seu dinheiro**."
+      "value": "Se alguém tiver sua Frase Secreta, ele **pode roubar seu dinheiro**."
     },
     {
       "_": "types.LangPackString",
       "key": "WalletPhraseInfoNeverShare",
-      "value": "**Nunca compartilhe** sua Frase de Recuperação com ninguém."
+      "value": "**Nunca compartilhe** sua Frase Secreta com ninguém."
     },
     {
       "_": "types.LangPackString",
       "key": "WalletPhraseInfoSupport",
-      "value": "O Suporte do Telegram **nunca pedirá** sua Frase de Recuperação."
+      "value": "O Suporte do Telegram **nunca pedirá** sua Frase Secreta."
     },
     {
       "_": "types.LangPackString",
@@ -20545,7 +20587,7 @@
     {
       "_": "types.LangPackString",
       "key": "WalletPhraseOutdatedError",
-      "value": "Esta frase de recuperação não controla mais a carteira. Digite sua frase atual."
+      "value": "Esta Frase Secreta não controla mais a carteira. Digite sua frase atual."
     },
     {
       "_": "types.LangPackString",
@@ -20600,17 +20642,17 @@
     {
       "_": "types.LangPackString",
       "key": "WalletRecoveryPhraseHint",
-      "value": "Você pode transferir sua carteira para outro dispositivo copiando sua frase de recuperação."
+      "value": "Você pode transferir sua carteira para outro dispositivo copiando sua Frase Secreta."
     },
     {
       "_": "types.LangPackString",
       "key": "WalletRecoveryPhraseSubtitle",
-      "value": "Sua Frase de Recuperação é a chave para restaurar sua carteira. Mantenha ela sempre secreta e segura."
+      "value": "Sua Frase Secreta é a chave para restaurar sua carteira. Mantenha ela sempre secreta e segura."
     },
     {
       "_": "types.LangPackString",
       "key": "WalletRecoveryPhraseTitle",
-      "value": "Frase de Recuperação"
+      "value": "Frase Secreta"
     },
     {
       "_": "types.LangPackString",
@@ -20660,7 +20702,7 @@
     {
       "_": "types.LangPackString",
       "key": "WalletRestored",
-      "value": "Sua carteira foi restaurada a partir da sua frase de recuperação."
+      "value": "Sua carteira foi restaurada a partir da sua Frase Secreta."
     },
     {
       "_": "types.LangPackString",
@@ -20845,7 +20887,7 @@
     {
       "_": "types.LangPackString",
       "key": "WalletShowRecoveryPhrase",
-      "value": "Mostrar Frase de Recuperação"
+      "value": "Mostrar Frase Secreta"
     },
     {
       "_": "types.LangPackString",
@@ -21065,7 +21107,7 @@
     {
       "_": "types.LangPackString",
       "key": "WalletWrongPhraseError",
-      "value": "Esta frase de recuperação não corresponde à sua carteira"
+      "value": "Esta Frase Secreta não corresponde à sua carteira"
     },
     {
       "_": "types.LangPackString",
@@ -21080,7 +21122,7 @@
     {
       "_": "types.LangPackString",
       "key": "WalletYourRecoveryPhrase",
-      "value": "Sua Frase de Recuperação"
+      "value": "Sua Frase Secreta"
     },
     {
       "_": "types.LangPackString",
@@ -21215,5 +21257,5 @@
       "value": "Seu Nome"
     }
   ],
-  "version": 363633
+  "version": 363668
 }
