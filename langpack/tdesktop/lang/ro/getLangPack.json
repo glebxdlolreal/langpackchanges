@@ -26610,7 +26610,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_passcode_change_title",
-      "value": "Introdu cod de acces"
+      "value": "Introdu codul de acces"
     },
     {
       "_": "types.LangPackString",
@@ -26620,7 +26620,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_passcode_check_title",
-      "value": "Introdu cod de acces"
+      "value": "Introdu codul de acces"
     },
     {
       "_": "types.LangPackString",
@@ -26630,7 +26630,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_passcode_create",
-      "value": "Parolă locală"
+      "value": "Cod de acces local"
     },
     {
       "_": "types.LangPackString",
@@ -26645,12 +26645,12 @@
     {
       "_": "types.LangPackString",
       "key": "lng_passcode_differ",
-      "value": "Parolele sunt diferite"
+      "value": "Codurile de acces sunt diferite"
     },
     {
       "_": "types.LangPackString",
       "key": "lng_passcode_enter",
-      "value": "Introdu parola locală"
+      "value": "Introdu codul de acces local"
     },
     {
       "_": "types.LangPackString",
@@ -26660,17 +26660,17 @@
     {
       "_": "types.LangPackString",
       "key": "lng_passcode_enter_new",
-      "value": "Introdu o parolă nouă"
+      "value": "Introdu noul cod de acces"
     },
     {
       "_": "types.LangPackString",
       "key": "lng_passcode_enter_old",
-      "value": "Introdu parola curentă"
+      "value": "Introdu codul de acces curent"
     },
     {
       "_": "types.LangPackString",
       "key": "lng_passcode_is_same",
-      "value": "Parola nu a fost schimbată"
+      "value": "Codul de acces nu a fost schimbat"
     },
     {
       "_": "types.LangPackString",
@@ -26685,17 +26685,67 @@
     {
       "_": "types.LangPackString",
       "key": "lng_passcode_ph",
-      "value": "Parola ta"
+      "value": "Codul tău de acces"
     },
     {
       "_": "types.LangPackString",
       "key": "lng_passcode_remove",
-      "value": "Elimină parola locală"
+      "value": "Elimină codul de acces local"
     },
     {
       "_": "types.LangPackString",
       "key": "lng_passcode_remove_button",
       "value": "Elimină"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_passcode_strength_advice_date",
+      "value": "Evită datele și anii."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_passcode_strength_advice_fine",
+      "value": "Codul de acces este greu de ghicit."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_passcode_strength_advice_keyboard",
+      "value": "Evită înșiruirile de taste."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_passcode_strength_advice_leet",
+      "value": "Înlocuirea literelor cu simboluri similare nu ajută."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_passcode_strength_advice_repeat",
+      "value": "Evită caracterele repetate."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_passcode_strength_advice_sequence",
+      "value": "Evită formulările ca abc sau 123."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_passcode_strength_advice_short",
+      "value": "Folosește cel puțin 8 caractere."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_passcode_strength_advice_variety",
+      "value": "Fă-o mai lungă și adaugă mai multe tipuri de caractere."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_passcode_strength_advice_word",
+      "value": "Evită numele și cuvintele comune."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_passcode_strength_empty",
+      "value": "Estimare siguranță cod de acces."
     },
     {
       "_": "types.LangPackString",
@@ -26725,7 +26775,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_passcode_turn_on",
-      "value": "Activează parola locală"
+      "value": "Activează codul de acces local"
     },
     {
       "_": "types.LangPackString",
@@ -26745,7 +26795,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_passcode_wrong",
-      "value": "Parolă incorectă"
+      "value": "Cod de acces incorect"
     },
     {
       "_": "types.LangPackString",
@@ -36358,8 +36408,23 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_settings_passcode_lock_app",
+      "value": "Blochează Telegram cu cod de acces"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_settings_passcode_lock_off_wallet",
+      "value": "Această parolă va fi necesară doar pentru a confirma tranzacțiile, nu și pentru a deschide portofelul."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_settings_passcode_title",
       "value": "Cod de acces local"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_settings_passcode_wallet_about",
+      "value": "Această parolă protejează cheile portofelului stocate pe acest dispozitiv."
     },
     {
       "_": "types.LangPackString",
@@ -42989,8 +43054,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_backup_about_on",
+      "value": "Cheia secretă a backupului tău este divizată în trei părți și stocată pe trei continente.\n\nPoate fi reasamblată doar pe dispozitivele tale, așa că nimeni — nici măcar Telegram — nu îți poate accesa cheia."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_cancel_text",
+      "value": "Fraza ta secretă nu va fi actualizată."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_cancel_title",
+      "value": "Păstrezi Backupul?"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_backup_disable",
       "value": "Dezactivează Backup"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_disable_text",
+      "value": "Singura modalitate de a-ți recupera fondurile va fi să introduci manual Fraza ta Secretă."
     },
     {
       "_": "types.LangPackString",
@@ -43064,13 +43149,43 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_comment_make_public",
+      "value": "Fă comentariul public"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_comment_public",
+      "value": "Comentariile publice sunt scrise pe blockchain și vizibile permanent tuturor. Nu include niciodată informații personale."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_comment_title",
+      "value": "Adaugă comentariu"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_connect_button",
       "value": "Conectare"
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_currency_none",
+      "value": "Nicio monedă găsită"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_currency_title",
       "value": "Alege moneda"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_delete_text",
+      "value": "Vei pierde accesul la fondurile tale dacă nu salvezi Fraza ta Secretă."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_delete_title",
+      "value": "Ștergi Portofelul?"
     },
     {
       "_": "types.LangPackString",
@@ -43128,9 +43243,56 @@
       "value": "Mai ai încă {amount} în Câștiguri în Gram"
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Fiecare transfer costă o mică taxă de rețea.\n\nTelegram îți acoperă primele {count} transferuri zilnic.",
+      "key": "lng_wallet_fees_text",
+      "one_value": "Fiecare transfer costă o mică taxă de rețea.\n\nTelegram îți acoperă primul transfer zilnic.",
+      "other_value": "Fiecare transfer costă o mică taxă de rețea.\n\nTelegram îți acoperă primele {count} de transferuri zilnic."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_fees_title",
+      "value": "Taxă rețea"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_first_rate",
+      "value": "1 Gram e acum egal cu {amount}.\nTu poți:"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_first_send_text",
+      "value": "Transferă Gram oricui.\nClic pe {attach} → {money} în conversații."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_first_send_title",
+      "value": "Trimite"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_first_store_text",
+      "value": "Păstrează Gram pe Telegram\n({menu} → {wallet}) sau alte portofele."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_first_store_title",
+      "value": "Stoca"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_first_title",
+      "value": "Primii tăi Gram!"
+    },
+    {
       "_": "types.LangPackString",
       "key": "lng_wallet_first_trade_text",
       "value": "Schimbă Gram în cash sau crypto."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_first_trade_title",
+      "value": "Tranzacționa"
     },
     {
       "_": "types.LangPackString",
@@ -43144,6 +43306,26 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_keys_delete",
+      "value": "Șterge Portofel"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_keys_phrase_about",
+      "value": "Îți poți transfera portofelul pe un alt dispozitiv copiind Fraza ta Secretă."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_keys_show_phrase",
+      "value": "Afișează Fraza Secretă"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_keys_title",
+      "value": "Chei și Backup"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_menu",
       "value": "Bani"
     },
@@ -43151,6 +43333,48 @@
       "_": "types.LangPackString",
       "key": "lng_wallet_menu_currency",
       "value": "Monedă"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_passcode_forgot",
+      "value": "Ai uitat codul de acces?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_phrase_intro_text",
+      "value": "Fraza ta Secretă este cheia de backup a portofelului tău. Păstreaz-o secretă și în siguranță mereu."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_phrase_intro_title",
+      "value": "Frază Secretă"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Notează aceste {count} cuvinte și stochează-le în siguranță. Păstrează-le secrete și securizate mereu.",
+      "key": "lng_wallet_phrase_text",
+      "one_value": "Notează acest cuvânt și stochează-l în siguranță. Păstrează-l secret și securizat mereu.",
+      "other_value": "Notează aceste {count} de cuvinte și stochează-le în siguranță. Păstrează-le secrete și securizate mereu."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_phrase_title",
+      "value": "Fraza Ta Secretă"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_phrase_warn_share",
+      "value": "**Nu partaja niciodată** Fraza ta Secretă cu nimeni."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_phrase_warn_steal",
+      "value": "Dacă cineva obține Fraza ta Secretă, îți **poate fura fondurile**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_phrase_warn_support",
+      "value": "Asistența Telegram **nu îți va solicita niciodată** Fraza ta Secretă."
     },
     {
       "_": "types.LangPackString",
@@ -43171,6 +43395,81 @@
       "_": "types.LangPackString",
       "key": "lng_wallet_profile_how_works",
       "value": "Cum funcționează?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_about",
+      "value": "Alege cum îți protejezi fondurile pe acest dispozitiv."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_create_about",
+      "value": "Această parolă protejează cheia portofelului tău pe acest dispozitiv. Ea nu blochează Telegram decât dacă pornești opțiunea în Setări."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_open",
+      "value": "Nu cere codul de acces"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_open_about",
+      "value": "Oricine cu acces la contul tău de Telegram îți poate cheltuii fondurile."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_open_confirm",
+      "value": "Stochează oricum"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_open_title",
+      "value": "Stochezi fără cod de acces?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_open_warning_nolock",
+      "value": "Oricine obține accesul la acest computer va putea să îți fure fondurile portofelului.\n\nPoți face modificări mai târziu din meniul portofelului Blocare cu Parolă."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_passcode",
+      "value": "Cere codul de acces local"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_passcode_about",
+      "value": "Confirmă toate cheltuielile cu parola ta Telegram."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_passcode_change",
+      "value": "Schimbă codul de acces {arrow}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_passcode_keep",
+      "value": "Cere codul de acces în continuare"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_removal_about",
+      "value": "Alege cum îți păstrezi fondurile protejate după ce elimini parola."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_removal_wallets",
+      "value": "Se aplică portofelelor conturilor {accounts}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_title",
+      "value": "Blocare cu Cod de acces"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_readonly_bar",
+      "value": "Acest dispozitiv poate vedea portofelul dar nu poate trimite din el."
     },
     {
       "_": "types.LangPackString",
@@ -43214,6 +43513,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_rows_hidden_below",
+      "value": "Tranzacțiile sub {amount} Gram sunt ascunse."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_rows_title",
       "value": "Tranzacții"
     },
@@ -43221,6 +43525,26 @@
       "_": "types.LangPackString",
       "key": "lng_wallet_send_amount",
       "value": "Trimite {amount} Gram"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_comment_optional",
+      "value": "Comentariu opțional"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_error_insufficient",
+      "value": "Fonduri Insuficiente."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_error_too_small",
+      "value": "Transferul minim este de {amount} Gram."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_gram_wallet",
+      "value": "Portofel Gram"
     },
     {
       "_": "types.LangPackString",
@@ -43236,6 +43560,11 @@
       "_": "types.LangPackString",
       "key": "lng_wallet_send_user_wallet_title",
       "value": "Portofelul lui {name}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_unavailable",
+      "value": "Bani nu este disponibil pentru acest cont."
     },
     {
       "_": "types.LangPackString",
@@ -43378,5 +43707,5 @@
       "other_value": "Ai plătit {count} de Stele."
     }
   ],
-  "version": 6006370
+  "version": 6006470
 }
