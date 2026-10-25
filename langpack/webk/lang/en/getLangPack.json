@@ -231,6 +231,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AccDescr.WithAdminTag",
+      "value": "with admin tag: %1$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AccDescr.WithMemberTag",
+      "value": "with member tag: %1$s"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AccDescrChannel",
       "value": "Channel"
     },
@@ -1766,6 +1776,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AdminRecentActionsFilters.TagChanges",
+      "value": "Tag Changes"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AdminRecentActionsFilters.UnbannedMembers",
       "value": "Unbanned members"
     },
@@ -2155,6 +2170,11 @@
       "_": "types.LangPackString",
       "key": "AllSubscribers",
       "value": "All Subscribers"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AllViewers",
+      "value": "All viewers"
     },
     {
       "_": "types.LangPackString",
@@ -9963,6 +9983,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "DeletedFromYourContacts",
+      "value": "%s deleted from your contacts"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "DeletedMessage",
       "value": "Deleted message"
     },
@@ -10391,6 +10416,11 @@
       "_": "types.LangPackString",
       "key": "EditAdminGroupDeleteMessages",
       "value": "Delete Messages"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EditAdminManageRanks",
+      "value": "Edit Member Tags"
     },
     {
       "_": "types.LangPackString",
@@ -11038,6 +11068,16 @@
       "_": "types.LangPackString",
       "key": "ExpiredStorySubtitle",
       "value": "From: %s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ExpiredViewsStub",
+      "value": "List of viewers isn't available after **24 hours** of story expiration."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ExpiredViewsStubPremiumDescription",
+      "value": "To unlock viewers’ lists for expired and saved stories, subscribe to **Telegram Premium.**"
     },
     {
       "_": "types.LangPackString",
@@ -12470,6 +12510,17 @@
       "value": "for"
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "key": "HashtagStoriesFound",
+      "one_value": "%d Story found",
+      "other_value": "%d Stories found"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "HashtagStoriesFoundSubtitle",
+      "value": "View stories with %s"
+    },
+    {
       "_": "types.LangPackString",
       "key": "HelpUpgradeChannel",
       "value": "Help upgrade this channel"
@@ -12512,7 +12563,7 @@
     {
       "_": "types.LangPackString",
       "key": "HideReadTimeInfo",
-      "value": "Hide the time when you read messages from people who can’t see your last seen. If you turn this on, their read time will also be hidden from you (unless you are a Premium user).\n\nThis setting does not affect group chats."
+      "value": "Hide the time when you read messages from people who can't see your last seen. If you turn this on, their read time will also be hidden from you (unless you are a Premium user).\n\nThis setting does not affect group chats."
     },
     {
       "_": "types.LangPackString",
@@ -13726,6 +13777,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "LearnMore",
+      "value": "Learn More"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "LeastActiveCommunities",
       "value": "Least active communities"
     },
@@ -14125,6 +14181,12 @@
       "_": "types.LangPackString",
       "key": "LoadingStatsDescription",
       "value": "Please wait a few moments while\nwe generate your stats."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "LocationStories",
+      "one_value": "%d story from this location",
+      "other_value": "%d stories from this location"
     },
     {
       "_": "types.LangPackString",
@@ -14949,6 +15011,111 @@
       "value": "Join Requests"
     },
     {
+      "_": "types.LangPackString",
+      "key": "MemberTag.About",
+      "value": "Add a short tag next to %1$s’s name."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MemberTag.AboutSelf",
+      "value": "Share your role, title, or how you’re known in this group. Your tag is visible to all members."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MemberTag.AddMember",
+      "value": "Add member tag"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MemberTag.AddMine",
+      "value": "Add tag"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MemberTag.EditMember",
+      "value": "Edit member tag"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MemberTag.EditMine",
+      "value": "Edit tag"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MemberTag.EditTitle",
+      "value": "Edit tag"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MemberTag.Info.AddMine",
+      "value": "Add My Tag"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MemberTag.Info.AdminsOnly",
+      "value": "Only admins can change tags in this group."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MemberTag.Info.EditMine",
+      "value": "Edit My Tag"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MemberTag.Info.PreviewAdmin",
+      "value": "Admin Tag"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MemberTag.Info.PreviewMember",
+      "value": "Member Tag"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MemberTag.Info.PreviewOwner",
+      "value": "Owner Tag"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MemberTag.Info.TextAdmin",
+      "value": "This green tag %1$s is **%2$s**’s admin tag in **%3$s**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MemberTag.Info.TextMember",
+      "value": "This grey tag %1$s is **%2$s**’s member tag in **%3$s**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MemberTag.Info.TextOwner",
+      "value": "This purple tag %1$s is **%2$s**’s owner tag in **%3$s**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MemberTag.Info.TitleAdmin",
+      "value": "Admin Tags"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MemberTag.Info.TitleMember",
+      "value": "Member Tags"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MemberTag.Info.TitleOwner",
+      "value": "Owner Tags"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MemberTag.Info.Understood",
+      "value": "Understood"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MemberTag.Label",
+      "value": "Tag"
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "key": "Members",
       "one_value": "%1$d member",
@@ -15270,6 +15437,11 @@
       "_": "types.LangPackString",
       "key": "MultiAccount.ShowNotificationsFromCaption",
       "value": "Turn this off if you want to receive notifications only from the account you are currently using."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MultiAccount.Switched",
+      "value": "Switched to %s"
     },
     {
       "_": "types.LangPackString",
@@ -15631,6 +15803,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "NoContactsViewed",
+      "value": "None of your contacts viewed this story."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "NoEmojiFound",
       "value": "No emoji found"
     },
@@ -15638,6 +15815,11 @@
       "_": "types.LangPackString",
       "key": "NoGIFsFound",
       "value": "No GIFs found"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NoHashtagStoriesTitle",
+      "value": "No stories found"
     },
     {
       "_": "types.LangPackString",
@@ -15663,6 +15845,11 @@
       "_": "types.LangPackString",
       "key": "NoReactions",
       "value": "No reactions"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NoReactionsStub",
+      "value": "No one has reacted to this story so far."
     },
     {
       "_": "types.LangPackString",
@@ -15713,6 +15900,16 @@
       "_": "types.LangPackString",
       "key": "NoUsernameFound",
       "value": "There is no Telegram account with this username."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NoViews",
+      "value": "No views"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NoViewsStub",
+      "value": "No one has viewed this story so far."
     },
     {
       "_": "types.LangPackString",
@@ -16688,6 +16885,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PaymentConnectionFailed",
+      "value": "Unable to reach payment server. Please check your internet connection and try again."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PaymentFailed",
+      "value": "Sorry, the payment was declined."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PaymentInfo.Billing.Title",
       "value": "Enter your billing address"
     },
@@ -16740,6 +16947,11 @@
       "_": "types.LangPackString",
       "key": "PaymentNoShippingMethod",
       "value": "Sorry, it is not possible to deliver to your address."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PaymentPrecheckoutFailed",
+      "value": "Sorry, the payment was cancelled by the bot."
     },
     {
       "_": "types.LangPackString",
@@ -18764,6 +18976,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Proceed",
+      "value": "Proceed"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Profile",
       "value": "Profile"
     },
@@ -19040,6 +19257,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ReactionsTooltip",
+      "value": "Reactions: %1$s"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ReadAllMentions",
       "value": "Read all mentions"
     },
@@ -19093,6 +19315,11 @@
       "_": "types.LangPackString",
       "key": "RecoveryEmailTitle",
       "value": "Recovery Email"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ReduceAnimations",
+      "value": "Reduce Animations"
     },
     {
       "_": "types.LangPackString",
@@ -20480,6 +20707,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ServerErrorViewers",
+      "value": "Information about the viewers wasn't recorded."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ServerErrorViewersFull",
+      "value": "Information about the other viewers wasn't recorded."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ServerErrorViewersTitle",
+      "value": "Oops"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "SessionsInfo",
       "value": "Manage your sessions on all your devices."
     },
@@ -20835,6 +21077,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "SharedPlace",
+      "value": "Place"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "SharedVoiceTab2",
       "value": "Voice"
     },
@@ -20984,6 +21231,21 @@
       "_": "types.LangPackString",
       "key": "SomeReactions",
       "value": "Some reactions"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SortByReactions",
+      "value": "Reactions First"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SortByReposts",
+      "value": "Reposts First"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SortByTime",
+      "value": "Newest First"
     },
     {
       "_": "types.LangPackString",
@@ -21198,6 +21460,12 @@
       "key": "StarGiftConvertButton",
       "one_value": "sell for %d Star",
       "other_value": "sell for %d Stars"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "StarGiftConvertText",
+      "one_value": "Do you want to sell this gift for **%d Star**? This cannot be undone.",
+      "other_value": "Do you want to sell this gift for **%d Stars**? This cannot be undone."
     },
     {
       "_": "types.LangPackString",
@@ -23462,6 +23730,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Stories.Reorder",
+      "value": "Reorder"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Stories.StealthMode.Activated.Subtitle",
       "value": "The creators of stories you viewed in the past **%s** or will view in the next **%s** won't see you in the list of viewers."
     },
@@ -23569,8 +23842,71 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Story.AddedToAlbum",
+      "value": "This story has been added to **%s** album."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.BoostToUnrestrict",
+      "value": "Boost the group %1$s to remove messaging restrictions. Your boosts will help **%2$s** to unlock new features."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "Story.BoostToUnrestrict.Times",
+      "one_value": "**%d** time",
+      "other_value": "**%d** times"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.CommentPlaceholder",
+      "value": "Comment Story..."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.CommentsRestricted",
+      "value": "Comments restricted"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "Story.ContainsEmoji",
+      "one_value": "This story contains emoji from **%d pack**.",
+      "other_value": "This story contains emoji from **%d packs**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.ContainsEmojiFrom",
+      "value": "This story contains emoji from **%s**."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "Story.ContainsStickers",
+      "one_value": "This story contains stickers from **%d pack**.",
+      "other_value": "This story contains stickers from **%d packs**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.ContainsStickersFrom",
+      "value": "This story contains stickers from **%s**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.ContextMenuHD",
+      "value": "Increase Quality"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.ContextMenuSD",
+      "value": "Decrease Quality"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Story.ExpiredToast",
       "value": "This story is no longer available"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.HideTranslation",
+      "value": "Hide Translation"
     },
     {
       "_": "types.LangPackString",
@@ -23599,6 +23935,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Story.PlaybackSpeed",
+      "value": "Playback Speed"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.ReactionsHint.LongTap",
+      "value": "Long tap for more reactions"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.ReactionsHint.RightClick",
+      "value": "Right-click for more reactions"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Story.RemoveFromProfile",
       "value": "Remove from Profile"
     },
@@ -23614,13 +23965,103 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Story.SendReactionAsGroupMessage",
+      "value": "Send reaction as a message"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.SendReactionAsMessage",
+      "value": "Send reaction as a private message"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.SlideToSeek",
+      "value": "Slide left or right to seek"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Story.SoundTooltip",
       "value": "Click here to enable sound."
     },
     {
       "_": "types.LangPackString",
+      "key": "Story.StealthModeConfirm.Text",
+      "value": "If you send a reply or reaction, the creator of the story will also see you in the list of viewers."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.StealthModeConfirm.Title",
+      "value": "You are in Stealth Mode now"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.ToastPremiumSaveToGallery",
+      "value": "Subscribe to [Telegram Premium]() to save other people's unprotected stories."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.ToastQualityHD.Text",
+      "value": "You can lower the quality later for faster downloads."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.ToastQualityHD.Title",
+      "value": "Quality Increased"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.ToastQualitySD.Text",
+      "value": "Stories will now download faster."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.ToastQualitySD.Title",
+      "value": "Quality Lowered"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.ToastStealthModeActiveText",
+      "value": "The creators of stories you will view in the next **%s** won't see you in the viewers' lists."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.ToastStealthModeActiveTitle",
+      "value": "You are in Stealth Mode now"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Story.Tooltip.MessageSent",
       "value": "Message Sent."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.Tooltip.ReactionSent",
+      "value": "Reaction Sent."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.Unsupported",
+      "value": "This story is not supported on Telegram Web yet. Try opening it in another Telegram app."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.UpgradeQuality.Action",
+      "value": "Increase Quality"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.UpgradeQuality.Text",
+      "value": "Subscribe to Premium to view stories in higher resolution."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.UpgradeQuality.Title",
+      "value": "High-Quality Stories"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.ViewGift",
+      "value": "View Gift"
     },
     {
       "_": "types.LangPackString",
@@ -23690,10 +24131,25 @@
       "value": "Only **%s’s** contacts can view this story."
     },
     {
+      "_": "types.LangPackString",
+      "key": "StoryDeleteContact",
+      "value": "Delete Contact"
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "key": "StoryGroupArchived",
       "one_value": "%d story removed from the group profile",
       "other_value": "%d stories removed from the group profile"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryHidFromToast",
+      "value": "%s would not be able to see your stories."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryHideFrom",
+      "value": "Hide My Stories From %s"
     },
     {
       "_": "types.LangPackString",
@@ -23818,6 +24274,16 @@
       "value": "Story Reactions"
     },
     {
+      "_": "types.LangPackString",
+      "key": "StoryReactionsSortDescription",
+      "value": "Choose the order for the list of reactions."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryRepostCommented",
+      "value": "commented"
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "key": "StorySavedChannelTitle",
       "one_value": "%d story posted to the channel profile",
@@ -23902,6 +24368,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "StoryShowBackTo",
+      "value": "Do Not Hide My Stories From %s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryShownBackToToast",
+      "value": "%s would be able to see your stories again."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "StoryStatistics",
       "value": "Story Statistics"
     },
@@ -23919,6 +24395,16 @@
       "_": "types.LangPackString",
       "key": "StoryViewers",
       "value": "Story Viewers"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryViewsPremiumHint",
+      "value": "To unlock viewers’ lists for expired and saved stories, subscribe to **Telegram Premium.**"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryViewsSortDescription",
+      "value": "Choose the order for the list of viewers."
     },
     {
       "_": "types.LangPackString",
@@ -25255,6 +25741,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "UserRestrictionsEditRank",
+      "value": "Edit Own Tags"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UserRestrictionsEditRankSingle",
+      "value": "Edit Own Tag"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "UserRestrictionsEmbedLinks",
       "value": "Embed Links"
     },
@@ -25267,6 +25763,11 @@
       "_": "types.LangPackString",
       "key": "UserRestrictionsNoChangeInfo",
       "value": "can't change Info"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UserRestrictionsNoEditRank",
+      "value": "no own tag"
     },
     {
       "_": "types.LangPackString",
@@ -26164,5 +26665,5 @@
       "other_value": "%1$d messages"
     }
   ],
-  "version": 361204
+  "version": 363216
 }
