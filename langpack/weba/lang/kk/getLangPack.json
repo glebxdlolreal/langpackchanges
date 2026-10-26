@@ -3537,6 +3537,31 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "BotStatusAgent",
+      "value": "Агент"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotStatusAi",
+      "value": "ЖИ"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotStatusApp",
+      "value": "Қолданба"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotStatusGame",
+      "value": "Ойын"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotStatusNonBinary",
+      "value": "Бейбинар"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "BotStop",
       "value": "Ботты бұғаттау"
     },
@@ -5755,6 +5780,46 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "CreateBotCreatedText",
+      "value": "Ботты сіз үшін **{bot}** басқарады."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBotCreatedTitle",
+      "value": "{name} жасалды!"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBotLimitTitle",
+      "value": "Бот шектен асты"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBotName",
+      "value": "Бот атауы"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBotText",
+      "value": "**{bot}** атыңыздан чатбот жасап, басқарғысы келеді."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBotTitle",
+      "value": "Бот жасау"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBotUnsupported",
+      "value": "**{bot}** ботты басқару режімін қолдамайды."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBotUsernameHelp",
+      "value": "Ботыңызға қолданушы атын таңдаңыз. Ол міндетті түрде 'bot' сөзімен аяқталуы тиіс. Мысалы: TetrisBot не tetris_bot."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "CreateGeneralTopicTitle",
       "value": "Тақырып атауын таңдаңыз"
     },
@@ -6584,6 +6649,11 @@
       "_": "types.LangPackString",
       "key": "EditUserNoteHint",
       "value": "Ескертпені тек сіз көре аласыз."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Edited",
+      "value": "өңделген"
     },
     {
       "_": "types.LangPackString",
@@ -10157,6 +10227,21 @@
       "value": "Тіл"
     },
     {
+      "_": "types.LangPackString",
+      "key": "LanguageAlready",
+      "value": "Сіз бұл тіл пакетін қазір қолданудасыз. Тілді кез келген уақытта {settings} ішінде өзгерте аласыз."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LanguageNotFound",
+      "value": "Бұндай тіл пакеті жоқ сияқты."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LanguageTitle",
+      "value": "Тілді ауыстырасыз ба?"
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "key": "Languages",
       "one_value": "{count} тіл",
@@ -11847,6 +11932,11 @@
       "_": "types.LangPackString",
       "key": "NotificationGiftCanTransferAt",
       "value": "Сыйлықты {date} кейін тапсыра аласыз."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NotificationGiftDeleted",
+      "value": "Сыйлық жойылды"
     },
     {
       "_": "types.LangPackString",
@@ -16220,6 +16310,101 @@
       "_": "types.LangPackString",
       "key": "SettingsKeyboard",
       "value": "Пернетақта"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SettingsKeywordsArchiveAndMute",
+      "value": "мұрағат, үнсіз, жаңа чат, спам"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SettingsKeywordsAutoDelete",
+      "value": "авто-жою, өздігінен жойылу, таймер"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SettingsKeywordsBlockedUsers",
+      "value": "бұғаттау, қара тізім, бұғаттан алу, шығару"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SettingsKeywordsChannels",
+      "value": "арна, жариялау"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SettingsKeywordsChatBackground",
+      "value": "тұсқағаз, фон, сурет"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SettingsKeywordsDataStorage",
+      "value": "жады, кәш, желінің жұмсалуы, өздігінен жүктелуі, трафик"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SettingsKeywordsFolders",
+      "value": "бума, сүзгі, қойынды"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SettingsKeywordsGroups",
+      "value": "топ, топтар, супертоп, супертоптар"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SettingsKeywordsLanguage",
+      "value": "тіл, локал, төңірек, аудару, аударма"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SettingsKeywordsPasscode",
+      "value": "құлыптау коды, pin, құлыптау, құлыптау экраны"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SettingsKeywordsPasskeys",
+      "value": "кіру кілті, кіру, биометрия, саусақ ізі"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SettingsKeywordsPerformance",
+      "value": "қуат үнемдеу, батарея, анимация, өнімділік"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SettingsKeywordsPrivateChats",
+      "value": "жеке, жазу, хат жазу, тікелей хат жазу"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SettingsKeywordsSessions",
+      "value": "құрылғы, сеанс, шығу, аяқтау"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SettingsKeywordsStickers",
+      "value": "стикер, эмоджи, gif, маска, реакция"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SettingsKeywordsTextSize",
+      "value": "қаріп, мәтін өлшемі, үлкен, кіші"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SettingsKeywordsTheme",
+      "value": "кейіп, түс, айқындау, түнгі режім"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SettingsKeywordsTimeFormat",
+      "value": "сағат, 24 сағат, 12 сағат, am, pm"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SettingsKeywordsTwoStep",
+      "value": "екі сатылы растау, бұлтты құпиясөз, қауіпсіздік"
     },
     {
       "_": "types.LangPackString",
@@ -20616,6 +20801,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletReceiveAddressCopied",
+      "value": "Мекенжай көшірілді"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletReceiveBuy",
       "value": "Ақша не криптоға сатып алу"
     },
@@ -20631,8 +20821,23 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletReceivePeerNote",
+      "value": "GRAM-ды мына мекенжайға жіберіңіз не QR кодты скандаңыз."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletReceiveShowQr",
+      "value": "QR-ымды көрсету"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletReceiveTitle",
       "value": "Толтыру"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletRecipientGramWallet",
+      "value": "Gram әмияны"
     },
     {
       "_": "types.LangPackString",
@@ -20831,6 +21036,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletSendPending",
+      "value": "Аударым жіберілген болуы мүмкін. Ол өңделіп жатқанда оны қайта жібермеңіз."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletSendPendingError",
       "value": "Алдыңғы аударымыңыз әлі орындалуда. Бір минуттан кейін қайталап көріңіз."
     },
@@ -20846,6 +21056,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletSendRecipientWallet",
+      "value": "{name} әмияны"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletSendSuccess",
       "value": "Gram жіберілді"
     },
@@ -20858,6 +21073,11 @@
       "_": "types.LangPackString",
       "key": "WalletSendTitle",
       "value": "Gram жіберу"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendUnlinkedWallet",
+      "value": "Ажыратылған әмиян"
     },
     {
       "_": "types.LangPackString",
@@ -20988,6 +21208,16 @@
       "_": "types.LangPackString",
       "key": "WalletTransactionKeyChange",
       "value": "Кілттің жаңаруы"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionMovedFromProfile",
+      "value": "Бейіннен ауыстырылды"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionMovedToProfile",
+      "value": "Бейінге ауыстырылды"
     },
     {
       "_": "types.LangPackString",
@@ -21252,5 +21482,5 @@
       "value": "Атыңыз"
     }
   ],
-  "version": 375509
+  "version": 376118
 }
