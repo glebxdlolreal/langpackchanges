@@ -11096,6 +11096,17 @@
       "value": "در پاسخ به"
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "key": "HashtagStoriesFound",
+      "one_value": "⁨%d⁩ استوری پیدا شد",
+      "other_value": "⁨%d⁩ استوری پیدا شد"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "HashtagStoriesFoundSubtitle",
+      "value": "مشاهده استوری‌ها با ⁨%s⁩"
+    },
+    {
       "_": "types.LangPackString",
       "key": "HelpUpgradeChannel",
       "value": "به ارتقاء این کانال کمک کنید"
@@ -12713,6 +12724,12 @@
       "value": "لطفاً تا محاسبه آمارتان،\nچند لحظه منتظر بمانید."
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "key": "LocationStories",
+      "one_value": "⁨%d⁩ استوری از این موقعیت مکانی",
+      "other_value": "⁨%d⁩ استوری از این موقعیت مکانی"
+    },
+    {
       "_": "types.LangPackString",
       "key": "LocationUpdatedJustNow",
       "value": "آخرین به‌روزرسانی همین الان"
@@ -13969,6 +13986,11 @@
       "_": "types.LangPackString",
       "key": "NoGIFsFound",
       "value": "گیفی پیدا نشد"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NoHashtagStoriesTitle",
+      "value": "استوری پیدا نشد"
     },
     {
       "_": "types.LangPackString",
@@ -17070,6 +17092,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Proceed",
+      "value": "ادامه"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Profile",
       "value": "پروفایل"
     },
@@ -19013,6 +19040,11 @@
       "_": "types.LangPackString",
       "key": "SharedMusicTab2",
       "value": "موزیک‌ها"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SharedPlace",
+      "value": "مکان‌"
     },
     {
       "_": "types.LangPackString",
@@ -21401,9 +21433,40 @@
       "value": "پست در پروفایل"
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "key": "Story.BoostToUnrestrict.Times",
+      "one_value": "**⁨%d⁩** بار",
+      "other_value": "**⁨%d⁩** بار"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.CommentPlaceholder",
+      "value": "برای استوری دیدگاه بگذارید..."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.CommentsRestricted",
+      "value": "دیدگاه‌ها محدودند"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.ContextMenuHD",
+      "value": "افزایش کیفیت"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.ContextMenuSD",
+      "value": "کاهش کیفیت"
+    },
+    {
       "_": "types.LangPackString",
       "key": "Story.ExpiredToast",
       "value": "این استوری دیگر در دسترس نیست"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.HideTranslation",
+      "value": "پنهان کردن ترجمه"
     },
     {
       "_": "types.LangPackString",
@@ -21432,6 +21495,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Story.PlaybackSpeed",
+      "value": "سرعت پخش"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Story.RemoveFromProfile",
       "value": "حذف از پروفایل"
     },
@@ -21447,13 +21515,63 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Story.SendReactionAsGroupMessage",
+      "value": "ارسال واکنش به صورت پیام"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.SendReactionAsMessage",
+      "value": "ارسال واکنش به صورت پیام خصوصی"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.SlideToSeek",
+      "value": "برای پیمایش، به چپ یا راست بکشید"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Story.SoundTooltip",
       "value": "برای فعال کردن صدا، اینجا کلیک کنید."
     },
     {
       "_": "types.LangPackString",
+      "key": "Story.StealthModeConfirm.Title",
+      "value": "شما هم اکنون در حالت پنهان هستید"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.ToastQualityHD.Title",
+      "value": "کیفیت افزایش یافت"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.ToastQualitySD.Title",
+      "value": "کیفیت کاهش یافت"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.ToastStealthModeActiveTitle",
+      "value": "شما هم اکنون در حالت پنهان هستید"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Story.Tooltip.MessageSent",
       "value": "پیام ارسال شد."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.Tooltip.ReactionSent",
+      "value": "واکنش ارسال شد."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.UpgradeQuality.Action",
+      "value": "افزایش کیفیت"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.UpgradeQuality.Title",
+      "value": "استوری‌های باکیفیت"
     },
     {
       "_": "types.LangPackString",
@@ -23840,5 +23958,5 @@
       "other_value": "⁨%1$d⁩ پیام"
     }
   ],
-  "version": 356944
+  "version": 364435
 }
