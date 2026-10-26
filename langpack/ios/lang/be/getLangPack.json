@@ -2179,6 +2179,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Attachment.Money",
+      "value": "Грошы"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Attachment.MyAlbums",
       "value": "Мае альбомы"
     },
@@ -10397,7 +10402,7 @@
     },
     {
       "_": "types.LangPackStringPluralized",
-      "few_value": "%d чалавек",
+      "few_value": "%d чалавекі",
       "key": "Chat.CallMessage.GroupCallParticipantCount",
       "many_value": "%d чалавек",
       "one_value": "%d чалавек",
@@ -11501,6 +11506,16 @@
       "_": "types.LangPackString",
       "key": "Chat.Giveaway.Toast.Participating",
       "value": "Вы ўдзельнічаеце ў гэтым розыгрышы."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.GramTransfer.Received",
+      "value": "атрымана"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.GramTransfer.Sent",
+      "value": "адпраўлена"
     },
     {
       "_": "types.LangPackString",
@@ -35853,6 +35868,26 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Notification.GramTransfer",
+      "value": "%1$@ адправіў(-ла) вам %2$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.GramTransfer.UnknownUser",
+      "value": "НЕВЯДОМЫ КАРЫСТАЛЬНІК"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.GramTransferUnknown",
+      "value": "Нехта адправіў вам %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.GramTransferYou",
+      "value": "Вы адправілі %2$@ карыстальніку %1$@"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Notification.GroupChangedWallpaper",
       "value": "Задаць новы фон у суполцы"
     },
@@ -40037,6 +40072,11 @@
       "_": "types.LangPackString",
       "key": "PasscodeSettings.UnlockWithTouchId",
       "value": "Разблакіроўка Touch ID"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PasscodeSettings.WalletConfirmWithPasscode",
+      "value": "Пацвярджэнне кодам блакіроўкі"
     },
     {
       "_": "types.LangPackString",
@@ -46476,6 +46516,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "QrStudio.Menu.DisableTimerInfo",
+      "value": "Бясплатна назаўсёды"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Menu.Restore",
+      "value": "Аднавіць плату за паведамленні"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "QuickReplies.EmptyState.AddButton",
       "value": "Дадаць хуткі адказ"
     },
@@ -47582,6 +47632,11 @@
       "_": "types.LangPackString",
       "key": "RichText.PlaceholderBody",
       "value": "Увядзіце нешта...\n"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.PlaceholderCaption",
+      "value": "Дадаць подпіс..."
     },
     {
       "_": "types.LangPackString",
@@ -60239,6 +60294,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Backup.Disable",
+      "value": "Адключыць"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.DisableText",
+      "value": "Каб аднавіць сродкі, вам давядзецца ўвесці сакрэтную фразу."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.DisableTitle",
+      "value": "Адключыць рэзервовае капіяванне\n"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Backup.DisabledText",
       "value": "Цяпер кашалёк можна аднавіць толькі з дапамогай сакрэтнай фразы."
     },
@@ -60246,6 +60316,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.Backup.RequiredBalanceText",
       "value": "Вам патрэбна %@, каб змяніць сакрэтную фразу."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.UpdatePhrase",
+      "value": "Змяніць сакрэтную фразу\n"
     },
     {
       "_": "types.LangPackString",
@@ -60305,7 +60380,7 @@
     {
       "_": "types.LangPackString",
       "key": "Wallet.Info.InstantTransfersText",
-      "value": "Адпраўляйце Grams у любы чат гэтак жа проста, як звычайны відарыс."
+      "value": "Адпраўляйце Gram у любы чат\nгэтак жа проста, як фота."
     },
     {
       "_": "types.LangPackString",
@@ -60316,6 +60391,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.Info.NeverSharePhrase",
       "value": "**Нікому не паведамляйце** сваю сакрэтную фразу."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Info.PhraseSupportWarning",
+      "value": "Служба падтрымкі Telegram **ніколі не запытвае** сакрэтную фразу."
     },
     {
       "_": "types.LangPackString",
@@ -60364,8 +60444,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.OptionalMessage",
+      "value": "Неабавязковае паведамленне"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.PasscodeFaceId",
       "value": "Пароль і Face ID"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Receive.BuyShort",
+      "value": "Купіць за грошы або крыптавалюту"
     },
     {
       "_": "types.LangPackString",
@@ -60374,8 +60464,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Receive.ShowQR",
+      "value": "Паказаць QR-код"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Receive.Text",
+      "value": "Абагульце свой адрас або гэты\nQR-код, каб атрымліваць GRAM."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Recipient.LinkedAddress",
+      "value": "Гэты адрас у блокчэйне TON звязаны з профілем %@ у Telegram."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Recipient.NoResultsText",
       "value": "Атрымальнік «%@» не знойдзены.\nПаспрабуйце іншае імя або адрас."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Recipient.Placeholder",
+      "value": "Імя або адрас кашалька"
     },
     {
       "_": "types.LangPackString",
@@ -60389,8 +60499,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Send.AddComment",
+      "value": "Дадаць каментарый"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Send.Balance",
       "value": "Баланс: %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Send.DepositFunds",
+      "value": "Дадаць грошы"
     },
     {
       "_": "types.LangPackString",
@@ -60399,13 +60519,38 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Send.PublicComment",
+      "value": "Зрабіць публічным"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Send.RecipientWallet",
+      "value": "Кашалёк %@"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Send.Title",
       "value": "Адправіць грошы карыстальніку"
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.SendMoney",
+      "value": "Адправіць грошы"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Settings.DeleteAnyway",
+      "value": "Усё роўна выдаліць\n"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Settings.DeleteWallet",
       "value": "Выдаліць кашалёк"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Settings.DeleteWalletText",
+      "value": "Вы страціце доступ да сваіх сродкаў, калі не захавалі вашу сакрэтную фразу."
     },
     {
       "_": "types.LangPackString",
@@ -60469,8 +60614,38 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Transaction.Address",
+      "value": "Адрас"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.Date",
+      "value": "Дата"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.Fee",
+      "value": "Камісія"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.FreeFee",
+      "value": "Няма (аплачваецца Telegram)"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Transaction.OpenWallet",
       "value": "Перайсці да маіх грошай\n"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.Recipient",
+      "value": "Атрымальнік"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.WhatIsGram",
+      "value": "Што такое Gram?"
     },
     {
       "_": "types.LangPackString",
@@ -60489,8 +60664,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.UnlinkedAddress",
+      "value": "З гэтым адрасам не звязаны ніводны ўліковы запіс Telegram."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.ViewInExplorer",
       "value": "Паказаць у аглядальніку блокчэйна"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.WaltBalance",
+      "value": "Вы таксама маеце сродкі ў Walt."
     },
     {
       "_": "types.LangPackString",
@@ -62264,5 +62449,5 @@
       "value": "Вы ўвялі памылковы код бяспекі."
     }
   ],
-  "version": 22241715
+  "version": 22389094
 }

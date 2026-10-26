@@ -1804,6 +1804,26 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_action_gram_transfer_received",
+      "value": "{user} адправіў(-ла) вам {amount}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gram_transfer_received_tag",
+      "value": "атрымана"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gram_transfer_sent",
+      "value": "Вы адправілі {amount} карыстальніку {user}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gram_transfer_sent_tag",
+      "value": "адпраўлена"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_action_group_call_finished",
       "value": "Жывы эфір скончаны ({duration})"
     },
@@ -10677,7 +10697,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_confcall_link_revoked_text",
-      "value": "Створана новая спасылка.\n"
+      "value": "Новая спасылка створана."
     },
     {
       "_": "types.LangPackString",
@@ -16860,7 +16880,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_formatting_button_separate_line",
-      "value": "Кнопка на асобным радку\n"
+      "value": "Радок кнопак"
     },
     {
       "_": "types.LangPackString",
@@ -26255,6 +26275,11 @@
       "_": "types.LangPackString",
       "key": "lng_no_mic_permission",
       "value": "Telegram патрэбны доступ да вашага мікрафона, каб вы маглі тэлефанаваць і запісваць галасавыя паведамленні."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_no_paid_token_toast_expired",
+      "value": "Тэрмін дзеяння кода скончыўся, плата вернута."
     },
     {
       "_": "types.LangPackString",
@@ -43355,6 +43380,36 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_about_chain_text",
+      "value": "Усе трансакцыі запісваюцца, звесткі аб іх публічныя."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_about_fees_title",
+      "value": "Ніякай камісіі"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_about_instant_text",
+      "value": "Адпраўляйце Grams у любы чат гэтак жа проста, як звычайны відарыс."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_about_instant_title",
+      "value": "Хутка адпраўляйце грошы"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_disable_text",
+      "value": "Каб аднавіць сродкі, вам давядзецца ўвесці сакрэтную фразу."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_disable_title",
+      "value": "Адключыць рэзервовае капіяванне"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_backup_disabled_text",
       "value": "Цяпер кашалёк можна аднавіць толькі з дапамогай сакрэтнай фразы."
     },
@@ -43375,8 +43430,73 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_backup_update_check",
+      "value": "Змяніць сакрэтную фразу"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_buy_button",
+      "value": "Купіць за грошы або крыптавалюту"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_comment_make_public",
+      "value": "Зрабіць публічным"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_comment_title",
+      "value": "Дадаць каментарый"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_delete_text",
+      "value": "Вы страціце доступ да сваіх сродкаў, калі не захавалі вашу сакрэтную фразу."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_delete_title",
+      "value": "Выдаліць кашалёк?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_address",
+      "value": "Адрас"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_date",
+      "value": "Дата"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_fee",
+      "value": "Камісія"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_fee_free",
+      "value": "Няма (аплачваецца Telegram)"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_details_open_wallet",
       "value": "Перайсці да маіх грошай"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_recipient",
+      "value": "Атрымальнік"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_how_subtitle",
+      "value": "Вашы грошы належаць вам — і нікому іншаму."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_how_title",
+      "value": "Як гэта працуе"
     },
     {
       "_": "types.LangPackString",
@@ -43390,8 +43510,81 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_keys_title",
+      "value": "Ключы і рэзервовая копія"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_menu",
+      "value": "Грошы"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_menu_currency",
+      "value": "Валюта"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Запішыце гэтыя {count} словы і надзейна захавайце. Трымайце іх у сакрэце і бяспецы ўвесь час.",
+      "key": "lng_wallet_phrase_text",
+      "many_value": "Запішыце гэтыя {count} слоў і надзейна захавайце. Трымайце іх у сакрэце і бяспецы ўвесь час.",
+      "one_value": "Запішыце гэтае {count} слова і надзейна захавайце. Трымайце яго ў сакрэце і бяспецы ўвесь час.",
+      "other_value": "Запішыце гэтыя {count} слова і надзейна захавайце. Трымайце іх у сакрэце і бяспецы ўвесь час."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_phrase_warn_share",
       "value": "**Нікому не паведамляйце** сваю сакрэтную фразу."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_phrase_warn_support",
+      "value": "Служба падтрымкі Telegram **ніколі не запытвае** сакрэтную фразу."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_profile_send_money",
+      "value": "Адправіць грошы"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_receive_about",
+      "value": "Абагульце свой адрас або QR-код, каб атрымліваць GRAM."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_balance",
+      "value": "Баланс: {amount} Gram"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_comment_optional",
+      "value": "Неабавязковы каментарый"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_title",
+      "value": "Адправіць Gram"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_user_title",
+      "value": "Адправіць грошы карыстальніку"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_user_wallet_about",
+      "value": "Гэты адрас у блокчэйне TON звязаны з профілем {name} у Telegram."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_user_wallet_title",
+      "value": "Кашалёк {name}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_walt_existing",
+      "value": "Вы таксама маеце сродкі ў Walt."
     },
     {
       "_": "types.LangPackString",
@@ -43539,5 +43732,5 @@
       "other_value": "Вы заплацілі {count} зоркі."
     }
   ],
-  "version": 5929654
+  "version": 6012614
 }
