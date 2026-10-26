@@ -20771,6 +20771,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "CreateBot.UsernameEndingFinalDelimiter",
+      "value": " of "
+    },
+    {
+      "_": "types.LangPackString",
       "key": "CreateBot.UsernameHint",
       "value": "Moet op %1$@ eindigen – of %2$@ met [Telegram Premium]()."
     },
@@ -20797,13 +20802,39 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "CreateBot.UsernameStatus.Long",
+      "value": "Een gebruikersnaam mag niet langer zijn dan 32 tekens."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "CreateBot.UsernameStatus.Number",
       "value": "Een gebruikersnaam mag niet met een cijfer beginnen."
     },
     {
       "_": "types.LangPackString",
+      "key": "CreateBot.UsernameStatus.PremiumRequired",
+      "value": "Voor gebruikersnamen die op %@ eindigen, heb je Telegram Premium nodig."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "CreateBot.UsernameStatus.Short",
       "value": "De minimumlengte voor een gebruikersnaam is 5 tekens."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBot.UsernameStatus.Subscribe",
+      "value": "Abonneren >"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBot.UsernameStatus.SuffixLimit",
+      "value": "Je kunt maximaal %1$@ hebben die op %2$@ eindigen voor al je bots."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "CreateBot.UsernameStatus.SuffixLimitCount",
+      "one_value": "%d gebruikersnaam",
+      "other_value": "%d gebruikersnamen"
     },
     {
       "_": "types.LangPackString",
@@ -59128,6 +59159,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Apps.Title",
+      "value": "Verbonden apps"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.CancelDisabling",
+      "value": "Uitschakeling annuleren"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.CancelDisablingText",
+      "value": "Je geheime zin wordt niet vernieuwd."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Backup.Disable",
       "value": "Uitschakelen"
     },
@@ -59145,6 +59191,26 @@
       "_": "types.LangPackString",
       "key": "Wallet.Backup.DisableTitle",
       "value": "Back-up uitschakelen?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.DisabledText",
+      "value": "Je geheime zin is nu de enige manier om je wallet te herstellen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.DisabledTitle",
+      "value": "Back-up uitgeschakeld"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.EnabledText",
+      "value": "Je sleutels worden nu gecodeerd opgeslagen in de datacenters van Telegram."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.EnabledTitle",
+      "value": "Back-up ingeschakeld"
     },
     {
       "_": "types.LangPackString",
@@ -59208,6 +59274,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Import.Action",
+      "value": "Importeren"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Import.InvalidPhraseText",
+      "value": "Controleer de woordvolgorde.\n\nAlleen een geheime zin die binnen Telegram is aangemaakt, kan hier worden ingevoerd."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Import.InvalidPhraseTitle",
+      "value": "Ongeldige geheime zin"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Import.InvalidWord",
       "value": "Ongeldig woord"
     },
@@ -59220,6 +59301,16 @@
       "_": "types.LangPackString",
       "key": "Wallet.Import.TestTitle",
       "value": "Een korte test"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Import.Text",
+      "value": "Voer de geheime zin van 12 of 24 woorden in die bij je andere wallet hoort."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Import.Title",
+      "value": "Wallet importeren"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -59389,6 +59480,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.PreviousWalletsBalance",
+      "value": "Je hebt nog %@ in oude wallets"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.PublicBalanceNotice",
       "value": "Je saldo is openbaar omdat de blockchain transparant is."
     },
@@ -59421,6 +59517,16 @@
       "_": "types.LangPackString",
       "key": "Wallet.Recipient.LinkedAddress",
       "value": "Dit TON-blockchainadres is gekoppeld aan %@ op Telegram."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Recipient.NoRecentRecipients",
+      "value": "Recente ontvangers\nzullen hier verschijnen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Recipient.NoResults",
+      "value": "Geen resultaten"
     },
     {
       "_": "types.LangPackString",
@@ -59539,6 +59645,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Settings.BackupDisabledInfo",
+      "value": "Je gecodeerde sleutel wordt in drie delen gesplitst en wordt op drie verschillende continenten opgeslagen.\n\nAlleen op jouw apparaten kan het weer in elkaar worden gezet, dus niemand anders — ook Telegram niet — heeft toegang tot je sleutel."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Settings.BackupEnabledInfo",
       "value": "Je gecodeerde sleutel is in drie delen gesplitst en wordt op drie verschillende continenten opgeslagen.\n\nAlleen op jouw apparaten kan het weer in elkaar worden gezet, dus niemand anders — ook Telegram niet — heeft toegang tot je sleutel."
     },
@@ -59584,6 +59695,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Settings.LastUsed",
+      "value": "\n%1$@ — voor het laatst gebruikt: %2$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Settings.PreviousWallets",
+      "value": "Eerdere wallets"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Settings.PreviousWalletsInfo",
+      "value": "Wallets die je eerder op dit apparaat hebt gebruikt. Bewaar hun geheime zin goed — ze worden verwijderd als je uitlogt of de app opnieuw installeert."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Settings.ReplaceWalletTitle",
       "value": "Hoe wil je de oude wallet vervangen?"
     },
@@ -59591,6 +59717,26 @@
       "_": "types.LangPackString",
       "key": "Wallet.Settings.SecretPhraseInfo",
       "value": "Je kunt je wallet naar een ander apparaat overzetten door je geheime zin van 12 of 24 woorden te kopiëren."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Settings.WalletCreatedText",
+      "value": "Je nieuwe wallet is klaar voor gebruik."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Settings.WalletCreatedTitle",
+      "value": "Wallet aangemaakt"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Settings.WalletImportedText",
+      "value": "Je wallet is hersteld dankzij je geheime zin."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Settings.WalletImportedTitle",
+      "value": "Wallet geïmporteerd"
     },
     {
       "_": "types.LangPackString",
@@ -61450,5 +61596,5 @@
       "value": "Je hebt een ongeldige beveiligingscode ingevoerd."
     }
   ],
-  "version": 22382612
+  "version": 22382901
 }
