@@ -500,6 +500,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ActionManagedBotCreated",
+      "value": "{from} opprettet {bot}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ActionManagedBotCreatedYou",
+      "value": "Du opprettet {bot}"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ActionMessageChannelDisabled",
       "value": "{peer} aksepterer ikke lenger private meldinger"
     },
@@ -3186,6 +3196,31 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "BotStatusAgent",
+      "value": "Agent"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotStatusAi",
+      "value": "AI"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotStatusApp",
+      "value": "App"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotStatusGame",
+      "value": "Spill"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotStatusNonBinary",
+      "value": "Ikke-binær"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "BotStop",
       "value": "Blokker robot"
     },
@@ -5161,8 +5196,84 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "CreateBotCreatedText",
+      "value": "**{bot}** vil administrere denne roboten for deg."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBotCreatedTitle",
+      "value": "{name} opprettet!"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "CreateBotLimitText",
+      "one_value": "Du kan opprette inntil {count} robot, eller slette dine nåværende via @BotFather",
+      "other_value": "Du kan opprette inntil {count} roboter, eller slette dine nåværende via @BotFather"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBotLimitTextPremium",
+      "value": "Abonner på **Premium** for å opprette inntil {premiumLimit} roboter, eller slett en av dine {limit} roboter via @BotFather"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBotLimitTitle",
+      "value": "Robotgrense overskredet"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBotName",
+      "value": "Navn på robot"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBotText",
+      "value": "{bot} ønsker å opprette og administrere en chatbot på dine vegne."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "CreateBotTitle",
       "value": "Opprett robot"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBotUnsupported",
+      "value": "**{bot}** støtter ikke robotadministrasjonsmodus."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBotUsername",
+      "value": "Robotens brukernavn"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBotUsernameChecking",
+      "value": "Sjekker..."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBotUsernameHelp",
+      "value": "Velg et brukernavn for roboten din. Det må ende på \"bot\". For eksempel: TetrisBot eller tetris_bot."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBotUsernameHint",
+      "value": "Må ende på \"bot\", eller {suffixes} med {premium}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBotUsernamePremium",
+      "value": "Brukernavn som slutter på \"{suffix}\" krever Telegram Premium. {link}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBotUsernameSubscribe",
+      "value": "Abonner"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBotUsernameSuffix",
+      "value": "Beklager, brukernavnet må ende med \"bot\"."
     },
     {
       "_": "types.LangPackString",
@@ -6168,6 +6279,36 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ErrorAddressCityInvalid",
+      "value": "Stedet du oppga er ikke gyldig"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorAddressCountryInvalid",
+      "value": "Landet du oppga er ikke gyldig"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorAddressPostcodeInvalid",
+      "value": "Postnummeret du oppga er ikke gyldig"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorAddressStateInvalid",
+      "value": "Fylket du oppga er ikke gyldig"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorAdminRankEmojiNotAllowed",
+      "value": "En administratortagg kan ikke inneholde emojier"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorAdminRankInvalid",
+      "value": "Den angitte administratortaggen er ugyldig"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ErrorAdminsTooMuch",
       "value": "Det er for mange administratorer"
     },
@@ -6238,6 +6379,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ErrorFreshSessionLogout",
+      "value": "Du kan ikke logge ut andre økter hvis det har gått mindre enn 24 timer siden du logget på gjeldende økt"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ErrorIncorrectPassword",
       "value": "Ugyldig passord, vennligst prøv igjen"
     },
@@ -6262,10 +6408,20 @@
       "value": "Invitasjonens hash-verdi er ugyldig"
     },
     {
+      "_": "types.LangPackString",
+      "key": "ErrorLinkNotModified",
+      "value": "Denne samtalen er allerede knyttet til kanalen"
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "key": "ErrorMessageTooLong",
       "one_value": "Den oppgitte meldingen er for lang. Vennligst fjern {count} tegn.",
       "other_value": "Den oppgitte meldingen er for lang. Vennligst fjern {count} tegn."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorMessageTooLongText",
+      "value": "Meldingen er for lang"
     },
     {
       "_": "types.LangPackString",
@@ -6324,6 +6480,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ErrorReqInfoEmailInvalid",
+      "value": "E-posten du oppga er ikke gyldig"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorReqInfoNameInvalid",
+      "value": "Navnet du oppga er ikke gyldig"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorReqInfoPhoneInvalid",
+      "value": "Telefonnummeret du oppga er ikke gyldig"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ErrorRichMessageTableTooWide",
       "value": "En tabell i meldingen har for mange kolonner. Maksimum er {count}."
     },
@@ -6353,6 +6524,11 @@
       "_": "types.LangPackString",
       "key": "ErrorSendRestrictedStickersAll",
       "value": "Beklager, det er ikke tillatt å sende klistremerker i denne gruppen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorServiceWorkerDisabled",
+      "value": "Service Worker er deaktivert. Strømming av media støttes kanskje ikke. Prøv å laste inn siden på nytt uten å holde <Shift>-tasten nede"
     },
     {
       "_": "types.LangPackString",
@@ -6401,6 +6577,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ErrorUserChannelsTooMuch",
+      "value": "En av brukerne du prøvde å legge til er allerede i for mange kanaler/supergrupper"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ErrorUserKicked",
       "value": "Denne brukeren ble utestengt fra denne supergruppen/kanalen"
     },
@@ -6413,6 +6594,11 @@
       "_": "types.LangPackString",
       "key": "ErrorUserPrivacyRestricted",
       "value": "Brukerens personverninnstillinger lar deg ikke gjøre dette"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorUsersTooMuch",
+      "value": "Maksimalt antall brukere er overskredet"
     },
     {
       "_": "types.LangPackString",
@@ -7775,6 +7961,21 @@
       "_": "types.LangPackString",
       "key": "GiftInfoDate",
       "value": "Dato"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftInfoDelete",
+      "value": "Slett gave"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftInfoDeleteDescription",
+      "value": "Vil du slette denne gaven?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftInfoDeleteDescription2",
+      "value": "Den vil forsvinne fra profilen din og kan ikke gjenopprettes."
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -9182,6 +9383,31 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "LanguageAlert",
+      "value": "Du er i ferd med å ta i bruk en språkpakke ({language}) som er {percent}% fullført. \n\nDette vil oversette grensesnittet. Du kan foreslå endringer på {link}.\n\nDu kan endre språket ditt tilbake når som helst i {settings}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LanguageAlready",
+      "value": "Du bruker allerede denne språkpakken. Du kan når som helst endre språket ditt tilbake i {settings}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LanguageApply",
+      "value": "Bruk språk"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LanguageCustomAlert",
+      "value": "Du er i ferd med å ta i bruk en egendefinert språkpakke ({language}) som er {percent}% fullført. \n\nDette vil oversette grensesnittet. Du kan foreslå endringer på {link}.\n\nDu kan endre språket ditt tilbake når som helst i {settings}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LanguageLoadFailed",
+      "value": "Kunne ikke laste inn denne språkpakken. Vennligst prøv igjen."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "LanguageNotFound",
       "value": "Beklager, denne språkpakken eksisterer ikke."
     },
@@ -9189,6 +9415,16 @@
       "_": "types.LangPackString",
       "key": "LanguageTitle",
       "value": "Endre språk?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LanguageTranslateLink",
+      "value": "oversettelsesplattformen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LanguageUnknownCustomAlert",
+      "value": "Dessverre inneholder ikke denne språkpakken ({language}) data for Telegram Web A. Du kan bidra til denne språkpakken ved å bruke {link}."
     },
     {
       "_": "types.LangPackString",
@@ -10737,6 +10973,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "NotificationGiftDeleted",
+      "value": "Gave slettet"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "NotificationGiftIsSale",
       "value": "{gift} er nå til salgs!"
     },
@@ -11249,7 +11490,7 @@
     {
       "_": "types.LangPackString",
       "key": "PaymentIncorrectCity",
-      "value": "Feil by"
+      "value": "Feil sted"
     },
     {
       "_": "types.LangPackString",
@@ -12638,6 +12879,11 @@
       "key": "ProfileBirthdayValueAge",
       "one_value": "{date} ({age} år gammel)",
       "other_value": "{date} ({age} år gammel)"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ProfileBotManagedBy",
+      "value": "Opprettet og administrert av {bot}"
     },
     {
       "_": "types.LangPackString",
@@ -14485,7 +14731,7 @@
     {
       "_": "types.LangPackString",
       "key": "SettingsAboutBio",
-      "value": "Skriv noe om deg selv, som alder, yrke eller by.\nEksempel: 23 år gammel designer fra Skien"
+      "value": "Skriv noe om deg selv, som alder, yrke eller sted.\nEksempel: 23 år gammel designer fra Skien"
     },
     {
       "_": "types.LangPackString",
@@ -18046,6 +18292,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletLogoutKeyRotation",
+      "value": "En nøkkelendring for lommeboken din er ikke bekreftet ennå. Den nye nøkkelen lagres kun på denne enheten. Hvis du logger ut nå og endringen går igjennom, mister du tilgangen til lommeboken."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletLogoutWarning",
       "value": "De hemmelige frasene som er lagret på denne enheten for lommeboken din, vil bli slettet når du logger ut. Sørg for at hver setning har en sky-sikkerhetskopi eller en skriftlig kopi først."
     },
@@ -18117,6 +18368,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletReceiveAddressCopied",
+      "value": "Adresse kopiert"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletReceiveBuy",
       "value": "Kjøp med kontanter eller krypto"
     },
@@ -18124,6 +18380,21 @@
       "_": "types.LangPackString",
       "key": "WalletReceiveCopyHint",
       "value": "Klikk for å kopiere adressen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletReceivePeerNote",
+      "value": "Send Gram til denne adressen eller skann denne QR-koden."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletReceivePeerShowQr",
+      "value": "Vis QR-kode"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletReceiveShowQr",
+      "value": "Vis min QR-kode"
     },
     {
       "_": "types.LangPackString",
@@ -18177,6 +18448,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletSendAmountButton",
+      "value": "Send {amount}"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletSendInsufficientFunds",
       "value": "Utilstrekkelige midler."
     },
@@ -18187,8 +18463,23 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletSendPending",
+      "value": "Overføringen kan ha blitt sendt. Ikke send den igjen mens statusen kontrolleres."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletSendRecipient",
       "value": "Adresse eller navn"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendRecipientWallet",
+      "value": "{name} sin lommebok"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendSwitchCurrency",
+      "value": "Bytt valuta"
     },
     {
       "_": "types.LangPackString",
@@ -18244,6 +18535,16 @@
       "_": "types.LangPackString",
       "key": "WalletTransactionIncomingCollectible",
       "value": "Innkommende samleobjekt"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionMovedFromProfile",
+      "value": "Flyttet fra profil"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionMovedToProfile",
+      "value": "Flyttet til profil"
     },
     {
       "_": "types.LangPackString",
@@ -18418,5 +18719,5 @@
       "value": "Navnet ditt"
     }
   ],
-  "version": 375843
+  "version": 375976
 }
