@@ -188,6 +188,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AccDescr.WithAdminTag",
+      "value": "z etykietą administratora: %1$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AccDescr.WithMemberTag",
+      "value": "z etykietą członka: %1$s"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AccDescrChannel",
       "value": "Kanał"
     },
@@ -1713,6 +1723,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AdminRecentActionsFilters.TagChanges",
+      "value": "Zmiany etykiet"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AdminRecentActionsFilters.UnbannedMembers",
       "value": "Odblokowani członkowie"
     },
@@ -2106,6 +2121,11 @@
       "_": "types.LangPackString",
       "key": "AllSubscribers",
       "value": "Wszyscy subskrybenci"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AllViewers",
+      "value": "Wszyscy oglądający"
     },
     {
       "_": "types.LangPackString",
@@ -10019,6 +10039,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "DeletedFromYourContacts",
+      "value": "Użytkownik %s został usunięty z twoich kontaktów"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "DeletedMessage",
       "value": "Usunięta wiadomość"
     },
@@ -10444,6 +10469,11 @@
       "_": "types.LangPackString",
       "key": "EditAdminGroupDeleteMessages",
       "value": "Usuwać wiadomości"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EditAdminManageRanks",
+      "value": "Edytować etykiety członków"
     },
     {
       "_": "types.LangPackString",
@@ -11090,6 +11120,16 @@
       "_": "types.LangPackString",
       "key": "ExpiredStorySubtitle",
       "value": "Od: %s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ExpiredViewsStub",
+      "value": "Lista oglądających staje się niedostępna **24 godziny** po wygaśnięciu relacji."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ExpiredViewsStubPremiumDescription",
+      "value": "Aby odblokować przyszłe listy oglądających dla wygasłych i opublikowanych relacji, zasubskrybuj **Telegram Premium.**"
     },
     {
       "_": "types.LangPackString",
@@ -12552,6 +12592,19 @@
       "value": "dla"
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Znaleziono %d relacje",
+      "key": "HashtagStoriesFound",
+      "many_value": "Znaleziono %d relacji",
+      "one_value": "Znaleziono %d relację",
+      "other_value": "Znaleziono %d relacji"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "HashtagStoriesFoundSubtitle",
+      "value": "Obejrzyj relacje z %s"
+    },
+    {
       "_": "types.LangPackString",
       "key": "HelpUpgradeChannel",
       "value": "Pomóż ulepszyć ten kanał"
@@ -13823,6 +13876,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "LearnMore",
+      "value": "Czytaj więcej"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "LeastActiveCommunities",
       "value": "Najmniej aktywne społeczności"
     },
@@ -14201,6 +14259,14 @@
       "_": "types.LangPackString",
       "key": "LoadingStatsDescription",
       "value": "Poczekaj chwilę,\naż wygenerujemy twoje statystyki."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "%d relacje z tej lokalizacji",
+      "key": "LocationStories",
+      "many_value": "%d relacji z tej lokalizacji",
+      "one_value": "%d relacja z tej lokalizacji",
+      "other_value": "%d relacji z tej lokalizacji"
     },
     {
       "_": "types.LangPackString",
@@ -14924,6 +14990,111 @@
       "value": "Prośby o dołączenie"
     },
     {
+      "_": "types.LangPackString",
+      "key": "MemberTag.About",
+      "value": "Dodaj krótką etykietę obok nazwy %1$s."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MemberTag.AboutSelf",
+      "value": "Podaj swoją funkcję, stanowisko lub pseudonim, pod którym znają cię w tej grupie. Twoja etykieta jest widoczny dla wszystkich członków."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MemberTag.AddMember",
+      "value": "Dodaj etykietę członka"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MemberTag.AddMine",
+      "value": "Dodaj etykietę"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MemberTag.EditMember",
+      "value": "Edytuj etykietę członka"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MemberTag.EditMine",
+      "value": "Edytuj etykietę"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MemberTag.EditTitle",
+      "value": "Edytuj etykietę"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MemberTag.Info.AddMine",
+      "value": "Dodaj moją etykietę"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MemberTag.Info.AdminsOnly",
+      "value": "Tylko administratorzy mogą zmienić etykiety w tej grupie."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MemberTag.Info.EditMine",
+      "value": "Edytuj moją etykietę"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MemberTag.Info.PreviewAdmin",
+      "value": "Etykieta administratora"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MemberTag.Info.PreviewMember",
+      "value": "Etykieta członka"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MemberTag.Info.PreviewOwner",
+      "value": "Etykieta właściciela"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MemberTag.Info.TextAdmin",
+      "value": "Ta zielona etykieta %1$s jest etykietą administratora **%2$s** w **%3$s**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MemberTag.Info.TextMember",
+      "value": "Ta szara etykieta %1$s jest etykietą członka **%2$s** w **%3$s**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MemberTag.Info.TextOwner",
+      "value": "Ta fioletowa etykieta %1$s jest etykietą właściciela **%2$s** w **%3$s**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MemberTag.Info.TitleAdmin",
+      "value": "Etykieta administratora"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MemberTag.Info.TitleMember",
+      "value": "Etykieta członka"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MemberTag.Info.TitleOwner",
+      "value": "Etykieta właściciela"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MemberTag.Info.Understood",
+      "value": "Rozumiem"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MemberTag.Label",
+      "value": "Etykieta"
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "few_value": "%1$d członków",
       "key": "Members",
@@ -15261,6 +15432,11 @@
       "_": "types.LangPackString",
       "key": "MultiAccount.ShowNotificationsFromCaption",
       "value": "Wyłącz tę opcję, jeśli chcesz otrzymywać powiadomienia tylko z konta, którego aktualnie używasz."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MultiAccount.Switched",
+      "value": "Przełącz na %s"
     },
     {
       "_": "types.LangPackString",
@@ -15628,6 +15804,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "NoContactsViewed",
+      "value": "Żaden z twoich kontaktów nie wyświetlił tej relacji."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "NoEmojiFound",
       "value": "Nie znaleziono emoji"
     },
@@ -15635,6 +15816,11 @@
       "_": "types.LangPackString",
       "key": "NoGIFsFound",
       "value": "Nie znaleziono GIFów"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NoHashtagStoriesTitle",
+      "value": "Nie znaleziono relacji"
     },
     {
       "_": "types.LangPackString",
@@ -15660,6 +15846,11 @@
       "_": "types.LangPackString",
       "key": "NoReactions",
       "value": "Brak reakcji"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NoReactionsStub",
+      "value": "Do tej pory nikt nie zareagował na tę relację."
     },
     {
       "_": "types.LangPackString",
@@ -15710,6 +15901,16 @@
       "_": "types.LangPackString",
       "key": "NoUsernameFound",
       "value": "Nie ma konta Telegrama z taką nazwą użytkownika."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NoViews",
+      "value": "Brak wyświetleń"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NoViewsStub",
+      "value": "Do tej pory nikt nie obejrzał tej relacji."
     },
     {
       "_": "types.LangPackString",
@@ -16699,6 +16900,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PaymentConnectionFailed",
+      "value": "Nie można nawiązać połączenia z serwerem płatności. Sprawdź połączenie z internetem i spróbuj ponownie."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PaymentFailed",
+      "value": "Płatność została odrzucona."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PaymentInfo.Billing.Title",
       "value": "Wprowadź adres rozliczeniowy"
     },
@@ -16751,6 +16962,11 @@
       "_": "types.LangPackString",
       "key": "PaymentNoShippingMethod",
       "value": "Nie ma możliwości dostawy na twój adres."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PaymentPrecheckoutFailed",
+      "value": "Płatność została anulowana przez bota."
     },
     {
       "_": "types.LangPackString",
@@ -18807,6 +19023,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Proceed",
+      "value": "Kontynuuj"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Profile",
       "value": "Profil"
     },
@@ -19082,6 +19303,11 @@
       "_": "types.LangPackString",
       "key": "ReactionsPerStory",
       "value": "Reakcje na relację"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ReactionsTooltip",
+      "value": "Reakcje: %1$s"
     },
     {
       "_": "types.LangPackString",
@@ -20525,6 +20751,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ServerErrorViewers",
+      "value": "Informacje o oglądających nie zostały zapisane."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ServerErrorViewersFull",
+      "value": "Informacje o innych oglądających nie zostały zapisane."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ServerErrorViewersTitle",
+      "value": "Ups"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "SessionsInfo",
       "value": "Zarządzaj sesjami na wszystkich swoich urządzeniach."
     },
@@ -20875,6 +21116,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "SharedPlace",
+      "value": "Miejsce"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "SharedVoiceTab2",
       "value": "Głosowe"
     },
@@ -21028,6 +21274,21 @@
       "_": "types.LangPackString",
       "key": "SomeReactions",
       "value": "Niektóre reakcje"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SortByReactions",
+      "value": "Najpierw reakcje"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SortByReposts",
+      "value": "Najpierw opubl. ponow."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SortByTime",
+      "value": "Najpierw nowe"
     },
     {
       "_": "types.LangPackString",
@@ -22533,8 +22794,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Stars.Subscription.FeeForPeriod",
+      "value": "%1$s / %2$s"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Stars.Subscription.Fulfill",
       "value": "SUBSKRYBUJ KANAŁ"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Stars.Subscription.PerPeriod",
+      "value": "na %s"
     },
     {
       "_": "types.LangPackString",
@@ -23366,6 +23637,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Stories.Reorder",
+      "value": "Zmień kolejność"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Stories.StealthMode.Activated.Subtitle",
       "value": "Twórcy relacji oglądanych w ciągu ostatnich **%s** lub najbliższych **%s**, nie zobaczą cię na liście oglądających."
     },
@@ -23472,8 +23748,77 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Story.AddedToAlbum",
+      "value": "Ta relacja została dodana do albumu **%s**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.BoostToUnrestrict",
+      "value": "Ulepsz grupę %1$s, aby usunąć ograniczenia wiadomości. Twoje ulepszenia pomogą **%2$s** odblokować nowe funkcje."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "**%d** razy",
+      "key": "Story.BoostToUnrestrict.Times",
+      "many_value": "**%d** razy",
+      "one_value": "**%d** raz",
+      "other_value": "**%d** raza"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.CommentPlaceholder",
+      "value": "Skomentuj relację…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.CommentsRestricted",
+      "value": "Komentarze ograniczone"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Ta relacja zawiera emoji z **%d pakietów**.",
+      "key": "Story.ContainsEmoji",
+      "many_value": "Ta relacja zawiera emoji z **%d pakietów**.",
+      "one_value": "Ta relacja zawiera emoji z **%d pakietu**.",
+      "other_value": "Ta relacja zawiera emoji z **%d pakietu**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.ContainsEmojiFrom",
+      "value": "Ta relacja zawiera emoji z pakietu **%s**."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Ta relacja zawiera naklejki z **%d zestawów**.",
+      "key": "Story.ContainsStickers",
+      "many_value": "Ta relacja zawiera naklejki z **%d zestawów**.",
+      "one_value": "Ta relacja zawiera naklejki z **%d zestawu**.",
+      "other_value": "Ta relacja zawiera naklejki z **%d zestawu**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.ContainsStickersFrom",
+      "value": "Ta relacja zawiera naklejki z pakietu **%s**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.ContextMenuHD",
+      "value": "Zwiększ jakość"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.ContextMenuSD",
+      "value": "Zmniejsz jakość"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Story.ExpiredToast",
       "value": "Ta relacja już nie jest dostępna"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.HideTranslation",
+      "value": "Ukryj tłumaczenie"
     },
     {
       "_": "types.LangPackString",
@@ -23502,6 +23847,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Story.PlaybackSpeed",
+      "value": "Prędkość odtwarzania"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.ReactionsHint.LongTap",
+      "value": "Przytrzymaj dłużej, aby wyświetlić więcej reakcji"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.ReactionsHint.RightClick",
+      "value": "Kliknij prawym przyciskiem myszy, aby wyświetlić więcej reakcji"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Story.RemoveFromProfile",
       "value": "Usuń z profilu"
     },
@@ -23517,13 +23877,103 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Story.SendReactionAsGroupMessage",
+      "value": "Wyślij reakcję jako wiadomość"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.SendReactionAsMessage",
+      "value": "Wyślij reakcję jako prywatną wiadomość"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.SlideToSeek",
+      "value": "Przesuń w lewo lub w prawo, aby wyszukać"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Story.SoundTooltip",
       "value": "Kliknij tutaj, aby włączyć dźwięk."
     },
     {
       "_": "types.LangPackString",
+      "key": "Story.StealthModeConfirm.Text",
+      "value": "Jeśli wyślesz odpowiedź lub reakcję, twórca relacji zobaczy cię na liście oglądających."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.StealthModeConfirm.Title",
+      "value": "Jesteś teraz w trybie ukrycia"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.ToastPremiumSaveToGallery",
+      "value": "Subskrybuj [Telegram Premium](), aby zapisywać niezabezpieczone relacje innych osób."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.ToastQualityHD.Text",
+      "value": "Możesz później obniżyć jakość, aby przyspieszyć pobieranie."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.ToastQualityHD.Title",
+      "value": "Jakość zwiększona"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.ToastQualitySD.Text",
+      "value": "Relacje będą teraz pobierane szybciej."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.ToastQualitySD.Title",
+      "value": "Jakość zmniejszona"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.ToastStealthModeActiveText",
+      "value": "Twórcy relacji oglądanych w ciągu najbliższych **%s**, nie zobaczą cię na liście oglądających."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.ToastStealthModeActiveTitle",
+      "value": "Jesteś teraz w trybie ukrycia"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Story.Tooltip.MessageSent",
       "value": "Wiadomość wysłana."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.Tooltip.ReactionSent",
+      "value": "Reakcja wysłana."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.Unsupported",
+      "value": "Ta relacja nie jest jeszcze obsługiwana przez Telegram Web. Spróbuj otworzyć ją w innej aplikacji Telegram."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.UpgradeQuality.Action",
+      "value": "Zwiększ jakość"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.UpgradeQuality.Text",
+      "value": "Subskrybuj Premium, aby oglądać relacje w wyższej rozdzielczości."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.UpgradeQuality.Title",
+      "value": "Relacje w wysokiej jakości"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.ViewGift",
+      "value": "Pokaż prezent"
     },
     {
       "_": "types.LangPackString",
@@ -23597,12 +24047,27 @@
       "value": "Tylko kontakty użytkownika **%s** mogą oglądać tę relację."
     },
     {
+      "_": "types.LangPackString",
+      "key": "StoryDeleteContact",
+      "value": "Usuń kontakt"
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "few_value": "%d relacje usunięte z profilu grupy",
       "key": "StoryGroupArchived",
       "many_value": "%d relacji usuniętych z profilu grupy",
       "one_value": "%d relacja usunięta z profilu grupy",
       "other_value": "%d relacji usuniętej z profilu grupy"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryHidFromToast",
+      "value": "%s nie może ponownie zobaczyć twoich relacji."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryHideFrom",
+      "value": "Ukryj moje relacje przed %s"
     },
     {
       "_": "types.LangPackString",
@@ -23726,6 +24191,16 @@
       "value": "Reakcje relacji"
     },
     {
+      "_": "types.LangPackString",
+      "key": "StoryReactionsSortDescription",
+      "value": "Wybierz kolejność dla listy reakcji."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryRepostCommented",
+      "value": "skomentowana"
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "few_value": "%d relacje opublikowane na profilu kanału",
       "key": "StorySavedChannelTitle",
@@ -23806,6 +24281,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "StoryShowBackTo",
+      "value": "Nie ukrywaj moich relacji przed %s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryShownBackToToast",
+      "value": "%s może ponownie zobaczyć twoje relacje."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "StoryStatistics",
       "value": "Statystyki relacji"
     },
@@ -23823,6 +24308,16 @@
       "_": "types.LangPackString",
       "key": "StoryViewers",
       "value": "Oglądający relację"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryViewsPremiumHint",
+      "value": "Aby odblokować przyszłe listy oglądających dla wygasłych i opublikowanych relacji, zasubskrybuj **Telegram Premium.**"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryViewsSortDescription",
+      "value": "Wybierz kolejność dla listy oglądających."
     },
     {
       "_": "types.LangPackString",
@@ -25145,6 +25640,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "UserRestrictionsEditRank",
+      "value": "Edytować własne etykiety"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UserRestrictionsEditRankSingle",
+      "value": "Edytować własne etykiety"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "UserRestrictionsEmbedLinks",
       "value": "Wstawiać linki"
     },
@@ -25157,6 +25662,11 @@
       "_": "types.LangPackString",
       "key": "UserRestrictionsNoChangeInfo",
       "value": "nie może zmieniać informacji"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UserRestrictionsNoEditRank",
+      "value": "bez własnej etykiety"
     },
     {
       "_": "types.LangPackString",
@@ -26066,5 +26576,5 @@
       "other_value": "%1$d wiadomości"
     }
   ],
-  "version": 362951
+  "version": 364077
 }
