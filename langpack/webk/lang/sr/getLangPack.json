@@ -232,6 +232,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AccDescr.WithAdminTag",
+      "value": "са ознаком администратора: %1$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AccDescr.WithMemberTag",
+      "value": "са ознаком члана: %1$s"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AccDescrChannel",
       "value": "Канал"
     },
@@ -1772,6 +1782,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AdminRecentActionsFilters.TagChanges",
+      "value": "Мењање ознака"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AdminRecentActionsFilters.UnbannedMembers",
       "value": "Чланови са уклоњеном забраном"
     },
@@ -2163,6 +2178,11 @@
       "_": "types.LangPackString",
       "key": "AllSubscribers",
       "value": "Сви пратиоци"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AllViewers",
+      "value": "Сви гледаоци"
     },
     {
       "_": "types.LangPackString",
@@ -10508,6 +10528,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "EditAdminManageRanks",
+      "value": "Уређивање ознака чланова"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "EditAdminPinMessages",
       "value": "Качење порука"
     },
@@ -11154,6 +11179,16 @@
       "_": "types.LangPackString",
       "key": "ExpiredStorySubtitle",
       "value": "Од: %s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ExpiredViewsStub",
+      "value": "Листа гледалаца нестаје **24 часа** након истека приче."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ExpiredViewsStubPremiumDescription",
+      "value": "Претплатите се на **Telegram Premium** да откључате листе будућих гледалаца за истекле и објављене приче."
     },
     {
       "_": "types.LangPackString",
@@ -12624,6 +12659,18 @@
       "_": "types.LangPackString",
       "key": "GuestChatFor",
       "value": "за"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Пронађене %d приче",
+      "key": "HashtagStoriesFound",
+      "one_value": "Пронађена %d прича",
+      "other_value": "Пронађено %d прича"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "HashtagStoriesFoundSubtitle",
+      "value": "Погледај приче са %s"
     },
     {
       "_": "types.LangPackString",
@@ -14300,6 +14347,13 @@
       "value": "Сачекајте неколико тренутака\nдок учитавамо статистику."
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Објављене %d приче с ове локације",
+      "key": "LocationStories",
+      "one_value": "Објављена %d прича с ове локације",
+      "other_value": "Објављено %d прича с ове локације"
+    },
+    {
       "_": "types.LangPackString",
       "key": "LocationUpdatedJustNow",
       "value": "управо ажурирано"
@@ -15125,8 +15179,103 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "MemberTag.About",
+      "value": "Додајте кратку ознаку поред имена корисника %1$s."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MemberTag.AboutSelf",
+      "value": "Наведите своју улогу, звање или надимак по ком сте познати у овој групи. Ваша ознака је видљива свим члановима."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MemberTag.AddMember",
+      "value": "Додај ознаку члана"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MemberTag.AddMine",
+      "value": "Додај ознаку"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MemberTag.EditMember",
+      "value": "Уреди ознаку члана"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MemberTag.EditMine",
+      "value": "Уреди ознаку"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MemberTag.Info.AddMine",
+      "value": "Додај моју ознаку"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MemberTag.Info.AdminsOnly",
+      "value": "У овој групи само администратори могу да додељују ознаке чланова."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MemberTag.Info.EditMine",
+      "value": "Уреди моју ознаку"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MemberTag.Info.PreviewAdmin",
+      "value": "Ознака админа"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "MemberTag.Info.PreviewMember",
       "value": "Ознака члана"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MemberTag.Info.PreviewOwner",
+      "value": "Ознака власника"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MemberTag.Info.TextAdmin",
+      "value": "Ова зелена ознака %1$s је ознака администратора **%2$s** у групи **%3$s**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MemberTag.Info.TextMember",
+      "value": "Ова сива ознака %1$s је ознака члана **%2$s** у групи **%3$s**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MemberTag.Info.TextOwner",
+      "value": "Ова љубичаста ознака %1$s је ознака власника **%2$s** у групи **%3$s**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MemberTag.Info.TitleAdmin",
+      "value": "Ознаке администратора"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MemberTag.Info.TitleMember",
+      "value": "Ознаке чланова"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MemberTag.Info.TitleOwner",
+      "value": "Ознаке власника"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MemberTag.Info.Understood",
+      "value": "У реду"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MemberTag.Label",
+      "value": "Ознака"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -15822,6 +15971,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "NoContactsViewed",
+      "value": "Ниједан ваш контакт није видео ову причу."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "NoEmojiFound",
       "value": "Није пронађен ниједан емоџи"
     },
@@ -15829,6 +15983,11 @@
       "_": "types.LangPackString",
       "key": "NoGIFsFound",
       "value": "Нема GIF-ова"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NoHashtagStoriesTitle",
+      "value": "Није пронађена ниједна прича"
     },
     {
       "_": "types.LangPackString",
@@ -15854,6 +16013,11 @@
       "_": "types.LangPackString",
       "key": "NoReactions",
       "value": "Без реакција"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NoReactionsStub",
+      "value": "Још нико није реаговао на ову причу."
     },
     {
       "_": "types.LangPackString",
@@ -15904,6 +16068,16 @@
       "_": "types.LangPackString",
       "key": "NoUsernameFound",
       "value": "Нема Telegram налога с овим корисничким именом."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NoViews",
+      "value": "Нема прегледа"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NoViewsStub",
+      "value": "Још нико није видео ову причу."
     },
     {
       "_": "types.LangPackString",
@@ -16896,6 +17070,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PaymentConnectionFailed",
+      "value": "Није могуће приступити серверу за плаћање. Проверите интернет везу и покушајте поново."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PaymentFailed",
+      "value": "Уплата је одбијена."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PaymentInfo.Billing.Title",
       "value": "Унесите адресу плаћања"
     },
@@ -16948,6 +17132,11 @@
       "_": "types.LangPackString",
       "key": "PaymentNoShippingMethod",
       "value": "Није могућа достава на вашу адресу."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PaymentPrecheckoutFailed",
+      "value": "Бот је сторнирао уплату."
     },
     {
       "_": "types.LangPackString",
@@ -18993,6 +19182,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Proceed",
+      "value": "Настави"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Profile",
       "value": "Профил"
     },
@@ -19267,6 +19461,11 @@
       "_": "types.LangPackString",
       "key": "ReactionsPerStory",
       "value": "Реакције по причи"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ReactionsTooltip",
+      "value": "Реакције: %1$s"
     },
     {
       "_": "types.LangPackString",
@@ -20720,6 +20919,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ServerErrorViewersFull",
+      "value": "Подаци о осталим гледаоцима нису забележени."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ServerErrorViewersTitle",
+      "value": "Грешка"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "SessionsInfo",
       "value": "Управљајте сесијама на свим својим уређајима."
     },
@@ -21075,6 +21284,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "SharedPlace",
+      "value": "Место"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "SharedVoiceTab2",
       "value": "Гласовне"
     },
@@ -21226,6 +21440,21 @@
       "_": "types.LangPackString",
       "key": "SomeReactions",
       "value": "Неке реакције"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SortByReactions",
+      "value": "Прво реакције"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SortByReposts",
+      "value": "Прво поновне објаве"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SortByTime",
+      "value": "Прво најновије"
     },
     {
       "_": "types.LangPackString",
@@ -23744,6 +23973,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Stories.Reorder",
+      "value": "Промени редослед"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Stories.StealthMode.Activated.Subtitle",
       "value": "Аутори прича неће видети ваше прегледе у последњих **%s** и наредних **%s**."
     },
@@ -23853,8 +24087,74 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Story.AddedToAlbum",
+      "value": "Ова прича је додата у албум **%s**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.BoostToUnrestrict",
+      "value": "Појачајте групу %1$s да бисте уклонили ограничења за слање порука. Ваша појачања ће помоћи групи **%2$s** да откључа нове функције."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "**%d** пута",
+      "key": "Story.BoostToUnrestrict.Times",
+      "one_value": "**%d** пут",
+      "other_value": "**%d** пута"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.CommentPlaceholder",
+      "value": "Коментаришите причу..."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.CommentsRestricted",
+      "value": "Коментари ограничени"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Ова прича садржи емоџије из **%d пакета**.",
+      "key": "Story.ContainsEmoji",
+      "one_value": "Ова прича садржи емоџије из **%d пакета**.",
+      "other_value": "Ова прича садржи емоџије из **%d пакета**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.ContainsEmojiFrom",
+      "value": "Ова прича садржи емоџије из **%s**."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Ова прича садржи налепнице из **%d пакета**.",
+      "key": "Story.ContainsStickers",
+      "one_value": "Ова прича садржи налепнице из **%d пакета**.",
+      "other_value": "Ова прича садржи налепнице из **%d пакета**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.ContainsStickersFrom",
+      "value": "Ова прича садржи налепнице из пакета **%s**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.ContextMenuHD",
+      "value": "Повећај квалитет"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.ContextMenuSD",
+      "value": "Смањи квалитет"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Story.ExpiredToast",
       "value": "Ова прича више није доступна"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.HideTranslation",
+      "value": "Сакриј превод"
     },
     {
       "_": "types.LangPackString",
@@ -23883,6 +24183,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Story.PlaybackSpeed",
+      "value": "Брзина репродукције"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.ReactionsHint.LongTap",
+      "value": "Додирните дуго за више реакција"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Story.RemoveFromProfile",
       "value": "Уклони с профила"
     },
@@ -23898,13 +24208,83 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Story.SendReactionAsGroupMessage",
+      "value": "Пошаљите реакцију као поруку"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.SendReactionAsMessage",
+      "value": "Пошаљите реакцију као приватну поруку"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.SlideToSeek",
+      "value": "Превуците налево или надесно да премотате"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Story.SoundTooltip",
       "value": "Кликните овде да омогућите звук."
     },
     {
       "_": "types.LangPackString",
+      "key": "Story.StealthModeConfirm.Text",
+      "value": "Ако пошаљете одговор или реакцију, аутор приче ће вас видети на листи гледалаца."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.ToastPremiumSaveToGallery",
+      "value": "Претплатите се на [Telegram Premium]() да сачувате туђе приче које нису заштићене."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.ToastQualityHD.Text",
+      "value": "Касније можете смањити квалитет ради бржег преузимања."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.ToastQualityHD.Title",
+      "value": "Квалитет повећан"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.ToastQualitySD.Text",
+      "value": "Приче ће се сада брже преузимати."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.ToastQualitySD.Title",
+      "value": "Квалитет смањен"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.ToastStealthModeActiveTitle",
+      "value": "Сада сте у невидљивом режиму"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Story.Tooltip.MessageSent",
       "value": "Порука послата."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.UpgradeQuality.Action",
+      "value": "Повећај квалитет"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.UpgradeQuality.Text",
+      "value": "Претплатите се на Premium да бисте гледали приче у вишој резолуцији."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.UpgradeQuality.Title",
+      "value": "Приче високог квалитета"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.ViewGift",
+      "value": "Погледај поклон"
     },
     {
       "_": "types.LangPackString",
@@ -23986,6 +24366,16 @@
       "key": "StoryGroupArchived",
       "one_value": "Уклоњена %d прича са профила групе",
       "other_value": "Уклоњено %d прича са профила групе"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryHidFromToast",
+      "value": "%s неће моћи да види ваше приче."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryHideFrom",
+      "value": "Сакриј моје приче од %s"
     },
     {
       "_": "types.LangPackString",
@@ -24112,6 +24502,16 @@
       "value": "Реакције на причу"
     },
     {
+      "_": "types.LangPackString",
+      "key": "StoryReactionsSortDescription",
+      "value": "Изаберите редослед за списак реакција."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryRepostCommented",
+      "value": "коментарисано"
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "few_value": "Објављене %d приче на профилу канала",
       "key": "StorySavedChannelTitle",
@@ -24199,6 +24599,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "StoryShowBackTo",
+      "value": "Не сакривај моје приче од %s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryShownBackToToast",
+      "value": "%s ће поново моћи да види ваше приче."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "StoryStatistics",
       "value": "Статистика приче"
     },
@@ -24216,6 +24626,16 @@
       "_": "types.LangPackString",
       "key": "StoryViewers",
       "value": "Гледаоци приче"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryViewsPremiumHint",
+      "value": "Претплатите се на **Telegram Premium** да откључате листе будућих гледалаца за истекле и објављене приче."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryViewsSortDescription",
+      "value": "Изаберите редослед листе гледалаца."
     },
     {
       "_": "types.LangPackString",
@@ -25560,6 +25980,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "UserRestrictionsEditRankSingle",
+      "value": "Уређивање сопствених ознака"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "UserRestrictionsEmbedLinks",
       "value": "Уграђивање веза"
     },
@@ -26479,5 +26904,5 @@
       "other_value": "%1$d порука"
     }
   ],
-  "version": 363451
+  "version": 363923
 }
