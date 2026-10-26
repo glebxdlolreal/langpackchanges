@@ -550,6 +550,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ActionManagedBotCreated",
+      "value": "{from} 已建立 {bot}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ActionManagedBotCreatedYou",
+      "value": "您已建立 {bot}"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ActionMessageChannelDisabled",
       "value": "{peer} 已停用私訊"
     },
@@ -3495,6 +3505,31 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "BotStatusAgent",
+      "value": "Agent"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotStatusAi",
+      "value": "AI"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotStatusApp",
+      "value": "App"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotStatusGame",
+      "value": "遊戲"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotStatusNonBinary",
+      "value": "非二元"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "BotStop",
       "value": "封鎖機器人"
     },
@@ -5690,6 +5725,86 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "CreateBotCreatedText",
+      "value": "**{bot}** 將為您管理此機器人。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBotCreatedTitle",
+      "value": "{name} 已建立！"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "CreateBotLimitText",
+      "other_value": "您最多可以建立 {count} 個機器人，或透過 @BotFather 刪除您現有的機器人"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBotLimitTextPremium",
+      "value": "訂閱 **Premium** 即可建立最多 {premiumLimit} 個機器人，或透過 @BotFather 刪除您現有的 {limit} 個機器人其中之一"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBotLimitTitle",
+      "value": "機器人數量已超出限制"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBotName",
+      "value": "機器人名稱"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBotText",
+      "value": "{bot} 想要代表您建立並管理一個聊天機器人。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBotTitle",
+      "value": "建立機器人"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBotUnsupported",
+      "value": "**{bot}** 不支援機器人管理模式。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBotUsername",
+      "value": "機器人用戶名稱"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBotUsernameChecking",
+      "value": "檢查中…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBotUsernameHelp",
+      "value": "為您的機器人選擇用戶名稱。用戶名稱必須以「bot」結尾。例如：TetrisBot 或 tetris_bot。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBotUsernameHint",
+      "value": "名稱必須以「bot」結尾——或訂閱{premium}以使用「{suffixes}」結尾。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBotUsernamePremium",
+      "value": "以「{suffix}」結尾的用戶名稱需訂閱 Telegram Premium。{link}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBotUsernameSubscribe",
+      "value": "訂閱"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBotUsernameSuffix",
+      "value": "抱歉，用戶名稱必須以「bot」結尾。"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "CreateGeneralTopicTitle",
       "value": "選擇話題名稱"
     },
@@ -6512,6 +6627,11 @@
       "_": "types.LangPackString",
       "key": "EditUserNoteHint",
       "value": "備註只有您自己看得見。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Edited",
+      "value": "已編輯"
     },
     {
       "_": "types.LangPackString",
@@ -8579,6 +8699,21 @@
       "value": "日期"
     },
     {
+      "_": "types.LangPackString",
+      "key": "GiftInfoDelete",
+      "value": "刪除禮物"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftInfoDeleteDescription",
+      "value": "您要刪除此禮物嗎？"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftInfoDeleteDescription2",
+      "value": "它將從您的個人資料中消失，且無法復原。"
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "key": "GiftInfoDescription",
       "other_value": "您可以將此禮物加入到您的個人資料上或將其轉換為 **{amount}** 顆星星。"
@@ -10022,6 +10157,51 @@
       "_": "types.LangPackString",
       "key": "Language",
       "value": "語言"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LanguageAlert",
+      "value": "您即將套用語言包 ({language})，其中翻譯已完成 {percent}%。\n\n這將翻譯整個程式介面。您可以透過{link}對翻譯提出修正建議。\n\n您也可以隨時在「{settings}」中恢復您原本的語言。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LanguageAlready",
+      "value": "您已經在使用此語言包。您可以隨時在「{settings}」中變更語言。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LanguageApply",
+      "value": "套用語言"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LanguageCustomAlert",
+      "value": "您即將套用自訂語言包 ({language})，其中翻譯已完成 {percent}%。\n\n這將翻譯整個程式介面。您可以透過{link}對翻譯提出修正建議。\n\n您也可以隨時在「{settings}」中恢復您原本的語言。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LanguageLoadFailed",
+      "value": "無法載入此語言包。請再試一次。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LanguageNotFound",
+      "value": "抱歉，此語言包不存在。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LanguageTitle",
+      "value": "要變更語言嗎？"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LanguageTranslateLink",
+      "value": "翻譯平台"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LanguageUnknownCustomAlert",
+      "value": "很遺憾，這個自訂語言包（{language}）不包含 Telegram Web A 的資料。您可以透過{link}為此語言包做出貢獻。"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -11687,6 +11867,11 @@
       "_": "types.LangPackString",
       "key": "NotificationGiftCanTransferAt",
       "value": "您可以於 {date} 之後轉讓此禮物。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NotificationGiftDeleted",
+      "value": "禮物已刪除"
     },
     {
       "_": "types.LangPackString",
@@ -13701,7 +13886,7 @@
     {
       "_": "types.LangPackString",
       "key": "PrivacySettingsLastSeen",
-      "value": "最後上線 & 在線上"
+      "value": "最後上線"
     },
     {
       "_": "types.LangPackString",
@@ -13792,6 +13977,11 @@
       "_": "types.LangPackStringPluralized",
       "key": "ProfileBirthdayValueAge",
       "other_value": "{date}（{age} 歲）"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ProfileBotManagedBy",
+      "value": "由 {bot} 建立和管理。"
     },
     {
       "_": "types.LangPackString",
@@ -16025,6 +16215,116 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "SettingsKeywordsArchiveAndMute",
+      "value": "封存、靜音、新聊天、垃圾訊息"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SettingsKeywordsAutoDelete",
+      "value": "自動刪除、閱後即焚、ttl、計時器"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SettingsKeywordsBlockedUsers",
+      "value": "封鎖、黑名單、解除封鎖"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SettingsKeywordsChannels",
+      "value": "頻道、廣播訊息"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SettingsKeywordsChatBackground",
+      "value": "壁紙、背景、圖片"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SettingsKeywordsDataStorage",
+      "value": "儲存空間、快取、數據用量、自動下載、流量"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SettingsKeywordsFolders",
+      "value": "資料夾、篩選器、頁籤"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SettingsKeywordsGroups",
+      "value": "群組、超級群組"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SettingsKeywordsLanguage",
+      "value": "語言、本地化、翻譯"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SettingsKeywordsLastSeen",
+      "value": "線上、最後上線、狀態"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SettingsKeywordsLogOut",
+      "value": "登出、離開"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SettingsKeywordsNotifications",
+      "value": "關閉通知、聲音、警報"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SettingsKeywordsPasscode",
+      "value": "解鎖碼、PIN 碼、鎖定、螢幕鎖定"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SettingsKeywordsPasskeys",
+      "value": "passkey、webauthn、生物辨識、指紋"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SettingsKeywordsPerformance",
+      "value": "省電、電池、動畫、性能"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SettingsKeywordsPrivateChats",
+      "value": "私訊、dm"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SettingsKeywordsSessions",
+      "value": "裝置、登出、終止"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SettingsKeywordsStickers",
+      "value": "貼圖、表情符號、GIF、面具、反應"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SettingsKeywordsTextSize",
+      "value": "字體、文字大小、放大、縮小"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SettingsKeywordsTheme",
+      "value": "主題、顏色、強調色、深色模式、夜間模式"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SettingsKeywordsTimeFormat",
+      "value": "時鐘、24 小時制、12 小時制、上午、下午"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SettingsKeywordsTwoStep",
+      "value": "2fa、兩步驟驗證、雲端密碼、安全"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "SettingsLanguageDesc",
       "value": "{language}、翻譯訊息"
     },
@@ -16240,6 +16540,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "SettingsSearchEmpty",
+      "value": "開始輸入文字以搜尋設定"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "SettingsSendCmdenter",
       "value": "按下 Cmd+Enter 鍵才送出訊息"
     },
@@ -16332,6 +16637,11 @@
       "_": "types.LangPackString",
       "key": "Share",
       "value": "分享"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShareLinkCopied",
+      "value": "已拷貝到剪貼簿"
     },
     {
       "_": "types.LangPackString",
@@ -16487,6 +16797,11 @@
       "_": "types.LangPackString",
       "key": "Spoiler",
       "value": "防劇透"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SponsoredMessage",
+      "value": "廣告"
     },
     {
       "_": "types.LangPackString",
@@ -19840,6 +20155,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletConnectManifestInvalid",
+      "value": "此應用程式的資訊無效或屬於其他網域。"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletConnectPermissionInfo",
       "value": "未經授權的情況下，此應用程式無法轉移資金。"
     },
@@ -20230,6 +20550,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletLogoutKeyRotation",
+      "value": "您的錢包有一項金鑰變更尚未確認。其新金鑰僅儲存於此裝置上。如果您登出且變更已生效，您將無法再存取該錢包。"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletLogoutWarning",
       "value": "您錢包中儲存在此裝置上的助記詞將在您登出登入時刪除。請務必先確保每個助記詞都有雲端備份或書面副本。"
     },
@@ -20380,6 +20705,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletReceiveAddressCopied",
+      "value": "已複製地址"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletReceiveBuy",
       "value": "透過現金或加密貨幣購買"
     },
@@ -20395,8 +20725,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletReceivePeerNote",
+      "value": "向此地址傳送 Gram 或掃描此 QR code。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletReceivePeerShowQr",
+      "value": "顯示 QR code"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletReceiveShowQr",
+      "value": "顯示我的 QR code"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletReceiveTitle",
       "value": "儲值"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletRecipientGramWallet",
+      "value": "Gram 錢包"
     },
     {
       "_": "types.LangPackString",
@@ -20510,6 +20860,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletSendAmountButton",
+      "value": "支付 {amount}"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletSendBalance",
       "value": "餘額：{amount}"
     },
@@ -20595,6 +20950,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletSendPending",
+      "value": "這筆轉帳可能已發出。在狀態檢查期間，請勿再次傳送。"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletSendPendingError",
       "value": "您之前的轉帳仍在處理中。請一分鐘後再試一次。"
     },
@@ -20610,6 +20970,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletSendRecipientWallet",
+      "value": "{name} 的錢包"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletSendSuccess",
       "value": "Grams 已轉出"
     },
@@ -20620,8 +20985,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletSendSwitchCurrency",
+      "value": "切換貨幣"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletSendTitle",
       "value": "轉出 Gram"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendUnlinkedWallet",
+      "value": "已斷開連接的錢包"
     },
     {
       "_": "types.LangPackString",
@@ -20752,6 +21127,16 @@
       "_": "types.LangPackString",
       "key": "WalletTransactionKeyChange",
       "value": "金鑰更新"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionMovedFromProfile",
+      "value": "已從個人檔案移出"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionMovedToProfile",
+      "value": "已移至個人資料"
     },
     {
       "_": "types.LangPackString",
@@ -21014,5 +21399,5 @@
       "value": "您的姓名"
     }
   ],
-  "version": 375509
+  "version": 375937
 }
