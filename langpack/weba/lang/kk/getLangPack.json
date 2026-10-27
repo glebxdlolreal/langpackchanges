@@ -560,6 +560,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ActionManagedBotCreated",
+      "value": "{from}{bot} жасады"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ActionManagedBotCreatedYou",
+      "value": "{bot} жасадыңыз"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ActionMessageChannelDisabled",
       "value": "{peer} хат қабылдамайды"
     },
@@ -5789,6 +5799,17 @@
       "value": "{name} жасалды!"
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "key": "CreateBotLimitText",
+      "one_value": "@BotFather арқылы {count} ботқа дейін жасай аласыз не қолданылмайтынын жоя аласыз",
+      "other_value": "@BotFather арқылы {count} ботқа дейін жасай аласыз не қолданылмайтынын жоя аласыз"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBotLimitTextPremium",
+      "value": "{premiumLimit} ботқа дейін жасау үшін **Premium**-ге жазылыңыз не @BotFather арқылы {limit} ботыңыздың біреуін жойыңыз"
+    },
+    {
       "_": "types.LangPackString",
       "key": "CreateBotLimitTitle",
       "value": "Бот шектен асты"
@@ -5815,8 +5836,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "CreateBotUsername",
+      "value": "Боттың қолданушы аты"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBotUsernameChecking",
+      "value": "Тексерілуде..."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "CreateBotUsernameHelp",
       "value": "Ботыңызға қолданушы атын таңдаңыз. Ол міндетті түрде 'bot' сөзімен аяқталуы тиіс. Мысалы: TetrisBot не tetris_bot."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBotUsernameSubscribe",
+      "value": "Жазылу"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBotUsernameSuffix",
+      "value": "Қолданушы аты 'bot' деп аяқталуы тиіс."
     },
     {
       "_": "types.LangPackString",
@@ -10242,6 +10283,16 @@
       "value": "Тілді ауыстырасыз ба?"
     },
     {
+      "_": "types.LangPackString",
+      "key": "LanguageTranslateLink",
+      "value": "Аударма платформасын"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LanguageUnknownCustomAlert",
+      "value": "Бұл тіл пакетінде ({language}) Telegram Desktop үшін дерек жоқ. {link} қолданып, тіл пакетін толықтыруға көмектессеіңіз болады."
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "key": "Languages",
       "one_value": "{count} тіл",
@@ -14066,6 +14117,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ProfileBotManagedBy",
+      "value": "Жасаған және басқаратын: {bot}"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ProfileBotOpenAppInfoLink",
       "value": "https://telegram.org/tos/mini-apps"
     },
@@ -16358,6 +16414,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "SettingsKeywordsLastSeen",
+      "value": "желіде, соңғы белсенділік, статус"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SettingsKeywordsLogOut",
+      "value": "шығу, тіркелгіден шығу"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SettingsKeywordsNotifications",
+      "value": "үнсіз, дыбыс, мәлімдеме"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "SettingsKeywordsPasscode",
       "value": "құлыптау коды, pin, құлыптау, құлыптау экраны"
     },
@@ -16620,6 +16691,11 @@
       "_": "types.LangPackString",
       "key": "SettingsSaveChanges",
       "value": "Өзгерісті сақтау"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SettingsSearchEmpty",
+      "value": "Баптауды табу үшін сөз жазып бастаңыз"
     },
     {
       "_": "types.LangPackString",
@@ -20826,6 +20902,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletReceivePeerShowQr",
+      "value": "QR-ымды көрсету"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletReceiveShowQr",
       "value": "QR-ымды көрсету"
     },
@@ -20948,6 +21029,11 @@
       "_": "types.LangPackString",
       "key": "WalletSendAmount",
       "value": "Сома"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendAmountButton",
+      "value": "{amount} жіберу"
     },
     {
       "_": "types.LangPackString",
@@ -21482,5 +21568,5 @@
       "value": "Атыңыз"
     }
   ],
-  "version": 376118
+  "version": 376308
 }
