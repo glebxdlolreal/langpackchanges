@@ -1767,6 +1767,17 @@
       "value": "{from} ha iniciat un sorteig de subscripcions al Telegram Premium per als membres."
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_action_gram_transfer_amount",
+      "one_value": "{amount} Gram",
+      "other_value": "{amount} Grams"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gram_transfer_amount_fiat",
+      "value": "{amount} ({fiat})"
+    },
+    {
       "_": "types.LangPackString",
       "key": "lng_action_gram_transfer_encrypted_comment",
       "value": "Comentari xifrat"
@@ -1793,6 +1804,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_action_gram_transfer_sent",
+      "value": "Heu enviat {amount} a {user}"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_action_gram_transfer_sent_tag",
       "value": "enviat"
     },
@@ -1800,6 +1816,12 @@
       "_": "types.LangPackString",
       "key": "lng_action_gram_transfer_sent_unknown",
       "value": "Heu enviat {amount}"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_action_gram_transfer_ticker",
+      "one_value": "Gram",
+      "other_value": "Grams"
     },
     {
       "_": "types.LangPackString",
@@ -4344,6 +4366,16 @@
       "_": "types.LangPackString",
       "key": "lng_animated_emoji_saved_open",
       "value": "Obre"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_animated_emoji_subscribe",
+      "value": "Subscriviu-vos al {link} per a poder usar tots els emojis."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_animated_emoji_subscribe_link",
+      "value": "Telegram Premium"
     },
     {
       "_": "types.LangPackString",
@@ -25556,6 +25588,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_no_paid_token_menu_disable_timer",
+      "value": "Sense caducitat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_no_paid_token_menu_disable_timer_about",
+      "value": "De franc per a sempre"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_no_paid_token_menu_enable_timer",
       "value": "Activa el temporitzador"
     },
@@ -25566,8 +25608,38 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_no_paid_token_menu_reset",
+      "value": "Sol·licita un codi"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_no_paid_token_menu_restore",
+      "value": "Restableix la tarifa"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_no_paid_token_pill_permanent",
+      "value": "De franc · Sense límit de temps"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_no_paid_token_pill_remove_fee",
+      "value": "Elimina la tarifa ({amount} {emoji})"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_no_paid_token_pill_temporary",
+      "value": "De franc · Caduca d'aquí a {time}"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_no_paid_token_toast_expired",
       "value": "El codi ha caducat, la tarifa aplica de nou"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_no_paid_token_toast_expires",
+      "value": "El codi caducarà d'aquí a {duration}."
     },
     {
       "_": "types.LangPackString",
@@ -31029,6 +31101,21 @@
       "_": "types.LangPackString",
       "key": "lng_qr_box_font_size",
       "value": "Mida de la lletra"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_qr_box_gifts_browse",
+      "value": "Explora els regals"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_qr_box_gifts_empty_about",
+      "value": "Useu un dels vostres col·leccionables per a donar estil al codi QR."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_qr_box_gifts_empty_title",
+      "value": "Encara no hi ha regals"
     },
     {
       "_": "types.LangPackString",
@@ -42824,6 +42911,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_profile_balance",
+      "value": "Saldo:"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_profile_balance_none",
       "value": "{name} encara no té\ncap Gram."
     },
@@ -43134,5 +43226,5 @@
       "other_value": "Heu pagat {count} estrelles."
     }
   ],
-  "version": 6012833
+  "version": 6013005
 }
