@@ -3579,6 +3579,31 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "BotStatusAgent",
+      "value": "Агент"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotStatusAi",
+      "value": "АИ"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotStatusApp",
+      "value": "Апликација"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotStatusGame",
+      "value": "Игра"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotStatusNonBinary",
+      "value": "Небинаран"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "BotStop",
       "value": "Блокирај бота"
     },
@@ -5817,6 +5842,18 @@
       "_": "types.LangPackString",
       "key": "Create",
       "value": "Направи"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Можете направити до {count} бота или избрисати постојеће преко @BotFather",
+      "key": "CreateBotLimitText",
+      "one_value": "Можете направити до {count} бота или избрисати постојеће преко @BotFather",
+      "other_value": "Можете направити до {count} ботова или избрисати постојеће преко @BotFather"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBotLimitTextPremium",
+      "value": "Претплатите се на **Premium** да бисте направили до {premiumLimit} ботова или избришите једног од {limit} ботова преко @BotFather"
     },
     {
       "_": "types.LangPackString",
@@ -10301,6 +10338,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "LanguageAlready",
+      "value": "Већ користите овај језички пакет. Језик можете променити у одељку {settings} у било ком тренутку."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LanguageApply",
+      "value": "Примени језик"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "LanguageNotFound",
       "value": "Овај језички пакет не постоји."
     },
@@ -12027,6 +12074,11 @@
       "_": "types.LangPackString",
       "key": "NotificationGiftCanTransferAt",
       "value": "Овај поклон можете пренети након {date}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NotificationGiftDeleted",
+      "value": "Поклон избрисан"
     },
     {
       "_": "types.LangPackString",
@@ -16443,6 +16495,101 @@
       "_": "types.LangPackString",
       "key": "SettingsKeyboard",
       "value": "Тастатура"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SettingsKeywordsArchiveAndMute",
+      "value": "архива, искључено, нова ћаскања, непожељан садржај"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SettingsKeywordsAutoDelete",
+      "value": "аутоматско брисање, самоуништење, време трајања, тајмер"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SettingsKeywordsBlockedUsers",
+      "value": "блокирање, црна листа, деблокирање, забрана"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SettingsKeywordsChannels",
+      "value": "канали, емитовање"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SettingsKeywordsChatBackground",
+      "value": "позадинска слика, позадина, слика"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SettingsKeywordsDataStorage",
+      "value": "складиштење, кеш, коришћење података, аутоматско преузимање, саобраћај"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SettingsKeywordsFolders",
+      "value": "фасцикле, филтери, картице"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SettingsKeywordsGroups",
+      "value": "групе, супергрупе"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SettingsKeywordsLanguage",
+      "value": "језик, локализација, превод"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SettingsKeywordsPasscode",
+      "value": "приступни код, пин, закључавање, закључавање екрана"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SettingsKeywordsPasskeys",
+      "value": "приступни кључ, веб-аутентификација, биометрија, отисак прста"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SettingsKeywordsPerformance",
+      "value": "уштеда енергије, батерија, анимације, перформансе"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SettingsKeywordsPrivateChats",
+      "value": "приватне поруке, директне поруке, дм, пм"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SettingsKeywordsSessions",
+      "value": "уређаји, сесије, одјављивање, прекид"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SettingsKeywordsStickers",
+      "value": "налепнице, емоџији, гифови, маске, реакције"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SettingsKeywordsTextSize",
+      "value": "фонт, величина текста, већи, мањи"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SettingsKeywordsTheme",
+      "value": "тема, боја, истакнута боја, тамни режим, ноћни режим"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SettingsKeywordsTimeFormat",
+      "value": "час, сат, 24 часа, 12 часова, 24 сата, 12 сати, пре подне, после подне"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SettingsKeywordsTwoStep",
+      "value": "двострука потврда идентитета, потврда у два корака, лозинка за облак, безбедност"
     },
     {
       "_": "types.LangPackString",
@@ -20877,6 +21024,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletReceiveAddressCopied",
+      "value": "Адреса копирана"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletReceiveBuy",
       "value": "Купи новцем или криптовалутом"
     },
@@ -20889,6 +21041,21 @@
       "_": "types.LangPackString",
       "key": "WalletReceiveNetworkNote",
       "value": "Поделите адресу или QR кôд за пријем GRAM-а."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletReceivePeerNote",
+      "value": "Пошаљите граме на ову адресу или скенирајте овај QR кôд."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletReceivePeerShowQr",
+      "value": "Прикажи QR"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletReceiveShowQr",
+      "value": "Прикажи мој QR"
     },
     {
       "_": "types.LangPackString",
@@ -21012,6 +21179,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletSendAmountButton",
+      "value": "Пошаљи {amount}"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletSendBalance",
       "value": "Стање: {amount}"
     },
@@ -21097,6 +21269,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletSendPending",
+      "value": "Пренос је можда већ послат. Не шаљите га поново док не потврдите његов статус."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletSendPendingError",
       "value": "Ваш претходни пренос се још шаље. Покушајте поново за минут."
     },
@@ -21109,6 +21286,11 @@
       "_": "types.LangPackString",
       "key": "WalletSendRecipient",
       "value": "Адреса или име"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendRecipientWallet",
+      "value": "Новчаник корисника {name}"
     },
     {
       "_": "types.LangPackString",
@@ -21259,6 +21441,16 @@
       "_": "types.LangPackString",
       "key": "WalletTransactionKeyChange",
       "value": "Ажурирање кључа"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionMovedFromProfile",
+      "value": "Премештено с профила"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionMovedToProfile",
+      "value": "Премештено на профил"
     },
     {
       "_": "types.LangPackString",
@@ -21525,5 +21717,5 @@
       "value": "Ваше име"
     }
   ],
-  "version": 376357
+  "version": 376398
 }
