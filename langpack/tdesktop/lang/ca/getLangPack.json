@@ -1773,6 +1773,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_action_gram_transfer_failed_tag",
+      "value": "ha fallat"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_action_gram_transfer_received",
       "value": "{user} us ha enviat {amount}"
     },
@@ -1951,6 +1956,11 @@
       "_": "types.LangPackString",
       "key": "lng_action_no_forwards_you_enabled",
       "value": "Heu activat poder compartir"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_no_paid_token_used",
+      "value": "{from} ha iniciat un xat via el vostre enllaç de missatges gratuïts"
     },
     {
       "_": "types.LangPackString",
@@ -2626,6 +2636,11 @@
       "_": "types.LangPackString",
       "key": "lng_action_you_joined_by_request_channel",
       "value": "S'ha aprovat la sol·licitud d'unir-vos al canal"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_you_no_paid_token_used",
+      "value": "Heu iniciat un xat via un enllaç de missatges gratuïts"
     },
     {
       "_": "types.LangPackString",
@@ -18391,6 +18406,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_gift_stars_on_card",
+      "value": "en la targeta"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_gift_stars_on_sale",
       "value": "a la venda"
     },
@@ -18576,6 +18596,11 @@
       "_": "types.LangPackString",
       "key": "lng_gift_transfer_title",
       "value": "Transfereix «{name}»"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_transfer_to_gifts_done",
+      "value": "S'ha mogut el regal al vostre compte."
     },
     {
       "_": "types.LangPackString",
@@ -42371,6 +42396,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_card_color_only",
+      "value": "Només podeu usar els regals {collections} per a canviar el color de la targeta."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_card_drag_hint",
       "value": "Arrossegueu el col·leccionable sobre la targeta per a decorar-la."
     },
@@ -42406,6 +42436,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_chip_username",
+      "value": "Nom d'usuari col·leccionable"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_collectible_gift_attributes",
+      "value": "{model} en {backdrop}"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_comment_add",
       "value": "Afegeix"
     },
@@ -42431,13 +42471,33 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_connect_permission",
+      "value": "L'aplicació podrà veure la vostra adreça, saldo i activitat TON."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_connect_reassurance",
       "value": "L'aplicació no podrà moure fons sense el vostre permís."
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_actions",
+      "value": "Accions"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_connect_request_call_contract",
       "value": "Crida el contracte"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_confirm",
+      "value": "Confirma"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_decline",
+      "value": "Rebutja"
     },
     {
       "_": "types.LangPackString",
@@ -42456,6 +42516,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_preview",
+      "value": "Vista prèvia"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_title_app",
+      "value": "{name} sol·licita una transferència"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_connect_request_transfer",
       "value": "Transferència"
     },
@@ -42466,6 +42536,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_connect_sign_binary",
+      "value": "Contingut binari"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_connect_sign_blind",
       "value": "Ho esteu signant a cegues. Signeu només de fonts en què confieu."
     },
@@ -42473,6 +42548,11 @@
       "_": "types.LangPackString",
       "key": "lng_wallet_connect_sign_button",
       "value": "Signa"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_sign_data",
+      "value": "Dades"
     },
     {
       "_": "types.LangPackString",
@@ -42582,8 +42662,38 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_first_send_text",
+      "value": "Transferiu els Grams a qualsevol.\nToqueu {attach} → {money} als xats."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_first_send_title",
       "value": "Envia"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_first_store_text",
+      "value": "Manteniu els Grams al Telegram \n({menu} → {wallet}) o a altres carteres."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_first_store_title",
+      "value": "Emmagatzemar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_first_title",
+      "value": "Els vostres primers Grams"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_first_trade_text",
+      "value": "Convertiu Grams a diners o criptomonedes."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_first_trade_title",
+      "value": "Intercanviar"
     },
     {
       "_": "types.LangPackString",
@@ -42840,6 +42950,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_send_error_too_small",
+      "value": "La transferència mínima són {amount} Grams."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_send_gram_wallet",
       "value": "Cartera de Grams"
     },
@@ -43019,5 +43134,5 @@
       "other_value": "Heu pagat {count} estrelles."
     }
   ],
-  "version": 6012712
+  "version": 6012833
 }
