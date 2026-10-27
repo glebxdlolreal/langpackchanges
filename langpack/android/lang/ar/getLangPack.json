@@ -5431,7 +5431,7 @@
     {
       "_": "types.LangPackString",
       "key": "AudioRecorderGeneralInfo",
-      "value": "قد يؤثر تطبيق RNNoise الذي يزيل الضوضاء الخلفية على الموسيقى أو الكلام الهادئ جداً."
+      "value": "تعمل ميزة RNNoise على إزالة الضوضاء الخلفية، وقد تؤثر على الموسيقى أو الكلام الهادئ جدًّا."
     },
     {
       "_": "types.LangPackString",
@@ -10152,6 +10152,31 @@
       "_": "types.LangPackString",
       "key": "BotStop",
       "value": "حظر البوت"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotTypeAI",
+      "value": "الذكاء الاصطناعي"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotTypeAgent",
+      "value": "الوكيل"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotTypeApp",
+      "value": "تطبيق"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotTypeGame",
+      "value": "اللعبة"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotTypeNonBinary",
+      "value": "غير ثنائي"
     },
     {
       "_": "types.LangPackString",
@@ -16442,6 +16467,11 @@
       "_": "types.LangPackString",
       "key": "CreateManagedBotUsernameOwnerLimit",
       "value": "لا يمكنك امتلاك سوى ⁨%1$d⁩ اسم مستخدم تنتهي بـ ⁨%2$s⁩ في جميع البوتات الخاصة بك."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateManagedBotUsernamePremiumRequired",
+      "value": "أسماء المستخدمين التي تنتهي بـ '⁨%1$s⁩' تتطلب اشتراك تيليجرام المميز. **اشترك الآن ›**"
     },
     {
       "_": "types.LangPackString",
@@ -23195,6 +23225,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift2AddToProfile",
+      "value": "إضافة إلى ملف القناة"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gift2AddedToCollection",
       "value": "تم إضافة **⁨%1$s⁩** إلى **⁨%2$s⁩**."
     },
@@ -23207,6 +23242,11 @@
       "other_value": "تمت إضافة **⁨%1$d⁩ هدية** إلى **⁨%2$s⁩**.",
       "two_value": "تمت إضافة **هديتين** إلى **⁨%2$s⁩**.",
       "zero_value": "تمت إضافة **⁨%1$d⁩ هدية** إلى **⁨%2$s⁩**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift2AlsoShowInMyGifts",
+      "value": "وأظهرها أيضًا في هداياي"
     },
     {
       "_": "types.LangPackString",
@@ -24135,6 +24175,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift2HideFromProfile",
+      "value": "إخفاء من الملف الشخصي"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gift2HideGift",
       "value": "إخفاء"
     },
@@ -24505,6 +24550,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift2MoveToMyGifts",
+      "value": "نقل إلى هداياي"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift2MoveToMyGiftsInfo",
+      "value": "يمكنك إعادته إلى سلسلة الكتل مرة أخرى في أي وقت."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift2MoveToMyGiftsText",
+      "value": "هل ترغب بنقل هذا المقتنى خارج سلسلة الكتل إلى حسابك على تيليجرام؟"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gift2MoveToMyWallet",
       "value": "نقل إلى محفظتي"
     },
@@ -24517,6 +24577,11 @@
       "_": "types.LangPackString",
       "key": "Gift2MovedToProfile",
       "value": "تم نقل الهدية إلى ملفك الشخصي."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift2MovedToWallet",
+      "value": "تم نقل الهدية إلى محفظتك."
     },
     {
       "_": "types.LangPackString",
@@ -24835,6 +24900,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift2RemoveFromProfile",
+      "value": "إزالة من الملف الشخصي"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gift2RemovedFromCollection",
       "value": "تمت إزالة **⁨%1$s⁩** من **⁨%2$s⁩**."
     },
@@ -25082,6 +25152,11 @@
       "_": "types.LangPackString",
       "key": "Gift2ShowGift",
       "value": "عرض"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift2ShowOnProfile",
+      "value": "عرض في الملف الشخصي"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -25405,8 +25480,33 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift2TransferToMyProfile",
+      "value": "نقل إلى ملفي الشخصي"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift2TransferToMyProfileText",
+      "value": "هل تريد تحويل مبلغ **⁨%s⁩** من محفظتك إلى ملفك الشخصي على تيليجرام؟"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift2TransferToMyWallet",
+      "value": "نقل إلى محفظتي"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift2TransferToMyWalletSent",
+      "value": "**⁨%s⁩** في طريقه إلى محفظتك."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gift2TransferToMyWalletText",
       "value": "هل ترغب في تحويل **⁨%s⁩** إلى محفظتك؟ سيظل المبلغ ظاهرًا في ملفك الشخصي."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift2TransferToMyWalletTitle",
+      "value": "نقل إلى المحفظة"
     },
     {
       "_": "types.LangPackString",
@@ -33851,7 +33951,7 @@
     {
       "_": "types.LangPackString",
       "key": "NoPaidMessagesTokenUsedOut",
-      "value": "لقد استخدمت رمز الاستجابة السريعة الخاص بـ ⁨un1⁩ ويمكنك مراسلتهم مجاناً"
+      "value": "لقد استخدمت رمز الاستجابة السريعة الخاص بـ ⁨un1⁩ ويمكنك مراسلته مجانًا"
     },
     {
       "_": "types.LangPackString",
@@ -38860,6 +38960,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PleaseEnterCurrentPasswordGiftWallet",
+      "value": "يرجى إدخال كلمة المرور الخاصة بك لنقل **⁨%s⁩** إلى محفظتك."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PleaseEnterCurrentPasswordTransfer",
       "value": "يرجى إدخال كلمة مرور التحقق بخطوتين لإتمام النقل."
     },
@@ -42566,7 +42671,7 @@
     {
       "_": "types.LangPackString",
       "key": "QrPremiumGiftsToast",
-      "value": "اشترك في المميزة لاستخدام\nالهدايا الموجودة في رمز الاستجابة السريعة الخاص بك."
+      "value": "إشتراك في المميزة لإضافة\nهدايا إلى رمز الاستجابة السريعة الخاص بك."
     },
     {
       "_": "types.LangPackString",
@@ -60365,6 +60470,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletProfileOwnsGrams",
+      "value": "يمتلك ⁨%1$s⁩ ⁨%2$s⁩ على بلوكشين TON."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletProfileOwnsNoGrams",
       "value": "⁨%1$s⁩ لا يمتلك أي جرام حتى الآن."
     },
@@ -60496,7 +60606,7 @@
     {
       "_": "types.LangPackString",
       "key": "WalletSendInstantly",
-      "value": "أرسل الأموال فوراً"
+      "value": "التحويلات الفورية"
     },
     {
       "_": "types.LangPackString",
@@ -61899,5 +62009,5 @@
       "value": "جواز تيليجرام"
     }
   ],
-  "version": 61418443
+  "version": 61490017
 }
