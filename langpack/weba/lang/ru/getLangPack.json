@@ -580,6 +580,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ActionManagedBotCreated",
+      "value": "{from} создал(а) {bot}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ActionManagedBotCreatedYou",
+      "value": "Вы создали {bot}"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ActionMessageChannelDisabled",
       "value": "{peer} больше не принимает личные сообщения"
     },
@@ -1983,6 +1993,11 @@
       "_": "types.LangPackString",
       "key": "AriaCreateGroup",
       "value": "Создать группу"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AriaDeleteGiftDetails",
+      "value": "Удалить подпись к подарку"
     },
     {
       "_": "types.LangPackString",
@@ -5880,6 +5895,89 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "CreateBotCreatedText",
+      "value": "**{bot}** будет управлять этим ботом."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBotCreatedTitle",
+      "value": "{name} создан!"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Вы можете создать не более {count} ботов. Удалите одного из них в @BotFather",
+      "key": "CreateBotLimitText",
+      "many_value": "Вы можете создать не более {count} ботов. Удалите одного из них в @BotFather",
+      "one_value": "Вы можете создать не более {count} бота. Удалите одного из них в @BotFather",
+      "other_value": "Вы можете создать не более {count} ботов. Удалите одного из них в @BotFather"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBotLimitTextPremium",
+      "value": "Оформите **Premium**, чтобы создать до {premiumLimit} ботов, или удалите одного из своих {limit} ботов в @BotFather"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBotLimitTitle",
+      "value": "Превышен лимит ботов"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBotName",
+      "value": "Название бота"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBotText",
+      "value": "{bot} предлагает создать чат-бота и управлять им от Вашего имени."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBotTitle",
+      "value": "Создание бота"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBotUnsupported",
+      "value": "**{bot}** не поддерживает режим управления ботами."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBotUsername",
+      "value": "@имя бота"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBotUsernameChecking",
+      "value": "Проверка..."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBotUsernameHelp",
+      "value": "Придумайте для бота имя пользователя. Оно должно заканчиваться на «bot» — например, TetrisBot или tetris_bot."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBotUsernameHint",
+      "value": "должно заканчиваться на «bot» — или {suffixes} с {premium}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBotUsernamePremium",
+      "value": "Создать имя пользователя, заканчивающееся на «{suffix}», можно только с Telegram Premium. {link}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBotUsernameSubscribe",
+      "value": "Оформить"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBotUsernameSuffix",
+      "value": "Имя должно заканчиваться на «bot»."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "CreateGeneralTopicTitle",
       "value": "Придумайте название темы"
     },
@@ -6718,6 +6816,11 @@
       "_": "types.LangPackString",
       "key": "EditUserNoteHint",
       "value": "Заметку видите только Вы."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Edited",
+      "value": "изменено"
     },
     {
       "_": "types.LangPackString",
@@ -8884,6 +8987,21 @@
       "value": "Дата"
     },
     {
+      "_": "types.LangPackString",
+      "key": "GiftInfoDelete",
+      "value": "Удалить подарок"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftInfoDeleteDescription",
+      "value": "Вы точно хотите удалить этот подарок?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftInfoDeleteDescription2",
+      "value": "Он исчезнет из Вашего профиля без возможности восстановления."
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "few_value": "Вы можете хранить этот подарок в профиле или обменять на **{amount}** звезды.",
       "key": "GiftInfoDescription",
@@ -10411,6 +10529,51 @@
       "_": "types.LangPackString",
       "key": "Language",
       "value": "Язык"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LanguageAlert",
+      "value": "Перевод ({language}), который Вы собираетесь использовать, закончен на {percent}%.\n\nЭто изменит язык всего интерфейса. Предложить свою версию перевода можно через {link}.\n\nВы можете в любой момент изменить язык в разделе {settings}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LanguageAlready",
+      "value": "Вы уже используете этот язык. Изменить язык приложения можно в разделе {settings}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LanguageApply",
+      "value": "Применить язык"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LanguageCustomAlert",
+      "value": "Сторонний перевод ({language}), который Вы собираетесь установить, закончен на {percent}%.\n\nЭто изменит язык всего интерфейса. Предложить свою версию перевода можно через {link}.\n\nВы можете в любой момент изменить язык в разделе {settings}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LanguageLoadFailed",
+      "value": "Не удалось загрузить перевод. Попробуйте ещё раз."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LanguageNotFound",
+      "value": "Такого перевода пока нет."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LanguageTitle",
+      "value": "Изменить язык?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LanguageTranslateLink",
+      "value": "платформу переводов"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LanguageUnknownCustomAlert",
+      "value": "К сожалению, в этом неофициальном переводе ({language}) нет текстов Telegram для браузера (версии A). Вы можете использовать {link}, чтобы помочь с переводом приложения."
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -12160,6 +12323,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "NotificationGiftDeleted",
+      "value": "Подарок удалён"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "NotificationGiftIsSale",
       "value": "Подарок {gift} выставлен на продажу!"
     },
@@ -13114,7 +13282,7 @@
     {
       "_": "types.LangPackString",
       "key": "PlayerPlaybackRate",
-      "value": "Скорость воспроизведения"
+      "value": "Скорость"
     },
     {
       "_": "types.LangPackString",
@@ -14320,6 +14488,11 @@
       "many_value": "{date} ({age} лет)",
       "one_value": "{date} ({age} год)",
       "other_value": "{date} ({age} года)"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ProfileBotManagedBy",
+      "value": "Создан и поддерживается {bot}"
     },
     {
       "_": "types.LangPackString",
@@ -16504,6 +16677,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "SettingsAllowHttp",
+      "value": "Разрешить использование HTTP"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "SettingsAutomaticTextReplacements",
       "value": "Автозамена текста"
     },
@@ -16564,6 +16742,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "SettingsForceHttp",
+      "value": "Принудительно использовать HTTP"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "SettingsGeneralDesc",
       "value": "Обои, тема, клавиатура\n"
     },
@@ -16591,6 +16774,116 @@
       "_": "types.LangPackString",
       "key": "SettingsKeyboard",
       "value": "Клавиатура"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SettingsKeywordsArchiveAndMute",
+      "value": "архив, без звука, новые чаты, спам"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SettingsKeywordsAutoDelete",
+      "value": "автоматическое удаление, автоудаление, самоуничтожение, таймер"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SettingsKeywordsBlockedUsers",
+      "value": "заблокировать, чёрный список, разблокировать, забанить, бан"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SettingsKeywordsChannels",
+      "value": "каналы, трансляции"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SettingsKeywordsChatBackground",
+      "value": "обои, фон, цветовая тема, картинка"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SettingsKeywordsDataStorage",
+      "value": "хранилище, кэш, память, автозагрузка, расход трафика"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SettingsKeywordsFolders",
+      "value": "папки, фильтры, вкладки"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SettingsKeywordsGroups",
+      "value": "группы, супергруппы"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SettingsKeywordsLanguage",
+      "value": "язык, локализация, перевод"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SettingsKeywordsLastSeen",
+      "value": "появление в сети, время последнего захода, онлайн, статус"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SettingsKeywordsLogOut",
+      "value": "выход, выйти из аккаунта"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SettingsKeywordsNotifications",
+      "value": "звук, уведомления, оповещения"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SettingsKeywordsPasscode",
+      "value": "код-пароль, пин-код, заблокировать, блокировка экрана"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SettingsKeywordsPasskeys",
+      "value": "ключ доступа, авторизация на сайтах, биометрия, отпечаток пальца"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SettingsKeywordsPerformance",
+      "value": "энергосбережение, аккумулятор, заряд, анимации, производительность"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SettingsKeywordsPrivateChats",
+      "value": "личный чат, личные сообщения, личка"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SettingsKeywordsSessions",
+      "value": "устройства, сессии, сеансы, выйти, завершить"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SettingsKeywordsStickers",
+      "value": "стикеры, эмодзи, gif, маски, реакции"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SettingsKeywordsTextSize",
+      "value": "шрифт, размер текста, больше, меньше"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SettingsKeywordsTheme",
+      "value": "тема, цвет, акцент, тёмный режим, ночной режим"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SettingsKeywordsTimeFormat",
+      "value": "часы, 24 часа, 12 часов, формат времени"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SettingsKeywordsTwoStep",
+      "value": "двухфакторная авторизация, двухфакторка, облачный пароль, безопасность"
     },
     {
       "_": "types.LangPackString",
@@ -16809,6 +17102,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "SettingsSearchEmpty",
+      "value": "Для поиска настройки начните вводить ключевое слово"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "SettingsSendCmdenter",
       "value": "Отправка по Cmd+Enter"
     },
@@ -16856,6 +17154,11 @@
       "_": "types.LangPackString",
       "key": "SettingsStickersDesc",
       "value": "Стикеры, эмодзи, реакции\n"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SettingsTestServerLogin",
+      "value": "Войти на тестовый сервер"
     },
     {
       "_": "types.LangPackString",
@@ -17375,7 +17678,7 @@
     {
       "_": "types.LangPackString",
       "key": "StarsIntroTransactionGoogleTopUpSubtitle",
-      "value": "в Play Market"
+      "value": "в Google Play"
     },
     {
       "_": "types.LangPackString",
@@ -20497,6 +20800,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletConnectManifestInvalid",
+      "value": "Информация о приложении некорректна или относится к другому домену."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletConnectPermissionInfo",
       "value": "Приложение не сможет переводить средства без Вашего разрешения."
     },
@@ -20887,6 +21195,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletLogoutKeyRotation",
+      "value": "Смена ключа Вашего кошелька пока не подтверждена. Новый ключ хранится только на этом устройстве. Если смена ключа успешно завершится, а Вы выйдете из аккаунта, Вы потеряете доступ к кошельку."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletLogoutWarning",
+      "value": "Секретные фразы Ваших кошельков, сохранённые на этом устройстве, будут удалены при выходе из аккаунта. Перед выходом убедитесь, что в Telegram есть резервные копии секретных фраз, или запишите каждую из них."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletMenuItem",
       "value": "Деньги"
     },
@@ -21038,6 +21356,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletReceiveAddressCopied",
+      "value": "Адрес скопирован"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletReceiveBuy",
       "value": "Купить"
     },
@@ -21053,8 +21376,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletReceivePeerNote",
+      "value": "Чтобы отправить GRAM, скопируйте этот адрес или отсканируйте QR-код."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletReceivePeerShowQr",
+      "value": "Показать QR-код"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletReceiveShowQr",
+      "value": "Показать QR-код"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletReceiveTitle",
       "value": "Пополнить"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletRecipientGramWallet",
+      "value": "Кошелёк GRAM"
     },
     {
       "_": "types.LangPackString",
@@ -21168,6 +21511,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletSendAmountButton",
+      "value": "Отправить {amount}"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletSendBalance",
       "value": "Баланс: {amount}"
     },
@@ -21253,6 +21601,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletSendPending",
+      "value": "Возможно, перевод уже был отправлен. Не отправляйте его снова, пока идёт обработка."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletSendPendingError",
       "value": "Идёт отправка предыдущего перевода. Дождитесь её завершения."
     },
@@ -21268,6 +21621,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletSendRecipientWallet",
+      "value": "Кошелёк {name}"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletSendSuccess",
       "value": "GRAM отправлены"
     },
@@ -21278,8 +21636,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletSendSwitchCurrency",
+      "value": "Изменить валюту"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletSendTitle",
       "value": "Отправить GRAM"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendUnlinkedWallet",
+      "value": "Непривязанный кошелёк"
     },
     {
       "_": "types.LangPackString",
@@ -21410,6 +21778,16 @@
       "_": "types.LangPackString",
       "key": "WalletTransactionKeyChange",
       "value": "Изменение ключа"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionMovedFromProfile",
+      "value": "Перенесён из профиля"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionMovedToProfile",
+      "value": "Перенесён в профиль"
     },
     {
       "_": "types.LangPackString",
@@ -21678,5 +22056,5 @@
       "value": "Ваше имя"
     }
   ],
-  "version": 376754
+  "version": 377715
 }

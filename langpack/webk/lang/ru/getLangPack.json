@@ -233,6 +233,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AccDescr.WithAdminTag",
+      "value": "с тегом администратора: %1$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AccDescr.WithMemberTag",
+      "value": "с тегом участника: %1$s"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AccDescrChannel",
       "value": "Канал"
     },
@@ -294,7 +304,7 @@
     {
       "_": "types.LangPackString",
       "key": "AccountSettings.Language.SearchKeywords",
-      "value": "язык, локаль, перевод"
+      "value": "язык, локализация, перевод"
     },
     {
       "_": "types.LangPackString",
@@ -1778,6 +1788,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AdminRecentActionsFilters.TagChanges",
+      "value": "Изменение тегов"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AdminRecentActionsFilters.UnbannedMembers",
       "value": "Разблокированные участники"
     },
@@ -2171,6 +2186,11 @@
       "_": "types.LangPackString",
       "key": "AllSubscribers",
       "value": "Все подписчики"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AllViewers",
+      "value": "Все просмотры"
     },
     {
       "_": "types.LangPackString",
@@ -3064,7 +3084,7 @@
     {
       "_": "types.LangPackString",
       "key": "BlockedUsers.SearchKeywords",
-      "value": "заблокировать, чёрный список, разблокировать, забанить"
+      "value": "заблокировать, чёрный список, разблокировать, забанить, бан"
     },
     {
       "_": "types.LangPackString",
@@ -9830,7 +9850,7 @@
     {
       "_": "types.LangPackString",
       "key": "DataSettings.SearchKeywords",
-      "value": "хранилище, память, кэш, расход трафика, автозагрузка"
+      "value": "хранилище, кэш, память, автозагрузка, расход трафика"
     },
     {
       "_": "types.LangPackString",
@@ -10166,6 +10186,11 @@
       "_": "types.LangPackString",
       "key": "Deleted",
       "value": "Удалённый"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "DeletedFromYourContacts",
+      "value": "%s удален(а) из Ваших контактов"
     },
     {
       "_": "types.LangPackString",
@@ -10599,6 +10624,11 @@
       "_": "types.LangPackString",
       "key": "EditAdminGroupDeleteMessages",
       "value": "Удаление сообщений"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EditAdminManageRanks",
+      "value": "Изменение тегов участников"
     },
     {
       "_": "types.LangPackString",
@@ -11250,6 +11280,16 @@
       "_": "types.LangPackString",
       "key": "ExpiredStorySubtitle",
       "value": "От: %s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ExpiredViewsStub",
+      "value": "Список просмотревших доступен **24 часа** после окончания показа истории."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ExpiredViewsStubPremiumDescription",
+      "value": "Чтобы узнавать о новых просмотрах Ваших истекших и опубликованных историй, оформите подписку **Telegram Premium**."
     },
     {
       "_": "types.LangPackString",
@@ -12762,6 +12802,19 @@
       "value": "для"
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Найдено %d истории",
+      "key": "HashtagStoriesFound",
+      "many_value": "Найдено %d историй",
+      "one_value": "Найдена %d история",
+      "other_value": "Найдено %d историй"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "HashtagStoriesFoundSubtitle",
+      "value": "Смотреть истории с %s"
+    },
+    {
       "_": "types.LangPackString",
       "key": "HelpUpgradeChannel",
       "value": "Истории для канала"
@@ -14038,6 +14091,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "LearnMore",
+      "value": "Подробнее"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "LeastActiveCommunities",
       "value": "Наименее активные группы и каналы"
     },
@@ -14441,6 +14499,14 @@
       "_": "types.LangPackString",
       "key": "LoadingStatsDescription",
       "value": "Создание графиков может\nзанять некоторое время."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "%d истории с этой геопозицией",
+      "key": "LocationStories",
+      "many_value": "%d историй с этой геопозицией",
+      "one_value": "%d история с этой геопозицией",
+      "other_value": "%d историй с этой геопозицией"
     },
     {
       "_": "types.LangPackString",
@@ -15244,6 +15310,111 @@
       "value": "Заявки на вступление"
     },
     {
+      "_": "types.LangPackString",
+      "key": "MemberTag.About",
+      "value": "Вы можете указать тег, который будет отображаться рядом с именем %1$s."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MemberTag.AboutSelf",
+      "value": "Вы можете указать свою роль, должность или прозвище в группе. Тег видят все участники."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MemberTag.AddMember",
+      "value": "Добавить тег участника"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MemberTag.AddMine",
+      "value": "Добавить тег"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MemberTag.EditMember",
+      "value": "Изменить тег участника"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MemberTag.EditMine",
+      "value": "Изменить тег"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MemberTag.EditTitle",
+      "value": "Изменить тег"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MemberTag.Info.AddMine",
+      "value": "Добавить свой тег"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MemberTag.Info.AdminsOnly",
+      "value": "Изменять теги в этой группе могут только администраторы."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MemberTag.Info.EditMine",
+      "value": "Изменить свой тег"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MemberTag.Info.PreviewAdmin",
+      "value": "Тег админа"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MemberTag.Info.PreviewMember",
+      "value": "Тег участника"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MemberTag.Info.PreviewOwner",
+      "value": "Тег владельца"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MemberTag.Info.TextAdmin",
+      "value": "Зелёный тег %1$s возле имени **%2$s** в **%3$s** — это тег администратора группы."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MemberTag.Info.TextMember",
+      "value": "Серый тег %1$s возле имени **%2$s** в **%3$s** — это тег участника группы."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MemberTag.Info.TextOwner",
+      "value": "Фиолетовый тег %1$s возле имени **%3$s** в **%2$s** — это тег владельца группы."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MemberTag.Info.TitleAdmin",
+      "value": "Теги администраторов"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MemberTag.Info.TitleMember",
+      "value": "Теги участников"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MemberTag.Info.TitleOwner",
+      "value": "Теги владельца"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MemberTag.Info.Understood",
+      "value": "OK"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MemberTag.Label",
+      "value": "Тег"
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "few_value": "%1$d участника",
       "key": "Members",
@@ -15565,7 +15736,7 @@
     {
       "_": "types.LangPackString",
       "key": "MultiAccount.AllAccounts",
-      "value": "Всех аккаунтов"
+      "value": "Для всех аккаунтов"
     },
     {
       "_": "types.LangPackString",
@@ -15948,6 +16119,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "NoContactsViewed",
+      "value": "Историю не просмотрел ни один контакт."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "NoEmojiFound",
       "value": "Эмодзи не найдены"
     },
@@ -15955,6 +16131,11 @@
       "_": "types.LangPackString",
       "key": "NoGIFsFound",
       "value": "GIF не найдены"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NoHashtagStoriesTitle",
+      "value": "Истории не найдены"
     },
     {
       "_": "types.LangPackString",
@@ -15980,6 +16161,11 @@
       "_": "types.LangPackString",
       "key": "NoReactions",
       "value": "Без реакций"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NoReactionsStub",
+      "value": "Никто ещё не отправил реакцию на эту историю."
     },
     {
       "_": "types.LangPackString",
@@ -16030,6 +16216,16 @@
       "_": "types.LangPackString",
       "key": "NoUsernameFound",
       "value": "Нет аккаунта Telegram с таким именем пользователя."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NoViews",
+      "value": "Никто не просмотрел"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NoViewsStub",
+      "value": "Никто ещё не просмотрел эту историю."
     },
     {
       "_": "types.LangPackString",
@@ -17034,6 +17230,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PaymentConnectionFailed",
+      "value": "Не удалось соединиться с платёжным сервером. Проверьте соединение с интернетом и попробуйте снова."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PaymentFailed",
+      "value": "К сожалению, платёж отклонён."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PaymentInfo.Billing.Title",
       "value": "Введите платёжный адрес"
     },
@@ -17086,6 +17292,11 @@
       "_": "types.LangPackString",
       "key": "PaymentNoShippingMethod",
       "value": "К сожалению, доставка по этому адресу невозможна."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PaymentPrecheckoutFailed",
+      "value": "К сожалению, бот отменил платёж."
     },
     {
       "_": "types.LangPackString",
@@ -19152,6 +19363,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Proceed",
+      "value": "Продолжить"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Profile",
       "value": "Профиль"
     },
@@ -19430,6 +19646,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ReactionsTooltip",
+      "value": "Реакции: %1$s"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ReadAllMentions",
       "value": "Прочитать все упоминания"
     },
@@ -19485,6 +19706,11 @@
       "_": "types.LangPackString",
       "key": "RecoveryEmailTitle",
       "value": "Электронная почта"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ReduceAnimations",
+      "value": "Меньше анимации"
     },
     {
       "_": "types.LangPackString",
@@ -20890,6 +21116,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ServerErrorViewers",
+      "value": "Информация о просмотревших не была сохранена."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ServerErrorViewersFull",
+      "value": "Информация о других просмотревших не была сохранена."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ServerErrorViewersTitle",
+      "value": "Ошибка"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "SessionsInfo",
       "value": "Управление сеансами на всех подключённых устройствах."
     },
@@ -21245,6 +21486,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "SharedPlace",
+      "value": "Место"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "SharedVoiceTab2",
       "value": "Голосовые"
     },
@@ -21398,6 +21644,21 @@
       "_": "types.LangPackString",
       "key": "SomeReactions",
       "value": "Только выбранные"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SortByReactions",
+      "value": "Сначала реакции"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SortByReposts",
+      "value": "Сначала репосты"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SortByTime",
+      "value": "Сначала последние"
     },
     {
       "_": "types.LangPackString",
@@ -21620,6 +21881,14 @@
       "many_value": "продать за %d звёзд",
       "one_value": "продать за %d звезду",
       "other_value": "продать за %d звезды"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Вы точно хотите продать этот подарок за **%d звезды**? Это действие нельзя будет отменить.",
+      "key": "StarGiftConvertText",
+      "many_value": "Вы точно хотите продать этот подарок за **%d звёзд**? Это действие нельзя будет отменить.",
+      "one_value": "Вы точно хотите продать этот подарок за **%d звезду**? Это действие нельзя будет отменить.",
+      "other_value": "Вы точно хотите продать этот подарок за **%d звезды**? Это действие нельзя будет отменить."
     },
     {
       "_": "types.LangPackString",
@@ -23956,6 +24225,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Stories.Reorder",
+      "value": "Изменить порядок"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Stories.StealthMode.Activated.Subtitle",
       "value": "Просмотры историй в течение **%s** до и **%s** после включения не видны авторам."
     },
@@ -24067,8 +24341,77 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Story.AddedToAlbum",
+      "value": "История добавлена в альбом **%s**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.BoostToUnrestrict",
+      "value": "Проголосуйте за группу %1$s, чтобы писать в ней без ограничений. Голоса открывают для **%2$s** больше возможностей."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "**%d** раза",
+      "key": "Story.BoostToUnrestrict.Times",
+      "many_value": "**%d** раз",
+      "one_value": "**%d** раз",
+      "other_value": "**%d** раз"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.CommentPlaceholder",
+      "value": "Прокомментировать..."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.CommentsRestricted",
+      "value": "Комментарии отключены"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Эта история содержит эмодзи из **%d наборов**.",
+      "key": "Story.ContainsEmoji",
+      "many_value": "Эта история содержит эмодзи из **%d наборов**.",
+      "one_value": "Эта история содержит эмодзи из **%d набора**.",
+      "other_value": "Эта история содержит эмодзи из **%d наборов**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.ContainsEmojiFrom",
+      "value": "Эта история содержит эмодзи из **%s**."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Эта история содержит стикеры из **%d наборов**.",
+      "key": "Story.ContainsStickers",
+      "many_value": "Эта история содержит стикеры из **%d наборов**.",
+      "one_value": "Эта история содержит стикеры из **%d набора**.",
+      "other_value": "Эта история содержит стикеры из **%d наборов**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.ContainsStickersFrom",
+      "value": "Эта история содержит стикеры из **%s**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.ContextMenuHD",
+      "value": "Повысить качество"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.ContextMenuSD",
+      "value": "Понизить качество"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Story.ExpiredToast",
       "value": "Эта история больше не доступна"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.HideTranslation",
+      "value": "Скрыть перевод"
     },
     {
       "_": "types.LangPackString",
@@ -24097,6 +24440,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Story.PlaybackSpeed",
+      "value": "Скорость"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.ReactionsHint.LongTap",
+      "value": "Удерживайте для выбора реакции"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.ReactionsHint.RightClick",
+      "value": "Нажмите правой кнопкой мыши для выбора реакции"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Story.RemoveFromProfile",
       "value": "Удалить из профиля"
     },
@@ -24112,13 +24470,103 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Story.SendReactionAsGroupMessage",
+      "value": "Отправить реакцию в чат"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.SendReactionAsMessage",
+      "value": "Отправить реакцию в личный чат"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.SlideToSeek",
+      "value": "Для перемотки проведите влево или вправо"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Story.SoundTooltip",
       "value": "Нажмите, чтобы включить звук."
     },
     {
       "_": "types.LangPackString",
+      "key": "Story.StealthModeConfirm.Text",
+      "value": "Если Вы отправите ответ или реакцию, автор истории увидит Вас в списке просмотревших."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.StealthModeConfirm.Title",
+      "value": "Включён режим инкогнито"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.ToastPremiumSaveToGallery",
+      "value": "Сохранение историй, не защищённых от копирования, доступно с [Premium]()."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.ToastQualityHD.Text",
+      "value": "Качество можно понизить для ускорения загрузки."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.ToastQualityHD.Title",
+      "value": "Качество видео повышено"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.ToastQualitySD.Text",
+      "value": "Истории будут загружаться быстрее."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.ToastQualitySD.Title",
+      "value": "Качество видео понижено"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.ToastStealthModeActiveText",
+      "value": "Просмотры историй в течение следующих **%s** не будут видны авторам."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.ToastStealthModeActiveTitle",
+      "value": "Включён режим инкогнито"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Story.Tooltip.MessageSent",
       "value": "Сообщение отправлено."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.Tooltip.ReactionSent",
+      "value": "Реакция отправлена."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.Unsupported",
+      "value": "Просмотр этой истории не поддерживается в Telegram для браузера. Воспользуйтесь одним из приложений Telegram."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.UpgradeQuality.Action",
+      "value": "Повысить качество"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.UpgradeQuality.Text",
+      "value": "Просматривать истории в высоком разрешении можно с Premium."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.UpgradeQuality.Title",
+      "value": "Высокое разрешение"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.ViewGift",
+      "value": "Показать подарок"
     },
     {
       "_": "types.LangPackString",
@@ -24192,12 +24640,27 @@
       "value": "Историю могут видеть только контакты **%s**."
     },
     {
+      "_": "types.LangPackString",
+      "key": "StoryDeleteContact",
+      "value": "Удалить контакт"
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "few_value": "%d истории скрыты из профиля группы",
       "key": "StoryGroupArchived",
       "many_value": "%d историй скрыто из профиля группы",
       "one_value": "%d история скрыта из профиля группы",
       "other_value": "%d историй скрыто из профиля группы"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryHidFromToast",
+      "value": "%s не будет видеть Ваши истории."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryHideFrom",
+      "value": "Скрыть мои истории от %s"
     },
     {
       "_": "types.LangPackString",
@@ -24326,6 +24789,16 @@
       "value": "Типы реакций на истории"
     },
     {
+      "_": "types.LangPackString",
+      "key": "StoryReactionsSortDescription",
+      "value": "Выберите порядок \nреакций в списке."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryRepostCommented",
+      "value": "с комментарием"
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "few_value": "%d истории опубликованы в профиле канала",
       "key": "StorySavedChannelTitle",
@@ -24416,6 +24889,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "StoryShowBackTo",
+      "value": "Не скрывать мои истории от %s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryShownBackToToast",
+      "value": "%s будет видеть Ваши истории."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "StoryStatistics",
       "value": "Статистика истории"
     },
@@ -24433,6 +24916,16 @@
       "_": "types.LangPackString",
       "key": "StoryViewers",
       "value": "Просмотревшие пользователи"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryViewsPremiumHint",
+      "value": "Чтобы узнавать о новых просмотрах Ваших истекших и опубликованных историй, оформите подписку **Telegram Premium**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryViewsSortDescription",
+      "value": "Выберите порядок отображения\nпросмотревших."
     },
     {
       "_": "types.LangPackString",
@@ -25785,6 +26278,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "UserRestrictionsEditRank",
+      "value": "Изменение своих тегов"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UserRestrictionsEditRankSingle",
+      "value": "Изменение своего тега"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "UserRestrictionsEmbedLinks",
       "value": "Предпросмотр для ссылок"
     },
@@ -25797,6 +26300,11 @@
       "_": "types.LangPackString",
       "key": "UserRestrictionsNoChangeInfo",
       "value": "без изменений профиля"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UserRestrictionsNoEditRank",
+      "value": "без своего тега"
     },
     {
       "_": "types.LangPackString",
@@ -26714,5 +27222,5 @@
       "other_value": "%1$d сообщений"
     }
   ],
-  "version": 361785
+  "version": 367721
 }

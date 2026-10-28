@@ -560,6 +560,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ActionManagedBotCreated",
+      "value": "{from} loi botin {bot}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ActionManagedBotCreatedYou",
+      "value": "Loit botin {bot}"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ActionMessageChannelDisabled",
       "value": "{peer} ei ota enää yksityisviestejä vastaan"
     },
@@ -3537,6 +3547,31 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "BotStatusAgent",
+      "value": "Agentti"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotStatusAi",
+      "value": "Tekoäly"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotStatusApp",
+      "value": "Sovellus"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotStatusGame",
+      "value": "Peli"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotStatusNonBinary",
+      "value": "Muunsukupuolinen"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "BotStop",
       "value": "Estä botti"
     },
@@ -5368,7 +5403,7 @@
     {
       "_": "types.LangPackString",
       "key": "ComposerSubtitleFrozenAccount",
-      "value": "Napautus avaa lisätiedot"
+      "value": "Napsautus avaa lisätiedot"
     },
     {
       "_": "types.LangPackString",
@@ -5752,6 +5787,87 @@
       "_": "types.LangPackString",
       "key": "Create",
       "value": "Luo"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBotCreatedText",
+      "value": "**{bot}** hallinnoi bottia puolestasi."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBotCreatedTitle",
+      "value": "{name} luotiin!"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "CreateBotLimitText",
+      "one_value": "Voit luoda enintään {count} botin, tai poistaa joitain boteistasi @BotFather-botilla",
+      "other_value": "Voit luoda enintään {count} bottia, tai poistaa joitain boteistasi @BotFather-botilla"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBotLimitTextPremium",
+      "value": "Tilaa **Premium** luodaksesi peräti {premiumLimit} bottia, tai poista joku {limit} botistasi @BotFather-botilla"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBotLimitTitle",
+      "value": "Bottiraja kohdattiin"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBotName",
+      "value": "Botin nimi"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBotText",
+      "value": "{bot} haluaa luoda botin ja hallinnoida sitä puolestasi."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBotTitle",
+      "value": "Luo botti"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBotUnsupported",
+      "value": "**{bot}** ei tue bottien hallinnointia."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBotUsername",
+      "value": "Botin käyttäjänimi"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBotUsernameChecking",
+      "value": "Tarkistetaan..."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBotUsernameHelp",
+      "value": "Valitse botillesi käyttäjänimi. Sen pitää päättyä sanaan 'bot'. Esimerkkejä: TetrisBot, tetris_bot."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBotUsernameHint",
+      "value": "Nimen lopussa pitää olla 'bot' – tai {suffixes} {premium} -tilauksella."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBotUsernamePremium",
+      "value": "Käyttäjänimet, joiden lopussa on '{suffix}', vaativat Telegram Premium -tilauksen. {link}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBotUsernameSubscribe",
+      "value": "Tilaa"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBotUsernameSuffix",
+      "value": "Käyttäjänimen pitää päättyä sanaan 'bot'."
     },
     {
       "_": "types.LangPackString",
@@ -6587,6 +6703,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Edited",
+      "value": "muokattu"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "EmbeddedMessageNoCaption",
       "value": "Teksti poistettu"
     },
@@ -6839,12 +6960,12 @@
     {
       "_": "types.LangPackString",
       "key": "ErrorAdminRankEmojiNotAllowed",
-      "value": "Valvojan tittelissä ei saa olla emojeita"
+      "value": "Valvojatunnisteessa ei saa olla emojeita"
     },
     {
       "_": "types.LangPackString",
       "key": "ErrorAdminRankInvalid",
-      "value": "Valvojan titteli ei kelpaa"
+      "value": "Valvojatunniste ei kelpaa"
     },
     {
       "_": "types.LangPackString",
@@ -8684,6 +8805,21 @@
       "value": "Päiväys"
     },
     {
+      "_": "types.LangPackString",
+      "key": "GiftInfoDelete",
+      "value": "Poista lahja"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftInfoDeleteDescription",
+      "value": "Haluatko poistaa tämän lahjan?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftInfoDeleteDescription2",
+      "value": "Se katoaa profiilistasi, eikä sitä voi enää palauttaa."
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "key": "GiftInfoDescription",
       "one_value": "Voit pitää lahjan profiilissasi, tai muuntaa sen **{amount}** tähdeksi.",
@@ -10083,7 +10219,7 @@
     {
       "_": "types.LangPackString",
       "key": "JoinRequestAcceptAll",
-      "value": "Hyväksy kaikki"
+      "value": "Lisää kaikki"
     },
     {
       "_": "types.LangPackString",
@@ -10155,6 +10291,51 @@
       "_": "types.LangPackString",
       "key": "Language",
       "value": "Kieli"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LanguageAlert",
+      "value": "Olet ottamassa käyttöön kielipakettia **{language}**, joka on {percent}% valmis.\n\nKoko käyttöliittymä käännetään. Voit ehdottaa korjauksia {link}.\n\nVoit vaihtaa kielen takaisin koska vain ({settings})."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LanguageAlready",
+      "value": "Käytät jo tätä kielipakettia. Voit vaihtaa kielen takaisin koska vain ({settings})."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LanguageApply",
+      "value": "Käytä kieltä"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LanguageCustomAlert",
+      "value": "Olet ottamassa käyttöön mukautettua kielipakettia **{language}**, joka on {percent}% valmis.\n\nKoko käyttöliittymä käännetään. Voit ehdottaa korjauksia {link}.\n\nVoit vaihtaa kielen takaisin koska vain ({settings})."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LanguageLoadFailed",
+      "value": "Kielipakettia ei voitu ladata. Yritä uudelleen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LanguageNotFound",
+      "value": "Valitettavasti kielipakettia ei ole olemassa."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LanguageTitle",
+      "value": "Vaihdetaanko kieltä?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LanguageTranslateLink",
+      "value": "käännösalustallamme"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LanguageUnknownCustomAlert",
+      "value": "Valitettavasti tässä kielipaketissa ({language}) ei ole tietoja Telegram Web A:lle. Voit auttaa käännöspaketin kehitystyössä {link}."
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -11850,6 +12031,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "NotificationGiftDeleted",
+      "value": "Lahja poistettiin"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "NotificationGiftIsSale",
       "value": "{gift} on nyt myynnissä!"
     },
@@ -12941,7 +13127,7 @@
     {
       "_": "types.LangPackString",
       "key": "PollEndsTime",
-      "value": "päättymiseen {time}"
+      "value": "auki vielä: {time}"
     },
     {
       "_": "types.LangPackString",
@@ -13973,6 +14159,11 @@
       "key": "ProfileBirthdayValueAge",
       "one_value": "{date} ({age}-vuotias)",
       "other_value": "{date} ({age}-vuotias)"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ProfileBotManagedBy",
+      "value": "{bot} loi ja hallinnoi"
     },
     {
       "_": "types.LangPackString",
@@ -16223,6 +16414,116 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "SettingsKeywordsArchiveAndMute",
+      "value": "arkisto, arkistoi, mykistä, uusi keskustelu, uudet keskustelut, roskaposti"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SettingsKeywordsAutoDelete",
+      "value": "automaattipoisto, ajastin, poistoajastin, automaattinen poisto, itsetuho, tuhoutuva"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SettingsKeywordsBlockedUsers",
+      "value": "esto, estä, poista esto"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SettingsKeywordsChannels",
+      "value": "kanavat, lähetys"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SettingsKeywordsChatBackground",
+      "value": "taustakuva, tausta, kuva"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SettingsKeywordsDataStorage",
+      "value": "tallennustila, tila, välimuisti, data, lataus, kaista"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SettingsKeywordsFolders",
+      "value": "kansiot, suodattimet, välilehdet, suodatin, välilehti"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SettingsKeywordsGroups",
+      "value": "ryhmät, superryhmät"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SettingsKeywordsLanguage",
+      "value": "kieli, maa-asetus, maa-asetukset, käännös, kääntäminen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SettingsKeywordsLastSeen",
+      "value": "paikalla, viimeksi nähty, tila"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SettingsKeywordsLogOut",
+      "value": "kirjaudu ulos, uloskirjautuminen, poistu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SettingsKeywordsNotifications",
+      "value": "mykistä, mykistys, ääni, äänet, ilmoitus, ilmoitukset, hälytys, hälytykset"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SettingsKeywordsPasscode",
+      "value": "pääsykoodi, tunnusluku, pin, lukitus"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SettingsKeywordsPasskeys",
+      "value": "avainkoodi, pääsyavain, passkey, webauthn, biometrinen, sormenjälki"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SettingsKeywordsPerformance",
+      "value": "virransäästö, virta, akku, animaatiot, suorituskyky"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SettingsKeywordsPrivateChats",
+      "value": "yksityinen, yksityiset viestit, dm"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SettingsKeywordsSessions",
+      "value": "laite, laitteet, istunto, istunnot, katkaise, kirjaa ulos, kirjaudu ulos"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SettingsKeywordsStickers",
+      "value": "tarrat, emojit, gifit, naamiot, maskit, reaktiot"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SettingsKeywordsTextSize",
+      "value": "fontti, kirjasin, fonttikoko, kirjasinkoko, tekstikoko, suurenna, pienennä"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SettingsKeywordsTheme",
+      "value": "teema, väri, korostusväri, tumma tila, yötila"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SettingsKeywordsTimeFormat",
+      "value": "kello, kellonaika, 24 tuntia, 12 tuntia"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SettingsKeywordsTwoStep",
+      "value": "2fa, kaksivaiheinen, pilvisalasana, salasana, tietoturva"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "SettingsLanguageDesc",
       "value": "{language}, käännä viestit"
     },
@@ -16435,6 +16736,11 @@
       "_": "types.LangPackString",
       "key": "SettingsSaveChanges",
       "value": "Tallenna muutokset"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SettingsSearchEmpty",
+      "value": "Kirjoita hakeaksesi asetuksia"
     },
     {
       "_": "types.LangPackString",
@@ -17009,7 +17315,7 @@
     {
       "_": "types.LangPackString",
       "key": "StarsIntroTransactionGoogleTopUpSubtitle",
-      "value": "Play Market"
+      "value": "Google Playn kautta"
     },
     {
       "_": "types.LangPackString",
@@ -18065,7 +18371,7 @@
     {
       "_": "types.LangPackString",
       "key": "SubtitleFrozenAccount",
-      "value": "Napauta avataksesi lisätiedot ja tehdäksesi valituksen."
+      "value": "Napsauta avataksesi lisätiedot ja tehdäksesi valituksen."
     },
     {
       "_": "types.LangPackString",
@@ -20079,6 +20385,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletConnectManifestInvalid",
+      "value": "Sovelluksen tiedot ovat virheellisiä tai kuuluvat eri verkkotunnukselle."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletConnectPermissionInfo",
       "value": "Sovellus ei voi siirtää varoja ilman suostumustasi."
     },
@@ -20469,6 +20780,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletLogoutKeyRotation",
+      "value": "Lompakon avaimen muutos tällä laitteella on yhä vireillä. Uusi avain on talletettu vain tälle laitteelle. Jos kirjaudut ulos ja muutos suoriutuu loppuun, menetät pääsyn lompakkoon."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletLogoutWarning",
+      "value": "Tälle laitteelle tallennettujen lompakkojen salalauseet poistetaan, kun kirjaudut ulos. Varmista, että salalauseet on joko otettu talteen tai että niistä on pilvivarmuuskopio."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletMenuItem",
       "value": "Raha"
     },
@@ -20616,6 +20937,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletReceiveAddressCopied",
+      "value": "Osoite kopioitiin"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletReceiveBuy",
       "value": "Osta käteisellä tai kryptolla"
     },
@@ -20631,8 +20957,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletReceivePeerNote",
+      "value": "Lähetä tähän osoitteeseen grameja tai skannaa QR-koodi."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletReceivePeerShowQr",
+      "value": "Näytä QR-koodi"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletReceiveShowQr",
+      "value": "Näytä QR-koodini"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletReceiveTitle",
       "value": "Lisää varoja"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletRecipientGramWallet",
+      "value": "Gram-lompakko"
     },
     {
       "_": "types.LangPackString",
@@ -20746,6 +21092,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletSendAmountButton",
+      "value": "Lähetä {amount}"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletSendBalance",
       "value": "Saldo: {amount}"
     },
@@ -20831,6 +21182,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletSendPending",
+      "value": "Siirto on saatu suorittaa. Älä yritä lähettää sitä uudelleen, ennen kuin sen tila vahvistetaan."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletSendPendingError",
       "value": "Edellinen siirto on yhä kesken. Yritä hetken kuluttua uudelleen."
     },
@@ -20846,6 +21202,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletSendRecipientWallet",
+      "value": "Lompakko: {name}"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletSendSuccess",
       "value": "Gramit lähetettiin"
     },
@@ -20856,8 +21217,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletSendSwitchCurrency",
+      "value": "Vaihda valuutta"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletSendTitle",
       "value": "Lähetä grameja"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendUnlinkedWallet",
+      "value": "Lompakkoa ei kytketty"
     },
     {
       "_": "types.LangPackString",
@@ -20988,6 +21359,16 @@
       "_": "types.LangPackString",
       "key": "WalletTransactionKeyChange",
       "value": "Avaimen muutos"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionMovedFromProfile",
+      "value": "SIirrettiin profiilista"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionMovedToProfile",
+      "value": "SIirrettiin profiiliin"
     },
     {
       "_": "types.LangPackString",
@@ -21252,5 +21633,5 @@
       "value": "Nimesi"
     }
   ],
-  "version": 376754
+  "version": 377717
 }
