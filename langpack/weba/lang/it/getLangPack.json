@@ -3562,6 +3562,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "BotStatusNonBinary",
+      "value": "Non binario"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "BotStop",
       "value": "Blocca bot"
     },
@@ -6929,12 +6934,12 @@
     {
       "_": "types.LangPackString",
       "key": "ErrorAdminRankEmojiNotAllowed",
-      "value": "Un grado di amministratore non può contenere emoji"
+      "value": "Un tag amministratore non può contenere emoji"
     },
     {
       "_": "types.LangPackString",
       "key": "ErrorAdminRankInvalid",
-      "value": "Il grado amministrativo specificato non è valido"
+      "value": "Il tag amministratore specificato non è valido"
     },
     {
       "_": "types.LangPackString",
@@ -7040,6 +7045,11 @@
       "_": "types.LangPackString",
       "key": "ErrorFreshAdmin",
       "value": "Sei appena stato eletto amministratore, non puoi ancora aggiungere o modificare altri amministratori."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorFreshSessionLogout",
+      "value": "Non puoi disconnettere altre sessioni se sono trascorse meno di 24 ore dall'accesso alla sessione corrente"
     },
     {
       "_": "types.LangPackString",
@@ -7303,6 +7313,11 @@
       "_": "types.LangPackString",
       "key": "ErrorUserBannedInChannel",
       "value": "Ti è vietato inviare messaggi nei supergruppi / canali"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorUserChannelsTooMuch",
+      "value": "Uno degli utenti che hai cercato di aggiungere fa già parte di troppi canali/supergruppi"
     },
     {
       "_": "types.LangPackString",
@@ -9614,6 +9629,11 @@
       "value": "Potenzia gruppo"
     },
     {
+      "_": "types.LangPackString",
+      "key": "GroupBoostBoostToUnrestrict",
+      "value": "Potenzia il gruppo {boostTimes} per rimuovere le restrizioni ai messaggi. Il tuo potenziamento aiuterà **{chat}** a sbloccare nuove funzioni."
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "key": "GroupBoostBoostToUnrestrictTimes",
       "one_value": "**{count}** volta",
@@ -10506,6 +10526,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "LimitReachedFolderLinksPremium",
+      "value": "Puoi creare solo {limit} link d'invito. Prova ad eliminare qualche link d'invito della cartella."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "LimitReachedFolders",
       "value": "Hai raggiunto il limite di **{limit}** cartelle. Puoi raddoppiare il limite a **{limit2}** cartelle abbonandoti a **Telegram Premium**."
     },
@@ -10536,6 +10561,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "LimitReachedPinSavedDialogs",
+      "value": "Spiacenti, non puoi fissare in alto più di {limit} chat. Togline qualcuna attualmente fissata o abbonati a **Telegram Premium** per aumentare il limite a **{limit2}** chat."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "LimitReachedPinnedTopics",
       "value": "Spiacenti, non puoi fissare in alto più di {limit} chat."
     },
@@ -10553,6 +10583,11 @@
       "_": "types.LangPackString",
       "key": "LimitReachedPublicLinksPremium",
       "value": "Hai riservato troppi link pubblici. Prova a revocare il link da un gruppo o canale più vecchio."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LimitReachedSharedFolders",
+      "value": "Puoi avere solo {limit} cartelle condivisibili. \nPassa a **Telegram Premium** per aumentare questo limite a **{limit2}**."
     },
     {
       "_": "types.LangPackString",
@@ -11452,6 +11487,11 @@
       "_": "types.LangPackString",
       "key": "MonetizationWithdraw",
       "value": "Preleva tramite Fragment"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MonetizationWithdrawErrorText",
+      "value": "Puoi ritirare le ricompense solo se:\n\n• La Verifica in due passaggi è attiva sul tuo account da più di 7 giorni.\n\n• Hai eseguito l'accesso su questo dispositivo da più di 24 ore.\n\nRitorna più tardi."
     },
     {
       "_": "types.LangPackString",
@@ -20633,6 +20673,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletLogoutWarning",
+      "value": "Le frasi segrete salvate su questo dispositivo per i tuoi wallet saranno cancellate alla disconnessione. Assicurati che ogni frase abbia un backup su cloud o una copia scritta."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletMenuItem",
       "value": "Denaro"
     },
@@ -20722,6 +20767,11 @@
       "_": "types.LangPackString",
       "key": "WalletPhraseKept",
       "value": "La tua frase segreta ora è conservata su questo dispositivo."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletPhraseNotKept",
+      "value": "Il tuo wallet è stato ripristinato, ma non è stato possibile salvare la frase segreta su questo dispositivo. Inseriscila di nuovo per inviare da questo wallet."
     },
     {
       "_": "types.LangPackString",
@@ -20822,6 +20872,11 @@
       "_": "types.LangPackString",
       "key": "WalletReleaseKeyRemove",
       "value": "Rimuovi chiavi"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletReleaseKeyText",
+      "value": "Le chiavi del tuo wallet Gram sono protette dal codice di accesso dell'app e sono salvate con esso. Assicurati che il backup sia attivo o che le frasi segrete siano state annotate prima di disattivarlo."
     },
     {
       "_": "types.LangPackString",
@@ -21421,5 +21476,5 @@
       "value": "Il tuo nome"
     }
   ],
-  "version": 376754
+  "version": 377681
 }
