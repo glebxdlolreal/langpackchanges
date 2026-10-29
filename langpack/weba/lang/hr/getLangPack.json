@@ -337,6 +337,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ActionGiftStarsSubtitle",
+      "value": "Sa zvjezdicama, **{peer}** može otključati sadržaj i usluge na Telegramu."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ActionGiftStarsText",
       "value": "Koristite zvjezdice za otključavanje sadržaja i usluga na Telegramu."
     },
@@ -502,6 +507,11 @@
       "_": "types.LangPackString",
       "key": "ActionKickUserYou",
       "value": "Uklonili ste {user}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ActionManagedBotCreated",
+      "value": "Bot {from} je napravio bot {bot}"
     },
     {
       "_": "types.LangPackString",
@@ -1320,6 +1330,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AdReported",
+      "value": "Pregledat ćemo ovaj oglas kako bismo bili sigurni da je u skladu s našim **pravilima i smjernicama za oglase.**"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Add",
       "value": "Dodaj"
     },
@@ -1347,6 +1362,11 @@
       "_": "types.LangPackString",
       "key": "AddToFavorites",
       "value": "Dodaj u omiljene"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AddedToDoNotTranslate",
+      "value": "**{language}** je dodan na listu jezika koji se neće prevoditi."
     },
     {
       "_": "types.LangPackString",
@@ -1606,6 +1626,13 @@
       "value": "Uvijek dijeli "
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "između {count} pobjednika",
+      "key": "AmongWinners",
+      "one_value": "između {count} pobjednika",
+      "other_value": "između {count} pobjednika"
+    },
+    {
       "_": "types.LangPackString",
       "key": "AnonymousForward",
       "value": "Autor je skriven"
@@ -1712,6 +1739,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ArchiveStory",
+      "value": "Arhiviraj priče"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ArchivedChats",
       "value": "Arhivirani razgovori"
     },
@@ -1744,6 +1776,11 @@
       "_": "types.LangPackString",
       "key": "AreYouSureDeleteThisChatWithGroup",
       "value": "Želite li izbrisati razgovor **{chat}**?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AreYouSureLogoutGrams",
+      "value": "Želite li se odjaviti?\n\nOvo će izbrisati sve vaše tajne razgovore i **izbrisati sigurnosne kopije novčanika koje sadrže {amount}**. Bez tajnog niza riječi, izgubit ćete pristup tim sredstvima.\n\n\nMožete koristiti Telegram na svim svojim uređajima odjednom i koristiti nekoliko računa u istoj aplikaciji."
     },
     {
       "_": "types.LangPackString",
@@ -2518,6 +2555,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "BoostExpireOn",
+      "value": "pojačanje vrijedi do {date}"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "BoostGiftDateEnds",
       "value": "Završava"
     },
@@ -2530,6 +2572,11 @@
       "_": "types.LangPackString",
       "key": "BoostGiftStarsInfo",
       "value": "Odaberite koliko zvjezdica ćete podijeliti i koliko pojačanja ćete dobiti tijekom 1 godine."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostGiftStarsPerUser",
+      "value": "{count} po korisniku"
     },
     {
       "_": "types.LangPackString",
@@ -2572,9 +2619,23 @@
       "value": "Nadogradi grupu"
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "{count} pojačanja",
+      "key": "BoostingBoostsCount",
+      "one_value": "{count} pojačanje",
+      "other_value": "{count} pojačanja"
+    },
+    {
       "_": "types.LangPackString",
       "key": "BoostingBoostsViaGifts",
       "value": "Nadogradite darivanjem"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "ovaj kanal će dobiti {count} pojačanja",
+      "key": "BoostingChannelWillReceiveBoost",
+      "one_value": "ovaj kanal će dobiti {count} pojačanje",
+      "other_value": "ovaj kanal će dobiti {count} pojačanja"
     },
     {
       "_": "types.LangPackString",
@@ -2633,6 +2694,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "BoostingGetMoreBoostsGroup",
+      "value": "Poklonite Premium svojim članovima i nadogradite svoju grupu."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "BoostingGift",
       "value": "Poklon"
     },
@@ -2640,6 +2706,13 @@
       "_": "types.LangPackString",
       "key": "BoostingGiftLink",
       "value": "Link poklona"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "{count} poklona",
+      "key": "BoostingGiftsCount",
+      "one_value": "{count} poklon",
+      "other_value": "{count} poklona"
     },
     {
       "_": "types.LangPackString",
@@ -2650,6 +2723,20 @@
       "_": "types.LangPackString",
       "key": "BoostingGiveaway",
       "value": "Darivanje"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Sve nagrade: **{count}** Telegram Premium pretplate za {duration}.",
+      "key": "BoostingGiveawayAdditionPrizeCountHint",
+      "one_value": "Sve nagrade: **{count}** Telegram Premium pretplata za {duration}.",
+      "other_value": "Sve nagrade: **{count}** Telegram Premium pretplata za {duration}."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Sve nagrade: **{count}** {prize} + Telegram Premium pretplate za {duration} .",
+      "key": "BoostingGiveawayAdditionPrizeCountNameHint",
+      "one_value": "Sve nagrade: **{count}** {prize} + Telegram Premium pretplata za {duration} .",
+      "other_value": "Sve nagrade: **{count}** {prize} + Telegram Premium pretplata za {duration} ."
     },
     {
       "_": "types.LangPackString",
@@ -2678,6 +2765,62 @@
     },
     {
       "_": "types.LangPackStringPluralized",
+      "few_value": "Kanal **{chat}** je uključio kao nagrade i **{quantity}** **{prize}**. Administratori kanala su odgovorni za podjelu ovih nagrada.",
+      "key": "BoostingGiveawayHowItWorksIncludeText",
+      "one_value": "Kanal **{chat}** je uključio kao nagrade i **{quantity}** **{prize}**. Administratori kanala su odgovorni za podjelu ovih nagrada.",
+      "other_value": "Kanal **{chat}** je uključio kao nagrade i **{quantity}** **{prize}**. Administratori kanala su odgovorni za podjelu ovih nagrada."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Telegram će **{date}** automatski odabrati **{quantity}** nasumična korisnika koji su se pridružili **{chat}**.",
+      "key": "BoostingGiveawayHowItWorksSubText",
+      "one_value": "Telegram će **{date}** automatski odabrati **{quantity}** nasumičnog korisnika koji se pridružio **{chat}**.",
+      "other_value": "Telegram će **{date}** automatski odabrati **{quantity}** nasumičnih korisnika koji su se pridružili **{chat}**."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Telegram je **{date}** automatski odabrao **{quantity}** nasumična korisnika koji su se pridružili **{chat}**.",
+      "key": "BoostingGiveawayHowItWorksSubTextEnd",
+      "one_value": "Telegram je **{date}** automatski odabrao **{quantity}** nasumičnog korisnika koji se pridružio **{chat}**.",
+      "other_value": "Telegram je **{date}** automatski odabrao **{quantity}** nasumičnih korisnika koji su se pridružili **{chat}**."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Telegram će **{date}** automatski odabrati **{quantity}** nasumična korisnika koji su se pridružili **{chat}** {otherChannels}.",
+      "key": "BoostingGiveawayHowItWorksSubTextSeveral1",
+      "one_value": "Telegram će **{date}** automatski odabrati **{quantity}** nasumičnog korisnika koji se pridružio **{chat}** {otherChannels}.",
+      "other_value": "Telegram će **{date}** automatski odabrati **{quantity}** nasumičnih korisnika koji su se pridružili **{chat}** {otherChannels}."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "i u još **{count}** navedena kanala",
+      "key": "BoostingGiveawayHowItWorksSubTextSeveral2",
+      "one_value": "i u još **{count}** navedeni kanal",
+      "other_value": "i u još **{count}** navedenih kanala"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Telegram je **{date}** automatski odabrao **{quantity}** nasumična korisnika koji su se pridružili **{chat}** {otherChannels}.",
+      "key": "BoostingGiveawayHowItWorksSubTextSeveralEnd1",
+      "one_value": "Telegram je **{date}** automatski odabrao **{quantity}** nasumičnog korisnika koji se pridružio **{chat}** {otherChannels}.",
+      "other_value": "Telegram je **{date}** automatski odabrao **{quantity}** nasumičnih korisnika koji su se prdružili **{chat}** {otherChannels}."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Ovo darivanje sponzoriraju administratori kanala **{chat}**, koji svojim pretplatnicima poklanjaju **{quantity} Telegram Premium** pretplate za {duration}.",
+      "key": "BoostingGiveawayHowItWorksText",
+      "one_value": "Ovo darivanje sponzoriraju administratori kanala **{chat}**, koji svojim pretplatnicima poklanjaju **{quantity} Telegram Premium** pretplatu za {duration}.",
+      "other_value": "Ovo darivanje sponzoriraju administratori kanala **{chat}**, koji svojim pretplatnicima poklanjaju **{quantity} Telegram Premium** pretplata za {duration}."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Ovo darivanje sponzorirali su administratori kanala **{chat}**, koji su svojim pretplatnicima poklonili **{quantity} Telegram Premium** pretplate u trajanju od {duration}.",
+      "key": "BoostingGiveawayHowItWorksTextEnd",
+      "one_value": "Ovo darivanje sponzorirali su administratori kanala **{chat}**, koji su svojim pretplatnicima poklonili **{quantity} Telegram Premium** pretplatu u trajanju od {duration}.",
+      "other_value": "Ovo darivanje sponzorirali su administratori kanala **{chat}**, koji su svojim pretplatnicima poklonili **{quantity} Telegram Premium** pretplata u trajanju od {duration}."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
       "few_value": "Svi pretplatnici kanala:",
       "key": "BoostingGiveawayMsgAllSubsPlural",
       "one_value": "Svi pretplatnici kanala:",
@@ -2692,6 +2835,16 @@
       "_": "types.LangPackString",
       "key": "BoostingGiveawayMsgWithDivider",
       "value": "+"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingGiveawayNotEligible",
+      "value": "Ne ispunjavate uvjete za sudjelovanje u ovom darivanju jer ste se ovom kanalu pridružili **{date}**, što je prije početka darivanja."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingGiveawayNotEligibleAdmin",
+      "value": "Ne ispunjavate uvjete za sudjelovanje u ovom darivanju jer ste administrator kanala koji sudjeluje (**{chat}**)."
     },
     {
       "_": "types.LangPackString",
@@ -2724,6 +2877,13 @@
       "value": "**Odabrani su dobitnici!**"
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Telegram je nasumično odabrao {count} dobitnika darivanja.",
+      "key": "BoostingGiveawayResultsMsgWinnersTitle",
+      "one_value": "Telegram je nasumično odabrao {count} dobitnika darivanja.",
+      "other_value": "Telegram je nasumično odabrao {count} dobitnika darivanja."
+    },
+    {
       "_": "types.LangPackString",
       "key": "BoostingGiveawayShowWinners",
       "value": "Prikaži dobitnike"
@@ -2734,6 +2894,13 @@
       "value": "Uključite ako želite objaviti popis dobitnika kad darivanje završi."
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "**{count}** dobitnika su već aktivirala link poklona.",
+      "key": "BoostingGiveawayUsedLinksPlural",
+      "one_value": "**{count}** dobitnik je već aktivirao link poklona.",
+      "other_value": "**{count}** dobitnika je već aktiviralo link poklona."
+    },
+    {
       "_": "types.LangPackString",
       "key": "BoostingGiveawayYouNotWon",
       "value": "Niste osvojili nagradu u ovom darivanju."
@@ -2742,6 +2909,13 @@
       "_": "types.LangPackString",
       "key": "BoostingGiveawayYouWon",
       "value": "Osvojili ste nagradu u ovom darivanju 🏆"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "ova grupa će dobiti {count} pojačanja",
+      "key": "BoostingGroupWillReceiveBoost",
+      "one_value": "ova grupa će dobiti {count} pojačanje",
+      "other_value": "ova grupa će dobiti {count} pojačanja"
     },
     {
       "_": "types.LangPackString",
@@ -2794,9 +2968,30 @@
       "value": "Odaberite darivanje koje ste već platili kako biste ga postavili."
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Možete odabrati najviše {count} kanala.",
+      "key": "BoostingSelectUpToWarningChannelsPlural",
+      "one_value": "Možete odabrati najviše {count} kanal.",
+      "other_value": "Možete odabrati najviše {count} kanala."
+    },
+    {
       "_": "types.LangPackString",
       "key": "BoostingSendLinkToAnyone",
       "value": "Također možete **poslati ovaj link** bilo kome kao poklon."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Ovo darivanje sponzoriraju administratori kanala **{chat}**, koji svojim pretplatnicima poklanjaju **{count} zvjezdice**.",
+      "key": "BoostingStarsGiveawayHowItWorksText",
+      "one_value": "Ovo darivanje sponzoriraju administratori kanala **{chat}**, koji svojim pretplatnicima poklanjaju **{count} zvjezdicu**.",
+      "other_value": "Ovo darivanje sponzoriraju administratori kanala **{chat}**, koji svojim pretplatnicima poklanjaju **{count} zvjezdica**."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Ovo darivanje sponzorirali su administratori kanala **{chat}**, koji su svojim pretplatnicima poklonili **{count} zvjezdice**.",
+      "key": "BoostingStarsGiveawayHowItWorksTextEnd",
+      "one_value": "Ovo darivanje sponzorirali su administratori kanala **{chat}**, koji su svojim pretplatnicima poklonili **{count} zvjezdicu**.",
+      "other_value": "Ovo darivanje sponzorirali su administratori kanala **{chat}**, koji su svojim pretplatnicima poklonili **{count} zvjezdica**."
     },
     {
       "_": "types.LangPackString",
@@ -2830,6 +3025,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "BoostingTelegramPremiumFor",
+      "value": "Telegram Premium za {duration}"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "BoostingTo",
       "value": "Za"
     },
@@ -2845,6 +3045,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "BoostingUsedLinkDate",
+      "value": "Ovaj link je iskorišten {date}."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "BoostingWinnersDate",
       "value": "**Datum odabira dobitnika**"
     },
@@ -2857,6 +3062,11 @@
       "_": "types.LangPackString",
       "key": "Boosts",
       "value": "Nadogradnje"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostsLevel",
+      "value": "Razina {level}"
     },
     {
       "_": "types.LangPackString",
@@ -3120,6 +3330,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "BotRemoveFromMenu",
+      "value": "Ovo će ukloniti prečace za **{user}** iz svih izbornika."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "BotRemoveFromMenuTitle",
       "value": "Ukloni bot"
     },
@@ -3152,6 +3367,26 @@
       "_": "types.LangPackString",
       "key": "BotStart",
       "value": "POKRENI"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotStatusAgent",
+      "value": "Agent"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotStatusAi",
+      "value": "AI"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotStatusApp",
+      "value": "Aplikacija"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotStatusGame",
+      "value": "Igra"
     },
     {
       "_": "types.LangPackString",
@@ -3192,6 +3427,13 @@
       "_": "types.LangPackString",
       "key": "BotWebViewStartPermission",
       "value": "Povezat ćete se na web stranicu bota kako bi se web aplikacija mogla pokrenuti."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "{count} bota",
+      "key": "Bots",
+      "one_value": "{count} bot",
+      "other_value": "{count} botova"
     },
     {
       "_": "types.LangPackString",
@@ -3357,6 +3599,11 @@
       "_": "types.LangPackString",
       "key": "CallBack",
       "value": "Pozovi natrag"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CallCameraAccessNeeded",
+      "value": "Telegram treba pristup vašoj kameri kako biste mogli upućivati videopozive."
     },
     {
       "_": "types.LangPackString",
@@ -3582,8 +3829,35 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ChannelBoostErrorBoostTooOftenText",
+      "value": "Kanal koji podržavate možete promijeniti samo jednom dnevno. Moći ćete pružati podršku za **{time}**."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ChannelBoostErrorBoostTooOftenTitle",
       "value": "Ne možete prečesto pružati podršku"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "još **{count}** pojačanja",
+      "key": "ChannelBoostMoreBoosts",
+      "one_value": "još **{count}** pojačanje",
+      "other_value": "još **{count}** pojačanja"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChannelBoostMoreBoostsNeededText",
+      "value": "**{chat}** treba {moreBoosts} za otključavanje novih značajki."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChannelBoostReplaceBoost",
+      "value": "Trenutno pružate podršku kanalu **{currentChat}**. Želite li umjesto toga podržati **{chat}**?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChannelBoostYouBoostedChannelText",
+      "value": "Podržali ste {chat}!"
     },
     {
       "_": "types.LangPackString",
@@ -3989,6 +4263,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ChannelVisibilityConfirmMakePrivateChannel",
+      "value": "Ako postavite ovaj kanal kao privatan, vaš naziv @{currentUsername} će bit uklonjen. Taj naziv će bilo tko moći koristiti za svoju javnu grupu ili kanal."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ChannelVisibilityForwardingChannelInfo",
       "value": "Pretplatnici će moći kopirati, spremati ili prosljeđivati sadržaj iz ovog kanala."
     },
@@ -4018,9 +4297,56 @@
       "value": "Prosljeđivanje iz ove grupe"
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "{count} kanala",
+      "key": "Channels",
+      "one_value": "{count} kanal",
+      "other_value": "{count} kanala"
+    },
+    {
       "_": "types.LangPackString",
       "key": "ChannelsSearchContext",
       "value": "Kanali"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAllowedFiles",
+      "value": "datoteke"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAllowedMusic",
+      "value": "glazba"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAllowedPhotos",
+      "value": "slike"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAllowedStickers",
+      "value": "naljepnice & GIF-ovi"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAllowedText",
+      "value": "tekstualne poruke"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAllowedVideoMessages",
+      "value": "videoporuke"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAllowedVideos",
+      "value": "videozapisi"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAllowedVoices",
+      "value": "glasovne poruke"
     },
     {
       "_": "types.LangPackString",
@@ -4045,6 +4371,13 @@
       "value": "Prikaži po temama"
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Izbriši {count} poruke",
+      "key": "ChatDeleteMessagesConfirmation",
+      "one_value": "Izbriši {count} poruku",
+      "other_value": "Izbriši {count} poruka"
+    },
+    {
       "_": "types.LangPackString",
       "key": "ChatDraftPrefix",
       "value": "Skica:"
@@ -4053,6 +4386,11 @@
       "_": "types.LangPackString",
       "key": "ChatEmptyChat",
       "value": "Trenutno nema poruka"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatEmptyStateIntroFooter",
+      "value": "Korisnik {user} je postavio gornju poruku za sve prazne razgovore"
     },
     {
       "_": "types.LangPackString",
@@ -4068,6 +4406,38 @@
       "_": "types.LangPackString",
       "key": "ChatForwardActionHeader",
       "value": "Proslijedi poruke"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatGiveawayInfoNotQualified",
+      "value": "Da biste sudjelovali u ovom darivanju, pridružite se kanalu **{chat}** prije **{date}**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatGiveawayInfoNotQualifiedMany",
+      "value": "Da biste sudjelovali u ovom darivanju, pridružite se kanalu **{chat}** i ostalim navedenim kanalima ({otherChannels}) prije **{date}**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatGiveawayInfoParticipating",
+      "value": "Sudjelujete u ovom darivanju jer ste se pridružili kanalu **{chat}**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatGiveawayInfoParticipatingMany",
+      "value": "Sudjelujete u ovom darivanju jer ste se pridružili kanalu **{chat}** i ostalim navedenim kanalima ({otherChannels})."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "**{count} Telegram Premium** pretplate",
+      "key": "ChatGiveawayInfoSubscriptions",
+      "one_value": "**{count} Telegram Premium** pretplatu",
+      "other_value": "**{count} Telegram Premium** pretplata"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatGiveawayMessageCountriesFrom",
+      "value": "iz {countries}"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -4199,6 +4569,13 @@
       "value": "Ne možete dijeliti mape koje sadrže ili izuzimaju određene vrste razgovora kao što su Grupe, Kontakti itd."
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Uključuje {count} razgovora",
+      "key": "ChatListFilterLinkLabelChatCount",
+      "one_value": "Uključuje {count} razgovor",
+      "other_value": "Uključuje {count} razgovora"
+    },
+    {
       "_": "types.LangPackString",
       "key": "ChatListMarkAllAsRead",
       "value": "Označi sve kao pročitano"
@@ -4227,6 +4604,11 @@
       "_": "types.LangPackString",
       "key": "ChatListPeerTypeGroup",
       "value": "grupa"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatListPeerTypeNonContact",
+      "value": "nije kontakt"
     },
     {
       "_": "types.LangPackString",
@@ -4267,6 +4649,11 @@
       "_": "types.LangPackString",
       "key": "ChatMemberListNoAccess",
       "value": "Nemate pristup popisu članova grupe"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatMessagingRestrictedPlaceholder",
+      "value": "{user} prihvaća poruke samo od Premium korisnika."
     },
     {
       "_": "types.LangPackString",
@@ -4334,6 +4721,16 @@
       "_": "types.LangPackString",
       "key": "ChatQuizTotalVotesEmpty",
       "value": "Nema odgovora"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatSendAllowedContentText",
+      "value": "Administratori ove grupe dopuštaju da se šalju samo {types}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatSendNotAllowedText",
+      "value": "U ovoj grupi nije dopušteno slanje poruka"
     },
     {
       "_": "types.LangPackString",
@@ -4441,6 +4838,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "CheckoutNewCardSaveInfoHelp",
+      "value": "Možete spremiti podatke o plaćanju za buduće korištenje."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "CheckoutPasswordEntryTitle",
       "value": "Potvrda o plaćanju"
     },
@@ -4468,6 +4870,11 @@
       "_": "types.LangPackString",
       "key": "Clear",
       "value": "Očisti"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ClearHistoryMessageSingle",
+      "value": "Želite li ukloniti spremljene poruke iz {chat}?"
     },
     {
       "_": "types.LangPackString",
@@ -4806,6 +5213,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ConnectedAccountsLimitSubtitle",
+      "value": "Povežite {count} računa s različitim brojevima telefona"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ConnectedAccountsLimitTitle",
       "value": "Povezani računi"
     },
@@ -5023,6 +5435,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ConversationContextMenuSendGiftTo",
+      "value": "Poklon za {user}"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Pogledaj {count} odgovora",
+      "key": "ConversationContextViewReplies",
+      "one_value": "Pogledaj {count} odgovor",
+      "other_value": "Pogledaj {count} odgovora"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ConversationDefaultRestrictedMedia",
       "value": "U ovoj grupi nije dopušteno slanje medija."
     },
@@ -5083,6 +5507,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ConversationShareLinkTooltipChatOne",
+      "value": "Pozivnica je poslana: **{user}**"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ConversationStoryForwardTooltipSavedMessagesOne",
+      "value": "Priča je proslijeđena u **Spremljene poruke**"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ConversationSuggestedPhotoTitle",
       "value": "Predložena slika"
     },
@@ -5123,8 +5557,85 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "CreateBotCreatedText",
+      "value": "**{bot}** će upravljat ovim botom umjesto vas."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBotCreatedTitle",
+      "value": "Bot {name} je izrađen!"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Možete izraditi do {count} botova ili izbrisati svoje trenutne preko @BotFather",
+      "key": "CreateBotLimitText",
+      "one_value": "Možete izraditi do {count} botova ili izbrisati svoje trenutne preko @BotFather",
+      "other_value": "Možete izraditi do {count} botova ili izbrisati svoje trenutne preko @BotFather"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBotLimitTextPremium",
+      "value": "Pretplatite se na **Premium** da biste izradili do {premiumLimit} botova ili izbrišite jednog od svojih {limit} botova preko @BotFather"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBotLimitTitle",
+      "value": "Dosegnut je limit broja botova"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBotName",
+      "value": "Naziv bota"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBotText",
+      "value": "{bot} želi izraditi bot i upravljati njime u vaše ime."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "CreateBotTitle",
       "value": "Izrada bota"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBotUnsupported",
+      "value": "**{bot}** ne podržava način upravljanja botom."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBotUsername",
+      "value": "Korisničko ime bota"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBotUsernameChecking",
+      "value": "Provjera..."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBotUsernameHelp",
+      "value": "Odaberite korisničko ime za svog bota. Mora završavati na 'bot'. Na primjer: TetrisBot ili tetris_bot."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBotUsernameHint",
+      "value": "Mora završavati na 'bot' – ili {suffixes} uz {premium}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBotUsernamePremium",
+      "value": "Za korisnička imena koja završavaju na '{suffix}' potreban je Premium. {link}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBotUsernameSubscribe",
+      "value": "Pretplatite se"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBotUsernameSuffix",
+      "value": "Nažalost, korisničko ime mora završavati na 'bot'."
     },
     {
       "_": "types.LangPackString",
@@ -5300,6 +5811,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "DeleteAllFrom",
+      "value": "Izbriši sve od {user}"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "DeleteAllFromUsers",
       "value": "Izbriši sve od ovih korisnika"
     },
@@ -5327,6 +5843,11 @@
       "_": "types.LangPackString",
       "key": "DeleteAndStop",
       "value": "Izbriši i blokiraj"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "DeleteBan",
+      "value": "Zabrani pristup za {user}"
     },
     {
       "_": "types.LangPackString",
@@ -5386,6 +5907,11 @@
       "_": "types.LangPackString",
       "key": "DeleteMega",
       "value": "Izbriši grupu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "DeleteMessagesOptionAlso",
+      "value": "Izbriši i korisniku {user}"
     },
     {
       "_": "types.LangPackString",
@@ -5677,6 +6203,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "DoNotTranslateLanguage",
+      "value": "Nemoj prevoditi {language}"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Done",
       "value": "Gotovo"
     },
@@ -5689,6 +6220,11 @@
       "_": "types.LangPackString",
       "key": "DownloadSpeedLimited",
       "value": "Brzina preuzimanja je ograničena"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "DownloadSpeedLimitedMessage",
+      "value": "Pretplatite se na **Telegram Premium** i povećajte brzinu preuzimanja {factor} puta."
     },
     {
       "_": "types.LangPackString",
@@ -5976,6 +6512,13 @@
       "value": "Napravite vlastite pakete emojija pomoću @stickers bota."
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "{count} emojija",
+      "key": "EmojiCount",
+      "one_value": "{count} emoji",
+      "other_value": "{count} emojija"
+    },
+    {
       "_": "types.LangPackString",
       "key": "EmojiPremiumRestore",
       "value": "Vrati"
@@ -6052,6 +6595,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "EnableSomeReactionsInfo",
+      "value": "Članovi grupe mogu koristiti samo odobrene emojije kao reakcije na poruke."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "EnabledPasswordText",
       "value": "Uključili ste potvrdu u dva koraka.\nTrebat ćete lozinku koju ste ovdje postavili za prijavu u vaš Telegram račun."
     },
@@ -6122,6 +6670,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ErrorBotGroupsBlocked",
+      "value": "Ovaj bot ne može biti dodan u grupe"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorChannelsTooMuch",
+      "value": "Član ste previše kanala i supergrupa."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ErrorCodeInvalid",
       "value": "Neispravan kod, pokušajte ponovno"
     },
@@ -6161,6 +6719,11 @@
       "key": "ErrorMessageTooLong",
       "one_value": "Navedena poruka je preduga. Molimo uklonite {count} znak.",
       "other_value": "Navedena poruka je preduga. Molimo uklonite {count} znakova."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorMessageTooLongText",
+      "value": "Poruka je preduga"
     },
     {
       "_": "types.LangPackString",
@@ -6204,6 +6767,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ErrorPinnedDialogsTooMuch",
+      "value": "Nažalost, prikvačili ste maksimalan broj razgovora"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ErrorRichMessageTableTooWide",
       "value": "Članak sadrži tablicu s previše stupaca. Maksimum je {count}."
     },
@@ -6235,6 +6803,11 @@
       "_": "types.LangPackString",
       "key": "ErrorSessionFresh",
       "value": "Iz sigurnosnih razloga pričekajte {time} ili upotrijebite stariju sesiju"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorSubscriptionAlreadyActive",
+      "value": "Već ste pretplaćeni"
     },
     {
       "_": "types.LangPackString",
@@ -6278,6 +6851,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ExactTextCopied",
+      "value": "Kopirano u međuspremnik: \"{text}\""
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ExceptionTitlePrivacyChargeForMessages",
       "value": "Uklonite naknadu"
     },
@@ -6295,6 +6873,11 @@
       "_": "types.LangPackString",
       "key": "ExpiredStoryMention",
       "value": "Priča u kojoj ste spomenuti više nije dostupna"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ExpiredStoryMentioned",
+      "value": "Priča u kojoj ste spomenuli {user} više nije dostupna"
     },
     {
       "_": "types.LangPackString",
@@ -6350,6 +6933,13 @@
       "_": "types.LangPackString",
       "key": "FileTransferProgress",
       "value": "{currentSize} / {totalSize}"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "{count} datoteke",
+      "key": "Files",
+      "one_value": "{count} datoteka",
+      "other_value": "{count} datoteka"
     },
     {
       "_": "types.LangPackString",
@@ -6415,6 +7005,11 @@
       "_": "types.LangPackString",
       "key": "FilterDeleteAlert",
       "value": "Želite li izbrisati ovu mapu? Razgovori iz mape neće biti izbrisani."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "FilterDeleteAlertLinks",
+      "value": "Želite li izbrisati ovu mapu? Ovo će također deaktivirati sve pozivnice koje su napravljene za dijeljenje ove mape."
     },
     {
       "_": "types.LangPackString",
@@ -6537,6 +7132,20 @@
       "_": "types.LangPackString",
       "key": "FolderLinkHeaderAlready",
       "value": "Razgovori u koje ste se već pridružili"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "{count} razgovora za pridruživanje",
+      "key": "FolderLinkHeaderChatsJoin",
+      "one_value": "{count} razgovor za pridruživanje",
+      "other_value": "{count} razgovora za pridruživanje"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "{count} razgovora za napuštanje",
+      "key": "FolderLinkHeaderChatsQuit",
+      "one_value": "{count} razgovor za napuštanje",
+      "other_value": "{count} razgovora za napuštanje"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -6884,6 +7493,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ForwardToAnotherChat",
+      "value": "Proslijedi u drugi razgovor"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ForwardedFrom",
       "value": "Proslijeđeno od"
     },
@@ -6894,8 +7508,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "FragmentPhoneMessage",
+      "value": "Ovaj telefonski broj je kupljen na **Fragmentu** {date} za **{amount}** {details}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "FragmentPhoneTitle",
+      "value": "**{phone}** je kolekcionarski broj telefona koji pripada"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "FragmentUsernameMessage",
+      "value": "Ovo korisničko ime kupljeno je na **Fragmentu** {date} za **{amount}** {details}"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "FragmentUsernameOpen",
       "value": "Saznajte više"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "FragmentUsernameTitle",
+      "value": "**{username}** je kolekcionarsko korisničko ime koje pripada"
     },
     {
       "_": "types.LangPackString",
@@ -7629,6 +8263,16 @@
       "value": "Datum"
     },
     {
+      "_": "types.LangPackString",
+      "key": "GiftInfoDelete",
+      "value": "Izbriši poklon"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftInfoDeleteDescription",
+      "value": "Želite li izbrisati ovaj poklon?"
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "few_value": "Ovaj poklon možete dodati na svoj profil ili ga pretvoriti u **{amount}** zvjezdice.",
       "key": "GiftInfoDescription",
@@ -8030,6 +8674,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "GiftPremiumFeaturesTerms",
+      "value": "Pregledajte popis značajki i više detalja o Telegram Premiumu {link}."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "GiftPremiumHeader",
       "value": "Pokloni Premium"
     },
@@ -8389,6 +9038,27 @@
       "other_value": "Za {days} dana, moći ćete poslati ovaj kolekcionarski primjerak na bilo koju TON blockchain adresu izvan Telegrama na prodaju ili aukciju."
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Možete odabrati najviše {count} države.",
+      "key": "GiveawayCountryLimit",
+      "one_value": "Možete odabrati najviše {count} državu.",
+      "other_value": "Možete odabrati najviše {count} država."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "iz {count} države",
+      "key": "GiveawayReceiverTypeCountries",
+      "one_value": "iz {count} države",
+      "other_value": "iz {count} država"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Možete odabrati najviše {count} pretplatnika.",
+      "key": "GiveawayUserSelectionLimit",
+      "one_value": "Možete odabrati najviše {count} pretplatnika.",
+      "other_value": "Možete odabrati najviše {count} pretplatnika."
+    },
+    {
       "_": "types.LangPackString",
       "key": "GiveawayUsersAboutGroup",
       "value": "Odaberite želite li ograničiti darivanje samo na one koji su se pridružili grupi nakon početka darivanja ili na korisnike iz odabranih država."
@@ -8444,6 +9114,18 @@
       "_": "types.LangPackString",
       "key": "GroupBoostBoostGroup",
       "value": "Podrži grupu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GroupBoostBoostToUnrestrict",
+      "value": "Pružite grupi {boostTimes} pojačanja da biste uklonili ograničenje slanja poruka. Vaša pojačanja će pomoći grupi **{chat}** da otključa nove značajke."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "**{count}** pojačanja",
+      "key": "GroupBoostBoostToUnrestrictTimes",
+      "one_value": "**{count}** pojačanje",
+      "other_value": "**{count}** pojačanja"
     },
     {
       "_": "types.LangPackString",
@@ -8714,6 +9396,11 @@
       "_": "types.LangPackString",
       "key": "HEX",
       "value": "HEX"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "HashtagSearchPlaceholder",
+      "value": "Unesite hashtag da biste pronašli poruke koje ga sadrže."
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -9051,6 +9738,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "LanguageAlready",
+      "value": "Već koristite ovaj jezik. Uvijek možete promijeniti svoj jezik u {settings}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LanguageApply",
+      "value": "Promijeni jezik"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "LanguageNotFound",
       "value": "Nažalost, ovaj jezik ne postoji."
     },
@@ -9058,6 +9755,13 @@
       "_": "types.LangPackString",
       "key": "LanguageTitle",
       "value": "Promijeniti jezik?"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "{count} jezika",
+      "key": "Languages",
+      "one_value": "{count} jezik",
+      "other_value": "{count} jezika"
     },
     {
       "_": "types.LangPackString",
@@ -9275,6 +9979,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "LimitReachedFolderLinks",
+      "value": "Možete napraviti samo {limit} pozivnice.\nPretplatite se na **Telegram Premium** i napravite do **{limit2}** pozivnica. "
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LimitReachedFolderLinksLocked",
+      "value": "Možete napraviti samo {limit} pozivnice. Ovaj limit će možda biti povećan u budućnosti."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LimitReachedFolderLinksPremium",
+      "value": "Možete napraviti samo {limit} pozivnice. Pokušajte izbrisati neke pozivnice mape."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "LimitReachedFolders",
       "value": "Dosegli ste limit od **{limit}** mapa. Možete udvostručiti ovaj limit na **{limit2}** mapa ako se pretplatite na **Telegram Premium**."
     },
@@ -9305,6 +10024,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "LimitReachedPinSavedDialogs",
+      "value": "Nažalost, ne možete prikvačiti više od {limit} razgovora na vrh. Otkvačite neki koji je trenutno prikvačen ili se pretplatite na **Telegram Premium** i povećajte limit na **{limit2}** razgovora."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LimitReachedPinnedTopics",
+      "value": "Nažalost, ne možete prikvačiti više od {limit} razgovora na vrh."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "LimitReachedPublicLinks",
       "value": "Rezervirali ste previše javnih linkova. Pokušajte opozvati link od neke starije grupe ili kanala ili se pretplatite na **Telegram Premium** i udvostručite limit na **{limit2}** javnih linkova."
     },
@@ -9317,6 +10046,21 @@
       "_": "types.LangPackString",
       "key": "LimitReachedPublicLinksPremium",
       "value": "Rezervirali ste previše javnih linkova. Pokušajte opozvati link od neke starije grupe ili kanala."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LimitReachedSharedFolders",
+      "value": "Možete imati samo {limit} mape za dijeljenje.\nPretplatite se na **Telegram Premium** i povećajte limit na **{limit2}** mapa."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LimitReachedSharedFoldersLocked",
+      "value": "Možete imati samo {limit} mape za dijeljenje. Ovaj limit će možda biti povećan u budućnosti."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LimitReachedSharedFoldersPremium",
+      "value": "Možete imati samo {limit} mape za dijeljenje. Pokušajte izbrisati neku mapu za dijeljenje."
     },
     {
       "_": "types.LangPackString",
@@ -9521,9 +10265,21 @@
       "value": "Svibanj"
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "{count} medija",
+      "key": "Media",
+      "one_value": "{count} medij",
+      "other_value": "{count} medija"
+    },
+    {
       "_": "types.LangPackString",
       "key": "MediaAudioEmpty",
       "value": "Trenutno nema glasovnih poruka"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MediaCounter",
+      "value": "{current} od {total}"
     },
     {
       "_": "types.LangPackString",
@@ -9879,6 +10635,23 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "MessageContainsEmojiPack",
+      "value": "Ova poruka sadrži emojije iz {pack} paketa."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Ova poruka sadrži emojije iz {count} paketa.",
+      "key": "MessageContainsEmojiPacks",
+      "one_value": "Ova poruka sadrži emojije iz {count} paketa.",
+      "other_value": "Ova poruka sadrži emojije iz {count} paketa."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MessageLockedPremium",
+      "value": "Pretplatite se na **Premium** za slanje poruka prema **{peer}**."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "MessageMetaApproximate",
       "value": "oko"
     },
@@ -10019,6 +10792,13 @@
       "value": "{count} h"
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "{count}m",
+      "key": "MessageTimerShortMinutes",
+      "one_value": "{count}m",
+      "other_value": "{count}m"
+    },
+    {
       "_": "types.LangPackString",
       "key": "MessageTooltipEditedDate",
       "value": "Uređivano: {date}"
@@ -10135,6 +10915,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "MonetizationOverview",
+      "value": "Pregled prihoda"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "MonetizationProceedsTONInfo",
       "value": "Grami iz vašeg ukupnog salda mogu se koristiti za oglase ili preuzeti kao nagrada 3 dana nakon što je zarađen. Ne možete isplatiti manje od 10 grama."
     },
@@ -10142,6 +10927,16 @@
       "_": "types.LangPackString",
       "key": "MonetizationProceedsTONInfoLink",
       "value": "https://telegram.org/tos/content-creator-rewards"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MonetizationWithdraw",
+      "value": "Isplata preko Fragmenta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MonetizationWithdrawErrorText",
+      "value": "Preuzimanje nagrada je moguće samo ako:\n\n• Imate uključenu potvrdu u dva koraka dulje od 7 dana.\n\n• Prijavljeni ste na ovaj uređaj dulje od 24 sata.\n\nVratite se ponovno kasnije."
     },
     {
       "_": "types.LangPackString",
@@ -10239,8 +11034,27 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "MoreSimilarText",
+      "value": "Pretplatite se na **Telegram Premium**\ni otključajte do {limit} sličnih kanala."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Isključi na {count} dana",
+      "key": "MuteForDays",
+      "one_value": "Isključi na {count} dan",
+      "other_value": "Isključi na {count} dana"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "MuteForForever",
       "value": "Isključi zauvijek"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Isključi na {count} sata",
+      "key": "MuteForHours",
+      "one_value": "Isključi na {count} sat",
+      "other_value": "Isključi na {count} sati"
     },
     {
       "_": "types.LangPackString",
@@ -10546,6 +11360,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "NoResultFoundFor",
+      "value": "Nema rezultata za \"{query}\"."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "NoSavingDescription",
       "value": "Kopiranje teksta i spremanje medija će biti onemogućeno."
     },
@@ -10616,6 +11435,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "NotificationGiftDeleted",
+      "value": "Poklon je izbrisan"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "NotificationGiftIsSale",
       "value": "{gift} je sada na prodaju!"
     },
@@ -10655,6 +11479,11 @@
       "_": "types.LangPackString",
       "key": "NotificationSharingEnabled",
       "value": "Kopiranje sadržaja u ovom razgovoru je dopušteno ."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NotificationStarsGiftSentYou",
+      "value": "Poslali ste poklon od {amount}"
     },
     {
       "_": "types.LangPackString",
@@ -11066,8 +11895,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PaymentCheckoutAcceptTerms",
+      "value": "Prihvaćam {link} za {bot}."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PaymentCheckoutMethod",
       "value": "Vrsta plaćanja"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PaymentCheckoutMethodNewCard",
+      "value": "Nova kartica"
     },
     {
       "_": "types.LangPackString",
@@ -11091,8 +11930,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PaymentConfirmationMessage",
+      "value": "Vaša kartica {cardName} je spremljena. Za plaćanje ovom karticom unesite lozinku za potvrdu u dva koraka."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PaymentInfoDone",
       "value": "Nastavi s plaćanjem"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PaymentInfoHint",
+      "value": "Platili ste **{amount}** za **{title}**."
     },
     {
       "_": "types.LangPackString",
@@ -11721,6 +12570,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PremiumLastSeenText1Locked",
+      "value": "Da biste vidjeli zadnji posjet od **{user}**, počnite prikazivati svoje vrijeme zadnjeg posjeta."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PremiumLastSeenText2",
+      "value": "Pretplata omogućuje da vidite vrijeme zadnjeg posjeta od **{user}** iako ne prikazujete svoje vrijeme."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PremiumLimitAccounts",
       "value": "Dosegli ste limit povezanih računa. Možete osloboditi još jedno mjesto ako se pretplatite na Telegram Premium."
     },
@@ -11748,6 +12607,11 @@
       "_": "types.LangPackString",
       "key": "PremiumMore",
       "value": "Više"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PremiumNeeded",
+      "value": "Potreban je Premium!"
     },
     {
       "_": "types.LangPackString",
@@ -11806,8 +12670,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PremiumPreviewEmojiDescription",
+      "value": "Koristite animirane emojije iz različitih paketa u bilo kojoj poruci koju šaljete."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PremiumPreviewEmojiStatus",
       "value": "Emoji status"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PremiumPreviewEmojiStatusDescription",
+      "value": "Odaberite bilo koji emoji i prikažite trenutnu aktivnost pored svojeg imena."
     },
     {
       "_": "types.LangPackString",
@@ -11871,6 +12745,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PremiumPreviewReactions2Description",
+      "value": "Reagirajte s više reakcija po poruci koristeći tisuće emojija."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PremiumPreviewReactionsDescription",
       "value": "Dodatne animirane reakcije na poruke, dostupne samo Premium pretplatnicima."
     },
@@ -11931,6 +12810,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PremiumPreviewTranslationsDescription",
+      "value": "Prevedite razgovore i kanale na drugi jezik u stvarnom vremenu."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PremiumPreviewUploads",
       "value": "Neograničena pohrana u oblaku"
     },
@@ -11971,6 +12855,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PremiumReadText1",
+      "value": "Da biste vidjeli vrijeme čitanja od **{user}**, počnite prikazivati svoje vrijeme čitanja..."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PremiumReadText2",
+      "value": "Pretplata omogućuje da vidite vrijeme čitanja od **{user}** iako ne prikazujete svoje vrijeme."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PremiumStickerTooltip",
       "value": "Ovaj paket sadrži premium naljepnice kao što je ova."
     },
@@ -11983,6 +12877,11 @@
       "_": "types.LangPackString",
       "key": "PremiumStoriesCaptionDescription",
       "value": "Dodajte 10 puta duže opise svojim pričama — do 2048 znakova."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PremiumStoriesExpirationDescription",
+      "value": "Postavite prilagođeno trajanje za svoje priče poput 6 ili 48 sati."
     },
     {
       "_": "types.LangPackString",
@@ -12011,6 +12910,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PremiumStoriesStealthDescription",
+      "value": "Sakrijte činjenicu da ste vidjeli priče drugih osoba."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PremiumStoriesSubtitleCaption",
       "value": "Dulji opisi priča*"
     },
@@ -12026,6 +12930,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PremiumStoriesViews",
+      "value": "Trajna povijest pregleda"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PremiumStoriesViewsDescription",
       "value": "Provjerite tko je vidio vaše priče — čak i nakon što isteknu."
     },
@@ -12038,6 +12947,13 @@
       "_": "types.LangPackString",
       "key": "PremiumUnlockStickers",
       "value": "Pretplatite se na Telegram Premium i otključajte premium naljepnice."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "{count}-mjesečna",
+      "key": "PrepaidGiveawayMonths",
+      "one_value": "{count}-mjesečna",
+      "other_value": "{count}-mjesečna"
     },
     {
       "_": "types.LangPackString",
@@ -12293,6 +13209,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PrivacyProfilePhotoPublicPhotoInfo",
+      "value": "Možete postaviti javnu sliku za one koji ne mogu vidjeti vaše prave slike profila."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PrivacyProfilePhotoRemovePublicPhoto",
       "value": "Ukloni javnu sliku"
     },
@@ -12419,6 +13340,11 @@
       "key": "ProfileBirthdayValueAge",
       "one_value": "{date} ({age} godina)",
       "other_value": "{date} ({age} godina)"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ProfileBotManagedBy",
+      "value": "Izrađen i upravljan od strane {bot}"
     },
     {
       "_": "types.LangPackString",
@@ -13746,6 +14672,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "SearchFilterByUser",
+      "value": "Filtriraj po korisnicima"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "SearchFilterFrom",
       "value": "Od:"
     },
@@ -14662,6 +15593,23 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ShowTranslateChatButton",
+      "value": "Prevedi cijele razgovore"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Prikaži još ({count})",
+      "key": "ShowVotes",
+      "one_value": "Prikaži još ({count})",
+      "other_value": "Prikaži još ({count})"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SimilarChannelsLimitSubtitle",
+      "value": "Pogledajte do {count} sličnih kanala"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "SimilarChannelsLimitTitle",
       "value": "Slični kanali"
     },
@@ -14927,6 +15875,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "StarTransactionCommission",
+      "value": "Provizija {percent}"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "StarTransactionFrom",
       "value": "Od"
     },
@@ -14934,6 +15887,13 @@
       "_": "types.LangPackString",
       "key": "StarsAcquired",
       "value": "Kupili ste zvjezdice"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Dodane su **{count} zvjezdice** na vaš saldo.",
+      "key": "StarsAcquiredInfo",
+      "one_value": "Dodana je **{count} zvjezdica** na vaš saldo.",
+      "other_value": "Dodano je **{count} zvjezdica** na vaš saldo."
     },
     {
       "_": "types.LangPackString",
@@ -15363,6 +16323,30 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "StarsTransferInfo",
+      "value": "Želite li kupiti \"**{title}**\" u **{bot}** za **{amount}**?"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "{count} slike",
+      "key": "StarsTransferPhotos",
+      "one_value": "{count} sliku",
+      "other_value": "{count} slika"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsTransferUnlockInfo",
+      "value": "Želite li otključati {media} u **{chat}** za **{amount}**?"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "**{count} videa**",
+      "key": "StarsTransferVideos",
+      "one_value": "**{count} video**",
+      "other_value": "**{count} videa**"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Start",
       "value": "Pokreni"
     },
@@ -15672,6 +16656,13 @@
       "value": "Objavi na moj profil"
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Spremite ovu priču na svoj profil čak i kad istekne nakon {count} sata. Primijenit će se postavke privatnosti.",
+      "key": "StoryKeepInfo",
+      "one_value": "Spremite ovu priču na svoj profil čak i kad istekne nakon {count} sata. Primijenit će se postavke privatnosti.",
+      "other_value": "Spremite ovu priču na svoj profil čak i kad istekne nakon {count} sati. Primijenit će se postavke privatnosti."
+    },
+    {
       "_": "types.LangPackString",
       "key": "StoryListArchivedEmptyStateTitle",
       "value": "Nema arhiviranih priča"
@@ -15685,6 +16676,11 @@
       "_": "types.LangPackString",
       "key": "StoryListItemActionUnpin",
       "value": "Otkvači"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryListSaveToProfile",
+      "value": "Objavi na moj profil"
     },
     {
       "_": "types.LangPackString",
@@ -16667,6 +17663,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "UploadSpeedLimitedMessage",
+      "value": "Pretplatite se na **Telegram Premium** i povećajte brzinu prijenosa {factor} puta."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "User",
       "value": "Korisnik"
     },
@@ -17126,6 +18127,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "VideoPlayerPictureInPicture",
+      "value": "Slika u slici"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "VideoUnsupportedDesktop",
       "value": "__Nažalost, ovaj videozapis se ne može reproducirati preko Telegram Weba. Pokušajte ga otvoriti pomoću [aplikacije za računala](https://getdesktop.telegram.org/).__"
     },
@@ -17410,6 +18416,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletBackupHint",
+      "value": "Sigurnosna kopija vašeg šifriranog ključa bit će podijeljena u tri dijela i pohranjena na tri kontinenta.\n\nMože se ponovno sastaviti samo na vašim uređajima, tako da nitko — čak ni Telegram — ne može pristupiti vašem ključu."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBackupOffHint",
+      "value": "Sigurnosna kopija vašeg šifriranog ključa bit će podijeljena u tri dijela i pohranjena na tri kontinenta.\n\nMože se ponovno sastaviti samo na vašim uređajima, tako da nitko — čak ni Telegram — ne može pristupiti vašem ključu."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBackupTitle",
+      "value": "Šifrirana sigurnosna kopija"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletBuyTitle",
       "value": "Kupi grame"
     },
@@ -17590,6 +18611,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletDecryptError",
+      "value": "Komentar se nije mogao dešifrirati. Pokušajte ponovno."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletDeleteAnyway",
       "value": "Svejedno izbriši"
     },
@@ -17620,8 +18646,23 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletDisableBackupConfirm",
+      "value": "Onemogući"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletDisableBackupFee",
       "value": "Mrežna naknada: {amount} GRAM ({fiat})."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDisableBackupRotateText",
+      "value": "Vaša distribuirana šifrirana sigurnosna kopija bit će izbrisana. Vaš novčanik će koristiti novi tajni niz riječi. Taj niz riječi bit će jedini način da povratite ovaj novčanik."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDisableBackupText",
+      "value": "Vaša distribuirana šifrirana sigurnosna kopija bit će izbrisana. Vaš tajni niz riječi bit će jedini način da vratite ovaj novčanik."
     },
     {
       "_": "types.LangPackString",
@@ -17655,6 +18696,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletEnterSecretPhrase",
+      "value": "Unesite tajni niz"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletExistingWaltBalance",
       "value": "Imate sredstava i u Walt novčaniku"
     },
@@ -17677,6 +18723,21 @@
       "_": "types.LangPackString",
       "key": "WalletFeatureNoFeesTitle",
       "value": "Bez naknada"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletHowItWorksDone",
+      "value": "U redu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletHowItWorksSubtitle",
+      "value": "Samo vi kontrolirate svoja sredstva i nitko drugi im ne može pristupiti."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletHowItWorksTitle",
+      "value": "Kako radi"
     },
     {
       "_": "types.LangPackString",
@@ -17722,8 +18783,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletPasscodeInvalid",
+      "value": "Pogrešna lozinka"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletPaste",
       "value": "Zalijepi"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletPastePhrase",
+      "value": "Zalijepi iz međuspremnika"
     },
     {
       "_": "types.LangPackString",
@@ -17737,8 +18808,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletPhraseInfoCanSteal",
+      "value": "Ako netko ima vaš tajni niz riječi, **može vam ukrasti sredstva**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletPhraseInfoNeverShare",
+      "value": "**Nikad ne otkrivajte** svoj tajni niz riječi drugima."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletPhraseInfoSupport",
+      "value": "Telegram podrška **vas nikada neće pitati** za vaš tajni niz riječi."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletPrivateCommentInfo",
       "value": "Vidljivo samo vama i primatelju."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletProofInvalidError",
+      "value": "Provjerite redoslijed riječi.\n\nOvdje se može uvesti samo tajni niz riječi stvoren u Telegramu."
     },
     {
       "_": "types.LangPackString",
@@ -17749,6 +18840,11 @@
       "_": "types.LangPackString",
       "key": "WalletPublicCommentInfo",
       "value": "Komentar je vidljiv svima."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletReceiveAddressCopied",
+      "value": "Adresa je kopirana"
     },
     {
       "_": "types.LangPackString",
@@ -17767,8 +18863,38 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletReceivePeerNote",
+      "value": "Pošaljite grame na ovu adresu ili skenirajte ovaj QR kod."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletReceivePeerShowQr",
+      "value": "Prikaži QR"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletReceiveShowQr",
+      "value": "Prikaži moj QR"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletRecipientGramWallet",
       "value": "Gram novčanik"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletRecoveryPhraseHint",
+      "value": "Svoj novčanik možete prenijeti na drugi uređaj unosom tajnog niza riječi."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletRecoveryPhraseSubtitle",
+      "value": "Vaš tajni niz je ključ sigurnosne kopije vašeg novčanika. Držite ga tajnim i sigurnim u svakom trenutku."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletRecoveryPhraseTitle",
+      "value": "Tajni niz"
     },
     {
       "_": "types.LangPackString",
@@ -17792,6 +18918,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletReplaced",
+      "value": "Vaš novi novčanik je spreman za korištenje."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletRestored",
+      "value": "Vaš novčanik je obnovljen pomoću tajnog niza riječi."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletSavedImport",
       "value": "Uvezi ovaj novčanik"
     },
@@ -17802,6 +18938,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletSecretPhraseTitle",
+      "value": "Tajni niz riječi"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletSecretPhraseWhy",
       "value": "Zašto?"
     },
@@ -17809,6 +18950,11 @@
       "_": "types.LangPackString",
       "key": "WalletSend",
       "value": "Pošalji"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendAmountButton",
+      "value": "Pošalji {amount}"
     },
     {
       "_": "types.LangPackString",
@@ -17832,6 +18978,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletSendPending",
+      "value": "Sredstva su možda poslana. Nemojte ih ponovno slati dok se status slanja provjerava."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendRecipientWallet",
+      "value": "Novčanik od {name}"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletSendSuccess",
       "value": "Grami su poslani"
     },
@@ -17849,6 +19005,11 @@
       "_": "types.LangPackString",
       "key": "WalletSendUnlinkedWallet",
       "value": "Nepovezani novčanik"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletShowRecoveryPhrase",
+      "value": "Prikaži tajni niz"
     },
     {
       "_": "types.LangPackString",
@@ -17887,6 +19048,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletTransactionFeeFree",
+      "value": "Besplatno (plaća Telegram)"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionIncoming",
+      "value": "Dolazni prijenos"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletTransactionIncomingCollectible",
       "value": "Dolazni primjerak"
     },
@@ -17897,8 +19068,23 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletTransactionMovedFromProfile",
+      "value": "Premješteno s profila"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionMovedToProfile",
+      "value": "Premješteno na profil"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletTransactionOpenWallet",
       "value": "Otvori moj Novac"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionOutgoing",
+      "value": "Odlazni prijenos"
     },
     {
       "_": "types.LangPackString",
@@ -17939,6 +19125,16 @@
       "_": "types.LangPackString",
       "key": "WalletUnavailable",
       "value": "Gram novčanik još nije dostupan."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUpdatePhrase",
+      "value": "Ažuriraj tajni niz"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUpdatePhraseHint",
+      "value": "Dobit ćete novi tajni niz riječi koje trebate zapisati. Adresa i vaša sredstva ostaju isti."
     },
     {
       "_": "types.LangPackString",
@@ -18080,5 +19276,5 @@
       "value": "Vaše ime"
     }
   ],
-  "version": 378883
+  "version": 379129
 }
