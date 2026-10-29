@@ -525,6 +525,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ActionManagedBotCreated",
+      "value": "{from} vytvořil/a {bot}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ActionManagedBotCreatedYou",
+      "value": "Vytvořil/a jste {bot}"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ActionMessageChannelDisabled",
       "value": "{peer} již nepřijímá soukromé zprávy"
     },
@@ -3305,6 +3315,31 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "BotStatusAgent",
+      "value": "Agent"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotStatusAi",
+      "value": "AI"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotStatusApp",
+      "value": "Aplikace"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotStatusGame",
+      "value": "Hra"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotStatusNonBinary",
+      "value": "Gay"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "BotStop",
       "value": "Zablokovat bota"
     },
@@ -5350,8 +5385,86 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "CreateBotCreatedText",
+      "value": "**{bot}** bude tohoto bota spravovat za vás."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBotCreatedTitle",
+      "value": "{name} vytvořen!"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Na @BotFather můžete vytvořit až {count} boty nebo smazat ty stávající",
+      "key": "CreateBotLimitText",
+      "many_value": "Na @BotFather můžete vytvořit až {count} botů nebo smazat ty stávající",
+      "one_value": "Na @BotFather můžete vytvořit {count} bota nebo smazat ty stávající",
+      "other_value": "Na @BotFather můžete vytvořit až {count} botů nebo smazat ty stávající"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBotLimitTextPremium",
+      "value": "Předplaťte si **Premium** a vytvořte až {premiumLimit} botů, nebo smažte jednoho ze svých {limit} botů skrze @BotFather"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBotLimitTitle",
+      "value": "Limit botů překročen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBotName",
+      "value": "Jméno bota"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBotText",
+      "value": "{bot} si přeje, abyste za něj vytvořil/a a spravoval/a chatbota."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "CreateBotTitle",
       "value": "Vytvořit bota"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBotUnsupported",
+      "value": "**{bot}** nepodporuje režim správy bota."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBotUsername",
+      "value": "Uživ. jméno bota"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBotUsernameChecking",
+      "value": "Kontroluji..."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBotUsernameHelp",
+      "value": "Zvolte si pro svého bota uživatelské jméno. Musí končit na 'bot'. Např.: TetrisBot nebo tetris_bot."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBotUsernameHint",
+      "value": "Musí končit na 'bot' – nebo {suffixes} s {premium}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBotUsernamePremium",
+      "value": "Uživatelská jména končící na '{suffix}' vyžadují předplatné Telegram Premium. {link}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBotUsernameSubscribe",
+      "value": "Předplatit"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBotUsernameSuffix",
+      "value": "Je nám líto, ale uživatelské jméno musí končit na 'bot'."
     },
     {
       "_": "types.LangPackString",
@@ -6381,6 +6494,71 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ErrorAddressCityInvalid",
+      "value": "Město, které jste zadali, není platné"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorAddressCountryInvalid",
+      "value": "Země, kterou jste zadali, není platná"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorAddressPostcodeInvalid",
+      "value": "PSČ, které jste zadali, není platné"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorAddressStateInvalid",
+      "value": "Stav, který jste zadali, není platný"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorAddressStreetInvalid",
+      "value": "Adresa, kterou jste zadali, není platná"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorAdminRankEmojiNotAllowed",
+      "value": "Štítek správce nesmí obsahovat emoji"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorAdminRankInvalid",
+      "value": "Zadaný štítek správce je neplatný"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorAdminsTooMuch",
+      "value": "Je zde příliš mnoho správců"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorBotGroupsBlocked",
+      "value": "Tohoto bota nemůžete přidat do skupin"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorBotPrecheckoutTimeout",
+      "value": "Žádost pro uhrazení platby vypršela"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorBotsTooMuch",
+      "value": "V této konverzaci/kanálu je příliš mnoho botů"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorChannelPrivate",
+      "value": "Tento kanál je soukromý"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorChannelsTooMuch",
+      "value": "Připojil/a jste se k příliš mnoha kanálům/superskupinám"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ErrorChatAdminRequired",
       "value": "Abyste to mohli udělat, musíte být v této konverzaci správcem"
     },
@@ -6421,8 +6599,83 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ErrorFreshAdmin",
+      "value": "Právě jste byl/a zvolen/a správcem, zatím nemůžete přidávat ani měnit ostatní správce"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorFreshSessionLogout",
+      "value": "Nemůžete se odhlásit z jiných relací, pokud od přihlášení do aktuální relace neuplynulo alespoň 24 hodin."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ErrorIncorrectPassword",
       "value": "Neplatné heslo, zkuste to prosím znovu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorInputUserDeactivated",
+      "value": "Tuto akci nelze provést u smazaného účtu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorInviteHashEmpty",
+      "value": "Hash pozvánky je prázdný"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorInviteHashExpired",
+      "value": "Platnost pozvánky vypršela"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorInviteHashInvalid",
+      "value": "Hash pozvánky je neplatný"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorLinkNotModified",
+      "value": "Tato diskuze je již propojena s kanálem"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorMediaCaptionTooLong",
+      "value": "Zadaný popisek je příliš dlouhý"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorMediaGroupedInvalid",
+      "value": "Nahrazení nového alba selhalo"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorMediaInvalid",
+      "value": "Neplatná média"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorMediaNewInvalid",
+      "value": "Nahrazení nového média selhalo"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorMessageDeleteForbidden",
+      "value": "Jednu ze zpráv, které jste se pokusili smazat, nelze smazat. Pravděpodobně proto, že jde o systémovou zprávu."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorMessageEditTimeExpired",
+      "value": "Tuto zprávu již nelze upravit."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorMessageNotModified",
+      "value": "Zpráva nebyla změněna. Nový obsah je totožný s aktuálním."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorMessagePollClosed",
+      "value": "Hlasování uzavřeno"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -6434,8 +6687,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ErrorMessageTooLongText",
+      "value": "Zpráva je příliš dlouhá."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ErrorNewSaltInvalid",
       "value": "Chyba při ověřování hesla, zkuste to prosím znovu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorPaidMediaForbidden",
+      "value": "V této konverzaci nelze odesílat placené příspěvky"
     },
     {
       "_": "types.LangPackString",
@@ -6464,6 +6727,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ErrorPeersListEmpty",
+      "value": "Do seznamu nejsou přidány žádné konverzace"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ErrorPhoneBanned",
       "value": "Toto telefonní číslo je zablokováno"
     },
@@ -6471,6 +6739,46 @@
       "_": "types.LangPackString",
       "key": "ErrorPhoneNumberInvalid",
       "value": "Neplatné telefonní číslo. Zkuste to prosím znovu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorPhotoExtInvalid",
+      "value": "Příloha s fotkou je neplatná"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorPhotoInvalidDimensions",
+      "value": "Rozměry fotky jsou neplatné"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorPhotoSaveFileInvalid",
+      "value": "Vnitřní problémy, zkuste to později"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorPinnedDialogsTooMuch",
+      "value": "Litujeme, můžete připnout maximálně 5 konverzací"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorProviderAccountTimeout",
+      "value": "Žádost zaslaná poskytovateli platebních služeb vypršela"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorReqInfoEmailInvalid",
+      "value": "E-mail, který jste zadali, není platný"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorReqInfoNameInvalid",
+      "value": "Jméno, které jste zadali, není platné"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorReqInfoPhoneInvalid",
+      "value": "Telefon, který jste zadali, není platný"
     },
     {
       "_": "types.LangPackString",
@@ -6500,13 +6808,38 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ErrorScheduleDateInvalid",
+      "value": "Zadané datum plánu je neplatné"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ErrorSendRestrictedStickersAll",
       "value": "Litujeme, posílání samolepek není v této skupině povoleno"
     },
     {
       "_": "types.LangPackString",
+      "key": "ErrorServiceWorkerDisabled",
+      "value": "Služba Service Worker je deaktivována. Přenos médií nemusí být podporován. Zkuste stránku znovu načíst bez podržení klávesy <Shift>"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ErrorSessionFresh",
       "value": "Z bezpečnostních důvodů počkejte {time} nebo použijte starší relaci"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorSessionTooFresh",
+      "value": "Relace vypršela, zkuste to prosím později"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorStargiftConvertTooOld",
+      "value": "Tento dárek již nelze převést na hvězdy"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorSubscriptionAlreadyActive",
+      "value": "Již jste odběratelem"
     },
     {
       "_": "types.LangPackString",
@@ -6527,6 +6860,41 @@
       "_": "types.LangPackString",
       "key": "ErrorUrlExpired",
       "value": "Tento odkaz vypršel"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorUserAlreadyParticipant",
+      "value": "Již jste ve skupině"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorUserChannelsTooMuch",
+      "value": "Jeden z uživatelů, kterého jste se pokusili přidat, je již členem příliš mnoha kanálů/superskupin"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorUserKicked",
+      "value": "Tento uživatel byl vyloučen z této superskupiny/kanálu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorUserNotMutualContact",
+      "value": "Uvedený uživatel není společným kontaktem"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorUserPrivacyRestricted",
+      "value": "Nastavení ochrany osobních údajů uživatele vám to neumožňuje"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorUsersTooMuch",
+      "value": "Byl překročen maximální počet uživatelů"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorWallpaperDimensionsInvalid",
+      "value": "Rozměry tapety jsou neplatné, vyberte jiný soubor"
     },
     {
       "_": "types.LangPackString",
@@ -7938,6 +8306,21 @@
       "_": "types.LangPackString",
       "key": "GiftInfoDate",
       "value": "Datum"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftInfoDelete",
+      "value": "Smazat dárek"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftInfoDeleteDescription",
+      "value": "Chcete tento dárek smazat?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftInfoDeleteDescription2",
+      "value": "Zmizí to z vašeho profilu a nemůže být obnoven."
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -9403,8 +9786,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "LanguageApply",
+      "value": "Použít jazyk"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "LanguageCustomAlert",
       "value": "Chystáte se použít vlastní překlad ({language}), který je kompletní z {percent} %.\n\nToto přeloží celé rozhraní. Korekce můžete navrhovat v {link}.\n\nJazyk můžete změnit kdykoli zpátky v {settings}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LanguageLoadFailed",
+      "value": "Tento jazykový balíček nelze načíst. Zkuste to znovu."
     },
     {
       "_": "types.LangPackString",
@@ -9415,6 +9808,11 @@
       "_": "types.LangPackString",
       "key": "LanguageTitle",
       "value": "Změnit jazyk?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LanguageTranslateLink",
+      "value": "platforma překladů"
     },
     {
       "_": "types.LangPackString",
@@ -11005,6 +11403,11 @@
       "_": "types.LangPackString",
       "key": "NotificationGiftCanTransferAt",
       "value": "Dárek můžete převést po {date}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NotificationGiftDeleted",
+      "value": "Dárek smazán"
     },
     {
       "_": "types.LangPackString",
@@ -13032,6 +13435,11 @@
       "many_value": "{date} ({age} let)",
       "one_value": "{date} ({age} rok)",
       "other_value": "{date} ({age} let)"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ProfileBotManagedBy",
+      "value": "Vytvořil a spravuje {bot}"
     },
     {
       "_": "types.LangPackString",
@@ -15142,6 +15550,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "SettingsKeywordsChatBackground",
+      "value": "tapeta, pozadí, obrázek"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "SettingsKeywordsDataStorage",
       "value": "úložiště, cache, využití dat, autom. stahování, provoz"
     },
@@ -15172,6 +15585,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "SettingsKeywordsNotifications",
+      "value": "Ztlumit, zvuk, výstrahy"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "SettingsKeywordsPasscode",
       "value": "heslo, pin, zámek, zámek obrazovky"
     },
@@ -15182,6 +15600,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "SettingsKeywordsPerformance",
+      "value": "úspora baterie, baterie, animace, výkon"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SettingsKeywordsPrivateChats",
+      "value": "soukromí, přímé zprávy, pm"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "SettingsKeywordsSessions",
       "value": "zařízení, relace, odhlásit, ukončit"
     },
@@ -15189,6 +15617,21 @@
       "_": "types.LangPackString",
       "key": "SettingsKeywordsStickers",
       "value": "samolepky, emoji, gify, masky, reakce"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SettingsKeywordsTextSize",
+      "value": "písmo, velikost textu, větší, menší"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SettingsKeywordsTheme",
+      "value": "motiv, barva, zvýraznění, tmavý režim, noční režim"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SettingsKeywordsTimeFormat",
+      "value": "hodiny, 24 hodin, 12 hodin, dopoledne, odpoledne"
     },
     {
       "_": "types.LangPackString",
@@ -18428,6 +18871,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletConnectManifestInvalid",
+      "value": "Informace o této aplikaci jsou neplatné nebo se vztahují k jiné doméně."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletConnectTitle",
       "value": "Připojit Money"
     },
@@ -18533,6 +18981,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletLogoutKeyRotation",
+      "value": "Změna klíče vaší peněženky zatím nebyla potvrzena. Její nový klíč je uložen pouze v tomto zařízení. Pokud se odhlásíte a změna bude provedena, ztratíte přístup k peněžence."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletLogoutWarning",
       "value": "Tajné fráze uložené v tomto zařízení pro vaše peněženky budou po odhlášení smazány. Nejprve se ujistěte, že každá fráze má zálohu v cloudu nebo písemnou kopii."
     },
@@ -18593,6 +19046,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletReceiveAddressCopied",
+      "value": "Adresa zkopírována"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletReceiveBuy",
       "value": "Nakupujte v hotovosti nebo kryptoměnou"
     },
@@ -18600,6 +19058,21 @@
       "_": "types.LangPackString",
       "key": "WalletReceiveCopyHint",
       "value": "Kliknutím zkopírovat adresu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletReceivePeerNote",
+      "value": "Pošlete GRAM na tuto adresu nebo naskenujte tento QR kód."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletReceivePeerShowQr",
+      "value": "Zobrazit QR"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletReceiveShowQr",
+      "value": "Zobrazit můj QR"
     },
     {
       "_": "types.LangPackString",
@@ -18653,6 +19126,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletSendAmountButton",
+      "value": "Poslat {amount}"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletSendInsufficientFunds",
       "value": "Nedostatek prostředků."
     },
@@ -18660,6 +19138,21 @@
       "_": "types.LangPackString",
       "key": "WalletSendMoney",
       "value": "Poslat peníze"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendPending",
+      "value": "Převod již mohl být odeslán. Neodesílejte jej znovu, dokud se ověřuje jeho stav."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendRecipientWallet",
+      "value": "Peněženka uživatele {name}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendSwitchCurrency",
+      "value": "Změnit měnu"
     },
     {
       "_": "types.LangPackString",
@@ -18715,6 +19208,16 @@
       "_": "types.LangPackString",
       "key": "WalletTransactionIncomingCollectible",
       "value": "Příchozí sběratelský"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionMovedFromProfile",
+      "value": "Přesunuto z profilu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionMovedToProfile",
+      "value": "Přesunuto na profil"
     },
     {
       "_": "types.LangPackString",
@@ -18898,5 +19401,5 @@
       "value": "Vaše jméno"
     }
   ],
-  "version": 377730
+  "version": 378686
 }
