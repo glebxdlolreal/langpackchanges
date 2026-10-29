@@ -470,6 +470,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ActionGramTransferPreviewYou",
+      "value": "שלחת ל⁨{from}⁩ ⁨{amount}⁩"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ActionGroupCallFinishedChannel",
       "value": "השידור הסתיים (⁨{duration}⁩)"
     },
@@ -527,6 +532,16 @@
       "_": "types.LangPackString",
       "key": "ActionKickUserYou",
       "value": "הסרת את ⁨{user}⁩"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ActionManagedBotCreated",
+      "value": "⁨{from}⁩ יצר את ⁨{bot}⁩"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ActionManagedBotCreatedYou",
+      "value": "יצרת את ⁨{bot}⁩"
     },
     {
       "_": "types.LangPackString",
@@ -4036,6 +4051,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ChannelStatsGraphStories",
+      "value": "רגשוני סטוריז"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ChannelStatsGraphStoriesReactions",
       "value": "רגשונים לסטוריז"
     },
@@ -4224,6 +4244,14 @@
       "_": "types.LangPackString",
       "key": "ChatForwardActionHeader",
       "value": "העברת הודעות"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "ChatGiveawayInfoOtherChannels",
+      "many_value": "**⁨{count}⁩** ערוצים אחרים ברשימה",
+      "one_value": "ערוץ **⁨{count}⁩** אחר ברשימה",
+      "other_value": "**⁨{count}⁩** ערוצים אחרים ברשימה",
+      "two_value": "**⁨{count}⁩** ערוצים אחרים ברשימה"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -5265,6 +5293,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ConversationStoryForwardTooltipSavedMessagesOne",
+      "value": "הסטורי הועבר ל**הודעות שמורות**"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ConversationSuggestedPhotoTitle",
       "value": "תמונה שהוצעה"
     },
@@ -5478,6 +5511,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "DeleteAllFrom",
+      "value": "מחק הכל מ⁨{user}⁩"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "DeleteAllFromUsers",
       "value": "מחק הכל מהמשתמשים"
     },
@@ -5505,6 +5543,11 @@
       "_": "types.LangPackString",
       "key": "DeleteAndStop",
       "value": "מחק וחסום"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "DeleteBan",
+      "value": "חסום את ⁨{user}⁩"
     },
     {
       "_": "types.LangPackString",
@@ -5566,6 +5609,11 @@
       "_": "types.LangPackString",
       "key": "DeleteMega",
       "value": "מחק קבוצה"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "DeleteMessagesOptionAlso",
+      "value": "מחק גם עבור ⁨{user}⁩"
     },
     {
       "_": "types.LangPackString",
@@ -5861,6 +5909,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "DoNotTranslateLanguage",
+      "value": "אל תתרגם ⁨{language}⁩"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Done",
       "value": "בוצע"
     },
@@ -5883,6 +5936,11 @@
       "_": "types.LangPackString",
       "key": "DownloadSpeedLimited",
       "value": "מהירות ההורדה הוגבלה"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "DownloadSpeedLimitedMessage",
+      "value": "הירשם ל**Telegram Premium** כדי להגביר את מהירות ההורדה פי ⁨{factor}⁩."
     },
     {
       "_": "types.LangPackString",
@@ -6165,6 +6223,14 @@
       "value": "אמנים מוזמנים להוסיף את ערכות האימוג'ים שלהם דרך הבוט שלנו @strickers."
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "key": "EmojiCount",
+      "many_value": "⁨{count}⁩ אמוגי'ם",
+      "one_value": "אימוג'י ⁨{count}⁩",
+      "other_value": "⁨{count}⁩ אמוגי'ם",
+      "two_value": "⁨{count}⁩ אמוגי'ם"
+    },
+    {
       "_": "types.LangPackString",
       "key": "EmojiPremiumRestore",
       "value": "שחזר"
@@ -6238,6 +6304,11 @@
       "_": "types.LangPackString",
       "key": "EnableSharing",
       "value": "אפשר שיתוף"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EnableSomeReactionsInfo",
+      "value": "חברים בקבוצה יכולים להשתמש רק באימוג'ים המותרים כרגשון להודעה."
     },
     {
       "_": "types.LangPackString",
@@ -6352,12 +6423,12 @@
     {
       "_": "types.LangPackString",
       "key": "ErrorAdminRankEmojiNotAllowed",
-      "value": "רמת הניהול לא יכולה להכיל אימוג'ים"
+      "value": "תגית הניהול לא יכולה להכיל אימוג'ים"
     },
     {
       "_": "types.LangPackString",
       "key": "ErrorAdminRankInvalid",
-      "value": "רמת הניהול שנבחרה אינה תקינה"
+      "value": "תגית הניהול שנבחרה אינה תקינה"
     },
     {
       "_": "types.LangPackString",
@@ -6770,6 +6841,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ExactTextCopied",
+      "value": "\"⁨{text}⁩\" הועתק ללוח העריכה"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ExceptionTitlePrivacyChargeForMessages",
       "value": "הסר עמלה"
     },
@@ -6790,8 +6866,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ExpiredStoryMentioned",
+      "value": "הסטורי בו תייגת את ⁨{user}⁩ אינו זמין יותר"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "FactCheck",
       "value": "בדיקת עובדות"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "FactCheckFooter",
+      "value": "ההבהרה הזו סופקה על ידי סוכנות לבדיקת עובדות שהוקצתה על ידי מחלקת הממשל של המדינה שלך (⁨{country}⁩) האחראית למאבק במידע מוטעה."
     },
     {
       "_": "types.LangPackString",
@@ -6837,6 +6923,14 @@
       "_": "types.LangPackString",
       "key": "FileTransferProgress",
       "value": "⁨{currentSize}⁩ / ⁨{totalSize}⁩"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "Files",
+      "many_value": "⁨{count}⁩ קבצים",
+      "one_value": "קובץ ⁨{count}⁩",
+      "other_value": "⁨{count}⁩ קבצים",
+      "two_value": "⁨{count}⁩ קבצים"
     },
     {
       "_": "types.LangPackString",
@@ -6902,6 +6996,11 @@
       "_": "types.LangPackString",
       "key": "FilterDeleteAlert",
       "value": "האם בוודאות ברצונך להסיר תיקיה זו? הצ'אטים שלך לא ימחקו."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "FilterDeleteAlertLinks",
+      "value": "למחוק תיקיה זו? פעולה זו תבטל את כל קישורי ההזמנה שנוצרו כדי לשתף את התיקיה."
     },
     {
       "_": "types.LangPackString",
@@ -7025,6 +7124,14 @@
       "_": "types.LangPackString",
       "key": "FolderLinkHeaderAlready",
       "value": "צ'אטים שכבר הצטרפת אליהם"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "FolderLinkHeaderChatsJoin",
+      "many_value": "⁨{count}⁩ צ'אטים שתצטרף אליהם",
+      "one_value": "צ'אט ⁨{count}⁩ שתצטרף אליו",
+      "other_value": "⁨{count}⁩ צ'אטים שתצטרף אליהם",
+      "two_value": "⁨{count}⁩ צ'אטים שתצטרף אליהם"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -7379,6 +7486,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ForwardToAnotherChat",
+      "value": "העבר לצ'אט נוסף"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ForwardedFrom",
       "value": "הועבר מאת"
     },
@@ -7389,8 +7501,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "FragmentPhoneMessage",
+      "value": "מספר הטלפון הזה נקנה ב-**Fragment** ב⁨{date}⁩ עבור **⁨{amount}⁩** ⁨{details}⁩"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "FragmentPhoneTitle",
+      "value": "**⁨{phone}⁩** הוא מספר טלפון לאיסוף ששייך אל"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "FragmentUsernameMessage",
+      "value": "שם משתמש זה נקנה ב**Fragment** ב⁨{date}⁩ ב**⁨{amount}⁩** ⁨{details}⁩"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "FragmentUsernameOpen",
       "value": "למד עוד"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "FragmentUsernameTitle",
+      "value": "**⁨{username}⁩** הוא שם משתמש לאיסוף ששייך אל"
     },
     {
       "_": "types.LangPackString",
@@ -8548,6 +8680,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "GiftPremiumFeaturesTerms",
+      "value": "באפשרותך לצפות ברשימת התכונות ופרטים נוספים על Telegram Premium ⁨{link}⁩."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftPremiumFeaturesTermsLink",
+      "value": "כאן"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "GiftPremiumHeader",
       "value": "הענק Premium"
     },
@@ -8722,6 +8864,11 @@
       "_": "types.LangPackString",
       "key": "GiftStarsTitle",
       "value": "הענק כוכבים"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftTelegramPremiumOrStarsTitle",
+      "value": "הענק Premium או כוכבים"
     },
     {
       "_": "types.LangPackString",
@@ -8912,6 +9059,27 @@
       "two_value": "בעוד יומיים, תוכל לשלוח פריט אספנות זה לכל כתובת TON בלוקצ'יין מחוץ לטלגרם, למכירה רגילה או פומבית."
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "key": "GiveawayReceiverTypeCountries",
+      "many_value": "מ⁨{count}⁩ מדינות",
+      "one_value": "ממדינה ⁨{count}⁩",
+      "other_value": "מ⁨{count}⁩ מדינות",
+      "two_value": "מ⁨{count}⁩ מדינות"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "GiveawayStarsPrepaidDesc",
+      "many_value": "ל⁨{count}⁩ משתמשים",
+      "one_value": "למשתמש ⁨{count}⁩",
+      "other_value": "ל⁨{count}⁩ משתמשים",
+      "two_value": "ל⁨{count}⁩ משתמשים"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiveawayStarsPrepaidTitle",
+      "value": "⁨{count}⁩ כוכבי טלגרם"
+    },
+    {
       "_": "types.LangPackString",
       "key": "GiveawayUsersAboutGroup",
       "value": "בחר האם ברצונך להגביל את ההגבלה רק למשתמשים שהצטרפו לקבוצה אחרי תחילת ההגרלה או למשתמשים ממדינות מסוימות."
@@ -8946,6 +9114,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "GramEarningsText",
+      "value": "הGram שלך מתנות, מודעות ו-Fragment"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "GramGiftReceived",
       "value": "טעינת Gram"
     },
@@ -8963,6 +9136,19 @@
       "_": "types.LangPackString",
       "key": "GroupBoostBoostGroup",
       "value": "הענק בוסט לקבוצה"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GroupBoostBoostToUnrestrict",
+      "value": "הענק לקבוצה ⁨{boostTimes}⁩ בוסט כדי להסיר את מגבלות שליחת ההודעות. הבוסט שלך יעזור ל**⁨{chat}⁩** לקבל תכונות חדשות."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "GroupBoostBoostToUnrestrictTimes",
+      "many_value": "**⁨{count}⁩** פעמים",
+      "one_value": "פעם **⁨{count}⁩**",
+      "other_value": "**⁨{count}⁩** פעמים",
+      "two_value": "פעמיים"
     },
     {
       "_": "types.LangPackString",
@@ -8993,6 +9179,11 @@
       "_": "types.LangPackString",
       "key": "GroupEmoji",
       "value": "אימוג'י הקבוצה"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GroupErrorAccessDenied",
+      "value": "מצטערים, הקבוצה הזו פרטית."
     },
     {
       "_": "types.LangPackString",
@@ -9248,6 +9439,11 @@
       "_": "types.LangPackString",
       "key": "HEX",
       "value": "HEX"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "HashtagSearchPlaceholder",
+      "value": "הכנס תיוג כדי לחפש הודעות שמכילות אותו."
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -9581,6 +9777,14 @@
       "value": "שפה"
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "key": "Languages",
+      "many_value": "⁨{count}⁩ שפות",
+      "one_value": "שפה ⁨{count}⁩",
+      "other_value": "⁨{count}⁩ שפות",
+      "two_value": "⁨{count}⁩ שפות"
+    },
+    {
       "_": "types.LangPackString",
       "key": "LastName",
       "value": "שם משפחה"
@@ -9798,6 +10002,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "LimitReachedFolderLinks",
+      "value": "באפשרותך ליצור עד ל⁨{limit}⁩ קישורי הזמנה.\nשדרג ל**Telegram Premium** כדי ליצור עד ל**⁨{limit2}⁩**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LimitReachedFolderLinksLocked",
+      "value": "באפשרותך ליצור עד ⁨{limit}⁩ קישורי הזמנה. יתכן ונגדיל מספר זה בעתיד."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LimitReachedFolderLinksPremium",
+      "value": "באפשרותך ליצור עד ⁨{limit}⁩ קישורי הזמנה. נסה למחוק כמה קישורי הזמנה לתיקיות."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "LimitReachedFolders",
       "value": "הגעת למגבלה של **⁨{limit}⁩** תיקיות. באפשרותך להכפיל את המגבלה ל**⁨{limit2}⁩** תיקיות באמצעות הרשמה ל**טלגרם פרימיום**."
     },
@@ -9828,6 +10047,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "LimitReachedPinSavedDialogs",
+      "value": "מצטערים, לא ניתן לנעוץ יותר מ⁨{limit}⁩ צ'אטים ללמעלה. בטל נעיצה של כמה צ'אטים נעוצים, או הירשם ל**Telegram Premium** כדי להכפיל את הכמות ל**⁨{limit2}⁩** צ'אטים."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LimitReachedPinnedTopics",
+      "value": "מצטערים, לא ניתן לנעוץ יותר מ⁨{limit}⁩ צ'אטים להתחלה."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "LimitReachedPublicLinks",
       "value": "שמרת יותר מדי קישורים ציבוריים. נא לבטל קישור מקבוצה או ערוץ ישנים, או להירשם ל**טלגרם פרימיום** כדי להכפיל את המגבלה ל**⁨{limit2}⁩** קישורים ציבוריים."
     },
@@ -9840,6 +10069,21 @@
       "_": "types.LangPackString",
       "key": "LimitReachedPublicLinksPremium",
       "value": "שמרת יותר מדי קישורים ציבוריים. נסה לבטל קישור מקבוצה או ערוץ ישנים."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LimitReachedSharedFolders",
+      "value": "באפשרותך להחזיק עד ל⁨{limit}⁩ תיקיות משותפות.\nשדרג ל**Telegram Premium** כדי להגדיל מגבלה זו ל**⁨{limit2}⁩**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LimitReachedSharedFoldersLocked",
+      "value": "באפשרותך להחזיק בעד ⁨{limit}⁩ תיקיות משותפות. יתכן ונגדיל מספר זה בעתיד."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LimitReachedSharedFoldersPremium",
+      "value": "באפשרותך להחזיק בעד ⁨{limit}⁩ תיקיות משותפות. נסה למחוק אחת מהתיקיות המשותפות הקיימות שלך."
     },
     {
       "_": "types.LangPackString",
@@ -9903,6 +10147,19 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "LiveLocationUpdatedAtDate",
+      "value": "עודכן ב⁨{date}⁩"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "LiveLocationUpdatedHoursAgo",
+      "many_value": "עודכן לפני ⁨{count}⁩ שעות",
+      "one_value": "עודכן לפני שעה ⁨{count}⁩",
+      "other_value": "עודכן לפני ⁨{count}⁩ שעות",
+      "two_value": "עודכן לפני שעתיים"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "LiveLocationUpdatedJustNow",
       "value": "עודכן ממש עכשיו"
     },
@@ -9918,6 +10175,11 @@
       "_": "types.LangPackString",
       "key": "LiveLocationUpdatedTodayAt",
       "value": "עודכן ב⁨{time}⁩"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LiveLocationUpdatedYesterdayAt",
+      "value": "עודכן אתמול בשעה ⁨{time}⁩"
     },
     {
       "_": "types.LangPackString",
@@ -10050,9 +10312,22 @@
       "value": "מאי"
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "key": "Media",
+      "many_value": "⁨{count}⁩ קובצי מדיה",
+      "one_value": "מדיה אחת",
+      "other_value": "⁨{count}⁩ קובצי מדיה",
+      "two_value": "⁨{count}⁩ קובצי מדיה"
+    },
+    {
       "_": "types.LangPackString",
       "key": "MediaAudioEmpty",
       "value": "אין כאן עדיין הודעות קוליות"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MediaCounter",
+      "value": "⁨{current}⁩ מתוך ⁨{total}⁩"
     },
     {
       "_": "types.LangPackString",
@@ -10414,6 +10689,24 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "MessageContainsEmojiPack",
+      "value": "הודעה זו מכילה אימוג'ים מערכת ⁨{pack}⁩."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "MessageContainsEmojiPacks",
+      "many_value": "הודעה זו מכילה אימוג'ים מ**⁨{count}⁩ ערכות**.",
+      "one_value": "הודעה זו מכילה אימוג'ים מ**ערכה ⁨{count}⁩**.",
+      "other_value": "הודעה זו מכילה אימוג'ים מ**⁨{count}⁩ ערכות**.",
+      "two_value": "הודעה זו מכילה אימוג'ים מ**⁨{count}⁩ ערכות**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MessageLockedPremium",
+      "value": "הירשם ל**Premium** כדי לשלוח הודעה ל**⁨{peer}⁩**."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "MessageMetaApproximate",
       "value": "בערך"
     },
@@ -10451,6 +10744,11 @@
       "_": "types.LangPackString",
       "key": "MessagePreview",
       "value": "תצוגה מקדימה של הודעה"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MessageReadAt",
+      "value": "נקרא ⁨{date}⁩"
     },
     {
       "_": "types.LangPackString",
@@ -10555,6 +10853,14 @@
       "_": "types.LangPackString",
       "key": "MessageTimerShortHours",
       "value": "⁨{count}⁩ שע'"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "MessageTimerShortMinutes",
+      "many_value": "⁨{count}⁩ ד'",
+      "one_value": "ד' ⁨{count}⁩",
+      "other_value": "⁨{count}⁩ ד'",
+      "two_value": "⁨{count}⁩ ד'"
     },
     {
       "_": "types.LangPackString",
@@ -10678,8 +10984,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "MonetizationInfoTONLink",
+      "value": "https://telegram.org/privacy"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MonetizationOverview",
+      "value": "סקירת רווחים"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "MonetizationProceedsTONInfoLink",
       "value": "https://telegram.org/tos/content-creator-rewards"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MonetizationWithdraw",
+      "value": "משוך דרך Fragment"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MonetizationWithdrawErrorText",
+      "value": "באפשרותך לאסוף תגמולים רק אם:\n\n• אימות דו-שלבי הופעל עבור חשבונך לפני יותר מ7 ימים.\n\n• התחברת למכשיר זה לפני יותר מ24 שעות.\n\nנא לחזור מאוחר יותר."
     },
     {
       "_": "types.LangPackString",
@@ -10779,8 +11105,29 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "MoreSimilarText",
+      "value": "הירשם ל**Telegram Premium**\nכדי לקבל עד ל⁨{limit}⁩ ערוצים דומים."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "MuteForDays",
+      "many_value": "השתק למשך ⁨{count}⁩ ימים",
+      "one_value": "השתק למשך יום",
+      "other_value": "השתק למשך ⁨{count}⁩ ימים",
+      "two_value": "השתק למשך יומיים"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "MuteForForever",
       "value": "השתק לנצח"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "MuteForHours",
+      "many_value": "השתק למשך ⁨{count}⁩ שעות",
+      "one_value": "השתק למשך שעה",
+      "other_value": "השתק למשך ⁨{count}⁩ שעות",
+      "two_value": "השתק למשך שעתיים"
     },
     {
       "_": "types.LangPackString",
@@ -11087,6 +11434,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "NoResultFoundFor",
+      "value": "לא נמצאו תוצאות עבור \"⁨{query}⁩\"."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "NoSavingDescription",
       "value": "השבת העתקת טקסט ושמירת תמונות וסרטונים."
     },
@@ -11197,6 +11549,11 @@
       "_": "types.LangPackString",
       "key": "NotificationSharingEnabled",
       "value": "השיתוף מאופשר עבור צ'אט זה."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NotificationStarsGiftSentYou",
+      "value": "שלחת מתנה בסך ⁨{amount}⁩"
     },
     {
       "_": "types.LangPackString",
@@ -11572,6 +11929,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PasscodeWalletKeyOtherAccounts",
+      "value": "מפתחות ארנק בחשבון טלגרם אחר מוגנים בקוד גישהזה. עבור בכל חשבון והסר את מפתחות הארנק שלו לפני כיבוי קוד הגישה של האפליקציה."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PasscodeWrong",
       "value": "קוד שגוי"
     },
@@ -11710,8 +12072,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PaymentCheckoutAcceptTerms",
+      "value": "אני מאשר את ⁨{link}⁩ של ⁨{bot}⁩."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PaymentCheckoutMethod",
       "value": "שיטת התשלום"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PaymentCheckoutMethodNewCard",
+      "value": "כרטיס חדש"
     },
     {
       "_": "types.LangPackString",
@@ -11732,6 +12104,11 @@
       "_": "types.LangPackString",
       "key": "PaymentCheckoutShippingMethod",
       "value": "שיטת המשלוח"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PaymentConfirmationMessage",
+      "value": "הכרטיס שלך ⁨{cardName}⁩ הוזן. בכדי לשלם באמצעות כרטיס זה, הזן את הסיסמה שלך לאימות דו-שלבי."
     },
     {
       "_": "types.LangPackString",
@@ -11797,6 +12174,11 @@
       "_": "types.LangPackString",
       "key": "PaymentInfoDone",
       "value": "המשך לחשבון"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PaymentInfoHint",
+      "value": "שילמת **⁨{amount}⁩** עבור **⁨{title}⁩**."
     },
     {
       "_": "types.LangPackString",
@@ -11904,9 +12286,22 @@
       "value": "ערוץ"
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "key": "PeerInfoAllowedReactionsMaxCountValue",
+      "many_value": "⁨{count}⁩ רגשונים",
+      "one_value": "רגשון ⁨{count}⁩",
+      "other_value": "⁨{count}⁩ רגשונים",
+      "two_value": "⁨{count}⁩ רגשונים"
+    },
+    {
       "_": "types.LangPackString",
       "key": "PeerInfoConfirmRemovePeer",
       "value": "להסיר את ⁨{user}⁩ מהקבוצה?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PeerInfoPaneStories",
+      "value": "סטוריז"
     },
     {
       "_": "types.LangPackString",
@@ -12465,6 +12860,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PremiumLastSeenText1Locked",
+      "value": "כדי לראות מתי **⁨{user}⁩** נראה/תה לאחרונה, התחל להציג מתי אתה נראית לאחרונה."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PremiumLastSeenText2",
+      "value": "הרשמה תאפשר לך לראות את זמן הנראה לאחרונה של **⁨{user}⁩** מבלי להציג את שלך."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PremiumLimitAccounts",
       "value": "הגעת למגבלה הנוכחית שלך לכמות חשבונות מחוברים. באפשרותך לפנות מקום אחד נוסף באמצעות הרשמה לTelegram Premium עם אחד החשבונות המחוברים."
     },
@@ -12542,6 +12947,16 @@
       "_": "types.LangPackString",
       "key": "PremiumPreviewEmoji",
       "value": "אימוג'ים מונפשים"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PremiumPreviewEmojiDescription",
+      "value": "כלול אימוג'ים מונפשים מערכות שונות בכל הודעה שתשלח."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PremiumPreviewEmojiStatusDescription",
+      "value": "בחר מתוך אלפי אימוג'ים כדי להציג את הפעילות הנוכחית שלך ליד השם שלך."
     },
     {
       "_": "types.LangPackString",
@@ -12700,6 +13115,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PremiumReadText2",
+      "value": "מינוי יאפשר לך לראות את זמן הקריאה של **⁨{user}⁩** מבלי להציג את שלך."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PremiumStickerTooltip",
       "value": "ערכה זו מכילה מדבקות פרימיום כגון מדבקה זו."
     },
@@ -12707,6 +13127,11 @@
       "_": "types.LangPackString",
       "key": "PremiumStoriesAboutMobile",
       "value": "* זמין בפרסום סטוריז מאפליקציות טלגרם לiOS ו-Android."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PremiumStoriesFormattingDescription",
+      "value": "הוסף קישורים ועיצוב לכותרות הסטוריז שלך."
     },
     {
       "_": "types.LangPackString",
@@ -12722,6 +13147,11 @@
       "_": "types.LangPackString",
       "key": "PremiumStoriesSaveToGallery",
       "value": "שמור סטוריז לגלריה"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PremiumStoriesSaveToGalleryDescription",
+      "value": "שמור סטוריז של אחרים שאינם מוגנים."
     },
     {
       "_": "types.LangPackString",
@@ -12752,6 +13182,14 @@
       "_": "types.LangPackString",
       "key": "PremiumUnlockStickers",
       "value": "הירשם לTelegram Premium כדי לפתוח מדבקות פרימיום."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "PrepaidGiveawayMonths",
+      "many_value": "⁨{count}⁩ חודשים",
+      "one_value": "חודש ⁨{count}⁩",
+      "other_value": "⁨{count}⁩ חודשים",
+      "two_value": "חודשיים"
     },
     {
       "_": "types.LangPackString",
@@ -13126,6 +13564,11 @@
       "one_value": "⁨{date}⁩ (גיל שנה)",
       "other_value": "⁨{date}⁩ (גיל ⁨{age}⁩)",
       "two_value": "⁨{date}⁩ (גיל שנתיים)"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ProfileBotManagedBy",
+      "value": "נוצר ומנוהל על ידי ⁨{bot}⁩"
     },
     {
       "_": "types.LangPackString",
@@ -13656,7 +14099,7 @@
     {
       "_": "types.LangPackString",
       "key": "ReplaceGuardBotTitle",
-      "value": "החלף בוט שומר"
+      "value": "החלף בוט"
     },
     {
       "_": "types.LangPackString",
@@ -13835,6 +14278,66 @@
       "_": "types.LangPackString",
       "key": "ReportSubmitError",
       "value": "קרתה תקלה בשליחת הדיווח. נא לנסות שוב מאוחר יותר."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RequestPeerReqAdminRights",
+      "value": "עליך להיות עם הרשאות הניהול: ⁨{rights}⁩."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RequestPeerReqBotMember",
+      "value": "על הבוט להיות בקבוצה."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RequestPeerReqForum",
+      "value": "על הקבוצה להיות עם נושאים מופעלים."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RequestPeerReqNoForum",
+      "value": "על הקבוצה להיות עם נושאים כבויים."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RequestPeerReqNoPremium",
+      "value": "על המשתמש להיות ללא מנוי לPremium."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RequestPeerReqOwnerChannel",
+      "value": "עליך להיות הבעלים של הערוץ."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RequestPeerReqOwnerGroup",
+      "value": "עליך להיות הבעלים של הקבוצה."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RequestPeerReqPremium",
+      "value": "על המשתמש להיות עם מנוי לPremium."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RequestPeerReqPrivateChannel",
+      "value": "על הערוץ להיות פרטי."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RequestPeerReqPrivateGroup",
+      "value": "על הקבוצה להיות פרטית."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RequestPeerReqPublicChannel",
+      "value": "על הערוץ להיות ציבורי."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RequestPeerReqPublicGroup",
+      "value": "על הקבוצה להיות ציבורית."
     },
     {
       "_": "types.LangPackString",
@@ -14625,6 +15128,11 @@
       "_": "types.LangPackString",
       "key": "SearchEmptyViewTitle",
       "value": "אין תוצאות"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SearchFilterByUser",
+      "value": "סנן לפי משתמש"
     },
     {
       "_": "types.LangPackString",
@@ -15990,6 +16498,11 @@
       "_": "types.LangPackString",
       "key": "StarsIntroTransactionGiftUnknownUser",
       "value": "משתמש לא ידוע"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsIntroTransactionGoogleTopUpSubtitle",
+      "value": "דרך Google Play"
     },
     {
       "_": "types.LangPackString",
@@ -17610,6 +18123,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "UploadSpeedLimitedMessage",
+      "value": "הירשם ל**Telegram Premium** כדי להגדיל את מהירות ההעלאה פי ⁨{factor}⁩."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "User",
       "value": "משתמש"
     },
@@ -18172,7 +18690,7 @@
     {
       "_": "types.LangPackString",
       "key": "ViewButtonVoiceChat",
-      "value": "שיחת שמע"
+      "value": "שיחת וידאו"
     },
     {
       "_": "types.LangPackString",
@@ -18197,7 +18715,7 @@
     {
       "_": "types.LangPackString",
       "key": "VoiceChatInactive",
-      "value": "שיחת שמע זו אינה פעילה"
+      "value": "שיחת וידאו זו אינה פעילה"
     },
     {
       "_": "types.LangPackString",
@@ -18372,8 +18890,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletAlsoHaveEarnings",
+      "value": "יש לך גם ⁨{amount}⁩ ברווחי Gram"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletAlsoHaveOldWallets",
       "value": "יש לך גם ⁨{amount}⁩ בארנקים ישנים"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletAppPasscodeDescription",
+      "value": "הכנס את קוד הגישה כדי להמשיך."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletAppPasscodePlaceholder",
+      "value": "קוד גישה"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBackupDisabledError",
+      "value": "הגיבוי מושבת עבור הארנק הזה"
     },
     {
       "_": "types.LangPackString",
@@ -18387,8 +18925,178 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletBackupFailedError",
+      "value": "עדכון גיבוי הארנק נכשל"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBackupHint",
+      "value": "גיבוי המפתח המוצפן שלך יפוצל לשלושה חלקים ויאוחסן בשלוש יבשות שונות.\n\nניתן יהיה לשחזר אותו רק במכשירים שלך, כך שאף אחד — אפילו לא טלגרם — לא יוכל לגשת למפתח שלך."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBackupOffHint",
+      "value": "גיבוי המפתח המוצפן שלך יפוצל לשלושה חלקים ויאוחסן בשלוש יבשות שונות.\n\nניתן יהיה לשחזר אותו רק במכשירים שלך, כך שאף אחד — אפילו לא טלגרם — לא יוכל לגשת למפתח שלך."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBackupPartsMissingError",
+      "value": "גיבוי הארנק לא הושלם בשרת"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBackupTitle",
+      "value": "גיבוי מוצפן"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBuyAmountLabel",
+      "value": "תשלם עם ⁨{currency}⁩"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBuyBuyWith",
+      "value": "קנה עם"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBuyContinue",
+      "value": "קנה"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBuyCurrency",
+      "value": "מטבע"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBuyError",
+      "value": "לא ניתן היה להתחיל את הרכישה. אנא נסה שוב."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBuyExtraFee",
+      "value": "עמלה נוספת"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBuyFee",
+      "value": "עמלה"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBuyMethodAchBankTransfer",
+      "value": "העברה בנקאית של ACH"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBuyMethodApplePay",
+      "value": "Apple Pay"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBuyMethodCard",
+      "value": "כרטיס"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBuyMethodCrossChain",
+      "value": "העברה בין שרשראות"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBuyMethodGbpBankTransfer",
+      "value": "העברה בנקאית של GBP"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBuyMethodGooglePay",
+      "value": "Google Pay"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBuyMethodOpenBanking",
+      "value": "בנקאות פתוחה"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBuyMethodP2pExpress",
+      "value": "P2P Express"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBuyMethodPaypal",
+      "value": "PayPal"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBuyMethodPix",
+      "value": "PIX"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBuyMethodSepaBankTransfer",
+      "value": "העברה בנקאית של SEPA"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBuyMethodVenmo",
+      "value": "Venmo"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBuyMethodWalletBalance",
+      "value": "יתרת הארנק"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBuyMinMax",
+      "value": "מינימום ⁨{min}⁩ · מקסימום ⁨{max}⁩"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBuyNetworkFee",
+      "value": "עמלת רשת"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBuyPayWith",
+      "value": "שלם עם"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBuyTitle",
+      "value": "קנה Grams"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBuyTotal",
+      "value": "סך הכל"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBuyUnavailable",
+      "value": "קניית Gram אינה זמינה באזור שלך."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBuyYouGet",
+      "value": "תקבל"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletCollectibleGift",
       "value": "מתנת אספנות"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCollectibleItemIn",
+      "value": "+פריט 1"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCollectibleItemOut",
+      "value": "-פריט 1"
     },
     {
       "_": "types.LangPackString",
@@ -18397,8 +19105,38 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletCollectibleNotReady",
+      "value": "פריט אספנות זה אינו מוכן עדיין להעברה."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletCollectibleNumber",
       "value": "מספר לאיסוף"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCollectibleOnSale",
+      "value": "פריט אספנות זה עומד למכירה. הוצא אותו מהמכירה כדי להעביר אותו."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCollectibleSell",
+      "value": "מכור"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCollectibleTitle",
+      "value": "פריט אספנות"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCollectibleTransfer",
+      "value": "העבר"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCollectibleUnavailable",
+      "value": "נכשלה הכנת העברת פריט האספנות."
     },
     {
       "_": "types.LangPackString",
@@ -18412,13 +19150,271 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletCommentEncryptionUnavailable",
+      "value": "ארנק זה לא יכול לקבל כרגע הערות מוצפנות"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCommentTooLong",
+      "value": "ההערה המוצפנת ארוכה מדי"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletConnect",
       "value": "התחבר"
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletConnectAccess",
+      "value": "אפליקציות מחוברות יכולות לראות את כתובת הארנק שלך, היתרה והפעילות. הם לא יוכלו להעביר כסף בלי אישור שלך."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectActive",
+      "value": "חיבורים פעילים"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectApp",
+      "value": "אפליקציה מחוברת"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectAppAccess",
+      "value": "אפליקציה זו יכולה לראות את כתובת הארנק שלך, היתרה והפעולות. היא לא יכולה לעביר כספים ללא אישור שלך."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectBinaryData",
+      "value": "נתונים בינאריים"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectBlindSign",
+      "value": "הינך חותם בצורה עיוורת. חתום רק ממקורות אמינים."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectBusyError",
+      "value": "בקשת ארנק נוספת בעיצומה"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectConfirmed",
+      "value": "מאומת"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectContractData",
+      "value": "נתוני חוזה"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectDataCopied",
+      "value": "הנתונים הועתקו ללוח העריכה"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectDeclined",
+      "value": "סורב"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectDisconnected",
+      "value": "⁨{name}⁩ התנתק"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectDisconnectedAll",
+      "value": "כל האפליקציות נותקו"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectEmpty",
+      "value": "אין אפליקציות מחוברות"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectError",
+      "value": "לא ניתן היה להשלים את בקשת הארנק. אנא נסה שוב."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectExpired",
+      "value": "פג תוקף הבקשה."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "WalletConnectExpiresIn",
+      "many_value": "יפוג בעוד ⁨{count}⁩ דקות",
+      "one_value": "יפוג בעוד ⁨{count}⁩",
+      "other_value": "יפוג בעוד ⁨{count}⁩ דקות",
+      "two_value": "יפוג בעוד ⁨{count}⁩ דקות"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectFee",
+      "value": "עמלת רשת משוערת: ⁨{amount}⁩"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectFeeUnavailable",
+      "value": "סימולציית ההעברה נכשלה."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectHandled",
+      "value": "בקשה זו טופלה במכשיר אחר."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectInvalid",
+      "value": "בקשת הארנק הזו אינה חוקית."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectManifestError",
+      "value": "לא היה ניתן לטעון את פרטי האפליקציה. נא לנסות להתחבר שוב."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectPermissionInfo",
+      "value": "האפליקציה לא תוכל להעביר כספים ללא אישורך."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectProofAccess",
+      "value": "האפליקציה תוכל לצפות בכתובת הTON שלך, ביתרה ובפעילות שלך, ולבקש חתימה כדי להיכנס. זו אינה העברה."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectRemaining",
+      "value": "זמן שנותר: ⁨{seconds}⁩ ש'"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectRequest",
+      "value": "בקשת ארנק"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectRequestAppDeclined",
+      "value": "בקשת ההעברה של ⁨{name}⁩ סורבה"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectRequestAppExpired",
+      "value": "פג תוקף בקשת ההעברה של ⁨{name}⁩"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectRequestAppPending",
+      "value": "⁨{name}⁩ מבקש עסקה. הקש כדי לסקור."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectRequestAppProcessed",
+      "value": "בקשת ההעברה של ⁨{name}⁩ עובדה"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectRequestMissing",
+      "value": "בקשה זו אינה זמינה יותר."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectRequestTitle",
+      "value": "⁨{name}⁩ מבקש העברה"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectRetry",
+      "value": "נסה שוב"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectReviewSign",
+      "value": "בדוק בזהירות את ההודעה, ואם הינך מסכים, חתום על הנתונים."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectScreenTitle",
+      "value": "בקשת ארנק"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectSessionChanged",
+      "value": "הארנק או ההפעלה של TON Connect השתנו. נא לפתוח את הבקשה שוב."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectSessionClosed",
+      "value": "חיבור זה אינו פעיל יותר."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectSign",
+      "value": "חתום"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectSignData",
+      "value": "חתום על הנתונים"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectSignMessageNote",
+      "value": "העברה זו נחתמה אך לא נשלחה. האפליקציה יכולה לשלוח אותה מאוחר יותר, ואז הכספים יעברו."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectSignTitle",
+      "value": "⁨{name}⁩ מבקש את החתימה שלך"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectStale",
+      "value": "בקשת חיבור זו אינה זמינה יותר. התחל את החיבור שוב מהאפליקציה."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectStateInit",
+      "value": "נתוני פריסת חוזה"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectSuccess",
+      "value": "מחובר ל⁨{name}⁩"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectTitle",
+      "value": "חבר כסף"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletConnectToApp",
       "value": "חבר את כסף ל⁨{name}⁩"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectTransfer",
+      "value": "אימות העברה"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectUnavailable",
+      "value": "הארנק שלך לא זמין."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectUnlock",
+      "value": "בטל את הנעילה כדי להציג את הבקשה"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectUnsupported",
+      "value": "אפליקציה זו ביקשה שיטה שאינה נתמכת. באפשרותך לשלוח סירוב."
     },
     {
       "_": "types.LangPackString",
@@ -18437,6 +19433,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletCurrencyTicker",
+      "value": "GRAM"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletDecryptError",
       "value": "הצפנת ההערה נכשלה. נסה שוב."
     },
@@ -18444,6 +19445,11 @@
       "_": "types.LangPackString",
       "key": "WalletDeleteAnyway",
       "value": "מחק בכל מקרה"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDeleteSave",
+      "value": "שמור את הארנק במכשיר הזה"
     },
     {
       "_": "types.LangPackString",
@@ -18472,6 +19478,26 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletDisableBackupConfirm",
+      "value": "השבת"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDisableBackupFee",
+      "value": "עמלת רשת: ⁨{amount}⁩ GRAM⁨{fiat}⁩."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDisableBackupRotateText",
+      "value": "הגיבוי המוצפן המבוזר שלך ימחק. הארנק שלך יחליף למשפט סודי חדש. משפט סודי זה ישאר הדרך היחידה לשחזר את הארנק."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDisableBackupText",
+      "value": "הגיבוי המוצפן המבוזר שלך ימחק. המשפט הסודי שלך ישאר הדרך היחידה לשחזר את הארנק."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletDisableBackupTitle",
       "value": "להשבית את הגיבוי?"
     },
@@ -18482,8 +19508,118 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletDisconnectAll",
+      "value": "נתק את כל האפליקציות"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDisconnectAllConfirm",
+      "value": "נתק הכל"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDisconnectAllText",
+      "value": "אפליקציות אלה יאבדו את הגישה לארנק שלך. תוכל לחבר אותם שוב בכל זמן."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDisconnectAllTitle",
+      "value": "לנתק את כל האפליקציות?"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletEnableBackup",
       "value": "הפעל גיבוי"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletEnterSecretPhrase",
+      "value": "הכנס משפט סודי"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletExistingWaltBalance",
+      "value": "יש לך גם כסף בWalt"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletFeatureInstantText",
+      "value": "שלח Gram בכל צ'אט, ממש כמו לשלוח תמונה."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletFeatureNoFeesText",
+      "value": "5 ההעברות הראשונות בכל יום יהיו בחינם. השאר עולות כמעט כלום."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletFeatureVerifiedText",
+      "value": "כל העסקאות מתועדות וניתנות לאימות ביומן רישומים ציבורי."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletFeatureVerifiedTitle",
+      "value": "מאומת בבלוקצ'יין"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletHowItWorksDone",
+      "value": "הבנתי"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletHowItWorksSubtitle",
+      "value": "הכסף נמצא בשליטתך הבלעדית — לאף אחד אחר אין גישה."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletHowItWorksTitle",
+      "value": "אין זה עובד"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletIntroRate",
+      "value": "1 Gram שווה כרגע ל⁨{rate}⁩."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletIntroSendTitle",
+      "value": "לשלוח"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletIntroStoreTitle",
+      "value": "שמור"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletIntroTitle",
+      "value": "הGram הראשונים שלך!"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletIntroTradeText",
+      "value": "המר Gram למזומן או למטבעות קריפטו בהמרות."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletIntroTradeTitle",
+      "value": "מכור"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletIntroYouCan",
+      "value": "באפשרותך:"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletKeyMismatchError",
+      "value": "מפתח הארנק שונה במכשיר אחר. הזן את הביטוי הסודי הנוכחי כדי להמשיך לשלוח מהמכשיר הזה."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletLinkNoWallet",
+      "value": "למשתמש זה אין עדיין ארנק."
     },
     {
       "_": "types.LangPackString",
@@ -18492,8 +19628,76 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletMenuItem",
+      "value": "כסף"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "WalletNetworkFeesInfo",
+      "many_value": "כל העברה כרוכה בעמלת רשת קטנה (**~⁨{fee}⁩**). טלגרם מכסה את **⁨{count}⁩** ההעברות הראשונות שלך בכל יום.",
+      "one_value": "כל העברה כרוכה בעמלת רשת קטנה (**~⁨{fee}⁩**). טלגרם מכסה את ההעברה הראשונה שלך בכל יום.",
+      "other_value": "כל העברה כרוכה בעמלת רשת קטנה (**~⁨{fee}⁩**). טלגרם מכסה את **⁨{count}⁩** ההעברות הראשונות שלך בכל יום.",
+      "two_value": "כל העברה כרוכה בעמלת רשת קטנה (**~⁨{fee}⁩**). טלגרם מכסה את **⁨{count}⁩** ההעברות הראשונות שלך בכל יום."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletNetworkFeesTitle",
+      "value": "עמלת רשת"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletNoLocalSecretError",
+      "value": "מפתח הארנק אינו מאוחסן במכשיר זה"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletOtherWalletsTitle",
+      "value": "ארנקים קודמים"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletPasscodeInvalid",
+      "value": "קוד שגוי, נא לנסות שוב"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletPasscodeRequiredSetUp",
+      "value": "הגדר קוד גישה"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletPasscodeRequiredText",
+      "value": "מפתח ארנק נשמר במכשיר הזה רק תחת קוד הגישה של האפליקציה, שמגן עליו יחד עם כל השאר המאוחסן כאן."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletPasscodeRequiredTitle",
+      "value": "נדרש קוד גישה"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletPasscodeTitle",
+      "value": "קוד גישה"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletPaste",
       "value": "הדבק"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletPastePhrase",
+      "value": "הדבק מלוח העריכה"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletPhrase12Words",
+      "value": "12 מילים"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletPhrase24Words",
+      "value": "24 מילים"
     },
     {
       "_": "types.LangPackString",
@@ -18512,6 +19716,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletPhraseKeepError",
+      "value": "לא ניתן היה לשמור את הביטוי במכשיר הזה. אנא נסה שוב."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletPhraseKept",
+      "value": "הביטוי הסודי שלך נשמר כעת במכשיר זה."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletPrivateCommentInfo",
       "value": "גלויה רק לך ולנמען."
     },
@@ -18519,6 +19733,16 @@
       "_": "types.LangPackString",
       "key": "WalletProtectAccountBanner",
       "value": "הגן על החשבון שלך"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletProtectBanner",
+      "value": "הגן על הכסף שלך"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletProvisioning",
+      "value": "יוצר את הארנק שלך…"
     },
     {
       "_": "types.LangPackString",
@@ -18542,6 +19766,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletReceiveTitle",
+      "value": "הוסף כסף"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletRecoveryPhraseSubtitle",
       "value": "המשפט הסודי שלך הוא המפתח לגבות את הארנק שלך. שמור עליו סודי ובטוח בכל זמן."
     },
@@ -18552,8 +19781,23 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletReleaseKeyRemove",
+      "value": "הסר מפתחות"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletReleaseKeyTitle",
+      "value": "מפתח ארנק"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletReplaceCreate",
       "value": "צור ארנק חדש"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletReplaceError",
+      "value": "החלפת הארנק נכשלה"
     },
     {
       "_": "types.LangPackString",
@@ -18567,8 +19811,48 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletReplaced",
+      "value": "הארנק החדש שלך מוכן לשימוש."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletReplacedElsewhere",
+      "value": "הארנק שלך הוחלף במכשיר אחר."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletRestored",
       "value": "הארנק שלך שוחזר מהמשפט הסודי שלך."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletRotationPendingError",
+      "value": "שינוי המפתח עדיין באישור. אנא נסה שוב בעוד דקה."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSavedImport",
+      "value": "ייבא ארנק"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSecretPhraseSubtitle",
+      "value": "הכנס את המשפט הסודי של הארנק שלך כדי להמשיך. ⁨{why}⁩"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSecretPhraseTitle",
+      "value": "משפט סודי"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSecretPhraseWhy",
+      "value": "למה?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSecretPhraseWhyText",
+      "value": "מאחר שהשבתת גיבויים לארנק שלך, עליך להכניס ידנית את המשפט הסודי שלך בכל חיבור טלגרם."
     },
     {
       "_": "types.LangPackString",
@@ -18577,8 +19861,68 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletSendAddressLinked",
+      "value": "כתובת הton בלוקצ'יין מקושרת ל**⁨{name}⁩** בטלגרם."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendAmount",
+      "value": "כמות"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendBalance",
+      "value": "יתרה: ⁨{amount}⁩"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendCollectibleSuccess",
+      "value": "פריט האספנות נשלח"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendCollectibleTitle",
+      "value": "העבר פריט אספנות"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendComment",
+      "value": "הודעה (רשות)"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendContinue",
+      "value": "המשך"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendDomainLookupFailed",
+      "value": "לא ניתן היה לבדוק את הדומיין. אנא נסה שוב."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendDomainNotFound",
+      "value": "לדומיין הזה אין כתובת ארנק"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendError",
+      "value": "שליחת הGram נכשלה. אנא נסה שוב."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletSendFeeUnavailable",
       "value": "הערכת עמלת הרשת נכשלה."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendGaslessUnavailable",
+      "value": "ההעברה החינמית אינה זמינה כעת. נא לבדוק את עמלת הרשת ולנסות שוב."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendInactiveAddress",
+      "value": "מעולם לא נעשה שימוש בכתובת זו, אז ההעברה תחזור. בקש מהנמען את הכתובת שמופיעה בארנק שלו."
     },
     {
       "_": "types.LangPackString",
@@ -18592,6 +19936,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletSendMax",
+      "value": "מקסימום"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendMinAmount",
+      "value": "כמות מינימלית: ⁨{amount}⁩"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletSendMoney",
       "value": "שלח כסף"
     },
@@ -18602,8 +19956,93 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletSendPendingError",
+      "value": "ההעברה הקודמת שלך עדיין בדרך. נא לנסות שוב בעוד דקה."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendRecent",
+      "value": "אחרונים"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendRecipient",
+      "value": "שם או כתובת"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendSuccess",
+      "value": "הGram נשלחו"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendSuccessGasless",
+      "value": "הGram נשלחו, ללא עמלה"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletSendTitle",
       "value": "שלח Gram"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendWalletChanged",
+      "value": "הארנק שלך השתנה. נא להתחיל מחדש."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSessionTooFreshError",
+      "value": "מטעמי אבטחה, פעולה זו אינה זמינה במהלך 24 השעות הראשונות לאחר הכניסה. אנא נסה שוב מאוחר יותר."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSettingsTitle",
+      "value": "הגדרות"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletShowAddress",
+      "value": "הצג כתובת"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSwitchAnyway",
+      "value": "החלף מבלי לשמור אותו"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSwitchConfirm",
+      "value": "החלף ארנק"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSwitchKeep",
+      "value": "שמור את הארנק הנוכחי במכשיר זה"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSwitchTitle",
+      "value": "להחליף ארנק?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTabCollectibles",
+      "value": "פריטי אספנות"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTabTransactions",
+      "value": "העברות"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTermsLink",
+      "value": "תנאי השימוש"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTermsNotice",
+      "value": "בשימוש בשירות, הינך מסכים ל⁨{link}⁩."
     },
     {
       "_": "types.LangPackString",
@@ -18617,6 +20056,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletTransactionComment",
+      "value": "הערה"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletTransactionDate",
       "value": "תאריך"
     },
@@ -18624,6 +20068,11 @@
       "_": "types.LangPackString",
       "key": "WalletTransactionDeposit",
       "value": "הפקדה"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionDomain",
+      "value": "דומיין"
     },
     {
       "_": "types.LangPackString",
@@ -18637,13 +20086,43 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletTransactionFeeFree",
+      "value": "חינם (משולם על ידי טלגרם)"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionIncoming",
+      "value": "העברה נכנסת"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletTransactionIncomingCollectible",
       "value": "פריט אספנות נכנס"
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletTransactionKeyChange",
+      "value": "עדכון מפתח"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionNotFound",
+      "value": "ההעברה לא נמצאה."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionOutgoing",
+      "value": "העברה יוצאת"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletTransactionOutgoingCollectible",
       "value": "פריט אספנות יוצא"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionProvider",
+      "value": "ספק"
     },
     {
       "_": "types.LangPackString",
@@ -18657,13 +20136,58 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletTransactionSending",
+      "value": "שולח…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionTitle",
+      "value": "העברה"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionTopUp",
+      "value": "טען"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletTransactionTopUpCrypto",
       "value": "טעינת קריפטו"
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletTransactionUnsupportedPeer",
+      "value": "לא נתמך"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletTransactionWithdrawal",
       "value": "משיכה"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionsHidden",
+      "value": "עסקאות מתחת ל⁨{amount}⁩ מוסתרות."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUnavailable",
+      "value": "ארנק Gram אינו זמין עדיין."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUnsupportedWallet",
+      "value": "ארנק זה אינו נתמך עדיין."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUpdatePhrase",
+      "value": "עדכן את המשפט הסודי"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUpdatePhraseHint",
+      "value": "תקבל משפט סודי חדש לשמירה. הכתובת והיתרה יישארו זהים."
     },
     {
       "_": "types.LangPackString",
@@ -18679,6 +20203,11 @@
       "_": "types.LangPackString",
       "key": "WalletWhatIsWallet",
       "value": "מה זה כסף?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletWrongPhraseText",
+      "value": "המילים שהכנסת לא תואמות לארנק."
     },
     {
       "_": "types.LangPackString",
@@ -18817,5 +20346,5 @@
       "value": "השם שלך"
     }
   ],
-  "version": 376754
+  "version": 378459
 }
