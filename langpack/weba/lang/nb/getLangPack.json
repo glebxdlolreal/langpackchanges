@@ -336,6 +336,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ActionGiftStarsSubtitle",
+      "value": "Med stjerner kan **{peer}** låse opp innhold og tjenester på Telegram."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ActionGiftStarsText",
       "value": "Bruk stjerner for å låse opp innhold og tjenester på Telegram."
     },
@@ -1330,6 +1335,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AdReported",
+      "value": "Vi vil gjennomgå denne annonsen for å sikre at den samsvarer med våre **retningslinjer for annonser.**"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Add",
       "value": "Legg til"
     },
@@ -1357,6 +1367,11 @@
       "_": "types.LangPackString",
       "key": "AddToFavorites",
       "value": "Legg til i favoritter"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AddedToDoNotTranslate",
+      "value": "**{language}** vil ikke lenger bli oversatt."
     },
     {
       "_": "types.LangPackString",
@@ -1719,6 +1734,11 @@
       "_": "types.LangPackString",
       "key": "ArchiveAndMuteInfo",
       "value": "Automatisk arkiver og demp nye samtaler, grupper og kanaler fra ikke-kontakter."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ArchiveStory",
+      "value": "Arkiver historier"
     },
     {
       "_": "types.LangPackString",
@@ -2570,6 +2590,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "BoostExpireOn",
+      "value": "boost utløper {date}"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "BoostGiftDateEnds",
       "value": "Avsluttes"
     },
@@ -2582,6 +2607,11 @@
       "_": "types.LangPackString",
       "key": "BoostGiftStarsInfo",
       "value": "Angi hvor mange stjerner som skal gis bort og hvor mange booster som skal mottas i et år."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostGiftStarsPerUser",
+      "value": "{count} pr. bruker"
     },
     {
       "_": "types.LangPackString",
@@ -2624,9 +2654,21 @@
       "value": "Boost gruppe"
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "key": "BoostingBoostsCount",
+      "one_value": "{count} boost",
+      "other_value": "{count} booster"
+    },
+    {
       "_": "types.LangPackString",
       "key": "BoostingBoostsViaGifts",
       "value": "Booster via gaver"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "BoostingChannelWillReceiveBoost",
+      "one_value": "denne kanalen vil motta {count} boost",
+      "other_value": "denne kanalen vil motta {count} booster"
     },
     {
       "_": "types.LangPackString",
@@ -2685,6 +2727,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "BoostingGetMoreBoostsGroup",
+      "value": "Få flere booster ved å gi Premium i gave til medlemmene dine."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "BoostingGift",
       "value": "Gave"
     },
@@ -2692,6 +2739,12 @@
       "_": "types.LangPackString",
       "key": "BoostingGiftLink",
       "value": "Gavelenke"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "BoostingGiftsCount",
+      "one_value": "{count} gave",
+      "other_value": "{count} gaver"
     },
     {
       "_": "types.LangPackString",
@@ -2702,6 +2755,18 @@
       "_": "types.LangPackString",
       "key": "BoostingGiveaway",
       "value": "🏆 Giveaway"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "BoostingGiveawayAdditionPrizeCountHint",
+      "one_value": "Alle premier: **{count}** Telegram Premium abonnementer i {duration}.",
+      "other_value": "Alle premier: **{count}** Telegram Premium abonnementer i {duration}."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "BoostingGiveawayAdditionPrizeCountNameHint",
+      "one_value": "Alle premier: **{count}** {prize} med Telegram Premium abonnementer i {duration}.",
+      "other_value": "Alle premier: **{count}** {prize} med Telegram Premium abonnementer i {duration}."
     },
     {
       "_": "types.LangPackString",
@@ -2730,6 +2795,54 @@
     },
     {
       "_": "types.LangPackStringPluralized",
+      "key": "BoostingGiveawayHowItWorksIncludeText",
+      "one_value": "**{chat}** inkluderte også **{quantity}** **{prize}** i premiepotten. Kanaladministratorene er ansvarlige for å levere disse premiene.",
+      "other_value": "**{chat}** inkluderte også **{quantity}** **{prize}** i premiepotten. Kanaladministratorene er ansvarlige for å levere disse premiene."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "BoostingGiveawayHowItWorksSubText",
+      "one_value": "Den **{date}** vil Telegram automatisk velge ut **{quantity}** tilfeldig bruker som er med i **{chat}**.",
+      "other_value": "Den **{date}** vil Telegram automatisk velge ut **{quantity}** tilfeldige brukere som er med i **{chat}**."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "BoostingGiveawayHowItWorksSubTextEnd",
+      "one_value": "Den **{date}** valgte Telegram automatisk ut **{quantity}** tilfeldig bruker som var med i **{chat}**.",
+      "other_value": "Den **{date}** valgte Telegram automatisk ut **{quantity}** tilfeldige brukere som var med i **{chat}**."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "BoostingGiveawayHowItWorksSubTextSeveral1",
+      "one_value": "Den **{date}** vil Telegram automatisk utvelge **en** tilfeldig bruker som er med i **{chat}** {otherChannels}.",
+      "other_value": "Den **{date}** vil Telegram automatisk utvelge **{quantity}** tilfeldige brukere som er med i **{chat}** {otherChannels}."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "BoostingGiveawayHowItWorksSubTextSeveral2",
+      "one_value": "og **{count}** annen oppført kanal",
+      "other_value": "og **{count}** andre oppførte kanaler"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "BoostingGiveawayHowItWorksSubTextSeveralEnd1",
+      "one_value": "Den **{date}** valgte Telegram automatisk **{quantity}** tilfeldig bruker som var med i **{chat}** {otherChannels}.",
+      "other_value": "Den **{date}** valgte Telegram automatisk **{quantity}** tilfeldige brukere som var med i **{chat}** {otherChannels}."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "BoostingGiveawayHowItWorksText",
+      "one_value": "Denne giveawayen er sponset av administratorene i **{chat}**, som anskaffet **{quantity} Telegram Premium** abonnement på {duration} for sine følgere.",
+      "other_value": "Denne giveawayen er sponset av administratorene i **{chat}**, som anskaffet **{quantity} Telegram Premium** abonnementer på {duration} for sine følgere."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "BoostingGiveawayHowItWorksTextEnd",
+      "one_value": "Denne giveawayen ble sponset av administratorene i **{chat}**, som anskaffet **{quantity} Telegram Premium** abonnement på {duration} for sine følgere.",
+      "other_value": "Denne giveawayen ble sponset av administratorene i **{chat}**, som anskaffet **{quantity} Telegram Premium** abonnementer på {duration} for sine følgere."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
       "key": "BoostingGiveawayMsgAllSubsPlural",
       "one_value": "Alle abonnenter av kanalen:",
       "other_value": "Alle abonnenter av kanalene:"
@@ -2740,9 +2853,25 @@
       "value": "**Deltakere**"
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "key": "BoostingGiveawayMsgPrizes",
+      "one_value": "**{quantity}** {prize}",
+      "other_value": "**{quantity}** {prize}"
+    },
+    {
       "_": "types.LangPackString",
       "key": "BoostingGiveawayMsgWithDivider",
       "value": "med"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingGiveawayNotEligible",
+      "value": "Du er ikke kvalifisert til å delta i denne giveawayen fordi du ble med i denne kanalen **{date}**, som er før konkurransen startet."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingGiveawayNotEligibleAdmin",
+      "value": "Du er ikke kvalifisert for denne giveawayen, fordi du er en administrator i en deltakende kanal (**{chat}**)."
     },
     {
       "_": "types.LangPackString",
@@ -2775,6 +2904,12 @@
       "value": "**Vinnere utvalgt!**"
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "key": "BoostingGiveawayResultsMsgWinnersTitle",
+      "one_value": "{count} vinner av giveawayen ble tilfeldig utvalgt av Telegram.",
+      "other_value": "{count} vinnere av giveawayen ble tilfeldig utvalgt av Telegram."
+    },
+    {
       "_": "types.LangPackString",
       "key": "BoostingGiveawayShowWinners",
       "value": "Vis vinnere"
@@ -2785,6 +2920,12 @@
       "value": "Angi hvorvidt listen over vinnere skal offentliggjøres når giveawayen avsluttes."
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "key": "BoostingGiveawayUsedLinksPlural",
+      "one_value": "**{count}** av vinnerne har allerede brukt sin gavelenke.",
+      "other_value": "**{count}** av vinnerne har allerede brukt sine gavelenker."
+    },
+    {
       "_": "types.LangPackString",
       "key": "BoostingGiveawayYouNotWon",
       "value": "Du vant ingen premier i denne giveawayen."
@@ -2793,6 +2934,12 @@
       "_": "types.LangPackString",
       "key": "BoostingGiveawayYouWon",
       "value": "Du vant en premie i denne giveawayen 🏆"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "BoostingGroupWillReceiveBoost",
+      "one_value": "denne gruppen vil motta {count} boost",
+      "other_value": "denne gruppen vil motta {count} booster"
     },
     {
       "_": "types.LangPackString",
@@ -2845,9 +2992,27 @@
       "value": "Velg en giveaway du allerede har betalt for for å klargjøre den."
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "key": "BoostingSelectUpToWarningChannelsPlural",
+      "one_value": "Du kan velge {count} kanal.",
+      "other_value": "Du kan velge inntil {count} kanaler."
+    },
+    {
       "_": "types.LangPackString",
       "key": "BoostingSendLinkToAnyone",
       "value": "Du kan også **sende denne lenken** til hvem som helst som gave."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "BoostingStarsGiveawayHowItWorksText",
+      "one_value": "Denne giveawayen er sponset av administratorene i **{chat}**, som anskaffet **{count} stjerne** til sine følgere.",
+      "other_value": "Denne giveawayen er sponset av administratorene i **{chat}**, som anskaffet **{count} stjerne** til sine følgere."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "BoostingStarsGiveawayHowItWorksTextEnd",
+      "one_value": "Denne giveawayen er sponset av administratorene i **{chat}**, som anskaffet **{count} stjerne** til sine følgere.",
+      "other_value": "Denne giveawayen er sponset av administratorene i **{chat}**, som anskaffet **{count} stjerner** til sine følgere."
     },
     {
       "_": "types.LangPackString",
@@ -2880,6 +3045,17 @@
       "value": "Start giveaway"
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "key": "BoostingTelegramPremiumCountPlural",
+      "one_value": "{count} Telegram Premium",
+      "other_value": "{count} Telegram Premium"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingTelegramPremiumFor",
+      "value": "Telegram Premium på {duration}"
+    },
+    {
       "_": "types.LangPackString",
       "key": "BoostingTo",
       "value": "Til"
@@ -2896,6 +3072,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "BoostingUsedLinkDate",
+      "value": "Denne lenken ble brukt den {date}."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "BoostingWinnersDate",
       "value": "**Dato for utvelgelse av vinnere**"
     },
@@ -2908,6 +3089,11 @@
       "_": "types.LangPackString",
       "key": "Boosts",
       "value": "Booster"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostsLevel",
+      "value": "Nivå {level}"
     },
     {
       "_": "types.LangPackString",
@@ -3176,6 +3362,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "BotRemoveFromMenu",
+      "value": "Dette vil fjerne **{user}** snarveier fra alle menyer."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "BotRemoveFromMenuTitle",
       "value": "Fjern robot"
     },
@@ -3268,6 +3459,12 @@
       "_": "types.LangPackString",
       "key": "BotWebViewStartPermission",
       "value": "For å kjøre denne webapplikasjonen, vil du koble til nettsiden dens."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "Bots",
+      "one_value": "{count} robot",
+      "other_value": "{count} roboter"
     },
     {
       "_": "types.LangPackString",
@@ -3439,6 +3636,11 @@
       "_": "types.LangPackString",
       "key": "CallBack",
       "value": "Ring tilbake"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CallCameraAccessNeeded",
+      "value": "Telegram trenger tilgang til kamera for videosamtaler."
     },
     {
       "_": "types.LangPackString",
@@ -3668,8 +3870,34 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ChannelBoostErrorBoostTooOftenText",
+      "value": "Du kan endre kanalen du booster kun en gang om dagen. Du kan booste igjen om **{time}**."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ChannelBoostErrorBoostTooOftenTitle",
       "value": "Kan ikke booste for ofte"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "ChannelBoostMoreBoosts",
+      "one_value": "**{count}** boost til",
+      "other_value": "**{count}** flere booster"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChannelBoostMoreBoostsNeededText",
+      "value": "**{chat}** trenger {moreBoosts} for å låse opp nye funksjoner."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChannelBoostReplaceBoost",
+      "value": "Du booster for tiden **{currentChat}**. Vil du booste **{chat}** i stedet?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChannelBoostYouBoostedChannelText",
+      "value": "Du boostet {chat}!"
     },
     {
       "_": "types.LangPackString",
@@ -3968,6 +4196,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ChannelStatsGraphStories",
+      "value": "HISTORIEINTERAKSJONER"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ChannelStatsGraphStoriesReactions",
       "value": "HISTORIEREAKSJONER"
     },
@@ -4074,6 +4307,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ChannelVisibilityConfirmMakePrivateChannel",
+      "value": "Hvis du gjør denne kanalen privat, vil navnet @{currentUsername} bli fjernet. Navnet vil bli gjort tilgjengelig for andre brukere som ønsker å bruke for sine egne offentlige grupper eller kanaler."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ChannelVisibilityForwardingChannelInfo",
       "value": "Abonnenter vil kunne kopiere, lagre og videresende innhold fra denne kanalen."
     },
@@ -4101,6 +4339,12 @@
       "_": "types.LangPackString",
       "key": "ChannelVisibilityForwardingGroupTitle",
       "value": "Videresending fra denne gruppen"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "Channels",
+      "one_value": "{count} kanal",
+      "other_value": "{count} kanaler"
     },
     {
       "_": "types.LangPackString",
@@ -4174,6 +4418,12 @@
       "value": "Vis som emner"
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "key": "ChatDeleteMessagesConfirmation",
+      "one_value": "Slett melding",
+      "other_value": "Slett {count} meldinger"
+    },
+    {
       "_": "types.LangPackString",
       "key": "ChatDraftPrefix",
       "value": "Utkast:"
@@ -4182,6 +4432,11 @@
       "_": "types.LangPackString",
       "key": "ChatEmptyChat",
       "value": "Ingen meldinger her ennå"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatEmptyStateIntroFooter",
+      "value": "{user} la til meldingen over for alle tomme samtaler"
     },
     {
       "_": "types.LangPackString",
@@ -4197,6 +4452,22 @@
       "_": "types.LangPackString",
       "key": "ChatForwardActionHeader",
       "value": "Videresend meldinger"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatGiveawayInfoNotQualified",
+      "value": "Vennligst bli med i kanalen **{chat}** før **{date}** for å delta i denne giveawayen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatGiveawayInfoNotQualifiedMany",
+      "value": "Vennligst bli med i kanalen **{chat}** (og {otherChannels} andre oppførte kanaler) før **{date}** for å delta i denne giveawayen."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "ChatGiveawayInfoOtherChannels",
+      "one_value": "**{count}** annen oppført kanal",
+      "other_value": "**{count}** andre oppførte kanaler"
     },
     {
       "_": "types.LangPackString",
@@ -4567,6 +4838,11 @@
       "_": "types.LangPackString",
       "key": "Checking",
       "value": "Kontrollerer…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Checkout2FAText",
+      "value": "Lagring av betalingsdetaljer er kun tilgjengelig med totrinnsbekreftelse."
     },
     {
       "_": "types.LangPackString",
@@ -8589,6 +8865,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "GiftPremiumFeaturesTerms",
+      "value": "Du kan se listen over funksjoner og flere detaljer om Telegram Premium {link}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftPremiumFeaturesTermsLink",
+      "value": "her"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "GiftPremiumHeader",
       "value": "Gi Premium"
     },
@@ -8944,9 +9230,21 @@
     },
     {
       "_": "types.LangPackStringPluralized",
+      "key": "GiveawayCountryLimit",
+      "one_value": "Du kan velge inntil {count} land.",
+      "other_value": "Du kan velge inntil {count} land."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
       "key": "GiveawayStarsPrepaidDesc",
       "one_value": "for {count} bruker",
       "other_value": "for {count} brukere"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "GiveawayUserSelectionLimit",
+      "one_value": "Du kan velge inntil 1 bruker.",
+      "other_value": "Du kan velge inntil {count} brukere."
     },
     {
       "_": "types.LangPackString",
@@ -8998,6 +9296,11 @@
       "_": "types.LangPackString",
       "key": "GroupBoostBoostGroup",
       "value": "Boost gruppe"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GroupBoostBoostToUnrestrict",
+      "value": "Boost gruppen {boostTimes} ganger for å fjerne meldingsbegrensninger. Boostene dine vil hjelpe **{chat}** å låse opp nye funksjoner."
     },
     {
       "_": "types.LangPackString",
@@ -15662,6 +15965,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "SettingsStartWave",
+      "value": "Start bølge"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "SettingsStickersDesc",
       "value": "Klistremerker, emojier, reaksjoner"
     },
@@ -19484,5 +19792,5 @@
       "value": "Navnet ditt"
     }
   ],
-  "version": 379285
+  "version": 379622
 }
