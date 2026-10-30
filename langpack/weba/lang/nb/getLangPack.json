@@ -3232,7 +3232,7 @@
     {
       "_": "types.LangPackString",
       "key": "BotStatusNonBinary",
-      "value": "Ikke-binær"
+      "value": "ikke-binær"
     },
     {
       "_": "types.LangPackString",
@@ -3509,6 +3509,11 @@
       "_": "types.LangPackString",
       "key": "CallMessageWithDuration",
       "value": "{time} ({duration})"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CallMicrophoneAccessNeeded",
+      "value": "Telegram trenger tilgang til mikrofonen din for å kunne foreta anrop"
     },
     {
       "_": "types.LangPackString",
@@ -10111,6 +10116,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "MediaCounter",
+      "value": "{current} av {total}"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "MediaDownload",
       "value": "Last ned"
     },
@@ -10497,6 +10507,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "MessageReadAt",
+      "value": "lest {date}"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "MessageRecommendedLabel",
       "value": "anbefalt"
     },
@@ -10812,8 +10827,25 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "MoreSimilarText",
+      "value": "Abonner på **Telegram Premium** \nfor å låse opp inntil {limit} lignende kanaler."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "MuteForDays",
+      "one_value": "Demp i {count} dag",
+      "other_value": "Demp i {count} dager"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "MuteForForever",
       "value": "Demp for alltid"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "MuteForHours",
+      "one_value": "Demp i 1 time",
+      "other_value": "Demp i {count} timer"
     },
     {
       "_": "types.LangPackString",
@@ -11118,6 +11150,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "NoResultFoundFor",
+      "value": "Ingen resultater funnet for \"{query}\"."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "NoSavingDescription",
       "value": "Deaktiver kopiering av tekst og lagring av bilder eller videoer."
     },
@@ -11231,6 +11268,11 @@
       "_": "types.LangPackString",
       "key": "NotificationSharingEnabled",
       "value": "Deling er aktivert for denne samtalen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NotificationStarsGiftSentYou",
+      "value": "Du sendte en gave på {amount}"
     },
     {
       "_": "types.LangPackString",
@@ -11674,8 +11716,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PaymentCheckoutAcceptTerms",
+      "value": "Jeg godtar {link} for {bot}."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PaymentCheckoutMethod",
       "value": "Betalingsmetode"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PaymentCheckoutMethodNewCard",
+      "value": "Nytt kort"
     },
     {
       "_": "types.LangPackString",
@@ -11696,6 +11748,11 @@
       "_": "types.LangPackString",
       "key": "PaymentCheckoutShippingMethod",
       "value": "Fraktmetode"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PaymentConfirmationMessage",
+      "value": "Ditt kort {cardName} er lagret. For å betale med dette kortet, vennligst oppgi ditt passord for totrinnsbekreftelse."
     },
     {
       "_": "types.LangPackString",
@@ -11761,6 +11818,11 @@
       "_": "types.LangPackString",
       "key": "PaymentInfoDone",
       "value": "Fortsett til kassen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PaymentInfoHint",
+      "value": "Du betalte **{amount}** for **{title}**."
     },
     {
       "_": "types.LangPackString",
@@ -11868,9 +11930,20 @@
       "value": "kanal"
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "key": "PeerInfoAllowedReactionsMaxCountValue",
+      "one_value": "1 reaksjon",
+      "other_value": "{count} reaksjoner"
+    },
+    {
       "_": "types.LangPackString",
       "key": "PeerInfoConfirmRemovePeer",
       "value": "Utesteng {user} fra gruppen?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PeerInfoPaneStories",
+      "value": "Historier"
     },
     {
       "_": "types.LangPackString",
@@ -12394,6 +12467,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PremiumLastSeenText1Locked",
+      "value": "For å se **{user}** sitt Sist sett-tidspunkt, kan du vise ditt eget Sist sett-tidspunkt."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PremiumLastSeenText2",
       "value": "Et abonnement gjør det mulig for deg å se **{user}** sin Sist-sett status uten å dele din egen."
     },
@@ -12426,6 +12504,11 @@
       "_": "types.LangPackString",
       "key": "PremiumMore",
       "value": "Mer"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PremiumNeeded",
+      "value": "Premium nødvendig!"
     },
     {
       "_": "types.LangPackString",
@@ -12484,8 +12567,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PremiumPreviewEmojiDescription",
+      "value": "Inkluder animerte emojier fra forskjellige samlepakker i meldinger."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PremiumPreviewEmojiStatus",
       "value": "Emoji status"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PremiumPreviewEmojiStatusDescription",
+      "value": "Velg mellom tusener av emojier for å vise nåværende aktivitet ved siden av navnet ditt."
     },
     {
       "_": "types.LangPackString",
@@ -12511,6 +12604,11 @@
       "_": "types.LangPackString",
       "key": "PremiumPreviewMessagePrivacy",
       "value": "Meldingspersonvern"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PremiumPreviewMessagePrivacyDescription",
+      "value": "Begrens personer du ikke kjenner fra å sende deg meldinger."
     },
     {
       "_": "types.LangPackString",
@@ -12549,6 +12647,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PremiumPreviewReactions2Description",
+      "value": "Reager med tusener av emojier – med flere reaksjoner pr. melding."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PremiumPreviewReactionsDescription",
       "value": "Ekstra animerte reaksjoner på meldinger, tilgjengelig kun for Premium abonnenter."
     },
@@ -12571,6 +12674,11 @@
       "_": "types.LangPackString",
       "key": "PremiumPreviewStickersDescription",
       "value": "Eksklusive, forstørrede klistremerker med ekstra effekter, oppdatert jevnlig."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PremiumPreviewStories",
+      "value": "Oppgraderte historier"
     },
     {
       "_": "types.LangPackString",
@@ -12606,6 +12714,11 @@
       "_": "types.LangPackString",
       "key": "PremiumPreviewTranslations",
       "value": "Oversettelse i sanntid"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PremiumPreviewTranslationsDescription",
+      "value": "Direkte oversettelse av samtaler og kanaler til andre språk."
     },
     {
       "_": "types.LangPackString",
@@ -12649,6 +12762,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PremiumReadText1",
+      "value": "For å se når **{user}** leste meldingen, kan du enten starte å vise ditt eget lest-tidspunkt..."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PremiumReadText2",
       "value": "Et abonnement vil gjøre det mulig for deg å se **{user}** sitt lest-tidspunkt uten at du viser ditt."
     },
@@ -12666,6 +12784,11 @@
       "_": "types.LangPackString",
       "key": "PremiumStoriesCaptionDescription",
       "value": "Legg til 10x lengre bildetekster på historiene dine — inntil 2048 tegn."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PremiumStoriesExpirationDescription",
+      "value": "Angi egendefinert varighet som 6 eller 48 timer for historiene dine."
     },
     {
       "_": "types.LangPackString",
@@ -12694,6 +12817,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PremiumStoriesStealthDescription",
+      "value": "Skjul at du har sett andres historier."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PremiumStoriesSubtitleCaption",
       "value": "Lengre bildetekster*"
     },
@@ -12709,6 +12837,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PremiumStoriesViews",
+      "value": "Permanent visningshistorikk"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PremiumStoriesViewsDescription",
       "value": "Se hvem som åpner historiene dine — selv etter at de har utløpt."
     },
@@ -12721,6 +12854,12 @@
       "_": "types.LangPackString",
       "key": "PremiumUnlockStickers",
       "value": "Abonner på Telegram Premium for å låse opp premium klistremerker."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "PrepaidGiveawayMonths",
+      "one_value": "{count} måneds",
+      "other_value": "{count} måneders"
     },
     {
       "_": "types.LangPackString",
@@ -12760,6 +12899,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PricePerMonth",
+      "value": "{amount} / måned"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PrimaryLinkHelp",
       "value": "Alle på Telegram kan bli med i gruppen din ved å bruke denne lenken."
     },
@@ -12787,6 +12931,11 @@
       "_": "types.LangPackString",
       "key": "PrivacyBioTitle",
       "value": "Hvem kan se beskrivelsen min?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PrivacyBirthday",
+      "value": "Fødselsdato"
     },
     {
       "_": "types.LangPackString",
@@ -12975,6 +13124,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PrivacyProfilePhotoPublicPhotoInfo",
+      "value": "Du kan laste opp et offentlig bilde for brukere som er begrenset fra å se dine egentlige profilbilder."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PrivacyProfilePhotoPublicPhotoSuccess",
+      "value": "Dette bildet vil vises til brukere som er begrenset fra å se dine egentlige profilbilder."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PrivacyProfilePhotoRemovePublicPhoto",
       "value": "Fjern offentlig bilde"
     },
@@ -12997,6 +13156,11 @@
       "_": "types.LangPackString",
       "key": "PrivacyProfilePhotoUpdatePublicPhoto",
       "value": "Oppdater offentlig bilde"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PrivacyResetPhotoConfirm",
+      "value": "Er du sikker på at du vil slette profilbildet ditt?"
     },
     {
       "_": "types.LangPackString",
@@ -13307,6 +13471,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PushReactText",
+      "value": "{emoji} på \"{summary}\""
+    },
+    {
+      "_": "types.LangPackString",
       "key": "QrCodeCopied",
       "value": "QR kode kopiert til utklippstavlen."
     },
@@ -13329,6 +13498,11 @@
       "_": "types.LangPackString",
       "key": "QuizPoll",
       "value": "Quiz"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QuotePrivate",
+      "value": "Dette sitatet er fra en privat samtale."
     },
     {
       "_": "types.LangPackString",
@@ -13670,6 +13844,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ReplyToQuote",
+      "value": "Svar på sitat fra {senderTitle}"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Report2Comment",
       "value": "Legg til kommentar"
     },
@@ -13800,6 +13979,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "RequestPeerChooseChannelTitle",
+      "value": "Velg en kanal"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "RequestPeerRequirements",
       "value": "Krav"
     },
@@ -13860,6 +14044,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "RevenueSharingAdsInfo1Subtitle",
+      "value": "Vi bruker ikke innholdet i dine private samtaler eller kontaktlister til målretting av annonser eller andre kommersielle formål."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "RevenueSharingAdsInfo1Title",
       "value": "Respekterer personvernet ditt"
     },
@@ -13875,8 +14064,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "RevenueSharingAdsInfo3Subtitle",
+      "value": "Du kan slå av annonser ved å abonnere på **Telegram Premium**, og kanaler på nivå {level} kan fjerne dem for sine abonnenter."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "RevenueSharingAdsInfo3Title",
       "value": "Kan fjernes"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RevenueSharingAdsInfo4Subtitle2",
+      "value": "Hvem som helst kan publisere annonser på Telegram, selv på små budsjett. Se **Telegram Annonseplattform** for mer informasjon. {details}"
     },
     {
       "_": "types.LangPackString",
@@ -14821,6 +15020,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ServerErrorViewers",
+      "value": "Informasjon om seerne ble ikke registrert."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ServiceNotifications",
       "value": "tjenestevarsler"
     },
@@ -14913,6 +15117,18 @@
       "_": "types.LangPackString",
       "key": "SetReminder",
       "value": "Angi en påminnelse"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "SetTimeoutForDays",
+      "one_value": "Bruk i 1 dag",
+      "other_value": "Bruk i {count} dager"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "SetTimeoutForHours",
+      "one_value": "Bruk i 1 time",
+      "other_value": "Bruk i {count} timer"
     },
     {
       "_": "types.LangPackString",
@@ -15573,6 +15789,22 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ShowTranslateChatButton",
+      "value": "Oversett hele samtaler"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "ShowVotes",
+      "one_value": "Vis mer ({count})",
+      "other_value": "Vis mer ({count})"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SimilarChannelsLimitSubtitle",
+      "value": "Se inntil {count} lignende kanaler"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "SimilarChannelsLimitTitle",
       "value": "Lignende kanaler"
     },
@@ -15838,6 +16070,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "StarTransactionCommission",
+      "value": "{percent} provisjon"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "StarTransactionFrom",
       "value": "Fra"
     },
@@ -15845,6 +16082,12 @@
       "_": "types.LangPackString",
       "key": "StarsAcquired",
       "value": "Stjerner anskaffet!"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "StarsAcquiredInfo",
+      "one_value": "**{count} stjerne** lagt til saldoen din.",
+      "other_value": "**{count} stjerner** lagt til saldoen din."
     },
     {
       "_": "types.LangPackString",
@@ -15984,13 +16227,34 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "StarsNeededText",
+      "value": "Kjøp **stjerner** og bruk dem i **{user}** og andre miniapplikasjoner."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsNeededTextGift",
+      "value": "Kjøp **stjerner** for å sende gaver til **{peer}** og andre kontakter."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "StarsNeededTextLink",
       "value": "Kjøp **stjerner** for å beholde kanalabonnementene dine."
     },
     {
       "_": "types.LangPackString",
+      "key": "StarsNeededTextReactions",
+      "value": "Kjøp **stjerner** for å sende betalte reaksjoner til **{chat}** og andre kanaler."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "StarsNeededTextSendPaidMessages",
       "value": "Kjøp **stjerner** for å sende meldinger."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "StarsNeededTitle",
+      "one_value": "Du mangler {count} stjerne",
+      "other_value": "Du mangler {count} stjerner"
     },
     {
       "_": "types.LangPackString",
@@ -16049,6 +16313,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "StarsReactionText",
+      "value": "Velg hvor mange stjerner du vil sende til **{chat}** for å støtte dette innlegget."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "StarsReactionTitle",
       "value": "Stjernereaksjon"
     },
@@ -16061,6 +16330,12 @@
       "_": "types.LangPackString",
       "key": "StarsReactionsSent",
       "value": "Stjernereaksjon"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "StarsSentText",
+      "one_value": "Du reagerte med **{count}** stjerne.",
+      "other_value": "Du reagerte med **{count}** stjerner."
     },
     {
       "_": "types.LangPackString",
@@ -16126,6 +16401,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "StarsSubscriptionCancelInfo",
+      "value": "Hvis du avslutter nå, vil du fortsatt få tilgang til abonnementet ditt fram til {date}."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "StarsSubscriptionCancelledText",
       "value": "Du har avsluttet abonnementet ditt."
     },
@@ -16140,9 +16420,40 @@
       "value": "Abonnement vellykket!"
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "key": "StarsSubscriptionCompletedText",
+      "one_value": "{amount} stjerne overført til **{channel}**.",
+      "other_value": "{amount} stjerner overført til **{channel}**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsSubscriptionExpired",
+      "value": "utløp {date}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsSubscriptionExpiredInfo",
+      "value": "Abonnementet ditt utløp {date}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsSubscriptionExpires",
+      "value": "utløper {date}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsSubscriptionRefulfillInfo",
+      "value": "Du forlot kanalen, men du kan fortsatt komme tilbake til {date}."
+    },
+    {
       "_": "types.LangPackString",
       "key": "StarsSubscriptionRenew",
       "value": "Forny abonnement"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsSubscriptionRenews",
+      "value": "fornyes {date}"
     },
     {
       "_": "types.LangPackString",
@@ -16163,6 +16474,11 @@
       "_": "types.LangPackString",
       "key": "StarsSubscriptionUntilRenews",
       "value": "Fornyes"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsTOSLink",
+      "value": "https://telegram.org/tos"
     },
     {
       "_": "types.LangPackString",
@@ -16198,6 +16514,11 @@
       "_": "types.LangPackString",
       "key": "StarsTransactionHidden",
       "value": "Skjult bruker"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsTransactionIDCopied",
+      "value": "Transaksjons-ID kopiert til utklippstavlen"
     },
     {
       "_": "types.LangPackString",
@@ -16271,6 +16592,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "StarsTransferInfo",
+      "value": "Vil du kjøpe \"**{title}**\" i **{bot}** for **{amount} stjerner**?"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "StarsTransferPhotos",
+      "one_value": "**et bilde**",
+      "other_value": "**{count} bilder**"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsTransferUnlockInfo",
+      "value": "Vil du låse opp {media} i **{chat}** for **{amount}**?"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "StarsTransferVideos",
+      "one_value": "**en video**",
+      "other_value": "**{count} videoer**"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Start",
       "value": "Start"
     },
@@ -16303,6 +16646,11 @@
       "_": "types.LangPackString",
       "key": "StatsBoostsBoostsToLevelUp",
       "value": "Booster for å øke nivå"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StatsBoostsExistingBoosts",
+      "value": "Aktive booster"
     },
     {
       "_": "types.LangPackString",
@@ -16393,6 +16741,11 @@
       "_": "types.LangPackString",
       "key": "StatsNoShares",
       "value": "Ingen delinger"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StatsStoryInteractionsTitle",
+      "value": "HISTORIEINTERAKSJONER"
     },
     {
       "_": "types.LangPackString",
@@ -16556,6 +16909,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "StoryCloseFriendsHint",
+      "value": "Du ser denne historien fordi **{user}** har lagt deg til i sin liste over nære venner"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryContactsHint",
+      "value": "Kun **{user}** sine kontakter kan se denne historien."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "StoryContextRemoveFromProfile",
       "value": "Fjern fra profilen"
     },
@@ -16568,6 +16931,11 @@
       "_": "types.LangPackString",
       "key": "StoryHeaderEdited",
       "value": "redigert"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryHideFrom",
+      "value": "Skjul mine historier for {user}"
     },
     {
       "_": "types.LangPackString",
@@ -16604,6 +16972,11 @@
       "_": "types.LangPackString",
       "key": "StoryListSavedEmptyStateTitle",
       "value": "Ingen historier lagt ut"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryMentionedTitle",
+      "value": "**{peer}** nevnte deg i en historie."
     },
     {
       "_": "types.LangPackString",
@@ -16696,6 +17069,23 @@
       "value": "Alle"
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "key": "StoryPrivacyOptionExcludePeople",
+      "one_value": "unntatt {count} person",
+      "other_value": "unntatt {count} personer"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryPrivacyOptionExcludePerson",
+      "value": "unntatt {user}"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "StoryPrivacyOptionPeople",
+      "one_value": "{count} person",
+      "other_value": "{count} personer"
+    },
+    {
       "_": "types.LangPackString",
       "key": "StoryPrivacyOptionSelectedContacts",
       "value": "Valgte brukere"
@@ -16727,6 +17117,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "StorySelectedContactsHint",
+      "value": "Det er bare brukere utvalgt av **{user}** som kan se denne historien."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "StorySharedTo",
       "value": "Historie videresendt til **{user}**."
     },
@@ -16744,6 +17139,11 @@
       "_": "types.LangPackString",
       "key": "StoryToastRemovedFromProfileText",
       "value": "Historie fjernet fra profilen din"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryToastSavedToProfileText",
+      "value": "Historier lagt ut på profilen din kan bli sett av andre til du fjerner dem."
     },
     {
       "_": "types.LangPackString",
@@ -16784,6 +17184,11 @@
       "_": "types.LangPackString",
       "key": "StoryViewListEmptyTextSearch",
       "value": "Ingen visninger funnet"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryViewListNotFullyRecorded",
+      "value": "Informasjon om andre seere ble ikke lagret."
     },
     {
       "_": "types.LangPackString",
@@ -19079,5 +19484,5 @@
       "value": "Navnet ditt"
     }
   ],
-  "version": 377923
+  "version": 379285
 }
