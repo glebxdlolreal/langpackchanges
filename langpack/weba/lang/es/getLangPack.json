@@ -560,6 +560,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ActionManagedBotCreated",
+      "value": "{from} creó {bot}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ActionManagedBotCreatedYou",
+      "value": "Creaste {bot}"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ActionMessageChannelDisabled",
       "value": "{peer} desactivó los mensajes directos"
     },
@@ -1738,22 +1748,22 @@
     {
       "_": "types.LangPackString",
       "key": "AppInactiveAuthDescription",
-      "value": "Por favor, mantén abierta sólo una pestaña al iniciar sesión.\nRecarga esta página para seguir usando esta pestaña o ciérrala."
+      "value": "Mantén abierta sólo una pestaña al iniciar sesión.\nRecarga esta pestaña para seguir usándola o ciérrala."
     },
     {
       "_": "types.LangPackString",
       "key": "AppInactiveAuthTitle",
-      "value": "Demasiados inicios de sesión."
+      "value": "Demasiadas sesiones. Mucho conflicto."
     },
     {
       "_": "types.LangPackString",
       "key": "AppInactiveOtherClientDescription",
-      "value": "Por favor, mantén abierta sólo una versión de la app.\nRecarga esta página para seguir usando esta pestaña o ciérrala."
+      "value": "Mantén abierta sólo una versión de la app.\nRecarga esta pestaña para seguir usándola o ciérrala."
     },
     {
       "_": "types.LangPackString",
       "key": "AppInactiveOtherClientTitle",
-      "value": "Demasiados inicios de sesión."
+      "value": "Demasiadas sesiones. Mucho conflicto."
     },
     {
       "_": "types.LangPackString",
@@ -2731,7 +2741,7 @@
     {
       "_": "types.LangPackString",
       "key": "BoostGiftLimitSubscribersInfo",
-      "value": "Elige si quieres limitar el sorteo sólo para aquellos que se unieron al canal después de iniciar el sorteo."
+      "value": "Elige si quieres limitar el sorteo sólo para aquellos que se unieron al canal después de iniciar el sorteo o para usuarios de países específicos."
     },
     {
       "_": "types.LangPackString",
@@ -3263,7 +3273,7 @@
     {
       "_": "types.LangPackString",
       "key": "BotAuthAppSubtitle",
-      "value": "Esta app recibirá tu **nombre**, **nombre de usuario** y **foto de perfil**."
+      "value": "Esta app recibirá tu **nombre**, **nombre de usuario** y **foto del perfil**."
     },
     {
       "_": "types.LangPackString",
@@ -3313,7 +3323,7 @@
     {
       "_": "types.LangPackString",
       "key": "BotAuthSiteSubtitle",
-      "value": "Este sitio recibirá tu **nombre**, **nombre de usuario** y **foto de perfil**."
+      "value": "Este sitio recibirá tu **nombre**, **nombre de usuario** y **foto del perfil**."
     },
     {
       "_": "types.LangPackString",
@@ -3534,6 +3544,31 @@
       "_": "types.LangPackString",
       "key": "BotStart",
       "value": "INICIAR"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotStatusAgent",
+      "value": "Agente"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotStatusAi",
+      "value": "IA"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotStatusApp",
+      "value": "App"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotStatusGame",
+      "value": "Juego"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotStatusNonBinary",
+      "value": "No binario"
     },
     {
       "_": "types.LangPackString",
@@ -4551,7 +4586,7 @@
     {
       "_": "types.LangPackString",
       "key": "ChatEmptyTopicPlaceholderText",
-      "value": "Envía el primer mensaje\npara iniciar el tema."
+      "value": "Envía un mensaje\npara iniciar el tema."
     },
     {
       "_": "types.LangPackString",
@@ -4917,7 +4952,7 @@
     {
       "_": "types.LangPackString",
       "key": "ChatSetPhotoOrVideo",
-      "value": "Establecer foto o video"
+      "value": "Establecer foto"
     },
     {
       "_": "types.LangPackString",
@@ -5755,6 +5790,87 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "CreateBotCreatedText",
+      "value": "**{bot}** gestionará este bot por ti."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBotCreatedTitle",
+      "value": "¡{name} creado!"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "CreateBotLimitText",
+      "one_value": "Puedes crear hasta {count} bot, o eliminar los actuales vía @BotFather",
+      "other_value": "Puedes crear hasta {count} bots, o eliminar los actuales vía @BotFather"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBotLimitTextPremium",
+      "value": "Suscríbete a **Premium** para crear hasta {premiumLimit} bots, o elimina uno de tus {limit} bots vía @BotFather"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBotLimitTitle",
+      "value": "Límite de bots excedido"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBotName",
+      "value": "Nombre del bot"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBotText",
+      "value": "{bot} quiere crear y gestionar un chatbot en tu nombre."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBotTitle",
+      "value": "Crear bot"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBotUnsupported",
+      "value": "**{bot}** no es compatible con el modo de gestión de bots."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBotUsername",
+      "value": "Nombre de usuario del bot"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBotUsernameChecking",
+      "value": "Comprobando…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBotUsernameHelp",
+      "value": "Elige un nombre de usuario para tu bot. Debe terminar en “bot”. Por ejemplo: TetrisBot o tetris_bot."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBotUsernameHint",
+      "value": "Debe terminar en “bot”, o {suffixes} con {premium}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBotUsernamePremium",
+      "value": "Los nombres de usuario que terminan en “{suffix}” requieren Telegram Premium. {link}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBotUsernameSubscribe",
+      "value": "Suscribirme"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBotUsernameSuffix",
+      "value": "El nombre de usuario debe terminar en “bot”."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "CreateGeneralTopicTitle",
       "value": "Elige el nombre del tema"
     },
@@ -5967,7 +6083,7 @@
     {
       "_": "types.LangPackString",
       "key": "DeleteBan",
-      "value": "Suspender a {user}"
+      "value": "Expulsar a {user}"
     },
     {
       "_": "types.LangPackString",
@@ -6579,6 +6695,11 @@
       "_": "types.LangPackString",
       "key": "EditUserNoteHint",
       "value": "Sólo tú puedes ver las notas."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Edited",
+      "value": "editado"
     },
     {
       "_": "types.LangPackString",
@@ -7317,7 +7438,7 @@
     {
       "_": "types.LangPackString",
       "key": "ExpiredViewsStub",
-      "value": "La lista de vistas ya no está disponible una vez transcurridas **24 horas** desde que la historia expiró."
+      "value": "**24 horas** después de expirada la historia, la lista de vistas no está disponible."
     },
     {
       "_": "types.LangPackString",
@@ -8679,6 +8800,21 @@
       "value": "Fecha"
     },
     {
+      "_": "types.LangPackString",
+      "key": "GiftInfoDelete",
+      "value": "Eliminar regalo"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftInfoDeleteDescription",
+      "value": "¿Quieres eliminar este regalo?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftInfoDeleteDescription2",
+      "value": "Desaparecerá de tu perfil y no se puede restaurar."
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "key": "GiftInfoDescription",
       "one_value": "Puedes conservar este regalo en tu perfil o convertirlo en **{amount}** estrella.",
@@ -9883,7 +10019,7 @@
     {
       "_": "types.LangPackString",
       "key": "HideReadTimeInfo",
-      "value": "Oculta la hora a la que lees los mensajes a las personas que no pueden ver tu últ. vez. Si activas esta opción, sus horas de lectura también estarán ocultas para ti.\n\nEste ajuste no afecta a los chats grupales."
+      "value": "Oculta la hora a la que lees los mensajes a las personas que no pueden ver tu últ. vez. Si activas esta opción, sus horas de lectura también estarán ocultas para ti (a menos que seas usuario de Premium).\n\nEste ajuste no afecta a los chats grupales."
     },
     {
       "_": "types.LangPackString",
@@ -10150,6 +10286,51 @@
       "_": "types.LangPackString",
       "key": "Language",
       "value": "Idioma"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LanguageAlert",
+      "value": "Estás a punto de aplicar un pack de idioma ({language}) que está completo en un {percent} %.\n\nEsto traducirá toda la interfaz. Puedes sugerir correcciones en la {link}.\n\nPuedes cambiar el idioma cuando quieras en {settings}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LanguageAlready",
+      "value": "Ya estás usando este pack de idioma. Puedes cambiar el idioma cuando quieras en {settings}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LanguageApply",
+      "value": "Aplicar idioma"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LanguageCustomAlert",
+      "value": "Estás a punto de aplicar un pack de idioma personalizado ({language}) que está completo en un {percent} %.\n\nEsto traducirá toda la interfaz. Puedes sugerir correcciones en la {link}.\n\nPuedes cambiar el idioma cuando quieras en {settings}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LanguageLoadFailed",
+      "value": "No se pudo cargar este pack de idioma. Por favor, reinténtalo."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LanguageNotFound",
+      "value": "Lo sentimos, este pack de idioma no existe."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LanguageTitle",
+      "value": "¿Cambiar idioma?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LanguageTranslateLink",
+      "value": "plataforma de traducciones"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LanguageUnknownCustomAlert",
+      "value": "Lamentablemente, este pack de idioma personalizado ({language}) no contiene datos para Telegram Web A. Puedes contribuir a este pack de idioma usando la {link}."
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -10594,7 +10775,7 @@
     {
       "_": "types.LangPackString",
       "key": "LoginPasskey",
-      "value": "Iniciar sesión con llave de acceso"
+      "value": "Iniciar con llave de acceso"
     },
     {
       "_": "types.LangPackString",
@@ -10624,7 +10805,7 @@
     {
       "_": "types.LangPackString",
       "key": "LoginQRLogin",
-      "value": "Iniciar sesión con QR"
+      "value": "Iniciar con QR"
     },
     {
       "_": "types.LangPackString",
@@ -11234,7 +11415,7 @@
     {
       "_": "types.LangPackString",
       "key": "MessageUnsupported",
-      "value": "Este mensaje no es compatible con la versión web de Telegram"
+      "value": "Este mensaje no es compatible con Telegram Web"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -11321,7 +11502,7 @@
     {
       "_": "types.LangPackString",
       "key": "MonetizationIntroSplitText",
-      "value": "Recibes el 50 % de los ingresos por anuncios en grams."
+      "value": "Puedes recibir el 50 % de los ingresos por anuncios como recompensa en grams."
     },
     {
       "_": "types.LangPackString",
@@ -11842,6 +12023,11 @@
       "_": "types.LangPackString",
       "key": "NotificationGiftCanTransferAt",
       "value": "Puedes transferir este regalo después del {date}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NotificationGiftDeleted",
+      "value": "Regalo eliminado"
     },
     {
       "_": "types.LangPackString",
@@ -13173,7 +13359,7 @@
     {
       "_": "types.LangPackString",
       "key": "PremiumLastSeenText2",
-      "value": "La suscripción te permitirá ver el estado de última vez de **{user}** sin mostrar el tuyo."
+      "value": "Suscribirte te permitirá ver el estado de últ. vez de **{user}** sin mostrar el tuyo."
     },
     {
       "_": "types.LangPackString",
@@ -13358,7 +13544,7 @@
     {
       "_": "types.LangPackString",
       "key": "PremiumPreviewRichFormatting",
-      "value": "Formato enriquecido"
+      "value": "Herramientas de formato"
     },
     {
       "_": "types.LangPackString",
@@ -13383,7 +13569,7 @@
     {
       "_": "types.LangPackString",
       "key": "PremiumPreviewStoriesDescription",
-      "value": "Orden prioritario, modo incógnito, historial de vistas permanente y más."
+      "value": "Sin límites, orden prioritario, modo incógnito, vistas permanentes y más."
     },
     {
       "_": "types.LangPackString",
@@ -13845,7 +14031,7 @@
     {
       "_": "types.LangPackString",
       "key": "PrivacyProfilePhotoRemovePublicVideo",
-      "value": "Quitar video público"
+      "value": "Quitar foto pública"
     },
     {
       "_": "types.LangPackString",
@@ -13968,6 +14154,11 @@
       "key": "ProfileBirthdayValueAge",
       "one_value": "{date} ({age} año)",
       "other_value": "{date} ({age} años)"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ProfileBotManagedBy",
+      "value": "Creado y gestionado por {bot}"
     },
     {
       "_": "types.LangPackString",
@@ -15075,7 +15266,7 @@
     {
       "_": "types.LangPackString",
       "key": "RichEditorDetails",
-      "value": "Detalles"
+      "value": "Bloque desplegable"
     },
     {
       "_": "types.LangPackString",
@@ -15419,6 +15610,11 @@
       "_": "types.LangPackString",
       "key": "SaveLink",
       "value": "Guardar enlace"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SaveToPosts",
+      "value": "Publicar en el perfil"
     },
     {
       "_": "types.LangPackString",
@@ -16213,6 +16409,116 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "SettingsKeywordsArchiveAndMute",
+      "value": "archivar, silenciar, nuevos chats, spam"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SettingsKeywordsAutoDelete",
+      "value": "eliminar automáticamente, autoeliminación, autodestrucción, ttl, temporizador, mensajes temporales, expiración "
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SettingsKeywordsBlockedUsers",
+      "value": "bloquear, bloqueados, expulsados, desbloquear, restringir, suspender, banear"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SettingsKeywordsChannels",
+      "value": "canales, difusiones"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SettingsKeywordsChatBackground",
+      "value": "fondo de pantalla, imagen, papel tapiz, apariencia de chat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SettingsKeywordsDataStorage",
+      "value": "almacenamiento, caché, uso de datos, descarga automática, autodescarga, tráfico, datos móviles, espacio, archivos multimedia"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SettingsKeywordsFolders",
+      "value": "carpetas, filtros, pestañas, categorías, organizar, clasificar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SettingsKeywordsGroups",
+      "value": "grupos, supergrupos"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SettingsKeywordsLanguage",
+      "value": "idioma, región, localización, traducción, traducir"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SettingsKeywordsLastSeen",
+      "value": "en línea, última vez, visto, estado, conexión, activo, disponible"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SettingsKeywordsLogOut",
+      "value": "cerrar sesión, desconectar, salir"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SettingsKeywordsNotifications",
+      "value": "silenciar, sonido, alertas, avisos, tono de notificación"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SettingsKeywordsPasscode",
+      "value": "código de acceso, PIN, contraseña, bloqueo de pantalla"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SettingsKeywordsPasskeys",
+      "value": "claves de acceso, passkeys, WebAuthn, biometría, huella dactilar, reconocimiento facial"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SettingsKeywordsPerformance",
+      "value": "ahorro de energía, batería, animaciones, rendimiento, consumo"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SettingsKeywordsPrivateChats",
+      "value": "privados, mensajes directos, dm, pm"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SettingsKeywordsSessions",
+      "value": "dispositivos, sesiones, cerrar sesión, terminar sesión, actividad"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SettingsKeywordsStickers",
+      "value": "stickers, emojis, pegatinas, emoticonos, GIF, máscaras, reacciones"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SettingsKeywordsTextSize",
+      "value": "fuente, letra, tamaño del texto, más grande, más pequeño, aumentar, ampliar, disminuir, reducir"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SettingsKeywordsTheme",
+      "value": "tema, color, acento, realce, modo oscuro, nocturno, noche, apariencia"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SettingsKeywordsTimeFormat",
+      "value": "reloj, formato de 12 o 24 horas, AM, PM "
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SettingsKeywordsTwoStep",
+      "value": "2fa, 2sv, autentificación, dos pasos, factores, contraseña adicional de la nube, seguridad"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "SettingsLanguageDesc",
       "value": "{language}, traductor"
     },
@@ -16425,6 +16731,11 @@
       "_": "types.LangPackString",
       "key": "SettingsSaveChanges",
       "value": "Guardar cambios"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SettingsSearchEmpty",
+      "value": "Empieza a escribir para encontrar un ajuste"
     },
     {
       "_": "types.LangPackString",
@@ -17751,7 +18062,7 @@
     {
       "_": "types.LangPackString",
       "key": "StoryKeep",
-      "value": "Conservar en mi perfil"
+      "value": "Publicar en mi perfil"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -17777,7 +18088,7 @@
     {
       "_": "types.LangPackString",
       "key": "StoryListSaveToProfile",
-      "value": "Publicar en el perfil"
+      "value": "Publicar en mi perfil"
     },
     {
       "_": "types.LangPackString",
@@ -17899,7 +18210,7 @@
     {
       "_": "types.LangPackString",
       "key": "StoryPrivacyOptionSelectedContacts",
-      "value": "Contactos seleccionados"
+      "value": "Usuarios seleccionados"
     },
     {
       "_": "types.LangPackString",
@@ -18837,7 +19148,7 @@
     {
       "_": "types.LangPackString",
       "key": "UpgradedStories",
-      "value": "Historias mejoradas"
+      "value": "Historias"
     },
     {
       "_": "types.LangPackString",
@@ -18852,7 +19163,7 @@
     {
       "_": "types.LangPackString",
       "key": "UploadSpeedLimitedMessage",
-      "value": "Suscríbete a **Telegram Premium** y aumenta la velocidad de subida {factor} veces."
+      "value": "Suscríbete a **Telegram Premium** para aumentar la velocidad de subida {factor} veces."
     },
     {
       "_": "types.LangPackString",
@@ -18927,7 +19238,7 @@
     {
       "_": "types.LangPackString",
       "key": "UserInfoCustomVideo",
-      "value": "video puesto por ti"
+      "value": "foto puesta por ti"
     },
     {
       "_": "types.LangPackString",
@@ -18957,7 +19268,7 @@
     {
       "_": "types.LangPackString",
       "key": "UserInfoPublicVideo",
-      "value": "video público"
+      "value": "foto pública"
     },
     {
       "_": "types.LangPackString",
@@ -20064,6 +20375,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletConnectManifestInvalid",
+      "value": "La información sobre esta app no es válida o pertenece a otro dominio."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletConnectPermissionInfo",
       "value": "La app no podrá mover fondos sin permiso."
     },
@@ -20454,6 +20770,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletLogoutKeyRotation",
+      "value": "El cambio de clave de tu billetera aún no está confirmado. La nueva clave se almacena sólo en este dispositivo. Si cierras sesión y se realiza el cambio, perderás el acceso a la billetera."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletLogoutWarning",
       "value": "Las frases secretas guardadas en este dispositivo para tus billeteras se eliminarán al cerrar sesión. Asegúrate primero de que cada frase tiene un respaldo en la nube o una copia anotada."
     },
@@ -20606,6 +20927,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletReceiveAddressCopied",
+      "value": "Dirección copiada"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletReceiveBuy",
       "value": "Compra con efectivo o cripto"
     },
@@ -20621,8 +20947,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletReceivePeerNote",
+      "value": "Envía grams a esta dirección o escanea este código QR."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletReceivePeerShowQr",
+      "value": "Mostrar QR"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletReceiveShowQr",
+      "value": "Mostrar mi QR"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletReceiveTitle",
       "value": "Añadir fondos"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletRecipientGramWallet",
+      "value": "Billetera de grams"
     },
     {
       "_": "types.LangPackString",
@@ -20736,6 +21082,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletSendAmountButton",
+      "value": "Enviar {amount}"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletSendBalance",
       "value": "Saldo: {amount}"
     },
@@ -20821,6 +21172,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletSendPending",
+      "value": "Es posible que la transferencia haya sido enviada. No la vuelvas a enviar mientras se verifica su estado."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletSendPendingError",
       "value": "Tu transferencia anterior aún sigue en camino. Por favor, reinténtalo en un minuto."
     },
@@ -20836,6 +21192,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletSendRecipientWallet",
+      "value": "Billetera de {name}"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletSendSuccess",
       "value": "Grams enviados"
     },
@@ -20846,8 +21207,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletSendSwitchCurrency",
+      "value": "Cambiar moneda"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletSendTitle",
       "value": "Enviar grams"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendUnlinkedWallet",
+      "value": "Billetera no vinculada"
     },
     {
       "_": "types.LangPackString",
@@ -20978,6 +21349,16 @@
       "_": "types.LangPackString",
       "key": "WalletTransactionKeyChange",
       "value": "Actualización de la clave"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionMovedFromProfile",
+      "value": "Movido desde el perfil"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionMovedToProfile",
+      "value": "Movido al perfil"
     },
     {
       "_": "types.LangPackString",
@@ -21242,5 +21623,5 @@
       "value": "Tu nombre"
     }
   ],
-  "version": 376754
+  "version": 380239
 }

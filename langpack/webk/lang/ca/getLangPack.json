@@ -1105,7 +1105,7 @@
     {
       "_": "types.LangPackString",
       "key": "AdminRecentActionMessage.ChangeRank",
-      "value": "Ha canviat el rang"
+      "value": "Ha canviat una etiqueta"
     },
     {
       "_": "types.LangPackString",
@@ -2935,8 +2935,8 @@
     {
       "_": "types.LangPackStringPluralized",
       "key": "Boost.GetMoreBoosts",
-      "one_value": "Per a impulsar **%1$s**, obteniu **%2$d** impuls més regalant el **Telegram Premium**.",
-      "other_value": "Per a impulsar **%1$s**, obteniu **%2$d** impulsos més regalant el **Telegram Premium**."
+      "one_value": "Per a impulsar **%2$s**, obteniu **%1$d** impuls més regalant el **Telegram Premium**.",
+      "other_value": "Per a impulsar **%2$s**, obteniu **%1$d** impulsos més regalant el **Telegram Premium**."
     },
     {
       "_": "types.LangPackString",
@@ -8935,8 +8935,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ContactDetails.PhoneMobile",
+      "value": "Telèfon mòbil"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ContactDetails.PhoneOther",
       "value": "Altre telèfon"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ContactDetails.PhoneWork",
+      "value": "Telèfon de la feina"
     },
     {
       "_": "types.LangPackString",
@@ -10607,6 +10617,26 @@
       "_": "types.LangPackString",
       "key": "Exceptions",
       "value": "Excepcions"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Logs.Clear",
+      "value": "Esborra els registres"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.RTL",
+      "value": "Text de dreta a esquerra"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.ShowPeerIds",
+      "value": "Mostra els ID dels contactes"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Title",
+      "value": "Experimental"
     },
     {
       "_": "types.LangPackString",
@@ -13714,6 +13744,36 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Login.Code.CallAvailableIn",
+      "value": "Podeu demanar una trucada d'aquí a %s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Login.Code.ResendCall",
+      "value": "[Rep el codi amb una trucada]()"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Login.Code.ResendFragment",
+      "value": "[Rebeu un codi via Fragment]()"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Login.Code.ResendSms",
+      "value": "[Envia el codi per SMS]()"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Login.Code.SecretPhrase",
+      "value": "Frase secreta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Login.Code.SecretWord",
+      "value": "Paraula secreta"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Login.Code.SentCall",
       "value": "Us trucarem per a dictar-vos\nel codi."
     },
@@ -13734,8 +13794,48 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Login.Code.SentSmsPhrase",
+      "value": "Us hem enviat al número **%s** un SMS amb una frase secreta."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Login.Code.SentSmsPhraseBeginning",
+      "value": "Hem enviat un SMS amb una frase secreta que comença per «**%2$s**» al telèfon **%1$s**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Login.Code.SentSmsWord",
+      "value": "Us hem enviat al número **%s** un SMS amb una paraula secreta."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Login.Code.SentSmsWordBeginning",
+      "value": "Us hem enviat al número **%1$s** un SMS amb una paraula secreta que comença per «**%2$s**»."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Login.Code.SentUnknown",
       "value": "Comproveu que heu rebut\nun codi (tipus: %s)"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Login.Code.SmsAvailableIn",
+      "value": "Podeu demanar un SMS d'aquí a %s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Login.Code.TooManyAttempts",
+      "value": "Heu fet massa intents. Torneu a provar-ho d'aquí a %s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Login.Code.WordBeginningInvalid",
+      "value": "La paraula no és correcta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Login.Code.WordInvalid",
+      "value": "Incorrecte, torneu a provar-ho"
     },
     {
       "_": "types.LangPackString",
@@ -14606,7 +14706,7 @@
       "_": "types.LangPackStringPluralized",
       "key": "MiniApps.Collapsed.Many",
       "one_value": "",
-      "other_value": "%s i %d més"
+      "other_value": "%2$s i %1$d més"
     },
     {
       "_": "types.LangPackString",
@@ -16697,7 +16797,7 @@
     {
       "_": "types.LangPackString",
       "key": "PhoneNumber.Code.Fragment.Info",
-      "value": "Rebeu el codi a la secció «Numbers» de [Fragment](%1$@)"
+      "value": "Rebeu el codi a la secció «Numbers» de [Fragment]()"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -17809,7 +17909,7 @@
     {
       "_": "types.LangPackString",
       "key": "Privacy.Passkeys.SearchKeywords",
-      "value": "passkey, webauthn, biometria, empremta"
+      "value": "passkey, webauthn, biometria, empremta, Face ID"
     },
     {
       "_": "types.LangPackString",
@@ -20342,8 +20442,8 @@
     {
       "_": "types.LangPackStringPluralized",
       "key": "SimilarChannels.Unlock",
-      "one_value": "Subscriviu-vos al **[Telegram Premium]()** per a desblocar **%d** canal similar.",
-      "other_value": "Subscriviu-vos al **[Telegram Premium]()** per a desblocar fins a **%d** canals similars."
+      "one_value": "Subscriviu-vos al **[Telegram Premium]()** per a desblocar **%1$d** canal similar.",
+      "other_value": "Subscriviu-vos al **[Telegram Premium]()** per a desblocar fins a **%1$d** canals similars."
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -20664,8 +20764,8 @@
     {
       "_": "types.LangPackStringPluralized",
       "key": "StarGiftDefaultMessageConvertableOut",
-      "one_value": "%s pot desar el regal al seu perfil o convertir-lo en %d estrella.",
-      "other_value": "%s pot desar el regal al seu perfil o convertir-lo en %d estrelles."
+      "one_value": "%2$s pot desar el regal al seu perfil o convertir-lo en %1$d estrella.",
+      "other_value": "%2$s pot desar el regal al seu perfil o convertir-lo en %1$d estrelles."
     },
     {
       "_": "types.LangPackString",
@@ -21327,8 +21427,8 @@
     {
       "_": "types.LangPackStringPluralized",
       "key": "StarGiftSentMessageIncoming",
-      "one_value": "**%1$s** us ha enviat un regal que val **%2$d estrella**",
-      "other_value": "**%1$s** us ha enviat un regal que val **%2$d estrelles**"
+      "one_value": "**%2$s** us ha enviat un regal que val **%1$d estrella**",
+      "other_value": "**%2$s** us ha enviat un regal que val **%1$d estrelles**"
     },
     {
       "_": "types.LangPackString",
@@ -21355,8 +21455,8 @@
     {
       "_": "types.LangPackStringPluralized",
       "key": "StarGiftSentMessagePrepaidIncoming",
-      "one_value": "**%s** ha enviat una millora per al regal que val **%d estrella**",
-      "other_value": "**%s** ha enviat una millora per al regal que val **%d estrella**"
+      "one_value": "**%2$s** ha enviat una millora per al regal que val **%1$d estrella**",
+      "other_value": "**%2$s** ha enviat una millora per al regal que val **%1$d estrella**"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -24461,6 +24561,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "UnsupportedMessageMessage",
+      "value": "Actualitzeu el Telegram per a veure el missatge"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UnsupportedMessageTitle",
+      "value": "Missatge no compatible"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Update",
       "value": "ACTUALITZA"
     },
@@ -25533,5 +25643,5 @@
       "other_value": "%1$d missatges"
     }
   ],
-  "version": 368146
+  "version": 369920
 }

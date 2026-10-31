@@ -193,6 +193,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AccDescr.ShowPassword",
+      "value": "Показати пароль"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AccDescr.ShowStreamKey",
       "value": "Показати ключ трансляції"
     },
@@ -816,7 +821,7 @@
     {
       "_": "types.LangPackString",
       "key": "AddToFolderSearch",
-      "value": "Почніть писати для швидкого пошуку"
+      "value": "Почніть вводити назву"
     },
     {
       "_": "types.LangPackString",
@@ -3596,19 +3601,19 @@
     },
     {
       "_": "types.LangPackStringPluralized",
-      "few_value": "Можна вибрати щонайбільше %1$d канали.",
+      "few_value": "Можна вибрати до %1$d каналів.",
       "key": "BoostingSelectUpToWarningChannelsPlural",
-      "many_value": "Можна вибрати щонайбільше %1$d каналів.",
-      "one_value": "Можна вибрати щонайбільше %1$d канал.",
-      "other_value": "Можна вибрати щонайбільше %1$d каналів."
+      "many_value": "Можна вибрати до %1$d каналів.",
+      "one_value": "Можна вибрати до %1$d каналу.",
+      "other_value": "Можна вибрати до %1$d каналів."
     },
     {
       "_": "types.LangPackStringPluralized",
-      "few_value": "Можна вибрати не більше %1$d країн.",
+      "few_value": "Можна вибрати до %1$d країн.",
       "key": "BoostingSelectUpToWarningCountriesPlural",
-      "many_value": "Можна вибрати не більше %1$d країн.",
-      "one_value": "Можна вибрати не більше %1$d країни.",
-      "other_value": "Можна вибрати не більше %1$d країн."
+      "many_value": "Можна вибрати до %1$d країн.",
+      "one_value": "Можна вибрати до %1$d країни.",
+      "other_value": "Можна вибрати до %1$d країн."
     },
     {
       "_": "types.LangPackString",
@@ -7828,6 +7833,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ChatList.Menu.SwitchTo.A.Passcode",
+      "value": "Щоб перемкнутися на версію A, спочатку вимкніть код доступу."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ChatList.Menu.SwitchTo.Webogram",
       "value": "Перемкнутися на стару версію"
     },
@@ -8308,7 +8318,7 @@
     {
       "_": "types.LangPackString",
       "key": "Checkout.2FA.Text",
-      "value": "Збереження платіжних даних доступне лише при увімкненій двоетапній перевірці."
+      "value": "Для збереження платіжних даних необхідно увімкнути двоетапну перевірку."
     },
     {
       "_": "types.LangPackString",
@@ -9775,7 +9785,7 @@
     {
       "_": "types.LangPackString",
       "key": "CreateBot.Username.Label",
-      "value": "Імʼя користувача"
+      "value": "@імʼя бота"
     },
     {
       "_": "types.LangPackString",
@@ -11273,6 +11283,326 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Experimental.A11y",
+      "value": "Клавіатура й читачі екрана"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.A11y.Subtitle",
+      "value": "Навігація за допомогою клавіатури, індикатори фокуса та підтримка читачів екрана"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.BubbleSandbox",
+      "value": "Пісочниця бульбашок повідомлень"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Connection",
+      "value": "Зʼєднання"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.CopyDebugInfo",
+      "value": "Копіювати інформацію для налагодження"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.CopyDebugInfo.Subtitle",
+      "value": "Версія, браузер та параметри вище — для звіту про помилку"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Debug",
+      "value": "Режим налагодження"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Debug.Subtitle",
+      "value": "Детальні логи в консолі для кожного потоку"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.DebugInfoCopied",
+      "value": "Інформацію для налагодження скопійовано."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Debugging",
+      "value": "Налагодження"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Engine",
+      "value": "Рушій"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.HideNonContactLinks",
+      "value": "Приховувати посилання від неконтактів"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.HideNonContactLinks.Subtitle",
+      "value": "Навіть коли сервер не запитує про це"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.IconLibrary",
+      "value": "Бібліотека іконок"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Info",
+      "value": "Інструменти для тестування та налагодження. Вони можуть уповільнити роботу Telegram або зробити його менш стабільним — змінюйте ці параметри, тільки якщо знаєте, як вони працюють."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Interface",
+      "value": "Інтерфейс"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Logs",
+      "value": "Логи налагодження"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Logs.Clear",
+      "value": "Очистити логи"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Logs.Cleared",
+      "value": "Логи очищено."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Logs.Collect",
+      "value": "Зберігати логи"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Logs.Collect.Debug",
+      "value": "Завжди увімкнено в режимі налагодження"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Logs.Collect.Subtitle",
+      "value": "Записи у памʼяті про роботу Telegram"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Logs.Download",
+      "value": "Завантажити логи"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Logs.Empty",
+      "value": "Логів поки немає. Увімкніть «Зберігати логи» та повторіть дії, які викликали помилку."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Logs.Info",
+      "value": "Логи залишають пристрій, тільки коли ви самі їх надсилаєте. Вони можуть містити назви чатів і фрагменти повідомлень, тому надсилайте їх тим, кому довіряєте."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Logs.Ready",
+      "value": "Логи готові для надсилання."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Logs.Send",
+      "value": "Надіслати логи в чат"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Logs.SentTo",
+      "value": "Логи надіслано в чат %s."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Logs.SentToSavedMessages",
+      "value": "Логи надіслано в **Збережене**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Logs.Share",
+      "value": "Поділитися логами"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.MemoryWatch",
+      "value": "Моніторинг памʼяті"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.MemoryWatch.Subtitle",
+      "value": "Запис у логах про використання памʼяті кожні 15 хвилин"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.OffscreenCanvas",
+      "value": "Наліпки у фоні"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.OffscreenCanvas.Subtitle",
+      "value": "Рендеринг анімованих наліпок поза головним потоком"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.OnNotice",
+      "value": "Експериментальні налаштування увімкнено"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Pfs",
+      "value": "Досконала пряма секретність (PFS)"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Pfs.Subtitle",
+      "value": "Тимчасові ключі шифрування, замінюються кожні 24 години"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.PopupSandbox",
+      "value": "Пісочниця спливних вікон"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.RTL",
+      "value": "Інтерфейс справа наліво"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.RTL.Subtitle",
+      "value": "Верстка застосунку справа наліво незалежно від мови"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.ReleaseMedia",
+      "value": "Очищення памʼяті медіа"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.ReleaseMedia.Subtitle",
+      "value": "Видалення кешу фото та відео, які більше не показуються"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.ResetAll",
+      "value": "Скинути все"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Restart",
+      "value": "Перезапустити"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Restart.EveryTab",
+      "value": "Зміни застосуються після перезапуску: всі вкладки Telegram оновляться."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Restart.ThisTab",
+      "value": "Зміни застосуються після оновлення цієї вкладки."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Restart.Title",
+      "value": "Перезапустіть Telegram"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.ServiceWorker",
+      "value": "Service Worker"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.ServiceWorker.Subtitle",
+      "value": "Потокові відео, завантаження та сповіщення"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.SharedWorker",
+      "value": "Спільне зʼєднання"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.SharedWorker.Subtitle",
+      "value": "Усі вкладки використовують одне зʼєднання та один кеш"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.ShowPeerIds",
+      "value": "Показувати Peer ID в профілях"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.ShowPeerIds.Subtitle",
+      "value": "ID і дата-центр користувачів, ботів, груп і каналів"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.TestServer",
+      "value": "Тестовий сервер Telegram"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.TestServer.Subtitle",
+      "value": "Тестові сервери з окремими акаунтами — на цій вкладці"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Title",
+      "value": "Експериментальні"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Tools",
+      "value": "Інструменти для розробників"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Transport",
+      "value": "Транспорт"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Transport.Auto",
+      "value": "Автоматичний"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Transport.Auto.Subtitle",
+      "value": "Перемикання між WebSocket та HTTP залежно від доступності"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Transport.HTTP",
+      "value": "Тільки HTTP"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Transport.WebSocket",
+      "value": "Тільки WebSocket"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Worker",
+      "value": "Мережа у фоні"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Worker.Subtitle",
+      "value": "Коли вимкнено, зʼєднання працює безпосередньо у вкладці — для налагодження"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ExpiredStory",
       "value": "Застаріла історія"
     },
@@ -12235,11 +12565,11 @@
     },
     {
       "_": "types.LangPackStringPluralized",
-      "few_value": "Можна вибрати не більше %d підписників.",
+      "few_value": "Можна вибрати до %d підписників",
       "key": "Giveaway.MaximumSubscribers",
-      "many_value": "Можна вибрати не більше %d підписників.",
-      "one_value": "Можна вибрати не більше %d підписника.",
-      "other_value": "Можна вибрати не більше %d підписників."
+      "many_value": "Можна вибрати до %d підписників",
+      "one_value": "Можна вибрати до %d підписника",
+      "other_value": "Можна вибрати до %d підписників"
     },
     {
       "_": "types.LangPackString",
@@ -12261,11 +12591,11 @@
     },
     {
       "_": "types.LangPackStringPluralized",
-      "few_value": "для %d користувачів",
+      "few_value": "порівну для %d переможців",
       "key": "Giveaway.Prepaid.For",
-      "many_value": "для %d користувачів",
-      "one_value": "для %d користувача",
-      "other_value": "для %d користувачів"
+      "many_value": "порівну для %d переможців",
+      "one_value": "для %d переможця",
+      "other_value": "порівну для %d переможців"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -12931,6 +13261,11 @@
       "_": "types.LangPackString",
       "key": "IVInteractionsChartTitle",
       "value": "Взаємодії з Миттєвим переглядом"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "IdCopied",
+      "value": "ID скопійовано."
     },
     {
       "_": "types.LangPackString",
@@ -14245,7 +14580,7 @@
     {
       "_": "types.LangPackString",
       "key": "LimitReachedPinDialogsLocked",
-      "value": "Наразі неможливо прикріпити більше %1$d чатів. Відкріпіть деякі з уже прикріплених. Ми працюємо над збільшенням цього ліміту в майбутньому."
+      "value": "Ви можете прикріпити до %1$d чатів. Відкріпіть деякі з уже прикріплених. Ми працюємо над збільшенням цього ліміту в майбутньому."
     },
     {
       "_": "types.LangPackString",
@@ -14622,6 +14957,11 @@
       "_": "types.LangPackString",
       "key": "Login.Code.SmsAvailableIn",
       "value": "Ви зможете запросити SMS за %s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Login.Code.TooManyAttempts",
+      "value": "Забагато спроб, спробуйте через %s"
     },
     {
       "_": "types.LangPackString",
@@ -17709,6 +18049,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PeerInfo.DataCenter",
+      "value": "DC %d"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PeerInfo.DeleteChannel",
       "value": "Видалити канал"
     },
@@ -17726,6 +18071,11 @@
       "_": "types.LangPackString",
       "key": "PeerInfo.Discussion.Add",
       "value": "Додати"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PeerInfo.Id",
+      "value": "ID"
     },
     {
       "_": "types.LangPackString",
@@ -18707,7 +19057,7 @@
     {
       "_": "types.LangPackString",
       "key": "PremiumStoriesSaveToGalleryDescription",
-      "value": "Завантажуйте не захищені від копіювання історії на ваш пристрій."
+      "value": "Завантажуйте незахищені від копіювання історії на ваш пристрій."
     },
     {
       "_": "types.LangPackString",
@@ -19051,7 +19401,7 @@
     {
       "_": "types.LangPackString",
       "key": "PrivacyForwardsTitle",
-      "value": "Хто може пересилати мої повідомлення із посиланням на мій акаунт?"
+      "value": "Хто може пересилати мої повідомлення з посиланням на мене?"
     },
     {
       "_": "types.LangPackString",
@@ -24358,11 +24708,11 @@
     },
     {
       "_": "types.LangPackStringPluralized",
-      "few_value": "Не можна прикріпити більше %d публікацій.",
+      "few_value": "Не можна прикріпити понад %d публікації.",
       "key": "StoriesPinLimit",
-      "many_value": "Не можна прикріпити більше %d публікацій.",
-      "one_value": "Не можна прикріпити більше %d публікації.",
-      "other_value": "Не можна прикріпити більше %d публікацій."
+      "many_value": "Не можна прикріпити понад %d публікацій.",
+      "one_value": "Не можна прикріпити понад %d публікацію.",
+      "other_value": "Не можна прикріпити понад %d публікацій."
     },
     {
       "_": "types.LangPackString",
@@ -25545,6 +25895,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Text.CopyLabel_Id",
+      "value": "Копіювати ID"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Text.CopyLabel_Note",
       "value": "Копіювати примітки"
     },
@@ -25581,7 +25936,7 @@
     {
       "_": "types.LangPackString",
       "key": "TextSize.SearchKeywords",
-      "value": "шрифт, розмір тексту, більше, менше"
+      "value": "шрифт, розмір тексту, більше, менше, збільшити, зменшити"
     },
     {
       "_": "types.LangPackString",
@@ -26124,6 +26479,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "UnsavedChangesDescription.Experimental",
+      "value": "Деякі внесені вами зміни застосуються тільки після перезапуску. Перезапустити зараз?"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "UnsavedChangesDescription.Group",
       "value": "Ви змінили деякі налаштування в цій групі. Зберегти зміни?"
     },
@@ -26136,6 +26496,16 @@
       "_": "types.LangPackString",
       "key": "UnsupportedAttachment",
       "value": "Вкладення не підтримується"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UnsupportedMessageMessage",
+      "value": "Щоб побачити це повідомлення, оновіть Telegram"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UnsupportedMessageTitle",
+      "value": "Непідтримуване повідомлення"
     },
     {
       "_": "types.LangPackString",
@@ -27267,5 +27637,5 @@
       "other_value": "%1$d повідомлень"
     }
   ],
-  "version": 366822
+  "version": 369814
 }
