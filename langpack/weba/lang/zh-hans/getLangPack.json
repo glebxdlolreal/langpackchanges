@@ -3875,6 +3875,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ErrorPhoneNumberInvalid",
+      "value": "手机号码无效，请重试。"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ErrorSendRestrictedStickersAll",
       "value": "抱歉，该群组不允许发送贴纸。"
     },
@@ -6446,7 +6451,7 @@
     {
       "_": "types.LangPackString",
       "key": "Passcode",
-      "value": "密码锁"
+      "value": "锁定码"
     },
     {
       "_": "types.LangPackString",
@@ -6490,8 +6495,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PasscodeForgotHelp",
+      "value": "注意：如果您忘记密码，您将需要 {logOut}。"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PasscodeTurnOff",
-      "value": "关闭密码锁"
+      "value": "关闭锁定码"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PasscodeUsePasskey",
+      "value": "通过密码解锁"
     },
     {
       "_": "types.LangPackString",
@@ -9750,6 +9765,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "UnconfirmedAuthDeniedMessage",
+      "value": "我们已终止来自 {location} 的登录尝试。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UnconfirmedAuthDeniedTitle",
+      "value": "新登录已被阻止"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "UnconfirmedAuthDeny",
       "value": "不，这不是我！"
     },
@@ -10440,6 +10465,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletAppPasscodePlaceholder",
+      "value": "锁定码"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletBackupEnabledText",
       "value": "您的密钥现已在 Telegram 各数据中心加密存储。"
     },
@@ -10577,6 +10607,21 @@
       "_": "types.LangPackString",
       "key": "WalletIntroTitle",
       "value": "您的第一笔 Gram！"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletPasscodeRequiredSetUp",
+      "value": "设置锁定码"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletPasscodeRequiredTitle",
+      "value": "需要输入锁定码"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletPasscodeTitle",
+      "value": "锁定码"
     },
     {
       "_": "types.LangPackString",
@@ -10889,5 +10934,5 @@
       "value": "您的姓名"
     }
   ],
-  "version": 379563
+  "version": 380771
 }
