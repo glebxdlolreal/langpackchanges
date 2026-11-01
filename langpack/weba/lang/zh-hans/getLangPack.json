@@ -6455,8 +6455,33 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PasscodeAutoLock1Hour",
+      "value": "离开 1 小时后"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PasscodeAutoLock1Min",
+      "value": "离开 1 分钟后"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PasscodeAutoLock30Min",
+      "value": "离开 30 分钟后"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PasscodeAutoLock5Min",
+      "value": "离开 5 分钟后"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PasscodeAutoLockDisabled",
-      "value": "停用"
+      "value": "禁用"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PasscodeAutoLockTitle",
+      "value": "自动锁定"
     },
     {
       "_": "types.LangPackString",
@@ -6490,6 +6515,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PasscodeDataCorrupted",
+      "value": "无法恢复您的加密数据。要继续使用 Telegram，请退出所有账号并重新登录。"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PasscodeEnterPasscodePlaceholder",
       "value": "请输入锁定码"
     },
@@ -6500,6 +6530,81 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PasscodeForgotHelpLink",
+      "value": "退出所有账号"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PasscodeKeepBackground",
+      "value": "保留背景图像"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PasscodeKeepBackgroundInfo",
+      "value": "在锁屏界面显示您的背景图片"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PasscodeLockScreenTitle",
+      "value": "锁屏界面"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PasscodeLogOutAllAccounts",
+      "value": "推出所有账号"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PasscodeLogOutAllConfirm",
+      "value": "是否从此浏览器中移除所有账号和本地数据？在您于 设置 > 设备 中终止这些会话之前，它们将保持活跃状态。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PasscodePasskeyDescription",
+      "value": "用您的指纹、人脸或设备PIN码代替锁屏码输入"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PasscodePasskeyEnable",
+      "value": "创建通行密钥"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PasscodePasskeyError",
+      "value": "通行密钥解锁失败。请使用您的密码。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PasscodePasskeyName",
+      "value": "本机锁定码"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PasscodePasskeyRemovedChange",
+      "value": "由于密码已更改，您的通行密钥已被移除。请重新添加，以便继续使用通行密钥解锁。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PasscodePasskeyTitle",
+      "value": "通行密钥"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PasscodePasskeyUnsupported",
+      "value": "您的设备或浏览器不支持通行密钥解锁。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PasscodeSwitchToKInfo",
+      "value": "要切换到 K 版本，请先关闭本地密码。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PasscodeTooManyAttempts",
+      "value": "尝试次数过多，请稍后再试。"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PasscodeTurnOff",
       "value": "关闭锁定码"
     },
@@ -6507,6 +6612,11 @@
       "_": "types.LangPackString",
       "key": "PasscodeUsePasskey",
       "value": "通过密码解锁"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PasscodeWalletKeyOtherAccounts",
+      "value": "另一个 Telegram 账号中的钱包密钥受此密码保护。请切换到每个账号并移除其钱包密钥，然后再关闭应用密码。"
     },
     {
       "_": "types.LangPackString",
@@ -8442,6 +8552,11 @@
       "_": "types.LangPackString",
       "key": "SettingsItemPrivacyPasskeys",
       "value": "通行密钥"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SettingsKeywordsPasscode",
+      "value": "锁定码、PIN 码、锁定、屏幕锁定"
     },
     {
       "_": "types.LangPackString",
@@ -10465,6 +10580,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletAppPasscodeDescription",
+      "value": "输入锁定码以继续。"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletAppPasscodePlaceholder",
       "value": "锁定码"
     },
@@ -10610,6 +10730,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletPasscodeInvalid",
+      "value": "锁定码错误，请重试。"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletPasscodeRequiredSetUp",
       "value": "设置锁定码"
     },
@@ -10657,6 +10782,11 @@
       "_": "types.LangPackString",
       "key": "WalletRecipientGramWallet",
       "value": "Gram 钱包"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletReleaseKeyText",
+      "value": "您的 Gram 钱包密钥受应用密码保护，并随其一同变更。关闭密码前，请确保已开启备份或已抄写助记词。"
     },
     {
       "_": "types.LangPackString",
@@ -10934,5 +11064,5 @@
       "value": "您的姓名"
     }
   ],
-  "version": 380771
+  "version": 380799
 }
