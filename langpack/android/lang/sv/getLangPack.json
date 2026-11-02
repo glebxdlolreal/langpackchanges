@@ -1797,6 +1797,12 @@
       "other_value": "%d Månader Premium"
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "key": "ActionGiftPremiumTitle2Days",
+      "one_value": "%d dag Premium",
+      "other_value": "%d dagar Premium"
+    },
+    {
       "_": "types.LangPackString",
       "key": "ActionGiftPremiumView",
       "value": "Visa"
@@ -2065,7 +2071,7 @@
     {
       "_": "types.LangPackString",
       "key": "ActionReactionsChangedList",
-      "value": "un1 ändrade chattreaktioner:\n %1$s"
+      "value": "un1 ändrade chattreaktioner:\n%1$s"
     },
     {
       "_": "types.LangPackString",
@@ -4422,6 +4428,11 @@
       "_": "types.LangPackString",
       "key": "AreYouSureLogout",
       "value": "Är du säker på att du vill logga ut?\n\nDetta kommer avbryta alla dina Hemliga Chattar.\n\nDu kan använda Telegram på alla dina enheter samtidigt och ha flera konton i samma app."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AreYouSureLogoutGrams",
+      "value": "Är du säker på att du vill logga ut?\n\nDetta kommer att avsluta alla dina hemliga chattar och **radera säkerhetskopior av plånböcker som innehåller %s**. Du kommer att förlora åtkomsten till dessa medel om du inte har sparat dina hemliga fraser.\n\nDu kan använda Telegram på alla dina enheter samtidigt och använda flera konton i samma app."
     },
     {
       "_": "types.LangPackString",
@@ -18216,7 +18227,7 @@
     {
       "_": "types.LangPackString",
       "key": "EmailNotAllowed",
-      "value": "E-postdomänen tillåts inte."
+      "value": "Denna e-post kan inte användas."
     },
     {
       "_": "types.LangPackString",
@@ -25751,6 +25762,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "GramEarnings",
+      "value": "Gramintäkter"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "GramEarningsHint",
       "value": "Du kan ta ut dina Grams med hjälp av Fragment."
     },
@@ -31046,7 +31062,7 @@
     {
       "_": "types.LangPackString",
       "key": "MonetizationTransactionDetailWithdrawButton",
-      "value": "Visa i Blockchain Explorer"
+      "value": "Visa i Explorer"
     },
     {
       "_": "types.LangPackString",
@@ -32750,6 +32766,26 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "NotificationGramTransfer",
+      "value": "%1$s skickade %2$s till dig"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NotificationGramTransferComment",
+      "value": "%1$s skickade dig %2$s: %3$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NotificationGramTransferUnknown",
+      "value": "Du fick %2$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NotificationGramTransferUnknownComment",
+      "value": "Du har fått %2$s: %3$s"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "NotificationGroupAddMember",
       "value": "%1$s bjöd in %3$s till gruppen %2$s"
     },
@@ -33273,6 +33309,11 @@
       "_": "types.LangPackString",
       "key": "NotificationWalletTonConnectRequest",
       "value": "Du har en TON Connect-förfrågan"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NotificationWalletTonConnectRequestDapp",
+      "value": "Du har fått en TON Connect-förfrågan från %1$s"
     },
     {
       "_": "types.LangPackString",
@@ -36804,7 +36845,7 @@
     {
       "_": "types.LangPackString",
       "key": "PlayMarket",
-      "value": "Play Store"
+      "value": "Google Play"
     },
     {
       "_": "types.LangPackString",
@@ -39931,6 +39972,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PushChatReactGameScore",
+      "value": "%3$s till din poäng i %2$s"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PushChatReactGeo",
       "value": "%3$s på din karta"
     },
@@ -39966,6 +40012,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PushChatReactPollUpdate",
+      "value": "%3$s på din omröstningsändring i %2$s"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PushChatReactQuiz",
       "value": "%3$s på ditt quiz %4$s"
     },
@@ -39981,13 +40032,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PushChatReactStory",
+      "value": "%3$s till din story i %2$s"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PushChatReactText",
       "value": "%3$s på din \"%4$s\""
     },
     {
       "_": "types.LangPackString",
+      "key": "PushChatReactThemeChange",
+      "value": "%3$s till din temaändring i %2$s"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PushChatReactTodo",
       "value": "%3$s på din checklista %4$s i %2$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PushChatReactTodoUpdate",
+      "value": "%3$s till din uppgiftsuppdatering i %2$s"
     },
     {
       "_": "types.LangPackString",
@@ -40046,6 +40112,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PushReactGramTransferComment",
+      "value": "%2$s på din %3$söverföring: %4$s"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PushReactHidden",
       "value": "Nya reaktioner på ditt meddelande"
     },
@@ -40081,6 +40152,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PushReactProximity",
+      "value": "%2$s på din närhetsvarning"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PushReactQuiz",
       "value": "%2$s på din quiz \"%3$s\""
     },
@@ -40098,6 +40174,16 @@
       "_": "types.LangPackString",
       "key": "PushReactSameWallpaper",
       "value": "%2$s på bakgrunden"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PushReactScreenshot",
+      "value": "%2$s på din skärmavbildning"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PushReactStarGift",
+      "value": "%2$s på din gåva värd %3$s stjärnor"
     },
     {
       "_": "types.LangPackString",
@@ -40186,6 +40272,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PushReactWalletTonConnectRequest",
+      "value": "%2$s på din TON Connect-förfrågan"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PushReactWallpaper",
       "value": "%2$s på den nya bakgrunden"
     },
@@ -40236,6 +40327,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "QrChatNoCollectibles",
+      "value": "Det finns inga samlarobjekt här än."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "QrCode",
       "value": "QR-kod"
     },
@@ -40246,6 +40342,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "QrCreatingLink",
+      "value": "Skapar länk…"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "QrEmojiPresets",
       "value": "Förinställningar"
     },
@@ -40253,6 +40354,11 @@
       "_": "types.LangPackString",
       "key": "QrGift",
       "value": "Gåva"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrLoadingGifts",
+      "value": "Laddar presenter…"
     },
     {
       "_": "types.LangPackString",
@@ -42632,6 +42738,21 @@
       "_": "types.LangPackString",
       "key": "RoundVideoCameraResolutionMedium",
       "value": "Mellan"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RoundVideoComposition",
+      "value": "Sammansättning"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RoundVideoCompositionEnabled",
+      "value": "Rund videostyling"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RoundVideoCompositionInfo",
+      "value": "Inaktivera formateringen för att spela in en vanlig fyrkant utan oskärpa runt om, toning eller Telegram-överlägg."
     },
     {
       "_": "types.LangPackString",
@@ -47525,7 +47646,7 @@
     {
       "_": "types.LangPackString",
       "key": "StarsSubscriptionBotCancelledText",
-      "value": "Bot har avbrutit din prenumeration."
+      "value": "Din prenumeration har avslutats av botten."
     },
     {
       "_": "types.LangPackString",
@@ -47550,7 +47671,7 @@
     {
       "_": "types.LangPackString",
       "key": "StarsSubscriptionBusinessCancelledText",
-      "value": "Företaget har avbrutit din prenumeration."
+      "value": "Din prenumeration avslutades av företaget."
     },
     {
       "_": "types.LangPackString",
@@ -47940,7 +48061,7 @@
     {
       "_": "types.LangPackString",
       "key": "StarsTransactionViewInBlockchainExplorer",
-      "value": "Visa i Blockchain Explorer"
+      "value": "Visa i Explorer"
     },
     {
       "_": "types.LangPackString",
@@ -56632,6 +56753,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletActionSentGramsShort",
+      "value": "Du skickade **%1$s**"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletActions",
       "value": "Åtgärder"
     },
@@ -56662,6 +56788,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletAddressCopiedBulletin",
+      "value": "Adress kopierad"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletAddressCopiedShort",
       "value": "Adress kopierad"
     },
@@ -56679,6 +56810,16 @@
       "_": "types.LangPackString",
       "key": "WalletAddressOrName",
       "value": "Namn eller plånboksadress"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletAppRequestsSignature",
+      "value": "%1$s ber dig att skriva under"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletAppRequestsTransfer",
+      "value": "%1$s begär en överföring"
     },
     {
       "_": "types.LangPackString",
@@ -56732,6 +56873,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletBinaryData",
+      "value": "Binär data"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBinaryDataWarning",
+      "value": "Du signerar utan att kontrollera innehållet. Signera endast data från betrodda källor."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletBlockchainVerified",
       "value": "Verifierat via blockkedjan"
     },
@@ -56747,6 +56898,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletCancel",
+      "value": "Avbryt"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletCard2D",
       "value": "2D-kort"
     },
@@ -56757,8 +56913,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletCollectible",
+      "value": "Samlarobjekt"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletCollectibleGift",
       "value": "Samlarobjekt"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCollectibleModelBackdrop",
+      "value": "%1$s på %2$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCollectibleNumber",
+      "value": "Samlarnummer"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCollectibleTransferPrepareFailed",
+      "value": "Det går inte att förbereda en överföring av samlarobjekt"
     },
     {
       "_": "types.LangPackString",
@@ -56769,6 +56945,16 @@
       "_": "types.LangPackString",
       "key": "WalletCommentOptionalMessage",
       "value": "Valfritt meddelande"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConfirm",
+      "value": "Bekräfta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConfirmAction",
+      "value": "Bekräfta åtgärd"
     },
     {
       "_": "types.LangPackString",
@@ -56787,6 +56973,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletConnectInfo",
+      "value": "Appen kommer att kunna visa din\nTON-adress, ditt saldo och din aktivitetshistorik."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletConnectPermissionInfo",
       "value": "Appen kommer inte att kunna överföra medel utan tillstånd."
     },
@@ -56799,6 +56990,16 @@
       "_": "types.LangPackString",
       "key": "WalletConnectToApp",
       "value": "Anslut Pengar till %1$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectToDApp",
+      "value": "Anslut plånbok till dApp"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectedApp",
+      "value": "Ansluten app"
     },
     {
       "_": "types.LangPackString",
@@ -56917,6 +57118,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletDisableBackupConfirmInfo",
+      "value": "Din distribuerade krypterade säkerhetskopia kommer att raderas. Din plånbok kommer att byta till den nya hemliga frasen. Denna hemliga fras kommer att vara det enda sättet att återställa denna plånbok."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletDisableBackupExistingPhraseInfo",
       "value": "Din distribuerade, krypterade säkerhetskopia kommer att raderas. Din hemliga fras är det enda sättet att återställa denna plånbok."
     },
@@ -56937,6 +57143,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletDomain",
+      "value": "Domän"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletDone",
       "value": "Klar"
     },
@@ -56952,6 +57163,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletEnterSecretPhrase",
+      "value": "Ange din plånboks hemliga fras\nför att fortsätta. **Varför?**"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletEnterSecretPhraseInfo",
+      "value": "Eftersom du har inaktiverat säkerhetskopieringen för din plånbok måste du ange din hemliga fras manuellt vid varje ny Telegram-session."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletFailed",
+      "value": "Misslyckades"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletFailedTransfer",
       "value": "Överföringen misslyckades"
     },
@@ -56962,13 +57188,48 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletFeeAmount",
+      "value": "Avgift: %1$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletFeeAmountWithCurrency",
+      "value": "Avgift: %1$s (~%2$s)."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletFeePaidByTelegram",
       "value": "Gratis (betalas av Telegram)"
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletFingerprintRetry",
+      "value": "Fingeravtrycket känns inte igen. Försök igen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletFirstGrams",
+      "value": "Dina första Grams!"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletFirstGramsActions",
       "value": "Du kan:"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletFirstGramsRate",
+      "value": "%1$s motsvarar för närvarande %2$s USD.\nDu kan:"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletFirstGramsSendInfo",
+      "value": "Skicka Gram till vem som helst.\nTryck på 📎 → Pengar i chattarna."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletFirstGramsTradeInfo",
+      "value": "Växla gram till kontanter eller kryptovaluta på börser."
     },
     {
       "_": "types.LangPackString",
@@ -57057,6 +57318,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletImportCurrentPhraseInfo",
+      "value": "Ange den %1$d-ord långa hemliga frasen för din plånbok från en annan enhet."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletImportExisting",
       "value": "Importera en befintlig plånbok"
     },
@@ -57064,6 +57330,11 @@
       "_": "types.LangPackString",
       "key": "WalletImportPhraseInfo",
       "value": "Ange den hemliga frasen på %1$d ord från en annan plånbok som du äger."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletImportThisWallet",
+      "value": "Importera den här plånboken"
     },
     {
       "_": "types.LangPackString",
@@ -57087,6 +57358,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletIncomingTransferNft",
+      "value": "Inkommande samlarobjekt"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletInsufficientFunds",
       "value": "Otillräckliga medel."
     },
@@ -57099,6 +57375,11 @@
       "_": "types.LangPackString",
       "key": "WalletInvalidRecoveryPhraseInfo",
       "value": "Kontrollera ordföljden.\n\nHär kan endast en hemlig fras som skapats i Telegram importeras."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletKeyUpdate",
+      "value": "Uppdatering av nyckel"
     },
     {
       "_": "types.LangPackString",
@@ -57119,6 +57400,11 @@
       "_": "types.LangPackString",
       "key": "WalletMakeCommentPublic",
       "value": "Gör kommentaren offentlig"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletMinimumAmount",
+      "value": "Minsta belopp: %1$s"
     },
     {
       "_": "types.LangPackString",
@@ -57147,6 +57433,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletNewSecretPhrase",
+      "value": "Ny hemlig fras"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletNewSecretPhraseInfo",
+      "value": "En ny hemlig fras för din plånbok har skapats. Skriv ner den och håll den hemlig."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletNoFees",
       "value": "Inga avgifter"
     },
@@ -57164,6 +57460,11 @@
       "_": "types.LangPackString",
       "key": "WalletNotEnoughGramToTransferGift",
       "value": "Du behöver minst %s för att överföra gåvan."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletNotNow",
+      "value": "Inte nu"
     },
     {
       "_": "types.LangPackString",
@@ -57187,6 +57488,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletOptionalComment",
+      "value": "Valfri kommentar"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletOutgoingCollectibleAmount",
       "value": "-1 artikel"
     },
@@ -57194,6 +57500,11 @@
       "_": "types.LangPackString",
       "key": "WalletOutgoingTransfer",
       "value": "Utgående överföring"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletOutgoingTransferNft",
+      "value": "Utgående samlarobjekt"
     },
     {
       "_": "types.LangPackString",
@@ -57228,6 +57539,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletPrivateCommentInfo",
+      "value": "Synligt endast för dig och mottagaren."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletProfileOwnsGrams",
       "value": "%1$s äger %2$s på TON-blockkedjan."
     },
@@ -57248,6 +57564,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletPublicCommentInfo",
+      "value": "Kommentaren är synlig för alla."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletReceiveInfo",
       "value": "Dela din adress eller den här\nQR-koden för att få GRAM."
     },
@@ -57255,6 +57576,11 @@
       "_": "types.LangPackString",
       "key": "WalletRecipient",
       "value": "Mottagare"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletRecipientUnavailable",
+      "value": "Mottagarens plånbok är inte tillgänglig"
     },
     {
       "_": "types.LangPackString",
@@ -57303,6 +57629,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletReviewSigningData",
+      "value": "Läs igenom meddelandet noggrant och underteckna uppgifterna om du samtycker."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSaveOnDevice",
+      "value": "Spara den aktuella plånboken på den här enheten"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletScanQRCode",
       "value": "Skanna QR-kod"
     },
@@ -57315,6 +57651,16 @@
       "_": "types.LangPackString",
       "key": "WalletSearchNoResults",
       "value": "Det fanns inga träffar för \"%1$s\".\nProva med ett annat namn eller en annan adress."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSecretPhrase",
+      "value": "Hemlig fras"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSell",
+      "value": "Sälj"
     },
     {
       "_": "types.LangPackString",
@@ -57368,8 +57714,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletSign",
+      "value": "Skriv under"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletSignData",
       "value": "Signera data"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSigningData",
+      "value": "Data"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSigningDataCopied",
+      "value": "Data har kopierats till urklipp"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletStore",
+      "value": "Lagra"
     },
     {
       "_": "types.LangPackString",
@@ -57403,8 +57769,43 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletTonConnectRequestAppExpired",
+      "value": "%ss transaktionsförfrågan har gått ut"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTonConnectRequestAppPending",
+      "value": "%s har begärt en transaktion. Tryck för att granska."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletTonConnectRequestAppProcessed",
       "value": "%ss transaktionsbegäran har behandlats"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTonConnectRequestDeclined",
+      "value": "Transaktionsbegäran i appen har avvisats"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTonConnectRequestExpired",
+      "value": "Appens transaktionsförfrågan har löpt ut"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTonConnectRequestPending",
+      "value": "Den anslutna appen har begärt en transaktion. Tryck för att granska."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTonConnectRequestProcessed",
+      "value": "Begäran om apptransaktion har behandlats"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTonConnectSessionClosed",
+      "value": "TON Connect-sessionen är avslutad"
     },
     {
       "_": "types.LangPackString",
@@ -57413,8 +57814,38 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletTouchFingerprint",
+      "value": "Tryck på fingeravtryckssensorn för att låsa upp din plånbok."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTrade",
+      "value": "Växla"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionAmountStatus",
+      "value": "%1$s · %2$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionSimulationFailed",
+      "value": "Transaktionssimuleringen misslyckades"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletTransactionTelegram",
       "value": "Telegram"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionTopUp",
+      "value": "Påfyllning av kort"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionTopUpCrypto",
+      "value": "Påfyllning av kryptovaluta"
     },
     {
       "_": "types.LangPackString",
@@ -57428,6 +57859,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletTransferCollectible",
+      "value": "Överför samlarobjekt"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransferStatusFailed",
+      "value": "misslyckades"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletTransferStatusReceived",
       "value": "mottagen"
     },
@@ -57438,13 +57879,38 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletTransferTo",
+      "value": "till %1$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransferToMultiple",
+      "value": "till %1$s  +%2$d"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletTransferWorth",
       "value": "%1$s (%2$s)"
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletUnknown",
+      "value": "Okänt"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUnknownAddress",
+      "value": "Okänd adress"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletUnknownUser",
       "value": "OKÄND ANVÄNDARE"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUnlock",
+      "value": "Lås upp plånbok"
     },
     {
       "_": "types.LangPackString",
@@ -57460,6 +57926,16 @@
       "_": "types.LangPackString",
       "key": "WalletUpdateSecretPhraseInfoWithFee",
       "value": "Du får en ny fras att skriva ner. Adress och saldo förblir oförändrade.\n\nNätverksavgift: %1$s (~%2$s)."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUpdateSecretPhraseInsufficientFunds",
+      "value": "Du behöver %1$s (~%2$s) för att uppdatera din hemliga fras."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUseDevicePasscode",
+      "value": "Använd enhetens PIN-kod eller lösenord"
     },
     {
       "_": "types.LangPackString",
@@ -58564,5 +59040,5 @@
       "value": "Telegram Passport"
     }
   ],
-  "version": 61517733
+  "version": 61612994
 }
