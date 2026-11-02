@@ -1301,7 +1301,7 @@
     {
       "_": "types.LangPackString",
       "key": "AdminRecentActionMessage.ChangeRank",
-      "value": "Изменил(а) должность"
+      "value": "Изменил(а) тег"
     },
     {
       "_": "types.LangPackString",
@@ -11273,8 +11273,43 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Experimental.A11y",
+      "value": "Клавиатура и экранные дикторы"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.A11y.Subtitle",
+      "value": "Навигация с клавиатуры, индикаторы фокуса и поддержка экранных дикторов"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Connection",
+      "value": "Подключение"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.CopyDebugInfo",
+      "value": "Скопировать данные для отладки"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.CopyDebugInfo.Subtitle",
+      "value": "Версия, браузер и текущие настройки (для отчёта об ошибке)"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Experimental.Debug",
       "value": "Режим отладки"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Debug.Subtitle",
+      "value": "Подробный лог в консоли каждого потока"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.DebugInfoCopied",
+      "value": "Данные для отладки скопированы в буфер обмена."
     },
     {
       "_": "types.LangPackString",
@@ -11283,8 +11318,38 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Experimental.Engine",
+      "value": "Движок"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.HideNonContactLinks",
+      "value": "Скрывать ссылки от неконтактов"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.HideNonContactLinks.Subtitle",
+      "value": "Принудительно, даже без запроса от сервера"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.IconLibrary",
+      "value": "Библиотека значков"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Info",
+      "value": "Инструменты для тестирования и отладки. Изменение параметров может снизить скорость или стабильность работы Telegram. Не используйте их, если не уверены в том, что делаете."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Experimental.Interface",
       "value": "Интерфейс"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Logs",
+      "value": "Журнал отладки"
     },
     {
       "_": "types.LangPackString",
@@ -11298,8 +11363,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Experimental.Logs.Collect",
+      "value": "Собирать логи"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Logs.Collect.Debug",
+      "value": "Не отключается в режиме отладки"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Logs.Collect.Subtitle",
+      "value": "Информация о работе Telegram, хранится на этом устройстве"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Experimental.Logs.Download",
       "value": "Скачать лог"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Logs.Empty",
+      "value": "Логов пока нет. Включите опцию «Собирать логи» и повторите действие, которое привело к ошибке."
     },
     {
       "_": "types.LangPackString",
@@ -11333,8 +11418,38 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Experimental.MemoryWatch",
+      "value": "Мониторинг памяти"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.MemoryWatch.Subtitle",
+      "value": "Запись информации об использовании памяти в логи каждые 15 минут"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.OffscreenCanvas",
+      "value": "Обработка стикеров в фоне"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.OffscreenCanvas.Subtitle",
+      "value": "Отрисовка анимированных стикеров вне основного потока"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Experimental.OnNotice",
       "value": "Экспериментальные настройки включены"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Pfs",
+      "value": "Совершенная прямая секретность (PFS)"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Pfs.Subtitle",
+      "value": "Временные ключи шифрования, обновляемые каждые 24 часа"
     },
     {
       "_": "types.LangPackString",
@@ -11343,23 +11458,128 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Experimental.RTL.Subtitle",
+      "value": "Расположение элементов интерфейса справа налево для всех языков"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.ReleaseMedia",
+      "value": "Освобождение памяти от медиа"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.ReleaseMedia.Subtitle",
+      "value": "Удаление из памяти фото и видео, которые больше не отображаются на экране"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.ResetAll",
+      "value": "Сбросить все"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Experimental.Restart",
       "value": "Перезапустить"
     },
     {
       "_": "types.LangPackString",
+      "key": "Experimental.Restart.EveryTab",
+      "value": "Изменения применятся после перезапуска: все открытые вкладки Telegram обновятся."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Experimental.Restart.ThisTab",
-      "value": "Изменения вступят в силу после обновления этой вкладки."
+      "value": "Изменения применятся после обновления этой вкладки."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Restart.Title",
+      "value": "Перезапуск Telegram"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.ServiceWorker",
+      "value": "Фоновый скрипт (Service Worker)"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.ServiceWorker.Subtitle",
+      "value": "Потоковое видео, загрузки и уведомления"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.SharedWorker",
+      "value": "Общее соединение"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.SharedWorker.Subtitle",
+      "value": "Одно сетевое соединение и общий кэш для всех вкладок"
     },
     {
       "_": "types.LangPackString",
       "key": "Experimental.ShowPeerIds",
-      "value": "Показывать ID чатов в профилях"
+      "value": "ID чатов в профилях"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.ShowPeerIds.Subtitle",
+      "value": "Отображение ID и дата-центров в профилях пользователей, ботов, групп и каналов"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.TestServer",
+      "value": "Тестовый сервер"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.TestServer.Subtitle",
+      "value": "Тестовые серверы Telegram с отдельными аккаунтами. Действует только в этой вкладке"
     },
     {
       "_": "types.LangPackString",
       "key": "Experimental.Title",
       "value": "Экспериментальные настройки"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Tools",
+      "value": "Инструменты разработчика"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Transport",
+      "value": "Транспорт"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Transport.Auto",
+      "value": "Автоматический выбор"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Transport.Auto.Subtitle",
+      "value": "Переключение между WebSocket и HTTP в зависимости от доступности"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Transport.HTTP",
+      "value": "Только HTTP"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Transport.WebSocket",
+      "value": "Только WebSocket"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Worker",
+      "value": "Сетевые подключения в фоне"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Worker.Subtitle",
+      "value": "Выкл. — подключение работает внутри самой вкладки, для отладки"
     },
     {
       "_": "types.LangPackString",
@@ -23926,7 +24146,7 @@
     {
       "_": "types.LangPackString",
       "key": "StarsRating.Row3Subtitle",
-      "value": "Возвращённые звёзды, умноженные на 10, и 85% от стоимости подарков, обменянных на звёзды."
+      "value": "Возвращённые звёзды, умноженные на 10, и 85% от стоимости подарков после обмена на звёзды."
     },
     {
       "_": "types.LangPackString",
@@ -26205,7 +26425,7 @@
     {
       "_": "types.LangPackString",
       "key": "UnsavedChangesDescription.Experimental",
-      "value": "Чтобы изменения вступили в силу, необходимо перезапустить приложение. Сделать это сейчас?"
+      "value": "Чтобы изменения вступили в силу, необходимо перезапустить приложение. Сделать это сейчас, чтобы сохранить изменения?"
     },
     {
       "_": "types.LangPackString",
@@ -27362,5 +27582,5 @@
       "other_value": "%1$d сообщений"
     }
   ],
-  "version": 369360
+  "version": 370676
 }
