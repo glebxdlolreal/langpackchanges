@@ -336,6 +336,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ActionGiftStarsSubtitle",
+      "value": "Amb les estrelles, **{peer}** pot desblocar contingut i serveis al Telegram."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ActionGiftStarsText",
       "value": "Useu les estrelles per a desblocar contingut i serveis al Telegram."
     },
@@ -1340,6 +1345,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AdReported",
+      "value": "Revisarem aquest anunci per a confirmar que compleix amb les nostres **Normes i Directrius d'anuncis.**"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Add",
       "value": "Afegeix"
     },
@@ -1367,6 +1377,11 @@
       "_": "types.LangPackString",
       "key": "AddToFavorites",
       "value": "Afegeix-lo als preferits"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AddedToDoNotTranslate",
+      "value": "S'ha afegit a la llista de No tradueixis: **{language}**."
     },
     {
       "_": "types.LangPackString",
@@ -1640,6 +1655,12 @@
       "value": "Comparteix-la sempre amb"
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "key": "AmongWinners",
+      "one_value": "entre {count} guanyador",
+      "other_value": "entre {count} guanyadors"
+    },
+    {
       "_": "types.LangPackString",
       "key": "AnonymousForward",
       "value": "Autor ocult"
@@ -1743,6 +1764,11 @@
       "_": "types.LangPackString",
       "key": "ArchiveAndMuteInfo",
       "value": "Arxiva i silencia de manera automàtica xats, grups i canals de desconeguts."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ArchiveStory",
+      "value": "Arxiva la història"
     },
     {
       "_": "types.LangPackString",
@@ -2619,6 +2645,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "BoostExpireOn",
+      "value": "caducitat de l'impuls: {date}"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "BoostGiftDateEnds",
       "value": "Finalització"
     },
@@ -2631,6 +2662,11 @@
       "_": "types.LangPackString",
       "key": "BoostGiftStarsInfo",
       "value": "Trieu quantes estrelles sortejar i quants impulsos rebre per 1 any."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostGiftStarsPerUser",
+      "value": "{count} per usuari"
     },
     {
       "_": "types.LangPackString",
@@ -2673,9 +2709,21 @@
       "value": "Impulsa el grup"
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "key": "BoostingBoostsCount",
+      "one_value": "{count} impuls",
+      "other_value": "{count} impulsos"
+    },
+    {
       "_": "types.LangPackString",
       "key": "BoostingBoostsViaGifts",
       "value": "Impulsos via regals"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "BoostingChannelWillReceiveBoost",
+      "one_value": "aquest canal rebrà {count} impuls",
+      "other_value": "aquest canal rebrà {count} impulsos"
     },
     {
       "_": "types.LangPackString",
@@ -2734,6 +2782,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "BoostingGetMoreBoostsGroup",
+      "value": "Obteniu més impulsos per al grup regalant el Premium als membres."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "BoostingGift",
       "value": "Regal"
     },
@@ -2741,6 +2794,12 @@
       "_": "types.LangPackString",
       "key": "BoostingGiftLink",
       "value": "Enllaç regal"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "BoostingGiftsCount",
+      "one_value": "{count} regal",
+      "other_value": "{count} regals"
     },
     {
       "_": "types.LangPackString",
@@ -2751,6 +2810,18 @@
       "_": "types.LangPackString",
       "key": "BoostingGiveaway",
       "value": "Sorteig"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "BoostingGiveawayAdditionPrizeCountHint",
+      "one_value": "Tots els premis: **{count}** subscripció al Telegram Premium per {duration}.",
+      "other_value": "Tots els premis: **{count}** subscripcions al Telegram Premium per {duration}."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "BoostingGiveawayAdditionPrizeCountNameHint",
+      "one_value": "Tots els premis: **{count}** {prize} amb subscripcions al Telegram Premium per {duration}.",
+      "other_value": "Tots els premis: **{count}** {prize} amb subscripcions al Telegram Premium per {duration}."
     },
     {
       "_": "types.LangPackString",
@@ -2779,6 +2850,54 @@
     },
     {
       "_": "types.LangPackStringPluralized",
+      "key": "BoostingGiveawayHowItWorksIncludeText",
+      "one_value": "**{chat}** també ha inclòs **{quantity}** **{prize}** al premi. L'administració del canal és la responsable de lliurar-los.",
+      "other_value": "**{chat}** també ha inclòs **{quantity}** **{prize}** als premis. L'administració del canal és la responsable de lliurar-los."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "BoostingGiveawayHowItWorksSubText",
+      "one_value": "El dia **{date}**, el Telegram seleccionarà de manera automàtica **{quantity}** usuari a l'atzar que s'hagi unit a **{chat}**.",
+      "other_value": "El dia **{date}**, el Telegram seleccionarà de manera automàtica **{quantity}** usuaris a l'atzar que s'hagin unit a **{chat}**."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "BoostingGiveawayHowItWorksSubTextEnd",
+      "one_value": "El dia **{date}**, el Telegram va seleccionar de manera automàtica **{quantity}** usuari a l'atzar que es va unir a **{chat}**.",
+      "other_value": "El dia **{date}**, el Telegram va seleccionar de manera automàtica **{quantity}** usuaris a l'atzar que es van unir a **{chat}**."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "BoostingGiveawayHowItWorksSubTextSeveral1",
+      "one_value": "El dia **{date}**, el Telegram seleccionarà de manera automàtica **{quantity}** usuari a l'atzar que s'hagi unit a **{chat}** {otherChannels}.",
+      "other_value": "El dia **{date}**, el Telegram seleccionarà de manera automàtica **{quantity}** usuaris a l'atzar que s'hagin unit a **{chat}** {otherChannels}."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "BoostingGiveawayHowItWorksSubTextSeveral2",
+      "one_value": "i **{count}** canal llistat més",
+      "other_value": "i **{count}** canals llistats més"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "BoostingGiveawayHowItWorksSubTextSeveralEnd1",
+      "one_value": "El dia **{date}**, el Telegram va seleccionar de manera automàtica **{quantity}** usuari a l'atzar que es va unir a **{chat}** {otherChannels}.",
+      "other_value": "El dia **{date}**, el Telegram va seleccionar de manera automàtica **{quantity}** usuaris a l'atzar que es van unir a **{chat}** {otherChannels}."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "BoostingGiveawayHowItWorksText",
+      "one_value": "El sorteig està patrocinat per l'administració de **{chat}**, qui ha adquirit **{quantity} subscripció al Telegram Premium** per {duration} per als seguidors.",
+      "other_value": "El sorteig està patrocinat per l'administració de **{chat}**, qui ha adquirit **{quantity} subscripcions al Telegram Premium** per {duration} per als seguidors."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "BoostingGiveawayHowItWorksTextEnd",
+      "one_value": "El sorteig ha estat patrocinat per l'administració de **{chat}**, qui va adquirir **{quantity} subscripció al Telegram Premium** per {duration} per als seus seguidors.",
+      "other_value": "El sorteig ha estat patrocinat per l'administració de **{chat}**, qui va adquirir **{quantity} subscripcions al Telegram Premium** per {duration} per als seus seguidors."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
       "key": "BoostingGiveawayMsgAllSubsPlural",
       "one_value": "Tots els subscriptors del canal:",
       "other_value": "Tots els subscriptors dels canals:"
@@ -2789,9 +2908,25 @@
       "value": "**Participants**"
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "key": "BoostingGiveawayMsgPrizes",
+      "one_value": "**{quantity}** {prize}",
+      "other_value": "**{quantity}** {prize}"
+    },
+    {
       "_": "types.LangPackString",
       "key": "BoostingGiveawayMsgWithDivider",
       "value": "amb"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingGiveawayNotEligible",
+      "value": "No sou candidat a participar en el sorteig perquè us vau unir al canal el dia **{date}**, abans que s'iniciés el sorteig."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingGiveawayNotEligibleAdmin",
+      "value": "No sou candidat a participar en el sorteig perquè sou a l'administració d'un dels canals participants (**{chat}**)."
     },
     {
       "_": "types.LangPackString",
@@ -2824,6 +2959,12 @@
       "value": "**S'han triat els guanyadors**"
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "key": "BoostingGiveawayResultsMsgWinnersTitle",
+      "one_value": "Telegram ha seleccionat a l'atzar {count} guanyador del sorteig.",
+      "other_value": "Telegram ha seleccionat a l'atzar {count} guanyadors del sorteig."
+    },
+    {
       "_": "types.LangPackString",
       "key": "BoostingGiveawayShowWinners",
       "value": "Mostra els guanyadors"
@@ -2834,6 +2975,12 @@
       "value": "Trieu si voleu fer pública la llista de guanyadors quan finalitzi el sorteig."
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "key": "BoostingGiveawayUsedLinksPlural",
+      "one_value": "**{count}** guanyador ja ha usat el seu enllaç regal.",
+      "other_value": "**{count}** dels guanyadors ja han usat els seus enllaços regal."
+    },
+    {
       "_": "types.LangPackString",
       "key": "BoostingGiveawayYouNotWon",
       "value": "No heu guanyat res en aquest sorteig."
@@ -2842,6 +2989,12 @@
       "_": "types.LangPackString",
       "key": "BoostingGiveawayYouWon",
       "value": "Heu guanyat un premi al sorteig 🏆"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "BoostingGroupWillReceiveBoost",
+      "one_value": "aquest grup rebrà {count} impuls",
+      "other_value": "aquest grup rebrà {count} impulsos"
     },
     {
       "_": "types.LangPackString",
@@ -2894,9 +3047,27 @@
       "value": "Seleccioneu un sorteig que ja hàgiu pagat per a configurar-lo."
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "key": "BoostingSelectUpToWarningChannelsPlural",
+      "one_value": "Podeu seleccionar {count} canal.",
+      "other_value": "Podeu seleccionar fins a {count} canals."
+    },
+    {
       "_": "types.LangPackString",
       "key": "BoostingSendLinkToAnyone",
       "value": "També podeu **enviar aquest enllaç** com a regal."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "BoostingStarsGiveawayHowItWorksText",
+      "one_value": "El sorteig està patrocinat per l'administració de **{chat}**, qui ha adquirit **{count} estrella** per als seus seguidors.",
+      "other_value": "El sorteig està patrocinat per l'administració de **{chat}**, qui ha adquirit **{count} estrelles** per als seus seguidors."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "BoostingStarsGiveawayHowItWorksTextEnd",
+      "one_value": "El sorteig ha estat patrocinat per l'administració de **{chat}**, qui va adquirir **{count} estrella** per als seus seguidors.",
+      "other_value": "El sorteig ha estat patrocinat per l'administració de **{chat}**, qui va adquirir **{count} estrelles** per als seus seguidors."
     },
     {
       "_": "types.LangPackString",
@@ -2929,6 +3100,17 @@
       "value": "Inicia el sorteig"
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "key": "BoostingTelegramPremiumCountPlural",
+      "one_value": "{count} Telegram Premium",
+      "other_value": "{count} Telegram Premium"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingTelegramPremiumFor",
+      "value": "Telegram Premium per {duration} mesos"
+    },
+    {
       "_": "types.LangPackString",
       "key": "BoostingTo",
       "value": "A"
@@ -2945,6 +3127,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "BoostingUsedLinkDate",
+      "value": "L'enllaç es va usar el dia {date}."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "BoostingWinnersDate",
       "value": "**Data de tria de guanyadors**"
     },
@@ -2957,6 +3144,11 @@
       "_": "types.LangPackString",
       "key": "Boosts",
       "value": "Impulsos"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostsLevel",
+      "value": "Nivell {level}"
     },
     {
       "_": "types.LangPackString",
@@ -3225,6 +3417,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "BotRemoveFromMenu",
+      "value": "Això eliminarà la drecera **{user}** a tots els menús."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "BotRemoveFromMenuTitle",
       "value": "Elimina el bot"
     },
@@ -3312,6 +3509,12 @@
       "_": "types.LangPackString",
       "key": "BotWebViewStartPermission",
       "value": "Per a iniciar l'aplicació web, us connectareu al seu lloc web."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "Bots",
+      "one_value": "{count} bot",
+      "other_value": "{count} bots"
     },
     {
       "_": "types.LangPackString",
@@ -3483,6 +3686,11 @@
       "_": "types.LangPackString",
       "key": "CallBack",
       "value": "Torna la trucada"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CallCameraAccessNeeded",
+      "value": "El Telegram necessita accés a la càmera per a fer videotrucades."
     },
     {
       "_": "types.LangPackString",
@@ -3707,8 +3915,34 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ChannelBoostErrorBoostTooOftenText",
+      "value": "Només podeu canviar el canal a impulsar una vegada al dia. Podreu tornar a fer-ho en **{time}**."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ChannelBoostErrorBoostTooOftenTitle",
       "value": "No podeu impulsar tan sovint"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "ChannelBoostMoreBoosts",
+      "one_value": "**{count}** impuls més",
+      "other_value": "**{count}** impulsos més"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChannelBoostMoreBoostsNeededText",
+      "value": "**{chat}** necessita {moreBoosts} per a desblocar funcions noves."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChannelBoostReplaceBoost",
+      "value": "Ara esteu impulsant **{currentChat}**. Voleu substituir-lo i impulsar **{chat}**?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChannelBoostYouBoostedChannelText",
+      "value": "Heu impulsat {chat}!"
     },
     {
       "_": "types.LangPackString",
@@ -4113,6 +4347,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ChannelVisibilityConfirmMakePrivateChannel",
+      "value": "Si feu aquest canal privat, el nom @{currentUsername} s'eliminarà. Qualsevol podrà usar-lo per als seus grups o canals."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ChannelVisibilityForwardingChannelInfo",
       "value": "Els subscriptors podran copiar, desar i reenviar el contingut d'aquest canal."
     },
@@ -4140,6 +4379,12 @@
       "_": "types.LangPackString",
       "key": "ChannelVisibilityForwardingGroupTitle",
       "value": "Reenviaments des del grup"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "Channels",
+      "one_value": "{count} canal",
+      "other_value": "{count} canals"
     },
     {
       "_": "types.LangPackString",
@@ -4213,6 +4458,12 @@
       "value": "Vista de temes"
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "key": "ChatDeleteMessagesConfirmation",
+      "one_value": "Elimina el missatge",
+      "other_value": "Elimina {count} missatges"
+    },
+    {
       "_": "types.LangPackString",
       "key": "ChatDraftPrefix",
       "value": "Esborrany:"
@@ -4224,6 +4475,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ChatEmptyStateIntroFooter",
+      "value": "{user} ha afegit el missatge superior per als xats buits"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ChatEmptyTopicPlaceholderTitle",
       "value": "Ja quasi ho tenim"
     },
@@ -4231,6 +4487,43 @@
       "_": "types.LangPackString",
       "key": "ChatForwardActionHeader",
       "value": "Missatges reenviats"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatGiveawayInfoNotQualified",
+      "value": "Per a participar en el sorteig, uniu-vos al canal **{chat}** abans del dia **{date}**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatGiveawayInfoNotQualifiedMany",
+      "value": "Per a participar en el sorteig, uniu-vos al canal **{chat}** (i a {otherChannels}) abans del dia **{date}**."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "ChatGiveawayInfoOtherChannels",
+      "one_value": "**{count}** canal llistat més",
+      "other_value": "**{count}** canals llistats més"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatGiveawayInfoParticipating",
+      "value": "Esteu participant en aquest sorteig perquè us heu unit al canal **{chat}**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatGiveawayInfoParticipatingMany",
+      "value": "Esteu participant en el sorteig perquè us heu unit al canal **{chat}** (i a {otherChannels})."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "ChatGiveawayInfoSubscriptions",
+      "one_value": "**{count} subscripció al Telegram Premium**",
+      "other_value": "**{count} subscripcions al Telegram Premium**"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatGiveawayMessageCountriesFrom",
+      "value": "de: {countries}"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -4336,6 +4629,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ChatListEmptyTopicsDescription",
+      "value": "Els missatges antics del grup s'han mogut al tema «General»."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ChatListEmptyTopicsTitle",
       "value": "Encara no hi ha temes"
     },
@@ -4358,6 +4656,12 @@
       "_": "types.LangPackString",
       "key": "ChatListFilterInviteLinkIncludeExcludeError",
       "value": "No podeu compartir carpetes que incloguin o excloguin tipus de xat com «Grups», «Contactes», etc."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "ChatListFilterLinkLabelChatCount",
+      "one_value": "hi inclou {count} xat",
+      "other_value": "hi inclou {count} xats"
     },
     {
       "_": "types.LangPackString",
@@ -4388,6 +4692,11 @@
       "_": "types.LangPackString",
       "key": "ChatListPeerTypeGroup",
       "value": "grup"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatListPeerTypeNonContact",
+      "value": "altre usuari"
     },
     {
       "_": "types.LangPackString",
@@ -4428,6 +4737,11 @@
       "_": "types.LangPackString",
       "key": "ChatMemberListNoAccess",
       "value": "No teniu accés a la llista de membres"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatMessagingRestrictedPlaceholder",
+      "value": "Només els usuaris Premium poden escriure a {user}."
     },
     {
       "_": "types.LangPackString",
@@ -4494,6 +4808,16 @@
       "_": "types.LangPackString",
       "key": "ChatQuizTotalVotesEmpty",
       "value": "Sense respostes"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatSendAllowedContentText",
+      "value": "L'administració del grup només permet enviar {types}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatSendNotAllowedText",
+      "value": "No es permet enviar missatges al grup"
     },
     {
       "_": "types.LangPackString",
@@ -4594,8 +4918,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Checkout2FAText",
+      "value": "Només podeu desar els detalls si activeu la verificació en dos passos."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "CheckoutNewCardCardholderNamePlaceholder",
       "value": "Nom del titular"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CheckoutNewCardSaveInfoHelp",
+      "value": "Deseu la informació de pagament per a usar-la més endavant."
     },
     {
       "_": "types.LangPackString",
@@ -4626,6 +4960,11 @@
       "_": "types.LangPackString",
       "key": "Clear",
       "value": "Esborra"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ClearHistoryMessageSingle",
+      "value": "Segur que voleu eliminar els missatges dels {chat} xats?"
     },
     {
       "_": "types.LangPackString",
@@ -4969,6 +5308,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ConnectedAccountsLimitSubtitle",
+      "value": "Connecteu {count} comptes amb números de telèfon diferents"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ConnectedAccountsLimitTitle",
       "value": "Comptes connectats"
     },
@@ -5185,6 +5529,17 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ConversationContextMenuSendGiftTo",
+      "value": "Envia'l a {user}"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "ConversationContextViewReplies",
+      "one_value": "Mostra {count} resposta",
+      "other_value": "Mostra {count} respostes"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ConversationDefaultRestrictedMedia",
       "value": "No es permet enviar fotos ni vídeos al grup."
     },
@@ -5242,6 +5597,16 @@
       "_": "types.LangPackString",
       "key": "ConversationSearchPlaceholder",
       "value": "Cerca en aquest xat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ConversationShareLinkTooltipChatOne",
+      "value": "S'ha compartit l'enllaç amb **{user}**"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ConversationStoryForwardTooltipSavedMessagesOne",
+      "value": "S'ha reenviat als **Missatges desats**"
     },
     {
       "_": "types.LangPackString",
@@ -5461,6 +5826,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "DeleteAllFrom",
+      "value": "Elimina-ho tot de: {user}"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "DeleteAllFromUsers",
       "value": "Elimina-ho tot dels usuaris"
     },
@@ -5488,6 +5858,11 @@
       "_": "types.LangPackString",
       "key": "DeleteAndStop",
       "value": "Elimina i bloca"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "DeleteBan",
+      "value": "Bandeja {user}"
     },
     {
       "_": "types.LangPackString",
@@ -5545,6 +5920,11 @@
       "_": "types.LangPackString",
       "key": "DeleteMega",
       "value": "Elimina el grup"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "DeleteMessagesOptionAlso",
+      "value": "Elimina-ho també per a {user}"
     },
     {
       "_": "types.LangPackString",
@@ -5832,6 +6212,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "DoNotTranslateLanguage",
+      "value": "No tradueixis: {language}"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Done",
       "value": "Fet"
     },
@@ -5844,6 +6229,11 @@
       "_": "types.LangPackString",
       "key": "DownloadSpeedLimited",
       "value": "Velocitat de baixada limitada"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "DownloadSpeedLimitedMessage",
+      "value": "Subscriviu-vos al **Telegram Premium** per a augmentar la velocitat de baixada {factor} vegades."
     },
     {
       "_": "types.LangPackString",
@@ -6131,6 +6521,12 @@
       "value": "Animem els artistes a afegir els seus propis paquets usant el bot @stickers."
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "key": "EmojiCount",
+      "one_value": "{count} emoji",
+      "other_value": "{count} emojis"
+    },
+    {
       "_": "types.LangPackString",
       "key": "EmojiPremiumRestore",
       "value": "Restaura"
@@ -6204,6 +6600,11 @@
       "_": "types.LangPackString",
       "key": "EnableSharing",
       "value": "Activa compartir"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EnableSomeReactionsInfo",
+      "value": "Els membres del grup poden usar com a reacció només alguns emojis aprovats."
     },
     {
       "_": "types.LangPackString",
@@ -6445,6 +6846,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ExactTextCopied",
+      "value": "S'ha copiat «{text}» al porta-retalls"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ExceptionTitlePrivacyChargeForMessages",
       "value": "Elimina la tarifa"
     },
@@ -6462,6 +6868,11 @@
       "_": "types.LangPackString",
       "key": "ExpiredStoryMention",
       "value": "La història on us havien mencionat ja no està disponible"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ExpiredStoryMentioned",
+      "value": "La història on havíeu mencionat {user} ja no està disponible"
     },
     {
       "_": "types.LangPackString",
@@ -6517,6 +6928,12 @@
       "_": "types.LangPackString",
       "key": "FileTransferProgress",
       "value": "{currentSize} / {totalSize}"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "Files",
+      "one_value": "{count} fitxer",
+      "other_value": "{count} fitxers"
     },
     {
       "_": "types.LangPackString",
@@ -6582,6 +6999,11 @@
       "_": "types.LangPackString",
       "key": "FilterDeleteAlert",
       "value": "Segur que voleu eliminar aquesta carpeta? Els xats no s'eliminaran."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "FilterDeleteAlertLinks",
+      "value": "Segur que voleu eliminar la carpeta? Això també desactivarà tots els enllaços creats per a compartir la carpeta."
     },
     {
       "_": "types.LangPackString",
@@ -6703,6 +7125,12 @@
       "_": "types.LangPackString",
       "key": "FolderLinkHeaderAlready",
       "value": "Xats on ja us heu unit"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "FolderLinkHeaderChatsJoin",
+      "one_value": "{count} xat a unir",
+      "other_value": "{count} xats a unir"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -7048,6 +7476,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ForwardToAnotherChat",
+      "value": "Reenvia a un altre xat"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ForwardedFrom",
       "value": "Reenviat de:"
     },
@@ -7058,8 +7491,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "FragmentPhoneMessage",
+      "value": "Aquest número de telèfon es va comprar al **Fragment** el dia {date} per **{amount}** {details}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "FragmentPhoneTitle",
+      "value": "**{phone}** és un número de telèfon col·leccionable que pertany a"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "FragmentUsernameMessage",
+      "value": "Aquest nom d'usuari es va comprar al **Fragment** el dia {date} per **{amount}** {details}"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "FragmentUsernameOpen",
       "value": "Més informació"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "FragmentUsernameTitle",
+      "value": "**{username}** és un nom d'usuari col·leccionable que pertany a"
     },
     {
       "_": "types.LangPackString",
@@ -8171,6 +8624,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "GiftPremiumFeaturesTerms",
+      "value": "Podeu revisar la llista de funcions i més detalls sobre el Telegram Premium {link}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftPremiumFeaturesTermsLink",
+      "value": "aquí"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "GiftPremiumHeader",
       "value": "Regala el Premium"
     },
@@ -8525,6 +8988,24 @@
       "other_value": "D'aquí a {days} dies podreu enviar aquest col·leccionable a qualsevol adreça de la cadena de blocs TON fora de Telegram per a vendre'l o subhastar-lo."
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "key": "GiveawayCountryLimit",
+      "one_value": "Podeu seleccionar fins a {count} país.",
+      "other_value": "Podeu seleccionar fins a {count} països."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "GiveawayReceiverTypeCountries",
+      "one_value": "d'{count} país",
+      "other_value": "de: {count} països"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "GiveawayUserSelectionLimit",
+      "one_value": "Podeu seleccionar fins a {count} usuari.",
+      "other_value": "Podeu seleccionar fins a {count} usuaris."
+    },
+    {
       "_": "types.LangPackString",
       "key": "GiveawayUsersAboutGroup",
       "value": "Trieu si voleu limitar el sorteig només a qui s'uneixi al grup després d'iniciar el sorteig o a usuaris de països concrets."
@@ -8582,6 +9063,17 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "GroupBoostBoostToUnrestrict",
+      "value": "Impulseu el grup {boostTimes} per a eliminar les restriccions dels missatges. Els impulsos ajudaran a **{chat}** a desblocar funcions noves."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "GroupBoostBoostToUnrestrictTimes",
+      "one_value": "**{count}** vegada",
+      "other_value": "**{count}** vegades"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "GroupCallContextPinCamera",
       "value": "Fixa el vídeo"
     },
@@ -8604,6 +9096,11 @@
       "_": "types.LangPackString",
       "key": "GroupEmoji",
       "value": "Emojis del grup"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GroupErrorAccessDenied",
+      "value": "Aquest grup és privat."
     },
     {
       "_": "types.LangPackString",
@@ -8844,6 +9341,11 @@
       "_": "types.LangPackString",
       "key": "HEX",
       "value": "HEX"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "HashtagSearchPlaceholder",
+      "value": "Introduïu una etiqueta per a cercar missatges que la continguin."
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -9416,6 +9918,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "LimitReachedFolderLinks",
+      "value": "Només podeu crear {limit} enllaços d'invitació.\nSubscriviu-vos al **Telegram Premium** per a crear-ne fins a **{limit2}**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LimitReachedFolderLinksLocked",
+      "value": "Només podeu crear {limit} enllaços d'invitació. Aquest nombre podria augmentar en un futur."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LimitReachedFolderLinksPremium",
+      "value": "Només podeu tenir {limit} enllaços d'invitació a carpetes. Proveu d'eliminar-ne algun."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "LimitReachedFolders",
       "value": "Heu assolit el límit de **{limit}** carpetes. Podeu duplicar el límit a **{limit2}** carpetes subscrivint-vos al **Telegram Premium**."
     },
@@ -9446,6 +9963,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "LimitReachedPinSavedDialogs",
+      "value": "No podeu fixar més de {limit} xats a la part superior. Deixeu de fixar-ne algun o subscriviu-vos al **Telegram Premium** per a augmentar el límit a **{limit2}** xats."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LimitReachedPinnedTopics",
+      "value": "Només podeu fixar com a màxim {limit} temes a la part superior."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "LimitReachedPublicLinks",
       "value": "Heu reservat massa enllaços públics. Revoqueu l'enllaç d'un grup o canal més antic, o subscriviu-vos al **Telegram Premium** per a duplicar el límit a **{limit2}** enllaços públics."
     },
@@ -9458,6 +9985,21 @@
       "_": "types.LangPackString",
       "key": "LimitReachedPublicLinksPremium",
       "value": "Heu reservat massa enllaços públics. Proveu revocant l'enllaç d'un grup o canal més antic."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LimitReachedSharedFolders",
+      "value": "Només podeu tenir {limit} carpetes per a compartir.\nSubscriviu-vos al **Telegram Premium** per a augmentar-ne el límit a **{limit2}**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LimitReachedSharedFoldersLocked",
+      "value": "Només podeu tenir {limit} carpetes compartibles. Aquest nombre podria augmentar en un futur."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LimitReachedSharedFoldersPremium",
+      "value": "Només podeu tenir {limit} carpetes compartibles. Proveu d'eliminar-ne alguna."
     },
     {
       "_": "types.LangPackString",
@@ -11181,6 +11723,11 @@
       "_": "types.LangPackString",
       "key": "PaymentCheckout",
       "value": "Pagament final"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PaymentCheckoutAcceptTerms",
+      "value": "Accepto les {link} de: {bot}."
     },
     {
       "_": "types.LangPackString",
@@ -13971,6 +14518,11 @@
       "_": "types.LangPackString",
       "key": "SearchEmptyViewTitle",
       "value": "Cap resultat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SearchFilterByUser",
+      "value": "Filtra per usuari"
     },
     {
       "_": "types.LangPackString",
@@ -18613,5 +19165,5 @@
       "value": "El vostre nom"
     }
   ],
-  "version": 380354
+  "version": 382789
 }
