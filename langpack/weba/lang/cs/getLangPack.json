@@ -485,6 +485,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ActionGramTransferPreviewYou",
+      "value": "Poslal/a jste uživateli {from} {amount}"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ActionGramTransferReceived",
       "value": "Přijato"
     },
@@ -15302,6 +15307,66 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "RequestPeerReqAdminRights",
+      "value": "Musíte mít tato práva správce: {rights}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RequestPeerReqBotMember",
+      "value": "Bot musí být ve skupině."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RequestPeerReqForum",
+      "value": "Skupina musí mít zapnutá vlákna."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RequestPeerReqNoForum",
+      "value": "Skupina musí mít vypnutá vlákna."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RequestPeerReqNoPremium",
+      "value": "Uživatel nesmí mít předplatné Premium."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RequestPeerReqOwnerChannel",
+      "value": "Musíte být vlastníkem kanálu."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RequestPeerReqOwnerGroup",
+      "value": "Musíte být vlastníkem skupiny."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RequestPeerReqPremium",
+      "value": "Uživatel musí mít předplatné Premium."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RequestPeerReqPrivateChannel",
+      "value": "Kanál musí být soukromý."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RequestPeerReqPrivateGroup",
+      "value": "Skupina musí být soukromá."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RequestPeerReqPublicChannel",
+      "value": "• Kanál musí být veřejný."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RequestPeerReqPublicGroup",
+      "value": "Skupina musí být veřejná."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "RequestPeerRequirements",
       "value": "Požadavky"
     },
@@ -19794,6 +19859,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "UserRestrictionsNoSendRound",
+      "value": "žádné kruhové"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "UserRestrictionsNoSendStickers",
       "value": "žádné samolepky a GIFy"
     },
@@ -20382,6 +20452,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletAlsoHaveEarnings",
+      "value": "Také máte {amount} v příjmech Gram"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletAlsoHaveOldWallets",
+      "value": "Také máte {amount} ve starých peněženkách"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletAppPasscodeDescription",
       "value": "Zadejte přístupový kód a pokračujte."
     },
@@ -20602,6 +20682,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletCollectibleSell",
+      "value": "Prodat"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletCollectibleTitle",
       "value": "Sběratelský"
     },
@@ -20609,6 +20694,11 @@
       "_": "types.LangPackString",
       "key": "WalletCollectibleTraits",
       "value": "{model} na {backdrop}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCollectibleTransfer",
+      "value": "Převést"
     },
     {
       "_": "types.LangPackString",
@@ -20642,8 +20732,231 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletConnectAccess",
+      "value": "Připojené aplikace mají přístup k adrese vaší peněženky, zůstatku a aktivitám. Bez vašeho souhlasu nemohou provádět převody."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectActive",
+      "value": "Aktivní připojení"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectApp",
+      "value": "Připojená aplikace"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectAppAccess",
+      "value": "Tato aplikace má přístup k adrese vaší peněženky, zůstatku a transakcím. Bez vašeho souhlasu nemůže provádět žádné převody."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectBinaryData",
+      "value": "Binární data"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectBlindSign",
+      "value": "Podepisujete naslepo. Podepisujte pouze data z důvěryhodných zdrojů."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectBusyError",
+      "value": "Probíhá další žádost peněženky"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectConfirmed",
+      "value": "Potvrzeno"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectContractData",
+      "value": "Data kontraktu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectDataCopied",
+      "value": "Data zkopírována do schránky"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectDeclined",
+      "value": "Zamítnuto"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectDisconnected",
+      "value": "{name} odpojeno"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectDisconnectedAll",
+      "value": "Všechny aplikace odpojeny"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectEmpty",
+      "value": "Žádné připojené aplikace"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectError",
+      "value": "Žádost peněženky se nepodařilo dokončit. Zkuste to znovu."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectExpired",
+      "value": "Tato žádost vypršela."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Vyprší za {count} minuty",
+      "key": "WalletConnectExpiresIn",
+      "many_value": "Vyprší za {count} minut",
+      "one_value": "Vyprší za {count} minutu",
+      "other_value": "Vyprší za {count} minut"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectFee",
+      "value": "Odhadovaný síťový poplatek: {amount}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectFeeUnavailable",
+      "value": "Simulace transakce selhala."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectHandled",
+      "value": "Tato žádost byla zpracována na jiném zařízení."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectInvalid",
+      "value": "Tato žádost peněženky je neplatná."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectManifestError",
+      "value": "Nelze načíst platné informace o této aplikaci. Zkuste se připojit znovu."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletConnectManifestInvalid",
       "value": "Informace o této aplikaci jsou neplatné nebo se vztahují k jiné doméně."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectPermissionInfo",
+      "value": "Aplikace nebude moci převádět prostředky bez povolení."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectProofAccess",
+      "value": "Aplikace bude moci zobrazit vaši adresu peněženky, zůstatek a aktivitu a požádat vás o podpis pro přihlášení. Nejedná se o převod."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectRemaining",
+      "value": "Zbývající čas: {seconds}s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectRequest",
+      "value": "Žádost peněženky"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectRequestAppDeclined",
+      "value": "Žádost o transakci od {name} zamítnuta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectRequestAppExpired",
+      "value": "Platnost žádosti o transakci od {name} vypršela"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectRequestAppPending",
+      "value": "Aplikace {name} požádala o transakci. Klepnutím zkontrolujte."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectRequestAppProcessed",
+      "value": "Žádost o transakci od {name} zpracována"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectRequestMissing",
+      "value": "Tato žádost již není k dispozici."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectRequestTitle",
+      "value": "{name} vyžaduje převod"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectRetry",
+      "value": "Opakovat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectReviewSign",
+      "value": "Pečlivě si zprávu projděte a pokud souhlasíte, podepište údaje."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectScreenTitle",
+      "value": "Žádost peněženky"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectSessionChanged",
+      "value": "Došlo ke změně peněženky nebo relace připojení TON. Otevřete žádost znovu."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectSessionClosed",
+      "value": "Toto připojení již není aktivní."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectSign",
+      "value": "Podepsat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectSignData",
+      "value": "Podepsat data"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectSignMessageNote",
+      "value": "Tento převod je podepsán, ale ještě nebyl odeslán. Aplikace jej může odeslat později a prostředky budou převedeny až tehdy."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectSignTitle",
+      "value": "{name} vyžaduje váš podpis"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectStale",
+      "value": "Tato žádost je neplatná. Požádejte o novou žádost."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectStateInit",
+      "value": "Data o nasazení smlouvy"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectSuccess",
+      "value": "Připojeno k {name}"
     },
     {
       "_": "types.LangPackString",
@@ -20654,6 +20967,26 @@
       "_": "types.LangPackString",
       "key": "WalletConnectToApp",
       "value": "Připojit Money k {name}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectTransfer",
+      "value": "Potvrdit transakci"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectUnavailable",
+      "value": "Vaše peněženka není dostupná."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectUnlock",
+      "value": "Odemkněte k zobrazení žádosti"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectUnsupported",
+      "value": "Tato aplikace požadovala metodu, která není podporována. Můžete odeslat odmítnutí."
     },
     {
       "_": "types.LangPackString",
@@ -20747,6 +21080,26 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletDisconnectAll",
+      "value": "Odpojit všechny aplikace"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDisconnectAllConfirm",
+      "value": "Odpojit vše"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDisconnectAllText",
+      "value": "Tyto aplikace ztratí přístup k vaší peněžence. Můžete je kdykoli znovu připojit."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDisconnectAllTitle",
+      "value": "Odpojit všechny aplikace?"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletEnableBackup",
       "value": "Povolit zálohu"
     },
@@ -20759,6 +21112,11 @@
       "_": "types.LangPackString",
       "key": "WalletEnterPhraseTitle",
       "value": "Zadejte tajnou frázi"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletEnterSecretPhrase",
+      "value": "Zadat tajnou frázi"
     },
     {
       "_": "types.LangPackString",
@@ -20822,8 +21180,53 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletIntroRate",
+      "value": "1 Gram se momentálně rovná {rate}."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletIntroSendText",
       "value": "Převést Gram komukoliv.\nKlikněte na  📎 → Peníze v konverzaci."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletIntroSendTitle",
+      "value": "Poslat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletIntroStoreText",
+      "value": "Uchovávat Gram v Telegramu\n(💬 → ⋮ → Money) nebo v jiných peněženkách."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletIntroStoreTitle",
+      "value": "Uložit"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletIntroTitle",
+      "value": "Váš první Gram!"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletIntroTradeText",
+      "value": "Převést Gram na hotovost nebo kryptoměny na burzách."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletIntroTradeTitle",
+      "value": "Obchodovat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletIntroYouCan",
+      "value": "Můžete:"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletKeyMismatchError",
+      "value": "Klíč peněženky byl změněn na jiném zařízení. Zadejte aktuální tajnou frázi, abyste mohli pokračovat v odesílání z tohoto zařízení."
     },
     {
       "_": "types.LangPackString",
@@ -20883,8 +21286,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletOtherWalletsTitle",
+      "value": "Předchozí peněženky"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletPasscodeInvalid",
       "value": "Špatný přístupový kód. Zkuste to znovu."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletPasscodeRequiredSetUp",
+      "value": "Nastavit přístupový kód"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletPasscodeRequiredText",
+      "value": "Klíč peněženky je na tomto zařízení uložen pouze pod přístupovým kódem aplikace, který jej chrání společně se všemi ostatními zde uloženými údaji."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletPasscodeRequiredTitle",
+      "value": "Vyžadován přístupový kód"
     },
     {
       "_": "types.LangPackString",
@@ -20928,6 +21351,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletPhraseKeepError",
+      "value": "Na tomto zařízení se tuto frázi nepodařilo uložit. Zkuste to znovu."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletPhraseKept",
+      "value": "Vaše tajná fráze je nyní uložena v tomto zařízení."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletPhraseNotKept",
       "value": "Vaše peněženka byla obnovena, ale tajnou frázi se na tomto zařízení nepodařilo uložit. Zadejte ji znovu, abyste mohli odesílat z této peněženky."
     },
@@ -20950,6 +21383,11 @@
       "_": "types.LangPackString",
       "key": "WalletProtectAccountBanner",
       "value": "Chraňte svůj účet"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletProtectBanner",
+      "value": "Chraňte své peníze"
     },
     {
       "_": "types.LangPackString",
@@ -21063,6 +21501,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletReplacedElsewhere",
+      "value": "Vaše peněženka byla obnovena na jiném zařízení."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletRestored",
       "value": "Vaše peněženka byla obnovena z vaší tajné fráze."
     },
@@ -21073,6 +21516,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletSavedImport",
+      "value": "Import této peněženky"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletSecretPhraseSubtitle",
       "value": "Pro pokračování zadejte tajnou frázi své peněženky. {why}"
     },
@@ -21080,6 +21528,16 @@
       "_": "types.LangPackString",
       "key": "WalletSecretPhraseTitle",
       "value": "Tajná fráze"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSecretPhraseWhy",
+      "value": "Proč?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSecretPhraseWhyText",
+      "value": "Jelikož jste ve své peněžence zakázali zálohy, musíte při každém novém přihlášení do Telegramu ručně zadat tajnou frázi."
     },
     {
       "_": "types.LangPackString",
@@ -21148,6 +21606,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletSendGaslessUnavailable",
+      "value": "Bezplatný převod není momentálně k dispozici. Zkontrolujte síťový poplatek a zkuste to znovu."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletSendInactiveAddress",
       "value": "Tato adresa nebyla nikdy použita, takže převod by se vrátil zpět. Požádejte příjemce o adresu uvedenou v jeho peněžence."
     },
@@ -21185,6 +21648,11 @@
       "_": "types.LangPackString",
       "key": "WalletSendPending",
       "value": "Převod již mohl být odeslán. Neodesílejte jej znovu, dokud se ověřuje jeho stav."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendPendingError",
+      "value": "Váš předchozí převod stále probíhá. Zkuste to za chvíli znovu."
     },
     {
       "_": "types.LangPackString",
@@ -21253,8 +21721,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletSwitchAnyway",
+      "value": "Přepnout bez ponechání"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSwitchConfirm",
+      "value": "Přepnout peněženku"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSwitchKeep",
+      "value": "Ponechat aktuální peněženku na tomto zařízení"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletSwitchText",
       "value": "Peněženka {address} nahradí vaši současnou peněženku. Nechte si současnou peněženku na tomto zařízení, abyste se k ní mohli později vrátit; v opačném případě ztratíte přístup k prostředkům v ní uloženým, pokud jste si neuložili její tajnou frázi."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSwitchTitle",
+      "value": "Přepnout peněženku?"
     },
     {
       "_": "types.LangPackString",
@@ -21270,6 +21758,11 @@
       "_": "types.LangPackString",
       "key": "WalletTermsLink",
       "value": "Podmínky použití"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTermsNotice",
+      "value": "Používáním této služby souhlasíte s {link}."
     },
     {
       "_": "types.LangPackString",
@@ -21458,6 +21951,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletWrongPhraseText",
+      "value": "Zadaná slova se neshodují s peněženkou."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletWrongPhraseTitle",
+      "value": "Nesprávná tajná fráze"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletYourRecoveryPhrase",
       "value": "Vaše tajná fráze"
     },
@@ -21598,5 +22101,5 @@
       "value": "Vaše jméno"
     }
   ],
-  "version": 382009
+  "version": 388339
 }
