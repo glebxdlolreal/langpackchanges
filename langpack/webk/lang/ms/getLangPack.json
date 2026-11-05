@@ -190,6 +190,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AccDescr.ShowPassword",
+      "value": "Tunjuk kata laluan"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AccDescr.ShowStreamKey",
       "value": "Tunjuk kunci strim"
     },
@@ -227,6 +232,16 @@
       "_": "types.LangPackString",
       "key": "AccDescr.Volume",
       "value": "Nada bunyi"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AccDescr.WithAdminTag",
+      "value": "dengan tag pentadbir: %1$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AccDescr.WithMemberTag",
+      "value": "dengan tag ahli: %1$s"
     },
     {
       "_": "types.LangPackString",
@@ -1271,7 +1286,7 @@
     {
       "_": "types.LangPackString",
       "key": "AdminRecentActionMessage.ChangeRank",
-      "value": "Tukar pangkat"
+      "value": "Tukar tag"
     },
     {
       "_": "types.LangPackString",
@@ -1760,6 +1775,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AdminRecentActionsFilters.TagChanges",
+      "value": "Pertukaran Tag"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AdminRecentActionsFilters.UnbannedMembers",
       "value": "Nyahlarang ahli"
     },
@@ -2147,6 +2167,11 @@
       "_": "types.LangPackString",
       "key": "AllSubscribers",
       "value": "Semua Pelanggan"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AllViewers",
+      "value": "Semua penonton"
     },
     {
       "_": "types.LangPackString",
@@ -2701,7 +2726,7 @@
     {
       "_": "types.LangPackString",
       "key": "AutoDeleteMessages.SearchKeywords",
-      "value": "auto hapus, musnah sendiri, ttl, semasa"
+      "value": "auto hapus, musnah sendiri, ttl, pemasa"
     },
     {
       "_": "types.LangPackString",
@@ -7565,6 +7590,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ChatList.Menu.SwitchTo.A.Passcode",
+      "value": "Untuk tukar ke versi A, nyahdaya kod laluan anda dulu."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ChatList.Menu.SwitchTo.Webogram",
       "value": "Tukar ke Versi Lama"
     },
@@ -9381,7 +9411,7 @@
     {
       "_": "types.LangPackString",
       "key": "CreateBot.Description",
-      "value": "**%s** ingin cipta dan urus chatbot bagi pihak anda."
+      "value": "**%s** ingin cipta dan urus 'chatbot' bagi pihak anda."
     },
     {
       "_": "types.LangPackString",
@@ -9855,6 +9885,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "DeletedFromYourContacts",
+      "value": "%s hapus dari kenalan anda"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "DeletedMessage",
       "value": "Hapus mesej"
     },
@@ -10282,6 +10317,11 @@
       "_": "types.LangPackString",
       "key": "EditAdminGroupDeleteMessages",
       "value": "Hapus Mesej"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EditAdminManageRanks",
+      "value": "Sunting Tag Ahli"
     },
     {
       "_": "types.LangPackString",
@@ -10910,6 +10950,326 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Experimental.A11y",
+      "value": "Papan Kekunci & Pembaca Skrin"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.A11y.Subtitle",
+      "value": "Sokongan navigasi papan kekunci, gelong fokus dan pembaca skrin"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.BubbleSandbox",
+      "value": "Kotak Pasir Buih"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Connection",
+      "value": "Sambungan"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.CopyDebugInfo",
+      "value": "Salin Info Nyahkutu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.CopyDebugInfo.Subtitle",
+      "value": "Versi, browser dan tetapan di atas, untuk lapuran nyahkutu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Debug",
+      "value": "Mod Nyahkutu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Debug.Subtitle",
+      "value": "Log terperinci dalam konsol setiap bebenang"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.DebugInfoCopied",
+      "value": "Info Nyahkutu disalin ke papanklip."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Debugging",
+      "value": "Menyahkutu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Engine",
+      "value": "Injin"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.HideNonContactLinks",
+      "value": "Sorok Link dari Bukan Kenalan"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.HideNonContactLinks.Subtitle",
+      "value": "Server pun tak tanya ke"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.IconLibrary",
+      "value": "Librari Ikon"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Info",
+      "value": "Alat untuk ujian dan menyahkutu. Mereka boleh jadikan Telegram perlahan atau kurang stabil, jadi tukar mereka jika anda tahu apa nak dilakukan."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Interface",
+      "value": "Interfes"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Logs",
+      "value": "Log Nyahkutu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Logs.Clear",
+      "value": "Padam Log"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Logs.Cleared",
+      "value": "Log dipadam."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Logs.Collect",
+      "value": "Kumpul Log"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Logs.Collect.Debug",
+      "value": "Sentiasa ON mod nyahkutu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Logs.Collect.Subtitle",
+      "value": "Apa Telegram buat, disimpan di memori peranti ini"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Logs.Download",
+      "value": "Muatturun Log"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Logs.Empty",
+      "value": "Belum lagi ada log. ON Pemungut Log dan ulang apa yang salah."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Logs.Info",
+      "value": "Log tinggal peranti ini hanya bila anda hantar mereka. Mereka boleh kandung nama bual dan sebahagian mesej, jadi kirim mereka hanya kepada orang anda percaya."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Logs.Ready",
+      "value": "Log sedia untuk kongsi"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Logs.Send",
+      "value": "Kirim Log ke Bual"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Logs.SentTo",
+      "value": "Log dikirim ke %s."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Logs.SentToSavedMessages",
+      "value": "Log disimpan ke **Mesej Disimpan**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Logs.Share",
+      "value": "Kongsi Log"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.MemoryWatch",
+      "value": "Penjaga Memori"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.MemoryWatch.Subtitle",
+      "value": "Memori diguna setiap 15 minit, ditambah ke log"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.OffscreenCanvas",
+      "value": "Stiker di Latar Belakang"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.OffscreenCanvas.Subtitle",
+      "value": "Stiker beranimasi diambil di luar benang utama"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.OnNotice",
+      "value": "Tetapan percubaan ON"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Pfs",
+      "value": "Kerahsiaan Depan Sempurna"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Pfs.Subtitle",
+      "value": "Kunci enkskripsi, diganti setiap 24 jam"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.PopupSandbox",
+      "value": "Kotak Pasir Popup"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.RTL",
+      "value": "Susun Atur Kanan-ke-Kiri"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.RTL.Subtitle",
+      "value": "Letak apl kanan ke kiri dalam mana2 bahasa"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.ReleaseMedia",
+      "value": "Memori Media Percuma"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.ReleaseMedia.Subtitle",
+      "value": "Buang gambar dan video yang tak lagi dipapar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.ResetAll",
+      "value": "Set Semula Semua"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Restart",
+      "value": "Mula Semula"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Restart.EveryTab",
+      "value": "Pertukaran diguna selepas dimula semula: setiap tab Telegram laman ini dimuat semula."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Restart.ThisTab",
+      "value": "Pertukaran diguna selepas tab ini memuat."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Restart.Title",
+      "value": "Mula Semula Telegram"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.ServiceWorker",
+      "value": "Pekerja Servis"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.ServiceWorker.Subtitle",
+      "value": "Penstriman video, muatturun dan notifikasi"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.SharedWorker",
+      "value": "Sambungan Dikongsi"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.SharedWorker.Subtitle",
+      "value": "Semua tab kongsi satu sambungan dan satu kac"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.ShowPeerIds",
+      "value": "Tunjuk ID Rakan Setara"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.ShowPeerIds.Subtitle",
+      "value": "ID dan pangkalan data pengguna, bot, grup dan saluran di profil mereka"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.TestServer",
+      "value": "Server Ujian"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.TestServer.Subtitle",
+      "value": "Server ujian Telegram, dengan akaun tersendiri.. Hanya di tab ini"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Title",
+      "value": "Percubaan"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Tools",
+      "value": "Alat Juruprogram"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Transport",
+      "value": "Pengangkutan"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Transport.Auto",
+      "value": "Automatik"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Transport.Auto.Subtitle",
+      "value": "Tukar antara 'WebSocker' dan 'HTTP\", mana satu yang berfungsi"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Transport.HTTP",
+      "value": "Hanya 'HTTP'"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Transport.WebSocket",
+      "value": "Hanya 'WebSocket'"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Worker",
+      "value": "Rangkaian di Latar Belakang"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Worker.Subtitle",
+      "value": "OF, sambungan berfungsi di tabnya, untuk menyahkutu"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ExpiredStory",
       "value": "Stori Luput"
     },
@@ -10927,6 +11287,16 @@
       "_": "types.LangPackString",
       "key": "ExpiredStorySubtitle",
       "value": "Dari: %s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ExpiredViewsStub",
+      "value": "Senarai penonton hilang **24 jam** selepas tamat tempoh stori."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ExpiredViewsStubPremiumDescription",
+      "value": "Untuk buka senarai lihat masa depan untuk stori tamat tempoh dan dipos, langgani **Telegram Premium.**"
     },
     {
       "_": "types.LangPackString",
@@ -12319,6 +12689,16 @@
       "value": "untuk"
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "key": "HashtagStoriesFound",
+      "other_value": "%d Stori dijumpai"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "HashtagStoriesFoundSubtitle",
+      "value": "Lihat stori dengan %s"
+    },
+    {
       "_": "types.LangPackString",
       "key": "HelpUpgradeChannel",
       "value": "Tolong naik taraf saluran ini"
@@ -12422,6 +12802,11 @@
       "_": "types.LangPackString",
       "key": "IVInteractionsChartTitle",
       "value": "Interaksi IV "
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "IdCopied",
+      "value": "ID disalin ke papanklip"
     },
     {
       "_": "types.LangPackString",
@@ -13565,6 +13950,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "LearnMore",
+      "value": "Pelajari Lagi"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "LeastActiveCommunities",
       "value": "Komuniti paling tak aktif"
     },
@@ -13964,6 +14354,11 @@
       "value": "Sila tunggu sebentar sementara \nkami menjana statistik anda."
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "key": "LocationStories",
+      "other_value": "%d stori dari lokasi ini"
+    },
+    {
       "_": "types.LangPackString",
       "key": "LocationUpdatedJustNow",
       "value": "dikemaskini sebentar tadi"
@@ -14067,6 +14462,11 @@
       "_": "types.LangPackString",
       "key": "Login.Code.SmsAvailableIn",
       "value": "Anda boleh minta SMS dalam %s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Login.Code.TooManyAttempts",
+      "value": "Terlalu banyak percubaan, cuba lagi dalam %s"
     },
     {
       "_": "types.LangPackString",
@@ -14491,7 +14891,7 @@
     {
       "_": "types.LangPackString",
       "key": "MediaEditor.DiscardChanges",
-      "value": "Hapus pertukaran"
+      "value": "Buang pertukaran"
     },
     {
       "_": "types.LangPackString",
@@ -14782,6 +15182,111 @@
       "_": "types.LangPackString",
       "key": "MemberRequests",
       "value": "Permohonan Menyertai"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MemberTag.About",
+      "value": "Tambah tag pendek di sebelah nama  %1$s."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MemberTag.AboutSelf",
+      "value": "Kongsi peranan, pangkat atau bagaimana grup mengenali anda. Tag anda boleh dilihat semua ahli."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MemberTag.AddMember",
+      "value": "Tambah tag ahli"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MemberTag.AddMine",
+      "value": "Tambah Tag"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MemberTag.EditMember",
+      "value": "Sunting tag ahli"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MemberTag.EditMine",
+      "value": "Sunting Tag"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MemberTag.EditTitle",
+      "value": "Sunting tag"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MemberTag.Info.AddMine",
+      "value": "Tambah Tag Saya"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MemberTag.Info.AdminsOnly",
+      "value": "Hanya pentadbir boleh tukar tag di grup ini."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MemberTag.Info.EditMine",
+      "value": "Sunting Tag Saya"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MemberTag.Info.PreviewAdmin",
+      "value": "Tag Pentadbir"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MemberTag.Info.PreviewMember",
+      "value": "Tag Ahi"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MemberTag.Info.PreviewOwner",
+      "value": "Tag Pemilik"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MemberTag.Info.TextAdmin",
+      "value": "Tag %2$s hijau ini kepunyaan pentadbir **%1$s** dalam **%3$s**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MemberTag.Info.TextMember",
+      "value": "Tag  kelabu ini %1$s kepunyaan ahli **%2$s** dalam **%3$s**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MemberTag.Info.TextOwner",
+      "value": "Tag %1$s unggu ini kepunyaan pemilik **%2$s** dalam **%3$s**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MemberTag.Info.TitleAdmin",
+      "value": "Tag Pentadbir"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MemberTag.Info.TitleMember",
+      "value": "Tag Ahli"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MemberTag.Info.TitleOwner",
+      "value": "Tag Pemilik"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MemberTag.Info.Understood",
+      "value": "Faham"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MemberTag.Label",
+      "value": "Tag"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -15097,6 +15602,11 @@
       "_": "types.LangPackString",
       "key": "MultiAccount.ShowNotificationsFromCaption",
       "value": "OF ini jika anda mahu terima notifikasi hanya dari akaun anda guna sekarang."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MultiAccount.Switched",
+      "value": "Tukar ke %s"
     },
     {
       "_": "types.LangPackString",
@@ -15455,6 +15965,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "NoContactsViewed",
+      "value": "Tiada kenalan anda tonton stori ini."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "NoEmojiFound",
       "value": "Tiada emoji dijumpai"
     },
@@ -15462,6 +15977,11 @@
       "_": "types.LangPackString",
       "key": "NoGIFsFound",
       "value": "Tiada GIF dijumpai"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NoHashtagStoriesTitle",
+      "value": "Tiada stori dijumpai"
     },
     {
       "_": "types.LangPackString",
@@ -15487,6 +16007,11 @@
       "_": "types.LangPackString",
       "key": "NoReactions",
       "value": "Tiada reaksi"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NoReactionsStub",
+      "value": "Belum ada yang bereaksi pada stori anda."
     },
     {
       "_": "types.LangPackString",
@@ -15537,6 +16062,16 @@
       "_": "types.LangPackString",
       "key": "NoUsernameFound",
       "value": "Tiada akaun Telegram dengan nama samaran ini."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NoViews",
+      "value": "Tiada lihat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NoViewsStub",
+      "value": "Tiada yang tonton stori setakat ini."
     },
     {
       "_": "types.LangPackString",
@@ -16495,6 +17030,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PaymentConnectionFailed",
+      "value": "Tak dapat hubungi server pembayaran. Sila periksa sambungan internet anda dan cuba lagi."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PaymentFailed",
+      "value": "Maaf, bayaran ditolak."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PaymentInfo.Billing.Title",
       "value": "Masukkan alamat bil anda"
     },
@@ -16547,6 +17092,11 @@
       "_": "types.LangPackString",
       "key": "PaymentNoShippingMethod",
       "value": "Maaf, kami tak dapat hantar ke alamat anda"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PaymentPrecheckoutFailed",
+      "value": "Maaf, bayaran dibatal oleh bot."
     },
     {
       "_": "types.LangPackString",
@@ -16905,6 +17455,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PeerInfo.DataCenter",
+      "value": "PD %d"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PeerInfo.DeleteChannel",
       "value": "Hapus Saluran"
     },
@@ -16922,6 +17477,11 @@
       "_": "types.LangPackString",
       "key": "PeerInfo.Discussion.Add",
       "value": "Tambah"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PeerInfo.Id",
+      "value": "ID"
     },
     {
       "_": "types.LangPackString",
@@ -18550,6 +19110,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Proceed",
+      "value": "Teruskan"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Profile",
       "value": "Profil"
     },
@@ -18825,6 +19390,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ReactionsTooltip",
+      "value": "Reaksi: %1$s"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ReadAllMentions",
       "value": "Baca semua seruan"
     },
@@ -18877,6 +19447,11 @@
       "_": "types.LangPackString",
       "key": "RecoveryEmailTitle",
       "value": "Emel Pemulihan"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ReduceAnimations",
+      "value": "Kurangkan Animasi"
     },
     {
       "_": "types.LangPackString",
@@ -20255,6 +20830,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ServerErrorViewers",
+      "value": "Informasi tentang penonton tak dicatit."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ServerErrorViewersFull",
+      "value": "Informasi tentang penonton lain tak dicatit."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ServerErrorViewersTitle",
+      "value": "Woops"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "SessionsInfo",
       "value": "Urus sesi anda pada semua peranti anda."
     },
@@ -20610,6 +21200,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "SharedPlace",
+      "value": "Tempat"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "SharedVoiceTab2",
       "value": "Suara"
     },
@@ -20757,6 +21352,21 @@
       "_": "types.LangPackString",
       "key": "SomeReactions",
       "value": "Beberapa reaksi"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SortByReactions",
+      "value": "Reaksi Dahulu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SortByReposts",
+      "value": "Pos Semula Dulu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SortByTime",
+      "value": "Terbaru Dulu"
     },
     {
       "_": "types.LangPackString",
@@ -20967,6 +21577,11 @@
       "_": "types.LangPackStringPluralized",
       "key": "StarGiftConvertButton",
       "other_value": "jual untuk %d Star"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "StarGiftConvertText",
+      "other_value": "Anda ingin jual hadiah ini untuk **%d Star**? Ini tak boleh patah balik."
     },
     {
       "_": "types.LangPackString",
@@ -23195,6 +23810,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Stories.Reorder",
+      "value": "Susun Semula"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Stories.StealthMode.Activated.Subtitle",
       "value": "Pencipta stori anda tonton dalam **%s** terakhir atau akan tonton dalam **%s** berikut, tak akan nampak anda dalam senarai lihat."
     },
@@ -23300,8 +23920,68 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Story.AddedToAlbum",
+      "value": "Stori ini telah ditambah ke album **%s**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.BoostToUnrestrict",
+      "value": "Tingkat grup %1$s kali untuk hapus had bermesej. Tingkat anda akan bantu **%2$s** untuk buka ciri baru."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "Story.BoostToUnrestrict.Times",
+      "other_value": "**%d** kali"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.CommentPlaceholder",
+      "value": "Komen Stori..."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.CommentsRestricted",
+      "value": "Komen dihadkan"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "Story.ContainsEmoji",
+      "other_value": "Stori ini mengadungi emoji dari **pek %d**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.ContainsEmojiFrom",
+      "value": "Stori ini mengadungi emoji dari  **%s**."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "Story.ContainsStickers",
+      "other_value": "Stori ini mengadungi stiker dari **pek %d**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.ContainsStickersFrom",
+      "value": "Stori ini mengandungi stiker dari **%s**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.ContextMenuHD",
+      "value": "Naikkan Kualiti"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.ContextMenuSD",
+      "value": "Turunkan Kualiti"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Story.ExpiredToast",
       "value": "Stori ini sudah tiada"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.HideTranslation",
+      "value": "Sorok Terjemahan"
     },
     {
       "_": "types.LangPackString",
@@ -23330,6 +24010,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Story.PlaybackSpeed",
+      "value": "Kelajuan Mainbalik"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.ReactionsHint.LongTap",
+      "value": "Tekan lama untuk lagi reaksi."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.ReactionsHint.RightClick",
+      "value": "Klik kanan untuk lagi reaksi"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Story.RemoveFromProfile",
       "value": "Keluarkan dari Profil"
     },
@@ -23345,13 +24040,103 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Story.SendReactionAsGroupMessage",
+      "value": "Kirim reaksi sebagai mesej"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.SendReactionAsMessage",
+      "value": "Kirim reaksi sebagai mesej privat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.SlideToSeek",
+      "value": "Leret kiri atau kanan untuk cari"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Story.SoundTooltip",
       "value": "Klik di sini untuk daya bunyi."
     },
     {
       "_": "types.LangPackString",
+      "key": "Story.StealthModeConfirm.Text",
+      "value": "Jika anda kirim balas atau reaksi, pencipta stori juga akan nampak anda dalam senarai lihat."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.StealthModeConfirm.Title",
+      "value": "Anda kini dalam Mod Ghaib"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.ToastPremiumSaveToGallery",
+      "value": "**Langgan ke [Telegram Premium]() untuk simpan stori pengguna tak dilindungi ke galeri anda."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.ToastQualityHD.Text",
+      "value": "Anda boleh rendahkan kualiti nanti untuk muat turun lebih laju."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.ToastQualityHD.Title",
+      "value": "Kualiti ditinggikan"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.ToastQualitySD.Text",
+      "value": "Stori akan dimuat turun lebih pantas."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.ToastQualitySD.Title",
+      "value": "Kualiti Direndahkan"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.ToastStealthModeActiveText",
+      "value": "Pencipta stori anda akan lihat dalam **%s** seterusnya tak akan nampak anda dalam senarai penonton."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.ToastStealthModeActiveTitle",
+      "value": "Anda dalam Mod Ghaib sekarang"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Story.Tooltip.MessageSent",
       "value": "Mesej Dikirim."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.Tooltip.ReactionSent",
+      "value": "Reaksi Dikirim"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.Unsupported",
+      "value": "Stori ini belum disokong di Telegram Web. Cuba bukanya di apl Telegram lain."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.UpgradeQuality.Action",
+      "value": "Tinggikan Kualiti"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.UpgradeQuality.Text",
+      "value": "Langgani Premium untuk tonton dalam resolusi tinggi."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.UpgradeQuality.Title",
+      "value": "Stori Berkualiti Tinggi"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.ViewGift",
+      "value": "Lihat Hadiah"
     },
     {
       "_": "types.LangPackString",
@@ -23419,9 +24204,24 @@
       "value": "Hanya kenalan **%s** boleh lihat stori ini."
     },
     {
+      "_": "types.LangPackString",
+      "key": "StoryDeleteContact",
+      "value": "Hapus Kenalan"
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "key": "StoryGroupArchived",
       "other_value": "%d stori dikeluarkan dari profil grup"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryHidFromToast",
+      "value": "%s tak akan dapat lihat stori anda."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryHideFrom",
+      "value": "Sorok Stori Saya Dari %s"
     },
     {
       "_": "types.LangPackString",
@@ -23544,6 +24344,16 @@
       "value": "Reaksi Stori"
     },
     {
+      "_": "types.LangPackString",
+      "key": "StoryReactionsSortDescription",
+      "value": "Pilih susunan senarai reaksi."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryRepostCommented",
+      "value": " komen"
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "key": "StorySavedChannelTitle",
       "other_value": "%d stori dipos ke profil saluran"
@@ -23625,6 +24435,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "StoryShowBackTo",
+      "value": "Jangan Sorok Stori Saya Dari %s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryShownBackToToast",
+      "value": "%s akan boleh lihat stori anda lagi."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "StoryStatistics",
       "value": "Statistik Stori"
     },
@@ -23642,6 +24462,16 @@
       "_": "types.LangPackString",
       "key": "StoryViewers",
       "value": "Penonton Stori"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryViewsPremiumHint",
+      "value": "Untuk buka senarai lihat masa depan bagi stori tamat tempoh dan dipos, langgani **Telegram Premium.**"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryViewsSortDescription",
+      "value": "Pilih susunan untuk senarai penonton."
     },
     {
       "_": "types.LangPackString",
@@ -24207,6 +25037,11 @@
       "_": "types.LangPackString",
       "key": "Text.CopyLabel_Bio",
       "value": "Salin Bio"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Text.CopyLabel_Id",
+      "value": "Salin ID"
     },
     {
       "_": "types.LangPackString",
@@ -24780,6 +25615,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "UnsavedChangesDescription.Experimental",
+      "value": "Setengah tetapan anda tukar hanya diguna selepas mula semula. Mula semula sekarang?"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "UnsavedChangesDescription.Group",
       "value": "Anda tukar sesetengah dari tetapan di grup ini. Simpan pertukaran?"
     },
@@ -24792,6 +25632,16 @@
       "_": "types.LangPackString",
       "key": "UnsupportedAttachment",
       "value": "Lampiran tak disokong"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UnsupportedMessageMessage",
+      "value": "Kemaskini Telegram untuk lihat mesej ini"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UnsupportedMessageTitle",
+      "value": "Mesej tak Disokong"
     },
     {
       "_": "types.LangPackString",
@@ -24970,6 +25820,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "UserRestrictionsEditRank",
+      "value": "Sunting Tag Sendiri"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UserRestrictionsEditRankSingle",
+      "value": "Sunting Tag Sendiri"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "UserRestrictionsEmbedLinks",
       "value": "Benam Link"
     },
@@ -24982,6 +25842,11 @@
       "_": "types.LangPackString",
       "key": "UserRestrictionsNoChangeInfo",
       "value": "tak boleh tukar info"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UserRestrictionsNoEditRank",
+      "value": "tiada tag sendiri"
     },
     {
       "_": "types.LangPackString",
@@ -25869,5 +26734,5 @@
       "other_value": "%1$d mesej"
     }
   ],
-  "version": 362175
+  "version": 376448
 }
