@@ -262,6 +262,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Account.ViewController.WalletUnavailable",
+      "value": "Wallet is derzeit nicht verfügbar."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AccountSettings.About",
       "value": "Info"
     },
@@ -8094,6 +8099,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Chat.Service.WalletRequestFromAccepted",
+      "value": "Wallet-Anfrage von %1$@ akzeptiert"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Service.WalletRequestFromDeclined",
+      "value": "Wallet-Anfrage von %1$@ abgelehnt"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Chat.Service.WebData",
       "value": "Die Daten vom \"%@\"-Knopf wurden an den Bot gesendet."
     },
@@ -8106,6 +8121,26 @@
       "_": "types.LangPackString",
       "key": "Chat.Service.YouSuggestedPhoto",
       "value": "Du hast ein Profilbild vorgeschlagen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.ServiceItem.WalletRequestAccepted",
+      "value": "Wallet-Anfrage akzeptiert"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.ServiceItem.WalletRequestDeclined",
+      "value": "Wallet-Anfrage abgelehnt"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.ServiceItem.WalletRequestFromAccepted",
+      "value": "Wallet-Anfrage von%1$@ akzeptiert."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.ServiceItem.WalletRequestFromDeclined",
+      "value": "Wallet-Anfrage von %1$@ abgelehnt"
     },
     {
       "_": "types.LangPackString",
@@ -9228,7 +9263,7 @@
     {
       "_": "types.LangPackString",
       "key": "ChatList.Filter.List.Title",
-      "value": "Ordner"
+      "value": "Chat-Ordner"
     },
     {
       "_": "types.LangPackString",
@@ -11683,6 +11718,46 @@
       "_": "types.LangPackString",
       "key": "CrashOnLaunch.OK",
       "value": "Abmelden"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CrashRecovery.ContinueAnyway",
+      "value": "Trotzdem weiter"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CrashRecovery.Description",
+      "value": "Telegram wurde direkt nach dem Start geschlossen. Meist behebt es die aktuellste Version."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CrashRecovery.Install",
+      "value": "Installieren und neu starten"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CrashRecovery.ReadyDetail",
+      "value": "Telegram wird mit neuer Version neu gestartet."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CrashRecovery.ReadyVersion",
+      "value": "Telegram %1$@ is fertig"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CrashRecovery.Reset",
+      "value": "Lokale Daten zurücksetzen…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CrashRecovery.Title",
+      "value": "Telegram wurde unerwartet beendet"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CrashRecovery.WebsiteLink",
+      "value": "Von macos.telegram.org herunterladen"
     },
     {
       "_": "types.LangPackString",
@@ -18636,6 +18711,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Passcode.SettingsViewController.LockTelegram",
+      "value": "Telegram sperren"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Passcode.SettingsViewController.LockWallet",
+      "value": "Geld sperren"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Passcode.TurnOff",
       "value": "Pincode deaktivieren"
     },
@@ -18713,6 +18798,26 @@
       "_": "types.LangPackString",
       "key": "PasscodeController.Text",
       "value": "Die Maus über das Symbol Einstellungen in der Tab-Leiste bewegen und Telegram sperren\" bzw. ⌘ + L verwenden.\n\nÜbrigens: Wenn du den Pincode vergisst, musst du dich bei Telegram für macOS abmelden und wieder anmelden. Dadurch verlierst du alle Geheimen Chats."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PasscodeController.WalletBiometrics.Title",
+      "value": "Mit Touch ID bestätigen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PasscodeController.WalletDisableWarning",
+      "value": "Dadurch wird auch der Schutz per Code und Biometrie für alle Wallets auf diesem Gerät deaktiviert."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PasscodeController.WalletProtection.Title",
+      "value": "Mit Pincode bestätigen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PasscodeController.WalletProtectionInfo",
+      "value": "Erforderlich beim Senden von Guthaben oder Bestätigen anderer sensibler Wallet-Aktionen."
     },
     {
       "_": "types.LangPackString",
@@ -32206,6 +32311,397 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.AuthorizeController.Description",
+      "value": "Gib deinen Telegram-Pincode ein, um auf deine Wallet zuzugreifen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizeController.EnterPasscode",
+      "value": "Pincode eingeben"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizeController.Passcode",
+      "value": "Pincode"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.Continue",
+      "value": "Weiter"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.PasswordTitle",
+      "value": "Telegram-Passwort"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.CollectibleDetailsController.Model",
+      "value": "Model"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.CollectibleDetailsController.OK",
+      "value": "OK"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.CollectibleDetailsController.Owner",
+      "value": "Besitzer"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.CollectibleDetailsController.Type",
+      "value": "Art"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.ConnectedAppsController.Cancel",
+      "value": "Abbrechen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.ConnectedAppsController.Title",
+      "value": "Verbundene Apps"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Controller.BlockchainVerified",
+      "value": "Blockchain-verifiziert"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Controller.BlockchainVerifiedInfo",
+      "value": "Alle Transaktionen werden in der\nöffentlichen Blockchain aufgezeichnet \nund können dort überprüft werden."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Controller.ConnectLinkInvalid",
+      "value": "Das ist weder ein gültiger TON Connect-Link noch eine gültige Wallet-Adresse."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Controller.ConnectLinkPlaceholder",
+      "value": "TON-Connect Link oder Adresse"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Controller.EarningsBannerPrefix",
+      "value": "Du hast"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Controller.EarningsBannerSuffix",
+      "value": " in Gram-Einnahmen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Controller.ErrorDataMismatch",
+      "value": "Die gespeicherten Daten dieser Wallet stimmen nicht mit denen auf dem Server überein. Daher kann sie nicht geöffnet werden. Du kannst diese Wallet löschen und mit deiner geheimen Wortfolge wiederherstellen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Controller.ErrorDataUnreadable",
+      "value": "Die gespeicherten Wallet-Daten können nicht gelesen werden. Du kannst diese Wallet löschen und mit deiner geheimen Wortfolge wiederherstellen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Controller.ErrorStorageUnavailable",
+      "value": "Der Wallet-Speicher ist nicht verfügbar. Bitte starte die App neu und versuche es erneut."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Controller.PasscodeAndTouchId",
+      "value": "Pincode & Touch ID"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Controller.PermissionViewWallet",
+      "value": "Sie kann deine Wallet-Adresse, dein Guthaben und deine Aktivitäten einsehen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Controller.SecretPhraseRequired",
+      "value": "Geheime Wortfolge erforderlich"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Controller.WalletImportedInfo",
+      "value": "Deine Wallet wurde mit deiner geheimen Wortfolge wiederhergestellt."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.FlowAuthorization.CheckConnection",
+      "value": "Überprüfe deine Netzwerkverbindung und versuche es erneut."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.FlowAuthorization.RestoreReason",
+      "value": "Wallet wiederherstellen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.ImportController.EnableBackupInfo",
+      "value": "Gib die aktuelle geheime Wortfolge mit 12 oder 24 Wörtern deiner Wallet ein, um die verschlüsselte Sicherung zu aktivieren."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.ImportController.ReplaceWalletInfo",
+      "value": "Diese geheime Wortfolge gehört zu einer anderen Wallet. Wenn du die aktuelle Wallet ersetzt, kannst du auf diesem Gerät nicht mehr darauf zugreifen. Stelle sicher, dass du ihre geheime Wortfolge gespeichert hast, bevor du fortfährst."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.ImportController.SaveFailedInfo",
+      "value": "Entsperre das Gerät und versuche es erneut."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.ImportController.SaveFailedTitle",
+      "value": "Wallet konnte nicht gespeichert werden."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.ImportController.SecretPhraseTitle",
+      "value": "Geheime Wortfolge"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.ImportController.TestTimeWordsAnd",
+      "value": " und "
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.ImportController.TwelveWords",
+      "value": "12 Worte"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.ImportController.TwentyFourWords",
+      "value": "24 Wörter"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.InfoController.BlockchainVerifiedInfo",
+      "value": "Alle Transaktionen werden in der öffentlichen \nBlockchain aufgezeichnet und können \ndort überprüft werden."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.InfoController.FirstGramsInfo",
+      "value": "Du kannst:"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.InfoController.InstantTransfers",
+      "value": "Sofortübertragungen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.InfoController.SecretPhraseInfo",
+      "value": "Deine geheime Wortfolge ist der Schlüssel zur Sicherung deiner Wallet. Halte sie jederzeit geheim und sicher."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.InfoController.ShowSecretPhrase",
+      "value": "Geheime Wortfolge anzeigen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.ReceiveController.AddressCopied",
+      "value": "✓ Adresse kopiert"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.ReceiveController.CopyAddress",
+      "value": "Meine Adresse kopieren"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.RecipientController.Continue",
+      "value": "Weiter"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.RecipientController.DepositFunds",
+      "value": "Guthaben einzahlen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.RecipientController.InvalidAddress",
+      "value": "Ungültige Adresse"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.RecipientController.PeopleHeader",
+      "value": "LEUTE"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.RecipientController.RecentHeader",
+      "value": "ZULETZT"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.RecipientController.Resolving",
+      "value": "Empfängers wird gesucht..."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.RecipientController.ShowMore",
+      "value": "Mehr zeigen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.RecipientNoResultsItem.NoResultsFor",
+      "value": "Keine Ergebnisse für \"%1$@\".\nProbiere anderen Namen oder andere Adresse."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.RecipientNoResultsItem.Title",
+      "value": "Kein Ergebnis"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.ReplaceController.CheckConnection",
+      "value": "Überprüfe deine Netzwerkverbindung und versuche es erneut."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.ReplaceController.ImportedInfo",
+      "value": "Deine Wallet wurde mit deiner geheimen Wortfolge wiederhergestellt."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.ReplaceController.ImportedTitle",
+      "value": "Wallet importiert"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.SendController.DepositFundsLink",
+      "value": "Guthaben einzahlen ›"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.SendController.InsufficientFunds",
+      "value": "Unzureichendes Guthaben."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.SendController.PublicCommentInfo",
+      "value": "Ein öffentlicher Kommentar kann von jedem auf der Blockchain gelesen werden. Andernfalls können ihn nur du und der Empfänger lesen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.SendController.SendFailedInfo",
+      "value": "Die Übertragung konnte nicht gesendet werden. Überprüfe dein Guthaben und deine Netzwerkverbindung und versuche es erneut."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.SendController.TransferFailedInfo",
+      "value": "Die Übertragung konnte weder vorbereitet noch gesendet werden."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.SettingsController.DataUnreadable",
+      "value": "Die gespeicherten Wallet-Daten können auf diesem Gerät nicht gelesen werden. Daher sind die geheime Wortfolge und die Backup-Einstellungen nicht verfügbar. Du kannst diese Wallet löschen und mit deiner geheimen Wortfolge wiederherstellen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.SettingsController.LastUsedToday",
+      "value": "heute"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.SettingsController.SettingUp",
+      "value": "Deine Wallet wird eingerichtet. Das dauert meist nur wenige Sekunden...\n\nSobald sie bereit ist, werden hier deine geheime Wortfolge und die Backup-Einstellungen angezeigt."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TransactionAmountRowItem.Failed",
+      "value": "Fehlgeschlagen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TransactionAmountRowItem.Gram",
+      "value": "GRAM"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TransactionAmountRowItem.Usdt",
+      "value": "USDT"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TransactionController.Address",
+      "value": "Adresse"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TransactionController.Cancel",
+      "value": "Abbrechen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TransactionController.Confirmation",
+      "value": "Bestätigung"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TransactionController.Proceed",
+      "value": "Fortfahren"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TransactionController.Recipient",
+      "value": "Empfänger"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TransactionController.SendAmount",
+      "value": "%1$@ senden"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TransactionController.Sender",
+      "value": "Absender"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TransactionController.ShowMore",
+      "value": "Mehr zeigen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TransactionController.Transaction",
+      "value": "Transaktion"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TransactionController.WhatsGram",
+      "value": "Was sind Gram?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TransactionRowItem.TelegramUser",
+      "value": "Telegram-Nutzer"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "Wallet.TransferPresentation.Recipients",
+      "one_value": "",
+      "other_value": "%1$d Empfänger"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TransferPresentation.Unavailable",
+      "value": "Nicht verfügbar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.WordsController.CancelDisabling",
+      "value": "Deaktivierung abbrechen"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallpaper.Background.NoApplyToPeer",
       "value": "%1$@ wird dieses Hintergrundbild anwenden können"
     },
@@ -32875,5 +33371,5 @@
       "value": "Ersetzungen anzeigen"
     }
   ],
-  "version": 2300224
+  "version": 2419833
 }
