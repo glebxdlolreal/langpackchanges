@@ -1952,6 +1952,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Auth.Controller.SmsFeeHeader",
+      "value": "Плата за SMS"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Auth.Controller.SmsFeeInfo",
+      "value": "Операторы связи берут очень высокую плату за SMS на этот номер, поэтому Telegram не может отправить код входа сюда. Войдите из Telegram на телефоне или другом устройстве, например отсканировав QR-код."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Auth.Login.ConfirmPhone",
       "value": "Номер %@ принадлежит Вам?"
     },
@@ -3488,6 +3498,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "CalendarSearch.Controller.Search",
+      "value": "Поиск"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Call.Accept",
       "value": "Принять"
     },
@@ -4767,6 +4782,11 @@
       "_": "types.LangPackString",
       "key": "Channel.EventFilter.EventsHeader",
       "value": "СОБЫТИЯ"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Channel.EventFilter.Filters",
+      "value": "Фильтры"
     },
     {
       "_": "types.LangPackString",
@@ -6391,6 +6411,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ChannelParticipant.Controller.PermissionsUnverified",
+      "value": "Не удалось подтвердить обновлённые разрешения. Проверьте разрешения участника перед повторной попыткой."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ChannelParticipant.EditTag",
       "value": "Изменить тег"
     },
@@ -7643,6 +7668,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Chat.Context.SaveAllPhotos",
+      "value": "Сохранить все фото…"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Chat.Context.SaveMedia",
       "value": "Сохранить как..."
     },
@@ -7665,6 +7695,11 @@
       "_": "types.LangPackString",
       "key": "Chat.Context.SaveRingtone.RemoveSuccess",
       "value": "Звук удалён"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Context.SaveSelectedPhotos",
+      "value": "Сохранить выбранные фото…"
     },
     {
       "_": "types.LangPackString",
@@ -7771,6 +7806,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Chat.Controller.AIRewriteFailed",
+      "value": "ИИ не смог переписать сообщение. Нажмите «Отправить» ещё раз, чтобы отправить оригинал."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Controller.AddMembers",
+      "value": "Добавить участников"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Chat.Controller.AddressCopied",
       "value": "Адрес скопирован"
     },
@@ -7778,6 +7823,11 @@
       "_": "types.LangPackString",
       "key": "Chat.Controller.CopyAddress",
       "value": "Копировать адрес"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Controller.Select",
+      "value": "Выбрать"
     },
     {
       "_": "types.LangPackString",
@@ -7798,6 +7848,14 @@
       "_": "types.LangPackString",
       "key": "Chat.CopySelectedText",
       "value": "Скопировать выбранный текст"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "%d фото и видео",
+      "key": "Chat.Date.PhotosAndVideos",
+      "many_value": "%d фото и видео",
+      "one_value": "%d фото или видео",
+      "other_value": "%d фото и видео"
     },
     {
       "_": "types.LangPackString",
@@ -8640,6 +8698,76 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Chat.Input.Dictation.Enhance",
+      "value": "Улучшить"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Dictation.Enhance.Accessibility",
+      "value": "Исправить пунктуацию и грамматику в продиктованном тексте"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Dictation.Enhance.Editor",
+      "value": "ИИ-редактор…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Dictation.Enhance.Fix",
+      "value": "Исправить грамматику"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Dictation.Enhance.Styles",
+      "value": "Улучшить стиль"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Dictation.Enhancing",
+      "value": "Улучшение…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Dictation.Error.Language",
+      "value": "Диктовка недоступна для текущего языка ввода."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Dictation.Error.Microphone",
+      "value": "Telegram нужен доступ к микрофону для диктовки сообщений. Разрешить его можно в Системных настройках → Конфиденциальность и безопасность → Микрофон."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Dictation.Error.NoInput",
+      "value": "Микрофон не найден. Подключите микрофон и попробуйте снова."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Dictation.Error.Speech",
+      "value": "Telegram нужен доступ к распознаванию речи, чтобы превращать Ваш голос в текст. Разрешить его можно в Системных настройках → Конфиденциальность и безопасность → Распознавание речи."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Dictation.Error.Unavailable",
+      "value": "Распознавание речи сейчас недоступно. Пожалуйста, попробуйте позже."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Dictation.Language.Automatic",
+      "value": "Автоматически"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Dictation.Start",
+      "value": "Продиктовать"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Dictation.Stop",
+      "value": "Остановить диктовку"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Chat.Input.Discuss",
       "value": "Обсудить"
     },
@@ -8922,7 +9050,7 @@
     {
       "_": "types.LangPackString",
       "key": "Chat.Message.Ad.Text",
-      "value": "В отличие от других приложений, Telegram не использует Ваши личные данные для таргетирования рекламы. Рекламные сообщения в Telegram зависят исключительно от тематики публичных каналов, в которых они отображаются. Это означает, что личные данные пользователей не собираются и не анализируются для отображения рекламы и все пользователи, просматривающие тот или иной канал в Telegram, видят одинаковые рекламные сообщения.\n\nВ отличие от других приложений, Telegram не отслеживает, перешли ли Вы по рекламному сообщению, и не создает на Вас «досье» на основе Вашей активности. Мы также предупреждаем перед открытием внешних ссылок в рекламных сообщениях, чтобы третьи стороны не могли шпионить за нашими пользователями. Мы считаем, что каждый имеет право на неприкосновенность частной жизни и технологические платформы должны это уважать.\n\nTelegram предлагает бесплатный и неограниченный сервис сотням миллионов пользователей, что влечёт за собой значительные расходы на оборудование и датацентры. Чтобы сохранять независимость и оставаться верным своим ценностям, Telegram разработал платный инструмент для продвижения каналов и сообщений с учётом заботы о конфиденциальности пользователей. Мы приветствуем ответственных рекламодателей по адресу:\n\n%@\n\nРекламные сообщения в настоящее время работают в тестовом режиме. Как только они будут полностью запущены и позволят Telegram покрывать основные расходы, мы начнём делиться доходами от рекламы с владельцами публичных каналов, в которых выводятся рекламные сообщения.\n\nРеклама в интернете должна перестать быть синонимом нарушения конфиденциальности пользователей. Давайте вместе изменим то, как функционируют технологические компании."
+      "value": "В отличие от других приложений, Telegram не использует Ваши личные данные для таргетирования рекламы. Рекламные сообщения в Telegram зависят исключительно от тематики публичных каналов, в которых они отображаются. Это означает, что личные данные пользователей не собираются и не анализируются для отображения рекламы и все пользователи, просматривающие тот или иной канал в Telegram, видят одинаковые рекламные сообщения.\n\nВ отличие от других приложений, Telegram не отслеживает, перешли ли Вы по рекламному сообщению, и не создает на Вас «досье» на основе Вашей активности. Кроме того, в рекламных сообщениях не допускаются внешние ссылки, чтобы третьи стороны не могли шпионить за пользователями. Мы считаем, что каждый имеет право на неприкосновенность частной жизни и технологические платформы должны это уважать.\n\nTelegram предлагает бесплатный и неограниченный сервис сотням миллионов пользователей, что влечёт за собой значительные расходы на оборудование и датацентры. Чтобы сохранять независимость и оставаться верным своим ценностям, Telegram разработал платный инструмент для продвижения сообщений с учётом заботы о конфиденциальности пользователей. Мы приветствуем ответственных рекламодателей по адресу:\n\n%@\n\nРекламные сообщения в настоящее время работают в тестовом режиме. Как только они будут полностью запущены и позволят Telegram покрывать основные расходы, мы начнём делиться доходами от рекламы с владельцами публичных каналов, в которых выводятся рекламные сообщения.\n\nРеклама в интернете должна перестать быть синонимом нарушения конфиденциальности пользователей. Давайте вместе изменим то, как функционируют технологические компании."
     },
     {
       "_": "types.LangPackString",
@@ -9276,7 +9404,31 @@
     {
       "_": "types.LangPackString",
       "key": "Chat.MessageMenuItems.SponsoredInfo",
-      "value": "В отличие от других приложений, Telegram не использует Ваши личные данные для таргетирования рекламы. [Подробнее в Политике конфиденциальности](https://telegram.org/privacy/ru#5-6-otsutstvie-reklami-osnovannoi-na-dannih-perepiski) \n\nВ отличие от других приложений, Telegram не отслеживает, перешли ли Вы по рекламному сообщению, и не создает на Вас «досье» на основе Вашей активности. Мы также предупреждаем перед открытием внешних ссылок в рекламных сообщениях, чтобы третьи стороны не могли шпионить за нашими пользователями. Мы считаем, что каждый имеет право на неприкосновенность частной жизни и технологические платформы должны это уважать.\n\nTelegram предлагает бесплатный и неограниченный сервис сотням миллионов пользователей, что влечёт за собой значительные расходы на оборудование и датацентры. Чтобы сохранять независимость и оставаться верным своим ценностям, Telegram разработал платный инструмент для продвижения каналов и сообщений с учётом заботы о конфиденциальности пользователей. Мы приветствуем ответственных рекламодателей по адресу:\n[url]\n\nРеклама в интернете должна перестать быть синонимом нарушения конфиденциальности пользователей. Давайте вместе изменим то, как функционируют технологические компании."
+      "value": "В отличие от других приложений, Telegram не использует Ваши личные данные для таргетирования рекламы. [Подробнее в Политике конфиденциальности](https://telegram.org/privacy/ru#5-6-otsutstvie-reklami-osnovannoi-na-dannih-perepiski)\nВы видите это сообщение только потому, что кто-то выбрал этот публичный канал для продвижения. Личные данные пользователей не собираются и не анализируются для показа рекламы, поэтому все, кто просматривает этот канал, видят одно и то же сообщение.\n\nВ отличие от других приложений, Telegram не отслеживает, перешли ли Вы по рекламному сообщению, и не создает на Вас «досье» на основе Вашей активности. Кроме того, в рекламных сообщениях не допускаются внешние ссылки, чтобы третьи стороны не могли шпионить за пользователями. Мы считаем, что каждый имеет право на неприкосновенность частной жизни и технологические платформы должны это уважать.\n\nTelegram предлагает бесплатный и неограниченный сервис сотням миллионов пользователей, что влечёт за собой значительные расходы на оборудование и датацентры. Чтобы сохранять независимость и оставаться верным своим ценностям, Telegram разработал платный инструмент для продвижения сообщений с учётом заботы о конфиденциальности пользователей. Мы приветствуем ответственных рекламодателей по адресу:\n[url]\n\nРеклама в интернете должна перестать быть синонимом нарушения конфиденциальности пользователей. Давайте вместе изменим то, как функционируют технологические компании."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Сообщения за %1$d дня удалены у обеих сторон.",
+      "key": "Chat.MessageRangeDeleted.ForBothSides",
+      "many_value": "Сообщения за %1$d дней удалены у обеих сторон.",
+      "one_value": "Сообщения за %1$d день удалены у обеих сторон.",
+      "other_value": "Сообщения за %1$d дня удалены у обеих сторон."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Сообщения за %1$d дня удалены.",
+      "key": "Chat.MessageRangeDeleted.ForMe",
+      "many_value": "Сообщения за %1$d дней удалены.",
+      "one_value": "Сообщения за %1$d день удалены.",
+      "other_value": "Сообщения за %1$d дня удалены."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Удалено сообщений: %1$d.",
+      "key": "Chat.MessageRangeDeleted.Messages",
+      "many_value": "Удалено сообщений: %1$d.",
+      "one_value": "Удалено сообщений: %1$d.",
+      "other_value": "Удалено сообщений: %1$d."
     },
     {
       "_": "types.LangPackString",
@@ -9633,6 +9785,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Chat.Recording.Transcribe.Active",
+      "value": "Расшифровка. Нажмите в любом месте, чтобы остановить."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Recording.Transcribe.Swipe",
+      "value": "← Смахните для диктовки"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Chat.Replies.Desc",
       "value": "Этот чат поможет отслеживать ответы на Ваши комментарии в каналах."
     },
@@ -9856,6 +10018,11 @@
       "_": "types.LangPackString",
       "key": "Chat.SendMessageSlowmodeError",
       "value": "Включён медленный режим."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.SendReactionRestricted",
+      "value": "Вы не можете отправлять реакции в этом чате."
     },
     {
       "_": "types.LangPackString",
@@ -11046,6 +11213,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Chat.Sidebar.AllMessages",
+      "value": "Все сообщения"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Sidebar.ShowChats",
+      "value": "Показать чаты"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Chat.StarsGift.Button.Unpack",
       "value": "Распаковать"
     },
@@ -11301,6 +11478,26 @@
       "_": "types.LangPackString",
       "key": "Chat.TopicHeader.Full",
       "value": "Тема открыта"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Transcription.Cancel",
+      "value": "Отменить"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Transcription.Edit",
+      "value": "Изменить"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Transcription.Listening",
+      "value": "Слушаю…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Transcription.Send",
+      "value": "Отправить"
     },
     {
       "_": "types.LangPackString",
@@ -11721,6 +11918,39 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ChatAudio.FileTranscription.Failed",
+      "value": "Не удалось расшифровать аудио. Пожалуйста, попробуйте ещё раз."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAudio.FileTranscription.InvalidAudio",
+      "value": "Аудио не удалось расшифровать. Используйте запись длиной от 1 секунды до 30 минут."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Слишком много запросов на расшифровку. Попробуйте снова через %1$d секунды.",
+      "key": "ChatAudio.FileTranscription.LimitExceeded",
+      "many_value": "Слишком много запросов на расшифровку. Попробуйте снова через %1$d секунд.",
+      "one_value": "Слишком много запросов на расшифровку. Попробуйте снова через %1$d секунду.",
+      "other_value": "Слишком много запросов на расшифровку. Попробуйте снова через %1$d секунды."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAudio.FileTranscription.PremiumRequired",
+      "value": "Бесплатные расшифровки закончились. Для расшифровки аудио нужен Telegram Premium."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAudio.FileTranscription.TooBig",
+      "value": "Аудио слишком большое для расшифровки. Сократите запись до размера менее 1 МБ."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAudio.FileTranscription.TooLong",
+      "value": "Аудио слишком длинное для расшифровки. Сократите запись до 30 минут или меньше."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ChatEmpty.BusinessIntro.How",
       "value": "**%@** установил(а) это сообщение для всех новых чатов. [Как?]()"
     },
@@ -11891,6 +12121,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ChatExport.MessagesProgress",
+      "value": "{done} из {total} сообщений"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatExport.MessagesProgressNoTotal",
+      "value": "{done} сообщений"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ChatExport.PathHeader",
       "value": "СОХРАНИТЬ В"
     },
@@ -12014,6 +12254,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ChatHTML.RowItem.NetworkWarning",
+      "value": "Нажатие может отправить данные на сервер бота"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatHeader.Controller.SetProfilePhoto",
+      "value": "Установить фото профиля"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ChatHeader.RestartTopic",
       "value": "Возобновить тему"
     },
@@ -12121,6 +12371,11 @@
       "_": "types.LangPackString",
       "key": "ChatInput.OpenChat",
       "value": "Перейти в чат"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatInput.RecordingView.ClickToEdit",
+      "value": "Нажмите в любом месте, чтобы изменить"
     },
     {
       "_": "types.LangPackString",
@@ -13216,6 +13471,26 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ChatList.RowItem.CloseTopic",
+      "value": "Закрыть тему"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatList.RowItem.ReopenTopic",
+      "value": "Открыть тему снова"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatList.RowView.Close",
+      "value": "Закрыть"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatList.RowView.Reopen",
+      "value": "Открыть снова"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ChatList.Search.Placeholder",
       "value": "Поиск (⌘K)"
     },
@@ -13784,6 +14059,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ChatRecorder.OverlayWindow.ConvertToText",
+      "value": "Преобразовать в текст"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ChatRow.BotForConnector",
       "value": " для "
     },
@@ -13791,6 +14071,106 @@
       "_": "types.LangPackString",
       "key": "ChatRow.Edited",
       "value": "изменено %1$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatSend.Failure.AdminRequired",
+      "value": "Недостаточно прав для отправки сообщения."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatSend.Failure.ChannelRestricted",
+      "value": "Публиковать в этом канале Вам запрещено."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatSend.Failure.ChannelWriteForbidden",
+      "value": "Сейчас публиковать в этом канале нельзя."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatSend.Failure.ChatInaccessible",
+      "value": "Канал или группа больше недоступны."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatSend.Failure.ChatWriteForbidden",
+      "value": "Сейчас отправлять сообщения в этом чате нельзя."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatSend.Failure.EntitiesTooLong",
+      "value": "Слишком много форматирования — сообщение не отправить."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatSend.Failure.FileReferenceExpired",
+      "value": "Срок действия ссылки на медиафайл истёк. Попробуйте отправить его снова."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatSend.Failure.ForwardsRestricted",
+      "value": "Пересылать сообщения из защищённого чата запрещено."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatSend.Failure.Generic",
+      "value": "Не удалось отправить сообщение. Пожалуйста, попробуйте снова."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatSend.Failure.GuestSendForbidden",
+      "value": "Чтобы комментировать, сначала вступите в группу обсуждения."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatSend.Failure.MediaForbidden",
+      "value": "Сообщения такого типа в этом чате отправлять нельзя."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatSend.Failure.MessageTooLong",
+      "value": "Сообщение слишком длинное — его не отправить."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatSend.Failure.PlainForbidden",
+      "value": "Текстовые сообщения в этом чате отправлять нельзя."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatSend.Failure.PremiumRequired",
+      "value": "Для отправки сообщения необходим Telegram Premium."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatSend.Failure.ServerError",
+      "value": "Не удалось отправить сообщение. Ошибка сервера: %1$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatSend.Failure.SlowModeWait",
+      "value": "Включён медленный режим. Попробуйте снова через %1$@."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatSend.Failure.TopicDeleted",
+      "value": "Тема удалена."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatSend.Failure.UserBlocked",
+      "value": "Нельзя отправить сообщение: получатель заблокировал(а) Вас."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatSend.PaymentConfirmation.PriceChanged",
+      "value": "Цена изменилась"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatSend.PaymentConfirmation.PriceChangedInfo",
+      "value": "Цена отправки сообщений в этом чате изменилась, поэтому сообщение не было отправлено. Проверьте новую цену и отправьте его снова."
     },
     {
       "_": "types.LangPackString",
@@ -14195,6 +14575,31 @@
       "_": "types.LangPackString",
       "key": "ChatTitle.ReportMessages",
       "value": "Пожаловаться на сообщения"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatVoice.Transcription.AutomaticPunctuation",
+      "value": "Автоматическая пунктуация"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatVoice.Transcription.Language",
+      "value": "Язык: %1$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatVoice.Transcription.LanguageInfo",
+      "value": "Язык, на котором Вы говорите при диктовке. «Автоматически» использует язык чата и языки системы."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatVoice.Transcription.RecordMessage",
+      "value": "Записать сообщение"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatVoice.Transcription.ShortcutInfo",
+      "value": "Действие ⌘R в поле ввода. «Автоматически»: диктовка, если в поле есть текст; запись сообщения, если оно пусто."
     },
     {
       "_": "types.LangPackString",
@@ -15775,6 +16180,31 @@
       "value": "Просмотреть набор стикеров"
     },
     {
+      "_": "types.LangPackString",
+      "key": "ContextList.RowItem.Widget",
+      "value": "Виджет"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Conversation.CopyProtectionForwardingDisabledBot",
+      "value": "Пересылать сообщения от этого бота нельзя"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Conversation.CopyProtectionForwardingDisabledChannel",
+      "value": "Пересылка из этого канала запрещена"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Conversation.CopyProtectionForwardingDisabledGroup",
+      "value": "Пересылка из этой группы запрещена"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Conversation.CopyProtectionForwardingDisabledSecret",
+      "value": "Пересылка запрещена"
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "few_value": "Вы расшифровали **%d** сообщения на этой неделе.",
       "key": "Conversation.FreeTranscriptionCooldownTooltip",
@@ -16196,6 +16626,34 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "CreateBot.ModalController.PremiumRequiredSubscribe",
+      "value": "%1$@ [Подписаться >]()"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBot.ModalController.UnsavedChangesDiscard",
+      "value": "Сбросить"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBot.ModalController.UnsavedChangesHeader",
+      "value": "Несохранённые изменения"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBot.ModalController.UnsavedChangesInfo",
+      "value": "Создание бота не завершено."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Имя пользователя не может быть длиннее %1$d символов.",
+      "key": "CreateBot.ModalController.UsernameTooLong",
+      "many_value": "Имя пользователя не может быть длиннее %1$d символов.",
+      "one_value": "Имя пользователя не может быть длиннее %1$d символа.",
+      "other_value": "Имя пользователя не может быть длиннее %1$d символа."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "CreateBot.SuccessInfo",
       "value": "%1$@ будет управлять этим ботом."
     },
@@ -16208,6 +16666,44 @@
       "_": "types.LangPackString",
       "key": "CreateBot.Title",
       "value": "Создание бота"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "%1$d имени пользователя",
+      "key": "CreateBot.Username.Count",
+      "many_value": "%1$d имён пользователя",
+      "one_value": "%1$d имя пользователя",
+      "other_value": "%1$d имени пользователя"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBot.Username.EndingsOr",
+      "value": "%1$@ или %2$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBot.Username.Premium",
+      "value": "Telegram Premium"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBot.Username.PremiumHint",
+      "value": "Должно заканчиваться на %1$@ — или на %2$@ с %3$@."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBot.Username.PremiumLink",
+      "value": "[Telegram Premium]()"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBot.Username.PremiumRequired",
+      "value": "Имена пользователей с окончанием %1$@ доступны только с Telegram Premium."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBot.Username.SuffixLimit",
+      "value": "У всех Ваших ботов может быть только %1$@ с окончанием %2$@."
     },
     {
       "_": "types.LangPackString",
@@ -16710,6 +17206,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Developer.ViewController.ResetApp",
+      "value": "Сбросить приложение"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Developer.ViewController.ResetAppLoginNotPreserved",
+      "value": "Не удалось сохранить сеанс. База данных не была очищена."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "DiceRoll.EmojiStake",
       "value": "Emoji Stake"
     },
@@ -17188,6 +17694,196 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "EditImage.CanvasColorPicker.Blue",
+      "value": "СИНИЙ"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EditImage.CanvasColorPicker.Green",
+      "value": "ЗЕЛЁНЫЙ"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EditImage.CanvasColorPicker.Grid",
+      "value": "Сетка"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EditImage.CanvasColorPicker.HexColor",
+      "value": "Код цвета #"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EditImage.CanvasColorPicker.Opacity",
+      "value": "Непрозрачность"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EditImage.CanvasColorPicker.PickFromImage",
+      "value": "Взять цвет с изображения"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EditImage.CanvasColorPicker.Red",
+      "value": "КРАСНЫЙ"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EditImage.CanvasColorPicker.Sliders",
+      "value": "Ползунки"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EditImage.CanvasColorPicker.Spectrum",
+      "value": "Спектр"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EditImage.CanvasColorPicker.Title",
+      "value": "Цвета"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EditImage.CanvasController.ClearAll",
+      "value": "Очистить всё"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EditImage.CanvasController.ClearAllConfirm",
+      "value": "Удалить все рисунки, текст и стикеры?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EditImage.CanvasController.CutOut",
+      "value": "Вырезать"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EditImage.CanvasController.Duplicate",
+      "value": "Дублировать"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EditImage.CanvasController.Flip",
+      "value": "Отразить"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EditImage.CanvasController.MoveForward",
+      "value": "Переместить вперёд"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EditImage.CanvasController.ShapeArrow",
+      "value": "Стрелка"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EditImage.CanvasController.ShapeBubble",
+      "value": "Облачко"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EditImage.CanvasController.ShapeEllipse",
+      "value": "Овал"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EditImage.CanvasController.ShapeRectangle",
+      "value": "Прямоугольник"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EditImage.CanvasController.ShapeStar",
+      "value": "Звезда"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EditImage.CanvasControls.ClearAll",
+      "value": "Очистить всё"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EditImage.CanvasControls.Draw",
+      "value": "Рисовать"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EditImage.CanvasControls.Sticker",
+      "value": "Стикер"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EditImage.CanvasControls.SwitchToFill",
+      "value": "Переключить на заливку"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EditImage.CanvasControls.SwitchToLine",
+      "value": "Переключить на линию"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EditImage.CanvasControls.SwitchToOneSidedArrow",
+      "value": "Переключить на одностороннюю стрелку"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EditImage.CanvasControls.SwitchToOutline",
+      "value": "Переключить на контур"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EditImage.CanvasControls.SwitchToTwoSidedArrow",
+      "value": "Переключить на двустороннюю стрелку"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EditImage.CanvasControls.Text",
+      "value": "Текст"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EditImage.CanvasControls.TextAlignment",
+      "value": "Выравнивание текста"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EditImage.CanvasControls.TextStyle",
+      "value": "Стиль текста"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EditImage.CanvasControls.ZoomOut",
+      "value": "Уменьшить"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EditImage.Controls.CutOutObject",
+      "value": "Вырезать объект"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EditImage.CutoutController.AddOutline",
+      "value": "Добавить контур"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EditImage.CutoutController.CutOutObject",
+      "value": "Вырезать объект"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EditImage.CutoutController.Hint",
+      "value": "Нажмите на объект, чтобы вырезать его"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EditImage.CutoutController.RemoveOutline",
+      "value": "Убрать контур"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "EditImageControl.Confirm.Discard",
       "value": "Вы точно хотите сбросить все изменения?"
     },
@@ -17360,6 +18056,101 @@
       "_": "types.LangPackString",
       "key": "EditTheme.Title",
       "value": "Редактировать тему"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EditVideo.Controller.MutedTooltip",
+      "value": "Звук отключён: видео будет автоматически запускаться и повторяться, как GIF."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EditVideo.Controller.Quality",
+      "value": "Качество"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EditVideo.Controller.Tools",
+      "value": "Инструменты"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EditVideo.Export.Brightness",
+      "value": "Яркость"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EditVideo.Export.Contrast",
+      "value": "Контраст"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EditVideo.Export.Enhance",
+      "value": "Улучшение"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EditVideo.Export.Fade",
+      "value": "Выцветание"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EditVideo.Export.Highlights",
+      "value": "Света"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EditVideo.Export.Saturation",
+      "value": "Насыщенность"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EditVideo.Export.Shadows",
+      "value": "Тени"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EditVideo.Export.Vignette",
+      "value": "Виньетка"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EditVideo.Export.Warmth",
+      "value": "Теплота"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EditVideo.ToolsController.Highlights",
+      "value": "Света"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EditVideo.ToolsController.Original",
+      "value": "Оригинал"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EditVideo.ToolsController.Shadows",
+      "value": "Тени"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EditVideo.ToolsController.ShowEdited",
+      "value": "Показать изменённое"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EditVideo.ToolsController.ShowOriginal",
+      "value": "Показать оригинал"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EditVideo.ToolsController.Tint",
+      "value": "Оттенок"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EditVideo.ToolsController.Tools",
+      "value": "Инструменты"
     },
     {
       "_": "types.LangPackString",
@@ -18726,6 +19517,19 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ForumSidebar.RowsView.DeleteTopics",
+      "value": "Удалить темы"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Удалить %1$d выбранные темы и все их сообщения?",
+      "key": "ForumSidebar.RowsView.DeleteTopicsInfo",
+      "many_value": "Удалить %1$d выбранных тем и все их сообщения?",
+      "one_value": "Удалить %1$d выбранную тему и все её сообщения?",
+      "other_value": "Удалить %1$d выбранной темы и все её сообщения?"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ForumTopic.Context.AddMember",
       "value": "Добавить участников"
     },
@@ -19486,6 +20290,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "GeneralSettings.ShowContactsTab",
+      "value": "Отображение вкладки «Контакты»"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "GeneralSettings.ShowProfileId.Text",
       "value": "Показывать ID чатов в профиле"
     },
@@ -19563,6 +20372,31 @@
       "_": "types.LangPackString",
       "key": "Gift.ContextMenu.SetAsTheme",
       "value": "Сделать темой в..."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Delete.Success",
+      "value": "Подарок удалён"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Delete.Text",
+      "value": "Вы точно хотите удалить этот подарок?\n\nПодарок исчезнет из Вашего профиля навсегда, восстановить его не получится."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Delete.Title",
+      "value": "Удаление подарка"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Displayed.NewText",
+      "value": "Подарок теперь отображается на Вашей странице."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Hidden.NewText",
+      "value": "Подарок убран с Вашей страницы."
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -19662,6 +20496,46 @@
       "_": "types.LangPackString",
       "key": "Gift.Marketplace.Sort.Price",
       "value": "Сортировать по цене"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.MoveToGifts.Success",
+      "value": "Подарок перенесён в Ваш аккаунт."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.MoveToGifts.Text",
+      "value": "Перенести этот коллекционный подарок из блокчейна в Ваш аккаунт в Telegram?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.MoveToGifts.Title",
+      "value": "Перенести в подарки"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.MoveToWallet.Location",
+      "value": "Он появится в разделе"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.MoveToWallet.Move",
+      "value": "Перенести"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.MoveToWallet.Success",
+      "value": "Подарок перенесён в Ваш кошелёк."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.MoveToWallet.Text",
+      "value": "Перенести этот подарок в Ваш блокчейн-кошелёк?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.MoveToWallet.Title",
+      "value": "Перенос в кошелёк"
     },
     {
       "_": "types.LangPackString",
@@ -19830,6 +20704,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift.Transfer.MoveToGifts",
+      "value": "Перенести в подарки"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Transfer.MoveToWallet",
+      "value": "Перенести в кошелёк"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gift.Transfer.SendUnlocks",
       "value": "доступно через %@"
     },
@@ -19872,6 +20756,16 @@
       "_": "types.LangPackString",
       "key": "Gift.Transfer.UpdateRequired.Title",
       "value": "Требуется обновление"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.TransferController.FrequentContacts",
+      "value": "Частые контакты"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.TransferController.Title",
+      "value": "Выбор получателя"
     },
     {
       "_": "types.LangPackString",
@@ -20105,6 +20999,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift.View.Context.Delete",
+      "value": "Удалить подарок"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.View.Context.HideFromProfile",
+      "value": "Скрыть из профиля"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.View.Context.ShowOnProfile",
+      "value": "Показывать в профиле"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gift.View.DisplayedInfoHide",
       "value": "Подарок виден в Вашем профиле. [Скрыть >]()"
     },
@@ -20190,8 +21099,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift.Withdraw.ComeBackLater",
+      "value": "\n\nПожалуйста, попробуйте позже."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gift.Withdraw.Proceed",
       "value": "Перейти к Fragment"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Withdraw.SecurityCheck",
+      "value": "Проверка безопасности"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Withdraw.SecurityRequirements",
+      "value": "Вывод подарков доступен, если:\n\n• двухэтапная аутентификация была включена для Вашего аккаунта более **7 дней** назад.\n\n• Вы вошли на этом устройстве более **24 часов** назад."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Withdraw.SetupTwoStepAuth",
+      "value": "Задать облачный пароль"
     },
     {
       "_": "types.LangPackString",
@@ -21518,6 +22447,84 @@
       "value": "Помечать правописание и грамматику"
     },
     {
+      "_": "types.LangPackString",
+      "key": "HTMLBubble.State.WidgetStopped",
+      "value": "Виджет остановлен"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "HTMLDemo.Catalog.AllWidgets",
+      "value": "Все виджеты"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "HTMLDemo.Catalog.AllWidgetsWebKit",
+      "value": "Все виджеты — WebKit"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "HTMLDemo.Catalog.StatsCommandDescription",
+      "value": "Показать или скрыть статистику отрисовки"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "HTMLDemo.Catalog.StatsOff",
+      "value": "Живая статистика выключена. Отправьте %1$@, чтобы включить её."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "HTMLDemo.Catalog.StatsOn",
+      "value": "Живая статистика включена. Каждое HTML-сообщение показывает время отрисовки кадра, количество кадров в секунду, нагрузку на процессор и память, а также общую нагрузку приложения на процессор и память. Отправьте %1$@, чтобы скрыть её."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "HTMLDemo.Catalog.TypeToPick",
+      "value": "Введите /, чтобы выбрать сообщение"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "%1$d виджета",
+      "key": "HTMLDemo.Catalog.WidgetsCount",
+      "many_value": "%1$d виджетов",
+      "one_value": "%1$d виджет",
+      "other_value": "%1$d виджета"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "HTMLDemo.ChatContents.You",
+      "value": "Вы"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "HTMLRender.Engine.Litehtml",
+      "value": "litehtml"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "HTMLRender.Engine.LitehtmlGPU",
+      "value": "litehtml GPU"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "HTMLRender.Engine.LitehtmlOptimized",
+      "value": "litehtml — оптимизированный"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "HTMLRender.Engine.Twidget",
+      "value": "twidget"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "HTMLRender.Engine.WebKit",
+      "value": "WebKit"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "HTMLWidget.Store.WidgetUnavailable",
+      "value": "Виджет недоступен"
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "few_value": "Найдено %d истории",
       "key": "HashtagSearch.StoriesFound",
@@ -21574,6 +22581,16 @@
       "_": "types.LangPackString",
       "key": "InAppLinks.Confirm.OpenExternalNew",
       "value": "Открыть \"%@\"?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "InAppLinks.FreeMessageLinkApplied",
+      "value": "Теперь сообщения %1$@ можно отправлять бесплатно."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "InAppLinks.FreeMessageLinkInvalid",
+      "value": "Ссылка для бесплатной отправки сообщений недействительна."
     },
     {
       "_": "types.LangPackString",
@@ -22079,6 +23096,46 @@
       "value": "%d"
     },
     {
+      "_": "types.LangPackString",
+      "key": "InviteLink.QrCode.InfoChannel",
+      "value": "Любой в Telegram может отсканировать этот код и подписаться на Ваш канал."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "InviteLink.QrCode.InfoGroup",
+      "value": "Любой в Telegram может отсканировать этот код и вступить в Вашу группу."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "InviteLink.QrCode.MenuCopyImage",
+      "value": "Копировать изображение"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "InviteLink.QrCode.MenuCopyLink",
+      "value": "Копировать ссылку"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "InviteLink.QrCode.MenuSaveImage",
+      "value": "Сохранить изображение"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "InviteLink.QrCode.MenuShare",
+      "value": "Поделиться…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "InviteLink.QrCode.Share",
+      "value": "Поделиться QR-кодом"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "InviteLink.QrCode.Title",
+      "value": "Приглашение по QR-коду"
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "few_value": "• осталось %d",
       "key": "InviteLink.Remaining",
@@ -22244,8 +23301,48 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "LeaveChat.Actions.ChatDeleted",
+      "value": "Чат удалён"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LeaveChat.Actions.ChatDeletedForBothSides",
+      "value": "Чат удалён для обеих сторон"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "LeaveChat.Actions.DeleteForAllSubscribers",
       "value": "Удалить для всех"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LeaveChat.Actions.DeletedChannel",
+      "value": "Канал удалён"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LeaveChat.Actions.DeletedGroup",
+      "value": "Группа удалена"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LeaveChat.Actions.LeftChannel",
+      "value": "Вы отписались от канала"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LeaveChat.Actions.LeftGroup",
+      "value": "Вы вышли из группы"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LeaveChat.Actions.RemovedFromChatList",
+      "value": "Удалено из списка чатов."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LeaveChat.Actions.SecretChatDeleted",
+      "value": "Секретный чат удалён"
     },
     {
       "_": "types.LangPackString",
@@ -23120,7 +24217,7 @@
     {
       "_": "types.LangPackString",
       "key": "LoginWidget.LoginAttemptInfo",
-      "value": "Попытка входа совершена с этого устройства."
+      "value": "Вход запрошен с устройства, указанного выше."
     },
     {
       "_": "types.LangPackString",
@@ -23256,6 +24353,11 @@
       "_": "types.LangPackString",
       "key": "ManageLinks.Context.Edit",
       "value": "Изменить"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ManageLinks.Context.QrCode",
+      "value": "Показать QR-код"
     },
     {
       "_": "types.LangPackString",
@@ -23657,6 +24759,63 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "MessageCalendar.ClearHistoryForTheseDays",
+      "value": "Удалить историю за эти дни"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MessageCalendar.ClearHistoryForThisDay",
+      "value": "Удалить историю за этот день"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Выбрано %1$d дня",
+      "key": "MessageCalendar.DaysSelectedTitle",
+      "many_value": "Выбрано %1$d дней",
+      "one_value": "Выбран %1$d день",
+      "other_value": "Выбрано %1$d дня"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Вы точно хотите удалить все сообщения за %1$d выбранных дня?",
+      "key": "MessageCalendar.DeleteAlertText",
+      "many_value": "Вы точно хотите удалить все сообщения за %1$d выбранных дней?",
+      "one_value": "Вы точно хотите удалить все сообщения за %1$d выбранный день?",
+      "other_value": "Вы точно хотите удалить все сообщения за %1$d выбранного дня?"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Вы точно хотите удалить все сообщения за %1$d выбранных дня у всех участников?",
+      "key": "MessageCalendar.DeleteForAllAlertText",
+      "many_value": "Вы точно хотите удалить все сообщения за %1$d выбранных дней у всех участников?",
+      "one_value": "Вы точно хотите удалить все сообщения за %1$d выбранный день у всех участников?",
+      "other_value": "Вы точно хотите удалить все сообщения за %1$d выбранного дня у всех участников?"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Вы точно хотите удалить все свои сообщения за %1$d выбранных дня?",
+      "key": "MessageCalendar.DeleteOwnAlertText",
+      "many_value": "Вы точно хотите удалить все свои сообщения за %1$d выбранных дней?",
+      "one_value": "Вы точно хотите удалить все свои сообщения за %1$d выбранный день?",
+      "other_value": "Вы точно хотите удалить все свои сообщения за %1$d выбранного дня?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MessageCalendar.NothingToDelete",
+      "value": "За выбранные дни нет сообщений для удаления."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MessageCalendar.Select",
+      "value": "Выбрать"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MessageCalendar.Title",
+      "value": "Календарь"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "MessageContext.CopyMessageLink1",
       "value": "Копировать ссылку на сообщение"
     },
@@ -23844,6 +25003,16 @@
       "_": "types.LangPackString",
       "key": "MessagesPrivacy.ChargeforMessages.Select.Info",
       "value": "Вы получите %1$@ от выбранной суммы (~%2$@$) за каждое входящее сообщение."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MessagesPrivacy.Controller.EnterWholeNumber",
+      "value": "Введите целое число от 1 до %1$d."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MessagesPrivacy.Controller.PriceForEachMessage",
+      "value": "Цена каждого сообщения"
     },
     {
       "_": "types.LangPackString",
@@ -24945,6 +26114,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Notification.NoPaidMessagesTokenUsed",
+      "value": "%@ написал(а) Вам бесплатно по ссылке"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.NoPaidMessagesTokenUsedYou",
+      "value": "Вы написали %@ бесплатно по ссылке"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Notification.PaidMessage",
       "value": "%1$@ заплатил(а) %2$@ за отправку сообщения"
     },
@@ -25020,6 +26199,11 @@
       "_": "types.LangPackString",
       "key": "Notification.ProximityYouReached_1",
       "value": "От Вас до %2$@ сейчас %1$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.Reaction.Hidden",
+      "value": "Новая реакция на Ваше сообщение"
     },
     {
       "_": "types.LangPackString",
@@ -25108,6 +26292,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Notification.Story.Hidden",
+      "value": "Опубликована новая история"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.Story.Posted",
+      "value": "опубликовал(а) историю"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Notification.StoryReply",
       "value": "Ответил(а) на Вашу историю: %@"
     },
@@ -25143,6 +26337,26 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "NotificationSettings.Category.ShowNotifications",
+      "value": "Показ уведомлений"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NotificationSettings.Category.ShowSender",
+      "value": "Показ имени отправителя"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NotificationSettings.Category.Sound",
+      "value": "Звук"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NotificationSettings.Channels",
+      "value": "Каналы"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "NotificationSettings.Confirm.Reset",
       "value": "Сбросить настройки"
     },
@@ -25160,6 +26374,119 @@
       "_": "types.LangPackString",
       "key": "NotificationSettings.CountUnreadMessages",
       "value": "Число сообщений"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NotificationSettings.Exception.AlertTonesHeader",
+      "value": "Звуки оповещений"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NotificationSettings.Exception.AuthorNameHeader",
+      "value": "Отображать имя автора"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NotificationSettings.Exception.ClassicTonesHeader",
+      "value": "Классические"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NotificationSettings.Exception.NotificationsHeader",
+      "value": "Уведомления"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NotificationSettings.Exception.PreviewHeader",
+      "value": "Предпросмотр сообщений"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NotificationSettings.Exception.StoriesHeader",
+      "value": "Уведомления об историях"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "%1$d исключения",
+      "key": "NotificationSettings.Exceptions",
+      "many_value": "%1$d исключений",
+      "one_value": "%1$d исключение",
+      "other_value": "%1$d исключения"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NotificationSettings.Exceptions.Add",
+      "value": "Добавить исключение"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NotificationSettings.Exceptions.AlwaysOff",
+      "value": "Всегда выключены"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NotificationSettings.Exceptions.AlwaysOn",
+      "value": "Всегда включены"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NotificationSettings.Exceptions.Automatic",
+      "value": "%1$@ (автоматически)"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NotificationSettings.Exceptions.CustomSound",
+      "value": "Свой звук"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NotificationSettings.Exceptions.DeleteAll",
+      "value": "Удалить все исключения"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NotificationSettings.Exceptions.DeleteAllConfirm",
+      "value": "Вы точно хотите удалить все исключения?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NotificationSettings.Exceptions.Header",
+      "value": "Исключения"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NotificationSettings.Exceptions.HideName",
+      "value": "Скрыть имя"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NotificationSettings.Exceptions.HidePreview",
+      "value": "Скрывать текст"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NotificationSettings.Exceptions.MutedUntil",
+      "value": "Без звука до %1$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NotificationSettings.Exceptions.Remove",
+      "value": "Убрать из исключений"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NotificationSettings.Exceptions.ShowName",
+      "value": "Показать имя"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NotificationSettings.Exceptions.ShowPreview",
+      "value": "Показать превью"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NotificationSettings.GroupChats",
+      "value": "Группы"
     },
     {
       "_": "types.LangPackString",
@@ -25183,6 +26510,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "NotificationSettings.MessageNotifications",
+      "value": "Уведомления о сообщениях"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "NotificationSettings.MessagesPreview",
       "value": "Предпросмотр сообщений"
     },
@@ -25190,6 +26522,66 @@
       "_": "types.LangPackString",
       "key": "NotificationSettings.NotificationTone",
       "value": "Звук сообщений"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NotificationSettings.NotifyMeAbout",
+      "value": "Уведомления о…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NotificationSettings.Off",
+      "value": "Выкл."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NotificationSettings.On",
+      "value": "Вкл."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NotificationSettings.Options",
+      "value": "Настройки"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NotificationSettings.PrivateChats",
+      "value": "Личные чаты"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NotificationSettings.Reactions",
+      "value": "Реакции"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NotificationSettings.Reactions.Contacts",
+      "value": "Мои контакты"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NotificationSettings.Reactions.Everyone",
+      "value": "Все"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NotificationSettings.Reactions.From",
+      "value": "От"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NotificationSettings.Reactions.Messages",
+      "value": "Реакции на мои сообщения"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NotificationSettings.ResetAll",
+      "value": "Сбросить настройки уведомлений"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NotificationSettings.ResetAllInfo",
+      "value": "Отменить все индивидуальные настройки уведомлений для всех контактов, групп и каналов."
     },
     {
       "_": "types.LangPackString",
@@ -25248,6 +26640,46 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "NotificationSettings.Stories",
+      "value": "Истории"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NotificationSettings.Stories.Important",
+      "value": "Важные истории"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NotificationSettings.Stories.ImportantInfo",
+      "value": "Всегда включены для 5 главных контактов."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NotificationSettings.Stories.New",
+      "value": "Новые истории"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NotificationSettings.ThisDevice.DefaultSound",
+      "value": "Звук по умолчанию"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NotificationSettings.ThisDevice.Header",
+      "value": "На этом устройстве"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NotificationSettings.ThisDevice.Info",
+      "value": "Настройки применяются только к этому устройству. Отключение «Уведомлений» или «Показывать текст сообщения» переопределяет все настройки выше. «Звук по умолчанию» используется там, где для звука выше выбрано «По умолчанию»; выбор «Нет» отключает все звуки уведомлений на этом устройстве."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NotificationSettings.ThisDevice.ShowMessageText",
+      "value": "Показ текста сообщения"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "NotificationSettings.ToggleNotifications",
       "value": "Уведомления"
     },
@@ -25260,6 +26692,11 @@
       "_": "types.LangPackString",
       "key": "NotificationSettings.Tone.Default",
       "value": "По умолчанию"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NotificationSettings.TopChats",
+      "value": "Топ-5"
     },
     {
       "_": "types.LangPackString",
@@ -26661,12 +28098,22 @@
     {
       "_": "types.LangPackString",
       "key": "PeerInfo.AnonymousPhone",
-      "value": "анонимный номер"
+      "value": "коллекционный номер"
     },
     {
       "_": "types.LangPackString",
       "key": "PeerInfo.AutoTranslateMessages",
       "value": "Автоперевод сообщений"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PeerInfo.BalanceView.Accessibility",
+      "value": "Баланс: %1$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PeerInfo.BalanceView.Title",
+      "value": "Баланс:"
     },
     {
       "_": "types.LangPackString",
@@ -30645,6 +32092,141 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "QrStudio.ColorsTabView.Title",
+      "value": "Цвета"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Controller.CodeExpiresInMinute",
+      "value": "Код сбросится через 1 минуту."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Controller.CodeFree",
+      "value": "По коду можно написать Вам бесплатно."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Controller.CodePermanent",
+      "value": "Код действует бессрочно."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Controller.CodeReset",
+      "value": "Создан новый код. Прежний больше не работает."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Controller.CopyImage",
+      "value": "Копировать изображение"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Controller.FeeRestored",
+      "value": "Плата за сообщения снова применяется."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Controller.ImageCopied",
+      "value": "Изображение скопировано в буфер обмена."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Controller.LinkCopied",
+      "value": "Ссылка скопирована в буфер обмена."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Controller.MenuCopyLink",
+      "value": "Копировать ссылку"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Controller.MenuDisableTimer",
+      "value": "Отключить таймер"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Controller.MenuExpireAfterMinute",
+      "value": "Ограничить срок до 1 мин."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Controller.MenuResetCode",
+      "value": "Сбросить код"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Controller.MenuRestoreFee",
+      "value": "Вернуть плату за сообщения"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Controller.MenuSaveImage",
+      "value": "Сохранить изображение"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Controller.MenuShare",
+      "value": "Поделиться…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Controller.PillExpiresIn",
+      "value": "Истекает через %1$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Controller.PillFree",
+      "value": "Бесплатно"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Controller.PillPermanent",
+      "value": "Бессрочно"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Controller.PillRemoveFee",
+      "value": "Убрать плату ⭐%1$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Controller.PremiumEmoji",
+      "value": "Все эмодзи доступны с подпиской Premium."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Controller.SomethingWentWrong",
+      "value": "Что-то пошло не так. Пожалуйста, попробуйте снова."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Controller.Subscribe",
+      "value": "Подписаться"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.GiftsTabView.Browse",
+      "value": "Смотреть подарки"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.GiftsTabView.EmptyText",
+      "value": "QR-код можно оформить любым\nколлекционным подарком из Ваших."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.GiftsTabView.EmptyTitle",
+      "value": "Подарков пока нет"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.GiftsTabView.Title",
+      "value": "Коллекционные"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "QuickLook.Preview",
       "value": "Предпросмотр"
     },
@@ -30840,6 +32422,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "RecentSessions.Controller.Rename",
+      "value": "Переименовать"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "RecentSessions.Error.FreshReset",
       "value": "Завершение сеансов с нового устройства недоступно в целях безопасности. Используйте устройство, где Вы авторизовались раньше, или попробуйте снова через несколько часов."
     },
@@ -30867,6 +32454,21 @@
       "_": "types.LangPackString",
       "key": "RecentSessions.TTL.Text",
       "value": "Если сеанс неактивен"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RenameDevice.Controller.DeviceNameHeader",
+      "value": "Имя устройства"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RenameDevice.Controller.DeviceNameInfo",
+      "value": "Имя отображается в списке активных сессий на других устройствах."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RenameDevice.Controller.Title",
+      "value": "Переименовать устройство"
     },
     {
       "_": "types.LangPackString",
@@ -31620,6 +33222,36 @@
       "_": "types.LangPackString",
       "key": "RichTextEditor.Text",
       "value": "Текст"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichTextEditor.WindowController.Action",
+      "value": "Действие"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichTextEditor.WindowController.ActionCopyText",
+      "value": "Копировать текст"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichTextEditor.WindowController.ActionURL",
+      "value": "Ссылка"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichTextEditor.WindowController.ActionUserProfile",
+      "value": "Профиль пользователя"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichTextEditor.WindowController.ChooseUser",
+      "value": "Выбрать пользователя"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichTextEditor.WindowController.CopyTextPlaceholder",
+      "value": "Текст для копирования"
     },
     {
       "_": "types.LangPackString",
@@ -33412,6 +35044,46 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "SessionModal.Controller.ConnectionHeader",
+      "value": "Подключение"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SessionModal.Controller.DeviceHeader",
+      "value": "Устройство"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SessionModal.Controller.FirstSignedAt",
+      "value": "Дата первого входа"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SessionModal.Controller.LastActive",
+      "value": "Последняя активность"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SessionModal.Controller.LocationNotFound",
+      "value": "Не удалось найти это место. Пожалуйста, попробуйте снова."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SessionModal.Controller.OS",
+      "value": "ОС"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SessionModal.Controller.OfficialApp",
+      "value": "Сессия открыта в официальном приложении Telegram"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SessionModal.Controller.Version",
+      "value": "Версия"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "SessionPreview.Accept.Calls",
       "value": "Входящие звонки"
     },
@@ -33924,6 +35596,11 @@
       "_": "types.LangPackString",
       "key": "SettingsSearch.Synonyms.Watch",
       "value": "Apple Watch\nЧасы"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Share.IncompleteDelivery",
+      "value": "Отправка не завершена. Проверьте выбранные чаты перед повторной попыткой, чтобы избежать дубликатов."
     },
     {
       "_": "types.LangPackString",
@@ -37649,6 +39326,41 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "StickerPack.Editing.AddToSet",
+      "value": "Добавить в набор стикеров"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StickerPack.Editing.NamePlaceholder",
+      "value": "Название"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StickerPack.Editing.NewSet",
+      "value": "Новый набор стикеров"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StickerPack.Editing.NewSetText",
+      "value": "Выберите название для набора стикеров."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StickerPack.Editing.SendSticker",
+      "value": "Отправить стикер"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StickerPack.Editing.SetFull",
+      "value": "Достигнуто максимальное количество стикеров в наборе. Попробуйте другой набор."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StickerPack.Editing.StickerAdded",
+      "value": "Стикер добавлен в набор **%1$@**."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "StickerPack.Emoji",
       "value": "Эмодзи"
     },
@@ -37666,6 +39378,86 @@
       "_": "types.LangPackString",
       "key": "StickerPack.Preview.SetGroup",
       "value": "Сделать набором группы"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StickerPack.PreviewModalController.AddExistingSticker",
+      "value": "Добавить существующий стикер"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StickerPack.PreviewModalController.AddSticker",
+      "value": "Добавить стикер"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StickerPack.PreviewModalController.CreateSticker",
+      "value": "Создать новый стикер"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StickerPack.PreviewModalController.DeleteForEveryone",
+      "value": "Удалить для всех"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StickerPack.PreviewModalController.DeleteSetHeader",
+      "value": "Удалить набор стикеров"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StickerPack.PreviewModalController.DeleteSetInfo",
+      "value": "Набор стикеров будет удалён для всех пользователей."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StickerPack.PreviewModalController.EditName",
+      "value": "Изменить название"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StickerPack.PreviewModalController.EditNameText",
+      "value": "Выберите новое название набора."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StickerPack.PreviewModalController.EditNameTitle",
+      "value": "Изменить название набора"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StickerPack.PreviewModalController.EditStickers",
+      "value": "Изменить стикеры"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StickerPack.PreviewModalController.RemoveForMe",
+      "value": "Удалить у себя"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StickerPack.PreviewModalController.Reorder",
+      "value": "Изменить порядок"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StickerPack.PreviewModalController.ReplaceSticker",
+      "value": "Заменить стикер"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StickerPack.PreviewModalController.StickerAdded",
+      "value": "Стикер добавлен в набор **%1$@**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StickerPack.PreviewModalController.StickerUpdated",
+      "value": "Стикер обновлён."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StickerPack.PreviewModalController.StickersBotHint",
+      "value": "Больше возможностей — в боте @stickers."
     },
     {
       "_": "types.LangPackString",
@@ -37820,6 +39612,11 @@
       "_": "types.LangPackString",
       "key": "Stickers.Trending",
       "value": "Популярные стикеры"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Stickers.ViewController.CreateSticker",
+      "value": "Создать стикер"
     },
     {
       "_": "types.LangPackString",
@@ -38038,6 +39835,16 @@
       "_": "types.LangPackString",
       "key": "StorageUsage.ClearedText",
       "value": "%@ освободилось"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StorageUsage.Controller.UsageLessThan",
+      "value": "Telegram занимает менее %1$@ памяти на устройстве."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StorageUsage.Controller.UsageText",
+      "value": "Telegram занимает **%1$@** памяти на устройстве."
     },
     {
       "_": "types.LangPackString",
@@ -39899,7 +41706,7 @@
     {
       "_": "types.LangPackString",
       "key": "TermsOfService.ProceedBot",
-      "value": "Пожалуйста, подтвердите для перехода к %@."
+      "value": "Подтвердите для перехода к %@."
     },
     {
       "_": "types.LangPackString",
@@ -40035,6 +41842,11 @@
       "_": "types.LangPackString",
       "key": "TextUtils.RemovedFromCommunity",
       "value": "Удален(а) из сообщества"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "TextUtils.Widget",
+      "value": "Виджет"
     },
     {
       "_": "types.LangPackString",
@@ -41199,6 +43011,16 @@
       "_": "types.LangPackString",
       "key": "Translate.TranslateEntireChat",
       "value": "Перевести чат целиком"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "TranslateModal.Controller.AlwaysUse",
+      "value": "Постоянное использование в этом чате"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "TranslateModal.Controller.AlwaysUseInfo",
+      "value": "Применять выбранные настройки ИИ к новым текстовым сообщениям перед отправкой."
     },
     {
       "_": "types.LangPackString",
@@ -43044,6 +44866,2130 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "VoiceOver.AIActivity.Failed",
+      "value": "Не удалось"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.AIActivity.HideSteps",
+      "value": "Скрыть шаги"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.AIActivity.HideSummary",
+      "value": "Скрыть сводку"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.AIActivity.InProgress",
+      "value": "Выполняется"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.AIActivity.ShowSteps",
+      "value": "Показать шаги"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.AIActivity.ShowSummary",
+      "value": "Показать сводку"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.AIActivity.Stopped",
+      "value": "Остановлено"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.AIAssistant.StartNewChat",
+      "value": "Начать новый чат"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.AltTab.RecentChats",
+      "value": "Недавние чаты"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Appearance.Theme",
+      "value": "Тема «%@»"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.AttachMedia",
+      "value": "Отправить медиа"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.AuthSessions.CurrentSession",
+      "value": "Текущий сеанс"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Boost.Progress",
+      "value": "%1$@ из %2$@ голосов до %3$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.BotCommands",
+      "value": "Команды бота"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.BotKeyboard",
+      "value": "Клавиатура бота"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Call.Minimize",
+      "value": "Свернуть звонок"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Call.VideoCallCanceled",
+      "value": "Отменённый видеозвонок"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Call.VideoCallIncoming",
+      "value": "Входящий видеозвонок"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Call.VideoCallMissed",
+      "value": "Пропущенный видеозвонок"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Call.VideoCallOutgoing",
+      "value": "Исходящий видеозвонок"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Call.VoiceCallCanceled",
+      "value": "Отменённый звонок"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Call.VoiceCallIncoming",
+      "value": "Входящий звонок"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Call.VoiceCallMissed",
+      "value": "Пропущенный звонок"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Call.VoiceCallOutgoing",
+      "value": "Исходящий звонок"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "%d звезды",
+      "key": "VoiceOver.Calls.RatingStars",
+      "many_value": "%d звёзд",
+      "one_value": "%d звезда",
+      "other_value": "%d звезды"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chart.Date",
+      "value": "Дата"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chart.Description",
+      "value": "график"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chart.LongerPeriod",
+      "value": "Показать более длинный период"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chart.NoData",
+      "value": "Нет данных"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chart.Period",
+      "value": "Период"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chart.Series",
+      "value": "%1$@, максимум %2$@ %3$@, минимум %4$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chart.SeriesAtTime",
+      "value": "%1$@, максимум %2$@ в %3$@, минимум %4$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chart.ShorterPeriod",
+      "value": "Показать более короткий период"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chart.Value",
+      "value": "Значение"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.AnimatedSticker",
+      "value": "Анимированный стикер"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.AnimatedStickerFrom",
+      "value": "Анимированный стикер от %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.AnonymousPoll",
+      "value": "Анонимный опрос"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.AnonymousPollFrom",
+      "value": "Анонимный опрос от: %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.Caption",
+      "value": "Подпись: %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.ChannelInfo",
+      "value": "Информация о канале"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.Contact",
+      "value": "Отправленный контакт"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.ContactEmail",
+      "value": "Email"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "%d адреса электронной почты",
+      "key": "VoiceOver.Chat.ContactEmailCount",
+      "many_value": "%d адресов электронной почты",
+      "one_value": "%d адрес электронной почты",
+      "other_value": "%d адреса электронной почты"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.ContactFrom",
+      "value": "Отправленный контакт от: %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.ContactOrganization",
+      "value": "Организация: %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.ContactPhoneNumber",
+      "value": "Номер телефона"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "%d номера телефона",
+      "key": "VoiceOver.Chat.ContactPhoneNumberCount",
+      "many_value": "%d номеров телефона",
+      "one_value": "%d номер телефона",
+      "other_value": "%d номера телефона"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.Duration",
+      "value": "Длительность: %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.Editor",
+      "value": "Редактор"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.Failed",
+      "value": "Ошибка при отправке"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.File",
+      "value": "Файл"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.FileFrom",
+      "value": "Файл от: %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.ForwardedFrom",
+      "value": "Переслано от: %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.ForwardedFromYou",
+      "value": "Переслано от Вас"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.GoToOriginalMessage",
+      "value": "Перейти к сообщению"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.GroupInfo",
+      "value": "Информация о группе"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.MediaResults",
+      "value": "Результаты из медиа"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.Message",
+      "value": "Сообщение"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Выбрано %d сообщения",
+      "key": "VoiceOver.Chat.MessagesSelected",
+      "many_value": "Выбрано %d сообщений",
+      "one_value": "Выбрано %d сообщение",
+      "other_value": "Выбрано %d сообщения"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.Music",
+      "value": "Аудиосообщение"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.MusicFrom",
+      "value": "Аудиофайл от: %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.MusicTitle",
+      "value": "%1$@, %2$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.NotPlayedByRecipient",
+      "value": "Не прослушано получателем"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.NotPlayedByRecipients",
+      "value": "Не прослушано получателями"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.OpenHint",
+      "value": "Нажмите, чтобы открыть"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.OpenLinkHint",
+      "value": "Нажмите, чтобы открыть ссылку"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.OptionSelected",
+      "value": "выбрано"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.PagePreview",
+      "value": "Предпросмотр страницы"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.Photo",
+      "value": "Фотография"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.PhotoFrom",
+      "value": "Фотография от: %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.PlayHint",
+      "value": "Нажмите, чтобы воспроизвести"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.PlayedByRecipient",
+      "value": "Прослушано получателем"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.PlayedByRecipients",
+      "value": "Прослушано получателями"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.Poll",
+      "value": "Опрос"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.Poll.RecentVoters",
+      "value": "Недавно голосовавшие"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.PollFinalResults",
+      "value": "Результаты"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.PollFrom",
+      "value": "Опрос, от: %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.PollNoVotes",
+      "value": "Нет голосов"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "%d варианта",
+      "key": "VoiceOver.Chat.PollOptionCount",
+      "many_value": "%d вариантов",
+      "one_value": "%d вариант",
+      "other_value": "%d варианта"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "%d голоса",
+      "key": "VoiceOver.Chat.PollVotes",
+      "many_value": "%d голосов",
+      "one_value": "%d голос",
+      "other_value": "%d голоса"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.Profile",
+      "value": "Профиль"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.Record",
+      "value": "Записать"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.RecordModeHint",
+      "value": "Нажмите, чтобы переключиться между голосовым и видеосообщением. Для начала записи используйте действие «Записать»."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.RecordModeVideoMessage",
+      "value": "Видеосообщение"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.RecordModeVoiceMessage",
+      "value": "Голосовое сообщение"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.RecordPreviewVoiceMessage",
+      "value": "Предпросмотр голосового сообщения"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.Reply",
+      "value": "Ответ на сообщение"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.ReplyFrom",
+      "value": "Ответ на сообщение от: %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.ReplyToYourMessage",
+      "value": "Ответ на ваше сообщение"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.ReplyingToMessage",
+      "value": "В ответ на сообщение: %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.SearchByMember",
+      "value": "Искать по участнику"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.SeenByRecipient",
+      "value": "Прочитано получателем"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.SeenByRecipients",
+      "value": "Прочитано получателями"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.Selected",
+      "value": "Выбрано"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.SendAs",
+      "value": "Отправить как"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.Sending",
+      "value": "Отправка"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.Size",
+      "value": "Размер: %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.StakeAmounts",
+      "value": "Суммы ставок"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.Sticker",
+      "value": "Стикер"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.StickerFrom",
+      "value": "Стикер от %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.Stop",
+      "value": "Завершить"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.SwitchTopicsView",
+      "value": "Переключить вид тем"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.Title",
+      "value": "Название: %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.Transcription.Hide",
+      "value": "Скрыть расшифровку"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.Transcription.Transcribe",
+      "value": "Расшифровать"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.Transcription.TranscribePremium",
+      "value": "Расшифровать, Telegram Premium"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.Unknown",
+      "value": "Неизвестно"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "%d непрочитанных сообщения",
+      "key": "VoiceOver.Chat.UnreadMessages",
+      "many_value": "%d непрочитанных сообщений",
+      "one_value": "%d непрочитанное сообщение",
+      "other_value": "%d непрочитанного сообщения"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.Video",
+      "value": "Видео"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.VideoFrom",
+      "value": "Видео от: %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.VideoMessage",
+      "value": "Видеосообщение"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.VideoMessageFrom",
+      "value": "Видеосообщение от: %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.VoiceMessage",
+      "value": "Голосовое сообщение"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.VoiceMessageFrom",
+      "value": "Голосовое сообщение от: %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.WebWidget",
+      "value": "Интерактивный виджет"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.YourAnimatedSticker",
+      "value": "Ваш анимированный стикер"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.YourAnonymousPoll",
+      "value": "Ваш анонимный опрос"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.YourContact",
+      "value": "Отправленный Вами контакт"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.YourFile",
+      "value": "Ваш файл"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.YourMessage",
+      "value": "Ваше сообщение"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.YourMusic",
+      "value": "Ваше аудиосообщение"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.YourPhoto",
+      "value": "Ваша фотография"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.YourPoll",
+      "value": "Ваш опрос"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.YourSticker",
+      "value": "Ваш стикер"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.YourVideo",
+      "value": "Ваше видео"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.YourVideoMessage",
+      "value": "Ваше видеосообщение"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.YourVoiceMessage",
+      "value": "Ваше голосовое сообщение"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.ChatList.ArchiveOptions",
+      "value": "Параметры архива"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.ChatList.CommunityOptions",
+      "value": "Параметры сообщества"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.ChatList.Message",
+      "value": "Сообщение"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.ChatList.MessageEmpty",
+      "value": "Пусто"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.ChatList.MessageFrom",
+      "value": "От: %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.ChatList.MessageRead",
+      "value": "Прочитано"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.ChatList.OpenCommunity",
+      "value": "Открыть сообщество"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.ChatList.OutgoingMessage",
+      "value": "Исходящее сообщение"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.ChatList.SavedMessagesOptions",
+      "value": "Параметры Избранного"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Color.And",
+      "value": "%1$@ и %2$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Color.Black",
+      "value": "Чёрный"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Color.Blue",
+      "value": "Синий"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Color.Cyan",
+      "value": "Голубой"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Color.Gray",
+      "value": "Серый"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Color.Green",
+      "value": "Зелёный"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Color.Orange",
+      "value": "Оранжевый"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Color.Pink",
+      "value": "Розовый"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Color.Red",
+      "value": "Красный"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Color.ThreeTone",
+      "value": "Трёхцветная"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Color.TwoTone",
+      "value": "Двухцветная"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Color.Violet",
+      "value": "Фиолетовый"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Color.White",
+      "value": "Белый"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Color.Yellow",
+      "value": "Жёлтый"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Accept",
+      "value": "Принять"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Add",
+      "value": "Добавить"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Amount",
+      "value": "Сумма"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Apply",
+      "value": "Применить"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Archive",
+      "value": "Архив"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.AspectRatio",
+      "value": "Соотношение сторон"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Back",
+      "value": "Назад"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.BackTo",
+      "value": "Назад к %1$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.BotMenu",
+      "value": "Меню бота"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Calendar",
+      "value": "Календарь"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Call",
+      "value": "Звонок"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Camera",
+      "value": "Камера"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Cancel",
+      "value": "Отменить"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.CancelDownload",
+      "value": "Отменить загрузку"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Checked",
+      "value": "Отмечено"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.ChooseIcon",
+      "value": "Выбрать значок"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Clear",
+      "value": "Очистить"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Close",
+      "value": "Закрыть"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Collapse",
+      "value": "Свернуть"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Color",
+      "value": "Цвет"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Contact",
+      "value": "Контакт"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Copy",
+      "value": "Копировать"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Crop",
+      "value": "Обрезать"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Currency",
+      "value": "Валюта"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.CustomColor",
+      "value": "Свой цвет"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Date",
+      "value": "Дата"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Decline",
+      "value": "Отклонить"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Delete",
+      "value": "Удалить"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.DigitOf",
+      "value": "Цифра %1$d из %2$d"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Done",
+      "value": "Готово"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Down",
+      "value": "Вниз"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Download",
+      "value": "Скачать"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Draw",
+      "value": "Рисовать"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Edit",
+      "value": "Изменить"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Emoji",
+      "value": "Эмодзи"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.EmojiStatus",
+      "value": "Эмодзи-статус"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.EndCall",
+      "value": "Завершить звонок"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.ExitFullscreen",
+      "value": "Выйти из полноэкранного режима"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Expand",
+      "value": "Развернуть"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Fake",
+      "value": "Фейк"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.File",
+      "value": "Файл"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Filter",
+      "value": "Фильтр"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Flip",
+      "value": "Отразить"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.FontSize",
+      "value": "Размер шрифта"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Forward",
+      "value": "Переслать"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Fullscreen",
+      "value": "Полноэкранный режим"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.GIFs",
+      "value": "GIF"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Gift",
+      "value": "Подарок"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Help",
+      "value": "Помощь"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Hide",
+      "value": "Скрыть"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Hours",
+      "value": "Часы"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Info",
+      "value": "Информация"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Invite",
+      "value": "Пригласить"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.ItemOf",
+      "value": "%1$d из %2$d"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Leave",
+      "value": "Покинуть"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Left",
+      "value": "Слева"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Like",
+      "value": "Нравится"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Link",
+      "value": "Ссылка"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Live",
+      "value": "В эфире"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Loading",
+      "value": "Загрузка"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Location",
+      "value": "Геопозиция"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Lock",
+      "value": "Заблокировать"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Locked",
+      "value": "Заблокировано"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Maximize",
+      "value": "Развернуть"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Members",
+      "value": "Участники"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Mentions",
+      "value": "Упоминания"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Menu",
+      "value": "Меню"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Microphone",
+      "value": "Микрофон"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Minimize",
+      "value": "Свернуть"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Minutes",
+      "value": "Минуты"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.More",
+      "value": "Ещё"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.MoveDown",
+      "value": "Вниз"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.MoveEarlier",
+      "value": "Переместить раньше"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.MoveLater",
+      "value": "Переместить позже"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.MoveUp",
+      "value": "Вверх"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Music",
+      "value": "Музыка"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Mute",
+      "value": "Убрать звук"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Muted",
+      "value": "Без звука"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.NewGroup",
+      "value": "Новая группа"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.NewMessage",
+      "value": "Новое сообщение"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Next",
+      "value": "Далее"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.NoiseSuppression",
+      "value": "Шумоподавление"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.NotSelected",
+      "value": "Не выбрано"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Notifications",
+      "value": "Уведомления"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Off",
+      "value": "Выключено"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.On",
+      "value": "Включено"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Online",
+      "value": "В сети"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Open",
+      "value": "Открыть"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.OpenInSafari",
+      "value": "Открыть в Safari"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Options",
+      "value": "Настройки"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.PageOf",
+      "value": "Страница %1$d из %2$d"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Pause",
+      "value": "Пауза"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Photo",
+      "value": "Фото"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.PhotoOf",
+      "value": "Фото %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.PictureInPicture",
+      "value": "Картинка в картинке"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Pin",
+      "value": "Закрепить"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Pinned",
+      "value": "Закреплено"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Play",
+      "value": "Воспроизвести"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.PlaybackOrder",
+      "value": "Порядок воспроизведения"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.PlaybackPosition",
+      "value": "Позиция воспроизведения"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.PlaybackSpeed",
+      "value": "Скорость воспроизведения"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Playlist",
+      "value": "Плейлист"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Poll",
+      "value": "Опрос"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Premium",
+      "value": "Premium"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.PremiumUser",
+      "value": "Premium-пользователь"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Previous",
+      "value": "Назад"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.ProfilePhoto",
+      "value": "Фото профиля"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.QRCode",
+      "value": "QR-код"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.RaiseHand",
+      "value": "Поднять руку"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Reactions",
+      "value": "Реакции"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Recording",
+      "value": "Идёт запись"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Redo",
+      "value": "Повторить"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Refresh",
+      "value": "Обновить"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Remove",
+      "value": "Удалить"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Reorder",
+      "value": "Изменить порядок"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.RepeatAll",
+      "value": "Все"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.RepeatOne",
+      "value": "Одна"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Report",
+      "value": "Пожаловаться"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Repost",
+      "value": "Сделать репост"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Reset",
+      "value": "Сбросить"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Resize",
+      "value": "Изменить размер"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Retry",
+      "value": "Повторить"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Reversed",
+      "value": "В обратном порядке"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Right",
+      "value": "Справа"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Rotate",
+      "value": "Повернуть"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Save",
+      "value": "Сохранить"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Scam",
+      "value": "Мошенник"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Schedule",
+      "value": "Отложить"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.ScrollDown",
+      "value": "Прокрутить вниз"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.ScrollToBottom",
+      "value": "Прокрутить вниз"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.ScrollUp",
+      "value": "Прокрутить вверх"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Search",
+      "value": "Поиск"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Seconds",
+      "value": "Секунды"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Select",
+      "value": "Выбрать"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Selected",
+      "value": "Выбрано"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.SetPrice",
+      "value": "Установить цену"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Settings",
+      "value": "Настройки"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Share",
+      "value": "Поделиться"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.ShareScreen",
+      "value": "Транслировать экран"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Show",
+      "value": "Показать"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.ShowTips",
+      "value": "Показать подсказки"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Shuffle",
+      "value": "Перемешать"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.SkinTone",
+      "value": "Оттенок кожи"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Sort",
+      "value": "Сортировать"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Speaker",
+      "value": "Динамик"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Stars",
+      "value": "Звёзды"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Sticker",
+      "value": "Стикер"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Stories",
+      "value": "Истории"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Story",
+      "value": "История"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Tabs",
+      "value": "Вкладки"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.TagInfo",
+      "value": "Сведения о теге"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Text",
+      "value": "Текст"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Theme",
+      "value": "Тема"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Time",
+      "value": "Время"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Toggle",
+      "value": "Переключить"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.TonAmount",
+      "value": "Сумма в TON"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Translate",
+      "value": "Перевести"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Typing",
+      "value": "Печатает"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Unchecked",
+      "value": "Не отмечено"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Undo",
+      "value": "Отменить"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Unlock",
+      "value": "Разблокировать"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Unmute",
+      "value": "Включить звук"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Unpin",
+      "value": "Открепить"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Unread",
+      "value": "Не прочитано"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.UnreadReactions",
+      "value": "Непрочитанные реакции"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Up",
+      "value": "Вверх"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Verified",
+      "value": "Верифицированный"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Video",
+      "value": "Видео"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.VideoCall",
+      "value": "Видеозвонок"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.VoiceMessage",
+      "value": "Голосовое сообщение"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Volume",
+      "value": "Громкость"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Wallpaper",
+      "value": "Обои"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Zoom",
+      "value": "Масштаб"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.ZoomIn",
+      "value": "Увеличить"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.ZoomOut",
+      "value": "Уменьшить"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Contacts.AddContact",
+      "value": "Добавить контакт"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.DiscardPreparedContent",
+      "value": "Сбросить"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.DismissContextMenu",
+      "value": "Закрыть контекстное меню"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Editing.ClearText",
+      "value": "Очистить текст"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Entertainment.Tabs",
+      "value": "Эмодзи и стикеры"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Forum.Sidebar",
+      "value": "Боковая панель"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Gallery.Delete",
+      "value": "Удалить"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Gallery.Edit",
+      "value": "Изменить"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Gallery.Fullscreen",
+      "value": "На весь экран"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Gallery.PictureInPicture",
+      "value": "Картинка в картинке"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Gallery.Share",
+      "value": "Поделиться"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Gallery.Stickers",
+      "value": "Стикеры"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Gallery.Title",
+      "value": "Просмотр медиа"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Gift.PriceFrom",
+      "value": "от %1$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.GiftPremium",
+      "value": "Подарить Telegram Premium"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.ImageEditor.Arrow",
+      "value": "Стрелка"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.ImageEditor.ArrowType",
+      "value": "Тип стрелки"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.ImageEditor.Blur",
+      "value": "Размытие"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.ImageEditor.BrushSize",
+      "value": "Размер кисти"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.ImageEditor.Eraser",
+      "value": "Ластик"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.ImageEditor.Eyedropper",
+      "value": "Пипетка"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.ImageEditor.Filled",
+      "value": "Заливка"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.ImageEditor.HexColor",
+      "value": "Шестнадцатеричный цвет"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.ImageEditor.Hue",
+      "value": "Тон"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.ImageEditor.Marker",
+      "value": "Маркер"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.ImageEditor.Neon",
+      "value": "Неон"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.ImageEditor.Opacity",
+      "value": "Непрозрачность"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.ImageEditor.Outline",
+      "value": "Контур"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.ImageEditor.Pen",
+      "value": "Перо"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.ImageEditor.Shade",
+      "value": "Оттенок"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.ImageEditor.ShadeOf",
+      "value": "%1$@, оттенок %2$d из %3$d"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.ImageEditor.TextAlignment",
+      "value": "Выравнивание текста"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.ImageEditor.TextStyle",
+      "value": "Стиль текста"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.InstantPage.DecreaseFontSize",
+      "value": "Уменьшить шрифт"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.InstantPage.IncreaseFontSize",
+      "value": "Увеличить шрифт"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.InstantPage.ResetFontSize",
+      "value": "Сбросить размер шрифта"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Location.Map",
+      "value": "Карта"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Login.Password",
+      "value": "Пароль"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Login.PhoneCountryCode",
+      "value": "Код страны"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Login.PhoneNumber",
+      "value": "Номер телефона"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Login.QRCode",
+      "value": "QR-код для входа"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Media.Forward15",
+      "value": "Вперёд на 15 сек."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Media.PlaybackPause",
+      "value": "Пауза"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Media.PlaybackPlay",
+      "value": "Воспроизвести"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Media.PlaybackRate",
+      "value": "Скорость воспроизведения"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Media.PlaybackRateFast",
+      "value": "Быстрая"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Media.PlaybackRateNormal",
+      "value": "Нормальная"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Media.PlaybackStop",
+      "value": "Остановить воспроизведение"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Media.Rewind15",
+      "value": "Назад на 15 сек."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Media.TrimmedRange",
+      "value": "Обрезанный диапазон"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Проголосовано %1$d раза",
+      "key": "VoiceOver.Message.BoostCount",
+      "many_value": "Проголосовано %1$d раз",
+      "one_value": "Проголосовано %1$d раз",
+      "other_value": "Проголосовано %1$d раза"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.MessageContextDelete",
+      "value": "Удалить"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.MessageContextForward",
+      "value": "Переслать"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.MessageContextOpenMessageMenu",
+      "value": "Открыть меню сообщения"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.MessageContextReply",
+      "value": "Ответить"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.MessageContextReport",
+      "value": "Пожаловаться"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.MessageContextSend",
+      "value": "Отправить"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.MessageContextShare",
+      "value": "Поделиться"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.MessageSelectionButtonTag",
+      "value": "Тег"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Navigation.Compose",
+      "value": "Создать"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Navigation.ProxySettings",
+      "value": "Настройки прокси"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Navigation.Search",
+      "value": "Поиск"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.News.Feeds",
+      "value": "Ленты"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Permissions.BoostsRequired",
+      "value": "Нужны голоса"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Recording.StopAndPreview",
+      "value": "Остановить и перейти к предпросмотру"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.RichEditor.AICompose",
+      "value": "Написать с ИИ"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.RichEditor.ButtonPreview",
+      "value": "Предпросмотр кнопки"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.RichEditor.FormulaResult",
+      "value": "Результат формулы"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.RichEditor.List",
+      "value": "Список"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.ScheduledMessages",
+      "value": "Отложенная отправка"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.ScrollStatus",
+      "value": "Строка %1$@ из %2$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Search.Clear",
+      "value": "Очистить"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Search.Filters",
+      "value": "Фильтры поиска"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Segment.ApplyColorTo",
+      "value": "Применить цвет к"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Segment.AvatarOptions",
+      "value": "Параметры аватара"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Segment.RecoveryPhraseLength",
+      "value": "Длина фразы восстановления"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.SelectPeers.Counter",
+      "value": "%1$@, выбрано %2$@ из %3$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.SelfDestructTimerOff",
+      "value": "Удаление по таймеру выключено"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.SelfDestructTimerOn",
+      "value": "Удаление по таймеру: %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.ShortPeer.TagAction",
+      "value": "Тег: %1$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.SilentPostOff",
+      "value": "Выключена публикация без уведомлений"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.SilentPostOn",
+      "value": "Включена публикация без уведомлений"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Stats.Sections",
+      "value": "Разделы статистики"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Stickers",
+      "value": "Стикеры"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.StorageUsage.ChatsAndMedia",
+      "value": "Чаты и медиа"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.SuggestPost",
+      "value": "Предложить пост"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Wallet.Details",
+      "value": "Подробности"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Wallet.Sections",
+      "value": "Разделы кошелька"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Wallet.Word",
+      "value": "Слово %d"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Wallpaper.Gradient",
+      "value": "Градиент"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Wallpaper.HexColor",
+      "value": "Цвет в HEX"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Wallpaper.Item",
+      "value": "Обои %1$d, %2$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Wallpaper.Pattern",
+      "value": "Узор"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Wallpaper.PatternItem",
+      "value": "Узор %1$d"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Wallpaper.Photo",
+      "value": "Фото"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "VoiecChat.ReduceMotion.Desc",
       "value": "Вы можете уменьшить движение для повышения производительности."
     },
@@ -43382,6 +47328,51 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Collectables.AddToCard",
+      "value": "Добавить на карточку"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Collectables.ApplyColor",
+      "value": "Применить цвет"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Collectables.RemoveColor",
+      "value": "Убрать цвет"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Collectables.RemoveFromCard",
+      "value": "Убрать с карточки"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Collectible.AlsoShowInMyGifts",
+      "value": "отображать в моих подарках"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Collectible.Header.AddToCard",
+      "value": "поместить на карту"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Collectible.Header.ApplyColor",
+      "value": "применить цвет"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Collectible.Header.RemoveColor",
+      "value": "убрать цвет"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Collectible.Header.RemoveFromCard",
+      "value": "убрать с карты"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.CollectibleDetailsController.ActionSell",
       "value": "продать"
     },
@@ -43427,6 +47418,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.CollectibleDetailsController.ContextSell",
+      "value": "Продать"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.CollectibleDetailsController.Model",
       "value": "Модель"
     },
@@ -43454,6 +47450,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.CollectibleDetailsController.PreviousCollectible",
       "value": "Предыдущий"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.CollectibleDetailsController.ReplayGiftAnimation",
+      "value": "Повторить анимацию подарка"
     },
     {
       "_": "types.LangPackString",
@@ -43787,6 +47788,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Controller.SaveCardFailed",
+      "value": "Не удалось сохранить карточку"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Controller.SecretPhraseRequired",
       "value": "Требуется секретная фраза"
     },
@@ -43824,6 +47830,31 @@
       "_": "types.LangPackString",
       "key": "Wallet.Controller.SmallTransactionsHidden",
       "value": "Транзакции на сумму менее %1$@ скрыты."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Controller.StickerBackgroundNotAllowedError",
+      "value": "Подарок нельзя установить как фон карточки."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Controller.StickerGridFooter",
+      "value": "Удерживайте подарок, чтобы снять его и наклеить на карточку. Удерживайте стикер на карточке, чтобы снять его снова; используйте жесты вращения и масштабирования на трекпаде, чтобы поворачивать и менять размер."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Controller.StickerInvalidError",
+      "value": "Один из этих стикеров нельзя использовать на карточке. Поддерживаются только подарки, принадлежащие этому кошельку."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Controller.StickerProfileError",
+      "value": "Подарком, добавленным в профиль, нельзя украсить карту. Сперва скройте его из профиля."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Controller.StickerSaveErrorTitle",
+      "value": "Не удалось сохранить карточку"
     },
     {
       "_": "types.LangPackString",
@@ -44354,6 +48385,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.PeerBalanceController.HowDoesItWork",
+      "value": "Как это работает?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.PeerBalanceController.PeerBalanceNotice",
+      "value": "%1$@ владеет %2$@ в блокчейне TON."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.PeerBalanceController.PublicBalanceNotice",
+      "value": "Ваш баланс публичен из-за прозрачности блокчейна."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.ReceiveController.AddressCopied",
       "value": "✓ Адрес скопирован"
     },
@@ -44374,6 +48420,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.ReceiveController.CopyPeerAddress",
+      "value": "Копировать адрес"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.ReceiveController.PeerCaption",
+      "value": "Отправляйте GRAM на этот адрес\nили отсканируйте этот QR-код."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.ReceiveController.PurchaseFailedInfo",
       "value": "Не удалось начать покупку. Попробуйте позже."
     },
@@ -44391,6 +48447,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.ReceiveController.PurchaseUnavailableTitle",
       "value": "Покупка недоступна"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.ReceiveController.ShowPeerQr",
+      "value": "Показать QR-код"
     },
     {
       "_": "types.LangPackString",
@@ -44556,6 +48617,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.SendController.DepositFundsLink",
       "value": "Пополнить баланс ›"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.SendController.DiscardTransfer",
+      "value": "Отменить перевод средств?"
     },
     {
       "_": "types.LangPackString",
@@ -44959,8 +49025,38 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Sticker.ColorRestricted",
+      "value": "Для смены цвета карты подходят только %@."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sticker.ColorRestrictedCollection",
+      "value": "%@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.StickerTutorial.Card",
+      "value": "Перетащите этот коллекционный подарок сюда."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.StickerTutorial.Done",
+      "value": "Можно добавить несколько коллекционных подарков."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.StickerTutorial.Tile",
+      "value": "Перетащите этот коллекционный подарок на карточку, чтобы украсить её."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.TonConnect.Retry",
       "value": "Повторить"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TonConnect.SecretPhraseRequiredInfo",
+      "value": "Введите секретную фразу, чтобы восстановить доступ к этому кошельку и подключить приложение."
     },
     {
       "_": "types.LangPackString",
@@ -45282,6 +49378,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.TransactionRowItem.MovedFromProfile",
+      "value": "перемещён из профиля"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TransactionRowItem.MovedToProfile",
+      "value": "перемещён в профиль"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.TransactionRowItem.OutgoingCollectible",
       "value": "Отправка коллекционного предмета"
     },
@@ -45299,6 +49405,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.TransactionRowItem.Sending",
       "value": "Отправка"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TransactionRowItem.Telegram",
+      "value": "Telegram"
     },
     {
       "_": "types.LangPackString",
@@ -46339,5 +50450,5 @@
       "value": "Показать автозамены"
     }
   ],
-  "version": 2420714
+  "version": 2422520
 }
