@@ -550,6 +550,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ActionManagedBotCreated",
+      "value": "{from}님이 {bot}을(를) 만들었습니다"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ActionManagedBotCreatedYou",
+      "value": "{bot}을(를) 만들었습니다"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ActionMessageChannelDisabled",
       "value": "{peer}는 더 이상 비공개 메시지를 수락하지 않습니다."
     },
@@ -3495,6 +3505,31 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "BotStatusAgent",
+      "value": "에이전트"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotStatusAi",
+      "value": "AI"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotStatusApp",
+      "value": "앱"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotStatusGame",
+      "value": "게임"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotStatusNonBinary",
+      "value": "논바이너리"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "BotStop",
       "value": "봇 차단"
     },
@@ -5690,6 +5725,86 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "CreateBotCreatedText",
+      "value": "**{bot}**이(가) 회원님을 대신해 이 봇을 관리합니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBotCreatedTitle",
+      "value": "{name} 생성 완료!"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "CreateBotLimitText",
+      "other_value": "봇을 최대 {count}개까지 만들 수 있습니다. @BotFather를 통해 기존 봇을 삭제할 수도 있습니다"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBotLimitTextPremium",
+      "value": "**프리미엄**을 구독하면 봇을 최대 {premiumLimit}개까지 만들 수 있습니다. 또는 @BotFather를 통해 기존 봇 {limit}개 중 하나를 삭제하세요"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBotLimitTitle",
+      "value": "봇 한도 초과"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBotName",
+      "value": "봇 이름"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBotText",
+      "value": "{bot}이(가) 회원님을 대신해 챗봇을 만들고 관리하려고 합니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBotTitle",
+      "value": "봇 만들기"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBotUnsupported",
+      "value": "**{bot}**은(는) 봇 관리 모드를 지원하지 않습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBotUsername",
+      "value": "봇 사용자명"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBotUsernameChecking",
+      "value": "확인 중..."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBotUsernameHelp",
+      "value": "봇의 사용자명을 정하세요. 사용자명은 'bot'으로 끝나야 합니다. 예: TetrisBot 또는 tetris_bot."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBotUsernameHint",
+      "value": "'bot'으로 끝나야 하며, {premium}을 구독하면 {suffixes}(으)로 끝날 수도 있습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBotUsernamePremium",
+      "value": "'{suffix}'(으)로 끝나는 사용자명을 사용하려면 텔레그램 프리미엄이 필요합니다. {link}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBotUsernameSubscribe",
+      "value": "구독"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBotUsernameSuffix",
+      "value": "죄송합니다. 사용자명은 'bot'으로 끝나야 합니다."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "CreateGeneralTopicTitle",
       "value": "주제 이름 선택"
     },
@@ -6515,6 +6630,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Edited",
+      "value": "수정됨"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "EmbeddedMessageNoCaption",
       "value": "캡션이 삭제되었습니다."
     },
@@ -6766,12 +6886,12 @@
     {
       "_": "types.LangPackString",
       "key": "ErrorAdminRankEmojiNotAllowed",
-      "value": "관리자 직책에는 이모지를 넣을 수 없습니다"
+      "value": "관리자 태그에는 이모지를 넣을 수 없습니다"
     },
     {
       "_": "types.LangPackString",
       "key": "ErrorAdminRankInvalid",
-      "value": "지정한 관리자 직책이 올바르지 않습니다"
+      "value": "지정한 관리자 태그가 올바르지 않습니다"
     },
     {
       "_": "types.LangPackString",
@@ -8579,6 +8699,21 @@
       "value": "날짜"
     },
     {
+      "_": "types.LangPackString",
+      "key": "GiftInfoDelete",
+      "value": "선물 삭제"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftInfoDeleteDescription",
+      "value": "이 선물을 삭제하시겠습니까?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftInfoDeleteDescription2",
+      "value": "프로필에서 사라지며 복구할 수 없습니다."
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "key": "GiftInfoDescription",
       "other_value": "이 선물을 프로필에 보관하거나 **{amount}** 스타로 전환할 수 있습니다."
@@ -10022,6 +10157,51 @@
       "_": "types.LangPackString",
       "key": "Language",
       "value": "언어"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LanguageAlert",
+      "value": "번역이 {percent}% 완료된 언어 묶음({language})을 적용하려고 합니다.\n\n전체 인터페이스가 이 언어로 바뀝니다. {link}에서 번역 수정을 제안할 수 있습니다.\n\n언제든지 {settings}에서 이전 언어로 되돌릴 수 있습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LanguageAlready",
+      "value": "이미 이 언어 묶음을 사용 중입니다. 언제든지 {settings}에서 이전 언어로 되돌릴 수 있습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LanguageApply",
+      "value": "언어 적용"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LanguageCustomAlert",
+      "value": "번역이 {percent}% 완료된 사용자 지정 언어 묶음({language})을 적용하려고 합니다.\n\n전체 인터페이스가 이 언어로 바뀝니다. {link}에서 번역 수정을 제안할 수 있습니다.\n\n언제든지 {settings}에서 이전 언어로 되돌릴 수 있습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LanguageLoadFailed",
+      "value": "이 언어 묶음을 불러오지 못했습니다. 다시 시도해 주세요."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LanguageNotFound",
+      "value": "죄송합니다. 이 언어 묶음이 존재하지 않습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LanguageTitle",
+      "value": "언어를 바꿀까요?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LanguageTranslateLink",
+      "value": "번역 플랫폼"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LanguageUnknownCustomAlert",
+      "value": "죄송합니다. 이 언어 묶음({language})에는 텔레그램 Web A용 데이터가 없습니다. {link}에서 이 언어 묶음의 번역에 참여할 수 있습니다."
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -11687,6 +11867,11 @@
       "_": "types.LangPackString",
       "key": "NotificationGiftCanTransferAt",
       "value": "이 선물은 {date} 이후에 양도할 수 있습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NotificationGiftDeleted",
+      "value": "선물이 삭제되었습니다"
     },
     {
       "_": "types.LangPackString",
@@ -13792,6 +13977,11 @@
       "_": "types.LangPackStringPluralized",
       "key": "ProfileBirthdayValueAge",
       "other_value": "{date} ({age}세)"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ProfileBotManagedBy",
+      "value": "{bot}이(가) 생성 및 관리"
     },
     {
       "_": "types.LangPackString",
@@ -16025,6 +16215,116 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "SettingsKeywordsArchiveAndMute",
+      "value": "보관, 음소거, 새 대화, 스팸"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SettingsKeywordsAutoDelete",
+      "value": "자동 삭제, 자동 소멸, TTL, 타이머"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SettingsKeywordsBlockedUsers",
+      "value": "차단, 차단 목록, 차단 해제, 추방"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SettingsKeywordsChannels",
+      "value": "채널, 방송"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SettingsKeywordsChatBackground",
+      "value": "배경화면, 배경, 사진"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SettingsKeywordsDataStorage",
+      "value": "저장 공간, 캐시, 데이터 사용량, 자동 다운로드, 트래픽"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SettingsKeywordsFolders",
+      "value": "폴더, 필터, 탭"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SettingsKeywordsGroups",
+      "value": "그룹, 슈퍼그룹"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SettingsKeywordsLanguage",
+      "value": "언어, 지역 설정, 번역"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SettingsKeywordsLastSeen",
+      "value": "온라인, 마지막 접속, 상태"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SettingsKeywordsLogOut",
+      "value": "로그아웃, 계정 나가기, 종료"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SettingsKeywordsNotifications",
+      "value": "음소거, 소리, 알림"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SettingsKeywordsPasscode",
+      "value": "암호, PIN, 잠금, 화면 잠금"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SettingsKeywordsPasskeys",
+      "value": "패스키, WebAuthn, 생체 인증, 지문"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SettingsKeywordsPerformance",
+      "value": "절전, 배터리, 애니메이션, 성능"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SettingsKeywordsPrivateChats",
+      "value": "개인, 다이렉트 메시지, DM"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SettingsKeywordsSessions",
+      "value": "기기, 세션, 로그아웃, 종료"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SettingsKeywordsStickers",
+      "value": "스티커, 이모지, GIF, 마스크, 반응"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SettingsKeywordsTextSize",
+      "value": "글꼴, 글자 크기, 크게, 작게"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SettingsKeywordsTheme",
+      "value": "테마, 색상, 강조색, 다크 모드, 야간 모드"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SettingsKeywordsTimeFormat",
+      "value": "시계, 24시간, 12시간, 오전, 오후"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SettingsKeywordsTwoStep",
+      "value": "2단계 인증, 2단계, 클라우드 비밀번호, 보안"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "SettingsLanguageDesc",
       "value": "{language}, 메시지 번역"
     },
@@ -16237,6 +16537,11 @@
       "_": "types.LangPackString",
       "key": "SettingsSaveChanges",
       "value": "변경사항 저장"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SettingsSearchEmpty",
+      "value": "검색어를 입력하여 설정을 찾으세요"
     },
     {
       "_": "types.LangPackString",
@@ -16496,7 +16801,7 @@
     {
       "_": "types.LangPackString",
       "key": "SponsoredMessage",
-      "value": "스폰서"
+      "value": "광고"
     },
     {
       "_": "types.LangPackString",
@@ -19850,6 +20155,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletConnectManifestInvalid",
+      "value": "이 앱의 정보가 유효하지 않거나 다른 도메인에 속합니다."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletConnectPermissionInfo",
       "value": "이 앱은 허가 없이 자금을 이동할 수 없습니다."
     },
@@ -20240,6 +20550,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletLogoutKeyRotation",
+      "value": "지갑의 키 변경이 아직 확정되지 않았습니다. 새 키는 이 기기에만 저장되어 있습니다. 로그아웃한 뒤 변경이 완료되면 지갑에 접근할 수 없게 됩니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletLogoutWarning",
+      "value": "로그아웃하면 이 기기에 저장된 지갑의 비밀 문구가 삭제됩니다. 먼저 각 비밀 문구가 클라우드에 백업되어 있거나 따로 적어 두었는지 확인하세요."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletMenuItem",
       "value": "자산"
     },
@@ -20385,6 +20705,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletReceiveAddressCopied",
+      "value": "주소를 복사했습니다"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletReceiveBuy",
       "value": "현금 또는 암호화폐로 구매"
     },
@@ -20400,8 +20725,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletReceivePeerNote",
+      "value": "이 주소로 그램을 보내거나 이 QR 코드를 스캔하세요."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletReceivePeerShowQr",
+      "value": "QR 코드 표시"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletReceiveShowQr",
+      "value": "내 QR 코드 표시"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletReceiveTitle",
       "value": "충전"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletRecipientGramWallet",
+      "value": "그램 지갑"
     },
     {
       "_": "types.LangPackString",
@@ -20515,6 +20860,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletSendAmountButton",
+      "value": "{amount} 전송"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletSendBalance",
       "value": "잔액: {amount}"
     },
@@ -20600,6 +20950,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletSendPending",
+      "value": "이미 전송되었을 수 있습니다. 상태를 확인하는 동안 다시 전송하지 마세요."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletSendPendingError",
       "value": "이전 전송이 아직 진행 중입니다. 잠시 후 다시 시도해 주세요."
     },
@@ -20625,8 +20980,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletSendSwitchCurrency",
+      "value": "통화 전환"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletSendTitle",
       "value": "그램 전송"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendUnlinkedWallet",
+      "value": "연결되지 않은 지갑"
     },
     {
       "_": "types.LangPackString",
@@ -20757,6 +21122,16 @@
       "_": "types.LangPackString",
       "key": "WalletTransactionKeyChange",
       "value": "키 변경"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionMovedFromProfile",
+      "value": "프로필에서 이동"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionMovedToProfile",
+      "value": "프로필로 이동"
     },
     {
       "_": "types.LangPackString",
@@ -21019,5 +21394,5 @@
       "value": "성명"
     }
   ],
-  "version": 376754
+  "version": 389728
 }

@@ -190,6 +190,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AccDescr.ShowPassword",
+      "value": "비밀번호 보기"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AccDescr.ShowStreamKey",
       "value": "방송 키 표시"
     },
@@ -227,6 +232,16 @@
       "_": "types.LangPackString",
       "key": "AccDescr.Volume",
       "value": "음량"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AccDescr.WithAdminTag",
+      "value": "관리자 태그 포함: %1$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AccDescr.WithMemberTag",
+      "value": "멤버 태그 포함: %1$s"
     },
     {
       "_": "types.LangPackString",
@@ -1271,7 +1286,7 @@
     {
       "_": "types.LangPackString",
       "key": "AdminRecentActionMessage.ChangeRank",
-      "value": "직위 변경"
+      "value": "태그 변경"
     },
     {
       "_": "types.LangPackString",
@@ -1760,6 +1775,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AdminRecentActionsFilters.TagChanges",
+      "value": "태그 변경"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AdminRecentActionsFilters.UnbannedMembers",
       "value": "금지 해제된 회원"
     },
@@ -2147,6 +2167,11 @@
       "_": "types.LangPackString",
       "key": "AllSubscribers",
       "value": "모든 구독자"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AllViewers",
+      "value": "모든 조회자"
     },
     {
       "_": "types.LangPackString",
@@ -7565,6 +7590,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ChatList.Menu.SwitchTo.A.Passcode",
+      "value": "A 버전으로 전환하려면 먼저 로컬 암호를 해제하세요."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ChatList.Menu.SwitchTo.Webogram",
       "value": "예전 버전으로 전환하기"
     },
@@ -9855,6 +9885,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "DeletedFromYourContacts",
+      "value": "%s님을 연락처에서 삭제했습니다"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "DeletedMessage",
       "value": "삭제된 메시지"
     },
@@ -10282,6 +10317,11 @@
       "_": "types.LangPackString",
       "key": "EditAdminGroupDeleteMessages",
       "value": "메시지 삭제"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EditAdminManageRanks",
+      "value": "멤버 태그 편집"
     },
     {
       "_": "types.LangPackString",
@@ -10910,6 +10950,326 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Experimental.A11y",
+      "value": "키보드 및 스크린 리더"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.A11y.Subtitle",
+      "value": "키보드 탐색, 포커스 테두리 및 스크린 리더 지원"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.BubbleSandbox",
+      "value": "말풍선 테스트 공간"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Connection",
+      "value": "연결"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.CopyDebugInfo",
+      "value": "디버그 정보 복사"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.CopyDebugInfo.Subtitle",
+      "value": "버그 신고용 버전, 브라우저 및 위 설정 정보"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Debug",
+      "value": "디버그 모드"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Debug.Subtitle",
+      "value": "모든 스레드의 콘솔에 상세 로그를 기록합니다"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.DebugInfoCopied",
+      "value": "디버그 정보를 클립보드에 복사했습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Debugging",
+      "value": "디버깅"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Engine",
+      "value": "엔진"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.HideNonContactLinks",
+      "value": "연락처에 없는 사람의 링크 숨기기"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.HideNonContactLinks.Subtitle",
+      "value": "서버에서 요구하지 않는 경우에도 숨깁니다"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.IconLibrary",
+      "value": "아이콘 라이브러리"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Info",
+      "value": "테스트 및 디버깅을 위한 도구입니다. 텔레그램이 느려지거나 불안정해질 수 있으므로 기능을 이해하는 경우에만 변경하세요."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Interface",
+      "value": "인터페이스"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Logs",
+      "value": "디버그 로그"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Logs.Clear",
+      "value": "로그 지우기"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Logs.Cleared",
+      "value": "로그를 지웠습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Logs.Collect",
+      "value": "로그 수집"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Logs.Collect.Debug",
+      "value": "디버그 모드에서는 항상 켜짐"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Logs.Collect.Subtitle",
+      "value": "텔레그램의 동작 내역을 이 기기의 메모리에 저장합니다"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Logs.Download",
+      "value": "로그 다운로드"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Logs.Empty",
+      "value": "아직 로그가 없습니다. 로그 수집을 켜고 문제가 발생한 동작을 다시 해보세요."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Logs.Info",
+      "value": "로그는 회원님이 전송할 때만 이 기기 밖으로 나갑니다. 대화 이름과 메시지의 일부가 포함될 수 있으므로 신뢰하는 사람에게만 보내세요."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Logs.Ready",
+      "value": "로그를 공유할 준비가 되었습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Logs.Send",
+      "value": "대화로 로그 보내기"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Logs.SentTo",
+      "value": "%s에 로그를 보냈습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Logs.SentToSavedMessages",
+      "value": "**저장한 메시지**에 로그를 저장했습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Logs.Share",
+      "value": "로그 공유"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.MemoryWatch",
+      "value": "메모리 모니터링"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.MemoryWatch.Subtitle",
+      "value": "15분마다 메모리 사용량을 로그에 추가합니다"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.OffscreenCanvas",
+      "value": "백그라운드 스티커 처리"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.OffscreenCanvas.Subtitle",
+      "value": "애니메이션 스티커를 메인 스레드 밖에서 그립니다"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.OnNotice",
+      "value": "실험실 설정이 켜져 있습니다"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Pfs",
+      "value": "완전 순방향 비밀성"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Pfs.Subtitle",
+      "value": "24시간마다 교체되는 임시 암호화 키"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.PopupSandbox",
+      "value": "팝업 테스트 공간"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.RTL",
+      "value": "오른쪽에서 왼쪽으로 배치"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.RTL.Subtitle",
+      "value": "언어와 관계없이 앱 화면을 오른쪽에서 왼쪽으로 배치합니다"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.ReleaseMedia",
+      "value": "미디어 메모리 해제"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.ReleaseMedia.Subtitle",
+      "value": "더 이상 표시되지 않는 사진과 동영상의 메모리를 해제합니다"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.ResetAll",
+      "value": "모두 초기화"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Restart",
+      "value": "다시 시작"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Restart.EveryTab",
+      "value": "다시 시작하면 변경 사항이 적용되며, 이 사이트의 모든 텔레그램 탭을 새로고침합니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Restart.ThisTab",
+      "value": "이 탭을 새로고침하면 변경 사항이 적용됩니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Restart.Title",
+      "value": "텔레그램 다시 시작"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.ServiceWorker",
+      "value": "서비스 워커"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.ServiceWorker.Subtitle",
+      "value": "동영상 스트리밍, 다운로드 및 알림"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.SharedWorker",
+      "value": "연결 공유"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.SharedWorker.Subtitle",
+      "value": "모든 탭이 하나의 연결과 캐시를 공유합니다"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.ShowPeerIds",
+      "value": "사용자·대화 ID 표시"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.ShowPeerIds.Subtitle",
+      "value": "사용자, 봇, 그룹 및 채널의 ID와 데이터 센터를 해당 프로필에 표시합니다"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.TestServer",
+      "value": "테스트 서버"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.TestServer.Subtitle",
+      "value": "별도 계정을 사용하는 텔레그램 테스트 서버입니다. 이 탭에만 적용됩니다"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Title",
+      "value": "실험실"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Tools",
+      "value": "개발자 도구"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Transport",
+      "value": "전송 방식"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Transport.Auto",
+      "value": "자동"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Transport.Auto.Subtitle",
+      "value": "WebSocket과 HTTP 중 작동하는 방식으로 전환합니다"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Transport.HTTP",
+      "value": "HTTP만 사용"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Transport.WebSocket",
+      "value": "WebSocket만 사용"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Worker",
+      "value": "백그라운드 네트워크 처리"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Worker.Subtitle",
+      "value": "끄면 디버깅을 위해 연결 처리를 탭 자체에서 실행합니다"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ExpiredStory",
       "value": "만료된 스토리"
     },
@@ -10927,6 +11287,16 @@
       "_": "types.LangPackString",
       "key": "ExpiredStorySubtitle",
       "value": "보낸 사람: %s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ExpiredViewsStub",
+      "value": "스토리 만료 후 **24시간**이 지나면 조회자 목록을 볼 수 없습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ExpiredViewsStubPremiumDescription",
+      "value": "만료되거나 저장된 스토리의 조회자 목록을 보려면 **텔레그램 프리미엄**을 구독하세요."
     },
     {
       "_": "types.LangPackString",
@@ -12319,6 +12689,16 @@
       "value": "대상"
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "key": "HashtagStoriesFound",
+      "other_value": "스토리 %d개 발견"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "HashtagStoriesFoundSubtitle",
+      "value": "%s이(가) 포함된 스토리 보기"
+    },
+    {
       "_": "types.LangPackString",
       "key": "HelpUpgradeChannel",
       "value": "채널 업그레이드에 도움을 주세요"
@@ -12422,6 +12802,11 @@
       "_": "types.LangPackString",
       "key": "IVInteractionsChartTitle",
       "value": "IV 상호작용"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "IdCopied",
+      "value": "ID를 클립보드에 복사했습니다."
     },
     {
       "_": "types.LangPackString",
@@ -13565,6 +13950,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "LearnMore",
+      "value": "자세히 알아보기"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "LeastActiveCommunities",
       "value": "활동이 가장 적은 커뮤니티"
     },
@@ -13964,6 +14354,11 @@
       "value": "통계를 만드는 동안 잠시 기다려 주세요."
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "key": "LocationStories",
+      "other_value": "이 위치의 스토리 %d개"
+    },
+    {
       "_": "types.LangPackString",
       "key": "LocationUpdatedJustNow",
       "value": "방금 업데이트됨"
@@ -14067,6 +14462,11 @@
       "_": "types.LangPackString",
       "key": "Login.Code.SmsAvailableIn",
       "value": "%s 후에 SMS를 요청할 수 있습니다"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Login.Code.TooManyAttempts",
+      "value": "시도 횟수가 너무 많습니다. %s 후에 다시 시도하세요"
     },
     {
       "_": "types.LangPackString",
@@ -14784,6 +15184,111 @@
       "value": "입장 요청"
     },
     {
+      "_": "types.LangPackString",
+      "key": "MemberTag.About",
+      "value": "%1$s님의 이름 옆에 짧은 태그를 추가하세요."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MemberTag.AboutSelf",
+      "value": "이 그룹에서의 역할, 직책 또는 별칭을 알려 주세요. 태그는 모든 참가자에게 표시됩니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MemberTag.AddMember",
+      "value": "멤버 태그 추가"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MemberTag.AddMine",
+      "value": "태그 추가"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MemberTag.EditMember",
+      "value": "멤버 태그 편집"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MemberTag.EditMine",
+      "value": "태그 편집"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MemberTag.EditTitle",
+      "value": "태그 편집"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MemberTag.Info.AddMine",
+      "value": "내 태그 추가"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MemberTag.Info.AdminsOnly",
+      "value": "이 그룹에서는 관리자만 태그를 변경할 수 있습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MemberTag.Info.EditMine",
+      "value": "내 태그 편집"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MemberTag.Info.PreviewAdmin",
+      "value": "관리자 태그"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MemberTag.Info.PreviewMember",
+      "value": "멤버 태그"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MemberTag.Info.PreviewOwner",
+      "value": "소유자 태그"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MemberTag.Info.TextAdmin",
+      "value": "이 초록색 태그 %1$s은(는) **%3$s**에서 사용하는 **%2$s**님의 관리자 태그입니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MemberTag.Info.TextMember",
+      "value": "이 회색 태그 %1$s은(는) **%3$s**에서 사용하는 **%2$s**님의 멤버 태그입니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MemberTag.Info.TextOwner",
+      "value": "이 보라색 태그 %1$s은(는) **%3$s**에서 사용하는 **%2$s**님의 소유자 태그입니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MemberTag.Info.TitleAdmin",
+      "value": "관리자 태그"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MemberTag.Info.TitleMember",
+      "value": "멤버 태그"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MemberTag.Info.TitleOwner",
+      "value": "소유자 태그"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MemberTag.Info.Understood",
+      "value": "알겠습니다"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MemberTag.Label",
+      "value": "태그"
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "key": "Members",
       "other_value": "참가자 %1$d명"
@@ -15097,6 +15602,11 @@
       "_": "types.LangPackString",
       "key": "MultiAccount.ShowNotificationsFromCaption",
       "value": "현재 이용하고 있는 계정에만 알림을 받고 싶다면 이 기능을 끄세요."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MultiAccount.Switched",
+      "value": "%s 계정으로 전환했습니다"
     },
     {
       "_": "types.LangPackString",
@@ -15455,6 +15965,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "NoContactsViewed",
+      "value": "연락처에 있는 사람 중 이 스토리를 본 사람이 없습니다."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "NoEmojiFound",
       "value": "이모지를 찾을 수 없음"
     },
@@ -15462,6 +15977,11 @@
       "_": "types.LangPackString",
       "key": "NoGIFsFound",
       "value": "GIF를 찾지 못했습니다"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NoHashtagStoriesTitle",
+      "value": "스토리를 찾을 수 없습니다"
     },
     {
       "_": "types.LangPackString",
@@ -15487,6 +16007,11 @@
       "_": "types.LangPackString",
       "key": "NoReactions",
       "value": "반응 없음"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NoReactionsStub",
+      "value": "아직 아무도 이 스토리에 반응하지 않았습니다."
     },
     {
       "_": "types.LangPackString",
@@ -15537,6 +16062,16 @@
       "_": "types.LangPackString",
       "key": "NoUsernameFound",
       "value": "이 사용자명을 가진 텔레그램 계정이 없습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NoViews",
+      "value": "조회 없음"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NoViewsStub",
+      "value": "아직 아무도 이 스토리를 보지 않았습니다."
     },
     {
       "_": "types.LangPackString",
@@ -16495,6 +17030,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PaymentConnectionFailed",
+      "value": "결제 서버에 연결할 수 없습니다. 인터넷 연결을 확인한 후 다시 시도해 주세요."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PaymentFailed",
+      "value": "죄송합니다. 결제가 거절되었습니다."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PaymentInfo.Billing.Title",
       "value": "청구 주소를 입력해주세요"
     },
@@ -16547,6 +17092,11 @@
       "_": "types.LangPackString",
       "key": "PaymentNoShippingMethod",
       "value": "죄송합니다. 회원님의 주소로는 배송해 드리기가 어렵습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PaymentPrecheckoutFailed",
+      "value": "죄송합니다. 봇이 결제를 취소했습니다."
     },
     {
       "_": "types.LangPackString",
@@ -16905,6 +17455,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PeerInfo.DataCenter",
+      "value": "DC %d"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PeerInfo.DeleteChannel",
       "value": "채널 삭제"
     },
@@ -16922,6 +17477,11 @@
       "_": "types.LangPackString",
       "key": "PeerInfo.Discussion.Add",
       "value": "추가"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PeerInfo.Id",
+      "value": "ID"
     },
     {
       "_": "types.LangPackString",
@@ -18550,6 +19110,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Proceed",
+      "value": "진행"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Profile",
       "value": "프로필"
     },
@@ -18825,6 +19390,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ReactionsTooltip",
+      "value": "반응: %1$s"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ReadAllMentions",
       "value": "모든 언급 읽기"
     },
@@ -18877,6 +19447,11 @@
       "_": "types.LangPackString",
       "key": "RecoveryEmailTitle",
       "value": "복구 이메일"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ReduceAnimations",
+      "value": "애니메이션 줄이기"
     },
     {
       "_": "types.LangPackString",
@@ -20255,6 +20830,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ServerErrorViewers",
+      "value": "조회자 정보가 기록되지 않았습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ServerErrorViewersFull",
+      "value": "다른 조회자들의 정보가 기록되지 않았습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ServerErrorViewersTitle",
+      "value": "오류"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "SessionsInfo",
       "value": "모든 기기의 세션을 관리할 수 있습니다."
     },
@@ -20610,6 +21200,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "SharedPlace",
+      "value": "장소"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "SharedVoiceTab2",
       "value": "음성"
     },
@@ -20757,6 +21352,21 @@
       "_": "types.LangPackString",
       "key": "SomeReactions",
       "value": "일부 반응"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SortByReactions",
+      "value": "반응순"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SortByReposts",
+      "value": "재게시 순"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SortByTime",
+      "value": "최신순"
     },
     {
       "_": "types.LangPackString",
@@ -20967,6 +21577,11 @@
       "_": "types.LangPackStringPluralized",
       "key": "StarGiftConvertButton",
       "other_value": "스타 %d개에 판매"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "StarGiftConvertText",
+      "other_value": "이 선물을 **스타 %d개**에 판매하시겠습니까? 이 작업은 되돌릴 수 없습니다."
     },
     {
       "_": "types.LangPackString",
@@ -23195,6 +23810,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Stories.Reorder",
+      "value": "순서 변경"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Stories.StealthMode.Activated.Subtitle",
       "value": "스토리 작성자들은 지난 **%s** 및 향후 **%s**간 읽음 목록에서 나를 볼 수 없습니다."
     },
@@ -23300,8 +23920,68 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Story.AddedToAlbum",
+      "value": "이 스토리를 **%s** 앨범에 추가했습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.BoostToUnrestrict",
+      "value": "그룹을 %1$s 부스트하면 메시지 제한이 해제됩니다. 회원님의 부스트는 **%2$s**에서 새 기능을 사용하는 데 도움이 됩니다."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "Story.BoostToUnrestrict.Times",
+      "other_value": "**%d**회"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.CommentPlaceholder",
+      "value": "스토리 댓글..."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.CommentsRestricted",
+      "value": "댓글 제한됨"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "Story.ContainsEmoji",
+      "other_value": "이 스토리에는 **묶음 %d개**의 이모지가 포함되어 있습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.ContainsEmojiFrom",
+      "value": "이 스토리에는 **%s**의 이모지가 포함되어 있습니다."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "Story.ContainsStickers",
+      "other_value": "이 스토리에는 **묶음 %d개**의 스티커가 포함되어 있습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.ContainsStickersFrom",
+      "value": "이 스토리에는 **%s**의 스티커가 포함되어 있습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.ContextMenuHD",
+      "value": "화질 높이기"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.ContextMenuSD",
+      "value": "화질 낮추기"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Story.ExpiredToast",
       "value": "이 스토리는 더 이상 제공되지 않음"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.HideTranslation",
+      "value": "번역 숨기기"
     },
     {
       "_": "types.LangPackString",
@@ -23330,6 +24010,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Story.PlaybackSpeed",
+      "value": "재생 속도"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.ReactionsHint.LongTap",
+      "value": "더 많은 반응을 보려면 길게 누르세요"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.ReactionsHint.RightClick",
+      "value": "더 많은 반응을 보려면 마우스 오른쪽 버튼을 클릭하세요"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Story.RemoveFromProfile",
       "value": "프로필에서 제거"
     },
@@ -23345,13 +24040,103 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Story.SendReactionAsGroupMessage",
+      "value": "메시지로 반응 보내기"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.SendReactionAsMessage",
+      "value": "개인 메시지로 반응 보내기"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.SlideToSeek",
+      "value": "좌우로 밀어 재생 위치 이동"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Story.SoundTooltip",
       "value": "소리를 활성화하려면 여기를 클릭하세요."
     },
     {
       "_": "types.LangPackString",
+      "key": "Story.StealthModeConfirm.Text",
+      "value": "답장이나 반응을 보내면 스토리 게시자가 조회자 목록에서 회원님을 볼 수 있습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.StealthModeConfirm.Title",
+      "value": "현재 스텔스 모드입니다"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.ToastPremiumSaveToGallery",
+      "value": "저장이 허용된 다른 사람의 스토리를 저장하려면 [텔레그램 프리미엄]()을 구독하세요."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.ToastQualityHD.Text",
+      "value": "나중에 화질을 낮추면 더 빠르게 다운로드할 수 있습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.ToastQualityHD.Title",
+      "value": "화질을 높였습니다"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.ToastQualitySD.Text",
+      "value": "이제 스토리를 더 빠르게 다운로드할 수 있습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.ToastQualitySD.Title",
+      "value": "화질을 낮췄습니다"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.ToastStealthModeActiveText",
+      "value": "앞으로 **%s** 동안 조회하는 스토리의 조회자 목록에 회원님이 표시되지 않습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.ToastStealthModeActiveTitle",
+      "value": "현재 스텔스 모드입니다"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Story.Tooltip.MessageSent",
       "value": "메시지 보냄."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.Tooltip.ReactionSent",
+      "value": "반응을 보냈습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.Unsupported",
+      "value": "이 스토리는 아직 텔레그램 웹에서 지원하지 않습니다. 다른 텔레그램 앱에서 열어보세요."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.UpgradeQuality.Action",
+      "value": "화질 높이기"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.UpgradeQuality.Text",
+      "value": "스토리를 더 높은 해상도로 보려면 프리미엄을 구독하세요."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.UpgradeQuality.Title",
+      "value": "고화질 스토리"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.ViewGift",
+      "value": "선물 보기"
     },
     {
       "_": "types.LangPackString",
@@ -23419,9 +24204,24 @@
       "value": "**%s의** 연락처들만 이 스토리를 볼 수 있습니다."
     },
     {
+      "_": "types.LangPackString",
+      "key": "StoryDeleteContact",
+      "value": "연락처 삭제"
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "key": "StoryGroupArchived",
       "other_value": "그룹 프로필에서 %d개의 스토리가 삭제되었습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryHidFromToast",
+      "value": "%s님은 회원님의 스토리를 볼 수 없습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryHideFrom",
+      "value": "%s님에게 내 스토리 숨기기"
     },
     {
       "_": "types.LangPackString",
@@ -23544,6 +24344,16 @@
       "value": "스토리 반응"
     },
     {
+      "_": "types.LangPackString",
+      "key": "StoryReactionsSortDescription",
+      "value": "반응 목록의 정렬 순서를 선택하세요."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryRepostCommented",
+      "value": "댓글을 남김"
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "key": "StorySavedChannelTitle",
       "other_value": "채널 프로필에 %d개의 스토리가 게시되었습니다."
@@ -23625,6 +24435,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "StoryShowBackTo",
+      "value": "%s님에게 내 스토리 숨기지 않기"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryShownBackToToast",
+      "value": "%s님은 회원님의 스토리를 다시 볼 수 있습니다."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "StoryStatistics",
       "value": "스토리 통계"
     },
@@ -23642,6 +24462,16 @@
       "_": "types.LangPackString",
       "key": "StoryViewers",
       "value": "스토리 조회자"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryViewsPremiumHint",
+      "value": "만료되거나 저장된 스토리의 조회자 목록을 보려면 **텔레그램 프리미엄**을 구독하세요."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryViewsSortDescription",
+      "value": "조회자 목록의 정렬 순서를 선택하세요."
     },
     {
       "_": "types.LangPackString",
@@ -24207,6 +25037,11 @@
       "_": "types.LangPackString",
       "key": "Text.CopyLabel_Bio",
       "value": "자기소개 복사"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Text.CopyLabel_Id",
+      "value": "ID 복사"
     },
     {
       "_": "types.LangPackString",
@@ -24780,6 +25615,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "UnsavedChangesDescription.Experimental",
+      "value": "변경한 설정 중 일부는 다시 시작한 후에만 적용됩니다. 지금 다시 시작하시겠습니까?"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "UnsavedChangesDescription.Group",
       "value": "이 그룹의 일부 설정을 변경했습니다. 변경사항을 저장하시겠습니까?"
     },
@@ -24792,6 +25632,16 @@
       "_": "types.LangPackString",
       "key": "UnsupportedAttachment",
       "value": "지원하지 않는 형식입니다"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UnsupportedMessageMessage",
+      "value": "이 메시지를 보려면 텔레그램을 업데이트하세요"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UnsupportedMessageTitle",
+      "value": "지원되지 않는 메시지"
     },
     {
       "_": "types.LangPackString",
@@ -24970,6 +25820,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "UserRestrictionsEditRank",
+      "value": "내 태그 편집"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UserRestrictionsEditRankSingle",
+      "value": "내 태그 편집"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "UserRestrictionsEmbedLinks",
       "value": "링크 보내기"
     },
@@ -24982,6 +25842,11 @@
       "_": "types.LangPackString",
       "key": "UserRestrictionsNoChangeInfo",
       "value": "정보 수정 금지"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UserRestrictionsNoEditRank",
+      "value": "내 태그 설정 불가"
     },
     {
       "_": "types.LangPackString",
@@ -25869,5 +26734,5 @@
       "other_value": "메시지 %1$d개"
     }
   ],
-  "version": 362782
+  "version": 377596
 }
