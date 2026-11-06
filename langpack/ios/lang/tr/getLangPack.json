@@ -4567,7 +4567,7 @@
     {
       "_": "types.LangPackString",
       "key": "Business.AddPostInfo",
-      "value": "Sayfanızda ürünlerinizin veya hizmetlerinizin fotoğraflarını ve videolarını yayınlayın."
+      "value": "Sayfanızda ürün veya hizmetlerinize ait fotoğraf ve videoları yayınlayın."
     },
     {
       "_": "types.LangPackString",
@@ -24942,6 +24942,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift.MoveToWallet.Text",
+      "value": "Bu hediyeyi blok zinciri cüzdanınıza aktarmak ister misiniz?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.MoveToWallet.Title",
+      "value": "Cüzdanıma Taşı"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gift.Offer.Duration",
       "value": "Teklif Süresi"
     },
@@ -25617,6 +25627,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift.Transfer.MoveToWallet",
+      "value": "Cüzdanıma Taşı"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gift.Transfer.SendUnlocks",
       "value": "%@ içinde kilidi açılır"
     },
@@ -25685,7 +25700,7 @@
     {
       "_": "types.LangPackString",
       "key": "Gift.UnavailableAction.Text",
-      "value": "Bu işlemi açmak için hediyeyi Fragment üzerindeki Telegram hesabınıza transfer edin."
+      "value": "Bu hediyeyi cüzdanınızdan profilinize taşıyarak bu eylemi etkinleştirin."
     },
     {
       "_": "types.LangPackString",
@@ -26219,6 +26234,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift.View.Context.HideFromProfile",
+      "value": "Profilden Gizle"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gift.View.Context.SetAsTheme",
       "value": "Tema olarak ayarla..."
     },
@@ -26226,6 +26246,11 @@
       "_": "types.LangPackString",
       "key": "Gift.View.Context.Share",
       "value": "Paylaş"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.View.Context.ShowOnProfile",
+      "value": "Profilde Göster"
     },
     {
       "_": "types.LangPackString",
@@ -59209,8 +59234,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Apps.Disconnect",
+      "value": "Bağlantıyı Kes"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Apps.DisconnectAll",
       "value": "Tüm Uygulamaların Bağlantısını Kes"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Apps.Permissions",
+      "value": "Bu uygulama, cüzdan adresinizi, bakiyenizi ve işlem geçmişinizi görüntüleyebilir. Onayınız olmadan para transferi yapamaz."
     },
     {
       "_": "types.LangPackString",
@@ -59319,13 +59354,43 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Collectible.Header.RemoveFromCard",
+      "value": "karttan sil"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Connect.Action",
       "value": "Bağlan"
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Connect.Disclaimer",
+      "value": "%@, izin almadan para transferi yapamayacaktır."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Connect.Permissions",
+      "value": "Cüzdan adresinizi, bakiyenizi ve işlem geçmişinizi görüntüleyebilecektir."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Connect.Proof",
       "value": "%@, bu cüzdanın sahipliğini kanıtlamanızı gerektirir."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Connect.SuccessText",
+      "value": "Şu anda [%@]() uygulamasına bağlısınız."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Connect.SuccessTitle",
+      "value": "Bağlantı Başarılı"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Connect.Title",
+      "value": "%@ Bağlan"
     },
     {
       "_": "types.LangPackString",
@@ -59715,6 +59780,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Send.DiscardAlertText",
+      "value": "Bu aktarımı iptal etmek ister misiniz?"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Send.Grams",
       "value": "Gram"
     },
@@ -59875,6 +59945,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Sticker.ColorRestricted",
+      "value": "Kartınızın rengini değiştirmek için yalnızca %@ kullanılabilir."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sticker.ColorRestrictedCollection",
+      "value": "%@"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.TermsText",
       "value": "Bu hizmeti kullanarak, [Koşulları]() kabul etmiş olursunuz."
     },
@@ -59941,6 +60021,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Transaction.MovedToProfile",
+      "value": "profile taşındı"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Transaction.NetworkFeesText",
       "value": "Her transfer için %1$@ tutarında küçük bir ağ ücreti alınır.\n\nTelegram, her gün ilk %2$@ tutarını karşılar."
     },
@@ -59998,6 +60083,16 @@
       "_": "types.LangPackString",
       "key": "Wallet.Transfer.DetailsHeader",
       "value": "AYRINTILAR"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transfer.ErrorText",
+      "value": "Havale hazırlanamadı veya gönderilemedi. Adresi, bakiyenizi ve ağ bağlantınızı kontrol edin, ardından tekrar deneyin."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transfer.ErrorTitle",
+      "value": "Aktarım Başarısız"
     },
     {
       "_": "types.LangPackString",
@@ -61793,5 +61888,5 @@
       "value": "Geçersiz bir güvenlik kodu girdiniz."
     }
   ],
-  "version": 22504055
+  "version": 22504083
 }
