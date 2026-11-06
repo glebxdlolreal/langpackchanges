@@ -7753,6 +7753,13 @@
       "value": "Kopiraj označeni tekst"
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "%d slike i videozapisa",
+      "key": "Chat.Date.PhotosAndVideos",
+      "one_value": "%d slika ili videozapis",
+      "other_value": "%d slika i videozapisa"
+    },
+    {
       "_": "types.LangPackString",
       "key": "Chat.Date.ScheduledFor",
       "value": "Zakazano za %@"
@@ -9202,6 +9209,13 @@
       "_": "types.LangPackString",
       "key": "Chat.MessageMenuItems.SponsoredInfo",
       "value": "\nZa razliku od drugih aplikacija, Telegram nikada ne koristi vaše privatne podatke za ciljane oglase. [Saznajte više u pravilima o privatnosti](https://telegram.org/privacy#5-6-no-ads-based-on-user-data)\nOvu poruku vidite samo zato što je netko odabrao ovaj javni kanal kao prostor za promicanje svojih poruka. To znači da se za prikaz oglasa ne traže niti analiziraju korisnički podaci, a svaki korisnik koji gleda kanal na Telegramu vidi istu sponzoriranu poruku.\n\nZa razliku od drugih aplikacija, Telegram nikada ne prati koju ste sponzoriranu poruku otvorili i ne profilira vas na temelju vaše aktivnosti. Također sprječavamo vanjske linkove u sponzoriranim porukama kako bismo osigurali da treće strane ne mogu špijunirati naše korisnike. Smatramo da svatko ima pravo na privatnost, a tehnološke platforme bi to trebale poštivati.\n\nTelegram nudi besplatne i neograničene usluge stotinama milijuna korisnika, što uključuje značajne troškove za podatkovni promet i održavanje servera. Kako bi ostao neovisan i vjeran svojim vrijednostima, Telegram je razvio alat za promociju poruka imajući na umu privatnost korisnika. Pozivamo odgovorne oglašivače da posjete:\n[url]\nOglasi više ne smiju biti sinonim za zlouporabu privatnosti korisnika. Zajedno ćemo pokazati kako bi to sve tehnološke tvrtke trebale raditi."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Poruke za %1$d dana su izbrisane.",
+      "key": "Chat.MessageRangeDeleted.ForMe",
+      "one_value": "Poruke za %1$d dan su izbrisane.",
+      "other_value": "Poruke za %1$d dana su izbrisane."
     },
     {
       "_": "types.LangPackString",
@@ -23447,6 +23461,34 @@
       "value": "Kopiraj naziv pjesme"
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "odabrana su %1$d dana",
+      "key": "MessageCalendar.DaysSelectedTitle",
+      "one_value": "odabran je %1$d dana",
+      "other_value": "odabrano je %1$d dana"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Želite li izbrisati sve poruke za odabrana %1$d dana?",
+      "key": "MessageCalendar.DeleteAlertText",
+      "one_value": "Želite li izbrisati sve poruke za odabrani %1$d dan?",
+      "other_value": "Želite li izbrisati sve poruke za odabranih %1$d dana?"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Želite li izbrisati sve poruke za odabrana %1$d dana za sve članove?",
+      "key": "MessageCalendar.DeleteForAllAlertText",
+      "one_value": "Želite li izbrisati sve poruke za odabrani %1$d dan za sve članove?",
+      "other_value": "Želite li izbrisati sve poruke za odabranih %1$d dana za sve članove?"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Želite li izbrisati sve svoje poruke za odabrana %1$d dana?",
+      "key": "MessageCalendar.DeleteOwnAlertText",
+      "one_value": "Želite li izbrisati sve svoje poruke za odabrani %1$d dan?",
+      "other_value": "Želite li izbrisati sve svoje poruke za odabranih %1$d dana?"
+    },
+    {
       "_": "types.LangPackString",
       "key": "MessageContext.CopyMessageLink1",
       "value": "Kopiraj link poruke"
@@ -26436,7 +26478,7 @@
     {
       "_": "types.LangPackString",
       "key": "PeerInfo.AnonymousPhone",
-      "value": "anonimni broj"
+      "value": "kolekcionarski broj"
     },
     {
       "_": "types.LangPackString",
@@ -43468,8 +43510,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.FlowAuthorization.Cancel",
+      "value": "Odustani"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.FlowAuthorization.RestoreFailedTitle",
       "value": "Vraćanje novčanika nije uspjelo"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.FlowAuthorization.RestoreReason",
+      "value": "Oporavak novčanika"
     },
     {
       "_": "types.LangPackString",
@@ -43587,8 +43639,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.ImportController.Proceed",
+      "value": "Nastavi"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.ImportController.Replace",
       "value": "Zamijeni"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.ImportController.ReplaceWalletTitle",
+      "value": "Zamijeni novčanik"
     },
     {
       "_": "types.LangPackString",
@@ -43767,6 +43829,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.InfoController.Send",
+      "value": "Pošalji"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.InfoController.SendInfo",
       "value": "Prenesite grame bilo kome.\nKliknite # → Novac u razgovorima."
     },
@@ -43844,6 +43911,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.LoadMoreRowItem.ShowMore",
+      "value": "Prikaži više"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.LogoutWarning.BackupsWillBeDeleted",
       "value": "Ovo će izbrisati sve vaše tajne razgovore i **izbrisati sigurnosne kopije novčanika koje sadrže %1$@**. Bez tajnog niza riječi, izgubit ćete pristup tim sredstvima.\n\nMožete koristiti Telegram na svim svojim uređajima odjednom i koristiti nekoliko računa u istoj aplikaciji."
     },
@@ -43891,6 +43963,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.RecipientController.AddressPlaceholder",
       "value": "Adresa ili ime"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.RecipientController.Continue",
+      "value": "Nastavi"
     },
     {
       "_": "types.LangPackString",
@@ -43959,6 +44036,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.ReplaceController.Title",
+      "value": "Zamijeni novčanik"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.SendController.Add",
+      "value": "Dodaj"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.SendController.AddComment",
       "value": "Dodaj komentar"
     },
@@ -44011,6 +44098,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.SendController.NetworkFee",
       "value": "Mrežna naknada:"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.SendController.OpenChat",
+      "value": "Otvori razgovor"
     },
     {
       "_": "types.LangPackString",
@@ -44081,6 +44173,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.SettingsController.BackupEnabledNotice",
       "value": "Vaši ključevi sada su pohranjeni šifrirani u Telegramovim podatkovnim centrima."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.SettingsController.Cancel",
+      "value": "Odustani"
     },
     {
       "_": "types.LangPackString",
@@ -44289,6 +44386,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.SettingsController.TopUp",
+      "value": "Dopuni"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.SettingsController.UpdateSecretPhrase",
       "value": "Ažuriraj tajni niz"
     },
@@ -44439,6 +44541,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.TransactionController.Proceed",
+      "value": "Nastavi"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.TransactionController.Recipient",
       "value": "Primatelj"
     },
@@ -44454,6 +44561,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.TransactionController.SendCollectible",
+      "value": "Pošalji primjerak"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.TransactionController.Sender",
       "value": "Pošiljatelj"
     },
@@ -44461,6 +44573,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.TransactionController.ShowMore",
       "value": "Prikaži više"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TransactionController.TopUp",
+      "value": "Dopuni"
     },
     {
       "_": "types.LangPackString",
@@ -44653,6 +44770,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.WordsController.CancelDisablingTitle",
       "value": "Zadržati kopiju?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.WordsController.Continue",
+      "value": "Nastavi"
     },
     {
       "_": "types.LangPackString",
@@ -45600,5 +45722,5 @@
       "value": "Prikaži zamjene"
     }
   ],
-  "version": 2415243
+  "version": 2422330
 }
