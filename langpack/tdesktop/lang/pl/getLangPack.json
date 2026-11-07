@@ -2123,6 +2123,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_action_pinned_deleted",
+      "value": "Użytkownik {from} przypiął usuniętą wiadomość"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_action_pinned_media",
       "value": "Użytkownik {from} przypiął {media}"
     },
@@ -2502,6 +2507,11 @@
       "_": "types.LangPackString",
       "key": "lng_action_todo_marked_not_done_self",
       "value": "Oznaczono {tasks} jako niewykonane"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_todo_task_quote",
+      "value": "„{task}”"
     },
     {
       "_": "types.LangPackString",
@@ -4828,6 +4838,14 @@
       "_": "types.LangPackString",
       "key": "lng_article_menu_item",
       "value": "Artykuł"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Wklejenie tej treści załączy do wiadomości {count} pliki z komputera:",
+      "key": "lng_article_paste_attach_files",
+      "many_value": "Wklejenie tej treści załączy do wiadomości {count} plików z komputera:",
+      "one_value": "Wklejenie tej treści załączy do wiadomości {count} plik z komputera:",
+      "other_value": "Wklejenie tej treści załączy do wiadomości {count} pliku z komputera:"
     },
     {
       "_": "types.LangPackString",
@@ -13211,6 +13229,14 @@
     {
       "_": "types.LangPackStringPluralized",
       "few_value": "{count}d",
+      "key": "lng_days_badge",
+      "many_value": "{count}d",
+      "one_value": "{count}d",
+      "other_value": "{count}d"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "{count}d",
       "key": "lng_days_tiny",
       "many_value": "{count}d",
       "one_value": "{count}d",
@@ -19104,7 +19130,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_gift_transfer_locked_text",
-      "value": "Aby odblokować tę operację, przekaż ten prezent na swoje konto Telegrama na Fragment."
+      "value": "Aby odblokować tę operację, przenieś ten prezent ze swojego portfela do swojego profilu."
     },
     {
       "_": "types.LangPackString",
@@ -22307,6 +22333,14 @@
       "value": "Dodaj zestaw godzin"
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "{count}g",
+      "key": "lng_hours_badge",
+      "many_value": "{count}g",
+      "one_value": "{count}g",
+      "other_value": "{count}g"
+    },
+    {
       "_": "types.LangPackString",
       "key": "lng_hours_closed",
       "value": "Zamknięte"
@@ -23121,6 +23155,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_keys_legend_media_2x_hold",
+      "value": "Przytrzymaj spację, aby przyspieszyć 2x"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_keys_legend_media_chapter_next",
       "value": "Następny rozdział"
     },
@@ -23201,6 +23240,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_keys_legend_media_speed_scrub",
+      "value": "Przytrzymaj, aby przyspieszyć, przeciągnij, aby dostosować prędkość"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_keys_legend_media_zoom",
       "value": "Przybliż lub oddal"
     },
@@ -23278,6 +23322,11 @@
       "_": "types.LangPackString",
       "key": "lng_keys_legend_section_messages",
       "value": "Wiadomości"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_space",
+      "value": "Spacja"
     },
     {
       "_": "types.LangPackString",
@@ -23925,6 +23974,11 @@
       "_": "types.LangPackString",
       "key": "lng_mac_always_open_with",
       "value": "Zawsze otwórz za pomocą"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_mac_cant_open_chooser",
+      "value": "Nie można otworzyć okna wyboru aplikacji."
     },
     {
       "_": "types.LangPackString",
@@ -24995,6 +25049,11 @@
       "_": "types.LangPackString",
       "key": "lng_media_audio_empty",
       "value": "Tu jeszcze nie ma wiadomości głosowych"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_media_audio_empty_search",
+      "value": "Nie znaleziono wiadomości głosowych"
     },
     {
       "_": "types.LangPackString",
@@ -26293,6 +26352,14 @@
     {
       "_": "types.LangPackStringPluralized",
       "few_value": "{count}m",
+      "key": "lng_months_badge",
+      "many_value": "{count}m",
+      "one_value": "{count}m",
+      "other_value": "{count}m"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "{count}m",
       "key": "lng_months_tiny",
       "many_value": "{count}m",
       "one_value": "{count}m",
@@ -26980,6 +27047,11 @@
       "_": "types.LangPackString",
       "key": "lng_open_link_suspicious_chars",
       "value": "Wyróżnione znaki pochodzą z innego alfabetu niż pozostała część adresu."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_open_link_unsupported",
+      "value": "Telegram nie może otworzyć tego linku."
     },
     {
       "_": "types.LangPackString",
@@ -28964,8 +29036,173 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_canvas",
+      "value": "Obszar roboczy"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_canvas_pan",
+      "value": "Przesuwanie powiększonego obszaru roboczego"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_canvas_paste",
+      "value": "Wklej obraz, naklejkę, plik lub link"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_canvas_undo",
+      "value": "Cofnij"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_canvas_zoom",
+      "value": "Powiększ obszar roboczy w miejscu kursora"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_photo_editor_keys_crop",
       "value": "Przytnij"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_crop_expand",
+      "value": "Powiększ obszar roboczy poza granice zdjęcia"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_crop_room",
+      "value": "Oddal, aby uzyskać przestrzeń wokół zdjęcia"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_double_click",
+      "value": "Podwójne kliknięcie"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_gesture",
+      "value": "{modifier}-{gesture}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_gesture_click",
+      "value": "kliknij"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_gesture_drag",
+      "value": "przeciągnij"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_gesture_drag_edge",
+      "value": "pociągnij krawędź"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_gesture_drag_handle",
+      "value": "uchwyt przeciągania"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_gesture_wheel",
+      "value": "kółko myszy"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_legend",
+      "value": "Pokaż te skróty"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_middle_drag",
+      "value": "Przeciąganie środkowym"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_objects",
+      "value": "Obiekty"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_objects_delete",
+      "value": "Usuń zaznaczenie"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_objects_duplicate",
+      "value": "Powiel zaznaczenie"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_objects_flip",
+      "value": "Odwróć zaznaczenie poziomo"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_objects_rotate",
+      "value": "Obróć, co 45°"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_objects_snap",
+      "value": "Przyciągaj do obszaru roboczego"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_objects_stretch",
+      "value": "Swobodnie zmieniaj kształt"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_objects_text",
+      "value": "Edytuj tekst"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_shapes",
+      "value": "Kształty"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_shapes_instant",
+      "value": "Od razu wybierz kształt z menu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_shapes_proportions",
+      "value": "Zachowaj proporcje lub wyrównaj kąt strzałki"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_timeline",
+      "value": "Oś czasowa"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_timeline_scroll",
+      "value": "Przewiń oś czasową"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_timeline_window",
+      "value": "Przesuń przycięty zakres"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_timeline_zoom",
+      "value": "Powiększ oś czasową"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_tooltip",
+      "value": "Skróty klawiaturowe"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_wheel",
+      "value": "Kółko myszy"
     },
     {
       "_": "types.LangPackString",
@@ -32439,6 +32676,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_qr_box_gifts_empty_about_chat",
+      "value": "Tu jeszcze nie ma prezentów kolekcjonerskich."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_qr_box_gifts_empty_title",
       "value": "Jeszcze nie masz prezentów"
     },
@@ -33459,8 +33701,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_request_channel_delete_stories",
+      "value": "usuwania relacji innych"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_request_channel_edit_messages",
       "value": "edytowania wiadomości innych"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_request_channel_edit_stories",
+      "value": "edytowania relacji innych"
     },
     {
       "_": "types.LangPackString",
@@ -33486,6 +33738,11 @@
       "_": "types.LangPackString",
       "key": "lng_request_channel_post_messages",
       "value": "publikowania wiadomości"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_request_channel_post_stories",
+      "value": "publikowania relacji"
     },
     {
       "_": "types.LangPackString",
@@ -33539,6 +33796,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_request_group_delete_stories",
+      "value": "usuwania relacji innych"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_request_group_edit_stories",
+      "value": "edytowania relacji innych"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_request_group_invite",
       "value": "zapraszania poprzez link"
     },
@@ -33566,6 +33833,11 @@
       "_": "types.LangPackString",
       "key": "lng_request_group_pin_messages",
       "value": "przypinania wiadomości"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_request_group_post_stories",
+      "value": "publikowania relacji"
     },
     {
       "_": "types.LangPackString",
@@ -33604,6 +33876,19 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_request_peer_confirm_add_maybe",
+      "value": "Spowoduje to również dodanie {bot} do {chat}, jeśli nie jest jeszcze członkiem."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Czy na pewno chcesz wysłać {count} czaty do {bot}?",
+      "key": "lng_request_peer_confirm_many",
+      "many_value": "Czy na pewno chcesz wysłać {count} czatów do {bot}?",
+      "one_value": "Czy na pewno chcesz wysłać {count} czat do {bot}?",
+      "other_value": "Czy na pewno chcesz wysłać {count} czatu do {bot}?"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_request_peer_confirm_rights",
       "value": "Spowoduje to również dodanie {bot} do {chat} z uprawnieniami do: {rights}."
     },
@@ -33626,6 +33911,11 @@
       "_": "types.LangPackString",
       "key": "lng_request_peer_rights_and",
       "value": "{rights} i {last}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_request_peer_rights_other",
+      "value": "innych działań administratora"
     },
     {
       "_": "types.LangPackString",
@@ -38846,6 +39136,26 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_size_bytes",
+      "value": "B"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_size_gigabytes",
+      "value": "GB"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_size_kilobytes",
+      "value": "KB"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_size_megabytes",
+      "value": "MB"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_slowmode_enabled",
       "value": "Jest aktywny tryb wolny.\nNastępną wiadomość możesz wysłać za {left}."
     },
@@ -40501,6 +40811,21 @@
       "_": "types.LangPackString",
       "key": "lng_status_bot",
       "value": "bot"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_status_bot_ai",
+      "value": "ai"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_status_bot_app",
+      "value": "aplikacja"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_status_bot_gay",
+      "value": "niebinarny"
     },
     {
       "_": "types.LangPackString",
@@ -43723,6 +44048,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_video_editor_gif_too_large",
+      "value": "Wideo większego niż {size} nie można przekonwertować na GIF"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_video_quality_original",
       "value": "Oryginalna"
     },
@@ -44200,8 +44530,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_chip_nft",
+      "value": "Kolekcjonerskie"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_chip_number",
       "value": "Kolekcjonerski numer"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_chip_username",
+      "value": "Kolekcjonerska nazwa użytkownika"
     },
     {
       "_": "types.LangPackString",
@@ -45269,6 +45609,14 @@
     {
       "_": "types.LangPackStringPluralized",
       "few_value": "{count}t",
+      "key": "lng_weeks_badge",
+      "many_value": "{count}t",
+      "one_value": "{count}t",
+      "other_value": "{count}t"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "{count}t",
       "key": "lng_weeks_tiny",
       "many_value": "{count}t",
       "one_value": "{count}t",
@@ -45350,6 +45698,14 @@
     {
       "_": "types.LangPackStringPluralized",
       "few_value": "{count}l",
+      "key": "lng_years_badge",
+      "many_value": "{count}l",
+      "one_value": "{count}r",
+      "other_value": "{count}r"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "{count}l",
       "key": "lng_years_tiny",
       "many_value": "{count}l",
       "one_value": "{count}r",
@@ -45369,5 +45725,5 @@
       "other_value": "Zapłacono {count} Gwiazdki."
     }
   ],
-  "version": 6038297
+  "version": 6075284
 }
