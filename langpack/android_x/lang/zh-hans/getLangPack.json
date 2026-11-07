@@ -4146,7 +4146,7 @@
     {
       "_": "types.LangPackString",
       "key": "ClearRecentsHint",
-      "value": "清空近期发起的对话列表？"
+      "value": "清除最近搜索？"
     },
     {
       "_": "types.LangPackString",
@@ -4192,6 +4192,11 @@
       "_": "types.LangPackStringPluralized",
       "key": "ClearedSizeChats",
       "other_value": "已清除 %1$s 个聊天中的%2$s"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "ClearedXChats",
+      "other_value": "已清除 %1$s 个聊天的媒体"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -4862,6 +4867,11 @@
       "_": "types.LangPackString",
       "key": "DebugLogcat",
       "value": "使用 Logcat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "DebugLogcatOnly",
+      "value": "重定向到 logcat"
     },
     {
       "_": "types.LangPackString",
@@ -6761,7 +6771,7 @@
     {
       "_": "types.LangPackString",
       "key": "EventLogInfoTitle",
-      "value": "近期操作是什么？"
+      "value": "什么是最近的操作？"
     },
     {
       "_": "types.LangPackString",
@@ -7661,7 +7671,7 @@
     {
       "_": "types.LangPackString",
       "key": "FailureMessageText",
-      "value": "非常抱歉，此消息因为某些错误而无法显示。\n\n请将下面的错误信息通过邮件发送到 support@telegram.org 好让我们能够调查此问题，谢谢！"
+      "value": "非常抱歉，此消息因为某些错误而无法显示。\n\n请拷贝下面的错误信息并提交至 @tgandroidtests 好让我们能够调查此问题，谢谢！"
     },
     {
       "_": "types.LangPackString",
@@ -14705,6 +14715,11 @@
     },
     {
       "_": "types.LangPackStringPluralized",
+      "key": "QDeleteXMessagesFromY",
+      "other_value": "从%2$s 删除%1$s 条消息？"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
       "key": "QDeleteXMessagesFromYRole",
       "other_value": "删除来自 %2$s 的 %1$s 条信息 (%3$s)？"
     },
@@ -16709,6 +16724,11 @@
       "value": "无声发送"
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "key": "SendNoSoundX",
+      "other_value": "无声发送到 %1$s 个聊天"
+    },
+    {
       "_": "types.LangPackString",
       "key": "SendNow",
       "value": "立即发送"
@@ -17456,7 +17476,7 @@
     {
       "_": "types.LangPackString",
       "key": "ShareTextStickerLink2",
-      "value": "查看«%1$s»表情包：%2$s"
+      "value": "查看 \"%1$s\" 表情包：%2$s"
     },
     {
       "_": "types.LangPackString",
@@ -20936,7 +20956,7 @@
     {
       "_": "types.LangPackStringPluralized",
       "key": "YouGiftedPremium",
-      "other_value": "你以 %2$s 价格已赠予 %1$s 个月的 Telegram 高级版订阅"
+      "other_value": "你以 %2$s 价格赠送了 %1$s 个月的 Telegram 高级版订阅"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -23964,5 +23984,5 @@
       "other_value": "%1$s 年"
     }
   ],
-  "version": 1666176
+  "version": 1671686
 }
