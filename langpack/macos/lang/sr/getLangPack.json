@@ -1948,6 +1948,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Auth.Controller.SmsFeeInfo",
+      "value": "Телекомуникациони оператори наплаћују веома скупе цене за слање СМС-а на овај број, па Telegram не може да пошаље кôд за пријаву. Пријавите се преко Telegram-а на телефону или другом уређају, нпр. скенирањем QR кода."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Auth.Login.ConfirmPhone",
       "value": "Да ли је %@ ваш број телефона?"
     },
@@ -8624,6 +8629,16 @@
       "_": "types.LangPackString",
       "key": "Chat.Input.Dictation.Enhancing",
       "value": "Побољшавање…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Dictation.Error.Microphone",
+      "value": "Telegram-у је потребан приступ вашем микрофону да бисте диктирали поруке. Можете то дозволити у одељку System Settings → Privacy & Security → Microphone."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Dictation.Error.Speech",
+      "value": "Telegram-у је потребан приступ препознавању говора да би ваш глас претворио у текст. Можете то дозволити у System Settings → Privacy & Security → Speech Recognition."
     },
     {
       "_": "types.LangPackString",
@@ -16400,6 +16415,21 @@
       "_": "types.LangPackString",
       "key": "CreateBot.Username.EndingsOr",
       "value": "%1$@ или %2$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBot.Username.Premium",
+      "value": "Telegram Premium"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBot.Username.PremiumLink",
+      "value": "[Telegram Premium]()"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBot.Username.PremiumRequired",
+      "value": "За корисничка имена која се завршавају на %1$@ потребан је Telegram Premium."
     },
     {
       "_": "types.LangPackString",
@@ -38748,12 +38778,12 @@
     {
       "_": "types.LangPackString",
       "key": "StorageUsage.Controller.UsageLessThan",
-      "value": "Телеграм користи мање од %1$@ меморије на вашем уређају."
+      "value": "Telegram користи мање од %1$@ меморије на вашем уређају."
     },
     {
       "_": "types.LangPackString",
       "key": "StorageUsage.Controller.UsageText",
-      "value": "Телеграм користи **%1$@** меморије на вашем уређају."
+      "value": "Telegram користи **%1$@** меморије на вашем уређају."
     },
     {
       "_": "types.LangPackString",
@@ -47787,6 +47817,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.TransactionRowItem.MovedFromProfile",
+      "value": "премештено са профила"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TransactionRowItem.MovedToProfile",
+      "value": "премештено на профил"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.TransactionRowItem.OutgoingCollectible",
       "value": "Одлазни колекционарски предмет"
     },
@@ -47804,6 +47844,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.TransactionRowItem.Sending",
       "value": "Слање"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TransactionRowItem.Telegram",
+      "value": "Telegram"
     },
     {
       "_": "types.LangPackString",
@@ -48843,5 +48888,5 @@
       "value": "Прикажи замене"
     }
   ],
-  "version": 2423748
+  "version": 2423799
 }
