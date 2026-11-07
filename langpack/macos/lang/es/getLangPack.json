@@ -6352,6 +6352,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ChannelParticipant.Controller.PermissionsUnverified",
+      "value": "No se pudieron confirmar los permisos actualizados. Revisa los permisos del miembro antes de intentarlo de nuevo."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ChannelParticipant.EditTag",
       "value": "Editar etiqueta"
     },
@@ -11685,6 +11690,11 @@
       "value": "Falló la transcripción del audio. Por favor, reinténtalo."
     },
     {
+      "_": "types.LangPackString",
+      "key": "ChatAudio.FileTranscription.InvalidAudio",
+      "value": "No se pudo transcribir este audio. Usa una grabación de entre 1 segundo y 30 minutos."
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "key": "ChatAudio.FileTranscription.LimitExceeded",
       "one_value": "",
@@ -13773,8 +13783,48 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ChatSend.Failure.ChannelWriteForbidden",
+      "value": "No puedes publicar en este canal ahora mismo."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatSend.Failure.ChatInaccessible",
+      "value": "Este canal o grupo ya no está accesible para ti."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatSend.Failure.ChatWriteForbidden",
+      "value": "No puedes enviar mensajes en este chat ahora mismo."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatSend.Failure.ForwardsRestricted",
+      "value": "No puedes reenviar mensajes de un chat protegido."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ChatSend.Failure.Generic",
       "value": "No se pudo enviar este mensaje. Por favor, reinténtalo."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatSend.Failure.GuestSendForbidden",
+      "value": "Únete al grupo de discusión antes de comentar."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatSend.Failure.MediaForbidden",
+      "value": "No puedes enviar este tipo de mensaje en este chat."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatSend.Failure.PremiumRequired",
+      "value": "Se requiere Telegram Premium para enviar este mensaje."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatSend.Failure.ServerError",
+      "value": "No se pudo enviar este mensaje. Error del servidor: %1$@"
     },
     {
       "_": "types.LangPackString",
@@ -13785,6 +13835,11 @@
       "_": "types.LangPackString",
       "key": "ChatSend.Failure.TopicDeleted",
       "value": "Este tema fue eliminado."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatSend.Failure.UserBlocked",
+      "value": "No puedes enviar este mensaje porque el destinatario te bloqueó."
     },
     {
       "_": "types.LangPackString",
@@ -17240,6 +17295,11 @@
       "_": "types.LangPackString",
       "key": "EditImage.CanvasColorPicker.Opacity",
       "value": "OPACIDAD"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EditImage.CanvasColorPicker.PickFromImage",
+      "value": "Elegir color de la imagen"
     },
     {
       "_": "types.LangPackString",
@@ -25320,6 +25380,16 @@
       "_": "types.LangPackString",
       "key": "Notification.MarkAsRead",
       "value": "Marcar como leído"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.NoPaidMessagesTokenUsed",
+      "value": "%@ usó tu enlace para enviarte mensajes gratis"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.NoPaidMessagesTokenUsedYou",
+      "value": "Usaste el enlace de %@ para enviar mensajes gratis"
     },
     {
       "_": "types.LangPackString",
@@ -34115,6 +34185,16 @@
       "_": "types.LangPackString",
       "key": "SessionModal.Controller.ConnectionHeader",
       "value": "Conexión"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SessionModal.Controller.FirstSignedAt",
+      "value": "Primer inicio de sesión"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SessionModal.Controller.LastActive",
+      "value": "Última actividad"
     },
     {
       "_": "types.LangPackString",
@@ -43742,8 +43822,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "VoiceOver.AttachMedia",
+      "value": "Enviar multimedia"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.AuthSessions.CurrentSession",
+      "value": "Sesión actual"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "VoiceOver.Boost.Progress",
       "value": "%1$@ de %2$@ impulsos para %3$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.BotCommands",
+      "value": "Comandos del bot"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.BotKeyboard",
+      "value": "Teclado del bot"
     },
     {
       "_": "types.LangPackString",
@@ -43832,10 +43932,65 @@
       "value": "Valor"
     },
     {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.AnimatedSticker",
+      "value": "Sticker animado"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.AnimatedStickerFrom",
+      "value": "Sticker animado, de: %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.AnonymousPoll",
+      "value": "Encuesta anónima"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.AnonymousPollFrom",
+      "value": "Encuesta anónima, de: %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.Caption",
+      "value": "Descripción: %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.ChannelInfo",
+      "value": "Información del canal"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.Contact",
+      "value": "Contacto compartido"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.ContactEmail",
+      "value": "Correo"
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "key": "VoiceOver.Chat.ContactEmailCount",
       "one_value": "%d dirección de correo",
       "other_value": "%d direcciones de correo"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.ContactFrom",
+      "value": "Contacto compartido, de: %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.ContactOrganization",
+      "value": "Organización: %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.ContactPhoneNumber",
+      "value": "Número de teléfono"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -43845,8 +44000,48 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.Duration",
+      "value": "Duración: %@"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "VoiceOver.Chat.Editor",
       "value": "Editor"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.Failed",
+      "value": "No se pudo enviar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.File",
+      "value": "Archivo"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.FileFrom",
+      "value": "Archivo, de: %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.ForwardedFrom",
+      "value": "Reenviado de: %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.ForwardedFromYou",
+      "value": "Reenviado de ti"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.GoToOriginalMessage",
+      "value": "Ir al mensaje"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.GroupInfo",
+      "value": "Información del grupo"
     },
     {
       "_": "types.LangPackString",
@@ -43854,10 +44049,40 @@
       "value": "Resultados multimedia"
     },
     {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.Message",
+      "value": "Mensaje"
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "key": "VoiceOver.Chat.MessagesSelected",
       "one_value": "%d mensaje seleccionado",
       "other_value": "%d mensajes seleccionados"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.Music",
+      "value": "Mensaje de música"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.MusicFrom",
+      "value": "Archivo de música, de: %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.MusicTitle",
+      "value": "%1$@, por %2$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.NotPlayedByRecipient",
+      "value": "No reproducido por el destinatario"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.NotPlayedByRecipients",
+      "value": "No reproducido por los destinatarios"
     },
     {
       "_": "types.LangPackString",
@@ -43871,8 +44096,38 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.OptionSelected",
+      "value": "seleccionado"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.PagePreview",
+      "value": "Vista previa de la página"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.Photo",
+      "value": "Foto"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.PhotoFrom",
+      "value": "Foto, de: %@"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "VoiceOver.Chat.PlayHint",
       "value": "Pulsa para reproducir"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.PlayedByRecipient",
+      "value": "Reproducido por el destinatario"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.PlayedByRecipients",
+      "value": "Reproducido por los destinatarios"
     },
     {
       "_": "types.LangPackString",
@@ -43886,8 +44141,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.PollFinalResults",
+      "value": "Resultados finales"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "VoiceOver.Chat.PollFrom",
       "value": "Encuesta, de: %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.PollNoVotes",
+      "value": "Sin votos"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -43903,6 +44168,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.Profile",
+      "value": "Perfil"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "VoiceOver.Chat.Record",
       "value": "Grabar"
     },
@@ -43913,8 +44183,33 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.RecordModeVideoMessage",
+      "value": "Videomensaje"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.RecordModeVoiceMessage",
+      "value": "Mensaje de voz"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "VoiceOver.Chat.SearchByMember",
       "value": "Buscar por miembro"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.SeenByRecipient",
+      "value": "Visto por el destinatario"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.SeenByRecipients",
+      "value": "Visto por los destinatarios"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.Selected",
+      "value": "Seleccionado"
     },
     {
       "_": "types.LangPackString",
@@ -43923,8 +44218,38 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.Sending",
+      "value": "Enviando"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.Size",
+      "value": "Tamaño: %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.Sticker",
+      "value": "Sticker"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.StickerFrom",
+      "value": "Sticker, de: %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.Stop",
+      "value": "Detener"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "VoiceOver.Chat.SwitchTopicsView",
       "value": "Cambiar vista de temas"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.Title",
+      "value": "Título: %@"
     },
     {
       "_": "types.LangPackString",
@@ -43954,8 +44279,43 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.Video",
+      "value": "Video"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.VideoFrom",
+      "value": "Video, de: %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.VideoMessage",
+      "value": "Videomensaje"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.VideoMessageFrom",
+      "value": "Videomensaje, de: %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.VoiceMessage",
+      "value": "Mensaje de voz"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.VoiceMessageFrom",
+      "value": "Mensaje de voz, de: %@"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "VoiceOver.Chat.WebWidget",
       "value": "Widget interactivo"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.YourAnimatedSticker",
+      "value": "Tu sticker animado"
     },
     {
       "_": "types.LangPackString",
@@ -43964,8 +44324,53 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.YourContact",
+      "value": "Tu contacto compartido"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.YourFile",
+      "value": "Tu archivo"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.YourMessage",
+      "value": "Tu mensaje"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.YourMusic",
+      "value": "Tu mensaje de música"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.YourPhoto",
+      "value": "Tu foto"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "VoiceOver.Chat.YourPoll",
       "value": "Tu encuesta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.YourSticker",
+      "value": "Tu sticker"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.YourVideo",
+      "value": "Tu video"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.YourVideoMessage",
+      "value": "Tu videomensaje"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.YourVoiceMessage",
+      "value": "Tu mensaje de voz"
     },
     {
       "_": "types.LangPackString",
@@ -44644,6 +45049,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "VoiceOver.Common.RepeatAll",
+      "value": "Todas"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.RepeatOne",
+      "value": "Una"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "VoiceOver.Common.Report",
       "value": "Reportar"
     },
@@ -44939,6 +45354,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "VoiceOver.DismissContextMenu",
+      "value": "Descartar el menú contextual"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "VoiceOver.Editing.ClearText",
       "value": "Borrar texto"
     },
@@ -44984,6 +45404,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "VoiceOver.GiftPremium",
+      "value": "Regalar Telegram Premium"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "VoiceOver.ImageEditor.Arrow",
       "value": "Flecha"
     },
@@ -45026,6 +45451,11 @@
       "_": "types.LangPackString",
       "key": "VoiceOver.ImageEditor.Outline",
       "value": "Contorno"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.ImageEditor.Pen",
+      "value": "Bolígrafo"
     },
     {
       "_": "types.LangPackString",
@@ -45130,6 +45560,46 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "VoiceOver.MessageContextDelete",
+      "value": "Eliminar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.MessageContextForward",
+      "value": "Reenviar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.MessageContextOpenMessageMenu",
+      "value": "Abrir el menú del mensaje"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.MessageContextReply",
+      "value": "Responder"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.MessageContextReport",
+      "value": "Reportar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.MessageContextSend",
+      "value": "Enviar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.MessageContextShare",
+      "value": "Compartir"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.MessageSelectionButtonTag",
+      "value": "Etiqueta"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "VoiceOver.Navigation.ProxySettings",
       "value": "Ajustes de proxy"
     },
@@ -45175,6 +45645,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "VoiceOver.ScheduledMessages",
+      "value": "Mensajes programados"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.ScrollStatus",
+      "value": "Fila %1$@ de %2$@"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "VoiceOver.Search.Clear",
       "value": "Borrar"
     },
@@ -45205,6 +45685,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "VoiceOver.SelfDestructTimerOff",
+      "value": "Temporizador de autodestrucción desactivado"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.SelfDestructTimerOn",
+      "value": "Temporizador de autodestrucción: %@"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "VoiceOver.ShortPeer.TagAction",
       "value": "Etiqueta: %1$@"
     },
@@ -45215,8 +45705,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "VoiceOver.Stickers",
+      "value": "Stickers"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "VoiceOver.StorageUsage.ChatsAndMedia",
       "value": "Chats y multimedia"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.SuggestPost",
+      "value": "Sugerir post"
     },
     {
       "_": "types.LangPackString",
@@ -45618,6 +46118,16 @@
       "_": "types.LangPackString",
       "key": "Wallet.Collectables.RemoveFromCard",
       "value": "Quitar de la tarjeta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Collectible.Header.ApplyColor",
+      "value": "aplicar color"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Collectible.Header.RemoveColor",
+      "value": "quitar color"
     },
     {
       "_": "types.LangPackString",
@@ -48671,5 +49181,5 @@
       "value": "Mostrar sustituciones"
     }
   ],
-  "version": 2422991
+  "version": 2423046
 }
