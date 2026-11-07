@@ -11816,11 +11816,21 @@
       "value": "Транскрипција звука није успела. Покушајте поново."
     },
     {
+      "_": "types.LangPackString",
+      "key": "ChatAudio.FileTranscription.InvalidAudio",
+      "value": "Овај звучни запис није било могуће претворити у текст. Користите снимак у трајању од 1 секунде до 30 минута."
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "few_value": "Превише захтева за транскрипцију. Покушајте поново за %1$d секунде.",
       "key": "ChatAudio.FileTranscription.LimitExceeded",
       "one_value": "Превише захтева за транскрипцију. Покушајте поново за %1$d секунду.",
       "other_value": "Превише захтева за транскрипцију. Покушајте поново за %1$d секунди."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAudio.FileTranscription.PremiumRequired",
+      "value": "Искористили сте сва бесплатна претварања гласа у текст. За транскрибовање додатних звучних записа потребан је Telegram Premium."
     },
     {
       "_": "types.LangPackString",
@@ -14442,8 +14452,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ChatVoice.Transcription.LanguageInfo",
+      "value": "Језик којим говорите током диктирања. Опција „Аутоматски” користи језик овог ћаскања и језике вашег система."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ChatVoice.Transcription.RecordMessage",
       "value": "Сними поруку"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatVoice.Transcription.ShortcutInfo",
+      "value": "Шта ради пречица ⌘R у пољу за унос поруке. Опција „Аутоматски” диктира када поље садржи текст и снима поруку када је празно."
     },
     {
       "_": "types.LangPackString",
@@ -26402,6 +26422,11 @@
       "_": "types.LangPackString",
       "key": "NotificationSettings.ThisDevice.Header",
       "value": "НА ОВОМ УРЕЂАЈУ"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NotificationSettings.ThisDevice.Info",
+      "value": "Ова подешавања важе само за овај уређај. Искључивање опције „Обавештења“ или „Прикажи текст поруке“ овде надјачава сва подешавања изнад. „Подразумевани звук“ се користи свуда где је звук изнад постављен на „Подразумевано“; избор опције „Без звука“ утишаће све звукове обавештења на овом уређају."
     },
     {
       "_": "types.LangPackString",
@@ -50018,5 +50043,5 @@
       "value": "Прикажи замене"
     }
   ],
-  "version": 2425062
+  "version": 2425138
 }
