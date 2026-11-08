@@ -11627,6 +11627,13 @@
       "value": "%1$d od %2$d"
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Previše zahtjeva za transkripciju. Pokušajte ponovno za %1$d sekunde.",
+      "key": "ChatAudio.FileTranscription.LimitExceeded",
+      "one_value": "Previše zahtjeva za transkripciju. Pokušajte ponovno za %1$d sekundu.",
+      "other_value": "Previše zahtjeva za transkripciju. Pokušajte ponovno za %1$d sekundi."
+    },
+    {
       "_": "types.LangPackString",
       "key": "ChatEmpty.BusinessIntro.How",
       "value": "Korisnik %@ je postavio gornju poruku za sve prazne razgovore. [Kako?]()"
@@ -16067,6 +16074,13 @@
       "value": "Dosegli ste maksimalni limit od %1$d botova."
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Korisničko ime ne može biti dulje od %1$d znaka.",
+      "key": "CreateBot.ModalController.UsernameTooLong",
+      "one_value": "Korisničko ime ne može biti dulje od %1$d znaka.",
+      "other_value": "Korisničko ime ne može biti dulje od %1$d znakova."
+    },
+    {
       "_": "types.LangPackString",
       "key": "CreateBot.SuccessInfo",
       "value": "%1$@ će upravljat ovim botom umjesto vas."
@@ -16080,6 +16094,13 @@
       "_": "types.LangPackString",
       "key": "CreateBot.Title",
       "value": "Izrada bota"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "%1$d korisnička imena",
+      "key": "CreateBot.Username.Count",
+      "one_value": "%1$d korisničko ime",
+      "other_value": "%1$d korisničkih imena"
     },
     {
       "_": "types.LangPackString",
@@ -18577,6 +18598,13 @@
       "value": "Razgovor će biti organiziran po temama koje su napravili administratori ili korisnici."
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Izbrisati %1$d odabrane teme i sve njihove poruke?",
+      "key": "ForumSidebar.RowsView.DeleteTopicsInfo",
+      "one_value": "Izbrisati %1$d odabranu temu i sve njezine poruke?",
+      "other_value": "Izbrisati %1$d odabranih tema i sve njihove poruke?"
+    },
+    {
       "_": "types.LangPackString",
       "key": "ForumTopic.Context.AddMember",
       "value": "Dodaj članove"
@@ -19402,6 +19430,16 @@
       "value": "Postavi kao temu u..."
     },
     {
+      "_": "types.LangPackString",
+      "key": "Gift.Displayed.NewText",
+      "value": "Poklon je sada vidljiv na vašem profilu."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Hidden.NewText",
+      "value": "Poklon je uklonjen s vašeg profila."
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "few_value": "%d pozadine",
       "key": "Gift.Marketplace.Attr.Backdrop",
@@ -20026,6 +20064,11 @@
       "_": "types.LangPackString",
       "key": "Gift.Withdraw.Proceed",
       "value": "Otvori fragment"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Withdraw.SetupTwoStepAuth",
+      "value": "Uključi potvrdu u dva koraka"
     },
     {
       "_": "types.LangPackString",
@@ -21342,6 +21385,13 @@
       "_": "types.LangPackString",
       "key": "HFo-cy-zxI.title",
       "value": "Prikaži pravopis i gramatiku"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "%1$d widgeta",
+      "key": "HTMLDemo.Catalog.WidgetsCount",
+      "one_value": "%1$d widget",
+      "other_value": "%1$d widgeta"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -24988,6 +25038,13 @@
       "value": "Broji nepročitane poruke"
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "%1$d iznimke",
+      "key": "NotificationSettings.Exceptions",
+      "one_value": "%1$d iznimka",
+      "other_value": "%1$d iznimki"
+    },
+    {
       "_": "types.LangPackString",
       "key": "NotificationSettings.IncludeChannels",
       "value": "Sadrži kanale"
@@ -25016,6 +25073,11 @@
       "_": "types.LangPackString",
       "key": "NotificationSettings.NotificationTone",
       "value": "Zvuk obavijesti"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NotificationSettings.ResetAll",
+      "value": "Resetiraj sve obavijesti"
     },
     {
       "_": "types.LangPackString",
@@ -42733,15 +42795,55 @@
     },
     {
       "_": "types.LangPackStringPluralized",
+      "few_value": "%d zvjezdice",
+      "key": "VoiceOver.Calls.RatingStars",
+      "one_value": "%d zvjezdica",
+      "other_value": "%d zvjezdica"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
       "few_value": "%d broja telefona",
       "key": "VoiceOver.Chat.ContactPhoneNumberCount",
       "one_value": "%d broj telefona",
       "other_value": "%d brojeva telefona"
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "%d opcije",
+      "key": "VoiceOver.Chat.PollOptionCount",
+      "one_value": "%d opcija",
+      "other_value": "%d opcija"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "%d glasa",
+      "key": "VoiceOver.Chat.PollVotes",
+      "one_value": "%d glas",
+      "other_value": "%d glasova"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "%d nepročitane poruke",
+      "key": "VoiceOver.Chat.UnreadMessages",
+      "one_value": "%d nepročitana poruka",
+      "other_value": "%d nepročitanih poruka"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.TonAmount",
+      "value": "Iznos u gramima"
+    },
+    {
       "_": "types.LangPackString",
       "key": "VoiceOver.Contacts.AddContact",
       "value": "Dodajte kontakt"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Pojačano %1$d puta",
+      "key": "VoiceOver.Message.BoostCount",
+      "one_value": "Pojačano %1$d put",
+      "other_value": "Pojačano %1$d puta"
     },
     {
       "_": "types.LangPackString",
@@ -43309,6 +43411,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.Controller.ConnectFailed",
       "value": "Povezivanje ove aplikacije nije uspjelo. Pokušajte ponovno."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Controller.ConnectLinkInfo",
+      "value": "Otvorite aplikaciju u pregledniku, odaberite Telegram, kopirajte link za povezivanje i zalijepite ga ovdje."
     },
     {
       "_": "types.LangPackString",
@@ -44520,6 +44627,13 @@
       "_": "types.LangPackString",
       "key": "Wallet.TransactionController.FeeFree",
       "value": "Besplatno (plaća Telegram)"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": ".\n\nTelegram pokriva vaša prva %1$d prijenosa svaki dan.",
+      "key": "Wallet.TransactionController.NetworkFeeGasless",
+      "one_value": ".\n\nTelegram pokriva vaš prvi %1$d prijenos svaki dan.",
+      "other_value": ".\n\nTelegram pokriva vaših prvih %1$d prijenosa svaki dan."
     },
     {
       "_": "types.LangPackString",
@@ -45734,5 +45848,5 @@
       "value": "Prikaži zamjene"
     }
   ],
-  "version": 2422653
+  "version": 2426184
 }
