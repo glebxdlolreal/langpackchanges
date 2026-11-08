@@ -11801,11 +11801,36 @@
       "value": "%1$d od %2$d"
     },
     {
+      "_": "types.LangPackString",
+      "key": "ChatAudio.FileTranscription.Failed",
+      "value": "Transkripcija zvuka nije uspjela. Molimo pokušajte ponovno."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAudio.FileTranscription.InvalidAudio",
+      "value": "Ovaj zvuk nije moguće transkribirati. Koristite snimku između 1 sekunde i 30 minuta."
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "few_value": "Previše zahtjeva za transkripciju. Pokušajte ponovno za %1$d sekunde.",
       "key": "ChatAudio.FileTranscription.LimitExceeded",
       "one_value": "Previše zahtjeva za transkripciju. Pokušajte ponovno za %1$d sekundu.",
       "other_value": "Previše zahtjeva za transkripciju. Pokušajte ponovno za %1$d sekundi."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAudio.FileTranscription.PremiumRequired",
+      "value": "Iskoristili ste besplatne transkripcije. Za transkribiranje više zvukova potreban je Telegram Premium."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAudio.FileTranscription.TooBig",
+      "value": "Zvuk je prevelik za transkripciju. Skratite snimku na manje od 1 MB."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAudio.FileTranscription.TooLong",
+      "value": "Zvuk je predugačak za transkripciju. Skratite snimku na 30 minuta ili manje."
     },
     {
       "_": "types.LangPackString",
@@ -22744,8 +22769,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "LeaveChat.Actions.ChatDeleted",
+      "value": "Razgovor je izbrisan"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LeaveChat.Actions.ChatDeletedForBothSides",
+      "value": "Razgovor je izbrisan za obje strane"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "LeaveChat.Actions.DeleteForAllSubscribers",
       "value": "Izbriši i svim pretplatnicima"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LeaveChat.Actions.DeletedChannel",
+      "value": "Kanal je izbrisan"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LeaveChat.Actions.DeletedGroup",
+      "value": "Grupa je izbrisana"
     },
     {
       "_": "types.LangPackString",
@@ -22761,6 +22806,11 @@
       "_": "types.LangPackString",
       "key": "LeaveChat.Actions.RemovedFromChatList",
       "value": "Uklonjeno iz vašeg popisa razgovora."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LeaveChat.Actions.SecretChatDeleted",
+      "value": "Tajni razgovor je izbrisan"
     },
     {
       "_": "types.LangPackString",
@@ -27445,6 +27495,11 @@
       "_": "types.LangPackString",
       "key": "PeerInfo.AutoTranslateMessages",
       "value": "Automatsko prevođenje"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PeerInfo.BalanceView.Accessibility",
+      "value": "Stanje: %1$@"
     },
     {
       "_": "types.LangPackString",
@@ -45183,6 +45238,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "VoiceOver.ImageEditor.Marker",
+      "value": "Marker"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "VoiceOver.ImageEditor.Opacity",
       "value": "Neprozirnost"
     },
@@ -48703,5 +48763,5 @@
       "value": "Prikaži zamjene"
     }
   ],
-  "version": 2427111
+  "version": 2427123
 }
