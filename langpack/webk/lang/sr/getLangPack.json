@@ -840,6 +840,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AddUserErrorBlacklisted",
+      "value": "Не можете додати овог корисника јер се он налази на списку „Уклоњени корисници”, а ви му не можете уклонити забрану."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AddedToFavorites",
       "value": "Налепница додата у омиљене."
     },
@@ -5200,6 +5205,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "CantAddBotAsAdmin",
+      "value": "Ботови се могу додати на канале само као администратори."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "CantBoostChat",
       "value": "Не можете појачати ову групу или канал."
     },
@@ -5616,6 +5626,11 @@
       "_": "types.LangPackString",
       "key": "ChannelType",
       "value": "Врста канала"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChannelUserCantBot",
+      "value": "Има превише ботова на овом каналу."
     },
     {
       "_": "types.LangPackString",
@@ -8186,6 +8201,11 @@
       "_": "types.LangPackString",
       "key": "ChatService.UserJoinedGroupByRequest",
       "value": "%@ прихваћен/а у групу"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatThemeCantVoice",
+      "value": "Не можете променити тему ћаскања док имате непослату гласовну поруку."
     },
     {
       "_": "types.LangPackString",
@@ -13281,6 +13301,11 @@
       "_": "types.LangPackString",
       "key": "GroupType",
       "value": "Врста групе"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GroupUserCantBot",
+      "value": "Има превише ботова у овој групи."
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -26929,6 +26954,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "UndoAllCustom",
+      "value": "Опозива сва прилагођена подешавања обавештења за све ваше контакте, групе и канале."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "UnknownBotUsers",
       "value": "Непознати корисници"
     },
@@ -28061,6 +28091,31 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Action.Received",
+      "value": "%1$s вам је послао/ла %2$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Action.ReceivedCompact",
+      "value": "послато вам је %s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Action.ReceivedUnknown",
+      "value": "Примили сте %s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Action.Sent",
+      "value": "Послали сте %1$s кориснику %2$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Action.SentUnknown",
+      "value": "Послали сте %s"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Action.WithComment",
       "value": "%1$s: %2$s"
     },
@@ -28356,6 +28411,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Card.DecryptComment",
+      "value": "Дешифруј коментар"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Card.Name",
       "value": "Картица стања"
     },
@@ -28451,6 +28511,41 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Connect.Expired",
+      "value": "Овај захтев за повезивање више није важећи. Поново покрените повезивање из апликације."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Connect.Failed",
+      "value": "Одговарање на захтев није успело."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Connect.HandledElsewhere",
+      "value": "Овај захтев је обрађен на другом уређају."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Connect.ManifestInvalid",
+      "value": "Подаци ове апликације нису важећи или припадају другом домену, па новчаник није повезан."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Connect.ManifestMissing",
+      "value": "Учитавање података ове апликације није успело, па новчаник није повезан."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Connect.Restore",
+      "value": "Овај уређај не садржи тренутни кључ овог новчаника. Опоравите га да бисте користили повезане апликације."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Connect.RestoreAction",
+      "value": "Опорави новчаник"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Connect.SuccessText",
       "value": "Сада сте повезани са %s."
     },
@@ -28458,6 +28553,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.Connect.SuccessTitle",
       "value": "Веза успостављена"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Connect.Undelivered",
+      "value": "Испорука одговора апликације није успела."
     },
     {
       "_": "types.LangPackString",
@@ -28548,6 +28648,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.First.SendText",
+      "value": "Пренесите граме било коме.\nКликните %1$s → %2$s у ћаскањима."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.First.StoreText",
+      "value": "Чувајте своје граме на Telegram-у\n(%1$s → %2$s) или другим новчаницима."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Gram.CheapText",
       "value": "Накнаде су занемарљиве, чак и при великим преносима."
     },
@@ -28595,6 +28705,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.GramTooltip",
       "value": "Грам — Дигитална валута за Telegram"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.GramsAmount",
+      "value": "%1$s %2$s"
     },
     {
       "_": "types.LangPackString",
@@ -28810,6 +28925,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.Request.Sent",
       "value": "Трансакција је послата."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Request.TitleUnknown",
+      "value": "Захтев апликације"
     },
     {
       "_": "types.LangPackString",
@@ -29959,6 +30079,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Widget.NetworkMarker",
+      "value": "Додиривање овог виџета може послати податке боту."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Widget.Restart",
       "value": "Покрени поново"
     },
@@ -30072,5 +30197,5 @@
       "other_value": "%1$d порука"
     }
   ],
-  "version": 380517
+  "version": 380549
 }
