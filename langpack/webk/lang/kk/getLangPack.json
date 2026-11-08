@@ -27813,6 +27813,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Auth.BackupDisabledText",
+      "value": "Telegram-дағы құпия тіркесті қалпына келтірмес бұрын, шифрланған сақтық көшірмені қосыңыз."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Auth.BackupDisabledTitle",
       "value": "Сақтық көшірме өшірілген"
     },
@@ -27858,6 +27863,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Auth.UpdatePhraseErrorText",
+      "value": "Жаңа құпия тіркес іске қосылмады. Алдыңғы тіркесіңіз бен шифрланған сақтық көшірмеңіз әлі де жарамды."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Auth.VerificationExpiredText",
       "value": "Әмиянды растау өтінішінің мерзімі аяқталды. Оны қайта импорттап көріңіз."
     },
@@ -27880,6 +27890,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.Backup.CancelDisabling",
       "value": "Өшіруден бас тарту"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.CancelText",
+      "value": "Құпия тіркесіңіз жаңартылмайды."
     },
     {
       "_": "types.LangPackString",
@@ -27928,6 +27943,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Backup.EnablePhraseUpdatePendingText",
+      "value": "Telegram әзірге блокчейндегі құпия тіркесінің өзгергенін растай алмады. Сәл күте тұрып, қайталап көріңіз не қазіргі құпия тіркесті енгізіңіз."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Backup.EnableVerificationExpiredText",
       "value": "Әмиянды растау өтінішінің мерзімі аяқталды. Сақтық көшірмені қайта қосып көріңіз."
     },
@@ -27940,6 +27960,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.Backup.InvalidPhraseText",
       "value": "Қазіргі құпия тіркестің барлық сөзін тексеріп, қайталап көріңіз."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.KeyChanging",
+      "value": "Әмияныңыздың кілті өзгертіліп жатыр. Өзгеріс расталғаннан кейін қайталап көріңіз."
     },
     {
       "_": "types.LangPackString",
@@ -27960,6 +27985,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.Backup.RetryText",
       "value": "%s\n\nҚайталап көру үшін өшіруді басыңыз."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.RotateFailedText",
+      "value": "%s Құпия тіркесіңіз өзгертілмеді, қазіргісін қолдана беріңіз. Сіз жазған жаңа сөздер қолданылмайды."
     },
     {
       "_": "types.LangPackString",
@@ -28340,13 +28370,38 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Import.EnableBackupText",
+      "value": "Шифрланған сақтық көшірмені қосу үшін әмияныңыздың қазіргі 12 не 24 сөзді құпия тіркесін енгізіңіз."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Import.ErrorText",
+      "value": "Құпия тіркесі мен желілік байланысты тексеріп, қайталап көріңіз."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Import.ErrorTitle",
       "value": "Әмиянды импортталмады"
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Import.InvalidCurrentPhraseLength",
+      "value": "Қазіргі құпия тіркес нақты 12 не 24 сөзден тұруы керек. Кірістірілген тіркесте %s бар."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Import.InvalidPhraseLength",
+      "value": "Құпия сөз тіркесі 12 не 24 сөзден тұруы керек. Енгізілген тіркесті %s бар."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Import.InvalidWord",
       "value": "Жарамсыз сөз"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Import.PhraseChangedText",
+      "value": "Бұл әмиянның кілті өзгерді. 24 сөзден тұратын қазіргі құпия тіркесті енгізіңіз."
     },
     {
       "_": "types.LangPackString",
@@ -28360,13 +28415,38 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Keys.DeleteText",
+      "value": "Құпия тіркесіңізді сақтамасаңыз, қаражатыңызға қол жеткізе алмайсыз."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Keys.DeviceKey",
       "value": "Кілт осы құрылғыда сақталған"
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Keys.DeviceNoKey",
+      "value": "Бұл құрылғыда кілт жоқ"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Keys.DeviceSection",
       "value": "Осы құрылғы"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Keys.Forget",
+      "value": "Кілтті осы құрылғыдан жою"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Keys.ForgetText",
+      "value": "Осы құрылғыдан қайта жіберу үшін сізге құпия тіркесті не шифрланған сақтық көшірме қажет болады."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Keys.ForgetUpdatePendingText",
+      "value": "Бұл әмиянның құпия тіркесі жаңартылуда. Жаңарту аяқталғаннан кейін кілтті бұл құрылғыдан жоюға болады."
     },
     {
       "_": "types.LangPackString",
@@ -28415,8 +28495,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Phrase.Error",
+      "value": "Құпия тіркес көрсетілмеді."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Phrase.ErrorTitle",
       "value": "Құпия тіркес көрсетілмеді."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Phrase.PasswordText",
+      "value": "Құпия тіркесіңізді көру үшін құпиясөзіңізді енгізіңіз."
     },
     {
       "_": "types.LangPackString",
@@ -28475,6 +28565,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Replace.ImportText",
+      "value": "Telegram-да құрылған құпия тіркес бойынша әмиянды әкеліңіз."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Replace.PasswordText",
+      "value": "Әмиянды ауыстыру үшін екі сатылы растау құпиясөзін енгізіңіз."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Replace.Title",
       "value": "Әмиянды ауыстыру"
     },
@@ -28525,8 +28625,38 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Restore.BackupText",
+      "value": "Кілтті осы әмиянға шифрланған сақтық көшірмеден қалпына келтіру үшін екі сатылы растау құпиясөзін енгізіңіз."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Restore.Done",
+      "value": "Кілт осы құрылғыда қалпына келтірілген."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Restore.ErrorTitle",
       "value": "Әмиян қалпына келтірілмеді"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Restore.Foreign",
+      "value": "Бұнда тек Telegram-да жасалған құпия тіркесті импорттауға болады."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Restore.Invalid",
+      "value": "Бұл сөздер жарамды құпия тіркес емес."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Restore.Outdated",
+      "value": "Бұл сөздер — осы әмиянның ескі құпия тіркесі. Кілті соңғы рет жаңартылған кезде алған жаңа тіркесті енгізіңіз."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Restore.Suggestions",
+      "value": "Ұсынылған сөздер"
     },
     {
       "_": "types.LangPackString",
@@ -28635,6 +28765,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Vault.CreateText",
+      "value": "Бұл құрылғыда әмиян кілтін қорғау үшін құлыптау кодын таңдаңыз. Gram жіберу үшін ол қажет болады."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Vault.CreateTitle",
+      "value": "Кілтіңізді қорғаңыз"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Vault.Current",
       "value": "Қазіргі құлыптау коды"
     },
@@ -28680,8 +28820,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Vault.SkipWarning",
+      "value": "Бұл құрылғыда Telegram-ға қолжетімділігі бар кез келген адам қаражатыңызды жұмсай алады."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Vault.TryLater",
       "value": "Тым көп әрекет, %1$s кейін қайта көріңіз."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Vault.TurnOffText",
+      "value": "Оны өшіру үшін әмиянның құлыптау кодын енгізіңіз. Бұл құрылғыда Telegram-ға қолжетімділігі бар кез келген адам қаражатыңызды жұмсай алады."
     },
     {
       "_": "types.LangPackString",
@@ -29719,5 +29869,5 @@
       "other_value": "%1$d хат"
     }
   ],
-  "version": 379882
+  "version": 379977
 }
