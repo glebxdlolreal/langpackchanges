@@ -6384,6 +6384,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ChannelParticipant.Controller.PermissionsUnverified",
+      "value": "Nije bilo moguće potvrditi ažurirana dopuštenja. Provjerite dopuštenja člana prije ponovnog pokušaja."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ChannelParticipant.EditTag",
       "value": "Uredi oznaku"
     },
@@ -17658,6 +17663,16 @@
       "_": "types.LangPackString",
       "key": "EditImage.CanvasControls.Text",
       "value": "Tekst"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EditImage.CanvasControls.TextAlignment",
+      "value": "Poravnanje teksta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EditImage.CanvasControls.TextStyle",
+      "value": "Stil teksta"
     },
     {
       "_": "types.LangPackString",
@@ -34656,6 +34671,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "SessionModal.Controller.OS",
+      "value": "OS"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "SessionModal.Controller.OfficialApp",
       "value": "Ova sesija je iz službene Telegram aplikacije"
     },
@@ -44404,6 +44424,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "VoiceOver.AttachMedia",
+      "value": "Pošalji medij"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "VoiceOver.Boost.Progress",
       "value": "%1$@ od %2$@ pojačanja za %3$@"
     },
@@ -44505,11 +44530,56 @@
       "value": "Vrijednost"
     },
     {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.AnimatedSticker",
+      "value": "Animirana naljepnica"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.AnonymousPoll",
+      "value": "Anonimna anketa"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.AnonymousPollFrom",
+      "value": "Anonimna anketa, od: %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.Caption",
+      "value": "Opis: %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.ChannelInfo",
+      "value": "Podaci o kanalu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.Contact",
+      "value": "Podijeljeni kontakt"
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "few_value": "%d adrese e-pošte",
       "key": "VoiceOver.Chat.ContactEmailCount",
       "one_value": "%d adresa e-pošte",
       "other_value": "%d adresa e-pošte"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.ContactFrom",
+      "value": "Podijeljeni kontakt, od: %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.ContactOrganization",
+      "value": "Organizacija: %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.ContactPhoneNumber",
+      "value": "Broj telefona"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -44520,8 +44590,48 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.Duration",
+      "value": "Trajanje: %@"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "VoiceOver.Chat.Editor",
       "value": "Uređivač"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.Failed",
+      "value": "Neuspjelo slanje"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.File",
+      "value": "Datoteka"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.FileFrom",
+      "value": "Datoteka, od: %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.ForwardedFrom",
+      "value": "Proslijeđeno od: %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.ForwardedFromYou",
+      "value": "Proslijedili ste"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.GoToOriginalMessage",
+      "value": "Idi na poruku"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.GroupInfo",
+      "value": "Podaci o grupi"
     },
     {
       "_": "types.LangPackString",
@@ -44529,11 +44639,41 @@
       "value": "Rezultati medija"
     },
     {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.Message",
+      "value": "Poruka"
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "few_value": "%d odabrane poruke",
       "key": "VoiceOver.Chat.MessagesSelected",
       "one_value": "%d odabrana poruka",
       "other_value": "%d odabranih poruka"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.Music",
+      "value": "Glazbena poruka"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.MusicFrom",
+      "value": "Glazbena datoteka, od: %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.MusicTitle",
+      "value": "%1$@, od %2$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.NotPlayedByRecipient",
+      "value": "Primatelj nije reproducirao"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.NotPlayedByRecipients",
+      "value": "Primatelji nisu reproducirali"
     },
     {
       "_": "types.LangPackString",
@@ -44547,8 +44687,38 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.OptionSelected",
+      "value": "označene"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.PagePreview",
+      "value": "Pregled stranice"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.Photo",
+      "value": "Slika"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.PhotoFrom",
+      "value": "Slika, od: %@"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "VoiceOver.Chat.PlayHint",
       "value": "Pritisnite za reprodukciju"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.PlayedByRecipient",
+      "value": "Primatelj je reproducirao"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.PlayedByRecipients",
+      "value": "Primatelji su reproducirali"
     },
     {
       "_": "types.LangPackString",
@@ -44562,8 +44732,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.PollFinalResults",
+      "value": "Odgovori"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "VoiceOver.Chat.PollFrom",
       "value": "Anketa, od: %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.PollNoVotes",
+      "value": "Nema glasova"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -44581,6 +44761,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.Profile",
+      "value": "Profil"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "VoiceOver.Chat.Record",
       "value": "Snimi"
     },
@@ -44591,8 +44776,68 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.RecordModeVideoMessage",
+      "value": "Videoporuka"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.RecordModeVoiceMessage",
+      "value": "Glasovna poruka"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.RecordPreviewVoiceMessage",
+      "value": "Slušanje glasovne poruke"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.Reply",
+      "value": "Odgovori na poruku"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.ReplyFrom",
+      "value": "Odgovori na poruku od: %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.ReplyToYourMessage",
+      "value": "Odgovori na svoju poruku"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.ReplyingToMessage",
+      "value": "Kao odgovor na poruku: %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.SeenByRecipient",
+      "value": "Primatelj je pročitao"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.SeenByRecipients",
+      "value": "Primatelj je pročitao"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.Selected",
+      "value": "Odabrane"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "VoiceOver.Chat.SendAs",
       "value": "Pošalji kao"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.Sending",
+      "value": "Slanje"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.Size",
+      "value": "Veličina: %@"
     },
     {
       "_": "types.LangPackString",
@@ -44601,8 +44846,23 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.Sticker",
+      "value": "Naljepnica"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.Stop",
+      "value": "Zaustavi"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "VoiceOver.Chat.SwitchTopicsView",
       "value": "Promijeni prikaz tema"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.Title",
+      "value": "Naziv: %@"
     },
     {
       "_": "types.LangPackString",
@@ -44633,8 +44893,43 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.Video",
+      "value": "Video"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.VideoFrom",
+      "value": "Videozapis, od: %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.VideoMessage",
+      "value": "Videoporuka"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.VideoMessageFrom",
+      "value": "Videoporuka, od: %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.VoiceMessage",
+      "value": "Glasovna poruka"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.VoiceMessageFrom",
+      "value": "Glasovna poruka, od: %@"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "VoiceOver.Chat.WebWidget",
       "value": "Interaktivni widget"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.YourAnimatedSticker",
+      "value": "Vaša animirana naljepnica"
     },
     {
       "_": "types.LangPackString",
@@ -44643,8 +44938,53 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.YourContact",
+      "value": "Vaši podijeljeni kontakti"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.YourFile",
+      "value": "Vaša datoteka"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.YourMessage",
+      "value": "Vaša poruka"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.YourMusic",
+      "value": "Vaša glazbena poruka"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.YourPhoto",
+      "value": "Vaša slika"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "VoiceOver.Chat.YourPoll",
       "value": "Vaša anketa"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.YourSticker",
+      "value": "Vaša naljepnica"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.YourVideo",
+      "value": "Vaš videozapis"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.YourVideoMessage",
+      "value": "Vaša videoporuka"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.YourVoiceMessage",
+      "value": "Vaša glasovna poruka"
     },
     {
       "_": "types.LangPackString",
@@ -44658,8 +44998,33 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "VoiceOver.ChatList.Message",
+      "value": "Poruka"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.ChatList.MessageEmpty",
+      "value": "Prazno"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.ChatList.MessageFrom",
+      "value": "Od: %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.ChatList.MessageRead",
+      "value": "Pročitana"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "VoiceOver.ChatList.OpenCommunity",
       "value": "Otvori zajednicu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.ChatList.OutgoingMessage",
+      "value": "Odlazna poruka"
     },
     {
       "_": "types.LangPackString",
@@ -45613,6 +45978,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "VoiceOver.DiscardPreparedContent",
+      "value": "Odbaci"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Editing.ClearText",
+      "value": "Očisti tekst"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "VoiceOver.Entertainment.Tabs",
       "value": "Emojiji i naljepnice"
     },
@@ -45798,8 +46173,33 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "VoiceOver.Media.PlaybackPause",
+      "value": "Pauziraj"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Media.PlaybackPlay",
+      "value": "Pokreni"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "VoiceOver.Media.PlaybackRate",
       "value": "Brzina reprodukcije"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Media.PlaybackRateFast",
+      "value": "Ubrzano"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Media.PlaybackRateNormal",
+      "value": "Normalno"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Media.PlaybackStop",
+      "value": "Zaustavi reprodukciju"
     },
     {
       "_": "types.LangPackString",
@@ -45820,6 +46220,41 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "VoiceOver.MessageContextDelete",
+      "value": "Izbriši"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.MessageContextForward",
+      "value": "Proslijedi"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.MessageContextReport",
+      "value": "Prijavi"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.MessageContextSend",
+      "value": "Pošalji"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.MessageContextShare",
+      "value": "Podijeli"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Navigation.Compose",
+      "value": "Snimi"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Navigation.Search",
+      "value": "Pretraga"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "VoiceOver.News.Feeds",
       "value": "Novosti"
     },
@@ -45827,6 +46262,11 @@
       "_": "types.LangPackString",
       "key": "VoiceOver.Permissions.BoostsRequired",
       "value": "Potrebna pojačanja"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Recording.StopAndPreview",
+      "value": "Zaustavi i preslušaj"
     },
     {
       "_": "types.LangPackString",
@@ -49358,5 +49798,5 @@
       "value": "Prikaži zamjene"
     }
   ],
-  "version": 2428671
+  "version": 2428673
 }
