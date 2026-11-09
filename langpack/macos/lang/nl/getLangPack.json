@@ -7491,6 +7491,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Chat.Context.SaveAllPhotos",
+      "value": "Alle foto's opslaan..."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Chat.Context.SaveMedia",
       "value": "Opslaan als..."
     },
@@ -7513,6 +7518,11 @@
       "_": "types.LangPackString",
       "key": "Chat.Context.SaveRingtone.RemoveSuccess",
       "value": "Toon met succes verwijderd"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Context.SaveSelectedPhotos",
+      "value": "Geselecteerde foto's opslaan..."
     },
     {
       "_": "types.LangPackString",
@@ -11334,6 +11344,21 @@
       "_": "types.LangPackString",
       "key": "ChatEmpty.UserInfo.Registration",
       "value": "Registratie"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatExport.Gifs",
+      "value": "GIF's"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatExport.Photos",
+      "value": "Foto's"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatExport.WaitingMedia",
+      "value": "Wachten…"
     },
     {
       "_": "types.LangPackString",
@@ -15181,8 +15206,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "CrashRecovery.ContinueAnyway",
+      "value": "Toch doorgaan"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "CrashRecovery.Description",
       "value": "Telegram sloot direct na het opstarten af. De nieuwste versie lost dit meestal op."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CrashRecovery.Install",
+      "value": "Installeren en herstarten"
     },
     {
       "_": "types.LangPackString",
@@ -15196,8 +15231,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "CrashRecovery.Reset",
+      "value": "Lokale gegevens resetten…"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "CrashRecovery.Title",
       "value": "Telegram is onverwacht afgesloten"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CrashRecovery.WebsiteLink",
+      "value": "Download van macos.telegram.org"
     },
     {
       "_": "types.LangPackString",
@@ -17181,6 +17226,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ExportData.PersonalInfoAbout",
+      "value": "Je gekozen weergavenaam, gebruikersnaam, telefoonnummer en profielfoto's."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ExportedInvitation.Context.Copy",
       "value": "Kopiëren"
     },
@@ -18363,6 +18413,16 @@
       "_": "types.LangPackString",
       "key": "Gift.ContextMenu.SetAsTheme",
       "value": "Als thema instellen in..."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Displayed.NewText",
+      "value": "Dit cadeau is nu zichtbaar op je profiel."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Hidden.NewText",
+      "value": "Cadeau verwijderd van je profiel."
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -23955,6 +24015,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "NotificationSettings.ThisDevice.Info",
+      "value": "Deze instellingen gelden alleen op dit apparaat. Als je 'Meldingen' of 'Berichttekst weergeven' hier uitschakelt, weegt dat zwaarder dan alle instellingen hierboven. 'Standaardgeluid' wordt gebruikt wanneer een geluid hierboven op 'Standaard' is ingesteld; als je 'Niets' kiest, wordt elke melding op dit apparaat gedempt."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "NotificationSettings.ToggleNotifications",
       "value": "Waarschuwing"
     },
@@ -24351,6 +24416,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PasscodeController.SyncFailed",
+      "value": "Het is niet gelukt om de toegangscode te vernieuwen. Ontgrendel opnieuw en probeer het nog een keer."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PasscodeController.Text",
       "value": "Ga om te vergrendelen met de muis over het instellingen-icoon en kies vergrendel Telegram in de bovenbalk of gebruik ⌘ + L.\n\nLet op: indien je je toegangscode vergeet zul je moeten uitloggen en inloggen uit deze app."
     },
@@ -24358,6 +24428,11 @@
       "_": "types.LangPackString",
       "key": "PasscodeController.WalletBiometrics.Title",
       "value": "Bevestigen met Touch ID"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PasscodeController.WalletDisableWarning",
+      "value": "Hierdoor wordt de toegangscode en biometrische beveiliging uitgeschakeld voor elke wallet op dit apparaat."
     },
     {
       "_": "types.LangPackString",
@@ -29213,8 +29288,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ProxySettings.Web.FixedPort",
+      "value": "WEB-proxies gebruiken HTTPS via poort 443."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ProxySettings.Web.NotTested",
       "value": "niet getest"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ProxySettings.Web.Warning.Text",
+      "value": "Deze proxy laadt door de provider bestuurde JavaScript in een verborgen browser. De provider kan de timing , batching, padding en het netwerkgebruik wijzigen. Het kan dus ook processorcapaciteit, geheugen of batterij verbruiken. Telegram-gegevens en native API's worden niet opzettelijk blootgesteld, maar code van providers blijft onbetrouwbaar. Gebruik alleen providers die je vertrouwt."
     },
     {
       "_": "types.LangPackString",
@@ -41216,6 +41301,26 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "VoiceOver.Common.GIFs",
+      "value": "GIF's"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.ScrollToBottom",
+      "value": "Naar onderkant bladeren"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.TonAmount",
+      "value": "Bedrag in Gram"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Segment.RecoveryPhraseLength",
+      "value": "Lengte van geheime zin"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "VoiecChat.ReduceMotion.Desc",
       "value": "Je kunt de hoeveelheid beweging verminderen voor betere prestaties."
     },
@@ -41263,6 +41368,21 @@
       "_": "types.LangPackString",
       "key": "W48-6f-4Dl.title",
       "value": "Wijzig"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizeController.Description",
+      "value": "Voer je Telegram-toegangscode in om je wallet te openen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizeController.EnterPasscode",
+      "value": "Voer je toegangscode in"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizeController.VerifyFailed",
+      "value": "Verificatie van toegangscode mislukt. Probeer het opnieuw."
     },
     {
       "_": "types.LangPackString",
@@ -42321,5 +42441,5 @@
       "value": "Toon vervangingen"
     }
   ],
-  "version": 2428034
+  "version": 2428051
 }
