@@ -2128,7 +2128,7 @@
     {
       "_": "types.LangPackString",
       "key": "AutoremoveMessages.Desc",
-      "value": "Сообщения, отправленные в этот чат, будут удаляться через выбранное Вами время."
+      "value": "Новые сообщения в чате будут автоматически удаляться через выбранное время."
     },
     {
       "_": "types.LangPackString",
@@ -6412,7 +6412,7 @@
     {
       "_": "types.LangPackString",
       "key": "ChannelParticipant.Controller.PermissionsUnverified",
-      "value": "Не удалось подтвердить обновлённые разрешения. Проверьте разрешения участника перед повторной попыткой."
+      "value": "Не удалось подтвердить изменение прав. Проверьте разрешения участника и повторите попытку."
     },
     {
       "_": "types.LangPackString",
@@ -7807,7 +7807,7 @@
     {
       "_": "types.LangPackString",
       "key": "Chat.Controller.AIRewriteFailed",
-      "value": "ИИ не смог переписать сообщение. Нажмите «Отправить» ещё раз, чтобы отправить оригинал."
+      "value": "ИИ не смог переписать сообщение. Нажмите «Отправить» ещё раз, чтобы отправить исходный текст."
     },
     {
       "_": "types.LangPackString",
@@ -9408,11 +9408,11 @@
     },
     {
       "_": "types.LangPackStringPluralized",
-      "few_value": "Сообщения за %1$d дня удалены у обеих сторон.",
+      "few_value": "Сообщения за %1$d дня удалены у обоих участников.",
       "key": "Chat.MessageRangeDeleted.ForBothSides",
-      "many_value": "Сообщения за %1$d дней удалены у обеих сторон.",
-      "one_value": "Сообщения за %1$d день удалены у обеих сторон.",
-      "other_value": "Сообщения за %1$d дня удалены у обеих сторон."
+      "many_value": "Сообщения за %1$d дней удалены у обоих участников.",
+      "one_value": "Сообщения за %1$d день удалены у обоих участников.",
+      "other_value": "Сообщения за %1$d дня удалены у обоих участников."
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -11924,7 +11924,7 @@
     {
       "_": "types.LangPackString",
       "key": "ChatAudio.FileTranscription.InvalidAudio",
-      "value": "Аудио не удалось расшифровать. Используйте запись длиной от 1 секунды до 30 минут."
+      "value": "Не удалось расшифровать звук. Используйте запись длиной от 1 секунды до 30 минут."
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -11937,17 +11937,17 @@
     {
       "_": "types.LangPackString",
       "key": "ChatAudio.FileTranscription.PremiumRequired",
-      "value": "Бесплатные расшифровки закончились. Для расшифровки аудио нужен Telegram Premium."
+      "value": "Бесплатные расшифровки закончились. Чтобы увеличить лимит, оформите Telegram Premium."
     },
     {
       "_": "types.LangPackString",
       "key": "ChatAudio.FileTranscription.TooBig",
-      "value": "Аудио слишком большое для расшифровки. Сократите запись до размера менее 1 МБ."
+      "value": "Аудиофайл слишком большой для расшифровки. Сократите запись, чтобы она занимала менее 1 МБ."
     },
     {
       "_": "types.LangPackString",
       "key": "ChatAudio.FileTranscription.TooLong",
-      "value": "Аудио слишком длинное для расшифровки. Сократите запись до 30 минут или меньше."
+      "value": "Аудиозапись слишком длинная для расшифровки. Сократите запись до 30 минут или меньше."
     },
     {
       "_": "types.LangPackString",
@@ -13477,7 +13477,7 @@
     {
       "_": "types.LangPackString",
       "key": "ChatList.RowItem.ReopenTopic",
-      "value": "Открыть тему снова"
+      "value": "Возобновить тему"
     },
     {
       "_": "types.LangPackString",
@@ -14075,22 +14075,22 @@
     {
       "_": "types.LangPackString",
       "key": "ChatSend.Failure.AdminRequired",
-      "value": "Недостаточно прав для отправки сообщения."
+      "value": "Для отправки сообщения требуются права администратора."
     },
     {
       "_": "types.LangPackString",
       "key": "ChatSend.Failure.ChannelRestricted",
-      "value": "Публиковать в этом канале Вам запрещено."
+      "value": "Вам запрещено публиковать сообщения в этом канале."
     },
     {
       "_": "types.LangPackString",
       "key": "ChatSend.Failure.ChannelWriteForbidden",
-      "value": "Сейчас публиковать в этом канале нельзя."
+      "value": "Сейчас публиковать сообщения в этом канале нельзя."
     },
     {
       "_": "types.LangPackString",
       "key": "ChatSend.Failure.ChatInaccessible",
-      "value": "Канал или группа больше недоступны."
+      "value": "Канал или группа больше не доступны."
     },
     {
       "_": "types.LangPackString",
@@ -14100,7 +14100,7 @@
     {
       "_": "types.LangPackString",
       "key": "ChatSend.Failure.EntitiesTooLong",
-      "value": "Слишком много форматирования — сообщение не отправить."
+      "value": "В сообщении слишком много элементов форматирования, его нельзя отправить."
     },
     {
       "_": "types.LangPackString",
@@ -14115,12 +14115,12 @@
     {
       "_": "types.LangPackString",
       "key": "ChatSend.Failure.Generic",
-      "value": "Не удалось отправить сообщение. Пожалуйста, попробуйте снова."
+      "value": "Не удалось отправить сообщение. Попробуйте ещё раз."
     },
     {
       "_": "types.LangPackString",
       "key": "ChatSend.Failure.GuestSendForbidden",
-      "value": "Чтобы комментировать, сначала вступите в группу обсуждения."
+      "value": "Чтобы комментировать, вступите в группу для обсуждения."
     },
     {
       "_": "types.LangPackString",
@@ -14130,7 +14130,7 @@
     {
       "_": "types.LangPackString",
       "key": "ChatSend.Failure.MessageTooLong",
-      "value": "Сообщение слишком длинное — его не отправить."
+      "value": "Сообщение слишком длинное, его нельзя отправить."
     },
     {
       "_": "types.LangPackString",
@@ -14140,7 +14140,7 @@
     {
       "_": "types.LangPackString",
       "key": "ChatSend.Failure.PremiumRequired",
-      "value": "Для отправки сообщения необходим Telegram Premium."
+      "value": "Отправить это сообщение можно только с Telegram Premium."
     },
     {
       "_": "types.LangPackString",
@@ -14225,7 +14225,7 @@
     {
       "_": "types.LangPackString",
       "key": "ChatService.CopyProtection.RequestExpired",
-      "value": "Срок действия запроса о запрете копирования истёк"
+      "value": "Срок действия запроса о копировании истёк"
     },
     {
       "_": "types.LangPackString",
@@ -16187,17 +16187,17 @@
     {
       "_": "types.LangPackString",
       "key": "Conversation.CopyProtectionForwardingDisabledBot",
-      "value": "Пересылать сообщения от этого бота нельзя"
+      "value": "Пересылать сообщения от этого бота запрещено"
     },
     {
       "_": "types.LangPackString",
       "key": "Conversation.CopyProtectionForwardingDisabledChannel",
-      "value": "Пересылка из этого канала запрещена"
+      "value": "Пересылать сообщения из этого канала запрещено"
     },
     {
       "_": "types.LangPackString",
       "key": "Conversation.CopyProtectionForwardingDisabledGroup",
-      "value": "Пересылка из этой группы запрещена"
+      "value": "Пересылать сообщения из этой группы запрещено"
     },
     {
       "_": "types.LangPackString",
@@ -16314,7 +16314,7 @@
     {
       "_": "types.LangPackString",
       "key": "CopyRestricted.Chat",
-      "value": "Копирование из этого чата запрещено."
+      "value": "Копировать из этого чата запрещено."
     },
     {
       "_": "types.LangPackString",
@@ -17302,7 +17302,7 @@
     {
       "_": "types.LangPackString",
       "key": "DiscussionController.Channel.Empty.Header",
-      "value": "Подписчики смогут перейти в группу, нажав на кнопку «Обсудить»."
+      "value": "Выберите группу, где будут появляться комментарии к публикациям канала."
     },
     {
       "_": "types.LangPackString",
@@ -17720,7 +17720,7 @@
     {
       "_": "types.LangPackString",
       "key": "EditImage.CanvasColorPicker.PickFromImage",
-      "value": "Взять цвет с изображения"
+      "value": "Выбрать цвет с изображения"
     },
     {
       "_": "types.LangPackString",
@@ -18140,7 +18140,7 @@
     {
       "_": "types.LangPackString",
       "key": "EditVideo.ToolsController.ShowOriginal",
-      "value": "Показать оригинал"
+      "value": "Показать исходное"
     },
     {
       "_": "types.LangPackString",
@@ -20391,12 +20391,12 @@
     {
       "_": "types.LangPackString",
       "key": "Gift.Displayed.NewText",
-      "value": "Подарок теперь отображается на Вашей странице."
+      "value": "Теперь подарок виден в Вашем профиле."
     },
     {
       "_": "types.LangPackString",
       "key": "Gift.Hidden.NewText",
-      "value": "Подарок убран с Вашей страницы."
+      "value": "Подарок скрыт из Вашего профиля."
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -22590,7 +22590,7 @@
     {
       "_": "types.LangPackString",
       "key": "InAppLinks.FreeMessageLinkInvalid",
-      "value": "Ссылка для бесплатной отправки сообщений недействительна."
+      "value": "Ссылка для бесплатной отправки сообщений недействительна или устарела."
     },
     {
       "_": "types.LangPackString",
@@ -26378,32 +26378,32 @@
     {
       "_": "types.LangPackString",
       "key": "NotificationSettings.Exception.AlertTonesHeader",
-      "value": "Звуки оповещений"
+      "value": "ЗВУКИ ОПОВЕЩЕНИЙ"
     },
     {
       "_": "types.LangPackString",
       "key": "NotificationSettings.Exception.AuthorNameHeader",
-      "value": "Отображать имя автора"
+      "value": "ОТОБРАЖАТЬ ИМЯ АВТОРА"
     },
     {
       "_": "types.LangPackString",
       "key": "NotificationSettings.Exception.ClassicTonesHeader",
-      "value": "Классические"
+      "value": "КЛАССИЧЕСКИЕ"
     },
     {
       "_": "types.LangPackString",
       "key": "NotificationSettings.Exception.NotificationsHeader",
-      "value": "Уведомления"
+      "value": "УВЕДОМЛЕНИЯ"
     },
     {
       "_": "types.LangPackString",
       "key": "NotificationSettings.Exception.PreviewHeader",
-      "value": "Предпросмотр сообщений"
+      "value": "ПРЕДПРОСМОТР СООБЩЕНИЙ"
     },
     {
       "_": "types.LangPackString",
       "key": "NotificationSettings.Exception.StoriesHeader",
-      "value": "Уведомления об историях"
+      "value": "УВЕДОМЛЕНИЯ ОБ ИСТОРИЯХ"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -26451,7 +26451,7 @@
     {
       "_": "types.LangPackString",
       "key": "NotificationSettings.Exceptions.Header",
-      "value": "Исключения"
+      "value": "ИСКЛЮЧЕНИЯ"
     },
     {
       "_": "types.LangPackString",
@@ -26481,7 +26481,7 @@
     {
       "_": "types.LangPackString",
       "key": "NotificationSettings.Exceptions.ShowPreview",
-      "value": "Показать превью"
+      "value": "Показывать текст"
     },
     {
       "_": "types.LangPackString",
@@ -26511,7 +26511,7 @@
     {
       "_": "types.LangPackString",
       "key": "NotificationSettings.MessageNotifications",
-      "value": "Уведомления о сообщениях"
+      "value": "УВЕДОМЛЕНИЯ О СООБЩЕНИЯХ"
     },
     {
       "_": "types.LangPackString",
@@ -26526,7 +26526,7 @@
     {
       "_": "types.LangPackString",
       "key": "NotificationSettings.NotifyMeAbout",
-      "value": "Уведомления о…"
+      "value": "ОПОВЕЩАТЬ О..."
     },
     {
       "_": "types.LangPackString",
@@ -26541,7 +26541,7 @@
     {
       "_": "types.LangPackString",
       "key": "NotificationSettings.Options",
-      "value": "Настройки"
+      "value": "НАСТРОЙКИ"
     },
     {
       "_": "types.LangPackString",
@@ -26666,7 +26666,7 @@
     {
       "_": "types.LangPackString",
       "key": "NotificationSettings.ThisDevice.Header",
-      "value": "На этом устройстве"
+      "value": "НА ЭТОМ УСТРОЙСТВЕ"
     },
     {
       "_": "types.LangPackString",
@@ -31335,7 +31335,7 @@
     {
       "_": "types.LangPackString",
       "key": "PrivacySettings.Messages.Contacts",
-      "value": "Контакты и Premium-пользователи"
+      "value": "Контакты и Premium-подписчики"
     },
     {
       "_": "types.LangPackString",
@@ -32458,12 +32458,12 @@
     {
       "_": "types.LangPackString",
       "key": "RenameDevice.Controller.DeviceNameHeader",
-      "value": "Имя устройства"
+      "value": "НАЗВАНИЕ УСТРОЙСТВА"
     },
     {
       "_": "types.LangPackString",
       "key": "RenameDevice.Controller.DeviceNameInfo",
-      "value": "Имя отображается в списке активных сессий на других устройствах."
+      "value": "Это название отображается в списке активных сеансов на других устройствах."
     },
     {
       "_": "types.LangPackString",
@@ -32598,7 +32598,7 @@
     {
       "_": "types.LangPackString",
       "key": "RequestJoin.Desc.Group",
-      "value": "Новые участники могут присоединиться только после одобрения заявки администраторами группы."
+      "value": "Новые участники могут вступить в группу только после одобрения заявки администраторами."
     },
     {
       "_": "types.LangPackString",
@@ -34880,7 +34880,7 @@
     {
       "_": "types.LangPackString",
       "key": "SelectGifts.Filter.Upgradable",
-      "value": "Не улучшенные"
+      "value": "Неулучшенные"
     },
     {
       "_": "types.LangPackString",
@@ -35065,7 +35065,7 @@
     {
       "_": "types.LangPackString",
       "key": "SessionModal.Controller.LocationNotFound",
-      "value": "Не удалось найти это место. Пожалуйста, попробуйте снова."
+      "value": "Не удалось найти это место. Попробуйте ещё раз."
     },
     {
       "_": "types.LangPackString",
@@ -43015,7 +43015,7 @@
     {
       "_": "types.LangPackString",
       "key": "TranslateModal.Controller.AlwaysUse",
-      "value": "Постоянное использование в этом чате"
+      "value": "Всегда использовать в этом чате"
     },
     {
       "_": "types.LangPackString",
@@ -43775,7 +43775,7 @@
     {
       "_": "types.LangPackString",
       "key": "VideoAvatar.ChooseDesc.Profile",
-      "value": "Выберите область для миниатюры"
+      "value": "Выберите кадр для миниатюры"
     },
     {
       "_": "types.LangPackString",
@@ -44877,7 +44877,7 @@
     {
       "_": "types.LangPackString",
       "key": "VoiceOver.AIActivity.HideSummary",
-      "value": "Скрыть сводку"
+      "value": "Скрыть краткое содержание"
     },
     {
       "_": "types.LangPackString",
@@ -44892,7 +44892,7 @@
     {
       "_": "types.LangPackString",
       "key": "VoiceOver.AIActivity.ShowSummary",
-      "value": "Показать сводку"
+      "value": "Показать краткое содержание"
     },
     {
       "_": "types.LangPackString",
@@ -45268,11 +45268,11 @@
     },
     {
       "_": "types.LangPackStringPluralized",
-      "few_value": "%d варианта",
+      "few_value": "%d варианта ответа",
       "key": "VoiceOver.Chat.PollOptionCount",
-      "many_value": "%d вариантов",
-      "one_value": "%d вариант",
-      "other_value": "%d варианта"
+      "many_value": "%d вариантов ответа",
+      "one_value": "%d вариант ответа",
+      "other_value": "%d варианта ответа"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -46418,7 +46418,7 @@
     {
       "_": "types.LangPackString",
       "key": "VoiceOver.Common.TonAmount",
-      "value": "Сумма в TON"
+      "value": "Сумма в GRAM"
     },
     {
       "_": "types.LangPackString",
@@ -46628,7 +46628,7 @@
     {
       "_": "types.LangPackString",
       "key": "VoiceOver.ImageEditor.HexColor",
-      "value": "Шестнадцатеричный цвет"
+      "value": "Шестнадцатеричный код цвета"
     },
     {
       "_": "types.LangPackString",
@@ -46836,7 +46836,7 @@
     {
       "_": "types.LangPackString",
       "key": "VoiceOver.Permissions.BoostsRequired",
-      "value": "Нужны голоса"
+      "value": "Требуются голоса"
     },
     {
       "_": "types.LangPackString",
@@ -46856,7 +46856,7 @@
     {
       "_": "types.LangPackString",
       "key": "VoiceOver.RichEditor.FormulaResult",
-      "value": "Результат формулы"
+      "value": "Вид формулы в тексте"
     },
     {
       "_": "types.LangPackString",
@@ -46971,7 +46971,7 @@
     {
       "_": "types.LangPackString",
       "key": "VoiceOver.Wallpaper.HexColor",
-      "value": "Цвет в HEX"
+      "value": "Шестнадцатеричный код цвета"
     },
     {
       "_": "types.LangPackString",
@@ -50455,5 +50455,5 @@
       "value": "Показать автозамены"
     }
   ],
-  "version": 2423133
+  "version": 2428824
 }
