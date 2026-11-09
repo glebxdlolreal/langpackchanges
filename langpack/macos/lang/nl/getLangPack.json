@@ -11299,6 +11299,12 @@
       "value": "%1$d van %2$d"
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "key": "ChatAudio.FileTranscription.LimitExceeded",
+      "one_value": "",
+      "other_value": "Te veel transcriptieverzoeken. Probeer het over %1$d seconden opnieuw."
+    },
+    {
       "_": "types.LangPackString",
       "key": "ChatEmpty.BusinessIntro.How",
       "value": "**%@** heeft het bovenstaande bericht voor alle lege chats ingesteld. [Hoe?]()"
@@ -11382,6 +11388,11 @@
       "_": "types.LangPackString",
       "key": "ChatExport.Photos",
       "value": "Foto's"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatExport.VideoMessages",
+      "value": "Videoberichten"
     },
     {
       "_": "types.LangPackString",
@@ -15350,6 +15361,12 @@
       "value": "Bot aanmaken"
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "key": "CreateBot.Username.Count",
+      "one_value": "%1$d gebruikersnaam",
+      "other_value": "%1$d gebruikersnamen"
+    },
+    {
       "_": "types.LangPackString",
       "key": "CreateBot.UsernameEndBot",
       "value": "Sorry, de gebruikersnaam moet eindigen op 'bot'."
@@ -17650,6 +17667,12 @@
       "value": "Deze groepschat wordt gesplitst in onderwerpen die zijn aangemaakt door beheerders of gebruikers."
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "key": "ForumSidebar.RowsView.DeleteTopicsInfo",
+      "one_value": "",
+      "other_value": "Wil je de %1$d geselecteerde onderwerpen en alle berichten erin verwijderen?"
+    },
+    {
       "_": "types.LangPackString",
       "key": "ForumTopic.Context.AddMember",
       "value": "Leden toevoegen"
@@ -19099,6 +19122,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift.Withdraw.SecurityRequirements",
+      "value": "Het opnemen van cadeaus is alleen mogelijk indien:\n\n• Tweestapsverificatie langer dan **7 dagen** geleden op je account is ingeschakeld.\n\n• Je langer dan **24 uur** geleden op dit apparaat bent ingelogd."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gift.Withdraw.Text",
       "value": "Je kunt Fragment, een externe dienst, gebruiken om **%@** naar de TON-blockchain te verplaatsen. Vervolgens kun je het met elke TON-wallet als NFT beheren.\n\nVia Fragment kun je deze NFT's ook terugzetten naar je Telegram-account."
     },
@@ -20404,6 +20432,12 @@
       "_": "types.LangPackString",
       "key": "HFo-cy-zxI.title",
       "value": "Toon spelling en grammatica"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "HTMLDemo.Catalog.WidgetsCount",
+      "one_value": "",
+      "other_value": "%1$d widgets"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -22488,9 +22522,27 @@
     },
     {
       "_": "types.LangPackStringPluralized",
+      "key": "MessageCalendar.DaysSelectedTitle",
+      "one_value": "%1$d dag geselecteerd",
+      "other_value": "%1$d dagen geselecteerd"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
       "key": "MessageCalendar.DeleteAlertText",
       "one_value": "Weet je zeker dat je alle berichten voor de geselecteerde dag wilt verwijderen?",
       "other_value": "Weet je zeker dat je alle berichten voor de geselecteerde %1$d dagen wilt verwijderen?"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "MessageCalendar.DeleteForAllAlertText",
+      "one_value": "Weet je zeker dat je alle berichten voor de geselecteerde dag voor alle leden wilt verwijderen?",
+      "other_value": "Weet je zeker dat je alle berichten voor de geselecteerde %1$d dagen voor alle leden wilt verwijderen?"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "MessageCalendar.DeleteOwnAlertText",
+      "one_value": "Weet je zeker dat je al je berichten voor de geselecteerde dag wilt verwijderen?",
+      "other_value": "Weet je zeker dat je al je berichten voor de geselecteerde %1$d dagen wilt verwijderen?"
     },
     {
       "_": "types.LangPackString",
@@ -23983,6 +24035,12 @@
       "_": "types.LangPackString",
       "key": "NotificationSettings.CountUnreadMessages",
       "value": "Ongelezen berichten tellen"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "NotificationSettings.Exceptions",
+      "one_value": "",
+      "other_value": "%1$d uitzonderingen"
     },
     {
       "_": "types.LangPackString",
@@ -41377,6 +41435,48 @@
       "value": "Je bent live"
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "key": "VoiceOver.Calls.RatingStars",
+      "one_value": "%d ster",
+      "other_value": "%d sterren"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "VoiceOver.Chat.ContactEmailCount",
+      "one_value": "%d e-mailadres",
+      "other_value": "%d e-mailadressen"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "VoiceOver.Chat.ContactPhoneNumberCount",
+      "one_value": "%d telefoonnummer",
+      "other_value": "%d telefoonnummers"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "VoiceOver.Chat.MessagesSelected",
+      "one_value": "%d bericht geselecteerd",
+      "other_value": "%d berichten geselecteerd"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "VoiceOver.Chat.PollOptionCount",
+      "one_value": "%d optie",
+      "other_value": "%d opties"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "VoiceOver.Chat.PollVotes",
+      "one_value": "%d stem",
+      "other_value": "%d stemmen"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "VoiceOver.Chat.UnreadMessages",
+      "one_value": "%d ongelezen bericht",
+      "other_value": "%d ongelezen berichten"
+    },
+    {
       "_": "types.LangPackString",
       "key": "VoiceOver.Common.GIFs",
       "value": "GIF's"
@@ -41388,8 +41488,19 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Select",
+      "value": "Kies"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "VoiceOver.Common.TonAmount",
       "value": "Bedrag in Gram"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "VoiceOver.Message.BoostCount",
+      "one_value": "%1$d keer geboost",
+      "other_value": "%1$d keer geboost"
     },
     {
       "_": "types.LangPackString",
@@ -41735,6 +41846,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.SettingsController.KeysAndBackup",
       "value": "Sleutels en back-up"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.SettingsController.ShowSecretPhraseInfo",
+      "value": "Draag je wallet over naar een ander apparaat door je herstelzin van 12 of 24 woorden te kopiëren."
     },
     {
       "_": "types.LangPackString",
@@ -42659,5 +42775,5 @@
       "value": "Toon vervangingen"
     }
   ],
-  "version": 2428500
+  "version": 2428517
 }
