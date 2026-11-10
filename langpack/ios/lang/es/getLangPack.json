@@ -805,6 +805,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Agent.Key.Connect",
+      "value": "Conectar %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Agent.Key.Info",
+      "value": "Obtén tu clave de API o token de API en los [ajustes del proveedor de IA]()."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Agent.Key.ProviderUnavailable",
+      "value": "%@ no respondió. Por favor, reinténtalo más tarde."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Appearance.AccentColor",
       "value": "Color de realce"
     },
@@ -902,6 +917,11 @@
       "_": "types.LangPackString",
       "key": "Appearance.BubbleCornersSetting",
       "value": "Esquinas de los mensajes"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Appearance.BubbleMode",
+      "value": "Modo burbuja"
     },
     {
       "_": "types.LangPackString",
@@ -1055,6 +1075,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Appearance.TextSize.FontDefault",
+      "value": "Por defecto"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Appearance.TextSize.FontSerif",
+      "value": "New York"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Appearance.TextSize.Title",
       "value": "Tamaño del texto"
     },
@@ -1077,6 +1107,16 @@
       "_": "types.LangPackString",
       "key": "Appearance.ThemeCarouselDay",
       "value": "Día"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Appearance.ThemeCarouselNeutral",
+      "value": "Neutral"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Appearance.ThemeCarouselNeutralNight",
+      "value": "Noche neutral"
     },
     {
       "_": "types.LangPackString",
@@ -2596,6 +2636,11 @@
       "_": "types.LangPackString",
       "key": "AuthSessions.LogOutApplicationsHelp",
       "value": "Puedes iniciar sesión en sitios web que permitan registrarse con Telegram."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AuthSessions.LogOutApplicationsText",
+      "value": "¿Quieres desconectar todos los sitios web en los que iniciaste sesión con Telegram?"
     },
     {
       "_": "types.LangPackString",
@@ -6177,6 +6222,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Call.PrivacyErrorMessageMultiple",
+      "value": "%@no acepta llamadas."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Call.RateCall",
       "value": "Evalúa esta llamada"
     },
@@ -6322,6 +6372,16 @@
       "_": "types.LangPackString",
       "key": "Call.SystemStartErrorMessage",
       "value": "Ocurrió un error"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Call.UnlockToSeeVideoNotification",
+      "value": "Desbloquea tu iPhone para ver y compartir el video"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Call.UnlockToSeeVideoNotificationPad",
+      "value": "Desbloquea tu iPad para ver y compartir el video"
     },
     {
       "_": "types.LangPackString",
@@ -7717,7 +7777,7 @@
     {
       "_": "types.LangPackString",
       "key": "Channel.AdminLog.RevokedInviteLink",
-      "value": "%1$@ anuló el enlace de invitación %2$@"
+      "value": "%1$@ revocó el enlace de invitación %2$@"
     },
     {
       "_": "types.LangPackString",
@@ -8687,6 +8747,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Channel.IslandMenuHint",
+      "value": "Abre un menú."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Channel.JoinChannel",
       "value": "Unirme"
     },
@@ -8907,6 +8972,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Channel.RemoveFromChats",
+      "value": "Quitar de Chats"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Channel.Setup.ActivateAlertShow",
       "value": "Mostrar"
     },
@@ -9087,6 +9157,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Channel.Toast.AddedToChats",
+      "value": "**%@** añadido a **Chats**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Channel.Toast.RemovedFromChats",
+      "value": "**%@** quitado de **Chats**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Channel.Toast.RemovedFromNews",
+      "value": "**%@** quitado de **Noticias**."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Channel.TooMuchBots",
       "value": "Hay demasiados bots en este grupo. Por favor, primero elimina alguno de los que no estés usando."
     },
@@ -9108,7 +9193,7 @@
     {
       "_": "types.LangPackString",
       "key": "Channel.Username.CreatePrivateLinkHelp",
-      "value": "Las personas pueden unirse a tu canal siguiendo este enlace. Puedes anular el enlace en cualquier momento."
+      "value": "Las personas pueden unirse a tu canal siguiendo este enlace. Puedes revocar el enlace en cualquier momento."
     },
     {
       "_": "types.LangPackString",
@@ -9158,7 +9243,7 @@
     {
       "_": "types.LangPackString",
       "key": "Channel.Username.RevokeExistingUsernamesInfo",
-      "value": "Puedes anular el enlace de uno de tus grupos o canales anteriores, o crear uno privado."
+      "value": "Puedes revocar el enlace de uno de tus grupos o canales anteriores, o crear uno privado."
     },
     {
       "_": "types.LangPackString",
@@ -9766,7 +9851,7 @@
     {
       "_": "types.LangPackString",
       "key": "ChannelInfo.InviteLink.RevokeAlert.Text",
-      "value": "¿Quieres anular este enlace? Una vez hecho, nadie podrá unirse al canal utilizándolo."
+      "value": "¿Quieres revocar este enlace? Una vez hecho, nadie podrá unirse al canal utilizándolo."
     },
     {
       "_": "types.LangPackString",
@@ -20894,17 +20979,17 @@
     {
       "_": "types.LangPackString",
       "key": "CreateExternalStream.Revoke.Revoke",
-      "value": "Anular"
+      "value": "Revocar"
     },
     {
       "_": "types.LangPackString",
       "key": "CreateExternalStream.Revoke.Text",
-      "value": "¿Quieres anular la clave de transmisión?"
+      "value": "¿Quieres revocar la clave de transmisión?"
     },
     {
       "_": "types.LangPackString",
       "key": "CreateExternalStream.RevokeStreamKey",
-      "value": "Anular clave de transmisión"
+      "value": "Revocar clave de transmisión"
     },
     {
       "_": "types.LangPackString",
@@ -21232,7 +21317,7 @@
     {
       "_": "types.LangPackString",
       "key": "CreatePoll.QuizInfo",
-      "value": "Los cuestionarios tienen sólo una respuesta correcta. Los usuarios no pueden anular sus respuestas."
+      "value": "Los cuestionarios tienen sólo una respuesta correcta. Los usuarios no pueden revocar sus respuestas."
     },
     {
       "_": "types.LangPackString",
@@ -27834,7 +27919,7 @@
     {
       "_": "types.LangPackString",
       "key": "Group.Username.CreatePrivateLinkHelp",
-      "value": "Las personas pueden unirse a tu grupo con este enlace. Puedes anularlo cuando quieras."
+      "value": "Las personas pueden unirse a tu grupo con este enlace. Puedes revocarlo cuando quieras."
     },
     {
       "_": "types.LangPackString",
@@ -27884,7 +27969,7 @@
     {
       "_": "types.LangPackString",
       "key": "Group.Username.RevokeExistingUsernamesInfo",
-      "value": "Puedes anular el enlace de uno de tus grupos o canales anteriores, o crear uno privado."
+      "value": "Puedes revocar el enlace de uno de tus grupos o canales anteriores, o crear uno privado."
     },
     {
       "_": "types.LangPackString",
@@ -28056,7 +28141,7 @@
     {
       "_": "types.LangPackString",
       "key": "GroupCall.RevokeLinkText",
-      "value": "¿Quieres anular este enlace? Una vez hecho, nadie podrá usarlo para unirse a la llamada."
+      "value": "¿Quieres revocar este enlace? Una vez hecho, nadie podrá usarlo para unirse a la llamada."
     },
     {
       "_": "types.LangPackString",
@@ -28241,22 +28326,22 @@
     {
       "_": "types.LangPackString",
       "key": "GroupInfo.InviteLink.RevokeAlert.Revoke",
-      "value": "Anular"
+      "value": "Revocar"
     },
     {
       "_": "types.LangPackString",
       "key": "GroupInfo.InviteLink.RevokeAlert.Success",
-      "value": "El enlace de invitación anterior fue anulado. Se generó un enlace nuevo."
+      "value": "El enlace de invitación anterior fue revocado. Se generó un enlace nuevo."
     },
     {
       "_": "types.LangPackString",
       "key": "GroupInfo.InviteLink.RevokeAlert.Text",
-      "value": "¿Quieres anular este enlace? Una vez hecho, nadie podrá usarlo para unirse al grupo."
+      "value": "¿Quieres revocar este enlace? Una vez hecho, nadie podrá usarlo para unirse al grupo."
     },
     {
       "_": "types.LangPackString",
       "key": "GroupInfo.InviteLink.RevokeLink",
-      "value": "Anular enlace"
+      "value": "Revocar enlace"
     },
     {
       "_": "types.LangPackString",
@@ -29278,7 +29363,7 @@
     {
       "_": "types.LangPackString",
       "key": "InviteLink.ContextRevoke",
-      "value": "Anular"
+      "value": "Revocar"
     },
     {
       "_": "types.LangPackString",
@@ -29388,7 +29473,7 @@
     {
       "_": "types.LangPackString",
       "key": "InviteLink.Create.Revoke",
-      "value": "Anular enlace"
+      "value": "Revocar enlace"
     },
     {
       "_": "types.LangPackString",
@@ -29508,7 +29593,7 @@
     {
       "_": "types.LangPackString",
       "key": "InviteLink.DeleteAllRevokedLinks",
-      "value": "Eliminar todos los anulados"
+      "value": "Eliminar todos los revocados"
     },
     {
       "_": "types.LangPackString",
@@ -29518,7 +29603,7 @@
     {
       "_": "types.LangPackString",
       "key": "InviteLink.DeleteAllRevokedLinksAlert.Text",
-      "value": "Esto eliminará todos los enlaces anulados."
+      "value": "Esto eliminará todos los enlaces revocados."
     },
     {
       "_": "types.LangPackString",
@@ -29588,7 +29673,7 @@
     {
       "_": "types.LangPackString",
       "key": "InviteLink.InviteLinkRevoked",
-      "value": "El enlace de invitación ha sido anulado."
+      "value": "El enlace de invitación ha sido revocado."
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -29713,12 +29798,12 @@
     {
       "_": "types.LangPackString",
       "key": "InviteLink.Revoked",
-      "value": "anulado"
+      "value": "revocado"
     },
     {
       "_": "types.LangPackString",
       "key": "InviteLink.RevokedLinks",
-      "value": "Enlaces anulados"
+      "value": "Enlaces revocados"
     },
     {
       "_": "types.LangPackString",
@@ -33331,6 +33416,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Message.WidgetNetworkMarkerInfo",
+      "value": "Tocar este widget puede enviar datos al bot."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "MessageCalendar.ClearHistoryForTheseDays",
       "value": "Vaciar chat para estos días"
     },
@@ -34633,6 +34723,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "NewCall.ParticipantLimitAlert",
+      "value": "Una llamada puede tener hasta %@ participantes."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "NewCall.SearchPlaceholder",
       "value": "Buscar contactos o usuarios"
     },
@@ -34645,6 +34740,131 @@
       "_": "types.LangPackString",
       "key": "NewContact.Title",
       "value": "Nuevo contacto"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "News.Display.Compact",
+      "value": "Compacta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "News.Display.Expanded",
+      "value": "Expandida"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "News.Empty.Added",
+      "value": "Los posts de tus canales aparecerán aquí"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "News.Empty.ForYou",
+      "value": "Aún no hay posts para ti"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "News.Error.Retry",
+      "value": "Reintentar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "News.Error.Text",
+      "value": "No se pudieron cargar los posts"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "News.Feedback.Done.FewerLikeThis",
+      "value": "Verás menos posts como este"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "News.Feedback.Done.HideChannel",
+      "value": "No verás posts de %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "News.Feedback.FewerLikeThis",
+      "value": "No mostrar posts como este"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "News.Feedback.Hidden",
+      "value": "Post oculto. ¿Quieres contarnos más?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "News.Feedback.HideChannel",
+      "value": "No mostrar posts de %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "News.Feedback.RemoveFromNews",
+      "value": "Quitar %@ de Noticias"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "News.Interests.Title",
+      "value": "¿Qué te interesa?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "News.MarkAllAsRead",
+      "value": "Marcar todo como leído"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "News.NewPostsCount",
+      "value": "%@ nuevos"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "News.NewPostsPill",
+      "value": "Nuevos posts"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "News.ReloadFeed",
+      "value": "Recargar feed"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "News.Segment.Added",
+      "value": "Añadido"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "News.Segment.ForYou",
+      "value": "Para ti"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "News.Time.Days",
+      "value": "%@d"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "News.Time.Hours",
+      "value": "%@h"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "News.Time.Minutes",
+      "value": "%@m"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "News.Time.Now",
+      "value": "ahora"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "News.Time.Seconds",
+      "value": "%@s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "News.Title",
+      "value": "Noticias"
     },
     {
       "_": "types.LangPackString",
@@ -41750,6 +41970,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PeerInfo.Permissions.Camera",
+      "value": "Cámara"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PeerInfo.Permissions.EmojiStatus",
       "value": "Estado de emoji"
     },
@@ -41757,6 +41982,11 @@
       "_": "types.LangPackString",
       "key": "PeerInfo.Permissions.Geolocation",
       "value": "Geolocalización"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PeerInfo.Permissions.Microphone",
+      "value": "Micrófono"
     },
     {
       "_": "types.LangPackString",
@@ -41903,6 +42133,11 @@
       "_": "types.LangPackString",
       "key": "PeerInfo.Topics.List",
       "value": "Lista"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PeerInfo.Topics.Sidebar",
+      "value": "Barra lateral"
     },
     {
       "_": "types.LangPackString",
@@ -46871,6 +47106,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "RichText.ButtonChooseUser",
+      "value": "Elige un usuario"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "RichText.ButtonDelete",
       "value": "Eliminar botón"
     },
@@ -46918,6 +47158,11 @@
       "_": "types.LangPackString",
       "key": "RichText.ButtonRowDelete",
       "value": "Eliminar fila"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.ButtonSectionAction",
+      "value": "ACCIÓN"
     },
     {
       "_": "types.LangPackString",
@@ -57892,7 +58137,7 @@
     {
       "_": "types.LangPackString",
       "key": "VideoChat.RevokeLink",
-      "value": "Anular enlace"
+      "value": "Revocar enlace"
     },
     {
       "_": "types.LangPackString",
@@ -59359,8 +59604,58 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "VoiceOver.ChatList.Muted",
+      "value": "Silenciado"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "VoiceOver.ChatList.OutgoingMessage",
       "value": "Mensaje saliente"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.ChatList.Pinned",
+      "value": "Fijado"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.ChatList.ShowStoriesHint",
+      "value": "Toca dos veces para mostrar las historias"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.ChatList.UnreadMentions",
+      "value": "Menciones no leídas"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.ChatList.UnreadReactions",
+      "value": "Reacciones no leídas"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Add",
+      "value": "Añadir"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Collapse",
+      "value": "Contraer"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.ColorNumber",
+      "value": "Color %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Expand",
+      "value": "Expandir"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.NoColor",
+      "value": "Sin color"
     },
     {
       "_": "types.LangPackString",
@@ -59371,6 +59666,16 @@
       "_": "types.LangPackString",
       "key": "VoiceOver.Common.On",
       "value": "Activado"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Page",
+      "value": "Página"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.SectionIndex",
+      "value": "Índice de sección"
     },
     {
       "_": "types.LangPackString",
@@ -59391,6 +59696,36 @@
       "_": "types.LangPackString",
       "key": "VoiceOver.Editing.ClearText",
       "value": "Borrar texto"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.EmojiPicker.None",
+      "value": "Ninguno"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Gallery.PlaybackPosition",
+      "value": "Posición de reproducción"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Gallery.SeekBackward",
+      "value": "Retroceder 15 segundos"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Gallery.SeekForward",
+      "value": "Avanzar 15 segundos"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Gallery.TextRecognition",
+      "value": "Reconocer texto"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Gallery.VideoSettings",
+      "value": "Ajustes de video"
     },
     {
       "_": "types.LangPackString",
@@ -59494,6 +59829,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "VoiceOver.QrCodeScan.Flashlight",
+      "value": "Linterna"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "VoiceOver.Recording.StopAndPreview",
       "value": "Detener y previsualizar"
     },
@@ -59536,6 +59876,11 @@
       "_": "types.LangPackString",
       "key": "VoiceOver.SuggestPost",
       "value": "Sugerir post"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.TabBar.AttentionRequired",
+      "value": "Se requiere atención"
     },
     {
       "_": "types.LangPackString",
@@ -62052,6 +62397,26 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WebApp.CameraMicrophonePermission.Succeed",
+      "value": "**%@** ahora puede tener acceso a tu cámara y micrófono."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WebApp.CameraMicrophonePermission.Text",
+      "value": "**%1$@** solicita acceso a tu **cámara** y **micrófono**. Podrás revocar este acceso en el perfil de **%2$@**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WebApp.CameraPermission.Succeed",
+      "value": "**%@** ahora puede tener acceso a tu cámara."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WebApp.CameraPermission.Text",
+      "value": "**%1$@** solicita acceso a tu **cámara**. Podrás revocar este acceso en el perfil de **%2$@**."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WebApp.CloseAnyway",
       "value": "Cerrar de todos modos"
     },
@@ -62173,7 +62538,7 @@
     {
       "_": "types.LangPackString",
       "key": "WebApp.EmojiPermission.Text",
-      "value": "**%1$@** solicita acceso a tu **estado de emoji**. Puedes anular este acceso cuando quieras en el perfil de **%2$@**."
+      "value": "**%1$@** solicita acceso a tu **estado de emoji**. Puedes revocar este acceso cuando quieras en el perfil de **%2$@**."
     },
     {
       "_": "types.LangPackString",
@@ -62253,7 +62618,7 @@
     {
       "_": "types.LangPackString",
       "key": "WebApp.LocationPermission.Text",
-      "value": "**%1$@** solicita acceso a tu **ubicación**. Puedes anular este acceso cuando quieras en el perfil de **%2$@**."
+      "value": "**%1$@** solicita acceso a tu **ubicación**. Puedes revocar este acceso cuando quieras en el perfil de **%2$@**."
     },
     {
       "_": "types.LangPackString",
@@ -62264,6 +62629,16 @@
       "_": "types.LangPackString",
       "key": "WebApp.MessagePreview",
       "value": "Vista previa del mensaje"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WebApp.MicrophonePermission.Succeed",
+      "value": "**%@** ahora puede tener acceso a tu micrófono."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WebApp.MicrophonePermission.Text",
+      "value": "**%1$@** solicita acceso a tu **micrófono**. Podrás revocar este acceso en el perfil de **%2$@**."
     },
     {
       "_": "types.LangPackString",
@@ -63004,5 +63379,5 @@
       "value": "Pusiste un código de seguridad inválido."
     }
   ],
-  "version": 22550673
+  "version": 22551426
 }
