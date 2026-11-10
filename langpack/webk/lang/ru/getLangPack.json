@@ -3178,6 +3178,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "BlockUser.DeleteAllReplies",
+      "value": "Удалить все ответы от %s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BlockUser.DeleteReply",
+      "value": "Удалить этот ответ"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "BlockedEmpty",
       "value": "Нет"
     },
@@ -5265,6 +5275,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "CardNumberCopied",
+      "value": "Номер карты скопирован в буфер обмена."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Channel",
       "value": "Канал"
     },
@@ -5628,6 +5643,11 @@
       "_": "types.LangPackString",
       "key": "ChannelType",
       "value": "Тип канала"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChannelUserCantBot",
+      "value": "В канале максимальное число ботов."
     },
     {
       "_": "types.LangPackString",
@@ -9890,6 +9910,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "CopyCardNumber",
+      "value": "Копировать номер карты"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "CopyCode",
       "value": "копировать"
     },
@@ -13335,6 +13360,11 @@
       "value": "Тип группы"
     },
     {
+      "_": "types.LangPackString",
+      "key": "GroupUserCantBot",
+      "value": "В группе максимальное число ботов."
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "few_value": "%1$d группы",
       "key": "Groups",
@@ -13830,6 +13860,16 @@
       "_": "types.LangPackString",
       "key": "InviteViaLink.Title",
       "value": "Приглашение по ссылке"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "IsSelectingContact",
+      "value": "%1$s выбирает контакт для отправки"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "IsSelectingLocation",
+      "value": "%1$s выбирает геопозицию для отправки"
     },
     {
       "_": "types.LangPackString",
@@ -16125,6 +16165,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Message.Context.AttachedStickers",
+      "value": "Прикреплённые стикеры"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Message.Context.CopyFilename",
+      "value": "Копировать название"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Message.Context.Goto",
       "value": "Показать в чате"
     },
@@ -16850,6 +16900,31 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "NoPaidMessagesToken.Imported",
+      "value": "Теперь Вы можете писать **%s** бесплатно."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NoPaidMessagesToken.Invalid",
+      "value": "Ссылка для бесплатной отправки сообщений недействительна."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NoPaidMessagesToken.Used",
+      "value": "%s использовал(а) Ваш QR-код и теперь может писать Вам бесплатно"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NoPaidMessagesToken.UsedOut",
+      "value": "Вы использовали QR-код %s и теперь можете писать этому пользователю бесплатно"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NoPaidMessagesToken.UserInvalid",
+      "value": "Невозможно использовать эту ссылку, чтобы написать пользователю бесплатно."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "NoReactions",
       "value": "Без реакций"
     },
@@ -17023,6 +17098,11 @@
       "_": "types.LangPackString",
       "key": "Notifications.Web",
       "value": "Веб-уведомления"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NotificationsAddAnException",
+      "value": "Добавить исключение"
     },
     {
       "_": "types.LangPackString",
@@ -20247,6 +20327,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "QRCode.Colors",
+      "value": "Цвета профиля"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "QRCode.Copied",
       "value": "QR-код скопирован в буфер обмена"
     },
@@ -20259,6 +20344,121 @@
       "_": "types.LangPackString",
       "key": "QRCode.Copy",
       "value": "Копировать QR-код"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QRCode.LinkExpiring",
+      "value": "Срок действия ссылки истекает."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QRCode.NoGiftsTitle",
+      "value": "Подарков пока нет"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QRCode.NoPaid.ExpiresIn",
+      "value": "Истекает через %s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QRCode.NoPaid.Free",
+      "value": "Бесплатно"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QRCode.NoPaid.Menu.DisableTimer",
+      "value": "Отключить таймер"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QRCode.NoPaid.Menu.DisableTimerInfo",
+      "value": "Бесплатно всегда"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QRCode.NoPaid.Menu.EnableTimer",
+      "value": "Включить таймер"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QRCode.NoPaid.Menu.EnableTimerInfo",
+      "value": "Действует 1 минуту"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QRCode.NoPaid.Menu.Reset",
+      "value": "Сбросить код"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QRCode.NoPaid.Menu.RestoreFee",
+      "value": "Брать плату"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QRCode.NoPaid.NoTimeLimit",
+      "value": "Бессрочно"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QRCode.NoPaid.RemoveStarsFee",
+      "value": "Отменить плату %s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QRCode.NoPaid.Toast.Expired",
+      "value": "Сообщения снова платные"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QRCode.NoPaid.Toast.Expires",
+      "value": "Код сбросится через 1 минуту"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QRCode.NoPaid.Toast.Expiring",
+      "value": "Срок действия кода истекает."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QRCode.NoPaid.Toast.FeeRestored",
+      "value": "Сообщения снова платные"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QRCode.NoPaid.Toast.NewCode",
+      "value": "Создан новый код"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QRCode.NoPaid.Toast.NoTimeLimit",
+      "value": "Код всегда позволяет писать бесплатно"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QRCode.PremiumGiftsToast",
+      "value": "Украшение QR-кода подарками\nдоступно с подпиской Premium."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QRCode.PremiumSubscribe",
+      "value": "Оформить"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QRCode.RemoveEmoji",
+      "value": "Отменить %s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QRCode.Saved",
+      "value": "QR-код сохранён"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QRCode.Share",
+      "value": "Поделиться"
     },
     {
       "_": "types.LangPackString",
@@ -20389,6 +20589,11 @@
       "_": "types.LangPackString",
       "key": "ReactionsNotifyMessages",
       "value": "Реакции на сообщения"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ReactionsNotifyPollVotes",
+      "value": "Голосах в моих опросах"
     },
     {
       "_": "types.LangPackString",
@@ -20648,6 +20853,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ReportChannelPhotoTitle",
+      "value": "Пожаловаться на фото канала"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ReportChat",
       "value": "Пожаловаться"
     },
@@ -20655,6 +20865,11 @@
       "_": "types.LangPackString",
       "key": "ReportChatChild",
       "value": "Детская порнография"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ReportChatCopyright",
+      "value": "Авторские права"
     },
     {
       "_": "types.LangPackString",
@@ -20693,6 +20908,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ReportGroupPhotoTitle",
+      "value": "Пожаловаться на фото группы"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ReportHint",
       "value": "Комментарий..."
     },
@@ -20700,6 +20920,11 @@
       "_": "types.LangPackString",
       "key": "ReportInfo",
       "value": "Вы можете указать дополнительную информацию в комментарии."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ReportProfilePhotoTitle",
+      "value": "Пожаловаться на фото"
     },
     {
       "_": "types.LangPackString",
@@ -21744,6 +21969,16 @@
       "_": "types.LangPackString",
       "key": "SelectTheme",
       "value": "Выбрать тему"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SelectingContact",
+      "value": "выбирает контакт для отправки"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SelectingLocation",
+      "value": "выбирает геопозицию для отправки"
     },
     {
       "_": "types.LangPackString",
@@ -26242,6 +26477,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "TelegramFaqUrl",
+      "value": "https://telegram.org/faq#general-questions"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "TelegramFeatures",
       "value": "Возможности Telegram"
     },
@@ -27710,8 +27950,23 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "VoiceChat.JoinConfirm",
+      "value": "Присоединиться к видеочату **%@**?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceChat.JoinConfirm.Channel",
+      "value": "Присоединиться к трансляции **%@**?"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "VoiceChat.Leave",
       "value": "Выйти"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceChat.LinkInvalid",
+      "value": "Эта пригласительная ссылка недействительна или устарела."
     },
     {
       "_": "types.LangPackString",
@@ -27777,6 +28032,16 @@
       "_": "types.LangPackString",
       "key": "VoiceChat.RemovePeer.Confirm.OK",
       "value": "Исключить"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceChat.StartAs",
+      "value": "Начать видеочат как..."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceChat.StartAs.Channel",
+      "value": "Начать трансляцию как..."
     },
     {
       "_": "types.LangPackString",
@@ -27918,6 +28183,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "VoipGroupInvitedUser",
+      "value": "Вы пригласили **%1$@** в видеочат"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "VoipGroupJoinAs",
       "value": "Войти в видеочат как..."
     },
@@ -27995,6 +28265,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.Action.TonConnectAppDisconnect",
       "value": "%s запрашивает отключение"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Action.TonConnectAppSignData",
+      "value": "%s запрашивает подписание данных. Нажмите для просмотра."
     },
     {
       "_": "types.LangPackString",
@@ -28178,6 +28453,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Backup.InvalidPhraseText",
+      "value": "Проверьте все слова в действующей секретной фразе и попробуйте снова."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.KeyChanging",
+      "value": "Ключ кошелька в процессе замены. Дождитесь окончания и попробуйте снова."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Backup.PhraseUpdatePendingTitle",
       "value": "Секретная фраза обновляется"
     },
@@ -28207,6 +28492,11 @@
       "value": "Кошелёк изменился"
     },
     {
+      "_": "types.LangPackString",
+      "key": "Wallet.Card.Address",
+      "value": "Адрес кошелька"
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "few_value": "GRAM",
       "key": "Wallet.Card.Ticker",
@@ -28218,6 +28508,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.Collectible.Collection",
       "value": "Коллекция"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Collectible.NftAbout",
+      "value": "Коллекционный предмет (NFT), хранящийся в блокчейне TON."
     },
     {
       "_": "types.LangPackString",
@@ -28236,8 +28531,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Collectible.TopUpText",
+      "value": "Для передачи NFT в кошельке должно быть не менее %s GRAM. Пополните баланс и попробуйте снова."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Collectible.UsernameAbout",
       "value": "Имя пользователя %s в Telegram."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Confirm.Title",
+      "value": "Подтверждение перевода"
     },
     {
       "_": "types.LangPackString",
@@ -28248,6 +28553,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.Conflict.Switch",
       "value": "Подключить сейчас"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Conflict.SwitchError",
+      "value": "Старый кошелёк не был удалён с этого устройства."
     },
     {
       "_": "types.LangPackString",
@@ -28266,6 +28576,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Connect.Expired",
+      "value": "Запрос на подключение больше не действителен. Начните подключение заново в приложении."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Connect.HandledElsewhere",
       "value": "Запрос был обработан на другом устройстве."
     },
@@ -28273,6 +28588,16 @@
       "_": "types.LangPackString",
       "key": "Wallet.Connect.KeyMismatch",
       "value": "Приложение было подключено с использованием другого ключа этого кошелька, поэтому с данного устройства нельзя ответить на его запрос или отключить его."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Connect.ManifestInvalid",
+      "value": "Кошелёк не был подключён, поскольку данные этого приложения недействительны или относятся к другому домену."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Connect.ManifestMissing",
+      "value": "Кошелёк не был подключён, поскольку не удалось загрузить данные приложения."
     },
     {
       "_": "types.LangPackString",
@@ -28296,6 +28621,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Details.FeeUnknown",
+      "value": "Ошибка при поиске"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Details.FeesText",
+      "value": "За каждый перевод взимается небольшая комиссия%2$s.\n\nTelegram не берёт плату за %1$s в день."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Details.RestoreErrorTitle",
       "value": "Не удалось восстановить кошелёк"
     },
@@ -28303,6 +28638,16 @@
       "_": "types.LangPackString",
       "key": "Wallet.Error.Generic",
       "value": "Что-то пошло не так. Попробуйте ещё раз."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Error.InProgress",
+      "value": "Идёт отправка другого перевода. Дождитесь её завершения."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Error.Insufficient",
+      "value": "У Вас недостаточно GRAM для отправки перевода."
     },
     {
       "_": "types.LangPackString",
@@ -28326,6 +28671,26 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.FeesText",
+      "value": "За каждый перевод в блокчейне списывается небольшая сетевая комиссия в пользу валидаторов, которые фиксируют транзакцию. Но некоторые переводы пользователям Telegram бесплатны: комиссию платит сам Telegram."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.First.Rate",
+      "value": "**1 GRAM** сейчас стоит **%s**.\nВам доступны:"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.First.SendText",
+      "value": "GRAM можно переводить другим\nв чатах через меню %1$s → %2$s."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.First.StoreText",
+      "value": "GRAM можно хранить в Telegram\n(%1$s → %2$s) или других кошельках."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Gram.CheapText",
       "value": "Комиссия близка к нулю — даже при переводе крупных сумм."
     },
@@ -28343,6 +28708,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.Gram.FastTitle",
       "value": "Быстро"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Gram.RateText",
+      "value": "Собственная криптовалюта блокчейна TON. **1 GRAM** сейчас стоит **%s**."
     },
     {
       "_": "types.LangPackString",
@@ -28396,6 +28766,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Keys.DeleteText",
+      "value": "Вы потеряете доступ к средствам, если не сохранили секретную фразу."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Keys.Restore",
       "value": "Секретная фраза"
     },
@@ -28416,6 +28791,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Menu.Passcode",
+      "value": "Код-пароль"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.NetworkError",
       "value": "Проверьте соединение с интернетом и попробуйте ещё раз."
     },
@@ -28428,6 +28808,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.Provisioning",
       "value": "Подготовка кошелька..."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.ReadOnly",
+      "value": "На этом устройстве можно только просматривать этот кошелёк, но не отправлять из него средства."
     },
     {
       "_": "types.LangPackString",
@@ -28466,6 +28851,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Replace.CreateText",
+      "value": "Telegram создаёт новый кошелёк для этого аккаунта."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Replace.ErrorTitle",
       "value": "Не удалось заменить кошелёк"
     },
@@ -28476,6 +28866,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Replace.Title",
+      "value": "Замена кошелька"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Request.DeployContract",
       "value": "Запуск смарт-контракта"
     },
@@ -28483,6 +28878,16 @@
       "_": "types.LangPackString",
       "key": "Wallet.Request.Expired",
       "value": "Срок действия запроса истёк."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Request.FeeFailed",
+      "value": "Не удалось рассчитать сетевую комиссию."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Request.FeeLoading",
+      "value": "Расчёт сетевой комиссии..."
     },
     {
       "_": "types.LangPackString",
@@ -28511,6 +28916,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Restore.BackupText",
+      "value": "Для восстановления ключа этого кошелька из резервной копии введите облачный пароль."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Restore.Done",
+      "value": "Ключ восстановлен на этом устройстве."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Retry",
       "value": "Повторить"
     },
@@ -28521,6 +28936,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Row.Withdrawal",
+      "value": "Вывод"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Send.NetworkFee",
       "value": "Сетевая комиссия:"
     },
@@ -28528,6 +28948,16 @@
       "_": "types.LangPackString",
       "key": "Wallet.Send.UnlinkedWallet",
       "value": "Непривязанный кошелёк"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.SendAmountLabel",
+      "value": "Сумма"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.SendSwitchCurrency",
+      "value": "Изменить валюту"
     },
     {
       "_": "types.LangPackString",
@@ -28583,6 +29013,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.Unavailable",
       "value": "Кошелёк недоступен для этой учётной записи."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Vault.Forgot",
+      "value": "Забыли код-пароль?"
     },
     {
       "_": "types.LangPackString",
@@ -28648,6 +29083,11 @@
       "_": "types.LangPackString",
       "key": "WalletBackupDisabledDescription",
       "value": "Зашифрованная резервная копия ключа будет разделена на три части, которые будут храниться на трёх континентах.\n\nОбъединить их можно только на Ваших устройствах, поэтому никто — даже Telegram — не сможет получить доступ к Вашему ключу."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBackupDisabledInfo",
+      "value": "Теперь кошелёк можно восстановить только с помощью секретной фразы"
     },
     {
       "_": "types.LangPackString",
@@ -28738,6 +29178,11 @@
       "_": "types.LangPackString",
       "key": "WalletConnectPermissionInfo",
       "value": "Приложение не сможет переводить\nсредства без Вашего разрешения."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectToApp",
+      "value": "Подключить кошелёк к %1$s"
     },
     {
       "_": "types.LangPackString",
@@ -28838,6 +29283,11 @@
       "_": "types.LangPackString",
       "key": "WalletDisableBackupExistingPhraseInfo",
       "value": "Зашифрованная резервная копия, хранящаяся распределённо, будет удалена. Секретная фраза станет единственным способом восстановить кошелёк."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDisableBackupInfo",
+      "value": "Получить доступ к средствам можно будет только с помощью секретной фразы, которая вводится вручную."
     },
     {
       "_": "types.LangPackString",
@@ -29021,6 +29471,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletNewSecretPhraseInfo",
+      "value": "Для Вашего кошелька сгенерирована новая секретная фраза. Запишите её и не сообщайте никому."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletNotEnoughGram",
       "value": "Недостаточно GRAM"
     },
@@ -29038,6 +29493,11 @@
       "_": "types.LangPackString",
       "key": "WalletOptionalComment",
       "value": "Необязательный комментарий"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletOutgoingCollectibleAmount",
+      "value": "-1 предмет"
     },
     {
       "_": "types.LangPackString",
@@ -29104,6 +29564,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletRecoveryPhraseFundsWarning",
+      "value": "Тот, кто знает секретную фразу, **сможет похитить Ваши средства**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletRecoveryPhraseInfo",
+      "value": "Ваша секретная фраза — это ключ для восстановления кошелька. Храните её в надёжном месте и не сообщайте никому."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletRecoveryPhraseLearnButton",
       "value": "Показать секретную фразу"
     },
@@ -29111,6 +29581,16 @@
       "_": "types.LangPackString",
       "key": "WalletRecoveryPhraseLearnTitle",
       "value": "Секретная фраза"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletRecoveryPhraseNeverShare",
+      "value": "**Никому не сообщайте** свою секретную фразу."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletRecoveryPhraseSupportWarning",
+      "value": "Поддержка Telegram **никогда не запрашивает** секретную фразу."
     },
     {
       "_": "types.LangPackString",
@@ -29151,6 +29631,11 @@
       "_": "types.LangPackString",
       "key": "WalletSendGrams",
       "value": "Отправить GRAM"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendInstantly",
+      "value": "Мгновенная отправка"
     },
     {
       "_": "types.LangPackString",
@@ -29199,8 +29684,23 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletTermsOfService",
+      "value": "Пользуясь Кошельком, Вы принимаете [Пользовательское соглашение](https://telegram.org/tos)."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletTestPhrase",
       "value": "Проверка"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTestPhraseInfo",
+      "value": "Убедитесь, что секретная фраза записана верно. Введите слова **%1$d**, **%2$d** и **%3$d**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTitle",
+      "value": "Кошелёк"
     },
     {
       "_": "types.LangPackString",
@@ -29605,5 +30105,5 @@
       "other_value": "%1$d сообщений"
     }
   ],
-  "version": 381353
+  "version": 383116
 }
