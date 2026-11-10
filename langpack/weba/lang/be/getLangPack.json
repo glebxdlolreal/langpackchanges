@@ -3751,6 +3751,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ChannelBoostYouBoostedChannelText",
+      "value": "Вы падтрымалі {chat}!"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ChannelCreator",
       "value": "Уладальнік"
     },
@@ -6755,6 +6760,14 @@
       "_": "types.LangPackString",
       "key": "FolderLinkHeaderAlready",
       "value": "Чаты, да якіх вы ўжо далучыліся"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Выйсці з {count} чатаў",
+      "key": "FolderLinkHeaderChatsQuit",
+      "many_value": "Выйсці з {count} чатаў",
+      "one_value": "Выйсці з {count} чата",
+      "other_value": "Выйсці з {count} чатаў"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -14761,7 +14774,7 @@
     {
       "_": "types.LangPackString",
       "key": "SettingsFoldersDesc",
-      "value": "Сартаваць чаты ў папкі\n"
+      "value": "Сартаванне чатаў па папках"
     },
     {
       "_": "types.LangPackString",
@@ -17963,8 +17976,48 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletCommentEncryptionUnavailable",
+      "value": "Гэты кашалёк зараз не можа атрымліваць шыфраваныя каментарыі."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnect",
+      "value": "Падлучыць"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectActive",
+      "value": "Актыўныя злучэнні"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectAppAccess",
+      "value": "Гэтая праграма можа бачыць адрас вашага кашалька, баланс і гісторыю аперацый. Яна не можа перамяшчаць сродкі без вашага ўхвалення."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectRequest",
+      "value": "Запыт кашалька"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectToApp",
+      "value": "Падлучыць кашалёк да {name}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectedApps",
+      "value": "Падлучаныя праграмы"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletCopyAddress",
       "value": "Скапіяваць адрас"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCreatedTitle",
+      "value": "Кашалёк створаны"
     },
     {
       "_": "types.LangPackString",
@@ -18003,8 +18056,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletDisableBackupText",
+      "value": "Зашыфраваная рэзервовая копія, якая захоўваецца размеркавана, будзе выдалена. Ваша сакрэтная фраза стане адзіным спосабам аднавіць гэты кашалёк."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletDisableBackupTitle",
       "value": "Адключыць рэзервовае капіяванне"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDisconnect",
+      "value": "Адлучыць"
     },
     {
       "_": "types.LangPackString",
@@ -18052,9 +18115,27 @@
       "value": "Як гэта працуе"
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "За кожны перавод спаганяецца невялікая сеткавая камісія (**~{fee} Gram**). Telegram не бярэ плату за першыя **{count}** пераводы штодня.",
+      "key": "WalletNetworkFeesInfo",
+      "many_value": "За кожны перавод спаганяецца невялікая сеткавая камісія (**~{fee} Gram**). Telegram не бярэ плату за першыя **{count}** пераводаў штодня.",
+      "one_value": "За кожны перавод спаганяецца невялікая сеткавая камісія (**~{fee} Gram**). Telegram не бярэ плату за першы **{count}** перавод штодня.",
+      "other_value": "За кожны перавод спаганяецца невялікая сеткавая камісія (**~{fee} Gram**). Telegram не бярэ плату за першыя **{count}** перавода штодня."
+    },
+    {
       "_": "types.LangPackString",
       "key": "WalletNetworkFeesTitle",
       "value": "Сеткавая камісія"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletOtherWalletsHint",
+      "value": "Кашалькі, якімі вы раней карысталіся на гэтай прыладзе. Захавайце іх сакрэтныя фразы — кашалькі будуць выдаленыя, калі вы выйдзеце з уліковага запісу ці пераўсталюеце праграму."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletOtherWalletsTitle",
+      "value": "Папярэднія кашалькі"
     },
     {
       "_": "types.LangPackString",
@@ -18063,8 +18144,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletPhrase12Words",
+      "value": "12 слоў"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletPhraseInfoSupport",
       "value": "Служба падтрымкі Telegram **ніколі не запытвае** сакрэтную фразу."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletProofInvalidError",
+      "value": "Праверце парадак слоў.\n\nСюды можна імпартаваць толькі сакрэтную фразу, створаную ў Telegram."
     },
     {
       "_": "types.LangPackString",
@@ -18083,6 +18174,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletReceiveTitle",
+      "value": "Папоўніць"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletRecipientGramWallet",
       "value": "Кашалёк Gram"
     },
@@ -18093,13 +18189,33 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletReplaceCreate",
+      "value": "Стварыць новы кашалёк"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletReplaceImport",
+      "value": "Імпартаваць існуючы кашалёк"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletReplaceTitle",
       "value": "Якім кашальком вы хочаце замяніць стары?"
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletReplaced",
+      "value": "Ваш новы кашалёк гатовы да выкарыстання."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletRestored",
       "value": "Ваш кашалёк адноўлены з вашай сакрэтнай фразы."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSavedImport",
+      "value": "Імпартаваць гэты кашалёк"
     },
     {
       "_": "types.LangPackString",
@@ -18138,6 +18254,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletSendUnlinkedWallet",
+      "value": "Адвязаны кашалёк"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletTitle",
       "value": "Кашалёк"
     },
@@ -18163,8 +18284,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletTransactionIncoming",
+      "value": "Уваходны перавод"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletTransactionOpenWallet",
       "value": "Перайсці да маіх грошай\n"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionOutgoing",
+      "value": "Выходны перавод"
     },
     {
       "_": "types.LangPackString",
@@ -18188,6 +18319,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletTransactionsHidden",
+      "value": "Трансакцыі на суму менш за {amount} схаваныя."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletUnknownUser",
       "value": "НЕВЯДОМЫ КАРЫСТАЛЬНІК"
     },
@@ -18205,6 +18341,11 @@
       "_": "types.LangPackString",
       "key": "WalletWhatIsGram",
       "value": "Што такое Gram?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletWhatIsWallet",
+      "value": "Што такое Грошы?"
     },
     {
       "_": "types.LangPackString",
@@ -18338,5 +18479,5 @@
       "value": "Ваша імя"
     }
   ],
-  "version": 389843
+  "version": 390284
 }
