@@ -3101,7 +3101,7 @@
     {
       "_": "types.LangPackString",
       "key": "Business.Links.CreateInfo.Full",
-      "value": "您也可以使用簡單的連結開始與您的聊天 - %1$@ 或 %2$@。"
+      "value": "您也可以使用簡單的連結開始與您的聊天——%1$@ 或 %2$@。"
     },
     {
       "_": "types.LangPackString",
@@ -6325,6 +6325,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ChannelParticipant.Controller.PermissionsUnverified",
+      "value": "無法確認更新後的權限。請先檢查該成員的權限，然後再試一次。"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ChannelParticipant.EditTag",
       "value": "編輯標籤"
     },
@@ -7535,6 +7540,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Chat.Context.SaveAllPhotos",
+      "value": "儲存所有照片..."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Chat.Context.SaveMedia",
       "value": "另存為..."
     },
@@ -7557,6 +7567,11 @@
       "_": "types.LangPackString",
       "key": "Chat.Context.SaveRingtone.RemoveSuccess",
       "value": "成功移除音效"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Context.SaveSelectedPhotos",
+      "value": "儲存所選照片…"
     },
     {
       "_": "types.LangPackString",
@@ -7660,6 +7675,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Chat.Controller.AIRewriteFailed",
+      "value": "AI 無法重寫此訊息。請再次按下「傳送」以傳送原文。"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Chat.Controller.AddMembers",
       "value": "新增成員"
     },
@@ -7697,6 +7717,11 @@
       "_": "types.LangPackString",
       "key": "Chat.CopySelectedText",
       "value": "拷貝所選文字"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "Chat.Date.PhotosAndVideos",
+      "other_value": "%d 個照片和影片"
     },
     {
       "_": "types.LangPackString",
@@ -8490,8 +8515,53 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Chat.Input.Dictation.Enhance.Accessibility",
+      "value": "修正語音輸入文字中的標點符號和文法"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Dictation.Enhance.Editor",
+      "value": "AI 編輯器…"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Chat.Input.Dictation.Enhance.Fix",
       "value": "修正文法"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Dictation.Enhance.Styles",
+      "value": "強化風格"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Dictation.Enhancing",
+      "value": "強化中…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Dictation.Error.Language",
+      "value": "您目前的輸入語言不支援語音輸入功能。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Dictation.Error.Microphone",
+      "value": "Telegram 需要存取您的麥克風才能進行語音輸入。您可在「系統設定」→「隱私與安全性」→「麥克風」中授予此權限。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Dictation.Error.NoInput",
+      "value": "未偵測到麥克風。請連接麥克風後再試一次。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Dictation.Error.Speech",
+      "value": "Telegram 需要「語音辨識」權限才能將您的聲音轉為文字。您可在「系統設定」→「隱私與安全」→「語音辨識」中授予此權限。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Dictation.Error.Unavailable",
+      "value": "目前無法使用語音辨識功能。請稍後再試。"
     },
     {
       "_": "types.LangPackString",
@@ -8501,7 +8571,12 @@
     {
       "_": "types.LangPackString",
       "key": "Chat.Input.Dictation.Start",
-      "value": "口述"
+      "value": "語音輸入"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Dictation.Stop",
+      "value": "停止語音輸入"
     },
     {
       "_": "types.LangPackString",
@@ -9124,6 +9199,11 @@
       "other_value": "刪除了 %1$d 天的訊息"
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "key": "Chat.MessageRangeDeleted.Messages",
+      "other_value": "已刪除 %1$d 則訊息。"
+    },
+    {
       "_": "types.LangPackString",
       "key": "Chat.MonoforumUI.AllTab",
       "value": "全部"
@@ -9442,6 +9522,16 @@
       "_": "types.LangPackString",
       "key": "Chat.Recording.Cancel",
       "value": "您確定要停止錄製並放棄語音訊息嗎？"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Recording.Transcribe.Active",
+      "value": "正在轉錄。點擊任意位置以停止。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Recording.Transcribe.Swipe",
+      "value": "← 滑動即可語音輸入"
     },
     {
       "_": "types.LangPackString",
@@ -11105,6 +11195,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Chat.Transcription.Listening",
+      "value": "聆聽中…"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Chat.Transcription.Send",
       "value": "傳送"
     },
@@ -11161,7 +11256,7 @@
     {
       "_": "types.LangPackString",
       "key": "Chat.Translate.To",
-      "value": "翻譯成%1$@"
+      "value": "翻譯為%1$@"
     },
     {
       "_": "types.LangPackString",
@@ -11497,6 +11592,31 @@
       "_": "types.LangPackString",
       "key": "Chat.Webpage.MediaCount1",
       "value": "%1$d / %2$d"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAudio.FileTranscription.Failed",
+      "value": "音訊轉錄失敗，請再試一次。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAudio.FileTranscription.InvalidAudio",
+      "value": "此音訊無法轉錄。請使用長度在 1 秒至 30 分鐘之間的錄音。"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "ChatAudio.FileTranscription.LimitExceeded",
+      "other_value": "轉錄請求過多。請 %1$d 秒再試一次。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAudio.FileTranscription.PremiumRequired",
+      "value": "您的免費轉錄次數已用完。要轉錄更多音訊，請訂閱 Telegram Premium。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAudio.FileTranscription.TooBig",
+      "value": "音訊檔案過大，無法進行轉錄。請將錄音修剪至 1 MB 以下。"
     },
     {
       "_": "types.LangPackString",
@@ -11922,6 +12042,11 @@
       "_": "types.LangPackString",
       "key": "ChatInput.OpenChat",
       "value": "開啟聊天室"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatInput.RecordingView.ClickToEdit",
+      "value": "點擊任意位置進行編輯"
     },
     {
       "_": "types.LangPackString",
@@ -13560,13 +13685,103 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ChatSend.Failure.AdminRequired",
+      "value": "您需要管理員權限才能傳送此訊息。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatSend.Failure.ChannelRestricted",
+      "value": "您無法在此頻道發文。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatSend.Failure.ChannelWriteForbidden",
+      "value": "您目前無法在此頻道中發文。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatSend.Failure.ChatInaccessible",
+      "value": "您已無法再存取此頻道或群組。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatSend.Failure.ChatWriteForbidden",
+      "value": "您目前無法在此聊天室中傳送訊息。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatSend.Failure.EntitiesTooLong",
+      "value": "此訊息的格式設定過多，無法傳送。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatSend.Failure.FileReferenceExpired",
+      "value": "媒體連結已過期。請嘗試再次傳送該媒體。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatSend.Failure.ForwardsRestricted",
+      "value": "您無法轉傳來自受保護聊天室的訊息。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatSend.Failure.Generic",
+      "value": "此訊息傳送失敗。請再試一次。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatSend.Failure.GuestSendForbidden",
+      "value": "請先加入討論群組，再發表留言。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatSend.Failure.MediaForbidden",
+      "value": "您無法在此聊天室中傳送此類型的訊息。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatSend.Failure.MessageTooLong",
+      "value": "此訊息過長，無法傳送。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatSend.Failure.PlainForbidden",
+      "value": "您無法在此聊天室中傳送文字訊息。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatSend.Failure.PremiumRequired",
+      "value": "傳送此訊息需訂閱 Telegram Premium。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatSend.Failure.ServerError",
+      "value": "無法傳送此訊息。伺服器錯誤：%1$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatSend.Failure.SlowModeWait",
+      "value": "慢速模式已啟用。請於 %1$@ 後再試一次。"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ChatSend.Failure.TopicDeleted",
       "value": "此話題已被刪除。"
     },
     {
       "_": "types.LangPackString",
+      "key": "ChatSend.Failure.UserBlocked",
+      "value": "您無法傳送此訊息，因為收件者已將您封鎖。"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ChatSend.PaymentConfirmation.PriceChanged",
       "value": "價格已變更"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatSend.PaymentConfirmation.PriceChangedInfo",
+      "value": "傳送訊息至此聊天室的費用已變更，因此您的訊息未能成功傳送。請查看新費用並重新傳送。"
     },
     {
       "_": "types.LangPackString",
@@ -13950,13 +14165,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ChatVoice.Transcription.AutomaticPunctuation",
+      "value": "自動標點符號"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ChatVoice.Transcription.Language",
       "value": "語言：%1$@"
     },
     {
       "_": "types.LangPackString",
+      "key": "ChatVoice.Transcription.LanguageInfo",
+      "value": "您口述時所使用的語言。自動模式會使用此聊天室的語言和您的系統語言。"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ChatVoice.Transcription.RecordMessage",
       "value": "錄製訊息"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatVoice.Transcription.ShortcutInfo",
+      "value": "⌘R 鍵在訊息輸入欄中的功能：當輸入欄中有文字時，會啟動自動語音輸入；當輸入欄為空時，則會錄製訊息。"
     },
     {
       "_": "types.LangPackString",
@@ -15510,6 +15740,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Conversation.CopyProtectionForwardingDisabledBot",
+      "value": "從這個機器人轉傳受到了限制"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Conversation.CopyProtectionForwardingDisabledChannel",
       "value": "從這個頻道轉傳受到了限制"
     },
@@ -15930,8 +16165,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "CreateBot.ModalController.PremiumRequiredSubscribe",
+      "value": "%1$@ [訂閱 >]()"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "CreateBot.ModalController.UnsavedChangesDiscard",
       "value": "放棄"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBot.ModalController.UnsavedChangesHeader",
+      "value": "未儲存變更"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBot.ModalController.UnsavedChangesInfo",
+      "value": "您尚未完成機器人的建立。"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "CreateBot.ModalController.UsernameTooLong",
+      "other_value": "用戶名稱長度不得超過 %1$d 個字元。"
     },
     {
       "_": "types.LangPackString",
@@ -15965,8 +16220,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "CreateBot.Username.PremiumHint",
+      "value": "必須以「%1$@」結尾——或有 %3$@ 訂閱的情況下，以「%2$@」結尾。"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "CreateBot.Username.PremiumLink",
       "value": "[Telegram Premium]()"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBot.Username.PremiumRequired",
+      "value": "使用以「%1$@」結尾的用戶名稱需訂閱 Telegram Premium。"
     },
     {
       "_": "types.LangPackString",
@@ -16470,6 +16735,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Developer.ViewController.ResetAppLoginNotPreserved",
+      "value": "無法保留您的登入狀態。資料庫尚未清空。"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "DiceRoll.EmojiStake",
       "value": "表情符號投注"
     },
@@ -16970,6 +17240,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "EditImage.CanvasColorPicker.PickFromImage",
+      "value": "從圖片中選取顏色"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "EditImage.CanvasColorPicker.Red",
       "value": "紅"
     },
@@ -16992,6 +17267,11 @@
       "_": "types.LangPackString",
       "key": "EditImage.CanvasController.ClearAll",
       "value": "全部清除"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EditImage.CanvasController.ClearAllConfirm",
+      "value": "要清除所有圖片、文字和貼圖嗎？"
     },
     {
       "_": "types.LangPackString",
@@ -17055,6 +17335,31 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "EditImage.CanvasControls.SwitchToFill",
+      "value": "切換至填滿"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EditImage.CanvasControls.SwitchToLine",
+      "value": "切換至線條"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EditImage.CanvasControls.SwitchToOneSidedArrow",
+      "value": "切換至單向箭頭"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EditImage.CanvasControls.SwitchToOutline",
+      "value": "切換至描邊"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EditImage.CanvasControls.SwitchToTwoSidedArrow",
+      "value": "切換至雙向箭頭"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "EditImage.CanvasControls.Text",
       "value": "文字"
     },
@@ -17075,6 +17380,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "EditImage.Controls.CutOutObject",
+      "value": "裁切一個物品"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "EditImage.CutoutController.AddOutline",
       "value": "加入描邊"
     },
@@ -17087,6 +17397,11 @@
       "_": "types.LangPackString",
       "key": "EditImage.CutoutController.Hint",
       "value": "點擊一個物品並裁切它"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EditImage.CutoutController.RemoveOutline",
+      "value": "移除描邊"
     },
     {
       "_": "types.LangPackString",
@@ -17265,6 +17580,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "EditVideo.Controller.MutedTooltip",
+      "value": "聲音現已關閉，如果影片太短，則會像 GIF 一樣循環播放。"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "EditVideo.Controller.Quality",
       "value": "品質"
     },
@@ -17305,6 +17625,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "EditVideo.Export.Shadows",
+      "value": "陰影"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "EditVideo.Export.Vignette",
       "value": "暗角"
     },
@@ -17320,8 +17645,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "EditVideo.ToolsController.Original",
+      "value": "原始"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "EditVideo.ToolsController.Shadows",
       "value": "陰影"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EditVideo.ToolsController.ShowEdited",
+      "value": "顯示編輯後內容"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EditVideo.ToolsController.ShowOriginal",
+      "value": "顯示原始內容"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EditVideo.ToolsController.Tint",
+      "value": "色調"
     },
     {
       "_": "types.LangPackString",
@@ -18246,7 +18591,7 @@
     {
       "_": "types.LangPackString",
       "key": "ExportData.Sessions",
-      "value": "已登入的裝置"
+      "value": "其他裝置"
     },
     {
       "_": "types.LangPackString",
@@ -18647,6 +18992,11 @@
       "_": "types.LangPackString",
       "key": "ForumSidebar.RowsView.DeleteTopics",
       "value": "刪除話題"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "ForumSidebar.RowsView.DeleteTopicsInfo",
+      "other_value": "刪除所選的 %1$d 個話題及其所有訊息嗎？"
     },
     {
       "_": "types.LangPackString",
@@ -19395,6 +19745,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "GeneralSettings.ShowContactsTab",
+      "value": "顯示聯絡人頁籤"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "GeneralSettings.ShowProfileId.Text",
       "value": "在資料頁中顯示 Peer ID"
     },
@@ -19852,6 +20207,11 @@
       "_": "types.LangPackString",
       "key": "Gift.TransferController.FrequentContacts",
       "value": "常用聯絡人"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.TransferController.Title",
+      "value": "選擇接收者"
     },
     {
       "_": "types.LangPackString",
@@ -21524,6 +21884,21 @@
       "value": "所有小工具 — WebKit"
     },
     {
+      "_": "types.LangPackString",
+      "key": "HTMLDemo.Catalog.StatsCommandDescription",
+      "value": "顯示或隱藏即時渲染統計資料"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "HTMLDemo.Catalog.StatsOff",
+      "value": "即時統計資料已關閉。請傳送 %1$@ 以顯示它們。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "HTMLDemo.Catalog.TypeToPick",
+      "value": "輸入 / 選擇訊息"
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "key": "HTMLDemo.Catalog.WidgetsCount",
       "other_value": "%1$d 個小工具"
@@ -21557,6 +21932,11 @@
       "_": "types.LangPackString",
       "key": "HTMLRender.Engine.WebKit",
       "value": "WebKit"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "HTMLWidget.Store.WidgetUnavailable",
+      "value": "小工具無法使用"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -21612,6 +21992,11 @@
       "_": "types.LangPackString",
       "key": "InAppLinks.Confirm.OpenExternalNew",
       "value": "您想要開啟「%@」嗎？"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "InAppLinks.FreeMessageLinkApplied",
+      "value": "您現在可以免費向 %1$@ 傳送訊息。"
     },
     {
       "_": "types.LangPackString",
@@ -22087,6 +22472,11 @@
       "_": "types.LangPackString",
       "key": "InviteLink.PeopleJoined_countable",
       "value": "%d"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "InviteLink.QrCode.InfoChannel",
+      "value": "Telegram 上的每個人都可以掃描此 QR Code 來加入您的頻道。"
     },
     {
       "_": "types.LangPackString",
@@ -23730,8 +24120,28 @@
     },
     {
       "_": "types.LangPackStringPluralized",
+      "key": "MessageCalendar.DaysSelectedTitle",
+      "other_value": "已選擇 %1$d 天"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
       "key": "MessageCalendar.DeleteAlertText",
       "other_value": "您確定要刪除所選 %1$d 天的全部訊息嗎？"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "MessageCalendar.DeleteForAllAlertText",
+      "other_value": "您確定要刪除所選 %1$d 天內所有成員的所有訊息嗎？"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "MessageCalendar.DeleteOwnAlertText",
+      "other_value": "您確定要刪除所選 %1$d 天內的所有訊息嗎？"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MessageCalendar.NothingToDelete",
+      "value": "所選日期範圍內沒有待刪除的訊息。"
     },
     {
       "_": "types.LangPackString",
@@ -23932,6 +24342,16 @@
       "_": "types.LangPackString",
       "key": "MessagesPrivacy.ChargeforMessages.Select.Info",
       "value": "每收到一則訊息，您將獲取設定費用的 %1$@（~%2$@）。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MessagesPrivacy.Controller.EnterWholeNumber",
+      "value": "請輸入 1 到 %1$d 之間的整數。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MessagesPrivacy.Controller.PriceForEachMessage",
+      "value": "每則訊息的價格"
     },
     {
       "_": "types.LangPackString",
@@ -25100,6 +25520,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Notification.Reaction.Hidden",
+      "value": "您的訊息收到新反應"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Notification.Reminder",
       "value": "🗓 提醒"
     },
@@ -25270,6 +25695,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "NotificationSettings.Exception.AlertTonesHeader",
+      "value": "提示聲"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "NotificationSettings.Exception.AuthorNameHeader",
       "value": "顯示作者名稱"
     },
@@ -25290,6 +25720,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "NotificationSettings.Exception.StoriesHeader",
+      "value": "動態通知"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "NotificationSettings.Exceptions",
+      "other_value": "%1$d 個例外"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "NotificationSettings.Exceptions.Add",
       "value": "新增"
     },
@@ -25302,6 +25742,11 @@
       "_": "types.LangPackString",
       "key": "NotificationSettings.Exceptions.AlwaysOn",
       "value": "保持開啟"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NotificationSettings.Exceptions.Automatic",
+      "value": "%1$@（自動）"
     },
     {
       "_": "types.LangPackString",
@@ -25435,6 +25880,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "NotificationSettings.Reactions.From",
+      "value": "來自"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "NotificationSettings.Reactions.Messages",
       "value": "我的訊息收到的反應"
     },
@@ -25515,13 +25965,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "NotificationSettings.Stories.ImportantInfo",
+      "value": "前 5 位聯絡人保持開啟。"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "NotificationSettings.Stories.New",
       "value": "新動態"
     },
     {
       "_": "types.LangPackString",
+      "key": "NotificationSettings.ThisDevice.DefaultSound",
+      "value": "預設聲音"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "NotificationSettings.ThisDevice.Header",
       "value": "在此裝置上"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NotificationSettings.ThisDevice.ShowMessageText",
+      "value": "顯示訊息文字"
     },
     {
       "_": "types.LangPackString",
@@ -29916,7 +30381,7 @@
     {
       "_": "types.LangPackString",
       "key": "PrivacySettings.ActiveSessions",
-      "value": "裝置"
+      "value": "其他裝置"
     },
     {
       "_": "types.LangPackString",
@@ -31202,6 +31667,11 @@
       "_": "types.LangPackString",
       "key": "RenameDevice.Controller.DeviceNameHeader",
       "value": "裝置名稱"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RenameDevice.Controller.DeviceNameInfo",
+      "value": "此名稱會顯示在您其他裝置的「其他裝置」清單中。"
     },
     {
       "_": "types.LangPackString",
@@ -33780,13 +34250,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "SessionModal.Controller.FirstSignedAt",
+      "value": "首次登入時間"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "SessionModal.Controller.LastActive",
       "value": "最後活躍時間"
     },
     {
       "_": "types.LangPackString",
+      "key": "SessionModal.Controller.LocationNotFound",
+      "value": "找不到此位置。請再試一次。"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "SessionModal.Controller.OS",
       "value": "作業系統"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SessionModal.Controller.OfficialApp",
+      "value": "此裝置登入於官方 Telegram 應用程式"
     },
     {
       "_": "types.LangPackString",
@@ -37870,6 +38355,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "StickerPack.Editing.StickerAdded",
+      "value": "貼圖已新增至 **%1$@** 貼圖包。"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "StickerPack.Emoji",
       "value": "表情符號"
     },
@@ -37915,6 +38405,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "StickerPack.PreviewModalController.DeleteSetInfo",
+      "value": "這將對所有用戶刪除此貼圖包。"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "StickerPack.PreviewModalController.EditName",
       "value": "編輯名稱"
     },
@@ -37947,6 +38442,11 @@
       "_": "types.LangPackString",
       "key": "StickerPack.PreviewModalController.ReplaceSticker",
       "value": "替換貼圖"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StickerPack.PreviewModalController.StickerAdded",
+      "value": "貼圖已新增至 **%1$@** 貼圖包。"
     },
     {
       "_": "types.LangPackString",
@@ -38322,6 +38822,16 @@
       "_": "types.LangPackString",
       "key": "StorageUsage.ClearedText",
       "value": "在您的裝置上釋放了 %@ 空間！"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StorageUsage.Controller.UsageLessThan",
+      "value": "Telegram 佔用您裝置儲存空間少於 %1$@。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StorageUsage.Controller.UsageText",
+      "value": "Telegram 佔用您裝置儲存空間的 **%1$@**。"
     },
     {
       "_": "types.LangPackString",
@@ -43265,6 +43775,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "VoiceOver.AIActivity.HideSteps",
+      "value": "隱藏步驟"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "VoiceOver.AIActivity.HideSummary",
       "value": "隱藏摘要"
     },
@@ -43275,6 +43790,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "VoiceOver.AIActivity.ShowSteps",
+      "value": "顯示步驟"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "VoiceOver.AIActivity.ShowSummary",
       "value": "顯示摘要"
     },
@@ -43282,6 +43802,11 @@
       "_": "types.LangPackString",
       "key": "VoiceOver.AIActivity.Stopped",
       "value": "已停止"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.AIAssistant.StartNewChat",
+      "value": "開始新聊天"
     },
     {
       "_": "types.LangPackString",
@@ -43302,6 +43827,11 @@
       "_": "types.LangPackString",
       "key": "VoiceOver.AuthSessions.CurrentSession",
       "value": "此裝置"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Boost.Progress",
+      "value": "%1$@ / %2$@ 為 %3$@ 助推"
     },
     {
       "_": "types.LangPackString",
@@ -43359,14 +43889,49 @@
       "value": "撥出語音通話"
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "key": "VoiceOver.Calls.RatingStars",
+      "other_value": "%d 星"
+    },
+    {
       "_": "types.LangPackString",
       "key": "VoiceOver.Chart.Date",
       "value": "日期"
     },
     {
       "_": "types.LangPackString",
+      "key": "VoiceOver.Chart.Description",
+      "value": "圖表"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chart.LongerPeriod",
+      "value": "顯示更長的時間區間"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "VoiceOver.Chart.NoData",
       "value": "沒有資料"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chart.Period",
+      "value": "時間區間"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chart.Series",
+      "value": "%1$@，最高 %2$@（於 %3$@），最低 %4$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chart.SeriesAtTime",
+      "value": "%1$@，最高 %2$@（於 %3$@），最低 %4$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chart.ShorterPeriod",
+      "value": "顯示更短的時間區間"
     },
     {
       "_": "types.LangPackString",
@@ -43485,6 +44050,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.MediaResults",
+      "value": "媒體搜尋結果"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "VoiceOver.Chat.Message",
       "value": "訊息"
     },
@@ -43520,6 +44090,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.OpenHint",
+      "value": "按下以開啟"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.OpenLinkHint",
+      "value": "按下以開啟連結"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "VoiceOver.Chat.OptionSelected",
       "value": "已選"
     },
@@ -43540,6 +44120,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.PlayHint",
+      "value": "按下以播放"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "VoiceOver.Chat.PlayedByRecipient",
       "value": "收信人已播放"
     },
@@ -43555,8 +44140,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.Poll.RecentVoters",
+      "value": "最近的投票人"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "VoiceOver.Chat.PollFinalResults",
       "value": "最終結果"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.PollFrom",
+      "value": "投票，來自：%@"
     },
     {
       "_": "types.LangPackString",
@@ -43582,6 +44177,11 @@
       "_": "types.LangPackString",
       "key": "VoiceOver.Chat.Record",
       "value": "錄製"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.RecordModeHint",
+      "value": "按下以在語音訊息與視訊訊息之間切換。使用「錄製」操作開始錄製。"
     },
     {
       "_": "types.LangPackString",
@@ -43620,6 +44220,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.SearchByMember",
+      "value": "依成員搜尋"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "VoiceOver.Chat.SeenByRecipient",
       "value": "接收者已看"
     },
@@ -43650,6 +44255,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.StakeAmounts",
+      "value": "質押金額"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "VoiceOver.Chat.Sticker",
       "value": "貼圖"
     },
@@ -43662,6 +44272,11 @@
       "_": "types.LangPackString",
       "key": "VoiceOver.Chat.Stop",
       "value": "停止"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.SwitchTopicsView",
+      "value": "切換話題視圖"
     },
     {
       "_": "types.LangPackString",
@@ -43725,6 +44340,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.WebWidget",
+      "value": "互動式小工具"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "VoiceOver.Chat.YourAnimatedSticker",
       "value": "您的動態貼圖"
     },
@@ -43757,6 +44377,11 @@
       "_": "types.LangPackString",
       "key": "VoiceOver.Chat.YourPhoto",
       "value": "您的照片"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.YourPoll",
+      "value": "您的投票"
     },
     {
       "_": "types.LangPackString",
@@ -43817,6 +44442,11 @@
       "_": "types.LangPackString",
       "key": "VoiceOver.ChatList.OutgoingMessage",
       "value": "撥出的訊息"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.ChatList.SavedMessagesOptions",
+      "value": "「我的收藏」選項"
     },
     {
       "_": "types.LangPackString",
@@ -44035,8 +44665,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "VoiceOver.Common.DigitOf",
+      "value": "數字 %1$d / %2$d"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "VoiceOver.Common.Done",
       "value": "完成"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Down",
+      "value": "下"
     },
     {
       "_": "types.LangPackString",
@@ -44160,6 +44800,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Left",
+      "value": "左"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "VoiceOver.Common.Like",
       "value": "喜歡"
     },
@@ -44240,6 +44885,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "VoiceOver.Common.MoveEarlier",
+      "value": "往前移動"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.MoveLater",
+      "value": "往後移動"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "VoiceOver.Common.MoveUp",
       "value": "向上移動"
     },
@@ -44310,8 +44965,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "VoiceOver.Common.OpenInSafari",
+      "value": "在 Safari 中開啟"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "VoiceOver.Common.Options",
       "value": "選項"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.PageOf",
+      "value": "第 %1$d / %2$d 頁"
     },
     {
       "_": "types.LangPackString",
@@ -44322,6 +44987,11 @@
       "_": "types.LangPackString",
       "key": "VoiceOver.Common.Photo",
       "value": "照片"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.PhotoOf",
+      "value": "%@ 的照片"
     },
     {
       "_": "types.LangPackString",
@@ -44415,6 +45085,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Refresh",
+      "value": "重新整理"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "VoiceOver.Common.Remove",
       "value": "移除"
     },
@@ -44427,6 +45102,11 @@
       "_": "types.LangPackString",
       "key": "VoiceOver.Common.RepeatAll",
       "value": "全部"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.RepeatOne",
+      "value": "一"
     },
     {
       "_": "types.LangPackString",
@@ -44445,6 +45125,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Resize",
+      "value": "調整大小"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "VoiceOver.Common.Retry",
       "value": "重試"
     },
@@ -44452,6 +45137,11 @@
       "_": "types.LangPackString",
       "key": "VoiceOver.Common.Reversed",
       "value": "顛倒順序"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Right",
+      "value": "右"
     },
     {
       "_": "types.LangPackString",
@@ -44470,8 +45160,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Schedule",
+      "value": "預約"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "VoiceOver.Common.ScrollDown",
       "value": "向下捲動"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.ScrollToBottom",
+      "value": "捲動至底部"
     },
     {
       "_": "types.LangPackString",
@@ -44525,8 +45225,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "VoiceOver.Common.ShowTips",
+      "value": "顯示提示"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "VoiceOver.Common.Shuffle",
       "value": "隨機播放"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.SkinTone",
+      "value": "膚色"
     },
     {
       "_": "types.LangPackString",
@@ -44562,6 +45272,11 @@
       "_": "types.LangPackString",
       "key": "VoiceOver.Common.Tabs",
       "value": "頁籤"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.TagInfo",
+      "value": "標籤資訊"
     },
     {
       "_": "types.LangPackString",
@@ -44627,6 +45342,11 @@
       "_": "types.LangPackString",
       "key": "VoiceOver.Common.UnreadReactions",
       "value": "未讀反應"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Up",
+      "value": "上"
     },
     {
       "_": "types.LangPackString",
@@ -44740,6 +45460,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "VoiceOver.Gift.PriceFrom",
+      "value": "來自 %1$@"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "VoiceOver.GiftPremium",
       "value": "贈送 Telegram Premium"
     },
@@ -44747,6 +45472,11 @@
       "_": "types.LangPackString",
       "key": "VoiceOver.ImageEditor.Arrow",
       "value": "箭頭"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.ImageEditor.ArrowType",
+      "value": "箭頭類型"
     },
     {
       "_": "types.LangPackString",
@@ -44810,6 +45540,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "VoiceOver.ImageEditor.Shade",
+      "value": "色階"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.ImageEditor.ShadeOf",
+      "value": "%1$@，色階 %2$d / %3$d"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "VoiceOver.ImageEditor.TextAlignment",
       "value": "文字對齊"
     },
@@ -44855,6 +45595,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "VoiceOver.Login.QRCode",
+      "value": "登入 QR code"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "VoiceOver.Media.Forward15",
       "value": "快進 15 秒"
     },
@@ -44897,6 +45642,11 @@
       "_": "types.LangPackString",
       "key": "VoiceOver.Media.TrimmedRange",
       "value": "修剪範圍"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "VoiceOver.Message.BoostCount",
+      "other_value": "已助推 %1$d 次"
     },
     {
       "_": "types.LangPackString",
@@ -44955,8 +45705,33 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "VoiceOver.News.Feeds",
+      "value": "動態"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Permissions.BoostsRequired",
+      "value": "需要助推"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "VoiceOver.Recording.StopAndPreview",
       "value": "停止並預覽"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.RichEditor.AICompose",
+      "value": "AI 撰寫"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.RichEditor.ButtonPreview",
+      "value": "按鈕預覽"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.RichEditor.FormulaResult",
+      "value": "公式結果"
     },
     {
       "_": "types.LangPackString",
@@ -44985,8 +45760,23 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "VoiceOver.Segment.ApplyColorTo",
+      "value": "套用顏色至"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Segment.AvatarOptions",
+      "value": "大頭貼選項"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "VoiceOver.Segment.RecoveryPhraseLength",
       "value": "助记词长度"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.SelectPeers.Counter",
+      "value": "%1$@，已選 %2$@ / %3$@"
     },
     {
       "_": "types.LangPackString",
@@ -44997,6 +45787,11 @@
       "_": "types.LangPackString",
       "key": "VoiceOver.SelfDestructTimerOn",
       "value": "閱後即焚計時器：%@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.ShortPeer.TagAction",
+      "value": "標籤：%1$@"
     },
     {
       "_": "types.LangPackString",
@@ -45015,6 +45810,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "VoiceOver.StorageUsage.ChatsAndMedia",
+      "value": "聊天和媒體"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "VoiceOver.SuggestPost",
       "value": "建議貼文"
     },
@@ -45022,6 +45822,11 @@
       "_": "types.LangPackString",
       "key": "VoiceOver.Wallet.Details",
       "value": "詳細資訊"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Wallet.Word",
+      "value": "助記詞 %d"
     },
     {
       "_": "types.LangPackString",
@@ -45035,8 +45840,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "VoiceOver.Wallpaper.Item",
+      "value": "背景 %1$d，%2$@"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "VoiceOver.Wallpaper.Pattern",
       "value": "圖案"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Wallpaper.PatternItem",
+      "value": "圖案 %1$d"
     },
     {
       "_": "types.LangPackString",
@@ -45502,6 +46317,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.CollectibleDetailsController.PreviousCollectible",
       "value": "上一件典藏品"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.CollectibleDetailsController.ReplayGiftAnimation",
+      "value": "重播禮物動畫"
     },
     {
       "_": "types.LangPackString",
@@ -47090,6 +47910,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.TonConnect.SecretPhraseRequiredInfo",
+      "value": "輸入您的助記詞以恢復對此錢包的存取權並連線應用程式。"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.TonConnectSigningRowItem.BinaryTitle",
       "value": "二進位內容"
     },
@@ -47141,7 +47966,7 @@
     {
       "_": "types.LangPackString",
       "key": "Wallet.TransactionController.CollectibleTopUpInfo",
-      "value": "您需要至少有 0.1 克、Gram 的餘額才能轉讓 NFT。請先充值，然後再試一次。"
+      "value": "您需要至少有 0.1 Gram 的餘額才能轉讓 NFT。請先儲值，然後再試一次。"
     },
     {
       "_": "types.LangPackString",
@@ -48474,5 +49299,5 @@
       "value": "顯示替換"
     }
   ],
-  "version": 2433437
+  "version": 2433712
 }

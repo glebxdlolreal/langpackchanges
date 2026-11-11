@@ -840,6 +840,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Agent.Effort",
+      "value": "思考深度"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Agent.InputPlaceholder",
       "value": "問 Agent 任何問題"
     },
@@ -4866,7 +4871,7 @@
     {
       "_": "types.LangPackString",
       "key": "Business.Links.SimpleLinkInfoUsernamePhone",
-      "value": "您也可以使用簡單的連結開始與您的聊天 - [t.me/%1$@](用戶名) 或 [t.me/⁠+⁠%2$@](電話)。"
+      "value": "您也可以使用簡單的連結開始與您的聊天——[t.me/%1$@](username) 或 [t.me/⁠+⁠%2$@](phone)。"
     },
     {
       "_": "types.LangPackString",
@@ -6252,6 +6257,11 @@
       "_": "types.LangPackString",
       "key": "Call.PrivacyErrorMessage",
       "value": "抱歉，由於 %@ 的隱私設定，您無法打電話給他（她）。您可以試著要求對方修改設定或打電話給您。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Call.PrivacyErrorMessageMultiple",
+      "value": "抱歉，%@ 無法接聽來電。"
     },
     {
       "_": "types.LangPackString",
@@ -20511,12 +20521,12 @@
     {
       "_": "types.LangPackString",
       "key": "Conversation.Translation.TranslateTo",
-      "value": "翻譯成%@"
+      "value": "翻譯為%@"
     },
     {
       "_": "types.LangPackString",
       "key": "Conversation.Translation.TranslateToOther",
-      "value": "翻譯成%@"
+      "value": "翻譯為%@"
     },
     {
       "_": "types.LangPackString",
@@ -20876,7 +20886,7 @@
     {
       "_": "types.LangPackString",
       "key": "CreateBot.UsernameHint",
-      "value": "必須以「%1$@」結尾——或有 **Telegram Premium** 訂閱的情況下，可以「%2$@」結尾。"
+      "value": "必須以「%1$@」結尾——或有 **Telegram Premium** 訂閱的情況下，以「%2$@」結尾。"
     },
     {
       "_": "types.LangPackString",
@@ -34500,6 +34510,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "NewCall.ParticipantLimitAlert",
+      "value": "一次通話最多可以有 %@ 位參與者。"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "NewCall.SearchPlaceholder",
       "value": "搜尋聯絡人或用戶名稱"
     },
@@ -38866,7 +38881,7 @@
     {
       "_": "types.LangPackString",
       "key": "PUSH_REACT_HIDDEN",
-      "value": "您的訊息有新表情符號反應"
+      "value": "您的訊息收到新反應"
     },
     {
       "_": "types.LangPackString",
@@ -45031,7 +45046,7 @@
     {
       "_": "types.LangPackString",
       "key": "PrivacySettings.AuthSessions",
-      "value": "裝置"
+      "value": "其他裝置"
     },
     {
       "_": "types.LangPackString",
@@ -55221,7 +55236,7 @@
     {
       "_": "types.LangPackString",
       "key": "TextProcessing.Translate.ToLanguage",
-      "value": "到 {}"
+      "value": "到{}"
     },
     {
       "_": "types.LangPackString",
@@ -59230,6 +59245,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "VoiceOver.Common.SectionIndex",
+      "value": "分區索引"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "VoiceOver.Common.SwitchHint",
       "value": "雙擊即可切換"
     },
@@ -59500,6 +59520,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "VoiceOver.TabBar.AttentionRequired",
+      "value": "需要注意"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.AddFunds",
       "value": "儲值"
     },
@@ -59711,7 +59736,7 @@
     {
       "_": "types.LangPackString",
       "key": "Wallet.Backup.DisableRetryText",
-      "value": "%@\n\n請點選「停用」以重試。"
+      "value": "%@\n\n請點擊「停用」以重試。"
     },
     {
       "_": "types.LangPackString",
@@ -61076,7 +61101,7 @@
     {
       "_": "types.LangPackString",
       "key": "Wallet.Transfer.CollectibleTopUpText",
-      "value": "您需要至少有 0.1 克、Gram 的餘額才能轉讓 NFT。請先充值，然後再試一次。"
+      "value": "您需要至少有 0.1 Gram 的餘額才能轉讓 NFT。請先儲值，然後再試一次。"
     },
     {
       "_": "types.LangPackString",
@@ -62005,6 +62030,26 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WebApp.CameraMicrophonePermission.Succeed",
+      "value": "**%@** 現在可以存取您的相機和麥克風。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WebApp.CameraMicrophonePermission.Text",
+      "value": "**%1$@** 請求存取您的**相機**和**麥克風**。您可以在 **%2$@** 的個人資料頁中撤銷此存取權限。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WebApp.CameraPermission.Succeed",
+      "value": "**%@** 現在可以存取您的相機。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WebApp.CameraPermission.Text",
+      "value": "**%1$@** 請求存取您的**相機**。您可以在 **%2$@** 的個人資料頁中撤銷此存取權限。"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WebApp.CloseAnyway",
       "value": "仍然關閉"
     },
@@ -62217,6 +62262,16 @@
       "_": "types.LangPackString",
       "key": "WebApp.MessagePreview",
       "value": "訊息預覽"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WebApp.MicrophonePermission.Succeed",
+      "value": "**%@** 現在可以存取您的麥克風。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WebApp.MicrophonePermission.Text",
+      "value": "**%1$@** 請求存取您的**麥克風**。您可以在 **%2$@** 的個人資料頁中撤銷此存取權限。"
     },
     {
       "_": "types.LangPackString",
@@ -62954,5 +63009,5 @@
       "value": "您輸入了無效的安全碼。"
     }
   ],
-  "version": 22550959
+  "version": 22554073
 }
