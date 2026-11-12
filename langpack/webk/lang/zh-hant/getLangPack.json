@@ -716,7 +716,7 @@
     {
       "_": "types.LangPackString",
       "key": "AddAdminErrorNotAMember",
-      "value": "抱歉，您不能將此用戶加為管理員，因為該用戶不是群組成員，且您不被允許將其加入。"
+      "value": "您不能將此用戶加為管理員，因為該用戶不是群組成員，且您不被允許將其加入。"
     },
     {
       "_": "types.LangPackString",
@@ -842,6 +842,11 @@
       "_": "types.LangPackString",
       "key": "AddToGroup",
       "value": "新增至群組"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AddUserErrorBlacklisted",
+      "value": "抱歉，您無法新增此用戶，因為他們已在「已移除的用戶」清單中，您無法解除對他們的封鎖。"
     },
     {
       "_": "types.LangPackString",
@@ -1405,6 +1410,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AdminRecentActionMessage.ParticipantJoinedByPublicRequest",
+      "value": "會員透過公開申請加入"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AdminRecentActionMessage.ParticipantJoinedByRequest",
       "value": "成員透過申請加入"
     },
@@ -1925,6 +1935,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AiEditor.AlwaysUse.Footer",
+      "value": "您在此聊天室中傳送的每則訊息都將根據這些設定重寫。"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AiEditor.AlwaysUse.Summary",
       "value": "→ %s"
     },
@@ -1945,8 +1960,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AiEditor.ApplyOnSend.Error",
+      "value": "AI 編輯器無法重寫此訊息，因此未能傳送。[以原始內容傳送]()"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AiEditor.ApplyOnSend.Label.Fix",
       "value": "拼字修正"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AiEditor.ApplyOnSend.Label.Prompt",
+      "value": "自訂提示詞"
     },
     {
       "_": "types.LangPackString",
@@ -1960,8 +1985,38 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AiEditor.ApplyOnSend.Label.WithEmoji",
+      "value": "%s 附表情符號"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AiEditor.ApplyOnSend.PremiumFlood",
+      "value": "您目前已達到 AI 編輯器的用量上限，因此訊息未能傳送。[以原始內容傳送]()或訂閱 [Telegram Premium]()以提高上限。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AiEditor.ApplyOnSend.Removed",
+      "value": "此聊天室中的訊息將以原始內容傳送。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AiEditor.ApplyOnSend.SendAsIs",
+      "value": "以原始內容傳送"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AiEditor.ApplyOnSend.SendLabel",
       "value": "%1$s，AI 編輯器：%2$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AiEditor.ApplyOnSend.Stop",
+      "value": "停止重寫"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AiEditor.ApplyOnSend.StyleMissing",
+      "value": "%1$s 已無法使用，因此訊息未能傳送且風格功能已關閉。[以原始內容傳送]()"
     },
     {
       "_": "types.LangPackString",
@@ -2259,6 +2314,11 @@
       "value": "允許"
     },
     {
+      "_": "types.LangPackString",
+      "key": "AllowReactions",
+      "value": "啟用表情符號反應"
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "key": "AndOther",
       "other_value": "和另外 %1$d 人"
@@ -2490,6 +2550,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ArchivedStickers.SearchKeywords",
+      "value": "封存、已封存、舊貼圖、取消封存、恢復貼圖"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ArchivedStickersEmpty",
       "value": "尚無封存的貼圖"
     },
@@ -2677,6 +2742,11 @@
       "_": "types.LangPackString",
       "key": "AskButton",
       "value": "詢問志工"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Attach.FileEmpty",
+      "value": "檔案：%s 為空，無法傳送。"
     },
     {
       "_": "types.LangPackString",
@@ -2992,6 +3062,11 @@
       "_": "types.LangPackString",
       "key": "AutoNightSystemDefault",
       "value": "系統預設"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AutodeleteTimerDisabledForChats",
+      "value": "%1$s 中的自動刪除計時器已停用。"
     },
     {
       "_": "types.LangPackString",
@@ -4500,6 +4575,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "BusinessIntroUnsavedChanges",
+      "value": "您已變更您的簡介訊息。是否套用變更？"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "BusinessLinkDeleted",
       "value": "聊天連結已刪除。"
     },
@@ -5387,6 +5467,16 @@
       "_": "types.LangPackString",
       "key": "ChannelDirectMessages.WelcomePaid",
       "value": "%s \n的管理員對每則訊息收取 %s。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChannelEnablePaidReactions",
+      "value": "啟用付費反應"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChannelEnablePaidReactionsInfo",
+      "value": "啟用此選項，讓您的訂閱者可以用 Telegram 星星對貼文作出反應，您可以以 Gram 的形式提取星星。[了解更多 >](https://telegram.org/tos/content-creator-rewards#2-3-subscriber-donations)"
     },
     {
       "_": "types.LangPackString",
@@ -7127,6 +7217,11 @@
       "_": "types.LangPackString",
       "key": "Chat.Service.PeerJoinedTelegram",
       "value": "%@ 加入了 Telegram"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Service.PeerRequest.Confirm.Add",
+      "value": "您確定要將 %1$@ 傳送到 %2$@ 嗎？這也會將 %3$@ 添加到 %4$@。"
     },
     {
       "_": "types.LangPackString",
@@ -9985,6 +10080,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "DeleteAccountIfAwayFor2.SearchKeywords",
+      "value": "刪除、銷毀、閒置、帳號"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "DeleteAccountTitle",
       "value": "帳號保留期限"
     },
@@ -10822,6 +10922,11 @@
       "_": "types.LangPackString",
       "key": "EditInvitation.Unlimited",
       "value": "無限制"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "EditLimitReached",
+      "other_value": "您的訊息已到達字數上限。請縮減 %d 個字元。"
     },
     {
       "_": "types.LangPackString",
@@ -12190,6 +12295,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ForwardsRestrictedInfoBot",
+      "value": "此機器人無權複製和轉傳。"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ForwardsRestrictedInfoChannel",
       "value": "複製和轉傳此頻道內容是不被允許的。"
     },
@@ -12197,6 +12307,11 @@
       "_": "types.LangPackString",
       "key": "ForwardsRestrictedInfoGroup",
       "value": "複製和轉傳此群組內容是不被允許的。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ForwardsRestrictedInfoUser",
+      "value": "此用戶無權複製和轉傳。"
     },
     {
       "_": "types.LangPackString",
@@ -12817,6 +12932,11 @@
       "_": "types.LangPackString",
       "key": "GlobalAttachVoiceRestricted",
       "value": "此群組禁止傳送語音訊息。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GlobalAutoDeleteInfo",
+      "value": "如果啟用，您新發起聊天的所有新訊息將在傳送後的某個時間點自動為所有人刪除。您還可以[將此設定套用於現有的聊天]()。"
     },
     {
       "_": "types.LangPackString",
@@ -13517,6 +13637,16 @@
       "_": "types.LangPackString",
       "key": "InviteViaLink.Title",
       "value": "透過連結邀請"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "IsSelectingContact",
+      "value": "%1$s 正在選擇要分享的聯絡人..."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "IsSelectingLocation",
+      "value": "%1$s 正在選擇要分享的位置"
     },
     {
       "_": "types.LangPackString",
@@ -15239,6 +15369,16 @@
       "value": "輸入網址..."
     },
     {
+      "_": "types.LangPackString",
+      "key": "MaximumReactionsHeader",
+      "value": "反應數量上限"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MaximumReactionsInfo",
+      "value": "限制可以加入到貼文中的不同反應的數量，包括已經發布的反應。"
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "key": "Media",
       "other_value": "%d 個媒體"
@@ -15591,7 +15731,7 @@
     {
       "_": "types.LangPackString",
       "key": "MediaEditor.VideoCropEnd",
-      "value": "修建結束點"
+      "value": "修剪結束點"
     },
     {
       "_": "types.LangPackString",
@@ -18765,6 +18905,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PremiumBusinessChatLinks.SearchKeywords",
+      "value": "連結、聊天連結、短連結、預設訊息、商家"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PremiumBusinessChatLinksDescription",
       "value": "建立與您開始聊天的連結，並預設第一則訊息。"
     },
@@ -18792,6 +18937,11 @@
       "_": "types.LangPackString",
       "key": "PremiumBusinessIntro",
       "value": "啟動頁面"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PremiumBusinessIntro.SearchKeywords",
+      "value": "簡介、啟動頁面、問候語、空聊天室、貼圖、商家"
     },
     {
       "_": "types.LangPackString",
@@ -19945,6 +20095,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "QRCode.NoPaid.RemoveStarsFee",
+      "value": "免收 %s 費用"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "QRCode.NoPaid.Toast.Expired",
       "value": "QR code 已過期，費用將重新收取"
     },
@@ -20082,6 +20237,41 @@
       "_": "types.LangPackString",
       "key": "Reaction.Tag.From",
       "value": "此標籤來自 **%s 表情包**。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ReactionAddEmojiFromAnyPack",
+      "value": "您可以將任何表情包中的表情符號用於反應。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ReactionAddReactionsHint",
+      "value": "加入表情符號反應..."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ReactionApplyChangesDialog",
+      "value": "您已變更表情符號反應清單。套用變更？"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ReactionCreateOwnEmojiPacks",
+      "value": "您也可以[建立自己的](https://t.me/stickers)表情包並使用它們。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ReactionCustomReactions",
+      "value": "自訂表情符號反應"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "ReactionMaxCountError",
+      "other_value": "您可以選擇 %1$d 個表情符號反應。"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "ReactionReachLvlForReactionShort",
+      "other_value": "您的頻道需要達到等級 **%2$d** 才能加入 **%1$d** 個自訂表情符號作為反應選項。"
     },
     {
       "_": "types.LangPackString",
@@ -22105,6 +22295,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ShowAdsInfo",
+      "value": "作為 Premium 訂閱者，您在 Telegram 上不會看到任何廣告，但您可以啟用廣告，例如用於查看您自己在 [Telegram 廣告平台 >](https://ads.telegram.org)上發布的廣告"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ShowAdsTitle",
       "value": "頻道中的廣告"
     },
@@ -22567,6 +22762,11 @@
       "_": "types.LangPackString",
       "key": "StarGiftGiftUpgrade",
       "value": "協助升級"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "StarGiftGotStars",
+      "other_value": "您從這份禮物中獲得了 **%d 顆星星**。"
     },
     {
       "_": "types.LangPackString",
@@ -25390,6 +25590,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "SuggestContacts.SearchKeywords",
+      "value": "推薦、常用、熱門、人們"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "SuggestContactsInfo",
       "value": "在搜尋區塊的頂部顯示您經常傳訊息的對象，以便快速選取。"
     },
@@ -27465,6 +27670,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "VoipChannelUserChanged",
+      "value": "此直播的參與者現在將您看成是「**%1$@**」。"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "VoipExchangingKeys",
       "value": "正在交換加密金鑰"
     },
@@ -27510,6 +27720,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "VoipGroupUserChanged",
+      "value": "現在，此視訊聊天的參與者所看到您是「**%1$@**」"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "VoipPeerIncompatible",
       "value": "**%1$s** 所使用的 App 採用了不相容的通訊傳輸協定，對方需要先更新 App 後您才能打電話給對方。"
     },
@@ -27550,6 +27765,31 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Action.Received",
+      "value": "%1$s 向您轉帳 %2$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Action.ReceivedCompact",
+      "value": "已轉帳 %s 給您"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Action.ReceivedUnknown",
+      "value": "您已收到 %s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Action.Sent",
+      "value": "您已轉帳 %1$s 給 %2$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Action.SentUnknown",
+      "value": "您已轉出 %s"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Action.TonConnectAppDisconnect",
       "value": "%s 請求斷開連線"
     },
@@ -27557,6 +27797,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.Action.TonConnectAppSignData",
       "value": "%s 請求您簽署資料。點擊查看。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Action.WithComment",
+      "value": "%1$s: %2$s"
     },
     {
       "_": "types.LangPackString",
@@ -27615,6 +27860,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Auth.BackupDisabledText",
+      "value": "在從 Telegram 還原助記詞之前，請啟用加密備份。"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Auth.BackupDisabledTitle",
       "value": "備份已停用"
     },
@@ -27657,6 +27907,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.Auth.TwoStepRequiredTitle",
       "value": "需進行兩步驟驗證"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Auth.UpdatePhraseErrorText",
+      "value": "新的助記詞尚未啟用。您之前的助記詞和加密備份仍然有效。"
     },
     {
       "_": "types.LangPackString",
@@ -27725,8 +27980,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Backup.DisableWalletChangedText",
+      "value": "在您更新備份設定期間，錢包的助記詞已變更。請使用目前的助記詞恢復存取權限，然後再試一次。"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Backup.EnableErrorTitle",
       "value": "無法啟用備份"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.EnablePhraseUpdatePendingText",
+      "value": "Telegram 目前尚無法在區塊鏈上確認助記詞的變更。請稍候片刻後重試，或輸入目前的助記詞。"
     },
     {
       "_": "types.LangPackString",
@@ -27770,8 +28035,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Backup.RotateFailedText",
+      "value": "%s 您的助記詞並未變更——請繼續使用目前的助記詞。您新記下的單字目前並未啟用。"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Backup.RotateFailedTitle",
       "value": "操作失敗"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.RotateReasonFailed",
+      "value": "無法完成更新。"
     },
     {
       "_": "types.LangPackString",
@@ -27810,6 +28085,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Backup.VerifyPhraseErrorText",
+      "value": "此助記詞可能已過期，無法用於您的錢包。請輸入當前的助記詞以啟用備份。"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Backup.VerifyPhraseErrorTitle",
       "value": "無法驗證助記詞"
     },
@@ -27842,6 +28122,11 @@
       "_": "types.LangPackStringPluralized",
       "key": "Wallet.Card.Ticker",
       "other_value": "Gram"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.ChatList.UnreadTransfer",
+      "value": "未讀轉帳"
     },
     {
       "_": "types.LangPackString",
@@ -27916,12 +28201,17 @@
     {
       "_": "types.LangPackString",
       "key": "Wallet.Conflict.Text",
-      "value": "這是您先前在此裝置上使用過的錢包。在切換至您的 Telegram 錢包之前，請先儲存其助記詞。"
+      "value": "您先前在此裝置上使用的錢包。在切換至您的 Telegram 錢包之前，請先儲存助記詞。"
     },
     {
       "_": "types.LangPackString",
       "key": "Wallet.Conflict.Title",
       "value": "舊錢包"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Conflict.UpdatePendingText",
+      "value": "此錢包的助記詞正在變更，區塊鏈尚未確認哪個助記詞有效。請稍等片刻後再試一次。"
     },
     {
       "_": "types.LangPackString",
@@ -27935,8 +28225,23 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Connect.Failed",
+      "value": "無法回應請求。"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Connect.HandledElsewhere",
       "value": "此請求已在另一台裝置上處理。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Connect.InvalidLink",
+      "value": "此 TON Connect 連結無效。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Connect.KeyChanging",
+      "value": "您的助記詞正在更新。更新確認後請再試一次。"
     },
     {
       "_": "types.LangPackString",
@@ -27952,6 +28257,16 @@
       "_": "types.LangPackString",
       "key": "Wallet.Connect.ManifestMissing",
       "value": "無法載入此應用程式的詳細資訊，因此未能連線至錢包。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Connect.OutcomeUnknown",
+      "value": "此操作可能已簽署或傳送。系統不會再次簽署。請檢查錢包紀錄。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Connect.Proof",
+      "value": "它會要求您向 %s 證明此錢包的所有權。"
     },
     {
       "_": "types.LangPackString",
@@ -27972,6 +28287,16 @@
       "_": "types.LangPackString",
       "key": "Wallet.Connect.SuccessTitle",
       "value": "連接成功"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Connect.Undelivered",
+      "value": "無法將答覆傳送至應用程式。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Connect.WrongNetwork",
+      "value": "此應用程式請求使用不同的錢包網路。"
     },
     {
       "_": "types.LangPackString",
@@ -28130,6 +28455,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Import.ErrorText",
+      "value": "請檢查助記詞及網路連線狀態，然後再試一次。"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Import.ErrorTitle",
       "value": "無法匯入錢包"
     },
@@ -28187,6 +28517,16 @@
       "_": "types.LangPackString",
       "key": "Wallet.Keys.Forget",
       "value": "從此裝置移除金鑰"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Keys.ForgetText",
+      "value": "您需要使用助記詞或加密備份才能再次從此裝置傳送交易。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Keys.ForgetUpdatePendingText",
+      "value": "此錢包的助記詞正在更新。更新完成後，即可從此裝置移除金鑰。"
     },
     {
       "_": "types.LangPackString",
@@ -28325,6 +28665,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Replace.ImportText",
+      "value": "透過在 Telegram 中建立的助記詞來匯入錢包。"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Replace.PasswordText",
       "value": "請輸入您的兩步驟驗證密碼以替換錢包。"
     },
@@ -28370,6 +28715,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Request.TitleUnknown",
+      "value": "應用程式請求"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Request.TraceFailed",
       "value": "預覽顯示此交易的部分內容可能會失敗。"
     },
@@ -28390,6 +28740,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Restore.Done",
+      "value": "金鑰已在此裝置上還原。"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Restore.ErrorTitle",
       "value": "無法還原錢包"
     },
@@ -28397,6 +28752,16 @@
       "_": "types.LangPackString",
       "key": "Wallet.Restore.Foreign",
       "value": "此處僅可匯入在 Telegram 中建立的助記詞。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Restore.Invalid",
+      "value": "這些單字並非有效的助記詞。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Restore.Outdated",
+      "value": "這些單字是此錢包的舊助記詞。請輸入上次更新金鑰時獲得的新助記詞。"
     },
     {
       "_": "types.LangPackString",
@@ -28535,8 +28900,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Vault.ForgotText",
+      "value": "此金鑰將從此裝置中移除。您可以透過助記詞或加密備份再次還原它。"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Vault.New",
       "value": "新的解鎖碼"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Vault.NoPasscodeText",
+      "value": "您在此裝置上的錢包金鑰未設定密碼：任何能夠存取您的 Telegram 帳號的人，都能動用您的資金。"
     },
     {
       "_": "types.LangPackString",
@@ -28565,6 +28940,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Vault.SetText",
+      "value": "請選擇一個解鎖碼，用以保護您在此裝置上的錢包金鑰。您需要此解鎖碼才能傳送 Gram。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Vault.SettingsText",
+      "value": "您在此裝置上的錢包金鑰受密碼保護。您需要輸入該密碼才能傳送 Gram。"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Vault.SkipPasscode",
       "value": "不使用解鎖碼"
     },
@@ -28577,6 +28962,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.Vault.TryLater",
       "value": "嘗試次數過多，請於 %1$s後再試一次。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Vault.TurnOffText",
+      "value": "請輸入您的錢包解鎖碼以關閉此功能。任何能夠存取您的 Telegram 帳號的人，都能動用您的資金。"
     },
     {
       "_": "types.LangPackString",
@@ -28647,6 +29037,11 @@
       "_": "types.LangPackString",
       "key": "WalletAttachMoney",
       "value": "我的錢包"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletAttachMoney.SearchKeywords",
+      "value": "錢包、gram、ton、加密貨幣、餘額"
     },
     {
       "_": "types.LangPackString",
@@ -28752,6 +29147,11 @@
       "_": "types.LangPackString",
       "key": "WalletConnectPermissionInfo",
       "value": "未經授權的情況下，此應用程式無法\n轉移資金。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectToApp",
+      "value": "將錢包連結至 %1$s"
     },
     {
       "_": "types.LangPackString",
@@ -28982,6 +29382,11 @@
       "_": "types.LangPackString",
       "key": "WalletImportExisting",
       "value": "匯入現有錢包"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletImportPhraseInfo",
+      "value": "請輸入您擁有的另一個錢包中的 %1$d 個單字的助記詞。"
     },
     {
       "_": "types.LangPackString",
@@ -29295,6 +29700,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletTonConnectRequestAppPending",
+      "value": "%s 請求交易。點擊查看。"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletTonConnectRequestAppProcessed",
       "value": "%s 的交易請求已處理"
     },
@@ -29307,6 +29717,11 @@
       "_": "types.LangPackString",
       "key": "WalletTonConnectRequestExpired",
       "value": "應用程式交易請求已過期"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTonConnectRequestPending",
+      "value": "已連線的應用程式請求交易。點擊查看。"
     },
     {
       "_": "types.LangPackString",
@@ -29580,6 +29995,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Widget.Failed",
+      "value": "小工具無法啟動。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Widget.NetworkMarker",
+      "value": "點擊此小工具即可向機器人傳送資料。"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Widget.Restart",
       "value": "重新啟動"
     },
@@ -29694,5 +30119,5 @@
       "other_value": "%1$d 則訊息"
     }
   ],
-  "version": 384058
+  "version": 384959
 }

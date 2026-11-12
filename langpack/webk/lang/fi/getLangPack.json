@@ -721,7 +721,7 @@
     {
       "_": "types.LangPackString",
       "key": "AddAdminErrorNotAMember",
-      "value": "Et voi valitettavasti lisätä tätä käyttäjää valvojaksi, koska hän ei ole ryhmässä, etkä saa lisätä häntä siihen."
+      "value": "Et voi lisätä tätä käyttäjää valvojaksi, koska hän ei ole ryhmän jäsen etkä saa lisätä häntä."
     },
     {
       "_": "types.LangPackString",
@@ -2320,6 +2320,11 @@
       "_": "types.LangPackString",
       "key": "Allow",
       "value": "Salli"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AllowReactions",
+      "value": "Salli reaktiot"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -5524,6 +5529,16 @@
       "_": "types.LangPackString",
       "key": "ChannelDirectMessages.WelcomePaid",
       "value": "%s\nveloittaa (%s) joka viestistä valvojalle."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChannelEnablePaidReactions",
+      "value": "Salli maksulliset reaktiot"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChannelEnablePaidReactionsInfo",
+      "value": "Ota käyttöön, jos haluat tilaajasi voivan lisätä maksullisia reaktiota Telegram-tähdillään. Voit nostaa ne grameina. [Lue lisää >](https://telegram.org/tos/content-creator-rewards#2-3-subscriber-donations)"
     },
     {
       "_": "types.LangPackString",
@@ -12644,12 +12659,12 @@
     {
       "_": "types.LangPackString",
       "key": "Gift2ChannelNotifyChecked",
-      "value": "Saat viestin Telegramilta, jos kanavasi saa lahjan."
+      "value": "Telegram lähettää sinulle viestin, kun kanavasi saa lahjan."
     },
     {
       "_": "types.LangPackString",
       "key": "Gift2ChannelNotifyNotChecked",
-      "value": "Et saa viestiä Telegramilta, jos kanavasi saa lahjan."
+      "value": "Et saa ilmoitusta, kun kanavasi saa lahjan."
     },
     {
       "_": "types.LangPackString",
@@ -15522,6 +15537,16 @@
       "value": "Syötä osoite..."
     },
     {
+      "_": "types.LangPackString",
+      "key": "MaximumReactionsHeader",
+      "value": "Reaktioiden enimmäismäärä"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MaximumReactionsInfo",
+      "value": "Rajoittaa julkaisuihin lisättävien eri reaktioiden lukumäärää, myös vanhoilla julkaisuilla."
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "key": "Media",
       "one_value": "",
@@ -15875,12 +15900,12 @@
     {
       "_": "types.LangPackString",
       "key": "MediaEditor.VideoCropEnd",
-      "value": "Leikkaa lopusta"
+      "value": "Leikkeen loppu"
     },
     {
       "_": "types.LangPackString",
       "key": "MediaEditor.VideoCropStart",
-      "value": "Leikkaa alusta"
+      "value": "Leikkeen alku"
     },
     {
       "_": "types.LangPackString",
@@ -20432,6 +20457,43 @@
       "_": "types.LangPackString",
       "key": "Reaction.Tag.From",
       "value": "Tämä tunniste on **kokoelmasta %s**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ReactionAddEmojiFromAnyPack",
+      "value": "Voit lisätä reaktioiksi emojeita mistä tahansa kokoelmasta."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ReactionAddReactionsHint",
+      "value": "Lisää reaktioita..."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ReactionApplyChangesDialog",
+      "value": "Olet muuttanut reaktioita. Tallennetaanko muutokset?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ReactionCreateOwnEmojiPacks",
+      "value": "Voit myös luoda [oman emojikokoelman](https://t.me/stickers) ja käyttää sitä."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ReactionCustomReactions",
+      "value": "Mukautetut reaktiot"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "ReactionMaxCountError",
+      "one_value": "Voit valita enintään %1$d reaktion.",
+      "other_value": "Voit valita enintään %1$d reaktiota."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "ReactionReachLvlForReactionShort",
+      "one_value": "Kanavasi tulee nostaa **tasolle %2$d**, jotta voit lisätä **%1$d** oman emojin reaktioksi.",
+      "other_value": "Kanavasi tulee nostaa **tasolle %2$d**, jotta voit lisätä **%1$d** omaa emojia reaktioiksi."
     },
     {
       "_": "types.LangPackString",
@@ -28803,8 +28865,8 @@
     {
       "_": "types.LangPackStringPluralized",
       "key": "Wallet.Logout.Local",
-      "one_value": "Gram-lompakkosi avaimet ovat vain tällä laitteella, eikä niistä ole varmuuskopiota Telegramin palvelimilla. Jos jatkat, avaimet tuhoutuvat — lompakon voi palauttaa vain salalauseella.",
-      "other_value": "%d gram-lompakkosi avaimet ovat vain tällä laitteella, eikä niistä ole varmuuskopiota Telegramin palvelimilla. Jos jatkat, avaimet tuhoutuvat — lompakot voi palauttaa vain salalauseella."
+      "one_value": "Lompakkosi avaimet ovat vain tällä laitteella, eikä niistä ole varmuuskopiota Telegramin palvelimilla. Jos jatkat, avaimet tuhoutuvat — lompakon voi palauttaa vain salalauseella.",
+      "other_value": "%d lompakkosi avaimet ovat vain tällä laitteella, eikä niistä ole varmuuskopiota Telegramin palvelimilla. Jos jatkat, avaimet tuhoutuvat — lompakot voi palauttaa vain salalauseella."
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -30374,5 +30436,5 @@
       "other_value": "%1$d viestiä"
     }
   ],
-  "version": 383728
+  "version": 384894
 }

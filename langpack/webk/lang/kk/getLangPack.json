@@ -1941,6 +1941,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AiEditor.AlwaysUse.Footer",
+      "value": "Осы чатта сіз жіберген әр хат осы баптаумен қайта жазылады."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AiEditor.AlwaysUse.Summary",
       "value": "→ %s"
     },
@@ -1958,6 +1963,11 @@
       "_": "types.LangPackString",
       "key": "AiEditor.AlwaysUse.Summary.WithEmoji",
       "value": "%s + эмоджи"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AiEditor.ApplyOnSend.Error",
+      "value": "ЖИ өңдегіші хатты қайта жаза алмады, сондықтан ол жіберілмеді. [Жазылған күйде жіберу]()"
     },
     {
       "_": "types.LangPackString",
@@ -1986,8 +1996,33 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AiEditor.ApplyOnSend.PremiumFlood",
+      "value": "ЖИ өңдегішінің шегіне жеттіңіз, сондықтан хат жіберілмеді. [Жазылған күйде жіберу]() не шектеуді ұлғайту үшін [Telegram Premium]()-ге жазылыңыз."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AiEditor.ApplyOnSend.Removed",
+      "value": "Бұл чаттағы хаттар жазылған күйде жіберіледі."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AiEditor.ApplyOnSend.SendAsIs",
+      "value": "Жазылған күйде жіберу"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AiEditor.ApplyOnSend.SendLabel",
       "value": "%1$s, ЖИ өңдегіші: %2$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AiEditor.ApplyOnSend.Stop",
+      "value": "Қайта жазуды тоқтату"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AiEditor.ApplyOnSend.StyleMissing",
+      "value": "%1$s енді қолжетімсіз, сондықтан хат жіберілмеді және стиль өшірілді. [Жазылған күйде жіберу]()"
     },
     {
       "_": "types.LangPackString",
@@ -2285,6 +2320,11 @@
       "_": "types.LangPackString",
       "key": "Allow",
       "value": "Рұқсат"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AllowReactions",
+      "value": "Реакцияға рұқсат беру"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -5489,6 +5529,16 @@
       "_": "types.LangPackString",
       "key": "ChannelDirectMessages.WelcomePaid",
       "value": "%s\nәкімшісі әр хат үшін %s алады."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChannelEnablePaidReactions",
+      "value": "Ақылы реакция қосу"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChannelEnablePaidReactionsInfo",
+      "value": "Бұны қосып, жазылушыларға Telegram жұлдыздары арқылы ақылы реакция орнатуға мүмкіндік беріңіз, оны кейіннен GRAM ретінде шеше аласыз. [Толығырақ >](https://telegram.org/tos/stars)"
     },
     {
       "_": "types.LangPackString",
@@ -15487,6 +15537,16 @@
       "value": "Сілтеме енгізіңіз..."
     },
     {
+      "_": "types.LangPackString",
+      "key": "MaximumReactionsHeader",
+      "value": "Реакция саны"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MaximumReactionsInfo",
+      "value": "Жарияланған жазбаларды қоса, жазбаға қосуға болатын әртүрлі реакциялардың санын шектеңіз."
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "key": "Media",
       "one_value": "",
@@ -20397,6 +20457,43 @@
       "_": "types.LangPackString",
       "key": "Reaction.Tag.From",
       "value": "**%s жинағының** белгісі қолданылды."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ReactionAddEmojiFromAnyPack",
+      "value": "Кез келген эмоджи жинағынан эмоджиді реакция қып қоса аласыз."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ReactionAddReactionsHint",
+      "value": "Реакция қосу..."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ReactionApplyChangesDialog",
+      "value": "Реакция тізімі өзгертілді. Растайсыз ба?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ReactionCreateOwnEmojiPacks",
+      "value": "Сіз де өзіңіздің жеке эмоджи жинағын [жасап](https://t.me/stickers), оны қолдана аласыз."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ReactionCustomReactions",
+      "value": "Жеке реакция"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "ReactionMaxCountError",
+      "one_value": "Ең көбі %1$d реакция таңдай аласыз.",
+      "other_value": "Ең көбі %1$d реакция таңдай аласыз."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "ReactionReachLvlForReactionShort",
+      "one_value": "**%1$d** жеке эмоджиді реакция қып қосу үшін арнаңызға **%2$d**-деңгей керек.",
+      "other_value": "**%1$d** жеке эмоджиді реакция қып қосу үшін арнаңызға **%2$d**-деңгей керек."
     },
     {
       "_": "types.LangPackString",
@@ -30339,5 +30436,5 @@
       "other_value": "%1$d хат"
     }
   ],
-  "version": 384127
+  "version": 384215
 }

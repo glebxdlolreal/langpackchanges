@@ -5496,6 +5496,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ChannelEnablePaidReactions",
+      "value": "Включить платные реакции"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ChannelHideMembers",
       "value": "Скрыть участников"
     },
@@ -20577,6 +20582,29 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ReactionAddReactionsHint",
+      "value": "Добавить реакции..."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ReactionApplyChangesDialog",
+      "value": "Вы изменили список доступных реакций. Применить изменения?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ReactionCustomReactions",
+      "value": "Выбор реакций"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Выбор **%1$d** эмодзи из любых наборов доступен на **уровне %2$d**.",
+      "key": "ReactionReachLvlForReactionShort",
+      "many_value": "Выбор **%1$d** эмодзи из любых наборов доступен на **уровне %2$d**.",
+      "one_value": "Выбор **%1$d** эмодзи из любого набора доступен на **уровне %2$d**.",
+      "other_value": "Выбор **%1$d** эмодзи из любых наборов доступен на **уровне %2$d**."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Reactions",
       "value": "Реакции"
     },
@@ -28479,6 +28507,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Backup.DisablePhraseUpdateErrorText",
+      "value": "Не удалось выполнить смену секретной фразы. Проверьте кошелёк и попробуйте ещё раз."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Backup.DisableVerificationErrorText",
       "value": "Telegram не смог подтвердить, что этот кошелёк принадлежит Вам. Попробуйте ещё раз."
     },
@@ -28526,6 +28559,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.Backup.RequiredBalanceGrams",
       "value": "Для смены секретной фразы требуется %s GRAM. Пополните баланс и попробуйте снова."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.RotateFailedText",
+      "value": "%s Ваша секретная фраза не изменилась — продолжайте использовать текущую. Новые слова, которые Вы записали, неактуальны."
     },
     {
       "_": "types.LangPackString",
@@ -28855,13 +28893,38 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Import.EnableBackupText",
+      "value": "Введите секретную фразу кошелька, состоящую из 12 или 24 слов, чтобы включить резервное копирование с защитой шифрованием."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Import.ErrorText",
+      "value": "Проверьте секретную фразу и соединение с интернетом, а затем попробуйте ещё раз."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Import.ErrorTitle",
       "value": "Не удалось импортировать кошелёк"
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Import.InvalidCurrentPhraseLength",
+      "value": "Ваша секретная фраза состоит ровно из 12 или 24 слов. Во вставленной фразе их %s."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Import.InvalidPhraseLength",
+      "value": "Секретная фраза состоит ровно из 12 или 24 слов. Во вставленной фразе их %s."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Import.InvalidWord",
       "value": "Некорректное слово"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Import.PhraseChangedText",
+      "value": "Ключ кошелька изменился. Введите актуальную секретную фразу из 24 слов."
     },
     {
       "_": "types.LangPackString",
@@ -28877,6 +28940,26 @@
       "_": "types.LangPackString",
       "key": "Wallet.Keys.DeleteText",
       "value": "Вы потеряете доступ к средствам, если не сохранили секретную фразу."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Keys.DeviceKey",
+      "value": "Ключ хранится на этом устройстве"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Keys.DeviceNoKey",
+      "value": "На этом устройстве нет ключа"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Keys.DeviceSection",
+      "value": "Это устройство"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Keys.Forget",
+      "value": "Удалить ключ с этого устройства"
     },
     {
       "_": "types.LangPackString",
@@ -28922,6 +29005,21 @@
       "_": "types.LangPackString",
       "key": "Wallet.PasswordSetText",
       "value": "Ваша учётная запись защищена."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Phrase.Error",
+      "value": "Не удалось отобразить секретную фразу для восстановления."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Phrase.ErrorTitle",
+      "value": "Не удалось отобразить секретную фразу"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Phrase.PasswordText",
+      "value": "Для просмотра секретной фразы введите пароль."
     },
     {
       "_": "types.LangPackString",
@@ -29045,8 +29143,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Restore.ErrorTitle",
+      "value": "Не удалось восстановить кошелёк"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Restore.Foreign",
       "value": "Можно использовать только секретную фразу, созданную в Telegram."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Restore.Invalid",
+      "value": "Введённые слова не являются корректной секретной фразой."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Restore.TextBackup",
+      "value": "Чтобы продолжить, введите секретную фразу кошелька."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Restore.Word",
+      "value": "Слово %d"
     },
     {
       "_": "types.LangPackString",
@@ -30264,5 +30382,5 @@
       "other_value": "%1$d сообщений"
     }
   ],
-  "version": 383986
+  "version": 384995
 }

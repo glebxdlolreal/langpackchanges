@@ -5441,6 +5441,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ChannelEnablePaidReactions",
+      "value": "Povolit placené reakce"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ChannelHideMembers",
       "value": "Skrýt členy"
     },
@@ -20337,6 +20342,29 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ReactionAddReactionsHint",
+      "value": "Přidat reakce..."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ReactionApplyChangesDialog",
+      "value": "Změnili jste seznam reakcí. Použít změny?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ReactionCustomReactions",
+      "value": "Vlastní reakce"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Váš kanál musí dosáhnout **Úrovně %2$d**, abyste mohli přidat **%1$d** vlastní emoji pro reakce.",
+      "key": "ReactionReachLvlForReactionShort",
+      "many_value": "Váš kanál musí dosáhnout **Úrovně %2$d**, abyste mohli přidat **%1$d** vlastních emoji pro reakce.",
+      "one_value": "Váš kanál musí dosáhnout **Úrovně %2$d**, abyste mohli přidat **%1$d** vlastní emoji pro reakce.",
+      "other_value": "Váš kanál musí dosáhnout **Úrovně %2$d**, abyste mohli přidat **%1$d** vlastních emoji pro reakce."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Reactions",
       "value": "Reakce"
     },
@@ -26861,6 +26889,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "UndoAllCustom",
+      "value": "Vrátit zpět všechna vlastní nastavení oznámení pro kontakty, skupiny a kanály."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "UnknownBotUsers",
       "value": "Neznámí uživatelé"
     },
@@ -27976,8 +28009,93 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Auth.BackupDisabledText",
+      "value": "Před obnovením tajné fráze z Telegramu zapněte šifrovanou zálohu."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Auth.BackupDisabledTitle",
+      "value": "Záloha je zakázána"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Auth.BackupUnavailableText",
+      "value": "U této peněženky není k dispozici šifrovaná záloha."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Auth.BackupUnavailableTitle",
+      "value": "Záloha nedostupná"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Auth.PasswordRetryAfter",
+      "value": "Zkuste to znovu za %s."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Auth.PasswordTooNewTitle",
+      "value": "Heslo je příliš nové"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Auth.SessionRetryAfter",
+      "value": "Z bezpečnostních důvodů to zkuste znovu za %s."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Auth.SessionTooNewTitle",
+      "value": "Relace je příliš nová"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Auth.TwoStepRequiredText",
+      "value": "Než provedete změnu v této peněžence, nastavte heslo pro Telegram."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Auth.TwoStepRequiredTitle",
+      "value": "Vyžadováno dvoufázové ověření"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Auth.UpdatePhraseErrorText",
+      "value": "Nová obnovovací fráze nebyla aktivována. Vaše předchozí fráze a zašifrovaná záloha jsou stále platné."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Auth.VerificationExpiredText",
+      "value": "Požadavek o ověření peněženky vypršel. Zkuste ji importovat znovu."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Auth.VerificationExpiredTitle",
+      "value": "Oveření vypršelo"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Auth.VerifyWalletErrorText",
+      "value": "Telegram nemohl ověřit, že jste vlastníkem této peněženky. Zkuste ji importovat znovu."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Auth.VerifyWalletErrorTitle",
+      "value": "Nelze ověřit peněženku"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Backup.CancelDisabling",
       "value": "Zrušit zakázání"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.CancelText",
+      "value": "Vaše tajná fráze nebude aktualizována."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.CancelTitle",
+      "value": "Zrušit zakázání zálohy?"
     },
     {
       "_": "types.LangPackString",
@@ -27991,6 +28109,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Backup.DisablePhraseUpdateErrorText",
+      "value": "Změnu obnovovací fráze se nepodařilo dokončit. Zkontrolujte stav své peněženky a zkuste to znovu."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.DisablePhraseUpdatePendingText",
+      "value": "Telegram zatím nemohl na blockchainu potvrdit změnu obnovovací fráze. Počkejte chvíli a znovu klepněte na Zakázat."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Backup.DisableVerificationErrorText",
       "value": "Telegram nemohl ověřit, že jste vlastníkem této peněženky. Zkuste to znovu."
     },
@@ -28001,13 +28129,23 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Backup.DisableWalletChangedText",
+      "value": "Během aktualizace nastavení zálohy došlo ke změně obnovovací fráze peněženky. Obnovte přístup pomocí aktuální obnovovací fráze a zkuste to znovu."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Backup.EnableErrorTitle",
       "value": "Nelze povolit zálohu"
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Backup.EnablePhraseUpdatePendingText",
+      "value": "Telegram zatím nemohl potvrdit změnu obnovovací fráze v blockchainu. Počkejte chvíli a zkuste to znovu, nebo zadejte aktuální obnovovací frázi."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Backup.EnableVerificationExpiredText",
-      "value": "Požadavek o ověření peněženky vypršel. Zkuste zálohuí znovu povolit."
+      "value": "Požadavek o ověření peněženky vypršel. Zkuste zálohu znovu povolit."
     },
     {
       "_": "types.LangPackString",
@@ -28016,13 +28154,88 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Backup.InvalidPhraseText",
+      "value": "Zkontrolujte všechna slova své aktuální obnovovací fráze a zkuste to znovu."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.KeyChanging",
+      "value": "Probíhá změna klíče vaší peněženky. Zkuste to znovu, jakmile bude změna potvrzena."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Backup.PhraseUpdatePendingTitle",
       "value": "Aktualizace tajné fráze čeká na schválení"
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Backup.RequiredBalance",
+      "value": "K aktualizaci obnovovací fráze potřebujete %1$s Gram (%2$s). Vložte prostředky a zkuste to znovu."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.RequiredBalanceGrams",
+      "value": "K aktualizaci obnovovací fráze potřebujete %s Gram. Vložte prostředky a zkuste to znovu."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.RetryText",
+      "value": "%s\n\nKlepněte na Zakázat a zkuste to znovu."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.RotateFailedText",
+      "value": "%s Vaše obnovovací fráze nebyla změněna — pokračujte v používání té stávající. Nová slova, která jste si zapsali, se nepoužívají."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.RotateFailedTitle",
+      "value": "Akce selhala"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.RotateReasonFailed",
+      "value": "Aktualizaci nelze dokončit."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.SureOk",
+      "value": "OK, omlouvám se"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.SureText",
+      "value": "Neměl/a jste dost času si tyhle slova zapsat."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.SureTitle",
+      "value": "Vše hotovo?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.UpdateFee",
+      "value": "Síťový poplatek: %1$s Gram (%2$s)."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.UpdateFeeGrams",
+      "value": "Síťový poplatek: %s Gram."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Backup.UpdatePhraseErrorTitle",
       "value": "Nelze aktualizovat tajnou frázi"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.UpdateTopUpText",
+      "value": "Pro aktualizaci obnovovací fráze potřebujete kladný zůstatek."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.VerifyPhraseErrorText",
+      "value": "Tato obnovovací fráze může být pro vaši peněženku zastaralá. Pro povolení zálohy zadejte aktuální obnovovací frázi."
     },
     {
       "_": "types.LangPackString",
@@ -28126,6 +28339,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Conflict.UpdatePendingText",
+      "value": "Obnovovací fráze této peněženky byla měněna a blockchain zatím nepotvrdil, která fráze je platná. Vyčkejte chvíli a zkuste to znovu."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Connect.Error",
       "value": "Nelze připojit tuto aplikaci. Zkuste to znovu."
     },
@@ -28169,6 +28387,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Error.Generic",
+      "value": "Došlo k chybě. Zkuste to znovu."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Error.InProgress",
       "value": "Právě probíhá další převod. Vyčkejte, až se dokončí."
     },
@@ -28184,8 +28407,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Error.KeyChanged",
+      "value": "Klíč této peněženky byl změněn na jiném zařízení. Pro odesílání prostředků obnovte peněženku pomocí nové obnovovací fráze."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Error.LinkExpired",
+      "value": "Platební odkaz již vypršel."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Error.NameNotFound",
       "value": "K tomuto jménu není přiřazena žádná peněženka."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Error.SendFailed",
+      "value": "Nelze odeslat převod."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Error.TooFresh",
+      "value": "Tuto akci budete moci dokončit za %s."
     },
     {
       "_": "types.LangPackString",
@@ -28244,13 +28487,38 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Import.EnableBackupText",
+      "value": "Zadejte aktuální 12 nebo 24 slovní tajnou frázi své peněženky pro povolení šifrované zálohy."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Import.ErrorText",
+      "value": "Zkontrolujte obnovovací frázi a připojení k síti a zkuste to znovu."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Import.ErrorTitle",
       "value": "Nelze importovat peněženku"
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Import.InvalidCurrentPhraseLength",
+      "value": "Vaše aktuální obnovovací fráze musí obsahovat přesně 12 nebo 24 slov. Vložená fráze obsahuje %s."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Import.InvalidPhraseLength",
+      "value": "Obnovovací fráze musí obsahovat přesně 12 nebo 24 slov. Vložená fráze obsahuje %s."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Import.InvalidWord",
       "value": "Nesprávné slovo"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Import.PhraseChangedText",
+      "value": "Klíč k této peněžence se změnil. Zadejte aktuální 24slovnou obnovovací frázi."
     },
     {
       "_": "types.LangPackString",
@@ -28261,6 +28529,61 @@
       "_": "types.LangPackString",
       "key": "Wallet.Import.Proceed",
       "value": "Pokračovat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Keys.DeleteText",
+      "value": "Ztratíte přístup ke svým prostředkům, pokud jste si neuložili svou obnovovací frázi."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Keys.DeviceKey",
+      "value": "Klíč je uložen v tomto zařízení"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Keys.DeviceNoKey",
+      "value": "V tomto zařízení není žádný klíč"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Keys.DeviceSection",
+      "value": "Toto zařízení"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Keys.Forget",
+      "value": "Odebrat klíč z tohoto zařízení"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Keys.ForgetText",
+      "value": "Abyste mohli z tohoto zařízení znovu odesílat zprávy, budete potřebovat svou obnovovací frázi nebo šifrovanou zálohu."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Keys.ForgetUpdatePendingText",
+      "value": "The recovery phrase of this wallet is being updated. The key can be removed from this device once the update is finished."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Keys.PhraseCaption",
+      "value": "Svou peněženku můžete přenést do jiného zařízení zkopírováním své obnovovací fráze složené z 12 nebo 24 slov."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Keys.Restore",
+      "value": "Zadat tajnou frázi"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Keys.RestoreBackup",
+      "value": "Obnovit z čifrované zálohy"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Keys.RestoreCaption",
+      "value": "Zadejte svou tajnou frázi k obnovení této peněženky."
     },
     {
       "_": "types.LangPackString",
@@ -28286,6 +28609,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.PasswordSetText",
       "value": "Váš účet je nyní chráněn."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Phrase.PasswordText",
+      "value": "Zadejte své heslo, abyste si mohli zobrazit svou obnovovací frázi."
     },
     {
       "_": "types.LangPackString",
@@ -28331,6 +28659,36 @@
       "_": "types.LangPackString",
       "key": "Wallet.Recipient.InvalidAddressText",
       "value": "Tato adresa peněženky je neplatná.\nZkontrolujte ji nebo zkuste jinou adresu."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Replace.CreateText",
+      "value": "Telegram pro tento účet vytvoří novou peněženku."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Replace.ErrorTitle",
+      "value": "Nelze nahradit peněženku"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Replace.ImportText",
+      "value": "Připojte peněženku pomocí její obnovovací fráze vytvořené v Telegramu."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Replace.PasswordText",
+      "value": "Zadejte heslo pro dvoufázové ověření, abyste mohli peněženku nahradit."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Replace.Title",
+      "value": "Nahradit peněženku"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Restore.Foreign",
+      "value": "Zde lze importovat pouze tajnou frázi vytvořenou v Telegramu."
     },
     {
       "_": "types.LangPackString",
@@ -28399,8 +28757,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Transfer.PendingText",
+      "value": "Převod již mohl být odeslán. Neodesílejte jej znovu, dokud se ověřuje jeho stav."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Transfer.PendingTitle",
       "value": "Převod ve frontě"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transfer.PublicCommentTooLongText",
+      "value": "Tento komentář je příliš dlouhý."
     },
     {
       "_": "types.LangPackString",
@@ -28784,6 +29152,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletImportedInfo",
+      "value": "Vaše peněženka byla obnovena z vaší tajné fráze."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletIncomingCollectibleAmount",
       "value": "+1 položka"
     },
@@ -28801,6 +29174,11 @@
       "_": "types.LangPackString",
       "key": "WalletInsufficientFunds",
       "value": "Nedostatek prostředků."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletInvalidRecoveryPhrase",
+      "value": "Neplatná tajná fráze"
     },
     {
       "_": "types.LangPackString",
@@ -28829,6 +29207,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletNoFees",
+      "value": "Nulové poplatky"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletNotEnoughGram",
       "value": "Nedostatek Gram"
     },
@@ -28839,8 +29222,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletOpenMyWallet",
+      "value": "Otevřít Money"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletOptionalComment",
       "value": "Volitelný komebtář"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletOutgoingCollectibleAmount",
+      "value": "-1 položka"
     },
     {
       "_": "types.LangPackString",
@@ -28907,6 +29300,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletRecoveryPhraseLearnButton",
+      "value": "Zobrazit tajnou frázi"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletRecoveryPhraseLearnTitle",
+      "value": "Tajná fráze"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletReplaceWalletTitle",
       "value": "Jak chcete nahradit starou peněženku?"
     },
@@ -28944,6 +29347,11 @@
       "_": "types.LangPackString",
       "key": "WalletSendGrams",
       "value": "Poslat Gram"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendInstantly",
+      "value": "Okamžité převody"
     },
     {
       "_": "types.LangPackString",
@@ -28994,6 +29402,11 @@
       "_": "types.LangPackString",
       "key": "WalletTestPhrase",
       "value": "Čas testu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTitle",
+      "value": "Money"
     },
     {
       "_": "types.LangPackString",
@@ -29132,6 +29545,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletWhatIsWallet",
+      "value": "Co je Money?"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletWrongSecretPhrase",
       "value": "Nesprávná tajná fráze"
     },
@@ -29139,6 +29557,11 @@
       "_": "types.LangPackString",
       "key": "WalletWrongSecretPhraseInfo",
       "value": "Zadaná slova se neshodují s peněženkou."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletYourRecoveryPhrase",
+      "value": "Vaše tajná fráze"
     },
     {
       "_": "types.LangPackString",
@@ -29373,5 +29796,5 @@
       "other_value": "%1$d zpráv"
     }
   ],
-  "version": 380211
+  "version": 384599
 }

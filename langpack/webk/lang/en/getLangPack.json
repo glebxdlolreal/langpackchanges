@@ -2322,6 +2322,11 @@
       "value": "Allow"
     },
     {
+      "_": "types.LangPackString",
+      "key": "AllowReactions",
+      "value": "Allow Reactions"
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "key": "AndOther",
       "one_value": "and %1$d other",
@@ -5524,6 +5529,16 @@
       "_": "types.LangPackString",
       "key": "ChannelDirectMessages.WelcomePaid",
       "value": "%s\ncharges %s per message to its admin"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChannelEnablePaidReactions",
+      "value": "Enable Paid Reactions"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChannelEnablePaidReactionsInfo",
+      "value": "Switch this on to let your subscribers set paid reactions with Telegram Stars, which you will be able to withdraw later as GRAM. [Learn More >](https://telegram.org/tos/stars)"
     },
     {
       "_": "types.LangPackString",
@@ -15522,6 +15537,16 @@
       "value": "Enter URL..."
     },
     {
+      "_": "types.LangPackString",
+      "key": "MaximumReactionsHeader",
+      "value": "Maximum reactions per post"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MaximumReactionsInfo",
+      "value": "Limit the number of different reactions that can be added to a post, including already published posts."
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "key": "Media",
       "one_value": "",
@@ -17984,7 +18009,7 @@
     {
       "_": "types.LangPackString",
       "key": "PaymentPrecheckoutFailed",
-      "value": "Sorry, the payment was cancelled by the bot."
+      "value": "Sorry, the payment was canceled by the bot."
     },
     {
       "_": "types.LangPackString",
@@ -20435,6 +20460,43 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ReactionAddEmojiFromAnyPack",
+      "value": "You can add emoji from any emoji pack as a reaction."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ReactionAddReactionsHint",
+      "value": "Add Reactions..."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ReactionApplyChangesDialog",
+      "value": "You have changed the list of reactions. Apply changes?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ReactionCreateOwnEmojiPacks",
+      "value": "You can also [create your own](https://t.me/stickers) emoji packs and use them."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ReactionCustomReactions",
+      "value": "Custom Reactions"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "ReactionMaxCountError",
+      "one_value": "You can select at most %1$d reaction.",
+      "other_value": "You can select at most %1$d reactions."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "ReactionReachLvlForReactionShort",
+      "one_value": "Your channel needs to reach Level **%2$d** to add **%1$d** custom emoji as reactions.",
+      "other_value": "Your channel needs to reach Level **%2$d** to add **%1$d** custom emoji as reactions."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Reactions",
       "value": "Reactions"
     },
@@ -22126,7 +22188,7 @@
     {
       "_": "types.LangPackString",
       "key": "SetWallpapers",
-      "value": "Set Wallpaper"
+      "value": "Change Wallpaper"
     },
     {
       "_": "types.LangPackString",
@@ -26875,7 +26937,7 @@
     {
       "_": "types.LangPackString",
       "key": "UndoAllCustom",
-      "value": "Undo all custom notification settings for all your contacts, groups and channels."
+      "value": "Undo all custom notification settings for your contacts, groups and channels."
     },
     {
       "_": "types.LangPackString",
@@ -27915,7 +27977,7 @@
     {
       "_": "types.LangPackString",
       "key": "VoipChannelUserChanged",
-      "value": "Members of this live stream will now see you as **%1$@**"
+      "value": "Participants of this live stream will now see you as **%1$@**"
     },
     {
       "_": "types.LangPackString",
@@ -28186,7 +28248,7 @@
     {
       "_": "types.LangPackString",
       "key": "Wallet.Backup.CancelText",
-      "value": "Your recovery phrase will not be updated."
+      "value": "Your secret phrase will not be updated."
     },
     {
       "_": "types.LangPackString",
@@ -28251,7 +28313,7 @@
     {
       "_": "types.LangPackString",
       "key": "Wallet.Backup.InvalidPhraseText",
-      "value": "Check all words of your current recovery phrase and try again."
+      "value": "Check all words of your current secret phrase and try again."
     },
     {
       "_": "types.LangPackString",
@@ -28326,7 +28388,7 @@
     {
       "_": "types.LangPackString",
       "key": "Wallet.Backup.UpdateTopUpText",
-      "value": "You need a non-zero balance to update your recovery phrase."
+      "value": "You need a non-zero balance to update your secret phrase."
     },
     {
       "_": "types.LangPackString",
@@ -28392,7 +28454,7 @@
     {
       "_": "types.LangPackString",
       "key": "Wallet.Collectible.NumberAbout",
-      "value": "The anonymous number %s that can be used to create a Telegram account that is not tied to a SIM card."
+      "value": "A collectible number %s can be used to create a Telegram account that is not tied to a SIM card."
     },
     {
       "_": "types.LangPackString",
@@ -28698,7 +28760,7 @@
     {
       "_": "types.LangPackString",
       "key": "Wallet.Import.EnableBackupText",
-      "value": "Enter your wallet's current 12- or 24-word recovery phrase to enable encrypted backup."
+      "value": "Enter your wallet's current 12- or 24-word secret phrase to enable encrypted backup."
     },
     {
       "_": "types.LangPackString",
@@ -28718,7 +28780,7 @@
     {
       "_": "types.LangPackString",
       "key": "Wallet.Import.InvalidPhraseLength",
-      "value": "A recovery phrase must contain exactly 12 or 24 words. The pasted phrase contains %s."
+      "value": "A secret phrase must contain exactly 12 or 24 words. The pasted phrase contains %s."
     },
     {
       "_": "types.LangPackString",
@@ -28743,7 +28805,7 @@
     {
       "_": "types.LangPackString",
       "key": "Wallet.Keys.DeleteText",
-      "value": "You'll lose access to your funds unless you've saved your recovery phrase."
+      "value": "You'll lose access to your funds unless you've saved your secret phrase."
     },
     {
       "_": "types.LangPackString",
@@ -28778,7 +28840,7 @@
     {
       "_": "types.LangPackString",
       "key": "Wallet.Keys.PhraseCaption",
-      "value": "You can transfer your wallet to another device by copying your 12- or 24-word recovery phrase."
+      "value": "You can transfer your wallet to another device by copying your 12- or 24-word secret phrase."
     },
     {
       "_": "types.LangPackString",
@@ -28793,7 +28855,7 @@
     {
       "_": "types.LangPackString",
       "key": "Wallet.Keys.RestoreCaption",
-      "value": "Enter your recovery phrase to restore access to this wallet."
+      "value": "Enter your secret phrase to restore access to this wallet."
     },
     {
       "_": "types.LangPackString",
@@ -28826,7 +28888,7 @@
     {
       "_": "types.LangPackString",
       "key": "Wallet.Menu.Lock",
-      "value": "Lock Wallet"
+      "value": "Lock Money"
     },
     {
       "_": "types.LangPackString",
@@ -28871,7 +28933,7 @@
     {
       "_": "types.LangPackString",
       "key": "Wallet.ReadOnly.Restore",
-      "value": "Restore from recovery phrase"
+      "value": "Restore from secret phrase"
     },
     {
       "_": "types.LangPackString",
@@ -29001,7 +29063,7 @@
     {
       "_": "types.LangPackString",
       "key": "Wallet.Restore.Foreign",
-      "value": "Only a recovery phrase created in Telegram can be imported here."
+      "value": "Only a secret phrase created in Telegram can be imported here."
     },
     {
       "_": "types.LangPackString",
@@ -29646,7 +29708,7 @@
     {
       "_": "types.LangPackString",
       "key": "WalletImportedInfo",
-      "value": "Your wallet was restored from your recovery phrase."
+      "value": "Your wallet was restored from your secret phrase."
     },
     {
       "_": "types.LangPackString",
@@ -29671,7 +29733,7 @@
     {
       "_": "types.LangPackString",
       "key": "WalletInvalidRecoveryPhrase",
-      "value": "Invalid Recovery Phrase"
+      "value": "Invalid Secret Phrase"
     },
     {
       "_": "types.LangPackString",
@@ -29711,7 +29773,7 @@
     {
       "_": "types.LangPackString",
       "key": "WalletNoFees",
-      "value": "No Fees"
+      "value": "Zero Fees"
     },
     {
       "_": "types.LangPackString",
@@ -29726,7 +29788,7 @@
     {
       "_": "types.LangPackString",
       "key": "WalletOpenMyWallet",
-      "value": "Open My Wallet"
+      "value": "Open My Money"
     },
     {
       "_": "types.LangPackString",
@@ -29736,7 +29798,7 @@
     {
       "_": "types.LangPackString",
       "key": "WalletOutgoingCollectibleAmount",
-      "value": "–1 item"
+      "value": "-1 item"
     },
     {
       "_": "types.LangPackString",
@@ -29807,17 +29869,17 @@
     {
       "_": "types.LangPackString",
       "key": "WalletRecoveryPhraseInfo",
-      "value": "Your Secret Recovery Phrase is the key to back up your wallet. Keep it secret and secure at all times."
+      "value": "Your Secret Phrase is the key to back up your wallet. Keep it secret and secure at all times."
     },
     {
       "_": "types.LangPackString",
       "key": "WalletRecoveryPhraseLearnButton",
-      "value": "Show Recovery Phrase"
+      "value": "Show Secret Phrase"
     },
     {
       "_": "types.LangPackString",
       "key": "WalletRecoveryPhraseLearnTitle",
-      "value": "Recovery Phrase"
+      "value": "Secret Phrase"
     },
     {
       "_": "types.LangPackString",
@@ -29872,7 +29934,7 @@
     {
       "_": "types.LangPackString",
       "key": "WalletSendInstantly",
-      "value": "Send Money Instantly"
+      "value": "Instant Transfers"
     },
     {
       "_": "types.LangPackString",
@@ -29922,7 +29984,7 @@
     {
       "_": "types.LangPackString",
       "key": "WalletTermsOfService",
-      "value": "By using Wallet you agree to [Terms of Service](https://telegram.org/tos)."
+      "value": "By using this service, you agree to its [Terms](https://telegram.org/tos)."
     },
     {
       "_": "types.LangPackString",
@@ -29937,7 +29999,7 @@
     {
       "_": "types.LangPackString",
       "key": "WalletTitle",
-      "value": "Wallet"
+      "value": "Money"
     },
     {
       "_": "types.LangPackString",
@@ -30087,7 +30149,7 @@
     {
       "_": "types.LangPackString",
       "key": "WalletWhatIsWallet",
-      "value": "What is Wallet?"
+      "value": "What is Money?"
     },
     {
       "_": "types.LangPackString",
@@ -30102,7 +30164,7 @@
     {
       "_": "types.LangPackString",
       "key": "WalletYourRecoveryPhrase",
-      "value": "Your Recovery Phrase"
+      "value": "Your Secret Phrase"
     },
     {
       "_": "types.LangPackString",
@@ -30374,5 +30436,5 @@
       "other_value": "%1$d messages"
     }
   ],
-  "version": 378801
+  "version": 384186
 }

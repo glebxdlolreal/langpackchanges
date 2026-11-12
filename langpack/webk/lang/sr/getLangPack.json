@@ -626,7 +626,7 @@
     {
       "_": "types.LangPackString",
       "key": "ActionSetWallpaperForThisChat",
-      "value": "%s је подесио/ла нову позадину за ово ћаскање"
+      "value": "%s подесио/ла нову позадину за ово ћаскање"
     },
     {
       "_": "types.LangPackString",
@@ -646,7 +646,7 @@
     {
       "_": "types.LangPackString",
       "key": "ActionSetWallpaperForThisGroup",
-      "value": "Група је подесила нову позадину"
+      "value": "Група подесила нову позадину"
     },
     {
       "_": "types.LangPackString",
@@ -726,7 +726,7 @@
     {
       "_": "types.LangPackString",
       "key": "AddAdminErrorNotAMember",
-      "value": "Не можете додати овог корисника као администратора јер није члан ове групе, а немате дозволу да га додате."
+      "value": "Не можете додати овог корисника као администратора јер он није члан ове групе, а није вам дозвољено да га додате."
     },
     {
       "_": "types.LangPackString",
@@ -2328,6 +2328,11 @@
       "_": "types.LangPackString",
       "key": "Allow",
       "value": "Дозволи"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AllowReactions",
+      "value": "Дозволи реакције"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -5586,6 +5591,16 @@
       "_": "types.LangPackString",
       "key": "ChannelDirectMessages.WelcomePaid",
       "value": "Свака порука администратору канала %s наплаћује се %s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChannelEnablePaidReactions",
+      "value": "Омогући плаћене реакције"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChannelEnablePaidReactionsInfo",
+      "value": "Укључите ово да бисте својим пратиоцима омогућили да реагују на објаве помоћу Telegram звездица, које ћете моћи да повучете као граме. [Сазнај више >](https://telegram.org/tos/content-creator-rewards#2-3-subscriber-donations)"
     },
     {
       "_": "types.LangPackString",
@@ -15018,7 +15033,7 @@
     {
       "_": "types.LangPackString",
       "key": "LimitReachedPinnedTopics",
-      "value": "На врх не можете закачити више од %d тема."
+      "value": "Не можете закачити више од %d тема на врх."
     },
     {
       "_": "types.LangPackString",
@@ -15688,6 +15703,16 @@
       "_": "types.LangPackString",
       "key": "MarkupTooltip.LinkPlaceholder",
       "value": "Унесите УРЛ..."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MaximumReactionsHeader",
+      "value": "Максималан број реакција"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MaximumReactionsInfo",
+      "value": "Ограничите број различитих реакција које се могу додати на објаву, укључујући и претходне објаве."
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -20652,6 +20677,45 @@
       "_": "types.LangPackString",
       "key": "Reaction.Tag.From",
       "value": "Ова ознака је из **пакета %s**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ReactionAddEmojiFromAnyPack",
+      "value": "Можете додати емоџије из било ког пакета емоџија као реакције."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ReactionAddReactionsHint",
+      "value": "Додајте реакције..."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ReactionApplyChangesDialog",
+      "value": "Променили сте списак реакција. Применити промене?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ReactionCreateOwnEmojiPacks",
+      "value": "Такође можете [направити сопствене](https://t.me/stickers) пакете емоџија и користити их као реакције."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ReactionCustomReactions",
+      "value": "Прилагођене реакције"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Можете изабрати до %1$d реакције.",
+      "key": "ReactionMaxCountError",
+      "one_value": "Можете изабрати до %1$d реакцију.",
+      "other_value": "Можете изабрати до %1$d реакција."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Канал мора достићи **ниво %2$d** да бисте додали **%1$d** прилагођене реакције.",
+      "key": "ReactionReachLvlForReactionShort",
+      "one_value": "Канал мора достићи **ниво %2$d** да бисте додали **%1$d** прилагођену реакцију.",
+      "other_value": "Канал мора достићи **ниво %2$d** да бисте додали **%1$d** прилагођених реакција."
     },
     {
       "_": "types.LangPackString",
@@ -28753,7 +28817,7 @@
     {
       "_": "types.LangPackString",
       "key": "Wallet.Conflict.Text",
-      "value": "Новчаник који се раније користили на овом уређају. Сачувајте његов тајни израз пре него што пређете на свој Telegram новчаник."
+      "value": "Новчаник који се раније користили на овом уређају. Сачувајте његов тајни израз пре него што пређете на Telegram новчаник."
     },
     {
       "_": "types.LangPackString",
@@ -29109,10 +29173,10 @@
     },
     {
       "_": "types.LangPackStringPluralized",
-      "few_value": "Кључеви за %d ваша грам-новчаника чувају се само на овом уређају и Telegram нема њихову резервну копију. Ако наставите, уништићете их — новчаници се могу вратити само помоћу тајних израза.",
+      "few_value": "Кључеви за %d ваша новчаника чувају се само на овом уређају и Telegram нема њихову резервну копију. Ако наставите, уништићете их — новчаници се могу вратити само помоћу тајних израза.",
       "key": "Wallet.Logout.Local",
-      "one_value": "Кључеви за %d ваш грам-новчаник чувају се само на овом уређају и Telegram нема њихову резервну копију. Ако наставите, уништићете их — новчаник се може вратити само помоћу тајног израза.",
-      "other_value": "Кључеви за %d ваших грам-новчаника чувају се само на овом уређају и Telegram нема њихову резервну копију. Ако наставите, уништићете их — новчаници се могу вратити само помоћу тајних израза."
+      "one_value": "Кључеви за %d ваш новчаник чувају се само на овом уређају и Telegram нема њихову резервну копију. Ако наставите, уништићете их — новчаник се може вратити само помоћу тајног израза.",
+      "other_value": "Кључеви за %d ваших новчаника чувају се само на овом уређају и Telegram нема њихову резервну копију. Ако наставите, уништићете их — новчаници се могу вратити само помоћу тајних израза."
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -29241,7 +29305,7 @@
     {
       "_": "types.LangPackString",
       "key": "Wallet.Request.DeployContract",
-      "value": "Објављивање уговора"
+      "value": "Објава уговора"
     },
     {
       "_": "types.LangPackString",
@@ -29741,7 +29805,7 @@
     {
       "_": "types.LangPackString",
       "key": "WalletContractCall",
-      "value": "Извршавање уговора"
+      "value": "Извршење уговора"
     },
     {
       "_": "types.LangPackString",
@@ -30689,5 +30753,5 @@
       "other_value": "%1$d порука"
     }
   ],
-  "version": 384060
+  "version": 384993
 }

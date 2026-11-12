@@ -206,7 +206,7 @@
     {
       "_": "types.LangPackString",
       "key": "AddContact.AddQR",
-      "value": "Añadir vía código QR"
+      "value": "Añadir con código QR"
     },
     {
       "_": "types.LangPackString",
@@ -3225,7 +3225,7 @@
     {
       "_": "types.LangPackString",
       "key": "AutoremoveSetup.AdditionalGlobalSettingsInfo",
-      "value": "O configura la [autodestrucción]() por defecto, para todos los chats, en Ajustes."
+      "value": "O activa la [autodestrucción]() por defecto, para todos los chats, en Ajustes."
     },
     {
       "_": "types.LangPackString",
@@ -7051,12 +7051,12 @@
     {
       "_": "types.LangPackString",
       "key": "Channel.AddBotErrorHaveRights",
-      "value": "Los bots sólo pueden ser añadidos a canales como admins."
+      "value": "Los bots pueden ser añadidos a canales sólo como admins."
     },
     {
       "_": "types.LangPackString",
       "key": "Channel.AddBotErrorNoRights",
-      "value": "Los bots sólo pueden ser añadidos a canales como administradores."
+      "value": "Los bots pueden ser añadidos a canales sólo como admins."
     },
     {
       "_": "types.LangPackString",
@@ -9287,6 +9287,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Channel.Toast.Archived",
+      "value": "**%@** archivado."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Channel.Toast.NotificationsOff",
+      "value": "Notificaciones **desactivadas**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Channel.Toast.NotificationsOn",
+      "value": "Notificaciones **activadas**."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Channel.Toast.RemovedFromChats",
       "value": "**%@** quitado de **Chats**."
     },
@@ -9294,6 +9309,11 @@
       "_": "types.LangPackString",
       "key": "Channel.Toast.RemovedFromNews",
       "value": "**%@** quitado de **Noticias**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Channel.Toast.Unarchived",
+      "value": "**%@** desarchivado."
     },
     {
       "_": "types.LangPackString",
@@ -11654,7 +11674,7 @@
     {
       "_": "types.LangPackString",
       "key": "Chat.InputTextPaidCommentPlaceholder",
-      "value": "Comentario para %@"
+      "value": "Comentario por %@"
     },
     {
       "_": "types.LangPackString",
@@ -20513,7 +20533,7 @@
     {
       "_": "types.LangPackString",
       "key": "Conversation.Theme.GiftTransfer.Text",
-      "value": "Este regalo ya está en un tema de chat con **%@**. ¿Quieres quitarlo de allí y usarlo aquí en su lugar?"
+      "value": "Este regalo ya se usa como tema del chat con **%@**. ¿Quieres quitarlo de allí y usarlo aquí en su lugar?"
     },
     {
       "_": "types.LangPackString",
@@ -27358,12 +27378,12 @@
     {
       "_": "types.LangPackString",
       "key": "GlobalAutodeleteSettings.InfoDisabled",
-      "value": "Si se activa, todos los mensajes nuevos en los chats que inicies, se eliminarán automáticamente para todos un tiempo después de ser enviados. Esto no tendrá efecto en tus chats existentes."
+      "value": "Si se activa, todos los mensajes nuevos en los chats que inicies se eliminarán automáticamente para todos un tiempo después de ser enviados. Esto no tendrá efecto en tus chats existentes."
     },
     {
       "_": "types.LangPackString",
       "key": "GlobalAutodeleteSettings.InfoEnabled",
-      "value": "Todos los mensajes nuevos, en los chats que inicies, se eliminarán automáticamente para todos %@ después de ser enviados. También puedes [aplicar este ajuste a tus chats existentes]()."
+      "value": "Todos los mensajes nuevos en los chats que inicies, se eliminarán automáticamente para todos %@ después de ser enviados. También puedes [aplicar este ajuste a tus chats existentes]()."
     },
     {
       "_": "types.LangPackString",
@@ -59413,6 +59433,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "VoiceOver.Browser.NextResult",
+      "value": "Resultado siguiente"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Browser.PreviousResult",
+      "value": "Resultado anterior"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "VoiceOver.Camera.Collage",
       "value": "Collage"
     },
@@ -63699,5 +63729,5 @@
       "value": "Pusiste un código de seguridad inválido."
     }
   ],
-  "version": 22551450
+  "version": 22569629
 }

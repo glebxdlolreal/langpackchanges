@@ -1944,6 +1944,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Auth.Controller.SmsFeeHeader",
+      "value": "SMS-avgift"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Auth.Controller.SmsFeeInfo",
+      "value": "Teleoperatørene tar svært høye priser for SMS til dette nummeret, så Telegram kan ikke sende en innloggingskode hit. Logg inn fra Telegram på telefonen eller en annen enhet, for eksempel ved å skanne QR-koden."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Auth.Login.ConfirmPhone",
       "value": "Er %@ telefonnummeret ditt?"
     },
@@ -7692,6 +7702,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Chat.Controller.AddMembers",
+      "value": "Legg til medlemmer"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Chat.Controller.AddressCopied",
       "value": "Adressen er kopiert"
     },
@@ -7699,6 +7714,11 @@
       "_": "types.LangPackString",
       "key": "Chat.Controller.CopyAddress",
       "value": "Kopier adresse"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Controller.Select",
+      "value": "Velg"
     },
     {
       "_": "types.LangPackString",
@@ -8531,8 +8551,73 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Chat.Input.Dictation.Enhance",
+      "value": "Forbedre"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Dictation.Enhance.Accessibility",
+      "value": "Rett tegnsetting og grammatikk i den dikterte teksten"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Dictation.Enhance.Editor",
+      "value": "AI-redigering…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Dictation.Enhance.Fix",
+      "value": "Rett grammatikk"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Dictation.Enhance.Styles",
+      "value": "Forbedre stil"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Dictation.Enhancing",
+      "value": "Forbedrer…"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Chat.Input.Dictation.Error.Language",
       "value": "Diktering er ikke tilgjengelig for det gjeldende inndataspråket."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Dictation.Error.Microphone",
+      "value": "Telegram trenger tilgang til mikrofonen din for å diktere meldinger. Du kan tillate det i Systeminnstillinger → Personvern og sikkerhet → Mikrofon."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Dictation.Error.NoInput",
+      "value": "Fant ingen mikrofon. Koble til en mikrofon og prøv igjen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Dictation.Error.Speech",
+      "value": "Telegram trenger tilgang til talegjenkjenning for å gjøre stemmen din om til tekst. Du kan tillate det i Systeminnstillinger → Personvern og sikkerhet → Talegjenkjenning."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Dictation.Error.Unavailable",
+      "value": "Talegjenkjenning er ikke tilgjengelig akkurat nå. Vennligst prøv igjen senere."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Dictation.Language.Automatic",
+      "value": "Automatisk"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Dictation.Start",
+      "value": "Dikter"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Dictation.Stop",
+      "value": "Stopp diktering"
     },
     {
       "_": "types.LangPackString",
@@ -9157,8 +9242,8 @@
     {
       "_": "types.LangPackStringPluralized",
       "key": "Chat.MessageRangeDeleted.ForBothSides",
-      "one_value": "Meldinger for valgt dato slettet.",
-      "other_value": "Meldinger for %1$d datoer slettet."
+      "one_value": "Meldinger for den valgte datoen er slettet for begge sider.",
+      "other_value": "Meldinger for %1$d datoer er slettet for begge sider."
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -9502,6 +9587,16 @@
       "_": "types.LangPackString",
       "key": "Chat.Recording.Cancel",
       "value": "Er du sikker på at du vil stoppe innspillingen og forkaste talemeldingen din?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Recording.Transcribe.Active",
+      "value": "Transkriberer. Klikk hvor som helst for å stoppe."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Recording.Transcribe.Swipe",
+      "value": "← Sveip for å diktere"
     },
     {
       "_": "types.LangPackString",
@@ -10906,6 +11001,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Chat.Sidebar.AllMessages",
+      "value": "Alle meldinger"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Sidebar.ShowChats",
+      "value": "Vis samtaler"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Chat.StarsGift.Button.Unpack",
       "value": "Pakk ut"
     },
@@ -11149,6 +11254,26 @@
       "_": "types.LangPackString",
       "key": "Chat.TopicHeader.Full",
       "value": "Emne åpnet"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Transcription.Cancel",
+      "value": "Avbryt"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Transcription.Edit",
+      "value": "Rediger"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Transcription.Listening",
+      "value": "Lytter…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Transcription.Send",
+      "value": "Send"
     },
     {
       "_": "types.LangPackString",
@@ -11555,10 +11680,30 @@
       "value": "Lydtranskripsjonen feilet. Vennligst, prøv igjen."
     },
     {
+      "_": "types.LangPackString",
+      "key": "ChatAudio.FileTranscription.InvalidAudio",
+      "value": "Dette lydklippet kunne ikke transkriberes. Bruk et opptak mellom 1 sekund og 30 minutter."
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "key": "ChatAudio.FileTranscription.LimitExceeded",
       "one_value": "For mange transkripsjonsforespørsler. Prøv igjen om %1$d sekund.",
       "other_value": "For mange transkripsjonsforespørsler. Prøv igjen om %1$d sekunder."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAudio.FileTranscription.PremiumRequired",
+      "value": "Dine gratis transkripsjoner er brukt opp. Telegram Premium kreves for å transkribere mer lyd."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAudio.FileTranscription.TooBig",
+      "value": "Lyden er for stor å transkribere. Kort ned opptaket til under 1 MB."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAudio.FileTranscription.TooLong",
+      "value": "Lyden er for lang å transkribere. Kort ned opptaket til 30 minutter eller mindre."
     },
     {
       "_": "types.LangPackString",
@@ -11863,6 +12008,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ChatHTML.RowItem.NetworkWarning",
+      "value": "Et trykk kan sende data til robotens server"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatHeader.Controller.SetProfilePhoto",
+      "value": "Angi profilbilde"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ChatHeader.RestartTopic",
       "value": "Gjenåpne emne"
     },
@@ -11973,13 +12128,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ChatInput.RecordingView.ClickToEdit",
+      "value": "Klikk hvor som helst for å redigere"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ChatInput.RecordingView.Resume",
       "value": "Gjenoppta"
     },
     {
       "_": "types.LangPackString",
       "key": "ChatInput.RecordingView.ResumeDiscardTrimmed",
-      "value": "Å gjenoppta vil forkaste den trimmede delen av opptaket ditt permanent."
+      "value": "Å gjenoppta vil forkaste den klippede delen av opptaket ditt permanent."
     },
     {
       "_": "types.LangPackString",
@@ -13593,6 +13753,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ChatRecorder.OverlayWindow.ConvertToText",
+      "value": "Konverter til tekst"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ChatRow.BotForConnector",
       "value": " for "
     },
@@ -13603,8 +13768,88 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ChatSend.Failure.ChannelWriteForbidden",
+      "value": "Du kan ikke publisere i denne kanalen akkurat nå."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatSend.Failure.ChatInaccessible",
+      "value": "Denne kanalen eller gruppen er ikke lenger tilgjengelig for deg."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatSend.Failure.ChatWriteForbidden",
+      "value": "Du kan ikke sende meldinger i denne samtalen akkurat nå."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatSend.Failure.EntitiesTooLong",
+      "value": "Denne meldingen har for mye formatering til å kunne sendes."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatSend.Failure.FileReferenceExpired",
+      "value": "Mediereferansen utløp. Prøv å sende mediet igjen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatSend.Failure.ForwardsRestricted",
+      "value": "Du kan ikke videresende meldinger fra en beskyttet samtale."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ChatSend.Failure.Generic",
       "value": "Denne meldingen kunne ikke sendes. Vennligst prøv igjen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatSend.Failure.GuestSendForbidden",
+      "value": "Bli med i diskusjonsgruppen før du kommenterer."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatSend.Failure.MediaForbidden",
+      "value": "Du kan ikke sende denne typen melding i denne samtalen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatSend.Failure.MessageTooLong",
+      "value": "Denne meldingen er for lang til å sendes."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatSend.Failure.PlainForbidden",
+      "value": "Du kan ikke sende tekstmeldinger i denne samtalen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatSend.Failure.PremiumRequired",
+      "value": "Telegram Premium kreves for å sende denne meldingen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatSend.Failure.ServerError",
+      "value": "Denne meldingen kunne ikke sendes. Serverfeil: %1$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatSend.Failure.TopicDeleted",
+      "value": "Dette emnet ble slettet."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatSend.Failure.UserBlocked",
+      "value": "Du kan ikke sende denne meldingen fordi mottakeren har blokkert deg."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatSend.PaymentConfirmation.PriceChanged",
+      "value": "Prisen er endret"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatSend.PaymentConfirmation.PriceChangedInfo",
+      "value": "Prisen for å sende meldinger i denne samtalen er endret, så meldingen din ble ikke sendt. Se over den nye prisen og send den på nytt."
     },
     {
       "_": "types.LangPackString",
@@ -13996,8 +14241,23 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ChatVoice.Transcription.AutomaticPunctuation",
+      "value": "Automatisk tegnsetting"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatVoice.Transcription.Language",
+      "value": "Språk: %1$@"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ChatVoice.Transcription.LanguageInfo",
       "value": "Språket du snakker når du dikterer. Automatisk bruker samtalens språk og systemspråkene dine."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatVoice.Transcription.ShortcutInfo",
+      "value": "Hva ⌘R gjør i meldingsfeltet. Automatisk dikterer når feltet har tekst, og tar opp en melding når det er tomt."
     },
     {
       "_": "types.LangPackString",
@@ -15556,6 +15816,16 @@
       "value": "Se klistremerkepakke"
     },
     {
+      "_": "types.LangPackString",
+      "key": "ContextList.RowItem.Widget",
+      "value": "Widget"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Conversation.CopyProtectionForwardingDisabledBot",
+      "value": "Videresending fra denne roboten er begrenset"
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "key": "Conversation.FreeTranscriptionCooldownTooltip",
       "one_value": "Du har benyttet din **ene** gratis transkripsjon denne uken. ",
@@ -15966,6 +16236,26 @@
       "value": "Du har nådd maksgrensen på %1$d roboter."
     },
     {
+      "_": "types.LangPackString",
+      "key": "CreateBot.ModalController.PremiumRequiredSubscribe",
+      "value": "%1$@ [Abonner >]()"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBot.ModalController.UnsavedChangesDiscard",
+      "value": "Forkast"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBot.ModalController.UnsavedChangesHeader",
+      "value": "Ulagrede endringer"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBot.ModalController.UnsavedChangesInfo",
+      "value": "Du har ikke fullført opprettingen av en robot."
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "key": "CreateBot.ModalController.UsernameTooLong",
       "one_value": "Et brukernavn kan ikke være lengre enn %1$d tegn.",
@@ -15991,6 +16281,36 @@
       "key": "CreateBot.Username.Count",
       "one_value": "%1$d brukernavn",
       "other_value": "%1$d brukernavn"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBot.Username.EndingsOr",
+      "value": "%1$@ eller %2$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBot.Username.Premium",
+      "value": "Telegram Premium"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBot.Username.PremiumHint",
+      "value": "Må slutte på %1$@ – eller %2$@ med %3$@."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBot.Username.PremiumLink",
+      "value": "[Telegram Premium]()"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBot.Username.PremiumRequired",
+      "value": "Brukernavn som slutter på %1$@ krever Telegram Premium."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBot.Username.SuffixLimit",
+      "value": "Du kan bare ha %1$@ som slutter på %2$@ på tvers av alle robotene dine."
     },
     {
       "_": "types.LangPackString",
@@ -16487,6 +16807,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Developer.ViewController.ResetApp",
+      "value": "Tilbakestill app"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Developer.ViewController.ResetAppLoginNotPreserved",
+      "value": "Kunne ikke bevare innloggingen din. Databasen har ikke blitt tømt."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "DiceRoll.EmojiStake",
       "value": "Emoji innsats"
     },
@@ -16963,6 +17293,156 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "EditImage.CanvasColorPicker.Blue",
+      "value": "BLÅ"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EditImage.CanvasColorPicker.Green",
+      "value": "GRØNN"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EditImage.CanvasColorPicker.Grid",
+      "value": "Rutenett"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EditImage.CanvasColorPicker.HexColor",
+      "value": "Hex-farge #"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EditImage.CanvasColorPicker.Opacity",
+      "value": "SYNLIGHET"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EditImage.CanvasColorPicker.Red",
+      "value": "RØD"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EditImage.CanvasColorPicker.Sliders",
+      "value": "Glidebrytere"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EditImage.CanvasColorPicker.Spectrum",
+      "value": "Spektrum"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EditImage.CanvasColorPicker.Title",
+      "value": "Farger"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EditImage.CanvasController.ClearAll",
+      "value": "Fjern alle"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EditImage.CanvasController.ClearAllConfirm",
+      "value": "Fjern alle tegninger, tekst og klistremerker?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EditImage.CanvasController.CutOut",
+      "value": "Klipp ut"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EditImage.CanvasController.Duplicate",
+      "value": "Dupliser"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EditImage.CanvasController.Flip",
+      "value": "Vend"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EditImage.CanvasController.MoveForward",
+      "value": "Flytt fremover"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EditImage.CanvasController.ShapeArrow",
+      "value": "Pil"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EditImage.CanvasController.ShapeBubble",
+      "value": "Boble"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EditImage.CanvasController.ShapeEllipse",
+      "value": "Ellipse"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EditImage.CanvasController.ShapeRectangle",
+      "value": "Rektangel"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EditImage.CanvasController.ShapeStar",
+      "value": "Stjerne"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EditImage.CanvasControls.ClearAll",
+      "value": "Fjern alt"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EditImage.CanvasControls.Draw",
+      "value": "Tegn"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EditImage.CanvasControls.Sticker",
+      "value": "Klistremerke"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EditImage.CanvasControls.Text",
+      "value": "Tekst"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EditImage.CanvasControls.ZoomOut",
+      "value": "Zoom ut"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EditImage.Controls.CutOutObject",
+      "value": "Klipp ut et objekt"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EditImage.CutoutController.AddOutline",
+      "value": "Legg til omriss"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EditImage.CutoutController.CutOutObject",
+      "value": "Klipp ut et objekt"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EditImage.CutoutController.Hint",
+      "value": "Klikk på et objekt for å klippe det ut"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EditImage.CutoutController.RemoveOutline",
+      "value": "Fjern omriss"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "EditImageControl.Confirm.Discard",
       "value": "Er du sikker på at du vil forkaste alle endringer?"
     },
@@ -17135,6 +17615,91 @@
       "_": "types.LangPackString",
       "key": "EditTheme.Title",
       "value": "Rediger tema"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EditVideo.Controller.MutedTooltip",
+      "value": "Lyd er nå dempet, så videoen avspilles automatisk og loopes som en GIF."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EditVideo.Controller.Quality",
+      "value": "Kvalitet"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EditVideo.Controller.Tools",
+      "value": "Verktøy"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EditVideo.Export.Brightness",
+      "value": "Lysstyrke"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EditVideo.Export.Contrast",
+      "value": "Kontrast"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EditVideo.Export.Enhance",
+      "value": "Forbedre"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EditVideo.Export.Fade",
+      "value": "Gradér"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EditVideo.Export.Highlights",
+      "value": "Høylys"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EditVideo.Export.Saturation",
+      "value": "Metning"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EditVideo.Export.Shadows",
+      "value": "Skygger"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EditVideo.Export.Vignette",
+      "value": "Vignettering"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EditVideo.Export.Warmth",
+      "value": "Varme"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EditVideo.ToolsController.Highlights",
+      "value": "Høylys"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EditVideo.ToolsController.Original",
+      "value": "Original"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EditVideo.ToolsController.Shadows",
+      "value": "Skygger"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EditVideo.ToolsController.Tint",
+      "value": "Kulør"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EditVideo.ToolsController.Tools",
+      "value": "Verktøy"
     },
     {
       "_": "types.LangPackString",
@@ -19623,6 +20188,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift.TransferController.Title",
+      "value": "Velg mottaker"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gift.TransferTon.OK",
       "value": "Fortsett"
     },
@@ -19940,6 +20510,16 @@
       "_": "types.LangPackString",
       "key": "Gift.Withdraw.Proceed",
       "value": "Åpne Fragment"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Withdraw.SecurityRequirements",
+      "value": "Uttak av gaver er tilgjengelig hvis:\n\n• Totrinnsverifisering ble aktivert for kontoen din for mer enn **7 dager** siden.\n\n• Du logget inn på denne enheten for mer enn **24 timer** siden."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Withdraw.SetupTwoStepAuth",
+      "value": "Aktiver totrinnsverifisering"
     },
     {
       "_": "types.LangPackString",
@@ -21312,6 +21892,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "InAppLinks.FreeMessageLinkApplied",
+      "value": "Du kan nå sende meldinger til %1$@ gratis."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "InAppLinks.FreeMessageLinkInvalid",
+      "value": "Denne gratis meldingslenken er ugyldig eller har utløpt."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "InAppLinks.IDNWarning",
       "value": "Denne lenken kan være falsk.\nVises: %1$@\nFaktisk: %2$@"
     },
@@ -21991,8 +22581,48 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "LeaveChat.Actions.ChatDeleted",
+      "value": "Samtale slettet"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LeaveChat.Actions.ChatDeletedForBothSides",
+      "value": "Samtale slettet for begge sider"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "LeaveChat.Actions.DeleteForAllSubscribers",
       "value": "Slett for alle abonnenter"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LeaveChat.Actions.DeletedChannel",
+      "value": "Slettet kanal"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LeaveChat.Actions.DeletedGroup",
+      "value": "Slettet gruppe"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LeaveChat.Actions.LeftChannel",
+      "value": "Forlot kanalen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LeaveChat.Actions.LeftGroup",
+      "value": "Forlot gruppen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LeaveChat.Actions.RemovedFromChatList",
+      "value": "Fjernet fra samtalelisten din."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LeaveChat.Actions.SecretChatDeleted",
+      "value": "Hemmelig samtale slettet"
     },
     {
       "_": "types.LangPackString",
@@ -23421,6 +24051,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "MessageCalendar.Select",
+      "value": "Velg"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "MessageContext.CopyMessageLink1",
       "value": "Kopier meldingslenke"
     },
@@ -23608,6 +24243,16 @@
       "_": "types.LangPackString",
       "key": "MessagesPrivacy.ChargeforMessages.Select.Info",
       "value": "Du vil motta %1$@ av det angitte gebyret (~%2$@$) for hver innkommende melding."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MessagesPrivacy.Controller.EnterWholeNumber",
+      "value": "Angi et helt tall fra 1 til %1$d."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MessagesPrivacy.Controller.PriceForEachMessage",
+      "value": "Pris pr. melding"
     },
     {
       "_": "types.LangPackString",
@@ -24773,6 +25418,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Notification.Reaction.Hidden",
+      "value": "Ny reaksjon på meldingen din"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Notification.Reminder",
       "value": "📆 Påminnelse"
     },
@@ -24858,6 +25508,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Notification.Story.Hidden",
+      "value": "Ny historie ble lagt ut"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.Story.Posted",
+      "value": "la ut en historie"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Notification.StoryReply",
       "value": "Svarte på din historie: %@"
     },
@@ -24893,6 +25553,26 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "NotificationSettings.Category.ShowNotifications",
+      "value": "Vis varsler"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NotificationSettings.Category.ShowSender",
+      "value": "Vis avsenderens navn"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NotificationSettings.Category.Sound",
+      "value": "Lyd"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NotificationSettings.Channels",
+      "value": "Kanaler"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "NotificationSettings.Confirm.Reset",
       "value": "Tilbakestill varsler"
     },
@@ -24912,10 +25592,115 @@
       "value": "Tell uleste meldinger"
     },
     {
+      "_": "types.LangPackString",
+      "key": "NotificationSettings.Exception.AlertTonesHeader",
+      "value": "VARSELTONER"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NotificationSettings.Exception.AuthorNameHeader",
+      "value": "VIS FORFATTERNAVN"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NotificationSettings.Exception.ClassicTonesHeader",
+      "value": "KLASSISK"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NotificationSettings.Exception.NotificationsHeader",
+      "value": "VARSLER"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NotificationSettings.Exception.PreviewHeader",
+      "value": "MELDINGSFORHÅNDSVISNING"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NotificationSettings.Exception.StoriesHeader",
+      "value": "VARSLER OM HISTORIER"
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "key": "NotificationSettings.Exceptions",
       "one_value": "%1$d unntak",
       "other_value": "%1$d unntak"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NotificationSettings.Exceptions.Add",
+      "value": "Legg til et unntak"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NotificationSettings.Exceptions.AlwaysOff",
+      "value": "Alltid av"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NotificationSettings.Exceptions.AlwaysOn",
+      "value": "Alltid på"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NotificationSettings.Exceptions.Automatic",
+      "value": "%1$@ (automatisk)"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NotificationSettings.Exceptions.CustomSound",
+      "value": "Egendefinert lyd"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NotificationSettings.Exceptions.DeleteAll",
+      "value": "Slett alle unntak"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NotificationSettings.Exceptions.DeleteAllConfirm",
+      "value": "Er du sikker på at du vil slette alle unntakene?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NotificationSettings.Exceptions.Header",
+      "value": "UNNTAK"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NotificationSettings.Exceptions.HideName",
+      "value": "Skjul navn"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NotificationSettings.Exceptions.HidePreview",
+      "value": "Skjul forhåndsvisning"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NotificationSettings.Exceptions.MutedUntil",
+      "value": "Dempet til %1$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NotificationSettings.Exceptions.Remove",
+      "value": "Fjern fra unntak"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NotificationSettings.Exceptions.ShowName",
+      "value": "Vis navn"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NotificationSettings.Exceptions.ShowPreview",
+      "value": "Vis forhåndsvisning"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NotificationSettings.GroupChats",
+      "value": "Gruppesamtaler"
     },
     {
       "_": "types.LangPackString",
@@ -24939,6 +25724,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "NotificationSettings.MessageNotifications",
+      "value": "MELDINGSVARSLER"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "NotificationSettings.MessagesPreview",
       "value": "Forhåndsvis meldinger"
     },
@@ -24946,6 +25736,61 @@
       "_": "types.LangPackString",
       "key": "NotificationSettings.NotificationTone",
       "value": "Meldingslyd"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NotificationSettings.NotifyMeAbout",
+      "value": "VARSLE MEG OM …"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NotificationSettings.Off",
+      "value": "Av"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NotificationSettings.On",
+      "value": "På"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NotificationSettings.Options",
+      "value": "ALTERNATIVER"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NotificationSettings.PrivateChats",
+      "value": "Private samtaler"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NotificationSettings.Reactions",
+      "value": "Reaksjoner"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NotificationSettings.Reactions.Contacts",
+      "value": "Mine kontakter"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NotificationSettings.Reactions.Everyone",
+      "value": "Alle"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NotificationSettings.Reactions.From",
+      "value": "Fra"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NotificationSettings.Reactions.Messages",
+      "value": "Reaksjoner på meldingene mine"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NotificationSettings.ResetAll",
+      "value": "Tilbakestill alle varsler"
     },
     {
       "_": "types.LangPackString",
@@ -25009,8 +25854,43 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "NotificationSettings.Stories",
+      "value": "Historier"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NotificationSettings.Stories.Important",
+      "value": "Viktige historier"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NotificationSettings.Stories.ImportantInfo",
+      "value": "Alltid på for de 5 viktigste kontaktene."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NotificationSettings.Stories.New",
+      "value": "Nye historier"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NotificationSettings.ThisDevice.DefaultSound",
+      "value": "Standardlyd"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NotificationSettings.ThisDevice.Header",
+      "value": "PÅ DENNE ENHETEN"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "NotificationSettings.ThisDevice.Info",
       "value": "Disse innstillingene gjelder bare på denne enheten. Hvis du slår av \"Varsler\" eller \"Vis meldingstekst\" her, overstyres alle innstillingene ovenfor. \"Standardlyd\" brukes der en lyd ovenfor er satt til \"Standard\". Hvis du velger \"Ingen\", dempes alle varsellyder på denne enheten."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NotificationSettings.ThisDevice.ShowMessageText",
+      "value": "Vis meldingstekst"
     },
     {
       "_": "types.LangPackString",
@@ -25026,6 +25906,11 @@
       "_": "types.LangPackString",
       "key": "NotificationSettings.Tone.Default",
       "value": "Standard"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NotificationSettings.TopChats",
+      "value": "Topp 5"
     },
     {
       "_": "types.LangPackString",
@@ -26415,6 +27300,16 @@
       "_": "types.LangPackString",
       "key": "PeerInfo.AutoTranslateMessages",
       "value": "Autooversett meldinger"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PeerInfo.BalanceView.Accessibility",
+      "value": "Saldo: %1$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PeerInfo.BalanceView.Title",
+      "value": "Saldo:"
     },
     {
       "_": "types.LangPackString",
@@ -30343,8 +31238,138 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "QrStudio.ColorsTabView.Title",
+      "value": "Farger"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Controller.CodeExpiresInMinute",
+      "value": "Denne koden utløper om 1 minutt."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Controller.CodeFree",
+      "value": "Meldinger med denne koden er nå gratis."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Controller.CodePermanent",
+      "value": "Denne koden utløper ikke lenger."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Controller.CodeReset",
+      "value": "Ny kode opprettet. Den gamle fungerer ikke lenger."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Controller.CopyImage",
+      "value": "Kopier bilde"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Controller.FeeRestored",
+      "value": "Meldingsgebyret ditt gjelder igjen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Controller.ImageCopied",
+      "value": "Bilde kopiert til utklippstavlen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Controller.LinkCopied",
+      "value": "Lenke kopiert til utklippstavlen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Controller.MenuCopyLink",
+      "value": "Kopier lenke"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Controller.MenuDisableTimer",
+      "value": "Deaktiver timer"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Controller.MenuExpireAfterMinute",
+      "value": "Utløper etter 1 minutt"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Controller.MenuResetCode",
+      "value": "Nullstill QR-kode"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Controller.MenuRestoreFee",
+      "value": "Gjenopprett meldingsgebyr"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Controller.MenuSaveImage",
+      "value": "Lagre bilde"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Controller.MenuShare",
+      "value": "Del…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Controller.PillExpiresIn",
+      "value": "Utløper om %1$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Controller.PillFree",
+      "value": "Gratis"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Controller.PillPermanent",
+      "value": "Permanent"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Controller.PillRemoveFee",
+      "value": "Fjern gebyret på %1$@⭐"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Controller.PremiumEmoji",
+      "value": "Abonner på Premium for å bruke alle emoji."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "QrStudio.Controller.SomethingWentWrong",
       "value": "Noe gikk galt. Vennligst prøv igjen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Controller.Subscribe",
+      "value": "Abonner"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.GiftsTabView.Browse",
+      "value": "Bla gjennom gaver"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.GiftsTabView.EmptyText",
+      "value": "Bruk hvilken som helst samlebare gave du eier\nfor å style QR-koden din."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.GiftsTabView.EmptyTitle",
+      "value": "Ingen gaver ennå"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.GiftsTabView.Title",
+      "value": "Samleobjekter"
     },
     {
       "_": "types.LangPackString",
@@ -30570,6 +31595,21 @@
       "_": "types.LangPackString",
       "key": "RecentSessions.TTL.Text",
       "value": "Hvis inaktiv i"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RenameDevice.Controller.DeviceNameHeader",
+      "value": "ENHETENS NAVN"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RenameDevice.Controller.DeviceNameInfo",
+      "value": "Dette navnet vises i listen over aktive økter på de andre enhetene dine."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RenameDevice.Controller.Title",
+      "value": "Gi enhet nytt navn"
     },
     {
       "_": "types.LangPackString",
@@ -31321,6 +32361,36 @@
       "_": "types.LangPackString",
       "key": "RichTextEditor.Text",
       "value": "Tekst"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichTextEditor.WindowController.Action",
+      "value": "Handling"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichTextEditor.WindowController.ActionCopyText",
+      "value": "Kopier tekst"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichTextEditor.WindowController.ActionURL",
+      "value": "URL"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichTextEditor.WindowController.ActionUserProfile",
+      "value": "Brukerprofil"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichTextEditor.WindowController.ChooseUser",
+      "value": "Velg bruker"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichTextEditor.WindowController.CopyTextPlaceholder",
+      "value": "Tekst som skal kopieres"
     },
     {
       "_": "types.LangPackString",
@@ -33107,6 +34177,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "SessionModal.Controller.DeviceHeader",
+      "value": "Enhet"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "SessionModal.Controller.LocationNotFound",
       "value": "Fant ikke denne posisjonen. Vennligst prøv igjen."
     },
@@ -33624,6 +34699,11 @@
       "_": "types.LangPackString",
       "key": "SettingsSearch.Synonyms.Watch",
       "value": "Apple Watch"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Share.IncompleteDelivery",
+      "value": "Delingen ble ikke fullført. Kontroller de valgte samtalene før du prøver igjen, for å unngå duplikater."
     },
     {
       "_": "types.LangPackString",
@@ -37221,6 +38301,41 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "StickerPack.Editing.AddToSet",
+      "value": "Legg til i klistremerkepakke"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StickerPack.Editing.NamePlaceholder",
+      "value": "Navn"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StickerPack.Editing.NewSet",
+      "value": "Ny klistremerkepakke"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StickerPack.Editing.NewSetText",
+      "value": "Velg et navn på klistremerkepakken din."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StickerPack.Editing.SendSticker",
+      "value": "Send klistremerke"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StickerPack.Editing.SetFull",
+      "value": "Beklager, du har nådd maksimalt antall klistremerker i denne pakken. Prøv en annen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StickerPack.Editing.StickerAdded",
+      "value": "Klistremerke lagt til i **%1$@**-pakken."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "StickerPack.Emoji",
       "value": "Emoji"
     },
@@ -37238,6 +38353,86 @@
       "_": "types.LangPackString",
       "key": "StickerPack.Preview.SetGroup",
       "value": "Angi som gruppens emojipakke"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StickerPack.PreviewModalController.AddExistingSticker",
+      "value": "Legg til et eksisterende klistremerke"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StickerPack.PreviewModalController.AddSticker",
+      "value": "Legg til klistremerke"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StickerPack.PreviewModalController.CreateSticker",
+      "value": "Opprett et nytt klistremerke"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StickerPack.PreviewModalController.DeleteForEveryone",
+      "value": "Slett for alle"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StickerPack.PreviewModalController.DeleteSetHeader",
+      "value": "Slett klistremerkepakke"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StickerPack.PreviewModalController.DeleteSetInfo",
+      "value": "Dette sletter klistremerkepakken for alle brukere."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StickerPack.PreviewModalController.EditName",
+      "value": "Rediger navn"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StickerPack.PreviewModalController.EditNameText",
+      "value": "Velg et nytt navn på pakken din."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StickerPack.PreviewModalController.EditNameTitle",
+      "value": "Rediger navn på klistremerkepakke"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StickerPack.PreviewModalController.EditStickers",
+      "value": "REDIGER KLISTREMERKER"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StickerPack.PreviewModalController.RemoveForMe",
+      "value": "Fjern for meg"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StickerPack.PreviewModalController.Reorder",
+      "value": "Endre rekkefølge"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StickerPack.PreviewModalController.ReplaceSticker",
+      "value": "Erstatt klistremerke"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StickerPack.PreviewModalController.StickerAdded",
+      "value": "Klistremerke lagt til i **%1$@**-pakken."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StickerPack.PreviewModalController.StickerUpdated",
+      "value": "Klistremerke oppdatert."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StickerPack.PreviewModalController.StickersBotHint",
+      "value": "Sjekk @stickers-roboten for flere alternativer."
     },
     {
       "_": "types.LangPackString",
@@ -37386,6 +38581,11 @@
       "_": "types.LangPackString",
       "key": "Stickers.Trending",
       "value": "Populære klistremerker"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Stickers.ViewController.CreateSticker",
+      "value": "Opprett klistremerke"
     },
     {
       "_": "types.LangPackString",
@@ -42561,6 +43761,46 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "VoiceOver.AIActivity.HideSteps",
+      "value": "Skjul trinn"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.AIActivity.HideSummary",
+      "value": "Skjul sammendrag"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.AIActivity.InProgress",
+      "value": "Pågår"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.AIActivity.ShowSteps",
+      "value": "Vis trinn"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.AIActivity.ShowSummary",
+      "value": "Vis sammendrag"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.AIActivity.Stopped",
+      "value": "Stoppet"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.AIAssistant.StartNewChat",
+      "value": "Start ny samtale"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.AltTab.RecentChats",
+      "value": "Nylige samtaler"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "VoiceOver.Appearance.Theme",
       "value": "%@-tema"
     },
@@ -42616,6 +43856,51 @@
       "other_value": "%d stjerner"
     },
     {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chart.Date",
+      "value": "Dato"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chart.Description",
+      "value": "diagram"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chart.LongerPeriod",
+      "value": "Vis lengre periode"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chart.NoData",
+      "value": "Ingen data"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chart.Period",
+      "value": "Periode"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chart.Series",
+      "value": "%1$@, høyest %2$@ %3$@, lavest %4$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chart.SeriesAtTime",
+      "value": "%1$@, høyest %2$@ kl. %3$@, lavest %4$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chart.ShorterPeriod",
+      "value": "Vis kortere periode"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chart.Value",
+      "value": "Verdi"
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "key": "VoiceOver.Chat.ContactEmailCount",
       "one_value": "%d e-postadresse",
@@ -42626,6 +43911,16 @@
       "key": "VoiceOver.Chat.ContactPhoneNumberCount",
       "one_value": "%d telefonnummer",
       "other_value": "%d telefonnumre"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.Editor",
+      "value": "Redigerer"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.MediaResults",
+      "value": "Medieresultater"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -42672,6 +43967,51 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.Record",
+      "value": "Spill inn"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.RecordModeHint",
+      "value": "Trykk for å veksle mellom tale- og videomelding. Bruk handlingen \"Spill inn\" for å starte innspillingen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.SearchByMember",
+      "value": "Søk etter medlem"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.SendAs",
+      "value": "Send som"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.StakeAmounts",
+      "value": "Innsatsbeløp"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.SwitchTopicsView",
+      "value": "Bytt emnevisning"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.Transcription.Hide",
+      "value": "Skjul transkripsjon"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.Transcription.Transcribe",
+      "value": "Transkriber"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.Transcription.TranscribePremium",
+      "value": "Transkriber, Telegram Premium"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "VoiceOver.Chat.Unknown",
       "value": "Ukjent"
     },
@@ -42680,6 +44020,11 @@
       "key": "VoiceOver.Chat.UnreadMessages",
       "one_value": "%d ulest melding",
       "other_value": "%d uleste meldinger"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.WebWidget",
+      "value": "Interaktiv widget"
     },
     {
       "_": "types.LangPackString",
@@ -42693,6 +44038,96 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "VoiceOver.ChatList.ArchiveOptions",
+      "value": "Arkivalternativer"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.ChatList.CommunityOptions",
+      "value": "Alternativer for samfunnet"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.ChatList.OpenCommunity",
+      "value": "Åpne samfunn"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.ChatList.SavedMessagesOptions",
+      "value": "Alternativer for Lagrede meldinger"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Color.And",
+      "value": "%1$@ og %2$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Color.Black",
+      "value": "Svart"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Color.Blue",
+      "value": "Blå"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Color.Cyan",
+      "value": "Cyan"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Color.Gray",
+      "value": "Grå"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Color.Green",
+      "value": "Grønn"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Color.Orange",
+      "value": "Oransje"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Color.Pink",
+      "value": "Rosa"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Color.Red",
+      "value": "Rød"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Color.ThreeTone",
+      "value": "Tre toner"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Color.TwoTone",
+      "value": "To toner"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Color.Violet",
+      "value": "Fiolett"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Color.White",
+      "value": "Hvit"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Color.Yellow",
+      "value": "Gul"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "VoiceOver.Common.Accept",
       "value": "Godta"
     },
@@ -42700,6 +44135,11 @@
       "_": "types.LangPackString",
       "key": "VoiceOver.Common.Add",
       "value": "Legg til"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Amount",
+      "value": "Beløp"
     },
     {
       "_": "types.LangPackString",
@@ -42713,8 +44153,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "VoiceOver.Common.AspectRatio",
+      "value": "Bildeforhold"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "VoiceOver.Common.Back",
       "value": "Tilbake"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.BackTo",
+      "value": "Tilbake til %1$@"
     },
     {
       "_": "types.LangPackString",
@@ -42745,6 +44195,16 @@
       "_": "types.LangPackString",
       "key": "VoiceOver.Common.CancelDownload",
       "value": "Avbryt nedlasting"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Checked",
+      "value": "Avmerket"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.ChooseIcon",
+      "value": "Velg ikon"
     },
     {
       "_": "types.LangPackString",
@@ -42783,6 +44243,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Currency",
+      "value": "Valuta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.CustomColor",
+      "value": "Egendefinert farge"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Date",
+      "value": "Dato"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "VoiceOver.Common.Decline",
       "value": "Avvis"
     },
@@ -42790,6 +44265,11 @@
       "_": "types.LangPackString",
       "key": "VoiceOver.Common.Delete",
       "value": "Slett"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.DigitOf",
+      "value": "Siffer %1$d av %2$d"
     },
     {
       "_": "types.LangPackString",
@@ -42823,6 +44303,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "VoiceOver.Common.EmojiStatus",
+      "value": "Emoji-status"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "VoiceOver.Common.EndCall",
       "value": "Avslutt anrop"
     },
@@ -42838,6 +44323,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Fake",
+      "value": "Falsk"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "VoiceOver.Common.File",
       "value": "Fil"
     },
@@ -42845,6 +44335,11 @@
       "_": "types.LangPackString",
       "key": "VoiceOver.Common.Filter",
       "value": "Filter"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Flip",
+      "value": "Vend"
     },
     {
       "_": "types.LangPackString",
@@ -42883,6 +44378,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Hours",
+      "value": "Timer"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "VoiceOver.Common.Info",
       "value": "Info"
     },
@@ -42890,6 +44390,11 @@
       "_": "types.LangPackString",
       "key": "VoiceOver.Common.Invite",
       "value": "Inviter"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.ItemOf",
+      "value": "%1$d av %2$d"
     },
     {
       "_": "types.LangPackString",
@@ -42913,6 +44418,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Live",
+      "value": "Direkte"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "VoiceOver.Common.Loading",
       "value": "Laster"
     },
@@ -42925,6 +44435,11 @@
       "_": "types.LangPackString",
       "key": "VoiceOver.Common.Lock",
       "value": "Lås"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Locked",
+      "value": "Låst"
     },
     {
       "_": "types.LangPackString",
@@ -42958,8 +44473,33 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Minutes",
+      "value": "Minutter"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "VoiceOver.Common.More",
       "value": "Mer"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.MoveDown",
+      "value": "Flytt ned"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.MoveEarlier",
+      "value": "Flytt tidligere"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.MoveLater",
+      "value": "Flytt senere"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.MoveUp",
+      "value": "Flytt opp"
     },
     {
       "_": "types.LangPackString",
@@ -42970,6 +44510,11 @@
       "_": "types.LangPackString",
       "key": "VoiceOver.Common.Mute",
       "value": "Demp"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Muted",
+      "value": "Dempet"
     },
     {
       "_": "types.LangPackString",
@@ -42993,6 +44538,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "VoiceOver.Common.NotSelected",
+      "value": "Ikke valgt"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "VoiceOver.Common.Notifications",
       "value": "Varsler"
     },
@@ -43008,8 +44558,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "VoiceOver.Common.OpenInSafari",
+      "value": "Åpne i Safari"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "VoiceOver.Common.Options",
       "value": "Alternativer"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.PageOf",
+      "value": "Side %1$d av %2$d"
     },
     {
       "_": "types.LangPackString",
@@ -43023,6 +44583,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "VoiceOver.Common.PhotoOf",
+      "value": "Bilde av %@"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "VoiceOver.Common.PictureInPicture",
       "value": "Bilde-i-bilde"
     },
@@ -43033,13 +44598,33 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Pinned",
+      "value": "Festet"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "VoiceOver.Common.Play",
       "value": "Spill av"
     },
     {
       "_": "types.LangPackString",
+      "key": "VoiceOver.Common.PlaybackOrder",
+      "value": "Avspillingsrekkefølge"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.PlaybackPosition",
+      "value": "Avspillingsposisjon"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "VoiceOver.Common.PlaybackSpeed",
       "value": "Avspillingshastighet"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Playlist",
+      "value": "Spilleliste"
     },
     {
       "_": "types.LangPackString",
@@ -43065,6 +44650,11 @@
       "_": "types.LangPackString",
       "key": "VoiceOver.Common.ProfilePhoto",
       "value": "Profilbilde"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.QRCode",
+      "value": "QR-kode"
     },
     {
       "_": "types.LangPackString",
@@ -43103,6 +44693,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "VoiceOver.Common.RepeatAll",
+      "value": "Alle"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.RepeatOne",
+      "value": "Én"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "VoiceOver.Common.Report",
       "value": "Rapporter"
     },
@@ -43118,8 +44718,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Resize",
+      "value": "Endre størrelse"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "VoiceOver.Common.Retry",
       "value": "Prøv igjen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Reversed",
+      "value": "Omvendt"
     },
     {
       "_": "types.LangPackString",
@@ -43135,6 +44745,11 @@
       "_": "types.LangPackString",
       "key": "VoiceOver.Common.Save",
       "value": "Lagre"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Scam",
+      "value": "Svindel"
     },
     {
       "_": "types.LangPackString",
@@ -43163,8 +44778,23 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Seconds",
+      "value": "Sekunder"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "VoiceOver.Common.Select",
       "value": "Velg"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Selected",
+      "value": "Valgt"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.SetPrice",
+      "value": "Angi pris"
     },
     {
       "_": "types.LangPackString",
@@ -43185,6 +44815,21 @@
       "_": "types.LangPackString",
       "key": "VoiceOver.Common.Show",
       "value": "Vis"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.ShowTips",
+      "value": "Vis tips"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Shuffle",
+      "value": "Tilfeldig rekkefølge"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.SkinTone",
+      "value": "Hudtone"
     },
     {
       "_": "types.LangPackString",
@@ -43218,6 +44863,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Tabs",
+      "value": "Faner"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.TagInfo",
+      "value": "Tagginfo"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "VoiceOver.Common.Text",
       "value": "Tekst"
     },
@@ -43225,6 +44880,16 @@
       "_": "types.LangPackString",
       "key": "VoiceOver.Common.Theme",
       "value": "Tema"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Time",
+      "value": "Tid"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Toggle",
+      "value": "Veksle"
     },
     {
       "_": "types.LangPackString",
@@ -43240,6 +44905,11 @@
       "_": "types.LangPackString",
       "key": "VoiceOver.Common.Typing",
       "value": "Skriver"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Unchecked",
+      "value": "Ikke avmerket"
     },
     {
       "_": "types.LangPackString",
@@ -43260,6 +44930,11 @@
       "_": "types.LangPackString",
       "key": "VoiceOver.Common.Unpin",
       "value": "Løsne"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Unread",
+      "value": "Ulest"
     },
     {
       "_": "types.LangPackString",
@@ -43303,6 +44978,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Zoom",
+      "value": "Zoom"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "VoiceOver.Common.ZoomIn",
       "value": "Zoom inn"
     },
@@ -43315,6 +44995,16 @@
       "_": "types.LangPackString",
       "key": "VoiceOver.Contacts.AddContact",
       "value": "Legg til kontakt"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Entertainment.Tabs",
+      "value": "Emoji og klistremerker"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Forum.Sidebar",
+      "value": "Sidepanel"
     },
     {
       "_": "types.LangPackString",
@@ -43348,8 +45038,38 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "VoiceOver.Gallery.Title",
+      "value": "Mediavisning"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Gift.PriceFrom",
+      "value": "fra %1$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.ImageEditor.Arrow",
+      "value": "Pil"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.ImageEditor.ArrowType",
+      "value": "Piltype"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "VoiceOver.ImageEditor.Blur",
       "value": "Uskarp"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.ImageEditor.BrushSize",
+      "value": "Penselstørrelse"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.ImageEditor.Eraser",
+      "value": "Viskelær"
     },
     {
       "_": "types.LangPackString",
@@ -43358,8 +45078,58 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "VoiceOver.ImageEditor.Filled",
+      "value": "Fylt"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.ImageEditor.HexColor",
+      "value": "Heksadesimal farge"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.ImageEditor.Hue",
+      "value": "Kulør"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.ImageEditor.Marker",
+      "value": "Markeringspenn"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.ImageEditor.Neon",
+      "value": "Neon"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.ImageEditor.Outline",
+      "value": "Omriss"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.ImageEditor.Pen",
+      "value": "Penn"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "VoiceOver.ImageEditor.Shade",
       "value": "Nyanse"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.ImageEditor.ShadeOf",
+      "value": "%1$@, nyanse %2$d av %3$d"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.ImageEditor.TextAlignment",
+      "value": "Tekstjustering"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.ImageEditor.TextStyle",
+      "value": "Tekststil"
     },
     {
       "_": "types.LangPackString",
@@ -43378,6 +45148,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "VoiceOver.Location.Map",
+      "value": "Kart"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "VoiceOver.Login.Password",
       "value": "Passord"
     },
@@ -43393,8 +45168,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "VoiceOver.Login.QRCode",
+      "value": "QR-kode for innlogging"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Media.Forward15",
+      "value": "Spol 15 sekunder frem"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "VoiceOver.Media.PlaybackRate",
       "value": "Avspillingshastighet"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Media.Rewind15",
+      "value": "Spol 15 sekunder tilbake"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Media.TrimmedRange",
+      "value": "Klippet område"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -43404,13 +45199,118 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "VoiceOver.News.Feeds",
+      "value": "Nyhetsstrømmer"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Permissions.BoostsRequired",
+      "value": "Booster kreves"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.RichEditor.AICompose",
+      "value": "AI-skriving"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.RichEditor.ButtonPreview",
+      "value": "Forhåndsvisning av knapp"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.RichEditor.FormulaResult",
+      "value": "Formelresultat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.RichEditor.List",
+      "value": "Liste"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "VoiceOver.Search.Clear",
       "value": "Tøm"
     },
     {
       "_": "types.LangPackString",
+      "key": "VoiceOver.Search.Filters",
+      "value": "Søkefiltre"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Segment.ApplyColorTo",
+      "value": "Bruk farge på"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Segment.AvatarOptions",
+      "value": "Avataralternativer"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "VoiceOver.Segment.RecoveryPhraseLength",
       "value": "Lengde på hemmelig frase"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.SelectPeers.Counter",
+      "value": "%1$@, %2$@ av %3$@ valgt"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Stats.Sections",
+      "value": "Statistikkseksjoner"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.StorageUsage.ChatsAndMedia",
+      "value": "Samtaler og medier"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Wallet.Details",
+      "value": "Detaljer"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Wallet.Sections",
+      "value": "Lommebokseksjoner"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Wallet.Word",
+      "value": "Ord %d"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Wallpaper.Gradient",
+      "value": "Gradient"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Wallpaper.HexColor",
+      "value": "Heksadesimal farge"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Wallpaper.Item",
+      "value": "Bakgrunn %1$d, %2$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Wallpaper.Pattern",
+      "value": "Mønster"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Wallpaper.PatternItem",
+      "value": "Mønster %1$d"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Wallpaper.Photo",
+      "value": "Bilde"
     },
     {
       "_": "types.LangPackString",
@@ -43747,6 +45647,26 @@
       "_": "types.LangPackString",
       "key": "Wallet.CardView.GramsUnit",
       "value": " Gram"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Collectables.AddToCard",
+      "value": "Legg til på kort"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Collectables.ApplyColor",
+      "value": "Bruk farge"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Collectables.RemoveColor",
+      "value": "Fjern farge"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Collectables.RemoveFromCard",
+      "value": "Fjern fra kort"
     },
     {
       "_": "types.LangPackString",
@@ -44155,6 +46075,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Controller.SaveCardFailed",
+      "value": "Kunne ikke lagre kortet"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Controller.SecretPhraseRequired",
       "value": "Hemmelig frase påkrevd"
     },
@@ -44192,6 +46117,26 @@
       "_": "types.LangPackString",
       "key": "Wallet.Controller.SmallTransactionsHidden",
       "value": "Transaksjoner under %1$@ er skjult."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Controller.StickerBackgroundNotAllowedError",
+      "value": "Denne gaven kan ikke angis som bakgrunn for kortet ditt."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Controller.StickerGridFooter",
+      "value": "Hold en gave for å dra den av og feste den på kortet ditt. Hold en gave på kortet for å dra den av igjen, og bruk roterings- og knipebevegelser på styreplaten for å snu og endre størrelsen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Controller.StickerInvalidError",
+      "value": "Et av disse klistremerkene kan ikke brukes på kortet. Bare gaver eid av denne lommeboken støttes."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Controller.StickerProfileError",
+      "value": "En gave som vises på profilen din, kan ikke også være et klistremerke på kortet. Skjul den fra profilen din først."
     },
     {
       "_": "types.LangPackString",
@@ -44719,6 +46664,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.PeerBalanceController.HowDoesItWork",
+      "value": "Hvordan fungerer det?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.PeerBalanceController.PeerBalanceNotice",
+      "value": "%1$@ eier %2$@ på TON-blokkjeden."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.PeerBalanceController.PublicBalanceNotice",
       "value": "Saldoen din er offentlig på grunn av blokkjedens åpenhet."
     },
@@ -44744,6 +46699,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.ReceiveController.CopyPeerAddress",
+      "value": "Kopier adresse"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.ReceiveController.PeerCaption",
       "value": "Send GRAM til denne adressen\neller skann denne QR-koden."
     },
@@ -44766,6 +46726,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.ReceiveController.PurchaseUnavailableTitle",
       "value": "Kjøp er ikke tilgjengelig"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.ReceiveController.ShowPeerQr",
+      "value": "Vis QR"
     },
     {
       "_": "types.LangPackString",
@@ -44931,6 +46896,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.SendController.DepositFundsLink",
       "value": "Sett inn midler ›"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.SendController.DiscardTransfer",
+      "value": "Vil du forkaste denne overføringen?"
     },
     {
       "_": "types.LangPackString",
@@ -45334,6 +47304,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.StickerTutorial.Card",
+      "value": "Dra dette samleobjektet hit."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.StickerTutorial.Done",
+      "value": "Du kan legge til flere samleobjekter."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.StickerTutorial.Tile",
+      "value": "Dra dette samleobjektet til kortet ditt for å dekorere det."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.TonConnect.Retry",
       "value": "Prøv på nytt"
     },
@@ -45660,6 +47645,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.TransactionRowItem.MovedFromProfile",
+      "value": "flyttet fra profil"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TransactionRowItem.MovedToProfile",
+      "value": "flyttet til profil"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.TransactionRowItem.OutgoingCollectible",
       "value": "Utgående samleobjekt"
     },
@@ -45677,6 +47672,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.TransactionRowItem.Sending",
       "value": "Sender"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TransactionRowItem.Telegram",
+      "value": "Telegram"
     },
     {
       "_": "types.LangPackString",
@@ -46715,5 +48715,5 @@
       "value": "Vis erstatninger"
     }
   ],
-  "version": 2433462
+  "version": 2434395
 }
