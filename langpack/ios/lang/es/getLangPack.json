@@ -14347,6 +14347,12 @@
     },
     {
       "_": "types.LangPackStringPluralized",
+      "key": "ChatList.DeleteChatsAlert.Text",
+      "one_value": "Este chat será eliminado de tu lista chats.",
+      "other_value": "Estos chats serán eliminados de tu lista chats."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
       "key": "ChatList.DeleteConfirmation",
       "one_value": "Eliminar",
       "other_value": "Eliminar %@ chats"
@@ -14466,6 +14472,12 @@
       "_": "types.LangPackString",
       "key": "ChatList.DeleteTopicConfirmationText",
       "value": "Esto eliminará el tema y todos sus mensajes"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "ChatList.DeleteTopicsAlert.Text",
+      "one_value": "Esto eliminará el tema y todos sus mensajes.",
+      "other_value": "Esto eliminará los temas y todos sus mensajes."
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -17549,6 +17561,12 @@
     },
     {
       "_": "types.LangPackStringPluralized",
+      "key": "ContactList.DeleteAlert.Text",
+      "one_value": "Este contacto será eliminado de tu lista de contactos.",
+      "other_value": "Estos contactos serán eliminados de tu lista de contactos."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
       "key": "ContactList.DeleteConfirmation",
       "one_value": "Eliminar contacto",
       "other_value": "Eliminar %@ contactos"
@@ -17745,7 +17763,7 @@
     {
       "_": "types.LangPackString",
       "key": "Contacts.Sort",
-      "value": "Orden"
+      "value": "Ordenar"
     },
     {
       "_": "types.LangPackString",
@@ -17906,7 +17924,7 @@
     {
       "_": "types.LangPackString",
       "key": "Conversation.AutoremoveTimerRemovedChannel",
-      "value": "Los mensajes en este canal ya no se eliminarán automáticamente"
+      "value": "Los mensajes en este canal ya no serán eliminados automáticamente"
     },
     {
       "_": "types.LangPackString",
@@ -17926,7 +17944,7 @@
     {
       "_": "types.LangPackString",
       "key": "Conversation.AutoremoveTimerSetChannel",
-      "value": "Los mensajes en este canal se eliminarán automáticamente en %1$@"
+      "value": "Los mensajes en este canal serán eliminados automáticamente en %1$@"
     },
     {
       "_": "types.LangPackString",
@@ -25268,7 +25286,7 @@
     {
       "_": "types.LangPackString",
       "key": "Gift.MoveToGifts.Text",
-      "value": "¿Quieres transferir este objeto coleccionable off-chain a tu cuenta de Telegram?"
+      "value": "¿Quieres transferir este coleccionable off-chain a tu cuenta de Telegram?"
     },
     {
       "_": "types.LangPackString",
@@ -25370,6 +25388,46 @@
       "_": "types.LangPackString",
       "key": "Gift.Offer.Title",
       "value": "Hacer una oferta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Onchain.Error.NotForSale",
+      "value": "Este regalo ya no está a la venta."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Onchain.Error.NotMinted",
+      "value": "Este regalo aún no está en la blockchain."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Onchain.Error.NotOwner",
+      "value": "Este regalo no está en tu billetera."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Onchain.Error.SaleDisabled",
+      "value": "Los ítems de Fragment no están disponibles en este momento."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Onchain.Error.SaleInactive",
+      "value": "Este regalo no está a la venta."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Onchain.Error.SelfPurchase",
+      "value": "No puedes comprar tu propio ítem."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Error.InProgress",
+      "value": "Tu oferta anterior por este regalo aún se está tramitando. Reinténtalo en un minuto."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Sale.Text",
+      "value": "¿Vender **%1$@** por **%2$@**?"
     },
     {
       "_": "types.LangPackString",
@@ -27378,12 +27436,12 @@
     {
       "_": "types.LangPackString",
       "key": "GlobalAutodeleteSettings.InfoDisabled",
-      "value": "Si se activa, todos los mensajes nuevos en los chats que inicies se eliminarán automáticamente para todos un tiempo después de ser enviados. Esto no tendrá efecto en tus chats existentes."
+      "value": "Si se activa, todos los mensajes nuevos en los chats que inicies serán eliminados automáticamente para todos un tiempo después de ser enviados. Esto no tendrá efecto en tus chats existentes."
     },
     {
       "_": "types.LangPackString",
       "key": "GlobalAutodeleteSettings.InfoEnabled",
-      "value": "Todos los mensajes nuevos en los chats que inicies, se eliminarán automáticamente para todos %@ después de ser enviados. También puedes [aplicar este ajuste a tus chats existentes]()."
+      "value": "Todos los mensajes nuevos en los chats que inicies, serán eliminados automáticamente para todos %@ después de ser enviados. También puedes [aplicar este ajuste a tus chats existentes]()."
     },
     {
       "_": "types.LangPackString",
@@ -36612,6 +36670,16 @@
       "_": "types.LangPackString",
       "key": "Notification.StarGiftOffer.Status.Rejected",
       "value": "Esta oferta fue rechazada."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Status.Settling",
+      "value": "La venta está siendo completada."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Withdraw",
+      "value": "Retiro"
     },
     {
       "_": "types.LangPackString",
@@ -46406,6 +46474,16 @@
       "key": "QuickReply.DeleteAction",
       "one_value": "Eliminar 1 respuesta rápida",
       "other_value": "Eliminar %d respuestas rápidas"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QuickReply.DeleteAlert.TextMultiple",
+      "value": "Estas respuestas rápidas y todos sus mensajes serán eliminados."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QuickReply.DeleteAlert.TextSingle",
+      "value": "Esta respuesta rápida y todos sus mensajes serán eliminados."
     },
     {
       "_": "types.LangPackString",
@@ -56287,6 +56365,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Ton.WithdrawToWallet.WalletUnavailable",
+      "value": "Tu billetera no está disponible en este momento. Por favor, reinténtalo más tarde."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Ton.WithdrawViaFragment",
       "value": "Retirar vía Fragment"
     },
@@ -61501,7 +61584,7 @@
     {
       "_": "types.LangPackString",
       "key": "Wallet.Sticker.ColorRestrictedCollection",
-      "value": "%@"
+      "value": "%@s"
     },
     {
       "_": "types.LangPackString",
@@ -63729,5 +63812,5 @@
       "value": "Pusiste un código de seguridad inválido."
     }
   ],
-  "version": 22569629
+  "version": 22579300
 }
