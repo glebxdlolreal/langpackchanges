@@ -646,12 +646,12 @@
     {
       "_": "types.LangPackString",
       "key": "ActionTTLChannelChanged",
-      "value": "Los mensajes en este canal se eliminarán automáticamente en %1$s"
+      "value": "Los mensajes en este canal serán eliminados automáticamente en %1$s"
     },
     {
       "_": "types.LangPackString",
       "key": "ActionTTLChannelDisabled",
-      "value": "Los mensajes en este canal ya no se eliminarán automáticamente"
+      "value": "Los mensajes en este canal ya no serán eliminados automáticamente"
     },
     {
       "_": "types.LangPackString",
@@ -837,6 +837,11 @@
       "_": "types.LangPackString",
       "key": "AddToGroup",
       "value": "Añadir al grupo"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AddUserErrorBlacklisted",
+      "value": "No puedes añadir a este usuario porque está en la lista de usuarios expulsados y no puedes quitar su expulsión."
     },
     {
       "_": "types.LangPackString",
@@ -1397,6 +1402,11 @@
       "_": "types.LangPackString",
       "key": "AdminRecentActionMessage.ParticipantJoinedByInvite",
       "value": "Miembro unido por invitación"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AdminRecentActionMessage.ParticipantJoinedByPublicRequest",
+      "value": "Miembro unido con una solicitud pública"
     },
     {
       "_": "types.LangPackString",
@@ -2805,7 +2815,7 @@
     {
       "_": "types.LangPackString",
       "key": "AutoDeleteMessages.SectionCaption",
-      "value": "Si se activa, todos los mensajes nuevos en los chats que inicies se eliminarán automáticamente para todos un tiempo después de ser enviados. Esto no tendrá efecto en tus chats existentes."
+      "value": "Si se activa, todos los mensajes nuevos en los chats que inicies serán eliminados automáticamente para todos un tiempo después de ser enviados. Esto no tendrá efecto en tus chats existentes."
     },
     {
       "_": "types.LangPackString",
@@ -4458,6 +4468,11 @@
       "_": "types.LangPackString",
       "key": "BusinessIntroTitleHint",
       "value": "Pon un título"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BusinessIntroUnsavedChanges",
+      "value": "Cambiaste tu página de inicio. ¿Quieres aplicar los cambios?"
     },
     {
       "_": "types.LangPackString",
@@ -8033,6 +8048,11 @@
       "_": "types.LangPackString",
       "key": "ChatService.UserJoinedGroupByRequest",
       "value": "Se aceptó a %@ en el grupo"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatThemeCantVoice",
+      "value": "No puedes cambiar el tema del chat si tienes un mensaje de voz sin enviar."
     },
     {
       "_": "types.LangPackString",
@@ -12808,7 +12828,7 @@
     {
       "_": "types.LangPackString",
       "key": "GlobalAutoDeleteInfo",
-      "value": "Si se activa, todos los mensajes nuevos en los chats que inicies se eliminarán automáticamente para todos un tiempo después de ser enviados. También puedes [aplicar este ajuste a tus chats existentes]()."
+      "value": "Si se activa, todos los mensajes nuevos en los chats que inicies serán eliminados automáticamente para todos un tiempo después de ser enviados. También puedes [aplicar este ajuste a tus chats existentes]()."
     },
     {
       "_": "types.LangPackString",
@@ -26571,7 +26591,7 @@
     {
       "_": "types.LangPackString",
       "key": "UserInfo.ResetCustomPhotoDescription",
-      "value": "La foto personalizada para este contacto se eliminará y se mostrará su foto del perfil."
+      "value": "Se eliminará la foto personalizada para este contacto y se mostrará su foto del perfil en su lugar."
     },
     {
       "_": "types.LangPackString",
@@ -27502,6 +27522,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Auth.UpdatePhraseErrorText",
+      "value": "La nueva frase secreta no fue activada. Tu frase anterior y el respaldo cifrado siguen siendo válidos."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Backup.CancelDisabling",
       "value": "Cancelar desactivación"
     },
@@ -27527,6 +27552,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Backup.DisablePhraseUpdatePendingText",
+      "value": "Telegram aún no pudo confirmar el cambio de la frase secreta en la blockchain. Espera un momento y haz clic en Desactivar de nuevo."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Backup.DisableVerificationErrorText",
       "value": "Telegram no pudo verificar que esta billetera te pertenece. Por favor, reinténtalo."
     },
@@ -27534,6 +27564,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.Backup.DisableVerificationExpiredText",
       "value": "La solicitud de verificación de la billetera expiró. Toca Desactivar para reintentarlo."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.DisableWalletChangedText",
+      "value": "La frase secreta de la billetera cambió mientras actualizabas los ajustes del respaldo. Restaura el acceso usando la frase secreta actual y reinténtalo."
     },
     {
       "_": "types.LangPackString",
@@ -27567,8 +27602,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Backup.RequiredBalance",
+      "value": "Necesitas %1$s grams (%2$s) para actualizar tu frase secreta. Añade fondos y reinténtalo."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Backup.RequiredBalanceGrams",
       "value": "Necesitas %s grams para actualizar tu frase secreta. Añade fondos y reinténtalo."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.RotateFailedText",
+      "value": "%s Tu frase secreta no fue cambiada; sigue usando la actual. Las palabras nuevas que anotaste no están en uso."
     },
     {
       "_": "types.LangPackString",
@@ -27617,8 +27662,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Connect.KeyChanging",
+      "value": "Se está actualizando tu frase secreta. Reinténtalo una vez que se haya confirmado la actualización."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Connect.OutcomeUnknown",
       "value": "Puede que esta operación ya se haya firmado o enviado. No se volverá a firmar. Revisa el historial de la billetera."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Connect.Restore",
+      "value": "Este dispositivo no contiene la clave actual de esta billetera. Restáurala para usar apps conectadas."
     },
     {
       "_": "types.LangPackString",
@@ -27632,6 +27687,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Connect.WrongNetwork",
+      "value": "Esta app solicitó una red de billetera diferente."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Details.DecryptErrorText",
       "value": "El comentario no se pudo descifrar."
     },
@@ -27639,6 +27699,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.Details.DecryptErrorTitle",
       "value": "No se pudo descifrar el comentario"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Details.FeesText",
+      "value": "Cada transferencia tiene una pequeña tarifa de red%1$s.\n\nTelegram cubre tus primeras %2$s diarias."
     },
     {
       "_": "types.LangPackString",
@@ -27759,6 +27824,12 @@
       "other_value": "Este dispositivo también contiene las claves de otras %d billeteras de grams. Si continúas, se destruirán, y esas billeteras sólo se pueden restaurar si se anotaron sus frases secretas."
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "key": "Wallet.Logout.Rotating",
+      "one_value": "Aún no se ha confirmado un cambio de la clave de la billetera en este dispositivo. Su clave de reemplazo se almacena sólo aquí y Telegram no tiene ningún respaldo de ella. Si continúas, se destruirá. Si el cambio se realiza, sólo la frase secreta de reemplazo puede restaurar la billetera.",
+      "other_value": "Aún no se han confirmado %d cambios de claves de las billeteras en este dispositivo. Sus claves de reemplazo se almacenan sólo aquí y Telegram no tiene ningún respaldo de ellas. Si continúas, se destruirán. Si el cambio se realiza, sólo las frases secretas de reemplazo pueden restaurar las billeteras."
+    },
+    {
       "_": "types.LangPackString",
       "key": "Wallet.Logout.Unknown",
       "value": "Si este dispositivo tiene claves de billeteras de grams, se destruirán al continuar. Sólo se pueden restaurar desde un respaldo de Telegram o desde tu frase secreta."
@@ -27856,7 +27927,7 @@
     {
       "_": "types.LangPackString",
       "key": "Wallet.SendAmountLabel",
-      "value": "Cantidad"
+      "value": "Monto"
     },
     {
       "_": "types.LangPackString",
@@ -28312,6 +28383,11 @@
       "_": "types.LangPackString",
       "key": "WalletImportExisting",
       "value": "Importar una billetera existente"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletImportPhraseInfo",
+      "value": "Pon la frase secreta de %1$d palabras de otra billetera que tengas."
     },
     {
       "_": "types.LangPackString",
@@ -28964,5 +29040,5 @@
       "other_value": "%1$d mensajes"
     }
   ],
-  "version": 385823
+  "version": 385825
 }
