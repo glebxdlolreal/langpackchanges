@@ -10361,6 +10361,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Chat.AlwaysUseAI.ErrorLimit",
+      "value": "Alcanzaste el límite de la IA, así que el mensaje no fue enviado. Toca Enviar para enviarlo tal cual."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Chat.AlwaysUseAI.ErrorTooLong",
       "value": "El mensaje es demasiado largo para la IA, así que no fue enviado. Toca Enviar para enviarlo tal cual."
     },
@@ -10859,6 +10864,11 @@
       "_": "types.LangPackString",
       "key": "Chat.DeleteReactionInfo",
       "value": "Mantén para eliminar la reacción."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Dictation.EnhanceErrorLimit",
+      "value": "Alcanzaste el límite de la IA por ahora. Reinténtalo más tarde."
     },
     {
       "_": "types.LangPackString",
@@ -25416,6 +25426,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift.Onchain.Error.PriceInvalid",
+      "value": "Este precio está fuera del rango permitido."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Onchain.Error.SaleActive",
+      "value": "Este regalo sigue en venta. Espera a que se complete la transacción anterior y reinténtalo."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gift.Onchain.Error.SaleDisabled",
       "value": "Los ítems de Fragment no están disponibles en este momento."
     },
@@ -25431,6 +25451,26 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift.Onchain.WalletCreating.Text",
+      "value": "Tu billetera aún se está creando. Reinténtalo en un momento."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Confirm.Refund",
+      "value": "Si el vendedor rechaza tu oferta o esta expira, se te devolverán automáticamente **%@**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.DurationDescription",
+      "value": "Elige el plazo que tendrá el propietario para aceptar tu oferta. Cuando expire, tus grams se reembolsarán automáticamente."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Error.AlreadyActive",
+      "value": "Ya tienes una oferta activa para este regalo. Retírala en tu chat con Telegram para crear una nueva."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gift.OnchainOffer.Error.InProgress",
       "value": "Tu oferta anterior por este regalo aún se está tramitando. Reinténtalo en un minuto."
     },
@@ -25441,6 +25481,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Sale.Sent",
+      "value": "Se solicitó la venta. Recibirás **%@** en cuanto se confirme on-chain."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gift.OnchainOffer.Sale.Text",
       "value": "¿Vender **%1$@** por **%2$@**?"
     },
@@ -25448,6 +25493,11 @@
       "_": "types.LangPackString",
       "key": "Gift.OnchainOffer.Withdraw.Sent",
       "value": "Se solicitó el retiro. Tus grams serán devueltos una vez que se haya confirmado on-chain."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Withdraw.Text",
+      "value": "El retiro anticipado tiene un coste de **%1$@**.\n\nSe te devolverán **%2$@**."
     },
     {
       "_": "types.LangPackString",
@@ -63832,5 +63882,5 @@
       "value": "Pusiste un código de seguridad inválido."
     }
   ],
-  "version": 22579511
+  "version": 22579534
 }
