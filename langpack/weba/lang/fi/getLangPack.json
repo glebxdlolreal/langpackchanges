@@ -1953,7 +1953,7 @@
     {
       "_": "types.LangPackString",
       "key": "AreYouSureLogoutGrams",
-      "value": "Haluatko varmasti kirjautua ulos?\n\nSalaiset keskustelusi ja **lompakon varmuuskopiot (joissa on {amount})** poistetaan. Jos et ole ottanut salalauseita talteen, menetät pääsyn varoihin.\n\nVoit käyttää Telegramia usealla laitteella yhtä aikaa ja lisätä monta tiliä jokaiseen sovellukseen."
+      "value": "Haluatko varmasti kirjautua ulos?\n\n**Lompakon varmuuskopiot (joissa on {amount})** poistetaan. Jos et ole ottanut salalauseita talteen, menetät pääsyn varoihin.\n\nVoit käyttää Telegramia usealla laitteella yhtä aikaa ja lisätä monta tiliä jokaiseen sovellukseen."
     },
     {
       "_": "types.LangPackString",
@@ -2184,6 +2184,21 @@
       "_": "types.LangPackString",
       "key": "AspectRatio",
       "value": "Kuvasuhde"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AspectRatioFree",
+      "value": "Vapaa valinta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AspectRatioOriginal",
+      "value": "Alkuperäinen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AspectRatioSquare",
+      "value": "Neliö"
     },
     {
       "_": "types.LangPackString",
@@ -14882,6 +14897,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "QrFree",
+      "value": "Maksuton"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "QrFreeExpiresIn",
       "value": "Vanhenee: {time}"
     },
@@ -20361,12 +20381,12 @@
     {
       "_": "types.LangPackString",
       "key": "VideoUnsupportedDesktop",
-      "value": "__Tätä videota ei valitettavasti voi toistaa Telegramin verkkoversiossa. Kokeile katsoa se [Telegramin työpöytäsovelluksella](https://getdesktop.telegram.org/).__"
+      "value": "Tätä videota ei valitettavasti voi toistaa Telegramin verkkoversiossa. Kokeile katsoa se **Telegramin työpöytäsovelluksella**."
     },
     {
       "_": "types.LangPackString",
       "key": "VideoUnsupportedMobile",
-      "value": "__Tätä videota ei valitettavasti voi toistaa Telegramin verkkoversiossa. Kokeile katsoa se [Telegramin mobiilisovelluksella](https://telegram.org/dl/).__"
+      "value": "Tätä videota ei valitettavasti voi toistaa Telegramin verkkoversiossa. Kokeile katsoa se **Telegramin mobiilisovelluksella**."
     },
     {
       "_": "types.LangPackString",
@@ -21407,8 +21427,8 @@
     {
       "_": "types.LangPackStringPluralized",
       "key": "WalletNetworkFeesInfo",
-      "one_value": "Jokaiseen siirtoon kuuluu pieni lisämaksu (**~{fee} gramia**). **{count}** maksu päivässä onnistuvat kuluitta, koska Telegram kattaa ne, lopuista kulut maksetaan itse.",
-      "other_value": "Jokaiseen siirtoon kuuluu pieni lisämaksu (**~{fee} gramia**). **{count}** maksua päivässä onnistuvat kuluitta, koska Telegram kattaa ne, lopuista kulut maksetaan itse."
+      "one_value": "Jokaiseen siirtoon kuuluu pieni lisämaksu (**~{fee}**). **{count}** maksu päivässä onnistuvat kuluitta, koska Telegram kattaa ne, lopuista kulut maksetaan itse.",
+      "other_value": "Jokaiseen siirtoon kuuluu pieni lisämaksu (**~{fee}**). **{count}** maksua päivässä onnistuvat kuluitta, koska Telegram kattaa ne, lopuista kulut maksetaan itse."
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -22375,5 +22395,5 @@
       "value": "Nimesi"
     }
   ],
-  "version": 395990
+  "version": 396425
 }
