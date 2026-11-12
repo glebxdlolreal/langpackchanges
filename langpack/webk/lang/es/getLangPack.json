@@ -1936,6 +1936,31 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AiEditor.AlwaysUse",
+      "value": "Usar siempre en este chat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AiEditor.AlwaysUse.Footer",
+      "value": "Todos los mensajes que envíes en este chat se reescribirán según estos ajustes."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AiEditor.AlwaysUse.Summary",
+      "value": "→ %s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AiEditor.AlwaysUse.Summary.Prompt",
+      "value": "“%s”"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AiEditor.AlwaysUse.Summary.WithEmoji",
+      "value": "%s + emojis"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AiEditor.ApplyOnSend.Error",
       "value": "El editor con IA no pudo reescribir el mensaje, así que no fue enviado. [Enviar tal cual]()"
     },
@@ -1946,8 +1971,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AiEditor.ApplyOnSend.Label.Prompt",
+      "value": "Prompt personalizado"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AiEditor.ApplyOnSend.Label.Style",
       "value": "Estilo %s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AiEditor.ApplyOnSend.Label.Translate",
+      "value": "Traducción al %s"
     },
     {
       "_": "types.LangPackString",
@@ -1961,13 +1996,33 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AiEditor.ApplyOnSend.Removed",
+      "value": "Los mensajes en este chat se enviarán tal como están escritos."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AiEditor.ApplyOnSend.SendAsIs",
+      "value": "Enviar tal como está escrito"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AiEditor.ApplyOnSend.SendLabel",
       "value": "%1$s, editor con IA: %2$s"
     },
     {
       "_": "types.LangPackString",
+      "key": "AiEditor.ApplyOnSend.Stop",
+      "value": "Detener reescritura"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AiEditor.ApplyOnSend.StyleMissing",
       "value": "%1$s ya no está disponible, por lo que el mensaje no fue enviado y el estilo fue desactivado. [Enviar tal cual]()"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AiEditor.ApplyOnSend.TurnOff",
+      "value": "Desactivar %s"
     },
     {
       "_": "types.LangPackString",
@@ -2664,6 +2719,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AskAQuestion.SearchKeywords",
+      "value": "ayuda, soporte, contacto, comentarios, asistencia"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AskAQuestionInfo",
       "value": "Ten en cuenta que el soporte de Telegram está en manos de voluntarios. Respondemos lo antes posible, pero puede tomar tiempo.\n\nPuedes mirar las [preguntas frecuentes de Telegram](https://telegram.org/faq/es#preguntas-generales): tienen [soluciones a problemas](https://telegram.org/faq/es#solucion-de-problemas) y respuestas a muchas preguntas."
     },
@@ -3193,6 +3253,16 @@
       "_": "types.LangPackString",
       "key": "BlockUser",
       "value": "Bloquear usuario"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BlockUser.DeleteAllReplies",
+      "value": "Eliminar todas las respuestas de %s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BlockUser.DeleteReply",
+      "value": "Eliminar esta respuesta"
     },
     {
       "_": "types.LangPackString",
@@ -6658,6 +6728,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Chat.Poll.DeleteOption",
+      "value": "Eliminar opción"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Chat.Poll.EndsIn",
       "value": "finaliza en %s"
     },
@@ -10030,6 +10105,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "DeleteAccountIfAwayFor2.SearchKeywords",
+      "value": "eliminar, destruir, inactiva, inactividad, cuenta, desactivar, desactivación, autodestrucción"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "DeleteAdditionalActions",
       "value": "Acciones adicionales"
     },
@@ -11683,6 +11763,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Experimental.WidgetSandbox",
+      "value": "Widget Sandbox"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Experimental.Worker",
       "value": "Red en segundo plano"
     },
@@ -12252,6 +12337,21 @@
       "_": "types.LangPackString",
       "key": "ForwardedStoryFromAuthor1",
       "value": "Historia de %s (%s)"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ForwardsRestrictedInfoBot",
+      "value": "No está permitido copiar ni reenviar desde este bot."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ForwardsRestrictedInfoChannel",
+      "value": "No está permitido copiar ni reenviar en este canal."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ForwardsRestrictedInfoGroup",
+      "value": "No está permitido copiar ni reenviar en este grupo."
     },
     {
       "_": "types.LangPackString",
@@ -15935,6 +16035,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Message.Context.AttachedStickers",
+      "value": "Stickers adjuntos"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Message.Context.CopyFilename",
+      "value": "Copiar nombre del archivo"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Message.Context.Goto",
       "value": "Mostrar en el chat"
     },
@@ -16640,8 +16750,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "NoPaidMessagesToken.Imported",
+      "value": "Ahora puedes enviarle mensajes gratis a **%s**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NoPaidMessagesToken.Invalid",
+      "value": "Este enlace de mensajes gratuitos no es válido o ha expirado."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NoPaidMessagesToken.Used",
+      "value": "%s usó tu código QR y puede enviarte mensajes gratis"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "NoPaidMessagesToken.UsedOut",
       "value": "Usaste el código QR de %s y puedes enviarle mensajes gratis"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NoPaidMessagesToken.UserInvalid",
+      "value": "Este enlace de mensajes gratuitos no puede usarse."
     },
     {
       "_": "types.LangPackString",
@@ -19974,6 +20104,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "QRCode.ChatNoCollectibles",
+      "value": "Aún no hay regalos coleccionables."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "QRCode.Copied",
       "value": "Código QR copiado al portapapeles"
     },
@@ -19989,8 +20124,43 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "QRCode.LinkExpiring",
+      "value": "Este enlace está a punto de expirar."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "QRCode.NoGiftsInfo",
       "value": "Utiliza cualquier regalo coleccionable\nque tengas para diseñar tu código QR."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QRCode.NoPaid.Toast.Expired",
+      "value": "Código expirado; se vuelve a aplicar la tarifa"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QRCode.NoPaid.Toast.Expires",
+      "value": "Este código expirará en 1 minuto"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QRCode.NoPaid.Toast.Expiring",
+      "value": "Este código está a punto de expirar."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QRCode.NoPaid.Toast.FeeRestored",
+      "value": "Tarifa por mensajes restaurada"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QRCode.NoPaid.Toast.NewCode",
+      "value": "Nuevo código creado"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QRCode.NoPaid.Toast.NoTimeLimit",
+      "value": "Código gratis permanentemente"
     },
     {
       "_": "types.LangPackString",
@@ -25455,6 +25625,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "SuggestContacts.SearchKeywords",
+      "value": "sugerencias, sugeridos, frecuentes, personas"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "SuggestContactsInfo",
       "value": "Muestra las personas a las que envías mensajes con frecuencia en la parte superior de la sección de búsqueda para un acceso rápido."
     },
@@ -25873,6 +26048,11 @@
       "_": "types.LangPackString",
       "key": "TelegramFaq",
       "value": "Preguntas frecuentes"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "TelegramFaq.SearchKeywords",
+      "value": "ayuda, soporte, asistencia, preguntas"
     },
     {
       "_": "types.LangPackString",
@@ -27328,6 +27508,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "VoiceChat.JoinConfirm",
+      "value": "¿Quieres unirte al videochat **%@**?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceChat.JoinConfirm.Channel",
+      "value": "¿Quieres unirte al stream en directo **%@**?"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "VoiceChat.Leave",
       "value": "Salir"
     },
@@ -27398,6 +27588,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "VoiceChat.StartAs",
+      "value": "Iniciar videochat como…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceChat.StartAs.Channel",
+      "value": "Iniciar stream en directo como…"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "VoiceChat.Status.Connecting",
       "value": "Conectando…"
     },
@@ -27436,6 +27636,16 @@
       "_": "types.LangPackString",
       "key": "VoiceChat.Status.You",
       "value": "Tú"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceChat.TitleChanged",
+      "value": "Título del videochat cambiado a **%1$@**"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceChat.TitleChanged.Channel",
+      "value": "Título del stream en directo cambiado a **%1$@**"
     },
     {
       "_": "types.LangPackString",
@@ -28085,6 +28295,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.Replace.ImportText",
       "value": "Importa una billetera mediante su frase secreta creada en Telegram."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Replace.PasswordText",
+      "value": "Pon tu contraseña de verificación en dos pasos para reemplazar la billetera."
     },
     {
       "_": "types.LangPackString",
@@ -29322,5 +29537,5 @@
       "other_value": "%1$d mensajes"
     }
   ],
-  "version": 385835
+  "version": 385838
 }
