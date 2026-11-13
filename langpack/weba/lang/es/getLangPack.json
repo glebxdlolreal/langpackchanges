@@ -595,6 +595,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ActionNoPaidTokenUsed",
+      "value": "{user} usó tu enlace para enviarte mensajes gratis"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ActionNoPaidTokenUsedYou",
+      "value": "Usaste el enlace de {user} y puedes enviarle mensajes gratis"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ActionOpenGiftButton",
       "value": "Abrir regalo"
     },
@@ -1211,12 +1221,12 @@
     {
       "_": "types.LangPackString",
       "key": "ActionTTLChannelChanged",
-      "value": "Los mensajes en este canal se eliminarán automáticamente en {time}"
+      "value": "Los mensajes en este canal serán eliminados automáticamente en {time}"
     },
     {
       "_": "types.LangPackString",
       "key": "ActionTTLChannelDisabled",
-      "value": "Los mensajes en este canal ya no se eliminarán automáticamente"
+      "value": "Los mensajes en este canal ya no serán eliminados automáticamente"
     },
     {
       "_": "types.LangPackString",
@@ -1858,7 +1868,7 @@
     {
       "_": "types.LangPackString",
       "key": "AreYouSureLogoutGrams",
-      "value": "¿Quieres cerrar sesión?\n\nEsto cancelará todos tus chats secretos y **eliminará los respaldos de la billetera que contienen {amount}**. Sin sus frases secretas, perderás el acceso a estos fondos.\n\nPuedes usar Telegram en todos tus dispositivos a la vez y usar varias cuentas en la misma app."
+      "value": "¿Quieres cerrar sesión?\n\nEsto **eliminará los respaldos de billeteras que contienen {amount}**. Sin sus frases secretas, perderás el acceso a estos fondos.\n\nPuedes usar Telegram en todos tus dispositivos a la vez y usar varias cuentas en la misma app."
     },
     {
       "_": "types.LangPackString",
@@ -2084,6 +2094,21 @@
       "_": "types.LangPackString",
       "key": "AspectRatio",
       "value": "Relación de aspecto"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AspectRatioFree",
+      "value": "Libre"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AspectRatioOriginal",
+      "value": "Original"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AspectRatioSquare",
+      "value": "Cuadrada"
     },
     {
       "_": "types.LangPackString",
@@ -5775,6 +5800,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "CopyProtectionInfoGroup",
+      "value": "Los admins. han restringido que los miembros puedan copiar o reenviar contenido desde este grupo."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CopyProtectionInfoMessage",
+      "value": "No está permitido copiar ni reenviar este mensaje."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "CountryNone",
       "value": "No se encontró el país"
     },
@@ -6695,6 +6730,16 @@
       "_": "types.LangPackString",
       "key": "Edited",
       "value": "editado"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EditorMutedGifTooLarge",
+      "value": "Sonido silenciado. Los videos de más de {size} no se pueden convertir a GIF."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EditorTextSemi",
+      "value": "Semi"
     },
     {
       "_": "types.LangPackString",
@@ -7659,7 +7704,7 @@
     {
       "_": "types.LangPackString",
       "key": "FocusMessage",
-      "value": "Ir al post en el canal"
+      "value": "Ir al mensaje"
     },
     {
       "_": "types.LangPackString",
@@ -9734,7 +9779,7 @@
     {
       "_": "types.LangPackString",
       "key": "GroupInviteBadLink",
-      "value": "El enlace de invitación no es válido o expiró."
+      "value": "El enlace de invitación es inválido o expiró."
     },
     {
       "_": "types.LangPackString",
@@ -10353,7 +10398,7 @@
       "_": "types.LangPackStringPluralized",
       "key": "LastSeenMinutesAgo",
       "one_value": "últ. vez hace 1 minuto",
-      "other_value": "últ. vez hace {count} minuto"
+      "other_value": "últ. vez hace {count} minutos"
     },
     {
       "_": "types.LangPackString",
@@ -13946,7 +13991,7 @@
     {
       "_": "types.LangPackString",
       "key": "PrivacyMusicTitle",
-      "value": "¿Quién puede ver mi música guardada en el perfil?"
+      "value": "¿Quién puede ver la música guardada en mi perfil?"
     },
     {
       "_": "types.LangPackString",
@@ -14357,6 +14402,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PushPreviewsWhenLockedInfo",
+      "value": "Muestra los nombres de los chats y el texto de los mensajes en las notificaciones en segundo plano, incluso cuando Telegram está bloqueado."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PushReactText",
       "value": "{emoji} a tu “{summary}”"
     },
@@ -14374,6 +14424,11 @@
       "_": "types.LangPackString",
       "key": "QrCodeTitle",
       "value": "Código QR"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrFree",
+      "value": "Gratis"
     },
     {
       "_": "types.LangPackString",
@@ -17530,7 +17585,7 @@
     {
       "_": "types.LangPackString",
       "key": "StarsSubscriptionExpired",
-      "value": "expiró el{date}"
+      "value": "expiró el {date}"
     },
     {
       "_": "types.LangPackString",
@@ -19615,6 +19670,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "VideoAudioUnsupported",
+      "value": "El sonido de este video no se puede procesar en tu navegador. Silencia el video para editarlo."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "VideoCall",
       "value": "Videollamar"
     },
@@ -19637,6 +19697,21 @@
       "_": "types.LangPackString",
       "key": "VideoConversionView",
       "value": "Ver"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VideoEditingUnsupportedCover",
+      "value": "Tu navegador no puede procesar el video. Aún así, puedes elegir una portada."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VideoEditingUnsupportedCoverMute",
+      "value": "Tu navegador no puede procesar video. Aún así, puedes elegir una portada o silenciarlo."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VideoEditingUnsupportedMute",
+      "value": "Tu navegador no puede procesar video. Aún así, puedes silenciarlo."
     },
     {
       "_": "types.LangPackString",
@@ -19671,12 +19746,12 @@
     {
       "_": "types.LangPackString",
       "key": "VideoUnsupportedDesktop",
-      "value": "__Lamentablemente, este video no puede ser reproducido en Telegram Web. Intenta abrirlo en nuestra [app para computadora](https://getdesktop.telegram.org/).__"
+      "value": "Lamentablemente, este video no puede ser reproducido en Telegram Web. Intenta abrirlo en nuestra **app para computadora** en su lugar."
     },
     {
       "_": "types.LangPackString",
       "key": "VideoUnsupportedMobile",
-      "value": "__Lamentablemente, este video no puede ser reproducido en Telegram Web. Intenta abrirlo en nuestra [app para móvil](https://telegram.org/dl/).__"
+      "value": "Lamentablemente, este video no puede ser reproducido en Telegram Web. Intenta abrirlo en nuestra **app para móvil** en su lugar."
     },
     {
       "_": "types.LangPackString",
@@ -20616,12 +20691,17 @@
     {
       "_": "types.LangPackString",
       "key": "WalletLogoutWarning",
-      "value": "Las frases secretas guardadas en este dispositivo para tus billeteras se eliminarán al cerrar sesión. Asegúrate primero de que cada frase tiene un respaldo en la nube o una copia anotada."
+      "value": "Las frases secretas guardadas en este dispositivo para tus billeteras serán eliminadas al cerrar sesión. Asegúrate primero de que cada frase tiene un respaldo en la nube o una copia anotada."
     },
     {
       "_": "types.LangPackString",
       "key": "WalletMenuItem",
       "value": "Dinero"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletMoveToGiftsText",
+      "value": "¿Quieres transferir este coleccionable off-chain a tu cuenta de Telegram?"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -20878,7 +20958,7 @@
     {
       "_": "types.LangPackString",
       "key": "WalletRotationPendingError",
-      "value": "El cambio de clave aún se está confirmando. Por favor, reinténtalo en un minuto."
+      "value": "El cambio de clave aún se está confirmando. Reinténtalo en un minuto."
     },
     {
       "_": "types.LangPackString",
@@ -21084,6 +21164,26 @@
       "_": "types.LangPackString",
       "key": "WalletShowRecoveryPhrase",
       "value": "Mostrar frase secreta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletStickerColorCollection",
+      "value": "{collection}s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletStickerColorRestricted",
+      "value": "Sólo puedes usar {collections} para cambiar el color de tu tarjeta."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletStickerGridFooter",
+      "value": "Mantén pulsado un regalo para despegarlo y pegarlo en tu tarjeta. Mantén pulsado un regalo en la tarjeta para despegarlo nuevamente y usa otro dedo para rotarlo o cambiar su tamaño."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletStickerSaveError",
+      "value": "Ocurrió un error. Por favor, reinténtalo más tarde."
     },
     {
       "_": "types.LangPackString",
@@ -21463,5 +21563,5 @@
       "value": "Tu nombre"
     }
   ],
-  "version": 397271
+  "version": 397272
 }
