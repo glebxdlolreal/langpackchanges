@@ -25754,6 +25754,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Auth.UpdatePhraseErrorText",
+      "value": "Novi tajni niz riječi nije aktiviran. Vaš prethodni niz i šifrirana sigurnosna kopija i dalje su važeći."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Auth.VerificationExpiredText",
       "value": "Zahtjev za potvrdu novčanika je istekao. Pokušajte ga ponovno uvesti."
     },
@@ -25789,6 +25794,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Backup.DisablePhraseUpdateErrorText",
+      "value": "Promjena tajnog niza riječi nije mogla biti dovršena. Provjerite stanje novčanika i pokušajte ponovno."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.DisablePhraseUpdatePendingText",
+      "value": "Telegram nije mogao potvrditi promjenu tajnog niza riječi na blockchainu. Pričekajte trenutak i ponovno dodirnite Onemogući."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Backup.DisableVerificationErrorText",
       "value": "Telegram nije mogao potvrditi da posjedujete ovaj novčanik. Molimo pokušajte ponovno."
     },
@@ -25799,8 +25814,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Backup.DisableWalletChangedText",
+      "value": "Tajni niz riječi novčanika promijenio se dok ste ažurirali sigurnosne postavke. Vratite pristup pomoću trenutnog tajnog niza i pokušajte ponovno."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Backup.EnableErrorTitle",
       "value": "Omogućavanje sigurnosne kopije nije uspjelo"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.EnablePhraseUpdatePendingText",
+      "value": "Telegram nije mogao potvrditi promjenu tajnog niza riječi na blockchainu. Pričekajte trenutak i pokušajte ponovno ili unesite trenutni tajni niz."
     },
     {
       "_": "types.LangPackString",
@@ -25826,6 +25851,16 @@
       "_": "types.LangPackString",
       "key": "Wallet.Backup.PhraseUpdatePendingTitle",
       "value": "Ažuriranje tajnog niza je na čekanju"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.RequiredBalanceGrams",
+      "value": "Potrebno je %s grama da ažurirate svoj tajni niz riječi."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.RotateFailedText",
+      "value": "%s Vaša tajni niz nije promijenjen — nastavite koristiti svoj trenutni niz. Nove riječi koje ste zapisali nisu u upotrebi."
     },
     {
       "_": "types.LangPackString",
@@ -26671,6 +26706,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletImportPhraseInfo",
+      "value": "Unesite tajni niz od %1$d riječi vašeg drugog novčanika koji posjedujete."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletImported",
       "value": "Novčanik je uvezen"
     },
@@ -27308,5 +27348,5 @@
       "other_value": "%1$d poruka"
     }
   ],
-  "version": 384381
+  "version": 385991
 }
