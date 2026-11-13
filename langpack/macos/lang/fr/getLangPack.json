@@ -9847,6 +9847,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Chat.SendReactionRestricted",
+      "value": "Vous ne pouvez pas envoyer de réactions dans cet échange."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Chat.SendVoice.PrivacyError",
       "value": "%@ n'accepte pas les messages vocaux et vidéos"
     },
@@ -15891,6 +15896,21 @@
       "value": "Les transferts depuis ce bot sont restreints"
     },
     {
+      "_": "types.LangPackString",
+      "key": "Conversation.CopyProtectionForwardingDisabledChannel",
+      "value": "Les transferts à partir de ce canal sont bloqués."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Conversation.CopyProtectionForwardingDisabledGroup",
+      "value": "Les transferts à partir de ce groupe sont bloqués"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Conversation.CopyProtectionForwardingDisabledSecret",
+      "value": "Les transferts sont désactivés"
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "key": "Conversation.FreeTranscriptionCooldownTooltip",
       "one_value": "Vous avez utilisé votre transcription gratuite cette semaine.",
@@ -20005,13 +20025,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift.Delete.Title",
+      "value": "Supprimer le cadeau"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gift.Displayed.NewText",
-      "value": "Le cadeau est désormais affiché sur votre Page."
+      "value": "Le cadeau est désormais affiché sur votre profil."
     },
     {
       "_": "types.LangPackString",
       "key": "Gift.Hidden.NewText",
-      "value": "Le cadeau est retiré de votre Page."
+      "value": "Le cadeau a été supprimé de votre profil"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -20605,6 +20630,11 @@
       "_": "types.LangPackString",
       "key": "Gift.Upgrade.Upgrade",
       "value": "Améliorer"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.View.Context.Delete",
+      "value": "Supprimer le cadeau"
     },
     {
       "_": "types.LangPackString",
@@ -24302,6 +24332,16 @@
       "value": "Copier le nom du morceau"
     },
     {
+      "_": "types.LangPackString",
+      "key": "MessageCalendar.ClearHistoryForTheseDays",
+      "value": "Effacer l'historique des ces jours"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MessageCalendar.ClearHistoryForThisDay",
+      "value": "Effacer l'historique de cette journée"
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "key": "MessageCalendar.DaysSelectedTitle",
       "one_value": "%1$d jour sélectionné",
@@ -24334,6 +24374,11 @@
       "_": "types.LangPackString",
       "key": "MessageCalendar.Select",
       "value": "Sélectionner"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MessageCalendar.Title",
+      "value": "Calendrier"
     },
     {
       "_": "types.LangPackString",
@@ -26086,7 +26131,7 @@
     {
       "_": "types.LangPackString",
       "key": "NotificationSettings.ResetAllInfo",
-      "value": "Annule tous les paramètres de notification personnalisés pour tous vos contacts, groupes et canaux."
+      "value": "Annule tous les paramètres de notification personnalisés pour vos contacts, groupes et canaux."
     },
     {
       "_": "types.LangPackString",
@@ -46121,7 +46166,7 @@
     {
       "_": "types.LangPackString",
       "key": "VoiceOver.Segment.RecoveryPhraseLength",
-      "value": "Longueur de la phrase de récupération"
+      "value": "Longueur de la phrase secrète"
     },
     {
       "_": "types.LangPackString",
@@ -47646,7 +47691,7 @@
     {
       "_": "types.LangPackString",
       "key": "Wallet.ReceiveController.PeerCaption",
-      "value": "Envoyez des GRAM à cette adresse\nou scannez ce code QR."
+      "value": "Envoyez des Grams à cette adresse\nou scannez ce code QR."
     },
     {
       "_": "types.LangPackString",
@@ -48612,7 +48657,7 @@
     {
       "_": "types.LangPackString",
       "key": "Wallet.TransactionRowItem.OutgoingItem",
-      "value": "- 1 article"
+      "value": "-1 article"
     },
     {
       "_": "types.LangPackString",
@@ -49666,5 +49711,5 @@
       "value": "Afficher les substitutions"
     }
   ],
-  "version": 2428835
+  "version": 2438860
 }
