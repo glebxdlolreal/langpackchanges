@@ -4499,7 +4499,7 @@
     {
       "_": "types.LangPackString",
       "key": "Call.Confirm.Discard.Conference.ToVoice.Text",
-      "value": "Forlat gruppeanrop og start et videoanrop i \"%2$@\"?"
+      "value": "Forlat gruppeanropet og start en videosamtale i \"%2$@\"?"
     },
     {
       "_": "types.LangPackString",
@@ -4539,7 +4539,7 @@
     {
       "_": "types.LangPackString",
       "key": "Call.Confirm.Discard.Voice.ToConference.Text",
-      "value": "Forlat videoanropet i \"%1$@\" og start et gruppeanrop?"
+      "value": "Forlat videosamtalen i \"%1$@\" og start et gruppeanrop?"
     },
     {
       "_": "types.LangPackString",
@@ -4684,7 +4684,7 @@
     {
       "_": "types.LangPackString",
       "key": "CallMessageIncomingDeclined",
-      "value": "Avvist samtale"
+      "value": "Avvist anrop"
     },
     {
       "_": "types.LangPackString",
@@ -4719,7 +4719,7 @@
     {
       "_": "types.LangPackString",
       "key": "CallMessageVideoIncomingMissed",
-      "value": "Tapt videosamtale"
+      "value": "Tapt videoanrop"
     },
     {
       "_": "types.LangPackString",
@@ -4819,7 +4819,7 @@
     {
       "_": "types.LangPackString",
       "key": "CallSettings.NoiseSuppression",
-      "value": "Støykansellering"
+      "value": "Støydemping"
     },
     {
       "_": "types.LangPackString",
@@ -5163,6 +5163,11 @@
       "_": "types.LangPackString",
       "key": "ChannelDirectMessages.WelcomePaid",
       "value": "%s\ntar %s i betaling pr. melding til dens administrator"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChannelEnablePaidReactions",
+      "value": "Aktiver betalte reaksjoner"
     },
     {
       "_": "types.LangPackString",
@@ -9262,7 +9267,7 @@
     {
       "_": "types.LangPackString",
       "key": "ConferenceCall.Unsupported",
-      "value": "Krypterte gruppeanrop støttes ikke i denne nettleseren. Åpne denne samtalen i en støttet Telegram-app."
+      "value": "Krypterte gruppeanrop støttes ikke i denne nettleseren. Åpne dette anropet i en støttet Telegram-app."
     },
     {
       "_": "types.LangPackString",
@@ -13004,7 +13009,7 @@
     {
       "_": "types.LangPackString",
       "key": "Input.Quote.Collapsed",
-      "value": "Sitert tekst vil være slått sammen"
+      "value": "Sitert tekst vil være sammenslått"
     },
     {
       "_": "types.LangPackString",
@@ -14591,7 +14596,7 @@
     {
       "_": "types.LangPackString",
       "key": "Login.Code.SentMissedCall",
-      "value": "I løpet av de neste sekundene bør du motta\nen kort samtale fra **%s**. Ikke svar på den.\nBare skriv inn de siste sifrene i det nummeret."
+      "value": "I løpet av de neste sekundene bør du motta\net kort anrop fra **%s**. Ikke svar på det.\nBare skriv inn de siste sifrene i det nummeret."
     },
     {
       "_": "types.LangPackString",
@@ -19508,7 +19513,7 @@
     {
       "_": "types.LangPackString",
       "key": "RateCallDropped",
-      "value": "Samtalen ble avbrutt"
+      "value": "Anropet avsluttet uventet"
     },
     {
       "_": "types.LangPackString",
@@ -19554,6 +19559,22 @@
       "_": "types.LangPackString",
       "key": "ReactionAddReactionsHint",
       "value": "Legg til reaksjoner…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ReactionApplyChangesDialog",
+      "value": "Du har endret listen over reaksjoner. Vil du bruke endringene?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ReactionCustomReactions",
+      "value": "Egendefinerte reaksjoner"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "ReactionReachLvlForReactionShort",
+      "one_value": "Kanalen din må nå nivå **%2$d** for å legge til **%1$d** egendefinert emoji som en reaksjon.",
+      "other_value": "Kanalen din må nå nivå **%2$d** for å legge til **%1$d** egendefinerte emoji som reaksjoner."
     },
     {
       "_": "types.LangPackString",
@@ -26631,6 +26652,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "VoiceChat.JoinConfirm",
+      "value": "Bli med i videosamtalen **%@**?"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "VoiceChat.Leave",
       "value": "Forlat"
     },
@@ -26698,6 +26724,11 @@
       "_": "types.LangPackString",
       "key": "VoiceChat.RemovePeer.Confirm.OK",
       "value": "Fjern"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceChat.StartAs",
+      "value": "Start videosamtale som..."
     },
     {
       "_": "types.LangPackString",
@@ -26799,6 +26830,16 @@
       "_": "types.LangPackString",
       "key": "VoipFeedbackCommentHint",
       "value": "Legg til en valgfri kommentar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoipGroupEditTitle",
+      "value": "Endre navn på videosamtale"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoipGroupInvitedUser",
+      "value": "Du inviterte **%1$@** til videosamtalen."
     },
     {
       "_": "types.LangPackString",
@@ -27125,5 +27166,5 @@
       "other_value": "%1$d meldinger"
     }
   ],
-  "version": 385854
+  "version": 385857
 }
