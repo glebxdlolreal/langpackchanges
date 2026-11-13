@@ -8699,6 +8699,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Channel.Edit.PrivateConfirmation.Text",
+      "value": "Јавна веза вашег канала t.me/%@ биће уклоњена, а ово корисничко име постаће доступно свима. Желите ли да наставите?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Channel.Edit.PrivateConfirmation.Title",
+      "value": "Учинити канал приватним?"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Channel.Edit.PrivatePublicLinkAlert",
       "value": "Имајте на уму да ако изаберете јавну везу за свој канал, свако ће моћи да га пронађе у претрази и придружи му се.\n\nНемојте правити ову везу ако желите да ваш канал остане приватан."
     },
@@ -25883,8 +25893,88 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift.Onchain.Buy.Sent",
+      "value": "Захтев за куповину је послат. Поклон **%@** ће се појавити у вашем новчанику чим мрежа то потврди."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Onchain.Error.CancellationPending",
+      "value": "Ваш поклон је повучен из продаје, али мрежа то још није потврдила. Поставите нову цену чим буде потврђено."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Onchain.Error.NotForSale",
+      "value": "Овај поклон више није на продају."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Onchain.Error.NotMinted",
+      "value": "Овај поклон још није на блокчејну."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Onchain.Error.NotOwner",
+      "value": "Овај поклон није у вашем новчанику."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Onchain.Error.OnlyForSelf",
+      "value": "Поклони у понуди на платформи Fragment могу се купити само за себе."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Onchain.Error.PriceInvalid",
+      "value": "Ова цена је изван дозвољеног опсега."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Onchain.Error.RelistFailed",
+      "value": "Ваш поклон је уклоњен из продаје, али понуда по новој цени није успела: %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Onchain.Error.SaleActive",
+      "value": "Овај поклон је и даље у понуди. Сачекајте да се претходна трансакција заврши и покушајте поново."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Onchain.Error.SaleDisabled",
+      "value": "Поклони понуђени на платформи Fragment тренутно нису доступни."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Onchain.Error.SaleInactive",
+      "value": "Овај поклон није понуђен на продају."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Onchain.Error.SelfPurchase",
+      "value": "Не можете купити поклон који сте сами ставили на продају."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Onchain.InsufficientBalance.Text",
+      "value": "Нема довољно грама у вашем новчанику. За ово је потребно **%@**, укључујући мрежне накнаде."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Onchain.List.Sent",
+      "value": "Поклон **%@** ће бити понуђен на продају чим мрежа то потврди."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gift.Onchain.OpenWallet",
       "value": "Отвори мој „Новац”"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Onchain.Unlist.Sent",
+      "value": "Поклон **%@** ће бити уклоњен из продаје чим мрежа то потврди."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Onchain.UseEarnings.Pending",
+      "value": "Ваша зарада у грамима је на путу ка вашем новчанику. Купите поклон чим стигне."
     },
     {
       "_": "types.LangPackString",
@@ -25893,8 +25983,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift.Onchain.UseEarnings.Text",
+      "value": "Износ од **%@** биће пребачен са зараде у грамима на ваше стање и искоришћен за куповину овог поклона."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gift.Onchain.UseEarnings.Title",
       "value": "Користити зараду у грамима?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Onchain.WalletCannotSign.Text",
+      "value": "Ваш новчаник не може да потписује трансакције на овом уређају. Отворите новчаник да бисте вратили приступ."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Onchain.WalletCreating.Text",
+      "value": "Ваш новчаник се још прави. Покушајте поново за тренутак."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Onchain.WalletRequired.Text",
+      "value": "Поклони у понуди на платформи Fragment плаћају се и продају из вашег Telegram новчаника."
     },
     {
       "_": "types.LangPackString",
@@ -26563,6 +26673,11 @@
       "_": "types.LangPackString",
       "key": "Gift.Store.Filter.Backdrop",
       "value": "Позадина"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Store.Filter.FixedSale",
+      "value": "Продаја на блокчејну"
     },
     {
       "_": "types.LangPackString",
@@ -28273,6 +28388,16 @@
       "_": "types.LangPackString",
       "key": "Group.Edit.PrivateConfirmation.Continue",
       "value": "Настави"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Group.Edit.PrivateConfirmation.Text",
+      "value": "Јавна веза ваше групе t.me/%@ биће уклоњена, а ово корисничко име постаће доступно свима. Желите ли да наставите?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Group.Edit.PrivateConfirmation.Title",
+      "value": "Учинити групу приватном?"
     },
     {
       "_": "types.LangPackString",
@@ -57657,8 +57782,33 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Ton.WithdrawToWallet.AmountTooLarge",
+      "value": "Овај износ премашује ограничење за повлачење."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Ton.WithdrawToWallet.OutcomeUnknown",
+      "value": "Потврда повлачења није успела. Проверите историју трансакција пре него што покушате поново."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Ton.WithdrawToWallet.Text",
+      "value": "Грами ће бити послати у ваш самостални новчаник (%@)."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Ton.WithdrawToWallet.Title",
       "value": "Повуците %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Ton.WithdrawToWallet.WalletCreating",
+      "value": "Ваш новчаник се тренутно подешава. Покушајте поново за минут."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Ton.WithdrawToWallet.WalletUnavailable",
+      "value": "Ваш новчаник тренутно није доступан. Покушајте поново касније."
     },
     {
       "_": "types.LangPackString",
@@ -63175,8 +63325,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Transaction.CollectiblePutOnSale",
+      "value": "Стављено на продају"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Transaction.CollectibleReceived",
       "value": "Примљено"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.CollectibleRemovedFromSale",
+      "value": "Повучено из продаје"
     },
     {
       "_": "types.LangPackString",
@@ -65359,5 +65519,5 @@
       "value": "Унели сте неважећи безбедносни кôд."
     }
   ],
-  "version": 22581711
+  "version": 22581810
 }
