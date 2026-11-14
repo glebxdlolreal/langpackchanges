@@ -855,6 +855,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Agent.ConnectModel",
+      "value": "Připojit model"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Agent.Connected.Start",
       "value": "Spustit"
     },
@@ -872,6 +877,26 @@
       "_": "types.LangPackString",
       "key": "Agent.Effort",
       "value": "Úsilí"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Agent.Effort.Expert",
+      "value": "Expert"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Agent.Effort.Fast",
+      "value": "Rychlý"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Agent.Effort.Medium",
+      "value": "Střední"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Agent.Effort.Ultra",
+      "value": "Ultra"
     },
     {
       "_": "types.LangPackString",
@@ -917,6 +942,16 @@
       "_": "types.LangPackString",
       "key": "Agent.Key.Title",
       "value": "API klíč"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Agent.Models.NotFound",
+      "value": "Nenalezeny žádné modely"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Agent.Models.Search",
+      "value": "Hledat modely"
     },
     {
       "_": "types.LangPackString",
@@ -8711,6 +8746,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Channel.Edit.PrivateConfirmation.Continue",
+      "value": "Pokračovat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Channel.Edit.PrivateConfirmation.Text",
+      "value": "Veřejný odkaz na váš kanál t.me/%@ bude odstraněn a toto uživatelské jméno bude k dispozici komukoli. Chcete pokračovat?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Channel.Edit.PrivateConfirmation.Title",
+      "value": "Učinit kanál soukromým?"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Channel.Edit.PrivatePublicLinkAlert",
       "value": "Pro svůj kanál si můžete zvolit veřejný odkaz. Pokud to uděláte, ostatní lidé pomocí něj budou moci najít váš kanál.\n\nPokud chcete, aby váš kanál zůstal soukromý, odkaz nevytvářejte."
     },
@@ -10548,6 +10598,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Chat.AlwaysUseAI.ErrorGeneric",
+      "value": "Zprávu se nepodařilo přepsat, takže nebyla odeslána. Klepnutím na Odeslat ji odešlete v původní podobě."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.AlwaysUseAI.ErrorLimit",
+      "value": "Dosáhli jste limitu pro AI, takže zpráva nebyla odeslána. Klepnutím na Odeslat ji odešlete v původní podobě."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.AlwaysUseAI.ErrorTooLong",
+      "value": "Zpráva je pro AI příliš dlouhá, proto nebyla odeslána. Klepnutím na Odeslat ji odešlete v původní podobě."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Chat.AttachmentLimitExceeded",
       "value": "Litujeme, nemůžete vybrat více položek najednou."
     },
@@ -11053,6 +11118,76 @@
       "_": "types.LangPackString",
       "key": "Chat.DeleteReactionInfo",
       "value": "Stiskněte reakci, kterou chcete smazat."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Dictation.AllStyles",
+      "value": "Všechny styly"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Dictation.ConvertToText",
+      "value": "Převést na text"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Dictation.Enhance",
+      "value": "Vylepšit"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Dictation.EnhanceErrorGeneric",
+      "value": "Text se nepodařilo vylepšit. Zkuste to znovu."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Dictation.EnhanceErrorLimit",
+      "value": "Prozatím jste dosáhli limitu pro AI. Zkuste to později."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Dictation.EnhanceErrorTooLong",
+      "value": "Text je příliš dlouhý na to, aby se dal vylepšit."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Dictation.Enhancing",
+      "value": "Vylepšuji…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Dictation.ErrorGeneric",
+      "value": "Nelze rozpoznat řeč. Zkuste to znovu."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Dictation.ErrorSpeechDenied",
+      "value": "V nastaveních povolte rozpoznávání řeči pro Telegram, abyste mohli diktovat."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Dictation.ErrorUnavailable",
+      "value": "Diktování není pro tento jazyk zadávání dostupné."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Dictation.ErrorUnsupportedLanguage",
+      "value": "Diktování zatím nepodporuje %@."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Dictation.Hint",
+      "value": "Potáhnutím zde převedete řeč na text"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Dictation.Listening",
+      "value": "Poslouchám…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Dictation.Stop",
+      "value": "Zastavit diktování"
     },
     {
       "_": "types.LangPackString",
@@ -14641,6 +14776,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ChatList.ContextShowUnread",
+      "value": "Zobrazit nepřečtené"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ChatList.ContextUnmuteAll",
       "value": "Zrušit ztlumení"
     },
@@ -15746,6 +15886,16 @@
       "_": "types.LangPackString",
       "key": "ChatList.Unmute",
       "value": "Zapnout zvuk"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatList.UnreadOnlyPanel.Info",
+      "value": "zobrazují se pouze nepřečtené konverzace"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatList.UnreadOnlyPanel.ShowAll",
+      "value": "Zobrazit všechny konverzace"
     },
     {
       "_": "types.LangPackString",
@@ -20644,6 +20794,11 @@
       "_": "types.LangPackString",
       "key": "Conversation.ShareMyPhoneNumberConfirmation",
       "value": "Opravdu chcete sdílet své telefonní číslo %1$@ s %2$@?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Conversation.ShareMyPhoneNumberConfirmation.Action",
+      "value": "Sdílet"
     },
     {
       "_": "types.LangPackString",
@@ -26017,8 +26172,118 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift.Onchain.Buy.Sent",
+      "value": "Nákup odeslán. Jakmile síť transakci potvrdí, částka **%@** se objeví ve vaší peněžence."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Onchain.Error.CancellationPending",
+      "value": "Váš dárek byl stažen z prodeje, ale síť to zatím nepotvrdila. Jakmile to bude potvrzeno, nastavte novou cenu."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Onchain.Error.NotForSale",
+      "value": "Tento dárek již není na prodej."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Onchain.Error.NotMinted",
+      "value": "Tento dárek zatím není v blockchainu."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Onchain.Error.NotOwner",
+      "value": "Tenhle dárek nemáte v peněžence."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Onchain.Error.OnlyForSelf",
+      "value": "Seznamy Fragment lze zakoupit pouze pro sebe."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Onchain.Error.PriceInvalid",
+      "value": "Tato cena je mimo povolený rozsah."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Onchain.Error.RelistFailed",
+      "value": "Váš dárek byl stažen z prodeje, ale jeho zveřejnění za novou cenu selhalo: %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Onchain.Error.SaleActive",
+      "value": "Tento dárek je stále v nabídce. Počkejte, až se předchozí transakce dokončí, a zkuste to znovu."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Onchain.Error.SaleDisabled",
+      "value": "Seznamy Fragment nejsou momentálně k dispozici."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Onchain.Error.SaleInactive",
+      "value": "Tento dárek není v nabídce k prodeji."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Onchain.Error.SelfPurchase",
+      "value": "Nemůžete si zakoupit vlastní dárek."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Onchain.InsufficientBalance.Text",
+      "value": "Ve vaší peněžence není dost Gram. K tomu je zapotřebí **%@** včetně síťových poplatků."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Onchain.List.Sent",
+      "value": "**%@** bude zařazen do nabídky k prodeji, jakmile to síť potvrdí."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gift.Onchain.OpenWallet",
       "value": "Otevřít Money"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Onchain.Unlist.Sent",
+      "value": "**%@** bude stažen z prodeje, jakmile to síť potvrdí."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Onchain.UseEarnings.Pending",
+      "value": "Vaše výdělky Gram jsou právě na cestě do vaší peněženky. Jakmile dorazí, kupte si dárek."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Onchain.UseEarnings.Proceed",
+      "value": "Pokračovat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Onchain.UseEarnings.Text",
+      "value": "**%@** bude převedeno z Výdělků Gram na váš zůstatek a použito k zakoupení tohoto dárku."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Onchain.UseEarnings.Title",
+      "value": "Použít Výdělky Gram?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Onchain.WalletCannotSign.Text",
+      "value": "Vaše peněženka na tomto zařízení nemůže podepisovat transakce. Otevřete peněženku a obnovte přístup."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Onchain.WalletCreating.Text",
+      "value": "Vaše peněženka se právě vytváří. Zkuste to za chvíli znovu."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Onchain.WalletRequired.Text",
+      "value": "Seznamy Fragment se platí a prodávají prostřednictvím vaší peněženky v Telegramu."
     },
     {
       "_": "types.LangPackString",
@@ -26154,6 +26419,11 @@
       "_": "types.LangPackString",
       "key": "Gift.OnchainOffer.Sale.Title",
       "value": "Potvrdit prodej"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Sent.Text",
+      "value": "%1$@ drženo do %2$@."
     },
     {
       "_": "types.LangPackString",
@@ -26699,6 +26969,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift.Store.Filter.FixedSale",
+      "value": "Prodeje v blockchainu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Store.Filter.Fragment",
+      "value": "Z Fragmentu"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gift.Store.Filter.Model",
       "value": "Model"
     },
@@ -26728,8 +27008,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift.Store.Filter.Stars",
+      "value": "Za hvězdy"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gift.Store.Filter.Symbol",
       "value": "Symbol"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Store.Filter.Ton",
+      "value": "Za Gram"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -26927,6 +27217,11 @@
       "_": "types.LangPackString",
       "key": "Gift.UnavailableAction.Title",
       "value": "Akce uzamčena"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.UnavailableAction.UnlistText",
+      "value": "Odeberte tento dárek z prodeje, abyste tuto akci odemkli."
     },
     {
       "_": "types.LangPackString",
@@ -28406,6 +28701,21 @@
       "_": "types.LangPackString",
       "key": "Group.DeleteGroup",
       "value": "Smazat skupinu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Group.Edit.PrivateConfirmation.Continue",
+      "value": "Pokračovat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Group.Edit.PrivateConfirmation.Text",
+      "value": "Veřejný odkaz vaší skupiny t.me/%@ bude odstraněn a toto uživatelské jméno bude zpřístupněno komukoli. Chcete pokračovat?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Group.Edit.PrivateConfirmation.Title",
+      "value": "Učinit skupinu soukromou?"
     },
     {
       "_": "types.LangPackString",
@@ -36826,6 +37136,16 @@
       "_": "types.LangPackString",
       "key": "Notification.GramTransfer.WithFiatYou",
       "value": "Poslal/a jste %1$@ %2$@ (%3$@)"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.GramTransferReceived",
+      "value": "Obdržel/a jste %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.GramTransferReceived.WithFiat",
+      "value": "Obdržela/a jste %1$@ (%2$@)"
     },
     {
       "_": "types.LangPackString",
@@ -57489,6 +57809,41 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "TextProcessing.AlwaysUse",
+      "value": "Vždy používat v této konverzaci"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "TextProcessing.AlwaysUseFooter",
+      "value": "Každá zpráva, kterou v této konverzaci odešlete, bude podle těchto nastavení upravena."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "TextProcessing.AlwaysUseSummary",
+      "value": "→ %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "TextProcessing.AlwaysUseSummaryEmoji",
+      "value": "Emoji"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "TextProcessing.AlwaysUseSummaryFix",
+      "value": "Opravit gramatiku"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "TextProcessing.AlwaysUseSummaryStyledLanguage",
+      "value": "%1$@ %2$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "TextProcessing.AlwaysUseSummaryWithEmoji",
+      "value": "%@ + emoji"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "TextProcessing.EditStyle.ActionCreate",
       "value": "Vytvořit"
     },
@@ -58135,6 +58490,41 @@
       "_": "types.LangPackString",
       "key": "Ton.ProceedsOverview",
       "value": "PŘEHLED PŘÍJMŮ"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Ton.Withdraw",
+      "value": "Vybrat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Ton.WithdrawToWallet.AmountTooLarge",
+      "value": "Tato částka překračuje limit pro výběr."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Ton.WithdrawToWallet.OutcomeUnknown",
+      "value": "Výběr se nepodařilo potvrdit. Než to zkusíte znovu, zkontrolujte historii transakcí."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Ton.WithdrawToWallet.Text",
+      "value": "Gram bude převeden do vaší peněženky, kterou spravujete sami (%@)."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Ton.WithdrawToWallet.Title",
+      "value": "Vybrat %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Ton.WithdrawToWallet.WalletCreating",
+      "value": "Vaše peněženka se právě nastavuje. Zkuste to za chvíli znovu."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Ton.WithdrawToWallet.WalletUnavailable",
+      "value": "Vaše peněženka není momentálně dostupná. Zkuste to později."
     },
     {
       "_": "types.LangPackString",
@@ -61498,6 +61888,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.NextPollVote",
+      "value": "Další hlasování"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "VoiceOver.Chat.NextReaction",
       "value": "Další reakce"
     },
@@ -62059,6 +62454,16 @@
       "_": "types.LangPackString",
       "key": "VoiceOver.MediaEditor.Adjustments",
       "value": "Úpravy"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.MediaEditor.AspectRatio",
+      "value": "Poměr stran"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.MediaEditor.Crop",
+      "value": "Oříznout"
     },
     {
       "_": "types.LangPackString",
@@ -63585,6 +63990,61 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.TonConnect.Error.BridgeUnavailable",
+      "value": "Odpověď TON Connect čeká na doručení po síti."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TonConnect.Error.ConflictingLink",
+      "value": "Tato aplikace již využívá jinou žádost o připojení. Zkuste se znovu připojit přímo z aplikace."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TonConnect.Error.Expired",
+      "value": "Tato žádost TON Connect vypršela."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TonConnect.Error.HandledElsewhere",
+      "value": "Tato žádost byla zpracována na jiném zařízení."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TonConnect.Error.InsufficientBalance",
+      "value": "V peněžence není dostatek prostředků k odeslání této transakce."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TonConnect.Error.InvalidLink",
+      "value": "Tento odkaz TON Connect je neplatný."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TonConnect.Error.InvalidManifest",
+      "value": "Nelze načíst platný manifest pro tuto aplikaci."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TonConnect.Error.KeyMismatch",
+      "value": "Toto připojení patří k jinému klíči peněženky."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TonConnect.Error.OutcomeUnknown",
+      "value": "Tato transakce již mohla být podepsána nebo odeslána. Nebude podepsána znovu. Zkontrolujte historii peněženky."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TonConnect.Error.Unavailable",
+      "value": "Tato žádost TON Connect již není k dispozici."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TonConnect.Error.WrongNetwork",
+      "value": "Tato aplikace požadovala jinou síť peněženky."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Transaction.Address",
       "value": "Adresa"
     },
@@ -63612,6 +64072,76 @@
       "_": "types.LangPackString",
       "key": "Wallet.Transaction.CollectibleGift",
       "value": "Sběratelský dárek"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.CollectibleMovedFromProfile",
+      "value": "Přesunout z profilu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.CollectibleMovedToProfile",
+      "value": "Přesunout na profil"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.CollectibleOfferAccepted",
+      "value": "Nabídka přijata"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.CollectibleOfferCancelled",
+      "value": "Nabídka zrušena"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.CollectibleOfferDeclined",
+      "value": "Nabídka odmítnuta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.CollectibleOfferExpired",
+      "value": "Nabídka vypršela"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.CollectibleOfferSent",
+      "value": "Nabídka poslána"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.CollectiblePurchased",
+      "value": "Zakoupeno"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.CollectiblePutOnSale",
+      "value": "Uvést do prodeje"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.CollectiblePutOnSaleFor",
+      "value": "K prodeji za %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.CollectibleReceived",
+      "value": "Přijato"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.CollectibleRemovedFromSale",
+      "value": "Staženo z prodeje"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.CollectibleRepriced",
+      "value": "Nová cena: %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.CollectibleSent",
+      "value": "Posláno"
     },
     {
       "_": "types.LangPackString",
@@ -63713,6 +64243,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Transaction.NetworkFee",
+      "value": "Síťový poplatek"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Transaction.NetworkFeesText",
       "value": "Každý převod je spojen s malým síťovým poplatkem %1$@.\n\nTelegram hradí %2$@ každý den."
     },
@@ -63720,6 +64255,36 @@
       "_": "types.LangPackString",
       "key": "Wallet.Transaction.NetworkFeesTitle",
       "value": "Síťové poplatky"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.OfferBuyer",
+      "value": "Kupující"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.OfferCancellationFee",
+      "value": "Poplatek za zrušení"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.OfferExpiration",
+      "value": "Expirace"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.OfferPlatformFee",
+      "value": "Poplatek platformy"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.OfferPrice",
+      "value": "Cena"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.OfferSeller",
+      "value": "Prodávající"
     },
     {
       "_": "types.LangPackString",
@@ -65764,5 +66329,5 @@
       "value": "Byl zadán neplatný kód."
     }
   ],
-  "version": 22595564
+  "version": 22606169
 }
