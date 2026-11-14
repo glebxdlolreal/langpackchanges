@@ -850,6 +850,26 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Agent.Effort.Expert",
+      "value": "專家"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Agent.Effort.Fast",
+      "value": "快速"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Agent.Effort.Medium",
+      "value": "中等"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Agent.Effort.Ultra",
+      "value": "極高"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Agent.InputPlaceholder",
       "value": "問 Agent 任何問題"
     },
@@ -8575,6 +8595,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Channel.Edit.PrivateConfirmation.Text",
+      "value": "您頻道的公開連結 t.me/%@ 將被移除，且此用戶名稱將對所有人開放。要繼續嗎？"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Channel.Edit.PrivateConfirmation.Title",
       "value": "設為私人頻道？"
     },
@@ -9022,6 +9047,11 @@
       "_": "types.LangPackString",
       "key": "Channel.Moderator.DismissAlert.Action",
       "value": "解除"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Channel.Moderator.DismissAlert.Text",
+      "value": "此管理員將失去所有管理員權限。"
     },
     {
       "_": "types.LangPackString",
@@ -10365,6 +10395,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Chat.AlwaysUseAI.ErrorTooLong",
+      "value": "訊息對 AI 來說過長，因此未能傳送。點擊「傳送」即可傳送原始內容。"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Chat.AttachmentLimitExceeded",
       "value": "抱歉，您不能一次選擇多個項目。"
     },
@@ -10866,7 +10901,22 @@
     {
       "_": "types.LangPackString",
       "key": "Chat.Dictation.Enhance",
-      "value": "強化"
+      "value": "優化"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Dictation.EnhanceErrorGeneric",
+      "value": "無法優化文字內容。請稍後再試。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Dictation.EnhanceErrorLimit",
+      "value": "您目前已達到 AI 的用量上限。請稍後再試。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Dictation.EnhanceErrorTooLong",
+      "value": "文字過長，無法進行優化。"
     },
     {
       "_": "types.LangPackString",
@@ -10875,8 +10925,23 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Chat.Dictation.ErrorGeneric",
+      "value": "無法辨識語音。請再試一次。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Dictation.ErrorSpeechDenied",
+      "value": "請在「設定」中為 Telegram 啟用「語音辨識」功能，以便進行語音輸入。"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Chat.Dictation.ErrorUnavailable",
       "value": "此語言暫不支援語音輸入功能。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Dictation.ErrorUnsupportedLanguage",
+      "value": "%@ 目前尚不支援語音輸入。"
     },
     {
       "_": "types.LangPackString",
@@ -14340,6 +14405,11 @@
     },
     {
       "_": "types.LangPackStringPluralized",
+      "key": "ChatList.DeleteChatsAlert.Text",
+      "other_value": "這些聊天室將從您的聊天室清單中移除。"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
       "key": "ChatList.DeleteChatsAlert.Title",
       "other_value": "刪除 %@ 個聊天室？"
     },
@@ -14462,6 +14532,11 @@
       "_": "types.LangPackString",
       "key": "ChatList.DeleteTopicConfirmationText",
       "value": "這將會刪除話題及其所有的訊息"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "ChatList.DeleteTopicsAlert.Text",
+      "other_value": "這將刪除該話題及其中所有訊息。"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -15352,6 +15427,11 @@
       "_": "types.LangPackString",
       "key": "ChatList.Unmute",
       "value": "開啟通知"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatList.UnreadOnlyPanel.Info",
+      "value": "僅顯示未讀聊天室"
     },
     {
       "_": "types.LangPackString",
@@ -17527,6 +17607,11 @@
       "_": "types.LangPackString",
       "key": "ContactList.Context.VideoCall",
       "value": "視訊通話"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "ContactList.DeleteAlert.Text",
+      "other_value": "這些聯絡人將從您的聯絡人名單中移除。"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -20142,6 +20227,11 @@
       "_": "types.LangPackString",
       "key": "Conversation.ShareMyPhoneNumberConfirmation",
       "value": "您確定要分享您的電話號碼 %1$@ 給 %2$@？"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Conversation.ShareMyPhoneNumberConfirmation.Action",
+      "value": "分享"
     },
     {
       "_": "types.LangPackString",
@@ -25260,8 +25350,88 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift.Onchain.Buy.Sent",
+      "value": "購買請求已送出。**%@** 將於網路確認後出現在您的錢包中。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Onchain.Error.CancellationPending",
+      "value": "您的禮物已從在售清單中移除，但網路尚未確認此變更。待確認後，請設定新價格。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Onchain.Error.NotForSale",
+      "value": "此禮物已不再出售。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Onchain.Error.NotMinted",
+      "value": "此禮物尚未記錄在區塊鏈上。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Onchain.Error.NotOwner",
+      "value": "此禮物不在您的錢包中。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Onchain.Error.OnlyForSelf",
+      "value": "Fragment 商品僅限本人購買。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Onchain.Error.PriceInvalid",
+      "value": "此價格超出允許範圍。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Onchain.Error.RelistFailed",
+      "value": "您的禮物已從在售清單中移除，但以新價格重新上架失敗：%@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Onchain.Error.SaleActive",
+      "value": "此禮物目前仍處於上架狀態。請等待前一筆交易完成後再試一次。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Onchain.Error.SaleDisabled",
+      "value": "目前無法購買 Fragment 上的商品。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Onchain.Error.SaleInactive",
+      "value": "此禮物未上架銷售。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Onchain.Error.SelfPurchase",
+      "value": "您無法購買自己上架的商品。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Onchain.InsufficientBalance.Text",
+      "value": "您錢包中的 Gram 不足。此交易需 **%@**，包含網路費用。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Onchain.List.Sent",
+      "value": "**%@** 將在網路確認後上架。"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gift.Onchain.OpenWallet",
       "value": "開啟「我的錢包」"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Onchain.Unlist.Sent",
+      "value": "**%@** 將在網路確認後下架。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Onchain.UseEarnings.Pending",
+      "value": "您的 Gram 收益即將匯入您的錢包。款項到帳後即可購買禮物。"
     },
     {
       "_": "types.LangPackString",
@@ -25270,8 +25440,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift.Onchain.UseEarnings.Text",
+      "value": "**%@** 將從「Gram 收益」轉入您的餘額，並用於購買此禮物。"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gift.Onchain.UseEarnings.Title",
       "value": "使用 Gram 收益？"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Onchain.WalletCannotSign.Text",
+      "value": "您的錢包無法在此裝置上簽署交易。請開啟錢包以恢復存取權限。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Onchain.WalletCreating.Text",
+      "value": "您的錢包仍在建立中。請稍後再試。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Onchain.WalletRequired.Text",
+      "value": "Fragment 商品透過您的 Telegram 錢包進行付款和出售。"
     },
     {
       "_": "types.LangPackString",
@@ -25280,13 +25470,38 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Confirm.Expires",
+      "value": "報價失效"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gift.OnchainOffer.Confirm.PlatformFee",
       "value": "平台費用"
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Confirm.Refund",
+      "value": "若賣家拒絕您的報價或報價過期，**%@** 將自動退還給您。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Confirm.Text",
+      "value": "您確定要為 **%2$@** 報價 **%1$@** 嗎？"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gift.OnchainOffer.Confirm.Title",
       "value": "確認報價"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Confirm.YouPay",
+      "value": "您將支付"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Confirm.YouReceive",
+      "value": "您將收到"
     },
     {
       "_": "types.LangPackString",
@@ -25300,6 +25515,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Decline.Text",
+      "value": "買家的 **%@** 將退還給他們。"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gift.OnchainOffer.Decline.Title",
       "value": "拒絕報價？"
     },
@@ -25310,8 +25530,43 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.DurationDescription",
+      "value": "請選擇物主接受您報價的期限。報價到期後，您的 Gram 將自動退還。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Error.AlreadyActive",
+      "value": "您已對此禮物進行過報價。請在相關 Telegram 聊天室中撤回該報價，以便建立新的報價。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Error.InProgress",
+      "value": "您先前對此禮物的報價仍在處理中。請一分鐘後再試一次。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Error.NotOwner",
+      "value": "此禮物已不在您的錢包中。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Error.OnSale",
+      "value": "此禮物目前在售中。請先將其下架，才能接受此報價。"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gift.OnchainOffer.InsufficientFunds",
       "value": "資金不足。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.MinAmountToast",
+      "value": "您對此禮物的出價不得低於 %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.PriceDescription",
+      "value": "請輸入您願意為 **%@** 報價的 Gram 金額。"
     },
     {
       "_": "types.LangPackString",
@@ -25330,13 +25585,58 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Sale.Sent",
+      "value": "交易已提交。待區塊鏈上確認後，您將收到 **%@**。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Sale.Text",
+      "value": "以 **%2$@** 出售 **%1$@** 嗎？"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gift.OnchainOffer.Sale.Title",
       "value": "確認出售"
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Sent.Text",
+      "value": "%1$@ 將被暫扣至 %2$@。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Sent.Title",
+      "value": "已傳送報價"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Withdraw.Action",
+      "value": "撤回 %@"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gift.OnchainOffer.Withdraw.ActionFree",
       "value": "提現"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Withdraw.Sent",
+      "value": "撤回申請已提交。待區塊鏈上確認後，您的 Gram 將退還。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Withdraw.Text",
+      "value": "提前撤回將收取 **%1$@** 的費用。\n\n**%2$@** 將退還給您。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Withdraw.TextFree",
+      "value": "**%@** 將退還給您。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Withdraw.Title",
+      "value": "撤回報價？"
     },
     {
       "_": "types.LangPackString",
@@ -25835,8 +26135,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift.Store.Filter.Stars",
+      "value": "以星星計價"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gift.Store.Filter.Symbol",
       "value": "符號"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Store.Filter.Ton",
+      "value": "以 Gram 計價"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -26022,6 +26332,11 @@
       "_": "types.LangPackString",
       "key": "Gift.UnavailableAction.Title",
       "value": "操作已鎖定"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.UnavailableAction.UnlistText",
+      "value": "下架此禮物以解鎖此功能。"
     },
     {
       "_": "types.LangPackString",
@@ -27470,6 +27785,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Group.Edit.PrivateConfirmation.Text",
+      "value": "您群組的公開連結 t.me/%@ 將被移除，且此用戶名稱將對所有人開放。要繼續嗎？"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Group.Edit.PrivateConfirmation.Title",
       "value": "設為私人群組？"
     },
@@ -28742,6 +29062,11 @@
       "_": "types.LangPackString",
       "key": "GroupPermission.Delete",
       "value": "刪除例外"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GroupPermission.DeleteAlert.Text",
+      "value": "此用戶的權限將重設為該群組的預設值。"
     },
     {
       "_": "types.LangPackString",
@@ -35560,6 +35885,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Notification.GramTransferReceived",
+      "value": "您已收到 %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.GramTransferReceived.WithFiat",
+      "value": "您已收到 %1$@ (%2$@)"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Notification.GramTransferUnknown",
       "value": "某人轉帳 %@ 給您"
     },
@@ -36450,6 +36785,31 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.ListOffer",
+      "value": "有人對您的 %2$@ 報價 %1$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.ListOfferYou",
+      "value": "您為 %2$@ 提出了 %1$@ 的報價。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Offer",
+      "value": "有人對您的 **%3$@** 報價 **%1$@**（%2$@）。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.OfferNoValue",
+      "value": "有人對您的 **%2$@** 報價 **%1$@**。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.OfferYou",
+      "value": "您為 **%2$@** 提出了 **%1$@** 的報價。"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Notification.StarGiftOnchainOffer.Review",
       "value": "查看"
     },
@@ -36460,8 +36820,38 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Status.Accepted",
+      "value": "已接受報價。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Status.Cancelling",
+      "value": "報價正在取消中。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Status.Declined",
+      "value": "已拒絕報價。"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Notification.StarGiftOnchainOffer.Status.Expired",
       "value": "報價已失效。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Status.Expires",
+      "value": "報價到期倒計時"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Status.Settling",
+      "value": "交易正在完成中。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Status.Withdrawn",
+      "value": "報價已撤回。"
     },
     {
       "_": "types.LangPackString",
@@ -41740,6 +42130,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PeerInfo.GroupsInCommon.CreateGroup",
+      "value": "與 %@ 建立群組"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PeerInfo.HiddenCommunityStatus",
       "value": "已隱藏 • %@"
     },
@@ -46167,6 +46562,16 @@
       "_": "types.LangPackStringPluralized",
       "key": "QuickReply.DeleteAction",
       "other_value": "刪除 %d 則快速回覆"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QuickReply.DeleteAlert.TextMultiple",
+      "value": "這些快速回覆以及其中的所有訊息都將被刪除。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QuickReply.DeleteAlert.TextSingle",
+      "value": "此快速回覆以及其中的所有訊息都將被刪除。"
     },
     {
       "_": "types.LangPackString",
@@ -52560,6 +52965,11 @@
     },
     {
       "_": "types.LangPackStringPluralized",
+      "key": "StickerPacks.ArchivePacksAlert.Text",
+      "other_value": "您稍後可從「封存的貼圖」中快速還原這些貼圖包。"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
       "key": "StickerPacks.ArchivePacksAlert.Title",
       "other_value": "封存 %@ 個貼圖包？"
     },
@@ -52580,6 +52990,11 @@
     },
     {
       "_": "types.LangPackStringPluralized",
+      "key": "StickerPacks.DeletePacksAlert.Text",
+      "other_value": "這些貼圖包將從您的清單中移除。"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
       "key": "StickerPacks.DeleteStickerPacksAlert.Title",
       "other_value": "刪除 %@ 個貼圖包？"
     },
@@ -52587,6 +53002,11 @@
       "_": "types.LangPackStringPluralized",
       "key": "StickerPacks.DeleteStickerPacksConfirmation",
       "other_value": "刪除 %@ 套貼圖包"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "StickerPacks.UnarchivePacksAlert.Text",
+      "other_value": "這些貼圖包將會重新加入您的清單中。"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -55960,8 +56380,33 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Ton.WithdrawToWallet.AmountTooLarge",
+      "value": "此金額超過提現限額。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Ton.WithdrawToWallet.OutcomeUnknown",
+      "value": "無法確認提款。請檢查您的交易紀錄後再試一次。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Ton.WithdrawToWallet.Text",
+      "value": "這些 Gram 將轉入您的自主保管錢包（%@）。"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Ton.WithdrawToWallet.Title",
       "value": "提取 %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Ton.WithdrawToWallet.WalletCreating",
+      "value": "您的錢包正在設定中。請一分鐘後再試。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Ton.WithdrawToWallet.WalletUnavailable",
+      "value": "您的錢包目前無法使用。請稍後再試。"
     },
     {
       "_": "types.LangPackString",
@@ -59935,6 +60380,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "VoiceOver.Recording.RecordMore",
+      "value": "錄製更多"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "VoiceOver.Recording.StopAndPreview",
       "value": "停止並預覽"
     },
@@ -61365,6 +61815,61 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.TonConnect.Error.BridgeUnavailable",
+      "value": "TON Connect 的回應正在等待網路傳輸。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TonConnect.Error.ConflictingLink",
+      "value": "此應用程式已使用另一項連線請求。請從應用程式重新連線。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TonConnect.Error.Expired",
+      "value": "此 TON Connect 請求已過期。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TonConnect.Error.HandledElsewhere",
+      "value": "此請求已在另一台裝置上處理。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TonConnect.Error.InsufficientBalance",
+      "value": "錢包餘額不足，無法傳送此筆交易。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TonConnect.Error.InvalidLink",
+      "value": "此 TON Connect 連結無效。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TonConnect.Error.InvalidManifest",
+      "value": "無法為此應用程式載入有效的詳細資訊。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TonConnect.Error.KeyMismatch",
+      "value": "此連線屬於另一個錢包金鑰。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TonConnect.Error.OutcomeUnknown",
+      "value": "此操作可能已簽署或傳送。系統不會再次簽署。請檢查錢包紀錄。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TonConnect.Error.Unavailable",
+      "value": "此 TON Connect 請求已不可用。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TonConnect.Error.WrongNetwork",
+      "value": "此應用程式請求使用不同的錢包網路。"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Transaction.Address",
       "value": "地址"
     },
@@ -61405,8 +61910,43 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Transaction.CollectibleOfferAccepted",
+      "value": "報價已被接受"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.CollectibleOfferCancelled",
+      "value": "報價已取消"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.CollectibleOfferDeclined",
+      "value": "報價已被拒絕"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.CollectibleOfferExpired",
+      "value": "報價已失效"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.CollectibleOfferSent",
+      "value": "報價已送出"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Transaction.CollectiblePurchased",
       "value": "已購買"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.CollectiblePutOnSale",
+      "value": "上架"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.CollectiblePutOnSaleFor",
+      "value": "以 %@ 上架"
     },
     {
       "_": "types.LangPackString",
@@ -61417,6 +61957,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.Transaction.CollectibleRemovedFromSale",
       "value": "已下架"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.CollectibleRepriced",
+      "value": "價格調整為 %@"
     },
     {
       "_": "types.LangPackString",
@@ -63579,5 +64124,5 @@
       "value": "您輸入了無效的安全碼。"
     }
   ],
-  "version": 22594703
+  "version": 22608122
 }
