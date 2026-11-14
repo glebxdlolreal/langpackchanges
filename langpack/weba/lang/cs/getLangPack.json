@@ -1887,7 +1887,7 @@
     {
       "_": "types.LangPackString",
       "key": "AreYouSureLogoutGrams",
-      "value": "Opravdu se chcete odhlásit?\n\nTím se zruší všechny vaše tajné konverzace a **smažou se zálohy peněženky obsahující {amount}**. Pokud jste si neuložili své obnovovací fráze, ztratíte přístup k těmto prostředkům.\n\nTelegram můžete používat na všech svých zařízeních najednou a v jedné aplikaci můžete mít více účtů."
+      "value": "Opravdu se chcete odhlásit?\n\nTímto **smažete zálohy peněženek obsahující {amount}**. Bez tajných frází ztratíte přístup k těmto prostředkům.\n\nTelegram můžete používat na všech svých zařízeních najednou a v jedné aplikaci můžete mít více účtů."
     },
     {
       "_": "types.LangPackString",
@@ -2113,6 +2113,21 @@
       "_": "types.LangPackString",
       "key": "AspectRatio",
       "value": "Poměr stran"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AspectRatioFree",
+      "value": "Poplatek"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AspectRatioOriginal",
+      "value": "Původní"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AspectRatioSquare",
+      "value": "Čtverec"
     },
     {
       "_": "types.LangPackString",
@@ -3566,6 +3581,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "BotProfilePermissionCamera",
+      "value": "Kamera"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "BotProfilePermissionEmojiStatus",
       "value": "Stav s emoji"
     },
@@ -3573,6 +3593,11 @@
       "_": "types.LangPackString",
       "key": "BotProfilePermissionLocation",
       "value": "Zeměpisná poloha"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotProfilePermissionMicrophone",
+      "value": "Mikrofon"
     },
     {
       "_": "types.LangPackString",
@@ -5244,6 +5269,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ClearSearchAlert",
+      "value": "Opravdu chcete vyčistit svoji historii vyhledávání?"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Close",
       "value": "Zavřít"
     },
@@ -6874,8 +6904,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "EditorDeleteLayer",
+      "value": "Smazat"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "EditorSetCover",
       "value": "Upravit obal"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EditorTextAlignCenter",
+      "value": "Zarovnat na střed"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EditorTextAlignLeft",
+      "value": "Zarovnat vlevo"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EditorTextAlignRight",
+      "value": "Zarovnat vpravo"
     },
     {
       "_": "types.LangPackString",
@@ -14826,6 +14876,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "QrFree",
+      "value": "Poplatek"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Quality",
       "value": "Kvalita"
     },
@@ -20205,6 +20260,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "VideoEditingUnsupportedCover",
+      "value": "Váš prohlížeč nedokáže přehrát video. Stále si však můžete vybrat obal."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VideoEditingUnsupportedCoverMute",
+      "value": "Váš prohlížeč nedokáže přehrát video. Stále si však můžete vybrat obal nebo ztlumit zvuk."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VideoEditingUnsupportedMute",
+      "value": "Váš prohlížeč nedokáže přehrát video. Stále ho však můžete ztlumit."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "VideoMessagePermissionDenied",
       "value": "Chcete-li nahrávat videozprávy, povolte přístup k fotoaparátu a mikrofonu."
     },
@@ -20236,12 +20306,12 @@
     {
       "_": "types.LangPackString",
       "key": "VideoUnsupportedDesktop",
-      "value": "__Toto video nelze přehrát na webu Telegramu. Zkuste ho místo toho otevřít pomocí naší [desktopové aplikace](https://getdesktop.telegram.org/).__"
+      "value": "Toto video nelze přehrát na webu Telegramu. Zkuste ho místo toho otevřít pomocí naší **desktopové aplikace**."
     },
     {
       "_": "types.LangPackString",
       "key": "VideoUnsupportedMobile",
-      "value": "__Toto video nelze přehrát na webu Telegramu. Zkuste ho místo toho otevřít pomocí naší [mobilní aplikace](https://telegram.org/dl/).__"
+      "value": "Toto video nelze přehrát na webu Telegramu. Zkuste ho místo toho otevřít pomocí naší **mobilní aplikace**."
     },
     {
       "_": "types.LangPackString",
@@ -20702,6 +20772,41 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletConnectActionCallContract",
+      "value": "Volání kontraktu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectActionDeployContract",
+      "value": "Nasazení kontraktu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectActionDeposit",
+      "value": "Vklad"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectActionExcess",
+      "value": "Nadbytek"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectActionTransfer",
+      "value": "Převést"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectActionUnknown",
+      "value": "Neznámá operace"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectActionWithdraw",
+      "value": "Výběr"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletConnectActive",
       "value": "Aktivní připojení"
     },
@@ -20742,6 +20847,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletConnectData",
+      "value": "Data"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletConnectDataCopied",
       "value": "Data zkopírována do schránky"
     },
@@ -20767,6 +20877,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletConnectEmulationFailed",
+      "value": "Z náhledu vyplývá, že část této transakce může selhat."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectEmulationIncomplete",
+      "value": "Náhled této transakce je neúplný."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletConnectError",
       "value": "Žádost peněženky se nepodařilo dokončit. Zkuste to znovu."
     },
@@ -20787,6 +20907,11 @@
       "_": "types.LangPackString",
       "key": "WalletConnectFee",
       "value": "Odhadovaný síťový poplatek: {amount}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectFeeEstimating",
+      "value": "Odhaduji síťový poplatek…"
     },
     {
       "_": "types.LangPackString",
@@ -20820,8 +20945,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletConnectPreview",
+      "value": "Náhled"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletConnectProofAccess",
       "value": "Aplikace bude moci zobrazit vaši adresu peněženky, zůstatek a aktivitu a požádat vás o podpis pro přihlášení. Nejedná se o převod."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "{count} příjemci",
+      "key": "WalletConnectRecipients",
+      "many_value": "{count} příjemců",
+      "one_value": "{count} příjemce",
+      "other_value": "{count} příjemců"
     },
     {
       "_": "types.LangPackString",
@@ -21209,12 +21347,27 @@
       "value": "Money"
     },
     {
+      "_": "types.LangPackString",
+      "key": "WalletMoveToGifts",
+      "value": "Přesunout do mých dárků"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletMoveToGiftsDone",
+      "value": "Dárek přesunut na váš účet."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletMoveToGiftsText",
+      "value": "Chcete tento sběratelský předmět převést mimo blockchain na svůj účet v Telegramu?"
+    },
+    {
       "_": "types.LangPackStringPluralized",
-      "few_value": "Každý převod je spojen s malým síťovým poplatkem (**~{fee} Gram**). \nTelegram hradí první **{count}** převody každý den.",
+      "few_value": "Každý převod je spojen s malým síťovým poplatkem (**~{fee}**). \nTelegram hradí první **{count}** převody každý den.",
       "key": "WalletNetworkFeesInfo",
-      "many_value": "Každý převod je spojen s malým síťovým poplatkem (**~{fee} Gram**). \nTelegram hradí prvních **{count}** převodů každý den.",
-      "one_value": "Každý převod je spojen s malým síťovým poplatkem (**~{fee} Gram**). \nTelegram hradí první **{count}** převod každý den.",
-      "other_value": "Každý převod je spojen s malým síťovým poplatkem (**~{fee} Gram**). \nTelegram hradí prvních **{count}** převodů každý den."
+      "many_value": "Každý převod je spojen s malým síťovým poplatkem (**~{fee}**). \nTelegram hradí prvních **{count}** převodů každý den.",
+      "one_value": "Každý převod je spojen s malým síťovým poplatkem (**~{fee}**). \nTelegram hradí první **{count}** převod každý den.",
+      "other_value": "Každý převod je spojen s malým síťovým poplatkem (**~{fee}**). \nTelegram hradí prvních **{count}** převodů každý den."
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -21556,6 +21709,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletSendFailedTitle",
+      "value": "Převod selhal"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletSendFeeUnavailable",
       "value": "Nelze odhadnout síťový poplatek."
     },
@@ -21598,6 +21756,11 @@
       "_": "types.LangPackString",
       "key": "WalletSendNetworkFee",
       "value": "Síťový poplatek: {amount}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendPasswordRequired",
+      "value": "Dvoufázové ověření je zapnuto. Zkuste to znovu a zadejte heslo."
     },
     {
       "_": "types.LangPackString",
@@ -21686,8 +21849,36 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletStickerBackgroundError",
+      "value": "Tento dárek nelze nastavit jako pozadí vaší karty."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletStickerColorCollection",
+      "value": "{collection}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletStickerColorRestricted",
+      "value": "K změně barvy karty lze použít pouze {collections}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletStickerGridFooter",
+      "value": "Přidržte dárek, odlepte jej a přilepte na kartu. Pokud na pkartě přidržíte samolepku, můžete ji znovu odlepit; pomocí druhého prstu ji pak lze otáčet a měnit velikost."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletStickerInvalidError",
       "value": "Jednu z těchto samolepek nelze na kartě použít. Podporovány jsou pouze dárky, které patří k této peněžence."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Na kartu můžete přidat až {count} dárky.\nChcete-li přidat další, jeden nejprve odstraňte.",
+      "key": "WalletStickerLimitError",
+      "many_value": "Na kartu můžete přidat až {count} dárků.\nChcete-li přidat další, jeden nejprve odstraňte.",
+      "one_value": "Na kartu můžete přidat {count} dárek.\nChcete-li přidat další, jeden nejprve odstraňte.",
+      "other_value": "Na kartu můžete přidat až {count} dárků.\nChcete-li přidat další, jeden nejprve odstraňte."
     },
     {
       "_": "types.LangPackString",
@@ -21703,6 +21894,11 @@
       "_": "types.LangPackString",
       "key": "WalletStickerRemoveFromCard",
       "value": "Odebrat z karty"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletStickerSaveError",
+      "value": "Došlo k chybě, zkuste to znovu později."
     },
     {
       "_": "types.LangPackString",
@@ -22106,5 +22302,5 @@
       "value": "Vaše jméno"
     }
   ],
-  "version": 396779
+  "version": 397522
 }
