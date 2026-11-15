@@ -855,6 +855,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Agent.ConnectModel",
+      "value": "Подключить модель"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Agent.Connected.Start",
       "value": "Начать"
     },
@@ -871,7 +876,27 @@
     {
       "_": "types.LangPackString",
       "key": "Agent.Effort",
-      "value": "Уровень усилий"
+      "value": "Глубина рассуждений"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Agent.Effort.Expert",
+      "value": "Эксперт"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Agent.Effort.Fast",
+      "value": "Быстро"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Agent.Effort.Medium",
+      "value": "Средне"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Agent.Effort.Ultra",
+      "value": "Ультра"
     },
     {
       "_": "types.LangPackString",
@@ -917,6 +942,16 @@
       "_": "types.LangPackString",
       "key": "Agent.Key.Title",
       "value": "API-ключ"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Agent.Models.NotFound",
+      "value": "Модели не найдены."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Agent.Models.Search",
+      "value": "Поиск моделей"
     },
     {
       "_": "types.LangPackString",
@@ -1122,6 +1157,16 @@
       "_": "types.LangPackString",
       "key": "Appearance.RemoveTheme",
       "value": "Удалить"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Appearance.RemoveThemeAlert.Text",
+      "value": "Вы точно хотите удалить эту тему?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Appearance.RemoveThemeAlert.Title",
+      "value": "Удалить тему?"
     },
     {
       "_": "types.LangPackString",
@@ -3344,6 +3389,16 @@
       "_": "types.LangPackString",
       "key": "Autosave.VideoSizeSection",
       "value": "МАКСИМАЛЬНЫЙ РАЗМЕР ВИДЕО"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Avatar.CancelUploadConfirmation.Title",
+      "value": "Отменить загрузку?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Avatar.RemovePhotoConfirmation.Title",
+      "value": "Удалить фотографию?"
     },
     {
       "_": "types.LangPackString",
@@ -8691,6 +8746,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Channel.Edit.PrivateConfirmation.Continue",
+      "value": "Продолжить"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Channel.Edit.PrivateConfirmation.Text",
+      "value": "Публичная ссылка на Ваш канал t.me/%@ будет удалена. Имя пользователя станет доступно всем, его смогут занять. Продолжить?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Channel.Edit.PrivateConfirmation.Title",
+      "value": "Сделать канал частным?"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Channel.Edit.PrivatePublicLinkAlert",
       "value": "Внимание! Если Вы создадите публичную ссылку на канал, любой желающий сможет найти его через поиск и присоединиться.\n\nНе создавайте ссылку, если хотите, чтобы канал оставался частным."
     },
@@ -9128,6 +9198,21 @@
       "_": "types.LangPackString",
       "key": "Channel.Moderator.AccessLevelRevoke",
       "value": "Убрать из администраторов"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Channel.Moderator.DismissAlert.Action",
+      "value": "Разжаловать"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Channel.Moderator.DismissAlert.Text",
+      "value": "Пользователь потеряет права администратора."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Channel.Moderator.DismissAlert.Title",
+      "value": "Разжаловать админа?"
     },
     {
       "_": "types.LangPackString",
@@ -10513,6 +10598,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Chat.AlwaysUseAI.ErrorGeneric",
+      "value": "Не удалось обработать сообщение. Нажмите «Отправить» для отправки без изменений."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.AlwaysUseAI.ErrorLimit",
+      "value": "Лимит запросов к ИИ исчерпан. Нажмите «Отправить» для отправки без изменений."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.AlwaysUseAI.ErrorTooLong",
+      "value": "Сообщение слишком длинное. Нажмите «Отправить» для отправки без изменений."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Chat.AttachmentLimitExceeded",
       "value": "Вы не можете выбрать больше элементов."
     },
@@ -11018,6 +11118,41 @@
       "_": "types.LangPackString",
       "key": "Chat.DeleteReactionInfo",
       "value": "Удалить реакцию — удерживайте."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Dictation.AllStyles",
+      "value": "Все стили"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Dictation.Enhance",
+      "value": "Улучшить"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Dictation.EnhanceErrorGeneric",
+      "value": "Не удалось обработать текст. Попробуйте снова."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Dictation.EnhanceErrorLimit",
+      "value": "Лимит запросов к ИИ исчерпан. Попробуйте позже."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Dictation.EnhanceErrorTooLong",
+      "value": "Текст слишком длинный для обработки."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Dictation.Enhancing",
+      "value": "Улучшение…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Dictation.ErrorGeneric",
+      "value": "Не удалось распознать речь. Попробуйте ещё раз."
     },
     {
       "_": "types.LangPackString",
@@ -14606,6 +14741,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ChatList.ContextShowUnread",
+      "value": "Показать непрочитанные"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ChatList.ContextUnmuteAll",
       "value": "Вкл. уведомления"
     },
@@ -14623,6 +14763,22 @@
       "_": "types.LangPackString",
       "key": "ChatList.DeleteChatConfirmation",
       "value": "Удалить чат с %@ без возможности восстановления?"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Чаты будут удалены из Вашего списка.",
+      "key": "ChatList.DeleteChatsAlert.Text",
+      "many_value": "Чаты будут удалены из Вашего списка.",
+      "one_value": "Чат будет удалён из Вашего списка.",
+      "other_value": "Чаты будут удалены из Вашего списка."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Удалить %@ чата?",
+      "key": "ChatList.DeleteChatsAlert.Title",
+      "many_value": "Удалить %@ чатов?",
+      "one_value": "Удалить %@ чат?",
+      "other_value": "Удалить %@ чатов?"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -14752,6 +14908,14 @@
     },
     {
       "_": "types.LangPackStringPluralized",
+      "few_value": "Удалить %@ темы?",
+      "key": "ChatList.DeleteTopicsAlert.Title",
+      "many_value": "Удалить %@ тем?",
+      "one_value": "Удалить %@ тему?",
+      "other_value": "Удалить %@ тем?"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
       "few_value": "Удалено %@ чата",
       "key": "ChatList.DeletedChats",
       "many_value": "Удалено %@ чатов",
@@ -14859,7 +15023,7 @@
     {
       "_": "types.LangPackString",
       "key": "ChatList.FoldersTip",
-      "value": "Для просмотра всех папок\nнажмите и удерживайте #**Чаты**."
+      "value": "Для просмотра всех папок\nудерживайте #**Чаты**."
     },
     {
       "_": "types.LangPackString",
@@ -15679,6 +15843,16 @@
       "_": "types.LangPackString",
       "key": "ChatList.Unmute",
       "value": "Вкл. звук"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatList.UnreadOnlyPanel.Info",
+      "value": "только непрочитанные"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatList.UnreadOnlyPanel.ShowAll",
+      "value": "Показать все чаты"
     },
     {
       "_": "types.LangPackString",
@@ -17879,6 +18053,22 @@
       "_": "types.LangPackString",
       "key": "ContactList.Context.VideoCall",
       "value": "Видеозвонок"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Контакты будут удалены из Вашего списка.",
+      "key": "ContactList.DeleteAlert.Text",
+      "many_value": "Контакты будут удалены из Вашего списка.",
+      "one_value": "Контакт будет удалён из Вашего списка.",
+      "other_value": "Контакты будут удалены из Вашего списка."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Удалить %@ контакта?",
+      "key": "ContactList.DeleteAlert.Title",
+      "many_value": "Удалить %@ контактов?",
+      "one_value": "Удалить %@ контакт?",
+      "other_value": "Удалить %@ контактов?"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -22144,6 +22334,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "DataUsage.ResetAlert.Action",
+      "value": "Сбросить"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "DataUsage.ResetAlert.Title",
+      "value": "Сбросить статистику?"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "DataUsage.SectionTotalIncoming",
       "value": "Получено"
     },
@@ -25924,6 +26124,286 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift.Onchain.Buy.Sent",
+      "value": "Покупка оформлена. **%@** появится в Вашем кошельке после подтверждения в сети."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Onchain.Error.CancellationPending",
+      "value": "Подарок снят с продажи, но сеть ещё не подтвердила эту операцию. Вы сможете указать новую цену после подтверждения."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Onchain.Error.NotForSale",
+      "value": "Этого подарка больше нет в продаже."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Onchain.Error.NotMinted",
+      "value": "Этот подарок ещё не переведён в блокчейн."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Onchain.Error.NotOwner",
+      "value": "Этого подарка нет в Вашем кошельке."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Onchain.Error.OnlyForSelf",
+      "value": "Подарки с Fragment можно покупать только для себя."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Onchain.Error.PriceInvalid",
+      "value": "Цена выходит за пределы допустимого диапазона."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Onchain.Error.RelistFailed",
+      "value": "Подарок снят с продажи, но выставить его по новой цене не удалось: %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Onchain.Error.SaleActive",
+      "value": "Подарок ещё выставлен на продажу. Дождитесь завершения предыдущей транзакции и попробуйте снова."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Onchain.Error.SaleDisabled",
+      "value": "Предложения с Fragment временно недоступны."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Onchain.Error.SaleInactive",
+      "value": "Этот подарок не выставлен на продажу."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Onchain.Error.SelfPurchase",
+      "value": "Вы не можете купить свой подарок."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Onchain.InsufficientBalance.Text",
+      "value": "В кошельке недостаточно GRAM. С учётом комиссии сети Вам потребуется **%@**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Onchain.List.Sent",
+      "value": "**%@** будет вставлен на продажу после подтверждения в сети."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Onchain.OpenWallet",
+      "value": "Перейти к моим Деньгам"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Onchain.Unlist.Sent",
+      "value": "**%@** будет снят с продажи после подтверждения в сети."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Onchain.UseEarnings.Pending",
+      "value": "Заработанные GRAM скоро поступят в кошелёк. Вы сможете купить подарок, как только средства будут зачислены."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Onchain.UseEarnings.Proceed",
+      "value": "Продолжить"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Onchain.UseEarnings.Text",
+      "value": "Сумма в **%@** будет переведена из заработанных GRAM на баланс, а затем списана в счёт оплаты подарка."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Onchain.UseEarnings.Title",
+      "value": "Использовать заработанные GRAM?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Onchain.WalletCannotSign.Text",
+      "value": "Ваш кошелёк не может подписывать транзакции на этом устройстве. Откройте кошелёк, чтобы восстановить доступ."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Onchain.WalletCreating.Text",
+      "value": "Создание кошелька ещё не завершено. Подождите немного и попробуйте снова."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Onchain.WalletRequired.Text",
+      "value": "При использовании платформы Fragment подарки выставляются и оплачиваются из Вашего кошелька в Telegram."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Confirm.Confirm",
+      "value": "Подтвердить"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Confirm.Expires",
+      "value": "Срок истекает"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Confirm.PlatformFee",
+      "value": "Комиссия платформы"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Confirm.Refund",
+      "value": "Если предложение будет отклонено или истечёт его срок действия, уплаченная сумма (%@) автоматически вернётся на Ваш баланс."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Confirm.Text",
+      "value": "Вы точно хотите предложить **%1$@** за **%2$@**?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Confirm.Title",
+      "value": "Подтверждение предложения"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Confirm.YouPay",
+      "value": "Вы платите"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Confirm.YouReceive",
+      "value": "Вы получаете"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Confirm.YourOffer",
+      "value": "Ваше предложение"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Decline.Action",
+      "value": "Отклонить"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Decline.Text",
+      "value": "Покупатель получит назад **%@**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Decline.Title",
+      "value": "Отклонить предложение?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.DepositFunds",
+      "value": "Пополнить баланс >"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.DurationDescription",
+      "value": "Выберите срок действия предложения для владельца. По истечении этого срока GRAM будут автоматически возвращены Вам."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Error.AlreadyActive",
+      "value": "Ваше предложение о покупке этого подарка ещё действует. Чтобы сделать новое предложение, отзовите предыдущее в чате с Telegram."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Error.InProgress",
+      "value": "Ваше предыдущее предложение о покупке этого подарка ещё в обработке. Дождитесь её окончания."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Error.NotOwner",
+      "value": "Подарок больше не в Вашем кошельке."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Error.OnSale",
+      "value": "Подарок выставлен на продажу. Чтобы принять предложение, сперва снимите подарок с продажи."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.InsufficientFunds",
+      "value": "Недостаточно средств."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.PriceDescription",
+      "value": "Укажите, сколько GRAM Вы хотите предложить за **%@**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Sale.Decline",
+      "value": "Отклонить"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Sale.Price",
+      "value": "Цена"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Sale.Sell",
+      "value": "Продать"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Sale.Sent",
+      "value": "Продажа оформлена. Вы получите **%@** после подтверждения в блокчейне."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Sale.Text",
+      "value": "Продать **%1$@** за **%2$@**?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Sale.Title",
+      "value": "Подтверждение продажи"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Sent.Text",
+      "value": "Сумма в %1$@ зарезервирована до %2$@."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Sent.Title",
+      "value": "Предложение отправлено"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Withdraw.Action",
+      "value": "Отозвать за %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Withdraw.Sent",
+      "value": "Запрос на отзыв предложения отправлен. Ваши GRAM вернутся на баланс после подтверждения в блокчейне."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Withdraw.Text",
+      "value": "Сбор за досрочный отзыв предложения составит **%1$@**.\n\nНа Ваш баланс вернётся **%2$@**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Withdraw.TextFree",
+      "value": "На Ваш счёт вернётся %@."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Withdraw.Title",
+      "value": "Отозвать предложение?"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gift.Options.Collectibles.Text",
       "value": "Коллекционные подарки — это уникальные цифровые предметы, которые можно обменять или продать."
     },
@@ -26431,6 +26911,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift.Store.Filter.FixedSale",
+      "value": "Из блокчейна"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Store.Filter.Fragment",
+      "value": "С Fragment"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gift.Store.Filter.Model",
       "value": "Модель"
     },
@@ -26460,8 +26950,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift.Store.Filter.Stars",
+      "value": "За звёзды"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gift.Store.Filter.Symbol",
       "value": "Узор"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Store.Filter.Ton",
+      "value": "За GRAM"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -26659,6 +27159,11 @@
       "_": "types.LangPackString",
       "key": "Gift.UnavailableAction.Title",
       "value": "Действие недоступно"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.UnavailableAction.UnlistText",
+      "value": "Сперва снимите подарок с продажи."
     },
     {
       "_": "types.LangPackString",
@@ -28141,6 +28646,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Group.Edit.PrivateConfirmation.Continue",
+      "value": "Продолжить"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Group.Edit.PrivateConfirmation.Text",
+      "value": "Публичная ссылка на Вашу группу t.me/%@ будет удалена. Имя пользователя станет доступно всем, его смогут занять. Продолжить?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Group.Edit.PrivateConfirmation.Title",
+      "value": "Сделать группу частной?"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Group.Edit.PrivatePublicLinkAlert",
       "value": "Внимание! Если Вы создадите публичную ссылку, любой желающий сможет найти группу через поиск и присоединиться.\n\nНе создавайте ссылку, если хотите, чтобы группа оставалась частной."
     },
@@ -29426,6 +29946,16 @@
       "_": "types.LangPackString",
       "key": "GroupPermission.Delete",
       "value": "Удалить исключение"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GroupPermission.DeleteAlert.Text",
+      "value": "Права этого пользователя будут сброшены до стандартных прав участника группы."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GroupPermission.DeleteAlert.Title",
+      "value": "Удалить исключение?"
     },
     {
       "_": "types.LangPackString",
@@ -36551,6 +37081,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Notification.GramTransferReceived",
+      "value": "Вы получили %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.GramTransferReceived.WithFiat",
+      "value": "Вы получили %1$@ (%2$@)"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Notification.GramTransferUnknown",
       "value": "Вам отправили %@"
     },
@@ -37492,6 +38032,76 @@
       "_": "types.LangPackString",
       "key": "Notification.StarGiftOffer.Status.Rejected",
       "value": "Предложение отклонено."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.ListOffer",
+      "value": "Вам предложили %1$@ за %2$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.ListOfferYou",
+      "value": "Вы предложили %1$@ за %2$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Offer",
+      "value": "Вам предложили **%1$@** (%2$@) за **%3$@**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.OfferNoValue",
+      "value": "Вам предложили **%1$@** за **%2$@**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.OfferYou",
+      "value": "Вы предложили **%1$@** за **%2$@**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Review",
+      "value": "Посмотреть"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Sold",
+      "value": "ПРОДАНО"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Status.Accepted",
+      "value": "Предложение принято."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Status.Cancelling",
+      "value": "Предложение отзывается."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Status.Declined",
+      "value": "Предложение отклонено."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Status.Expired",
+      "value": "Срок дествия предложения истёк."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Status.Expires",
+      "value": "Предложение действует ещё"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Status.Settling",
+      "value": "Сделка совершается."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Status.Withdrawn",
+      "value": "Предложение отозвано."
     },
     {
       "_": "types.LangPackString",
@@ -42972,6 +43582,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PeerInfo.GroupsInCommon.CreateGroup",
+      "value": "Создать группу с %@"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PeerInfo.HiddenCommunityStatus",
       "value": "Скрыто • %@"
     },
@@ -47492,6 +48107,26 @@
       "many_value": "Удалить %d быстрых ответов",
       "one_value": "Удалить %d быстрый ответ",
       "other_value": "Удалить %d быстрых ответов"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QuickReply.DeleteAlert.TextMultiple",
+      "value": "Быстрые ответы и все сообщения в них будут удалены."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QuickReply.DeleteAlert.TextSingle",
+      "value": "Быстрый ответ и все сообщения в нём будут удалены."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QuickReply.DeleteAlert.TitleMultiple",
+      "value": "Удалить быстрые ответы?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QuickReply.DeleteAlert.TitleSingle",
+      "value": "Удалить быстрый ответ?"
     },
     {
       "_": "types.LangPackString",
@@ -54193,6 +54828,22 @@
     },
     {
       "_": "types.LangPackStringPluralized",
+      "few_value": "Наборы стикеров можно будет быстро восстановить в разделе «Архив стикеров».",
+      "key": "StickerPacks.ArchivePacksAlert.Text",
+      "many_value": "Наборы стикеров можно будет быстро восстановить в разделе «Архив стикеров».",
+      "one_value": "Набор стикеров можно будет быстро восстановить в разделе «Архив стикеров».",
+      "other_value": "Наборы стикеров можно будет быстро восстановить в разделе «Архив стикеров»."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Архивировать %@ набора?",
+      "key": "StickerPacks.ArchivePacksAlert.Title",
+      "many_value": "Архивировать %@ наборов?",
+      "one_value": "Архивировать %@ набор?",
+      "other_value": "Архивировать %@ наборов?"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
       "few_value": "Архивировать %@ набора",
       "key": "StickerPacks.ArchiveStickerPacksConfirmation",
       "many_value": "Архивировать %@ наборов",
@@ -54217,6 +54868,14 @@
     },
     {
       "_": "types.LangPackStringPluralized",
+      "few_value": "Наборы будут удалены из Вашего списка.",
+      "key": "StickerPacks.DeletePacksAlert.Text",
+      "many_value": "Наборы будут удалены из Вашего списка.",
+      "one_value": "Набор будет удалён из Вашего списка.",
+      "other_value": "Наборы будут удалены из Вашего списка."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
       "few_value": "Удалить %@ набора стикеров?",
       "key": "StickerPacks.DeleteStickerPacksAlert.Title",
       "many_value": "Удалить %@ наборов стикеров?",
@@ -54230,6 +54889,22 @@
       "many_value": "Удалить %@ наборов стикеров",
       "one_value": "Удалить %@ набор стикеров",
       "other_value": "Удалить %@ набора стикеров"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Наборы снова появятся в списке.",
+      "key": "StickerPacks.UnarchivePacksAlert.Text",
+      "many_value": "Наборы снова появятся в списке.",
+      "one_value": "Набор снова появится в списке.",
+      "other_value": "Наборы снова появятся в списке."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Вернуть %@ набора?",
+      "key": "StickerPacks.UnarchivePacksAlert.Title",
+      "many_value": "Вернуть %@ наборов?",
+      "one_value": "Вернуть %@ набор?",
+      "other_value": "Вернуть %@ наборов?"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -57071,6 +57746,41 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "TextProcessing.AlwaysUse",
+      "value": "Запомнить для этого чата"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "TextProcessing.AlwaysUseFooter",
+      "value": "Выбранные настройки будут применяться ко всем сообщениям, которые Вы отправите в этот чат."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "TextProcessing.AlwaysUseSummary",
+      "value": "→ %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "TextProcessing.AlwaysUseSummaryEmoji",
+      "value": "Эмодзи"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "TextProcessing.AlwaysUseSummaryFix",
+      "value": "Исправление"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "TextProcessing.AlwaysUseSummaryStyledLanguage",
+      "value": "%1$@ %2$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "TextProcessing.AlwaysUseSummaryWithEmoji",
+      "value": "%@ + эмодзи"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "TextProcessing.EditStyle.ActionCreate",
       "value": "Создать"
     },
@@ -57127,12 +57837,12 @@
     {
       "_": "types.LangPackString",
       "key": "TextProcessing.OriginalBadge",
-      "value": "Оригинал:"
+      "value": "Исходный текст"
     },
     {
       "_": "types.LangPackString",
       "key": "TextProcessing.OriginalStyleBadge",
-      "value": "Оригинал"
+      "value": "Исходный текст"
     },
     {
       "_": "types.LangPackString",
@@ -57717,6 +58427,41 @@
       "_": "types.LangPackString",
       "key": "Ton.ProceedsOverview",
       "value": "ПОСТУПЛЕНИЯ"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Ton.Withdraw",
+      "value": "Вывести"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Ton.WithdrawToWallet.AmountTooLarge",
+      "value": "Сумма слишком большая для вывода."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Ton.WithdrawToWallet.OutcomeUnknown",
+      "value": "Не удалось подтвердить вывод средств. Проверьте историю транзакций, а затем повторите попытку."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Ton.WithdrawToWallet.Text",
+      "value": "GRAM поступят в Ваш некастодиальный кошелёк (%@)."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Ton.WithdrawToWallet.Title",
+      "value": "Вывести %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Ton.WithdrawToWallet.WalletCreating",
+      "value": "Создание кошелька ещё не завершено. Подождите немного и попробуйте снова."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Ton.WithdrawToWallet.WalletUnavailable",
+      "value": "Кошелёк временно недоступен. Попробуйте позже."
     },
     {
       "_": "types.LangPackString",
@@ -60897,6 +61642,14 @@
       "value": "Предыдущий результат"
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "%@ звезды",
+      "key": "VoiceOver.Call.Rating",
+      "many_value": "%@ звёзд",
+      "one_value": "%@ звезда",
+      "other_value": "%@ звезды"
+    },
+    {
       "_": "types.LangPackString",
       "key": "VoiceOver.Camera.Collage",
       "value": "Коллаж"
@@ -61140,6 +61893,11 @@
       "many_value": "%@ голосов",
       "one_value": "%@ голос",
       "other_value": "%@ голосов"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.PreviousResult",
+      "value": "Предыдущий результат"
     },
     {
       "_": "types.LangPackString",
@@ -61401,6 +62159,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "VoiceOver.Common.MoveDown",
+      "value": "Вниз"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.MoveUp",
+      "value": "Вверх"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "VoiceOver.Common.NoColor",
       "value": "Без цвета"
     },
@@ -61428,6 +62196,21 @@
       "_": "types.LangPackString",
       "key": "VoiceOver.Common.Verified",
       "value": "Верифицированный аккаунт"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.DatePicker.Date",
+      "value": "Дата"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.DatePicker.NextMonth",
+      "value": "Следующий месяц"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.DatePicker.PreviousMonth",
+      "value": "Предыдущий месяц"
     },
     {
       "_": "types.LangPackString",
@@ -61486,6 +62269,36 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "VoiceOver.Map.MapType",
+      "value": "Тип карты"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Map.ShowMyLocation",
+      "value": "Показать свою геопозицию"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Media.PlaybackOrder",
+      "value": "Порядок"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Media.PlaybackOrderRegular",
+      "value": "По порядку"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Media.PlaybackOrderReversed",
+      "value": "В обратном порядке"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Media.PlaybackOrderShuffle",
+      "value": "В случайном порядке"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "VoiceOver.Media.PlaybackPause",
       "value": "Пауза"
     },
@@ -61521,8 +62334,33 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "VoiceOver.Media.Repeat",
+      "value": "Зациклить"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Media.RepeatAll",
+      "value": "Все"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Media.RepeatOne",
+      "value": "Одну"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "VoiceOver.MediaEditor.Adjustments",
       "value": "Настройка"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.MediaEditor.AspectRatio",
+      "value": "Соотношение сторон"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.MediaEditor.Crop",
+      "value": "Обрезать"
     },
     {
       "_": "types.LangPackString",
@@ -61611,6 +62449,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "VoiceOver.Recording.RecordMore",
+      "value": "Записать ещё"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "VoiceOver.Recording.StopAndPreview",
       "value": "Остановить и перейти к предпросмотру"
     },
@@ -61693,6 +62536,16 @@
       "_": "types.LangPackString",
       "key": "VoiceOver.TabBar.AttentionRequired",
       "value": "Обратите внимание"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Wallpaper.PatternNumber",
+      "value": "Узор %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Wallpaper.WallpaperNumber",
+      "value": "Обои %@"
     },
     {
       "_": "types.LangPackString",
@@ -63034,6 +63887,61 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.TonConnect.Error.BridgeUnavailable",
+      "value": "Ответ TON Connect ожидает отправки по сети."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TonConnect.Error.ConflictingLink",
+      "value": "Это приложение уже использует другой запрос на подключение. Повторите подключение из приложения."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TonConnect.Error.Expired",
+      "value": "Срок действия запроса TON Connect истёк."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TonConnect.Error.HandledElsewhere",
+      "value": "Запрос был обработан на другом устройстве."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TonConnect.Error.InsufficientBalance",
+      "value": "В кошельке недостаточно средств для отправки этой транзакции."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TonConnect.Error.InvalidLink",
+      "value": "Эта ссылка TON Connect недействительна."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TonConnect.Error.InvalidManifest",
+      "value": "Не удалось загрузить манифест приложения."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TonConnect.Error.KeyMismatch",
+      "value": "Это подключение относится к другому ключу кошелька."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TonConnect.Error.OutcomeUnknown",
+      "value": "Возможно, эта операция уже была подписана или отправлена. Она не будет подписана повторно. Проверьте историю транзакций в кошельке."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TonConnect.Error.Unavailable",
+      "value": "Этот запрос TON Connect больше не доступен."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TonConnect.Error.WrongNetwork",
+      "value": "Приложение запрашивает другую блокчейн-сеть."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Transaction.Address",
       "value": "Адрес"
     },
@@ -63061,6 +63969,76 @@
       "_": "types.LangPackString",
       "key": "Wallet.Transaction.CollectibleGift",
       "value": "Коллекционный подарок"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.CollectibleMovedFromProfile",
+      "value": "Перенесён из профиля"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.CollectibleMovedToProfile",
+      "value": "Перенесён в профиль"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.CollectibleOfferAccepted",
+      "value": "Предложение принято"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.CollectibleOfferCancelled",
+      "value": "Предложение отозвано"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.CollectibleOfferDeclined",
+      "value": "Предложение отклонено"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.CollectibleOfferExpired",
+      "value": "Срок предложения истёк"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.CollectibleOfferSent",
+      "value": "Предложение отправлено"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.CollectiblePurchased",
+      "value": "Куплен"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.CollectiblePutOnSale",
+      "value": "Выставлен на продажу"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.CollectiblePutOnSaleFor",
+      "value": "Выставить за %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.CollectibleReceived",
+      "value": "Получен"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.CollectibleRemovedFromSale",
+      "value": "Снят с продажи"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.CollectibleRepriced",
+      "value": "Цена изменена на %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.CollectibleSent",
+      "value": "Отправлен"
     },
     {
       "_": "types.LangPackString",
@@ -63162,6 +64140,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Transaction.NetworkFee",
+      "value": "Сетевая комиссия"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Transaction.NetworkFeesText",
       "value": "За каждый перевод взимается небольшая комиссия%1$@.\n\nTelegram не берёт плату за первые %2$@ в день."
     },
@@ -63169,6 +64152,36 @@
       "_": "types.LangPackString",
       "key": "Wallet.Transaction.NetworkFeesTitle",
       "value": "Сетевая комиссия"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.OfferBuyer",
+      "value": "Покупатель"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.OfferCancellationFee",
+      "value": "Плата за отмену"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.OfferExpiration",
+      "value": "Срок действия"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.OfferPlatformFee",
+      "value": "Комиссия платформы"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.OfferPrice",
+      "value": "Цена"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.OfferSeller",
+      "value": "Продавец"
     },
     {
       "_": "types.LangPackString",
@@ -65213,5 +66226,5 @@
       "value": "Вы ввели неверный код безопасности."
     }
   ],
-  "version": 22594703
+  "version": 22616616
 }
