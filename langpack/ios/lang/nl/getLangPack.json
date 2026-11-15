@@ -14227,6 +14227,18 @@
     },
     {
       "_": "types.LangPackStringPluralized",
+      "key": "ChatList.DeleteChatsAlert.Text",
+      "one_value": "Deze chat wordt verwijderd uit je chatlijst.",
+      "other_value": "Deze chats worden verwijderd uit je chatlijst."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "ChatList.DeleteChatsAlert.Title",
+      "one_value": "Chat verwijderen?",
+      "other_value": "%@ chats verwijderen?"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
       "key": "ChatList.DeleteConfirmation",
       "one_value": "Verwijder",
       "other_value": "Verwijder %@ Chats"
@@ -14352,6 +14364,12 @@
       "key": "ChatList.DeleteTopicsAlert.Text",
       "one_value": "Hierdoor wordt het onderwerp met alle berichten verwijderd.",
       "other_value": "Hierdoor worden de onderwerpen met alle berichten verwijderd."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "ChatList.DeleteTopicsAlert.Title",
+      "one_value": "Onderwerp verwijderen?",
+      "other_value": "%@ onderwerpen verwijderen?"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -17432,6 +17450,18 @@
       "_": "types.LangPackString",
       "key": "ContactList.Context.VideoCall",
       "value": "Video-oproep"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "ContactList.DeleteAlert.Text",
+      "one_value": "Dit contact wordt verwijderd uit je contactenlijst.",
+      "other_value": "Deze contacten worden verwijderd uit je contactenlijst."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "ContactList.DeleteAlert.Title",
+      "one_value": "Contact verwijderen?",
+      "other_value": "%@ contacten verwijderen?"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -25279,13 +25309,168 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Confirm.Confirm",
+      "value": "Bevestigen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Confirm.Expires",
+      "value": "Bod verloopt"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Confirm.PlatformFee",
+      "value": "Platformkosten"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Confirm.Refund",
+      "value": "Als de verkoper je bod weigert of als het verloopt, krijg je automatisch **%@** terug."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Confirm.Text",
+      "value": "Weet je zeker dat je **%1$@** wilt bieden voor **%2$@**?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Confirm.Title",
+      "value": "Bod bevestigen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Confirm.YouPay",
+      "value": "Je betaalt"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Confirm.YouReceive",
+      "value": "Je ontvangt"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Confirm.YourOffer",
+      "value": "Je bod"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Decline.Action",
+      "value": "Weigeren"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Decline.Text",
+      "value": "De koper krijgt dan **%@** terug."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Decline.Title",
+      "value": "Bod weigeren?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.DepositFunds",
+      "value": "Saldo storten >"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Error.AlreadyActive",
+      "value": "Je hebt al een actief bod op dit cadeau. Trek het in via je chat met Telegram om een nieuw bod uit te brengen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Error.InProgress",
+      "value": "Je vorige bod op dit cadeau wordt nog verwerkt. Probeer het over een minuut opnieuw."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Error.NotOwner",
+      "value": "Dit cadeau staat niet meer in je wallet."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Error.OnSale",
+      "value": "Dit cadeau wordt te koop aangeboden. Haal het uit de verkoop om dit bod te kunnen aanvaarden."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.InsufficientFunds",
+      "value": "Onvoldoende saldo."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.MinAmountToast",
+      "value": "Je kunt niet minder dan %@ bieden voor dit cadeau"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Sale.Decline",
+      "value": "Weigeren"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Sale.Price",
+      "value": "Prijs"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Sale.Sell",
+      "value": "Verkopen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Sale.Sent",
+      "value": "Verkoop ingediend. Je ontvangt **%@** zodra het on-chain is bevestigd."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Sale.Text",
+      "value": "Wil je **%1$@** verkopen voor **%2$@**?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Sale.Title",
+      "value": "Verkoop bevestigen"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gift.OnchainOffer.Sent.Text",
       "value": "%1$@ vast tot %2$@."
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Sent.Title",
+      "value": "Bod verzonden"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Withdraw.Action",
+      "value": "Terugtrekken voor %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Withdraw.ActionFree",
+      "value": "Terugtrekken"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Withdraw.Sent",
+      "value": "Terugtrekverzoek ingediend. Je Grams worden teruggestort zodra het on-chain is bevestigd."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Withdraw.Text",
+      "value": "Vroeg terugtrekken kost **%1$@**.\n\n**%2$@** wordt dan teruggestort."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gift.OnchainOffer.Withdraw.TextFree",
       "value": "**%@** worden teruggestort."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Withdraw.Title",
+      "value": "Bod intrekken?"
     },
     {
       "_": "types.LangPackString",
@@ -36391,6 +36576,76 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.ListOffer",
+      "value": "Je hebt een bod van %1$@ gehad voor %2$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.ListOfferYou",
+      "value": "Je hebt %1$@ geboden voor %2$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Offer",
+      "value": "Je hebt een bod van **%1$@** (%2$@) gehad voor **%3$@**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.OfferNoValue",
+      "value": "Je hebt een bod van **%1$@** gehad voor **%2$@**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.OfferYou",
+      "value": "Je hebt **%1$@** geboden voor **%2$@**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Review",
+      "value": "Beoordelen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Sold",
+      "value": "VERKOCHT"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Status.Accepted",
+      "value": "Het bod is aanvaard."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Status.Cancelling",
+      "value": "Het bod wordt geannuleerd."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Status.Declined",
+      "value": "Het bod is geweigerd."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Status.Expired",
+      "value": "Het bod is verlopen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Status.Expires",
+      "value": "Het bod verloopt over"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Status.Settling",
+      "value": "De aankoop wordt voltooid."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Status.Withdrawn",
+      "value": "Het bod is ingetrokken."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Notification.StarGiftOnchainOffer.Withdraw",
       "value": "Terugtrekken"
     },
@@ -46196,6 +46451,26 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "QuickReply.DeleteAlert.TextMultiple",
+      "value": "Deze snelle reacties en alle bijbehorende berichten worden verwijderd."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QuickReply.DeleteAlert.TextSingle",
+      "value": "Deze snelle reactie en alle bijbehorende berichten worden verwijderd."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QuickReply.DeleteAlert.TitleMultiple",
+      "value": "Snelle reacties verwijderen?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QuickReply.DeleteAlert.TitleSingle",
+      "value": "Snelle reactie verwijderen?"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "QuickReply.DeleteConfirmationMultiple",
       "value": "Standaardantwoorden verwijderen"
     },
@@ -52715,6 +52990,12 @@
       "key": "StickerPacks.DeletePacksAlert.Text",
       "one_value": "Deze bundel wordt verwijderd van je lijst.",
       "other_value": "Deze bundels worden verwijderd van je lijst."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "StickerPacks.DeleteStickerPacksAlert.Title",
+      "one_value": "Stickerbundel verwijderen?",
+      "other_value": "%@ stickerbundels verwijderen?"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -63578,5 +63859,5 @@
       "value": "Je hebt een ongeldige beveiligingscode ingevoerd."
     }
   ],
-  "version": 22613569
+  "version": 22613695
 }
