@@ -835,6 +835,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Agent.ConnectModel",
+      "value": "Connecta el model"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Agent.Connected.Start",
       "value": "Inicia"
     },
@@ -852,6 +857,26 @@
       "_": "types.LangPackString",
       "key": "Agent.Effort",
       "value": "Esforç"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Agent.Effort.Expert",
+      "value": "Expert"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Agent.Effort.Fast",
+      "value": "Ràpid"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Agent.Effort.Medium",
+      "value": "Mitjà"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Agent.Effort.Ultra",
+      "value": "Ultra"
     },
     {
       "_": "types.LangPackString",
@@ -902,6 +927,11 @@
       "_": "types.LangPackString",
       "key": "Agent.Models.NotFound",
       "value": "No s'ha trobat cap model"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Agent.Models.Search",
+      "value": "Cerca models"
     },
     {
       "_": "types.LangPackString",
@@ -10411,6 +10441,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Chat.AlwaysUseAI.ErrorGeneric",
+      "value": "No s'ha pogut reescriure el missatge, i per això no s'ha enviat. Toqueu Envia per a enviar-lo tal qual."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.AlwaysUseAI.ErrorLimit",
+      "value": "Heu assolit el límit de la IA, i per això el missatge no s'ha enviat. Toqueu Envia per a enviar-lo tal qual."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.AlwaysUseAI.ErrorTooLong",
+      "value": "El missatge és massa llarg per a la IA, i per això no s'ha enviat. Toqueu Envia per a enviar-lo tal qual."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Chat.AttachmentLimitExceeded",
       "value": "No podeu seleccionar més ítems alhora."
     },
@@ -10907,6 +10952,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Chat.Dictation.AllStyles",
+      "value": "Tots els estils"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Chat.Dictation.ConvertToText",
       "value": "Converteix a text"
     },
@@ -10917,13 +10967,43 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Chat.Dictation.EnhanceErrorGeneric",
+      "value": "No s'ha pogut millorar el text. Torneu a provar-ho."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Dictation.EnhanceErrorLimit",
+      "value": "Heu assolit el límit de la IA. Torneu a provar-ho més tard."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Dictation.EnhanceErrorTooLong",
+      "value": "El text és massa llarg per a poder millorar-lo."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Chat.Dictation.Enhancing",
       "value": "S'està millorant…"
     },
     {
       "_": "types.LangPackString",
+      "key": "Chat.Dictation.ErrorGeneric",
+      "value": "No s'ha pogut reconèixer la parla. Torneu a provar-ho."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Chat.Dictation.ErrorSpeechDenied",
       "value": "Permeteu que el Telegram accedeixi al reconeixement de la parla en la Configuració per a dictar."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Dictation.ErrorUnavailable",
+      "value": "El dictat no es troba disponible per a aquesta llengua."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Dictation.ErrorUnsupportedLanguage",
+      "value": "El dictat encara no és compatible amb %@."
     },
     {
       "_": "types.LangPackString",
@@ -14417,6 +14497,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ChatList.ContextShowUnread",
+      "value": "Mostra els xats per llegir"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ChatList.ContextUnmuteAll",
       "value": "Activa el so de tot"
     },
@@ -15480,6 +15565,16 @@
       "_": "types.LangPackString",
       "key": "ChatList.Unmute",
       "value": "Activa el so"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatList.UnreadOnlyPanel.Info",
+      "value": "només es mostren els xats per llegir"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatList.UnreadOnlyPanel.ShowAll",
+      "value": "Mostra tots els xats"
     },
     {
       "_": "types.LangPackString",
@@ -20306,6 +20401,11 @@
       "_": "types.LangPackString",
       "key": "Conversation.ShareMyPhoneNumberConfirmation",
       "value": "Voleu compartir el número de telèfon %1$@ amb %2$@?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Conversation.ShareMyPhoneNumberConfirmation.Action",
+      "value": "Comparteix"
     },
     {
       "_": "types.LangPackString",
@@ -25514,13 +25614,93 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift.Onchain.UseEarnings.Pending",
+      "value": "Els guanys de Grams estan de camí a la vostra cartera. Compreu el regal en rebre'ls."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Onchain.UseEarnings.Proceed",
+      "value": "Continua"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Onchain.UseEarnings.Text",
+      "value": "**%@** es mourà dels guanys de Grams al vostre saldo i s'usarà per a comprar el regal."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Onchain.UseEarnings.Title",
+      "value": "Voleu usar els guanys de Grams?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Confirm.Confirm",
+      "value": "Confirma"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Confirm.Expires",
+      "value": "L'oferta caduca"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Confirm.PlatformFee",
+      "value": "Tarifa de la plataforma"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gift.OnchainOffer.Confirm.Refund",
       "value": "Si el venedor rebutja l'oferta o aquesta caduca, se us reemborsaran automàticament **%@**."
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Confirm.Text",
+      "value": "Segur que voleu oferir **%1$@** per **%2$@**?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Confirm.Title",
+      "value": "Confirmeu l'oferta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Confirm.YouPay",
+      "value": "Pagueu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Confirm.YouReceive",
+      "value": "Rebeu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Confirm.YourOffer",
+      "value": "La vostra oferta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Decline.Action",
+      "value": "Rebutja"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gift.OnchainOffer.Decline.Text",
       "value": "Es reemborsaran al comprador els seus **%@**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Decline.Title",
+      "value": "Voleu rebutjar l'oferta?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.DepositFunds",
+      "value": "Dipositeu fons >"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.DurationDescription",
+      "value": "Trieu quant de temps té el propietari per a acceptar l'oferta. En caducar, se us reemborsaran els Grams de manera automàtica."
     },
     {
       "_": "types.LangPackString",
@@ -25544,8 +25724,58 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.InsufficientFunds",
+      "value": "Fons insuficients."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.MinAmountToast",
+      "value": "No podeu oferir menys de %@ per aquest regal"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.PriceDescription",
+      "value": "Introduïu el nombre de Grams que voleu oferir per **%@**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Sale.Decline",
+      "value": "Rebutja"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Sale.Price",
+      "value": "Preu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Sale.Sell",
+      "value": "Ven"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Sale.Sent",
+      "value": "S'ha fet la venda. Rebreu **%@** en confirmar-se en la cadena."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Sale.Text",
+      "value": "Voleu vendre **%1$@** per **%2$@**?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Sale.Title",
+      "value": "Confirmeu la venda"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gift.OnchainOffer.Sent.Text",
       "value": "%1$@ reservats fins al dia %2$@."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Sent.Title",
+      "value": "S'ha enviat l'oferta"
     },
     {
       "_": "types.LangPackString",
@@ -25571,6 +25801,11 @@
       "_": "types.LangPackString",
       "key": "Gift.OnchainOffer.Withdraw.TextFree",
       "value": "**%@** se us reemborsaran."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Withdraw.Title",
+      "value": "Voleu retirar l'oferta?"
     },
     {
       "_": "types.LangPackString",
@@ -26267,6 +26502,11 @@
       "_": "types.LangPackString",
       "key": "Gift.UnavailableAction.Title",
       "value": "Acció blocada"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.UnavailableAction.UnlistText",
+      "value": "Traieu el regal de la venda per a desblocar aquesta acció."
     },
     {
       "_": "types.LangPackString",
@@ -35923,6 +36163,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Notification.GramTransferReceived",
+      "value": "Heu rebut %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.GramTransferReceived.WithFiat",
+      "value": "Heu rebut %1$@ (%2$@)"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Notification.GramTransferUnknown",
       "value": "Algú us ha enviat %@"
     },
@@ -42242,6 +42492,11 @@
       "_": "types.LangPackString",
       "key": "PeerInfo.GroupAboutItem",
       "value": "quant a"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PeerInfo.GroupsInCommon.CreateGroup",
+      "value": "Crea un grup amb %@"
     },
     {
       "_": "types.LangPackString",
@@ -56043,8 +56298,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "TextProcessing.AlwaysUseFooter",
+      "value": "Cada missatge que envieu en aquest xat es reescriurà amb aquests paràmetres."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "TextProcessing.AlwaysUseSummary",
       "value": "→ %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "TextProcessing.AlwaysUseSummaryEmoji",
+      "value": "Emojis"
     },
     {
       "_": "types.LangPackString",
@@ -62110,6 +62375,61 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.TonConnect.Error.BridgeUnavailable",
+      "value": "La resposta del TON Connect espera l'enviament a la xarxa."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TonConnect.Error.ConflictingLink",
+      "value": "Aquesta aplicació ja usa una sol·licitud de connexió diferent. Torneu a connectar des de l'aplicació."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TonConnect.Error.Expired",
+      "value": "Aquesta sol·licitud de TON Connect ha caducat."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TonConnect.Error.HandledElsewhere",
+      "value": "La sol·licitud s'ha gestionat en un altre dispositiu."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TonConnect.Error.InsufficientBalance",
+      "value": "No hi ha prou fons en la cartera per a enviar la transacció."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TonConnect.Error.InvalidLink",
+      "value": "Aquest enllaç de TON Connect no és vàlid."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TonConnect.Error.InvalidManifest",
+      "value": "No s'ha pogut carregar un manifest vàlid per a aquesta aplicació."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TonConnect.Error.KeyMismatch",
+      "value": "Aquesta connexió pertany a una clau de cartera diferent."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TonConnect.Error.OutcomeUnknown",
+      "value": "L'operació podria haver-se signat o enviat. No es tornarà a signar. Comproveu l'historial de la cartera."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TonConnect.Error.Unavailable",
+      "value": "Aquesta sol·licitud de TON Connect ja no es troba disponible."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TonConnect.Error.WrongNetwork",
+      "value": "L'aplicació ha sol·licitat una xarxa de cartera diferent."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Transaction.Address",
       "value": "Adreça"
     },
@@ -62137,6 +62457,76 @@
       "_": "types.LangPackString",
       "key": "Wallet.Transaction.CollectibleGift",
       "value": "Regal col·leccionable"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.CollectibleMovedFromProfile",
+      "value": "S'ha mogut des del perfil"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.CollectibleMovedToProfile",
+      "value": "S'ha mogut al perfil"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.CollectibleOfferAccepted",
+      "value": "L'oferta s'ha acceptat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.CollectibleOfferCancelled",
+      "value": "L'oferta s'ha cancel·lat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.CollectibleOfferDeclined",
+      "value": "L'oferta s'ha declinat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.CollectibleOfferExpired",
+      "value": "L'oferta ha caducat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.CollectibleOfferSent",
+      "value": "L'oferta s'ha enviat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.CollectiblePurchased",
+      "value": "Comprat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.CollectiblePutOnSale",
+      "value": "Posat a la venda"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.CollectiblePutOnSaleFor",
+      "value": "Posa a la venda per %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.CollectibleReceived",
+      "value": "Rebut"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.CollectibleRemovedFromSale",
+      "value": "Retirat de la venda"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.CollectibleRepriced",
+      "value": "S'ha canviat el preu a %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.CollectibleSent",
+      "value": "Enviat"
     },
     {
       "_": "types.LangPackString",
@@ -62236,6 +62626,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Transaction.NetworkFee",
+      "value": "Tarifa de xarxa"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Transaction.NetworkFeesText",
       "value": "Cada transferència té una petita tarifa de xarxa%1$@.\n\nTelegram cobreix cada dia: %2$@."
     },
@@ -62243,6 +62638,36 @@
       "_": "types.LangPackString",
       "key": "Wallet.Transaction.NetworkFeesTitle",
       "value": "Tarifes de la xarxa"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.OfferBuyer",
+      "value": "Comprador"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.OfferCancellationFee",
+      "value": "Tarifa de cancel·lació"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.OfferExpiration",
+      "value": "Caducitat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.OfferPlatformFee",
+      "value": "Tarifa de la plataforma"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.OfferPrice",
+      "value": "Preu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.OfferSeller",
+      "value": "Venedor"
     },
     {
       "_": "types.LangPackString",
@@ -64269,5 +64694,5 @@
       "value": "Heu introduït un codi de seguretat no vàlid."
     }
   ],
-  "version": 22594703
+  "version": 22622523
 }
